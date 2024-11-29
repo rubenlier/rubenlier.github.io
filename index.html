@@ -3,46 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruben's Professional Profile</title>
+    <title>Ruben's Profile</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        * {
             margin: 0;
             padding: 0;
-            background-color: #f9f9f9;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
             color: #333;
         }
         .navbar {
-            background-color: #0073e6;
-            color: #fff;
-            padding: 10px 20px;
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            padding: 10px 20px;
+            border-bottom: 1px solid #ccc;
         }
         .navbar a {
-            color: #fff;
             text-decoration: none;
+            color: #333;
+            font-size: 1em;
             margin: 0 10px;
-            font-size: 1.1em;
         }
         .navbar a:hover {
             text-decoration: underline;
         }
-        .container {
+        .layout {
             display: flex;
-            margin: 20px auto;
-            max-width: 1200px;
-            padding: 20px;
-            background: #fff;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            height: 100vh;
         }
         .sidebar {
             width: 250px;
-            border-right: 1px solid #ddd;
-            padding-right: 20px;
+            border-right: 1px solid #ccc;
+            padding: 20px;
         }
         .sidebar img {
             width: 100%;
@@ -53,13 +48,13 @@
             padding: 0;
         }
         .social-links li {
-            margin-bottom: 10px;
+            margin-bottom: 15px;
         }
         .social-links a {
-            text-decoration: none;
-            color: #0073e6;
             display: flex;
             align-items: center;
+            text-decoration: none;
+            color: #333;
         }
         .social-links a img {
             width: 20px;
@@ -68,7 +63,7 @@
         }
         .content {
             flex: 1;
-            padding-left: 20px;
+            padding: 20px;
         }
         .content h1 {
             font-size: 2em;
@@ -89,23 +84,21 @@
             <a href="simple.html">Learn More</a>
         </div>
     </div>
-
-    <div class="container">
+    <div class="layout">
         <div class="sidebar">
             <img src="fotoruben.jfif" alt="Ruben's Picture">
             <ul class="social-links">
                 <li><a href="https://scholar.google.com" target="_blank">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.png" alt="Google Scholar">Google Scholar</a>
+                    <img src="scholarlogo.png" alt="Google Scholar">Google Scholar</a>
                 </li>
                 <li><a href="https://www.linkedin.com" target="_blank">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">LinkedIn</a>
                 </li>
                 <li><a href="https://www.goodreads.com" target="_blank">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Goodreads_icon.svg" alt="Goodreads">Goodreads</a>
+                    <img src="goodreads.png" alt="Goodreads">Goodreads</a>
                 </li>
             </ul>
         </div>
-
         <div class="content">
             <h1>Welcome to My Professional Profile</h1>
             <p>
