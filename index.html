@@ -20,12 +20,16 @@
             align-items: center;
             padding: 10px 20px;
             border-bottom: 1px solid #ccc;
+            justify-content: flex-start;
         }
         .navbar a {
             text-decoration: none;
             color: #333;
             font-size: 1em;
             margin-right: 20px;
+        }
+        .navbar a:first-child {
+            font-weight: bold; /* Highlight 'Main' */
         }
         .navbar a:hover {
             text-decoration: underline;
@@ -56,11 +60,21 @@
             text-decoration: none;
             color: #333;
         }
-        .social-links a img {
-            width: 20px;
-            height: 20px;
-            margin-right: 10px;
-        }
+        <style>
+    .social-links a img {
+        /* Adjust the size of the logos */
+        width: 18px; /* Set the width of the logo */
+        height: 18px; /* Set the height of the logo */
+
+        /* Adjust the alignment relative to the text */
+        position: relative; /* Enables fine-tuning with 'top' */
+        top: 5px; /* Move down (+) or up (-) relative to the text */
+
+        /* Optional: Control spacing between logo and text */
+        margin-right: 10px; /* Space between logo and text */
+    }
+</style>
+
         .content {
             flex: 1;
             padding: 20px;
@@ -84,8 +98,10 @@
 </head>
 <body>
     <div class="navbar">
-        <a href="#">Main</a>
-        <a href="simple.html">Learn More</a>
+        <div style="margin-left: 250px;"> <!-- Move the text to the right -->
+            <a href="#">Main</a>
+            <a href="simple.html">Learn More</a>
+        </div>
     </div>
     <div class="layout">
         <div class="sidebar">
