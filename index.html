@@ -7,33 +7,68 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
             margin: 0;
             padding: 0;
             background-color: #f9f9f9;
             color: #333;
         }
+        .navbar {
+            background-color: #0073e6;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1.1em;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
         .container {
-            max-width: 800px;
-            margin: 50px auto;
+            display: flex;
+            margin: 20px auto;
+            max-width: 1200px;
             padding: 20px;
             background: #fff;
             border: 1px solid #ddd;
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
-        .profile-picture {
-            text-align: center;
+        .sidebar {
+            width: 250px;
+            border-right: 1px solid #ddd;
+            padding-right: 20px;
+        }
+        .sidebar img {
+            width: 100%;
             margin-bottom: 20px;
         }
-        .profile-picture img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            border: 3px solid #ddd;
+        .social-links {
+            list-style: none;
+            padding: 0;
+        }
+        .social-links li {
+            margin-bottom: 10px;
+        }
+        .social-links a {
+            text-decoration: none;
+            color: #0073e6;
+            display: flex;
+            align-items: center;
+        }
+        .social-links a img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
         }
         .content {
-            text-align: center;
+            flex: 1;
+            padding-left: 20px;
         }
         .content h1 {
             font-size: 2em;
@@ -41,50 +76,46 @@
         }
         .content p {
             font-size: 1.2em;
-            margin-bottom: 20px;
-        }
-        .socials a {
-            margin: 0 10px;
-            text-decoration: none;
-            color: #0073e6;
-        }
-        .socials a:hover {
-            text-decoration: underline;
-        }
-        .link-section a {
-            display: inline-block;
-            margin-top: 20px;
-            font-size: 1em;
-            color: #0073e6;
-            text-decoration: none;
-            border: 1px solid #0073e6;
-            padding: 10px 20px;
-            border-radius: 5px;
-        }
-        .link-section a:hover {
-            background-color: #0073e6;
-            color: #fff;
+            line-height: 1.6;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="profile-picture">
-            <img src="fotoruben.jfif" alt="Ruben's Picture">
+    <div class="navbar">
+        <div class="nav-left">
+            <a href="#">Main</a>
         </div>
-        <div class="content">
-            <h1>Ruben</h1>
-            <p>Welcome to my professional profile. Here you'll find my social links and a bit about me.</p>
-            <div class="socials">
-                <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
-                <a href="https://github.com/" target="_blank">GitHub</a>
-                <a href="mailto:ruben@example.com">Email Me</a>
-            </div>
-        </div>
-        <div class="link-section">
+        <div class="nav-right">
             <a href="simple.html">Learn More</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <img src="fotoruben.jfif" alt="Ruben's Picture">
+            <ul class="social-links">
+                <li><a href="https://scholar.google.com" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.png" alt="Google Scholar">Google Scholar</a>
+                </li>
+                <li><a href="https://www.linkedin.com" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">LinkedIn</a>
+                </li>
+                <li><a href="https://www.goodreads.com" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Goodreads_icon.svg" alt="Goodreads">Goodreads</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h1>Welcome to My Professional Profile</h1>
+            <p>
+                Hello, I'm Ruben. This page serves as a brief introduction to my professional and personal interests. 
+                You can find links to my social and professional networks on the left. Feel free to explore!
+            </p>
+            <p>
+                Click "Learn More" in the top bar to visit additional details about my work and projects.
+            </p>
         </div>
     </div>
 </body>
 </html>
-
