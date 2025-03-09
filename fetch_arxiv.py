@@ -69,10 +69,10 @@ def generate_html(papers):
 
     html_content += "</body></html>"
 
-    with open("index.html", "w", encoding="utf-8") as f:
+    with open("paper.html", "w", encoding="utf-8") as f:
         f.write(html_content)
     
-    print("✅ Generated index.html successfully!")
+    print("✅ Generated paper.html successfully!")
 
 if __name__ == "__main__":
     papers = fetch_arxiv_papers()
