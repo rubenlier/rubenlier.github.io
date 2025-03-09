@@ -1,0 +1,32 @@
+name: Update arXiv Papers  # Name of the workflow
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily at midnight UTC
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  update:
+    runs-on: ubuntu-latest  # The virtual machine will use Ubuntu
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3  # Clones your GitHub repo into the Ubuntu VM
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'  # Installs Python in the VM
+
+      - name: Install dependencies
+        run: pip install beautifulsoup4 requests  # Installs required Python libraries
+
+      - name: Run script to fetch arXiv papers
+        run: python fetch_arxiv.py  # Runs the Python script in the Ubuntu VM
+
+      - name: Commit and push if updated
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git add paper.html  # 🔥 Change from "index.html" to "paper.html"
+          git commit -m "Update arXiv papers in paper.html" || exit 0
+          git push
