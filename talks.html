@@ -3,96 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruben's Profile</title>
+    <title>My arXiv Papers</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #fff;
-            color: #333;
-        }
-        .navbar {
-            display: flex;
-            align-items: center;
-            padding: 10px 20px;
-            border-bottom: 1px solid #ccc;
-            justify-content: flex-start;
-        }
-        .navbar a {
-            text-decoration: none;
-            color: #333;
-            font-size: 1em;
-            margin-right: 20px;
-        }
-        .navbar a:first-child {
-            font-weight: bold; /* Highlight 'Main' */
-        }
-        .navbar a:hover {
-            text-decoration: underline;
-        }
-        .layout {
-            display: flex;
-            height: calc(100vh - 60px); /* Account for navbar and footer */
-        }
-        .sidebar {
-            width: 250px;
-            border-right: 1px solid #ccc;
-            padding: 20px;
-        }
-        .sidebar img {
-            width: 100%;
-            margin-bottom: 20px;
-        }
-        .social-links {
-            list-style: none;
-            padding: 0;
-        }
-        .social-links li {
-            margin-bottom: 15px;
-        }
-        .social-links a {
-            display: flex;
-            align-items: center;
-            text-decoration: none;
-            color: #333;
-        }
-        .social-links a img {
-            width: 14px; /* Adjust the size */
-            height: 14px; /* Adjust the size */
-            margin-right: 10px;
-            position: relative;
-            top: 10px; /* Fine-tune vertical alignment */
-        }
-        .content {
-            flex: 1;
-            padding: 20px;
-        }
-        .content h1 {
-            font-size: 2em;
-            margin-bottom: 10px;
-        }
-        .content p {
-            font-size: 1.2em;
-            line-height: 1.6;
-        }
-        .footer {
-            background-color: #f2f2f2;
-            text-align: center;
-            padding: 10px 0;
-            border-top: 1px solid #ccc;
-            font-size: 0.9em;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; background-color: #fff; color: #333; }
+        .navbar { display: flex; align-items: center; padding: 10px 20px; border-bottom: 1px solid #ccc; justify-content: flex-start; }
+        .navbar a { text-decoration: none; color: #333; font-size: 1em; margin-right: 20px; }
+        .navbar a:first-child { font-weight: bold; }
+        .navbar a:hover { text-decoration: underline; }
+        .layout { display: flex; height: calc(100vh - 60px); }
+        .sidebar { width: 250px; border-right: 1px solid #ccc; padding: 20px; }
+        .sidebar img { width: 100%; margin-bottom: 20px; }
+        .social-links { list-style: none; padding: 0; }
+        .social-links li { margin-bottom: 15px; }
+        .social-links a { display: flex; align-items: center; text-decoration: none; color: #333; }
+        .social-links a img { width: 14px; height: 14px; margin-right: 10px; position: relative; top: 10px; }
+        .content { flex: 1; padding: 20px; }
+        .content h1 { font-size: 2em; margin-bottom: 10px; text-align: center; }
+        .content h2 { font-size: 1.5em; margin-top: 20px; border-bottom: 2px solid #ccc; padding-bottom: 5px; }
+        .paper { margin-bottom: 20px; }
+        .bold { font-weight: bold; }
+        .footer { background-color: #f2f2f2; text-align: center; padding: 10px 0; border-top: 1px solid #ccc; font-size: 0.9em; }
     </style>
 </head>
 <body>
     <div class="navbar">
-        <div style="margin-left: 250px;"> <!-- Move the text to the right -->
-            <a href="#">Main</a>
-            <a href="simple.html">Papers</a><a href="simple.html">ML</a>
+        <div style="margin-left: 250px;">
+            <a href="index.html">Main</a>
+            <a href="#">Papers</a>
+            <a href="talks.html">Talks</a>
+            <a href="simple.html">ML</a>
         </div>
     </div>
     <div class="layout">
@@ -111,13 +51,46 @@
             </ul>
         </div>
         <div class="content">
-            <h1>Welcome to My Profile</h1>
-            <p>
-                Hello, I'm Ruben. I am a theoretical physicist at the University of Amsterdam, specialized in problems related to hydrodynamics. Furthermore, I am interested in machine learning. Feel free to explore!
-            </p>
-            <p>
-                Click "Papers" in the top bar to learn about my recent scientific work. Click "ML" in the top bar to learn about about my machine learning projects. 
-            </p>
+            <h1>My Latest arXiv Papers</h1>
+
+            <h2>2025</h2>
+            <div class="paper">
+                <h3><a href="https://arxiv.org/abs/2501.04638">Resistive relativistic magnetohydrodynamics without Amperes Law</a></h3>
+                <p><strong>Authors:</strong> <span class="bold">Ruben Lier</span>, Akash Jain, Jay Armas, Oliver Porth</p>
+                <p><strong>Date submitted:</strong> 8 January, 2025</p>
+            </div>
+
+            <h2>2024</h2>
+            <div class="paper">
+                <h3><a href="https://arxiv.org/abs/2405.16699">Odd viscous flow past a sphere at low but nonzero Reynolds numbers</a></h3>
+                <p><strong>Authors:</strong> <span class="bold">Ruben Lier</span></p>
+                <p><strong>Date submitted:</strong> 26 May, 2024</p>
+            </div>
+
+            <div class="paper">
+                <h3><a href="https://arxiv.org/abs/2405.11023">Hydrodynamics of thermal active matter</a></h3>
+                <p><strong>Authors:</strong> Jay Armas, Akash Jain, <span class="bold">Ruben Lier</span></p>
+                <p><strong>Date submitted:</strong> 17 May, 2024</p>
+            </div>
+
+            <div class="paper">
+                <h3><a href="https://arxiv.org/abs/2402.12224">Holographic transport in anisotropic plasmas</a></h3>
+                <p><strong>Authors:</strong> Tuna Demircik, Domingo Gallegos, Umut Gürsoy, Matti Järvinen, <span class="bold">Ruben Lier</span></p>
+                <p><strong>Date submitted:</strong> 3 August, 2024</p>
+            </div>
+
+            <div class="paper">
+                <h3><a href="https://arxiv.org/abs/2402.02628">Slip-induced odd viscous flow past a cylinder</a></h3>
+                <p><strong>Authors:</strong> <span class="bold">Ruben Lier</span></p>
+                <p><strong>Date submitted:</strong> 31 July, 2024</p>
+            </div>
+
+            <h2>2022</h2>
+            <div class="paper">
+                <h3><a href="https://arxiv.org/abs/2211.02117">Hydrodynamics of plastic deformations in electronic crystals</a></h3>
+                <p><strong>Authors:</strong> Jay Armas, Erik van Heumen, Akash Jain, <span class="bold">Ruben Lier</span></p>
+                <p><strong>Date submitted:</strong> 3 November, 2022</p>
+            </div>
         </div>
     </div>
     <div class="footer">
