@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruben's Profile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            color: #333;
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            border-bottom: 1px solid #ccc;
+            justify-content: flex-start;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1em;
+            margin-right: 20px;
+        }
+        .navbar a:first-child {
+            font-weight: bold; /* Highlight 'Main' */
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .layout {
+            display: flex;
+            height: calc(100vh - 60px); /* Account for navbar and footer */
+        }
+        .sidebar {
+            width: 250px;
+            border-right: 1px solid #ccc;
+            padding: 20px;
+        }
+        .sidebar img {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .social-links {
+            list-style: none;
+            padding: 0;
+        }
+        .social-links li {
+            margin-bottom: 15px;
+        }
+        .social-links a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: #333;
+        }
+        .social-links a img {
+            width: 14px; /* Adjust the size */
+            height: 14px; /* Adjust the size */
+            margin-right: 10px;
+            position: relative;
+            top: 10px; /* Fine-tune vertical alignment */
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+        .content h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .content p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .footer {
+            background-color: #f2f2f2;
+            text-align: center;
+            padding: 10px 0;
+            border-top: 1px solid #ccc;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div style="margin-left: 250px;"> <!-- Move the text to the right -->
+            <a href="#">Main</a>
+            <a href="simple.html">Papers</a><a href="simple.html">ML</a>
+        </div>
+    </div>
+    <div class="layout">
+        <div class="sidebar">
+            <img src="foto save ruben.PNG" alt="Ruben's Picture">
+            <ul class="social-links">
+                <li><a href="https://scholar.google.com" target="_blank">
+                    <img src="scholarlogo.png" alt="Google Scholar"><span>Google Scholar</span></a>
+                </li>
+                <li><a href="https://www.linkedin.com" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn"><span>LinkedIn</span></a>
+                </li>
+                <li><a href="https://www.goodreads.com" target="_blank">
+                    <img src="goodreads.png" alt="Goodreads"><span>Goodreads</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>Welcome to My Profile</h1>
+            <p>
+                Hello, I'm Ruben. I am a theoretical physicist at the University of Amsterdam, specialized in problems related to hydrodynamics. Furthermore, I am interested in machine learning. Feel free to explore!
+            </p>
+            <p>
+                Click "Papers" in the top bar to learn about my recent scientific work. Click "ML" in the top bar to learn about about my machine learning projects. 
+            </p>
+        </div>
+    </div>
+    <div class="footer">
+        © 2024 Ruben Lier
+    </div>
+</body>
+</html>
