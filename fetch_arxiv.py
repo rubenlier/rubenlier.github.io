@@ -67,7 +67,7 @@ def generate_html(papers):
             body { font-family: Arial, sans-serif; background-color: #fff; color: #333; }
             .navbar { display: flex; align-items: center; padding: 10px 20px; border-bottom: 1px solid #ccc; justify-content: flex-start; }
             .navbar a { text-decoration: none; color: #333; font-size: 1em; margin-right: 20px; }
-            .navbar a:first-child { font-weight: bold; }
+            .navbar a:nth-child(2) {font-weight: bold; /* Highlight 'Papers' */   }
             .navbar a:hover { text-decoration: underline; }
             .layout { display: flex; height: calc(100vh - 60px); }
             .sidebar { width: 250px; border-right: 1px solid #ccc; padding: 20px; }
