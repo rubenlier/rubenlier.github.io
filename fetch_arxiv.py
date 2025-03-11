@@ -89,7 +89,6 @@ def generate_html(papers):
                 <a href="index.html">Main</a>
                 <a href="#">Papers</a>
                 <a href="talks.html">Talks</a>
-                <a href="simple.html">ML</a>
             </div>
         </div>
         <div class="layout">
