@@ -97,13 +97,19 @@ def generate_html(papers):
                 <img src="foto save ruben.PNG" alt="Ruben's Picture">
                 <ul class="social-links">
                     <li><a href="https://scholar.google.com" target="_blank">
-                        <img src="scholarlogo.png" alt="Google Scholar"><span>Google Scholar</span></a>
-                    </li>
-                    <li><a href="https://www.linkedin.com" target="_blank">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn"><span>LinkedIn</span></a>
-                    </li>
-                    <li><a href="https://www.goodreads.com" target="_blank">
-                        <img src="goodreads.png" alt="Goodreads"><span>Goodreads</span></a>
+                    <img src="scholarlogo.png" alt="Google Scholar"><span>Google Scholar</span></a>
+                </li>
+                <li><a href="https://www.linkedin.com" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn"><span>LinkedIn</span></a>
+                </li>
+                <li><a href="https://www.goodreads.com" target="_blank">
+                    <img src="goodreads.png" alt="Goodreads"><span>Goodreads</span></a>
+                </li>
+                 <li><a href="https://www.github.com" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" alt="GitHub"><span>GitHub</span></a>
+                </li>
+                 <li><a href="https://www.spotify.com" target="_blank">
+                    <img src="spotify.png" alt="Spotify"><span>Spotify</span></a>
                     </li>
                 </ul>
             </div>
