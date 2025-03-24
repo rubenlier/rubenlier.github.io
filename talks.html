@@ -1,131 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruben's Profile</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #fff;
-            color: #333;
-        }
-        .navbar {
-            display: flex;
-            align-items: center;
-            padding: 10px 20px;
-            border-bottom: 1px solid #ccc;
-            justify-content: flex-start;
-        }
-        .navbar a {
-            text-decoration: none;
-            color: #333;
-            font-size: 1em;
-            margin-right: 20px;
-        }
-        .navbar a:last-child {
-            font-weight: bold; /* Highlight 'Talks' */
-        }
-        .navbar a:hover {
-            text-decoration: underline;
-        }
-        .layout {
-            display: flex;
-            height: calc(100vh - 60px); /* Account for navbar and footer */
-        }
-        .sidebar {
-            width: 250px;
-            border-right: 1px solid #ccc;
-            padding: 20px;
-        }
-        .sidebar img {
-            width: 100%;
-            margin-bottom: 20px;
-        }
-        .social-links {
-            list-style: none;
-            padding: 0;
-        }
-        .social-links li {
-            margin-bottom: 15px;
-        }
-        .social-links a {
-            display: flex;
-            align-items: center;
-            text-decoration: none;
-            color: #333;
-        }
-        .social-links a img {
-            width: 14px; /* Adjust the size */
-            height: 14px; /* Adjust the size */
-            margin-right: 10px;
-            position: relative;
-            top: 10px; /* Fine-tune vertical alignment */
-        }
-        .content {
-            flex: 1;
-            padding: 20px;
-        }
-        .content h1 {
-            font-size: 2em;
-            margin-bottom: 10px;
-        }
-        .content p {
-            font-size: 1.2em;
-            line-height: 1.6;
-        }
-        .footer {
-            background-color: #f2f2f2;
-            text-align: center;
-            padding: 10px 0;
-            border-top: 1px solid #ccc;
-            font-size: 0.9em;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ruben's Profile</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+    .navbar {
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+      border-bottom: 1px solid #ccc;
+      justify-content: flex-start;
+    }
+    .navbar a {
+      text-decoration: none;
+      color: #333;
+      font-size: 1em;
+      margin-right: 20px;
+    }
+    .navbar a:last-child {
+      font-weight: bold;
+    }
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+    .layout {
+      display: flex;
+      height: calc(100vh - 60px);
+    }
+    .sidebar {
+      width: 250px;
+      border-right: 1px solid #ccc;
+      padding: 20px;
+    }
+    .sidebar img {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .social-links {
+      list-style: none;
+      padding: 0;
+    }
+    .social-links li {
+      margin-bottom: 15px;
+    }
+    .social-links a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: #333;
+    }
+    .social-links a img {
+      width: 14px;
+      height: 14px;
+      margin-right: 10px;
+      position: relative;
+      top: 10px;
+    }
+    .content {
+      flex: 1;
+      padding: 20px;
+    }
+    .content h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    .content p {
+      font-size: 1.2em;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    .footer {
+      background-color: #f2f2f2;
+      text-align: center;
+      padding: 10px 0;
+      border-top: 1px solid #ccc;
+      font-size: 0.9em;
+    }
+
+    .map-container {
+      position: relative;
+      width: 100%;
+      max-width: 900px;
+      margin: auto;
+    }
+    .world-map {
+      width: 100%;
+      height: auto;
+      display: block;
+      border: 1px solid #ccc;
+    }
+
+    .flag-emoji {
+      position: absolute;
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    .flag-emoji::after {
+      content: attr(data-tooltip);
+      position: absolute;
+      bottom: 125%;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(0, 0, 0, 0.75);
+      color: #fff;
+      padding: 4px 8px;
+      border-radius: 4px;
+      white-space: nowrap;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s;
+      font-size: 0.9rem;
+    }
+
+    .flag-emoji:hover::after {
+      opacity: 1;
+    }
+  </style>
 </head>
 <body>
-    <div class="navbar">
-        <div style="margin-left: 250px;"> <!-- Move the text to the right -->
-            <a href="index.html">Main</a>
-            <a href="paper.html">Papers</a>
-            <a href="#">Talks</a>
-        </div>
+  <div class="navbar">
+    <div style="margin-left: 250px;">
+      <a href="index.html">Main</a>
+      <a href="paper.html">Papers</a>
+      <a href="#">Talks</a>
     </div>
-    <div class="layout">
-        <div class="sidebar">
-            <img src="foto save ruben.PNG" alt="Ruben's Picture">
-            <ul class="social-links">
-                <li><a href="https://scholar.google.com/citations?user=jN3gPNkAAAAJ&hl=nl" target="_blank">
-                    <img src="scholarlogo.png" alt="Google Scholar"><span>Google Scholar</span></a>
-                </li>
-                <li><a href="https://nl.linkedin.com/in/ruben-lier-b228b2182" target="_blank">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn"><span>LinkedIn</span></a>
-                </li>
-                <li><a href="https://www.goodreads.com/user/show/131725587-ruben-lier" target="_blank">
-                    <img src="goodreads.png" alt="Goodreads"><span>Goodreads</span></a>
-                </li>
-                 <li><a href="https://github.com/rubenlier" target="_blank">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" alt="GitHub"><span>GitHub</span></a>
-                </li>
-                 <li><a href="https://open.spotify.com/playlist/4nSMm8TaDVlrNi4u9rzImQ" target="_blank">
-                    <img src="spotify.png" alt="Spotify"><span>Spotify</span></a>
-                </li>
-            </ul>
-        </div>
-        <div class="content">
-            <h1>Talks</h1>
-            <p>
-                Hover your mouse over the flags to see when and where I have given a talk
-            </p>
-        </div>
+  </div>
+  <div class="layout">
+    <div class="sidebar">
+      <img src="foto save ruben.PNG" alt="Ruben's Picture" />
+      <ul class="social-links">
+        <li><a href="https://scholar.google.com/citations?user=jN3gPNkAAAAJ&hl=nl" target="_blank">
+          <img src="scholarlogo.png" alt="Google Scholar"><span>Google Scholar</span></a></li>
+        <li><a href="https://nl.linkedin.com/in/ruben-lier-b228b2182" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn"><span>LinkedIn</span></a></li>
+        <li><a href="https://www.goodreads.com/user/show/131725587-ruben-lier" target="_blank">
+          <img src="goodreads.png" alt="Goodreads"><span>Goodreads</span></a></li>
+        <li><a href="https://github.com/rubenlier" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" alt="GitHub"><span>GitHub</span></a></li>
+        <li><a href="https://open.spotify.com/playlist/4nSMm8TaDVlrNi4u9rzImQ" target="_blank">
+          <img src="spotify.png" alt="Spotify"><span>Spotify</span></a></li>
+      </ul>
     </div>
-    <div class="footer">
-        © 2024 Ruben Lier
+    <div class="content">
+      <h1>Talks</h1>
+      <p>
+        Hover your mouse over the flags to see when and where I have given a talk
+      </p>
+
+      <div class="map-container">
+        <img class="world-map" src="world-map.jpg" alt="World Map" />
+
+        <!-- Flags (adjust positions to fit the map image) -->
+        <div class="flag-emoji" style="top: 40%; left: 60%;" data-tooltip="Amsterdam – 12 Jan 2024">🚩</div>
+        <div class="flag-emoji" style="top: 50%; left: 20%;" data-tooltip="New York – 4 Mar 2023">🚩</div>
+        <div class="flag-emoji" style="top: 70%; left: 85%;" data-tooltip="Sydney – 19 Oct 2022">🚩</div>
+      </div>
     </div>
+  </div>
+  <div class="footer">
+    © 2024 Ruben Lier
+  </div>
 </body>
 </html>
