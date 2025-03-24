@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-from collections import defaultdict
+from datetime import datetime
 
 # Define the arXiv search URL
 search_url = "https://arxiv.org/search/?query=ruben+Lier&searchtype=all&source=header"
@@ -16,7 +16,7 @@ def fetch_arxiv_papers():
 
     soup = BeautifulSoup(response.text, "html.parser")
     papers = []
-    
+
     for result in soup.find_all("li", class_="arxiv-result"):
         title_tag = result.find("p", class_="title is-5 mathjax")
         link_tag = result.find("p", class_="list-title is-inline-block")
@@ -32,42 +32,38 @@ def fetch_arxiv_papers():
             date_text = date_tag.text.strip()
             date_start = date_text.find("Submitted") + len("Submitted ")
             date_end = date_text.find(";")
-            submission_date = date_text[date_start:date_end].strip() if date_start != -1 and date_end != -1 else "Unknown"
-            
-            # Extract year
-            year = submission_date.split()[-1] if submission_date != "Unknown" else "Unknown"
+            submission_date_str = date_text[date_start:date_end].strip() if date_start != -1 and date_end != -1 else "Unknown"
+
+            try:
+                submission_date_obj = datetime.strptime(submission_date_str, "%d %B %Y")
+            except ValueError:
+                submission_date_obj = None  # fallback in case of unexpected format
 
             papers.append({
                 "title": title,
                 "link": link,
                 "authors": authors,
-                "submission_date": submission_date,
-                "year": year
+                "submission_date_str": submission_date_str,
+                "submission_date_obj": submission_date_obj
             })
 
+    # Sort by submission_date_obj (latest first)
+    papers.sort(key=lambda x: x["submission_date_obj"] or datetime.min, reverse=True)
     return papers
 
 def generate_html(papers):
-    # Group papers by year
-    papers_by_year = defaultdict(list)
-    for paper in papers:
-        papers_by_year[paper["year"]].append(paper)
-
-    # Sort years (newest first)
-    sorted_years = sorted(papers_by_year.keys(), reverse=True)
-
     html_content = """<!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My arXiv Papers</title>
+        <title>My latest Preprints</title>
         <style>
             * { margin: 0; padding: 0; box-sizing: border-box; }
             body { font-family: Arial, sans-serif; background-color: #fff; color: #333; }
             .navbar { display: flex; align-items: center; padding: 10px 20px; border-bottom: 1px solid #ccc; justify-content: flex-start; }
             .navbar a { text-decoration: none; color: #333; font-size: 1em; margin-right: 20px; }
-            .navbar a:nth-child(2) {font-weight: bold; /* Highlight 'Papers' */   }
+            .navbar a:nth-child(2) {font-weight: bold; }
             .navbar a:hover { text-decoration: underline; }
             .layout { display: flex; height: calc(100vh - 60px); }
             .sidebar { width: 250px; border-right: 1px solid #ccc; padding: 20px; }
@@ -78,7 +74,6 @@ def generate_html(papers):
             .social-links a img { width: 14px; height: 14px; margin-right: 10px; position: relative; top: 10px; }
             .content { flex: 1; padding: 20px; }
             .content h1 { font-size: 2em; margin-bottom: 10px; text-align: center; }
-            .content h2 { font-size: 1.5em; margin-top: 20px; border-bottom: 2px solid #ccc; padding-bottom: 5px; }
             .paper { margin-bottom: 20px; }
             .bold { font-weight: bold; }
         </style>
@@ -87,7 +82,7 @@ def generate_html(papers):
         <div class="navbar">
             <div style="margin-left: 250px;">
                 <a href="index.html">Main</a>
-                <a href="#">Papers</a>
+                <a href="#">Preprints</a>
                 <a href="talks.html">Talks</a>
             </div>
         </div>
@@ -95,20 +90,20 @@ def generate_html(papers):
             <div class="sidebar">
                 <img src="foto save ruben.PNG" alt="Ruben's Picture">
                 <ul class="social-links">
-                     <li><a href="https://scholar.google.com/citations?user=jN3gPNkAAAAJ&hl=nl" target="_blank">
-                    <img src="scholarlogo.png" alt="Google Scholar"><span>Google Scholar</span></a>
-                </li>
-                <li><a href="https://nl.linkedin.com/in/ruben-lier-b228b2182" target="_blank">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn"><span>LinkedIn</span></a>
-                </li>
-                <li><a href="https://www.goodreads.com/user/show/131725587-ruben-lier" target="_blank">
-                    <img src="goodreads.png" alt="Goodreads"><span>Goodreads</span></a>
-                </li>
-                 <li><a href="https://github.com/rubenlier" target="_blank">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" alt="GitHub"><span>GitHub</span></a>
-                </li>
-                 <li><a href="https://open.spotify.com/playlist/4nSMm8TaDVlrNi4u9rzImQ" target="_blank">
-                    <img src="spotify.png" alt="Spotify"><span>Spotify</span></a>
+                    <li><a href="https://scholar.google.com/citations?user=jN3gPNkAAAAJ&hl=nl" target="_blank">
+                        <img src="scholarlogo.png" alt="Google Scholar"><span>Google Scholar</span></a>
+                    </li>
+                    <li><a href="https://nl.linkedin.com/in/ruben-lier-b228b2182" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn"><span>LinkedIn</span></a>
+                    </li>
+                    <li><a href="https://www.goodreads.com/user/show/131725587-ruben-lier" target="_blank">
+                        <img src="goodreads.png" alt="Goodreads"><span>Goodreads</span></a>
+                    </li>
+                    <li><a href="https://github.com/rubenlier" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" alt="GitHub"><span>GitHub</span></a>
+                    </li>
+                    <li><a href="https://open.spotify.com/playlist/4nSMm8TaDVlrNi4u9rzImQ" target="_blank">
+                        <img src="spotify.png" alt="Spotify"><span>Spotify</span></a>
                     </li>
                 </ul>
             </div>
@@ -116,23 +111,20 @@ def generate_html(papers):
                 <h1>My Latest arXiv Papers</h1>
     """
 
-    for year in sorted_years:
-        html_content += f"<h2>{year}</h2>\n"
-        for paper in papers_by_year[year]:
-            authors_formatted = ", ".join(
-                f'<span class="bold">{name}</span>' if name == "Ruben Lier" else name for name in paper["authors"]
-            )
+    for paper in papers:
+        authors_formatted = ", ".join(
+            f'<span class="bold">{name}</span>' if name == "Ruben Lier" else name for name in paper["authors"]
+        )
 
-            html_content += f"""
-            <div class="paper">
-                <h3><a href="{paper['link']}">{paper['title']}</a></h3>
-                <p><strong>Authors:</strong> {authors_formatted}</p>
-                <p><strong>Submitted:</strong> {paper['submission_date']}</p>
-            </div>
-            <hr>
-            """
+        html_content += f"""
+        <div class="paper">
+            <h3><a href="{paper['link']}">{paper['title']}</a></h3>
+            <p><strong>Authors:</strong> {authors_formatted}</p>
+            <p><strong>Submitted:</strong> {paper['submission_date_str']}</p>
+        </div>
+        <hr>
+        """
 
-    # Remove the extra closing tags to prevent the grey bar
     html_content += """
             </div>
         </div>
@@ -146,3 +138,4 @@ def generate_html(papers):
 if __name__ == "__main__":
     papers = fetch_arxiv_papers()
     generate_html(papers)
+
