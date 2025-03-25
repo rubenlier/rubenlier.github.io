@@ -1,6 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
+from collections import defaultdict
 from datetime import datetime
+import re
 
 # Define the arXiv search URL
 search_url = "https://arxiv.org/search/?query=ruben+Lier&searchtype=all&source=header"
@@ -28,36 +30,48 @@ def fetch_arxiv_papers():
             link = link_tag.find("a")["href"]
             authors = [a.text.strip() for a in authors_tag.find_all("a")]
 
-            # Extract submission date
+            # Extract only the initial submission date
             date_text = date_tag.text.strip()
-            date_start = date_text.find("Submitted") + len("Submitted ")
-            date_end = date_text.find(";")
-            submission_date_str = date_text[date_start:date_end].strip() if date_start != -1 and date_end != -1 else "Unknown"
+            date_match = re.search(r"Submitted\s+(\d{1,2}\s+\w+\s+\d{4})", date_text)
+            submission_date_str = date_match.group(1) if date_match else "Unknown"
 
             try:
                 submission_date_obj = datetime.strptime(submission_date_str, "%d %B %Y")
+                year = submission_date_obj.year
             except ValueError:
-                submission_date_obj = None  # fallback in case of unexpected format
+                submission_date_obj = None
+                year = "Unknown"
 
             papers.append({
                 "title": title,
                 "link": link,
                 "authors": authors,
                 "submission_date_str": submission_date_str,
-                "submission_date_obj": submission_date_obj
+                "submission_date_obj": submission_date_obj,
+                "year": year
             })
 
-    # Sort by submission_date_obj (latest first)
-    papers.sort(key=lambda x: x["submission_date_obj"] or datetime.min, reverse=True)
     return papers
 
 def generate_html(papers):
+    # Group papers by year
+    papers_by_year = defaultdict(list)
+    for paper in papers:
+        papers_by_year[paper["year"]].append(paper)
+
+    # Sort years (newest first)
+    sorted_years = sorted(papers_by_year.keys(), reverse=True)
+
+    # Sort papers within each year (latest first)
+    for year in papers_by_year:
+        papers_by_year[year].sort(key=lambda x: x["submission_date_obj"] or datetime.min, reverse=True)
+
     html_content = """<!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My latest Preprints</title>
+        <title>My arXiv Papers</title>
         <style>
             * { margin: 0; padding: 0; box-sizing: border-box; }
             body { font-family: Arial, sans-serif; background-color: #fff; color: #333; }
@@ -74,6 +88,7 @@ def generate_html(papers):
             .social-links a img { width: 14px; height: 14px; margin-right: 10px; position: relative; top: 10px; }
             .content { flex: 1; padding: 20px; }
             .content h1 { font-size: 2em; margin-bottom: 10px; text-align: center; }
+            .content h2 { font-size: 1.5em; margin-top: 20px; border-bottom: 2px solid #ccc; padding-bottom: 5px; }
             .paper { margin-bottom: 20px; }
             .bold { font-weight: bold; }
         </style>
@@ -82,7 +97,7 @@ def generate_html(papers):
         <div class="navbar">
             <div style="margin-left: 250px;">
                 <a href="index.html">Main</a>
-                <a href="#">Preprints</a>
+                <a href="#">Papers</a>
                 <a href="talks.html">Talks</a>
             </div>
         </div>
@@ -111,19 +126,21 @@ def generate_html(papers):
                 <h1>My Latest arXiv Papers</h1>
     """
 
-    for paper in papers:
-        authors_formatted = ", ".join(
-            f'<span class="bold">{name}</span>' if name == "Ruben Lier" else name for name in paper["authors"]
-        )
+    for year in sorted_years:
+        html_content += f"<h2>{year}</h2>\n"
+        for paper in papers_by_year[year]:
+            authors_formatted = ", ".join(
+                f'<span class="bold">{name}</span>' if name == "Ruben Lier" else name for name in paper["authors"]
+            )
 
-        html_content += f"""
-        <div class="paper">
-            <h3><a href="{paper['link']}">{paper['title']}</a></h3>
-            <p><strong>Authors:</strong> {authors_formatted}</p>
-            <p><strong>Submitted:</strong> {paper['submission_date_str']}</p>
-        </div>
-        <hr>
-        """
+            html_content += f"""
+            <div class="paper">
+                <h3><a href="{paper['link']}">{paper['title']}</a></h3>
+                <p><strong>Authors:</strong> {authors_formatted}</p>
+                <p><strong>Submitted:</strong> {paper['submission_date_str']}</p>
+            </div>
+            <hr>
+            """
 
     html_content += """
             </div>
@@ -138,4 +155,3 @@ def generate_html(papers):
 if __name__ == "__main__":
     papers = fetch_arxiv_papers()
     generate_html(papers)
-
