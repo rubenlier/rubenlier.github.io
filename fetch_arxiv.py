@@ -1,8 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 from collections import defaultdict
-from datetime import datetime
-import re
 
 # Define the arXiv search URL
 search_url = "https://arxiv.org/search/?query=ruben+Lier&searchtype=all&source=header"
@@ -18,7 +16,7 @@ def fetch_arxiv_papers():
 
     soup = BeautifulSoup(response.text, "html.parser")
     papers = []
-
+    
     for result in soup.find_all("li", class_="arxiv-result"):
         title_tag = result.find("p", class_="title is-5 mathjax")
         link_tag = result.find("p", class_="list-title is-inline-block")
@@ -30,24 +28,20 @@ def fetch_arxiv_papers():
             link = link_tag.find("a")["href"]
             authors = [a.text.strip() for a in authors_tag.find_all("a")]
 
-            # Extract only the initial submission date
+            # Extract submission date
             date_text = date_tag.text.strip()
-            date_match = re.search(r"Submitted\s+(\d{1,2}\s+\w+\s+\d{4})", date_text)
-            submission_date_str = date_match.group(1) if date_match else "Unknown"
-
-            try:
-                submission_date_obj = datetime.strptime(submission_date_str, "%d %B %Y")
-                year = submission_date_obj.year
-            except ValueError:
-                submission_date_obj = None
-                year = "Unknown"
+            date_start = date_text.find("Submitted") + len("Submitted ")
+            date_end = date_text.find(";")
+            submission_date = date_text[date_start:date_end].strip() if date_start != -1 and date_end != -1 else "Unknown"
+            
+            # Extract year
+            year = submission_date.split()[-1] if submission_date != "Unknown" else "Unknown"
 
             papers.append({
                 "title": title,
                 "link": link,
                 "authors": authors,
-                "submission_date_str": submission_date_str,
-                "submission_date_obj": submission_date_obj,
+                "submission_date": submission_date,
                 "year": year
             })
 
@@ -62,10 +56,6 @@ def generate_html(papers):
     # Sort years (newest first)
     sorted_years = sorted(papers_by_year.keys(), reverse=True)
 
-    # Sort papers within each year (latest first)
-    for year in papers_by_year:
-        papers_by_year[year].sort(key=lambda x: x["submission_date_obj"] or datetime.min, reverse=True)
-
     html_content = """<!DOCTYPE html>
     <html lang="en">
     <head>
@@ -77,7 +67,7 @@ def generate_html(papers):
             body { font-family: Arial, sans-serif; background-color: #fff; color: #333; }
             .navbar { display: flex; align-items: center; padding: 10px 20px; border-bottom: 1px solid #ccc; justify-content: flex-start; }
             .navbar a { text-decoration: none; color: #333; font-size: 1em; margin-right: 20px; }
-            .navbar a:nth-child(2) {font-weight: bold; }
+            .navbar a:nth-child(2) {font-weight: bold; /* Highlight 'Papers' */   }
             .navbar a:hover { text-decoration: underline; }
             .layout { display: flex; height: calc(100vh - 60px); }
             .sidebar { width: 250px; border-right: 1px solid #ccc; padding: 20px; }
@@ -105,25 +95,25 @@ def generate_html(papers):
             <div class="sidebar">
                 <img src="foto save ruben.PNG" alt="Ruben's Picture">
                 <ul class="social-links">
-                    <li><a href="https://scholar.google.com/citations?user=jN3gPNkAAAAJ&hl=nl" target="_blank">
-                        <img src="scholarlogo.png" alt="Google Scholar"><span>Google Scholar</span></a>
-                    </li>
-                    <li><a href="https://nl.linkedin.com/in/ruben-lier-b228b2182" target="_blank">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn"><span>LinkedIn</span></a>
-                    </li>
-                    <li><a href="https://www.goodreads.com/user/show/131725587-ruben-lier" target="_blank">
-                        <img src="goodreads.png" alt="Goodreads"><span>Goodreads</span></a>
-                    </li>
-                    <li><a href="https://github.com/rubenlier" target="_blank">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" alt="GitHub"><span>GitHub</span></a>
-                    </li>
-                    <li><a href="https://open.spotify.com/playlist/4nSMm8TaDVlrNi4u9rzImQ" target="_blank">
-                        <img src="spotify.png" alt="Spotify"><span>Spotify</span></a>
+                     <li><a href="https://scholar.google.com/citations?user=jN3gPNkAAAAJ&hl=nl" target="_blank">
+                    <img src="scholarlogo.png" alt="Google Scholar"><span>Google Scholar</span></a>
+                </li>
+                <li><a href="https://nl.linkedin.com/in/ruben-lier-b228b2182" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn"><span>LinkedIn</span></a>
+                </li>
+                <li><a href="https://www.goodreads.com/user/show/131725587-ruben-lier" target="_blank">
+                    <img src="goodreads.png" alt="Goodreads"><span>Goodreads</span></a>
+                </li>
+                 <li><a href="https://github.com/rubenlier" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" alt="GitHub"><span>GitHub</span></a>
+                </li>
+                 <li><a href="https://open.spotify.com/playlist/4nSMm8TaDVlrNi4u9rzImQ" target="_blank">
+                    <img src="spotify.png" alt="Spotify"><span>Spotify</span></a>
                     </li>
                 </ul>
             </div>
             <div class="content">
-                <h1>My Latest arXiv Preprints</h1>
+                <h1>My Latest arXiv Papers</h1>
     """
 
     for year in sorted_years:
@@ -137,11 +127,12 @@ def generate_html(papers):
             <div class="paper">
                 <h3><a href="{paper['link']}">{paper['title']}</a></h3>
                 <p><strong>Authors:</strong> {authors_formatted}</p>
-                <p><strong>Submitted:</strong> {paper['submission_date_str']}</p>
+                <p><strong>Submitted:</strong> {paper['submission_date']}</p>
             </div>
             <hr>
             """
 
+    # Remove the extra closing tags to prevent the grey bar
     html_content += """
             </div>
         </div>
