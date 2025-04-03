@@ -116,7 +116,7 @@ def generate_html(papers):
                 </ul>
             </div>
             <div class="content">
-                <h1>My Latest arXiv prepints</h1>
+                <h1>My latest arXiv prepints</h1>
     """
 
     for year in sorted_years:
