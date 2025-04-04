@@ -1,15 +1,144 @@
-<div class="content">
-    <h1>About me</h1>
-    <p>
-        I am a theoretical physicist at the University of Amsterdam, specialized in problems related to hydrodynamics, ranging from astrophysics to condensed matter physics and from biophysics to high-energy physics.
-    </p>
-    <p>
-        Click "Preprints" in the top bar to learn about my recent scientific work. Click "Talks" to see all the talks I have given.
-    </p>
-  <p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruben's Profile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            color: #333;
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            border-bottom: 1px solid #ccc;
+            justify-content: flex-start;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1em;
+            margin-right: 20px;
+        }
+        .navbar a:first-child {
+            font-weight: bold;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .layout {
+            display: flex;
+            height: calc(100vh - 60px);
+        }
+        .sidebar {
+            width: 250px;
+            border-right: 1px solid #ccc;
+            padding: 20px;
+        }
+        .sidebar img {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .social-links {
+            list-style: none;
+            padding: 0;
+        }
+        .social-links li {
+            margin-bottom: 15px;
+        }
+        .social-links a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: #333;
+        }
+        .social-links a img {
+            width: 14px;
+            height: 14px;
+            margin-right: 10px;
+            position: relative;
+            top: 10px;
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+        .content h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .content p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .footer {
+            background-color: #f2f2f2;
+            text-align: center;
+            padding: 10px 0;
+            border-top: 1px solid #ccc;
+            font-size: 0.9em;
+        }
+        .simulation-image {
+            max-width: 100%;
+            border: 1px solid #ccc;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div style="margin-left: 250px;">
+            <a href="#">Ruben Lier</a>
+            <a href="paper.html">Preprints</a>
+            <a href="talks.html">Talks</a>
+        </div>
+    </div>
+    <div class="layout">
+        <div class="sidebar">
+            <img src="foto save ruben.PNG" alt="Ruben's Picture">
+            <ul class="social-links">
+                <li><a href="https://www.uva.nl/en/profile/l/i/r.lier/r.lier.html" target="_blank">
+                    <img src="uvalogo.png" alt="Contact"><span>Contact</span></a></li>
+                <li><a href="https://scholar.google.com/citations?user=jN3gPNkAAAAJ&hl=nl" target="_blank">
+                    <img src="scholarlogo.png" alt="Google Scholar"><span>Google Scholar</span></a></li>
+                <li><a href="https://nl.linkedin.com/in/ruben-lier-b228b2182" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn"><span>LinkedIn</span></a></li>
+                <li><a href="https://www.goodreads.com/user/show/131725587-ruben-lier" target="_blank">
+                    <img src="goodreads.png" alt="Goodreads"><span>Goodreads</span></a></li>
+                <li><a href="https://github.com/rubenlier" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" alt="GitHub"><span>GitHub</span></a></li>
+                <li><a href="https://open.spotify.com/playlist/4nSMm8TaDVlrNi4u9rzImQ" target="_blank">
+                    <img src="spotify.png" alt="Spotify"><span>Spotify</span></a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>About me</h1>
+            <p>
+                I am a theoretical physicist at the University of Amsterdam, specialized in problems related to hydrodynamics, ranging from astrophysics to condensed matter physics and from biophysics to high-energy physics.
+            </p>
+            <p>
+                Click "Preprints" in the top bar to learn about my recent scientific work. Click "Talks" to see all the talks I have given.
+            </p>
+              <p>
         Below is an animation of a numerical simulation that was part of my work on resistive relativistic magnetohydrodynamics without Ampere's law.
     </p>
 
-    <h2>Simulation</h2>
-    <img src="animation.gif" alt="Hydrodynamic simulation" style="max-width: 100%; border: 1px solid #ccc; margin-top: 20px;">
-</div>
+
+            <h2>Simulation</h2>
+            <img src="animation.gif" alt="Hydrodynamic simulation" class="simulation-image">
+        </div>
+    </div>
+    <div class="footer">
+        © 2024 Ruben Lier
+    </div>
+</body>
+</html>
