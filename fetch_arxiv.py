@@ -87,7 +87,7 @@ def generate_html(papers):
         <div class="navbar">
             <div style="margin-left: 250px;">
                 <a href="index.html">Ruben Lier</a>
-                <a href="#">Papers</a>
+                <a href="#">Preprints</a>
                 <a href="talks.html">Talks</a>
             </div>
         </div>
