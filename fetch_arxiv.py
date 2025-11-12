@@ -1,15 +1,40 @@
-import requests
-from bs4 import BeautifulSoup
-from collections import defaultdict
-import re
+import sys
 import time
+import re
+from collections import defaultdict
 
+import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+from bs4 import BeautifulSoup
+
+# ---- Config ----
 search_url = "https://arxiv.org/search/?query=ruben+Lier&searchtype=all&source=header"
-headers = {"User-Agent": "Mozilla/5.0"}
+USER_AGENT = "rubenlier-arxiv-bot/1.0 (+https://rubenlier.github.io)"
+CONNECT_TIMEOUT = 5
+READ_TIMEOUT = 60
+PAUSE_BETWEEN_REQUESTS = 0.3
+# ----------------
 
-DATE_RE = re.compile(
-    r"(?:Submitted on|Submitted)\s+(\d{1,2}\s+\w+\s+\d{4})", re.IGNORECASE
-)
+DATE_RE = re.compile(r"(?:Submitted on|Submitted)\s+(\d{1,2}\s+\w+\s+\d{4})", re.IGNORECASE)
+
+def make_session() -> requests.Session:
+    """Create a requests session with retries + backoff and a proper UA."""
+    s = requests.Session()
+    retry = Retry(
+        total=6,                # total attempts
+        connect=3,              # connection retries
+        read=6,                 # read retries
+        backoff_factor=1.5,     # 1.5s, 3s, 4.5s, ...
+        status_forcelist=[429, 500, 502, 503, 504],
+        allowed_methods=frozenset(["GET"]),
+        raise_on_status=False,
+    )
+    adapter = HTTPAdapter(max_retries=retry, pool_connections=10, pool_maxsize=10)
+    s.mount("https://", adapter)
+    s.mount("http://", adapter)
+    s.headers.update({"User-Agent": USER_AGENT})
+    return s
 
 def get_original_submission_date(abs_url: str, session: requests.Session) -> str:
     """
@@ -17,84 +42,86 @@ def get_original_submission_date(abs_url: str, session: requests.Session) -> str
     Falls back to 'Unknown' if not found.
     """
     try:
-        r = session.get(abs_url, headers=headers, timeout=15)
+        r = session.get(abs_url, timeout=(CONNECT_TIMEOUT, READ_TIMEOUT))
         if r.status_code != 200:
             return "Unknown"
 
         soup = BeautifulSoup(r.text, "html.parser")
 
-        # 1) Newer arXiv HTML: submission history is in a <div id="submission-history"> with <li> items
+        # 1) Newer arXiv HTML: <div id="submission-history"><li>...</li></div>
         hist = soup.select_one("#submission-history")
         if hist:
-            # Usually formatted like: "v1 submitted 1 Jan 2020", "v2 ...", etc.
             lis = hist.select("li")
             if lis:
                 first = lis[0].get_text(" ", strip=True)
-                # Try to pull a date from the first li
                 m = re.search(r"(\d{1,2}\s+\w+\s+\d{4})", first)
                 if m:
                     return m.group(1)
 
-        # 2) Older format: a sentence near the title: "Submitted on 1 Jan 2020 (v1), last revised ..."
-        # Look in the “dateline” or general page text
+        # 2) Older format: <div class="dateline">Submitted on ...</div>
         dateline = soup.select_one("div.dateline")
         if dateline:
             m = DATE_RE.search(dateline.get_text(" ", strip=True))
             if m:
                 return m.group(1)
 
-        # 3) Very old / fallback: search whole page for the phrase
+        # 3) Fallback: scan whole page
         m = DATE_RE.search(soup.get_text(" ", strip=True))
         if m:
             return m.group(1)
 
         return "Unknown"
-    except Exception:
+    except requests.exceptions.RequestException:
         return "Unknown"
 
 def fetch_arxiv_papers():
     papers = []
-    with requests.Session() as s:
-        r = s.get(search_url, headers=headers, timeout=20)
-        if r.status_code != 200:
-            print(f"❌ Failed to fetch arXiv page: HTTP {r.status_code}")
-            return []
+    s = make_session()
+    try:
+        r = s.get(search_url, timeout=(CONNECT_TIMEOUT, READ_TIMEOUT))
+    except requests.exceptions.Timeout:
+        # transient; let the workflow pass quietly (optional)
+        print("arXiv timed out fetching the search page; will try next run.")
+        return []
+    except requests.exceptions.RequestException as e:
+        print(f"❌ Failed to fetch arXiv page: {e}")
+        return []
 
-        soup = BeautifulSoup(r.text, "html.parser")
+    if r.status_code != 200:
+        print(f"❌ Failed to fetch arXiv page: HTTP {r.status_code}")
+        return []
 
-        for result in soup.find_all("li", class_="arxiv-result"):
-            title_tag = result.find("p", class_="title is-5 mathjax")
-            link_tag = result.find("p", class_="list-title is-inline-block")
-            authors_tag = result.find("p", class_="authors")
+    soup = BeautifulSoup(r.text, "html.parser")
 
-            if not (title_tag and link_tag and authors_tag):
-                continue
+    for result in soup.find_all("li", class_="arxiv-result"):
+        title_tag = result.find("p", class_="title is-5 mathjax")
+        link_tag = result.find("p", class_="list-title is-inline-block")
+        authors_tag = result.find("p", class_="authors")
 
-            title = title_tag.get_text(strip=True)
-            link = link_tag.find("a")["href"]
-            # Ensure we land on the abstract page (sometimes already is)
-            if not re.search(r"/abs/\d", link):
-                # Convert /pdf/xxxx or /format/… to /abs/…
-                link = re.sub(r"/(pdf|format)/", "/abs/", link)
+        if not (title_tag and link_tag and authors_tag):
+            continue
 
-            authors = [a.get_text(strip=True) for a in authors_tag.find_all("a")]
+        title = title_tag.get_text(strip=True)
+        link = link_tag.find("a")["href"]
 
-            # NEW: get the original submission date from the abstract page
-            submission_date = get_original_submission_date(link, s)
+        # Ensure abstract URL
+        if not re.search(r"/abs/\d", link):
+            link = re.sub(r"/(pdf|format)/", "/abs/", link)
 
-            # Extract year
-            year = submission_date.split()[-1] if submission_date != "Unknown" else "Unknown"
+        authors = [a.get_text(strip=True) for a in authors_tag.find_all("a")]
 
-            papers.append({
-                "title": title,
-                "link": link,
-                "authors": authors,
-                "submission_date": submission_date,
-                "year": year
-            })
+        submission_date = get_original_submission_date(link, s)
+        year = submission_date.split()[-1] if submission_date != "Unknown" else "Unknown"
 
-            # Be polite to arXiv (optional small delay)
-            time.sleep(0.3)
+        papers.append({
+            "title": title,
+            "link": link,
+            "authors": authors,
+            "submission_date": submission_date,
+            "year": year
+        })
+
+        time.sleep(PAUSE_BETWEEN_REQUESTS)
 
     return papers
 
@@ -102,7 +129,6 @@ def generate_html(papers):
     papers_by_year = defaultdict(list)
     for p in papers:
         papers_by_year[p["year"]].append(p)
-
     sorted_years = sorted(papers_by_year.keys(), reverse=True)
 
     html_content = """<!DOCTYPE html>
@@ -184,7 +210,6 @@ body { font-family: Arial, sans-serif; background-color: #fff; color: #333; }
 </body>
 </html>
 """
-
     with open("paper.html", "w", encoding="utf-8") as f:
         f.write(html_content)
     print("✅ Generated paper.html successfully!")
@@ -192,3 +217,4 @@ body { font-family: Arial, sans-serif; background-color: #fff; color: #333; }
 if __name__ == "__main__":
     papers = fetch_arxiv_papers()
     generate_html(papers)
+
