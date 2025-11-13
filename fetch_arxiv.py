@@ -2,6 +2,7 @@ import sys
 import time
 import re
 from collections import defaultdict
+from datetime import datetime  # NEW
 
 import requests
 from requests.adapters import HTTPAdapter
@@ -125,94 +126,47 @@ def fetch_arxiv_papers():
 
     return papers
 
+
 def generate_html(papers):
+    from datetime import datetime
     papers_by_year = defaultdict(list)
     for p in papers:
         papers_by_year[p["year"]].append(p)
     sorted_years = sorted(papers_by_year.keys(), reverse=True)
 
-    html_content = """<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My arXiv Papers</title>
-<style>
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: Arial, sans-serif; background-color: #fff; color: #333; }
-.navbar { display: flex; align-items: center; padding: 10px 20px; border-bottom: 1px solid #ccc; justify-content: flex-start; }
-.navbar a { text-decoration: none; color: #333; font-size: 1em; margin-right: 20px; }
-.navbar a:nth-child(2) { font-weight: bold; }
-.navbar a:hover { text-decoration: underline; }
-.layout { display: flex; min-height: calc(100vh - 60px); }
-.sidebar { width: 250px; border-right: 1px solid #ccc; padding: 20px; }
-.sidebar img { width: 100%; margin-bottom: 20px; }
-.social-links { list-style: none; padding: 0; }
-.social-links li { margin-bottom: 15px; }
-.social-links a { display: flex; align-items: center; text-decoration: none; color: #333; }
-.social-links a img { width: 14px; height: 14px; margin-right: 10px; position: relative; top: 2px; }
-.content { flex: 1; padding: 20px; }
-.content h1 { font-size: 2em; margin-bottom: 10px; text-align: center; }
-.content h2 { font-size: 1.5em; margin-top: 20px; border-bottom: 2px solid #ccc; padding-bottom: 5px; }
-.paper { margin: 16px 0; }
-.bold { font-weight: bold; }
-</style>
-</head>
-<body>
-<div class="navbar">
-  <div style="margin-left: 250px;">
-    <a href="index.html">Ruben Lier</a>
-    <a href="#">Preprints</a>
-    <a href="talks.html">Talks</a>
-  </div>
-</div>
-<div class="layout">
-  <div class="sidebar">
-    <img src="foto save ruben.PNG" alt="Ruben's Picture">
-    <ul class="social-links">
-      <li><a href="https://www.uva.nl/en/profile/l/i/r.lier/r.lier.html" target="_blank">
-        <img src="uvalogo.png" alt="Contact"><span>Contact</span></a></li>
-      <li><a href="https://scholar.google.com/citations?user=jN3gPNkAAAAJ&hl=nl" target="_blank">
-        <img src="scholarlogo.png" alt="Google Scholar"><span>Google Scholar</span></a></li>
-      <li><a href="https://nl.linkedin.com/in/ruben-lier-b228b2182" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn"><span>LinkedIn</span></a></li>
-      <li><a href="https://www.goodreads.com/user/show/131725587-ruben-lier" target="_blank">
-        <img src="goodreads.png" alt="Goodreads"><span>Goodreads</span></a></li>
-      <li><a href="https://github.com/rubenlier" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" alt="GitHub"><span>GitHub</span></a></li>
-      <li><a href="https://open.spotify.com/playlist/4nSMm8TaDVlrNi4u9rzImQ" target="_blank">
-        <img src="spotify.png" alt="Spotify"><span>Spotify</span></a></li>
-    </ul>
-  </div>
-  <div class="content">
-    <h1>My latest arXiv preprints</h1>
-"""
+    last_updated = datetime.utcnow().strftime("%Y-%m-%d")
+
+    # small header at the top of the snippet
+    html_content = f'<p><em>Last updated: {last_updated} (UTC)</em></p>\n'
 
     for year in sorted_years:
-        html_content += f"<h2>{year}</h2>\n"
+        # 👇 add bar + spacing directly via inline style
+        html_content += (
+            f'<h2 style="margin-top:20px;'
+            f'border-bottom:2px solid #333;'
+            f'padding-bottom:5px;">{year}</h2>\n'
+        )
+
         for paper in papers_by_year[year]:
             authors_formatted = ", ".join(
-                f'<span class="bold">{name}</span>' if name.strip().lower() == "ruben lier" else name
+                f"<strong>{name}</strong>" if name.strip().lower() == "ruben lier" else name
                 for name in paper["authors"]
             )
             html_content += f"""
-    <div class="paper">
-      <h3><a href="{paper['link']}" target="_blank" rel="noopener">{paper['title']}</a></h3>
-      <p><strong>Authors:</strong> {authors_formatted}</p>
-      <p><strong>Originally submitted:</strong> {paper['submission_date']}</p>
-    </div>
-    <hr>
+<div class="paper">
+  <h3><a href="{paper['link']}" target="_blank" rel="noopener">{paper['title']}</a></h3>
+  <p><strong>Authors:</strong> {authors_formatted}</p>
+  <p><strong>Originally submitted:</strong> {paper['submission_date']}</p>
+</div>
+<hr>
 """
 
-    html_content += """
-  </div>
-</div>
-</body>
-</html>
-"""
     with open("paper.html", "w", encoding="utf-8") as f:
-        f.write(html_content)
-    print("✅ Generated paper.html successfully!")
+        f.write(html_content.strip())
+    print("✅ Generated paper.html snippet successfully!")
+
+
+
 
 if __name__ == "__main__":
     papers = fetch_arxiv_papers()
