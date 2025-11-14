@@ -295,7 +295,7 @@
     <script>
         // TODO: later, just replace this with your actual API URL
         // e.g. "https://gpt2-lora-api-12345.europe-west4.run.app/generate"
-        const HOLDEN_API_URL = "https://YOUR-CLOUD-RUN-URL-HERE";
+        const HOLDEN_API_URL = "https://holden-hcaulfield-medium-416156146603.europe-west4.run.app/generate";
 
         // Pages are HTML snippets injected into #content
         const pages = {
@@ -403,67 +403,62 @@
             }
         }
 
-        function initHoldenatorPage() {
-            const form = document.getElementById("holden-form");
-            if (!form) return; // not on this page
+function initHoldenatorPage() {
+    const form = document.getElementById("holden-form");
+    if (!form) return; // not on this page
 
-            const input = document.getElementById("holden-input");
-            const button = document.getElementById("holden-submit");
-            const responseEl = document.getElementById("holden-response");
-            const statusEl = document.getElementById("holden-status");
+    const input = document.getElementById("holden-input");
+    const button = document.getElementById("holden-submit");
+    const responseEl = document.getElementById("holden-response");
+    const statusEl = document.getElementById("holden-status");
 
-            form.addEventListener("submit", async (event) => {
-                event.preventDefault();
+    form.addEventListener("submit", async (event) => {
+        event.preventDefault();
 
-                const prompt = input.value.trim();
-                if (!prompt) return;
+        const prompt = input.value.trim();
+        if (!prompt) return;
 
-                // If API URL is still placeholder, just show a message and bail early
-                if (!HOLDEN_API_URL || HOLDEN_API_URL.includes("YOUR-CLOUD-RUN-URL-HERE")) {
-                    responseEl.textContent =
-                        "Holden will start talking once Ruben plugs in the API URL.";
-                    statusEl.textContent = "API not connected yet.";
-                    return;
-                }
-
-                button.disabled = true;
-                statusEl.textContent = "Holden is thinking...";
-                responseEl.textContent = "…";
-
-                try {
-                    const res = await fetch(HOLDEN_API_URL, {
-                        method: "POST",
-                        headers: { "Content-Type": "application/json" },
-                        body: JSON.stringify({ prompt })
-                    });
-
-                    if (!res.ok) {
-                        throw new Error("API error: " + res.status);
-                    }
-
-                    const data = await res.json();
-
-                    // TODO: once you know the exact response shape, set this field
-                    // For example, if your FastAPI returns {"text": "..."}:
-                    // const text = data.text;
-                    const text =
-                        data.text ||
-                        data.completion ||
-                        data.output ||
-                        JSON.stringify(data, null, 2);
-
-                    responseEl.textContent = text;
-                    statusEl.textContent = "";
-                } catch (err) {
-                    console.error(err);
-                    responseEl.textContent =
-                        "Sorry, Holden’s having a breakdown and can’t answer right now.";
-                    statusEl.textContent = "Error talking to the API.";
-                } finally {
-                    button.disabled = false;
-                }
-            });
+        // If API URL is still placeholder
+        if (!HOLDEN_API_URL || HOLDEN_API_URL.includes("YOUR-CLOUD-RUN-URL-HERE")) {
+            responseEl.textContent =
+                "Holden will start talking once Ruben plugs in the API URL.";
+            statusEl.textContent = "API not connected yet.";
+            return;
         }
+
+        button.disabled = true;
+        statusEl.textContent = "Holden is thinking...";
+        responseEl.textContent = "…";
+
+        try {
+            const res = await fetch(HOLDEN_API_URL, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ prompt })
+            });
+
+            if (!res.ok) {
+                throw new Error("API error: " + res.status);
+            }
+
+            const data = await res.json();
+
+            // Your API returns exactly: { "text": "..." }
+            const text = data.text;
+
+            responseEl.textContent = text;
+            statusEl.textContent = "";
+        } catch (err) {
+            console.error(err);
+            responseEl.textContent =
+                "Sorry, Holden’s having a breakdown and can’t answer right now.";
+            statusEl.textContent = "Error talking to the API.";
+        } finally {
+            button.disabled = false;
+        }
+    });
+}
+
 
         function setActiveLink(page) {
             document.querySelectorAll('.navbar a[data-page]').forEach(a => {
