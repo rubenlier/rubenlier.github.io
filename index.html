@@ -105,7 +105,7 @@
         .map-container {
             position: relative;
             width: 100%;
-            max-width: none; 
+            max-width: none;
             margin-top: 20px;
         }
         .world-map {
@@ -113,10 +113,10 @@
             display: block;
         }
         .flag-emoji {
-    position: absolute;
-    cursor: pointer;
-    transform: translate(-50%, -50%);
-}
+            position: absolute;
+            cursor: pointer;
+            transform: translate(-50%, -50%);
+        }
         .flag-emoji::after {
             content: attr(data-tooltip);
             position: absolute;
@@ -136,6 +136,122 @@
         .flag-emoji:hover::after {
             opacity: 1;
         }
+
+        /* Holdenator styles */
+
+        .holden-form {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 0.75rem;
+        }
+
+        .holden-input {
+            flex: 1;
+            padding: 10px 12px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            font-size: 1rem;
+        }
+
+        .holden-button {
+            padding: 10px 16px;
+            border: none;
+            border-radius: 4px;
+            background-color: #222;
+            color: #fff;
+            cursor: pointer;
+            font-size: 1rem;
+            white-space: nowrap;
+        }
+
+        .holden-button:disabled {
+            opacity: 0.6;
+            cursor: default;
+        }
+
+        .holden-status {
+            min-height: 1.2em;
+            font-size: 0.9rem;
+            color: #777;
+        }
+
+        .holden-output {
+            margin-top: 20px;
+        }
+
+        .holden-image-wrapper {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+        }
+
+        .holden-image {
+            max-width: 220px;
+            height: auto;
+            flex-shrink: 0;
+        }
+
+        .holden-speech-bubble {
+            position: relative;
+            background: #f5f5f5;
+            border-radius: 16px;
+            padding: 12px 14px;
+            max-width: 100%;
+            min-height: 80px;
+            font-size: 0.95rem;
+            line-height: 1.4;
+            border: 1px solid #ddd;
+        }
+
+        .holden-speech-bubble::before {
+            content: "";
+            position: absolute;
+            left: -12px;
+            top: 40%;
+            border-top: 8px solid transparent;
+            border-bottom: 8px solid transparent;
+            border-right: 12px solid #f5f5f5;
+        }
+
+        .holden-speech-bubble::after {
+            content: "";
+            position: absolute;
+            left: -13px;
+            top: 40%;
+            border-top: 9px solid transparent;
+            border-bottom: 9px solid transparent;
+            border-right: 13px solid #ddd;
+        }
+
+        .holden-response {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        @media (max-width: 600px) {
+            .holden-image-wrapper {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .holden-speech-bubble {
+                margin-top: 10px;
+            }
+
+            .holden-speech-bubble::before,
+            .holden-speech-bubble::after {
+                left: 30px;
+                top: -14px;
+                border-right: 8px solid transparent;
+                border-left: 8px solid transparent;
+                border-bottom: 12px solid #f5f5f5;
+            }
+
+            .holden-speech-bubble::after {
+                top: -15px;
+                border-bottom-color: #ddd;
+            }
+        }
     </style>
 </head>
 <body>
@@ -145,6 +261,7 @@
             <a href="#home" data-page="home">Ruben Lier</a>
             <a href="#preprints" data-page="preprints">Preprints</a>
             <a href="#talks" data-page="talks">Talks</a>
+            <a href="#holdenator" data-page="holdenator">Holdenator</a>
         </div>
     </div>
 
@@ -174,6 +291,10 @@
     </div>
 
     <script>
+        // TODO: later, just replace this with your actual API URL
+        // e.g. "https://gpt2-lora-api-12345.europe-west4.run.app/generate"
+        const HOLDEN_API_URL = "https://YOUR-CLOUD-RUN-URL-HERE";
+
         // Pages are HTML snippets injected into #content
         const pages = {
             home: `
@@ -193,13 +314,14 @@
                 </p>
                 <img src="animation.gif" alt="Hydrodynamic simulation" class="simulation-image">
             `,
-            // Preprints stub: dynamic content loaded from paper.html
+
             preprints: `
                 <h1>My latest arXiv preprints</h1>
                 <div id="preprints-container">
                     Loading latest arXiv papers…
                 </div>
             `,
+
             talks: `
                 <h1>Talks</h1>
                 <p>
@@ -210,18 +332,53 @@
 
                     <!-- Flags: formula used: 100*{(90 - y)/180 - 0.052, (180 + x)/360 - 0.01} -->
                     <div class="flag-emoji" style="top: 17.70%; left: 48.90%;" data-tooltip="Odd Viscoelasticity Workshop (DIEP) – 1 April 2022">🚩</div>
-<div class="flag-emoji" style="top: 19.00%; left: 48.90%;" data-tooltip="NWO Physics – 23 Feb 2025">🚩</div>
-<div class="flag-emoji" style="top: 18.20%; left: 50.30%;" data-tooltip="Max Planck Institute for Dynamics and Self-Organization – 17 Sep 2024">🚩</div>
-<div class="flag-emoji" style="top: 18.40%; left: 51.30%;" data-tooltip="Max Planck Institute for the Physics of Complex Systems – 21 Sep 2024">🚩</div>
-<div class="flag-emoji" style="top: 18.40%; left: 52.20%;" data-tooltip="Wrocław University of Science and Technology – 24 Jan 2024">🚩</div>
-<div class="flag-emoji" style="top: 13.80%; left: 52.50%;" data-tooltip="Hydrodynamics at all scales (Nordita) – 8 Sep 2023">🚩</div>
-<div class="flag-emoji" style="top: 20.30%; left: 13.50%;" data-tooltip="University of Washington – 22 Nov 2024">🚩</div>
-<div class="flag-emoji" style="top: 19.90%; left: 12.20%;" data-tooltip="University of Victoria – 26 Nov 2024">🚩</div>
-<div class="flag-emoji" style="top: 19.40%; left: 13.30%;" data-tooltip="University of British Columbia – 15 Nov 2024">🚩</div>
-<div class="flag-emoji" style="top: 28.00%; left: 14.70%;" data-tooltip="APS Global Physics Summit – 17 March 2025">🚩</div>
-<div class="flag-emoji" style="top: 20.10%; left: 48.05%;" data-tooltip="Institut Curie – 15 May 2025">🚩</div>
-<div class="flag-emoji" style="top: 17.00%; left: 48.50%;" data-tooltip="DIEP Seminar (Amsterdam) – 11 Sep 2025">🚩</div>
-<div class="flag-emoji" style="top: 23.00%; left: 50.50%;" data-tooltip="Università di Genova – 29 Oct 2025">🚩</div>
+                    <div class="flag-emoji" style="top: 19.00%; left: 48.90%;" data-tooltip="NWO Physics – 23 Feb 2025">🚩</div>
+                    <div class="flag-emoji" style="top: 18.20%; left: 50.30%;" data-tooltip="Max Planck Institute for Dynamics and Self-Organization – 17 Sep 2024">🚩</div>
+                    <div class="flag-emoji" style="top: 18.40%; left: 51.30%;" data-tooltip="Max Planck Institute for the Physics of Complex Systems – 21 Sep 2024">🚩</div>
+                    <div class="flag-emoji" style="top: 18.40%; left: 52.20%;" data-tooltip="Wrocław University of Science and Technology – 24 Jan 2024">🚩</div>
+                    <div class="flag-emoji" style="top: 13.80%; left: 52.50%;" data-tooltip="Hydrodynamics at all scales (Nordita) – 8 Sep 2023">🚩</div>
+                    <div class="flag-emoji" style="top: 20.30%; left: 13.50%;" data-tooltip="University of Washington – 22 Nov 2024">🚩</div>
+                    <div class="flag-emoji" style="top: 19.90%; left: 12.20%;" data-tooltip="University of Victoria – 26 Nov 2024">🚩</div>
+                    <div class="flag-emoji" style="top: 19.40%; left: 13.30%;" data-tooltip="University of British Columbia – 15 Nov 2024">🚩</div>
+                    <div class="flag-emoji" style="top: 28.00%; left: 14.70%;" data-tooltip="APS Global Physics Summit – 17 March 2025">🚩</div>
+                    <div class="flag-emoji" style="top: 20.10%; left: 48.05%;" data-tooltip="Institut Curie – 15 May 2025">🚩</div>
+                    <div class="flag-emoji" style="top: 17.00%; left: 48.50%;" data-tooltip="DIEP Seminar (Amsterdam) – 11 Sep 2025">🚩</div>
+                    <div class="flag-emoji" style="top: 23.00%; left: 50.50%;" data-tooltip="Università di Genova – 29 Oct 2025">🚩</div>
+                </div>
+            `,
+
+            holdenator: `
+                <h1>Holdenator</h1>
+                <p>Type something below and let Holden ramble about it.</p>
+
+                <form id="holden-form" class="holden-form" autocomplete="off">
+                    <input
+                        id="holden-input"
+                        class="holden-input"
+                        type="text"
+                        placeholder="Ask Holden something..."
+                        required
+                    />
+                    <button type="submit" id="holden-submit" class="holden-button">
+                        Talk to Holden
+                    </button>
+                </form>
+
+                <p class="holden-status" id="holden-status"></p>
+
+                <div class="holden-output">
+                    <div class="holden-image-wrapper">
+                        <img
+                            src="holden.jpg"
+                            alt="Holden Caulfield"
+                            class="holden-image"
+                        />
+                        <div class="holden-speech-bubble">
+                            <div id="holden-response" class="holden-response">
+                                I’ll say something once you give me a prompt.
+                            </div>
+                        </div>
+                    </div>
                 </div>
             `
         };
@@ -244,6 +401,68 @@
             }
         }
 
+        function initHoldenatorPage() {
+            const form = document.getElementById("holden-form");
+            if (!form) return; // not on this page
+
+            const input = document.getElementById("holden-input");
+            const button = document.getElementById("holden-submit");
+            const responseEl = document.getElementById("holden-response");
+            const statusEl = document.getElementById("holden-status");
+
+            form.addEventListener("submit", async (event) => {
+                event.preventDefault();
+
+                const prompt = input.value.trim();
+                if (!prompt) return;
+
+                // If API URL is still placeholder, just show a message and bail early
+                if (!HOLDEN_API_URL || HOLDEN_API_URL.includes("YOUR-CLOUD-RUN-URL-HERE")) {
+                    responseEl.textContent =
+                        "Holden will start talking once Ruben plugs in the API URL.";
+                    statusEl.textContent = "API not connected yet.";
+                    return;
+                }
+
+                button.disabled = true;
+                statusEl.textContent = "Holden is thinking...";
+                responseEl.textContent = "…";
+
+                try {
+                    const res = await fetch(HOLDEN_API_URL, {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({ prompt })
+                    });
+
+                    if (!res.ok) {
+                        throw new Error("API error: " + res.status);
+                    }
+
+                    const data = await res.json();
+
+                    // TODO: once you know the exact response shape, set this field
+                    // For example, if your FastAPI returns {"text": "..."}:
+                    // const text = data.text;
+                    const text =
+                        data.text ||
+                        data.completion ||
+                        data.output ||
+                        JSON.stringify(data, null, 2);
+
+                    responseEl.textContent = text;
+                    statusEl.textContent = "";
+                } catch (err) {
+                    console.error(err);
+                    responseEl.textContent =
+                        "Sorry, Holden’s having a breakdown and can’t answer right now.";
+                    statusEl.textContent = "Error talking to the API.";
+                } finally {
+                    button.disabled = false;
+                }
+            });
+        }
+
         function setActiveLink(page) {
             document.querySelectorAll('.navbar a[data-page]').forEach(a => {
                 if (a.dataset.page === page) {
@@ -264,6 +483,8 @@
 
             if (page === 'preprints') {
                 loadPreprintsSnippet();
+            } else if (page === 'holdenator') {
+                initHoldenatorPage();
             }
         }
 
