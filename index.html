@@ -429,16 +429,17 @@ function initHoldenatorPage() {
         button.disabled = true;
         statusEl.textContent = "Holden is thinking...";
         responseEl.textContent = "…";
-
-        try {
+            try {
             const res = await fetch(HOLDEN_API_URL, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ prompt })
             });
 
+            // If the server responds but with non-2xx status, show that
             if (!res.ok) {
-                throw new Error("API error: " + res.status);
+                const bodyText = await res.text().catch(() => "");
+                throw new Error(`HTTP ${res.status} ${res.statusText} – ${bodyText}`);
             }
 
             const data = await res.json();
@@ -449,10 +450,10 @@ function initHoldenatorPage() {
             responseEl.textContent = text;
             statusEl.textContent = "";
         } catch (err) {
-            console.error(err);
+            console.error("Holdenator error:", err);
             responseEl.textContent =
                 "Sorry, Holden’s having a breakdown and can’t answer right now.";
-            statusEl.textContent = "Error talking to the API.";
+            statusEl.textContent = err.message || "Error talking to the API.";
         } finally {
             button.disabled = false;
         }
