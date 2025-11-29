@@ -189,8 +189,8 @@
             max-width: 220px;
             height: auto;
             flex-shrink: 0;
-    border-radius: 50%;
-    object-fit: cover;
+            border-radius: 50%;
+            object-fit: cover;
         }
 
         .holden-speech-bubble {
@@ -264,6 +264,7 @@
             <a href="#preprints" data-page="preprints">Preprints</a>
             <a href="#talks" data-page="talks">Talks</a>
             <a href="#holdenator" data-page="holdenator">Holdenator</a>
+            <!-- Notice: no link to #beta here on purpose -->
         </div>
     </div>
 
@@ -293,9 +294,16 @@
     </div>
 
     <script>
-        // TODO: later, just replace this with your actual API URL
-        // e.g. "https://gpt2-lora-api-12345.europe-west4.run.app/generate"
-        const HOLDEN_API_URL = "https://holden-hcaulfield-medium-416156146603.europe-west4.run.app/generate";
+        // API endpoints
+        // Main Holdenator page: Google Cloud Run
+        const HOLDEN_API_URL_PROD =
+            "https://holden-hcaulfield-medium-416156146603.europe-west4.run.app/generate";
+
+        // Beta page: Cloudflare tunnel that forwards to http://localhost:8000
+        // TODO: replace with your real tunnel hostname (the one used by `cloudflared tunnel run holdenator`)
+        // Example: "https://holdenator.rubenlier.nl/generate" or "https://randomname.trycloudflare.com/generate"
+        const HOLDEN_API_URL_BETA =
+            "https://YOUR-HOLDENATOR-TUNNEL-URL-HERE/generate";
 
         // Pages are HTML snippets injected into #content
         const pages = {
@@ -333,19 +341,19 @@
                     <img class="world-map" src="equirel.jpg" alt="World Map" />
 
                     <!-- Flags: formula used: 100*{(90 - y)/180 - 0.052, (180 + x)/360 - 0.01} -->
-               <div class="flag-emoji" style="top: 18.70%; left: 51.40%;" data-tooltip="Odd Viscoelasticity Workshop (DIEP) – 1 April 2022">🚩</div>
-<div class="flag-emoji" style="top: 20.00%; left: 51.40%;" data-tooltip="NWO Physics – 23 Feb 2025">🚩</div>
-<div class="flag-emoji" style="top: 19.20%; left: 52.80%;" data-tooltip="Max Planck Institute for Dynamics and Self-Organization – 17 Sep 2024">🚩</div>
-<div class="flag-emoji" style="top: 19.40%; left: 53.80%;" data-tooltip="Max Planck Institute for the Physics of Complex Systems – 21 Sep 2024">🚩</div>
-<div class="flag-emoji" style="top: 19.40%; left: 54.70%;" data-tooltip="Wrocław University of Science and Technology – 24 Jan 2024">🚩</div>
-<div class="flag-emoji" style="top: 14.80%; left: 55.00%;" data-tooltip="Hydrodynamics at all scales (Nordita) – 8 Sep 2023">🚩</div>
-<div class="flag-emoji" style="top: 21.30%; left: 16.00%;" data-tooltip="University of Washington – 22 Nov 2024">🚩</div>
-<div class="flag-emoji" style="top: 20.90%; left: 14.70%;" data-tooltip="University of Victoria – 26 Nov 2024">🚩</div>
-<div class="flag-emoji" style="top: 20.40%; left: 15.80%;" data-tooltip="University of British Columbia – 15 Nov 2024">🚩</div>
-<div class="flag-emoji" style="top: 29.00%; left: 17.20%;" data-tooltip="APS Global Physics Summit – 17 March 2025">🚩</div>
-<div class="flag-emoji" style="top: 21.10%; left: 50.55%;" data-tooltip="Institut Curie – 15 May 2025">🚩</div>
-<div class="flag-emoji" style="top: 18.00%; left: 51.00%;" data-tooltip="DIEP Seminar (Amsterdam) – 11 Sep 2025">🚩</div>
-<div class="flag-emoji" style="top: 24.00%; left: 53.00%;" data-tooltip="Università di Genova – 29 Oct 2025">🚩</div>
+                    <div class="flag-emoji" style="top: 18.70%; left: 51.40%;" data-tooltip="Odd Viscoelasticity Workshop (DIEP) – 1 April 2022">🚩</div>
+                    <div class="flag-emoji" style="top: 20.00%; left: 51.40%;" data-tooltip="NWO Physics – 23 Feb 2025">🚩</div>
+                    <div class="flag-emoji" style="top: 19.20%; left: 52.80%;" data-tooltip="Max Planck Institute for Dynamics and Self-Organization – 17 Sep 2024">🚩</div>
+                    <div class="flag-emoji" style="top: 19.40%; left: 53.80%;" data-tooltip="Max Planck Institute for the Physics of Complex Systems – 21 Sep 2024">🚩</div>
+                    <div class="flag-emoji" style="top: 19.40%; left: 54.70%;" data-tooltip="Wrocław University of Science and Technology – 24 Jan 2024">🚩</div>
+                    <div class="flag-emoji" style="top: 14.80%; left: 55.00%;" data-tooltip="Hydrodynamics at all scales (Nordita) – 8 Sep 2023">🚩</div>
+                    <div class="flag-emoji" style="top: 21.30%; left: 16.00%;" data-tooltip="University of Washington – 22 Nov 2024">🚩</div>
+                    <div class="flag-emoji" style="top: 20.90%; left: 14.70%;" data-tooltip="University of Victoria – 26 Nov 2024">🚩</div>
+                    <div class="flag-emoji" style="top: 20.40%; left: 15.80%;" data-tooltip="University of British Columbia – 15 Nov 2024">🚩</div>
+                    <div class="flag-emoji" style="top: 29.00%; left: 17.20%;" data-tooltip="APS Global Physics Summit – 17 March 2025">🚩</div>
+                    <div class="flag-emoji" style="top: 21.10%; left: 50.55%;" data-tooltip="Institut Curie – 15 May 2025">🚩</div>
+                    <div class="flag-emoji" style="top: 18.00%; left: 51.00%;" data-tooltip="DIEP Seminar (Amsterdam) – 11 Sep 2025">🚩</div>
+                    <div class="flag-emoji" style="top: 24.00%; left: 53.00%;" data-tooltip="Università di Genova – 29 Oct 2025">🚩</div>
                 </div>
             `,
 
@@ -363,6 +371,48 @@
                     />
                     <button type="submit" id="holden-submit" class="holden-button">
                         Talk to Holden
+                    </button>
+                </form>
+
+                <p class="holden-status" id="holden-status"></p>
+
+                <div class="holden-output">
+                    <div class="holden-image-wrapper">
+                        <img
+                            src="holden.jpg"
+                            alt="Holden Caulfield"
+                            class="holden-image"
+                        />
+                        <div class="holden-speech-bubble">
+                            <div id="holden-response" class="holden-response">
+                                I’ll say something once you give me a prompt.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `,
+
+            // BETA PAGE (hidden route: #beta)
+            // - same structure as Holdenator
+            // - no navbar (handled in loadPage)
+            // - uses HOLDEN_API_URL_BETA (Cloudflare tunnel → localhost:8000)
+            beta: `
+                <h1>Holdenator (beta)</h1>
+                <p>
+                    This beta version runs on Ruben's laptop via a Cloudflare tunnel.
+                    If the tunnel or laptop is offline, it won’t respond.
+                </p>
+
+                <form id="holden-form" class="holden-form" autocomplete="off">
+                    <input
+                        id="holden-input"
+                        class="holden-input"
+                        type="text"
+                        placeholder="If you really want to hear about it..."
+                        required
+                    />
+                    <button type="submit" id="holden-submit" class="holden-button">
+                        Talk to Holden (beta)
                     </button>
                 </form>
 
@@ -403,63 +453,65 @@
             }
         }
 
-function initHoldenatorPage() {
-    const form = document.getElementById("holden-form");
-    if (!form) return; // not on this page
+        function initHoldenatorPage(page) {
+            const form = document.getElementById("holden-form");
+            if (!form) return; // not on this page
 
-    const input = document.getElementById("holden-input");
-    const button = document.getElementById("holden-submit");
-    const responseEl = document.getElementById("holden-response");
-    const statusEl = document.getElementById("holden-status");
+            const input = document.getElementById("holden-input");
+            const button = document.getElementById("holden-submit");
+            const responseEl = document.getElementById("holden-response");
+            const statusEl = document.getElementById("holden-status");
 
-    form.addEventListener("submit", async (event) => {
-        event.preventDefault();
+            // Choose API URL based on page
+            const apiUrl = page === "beta" ? HOLDEN_API_URL_BETA : HOLDEN_API_URL_PROD;
 
-        const prompt = input.value.trim();
-        if (!prompt) return;
+            form.addEventListener("submit", async (event) => {
+                event.preventDefault();
 
-        // If API URL is still placeholder
-        if (!HOLDEN_API_URL || HOLDEN_API_URL.includes("YOUR-CLOUD-RUN-URL-HERE")) {
-            responseEl.textContent =
-                "Holden will start talking once Ruben plugs in the API URL.";
-            statusEl.textContent = "API not connected yet.";
-            return;
-        }
+                const prompt = input.value.trim();
+                if (!prompt) return;
 
-        button.disabled = true;
-        statusEl.textContent = "Holden is thinking...";
-        responseEl.textContent = "…";
-            try {
-            const res = await fetch(HOLDEN_API_URL, {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ prompt })
+                // If API URL is still placeholder or missing
+                if (
+                    !apiUrl ||
+                    apiUrl.includes("YOUR-HOLDENATOR-TUNNEL-URL-HERE")
+                ) {
+                    responseEl.textContent =
+                        "Holden will start talking once Ruben plugs in the API URL.";
+                    statusEl.textContent = "API not connected yet.";
+                    return;
+                }
+
+                button.disabled = true;
+                statusEl.textContent = "Holden is thinking...";
+                responseEl.textContent = "…";
+
+                try {
+                    const res = await fetch(apiUrl, {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({ prompt })
+                    });
+
+                    if (!res.ok) {
+                        const bodyText = await res.text().catch(() => "");
+                        throw new Error(`HTTP ${res.status} ${res.statusText} – ${bodyText}`);
+                    }
+
+                    const data = await res.json();
+                    const text = data.text;
+                    responseEl.textContent = text;
+                    statusEl.textContent = "";
+                } catch (err) {
+                    console.error("Holdenator error:", err);
+                    responseEl.textContent =
+                        "Sorry, Holden’s having a breakdown and can’t answer right now.";
+                    statusEl.textContent = err.message || "Error talking to the API.";
+                } finally {
+                    button.disabled = false;
+                }
             });
-
-            // If the server responds but with non-2xx status, show that
-            if (!res.ok) {
-                const bodyText = await res.text().catch(() => "");
-                throw new Error(`HTTP ${res.status} ${res.statusText} – ${bodyText}`);
-            }
-
-            const data = await res.json();
-
-            // Your API returns exactly: { "text": "..." }
-            const text = data.text;
-
-            responseEl.textContent = text;
-            statusEl.textContent = "";
-        } catch (err) {
-            console.error("Holdenator error:", err);
-            responseEl.textContent =
-                "Sorry, Holden’s having a breakdown and can’t answer right now.";
-            statusEl.textContent = err.message || "Error talking to the API.";
-        } finally {
-            button.disabled = false;
         }
-    });
-}
-
 
         function setActiveLink(page) {
             document.querySelectorAll('.navbar a[data-page]').forEach(a => {
@@ -477,12 +529,22 @@ function initHoldenatorPage() {
                 page = 'home'; // fallback
             }
             contentDiv.innerHTML = pages[page];
-            setActiveLink(page);
+
+            const navbar = document.querySelector('.navbar');
+
+            // For the beta page: hide navbar completely (no way back via clicks)
+            if (page === 'beta') {
+                if (navbar) navbar.style.display = 'none';
+            } else {
+                // For all other pages: show navbar and highlight active link
+                if (navbar) navbar.style.display = 'flex';
+                setActiveLink(page);
+            }
 
             if (page === 'preprints') {
                 loadPreprintsSnippet();
-            } else if (page === 'holdenator') {
-                initHoldenatorPage();
+            } else if (page === 'holdenator' || page === 'beta') {
+                initHoldenatorPage(page);
             }
         }
 
