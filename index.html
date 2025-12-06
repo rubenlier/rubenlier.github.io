@@ -254,6 +254,25 @@
                 border-bottom-color: #ddd;
             }
         }
+
+        /* FAMILIER full-screen view */
+
+        .familier-root {
+            position: fixed;
+            inset: 0;
+            background-color: #fff;
+            display: none; /* only shown when #familier is active */
+            align-items: center;
+            justify-content: center;
+            z-index: 9999; /* above navbar/layout */
+        }
+
+        .familier-root img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -264,7 +283,7 @@
             <a href="#preprints" data-page="preprints">Preprints</a>
             <a href="#talks" data-page="talks">Talks</a>
             <a href="#holdenator" data-page="holdenator">Holdenator</a>
-            <!-- Notice: no link to #beta here on purpose -->
+            <!-- Notice: no link to #beta or #familier here on purpose -->
         </div>
     </div>
 
@@ -293,6 +312,12 @@
         <div class="content" id="content"></div>
     </div>
 
+    <!-- FAMILIER full-screen picture -->
+    <!-- Change familier.jpg to the actual filename you want to show -->
+    <div id="familier-root" class="familier-root">
+        <img src="familier.png" alt="Familier">
+    </div>
+
     <script>
         // API endpoints
         // Main Holdenator page: Google Cloud Run
@@ -300,11 +325,8 @@
             "https://holden-hcaulfield-medium-416156146603.europe-west4.run.app/generate";
 
         // Beta page: Cloudflare tunnel that forwards to http://localhost:8000
-        // TODO: replace with your real tunnel hostname (the one used by `cloudflared tunnel run holdenator`)
-        // Example: "https://holdenator.rubenlier.nl/generate" or "https://randomname.trycloudflare.com/generate"
-        const HOLDEN_API_URL_BETA = 
+        const HOLDEN_API_URL_BETA =
             "https://holden-hcaulfield-medium-416156146603.europe-west4.run.app/generate";
-
 
         // Pages are HTML snippets injected into #content
         const pages = {
@@ -395,9 +417,6 @@
             `,
 
             // BETA PAGE (hidden route: #beta)
-            // - same structure as Holdenator
-            // - no navbar (handled in loadPage)
-            // - uses HOLDEN_API_URL_BETA (Cloudflare tunnel → localhost:8000)
             beta: `
                 <h1>Holdenator (beta)</h1>
                 <p>
@@ -474,10 +493,7 @@
                 if (!prompt) return;
 
                 // If API URL is still placeholder or missing
-                if (
-                    !apiUrl ||
-                    apiUrl.includes("YOUR-HOLDENATOR-TUNNEL-URL-HERE")
-                ) {
+                if (!apiUrl || apiUrl.includes("YOUR-HOLDENATOR-TUNNEL-URL-HERE")) {
                     responseEl.textContent =
                         "Holden will start talking once Ruben plugs in the API URL.";
                     statusEl.textContent = "API not connected yet.";
@@ -526,19 +542,37 @@
         }
 
         function loadPage(page) {
+            const navbar = document.querySelector('.navbar');
+            const layout = document.querySelector('.layout');
+            const familierRoot = document.getElementById('familier-root');
             const contentDiv = document.getElementById('content');
+
+            // --- Special case: familier (standalone picture, no wrapper) ---
+            if (page === 'familier') {
+                // Hide normal UI
+                if (navbar) navbar.style.display = 'none';
+                if (layout) layout.style.display = 'none';
+
+                // Show familier overlay
+                if (familierRoot) familierRoot.style.display = 'flex';
+
+                return; // don't touch pages[] / content / navbar highlighting
+            }
+
+            // For all other pages: hide familier overlay and show layout
+            if (familierRoot) familierRoot.style.display = 'none';
+            if (layout) layout.style.display = 'flex';
+
+            // Normal SPA page handling
             if (!pages[page]) {
                 page = 'home'; // fallback
             }
             contentDiv.innerHTML = pages[page];
 
-            const navbar = document.querySelector('.navbar');
-
-            // For the beta page: hide navbar completely (no way back via clicks)
+            // Navbar logic
             if (page === 'beta') {
                 if (navbar) navbar.style.display = 'none';
             } else {
-                // For all other pages: show navbar and highlight active link
                 if (navbar) navbar.style.display = 'flex';
                 setActiveLink(page);
             }
