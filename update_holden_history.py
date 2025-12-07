@@ -14,7 +14,7 @@ DISALLOWED_PROMPT_PATTERNS = [
     "nazi",
     "moeder",
     "jood",
-    "neger".
+    "neger",
     "nigger",
     "flikker",
     "fuck"
@@ -78,3 +78,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
