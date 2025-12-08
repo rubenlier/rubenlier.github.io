@@ -2,7 +2,7 @@ name: Update Holden history
 
 on:
   schedule:
-    - cron: "0 4 * * *"   # every day at 04:00 UTC (adjust if you want)
+    - cron: "0 4 * * *"   # every day at 04:00 UTC
   workflow_dispatch:       # allow manual run via GitHub UI
 
 jobs:
@@ -31,12 +31,15 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          if git diff --quiet; then
+          git add holden_history.html
+
+          # Check if there's anything staged (including new files)
+          if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
           fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add holden_history.html
           git commit -m "Update Holden history snippet"
           git push
