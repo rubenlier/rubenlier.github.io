@@ -446,43 +446,47 @@
 
             // BETA PAGE (hidden route: #beta)
             beta: `
-                <h1>Holdenator (beta)</h1>
-                <p>Let Holden Caulfield finish your sentence.</p>
+               beta: `
+    <h1>Holdenator (beta)</h1>
+    <p>Let Holden Caulfield finish your sentence.</p>
 
-                <form id="holden-form" class="holden-form" autocomplete="off">
-                    <input
-                        id="holden-input"
-                        class="holden-input"
-                        type="text"
-                        placeholder="If you really want to hear about it..."
-                        required
-                    />
-                    <button type="submit" id="holden-submit" class="holden-button">
-                        Talk to Holden
-                    </button>
-                </form>
+    <form id="holden-form" class="holden-form" autocomplete="off">
+        <input
+            id="holden-input"
+            class="holden-input"
+            type="text"
+            placeholder="If you really want to hear about it..."
+            required
+        />
+        <button type="submit" id="holden-submit" class="holden-button">
+            Talk to Holden
+        </button>
+    </form>
 
-                <p class="holden-status" id="holden-status"></p>
+    <p class="holden-status" id="holden-status"></p>
 
-                <!-- History sits directly under the prompt bar -->
-                <div id="holden-history" class="holden-history">
-                    Loading history…
+    <!-- OUTPUT should be ABOVE history -->
+    <div class="holden-output">
+        <div class="holden-image-wrapper">
+            <img
+                src="holden.jpg"
+                alt="Holden Caulfield"
+                class="holden-image"
+            />
+            <div class="holden-speech-bubble">
+                <div id="holden-response" class="holden-response">
+                    I’ll say something once you give me a prompt.
                 </div>
+            </div>
+        </div>
+    </div>
 
-                <div class="holden-output">
-                    <div class="holden-image-wrapper">
-                        <img
-                            src="holden.jpg"
-                            alt="Holden Caulfield"
-                            class="holden-image"
-                        />
-                        <div class="holden-speech-bubble">
-                            <div id="holden-response" class="holden-response">
-                                I’ll say something once you give me a prompt.
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <!-- History sits BELOW the current output -->
+    <div id="holden-history" class="holden-history">
+        Loading history…
+    </div>
+`
+
             `
         };
 
