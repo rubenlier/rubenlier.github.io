@@ -138,7 +138,6 @@
         }
 
         /* Holdenator styles */
-
         .holden-form {
             display: flex;
             gap: 10px;
@@ -284,7 +283,6 @@
         }
 
         /* FAMILIER full-screen view */
-
         .familier-root {
             position: fixed;
             inset: 0;
@@ -341,18 +339,15 @@
     </div>
 
     <!-- FAMILIER full-screen picture -->
-    <!-- Change familier.png to the actual filename you want to show -->
     <div id="familier-root" class="familier-root">
         <img src="familier.png" alt="Familier">
     </div>
 
     <script>
         // API endpoints
-        // Main Holdenator page: Google Cloud Run
         const HOLDEN_API_URL_PROD =
             "https://holden-hcaulfield-medium-416156146603.europe-west4.run.app/generate";
 
-        // Beta page (currently same endpoint; page differs by UI + history)
         const HOLDEN_API_URL_BETA =
             "https://holden-hcaulfield-medium-416156146603.europe-west4.run.app/generate";
 
@@ -445,47 +440,45 @@
             `,
 
             // BETA PAGE (hidden route: #beta)
-      beta: `
-    <h1>Holdenator (beta)</h1>
-    <p>Let Holden Caulfield finish your sentence.</p>
+            beta: `
+                <h1>Holdenator (beta)</h1>
+                <p>Let Holden Caulfield finish your sentence.</p>
 
-    <form id="holden-form" class="holden-form" autocomplete="off">
-        <input
-            id="holden-input"
-            class="holden-input"
-            type="text"
-            placeholder="If you really want to hear about it..."
-            required
-        />
-        <button type="submit" id="holden-submit" class="holden-button">
-            Talk to Holden
-        </button>
-    </form>
+                <form id="holden-form" class="holden-form" autocomplete="off">
+                    <input
+                        id="holden-input"
+                        class="holden-input"
+                        type="text"
+                        placeholder="If you really want to hear about it..."
+                        required
+                    />
+                    <button type="submit" id="holden-submit" class="holden-button">
+                        Talk to Holden
+                    </button>
+                </form>
 
-    <p class="holden-status" id="holden-status"></p>
+                <p class="holden-status" id="holden-status"></p>
 
-    <!-- OUTPUT should be ABOVE history -->
-    <div class="holden-output">
-        <div class="holden-image-wrapper">
-            <img
-                src="holden.jpg"
-                alt="Holden Caulfield"
-                class="holden-image"
-            />
-            <div class="holden-speech-bubble">
-                <div id="holden-response" class="holden-response">
-                    I’ll say something once you give me a prompt.
+                <!-- OUTPUT should be ABOVE history -->
+                <div class="holden-output">
+                    <div class="holden-image-wrapper">
+                        <img
+                            src="holden.jpg"
+                            alt="Holden Caulfield"
+                            class="holden-image"
+                        />
+                        <div class="holden-speech-bubble">
+                            <div id="holden-response" class="holden-response">
+                                I’ll say something once you give me a prompt.
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
 
-    <!-- History sits BELOW the current output -->
-    <div id="holden-history" class="holden-history">
-        Loading history…
-    </div>
-`,
-
+                <!-- History sits BELOW the current output -->
+                <div id="holden-history" class="holden-history">
+                    Loading history…
+                </div>
             `
         };
 
@@ -677,12 +670,10 @@
             if (layout) layout.style.display = 'flex';
 
             // Normal SPA page handling
-            if (!pages[page]) {
-                page = 'home'; // fallback
-            }
+            if (!pages[page]) page = 'home';
             contentDiv.innerHTML = pages[page];
 
-            // Navbar logic (keep as you have it now)
+            // Navbar logic
             if (page === 'beta') {
                 if (navbar) navbar.style.display = 'none';
             } else {
@@ -694,11 +685,7 @@
                 loadPreprintsSnippet();
             } else if (page === 'holdenator' || page === 'beta') {
                 initHoldenatorPage(page);
-
-                // Only beta shows history
-                if (page === 'beta') {
-                    loadHoldenHistory();
-                }
+                if (page === 'beta') loadHoldenHistory();
             }
         }
 
