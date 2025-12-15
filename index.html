@@ -255,6 +255,34 @@
             }
         }
 
+        /* Holden history (beta) */
+        .holden-history {
+            margin-top: 14px;
+            border-top: 1px solid #eee;
+            padding-top: 12px;
+        }
+
+        .holden-history-item {
+            border: 1px solid #eee;
+            border-radius: 12px;
+            padding: 10px 12px;
+            margin-bottom: 10px;
+            background: #fafafa;
+        }
+
+        .holden-history-date {
+            font-size: 0.85rem;
+            color: #777;
+            margin-bottom: 6px;
+        }
+
+        .holden-history-text {
+            font-size: 0.95rem;
+            line-height: 1.4;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
         /* FAMILIER full-screen view */
 
         .familier-root {
@@ -313,7 +341,7 @@
     </div>
 
     <!-- FAMILIER full-screen picture -->
-    <!-- Change familier.jpg to the actual filename you want to show -->
+    <!-- Change familier.png to the actual filename you want to show -->
     <div id="familier-root" class="familier-root">
         <img src="familier.png" alt="Familier">
     </div>
@@ -324,7 +352,7 @@
         const HOLDEN_API_URL_PROD =
             "https://holden-hcaulfield-medium-416156146603.europe-west4.run.app/generate";
 
-        // Beta page: Cloudflare tunnel that forwards to http://localhost:8000
+        // Beta page (currently same endpoint; page differs by UI + history)
         const HOLDEN_API_URL_BETA =
             "https://holden-hcaulfield-medium-416156146603.europe-west4.run.app/generate";
 
@@ -419,10 +447,7 @@
             // BETA PAGE (hidden route: #beta)
             beta: `
                 <h1>Holdenator (beta)</h1>
-                <p>
-                    This beta version runs on Ruben's laptop via a Cloudflare tunnel.
-                    If the tunnel or laptop is offline, it won’t respond.
-                </p>
+                <p>Let Holden Caulfield finish your sentence.</p>
 
                 <form id="holden-form" class="holden-form" autocomplete="off">
                     <input
@@ -433,11 +458,16 @@
                         required
                     />
                     <button type="submit" id="holden-submit" class="holden-button">
-                        Talk to Holden (beta)
+                        Talk to Holden
                     </button>
                 </form>
 
                 <p class="holden-status" id="holden-status"></p>
+
+                <!-- History sits directly under the prompt bar -->
+                <div id="holden-history" class="holden-history">
+                    Loading history…
+                </div>
 
                 <div class="holden-output">
                     <div class="holden-image-wrapper">
@@ -471,6 +501,86 @@
             } catch (err) {
                 console.error(err);
                 container.innerHTML = '<p>Error loading preprints.</p>';
+            }
+        }
+
+        // --- helpers for history rendering ---
+        function escapeHtml(s) {
+            return (s || "")
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#39;");
+        }
+
+        function escapeRegExp(s) {
+            return (s || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+        }
+
+        async function loadHoldenHistory() {
+            const container = document.getElementById("holden-history");
+            if (!container) return;
+
+            try {
+                const res = await fetch("holden_history.html", { cache: "no-cache" });
+                if (!res.ok) {
+                    container.innerHTML = "<p>Could not load history.</p>";
+                    return;
+                }
+
+                const html = await res.text();
+                const doc = new DOMParser().parseFromString(html, "text/html");
+                const items = Array.from(doc.querySelectorAll("li"));
+
+                if (!items.length) {
+                    container.innerHTML = "<p>No history yet.</p>";
+                    return;
+                }
+
+                container.innerHTML = items.map(li => {
+                    const date = (li.querySelector("strong")?.textContent || "").trim();
+
+                    // Pattern: <em>Prompt:</em> PROMPT<br><em>Holden:</em> HOLDEN_TEXT
+                    const liHtml = li.innerHTML;
+
+                    const promptMatch = liHtml.match(/<em>\s*Prompt:\s*<\/em>\s*([\s\S]*?)<br\s*\/?>/i);
+                    const holdenMatch = liHtml.match(/<em>\s*Holden:\s*<\/em>\s*([\s\S]*)$/i);
+
+                    const prompt = promptMatch ? promptMatch[1].replace(/<[^>]*>/g, "").trim() : "";
+                    const holdenHtml = holdenMatch ? holdenMatch[1].trim() : "";
+
+                    // Decode entities and strip HTML tags safely by using textContent
+                    const tmp = document.createElement("div");
+                    tmp.innerHTML = holdenHtml;
+                    const holdenTextRaw = (tmp.textContent || "").trim();
+
+                    // Bold prompt portion inside output
+                    let rendered;
+                    if (prompt && holdenTextRaw.startsWith(prompt)) {
+                        rendered =
+                            "<strong>" + escapeHtml(prompt) + "</strong>" +
+                            escapeHtml(holdenTextRaw.slice(prompt.length));
+                    } else if (prompt && holdenTextRaw.includes(prompt)) {
+                        rendered = escapeHtml(holdenTextRaw).replace(
+                            new RegExp(escapeRegExp(prompt)),
+                            "<strong>" + escapeHtml(prompt) + "</strong>"
+                        );
+                    } else {
+                        rendered = escapeHtml(holdenTextRaw);
+                    }
+
+                    return `
+                        <div class="holden-history-item">
+                            <div class="holden-history-date">${escapeHtml(date)}</div>
+                            <div class="holden-history-text">${rendered}</div>
+                        </div>
+                    `;
+                }).join("");
+
+            } catch (err) {
+                console.error(err);
+                container.innerHTML = "<p>Error loading history.</p>";
             }
         }
 
@@ -569,7 +679,7 @@
             }
             contentDiv.innerHTML = pages[page];
 
-            // Navbar logic
+            // Navbar logic (keep as you have it now)
             if (page === 'beta') {
                 if (navbar) navbar.style.display = 'none';
             } else {
@@ -581,6 +691,11 @@
                 loadPreprintsSnippet();
             } else if (page === 'holdenator' || page === 'beta') {
                 initHoldenatorPage(page);
+
+                // Only beta shows history
+                if (page === 'beta') {
+                    loadHoldenHistory();
+                }
             }
         }
 
