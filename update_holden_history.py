@@ -47,7 +47,7 @@ def fetch_recent_rows(limit=50):
     return r.json()
 
 
-def build_history_html(rows, keep=5):
+def build_history_html(rows, keep=10):
     filtered = []
     for row in rows:
         prompt = row.get("prompt") or ""
@@ -93,7 +93,7 @@ def build_history_html(rows, keep=5):
 
 def main():
     rows = fetch_recent_rows(limit=50)
-    html_snippet = build_history_html(rows, keep=5)
+    html_snippet = build_history_html(rows, keep=10)
 
     out_path = "holden_history.html"
     with open(out_path, "w", encoding="utf-8") as f:
@@ -104,3 +104,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
