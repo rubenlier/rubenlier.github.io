@@ -1,6 +1,7 @@
 import os
 import requests
 import html
+from datetime import datetime
 
 SUPABASE_URL = os.environ["SUPABASE_URL"].rstrip("/")
 SUPABASE_SERVICE_KEY = os.environ["SUPABASE_SERVICE_KEY"]
@@ -33,7 +34,6 @@ def is_allowed_prompt(prompt: str) -> bool:
 def fetch_recent_rows(limit=50):
     url = f"{SUPABASE_URL}/rest/v1/{TABLE}"
     params = {
-        # now also fetch response + timestamp
         "select": "prompt,response,created_at",
         "order": "created_at.desc",
         "limit": str(limit),
@@ -61,15 +61,18 @@ def build_history_html(rows, keep=5):
         return "<p>No recent prompts yet.</p>\n"
 
     lines = ["<ul>"]
+
     for row in filtered:
         prompt = row.get("prompt") or ""
         response = row.get("response") or ""
         created_at = row.get("created_at") or ""
 
-        # show just the date part if it's an ISO timestamp
-        if "T" in created_at:
-            created_display = created_at.split("T", 1)[0]
-        else:
+        # Parse database timestamp (ISO-8601) → display date + time
+        try:
+            dt = datetime.fromisoformat(created_at.replace("Z", "+00:00"))
+            created_display = dt.strftime("%Y-%m-%d %H:%M")
+        except Exception:
+            # Fallback: show raw string if parsing fails
             created_display = created_at
 
         prompt_safe = html.escape(prompt)
