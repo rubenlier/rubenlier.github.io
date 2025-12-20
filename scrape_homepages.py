@@ -267,10 +267,13 @@ def scrape_source(client: httpx.Client, src: SourceCfg, max_items: int, sleep_s:
 
 
 def write_jsonl(path: str, rows: List[Dict[str, Any]]) -> None:
-    os.makedirs(os.path.dirname(path), exist_ok=True)
+    dir_ = os.path.dirname(path)
+    if dir_:
+        os.makedirs(dir_, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         for r in rows:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
+
 
 
 def main():
@@ -319,4 +322,5 @@ def main():
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
 
