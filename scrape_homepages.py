@@ -276,8 +276,7 @@ def write_jsonl(path: str, rows: List[Dict[str, Any]]) -> None:
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--sources", default="sources.yaml")
-    ap.add_argument("--out", default="data/headlines_latest.jsonl")
-    ap.add_argument("--archive_dir", default="data/archive", help="set empty to disable")
+    ap.add_argument("--out", default="headlines_latest.jsonl")
     ap.add_argument("--per_site", type=int, default=25)
     ap.add_argument("--sleep", type=float, default=1.0)
     args = ap.parse_args()
@@ -313,11 +312,6 @@ def main():
     # Write latest
     write_jsonl(args.out, deduped)
 
-    # Optional archive snapshot
-    if args.archive_dir:
-        day = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-        archive_path = os.path.join(args.archive_dir, f"headlines_{day}.jsonl")
-        write_jsonl(archive_path, deduped)
 
     print(f"Wrote {len(deduped)} headlines to {args.out}")
     return 0
@@ -325,3 +319,4 @@ def main():
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
