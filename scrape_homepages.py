@@ -267,19 +267,17 @@ def scrape_source(client: httpx.Client, src: SourceCfg, max_items: int, sleep_s:
 
 
 def write_jsonl(path: str, rows: List[Dict[str, Any]]) -> None:
-    dir_ = os.path.dirname(path)
-    if dir_:
-        os.makedirs(dir_, exist_ok=True)
+    os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         for r in rows:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
 
 
-
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--sources", default="sources.yaml")
-    ap.add_argument("--out", default="headlines_latest.jsonl")
+    ap.add_argument("--out", default="data/headlines_latest.jsonl")
+    ap.add_argument("--archive_dir", default="data/archive", help="set empty to disable")
     ap.add_argument("--per_site", type=int, default=25)
     ap.add_argument("--sleep", type=float, default=1.0)
     args = ap.parse_args()
@@ -315,12 +313,16 @@ def main():
     # Write latest
     write_jsonl(args.out, deduped)
 
-
+    # Optional archive snapshot
+    #if args.archive_dir:
+    #    day = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    #    archive_path = os.path.join(args.archive_dir, f"headlines_{day}.jsonl")
+    #    write_jsonl(archive_path, deduped)
+    #
+    
     print(f"Wrote {len(deduped)} headlines to {args.out}")
     return 0
 
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
-
