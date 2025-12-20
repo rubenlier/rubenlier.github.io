@@ -38,9 +38,13 @@ jobs:
 
       - name: Commit and push if changed
         run: |
+          set -eux
+          git status
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/headlines_latest.jsonl data/archive || true
-          git diff --cached --quiet || git commit -m "Daily scrape update"
+          git add headlines_latest.jsonl
+          git diff --cached --quiet || git commit -m "Update headlines_latest"
           git push
+
+
 
