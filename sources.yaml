@@ -2,13 +2,153 @@
 sources:
   - name: BBC
     url: https://www.bbc.com
-    allow_url_regex: '(?i)bbc\.com/(news|sport|business|future|science|technology)'
+    allow_url_regex: '(?i)(bbc\.com|bbc\.co\.uk)/(news|sport|business)/articles/'
     deny_url_regex: '(?i)/(live|av|video|audio|signin|register|privacy|cookies)'
+
   - name: NOS
     url: https://nos.nl
     allow_url_regex: '(?i)nos\.nl/artikel/'
     deny_url_regex: '(?i)/(video|live)'
+
   - name: The Guardian
     url: https://www.theguardian.com/international
-    allow_url_regex: '(?i)theguardian\.com/'
+    allow_url_regex: '(?i)theguardian\.com/.+/\d{4}/[a-z]{3}/\d{1,2}/'
     deny_url_regex: '(?i)/(live|video|audio|help|info|privacy|cookies)'
+
+  # --- Germany (DE) ---
+  - name: Tagesschau
+    url: https://www.tagesschau.de
+    allow_url_regex: '(?i)tagesschau\.de/.+'
+    deny_url_regex: '(?i)/(multimedia|video|audio|livestream|wetter|kontakt|impressum|datenschutz)'
+
+  - name: DW
+    url: https://www.dw.com/en/top-stories/s-9097
+    allow_url_regex: '(?i)dw\.com/.+'
+    deny_url_regex: '(?i)/(av-|media|podcast|datenschutz|imprint)'
+
+  - name: Spiegel
+    url: https://www.spiegel.de/international/
+    allow_url_regex: '(?i)spiegel\.de/.+'
+    deny_url_regex: '(?i)/(video|audio|podcast|spiegel-tv|datenschutz|impressum)'
+
+  - name: Süddeutsche Zeitung
+    url: https://www.sueddeutsche.de
+    allow_url_regex: '(?i)sueddeutsche\.de/.+'
+    deny_url_regex: '(?i)/(video|podcast|datenschutz|impressum)'
+
+  - name: FAZ
+    url: https://www.faz.net/aktuell/
+    allow_url_regex: '(?i)faz\.net/aktuell/.+'
+    deny_url_regex: '(?i)/(video|podcast|datenschutz|impressum)'
+
+  # --- France (FR) ---
+  - name: Le Monde (FR)
+    url: https://www.lemonde.fr
+    # Le Monde commonly uses /<section>/article/YYYY/MM/DD/... or similar in sitemaps :contentReference[oaicite:1]{index=1}
+    allow_url_regex: '(?i)lemonde\.fr/.+/article/'
+    deny_url_regex: '(?i)/(video|en-direct|live|podcasts|privacy|cookies)'
+
+  - name: France 24 (FR)
+    url: https://www.france24.com/fr/
+    allow_url_regex: '(?i)france24\.com/fr/.+'
+    deny_url_regex: '(?i)/(direct|live|video|podcast|privacy|cookies)'
+
+  - name: RFI
+    url: https://www.rfi.fr/fr/
+    allow_url_regex: '(?i)rfi\.fr/fr/.+'
+    deny_url_regex: '(?i)/(direct|live|podcasts|video|privacy|cookies)'
+
+  - name: Le Figaro
+    url: https://www.lefigaro.fr
+    allow_url_regex: '(?i)lefigaro\.fr/.+'
+    deny_url_regex: '(?i)/(video|podcast|privacy|cookies)'
+
+  # --- Switzerland (CH) ---
+  - name: SWI swissinfo
+    url: https://www.swissinfo.ch/eng
+    allow_url_regex: '(?i)swissinfo\.ch/.+'
+    deny_url_regex: '(?i)/(multimedia|video|audio|privacy|cookies)'
+
+  - name: RTS
+    url: https://www.rts.ch/info/
+    allow_url_regex: '(?i)rts\.ch/info/.+'
+    deny_url_regex: '(?i)/(video|audio|direct|live|privacy|cookies)'
+
+  # --- Canada (CA) ---
+  - name: CBC
+    url: https://www.cbc.ca/news
+    allow_url_regex: '(?i)cbc\.ca/news/.+'
+    deny_url_regex: '(?i)/(video|player|live|privacy|cookies)'
+
+  - name: Global News (CA)
+    url: https://globalnews.ca
+    allow_url_regex: '(?i)globalnews\.ca/news/.+'
+    deny_url_regex: '(?i)/(video|watch|live|privacy|cookies)'
+
+  - name: The Globe and Mail
+    url: https://www.theglobeandmail.com
+    allow_url_regex: '(?i)theglobeandmail\.com/.+'
+    deny_url_regex: '(?i)/(video|podcasts|privacy|cookies)'
+
+  # --- Australia (AU) ---
+  - name: ABC News AU
+    url: https://www.abc.net.au/news
+    allow_url_regex: '(?i)abc\.net\.au/news/.+'
+    deny_url_regex: '(?i)/(video|listen|live|privacy|cookies)'
+
+  - name: SBS News AU
+    url: https://www.sbs.com.au/news
+    allow_url_regex: '(?i)sbs\.com\.au/news/.+'
+    deny_url_regex: '(?i)/(video|podcast|audio|privacy|cookies)'
+
+  - name: The Guardian AU
+    url: https://www.theguardian.com/au
+    allow_url_regex: '(?i)theguardian\.com/.+/\d{4}/[a-z]{3}/\d{1,2}/'
+    deny_url_regex: '(?i)/(live|video|audio|help|info|privacy|cookies)'
+
+  # --- Spanish (incl. Mexico) ---
+  - name: El Pais
+    url: https://elpais.com
+    allow_url_regex: '(?i)elpais\.com/.+'
+    deny_url_regex: '(?i)/(videos|audio|podcast|privacidad|cookies)'
+
+  - name: El Universal (MX)
+    url: https://www.eluniversal.com.mx
+    allow_url_regex: '(?i)eluniversal\.com\.mx/.+'
+    deny_url_regex: '(?i)/(video|galeria|privacy|cookies)'
+
+  - name: Milenio (MX)
+    url: https://www.milenio.com
+    allow_url_regex: '(?i)milenio\.com/.+'
+    deny_url_regex: '(?i)/(video|opinion|podcast|privacy|cookies)'
+
+  # --- US / English ---
+  - name: Associated Press
+    url: https://apnews.com
+    allow_url_regex: '(?i)apnews\.com/article/'
+    deny_url_regex: '(?i)/(video|hub|live|privacy|cookies)'
+
+  - name: Reuters
+    url: https://www.reuters.com/world/
+    allow_url_regex: '(?i)reuters\.com/.+/article/'
+    deny_url_regex: '(?i)/(video|graphics|live|privacy|cookies)'
+
+  - name: NYT
+    url: https://www.nytimes.com
+    allow_url_regex: '(?i)nytimes\.com/\d{4}/\d{2}/\d{2}/'
+    deny_url_regex: '(?i)/(interactive|video|live|wirecutter|crosswords|privacy|cookies)'
+
+  - name: Washington Post
+    url: https://www.washingtonpost.com
+    allow_url_regex: '(?i)washingtonpost\.com/.+/\d{4}/\d{2}/\d{2}/'
+    deny_url_regex: '(?i)/(video|podcasts|games|privacy|cookies)'
+
+  - name: WSJ
+    url: https://www.wsj.com
+    allow_url_regex: '(?i)wsj\.com/articles/'
+    deny_url_regex: '(?i)/(video|podcasts|live|privacy|cookies)'
+
+  - name: LA Times
+    url: https://www.latimes.com
+    allow_url_regex: '(?i)latimes\.com/.+/\d{4}-\d{2}-\d{2}/'
+    deny_url_regex: '(?i)/(video|podcasts|privacy|cookies)'
