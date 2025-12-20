@@ -23,7 +23,6 @@ JUNK_TEXT_PATTERNS = [
 ]
 JUNK_TEXT_RE = re.compile("|".join(JUNK_TEXT_PATTERNS), re.IGNORECASE)
 
-# Common “menu-ish” areas to avoid
 BAD_ANCESTOR_TAGS = {"nav", "footer", "header", "aside"}
 GOOD_ANCESTOR_TAGS = {"main", "article"}
 
@@ -41,47 +40,37 @@ class SourceCfg:
 def load_sources(path: str) -> List[SourceCfg]:
     with open(path, "r", encoding="utf-8") as f:
         obj = yaml.safe_load(f)
-    out = []
+    out: List[SourceCfg] = []
     for s in obj.get("sources", []):
-        out.append(SourceCfg(
-            name=s["name"],
-            url=s["url"],
-            allow_url_regex=s.get("allow_url_regex"),
-            deny_url_regex=s.get("deny_url_regex"),
-        ))
+        out.append(
+            SourceCfg(
+                name=s["name"],
+                url=s["url"],
+                allow_url_regex=s.get("allow_url_regex"),
+                deny_url_regex=s.get("deny_url_regex"),
+            )
+        )
     return out
 
 
 def normalize_url(u: str) -> str:
-    """
-    Normalize URL for deduping:
-    - drop fragments
-    - (optionally) drop common tracking params (kept simple here)
-    """
     try:
         p = urlparse(u)
         p = p._replace(fragment="")
-        # Drop obvious tracking parameters (keep light)
         if p.query:
-            # keep only non-tracking params
             qs = []
             for part in p.query.split("&"):
                 k = part.split("=", 1)[0].lower()
                 if k.startswith("utm_") or k in {"fbclid", "gclid"}:
                     continue
                 qs.append(part)
-            new_query = "&".join(qs)
-            p = p._replace(query=new_query)
+            p = p._replace(query="&".join(qs))
         return urlunparse(p)
     except Exception:
         return u
 
 
 def is_probably_article_url(url: str) -> bool:
-    """
-    Generic heuristic: many articles have either a date-like path or a long slug.
-    Not required; used as a weak signal.
-    """
     path = urlparse(url).path or ""
     if re.search(r"/\d{4}/\d{2}/\d{2}/", path):
         return True
@@ -113,13 +102,9 @@ def has_good_ancestor(a: Tag) -> bool:
 
 
 def score_anchor(a: Tag, text: str, url: str) -> float:
-    """
-    Heuristic scoring: prefer headline-like, in main/article, not nav/footer.
-    """
     score = 0.0
     ln = len(text)
 
-    # Length sweet spot for headlines
     if 25 <= ln <= 140:
         score += 3.0
     elif 15 <= ln < 25:
@@ -127,7 +112,6 @@ def score_anchor(a: Tag, text: str, url: str) -> float:
     elif ln > 140:
         score -= 1.0
 
-    # Headline tags are strong signals
     parent_names = {p.name for p in a.parents if isinstance(p, Tag)}
     if {"h1", "h2", "h3"} & parent_names:
         score += 4.0
@@ -137,14 +121,15 @@ def score_anchor(a: Tag, text: str, url: str) -> float:
     if has_bad_ancestor(a):
         score -= 4.0
 
-    # URL signals
     if is_probably_article_url(url):
         score += 1.0
 
     return score
 
 
-def passes_url_filters(url: str, allow_re: Optional[re.Pattern], deny_re: Optional[re.Pattern]) -> bool:
+def passes_url_filters(
+    url: str, allow_re: Optional[re.Pattern], deny_re: Optional[re.Pattern]
+) -> bool:
     if deny_re and deny_re.search(url):
         return False
     if allow_re and not allow_re.search(url):
@@ -152,13 +137,18 @@ def passes_url_filters(url: str, allow_re: Optional[re.Pattern], deny_re: Option
     return True
 
 
-def extract_candidates(html: str, base_url: str, allow: Optional[str], deny: Optional[str], max_items: int = 40) -> List[Dict[str, Any]]:
+def extract_candidates(
+    html: str,
+    base_url: str,
+    allow: Optional[str],
+    deny: Optional[str],
+    max_items: int = 40,
+) -> List[Dict[str, Any]]:
     soup = BeautifulSoup(html, "html.parser")
 
     allow_re = re.compile(allow) if allow else None
     deny_re = re.compile(deny) if deny else None
 
-    # Multi-pass selectors: from most precise to most generic
     selectors = [
         "h1 a[href], h2 a[href], h3 a[href]",
         "article a[href]",
@@ -176,6 +166,7 @@ def extract_candidates(html: str, base_url: str, allow: Optional[str], deny: Opt
             href = a.get("href")
             if not href:
                 continue
+
             text = anchor_text(a)
             if not text:
                 continue
@@ -187,16 +178,15 @@ def extract_candidates(html: str, base_url: str, allow: Optional[str], deny: Opt
                 continue
 
             abs_url = normalize_url(urljoin(base_url, href))
-
-            # skip non-http(s)
             if not abs_url.startswith(("http://", "https://")):
                 continue
 
             if not passes_url_filters(abs_url, allow_re, deny_re):
                 continue
 
-            # Dedupe by normalized URL + text hash
-            key = hashlib.sha1((abs_url + "||" + text_norm.lower()).encode("utf-8")).hexdigest()
+            key = hashlib.sha1(
+                (abs_url + "||" + text_norm.lower()).encode("utf-8")
+            ).hexdigest()
             if key in seen:
                 continue
             seen.add(key)
@@ -204,28 +194,21 @@ def extract_candidates(html: str, base_url: str, allow: Optional[str], deny: Opt
             s = score_anchor(a, text_norm, abs_url)
             scored.append((s, {"title": text_norm, "url": abs_url}))
 
-        # If earlier passes already found enough high-quality items, stop early
         if len(scored) >= max_items * 2 and sel != "a[href]":
             break
 
-    # Keep best
     scored.sort(key=lambda t: t[0], reverse=True)
 
-    # Additional final dedupe by URL only (keep best scored instance)
     by_url: Dict[str, Dict[str, Any]] = {}
     for s, item in scored:
         u = item["url"]
-        if u not in by_url:
+        if u not in by_url or s > by_url[u]["score"]:
             by_url[u] = {"score": s, **item}
-        else:
-            if s > by_url[u]["score"]:
-                by_url[u] = {"score": s, **item}
 
     items = list(by_url.values())
     items.sort(key=lambda x: x["score"], reverse=True)
     items = items[:max_items]
 
-    # drop internal score before returning
     for it in items:
         it.pop("score", None)
     return items
@@ -243,7 +226,9 @@ def fetch(client: httpx.Client, url: str) -> Optional[str]:
         return None
 
 
-def scrape_source(client: httpx.Client, src: SourceCfg, max_items: int, sleep_s: float) -> List[Dict[str, Any]]:
+def scrape_source(
+    client: httpx.Client, src: SourceCfg, max_items: int, sleep_s: float
+) -> List[Dict[str, Any]]:
     html = fetch(client, src.url)
     if html is None:
         return []
@@ -275,12 +260,10 @@ def write_jsonl(path: str, rows: List[Dict[str, Any]]) -> None:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
 
 
-
-def main():
+def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--sources", default="sources.yaml")
-    ap.add_argument("--out", default="data/headlines_latest.jsonl")
-    ap.add_argument("--archive_dir", default="data/archive", help="set empty to disable")
+    ap.add_argument("--out", default="headlines_latest.jsonl")
     ap.add_argument("--per_site", type=int, default=25)
     ap.add_argument("--sleep", type=float, default=1.0)
     args = ap.parse_args()
@@ -302,9 +285,8 @@ def main():
             items = scrape_source(client, src, max_items=args.per_site, sleep_s=args.sleep)
             rows.extend(items)
 
-    # Global dedupe by normalized URL
     seen_url = set()
-    deduped = []
+    deduped: List[Dict[str, Any]] = []
     for r in rows:
         u = normalize_url(r["url"])
         if u in seen_url:
@@ -313,20 +295,10 @@ def main():
         r["url"] = u
         deduped.append(r)
 
-    # Write latest
     write_jsonl(args.out, deduped)
-
-    # Optional archive snapshot
-    #if args.archive_dir:
-    #    day = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    #    archive_path = os.path.join(args.archive_dir, f"headlines_{day}.jsonl")
-    #    write_jsonl(archive_path, deduped)
-    #
-    
     print(f"Wrote {len(deduped)} headlines to {args.out}")
     return 0
 
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
