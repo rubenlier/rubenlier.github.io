@@ -18,33 +18,45 @@ sources:
   # --- Germany (DE) ---
   - name: Tagesschau
     url: https://www.tagesschau.de
-    allow_url_regex: '(?i)tagesschau\.de/.+'
-    deny_url_regex: '(?i)/(multimedia|video|audio|livestream|wetter|kontakt|impressum|datenschutz)'
+    allow_url_regex: '(?i)tagesschau\.de/.+\.html$'
+    deny_url_regex: '(?i)/(multimedia|video|audio|livestream|sendung|wetter|kontakt|impressum|datenschutz)'
 
   - name: DW
     url: https://www.dw.com/en/top-stories/s-9097
-    allow_url_regex: '(?i)dw\.com/.+'
+    allow_url_regex: '(?i)dw\.com/.+-\d+$'
     deny_url_regex: '(?i)/(av-|media|podcast|datenschutz|imprint)'
 
   - name: Spiegel
     url: https://www.spiegel.de/international/
-    allow_url_regex: '(?i)spiegel\.de/.+'
+    allow_url_regex: '(?i)spiegel\.de/.+\.html$'
     deny_url_regex: '(?i)/(video|audio|podcast|spiegel-tv|datenschutz|impressum)'
 
+  # FIXED: Süddeutsche (avoid hubs / stellenmarkt etc.)
   - name: Süddeutsche Zeitung
     url: https://www.sueddeutsche.de
-    allow_url_regex: '(?i)sueddeutsche\.de/.+'
-    deny_url_regex: '(?i)/(video|podcast|datenschutz|impressum)'
+    allow_url_regex: '(?i)sueddeutsche\.de/(politik|wirtschaft|kultur|sport|panorama|wissen)/.+\.html$'
+    deny_url_regex: '(?i)/(stellenmarkt|jobs|karriere|video|podcast|datenschutz|impressum)'
 
+  # FIXED: FAZ (only real articles with numeric id)
   - name: FAZ
     url: https://www.faz.net/aktuell/
-    allow_url_regex: '(?i)faz\.net/aktuell/.+'
+    allow_url_regex: '(?i)faz\.net/.+-\d{7,}\.html$'
+    deny_url_regex: '(?i)/(video|podcast|datenschutz|impressum|newsletter)'
+
+  # ADDED (DE)
+  - name: Handelsblatt
+    url: https://www.handelsblatt.com
+    allow_url_regex: '(?i)handelsblatt\.com/.+\.html$'
     deny_url_regex: '(?i)/(video|podcast|datenschutz|impressum)'
+
+  - name: ZEIT Online
+    url: https://www.zeit.de
+    allow_url_regex: '(?i)zeit\.de/.+/\d{4}-\d{2}/'
+    deny_url_regex: '(?i)/(index|video|podcast|datenschutz|impressum)'
 
   # --- France (FR) ---
   - name: Le Monde (FR)
     url: https://www.lemonde.fr
-    # Le Monde commonly uses /<section>/article/YYYY/MM/DD/... or similar in sitemaps :contentReference[oaicite:1]{index=1}
     allow_url_regex: '(?i)lemonde\.fr/.+/article/'
     deny_url_regex: '(?i)/(video|en-direct|live|podcasts|privacy|cookies)'
 
@@ -60,8 +72,19 @@ sources:
 
   - name: Le Figaro
     url: https://www.lefigaro.fr
-    allow_url_regex: '(?i)lefigaro\.fr/.+'
+    allow_url_regex: '(?i)lefigaro\.fr/.+\.html$'
     deny_url_regex: '(?i)/(video|podcast|privacy|cookies)'
+
+  # ADDED (FR)
+  - name: Libération
+    url: https://www.liberation.fr
+    allow_url_regex: '(?i)liberation\.fr/.+/\d{4}/\d{2}/\d{2}/'
+    deny_url_regex: '(?i)/(video|podcasts|privacy|cookies)'
+
+  - name: Les Echos
+    url: https://www.lesechos.fr
+    allow_url_regex: '(?i)lesechos\.fr/.+/\d{6,}$'
+    deny_url_regex: '(?i)/(video|podcasts|privacy|cookies)'
 
   # --- Switzerland (CH) ---
   - name: SWI swissinfo
@@ -122,6 +145,28 @@ sources:
     allow_url_regex: '(?i)milenio\.com/.+'
     deny_url_regex: '(?i)/(video|opinion|podcast|privacy|cookies)'
 
+  # ADDED (ES)
+  - name: La Vanguardia
+    url: https://www.lavanguardia.com
+    allow_url_regex: '(?i)lavanguardia\.com/.+\.html$'
+    deny_url_regex: '(?i)/(video|galeria|podcast|cookies|privacidad)'
+
+  - name: ABC España
+    url: https://www.abc.es
+    allow_url_regex: '(?i)abc\.es/.+/\d{4}\d{2}\d{2}/'
+    deny_url_regex: '(?i)/(video|audio|cookies|privacidad)'
+
+  # --- Netherlands (NL) ---
+  - name: NRC
+    url: https://www.nrc.nl
+    allow_url_regex: '(?i)nrc\.nl/nieuws/\d{4}/\d{2}/\d{2}/'
+    deny_url_regex: '(?i)/(video|podcast|privacy|cookies)'
+
+  - name: Volkskrant
+    url: https://www.volkskrant.nl
+    allow_url_regex: '(?i)volkskrant\.nl/.+~[a-z0-9]+/$'
+    deny_url_regex: '(?i)/(video|podcast|privacy|cookies)'
+
   # --- US / English ---
   - name: Associated Press
     url: https://apnews.com
@@ -152,3 +197,14 @@ sources:
     url: https://www.latimes.com
     allow_url_regex: '(?i)latimes\.com/.+/\d{4}-\d{2}-\d{2}/'
     deny_url_regex: '(?i)/(video|podcasts|privacy|cookies)'
+
+  # ADDED (EN)
+  - name: Financial Times
+    url: https://www.ft.com
+    allow_url_regex: '(?i)ft\.com/content/'
+    deny_url_regex: '(?i)/(video|podcast|live|privacy|cookies)'
+
+  - name: Politico
+    url: https://www.politico.com
+    allow_url_regex: '(?i)politico\.com/news/\d{4}/'
+    deny_url_regex: '(?i)/(video|live|privacy|cookies)'
