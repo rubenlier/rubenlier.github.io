@@ -25,9 +25,16 @@ jobs:
           python -m pip install --upgrade pip
           pip install httpx beautifulsoup4 pyyaml
 
-      - name: Run scraper
+      - name: Run scraper (debug)
         run: |
-          python scrape_homepages.py --sources sources.yaml --out data/headlines_latest.jsonl --per_site 25 --sleep 1.0
+          set -euxo pipefail
+          ls -la
+          python --version
+          python scrape_homepages.py --sources sources.yaml --out headlines_latest.jsonl --per_site 25 --sleep 1.0
+          echo "After run:"
+          ls -la
+          echo "Preview:"
+          head -n 3 headlines_latest.jsonl || true
 
       - name: Commit and push if changed
         run: |
@@ -36,3 +43,4 @@ jobs:
           git add data/headlines_latest.jsonl data/archive || true
           git diff --cached --quiet || git commit -m "Daily scrape update"
           git push
+
