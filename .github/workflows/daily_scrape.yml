@@ -28,13 +28,18 @@ jobs:
       - name: Run scraper (debug)
         run: |
           set -euxo pipefail
+          echo "Repo root:"
           ls -la
           python --version
+
           python scrape_homepages.py --sources sources.yaml --out headlines_latest.jsonl --per_site 25 --sleep 1.0
+
           echo "After run:"
           ls -la
-          echo "Preview:"
-          head -n 3 headlines_latest.jsonl || true
+          echo "File details:"
+          test -f headlines_latest.jsonl
+          wc -l headlines_latest.jsonl
+          head -n 3 headlines_latest.jsonl
 
       - name: Commit and push if changed
         run: |
@@ -45,6 +50,3 @@ jobs:
           git add headlines_latest.jsonl
           git diff --cached --quiet || git commit -m "Update headlines_latest"
           git push
-
-
-
