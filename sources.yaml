@@ -68,23 +68,26 @@ sources:
     deny_url_regex: '(?i)/(av-|media|podcast|datenschutz|imprint)'
 
   - name: Spiegel
-    url: https://www.spiegel.de/international/
-    allow_url_regex: '(?i)spiegel\.de/.+\.html$'
-    deny_url_regex: '(?i)/(video|audio|podcast|spiegel-tv|datenschutz|impressum)'
+    url: https://www.spiegel.de
+    # keep only real Spiegel article pages
+    allow_url_regex: '(?i)^https?://(www\.)?spiegel\.de/(?!international/)(?!spiegel/)(?!netzwelt/spiele/).+-a-\d+\.html$|^https?://(www\.)?spiegel\.de/international/.+-a-\d+\.html$'
+    # hard-deny known junk areas
+    deny_url_regex: '(?i)(gruppenkonto\.spiegel\.de|/spiegel/|/spiele/|/bestseller|/spiegelgeschichte/|/spiegelwissen/|/deinspiegel/|/spjc/|/spbest/|/print/|/abo|/kuendigung|/service/|/faq|/how-to-|rechner|datenschutz|impressum|privacy|cookies|video|podcast|audio)'
 
-  # allow_url_regex REMOVED (was 0)
+
   - name: Süddeutsche Zeitung
     url: https://www.sueddeutsche.de
-    deny_url_regex: '(?i)/(stellenmarkt|jobs|karriere|video|podcast|datenschutz|impressum)'
+    allow_url_regex: '(?i)^https?://(www\.)?sueddeutsche\.de/(politik|wirtschaft|kultur|sport|panorama|wissen|meinung|medien|muenchen|bayern)/.+~[a-z0-9]+/?$'
+    deny_url_regex: '(?i)(/thema/|/gutscheine|/raetsel|/news\?|adventskalender\.|sz-magazin\.|linkin\.bio|stellenmarkt|jobs|karriere|datenschutz|impressum|privacy|cookies|video|podcast)'
 
   - name: FAZ
     url: https://www.faz.net/aktuell/
     allow_url_regex: '(?i)faz\.net/.+-\d{7,}\.html$'
-    deny_url_regex: '(?i)/(video|podcast|datenschutz|impressum|newsletter)'
+    deny_url_regex: '(?i)/(video|podcast|datenschutz|impressum|newsletter|liveticker|liveblog)'
+
 
   - name: Die Welt
     url: https://www.welt.de
-    allow_url_regex: '(?i)welt\.de/(politik|wirtschaft|kultur|vermischtes|sport)/article\d+\.html'
     deny_url_regex: '(?i)/(video|podcast|live|impressum|datenschutz)'
 
 
@@ -259,6 +262,7 @@ sources:
     url: https://www.politico.eu
     allow_url_regex: '(?i)politico\.eu/article/'
     deny_url_regex: '(?i)/(video|live|privacy|cookies)'
+
 
 
 
