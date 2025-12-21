@@ -59,7 +59,8 @@ sources:
   - name: Tagesschau
     url: https://www.tagesschau.de
     allow_url_regex: '(?i)tagesschau\.de/.+\.html$'
-    deny_url_regex: '(?i)/(multimedia|video|audio|livestream|sendung|wetter|kontakt|impressum|datenschutz)'
+    deny_url_regex: '(?i)/(multimedia|video|audio|livestream|sendung|wetter|kontakt|impressum|datenschutz|tagesthemen/|tagesschau_20_uhr/|tagesschau_in_einfacher_sprache/|tagesschau_mit_gebaerdensprache/|tagesschau/|tagesthemen/)'
+
 
   - name: DW
     url: https://www.dw.com/en/top-stories/s-9097
@@ -258,6 +259,7 @@ sources:
     url: https://www.politico.eu
     allow_url_regex: '(?i)politico\.eu/article/'
     deny_url_regex: '(?i)/(video|live|privacy|cookies)'
+
 
 
 
