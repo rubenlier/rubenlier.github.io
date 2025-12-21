@@ -103,7 +103,7 @@ sources:
   - name: Le Figaro
     url: https://www.lefigaro.fr
     allow_url_regex: '(?i)lefigaro\.fr/.+\.html$'
-    deny_url_regex: '(?i)/(video|podcast|privacy|cookies)'
+    deny_url_regex: '(?i)^https?://immobilier\.lefigaro\.fr/|/(immobilier|programme-tv|video|podcast|diaporama|shopping|tags|commentaire|login|inscription|privacy|cookies)'
 
   # ======================
   # Spain (ES)
@@ -258,5 +258,6 @@ sources:
     url: https://www.politico.eu
     allow_url_regex: '(?i)politico\.eu/article/'
     deny_url_regex: '(?i)/(video|live|privacy|cookies)'
+
 
 
