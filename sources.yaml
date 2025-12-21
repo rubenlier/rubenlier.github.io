@@ -19,9 +19,9 @@ sources:
     allow_url_regex: '(?i)ft\.com/content/'
     deny_url_regex: '(?i)/(video|podcast|live|privacy|cookies)'
 
+  # allow_url_regex REMOVED (was 0)
   - name: Reuters
     url: https://www.reuters.com/world/
-    allow_url_regex: '(?i)reuters\.com/.+/article/'
     deny_url_regex: '(?i)/(video|graphics|live|privacy|cookies)'
 
   - name: Associated Press
@@ -70,9 +70,9 @@ sources:
     allow_url_regex: '(?i)spiegel\.de/.+\.html$'
     deny_url_regex: '(?i)/(video|audio|podcast|spiegel-tv|datenschutz|impressum)'
 
+  # allow_url_regex REMOVED (was 0)
   - name: Süddeutsche Zeitung
     url: https://www.sueddeutsche.de
-    allow_url_regex: '(?i)sueddeutsche\.de/(politik|wirtschaft|kultur|sport|panorama|wissen)/.+\.html$'
     deny_url_regex: '(?i)/(stellenmarkt|jobs|karriere|video|podcast|datenschutz|impressum)'
 
   - name: FAZ
@@ -114,9 +114,9 @@ sources:
   # ======================
   # Canada (CA)
   # ======================
+  # allow_url_regex REMOVED (was 0)
   - name: CBC News
     url: https://www.cbc.ca/news
-    allow_url_regex: '(?i)cbc\.ca/news/.+'
     deny_url_regex: '(?i)/(video|player|live|privacy|cookies)'
 
   # ======================
@@ -150,9 +150,9 @@ sources:
     allow_url_regex: '(?i)scmp\.com/news/.+/\d{4}'
     deny_url_regex: '(?i)/(video|podcast|live|privacy|cookies)'
 
+  # allow_url_regex REMOVED (was 0)
   - name: Channel NewsAsia
     url: https://www.channelnewsasia.com
-    allow_url_regex: '(?i)channelnewsasia\.com/.+/\d{4}'
     deny_url_regex: '(?i)/(video|live|privacy|cookies)'
 
   # ======================
@@ -178,7 +178,6 @@ sources:
     allow_url_regex: '(?i)rt\.com/news/\d+'
     deny_url_regex: '(?i)/(video|live|shows|privacy|cookies)'
 
-
   # ======================
   # United States (US)
   # ======================
@@ -187,14 +186,14 @@ sources:
     allow_url_regex: '(?i)nytimes\.com/\d{4}/\d{2}/\d{2}/'
     deny_url_regex: '(?i)/(interactive|video|live|wirecutter|crosswords|privacy|cookies)'
 
+  # allow_url_regex REMOVED (was 0)
   - name: Washington Post
     url: https://www.washingtonpost.com
-    allow_url_regex: '(?i)washingtonpost\.com/.+/\d{4}/\d{2}/\d{2}/'
     deny_url_regex: '(?i)/(video|podcasts|games|privacy|cookies)'
 
+  # allow_url_regex REMOVED (was 0)
   - name: Wall Street Journal
     url: https://www.wsj.com
-    allow_url_regex: '(?i)wsj\.com/articles/'
     deny_url_regex: '(?i)/(video|podcasts|live|privacy|cookies)'
 
   - name: Los Angeles Times
@@ -202,13 +201,12 @@ sources:
     allow_url_regex: '(?i)latimes\.com/.+/\d{4}-\d{2}-\d{2}/'
     deny_url_regex: '(?i)/(video|podcasts|privacy|cookies)'
 
+  # allow_url_regex REMOVED (was 0)
   - name: Politico
     url: https://www.politico.com
-    allow_url_regex: '(?i)politico\.com/news/\d{4}/'
     deny_url_regex: '(?i)/(video|live|privacy|cookies)'
 
+  # allow_url_regex REMOVED (was 0)
   - name: NPR
     url: https://www.npr.org
-    allow_url_regex: '(?i)npr\.org/\d{4}/\d{2}/\d{2}/'
     deny_url_regex: '(?i)/(podcast|music|shows|privacy|cookies)'
-
