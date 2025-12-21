@@ -35,6 +35,11 @@ sources:
     allow_url_regex: '(?i)^https?://(www\.)?euronews\.com/(?!video/|live|programs|shows|tag/|apps|about|privacy|cookies).+'
     deny_url_regex: '(?i)(/video/|/live|/programs/|/shows/|/tag/|/about|/privacy|/cookies|/apps|/podcast)'
 
+  - name: Politico Europe
+    url: https://www.politico.eu
+    allow_url_regex: '(?i)politico\.eu/article/'
+    deny_url_regex: '(?i)/(video|live|privacy|cookies)'
+
    # ======================
   # Netherlands (NL)
   # ======================
@@ -216,10 +221,28 @@ sources:
     allow_url_regex: '(?i)aljazeera\.com/news/\d{4}/'
     deny_url_regex: '(?i)/(video|live|opinion|programs|privacy|cookies)'
 
+  - name: The National (UAE)
+    url: https://www.thenationalnews.com
+    allow_url_regex: '(?i)thenationalnews\.com/.+/\d{4}/\d{2}/\d{2}/'
+    deny_url_regex: '(?i)/(video|podcast|opinion|gallery|privacy|cookies)'
+
+  - name: Haaretz
+    url: https://www.haaretz.com
+    region: Middle East
+    allow_url_regex: '(?i)haaretz\.com/.+/\d{4}-\d{2}-\d{2}/'
+    deny_url_regex: '(?i)/(video|podcast|opinion|blogs|privacy|cookies)'
+
   - name: Times of Israel
     url: https://www.timesofisrael.com
     allow_url_regex: '(?i)timesofisrael\.com/.+'
     deny_url_regex: '(?i)/(video|live|podcast|privacy|cookies)'
+
+  - name: Daily Sabah
+    url: https://www.dailysabah.com
+    region: Europe
+    allow_url_regex: '(?i)dailysabah\.com/.+/\d{4}/'
+    deny_url_regex: '(?i)/(video|gallery|opinion|privacy|cookies)'
+
 
   - name: Kyiv Post
     url: https://www.kyivpost.com
@@ -277,10 +300,7 @@ sources:
     allow_url_regex: '(?i)latimes\.com/.+/\d{4}-\d{2}-\d{2}/'
     deny_url_regex: '(?i)/(video|podcasts|privacy|cookies)'
 
-  - name: Politico Europe
-    url: https://www.politico.eu
-    allow_url_regex: '(?i)politico\.eu/article/'
-    deny_url_regex: '(?i)/(video|live|privacy|cookies)'
+
 
 
 # ======================
@@ -313,4 +333,5 @@ sources:
 
 
     
+
 
