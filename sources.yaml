@@ -160,21 +160,21 @@ sources:
     allow_url_regex: '(?i)semana\.com/.+'
     deny_url_regex: '(?i)/(video|podcast|suscripcion|privacy|cookies)'
 
-    - name: El Mercurio (Chile)
-  url: https://www.emol.com
-  allow_url_regex: '(?i)emol\.com/noticias/.+/\d{4}/\d{2}/\d{2}/'
-  deny_url_regex: '(?i)/(videos|podcast|servicios|cookies|privacidad)'
+  - name: El Mercurio (Chile)
+    url: https://www.emol.com
+    allow_url_regex: '(?i)emol\.com/noticias/.+/\d{4}/\d{2}/\d{2}/'
+    deny_url_regex: '(?i)/(videos|podcast|servicios|cookies|privacidad)'
 
   - name: BBC Mundo
-  url: https://www.bbc.com/mundo
-  allow_url_regex: '(?i)bbc\.com/mundo/.+/\d{6,}'
-  deny_url_regex: '(?i)/(video|av|podcast|cookies|privacy)'
+    url: https://www.bbc.com/mundo
+    allow_url_regex: '(?i)bbc\.com/mundo/.+/\d{6,}'
+    deny_url_regex: '(?i)/(video|av|podcast|cookies|privacy)'
 
 
-- name: El País México
-  url: https://elpais.com/mexico/
-  allow_url_regex: '(?i)elpais\.com/mexico/.+/\d{4}/\d{2}/\d{2}/'
-  deny_url_regex: '(?i)/(videos|audio|podcast|opinion|especiales|privacidad|cookies)'
+  - name: El País México
+    url: https://elpais.com/mexico/
+    allow_url_regex: '(?i)elpais\.com/mexico/.+/\d{4}/\d{2}/\d{2}/'
+    deny_url_regex: '(?i)/(videos|audio|podcast|opinion|especiales|privacidad|cookies)'
 
 
 
@@ -299,11 +299,11 @@ sources:
     url: https://www.latimes.com
     allow_url_regex: '(?i)latimes\.com/.+/\d{4}-\d{2}-\d{2}/'
     deny_url_regex: '(?i)/(video|podcasts|privacy|cookies)'
-
-
-
-
-# ======================
+    
+    
+    
+    
+  # ======================
   # Asia (EN)
   # ======================
   - name: Nikkei Asia
@@ -333,5 +333,6 @@ sources:
 
 
     
+
 
 
