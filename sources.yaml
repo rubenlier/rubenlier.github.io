@@ -90,27 +90,8 @@ sources:
     url: https://www.welt.de
     deny_url_regex: '(?i)/(video|podcast|live|impressum|datenschutz)'
 
-
   # ======================
-  # France (FR)
-  # ======================
-  - name: Le Monde
-    url: https://www.lemonde.fr
-    allow_url_regex: '(?i)lemonde\.fr/.+/article/'
-    deny_url_regex: '(?i)/(video|en-direct|live|podcasts|privacy|cookies)'
-
-  - name: France 24
-    url: https://www.france24.com/fr/
-    allow_url_regex: '(?i)france24\.com/fr/.+'
-    deny_url_regex: '(?i)/(direct|live|video|podcast|privacy|cookies)'
-
-  - name: Le Figaro
-    url: https://www.lefigaro.fr
-    allow_url_regex: '(?i)lefigaro\.fr/.+\.html$'
-    deny_url_regex: '(?i)^https?://immobilier\.lefigaro\.fr/|/(immobilier|programme-tv|video|podcast|diaporama|shopping|tags|commentaire|login|inscription|privacy|cookies)'
-
-  # ======================
-  # Spain (ES)
+  # Spain / South America (ES)
   # ======================
   - name: El Pais
     url: https://elpais.com
@@ -262,6 +243,7 @@ sources:
     url: https://www.politico.eu
     allow_url_regex: '(?i)politico\.eu/article/'
     deny_url_regex: '(?i)/(video|live|privacy|cookies)'
+
 
 
 
