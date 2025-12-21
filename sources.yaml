@@ -140,11 +140,6 @@ sources:
   # ======================
   # Latin America (ES)
   # ======================
-  - name: Clarín (Argentina)
-    url: https://www.clarin.com
-    allow_url_regex: '(?i)clarin\.com/.+\.html$'
-    deny_url_regex: '(?i)/(videos|fotos|opinion|suscripciones|privacy|cookies)'
-
   - name: La Nación (Argentina)
     url: https://www.lanacion.com.ar
     allow_url_regex: '(?i)lanacion\.com\.ar/.+'
@@ -159,6 +154,24 @@ sources:
     url: https://www.semana.com
     allow_url_regex: '(?i)semana\.com/.+'
     deny_url_regex: '(?i)/(video|podcast|suscripcion|privacy|cookies)'
+
+    - name: El Mercurio (Chile)
+  url: https://www.emol.com
+  allow_url_regex: '(?i)emol\.com/noticias/.+/\d{4}/\d{2}/\d{2}/'
+  deny_url_regex: '(?i)/(videos|podcast|servicios|cookies|privacidad)'
+
+  - name: BBC Mundo
+  url: https://www.bbc.com/mundo
+  allow_url_regex: '(?i)bbc\.com/mundo/.+/\d{6,}'
+  deny_url_regex: '(?i)/(video|av|podcast|cookies|privacy)'
+
+
+- name: El País México
+  url: https://elpais.com/mexico/
+  allow_url_regex: '(?i)elpais\.com/mexico/.+/\d{4}/\d{2}/\d{2}/'
+  deny_url_regex: '(?i)/(videos|audio|podcast|opinion|especiales|privacidad|cookies)'
+
+
 
   # ======================
   # Canada (EN)
@@ -300,3 +313,4 @@ sources:
 
 
     
+
