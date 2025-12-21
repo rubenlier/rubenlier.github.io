@@ -29,10 +29,11 @@ sources:
     allow_url_regex: '(?i)apnews\.com/article/'
     deny_url_regex: '(?i)/(video|hub|live|privacy|cookies)'
 
-  - name: Al Jazeera English
-    url: https://www.aljazeera.com
-    allow_url_regex: '(?i)aljazeera\.com/news/\d{4}/'
-    deny_url_regex: '(?i)/(video|live|opinion|programs|privacy|cookies)'
+  - name: Nikkei Asia
+    url: https://asia.nikkei.com
+    allow_url_regex: '(?i)asia\.nikkei\.com/.+'
+    deny_url_regex: '(?i)/(video|podcast|live|privacy|cookies)'
+
 
   # ======================
   # Netherlands (NL)
@@ -80,6 +81,12 @@ sources:
     allow_url_regex: '(?i)faz\.net/.+-\d{7,}\.html$'
     deny_url_regex: '(?i)/(video|podcast|datenschutz|impressum|newsletter)'
 
+  - name: Die Welt
+    url: https://www.welt.de
+    allow_url_regex: '(?i)welt\.de/(politik|wirtschaft|kultur|vermischtes|sport)/article\d+\.html'
+    deny_url_regex: '(?i)/(video|podcast|live|impressum|datenschutz)'
+
+
   # ======================
   # France (FR)
   # ======================
@@ -111,6 +118,22 @@ sources:
     allow_url_regex: '(?i)lavanguardia\.com/.+\.html$'
     deny_url_regex: '(?i)/(video|galeria|podcast|cookies|privacidad)'
 
+  - name: El Tiempo (CO)
+    url: https://www.eltiempo.com
+    allow_url_regex: '(?i)eltiempo\.com/.+'
+    deny_url_regex: '(?i)/(video|opinion|especiales|podcast|privacidad|cookies)'
+
+  - name: La Nación (AR)
+    url: https://www.lanacion.com.ar
+    allow_url_regex: '(?i)lanacion\.com\.ar/.+'
+    deny_url_regex: '(?i)/(video|podcast|opinion|suscripcion|privacidad|cookies)'
+
+  - name: Clarín (AR)
+    url: https://www.clarin.com
+    allow_url_regex: '(?i)clarin\.com/.+\.html'
+    deny_url_regex: '(?i)/(video|podcast|opinion|suscripciones|privacidad|cookies)'
+
+
   # ======================
   # Canada (CA)
   # ======================
@@ -132,11 +155,6 @@ sources:
     allow_url_regex: '(?i)sbs\.com\.au/news/.+'
     deny_url_regex: '(?i)/(video|podcast|audio|privacy|cookies)'
 
-  - name: The Guardian AU
-    url: https://www.theguardian.com/au
-    allow_url_regex: '(?i)theguardian\.com/.+/\d{4}/[a-z]{3}/\d{1,2}/'
-    deny_url_regex: '(?i)/(live|video|audio|help|info|privacy|cookies)'
-
   # ======================
   # Asia
   # ======================
@@ -155,8 +173,21 @@ sources:
     url: https://www.channelnewsasia.com
     deny_url_regex: '(?i)/(video|live|privacy|cookies)'
 
+
+  - name: Nikkei Asia
+    url: https://asia.nikkei.com
+    allow_url_regex: '(?i)asia\.nikkei\.com/.+'
+    deny_url_regex: '(?i)/(video|podcast|live|privacy|cookies)'
+
+  - name: The Japan Times
+    url: https://www.japantimes.co.jp
+    allow_url_regex: '(?i)japantimes\.co\.jp/news/\d{4}/'
+    deny_url_regex: '(?i)/(video|podcast|opinion|privacy|cookies)'
+
+
+
   # ======================
-  # Middle East / Eastern Europe
+  # Middle East / Russia / Africa
   # ======================
   - name: Times of Israel
     url: https://www.timesofisrael.com
@@ -177,6 +208,17 @@ sources:
     url: https://www.rt.com
     allow_url_regex: '(?i)rt\.com/news/\d+'
     deny_url_regex: '(?i)/(video|live|shows|privacy|cookies)'
+
+  - name: Al Jazeera English
+    url: https://www.aljazeera.com
+    allow_url_regex: '(?i)aljazeera\.com/news/\d{4}/'
+    deny_url_regex: '(?i)/(video|live|opinion|programs|privacy|cookies)'
+
+  - name: News24 (ZA)
+    url: https://www.news24.com
+    allow_url_regex: '(?i)news24\.com/(news|southafrica|world)/'
+    deny_url_regex: '(?i)/(video|opinion|life|sport|privacy|cookies)'
+
 
   # ======================
   # United States (US)
@@ -210,3 +252,11 @@ sources:
   - name: NPR
     url: https://www.npr.org
     deny_url_regex: '(?i)/(podcast|music|shows|privacy|cookies)'
+
+  # allow_url_regex REMOVED (was 0)
+  - name: Politico Europe
+    url: https://www.politico.eu
+    allow_url_regex: '(?i)politico\.eu/article/'
+    deny_url_regex: '(?i)/(video|live|privacy|cookies)'
+
+
