@@ -129,11 +129,21 @@ sources:
     allow_url_regex: '(?i)diepresse\.com/\d+/'
     deny_url_regex: '(?i)/(video|podcast|abo|datenschutz|impressum|privacy|cookies)'
 
+  - name: ZDF heute
+    url: https://www.zdfheute.de
+    allow_url_regex: '(?i)zdfheute\.de/(politik|ausland|wirtschaft|gesellschaft|panorama)/.+'
+    deny_url_regex: '(?i)/(video|live|sendung|tv|stream|mediathek|thema|podcast)'
+
+  - name: n-tv
+    url: https://www.n-tv.de
+    allow_url_regex: '(?i)n-tv\.de/(politik|ausland|wirtschaft|leute|panorama)/.+'
+    deny_url_regex: '(?i)/(video|tv|stream|live|ticker|mediathek|podcast)'
+
 
     
 
   # ======================
-  # Spain (ES)
+  # Southern Europe (ES/PR/IT)
   # ======================
   - name: El Pais
     url: https://elpais.com
@@ -151,9 +161,29 @@ sources:
     deny_url_regex: '(?i)/(video|audio|cookies|privacidad)'
 
 
+  - name: Público
+    url: https://www.publico.pt
+    allow_url_regex: '(?i)publico\.pt/(mundo|politica|economia)/.+'
+    deny_url_regex: '(?i)/(opiniao|video|podcast|infografia)'
+
+
+  - name: La Repubblica
+    url: https://www.repubblica.it
+    allow_url_regex: '(?i)repubblica\.it/(esteri|politica|economia)/.+'
+    deny_url_regex: '(?i)/(video|podcast|opinioni|commenti)'
+
+  - name: Corriere della Sera
+    url: https://www.corriere.it
+    allow_url_regex: '(?i)corriere\.it/(esteri|politica|economia)/.+'
+    deny_url_regex: '(?i)/(video|podcast|opinioni|commenti)'
+
+
+
+
+
 
   # ======================
-  # Latin America (ES)
+  # Latin America (ES/PR)
   # ======================
   - name: La Nación (Argentina)
     url: https://www.lanacion.com.ar
@@ -185,6 +215,19 @@ sources:
     url: https://elpais.com/mexico/
     allow_url_regex: '(?i)elpais\.com/mexico/.+'
     deny_url_regex: '(?i)/(videos|audio|podcast|opinion|especiales|privacidad|cookies)'
+
+
+  - name: Folha de S.Paulo
+    url: https://www.folha.uol.com.br
+    allow_url_regex: '(?i)folha\.uol\.com\.br/(mundo|politica|economia)/.+'
+    deny_url_regex: '(?i)/(opiniao|colunas|video|podcast)'
+
+  - name: O Globo
+    url: https://oglobo.globo.com
+    allow_url_regex: '(?i)oglobo\.globo\.com/(mundo|politica|economia)/.+'
+    deny_url_regex: '(?i)/(opiniao|blogs|video|podcast)'
+
+
 
 
 
@@ -231,7 +274,7 @@ sources:
 
   
   # ======================
-  # Middle East / Russia (EN)
+  # Middle East / Eastern Europe (EN/PL/HU)
   # ======================
   - name: Al Jazeera English
     url: https://www.aljazeera.com
@@ -275,6 +318,19 @@ sources:
     url: https://www.rt.com
     allow_url_regex: '(?i)rt\.com/news/\d+'
     deny_url_regex: '(?i)/(video|live|shows|privacy|cookies)'
+
+  - name: Gazeta Wyborcza
+    url: https://wyborcza.pl
+    allow_url_regex: '(?i)wyborcza\.pl/(7,|wiadomosci|swiat)/.+'
+    deny_url_regex: '(?i)/(video|audio|podcast|komentarze|opinie)'
+
+
+  - name: Telex
+    url: https://telex.hu
+    allow_url_regex: '(?i)telex\.hu/(kulfold|belfold|gazdasag)/.+'
+    deny_url_regex: '(?i)/(video|podcast|elo|komment)'
+
+
 
   # ======================
   # Africa (EN)
@@ -392,6 +448,7 @@ sources:
 
 
     
+
 
 
 
