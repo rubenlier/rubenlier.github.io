@@ -47,7 +47,7 @@ def load_sources(path: str) -> List[SourceCfg]:
             SourceCfg(
                 name=s["name"],
                 url=s["url"],
-                source_continent = source.get("continent", "Unknown")
+                source_continent = s.get("continent", "Unknown")
                 allow_url_regex=s.get("allow_url_regex"),
                 deny_url_regex=s.get("deny_url_regex"),
             )
@@ -304,4 +304,5 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
 
