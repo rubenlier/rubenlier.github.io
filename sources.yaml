@@ -150,12 +150,6 @@ sources:
     allow_url_regex: '(?i)abc\.es/.+/\d{4}\d{2}\d{2}/'
     deny_url_regex: '(?i)/(video|audio|cookies|privacidad)'
 
-  - name: El Mundo
-    url: https://www.elmundo.es
-    # Prefer canonical article URLs that contain YYYY/MM/DD/<id>.html
-    allow_url_regex: '(?i)^https?://(www\.)?elmundo\.es/.+/\d{4}/\d{2}/\d{2}/[0-9a-f]{24}\.html$'
-    # Block hubs, utilities, author pages, albums, live blogs, lotteries, etc.
-    deny_url_regex: '(?i)/(ultimas-noticias\.html|loterias/|album/|autor/|directo\.html|comprobar-loteria\.html|lista-premios|comentarios|suscripcion|newsletter|video|podcast|privacy|cookies)'
 
 
   # ======================
@@ -203,7 +197,7 @@ sources:
     deny_url_regex: '(?i)/(video|player|live|privacy|cookies)'
 
   # ======================
-  # Australia (EN)
+  # Oceania (EN)
   # ======================
   - name: ABC News AU
     url: https://www.abc.net.au/news
@@ -219,6 +213,13 @@ sources:
     url: https://www.theguardian.com/au
     allow_url_regex: '(?i)theguardian\.com/.+/\d{4}/[a-z]{3}/\d{1,2}/'
     deny_url_regex: '(?i)/(live|video|audio|help|info|privacy|cookies)'
+    
+    
+  - name: RNZ
+    url: https://www.rnz.co.nz
+    allow_url_regex: '(?i)rnz\.co\.nz/news/.+'
+    deny_url_regex: '(?i)/(audio|podcast|video|programme|shows|tags|topics)'
+
 
   # ======================
   # Ireland (EN)
@@ -372,12 +373,19 @@ sources:
     url: https://www.taipeitimes.com
     allow_url_regex: '(?i)^https?://(www\.)?taipeitimes\.com/News/[a-zA-Z]+/archives/\d{4}/\d{2}/\d{2}/\d+'
     deny_url_regex: '(?i)/(opinion|editorials|letters|classifieds|privacy|cookies)'
+    
+  - name: RNZ
+    url: https://www.rnz.co.nz
+    allow_url_regex: '(?i)rnz\.co\.nz/news/.+'
+    deny_url_regex: '(?i)/(audio|podcast|video|programme|shows|tags|topics)'
+
 
 
 
 
 
     
+
 
 
 
