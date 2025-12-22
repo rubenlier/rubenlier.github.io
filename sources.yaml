@@ -152,8 +152,11 @@ sources:
 
   - name: El Mundo
     url: https://www.elmundo.es
-    allow_url_regex: '(?i)elmundo\.es/.+\.html$'
-    deny_url_regex: '(?i)/(video|podcast|cookies|privacidad)'
+    # Prefer canonical article URLs that contain YYYY/MM/DD/<id>.html
+    allow_url_regex: '(?i)^https?://(www\.)?elmundo\.es/.+/\d{4}/\d{2}/\d{2}/[0-9a-f]{24}\.html$'
+    # Block hubs, utilities, author pages, albums, live blogs, lotteries, etc.
+    deny_url_regex: '(?i)/(ultimas-noticias\.html|loterias/|album/|autor/|directo\.html|comprobar-loteria\.html|lista-premios|comentarios|suscripcion|newsletter|video|podcast|privacy|cookies)'
+
 
   # ======================
   # Latin America (ES)
@@ -290,6 +293,19 @@ sources:
     allow_url_regex: '(?i)^https?://(www\.)?theafricareport\.com/\d+/.+'
     deny_url_regex: '(?i)(/category/|/tag/|/author/|/magazine/|/rankings/|/events/|/about|/contact|/privacy|/cookies|/subscribe|/login|/video|/podcast)'
 
+
+  - name: Premium Times (Nigeria)
+    url: https://www.premiumtimesng.com
+    allow_url_regex: '(?i)^https?://(www\.)?premiumtimesng\.com/.+\.html$'
+    deny_url_regex: '(?i)/(video|podcast|opinion|privacy|cookies)'
+
+  - name: Mail & Guardian (South Africa)
+    url: https://mg.co.za
+    allow_url_regex: '(?i)^https?://(www\.)?mg\.co\.za/article/\d{4}-\d{2}-\d{2}/.+/?$'
+    deny_url_regex: '(?i)/(opinion|columnists|privacy|cookies|video|podcast)'
+
+
+
   # ======================
   # United States (EN)
   # ======================
@@ -345,7 +361,24 @@ sources:
     deny_url_regex: '(?i)/(video|podcast|privacy|cookies)'
 
 
+  - name: The Korea Herald
+    url: https://www.koreaherald.com
+    allow_url_regex: '(?i)^https?://(www\.)?koreaherald\.com/article/\d+$'
+    deny_url_regex: '(?i)/(video|podcast|gallery|opinion|column|letters|privacy|cookies)'
+
     
+    
+  - name: Taipei Times
+    url: https://www.taipeitimes.com
+    allow_url_regex: '(?i)^https?://(www\.)?taipeitimes\.com/News/[a-zA-Z]+/archives/\d{4}/\d{2}/\d{2}/\d+'
+    deny_url_regex: '(?i)/(opinion|editorials|letters|classifieds|privacy|cookies)'
+
+
+
+
+
+    
+
 
 
 
