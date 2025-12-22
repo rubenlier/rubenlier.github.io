@@ -111,13 +111,26 @@ sources:
   # optional but strong DE sources (remove if you want strictly the original set)
   - name: Handelsblatt
     url: https://www.handelsblatt.com
-    allow_url_regex: '(?i)handelsblatt\.com/.+\.html$'
+    allow_url_regex: '(?i)handelsblatt\.com/.+\.'
     deny_url_regex: '(?i)/(video|podcast|datenschutz|impressum|privacy|cookies)'
 
   - name: ZEIT Online
     url: https://www.zeit.de
     allow_url_regex: '(?i)zeit\.de/\d{4}/\d{2}/'
     deny_url_regex: '(?i)/(index|video|podcast|datenschutz|impressum|privacy|cookies)'
+
+  - name: Der Standard
+    url: https://www.derstandard.at
+    allow_url_regex: '(?i)derstandard\.at/story/\d+'
+    deny_url_regex: '(?i)/(video|podcast|user|abo|datenschutz|impressum|privacy|cookies)'
+
+  - name: Die Presse
+    url: https://www.diepresse.com
+    allow_url_regex: '(?i)diepresse\.com/\d+/'
+    deny_url_regex: '(?i)/(video|podcast|abo|datenschutz|impressum|privacy|cookies)'
+
+
+    
 
   # ======================
   # Spain (ES)
@@ -333,6 +346,7 @@ sources:
 
 
     
+
 
 
 
