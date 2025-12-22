@@ -111,7 +111,7 @@ sources:
   # optional but strong DE sources (remove if you want strictly the original set)
   - name: Handelsblatt
     url: https://www.handelsblatt.com
-    allow_url_regex: '(?i)handelsblatt\.com/.+\.'
+    allow_url_regex: '(?i)handelsblatt\.com/.+'
     deny_url_regex: '(?i)/(video|podcast|datenschutz|impressum|privacy|cookies)'
 
   - name: ZEIT Online
@@ -352,7 +352,7 @@ sources:
 
   - name: Channel NewsAsia
     url: https://www.channelnewsasia.com
-    allow_url_regex: '(?i)channelnewsasia\.com/.+/\d{4}'
+    allow_url_regex: '(?i)channelnewsasia\.com/.+'
     deny_url_regex: '(?i)/(video|live|privacy|cookies)'
 
   - name: The Japan Times
@@ -378,6 +378,7 @@ sources:
 
 
     
+
 
 
 
