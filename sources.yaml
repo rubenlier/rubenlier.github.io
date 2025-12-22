@@ -277,26 +277,26 @@ sources:
   # Oceania (EN)
   # ======================
   - name: ABC News AU
-    continent: Asia
+    continent: North America
     url: https://www.abc.net.au/news
     allow_url_regex: '(?i)abc\.net\.au/news/\d{4}-\d{2}-\d{2}/'
     deny_url_regex: '(?i)/(video|listen|live|privacy|cookies)'
 
   - name: SBS News AU
-    continent: Asia
+    continent: North America
     url: https://www.sbs.com.au/news
     allow_url_regex: '(?i)sbs\.com\.au/news/.+'
     deny_url_regex: '(?i)/(video|podcast|audio|privacy|cookies)'
 
   - name: The Guardian AU
-    continent: Asia
+    continent: North America
     url: https://www.theguardian.com/au
     allow_url_regex: '(?i)theguardian\.com/.+/\d{4}/[a-z]{3}/\d{1,2}/'
     deny_url_regex: '(?i)/(live|video|audio|help|info|privacy|cookies)'
     
     
   - name: RNZ
-    continent: Asia
+    continent: North America
     url: https://www.rnz.co.nz
     allow_url_regex: '(?i)rnz\.co\.nz/news/.+'
     deny_url_regex: '(?i)/(audio|podcast|video|programme|shows|tags|topics)'
@@ -499,4 +499,5 @@ sources:
     url: https://newsinfo.inquirer.net
     allow_url_regex: '(?i)newsinfo\.inquirer\.net/\d+/.+'
     deny_url_regex: '(?i)/(video|gallery|opinion|commentary|editorial)'
+
 
