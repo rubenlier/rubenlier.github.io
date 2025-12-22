@@ -106,13 +106,6 @@ sources:
     # drop games, service, subscription, calculators, index lists, etc.
     deny_url_regex: '(?i)(gruppenkonto\.spiegel\.de|/spiele/|/abo|/kuendigung|/service/|/spiegel/|/bestseller|/spiegelgeschichte/|/spiegelwissen|/deinspiegel|/spjc/|/spbest/|/print/|rechner|datenschutz|impressum|privacy|cookies|video|podcast|audio)'
 
-  - name: Süddeutsche Zeitung
-    continent: Europe
-    url: https://www.sueddeutsche.de
-    # SZ real article URLs almost always end with "~<id>"
-    allow_url_regex: '(?i)^https?://(www\.)?sueddeutsche\.de/(politik|wirtschaft|kultur|sport|panorama|wissen|meinung|medien|muenchen|bayern)/.+~[a-z0-9]+/?$'
-    deny_url_regex: '(?i)(/thema/|/gutscheine|/raetsel|/news\?|adventskalender\.|sz-magazin\.|linkin\.bio|stellenmarkt|jobs|karriere|datenschutz|impressum|privacy|cookies|video|podcast)'
-
   - name: FAZ
     continent: Europe
     url: https://www.faz.net/aktuell/
@@ -125,13 +118,6 @@ sources:
     # Welt URLs vary; keep broad, deny obvious junk
     allow_url_regex: '(?i)welt\.de/'
     deny_url_regex: '(?i)/(video|podcast|live|impressum|datenschutz|privacy|cookies)'
-
-  # optional but strong DE sources (remove if you want strictly the original set)
-  - name: Handelsblatt
-    continent: Europe
-    url: https://www.handelsblatt.com
-    allow_url_regex: '(?i)handelsblatt\.com/.+'
-    deny_url_regex: '(?i)/(video|podcast|datenschutz|impressum|privacy|cookies)'
 
   - name: ZEIT Online
     continent: Europe
@@ -162,6 +148,24 @@ sources:
     url: https://www.n-tv.de
     allow_url_regex: '(?i)n-tv\.de/(politik|ausland|wirtschaft|leute|panorama)/.+'
     deny_url_regex: '(?i)/(video|tv|stream|live|ticker|mediathek|podcast)'
+
+
+  # ======================
+  # France (FR)
+  # ======================
+
+  - name: Le Monde
+    url: https://www.lemonde.fr
+    continent: Europe
+    allow_url_regex: '(?i)lemonde\.fr/(international|politique|economie|societe|science|planete|idees)/'
+    deny_url_regex: '(?i)/(video|podcast|infographie|live|en-direct|privacy|cookies)'
+
+  - name: Les Echos
+    url: https://www.lesechos.fr
+    continent: Europe
+    allow_url_regex: '(?i)lesechos\.fr/(monde|economie-france|industrie-services|finance-marches|tech-medias)/'
+    deny_url_regex: '(?i)/(video|podcast|diaporama|live|privacy|cookies)'
+
 
 
     
@@ -535,6 +539,7 @@ sources:
     continent: Asia
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
