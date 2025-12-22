@@ -374,10 +374,17 @@ sources:
     allow_url_regex: '(?i)^https?://(www\.)?taipeitimes\.com/News/[a-zA-Z]+/archives/\d{4}/\d{2}/\d{2}/\d+'
     deny_url_regex: '(?i)/(opinion|editorials|letters|classifieds|privacy|cookies)'
     
-  - name: RNZ
-    url: https://www.rnz.co.nz
-    allow_url_regex: '(?i)rnz\.co\.nz/news/.+'
-    deny_url_regex: '(?i)/(audio|podcast|video|programme|shows|tags|topics)'
+  - name: Rappler
+    url: https://www.rappler.com
+    allow_url_regex: '(?i)rappler\.com/world/.+'
+    deny_url_regex: '(?i)/(opinion|voices|podcasts|videos|specials)'
+    
+  - name: Philippine Daily Inquirer
+    url: https://newsinfo.inquirer.net
+    allow_url_regex: '(?i)newsinfo\.inquirer\.net/\d+/.+'
+    deny_url_regex: '(?i)/(video|gallery|opinion|commentary|editorial)'
+
+
 
 
 
@@ -385,6 +392,7 @@ sources:
 
 
     
+
 
 
 
