@@ -247,6 +247,7 @@ def scrape_source(
     for it in items:
         it["source_name"] = src.name
         it["source_home"] = src.url
+        it["continent"] = src.source_continent
         it["scraped_at_utc"] = ts
 
     time.sleep(sleep_s)
@@ -304,6 +305,7 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
 
 
 
