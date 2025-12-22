@@ -430,10 +430,6 @@ sources:
     allow_url_regex: '(?i)^https?://(www\.)?taipeitimes\.com/News/[a-zA-Z]+/archives/\d{4}/\d{2}/\d{2}/\d+'
     deny_url_regex: '(?i)/(opinion|editorials|letters|classifieds|privacy|cookies)'
     
-  - name: Rappler
-    url: https://www.rappler.com
-    allow_url_regex: '(?i)rappler\.com/world/.+'
-    deny_url_regex: '(?i)/(opinion|voices|podcasts|videos|specials)'
     
   - name: Philippine Daily Inquirer
     url: https://newsinfo.inquirer.net
@@ -448,6 +444,7 @@ sources:
 
 
     
+
 
 
 
