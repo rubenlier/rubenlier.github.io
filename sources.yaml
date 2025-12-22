@@ -5,37 +5,44 @@ sources:
   # Global / UK (EN)
   # ======================
   - name: BBC
+    continent: Europe
     url: https://www.bbc.com
     allow_url_regex: '(?i)(bbc\.com|bbc\.co\.uk)/(news|business|sport)/articles/'
     deny_url_regex: '(?i)/(live|av|video|audio|signin|register|privacy|cookies)'
 
   - name: The Guardian
+    continent: Europe
     url: https://www.theguardian.com/international
     allow_url_regex: '(?i)theguardian\.com/.+/\d{4}/[a-z]{3}/\d{1,2}/'
     deny_url_regex: '(?i)/(live|video|audio|help|info|privacy|cookies)'
 
   - name: Financial Times
+    continent: Europe
     url: https://www.ft.com
     allow_url_regex: '(?i)ft\.com/content/'
     deny_url_regex: '(?i)/(video|podcast|live|privacy|cookies)'
 
   - name: Reuters
+    continent: Europe
     url: https://www.reuters.com/world/
     # Reuters URLs vary; keep broad and let the page parser + deny list do the work
     allow_url_regex: '(?i)reuters\.com/'
     deny_url_regex: '(?i)/(video|graphics|live|privacy|cookies)'
 
   - name: Associated Press
+    continent: North America
     url: https://apnews.com
     allow_url_regex: '(?i)apnews\.com/article/'
     deny_url_regex: '(?i)/(video|hub|live|privacy|cookies)'
 
   - name: Euronews (English)
+    continent: Europe
     url: https://www.euronews.com
     allow_url_regex: '(?i)^https?://(www\.)?euronews\.com/(?!video/|live|programs|shows|tag/|apps|about|privacy|cookies).+'
     deny_url_regex: '(?i)(/video/|/live|/programs/|/shows/|/tag/|/about|/privacy|/cookies|/apps|/podcast)'
 
   - name: Politico Europe
+    continent: Europe
     url: https://www.politico.eu
     allow_url_regex: '(?i)politico\.eu/article/'
     deny_url_regex: '(?i)/(video|live|privacy|cookies)'
@@ -44,26 +51,31 @@ sources:
   # Netherlands (NL)
   # ======================
   - name: NOS
+    continent: Europe
     url: https://nos.nl
     allow_url_regex: '(?i)nos\.nl/artikel/'
     deny_url_regex: '(?i)/(video|live)'
 
   - name: NRC
+    continent: Europe
     url: https://www.nrc.nl
     allow_url_regex: '(?i)nrc\.nl/nieuws/\d{4}/\d{2}/\d{2}/'
     deny_url_regex: '(?i)/(video|podcast|privacy|cookies)'
 
   - name: Volkskrant
+    continent: Europe
     url: https://www.volkskrant.nl
     allow_url_regex: '(?i)volkskrant\.nl/.+~[a-z0-9]+/$'
     deny_url_regex: '(?i)/(video|podcast|privacy|cookies)'
 
   - name: Financieele Dagblad
+    continent: Europe
     url: https://fd.nl
     allow_url_regex: '(?i)fd\.nl/(politiek|economie|bedrijven|beurs|financiele-markten|ondernemen)/\d+'
     deny_url_regex: '(?i)/(video|podcast|agenda|vacatures|privacy|cookies)'
 
   - name: RTL Nieuws
+    continent: Europe
     url: https://www.rtlnieuws.nl
     allow_url_regex: '(?i)rtlnieuws\.nl/nieuws/.+'
     deny_url_regex: '(?i)/(video|uitzendingen|shows|programma|privacy|cookies)'
@@ -73,18 +85,21 @@ sources:
   # Germany (DE)
   # ======================
   - name: Tagesschau
+    continent: Europe
     url: https://www.tagesschau.de
     # allow only real .html pages
     allow_url_regex: '(?i)^https?://(www\.)?tagesschau\.de/.+\.html$'
     # deny TV-program pages & other junk
-    deny_url_regex: '(?i)/(multimedia|video|audio|livestream|sendung|wetter|kontakt|impressum|datenschutz|tagesthemen/|tagesschau_20_uhr/|tagesschau_in_einfacher_sprache/|tagesschau_mit_gebaerdensprache/)'
+    deny_url_regex: '(?i)/(multimedia|video|audio|livestream|sendung|wetter|kontakt|impressum|datenschutz|tagesthemen/|tagesschau_20_uhr/|tagesschau_in_einfacher_sprache/|tagesschau_mit_gebaerdensprache/)' 
 
   - name: DW
+    continent: Europe
     url: https://www.dw.com/en/top-stories/s-9097
     allow_url_regex: '(?i)dw\.com/.+-\d+$'
     deny_url_regex: '(?i)/(av-|media|podcast|datenschutz|imprint)'
 
   - name: Spiegel
+    continent: Europe
     url: https://www.spiegel.de
     # keep only real Spiegel article pages: "...-a-1234567.html"
     allow_url_regex: '(?i)^https?://(www\.)?spiegel\.de/.+-a-\d+\.html$'
@@ -92,17 +107,20 @@ sources:
     deny_url_regex: '(?i)(gruppenkonto\.spiegel\.de|/spiele/|/abo|/kuendigung|/service/|/spiegel/|/bestseller|/spiegelgeschichte/|/spiegelwissen|/deinspiegel|/spjc/|/spbest/|/print/|rechner|datenschutz|impressum|privacy|cookies|video|podcast|audio)'
 
   - name: Süddeutsche Zeitung
+    continent: Europe
     url: https://www.sueddeutsche.de
     # SZ real article URLs almost always end with "~<id>"
     allow_url_regex: '(?i)^https?://(www\.)?sueddeutsche\.de/(politik|wirtschaft|kultur|sport|panorama|wissen|meinung|medien|muenchen|bayern)/.+~[a-z0-9]+/?$'
     deny_url_regex: '(?i)(/thema/|/gutscheine|/raetsel|/news\?|adventskalender\.|sz-magazin\.|linkin\.bio|stellenmarkt|jobs|karriere|datenschutz|impressum|privacy|cookies|video|podcast)'
 
   - name: FAZ
+    continent: Europe
     url: https://www.faz.net/aktuell/
     allow_url_regex: '(?i)faz\.net/.+-\d{7,}\.html$'
     deny_url_regex: '(?i)/(video|podcast|datenschutz|impressum|newsletter|liveticker|liveblog)'
 
   - name: Die Welt
+    continent: Europe
     url: https://www.welt.de
     # Welt URLs vary; keep broad, deny obvious junk
     allow_url_regex: '(?i)welt\.de/'
@@ -110,31 +128,37 @@ sources:
 
   # optional but strong DE sources (remove if you want strictly the original set)
   - name: Handelsblatt
+    continent: Europe
     url: https://www.handelsblatt.com
     allow_url_regex: '(?i)handelsblatt\.com/.+'
     deny_url_regex: '(?i)/(video|podcast|datenschutz|impressum|privacy|cookies)'
 
   - name: ZEIT Online
+    continent: Europe
     url: https://www.zeit.de
     allow_url_regex: '(?i)zeit\.de/\d{4}/\d{2}/'
     deny_url_regex: '(?i)/(index|video|podcast|datenschutz|impressum|privacy|cookies)'
 
   - name: Der Standard
+    continent: Europe
     url: https://www.derstandard.at
     allow_url_regex: '(?i)derstandard\.at/story/\d+'
     deny_url_regex: '(?i)/(video|podcast|user|abo|datenschutz|impressum|privacy|cookies)'
 
   - name: Die Presse
+    continent: Europe
     url: https://www.diepresse.com
     allow_url_regex: '(?i)diepresse\.com/\d+/'
     deny_url_regex: '(?i)/(video|podcast|abo|datenschutz|impressum|privacy|cookies)'
 
   - name: ZDF heute
+    continent: Europe
     url: https://www.zdfheute.de
     allow_url_regex: '(?i)zdfheute\.de/(politik|ausland|wirtschaft|gesellschaft|panorama)/.+'
     deny_url_regex: '(?i)/(video|live|sendung|tv|stream|mediathek|thema|podcast)'
 
   - name: n-tv
+    continent: Europe
     url: https://www.n-tv.de
     allow_url_regex: '(?i)n-tv\.de/(politik|ausland|wirtschaft|leute|panorama)/.+'
     deny_url_regex: '(?i)/(video|tv|stream|live|ticker|mediathek|podcast)'
@@ -146,39 +170,42 @@ sources:
   # Southern Europe (ES/PR/IT)
   # ======================
   - name: El Pais
+    continent: Europe
     url: https://elpais.com
     allow_url_regex: '(?i)elpais\.com/.+'
     deny_url_regex: '(?i)/(videos|audio|podcast|privacidad|cookies)'
 
   - name: La Vanguardia
+    continent: Europe
     url: https://www.lavanguardia.com
     allow_url_regex: '(?i)lavanguardia\.com/.+\.html$'
     deny_url_regex: '(?i)/(video|galeria|podcast|cookies|privacidad)'
 
   - name: ABC España
+    continent: Europe
     url: https://www.abc.es
     allow_url_regex: '(?i)abc\.es/.+/\d{4}\d{2}\d{2}/'
     deny_url_regex: '(?i)/(video|audio|cookies|privacidad)'
 
 
   - name: Público
+    continent: Europe
     url: https://www.publico.pt
     allow_url_regex: '(?i)publico\.pt/(mundo|politica|economia)/.+'
     deny_url_regex: '(?i)/(opiniao|video|podcast|infografia)'
 
 
   - name: La Repubblica
+    continent: Europe
     url: https://www.repubblica.it
     allow_url_regex: '(?i)repubblica\.it/(esteri|politica|economia)/.+'
     deny_url_regex: '(?i)/(video|podcast|opinioni|commenti)'
 
   - name: Corriere della Sera
+    continent: Europe
     url: https://www.corriere.it
     allow_url_regex: '(?i)corriere\.it/(esteri|politica|economia)/.+'
     deny_url_regex: '(?i)/(video|podcast|opinioni|commenti)'
-
-
-
 
 
 
@@ -186,48 +213,54 @@ sources:
   # Latin America (ES/PR)
   # ======================
   - name: La Nación (Argentina)
+    continent: South America
     url: https://www.lanacion.com.ar
     allow_url_regex: '(?i)lanacion\.com\.ar/.+'
     deny_url_regex: '(?i)/(videos|podcast|suscripciones|privacy|cookies)'
 
   - name: El Tiempo (Colombia)
+    continent: South America
     url: https://www.eltiempo.com
     allow_url_regex: '(?i)eltiempo\.com/.+'
     deny_url_regex: '(?i)/(videos|podcast|suscripciones|privacy|cookies)'
 
   - name: Semana (Colombia)
+    continent: South America
     url: https://www.semana.com
     allow_url_regex: '(?i)semana\.com/.+'
     deny_url_regex: '(?i)/(video|podcast|suscripcion|privacy|cookies)'
 
   - name: El Mercurio (Chile)
+    continent: South America
     url: https://www.emol.com
     allow_url_regex: '(?i)emol\.com/noticias/.+/\d{4}/\d{2}/\d{2}/'
     deny_url_regex: '(?i)/(videos|podcast|servicios|cookies|privacidad)'
 
   - name: BBC Mundo
+    continent: Europe
     url: https://www.bbc.com/mundo
     allow_url_regex: '(?i)bbc\.com/mundo/.+'
     deny_url_regex: '(?i)/(video|av|podcast|cookies|privacy)'
 
 
   - name: El País México
+    continent: North America
     url: https://elpais.com/mexico/
     allow_url_regex: '(?i)elpais\.com/mexico/.+'
     deny_url_regex: '(?i)/(videos|audio|podcast|opinion|especiales|privacidad|cookies)'
 
 
   - name: Folha de S.Paulo
+    continent: South America
     url: https://www.folha.uol.com.br
     allow_url_regex: '(?i)folha\.uol\.com\.br/(mundo|politica|economia)/.+'
     deny_url_regex: '(?i)/(opiniao|colunas|video|podcast)'
 
   - name: O Globo
+    continent: South America
     url: https://oglobo.globo.com
     allow_url_regex: '(?i)oglobo\.globo\.com/(mundo|politica|economia)/.+'
     deny_url_regex: '(?i)/(opiniao|blogs|video|podcast)'
-
-
 
 
 
@@ -235,6 +268,7 @@ sources:
   # Canada (EN)
   # ======================
   - name: CBC News
+    continent: North America
     url: https://www.cbc.ca/news
     allow_url_regex: '(?i)cbc\.ca/news/.+'
     deny_url_regex: '(?i)/(video|player|live|privacy|cookies)'
@@ -243,22 +277,26 @@ sources:
   # Oceania (EN)
   # ======================
   - name: ABC News AU
+    continent: Asia
     url: https://www.abc.net.au/news
     allow_url_regex: '(?i)abc\.net\.au/news/\d{4}-\d{2}-\d{2}/'
     deny_url_regex: '(?i)/(video|listen|live|privacy|cookies)'
 
   - name: SBS News AU
+    continent: Asia
     url: https://www.sbs.com.au/news
     allow_url_regex: '(?i)sbs\.com\.au/news/.+'
     deny_url_regex: '(?i)/(video|podcast|audio|privacy|cookies)'
 
   - name: The Guardian AU
+    continent: Asia
     url: https://www.theguardian.com/au
     allow_url_regex: '(?i)theguardian\.com/.+/\d{4}/[a-z]{3}/\d{1,2}/'
     deny_url_regex: '(?i)/(live|video|audio|help|info|privacy|cookies)'
     
     
   - name: RNZ
+    continent: Asia
     url: https://www.rnz.co.nz
     allow_url_regex: '(?i)rnz\.co\.nz/news/.+'
     deny_url_regex: '(?i)/(audio|podcast|video|programme|shows|tags|topics)'
@@ -268,6 +306,7 @@ sources:
   # Ireland (EN)
   # ======================
   - name: The Irish Times
+    continent: Europe
     url: https://www.irishtimes.com
     allow_url_regex: '(?i)irishtimes\.com/.+'
     deny_url_regex: '(?i)/(video|podcast|privacy|cookies)'
@@ -277,27 +316,32 @@ sources:
   # Middle East / Eastern Europe (EN/PL/HU)
   # ======================
   - name: Al Jazeera English
+    continent: Africa
     url: https://www.aljazeera.com
     allow_url_regex: '(?i)aljazeera\.com/news/\d{4}/'
     deny_url_regex: '(?i)/(video|live|opinion|programs|privacy|cookies)'
 
   - name: The National (UAE)
+    continent: Africa
     url: https://www.thenationalnews.com
     allow_url_regex: '(?i)thenationalnews\.com/.+/\d{4}/\d{2}/\d{2}/'
     deny_url_regex: '(?i)/(video|podcast|opinion|gallery|privacy|cookies)'
 
   - name: Haaretz
+    continent: Africa
     url: https://www.haaretz.com
     region: Middle East
     allow_url_regex: '(?i)haaretz\.com/.+'
     deny_url_regex: '(?i)/(video|podcast|opinion|blogs|privacy|cookies)'
 
   - name: Times of Israel
+    continent: Africa
     url: https://www.timesofisrael.com
     allow_url_regex: '(?i)timesofisrael\.com/.+'
     deny_url_regex: '(?i)/(video|live|podcast|privacy|cookies)'
 
   - name: Daily Sabah
+    continent: Africa
     url: https://www.dailysabah.com
     region: Europe
     allow_url_regex: '(?i)dailysabah\.com/.+'
@@ -305,27 +349,32 @@ sources:
 
 
   - name: Kyiv Post
+    continent: Africa
     url: https://www.kyivpost.com
     allow_url_regex: '(?i)kyivpost\.com/post/\d+'
     deny_url_regex: '(?i)/(video|live|privacy|cookies)'
 
   - name: The Moscow Times
+    continent: Africa
     url: https://www.themoscowtimes.com
     allow_url_regex: '(?i)themoscowtimes\.com/\d{4}/'
     deny_url_regex: '(?i)/(video|podcast|privacy|cookies)'
 
   - name: Russia Today (RT)
+    continent: Africa
     url: https://www.rt.com
     allow_url_regex: '(?i)rt\.com/news/\d+'
     deny_url_regex: '(?i)/(video|live|shows|privacy|cookies)'
 
   - name: Gazeta Wyborcza
+    continent: Europe
     url: https://wyborcza.pl
     allow_url_regex: '(?i)wyborcza\.pl/.+'
     deny_url_regex: '(?i)/(video|audio|podcast|komentarze|opinie)'
 
 
   - name: Telex
+    continent: Europe
     url: https://telex.hu
     allow_url_regex: '(?i)telex\.hu/(kulfold|belfold|gazdasag)/.+'
     deny_url_regex: '(?i)/(video|podcast|elo|komment)'
@@ -336,27 +385,32 @@ sources:
   # Africa (EN)
   # ======================
   - name: Daily Maverick (South Africa)
+    continent: Africa
     url: https://www.dailymaverick.co.za
     allow_url_regex: '(?i)dailymaverick\.co\.za/.+'
     deny_url_regex: '(?i)/(video|podcast|privacy|cookies)'
 
   - name: Middle East Eye
+    continent: Africa
     url: https://www.middleeasteye.net
     allow_url_regex: '(?i)^https?://(www\.)?middleeasteye\.net/(?!topics/|authors/|tags/|newsletter|about|contact|privacy|cookies|support|donate|video|podcast|search|user/).+'
-    deny_url_regex: '(?i)(/topics/|/authors/|/tags/|/newsletter|/about|/contact|/privacy|/cookies|/support|/donate|/video|/podcast|/search|/user/)'
+    deny_url_regex: '(?i)(/topics/|/authors/|/tags/|/newsletter|/about|/contact|/privacy|/cookies|/support|/donate|/video|/podcast|/search|/user/)' 
 
   - name: The Africa Report
+    continent: Africa
     url: https://www.theafricareport.com
     allow_url_regex: '(?i)^https?://(www\.)?theafricareport\.com/\d+/.+'
     deny_url_regex: '(?i)(/category/|/tag/|/author/|/magazine/|/rankings/|/events/|/about|/contact|/privacy|/cookies|/subscribe|/login|/video|/podcast)'
 
 
   - name: Premium Times (Nigeria)
+    continent: Africa
     url: https://www.premiumtimesng.com
     allow_url_regex: '(?i)^https?://(www\.)?premiumtimesng\.com/.+\.html$'
     deny_url_regex: '(?i)/(video|podcast|opinion|privacy|cookies)'
 
   - name: Mail & Guardian (South Africa)
+    continent: Africa
     url: https://mg.co.za
     allow_url_regex: '(?i)^https?://(www\.)?mg\.co\.za/article/\d{4}-\d{2}-\d{2}/.+/?$'
     deny_url_regex: '(?i)/(opinion|columnists|privacy|cookies|video|podcast)'
@@ -367,58 +421,66 @@ sources:
   # United States (EN)
   # ======================
   - name: New York Times
+    continent: North America
     url: https://www.nytimes.com
     allow_url_regex: '(?i)nytimes\.com/\d{4}/\d{2}/\d{2}/'
     deny_url_regex: '(?i)/(interactive|video|live|wirecutter|crosswords|privacy|cookies)'
 
   - name: Washington Post
+    continent: North America
     url: https://www.washingtonpost.com
     allow_url_regex: '(?i)washingtonpost\.com/.+/\d{4}/\d{2}/\d{2}/'
     deny_url_regex: '(?i)/(video|podcasts|games|privacy|cookies)'
 
   - name: Wall Street Journal
+    continent: North America
     url: https://www.wsj.com
     allow_url_regex: '(?i)wsj\.com/articles/'
     deny_url_regex: '(?i)/(video|podcasts|live|privacy|cookies)'
 
   - name: Los Angeles Times
+    continent: North America
     url: https://www.latimes.com
     allow_url_regex: '(?i)latimes\.com/.+/\d{4}-\d{2}-\d{2}/'
     deny_url_regex: '(?i)/(video|podcasts|privacy|cookies)'
-    
-    
     
     
   # ======================
   # Asia (EN)
   # ======================
   - name: Nikkei Asia
+    continent: Asia
     url: https://asia.nikkei.com
     allow_url_regex: '(?i)asia\.nikkei\.com/.+'
     deny_url_regex: '(?i)/(video|podcast|live|privacy|cookies)'
     
   - name: Times of India
+    continent: Asia
     url: https://timesofindia.indiatimes.com
     allow_url_regex: '(?i)timesofindia\.indiatimes\.com/.+/articleshow/'
     deny_url_regex: '(?i)/(videos|live|photo|privacy|cookies)'
 
   - name: South China Morning Post
+    continent: Asia
     url: https://www.scmp.com
     allow_url_regex: '(?i)scmp\.com/news/.+/\d{4}'
     deny_url_regex: '(?i)/(video|podcast|live|privacy|cookies)'
 
   - name: Channel NewsAsia
+    continent: Asia
     url: https://www.channelnewsasia.com
     allow_url_regex: '(?i)channelnewsasia\.com/.+'
     deny_url_regex: '(?i)/(video|live|privacy|cookies)'
 
   - name: The Japan Times
+    continent: Asia
     url: https://www.japantimes.co.jp
     allow_url_regex: '(?i)japantimes\.co\.jp/news/\d{4}/\d{2}/\d{2}/'
     deny_url_regex: '(?i)/(video|podcast|privacy|cookies)'
 
 
   - name: The Korea Herald
+    continent: Asia
     url: https://www.koreaherald.com
     allow_url_regex: '(?i)^https?://(www\.)?koreaherald\.com/article/\d+$'
     deny_url_regex: '(?i)/(video|podcast|gallery|opinion|column|letters|privacy|cookies)'
@@ -426,33 +488,14 @@ sources:
     
     
   - name: Taipei Times
+    continent: Asia
     url: https://www.taipeitimes.com
     allow_url_regex: '(?i)^https?://(www\.)?taipeitimes\.com/News/[a-zA-Z]+/archives/\d{4}/\d{2}/\d{2}/\d+'
     deny_url_regex: '(?i)/(opinion|editorials|letters|classifieds|privacy|cookies)'
     
     
   - name: Philippine Daily Inquirer
+    continent: Asia
     url: https://newsinfo.inquirer.net
     allow_url_regex: '(?i)newsinfo\.inquirer\.net/\d+/.+'
     deny_url_regex: '(?i)/(video|gallery|opinion|commentary|editorial)'
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
