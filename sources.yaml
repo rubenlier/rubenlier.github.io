@@ -167,13 +167,13 @@ sources:
 
   - name: BBC Mundo
     url: https://www.bbc.com/mundo
-    allow_url_regex: '(?i)bbc\.com/mundo/.+/\d{6,}'
+    allow_url_regex: '(?i)bbc\.com/mundo/.+'
     deny_url_regex: '(?i)/(video|av|podcast|cookies|privacy)'
 
 
   - name: El País México
     url: https://elpais.com/mexico/
-    allow_url_regex: '(?i)elpais\.com/mexico/.+/\d{4}/\d{2}/\d{2}/'
+    allow_url_regex: '(?i)elpais\.com/mexico/.+'
     deny_url_regex: '(?i)/(videos|audio|podcast|opinion|especiales|privacidad|cookies)'
 
 
@@ -229,7 +229,7 @@ sources:
   - name: Haaretz
     url: https://www.haaretz.com
     region: Middle East
-    allow_url_regex: '(?i)haaretz\.com/.+/\d{4}-\d{2}-\d{2}/'
+    allow_url_regex: '(?i)haaretz\.com/.+'
     deny_url_regex: '(?i)/(video|podcast|opinion|blogs|privacy|cookies)'
 
   - name: Times of Israel
@@ -240,7 +240,7 @@ sources:
   - name: Daily Sabah
     url: https://www.dailysabah.com
     region: Europe
-    allow_url_regex: '(?i)dailysabah\.com/.+/\d{4}/'
+    allow_url_regex: '(?i)dailysabah\.com/.+'
     deny_url_regex: '(?i)/(video|gallery|opinion|privacy|cookies)'
 
 
@@ -333,6 +333,7 @@ sources:
 
 
     
+
 
 
 
