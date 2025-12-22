@@ -35,7 +35,7 @@ sources:
     allow_url_regex: '(?i)apnews\.com/article/'
     deny_url_regex: '(?i)/(video|hub|live|privacy|cookies)'
 
-  - name: Euronews (English)
+  - name: Euronews
     continent: Europe
     url: https://www.euronews.com
     allow_url_regex: '(?i)^https?://(www\.)?euronews\.com/(?!video/|live|programs|shows|tag/|apps|about|privacy|cookies).+'
@@ -212,25 +212,25 @@ sources:
   # ======================
   # Latin America (ES/PR)
   # ======================
-  - name: La Nación (Argentina)
+  - name: La Nación
     continent: South America
     url: https://www.lanacion.com.ar
     allow_url_regex: '(?i)lanacion\.com\.ar/.+'
     deny_url_regex: '(?i)/(videos|podcast|suscripciones|privacy|cookies)'
 
-  - name: El Tiempo (Colombia)
+  - name: El Tiempo
     continent: South America
     url: https://www.eltiempo.com
     allow_url_regex: '(?i)eltiempo\.com/.+'
     deny_url_regex: '(?i)/(videos|podcast|suscripciones|privacy|cookies)'
 
-  - name: Semana (Colombia)
+  - name: Semana
     continent: South America
     url: https://www.semana.com
     allow_url_regex: '(?i)semana\.com/.+'
     deny_url_regex: '(?i)/(video|podcast|suscripcion|privacy|cookies)'
 
-  - name: El Mercurio (Chile)
+  - name: El Mercurio
     continent: South America
     url: https://www.emol.com
     allow_url_regex: '(?i)emol\.com/noticias/.+/\d{4}/\d{2}/\d{2}/'
@@ -360,7 +360,7 @@ sources:
     allow_url_regex: '(?i)themoscowtimes\.com/\d{4}/'
     deny_url_regex: '(?i)/(video|podcast|privacy|cookies)'
 
-  - name: Russia Today (RT)
+  - name: Russia Today
     continent: Africa
     url: https://www.rt.com
     allow_url_regex: '(?i)rt\.com/news/\d+'
@@ -384,7 +384,7 @@ sources:
   # ======================
   # Africa (EN)
   # ======================
-  - name: Daily Maverick (South Africa)
+  - name: Daily Maverick
     continent: Africa
     url: https://www.dailymaverick.co.za
     allow_url_regex: '(?i)dailymaverick\.co\.za/.+'
@@ -403,13 +403,13 @@ sources:
     deny_url_regex: '(?i)(/category/|/tag/|/author/|/magazine/|/rankings/|/events/|/about|/contact|/privacy|/cookies|/subscribe|/login|/video|/podcast)'
 
 
-  - name: Premium Times (Nigeria)
+  - name: Premium Times
     continent: Africa
     url: https://www.premiumtimesng.com
     allow_url_regex: '(?i)^https?://(www\.)?premiumtimesng\.com/.+\.html$'
     deny_url_regex: '(?i)/(video|podcast|opinion|privacy|cookies)'
 
-  - name: Mail & Guardian (South Africa)
+  - name: Mail & Guardian
     continent: Africa
     url: https://mg.co.za
     allow_url_regex: '(?i)^https?://(www\.)?mg\.co\.za/article/\d{4}-\d{2}-\d{2}/.+/?$'
@@ -499,3 +499,4 @@ sources:
     url: https://newsinfo.inquirer.net
     allow_url_regex: '(?i)newsinfo\.inquirer\.net/\d+/.+'
     deny_url_regex: '(?i)/(video|gallery|opinion|commentary|editorial)'
+
