@@ -687,7 +687,7 @@ sources:
   - name: Global Times (环球时报 / Huanqiu)
     continent: China
     url: https://www.huanqiu.com
-    allow_url_regex: '(?i)huanqiu\.com/(?!.*\.(css|js|png|jpg|jpeg|gif|svg|webp)$).+'
+    allow_url_regex: '(?i)huanqiu\.com/article/[0-9A-Za-z]+$'
     deny_url_regex: '(?i)/(video|live|privacy|cookies|about|contact)'
     # Huanqiu is Global Times’ online domain. :contentReference[oaicite:3]{index=3}
 
@@ -851,6 +851,7 @@ sources:
     continent: Asia
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
