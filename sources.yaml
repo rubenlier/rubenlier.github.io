@@ -345,6 +345,13 @@ sources:
     url: https://www.theguardian.com/au
     allow_url_regex: '(?i)theguardian\.com/.+/\d{4}/[a-z]{3}/\d{1,2}/'
     deny_url_regex: '(?i)/(live|video|audio|help|info|privacy|cookies)'
+
+  - name: The Sydney Morning Herald
+    continent: Oceania
+    url: https://www.smh.com.au/
+    allow_url_regex: '(?i)smh\.com\.au/.+'
+    deny_url_regex: '(?i)/(live|video|audio|help|info|privacy|cookies)'
+
     
     
   - name: RNZ
@@ -354,14 +361,13 @@ sources:
     deny_url_regex: '(?i)/(audio|podcast|video|programme|shows|tags|topics)'
 
 
-  - name: NZ Herald
+  - name: News Room
     continent: Oceania
-    url: https://www.nzherald.co.nz/
-    allow_url_regex: '(?i)nzherald\.co\.nz/.+'
+    url: https://newsroom.co.nz/
+    allow_url_regex: '(?i)newsroom\.co\.nz/.+'
     deny_url_regex: '(?i)/(audio|podcast|video|programme|shows|tags|topics)'
 
 
-    https://www.nzherald.co.nz/
 
 
   # ======================
@@ -822,6 +828,7 @@ sources:
     continent: Asia
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
