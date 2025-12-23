@@ -463,6 +463,21 @@ sources:
     deny_url_regex: '(?i)(/topics/|/authors/|/tags/|/newsletter|/about|/contact|/privacy|/cookies|/support|/donate|/video|/podcast|/search|/user/)' 
 
 
+  - name: Hurriyet
+    continent: Europe East
+    url: https://www.hurriyet.com.tr
+    allow_url_regex: '(?i)hurriyet\.com\.tr/(gundem|dunya|ekonomi|politika)/.+'
+    deny_url_regex: '(?i)/(video|galeri|yazarlar|canli|son-dakika|privacy|cookies)'
+
+
+  - name: Cumhuriyet
+    continent: Europe East
+    url: https://www.cumhuriyet.com.tr
+    allow_url_regex: '(?i)cumhuriyet\.com\.tr/(siyaset|dunya|ekonomi|turkiye)/.+'
+    deny_url_regex: '(?i)/(video|galeri|yazarlar|canli|privacy|cookies)'
+
+
+
 
   # ======================
   # Eastern Europe
@@ -828,6 +843,7 @@ sources:
     continent: Asia
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
