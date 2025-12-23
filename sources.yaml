@@ -350,8 +350,18 @@ sources:
   - name: RNZ
     continent: Oceania
     url: https://www.rnz.co.nz
-    allow_url_regex: '(?i)rnz\.co\.nz/news/.+'
+    allow_url_regex: '(?i)rnz\.co\.nz/.+'
     deny_url_regex: '(?i)/(audio|podcast|video|programme|shows|tags|topics)'
+
+
+  - name: NZ Herald
+    continent: Oceania
+    url: https://www.nzherald.co.nz/
+    allow_url_regex: '(?i)nzherald\.co\.nz/.+'
+    deny_url_regex: '(?i)/(audio|podcast|video|programme|shows|tags|topics)'
+
+
+    https://www.nzherald.co.nz/
 
 
   # ======================
@@ -600,24 +610,71 @@ sources:
     deny_url_regex: '(?i)/(video|podcast|live|privacy|cookies)'
 
 
-  - name: People’s Daily
-    url: https://en.people.cn
+  - name: People’s Daily (EN)
     continent: China
-    allow_url_regex: '(?i)people\.cn/n\d{4}/\d{4}/'
-    deny_url_regex: '(?i)/(video|audio|gallery|forum|bbs)'
+    url: https://en.people.cn
+    allow_url_regex: '(?i)en\.people\.cn/(?!.*\.(css|js|png|jpg|jpeg|gif|svg|webp)$).+'
+    deny_url_regex: '(?i)/(video|audio|gallery|forum|bbs|login|privacy|cookies)'
+
+  - name: People’s Daily Online (CN)
+    continent: China
+    url: https://www.people.com.cn
+    allow_url_regex: '(?i)people\.com\.cn/(?!.*\.(css|js|png|jpg|jpeg|gif|svg|webp)$).+'
+    deny_url_regex: '(?i)/(video|audio|photo|pics|login|privacy|cookies)'
+    # People.com.cn is the large online platform built by People's Daily. :contentReference[oaicite:0]{index=0}
 
   - name: China Daily
-    url: https://www.chinadaily.com.cn
     continent: China
-    allow_url_regex: "/world/|/china/|/business/"
+    url: https://www.chinadaily.com.cn
+    allow_url_regex: '(?i)chinadaily\.com\.cn/(?!.*\.(css|js|png|jpg|jpeg|gif|svg|webp)$).+'
     deny_url_regex: '(?i)/(video|videos|player|live|privacy|cookies|about|contact)'
 
-  - name: Xinhua
-    url: https://english.news.cn
+  - name: Xinhua (EN)
     continent: China
-    allow_url_regex: '(?i)news\.cn/english/\d{4}-\d{2}/\d{2}/'
-    deny_url_regex: '(?i)/(video|photo|podcast)'
+    url: https://english.news.cn
+    allow_url_regex: '(?i)(english\.)?news\.cn/(?!.*\.(css|js|png|jpg|jpeg|gif|svg|webp)$).+'
+    deny_url_regex: '(?i)/(video|photo|podcast|gallery|login|privacy|cookies)'
 
+  - name: Xinhuanet (CN)
+    continent: China
+    url: https://www.xinhuanet.com
+    allow_url_regex: '(?i)xinhuanet\.com/(?!.*\.(css|js|png|jpg|jpeg|gif|svg|webp)$).+'
+    deny_url_regex: '(?i)/(video|photo|podcast|gallery|login|privacy|cookies)'
+
+  - name: CCTV News (央视网)
+    continent: China
+    url: https://news.cctv.com
+    allow_url_regex: '(?i)(news\.)?cctv\.com/(?!.*\.(css|js|png|jpg|jpeg|gif|svg|webp)$).+'
+    deny_url_regex: '(?i)/(video|live|tv|player|privacy|cookies|about|contact)'
+    # CCTV is the official site and has a dedicated news subdomain. :contentReference[oaicite:1]{index=1}
+
+  - name: The Paper (澎湃新闻)
+    continent: China
+    url: https://www.thepaper.cn
+    allow_url_regex: '(?i)thepaper\.cn/(?!.*\.(css|js|png|jpg|jpeg|gif|svg|webp)$).+'
+    deny_url_regex: '(?i)/(video|live|privacy|cookies|about|contact)'
+    # ThePaper is a major CN outlet; many story URLs contain “newsDetail”. :contentReference[oaicite:2]{index=2}
+
+  - name: Global Times (环球时报 / Huanqiu)
+    continent: China
+    url: https://www.huanqiu.com
+    allow_url_regex: '(?i)huanqiu\.com/(?!.*\.(css|js|png|jpg|jpeg|gif|svg|webp)$).+'
+    deny_url_regex: '(?i)/(video|live|privacy|cookies|about|contact)'
+    # Huanqiu is Global Times’ online domain. :contentReference[oaicite:3]{index=3}
+
+  - name: Caixin (财新网)
+    continent: China
+    url: https://www.caixin.com
+    allow_url_regex: '(?i)caixin\.com/(?!.*\.(css|js|png|jpg|jpeg|gif|svg|webp)$).+'
+    deny_url_regex: '(?i)/(video|podcast|live|privacy|cookies|login|subscribe)'
+    # Caixin is a major Chinese business/news outlet. :contentReference[oaicite:4]{index=4}
+
+  - name: Tencent News (腾讯新闻)
+    continent: China
+    url: https://new.qq.com
+    allow_url_regex: '(?i)new\.qq\.com/(?!.*\.(css|js|png|jpg|jpeg|gif|svg|webp)$).+'
+    deny_url_regex: '(?i)/(video|live|privacy|cookies|about|contact)'
+    # Tencent’s news portal uses new.qq.com. :contentReference[oaicite:5]{index=5}
 
   # ======================
   # India (EN/HN)
@@ -765,6 +822,7 @@ sources:
     continent: Asia
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
