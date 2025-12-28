@@ -5,16 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ruben's Profile</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #fff;
-            color: #333;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; background-color: #fff; color: #333; }
+
         .navbar {
             display: flex;
             align-items: center;
@@ -22,41 +15,27 @@
             border-bottom: 1px solid #ccc;
             justify-content: flex-start;
         }
-        .navbar-inner {
-            margin-left: 250px; /* align with sidebar */
-        }
+        .navbar-inner { margin-left: 250px; }
         .navbar a {
             text-decoration: none;
             color: #333;
             font-size: 1em;
             margin-right: 20px;
         }
-        .navbar a.active {
-            font-weight: bold;
-        }
-        .navbar a:hover {
-            text-decoration: underline;
-        }
-        .layout {
-            display: flex;
-            height: calc(100vh - 60px);
-        }
+        .navbar a.active { font-weight: bold; }
+        .navbar a:hover { text-decoration: underline; }
+
+        .layout { display: flex; height: calc(100vh - 60px); }
+
         .sidebar {
             width: 250px;
             border-right: 1px solid #ccc;
             padding: 20px;
         }
-        .sidebar img {
-            width: 100%;
-            margin-bottom: 20px;
-        }
-        .social-links {
-            list-style: none;
-            padding: 0;
-        }
-        .social-links li {
-            margin-bottom: 15px;
-        }
+        .sidebar img { width: 100%; margin-bottom: 20px; }
+
+        .social-links { list-style: none; padding: 0; }
+        .social-links li { margin-bottom: 15px; }
         .social-links a {
             display: flex;
             align-items: center;
@@ -70,53 +49,20 @@
             position: relative;
             top: 10px;
         }
-        .content {
-            flex: 1;
-            padding: 20px;
-            overflow-y: auto;
-        }
-        .content h1 {
-            font-size: 2em;
-            margin-bottom: 10px;
-        }
-        .content p {
-            font-size: 1.2em;
-            line-height: 1.6;
-            margin-bottom: 20px;
-        }
-        .simulation-image {
-            max-width: 100%;
-            border: 1px solid #ccc;
-            margin-top: 20px;
-        }
 
-        /* Optional: styles for preprints snippet */
-        .paper {
-            margin: 16px 0;
-        }
-        .paper h3 {
-            margin-bottom: 4px;
-        }
-        .bold {
-            font-weight: bold;
-        }
+        .content { flex: 1; padding: 20px; overflow-y: auto; }
+        .content h1 { font-size: 2em; margin-bottom: 10px; }
+        .content p { font-size: 1.2em; line-height: 1.6; margin-bottom: 20px; }
+        .simulation-image { max-width: 100%; border: 1px solid #ccc; margin-top: 20px; }
+
+        .paper { margin: 16px 0; }
+        .paper h3 { margin-bottom: 4px; }
+        .bold { font-weight: bold; }
 
         /* Talks map */
-        .map-container {
-            position: relative;
-            width: 100%;
-            max-width: none;
-            margin-top: 20px;
-        }
-        .world-map {
-            width: 100%;
-            display: block;
-        }
-        .flag-emoji {
-            position: absolute;
-            cursor: pointer;
-            transform: translate(-50%, -50%);
-        }
+        .map-container { position: relative; width: 100%; max-width: none; margin-top: 20px; }
+        .world-map { width: 100%; display: block; }
+        .flag-emoji { position: absolute; cursor: pointer; transform: translate(-50%, -50%); }
         .flag-emoji::after {
             content: attr(data-tooltip);
             position: absolute;
@@ -133,17 +79,10 @@
             pointer-events: none;
             transition: opacity 0.15s ease-in-out;
         }
-        .flag-emoji:hover::after {
-            opacity: 1;
-        }
+        .flag-emoji:hover::after { opacity: 1; }
 
-        /* Holdenator styles */
-        .holden-form {
-            display: flex;
-            gap: 10px;
-            margin-bottom: 0.75rem;
-        }
-
+        /* Beta Holden history */
+        .holden-form { display: flex; gap: 10px; margin-bottom: 0.75rem; }
         .holden-input {
             flex: 1;
             padding: 10px 12px;
@@ -151,7 +90,6 @@
             border: 1px solid #ccc;
             font-size: 1rem;
         }
-
         .holden-button {
             padding: 10px 16px;
             border: none;
@@ -162,28 +100,10 @@
             font-size: 1rem;
             white-space: nowrap;
         }
-
-        .holden-button:disabled {
-            opacity: 0.6;
-            cursor: default;
-        }
-
-        .holden-status {
-            min-height: 1.2em;
-            font-size: 0.9rem;
-            color: #777;
-        }
-
-        .holden-output {
-            margin-top: 20px;
-        }
-
-        .holden-image-wrapper {
-            display: flex;
-            align-items: flex-start;
-            gap: 16px;
-        }
-
+        .holden-button:disabled { opacity: 0.6; cursor: default; }
+        .holden-status { min-height: 1.2em; font-size: 0.9rem; color: #777; }
+        .holden-output { margin-top: 20px; }
+        .holden-image-wrapper { display: flex; align-items: flex-start; gap: 16px; }
         .holden-image {
             max-width: 220px;
             height: auto;
@@ -191,7 +111,6 @@
             border-radius: 50%;
             object-fit: cover;
         }
-
         .holden-speech-bubble {
             position: relative;
             background: #f5f5f5;
@@ -203,7 +122,6 @@
             line-height: 1.4;
             border: 1px solid #ddd;
         }
-
         .holden-speech-bubble::before {
             content: "";
             position: absolute;
@@ -213,7 +131,6 @@
             border-bottom: 8px solid transparent;
             border-right: 12px solid #f5f5f5;
         }
-
         .holden-speech-bubble::after {
             content: "";
             position: absolute;
@@ -223,22 +140,11 @@
             border-bottom: 9px solid transparent;
             border-right: 13px solid #ddd;
         }
-
-        .holden-response {
-            white-space: pre-wrap;
-            word-wrap: break-word;
-        }
+        .holden-response { white-space: pre-wrap; word-wrap: break-word; }
 
         @media (max-width: 600px) {
-            .holden-image-wrapper {
-                flex-direction: column;
-                align-items: center;
-            }
-
-            .holden-speech-bubble {
-                margin-top: 10px;
-            }
-
+            .holden-image-wrapper { flex-direction: column; align-items: center; }
+            .holden-speech-bubble { margin-top: 10px; }
             .holden-speech-bubble::before,
             .holden-speech-bubble::after {
                 left: 30px;
@@ -247,20 +153,10 @@
                 border-left: 8px solid transparent;
                 border-bottom: 12px solid #f5f5f5;
             }
-
-            .holden-speech-bubble::after {
-                top: -15px;
-                border-bottom-color: #ddd;
-            }
+            .holden-speech-bubble::after { top: -15px; border-bottom-color: #ddd; }
         }
 
-        /* Holden history (beta) */
-        .holden-history {
-            margin-top: 14px;
-            border-top: 1px solid #eee;
-            padding-top: 12px;
-        }
-
+        .holden-history { margin-top: 14px; border-top: 1px solid #eee; padding-top: 12px; }
         .holden-history-item {
             border: 1px solid #eee;
             border-radius: 12px;
@@ -268,31 +164,46 @@
             margin-bottom: 10px;
             background: #fafafa;
         }
+        .holden-history-date { font-size: 0.85rem; color: #777; margin-bottom: 6px; }
+        .holden-history-text { font-size: 0.95rem; line-height: 1.4; white-space: pre-wrap; word-wrap: break-word; }
 
-        .holden-history-date {
-            font-size: 0.85rem;
-            color: #777;
-            margin-bottom: 6px;
+        /* World news */
+        .news-meta { color: #666; font-size: 0.95rem; margin-bottom: 14px; }
+        .news-list { display: grid; grid-template-columns: 1fr; gap: 14px; }
+        .news-card {
+            border: 1px solid #e6e6e6;
+            border-radius: 14px;
+            padding: 14px 14px;
+            background: #fff;
         }
+        .news-title {
+            font-size: 1.15rem;
+            margin-bottom: 8px;
+            line-height: 1.35;
+        }
+        .news-title a { color: #111; text-decoration: none; }
+        .news-title a:hover { text-decoration: underline; }
 
-        .holden-history-text {
+        .news-kpis {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px 14px;
+            margin-top: 8px;
+            color: #444;
             font-size: 0.95rem;
-            line-height: 1.4;
-            white-space: pre-wrap;
-            word-wrap: break-word;
         }
+        .kpi { background: #f6f6f6; border: 1px solid #eee; border-radius: 999px; padding: 6px 10px; }
 
         /* FAMILIER full-screen view */
         .familier-root {
             position: fixed;
             inset: 0;
             background-color: #fff;
-            display: none; /* only shown when #familier is active */
+            display: none;
             align-items: center;
             justify-content: center;
-            z-index: 9999; /* above navbar/layout */
+            z-index: 9999;
         }
-
         .familier-root img {
             max-width: 100%;
             max-height: 100%;
@@ -308,14 +219,14 @@
             <a href="#home" data-page="home">Ruben Lier</a>
             <a href="#preprints" data-page="preprints">Preprints</a>
             <a href="#talks" data-page="talks">Talks</a>
-            <a href="#holdenator" data-page="holdenator">Holdenator</a>
+            <a href="#worldnews" data-page="worldnews">World news</a>
             <!-- Notice: no link to #beta or #familier here on purpose -->
         </div>
     </div>
 
     <!-- Layout -->
     <div class="layout">
-        <!-- Sidebar (shared for all pages) -->
+        <!-- Sidebar -->
         <div class="sidebar">
             <img src="foto save ruben.PNG" alt="Ruben's Picture">
             <ul class="social-links">
@@ -334,7 +245,7 @@
             </ul>
         </div>
 
-        <!-- Main content area that changes per "page" -->
+        <!-- Main content -->
         <div class="content" id="content"></div>
     </div>
 
@@ -344,10 +255,7 @@
     </div>
 
     <script>
-        // API endpoints
-        const HOLDEN_API_URL_PROD =
-            "https://holden-hcaulfield-medium-416156146603.europe-west4.run.app/generate";
-
+        // API endpoints (beta only)
         const HOLDEN_API_URL_BETA =
             "https://holden-hcaulfield-medium-416156146603.europe-west4.run.app/generate";
 
@@ -404,39 +312,10 @@
                 </div>
             `,
 
-            holdenator: `
-                <h1>Holdenator</h1>
-                <p>Let Holden Caulfield finish your sentence.</p>
-
-                <form id="holden-form" class="holden-form" autocomplete="off">
-                    <input
-                        id="holden-input"
-                        class="holden-input"
-                        type="text"
-                        placeholder="If you really want to hear about it..."
-                        required
-                    />
-                    <button type="submit" id="holden-submit" class="holden-button">
-                        Talk to Holden
-                    </button>
-                </form>
-
-                <p class="holden-status" id="holden-status"></p>
-
-                <div class="holden-output">
-                    <div class="holden-image-wrapper">
-                        <img
-                            src="holden.jpg"
-                            alt="Holden Caulfield"
-                            class="holden-image"
-                        />
-                        <div class="holden-speech-bubble">
-                            <div id="holden-response" class="holden-response">
-                                I’ll say something once you give me a prompt.
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            worldnews: `
+                <h1>World news</h1>
+                <div class="news-meta" id="worldnews-meta">Loading top clusters…</div>
+                <div class="news-list" id="worldnews-list"></div>
             `,
 
             // BETA PAGE (hidden route: #beta)
@@ -459,7 +338,6 @@
 
                 <p class="holden-status" id="holden-status"></p>
 
-                <!-- OUTPUT should be ABOVE history -->
                 <div class="holden-output">
                     <div class="holden-image-wrapper">
                         <img
@@ -475,7 +353,6 @@
                     </div>
                 </div>
 
-                <!-- History sits BELOW the current output -->
                 <div id="holden-history" class="holden-history">
                     Loading history…
                 </div>
@@ -500,7 +377,7 @@
             }
         }
 
-        // --- helpers for history rendering ---
+        // --- helpers ---
         function escapeHtml(s) {
             return (s || "")
                 .replace(/&/g, "&amp;")
@@ -514,6 +391,104 @@
             return (s || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
         }
 
+        // --- World news loader ---
+        async function loadWorldNews() {
+            const metaEl = document.getElementById("worldnews-meta");
+            const listEl = document.getElementById("worldnews-list");
+            if (!metaEl || !listEl) return;
+
+            metaEl.textContent = "Loading top clusters…";
+            listEl.innerHTML = "";
+
+            try {
+                // You said you committed it as output.jsonl
+                const res = await fetch("output.jsonl", { cache: "no-cache" });
+                if (!res.ok) {
+                    throw new Error(`Could not load output.jsonl (HTTP ${res.status})`);
+                }
+
+                const text = await res.text();
+
+                // Support both:
+                //  - single JSON object (your current output)
+                //  - JSONL with one object per line
+                let data = null;
+
+                try {
+                    data = JSON.parse(text);
+                } catch (_) {
+                    // try JSONL fallback: find first line that parses and has clusters
+                    const lines = text.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+                    for (const line of lines) {
+                        try {
+                            const obj = JSON.parse(line);
+                            if (obj && Array.isArray(obj.clusters)) {
+                                data = obj;
+                                break;
+                            }
+                        } catch (e) {}
+                    }
+                }
+
+                if (!data || !Array.isArray(data.clusters)) {
+                    throw new Error("output.jsonl does not contain a JSON object with a 'clusters' array.");
+                }
+
+                const top = data.clusters.slice(0, 5);
+                const inputPath = data.input_path || "output.jsonl";
+                const nItems = Number.isFinite(data.n_items) ? data.n_items : null;
+                const nClusters = Number.isFinite(data.n_clusters) ? data.n_clusters : null;
+
+                metaEl.textContent =
+                    `Showing 5 prominent events from ${escapeHtml(inputPath)}`
+                    + (nItems !== null ? ` · items: ${nItems}` : "")
+                    + (nClusters !== null ? ` · clusters: ${nClusters}` : "");
+
+                listEl.innerHTML = top.map((c, idx) => {
+                    const title = c.title || `Cluster ${idx + 1}`;
+                    const score = (typeof c.score === "number") ? c.score.toFixed(2) : c.score;
+                    const coherence = (typeof c.coherence === "number") ? c.coherence.toFixed(3) : c.coherence;
+
+                    const ca = c.central_article || {};
+                    const url = ca.url || "#";
+                    const source = ca.source_id || "";
+                    const continent = ca.continent || "";
+                    const scraped = ca.scraped_at_utc || "";
+                    const published = ca.published_at || "";
+
+                    return `
+                        <div class="news-card">
+                            <div class="news-title">
+                                <a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">
+                                    ${escapeHtml(title)}
+                                </a>
+                            </div>
+
+                            <div class="news-kpis">
+                                <span class="kpi">score: ${escapeHtml(String(score))}</span>
+                                <span class="kpi">size: ${escapeHtml(String(c.size ?? ""))}</span>
+                                <span class="kpi">sources: ${escapeHtml(String(c.n_sources ?? ""))}</span>
+                                <span class="kpi">continents: ${escapeHtml(String(c.n_continents ?? ""))}</span>
+                                <span class="kpi">coherence: ${escapeHtml(String(coherence))}</span>
+                            </div>
+
+                            <div class="news-meta" style="margin-top:10px;">
+                                <div>${escapeHtml(source)}${continent ? " · " + escapeHtml(continent) : ""}</div>
+                                ${published ? `<div>published: ${escapeHtml(published)}</div>` : ""}
+                                ${scraped ? `<div>scraped: ${escapeHtml(scraped)}</div>` : ""}
+                            </div>
+                        </div>
+                    `;
+                }).join("");
+
+            } catch (err) {
+                console.error(err);
+                metaEl.textContent = "Could not load world news.";
+                listEl.innerHTML = `<p style="color:#b00;">${escapeHtml(err.message || String(err))}</p>`;
+            }
+        }
+
+        // --- Holden history rendering ---
         async function loadHoldenHistory() {
             const container = document.getElementById("holden-history");
             if (!container) return;
@@ -536,8 +511,6 @@
 
                 container.innerHTML = items.map(li => {
                     const date = (li.querySelector("strong")?.textContent || "").trim();
-
-                    // Pattern: <em>Prompt:</em> PROMPT<br><em>Holden:</em> HOLDEN_TEXT
                     const liHtml = li.innerHTML;
 
                     const promptMatch = liHtml.match(/<em>\s*Prompt:\s*<\/em>\s*([\s\S]*?)<br\s*\/?>/i);
@@ -546,12 +519,10 @@
                     const prompt = promptMatch ? promptMatch[1].replace(/<[^>]*>/g, "").trim() : "";
                     const holdenHtml = holdenMatch ? holdenMatch[1].trim() : "";
 
-                    // Decode entities and strip HTML tags safely by using textContent
                     const tmp = document.createElement("div");
                     tmp.innerHTML = holdenHtml;
                     const holdenTextRaw = (tmp.textContent || "").trim();
 
-                    // Bold prompt portion inside output
                     let rendered;
                     if (prompt && holdenTextRaw.startsWith(prompt)) {
                         rendered =
@@ -580,31 +551,22 @@
             }
         }
 
-        function initHoldenatorPage(page) {
+        function initHoldenatorBetaPage() {
             const form = document.getElementById("holden-form");
-            if (!form) return; // not on this page
+            if (!form) return;
 
             const input = document.getElementById("holden-input");
             const button = document.getElementById("holden-submit");
             const responseEl = document.getElementById("holden-response");
             const statusEl = document.getElementById("holden-status");
 
-            // Choose API URL based on page
-            const apiUrl = page === "beta" ? HOLDEN_API_URL_BETA : HOLDEN_API_URL_PROD;
+            const apiUrl = HOLDEN_API_URL_BETA;
 
             form.addEventListener("submit", async (event) => {
                 event.preventDefault();
 
                 const prompt = input.value.trim();
                 if (!prompt) return;
-
-                // If API URL is still placeholder or missing
-                if (!apiUrl || apiUrl.includes("YOUR-HOLDENATOR-TUNNEL-URL-HERE")) {
-                    responseEl.textContent =
-                        "Holden will start talking once Ruben plugs in the API URL.";
-                    statusEl.textContent = "API not connected yet.";
-                    return;
-                }
 
                 button.disabled = true;
                 statusEl.textContent = "Holden is thinking...";
@@ -623,8 +585,7 @@
                     }
 
                     const data = await res.json();
-                    const text = data.text;
-                    responseEl.textContent = text;
+                    responseEl.textContent = data.text || "";
                     statusEl.textContent = "";
                 } catch (err) {
                     console.error("Holdenator error:", err);
@@ -639,11 +600,8 @@
 
         function setActiveLink(page) {
             document.querySelectorAll('.navbar a[data-page]').forEach(a => {
-                if (a.dataset.page === page) {
-                    a.classList.add('active');
-                } else {
-                    a.classList.remove('active');
-                }
+                if (a.dataset.page === page) a.classList.add('active');
+                else a.classList.remove('active');
             });
         }
 
@@ -653,27 +611,20 @@
             const familierRoot = document.getElementById('familier-root');
             const contentDiv = document.getElementById('content');
 
-            // --- Special case: familier (standalone picture, no wrapper) ---
+            // Special case: familier
             if (page === 'familier') {
-                // Hide normal UI
                 if (navbar) navbar.style.display = 'none';
                 if (layout) layout.style.display = 'none';
-
-                // Show familier overlay
                 if (familierRoot) familierRoot.style.display = 'flex';
-
-                return; // don't touch pages[] / content / navbar highlighting
+                return;
             }
 
-            // For all other pages: hide familier overlay and show layout
             if (familierRoot) familierRoot.style.display = 'none';
             if (layout) layout.style.display = 'flex';
 
-            // Normal SPA page handling
             if (!pages[page]) page = 'home';
             contentDiv.innerHTML = pages[page];
 
-            // Navbar logic
             if (page === 'beta') {
                 if (navbar) navbar.style.display = 'none';
             } else {
@@ -683,9 +634,11 @@
 
             if (page === 'preprints') {
                 loadPreprintsSnippet();
-            } else if (page === 'holdenator' || page === 'beta') {
-                initHoldenatorPage(page);
-                if (page === 'beta') loadHoldenHistory();
+            } else if (page === 'beta') {
+                initHoldenatorBetaPage();
+                loadHoldenHistory();
+            } else if (page === 'worldnews') {
+                loadWorldNews();
             }
         }
 
@@ -698,7 +651,6 @@
             loadPage(getPageFromHash());
         });
 
-        // Initial load
         loadPage(getPageFromHash());
     </script>
 </body>
