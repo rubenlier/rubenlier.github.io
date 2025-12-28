@@ -1,0 +1,51 @@
+name: Build world news clusters
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 5 * * *"  # every day 05:15 UTC (06:15 Amsterdam in winter)
+
+permissions:
+  contents: write
+
+jobs:
+  cluster:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Ensure input exists
+        run: |
+          ls -lah
+          test -f headlines_latest.jsonl
+
+      - name: Call Cloud Run to cluster (POST JSONL)
+        env:
+          URL: ${{ secrets.NEWSCLUSTER_URL }}
+          SECRET: ${{ secrets.NEWSCLUSTER_CRON_SECRET }}
+        run: |
+          set -euo pipefail
+          echo "Calling: $URL"
+          curl -sS -X POST "$URL" \
+            -H "Content-Type: application/jsonl; charset=utf-8" \
+            -H "X-CRON-SECRET: $SECRET" \
+            --data-binary @headlines_latest.jsonl \
+            -o output.json
+
+          # quick sanity check
+          python - << 'PY'
+          import json
+          with open("output.json","r",encoding="utf-8") as f:
+              data=json.load(f)
+          assert "clusters" in data and isinstance(data["clusters"], list) and len(data["clusters"])>0
+          print("OK clusters:", len(data["clusters"]))
+          PY
+
+      - name: Commit output
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output.json
+          git commit -m "Update world news clusters" || echo "No changes to commit"
+          git push
