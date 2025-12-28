@@ -467,14 +467,13 @@
                                 <span class="kpi">score: ${escapeHtml(String(score))}</span>
                                 <span class="kpi">size: ${escapeHtml(String(c.size ?? ""))}</span>
                                 <span class="kpi">sources: ${escapeHtml(String(c.n_sources ?? ""))}</span>
-                                <span class="kpi">continents: ${escapeHtml(String(c.n_continents ?? ""))}</span>
+                                <span class="kpi">regions: ${escapeHtml(String(c.n_continents ?? ""))}</span>
                                 <span class="kpi">coherence: ${escapeHtml(String(coherence))}</span>
                             </div>
 
                             <div class="news-meta" style="margin-top:10px;">
                                 <div>${escapeHtml(source)}${continent ? " · " + escapeHtml(continent) : ""}</div>
                                 ${published ? `<div>published: ${escapeHtml(published)}</div>` : ""}
-                                ${scraped ? `<div>scraped: ${escapeHtml(scraped)}</div>` : ""}
                             </div>
                         </div>
                     `;
