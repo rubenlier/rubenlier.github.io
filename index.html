@@ -401,8 +401,7 @@
             listEl.innerHTML = "";
 
             try {
-                // You said you committed it as output.jsonl
-                const res = await fetch("output.jsonl", { cache: "no-cache" });
+                const res = await fetch("output.json", { cache: "no-cache" });
                 if (!res.ok) {
                     throw new Error(`Could not load output.jsonl (HTTP ${res.status})`);
                 }
