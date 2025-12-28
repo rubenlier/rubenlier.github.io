@@ -27,20 +27,39 @@ jobs:
         run: |
           set -euo pipefail
           echo "Calling: $URL"
-
-          curl -sS -X POST "$URL" \
+      
+          # capture HTTP code + body
+          http_code=$(curl -sS -o output.json -w "%{http_code}" -X POST "$URL" \
             -H "Content-Type: application/x-ndjson; charset=utf-8" \
             -H "X-CRON-SECRET: $SECRET" \
-            --data-binary @headlines_latest.jsonl \
-            -o output.json
-
+            --data-binary @headlines_latest.jsonl)
+      
+          echo "HTTP: $http_code"
+          echo "First 400 chars of response:"
+          head -c 400 output.json || true
+          echo
+      
+          # If it's not 200, fail with useful output
+          test "$http_code" = "200"
+      
           python - << 'PY'
           import json
           with open("output.json","r",encoding="utf-8") as f:
               data=json.load(f)
-          assert "clusters" in data and isinstance(data["clusters"], list) and len(data["clusters"])>0
-          print("OK clusters:", len(data["clusters"]))
+      
+          # Print keys to understand what you got
+          if isinstance(data, dict):
+              print("Top-level keys:", sorted(data.keys()))
+          else:
+              print("Top-level type:", type(data))
+      
+          clusters = data.get("clusters") if isinstance(data, dict) else None
+          print("clusters type:", type(clusters), "len:", (len(clusters) if isinstance(clusters, list) else None))
+      
+          assert isinstance(clusters, list) and len(clusters) > 0
+          print("OK clusters:", len(clusters))
           PY
+
 
       - name: Commit output
         run: |
