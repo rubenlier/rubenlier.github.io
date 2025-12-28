@@ -20,9 +20,9 @@ jobs:
           ls -lah
           test -f headlines_latest.jsonl
 
-      - name: Call Cloud Run to cluster (POST JSONL)
+      - name: Run clustering via Cloud Run
         env:
-          URL: ${{ secrets.NEWSCLUSTER_URL }}
+          URL: https://newscluster-api-416156146603.europe-west4.run.app/clusters/top
           SECRET: ${{ secrets.NEWSCLUSTER_CRON_SECRET }}
         run: |
           set -euo pipefail
@@ -32,6 +32,15 @@ jobs:
             -H "X-CRON-SECRET: $SECRET" \
             --data-binary @headlines_latest.jsonl \
             -o output.json
+      
+          python - << 'PY'
+          import json
+          with open("output.json","r",encoding="utf-8") as f:
+              data=json.load(f)
+          assert "clusters" in data and isinstance(data["clusters"], list) and len(data["clusters"])>0
+          print("OK clusters:", len(data["clusters"]))
+          PY
+
 
           # quick sanity check
           python - << 'PY'
