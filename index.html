@@ -439,9 +439,7 @@
                 const nClusters = Number.isFinite(data.n_clusters) ? data.n_clusters : null;
 
                 metaEl.textContent =
-                    `Showing 5 prominent events from ${escapeHtml(inputPath)}`
-                    + (nItems !== null ? ` · items: ${nItems}` : "")
-                    + (nClusters !== null ? ` · clusters: ${nClusters}` : "");
+                    `Below are the 5 most important world events`;
 
                 listEl.innerHTML = top.map((c, idx) => {
                     const title = c.title || `Cluster ${idx + 1}`;
