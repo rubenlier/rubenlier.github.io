@@ -23,7 +23,7 @@ jobs:
       - name: Run clustering via Cloud Run
         env:
           URL: https://newscluster-api-416156146603.europe-west4.run.app/clusters/top
-          SECRET: ${{ secrets.NEWSCLUSTER_CRON_SECRET }}
+          SECRET: ${{ secrets.CRON_SECRET }}
         run: |
           set -euo pipefail
           echo "Calling: $URL"
