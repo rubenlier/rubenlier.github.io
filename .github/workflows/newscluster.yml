@@ -3,7 +3,7 @@ name: Build world news clusters
 on:
   workflow_dispatch:
   schedule:
-    - cron: "15 5 * * *"  # every day 05:15 UTC (06:15 Amsterdam in winter)
+    - cron: "15 5 * * *"  # daily 05:15 UTC (06:15 Amsterdam in winter)
 
 permissions:
   contents: write
@@ -27,22 +27,13 @@ jobs:
         run: |
           set -euo pipefail
           echo "Calling: $URL"
+
           curl -sS -X POST "$URL" \
-            -H "Content-Type: application/jsonl; charset=utf-8" \
+            -H "Content-Type: application/x-ndjson; charset=utf-8" \
             -H "X-CRON-SECRET: $SECRET" \
             --data-binary @headlines_latest.jsonl \
             -o output.json
-      
-          python - << 'PY'
-          import json
-          with open("output.json","r",encoding="utf-8") as f:
-              data=json.load(f)
-          assert "clusters" in data and isinstance(data["clusters"], list) and len(data["clusters"])>0
-          print("OK clusters:", len(data["clusters"]))
-          PY
 
-
-          # quick sanity check
           python - << 'PY'
           import json
           with open("output.json","r",encoding="utf-8") as f:
@@ -53,8 +44,15 @@ jobs:
 
       - name: Commit output
         run: |
+          set -e
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add output.json
-          git commit -m "Update world news clusters" || echo "No changes to commit"
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Update world news clusters"
           git push
