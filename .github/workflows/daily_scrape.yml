@@ -32,14 +32,13 @@ jobs:
           ls -la
           python --version
 
-          python scrape_homepages.py --sources sources.yaml --out headlines_latest.jsonl --per_site 20 --sleep 1.0
+          python scrape_homepages.py --sources sources.yaml --out headlines_latest.json --per_site 20 --sleep 1.0
 
           echo "After run:"
           ls -la
           echo "File details:"
-          test -f headlines_latest.jsonl
-          wc -l headlines_latest.jsonl
-          head -n 3 headlines_latest.jsonl
+          test -f headlines_latest.json
+          python -c "import json; d=json.load(open('headlines_latest.json','r',encoding='utf-8')); print('Top keys:', d.keys()); print('n_items:', len(d['items'])); print('first title:', d['items'][0]['title'])"
 
       - name: Commit and push if changed
         run: |
@@ -47,7 +46,7 @@ jobs:
           git status
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add headlines_latest.jsonl
+          git add headlines_latest.json
           git diff --cached --quiet || git commit -m "Update headlines_latest"
           git push
 
