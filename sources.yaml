@@ -684,7 +684,14 @@ sources:
     deny_url_regex: '(?i)/(video|live|privacy|cookies|about|contact)'
     # ThePaper is a major CN outlet; many story URLs contain “newsDetail”. :contentReference[oaicite:2]{index=2}
 
-  - name: Global Times (环球时报 / Huanqiu)
+  - name: Global Times
+    continent: China
+    url: https://www.huanqiu.com
+    allow_url_regex: '(?i)globaltimes\.cn/page/.+'
+    deny_url_regex: '(?i)/(video|live|privacy|cookies|about|contact)'
+
+
+  - name: Huanqiu (环球时报)
     continent: China
     url: https://www.huanqiu.com
     allow_url_regex: '(?i)huanqiu\.com/article/[0-9A-Za-z]+$'
@@ -851,6 +858,7 @@ sources:
     continent: Asia
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
