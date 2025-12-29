@@ -75,9 +75,17 @@ sources:
 
   - name: RTL Nieuws
     continent: Europe North
-    url: https://www.rtlnieuws.nl
-    allow_url_regex: '(?i)rtlnieuws\.nl/nieuws/.+'
+    url: https://www.rtl.nl
+    allow_url_regex: '(?i)rtl\.nl/nieuws/.+'
     deny_url_regex: '(?i)/(video|uitzendingen|shows|programma|privacy|cookies)'
+
+  - name: Telegraaf
+    continent: Europe North
+    url: https://www.telegraaf.nl/
+    allow_url_regex: '(?i)telegraaf\.nl/.+'
+    deny_url_regex: '(?i)/(video|uitzendingen|shows|programma|privacy|cookies)'
+
+    
 
 
   # ======================
@@ -858,6 +866,7 @@ sources:
     continent: Asia
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
