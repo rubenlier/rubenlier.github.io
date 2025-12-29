@@ -3,7 +3,7 @@ name: Build world news clusters
 on:
   workflow_dispatch:
   schedule:
-    - cron: "15 5 * * *"  # daily 05:15 UTC (06:15 Amsterdam in winter)
+    - cron: "15 5 * * *"  # daily 08:15 UTC (09:15 Amsterdam in winter)
 
 permissions:
   contents: write
