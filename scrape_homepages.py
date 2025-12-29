@@ -254,19 +254,19 @@ def scrape_source(
     return items
 
 
-def write_jsonl(path: str, rows: List[Dict[str, Any]]) -> None:
+def write_json(path: str, obj: Any) -> None:
     dir_ = os.path.dirname(path)
     if dir_:
         os.makedirs(dir_, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
-        for r in rows:
-            f.write(json.dumps(r, ensure_ascii=False) + "\n")
+        json.dump(obj, f, ensure_ascii=False)
+
 
 
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--sources", default="sources.yaml")
-    ap.add_argument("--out", default="headlines_latest.jsonl")
+    ap.add_argument("--out", default="headlines_latest.json")
     ap.add_argument("--per_site", type=int, default=25)
     ap.add_argument("--sleep", type=float, default=1.0)
     args = ap.parse_args()
@@ -298,13 +298,15 @@ def main() -> int:
         r["url"] = u
         deduped.append(r)
 
-    write_jsonl(args.out, deduped)
-    print(f"Wrote {len(deduped)} headlines to {args.out}")
+    payload = {"items": deduped}
+    write_json(args.out, payload)
+    print(f"Wrote {len(deduped)} headlines to {args.out} (wrapped as {{'items': [...]}})")
     return 0
 
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
 
 
 
