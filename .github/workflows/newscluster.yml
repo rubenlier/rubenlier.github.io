@@ -18,7 +18,7 @@ jobs:
       - name: Ensure input exists
         run: |
           ls -lah
-          test -f headlines_latest.jsonl
+          test -f headlines_latest.json
 
       - name: Run clustering via Cloud Run
         env:
@@ -30,9 +30,9 @@ jobs:
       
           # capture HTTP code + body
           http_code=$(curl -sS -o output.json -w "%{http_code}" -X POST "$URL" \
-            -H "Content-Type: application/x-ndjson; charset=utf-8" \
+            -H "Content-Type: application/json; charset=utf-8" \
             -H "X-CRON-SECRET: $SECRET" \
-            --data-binary @headlines_latest.jsonl)
+            --data-binary @headlines_latest.json)
       
           echo "HTTP: $http_code"
           echo "First 400 chars of response:"
