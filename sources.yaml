@@ -772,23 +772,6 @@ sources:
 
 
 
-  - name: Asahi Shimbun
-    url: https://www.asahi.com
-    continent: Asia
-    allow_url_regex: '(?i)asahi\.com/articles/'
-    deny_url_regex: '(?i)/(video|podcast|gallery|opinion)'
-
-
-  - name: Yomiuri Shimbun
-    url: https://www.yomiuri.co.jp
-    continent: Asia
-    allow_url_regex: '(?i)yomiuri\.co\.jp/.+/\d+/'
-    deny_url_regex: '(?i)/(video|podcast|photo)'
-
-
-
-
-
   - name: Channel NewsAsia
     continent: Asia
     url: https://www.channelnewsasia.com
@@ -866,6 +849,7 @@ sources:
     continent: Asia
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
