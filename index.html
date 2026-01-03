@@ -210,7 +210,50 @@
             object-fit: contain;
             display: block;
         }
-    </style>
+    /* --- Top score history graph (worldnews) --- */
+#scoreHistoryWrap{
+    margin-top: 18px;
+    border: 1px solid #e6e6e6;
+    border-radius: 12px;
+    padding: 12px;
+    background: #fff;
+}
+#scoreHistoryHeader{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    gap:12px;
+    margin-bottom:10px;
+}
+#scoreHistoryScroll{
+    overflow-x:auto;
+    overflow-y:hidden;
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    background: #fff;
+}
+#scoreHistorySvg{ display:block; }
+#scoreTooltip{
+    position: fixed;
+    z-index: 9999;
+    pointer-events: none;
+    max-width: 520px;
+    background: rgba(20,20,20,0.94);
+    color: #fff;
+    padding: 10px 12px;
+    border-radius: 10px;
+    font: 12px system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    line-height: 1.35;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    display: none;
+}
+#scoreTooltip .date { font-weight: 700; margin-bottom: 6px; }
+#scoreTooltip ol { margin: 6px 0 0 18px; padding: 0; }
+#scoreTooltip li { margin: 2px 0; }
+.scoreTick { font: 11px system-ui, -apple-system, Segoe UI, Roboto, sans-serif; fill:#666; }
+.scoreLabel { font: 12px system-ui, -apple-system, Segoe UI, Roboto, sans-serif; fill:#333; }
+
+</style>
 </head>
 <body>
     <!-- Navbar -->
@@ -313,10 +356,23 @@
             `,
 
             worldnews: `
-                <h1>World news</h1>
-                <div class="news-meta" id="worldnews-meta">Loading top clusters…</div>
-                <div class="news-list" id="worldnews-list"></div>
-            `,
+    <h1>World news</h1>
+    <div class="news-meta" id="worldnews-meta">Loading top clusters…</div>
+    <div class="news-list" id="worldnews-list"></div>
+
+    <div id="scoreHistoryWrap">
+      <div id="scoreHistoryHeader">
+        <div><strong>Top event score over time</strong></div>
+        <div id="scoreHistoryMeta" class="scoreTick"></div>
+      </div>
+
+      <div id="scoreHistoryScroll">
+        <svg id="scoreHistorySvg"></svg>
+      </div>
+    </div>
+
+    <div id="scoreTooltip"></div>
+`,
 
             // BETA PAGE (hidden route: #beta)
             beta: `
@@ -396,22 +452,22 @@
           const metaEl = document.getElementById("worldnews-meta");
           const listEl = document.getElementById("worldnews-list");
           if (!metaEl || !listEl) return;
-        
+
           metaEl.textContent = "Loading top clusters…";
           listEl.innerHTML = "";
-        
+
           try {
             const res = await fetch("output.json", { cache: "no-store" });
             if (!res.ok) {
               throw new Error(`Could not load output.json (HTTP ${res.status})`);
             }
-        
+
             const text = await res.text();
-        
+
             // 1) Parse as JSON first (preferred)
             // 2) Fallback: JSONL (one JSON object per line)
             let parsed = null;
-        
+
             try {
               parsed = JSON.parse(text);
             } catch (_) {
@@ -423,51 +479,51 @@
               // If JSONL, treat as list of runs
               parsed = objs.length ? objs : null;
             }
-        
+
             if (!parsed) {
               throw new Error("output.json is empty or not valid JSON.");
             }
-        
+
             // Normalize to a list of runs
             const runs = Array.isArray(parsed) ? parsed : [parsed];
-        
+
             // Keep only runs that look usable
             const validRuns = runs.filter(r => r && typeof r === "object" && Array.isArray(r.clusters));
-        
+
             if (!validRuns.length) {
               throw new Error("output.json does not contain any run objects with a 'clusters' array.");
             }
-        
+
             // Pick the latest run *for today* (UTC), fallback to latest overall.
             const isoDayUTC = (iso) => String(iso || "").slice(0, 10);
             const todayUTC = new Date().toISOString().slice(0, 10);
-        
+
             const pickLatest = (arr) =>
               arr.slice().sort((a, b) => String(a.created_at_utc || "").localeCompare(String(b.created_at_utc || ""))).at(-1);
-        
+
             const todaysRuns = validRuns.filter(r => isoDayUTC(r.created_at_utc) === todayUTC);
             const data = todaysRuns.length ? pickLatest(todaysRuns) : pickLatest(validRuns);
-        
+
             if (!data || !Array.isArray(data.clusters)) {
               throw new Error("Could not select a valid run with clusters from output.json.");
             }
-        
+
             const top = data.clusters.slice(0, 5);
-        
+
             metaEl.textContent = `Below are the 5 most important world events`;
-        
+
             listEl.innerHTML = top.map((c, idx) => {
               const title = c.title || `Cluster ${idx + 1}`;
               const score = (typeof c.score === "number") ? c.score.toFixed(2) : c.score;
               const coherence = (typeof c.coherence === "number") ? c.coherence.toFixed(3) : c.coherence;
-        
+
               const ca = c.central_article || {};
               const url = ca.url || "#";
               const source = ca.source_id || "";
               const continent = ca.continent || "";
               const scraped = ca.scraped_at_utc || "";
               const published = ca.published_at || "";
-        
+
               return `
                 <div class="news-card">
                   <div class="news-title">
@@ -475,7 +531,7 @@
                       ${escapeHtml(title)}
                     </a>
                   </div>
-        
+
                   <div class="news-kpis">
                     <span class="kpi">score: ${escapeHtml(String(score))}</span>
                     <span class="kpi">size: ${escapeHtml(String(c.size ?? ""))}</span>
@@ -483,7 +539,7 @@
                     <span class="kpi">regions: ${escapeHtml(String(c.n_continents ?? ""))}</span>
                     <span class="kpi">coherence: ${escapeHtml(String(coherence))}</span>
                   </div>
-        
+
                   <div class="news-meta" style="margin-top:10px;">
                     <div>${escapeHtml(source)}${continent ? " · " + escapeHtml(continent) : ""}</div>
                     ${published ? `<div>published: ${escapeHtml(published)}</div>` : ""}
@@ -491,7 +547,7 @@
                 </div>
               `;
             }).join("");
-        
+
           } catch (err) {
             console.error(err);
             metaEl.textContent = "Could not load world news.";
@@ -651,6 +707,7 @@
                 loadHoldenHistory();
             } else if (page === 'worldnews') {
                 loadWorldNews();
+                if (typeof loadScoreHistoryGraph === 'function') loadScoreHistoryGraph();
             }
         }
 
@@ -665,5 +722,212 @@
 
         loadPage(getPageFromHash());
     </script>
+        <script>
+    function escapeHtml(s) {
+    return String(s)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function isoDayUTC(iso) {
+    // "2026-01-03T20:56:50Z" -> "2026-01-03"
+    return String(iso || "").slice(0, 10);
+    }
+
+    function pickLatestRun(runsForDay) {
+    // created_at_utc is ISO UTC so lexicographic compare works
+    return runsForDay
+        .slice()
+        .sort((a,b) => String(a.created_at_utc||"").localeCompare(String(b.created_at_utc||"")))
+        .at(-1);
+    }
+
+    async function loadScoreHistoryGraph() {
+    const metaEl = document.getElementById("scoreHistoryMeta");
+    const svg = document.getElementById("scoreHistorySvg");
+    const tooltip = document.getElementById("scoreTooltip");
+    if (!metaEl || !svg || !tooltip) return;
+
+    metaEl.textContent = "Loading…";
+
+    const res = await fetch("output.json", { cache: "no-store" });
+    if (!res.ok) throw new Error(`Could not load output.json (HTTP ${res.status})`);
+
+    const parsed = await res.json();
+    const runs = Array.isArray(parsed) ? parsed : (parsed ? [parsed] : []);
+
+    const valid = runs.filter(r => r && r.created_at_utc && Array.isArray(r.clusters) && r.clusters.length);
+    if (!valid.length) {
+        metaEl.textContent = "No runs with clusters yet.";
+        svg.setAttribute("width", "760");
+        svg.setAttribute("height", "120");
+        svg.innerHTML = `<text x="10" y="30" class="scoreLabel">No data to plot.</text>`;
+        return;
+    }
+
+    // Group by day, keep latest run per day
+    const map = new Map();
+    for (const r of valid) {
+        const day = isoDayUTC(r.created_at_utc);
+        if (!day) continue;
+        if (!map.has(day)) map.set(day, []);
+        map.get(day).push(r);
+    }
+
+    const days = Array.from(map.keys()).sort();
+    const series = days.map(day => {
+        const run = pickLatestRun(map.get(day));
+        const topScore = Number(run?.clusters?.[0]?.score);
+        if (!Number.isFinite(topScore)) return null;
+        const top5titles = run.clusters.slice(0,5).map(c => c?.title ?? "(no title)");
+        return { day, topScore, top5titles };
+    }).filter(Boolean);
+
+    if (!series.length) {
+        metaEl.textContent = "No numeric scores found.";
+        return;
+    }
+
+    metaEl.textContent = `Days: ${series.length} • (scroll horizontally)`;
+
+    // ----- render SVG (wide + scroll) -----
+    const NS = "http://www.w3.org/2000/svg";
+    const margin = { top: 14, right: 18, bottom: 38, left: 56 };
+    const daySpacing = 42;  // widen/narrow the graph per day
+    const innerH = 220;
+    const H = margin.top + innerH + margin.bottom;
+
+    const W = Math.max(760, margin.left + margin.right + daySpacing * (series.length - 1));
+    svg.setAttribute("width", String(W));
+    svg.setAttribute("height", String(H));
+    svg.innerHTML = "";
+
+    const scores = series.map(p => p.topScore);
+    const min = Math.min(...scores);
+    const max = Math.max(...scores);
+    const pad = (max - min) * 0.08 || 10;
+    const yMin = min - pad;
+    const yMax = max + pad;
+
+    const xFor = (i) => margin.left + i * daySpacing;
+    const yFor = (s) => {
+        const t = (s - yMin) / (yMax - yMin);
+        return margin.top + (1 - t) * innerH;
+    };
+
+    // background
+    const bg = document.createElementNS(NS, "rect");
+    bg.setAttribute("x","0"); bg.setAttribute("y","0");
+    bg.setAttribute("width", String(W)); bg.setAttribute("height", String(H));
+    bg.setAttribute("fill", "white");
+    svg.appendChild(bg);
+
+    // axes
+    const xAxisY = margin.top + innerH;
+    const axisLine = (x1,y1,x2,y2, color="#999") => {
+        const l = document.createElementNS(NS, "line");
+        l.setAttribute("x1", x1); l.setAttribute("y1", y1);
+        l.setAttribute("x2", x2); l.setAttribute("y2", y2);
+        l.setAttribute("stroke", color);
+        l.setAttribute("stroke-width", "1");
+        svg.appendChild(l);
+    };
+    axisLine(String(margin.left), String(margin.top), String(margin.left), String(xAxisY));
+    axisLine(String(margin.left), String(xAxisY), String(W - margin.right), String(xAxisY));
+
+    // y grid + ticks
+    const ticks = 5;
+    for (let i=0; i<=ticks; i++) {
+        const t = i / ticks;
+        const s = yMin + (1 - t) * (yMax - yMin);
+        const y = yFor(s);
+
+        axisLine(String(margin.left), String(y), String(W - margin.right), String(y), "#eee");
+
+        const lab = document.createElementNS(NS, "text");
+        lab.setAttribute("x", String(margin.left - 10));
+        lab.setAttribute("y", String(y + 4));
+        lab.setAttribute("text-anchor", "end");
+        lab.setAttribute("class", "scoreTick");
+        lab.textContent = (Math.round(s * 100) / 100).toString();
+        svg.appendChild(lab);
+    }
+
+    // y label
+    const ylab = document.createElementNS(NS, "text");
+    ylab.setAttribute("x", "14");
+    ylab.setAttribute("y", String(margin.top + 10));
+    ylab.setAttribute("class", "scoreLabel");
+    ylab.textContent = "Score (#1 cluster)";
+    svg.appendChild(ylab);
+
+    // x labels: every ~10 points
+    const labelEvery = Math.max(1, Math.floor(series.length / 10));
+    series.forEach((p, i) => {
+        if (i % labelEvery !== 0 && i !== series.length - 1) return;
+        const tx = document.createElementNS(NS, "text");
+        tx.setAttribute("x", String(xFor(i)));
+        tx.setAttribute("y", String(H - 14));
+        tx.setAttribute("text-anchor", "middle");
+        tx.setAttribute("class", "scoreTick");
+        tx.textContent = p.day;
+        svg.appendChild(tx);
+    });
+
+    // line path
+    const path = document.createElementNS(NS, "path");
+    const d = series.map((p,i) => `${i===0?"M":"L"} ${xFor(i)} ${yFor(p.topScore)}`).join(" ");
+    path.setAttribute("d", d);
+    path.setAttribute("fill", "none");
+    path.setAttribute("stroke", "#111");
+    path.setAttribute("stroke-width", "1.6");
+    svg.appendChild(path);
+
+    // dots + tooltip
+    const showTip = (ev, p) => {
+        const items = p.top5titles.map(t => `<li>${escapeHtml(t)}</li>`).join("");
+        tooltip.innerHTML = `
+        <div class="date">${escapeHtml(p.day)} — top score: ${escapeHtml(p.topScore.toFixed(2))}</div>
+        <div>Top 5 events:</div>
+        <ol>${items}</ol>
+        `;
+        tooltip.style.display = "block";
+        moveTip(ev);
+    };
+
+    const moveTip = (ev) => {
+        const offset = 14;
+        tooltip.style.left = (ev.clientX + offset) + "px";
+        tooltip.style.top  = (ev.clientY + offset) + "px";
+    };
+
+    const hideTip = () => { tooltip.style.display = "none"; };
+
+    series.forEach((p,i) => {
+        const c = document.createElementNS(NS, "circle");
+        c.setAttribute("cx", String(xFor(i)));
+        c.setAttribute("cy", String(yFor(p.topScore)));
+        c.setAttribute("r", "4.2");
+        c.setAttribute("fill", "#111");
+        c.style.cursor = "pointer";
+
+        c.addEventListener("mouseenter", (ev) => showTip(ev, p));
+        c.addEventListener("mousemove", (ev) => moveTip(ev));
+        c.addEventListener("mouseleave", hideTip);
+
+        svg.appendChild(c);
+    });
+    }
+
+    loadScoreHistoryGraph().catch(err => {
+    const metaEl = document.getElementById("scoreHistoryMeta");
+    if (metaEl) metaEl.textContent = "Graph failed: " + (err.message || String(err));
+    console.error(err);
+    });
+    </script>
+
 </body>
 </html>
