@@ -40,37 +40,70 @@ jobs:
           REQ='{"jsonl_url":"'"$RAW_URL"'","top_k":25}'
 
           # capture HTTP code + body
-          http_code=$(curl -sS -o output.json -w "%{http_code}" -X POST "$URL" \
+          http_code=$(curl -sS -o output_new.json -w "%{http_code}" -X POST "$URL" \
             -H "Content-Type: application/json; charset=utf-8" \
             -H "X-CRON-SECRET: $SECRET" \
             --data-binary "$REQ")
 
           echo "HTTP: $http_code"
           echo "First 400 chars of response:"
-          head -c 400 output.json || true
+          head -c 400 output_new.json || true
           echo
 
           # If it's not 200, fail with useful output
           test "$http_code" = "200"
 
-          # sanity checks (prove it used the raw github file)
+                    # Merge new run into output.json (append instead of overwrite)
           python - << 'PY'
-          import json
-          with open("output.json","r",encoding="utf-8") as f:
-              data=json.load(f)
+          import json, os
+          from datetime import datetime, timezone
 
-          print("Top-level keys:", sorted(data.keys()) if isinstance(data, dict) else type(data))
-          print("input_path:", data.get("input_path"))
+          # 1) load the newly fetched run (dict) from API response
+          with open("output_new.json","r",encoding="utf-8") as f:
+              new_run = json.load(f)
 
-          clusters = data.get("clusters") if isinstance(data, dict) else None
-          print("clusters type:", type(clusters), "len:", (len(clusters) if isinstance(clusters, list) else None))
+          if not isinstance(new_run, dict):
+              raise SystemExit(f"API response is not a dict: {type(new_run)}")
 
-          assert isinstance(clusters, list) and len(clusters) > 0
-          assert isinstance(data.get("input_path"), str) and data["input_path"].startswith("https://raw.githubusercontent.com/")
-          print("OK clusters:", len(clusters))
+          # add metadata so the website can show “latest 5 runs”
+          now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+          new_run.setdefault("created_at_utc", now)
+
+          # 2) load existing output.json (list of runs), or initialize
+          if os.path.exists("output.json"):
+              with open("output.json","r",encoding="utf-8") as f:
+                  try:
+                      existing = json.load(f)
+                  except json.JSONDecodeError:
+                      existing = []
+          else:
+              existing = []
+
+          # migrate legacy format: if output.json was a dict, wrap it once
+          if isinstance(existing, dict):
+              existing = [existing]
+          if not isinstance(existing, list):
+              raise SystemExit(f"Existing output.json must be list/dict, got {type(existing)}")
+
+          # 3) append and write back
+          existing.append(new_run)
+
+          with open("output.json","w",encoding="utf-8") as f:
+              json.dump(existing, f, ensure_ascii=False, indent=2)
+
+          # 4) sanity checks on the NEW run
+          clusters = new_run.get("clusters")
+          assert isinstance(clusters, list) and len(clusters) > 0, "No clusters in new run"
+          ip = new_run.get("input_path")
+          assert isinstance(ip, str) and ip.startswith("https://raw.githubusercontent.com/"), f"bad input_path: {ip}"
+
+          print("OK appended. total runs:", len(existing), "clusters in new run:", len(clusters))
           PY
 
 
+
+      - name: Cleanup temp files
+        run: rm -f output_new.json
 
 
       - name: Commit output
