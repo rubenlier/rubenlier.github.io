@@ -29,54 +29,47 @@ jobs:
         run: |
           set -euo pipefail
           echo "Calling: $URL"
-      
-          # file is in repo root
+
           FILE="headlines_latest.json"
-          BRANCH="main"
-      
+          BRANCH="master"
+
           RAW_URL="https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/${FILE}?nocache=$(date +%s)"
           echo "RAW_URL: $RAW_URL"
-      
-          # Build the request the API actually expects:
-          # (API will download RAW_URL and cluster it.)
-          REQ=$(python - <<'PY'
-          import json, os
-          print(json.dumps({
-            "jsonl_url": os.environ["RAW_URL"],
-            "top_k": 25
-          }))
-          PY
-          )
-      
+
+          # Option 1: build request JSON directly in bash (no python; no env export issues)
+          REQ='{"jsonl_url":"'"$RAW_URL"'","top_k":25}'
+
           # capture HTTP code + body
           http_code=$(curl -sS -o output.json -w "%{http_code}" -X POST "$URL" \
             -H "Content-Type: application/json; charset=utf-8" \
             -H "X-CRON-SECRET: $SECRET" \
             --data-binary "$REQ")
-      
+
           echo "HTTP: $http_code"
           echo "First 400 chars of response:"
           head -c 400 output.json || true
           echo
-      
+
           # If it's not 200, fail with useful output
           test "$http_code" = "200"
-      
+
+          # sanity checks (prove it used the raw github file)
           python - << 'PY'
           import json
           with open("output.json","r",encoding="utf-8") as f:
               data=json.load(f)
-      
+
           print("Top-level keys:", sorted(data.keys()) if isinstance(data, dict) else type(data))
           print("input_path:", data.get("input_path"))
-      
+
           clusters = data.get("clusters") if isinstance(data, dict) else None
           print("clusters type:", type(clusters), "len:", (len(clusters) if isinstance(clusters, list) else None))
-      
+
           assert isinstance(clusters, list) and len(clusters) > 0
           assert isinstance(data.get("input_path"), str) and data["input_path"].startswith("https://raw.githubusercontent.com/")
           print("OK clusters:", len(clusters))
           PY
+
 
 
 
