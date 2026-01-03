@@ -38,7 +38,18 @@ jobs:
           ls -la
           echo "File details:"
           test -f headlines_latest.jsonl
-          python -c "import json; d=json.load(open('headlines_latest.json','r',encoding='utf-8')); print('Top keys:', d.keys()); print('n_items:', len(d['items'])); print('first title:', d['items'][0]['title'])"
+          python - << 'PY'
+          import json
+          items=[]
+          with open("headlines_latest.jsonl","r",encoding="utf-8") as f:
+              for line in f:
+                  line=line.strip()
+                  if line:
+                      items.append(json.loads(line))
+          print("n_items:", len(items))
+          print("first title:", items[0].get("title"))
+          PY
+
 
       - name: Commit and push if changed
         run: |
@@ -49,6 +60,7 @@ jobs:
           git add headlines_latest.jsonl
           git diff --cached --quiet || git commit -m "Update headlines_latest"
           git push
+
 
 
 
