@@ -32,7 +32,7 @@ jobs:
           ls -la
           python --version
 
-          python scrape_homepages.py --sources sources.yaml --out headlines_latest.jsonl --per_site 20 --sleep 1.0
+          python scrape_homepages.py --sources sources.yaml --out headlines_latest.jsonl --per_site 15 --sleep 1.0
 
           echo "After run:"
           ls -la
@@ -60,6 +60,7 @@ jobs:
           git add headlines_latest.jsonl
           git diff --cached --quiet || git commit -m "Update headlines_latest"
           git push
+
 
 
 
