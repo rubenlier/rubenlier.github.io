@@ -791,7 +791,7 @@
         return;
     }
 
-    metaEl.textContent = `Days: ${series.length} • (scroll horizontally)`;
+    metaEl.textContent = `Days: ${series.length}`;
 
     // ----- render SVG (wide + scroll) -----
     const NS = "http://www.w3.org/2000/svg";
@@ -861,7 +861,7 @@
     ylab.setAttribute("x", "14");
     ylab.setAttribute("y", String(margin.top + 10));
     ylab.setAttribute("class", "scoreLabel");
-    ylab.textContent = "Score (#1 cluster)";
+    ylab.textContent = "Score";
     svg.appendChild(ylab);
 
     // x labels: every ~10 points
