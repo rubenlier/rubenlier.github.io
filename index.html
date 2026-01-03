@@ -393,96 +393,112 @@
 
         // --- World news loader ---
         async function loadWorldNews() {
-            const metaEl = document.getElementById("worldnews-meta");
-            const listEl = document.getElementById("worldnews-list");
-            if (!metaEl || !listEl) return;
-
-            metaEl.textContent = "Loading top clusters…";
-            listEl.innerHTML = "";
-
-            try {
-                const res = await fetch("output.json", { cache: "no-cache" });
-                if (!res.ok) {
-                    throw new Error(`Could not load output.jsonl (HTTP ${res.status})`);
-                }
-
-                const text = await res.text();
-
-                // Support both:
-                //  - single JSON object (your current output)
-                //  - JSONL with one object per line
-                let data = null;
-
-                try {
-                    data = JSON.parse(text);
-                } catch (_) {
-                    // try JSONL fallback: find first line that parses and has clusters
-                    const lines = text.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
-                    for (const line of lines) {
-                        try {
-                            const obj = JSON.parse(line);
-                            if (obj && Array.isArray(obj.clusters)) {
-                                data = obj;
-                                break;
-                            }
-                        } catch (e) {}
-                    }
-                }
-
-                if (!data || !Array.isArray(data.clusters)) {
-                    throw new Error("output.jsonl does not contain a JSON object with a 'clusters' array.");
-                }
-
-                const top = data.clusters.slice(0, 5);
-                const inputPath = data.input_path || "output.jsonl";
-                const nItems = Number.isFinite(data.n_items) ? data.n_items : null;
-                const nClusters = Number.isFinite(data.n_clusters) ? data.n_clusters : null;
-
-                metaEl.textContent =
-                    `Below are the 5 most important world events`;
-
-                listEl.innerHTML = top.map((c, idx) => {
-                    const title = c.title || `Cluster ${idx + 1}`;
-                    const score = (typeof c.score === "number") ? c.score.toFixed(2) : c.score;
-                    const coherence = (typeof c.coherence === "number") ? c.coherence.toFixed(3) : c.coherence;
-
-                    const ca = c.central_article || {};
-                    const url = ca.url || "#";
-                    const source = ca.source_id || "";
-                    const continent = ca.continent || "";
-                    const scraped = ca.scraped_at_utc || "";
-                    const published = ca.published_at || "";
-
-                    return `
-                        <div class="news-card">
-                            <div class="news-title">
-                                <a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">
-                                    ${escapeHtml(title)}
-                                </a>
-                            </div>
-
-                            <div class="news-kpis">
-                                <span class="kpi">score: ${escapeHtml(String(score))}</span>
-                                <span class="kpi">size: ${escapeHtml(String(c.size ?? ""))}</span>
-                                <span class="kpi">sources: ${escapeHtml(String(c.n_sources ?? ""))}</span>
-                                <span class="kpi">regions: ${escapeHtml(String(c.n_continents ?? ""))}</span>
-                                <span class="kpi">coherence: ${escapeHtml(String(coherence))}</span>
-                            </div>
-
-                            <div class="news-meta" style="margin-top:10px;">
-                                <div>${escapeHtml(source)}${continent ? " · " + escapeHtml(continent) : ""}</div>
-                                ${published ? `<div>published: ${escapeHtml(published)}</div>` : ""}
-                            </div>
-                        </div>
-                    `;
-                }).join("");
-
-            } catch (err) {
-                console.error(err);
-                metaEl.textContent = "Could not load world news.";
-                listEl.innerHTML = `<p style="color:#b00;">${escapeHtml(err.message || String(err))}</p>`;
+          const metaEl = document.getElementById("worldnews-meta");
+          const listEl = document.getElementById("worldnews-list");
+          if (!metaEl || !listEl) return;
+        
+          metaEl.textContent = "Loading top clusters…";
+          listEl.innerHTML = "";
+        
+          try {
+            const res = await fetch("output.json", { cache: "no-store" });
+            if (!res.ok) {
+              throw new Error(`Could not load output.json (HTTP ${res.status})`);
             }
+        
+            const text = await res.text();
+        
+            // 1) Parse as JSON first (preferred)
+            // 2) Fallback: JSONL (one JSON object per line)
+            let parsed = null;
+        
+            try {
+              parsed = JSON.parse(text);
+            } catch (_) {
+              const lines = text.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+              const objs = [];
+              for (const line of lines) {
+                try { objs.push(JSON.parse(line)); } catch (e) {}
+              }
+              // If JSONL, treat as list of runs
+              parsed = objs.length ? objs : null;
+            }
+        
+            if (!parsed) {
+              throw new Error("output.json is empty or not valid JSON.");
+            }
+        
+            // Normalize to a list of runs
+            const runs = Array.isArray(parsed) ? parsed : [parsed];
+        
+            // Keep only runs that look usable
+            const validRuns = runs.filter(r => r && typeof r === "object" && Array.isArray(r.clusters));
+        
+            if (!validRuns.length) {
+              throw new Error("output.json does not contain any run objects with a 'clusters' array.");
+            }
+        
+            // Pick the latest run *for today* (UTC), fallback to latest overall.
+            const isoDayUTC = (iso) => String(iso || "").slice(0, 10);
+            const todayUTC = new Date().toISOString().slice(0, 10);
+        
+            const pickLatest = (arr) =>
+              arr.slice().sort((a, b) => String(a.created_at_utc || "").localeCompare(String(b.created_at_utc || ""))).at(-1);
+        
+            const todaysRuns = validRuns.filter(r => isoDayUTC(r.created_at_utc) === todayUTC);
+            const data = todaysRuns.length ? pickLatest(todaysRuns) : pickLatest(validRuns);
+        
+            if (!data || !Array.isArray(data.clusters)) {
+              throw new Error("Could not select a valid run with clusters from output.json.");
+            }
+        
+            const top = data.clusters.slice(0, 5);
+        
+            metaEl.textContent = `Below are the 5 most important world events`;
+        
+            listEl.innerHTML = top.map((c, idx) => {
+              const title = c.title || `Cluster ${idx + 1}`;
+              const score = (typeof c.score === "number") ? c.score.toFixed(2) : c.score;
+              const coherence = (typeof c.coherence === "number") ? c.coherence.toFixed(3) : c.coherence;
+        
+              const ca = c.central_article || {};
+              const url = ca.url || "#";
+              const source = ca.source_id || "";
+              const continent = ca.continent || "";
+              const scraped = ca.scraped_at_utc || "";
+              const published = ca.published_at || "";
+        
+              return `
+                <div class="news-card">
+                  <div class="news-title">
+                    <a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">
+                      ${escapeHtml(title)}
+                    </a>
+                  </div>
+        
+                  <div class="news-kpis">
+                    <span class="kpi">score: ${escapeHtml(String(score))}</span>
+                    <span class="kpi">size: ${escapeHtml(String(c.size ?? ""))}</span>
+                    <span class="kpi">sources: ${escapeHtml(String(c.n_sources ?? ""))}</span>
+                    <span class="kpi">regions: ${escapeHtml(String(c.n_continents ?? ""))}</span>
+                    <span class="kpi">coherence: ${escapeHtml(String(coherence))}</span>
+                  </div>
+        
+                  <div class="news-meta" style="margin-top:10px;">
+                    <div>${escapeHtml(source)}${continent ? " · " + escapeHtml(continent) : ""}</div>
+                    ${published ? `<div>published: ${escapeHtml(published)}</div>` : ""}
+                  </div>
+                </div>
+              `;
+            }).join("");
+        
+          } catch (err) {
+            console.error(err);
+            metaEl.textContent = "Could not load world news.";
+            listEl.innerHTML = `<p style="color:#b00;">${escapeHtml(err.message || String(err))}</p>`;
+          }
         }
+
 
         // --- Holden history rendering ---
         async function loadHoldenHistory() {
