@@ -99,12 +99,6 @@ sources:
     # deny TV-program pages & other junk
     deny_url_regex: '(?i)/(multimedia|video|audio|livestream|sendung|wetter|kontakt|impressum|datenschutz|tagesthemen/|tagesschau_20_uhr/|tagesschau_in_einfacher_sprache/|tagesschau_mit_gebaerdensprache/)' 
 
-  - name: DW
-    continent: Europe North
-    url: https://www.dw.com/en/top-stories/s-9097
-    allow_url_regex: '(?i)dw\.com/.+-\d+$'
-    deny_url_regex: '(?i)/(av-|media|podcast|datenschutz|imprint)'
-
   - name: Spiegel
     continent: Europe North
     url: https://www.spiegel.de
@@ -126,11 +120,6 @@ sources:
     allow_url_regex: '(?i)welt\.de/'
     deny_url_regex: '(?i)/(video|podcast|live|impressum|datenschutz|privacy|cookies)'
 
-  - name: ZEIT Online
-    continent: Europe North
-    url: https://www.zeit.de
-    allow_url_regex: '(?i)zeit\.de/\d{4}/\d{2}/'
-    deny_url_regex: '(?i)/(index|video|podcast|datenschutz|impressum|privacy|cookies)'
 
   - name: Der Standard
     continent: Europe North
@@ -178,41 +167,6 @@ sources:
     continent: Europe South
     allow_url_regex: '(?i)lesoir\.be/\d+/'
     deny_url_regex: '(?i)/(video|podcast|opinions)'
-
-
-  # ======================
-  # Scandinavia
-  # ======================
-
-
-  - name: Politiken
-    url: https://politiken.dk
-    continent: Europe North
-    allow_url_regex: '(?i)politiken\.dk/.+'
-    deny_url_regex: '(?i)/(video|podcast)'
-
-
-  - name: Dagens Nyheter
-    url: https://www.dn.se
-    continent: Europe North
-    allow_url_regex: '(?i)dn\.se/.+'
-    deny_url_regex: '(?i)/(video|podcast)'
-
-  - name: Aftenposten
-    url: https://www.aftenposten.no
-    continent: Europe North
-    allow_url_regex: '(?i)aftenposten\.no/.+/i/'
-    deny_url_regex: '(?i)/(video|podcast)'
-
-  - name: Helsingin Sanomat
-    url: https://www.hs.fi
-    continent: Europe North
-    allow_url_regex: '(?i)hs\.fi/.+'
-    deny_url_regex: '(?i)/(video|podcast)'
-
-
-
-
     
 
   # ======================
@@ -348,11 +302,6 @@ sources:
     allow_url_regex: '(?i)sbs\.com\.au/news/.+'
     deny_url_regex: '(?i)/(video|podcast|audio|privacy|cookies)'
 
-  - name: The Guardian AU
-    continent: Oceania
-    url: https://www.theguardian.com/au
-    allow_url_regex: '(?i)theguardian\.com/.+/\d{4}/[a-z]{3}/\d{1,2}/'
-    deny_url_regex: '(?i)/(live|video|audio|help|info|privacy|cookies)'
 
   - name: The Sydney Morning Herald
     continent: Oceania
@@ -415,18 +364,6 @@ sources:
     allow_url_regex: '(?i)timesofisrael\.com/.+'
     deny_url_regex: '(?i)/(video|live|podcast|privacy|cookies)'
 
-  - name: Daily Sabah
-    continent: Middle East
-    url: https://www.dailysabah.com
-    allow_url_regex: '(?i)dailysabah\.com/.+'
-    deny_url_regex: '(?i)/(video|gallery|opinion|privacy|cookies)'
-
-  - name: Al Arabiya
-    url: https://www.alarabiya.net
-    continent: Middle East
-    allow_url_regex: '(?i)alarabiya\.net/.+'
-    deny_url_regex: '(?i)/(video|tv|programs|podcast)'
-
   - name: Al Jazeera Arabic
     url: https://www.aljazeera.net
     continent: Middle East
@@ -464,11 +401,6 @@ sources:
     allow_url_regex: "/en/news/|/news/"
     deny_url_regex: '(?i)/(video|player|live|privacy|cookies)'
 
-  - name: Middle East Eye
-    continent: Middle East
-    url: https://www.middleeasteye.net
-    allow_url_regex: '(?i)^https?://(www\.)?middleeasteye\.net/(?!topics/|authors/|tags/|newsletter|about|contact|privacy|cookies|support|donate|video|podcast|search|user/).+'
-    deny_url_regex: '(?i)(/topics/|/authors/|/tags/|/newsletter|/about|/contact|/privacy|/cookies|/support|/donate|/video|/podcast|/search|/user/)' 
 
 
   - name: Hurriyet
@@ -484,16 +416,7 @@ sources:
     allow_url_regex: '(?i)cumhuriyet\.com\.tr/(siyaset|dunya|ekonomi|turkiye)/.+'
     deny_url_regex: '(?i)/(video|galeri|yazarlar|canli|privacy|cookies)'
     
-    
-  - name: Milliyet
-    continent: Middle East
-    url: https://www.milliyet.com.tr
-    allow_url_regex: '(?i)milliyet\.com\.tr/(gundem|dunya|ekonomi|siyaset)/.+'
-    deny_url_regex: '(?i)/(video|galeri|yazarlar|canli|privacy|cookies)'
-
-
-
-
+   
 
   # ======================
   # Eastern Europe
@@ -572,25 +495,12 @@ sources:
   # ======================
   # Africa (EN)
   # ======================
-  - name: Daily Maverick
-    continent: Middle East
-    url: https://www.dailymaverick.co.za
-    allow_url_regex: '(?i)dailymaverick\.co\.za/.+'
-    deny_url_regex: '(?i)/(video|podcast|privacy|cookies)'
-
-
   - name: The Africa Report
     continent: Middle East
     url: https://www.theafricareport.com
     allow_url_regex: '(?i)^https?://(www\.)?theafricareport\.com/\d+/.+'
     deny_url_regex: '(?i)(/category/|/tag/|/author/|/magazine/|/rankings/|/events/|/about|/contact|/privacy|/cookies|/subscribe|/login|/video|/podcast)'
 
-
-  - name: Premium Times
-    continent: Middle East
-    url: https://www.premiumtimesng.com
-    allow_url_regex: '(?i)^https?://(www\.)?premiumtimesng\.com/.+\.html$'
-    deny_url_regex: '(?i)/(video|podcast|opinion|privacy|cookies)'
 
   - name: Mail & Guardian
     continent: Middle East
@@ -653,12 +563,7 @@ sources:
     allow_url_regex: '(?i)en\.people\.cn/(?!.*\.(css|js|png|jpg|jpeg|gif|svg|webp)$).+'
     deny_url_regex: '(?i)/(video|audio|gallery|forum|bbs|login|privacy|cookies)'
 
-  - name: People’s Daily Online (CN)
-    continent: China
-    url: https://www.people.com.cn
-    allow_url_regex: '(?i)people\.com\.cn/(?!.*\.(css|js|png|jpg|jpeg|gif|svg|webp)$).+'
-    deny_url_regex: '(?i)/(video|audio|photo|pics|login|privacy|cookies)'
-    # People.com.cn is the large online platform built by People's Daily. :contentReference[oaicite:0]{index=0}
+ 
 
   - name: China Daily
     continent: China
@@ -678,12 +583,7 @@ sources:
     allow_url_regex: '(?i)xinhuanet\.com/(?!.*\.(css|js|png|jpg|jpeg|gif|svg|webp)$).+'
     deny_url_regex: '(?i)/(video|photo|podcast|gallery|login|privacy|cookies)'
 
-  - name: CCTV News (央视网)
-    continent: China
-    url: https://news.cctv.com
-    allow_url_regex: '(?i)(news\.)?cctv\.com/(?!.*\.(css|js|png|jpg|jpeg|gif|svg|webp)$).+'
-    deny_url_regex: '(?i)/(video|live|tv|player|privacy|cookies|about|contact)'
-    # CCTV is the official site and has a dedicated news subdomain. :contentReference[oaicite:1]{index=1}
+
 
   - name: The Paper (澎湃新闻)
     continent: China
@@ -698,13 +598,6 @@ sources:
     allow_url_regex: '(?i)globaltimes\.cn/page/.+'
     deny_url_regex: '(?i)/(video|live|privacy|cookies|about|contact)'
 
-
-  - name: Huanqiu (环球时报)
-    continent: China
-    url: https://www.huanqiu.com
-    allow_url_regex: '(?i)huanqiu\.com/article/[0-9A-Za-z]+$'
-    deny_url_regex: '(?i)/(video|live|privacy|cookies|about|contact)'
-    # Huanqiu is Global Times’ online domain. :contentReference[oaicite:3]{index=3}
 
   - name: Caixin (财新网)
     continent: China
@@ -826,11 +719,6 @@ sources:
     allow_url_regex: '(?i)bangkokpost\.com/(world|thailand|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
 
-  - name: The Nation Thailand
-    url: https://www.nationthailand.com
-    continent: Asia
-    allow_url_regex: '(?i)nationthailand\.com/(news|world|business|politics)/'
-    deny_url_regex: '(?i)/(video|gallery|podcast|privacy|cookies)'
 
   - name: VNExpress International
     url: https://e.vnexpress.net
@@ -838,17 +726,13 @@ sources:
     allow_url_regex: '(?i)e\.vnexpress\.net/(news|world|business|economy|politics)/'
     deny_url_regex: '(?i)/(video|gallery|podcast|privacy|cookies)'
 
-  - name: Vietnam News
-    url: https://vietnamnews.vn
-    continent: Asia
-    allow_url_regex: '(?i)vietnamnews\.vn/(politics-law|economy|society|world)/'
-    deny_url_regex: '(?i)/(video|gallery|podcast|privacy|cookies)'
 
   - name: The Straits Times
     url: https://www.straitstimes.com
     continent: Asia
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
