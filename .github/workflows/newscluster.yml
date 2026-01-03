@@ -18,7 +18,7 @@ jobs:
       - name: Ensure input exists
         run: |
           ls -lah
-          test -f headlines_latest.json
+          test -f headlines_latest.jsonl
       
       - name: Run clustering via Cloud Run
         env:
@@ -30,7 +30,7 @@ jobs:
           set -euo pipefail
           echo "Calling: $URL"
 
-          FILE="headlines_latest.json"
+          FILE="headlines_latest.jsonl"
           BRANCH="master"
 
           RAW_URL="https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/${FILE}?nocache=$(date +%s)"
