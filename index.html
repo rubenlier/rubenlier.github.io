@@ -167,7 +167,7 @@
         .holden-history-date { font-size: 0.85rem; color: #777; margin-bottom: 6px; }
         .holden-history-text { font-size: 0.95rem; line-height: 1.4; white-space: pre-wrap; word-wrap: break-word; }
 
-        /* World news */
+        /* Global News */
         .news-meta { color: #666; font-size: 0.95rem; margin-bottom: 14px; }
         .news-list { display: grid; grid-template-columns: 1fr; gap: 14px; }
         .news-card {
@@ -262,7 +262,7 @@
             <a href="#home" data-page="home">Ruben Lier</a>
             <a href="#preprints" data-page="preprints">Preprints</a>
             <a href="#talks" data-page="talks">Talks</a>
-            <a href="#worldnews" data-page="worldnews">World news</a>
+            <a href="#worldnews" data-page="worldnews">Global News</a>
             <!-- Notice: no link to #beta or #familier here on purpose -->
         </div>
     </div>
@@ -356,7 +356,7 @@
             `,
 
             worldnews: `
-    <h1>World news</h1>
+    <h1>Global News</h1>
     <div class="news-meta" id="worldnews-meta">Loading top clusters…</div>
     <div class="news-list" id="worldnews-list"></div>
 
@@ -447,7 +447,7 @@
             return (s || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
         }
 
-        // --- World news loader ---
+        // --- Global News loader ---
         async function loadWorldNews() {
           const metaEl = document.getElementById("worldnews-meta");
           const listEl = document.getElementById("worldnews-list");
@@ -550,7 +550,7 @@
 
           } catch (err) {
             console.error(err);
-            metaEl.textContent = "Could not load world news.";
+            metaEl.textContent = "Could not load Global News.";
             listEl.innerHTML = `<p style="color:#b00;">${escapeHtml(err.message || String(err))}</p>`;
           }
         }
