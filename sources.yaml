@@ -171,13 +171,6 @@ sources:
     allow_url_regex: '(?i)aftenposten\.no/.+/i/'
     deny_url_regex: '(?i)/(video|podcast)'
 
-  - name: Helsingin Sanomat
-    url: https://www.hs.fi
-    continent: Europe North
-    allow_url_regex: '(?i)hs\.fi/.+'
-    deny_url_regex: '(?i)/(video|podcast)'
-
-
 
 
 
@@ -768,6 +761,7 @@ sources:
     continent: Asia
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
