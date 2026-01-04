@@ -171,6 +171,29 @@ sources:
     allow_url_regex: '(?i)aftenposten\.no/.+/i/'
     deny_url_regex: '(?i)/(video|podcast)'
 
+  - name: SVT Nyheter
+    url: https://www.svt.se/nyheter
+    continent: Europe North
+    allow_url_regex: '(?i)svt\.se/nyheter/.+'
+    deny_url_regex: '(?i)/(video|klipp|live)'
+
+  - name: NRK Nyheter
+    url: https://www.nrk.no/nyheter/
+    continent: Europe North
+    allow_url_regex: '(?i)nrk\.no/nyheter/.+'
+    deny_url_regex: '(?i)/(video|tv|radio|podkast)'
+
+  - name: DR Nyheder
+    url: https://www.dr.dk/nyheder
+    continent: Europe North
+    allow_url_regex: '(?i)dr\.dk/nyheder/.+'
+    deny_url_regex: '(?i)/(tv|radio|podcast|video)'
+
+  - name: Yle News
+    url: https://yle.fi/news
+    continent: Europe North
+    allow_url_regex: '(?i)yle\.fi/news/.+'
+    deny_url_regex: '(?i)/(video|audio)'
 
 
 
@@ -299,6 +322,12 @@ sources:
     url: https://oglobo.globo.com
     allow_url_regex: '(?i)oglobo\.globo\.com/(mundo|politica|economia)/.+'
     deny_url_regex: '(?i)/(opiniao|blogs|video|podcast)'
+
+  - name: El Comercio Perú
+    continent: South America
+    url: https://elcomercio.pe
+    allow_url_regex: '(?i)elcomercio\.pe/(politica|economia|mundo|peru)/.+'
+    deny_url_regex: '(?i)/(video|podcast|opinion|especiales|suscripcion|cookies|privacidad)'
 
 
 
@@ -761,6 +790,7 @@ sources:
     continent: Asia
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
