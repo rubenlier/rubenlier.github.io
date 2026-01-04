@@ -72,6 +72,19 @@ sources:
     url: https://www.telegraaf.nl/
     allow_url_regex: '(?i)telegraaf\.nl/.+'
     deny_url_regex: '(?i)/(video|uitzendingen|shows|programma|privacy|cookies)'
+    
+    
+  - name: Volkskrant
+    continent: Europe North
+    url: https://www.volkskrant.nl
+    allow_url_regex: '(?i)volkskrant\.nl/.+~[a-z0-9]+/$'
+    deny_url_regex: '(?i)/(video|podcast|privacy|cookies)'
+
+  - name: Financieele Dagblad
+    continent: Europe North
+    url: https://fd.nl
+    allow_url_regex: '(?i)fd\.nl/(politiek|economie|bedrijven|beurs|financiele-markten|ondernemen)/\d+'
+    deny_url_regex: '(?i)/(video|podcast|agenda|vacatures|privacy|cookies)'
 
   
 
@@ -719,6 +732,7 @@ sources:
     continent: Asia
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
