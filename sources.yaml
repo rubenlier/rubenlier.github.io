@@ -473,6 +473,12 @@ sources:
     url: https://www.cumhuriyet.com.tr
     allow_url_regex: '(?i)cumhuriyet\.com\.tr/(siyaset|dunya|ekonomi|turkiye)/.+'
     deny_url_regex: '(?i)/(video|galeri|yazarlar|canli|privacy|cookies)'
+
+  - name: Milliyet
+    continent: Middle East
+    url: https://www.milliyet.com.tr
+    allow_url_regex: '(?i)milliyet\.com\.tr/(gundem|dunya|ekonomi|siyaset)/.+'
+    deny_url_regex: '(?i)/(video|galeri|yazarlar|canli|privacy|cookies)'
     
    
 
@@ -572,6 +578,12 @@ sources:
     continent: Middle East
     allow_url_regex: '(?i)jeuneafrique\.com/\d+/'
     deny_url_regex: '(?i)/(video|podcast|tribune|opinion|privacy|cookies)'
+
+  - name: Premium Times
+    continent: Middle East
+    url: https://www.premiumtimesng.com
+    allow_url_regex: '(?i)^https?://(www\.)?premiumtimesng\.com/.+\.html$'
+    deny_url_regex: '(?i)/(video|podcast|opinion|privacy|cookies)'
 
 
 
@@ -790,6 +802,7 @@ sources:
     continent: Asia
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
