@@ -148,7 +148,7 @@ sources:
   - name: Neue Zürcher Zeitung
     continent: Europe North
     url: https://www.nzz.ch
-    allow_url_regex: '(?i)^https?://(www\.)?nzz\.ch/[a-z0-9\-]+/[a-z0-9\-]+\.html$'
+    allow_url_regex: '(?i)nzz\.ch/.+'
     deny_url_regex: '(?i)/(video|podcast|live|newsletter|service|privacy|cookies|login|abo|sport|spiele)'
 
 
@@ -866,6 +866,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
