@@ -244,11 +244,6 @@ sources:
     allow_url_regex: '(?i)^https?://(www\.)?standaard\.be/.+'
     deny_url_regex: '(?i)/(video|podcast|privacy|cookies|login|registreer|abonnement)'
 
-  - name: Het Laatste Nieuws
-    continent: Europe South
-    url: https://www.hln.be
-    allow_url_regex: '(?i)^https?://(www\.)?hln\.be/.+'
-    deny_url_regex: '(?i)/(video|podcast|privacy|cookies|login|registreer)'
 
   - name: RTBF
     continent: Europe South
@@ -866,6 +861,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
