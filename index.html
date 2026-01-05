@@ -856,37 +856,24 @@
         svg.appendChild(lab);
     }
 
-    // y label
-    const ylab = document.createElementNS(NS, "text");
-    ylab.setAttribute("x", "14");
-    ylab.setAttribute("y", String(margin.top + 10));
-    ylab.setAttribute("class", "scoreLabel");
-    ylab.textContent = "Score";
-    svg.appendChild(ylab);
 
-    // x labels: every ~10 points
-// x labels: fewer + shorter + rotated to avoid overlap
-const formatDay = (day) => day.slice(5); // "2026-01-03" -> "01-03"
-const labelEvery = Math.max(1, Math.ceil(series.length / 6)); // show ~6 labels max
+
+ // x labels: fewer + shorter (no rotation)
+const formatDay = (day) => String(day || "").slice(5); // "2026-01-05" -> "01-05"
+const labelEvery = Math.max(1, Math.ceil(series.length / 8)); // aim ~8 labels max
 
 series.forEach((p, i) => {
   if (i % labelEvery !== 0 && i !== series.length - 1) return;
 
   const tx = document.createElementNS(NS, "text");
-  const x = xFor(i);
-  const y = H - 10;
-
-  tx.setAttribute("x", String(x));
-  tx.setAttribute("y", String(y));
-  tx.setAttribute("text-anchor", "end");
+  tx.setAttribute("x", String(xFor(i)));
+  tx.setAttribute("y", String(H - 12));
+  tx.setAttribute("text-anchor", "middle");
   tx.setAttribute("class", "scoreTick");
-
-  // rotate around (x,y)
-  tx.setAttribute("transform", `rotate(-35 ${x} ${y})`);
   tx.textContent = formatDay(p.day);
-
   svg.appendChild(tx);
 });
+
 
 
     // line path
