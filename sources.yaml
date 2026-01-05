@@ -89,7 +89,7 @@ sources:
   
 
   # ======================
-  # Germany (DE)
+  # Germany/Switzerland (DE)
   # ======================
   - name: Tagesschau
     continent: Europe North
@@ -145,6 +145,13 @@ sources:
     allow_url_regex: '(?i)n-tv\.de/(politik|ausland|wirtschaft|leute|panorama)/.+'
     deny_url_regex: '(?i)/(video|tv|stream|live|ticker|mediathek|podcast)'
 
+  - name: Neue Zürcher Zeitung
+    continent: Europe North
+    url: https://www.nzz.ch
+    allow_url_regex: '(?i)^https?://(www\.)?nzz\.ch/[a-z0-9\-]+/[a-z0-9\-]+\.html$'
+    deny_url_regex: '(?i)/(video|podcast|live|newsletter|service|privacy|cookies|login|abo|sport|spiele)'
+
+
 
 
   # ======================
@@ -199,7 +206,7 @@ sources:
 
 
   # ======================
-  # France/Belgium (FR)
+  # France (FR)
   # ======================
 
   - name: Le Monde
@@ -214,10 +221,45 @@ sources:
     allow_url_regex: '(?i)lesechos\.fr/(monde|economie-france|industrie-services|finance-marches|tech-medias)/'
     deny_url_regex: '(?i)/(video|podcast|diaporama|live|privacy|cookies)'
 
+
+  - name: franceinfo
+    continent: Europe South
+    url: https://www.francetvinfo.fr
+    allow_url_regex: '(?i)^https?://(www\.)?francetvinfo\.fr/.*\.html$'
+    deny_url_regex: '(?i)/(video|podcast|live|privacy|cookies)'
+
+  # ======================
+  # Belgium (FR/NL)
+  # ======================
+
+  - name: VRT NWS
+    continent: Europe South
+    url: https://www.vrt.be/vrtnws/
+    allow_url_regex: '(?i)^https?://(www\.)?vrt\.be/vrtnws/nl/.+'
+    deny_url_regex: '(?i)/(live|video|audio|podcast|privacy|cookies)'
+
+  - name: De Standaard
+    continent: Europe South
+    url: https://www.standaard.be
+    allow_url_regex: '(?i)^https?://(www\.)?standaard\.be/.+'
+    deny_url_regex: '(?i)/(video|podcast|privacy|cookies|login|registreer|abonnement)'
+
+  - name: Het Laatste Nieuws
+    continent: Europe South
+    url: https://www.hln.be
+    allow_url_regex: '(?i)^https?://(www\.)?hln\.be/.+'
+    deny_url_regex: '(?i)/(video|podcast|privacy|cookies|login|registreer)'
+
+  - name: RTBF
+    continent: Europe South
+    url: https://www.rtbf.be
+    allow_url_regex: '(?i)^https?://(www\.)?rtbf\.be/.+'
+    deny_url_regex: '(?i)/(video|podcast|live|privacy|cookies)'
+
   - name: Le Soir
     url: https://www.lesoir.be
     continent: Europe South
-    allow_url_regex: '(?i)lesoir\.be/\d+/'
+    allow_url_regex: '(?i)lesoir\.be/.+'
     deny_url_regex: '(?i)/(video|podcast|opinions)'
     
 
@@ -554,6 +596,28 @@ sources:
     allow_url_regex: "/naujienos/|/news/|/politika/|/ekonomika/|/pasaulis/"
     deny_url_regex: '(?i)/(video|videos|player|live|privacy|cookies|apie|kontaktai)'
 
+  - name: The Baltic Times
+    continent: Europe East
+    url: https://www.baltictimes.com
+    allow_url_regex: '(?i)^https?://(www\.)?baltictimes\.com/[a-z0-9_\-]+/?$'
+    deny_url_regex: '(?i)/(video|podcast|live|privacy|cookies|subscribe|about)'
+
+
+  - name: Balkan Insight
+    continent: Europe East
+    url: https://balkaninsight.com
+    allow_url_regex: '(?i)^https?://(www\.)?balkaninsight\.com/\d{4}/\d{2}/\d{2}/[a-z0-9\-]+/?$'
+    deny_url_regex: '(?i)/(video|podcast|live|privacy|cookies|tag|category)'
+
+
+  - name: Georgia Today
+    continent: Europe East
+    url: https://georgiatoday.ge
+    allow_url_regex: '(?i)^https?://(www\.)?georgiatoday\.ge/[a-z0-9\-]+/?$'
+    deny_url_regex: '(?i)/(video|podcast|live|privacy|cookies|category|tag)'
+
+
+
 
 
   # ======================
@@ -802,6 +866,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
