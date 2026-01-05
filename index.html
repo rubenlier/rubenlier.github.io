@@ -508,9 +508,9 @@
               throw new Error("Could not select a valid run with clusters from output.json.");
             }
 
-            const top = data.clusters.slice(0, 5);
+            const top = data.clusters.slice(0, 7);
 
-            metaEl.textContent = `Below are the 5 most important world events`;
+            metaEl.textContent = `Below are the 7 most important world events`;
 
             listEl.innerHTML = top.map((c, idx) => {
               const title = c.title || `Cluster ${idx + 1}`;
@@ -533,7 +533,7 @@
                   </div>
 
                   <div class="news-kpis">
-                    <span class="kpi">score: ${escapeHtml(String(score))}</span>
+                   <span class="kpi">${escapeHtml(String(score))}</span>
                     <span class="kpi">size: ${escapeHtml(String(c.size ?? ""))}</span>
                     <span class="kpi">sources: ${escapeHtml(String(c.n_sources ?? ""))}</span>
                     <span class="kpi">regions: ${escapeHtml(String(c.n_continents ?? ""))}</span>
@@ -865,17 +865,29 @@
     svg.appendChild(ylab);
 
     // x labels: every ~10 points
-    const labelEvery = Math.max(1, Math.floor(series.length / 10));
-    series.forEach((p, i) => {
-        if (i % labelEvery !== 0 && i !== series.length - 1) return;
-        const tx = document.createElementNS(NS, "text");
-        tx.setAttribute("x", String(xFor(i)));
-        tx.setAttribute("y", String(H - 14));
-        tx.setAttribute("text-anchor", "middle");
-        tx.setAttribute("class", "scoreTick");
-        tx.textContent = p.day;
-        svg.appendChild(tx);
-    });
+// x labels: fewer + shorter + rotated to avoid overlap
+const formatDay = (day) => day.slice(5); // "2026-01-03" -> "01-03"
+const labelEvery = Math.max(1, Math.ceil(series.length / 6)); // show ~6 labels max
+
+series.forEach((p, i) => {
+  if (i % labelEvery !== 0 && i !== series.length - 1) return;
+
+  const tx = document.createElementNS(NS, "text");
+  const x = xFor(i);
+  const y = H - 10;
+
+  tx.setAttribute("x", String(x));
+  tx.setAttribute("y", String(y));
+  tx.setAttribute("text-anchor", "end");
+  tx.setAttribute("class", "scoreTick");
+
+  // rotate around (x,y)
+  tx.setAttribute("transform", `rotate(-35 ${x} ${y})`);
+  tx.textContent = formatDay(p.day);
+
+  svg.appendChild(tx);
+});
+
 
     // line path
     const path = document.createElementNS(NS, "path");
@@ -887,22 +899,48 @@
     svg.appendChild(path);
 
     // dots + tooltip
-    const showTip = (ev, p) => {
-        const items = p.top5titles.map(t => `<li>${escapeHtml(t)}</li>`).join("");
-        tooltip.innerHTML = `
-        <div class="date">${escapeHtml(p.day)} — top score: ${escapeHtml(p.topScore.toFixed(2))}</div>
-        <div>Top 5 events:</div>
-        <ol>${items}</ol>
-        `;
-        tooltip.style.display = "block";
-        moveTip(ev);
-    };
+const showTip = (ev, p) => {
+  const items = p.top5titles.map(t => `<li>${escapeHtml(t)}</li>`).join("");
+  tooltip.innerHTML = `
+    <div class="date">${escapeHtml(p.day)} — top score: ${escapeHtml(p.topScore.toFixed(2))}</div>
+    <div>Top 5 events:</div>
+    <ol>${items}</ol>
+  `;
+  tooltip.style.display = "block";
 
-    const moveTip = (ev) => {
-        const offset = 14;
-        tooltip.style.left = (ev.clientX + offset) + "px";
-        tooltip.style.top  = (ev.clientY + offset) + "px";
-    };
+  // Wait a tick so getBoundingClientRect() sees final size
+  requestAnimationFrame(() => moveTip(ev));
+};
+
+
+const moveTip = (ev) => {
+  const offset = 14;
+
+  // Make sure we can measure it
+  const rect = tooltip.getBoundingClientRect();
+
+  // Prefer above the cursor
+  let left = ev.clientX + offset;
+  let top  = ev.clientY - rect.height - offset;
+
+  // If above would go off-screen, place below instead
+  if (top < 8) top = ev.clientY + offset;
+
+  // Keep inside right edge
+  if (left + rect.width > window.innerWidth - 8) {
+    left = ev.clientX - rect.width - offset;
+  }
+  // Keep inside left edge
+  if (left < 8) left = 8;
+
+  // Keep inside bottom edge (rare, but safe)
+  if (top + rect.height > window.innerHeight - 8) {
+    top = window.innerHeight - rect.height - 8;
+  }
+
+  tooltip.style.left = left + "px";
+  tooltip.style.top  = top + "px";
+};
 
     const hideTip = () => { tooltip.style.display = "none"; };
 
