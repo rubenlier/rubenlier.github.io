@@ -727,7 +727,7 @@ sources:
   # ======================
 
   - name: Nikkei Asia
-    continent: Asia
+    continent: Asia East
     url: https://asia.nikkei.com
     allow_url_regex: '(?i)asia\.nikkei\.com/.+'
     deny_url_regex: '(?i)/(video|podcast|live|privacy|cookies)'
@@ -736,20 +736,20 @@ sources:
 
 
   - name: Channel NewsAsia
-    continent: Asia
+    continent: Asia East
     url: https://www.channelnewsasia.com
     allow_url_regex: '(?i)channelnewsasia\.com/.+'
     deny_url_regex: '(?i)/(video|live|privacy|cookies)'
 
   - name: The Japan Times
-    continent: Asia
+    continent: Asia East
     url: https://www.japantimes.co.jp
     allow_url_regex: '(?i)japantimes\.co\.jp/news/\d{4}/\d{2}/\d{2}/'
     deny_url_regex: '(?i)/(video|podcast|privacy|cookies)'
 
 
   - name: The Korea Herald
-    continent: Asia
+    continent: Asia East
     url: https://www.koreaherald.com
     allow_url_regex: '(?i)^https?://(www\.)?koreaherald\.com/article/\d+$'
     deny_url_regex: '(?i)/(video|podcast|gallery|opinion|column|letters|privacy|cookies)'
@@ -757,14 +757,14 @@ sources:
     
     
   - name: Taipei Times
-    continent: Asia
+    continent: Asia East
     url: https://www.taipeitimes.com
     allow_url_regex: '(?i)^https?://(www\.)?taipeitimes\.com/News/[a-zA-Z]+/archives/\d{4}/\d{2}/\d{2}/\d+'
     deny_url_regex: '(?i)/(opinion|editorials|letters|classifieds|privacy|cookies)'
     
     
   - name: Philippine Daily Inquirer
-    continent: Asia
+    continent: Asia East
     url: https://newsinfo.inquirer.net
     allow_url_regex: '(?i)newsinfo\.inquirer\.net/\d+/.+'
     deny_url_regex: '(?i)/(video|gallery|opinion|commentary|editorial)'
@@ -772,7 +772,7 @@ sources:
 
   - name: Asahi Shimbun (English)
     url: https://www.asahi.com/ajw/
-    continent: Asia
+    continent: Asia East
     allow_url_regex: '(?i)asahi\.com/ajw/articles/'
     deny_url_regex: '(?i)/(video|podcast|gallery|privacy|cookies)'
 
@@ -785,23 +785,24 @@ sources:
 
   - name: Bangkok Post
     url: https://www.bangkokpost.com
-    continent: Asia
+    continent: Asia East
     allow_url_regex: '(?i)bangkokpost\.com/(world|thailand|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
 
 
   - name: VNExpress International
     url: https://e.vnexpress.net
-    continent: Asia
+    continent: Asia East
     allow_url_regex: '(?i)e\.vnexpress\.net/(news|world|business|economy|politics)/'
     deny_url_regex: '(?i)/(video|gallery|podcast|privacy|cookies)'
 
 
   - name: The Straits Times
     url: https://www.straitstimes.com
-    continent: Asia
+    continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
