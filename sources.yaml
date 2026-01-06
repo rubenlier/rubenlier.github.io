@@ -102,11 +102,6 @@ sources:
     # drop games, service, subscription, calculators, index lists, etc.
     deny_url_regex: '(?i)(gruppenkonto\.spiegel\.de|/spiele/|/abo|/kuendigung|/service/|/spiegel/|/bestseller|/spiegelgeschichte/|/spiegelwissen|/deinspiegel|/spjc/|/spbest/|/print/|rechner|datenschutz|impressum|privacy|cookies|video|podcast|audio)'
 
-  - name: FAZ
-    continent: Europe North
-    url: https://www.faz.net/aktuell/
-    allow_url_regex: '(?i)faz\.net/.+'
-    deny_url_regex: '(?i)/(video|podcast|datenschutz|impressum|newsletter|liveticker|liveblog)'
 
   - name: Die Welt
     continent: Europe North
@@ -888,6 +883,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
