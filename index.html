@@ -508,9 +508,9 @@
               throw new Error("Could not select a valid run with clusters from output.json.");
             }
 
-            const top = data.clusters.slice(0, 7);
+            const top = data.clusters.slice(0, 5);
 
-            metaEl.textContent = `Below are the 7 most important world events`;
+            metaEl.textContent = `Below are the 5 most important world events`;
 
             listEl.innerHTML = top.map((c, idx) => {
               const title = c.title || `Cluster ${idx + 1}`;
