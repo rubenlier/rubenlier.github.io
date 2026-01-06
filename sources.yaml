@@ -67,12 +67,7 @@ sources:
     allow_url_regex: '(?i)rtl\.nl/nieuws/.+'
     deny_url_regex: '(?i)/(video|uitzendingen|shows|programma|privacy|cookies)'
 
-  - name: Telegraaf
-    continent: Europe North
-    url: https://www.telegraaf.nl/
-    allow_url_regex: '(?i)telegraaf\.nl/.+'
-    deny_url_regex: '(?i)/(video|uitzendingen|shows|programma|privacy|cookies)'
-    
+   
     
   - name: Volkskrant
     continent: Europe North
@@ -103,14 +98,14 @@ sources:
     continent: Europe North
     url: https://www.spiegel.de
     # keep only real Spiegel article pages: "...-a-1234567.html"
-    allow_url_regex: '(?i)^https?://(www\.)?spiegel\.de/.+-a-\d+\.html$'
+    allow_url_regex: '(?i)spiegel\.de/.+'
     # drop games, service, subscription, calculators, index lists, etc.
     deny_url_regex: '(?i)(gruppenkonto\.spiegel\.de|/spiele/|/abo|/kuendigung|/service/|/spiegel/|/bestseller|/spiegelgeschichte/|/spiegelwissen|/deinspiegel|/spjc/|/spbest/|/print/|rechner|datenschutz|impressum|privacy|cookies|video|podcast|audio)'
 
   - name: FAZ
     continent: Europe North
     url: https://www.faz.net/aktuell/
-    allow_url_regex: '(?i)faz\.net/.+-\d{7,}\.html$'
+    allow_url_regex: '(?i)faz\.net/.+'
     deny_url_regex: '(?i)/(video|podcast|datenschutz|impressum|newsletter|liveticker|liveblog)'
 
   - name: Die Welt
@@ -151,6 +146,11 @@ sources:
     allow_url_regex: '(?i)nzz\.ch/.+'
     deny_url_regex: '(?i)/(video|podcast|live|newsletter|service|privacy|cookies|login|abo|sport|spiele)'
 
+  - name: SRF
+    continent: Europe North
+    url: https://www.srf.ch/news
+    allow_url_regex: '(?i)srf\.ch/.+'
+    deny_url_regex: '(?i)/(video|audio|radio|tv|sendung|live|ticker|dossier|datenschutz|impressum|cookies)'
 
 
 
@@ -225,8 +225,23 @@ sources:
   - name: franceinfo
     continent: Europe South
     url: https://www.francetvinfo.fr
-    allow_url_regex: '(?i)^https?://(www\.)?francetvinfo\.fr/.*\.html$'
+    allow_url_regex: '(?i)francetvinfo/.+'
     deny_url_regex: '(?i)/(video|podcast|live|privacy|cookies)'
+
+
+  - name: France24
+    continent: Europe South
+    url: https://www.france24.com
+    allow_url_regex: '(?i)france24\.com/.+'
+    deny_url_regex: '(?i)/(video|videos|live|live-news|podcast|shows|programs|tag|about|privacy|cookies)'
+
+  - name: RTS
+    continent: Europe South
+    url: https://www.rts.ch/info/
+    allow_url_regex: '(?i)rts\.ch/.+'
+    deny_url_regex: '(?i)/(video|audio|radio|tv|direct|emissions|dossiers|datenschutz|impressum|cookies)'
+
+
 
   # ======================
   # Belgium (FR/NL)
@@ -278,6 +293,13 @@ sources:
     url: https://www.abc.es
     allow_url_regex: '(?i)abc\.es/.+/\d{4}\d{2}\d{2}/'
     deny_url_regex: '(?i)/(video|audio|cookies|privacidad)'
+
+
+  - name: RTVE News
+    continent: Europe South
+    url: https://www.rtve.es/noticias/
+    allow_url_regex: '(?i)rtve\.es/.+'
+    deny_url_regex: '(?i)/(video|audios|programas|television|radio|directo|play|podcast|privacy|cookies)'
 
 
   - name: Público
@@ -791,6 +813,11 @@ sources:
     allow_url_regex: '(?i)asia\.nikkei\.com/.+'
     deny_url_regex: '(?i)/(video|podcast|live|privacy|cookies)'
     
+  - name: NHK World
+    continent: Asia East
+    url: https://www3.nhk.or.jp/nhkworld/en/news/
+    allow_url_regex: '(?i)nhk\.or\.jp/.+'
+    deny_url_regex: '(?i)/(video|program|shows|tv|radio|audio|live|special|features|privacy|cookies)'
 
 
 
@@ -861,6 +888,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
