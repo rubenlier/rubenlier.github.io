@@ -66,14 +66,13 @@ sources:
     url: https://www.rtl.nl
     allow_url_regex: '(?i)rtl\.nl/nieuws/.+'
     deny_url_regex: '(?i)/(video|uitzendingen|shows|programma|privacy|cookies)'
-
-   
-    
+      
   - name: Volkskrant
     continent: Europe North
     url: https://www.volkskrant.nl
-    allow_url_regex: '(?i)volkskrant\.nl/.+~[a-z0-9]+/$'
-    deny_url_regex: '(?i)/(video|podcast|privacy|cookies)'
+    allow_url_regex: '(?i)^https?://(www\.)?volkskrant\.nl/(binnenland|buitenland|politiek|economie|wetenschap|cultuur|columns?)/.+'
+    deny_url_regex: '(?i)/(video|podcast|privacy|cookies)(/|$)'
+
 
   - name: Financieele Dagblad
     continent: Europe North
@@ -902,6 +901,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
