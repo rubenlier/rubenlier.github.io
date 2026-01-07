@@ -803,6 +803,18 @@ sources:
     deny_url_regex: '(?i)/(video|videos|player|live|privacy|cookies|about|contact)'
 
 
+  - name: Anandabazar Patrika
+    url: https://www.anandabazar.com
+    continent: India
+    allow_url_regex: "/india/|/world/|/international/|/politics/|/business/"
+    deny_url_regex: '(?i)/(video|videos|photo|gallery|live|privacy|cookies)'
+
+
+  - name: Dina Thanthi
+    url: https://www.dailythanthi.com
+    continent: India
+    allow_url_regex: "/News/India/|/News/World/|/News/Politics/|/Business/"
+    deny_url_regex: '(?i)/(video|videos|gallery|live|privacy|cookies)'
 
 
   # ======================
@@ -890,6 +902,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
