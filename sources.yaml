@@ -86,7 +86,7 @@ sources:
   # Germany/Switzerland (DE)
   # ======================
   - name: Tagesschau
-    continent: Europe South
+    continent: Europe North
     url: https://www.tagesschau.de
     # allow only real .html pages
     allow_url_regex: '(?i)^https?://(www\.)?tagesschau\.de/.+\.html$'
@@ -94,7 +94,7 @@ sources:
     deny_url_regex: '(?i)/(multimedia|video|audio|livestream|sendung|wetter|kontakt|impressum|datenschutz|tagesthemen/|tagesschau_20_uhr/|tagesschau_in_einfacher_sprache/|tagesschau_mit_gebaerdensprache/)' 
 
   - name: Spiegel
-    continent: Europe South
+    continent: Europe North
     url: https://www.spiegel.de
     # keep only real Spiegel article pages: "...-a-1234567.html"
     allow_url_regex: '(?i)spiegel\.de/.+'
@@ -103,7 +103,7 @@ sources:
 
 
   - name: Die Welt
-    continent: Europe South
+    continent: Europe North
     url: https://www.welt.de
     # Welt URLs vary; keep broad, deny obvious junk
     allow_url_regex: '(?i)welt\.de/'
@@ -111,25 +111,25 @@ sources:
 
 
   - name: Der Standard
-    continent: Europe South
+    continent: Europe North
     url: https://www.derstandard.at
     allow_url_regex: '(?i)derstandard\.at/story/\d+'
     deny_url_regex: '(?i)/(video|podcast|user|abo|datenschutz|impressum|privacy|cookies)'
 
   - name: Die Presse
-    continent: Europe South
+    continent: Europe North
     url: https://www.diepresse.com
     allow_url_regex: '(?i)diepresse\.com/\d+/'
     deny_url_regex: '(?i)/(video|podcast|abo|datenschutz|impressum|privacy|cookies)'
 
   - name: ZDF heute
-    continent: Europe South
+    continent: Europe North
     url: https://www.zdfheute.de
     allow_url_regex: '(?i)zdfheute\.de/(politik|ausland|wirtschaft|gesellschaft|panorama)/.+'
     deny_url_regex: '(?i)/(video|live|sendung|tv|stream|mediathek|thema|podcast)'
 
   - name: n-tv
-    continent: Europe South
+    continent: Europe North
     url: https://www.n-tv.de
     allow_url_regex: '(?i)n-tv\.de/(politik|ausland|wirtschaft|leute|panorama)/.+'
     deny_url_regex: '(?i)/(video|tv|stream|live|ticker|mediathek|podcast)'
@@ -920,6 +920,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
