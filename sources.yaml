@@ -565,14 +565,14 @@ sources:
   - name: HotNews.ro
     url: https://www.hotnews.ro
     continent: Europe East
-    allow_url_regex: '(?i)hotnews\.ro/.+/\d+'
+    allow_url_regex: '(?i)hotnews\.ro/.+'
     deny_url_regex: '(?i)/(video|podcast)'
 
 
   - name: iDNES
     url: https://www.idnes.cz
     continent: Europe East
-    allow_url_regex: '(?i)idnes\.cz/.+/\d+\.html'
+    allow_url_regex: '(?i)idnes\.cz/.+'
     deny_url_regex: '(?i)/(video|podcast)'
 
 
@@ -605,8 +605,9 @@ sources:
   - name: ERR News
     url: https://news.err.ee
     continent: Europe East
-    allow_url_regex: "/news/|/politics/|/economy/|/world/|/society/"
+    allow_url_regex: '(?i)news\.err\.ee/.+'
     deny_url_regex: '(?i)/(video|videos|player|live|privacy|cookies|about|contact)'
+
 
 
   - name: LRT
@@ -682,13 +683,13 @@ sources:
   - name: Washington Post
     continent: North America
     url: https://www.washingtonpost.com
-    allow_url_regex: '(?i)washingtonpost\.com/.+/\d{4}/\d{2}/\d{2}/'
+    allow_url_regex: '(?i)washingtonpost\.com/.+'
     deny_url_regex: '(?i)/(video|podcasts|games|privacy|cookies)'
 
   - name: Wall Street Journal
     continent: North America
     url: https://www.wsj.com
-    allow_url_regex: '(?i)wsj\.com/articles/'
+    allow_url_regex: '(?i)wsj\.com/.+'
     deny_url_regex: '(?i)/(video|podcasts|live|privacy|cookies)'
 
   - name: Los Angeles Times
@@ -902,6 +903,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
