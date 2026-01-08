@@ -697,7 +697,24 @@ sources:
     url: https://www.latimes.com
     allow_url_regex: '(?i)latimes\.com/.+/\d{4}-\d{2}-\d{2}/'
     deny_url_regex: '(?i)/(video|podcasts|privacy|cookies)'
-    
+  
+  - name: Boston Globe
+    continent: North America
+    url: https://www.bostonglobe.com
+    allow_url_regex: '(?i)bostonglobe\.com/.+'
+    deny_url_regex: '(?i)/(video|podcasts|games|privacy|cookies)'
+
+  - name: USA Today
+    continent: North America
+    url: https://www.usatoday.com
+    allow_url_regex: '(?i)usatoday\.com/.+'
+    deny_url_regex: '(?i)/(video|podcasts|games|privacy|cookies)'
+
+  - name: Chicago Tribune
+    continent: North America
+    url: https://www.chicagotribune.com
+    allow_url_regex: '(?i)chicagotribune\.com/.+'
+    deny_url_regex: '(?i)/(video|podcasts|games|privacy|cookies)'
 
   # ======================
   # China (EN/CN)
@@ -903,6 +920,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
