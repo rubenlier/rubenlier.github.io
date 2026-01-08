@@ -473,8 +473,9 @@ sources:
   - name: Haaretz
     continent: Middle East
     url: https://www.haaretz.com
-    allow_url_regex: '(?i)haaretz\.com/.+'
-    deny_url_regex: '(?i)/(video|podcast|opinion|blogs|privacy|cookies)'
+    allow_url_regex: '(?i)^https?://(www\.)?haaretz\.com/.+'
+    deny_url_regex: '(?i)/(video|podcast|privacy|cookies)'
+
 
   - name: Times of Israel
     continent: Middle East
@@ -805,14 +806,14 @@ sources:
   - name: Anandabazar Patrika
     url: https://www.anandabazar.com
     continent: India
-    allow_url_regex: "/india/|/world/|/international/|/politics/|/business/"
+    allow_url_regex: '(?i)anandabazar\.com/.+'
     deny_url_regex: '(?i)/(video|videos|photo|gallery|live|privacy|cookies)'
 
 
   - name: Dina Thanthi
     url: https://www.dailythanthi.com
     continent: India
-    allow_url_regex: "/News/India/|/News/World/|/News/Politics/|/Business/"
+    allow_url_regex: '(?i)dailythanthi\.com/.+'
     deny_url_regex: '(?i)/(video|videos|gallery|live|privacy|cookies)'
 
 
@@ -901,6 +902,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
