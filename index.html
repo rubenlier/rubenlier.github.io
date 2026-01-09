@@ -168,6 +168,23 @@
         .holden-history-text { font-size: 0.95rem; line-height: 1.4; white-space: pre-wrap; word-wrap: break-word; }
 
         /* Global News */
+        .news-updated {
+            margin-top: 6px;
+            color: #666;
+            font-size: 0.95rem;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .news-updated .pill {
+            background: #f6f6f6;
+            border: 1px solid #eee;
+            border-radius: 999px;
+            padding: 6px 10px;
+            font-size: 0.9rem;
+        }
+
         .news-meta { color: #666; font-size: 0.95rem; margin-bottom: 14px; }
         .news-list { display: grid; grid-template-columns: 1fr; gap: 14px; }
         .news-card {
@@ -501,6 +518,11 @@
             `
         };
 
+
+
+
+
+
         async function loadPreprintsSnippet() {
             const container = document.getElementById('preprints-container');
             if (!container) return;
@@ -596,7 +618,33 @@
 
             const top = data.clusters.slice(0, 5);
 
-            metaEl.textContent = `Below are the 5 most important world events`;
+            // Compute last update time from scraped_at_utc (max over clusters)
+            const scrapedTimes = data.clusters
+            .map(c => c?.central_article?.scraped_at_utc)
+            .filter(Boolean)
+            .map(s => new Date(s))
+            .filter(d => !isNaN(d.getTime()));
+
+            const lastScraped = scrapedTimes.length
+            ? new Date(Math.max(...scrapedTimes.map(d => d.getTime())))
+            : null;
+
+            // Format in Amsterdam time nicely
+            const fmtAMS = (d) => new Intl.DateTimeFormat("en-GB", {
+            timeZone: "Europe/Amsterdam",
+            year: "numeric",
+            month: "short",
+            day: "2-digit",
+            hour: "2-digit",
+            minute: "2-digit"
+            }).format(d);
+
+            metaEl.innerHTML = `
+            <div>Below are the 5 most important world events</div>
+            <div class="news-updated">
+                <span class="pill"><strong>Last updated:</strong> ${lastScraped ? fmtAMS(lastScraped) + " (Amsterdam)" : "unknown"}</span>
+            </div>
+            `;
 
             listEl.innerHTML = top.map((c, idx) => {
               const title = c.title || `Cluster ${idx + 1}`;
@@ -640,6 +688,9 @@
             listEl.innerHTML = `<p style="color:#b00;">${escapeHtml(err.message || String(err))}</p>`;
           }
         }
+
+
+
 
 
         // --- Holden history rendering ---
