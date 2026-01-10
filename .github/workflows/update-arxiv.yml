@@ -24,25 +24,24 @@ jobs:
 
 
 
-      - name: Debug arXiv fetch (runner)
+       
+      - name: Debug arXiv API fetch (runner)
         run: |
           set -eux
-          URL="https://arxiv.org/search/?query=ruben+Lier&searchtype=all&source=header"
+          URL="http://export.arxiv.org/api/query?search_query=au:Ruben+Lier&start=0&max_results=100"
           echo "URL=$URL"
-          # Fetch and capture HTTP status code
-          code=$(curl -L -sS -o debug_arxiv.html -w "%{http_code}" "$URL")
+          code=$(curl -L -sS -o debug_arxiv.xml -w "%{http_code}" "$URL")
           echo "HTTP=$code"
-          # Count results marker
-          n=$(grep -c 'class="arxiv-result"' debug_arxiv.html || true)
-          echo "arxiv-result count=$n"
-          # If looks wrong, show a snippet
+          # Atom feeds contain <entry> for each paper
+          n=$(grep -c "<entry>" debug_arxiv.xml || true)
+          echo "entry count=$n"
           if [ "$code" != "200" ] || [ "$n" -eq 0 ]; then
-            echo "---- HEAD debug_arxiv.html ----"
-            head -n 60 debug_arxiv.html
+            echo "---- HEAD debug_arxiv.xml ----"
+            head -n 80 debug_arxiv.xml
             echo "---- END HEAD ----"
-            # fail so it doesn't overwrite paper.html
             exit 1
           fi
+
 
 
 
