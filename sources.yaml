@@ -22,6 +22,12 @@ sources:
     allow_url_regex: '(?i)ft\.com/content/'
     deny_url_regex: '(?i)/(video|podcast|live|privacy|cookies)'
 
+  - name: Channel 4
+    continent: Europe North
+    url: https://www.channel4.com
+    allow_url_regex: '(?i)channel4\.com/news/'
+    deny_url_regex: '(?i)/(video|podcast|live|privacy|cookies)'
+
   - name: Reuters
     continent: Europe North
     url: https://www.reuters.com
@@ -908,6 +914,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
