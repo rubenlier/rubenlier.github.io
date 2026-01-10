@@ -13,6 +13,17 @@ jobs:
         uses: actions/checkout@v3  # Clones your GitHub repo into the Ubuntu VM
 
 
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'  # Installs Python in the VM
+
+      - name: Install dependencies
+        run: pip install beautifulsoup4 requests  # Installs required Python libraries
+
+
+
       - name: Debug arXiv fetch (runner)
         run: |
           set -eux
@@ -34,14 +45,6 @@ jobs:
           fi
 
 
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'  # Installs Python in the VM
-
-      - name: Install dependencies
-        run: pip install beautifulsoup4 requests  # Installs required Python libraries
 
       - name: Run script to fetch arXiv papers
         run: python fetch_arxiv.py  # Runs the Python script in the Ubuntu VM
