@@ -81,6 +81,26 @@ import xml.etree.ElementTree as ET
 
 ARXIV_API_URL = "http://export.arxiv.org/api/query"
 
+import requests
+import xml.etree.ElementTree as ET
+from datetime import datetime
+
+ARXIV_API_URL = "http://export.arxiv.org/api/query"
+
+def _iso_to_pretty_date(iso: str) -> str:
+    """
+    Convert arXiv Atom ISO datetime (e.g. 2025-08-19T12:34:56Z) to '19 August 2025'.
+    """
+    if not iso:
+        return "Unknown"
+    try:
+        # arXiv usually uses trailing 'Z'
+        dt = datetime.fromisoformat(iso.replace("Z", "+00:00"))
+        # Strip leading zero from day for nicer display
+        return dt.strftime("%d %B %Y").lstrip("0")
+    except Exception:
+        return "Unknown"
+
 def fetch_arxiv_papers_api(author: str = "Ruben Lier", max_results: int = 100):
     params = {
         "search_query": f'au:"{author}"',
@@ -107,23 +127,34 @@ def fetch_arxiv_papers_api(author: str = "Ruben Lier", max_results: int = 100):
     papers = []
     for entry in root.findall("atom:entry", ns):
         title = (entry.findtext("atom:title", default="", namespaces=ns) or "").strip().replace("\n", " ")
-        published = entry.findtext("atom:published", default="", namespaces=ns)  # e.g. 2025-08-19T...
-        year = published[:4] if published else "????"
 
+        # published = first submission date (v1); updated = last update
+        published_iso = entry.findtext("atom:published", default="", namespaces=ns) or ""
+        year = published_iso[:4] if published_iso else "????"
+        submission_date = _iso_to_pretty_date(published_iso)
+
+        # Authors
+        authors = []
+        for a in entry.findall("atom:author", ns):
+            name = (a.findtext("atom:name", default="", namespaces=ns) or "").strip()
+            if name:
+                authors.append(name)
+
+        # Link to abstract page (HTML)
         link_abs = ""
         for link in entry.findall("atom:link", ns):
             if link.attrib.get("rel") == "alternate":
                 link_abs = link.attrib.get("href", "")
                 break
-
-        # fall back if "alternate" wasn't found
         if not link_abs:
-            link_abs = entry.findtext("atom:id", default="", namespaces=ns)
+            link_abs = entry.findtext("atom:id", default="", namespaces=ns) or ""
 
         papers.append({
             "title": title,
-            "url": link_abs,
+            "authors": authors,              # <-- required by generate_html
+            "submission_date": submission_date,  # <-- required
             "year": year,
+            "link": link_abs,                # <-- required (generate_html uses paper['link'])
         })
 
     return papers
@@ -133,13 +164,13 @@ def fetch_arxiv_papers_api(author: str = "Ruben Lier", max_results: int = 100):
 
 
 def generate_html(papers):
-    from datetime import datetime
+    from datetime import datetime, timezone
     papers_by_year = defaultdict(list)
     for p in papers:
         papers_by_year[p["year"]].append(p)
     sorted_years = sorted(papers_by_year.keys(), reverse=True)
 
-    last_updated = datetime.utcnow().strftime("%Y-%m-%d")
+    last_updated = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
     # small header at the top of the snippet
     html_content = f'<p><em>Last updated: {last_updated} (UTC)</em></p>\n'
