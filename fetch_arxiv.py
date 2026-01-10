@@ -75,56 +75,61 @@ def get_original_submission_date(abs_url: str, session: requests.Session) -> str
     except requests.exceptions.RequestException:
         return "Unknown"
 
-def fetch_arxiv_papers():
+
+import requests
+import xml.etree.ElementTree as ET
+
+ARXIV_API_URL = "http://export.arxiv.org/api/query"
+
+def fetch_arxiv_papers_api(author: str = "Ruben Lier", max_results: int = 100):
+    params = {
+        "search_query": f'au:"{author}"',
+        "start": 0,
+        "max_results": max_results,
+        "sortBy": "submittedDate",
+        "sortOrder": "descending",
+    }
+
+    headers = {
+        "User-Agent": "Mozilla/5.0 (compatible; rubenlier-bot/1.0; +https://rubenlier.nl)"
+    }
+
+    r = requests.get(ARXIV_API_URL, params=params, headers=headers, timeout=30)
+    r.raise_for_status()
+
+    root = ET.fromstring(r.text)
+
+    ns = {
+        "atom": "http://www.w3.org/2005/Atom",
+        "arxiv": "http://arxiv.org/schemas/atom",
+    }
+
     papers = []
-    s = make_session()
-    try:
-        r = s.get(search_url, timeout=(CONNECT_TIMEOUT, READ_TIMEOUT))
-    except requests.exceptions.Timeout:
-        # transient; let the workflow pass quietly (optional)
-        print("arXiv timed out fetching the search page; will try next run.")
-        return []
-    except requests.exceptions.RequestException as e:
-        print(f"❌ Failed to fetch arXiv page: {e}")
-        return []
+    for entry in root.findall("atom:entry", ns):
+        title = (entry.findtext("atom:title", default="", namespaces=ns) or "").strip().replace("\n", " ")
+        published = entry.findtext("atom:published", default="", namespaces=ns)  # e.g. 2025-08-19T...
+        year = published[:4] if published else "????"
 
-    if r.status_code != 200:
-        print(f"❌ Failed to fetch arXiv page: HTTP {r.status_code}")
-        return []
+        link_abs = ""
+        for link in entry.findall("atom:link", ns):
+            if link.attrib.get("rel") == "alternate":
+                link_abs = link.attrib.get("href", "")
+                break
 
-    soup = BeautifulSoup(r.text, "html.parser")
-
-    for result in soup.find_all("li", class_="arxiv-result"):
-        title_tag = result.find("p", class_="title is-5 mathjax")
-        link_tag = result.find("p", class_="list-title is-inline-block")
-        authors_tag = result.find("p", class_="authors")
-
-        if not (title_tag and link_tag and authors_tag):
-            continue
-
-        title = title_tag.get_text(strip=True)
-        link = link_tag.find("a")["href"]
-
-        # Ensure abstract URL
-        if not re.search(r"/abs/\d", link):
-            link = re.sub(r"/(pdf|format)/", "/abs/", link)
-
-        authors = [a.get_text(strip=True) for a in authors_tag.find_all("a")]
-
-        submission_date = get_original_submission_date(link, s)
-        year = submission_date.split()[-1] if submission_date != "Unknown" else "Unknown"
+        # fall back if "alternate" wasn't found
+        if not link_abs:
+            link_abs = entry.findtext("atom:id", default="", namespaces=ns)
 
         papers.append({
             "title": title,
-            "link": link,
-            "authors": authors,
-            "submission_date": submission_date,
-            "year": year
+            "url": link_abs,
+            "year": year,
         })
 
-        time.sleep(PAUSE_BETWEEN_REQUESTS)
-
     return papers
+
+
+
 
 
 def generate_html(papers):
@@ -169,15 +174,13 @@ def generate_html(papers):
 
 
 if __name__ == "__main__":
-    papers = fetch_arxiv_papers()
+    papers = fetch_arxiv_papers_api()
 
-    # Safety guard:
-    # If the arXiv fetch/parsing failed and yielded 0 papers, do NOT clobber the
-    # existing paper.html on your website. Fail loudly so GitHub Actions stops.
     if not papers:
-        print("❌ No papers fetched from arXiv; refusing to overwrite paper.html.")
+        print("❌ No papers fetched from arXiv API; refusing to overwrite paper.html.")
         sys.exit(1)
 
     generate_html(papers)
+
 
 
