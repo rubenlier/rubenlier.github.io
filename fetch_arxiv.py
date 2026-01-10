@@ -170,5 +170,14 @@ def generate_html(papers):
 
 if __name__ == "__main__":
     papers = fetch_arxiv_papers()
+
+    # Safety guard:
+    # If the arXiv fetch/parsing failed and yielded 0 papers, do NOT clobber the
+    # existing paper.html on your website. Fail loudly so GitHub Actions stops.
+    if not papers:
+        print("❌ No papers fetched from arXiv; refusing to overwrite paper.html.")
+        sys.exit(1)
+
     generate_html(papers)
+
 
