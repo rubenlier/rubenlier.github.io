@@ -12,6 +12,29 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3  # Clones your GitHub repo into the Ubuntu VM
 
+
+      - name: Debug arXiv fetch (runner)
+        run: |
+          set -eux
+          URL="https://arxiv.org/search/?query=ruben+Lier&searchtype=all&source=header"
+          echo "URL=$URL"
+          # Fetch and capture HTTP status code
+          code=$(curl -L -sS -o debug_arxiv.html -w "%{http_code}" "$URL")
+          echo "HTTP=$code"
+          # Count results marker
+          n=$(grep -c 'class="arxiv-result"' debug_arxiv.html || true)
+          echo "arxiv-result count=$n"
+          # If looks wrong, show a snippet
+          if [ "$code" != "200" ] || [ "$n" -eq 0 ]; then
+            echo "---- HEAD debug_arxiv.html ----"
+            head -n 60 debug_arxiv.html
+            echo "---- END HEAD ----"
+            # fail so it doesn't overwrite paper.html
+            exit 1
+          fi
+
+
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
