@@ -332,9 +332,53 @@ sources:
     continent: Europe South
     allow_url_regex: '(?i)kathimerini\.gr/.+'
     deny_url_regex: '(?i)/(video|videos|player|live|privacy|cookies|about|contact)'
+    
+    
+    
+    
+    
+    
+  # ======================
+  # Mexico (ES)
+  # ======================
+  
+  - name: El Universal
+    continent: North America
+    url: https://www.eluniversal.com.mx
+    allow_url_regex: '(?i)eluniversal\.com\.mx/(nacion|mundo|economia|politica|estados|opinion|cultura|deportes)/'
+    deny_url_regex: '(?i)/(video|tv|galeria|podcast|fotogaleria|cookies|privacidad)'
+  
+  - name: Reforma
+    continent: North America
+    url: https://www.reforma.com
+    allow_url_regex: '(?i)reforma\.com/(nacional|internacional|economia|opinion|cultura|deportes)/'
+    deny_url_regex: '(?i)/(video|galeria|podcast|cookies|privacy)'
+  
+  - name: Milenio
+    continent: North America
+    url: https://www.milenio.com
+    allow_url_regex: '(?i)milenio\.com/(politica|economia|internacional|estados|opinion|cultura|deportes)/'
+    deny_url_regex: '(?i)/(video|podcast|fotogaleria|cookies|privacidad)'
+  
+  - name: La Jornada
+    continent: North America
+    url: https://www.jornada.com.mx
+    allow_url_regex: '(?i)jornada\.com\.mx/(politica|economia|mundo|sociedad|cultura|deportes)/'
+    deny_url_regex: '(?i)/(video|galeria|podcast|cookies|privacidad)'
 
 
+  - name: BBC Mundo
+    continent: Europe North
+    url: https://www.bbc.com/mundo
+    allow_url_regex: '(?i)bbc\.com/mundo/.+'
+    deny_url_regex: '(?i)/(video|av|podcast|cookies|privacy)'
 
+
+  - name: El País México
+    continent: North America
+    url: https://elpais.com/mexico/
+    allow_url_regex: '(?i)elpais\.com/mexico/.+'
+    deny_url_regex: '(?i)/(videos|audio|podcast|opinion|especiales|privacidad|cookies)'
 
   # ======================
   # Latin America (ES/PR)
@@ -362,19 +406,6 @@ sources:
     url: https://www.emol.com
     allow_url_regex: '(?i)emol\.com/noticias/.+/\d{4}/\d{2}/\d{2}/'
     deny_url_regex: '(?i)/(videos|podcast|servicios|cookies|privacidad)'
-
-  - name: BBC Mundo
-    continent: Europe North
-    url: https://www.bbc.com/mundo
-    allow_url_regex: '(?i)bbc\.com/mundo/.+'
-    deny_url_regex: '(?i)/(video|av|podcast|cookies|privacy)'
-
-
-  - name: El País México
-    continent: North America
-    url: https://elpais.com/mexico/
-    allow_url_regex: '(?i)elpais\.com/mexico/.+'
-    deny_url_regex: '(?i)/(videos|audio|podcast|opinion|especiales|privacidad|cookies)'
 
 
   - name: Folha de S.Paulo
@@ -914,6 +945,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
