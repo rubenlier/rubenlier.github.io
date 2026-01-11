@@ -24,7 +24,7 @@ sources:
 
   - name: Channel 4
     continent: Europe North
-    url: https://www.channel4.com
+    url: https://www.channel4.com/news
     allow_url_regex: '(?i)channel4\.com/news/'
     deny_url_regex: '(?i)/(video|podcast|live|privacy|cookies)'
 
@@ -34,11 +34,6 @@ sources:
     allow_url_regex: '(?i)reuters\.com/.+'
     deny_url_regex: '(?i)/(video|graphics|live|privacy|cookies)'
 
-  - name: Associated Press
-    continent: North America
-    url: https://apnews.com
-    allow_url_regex: '(?i)apnews\.com/article/'
-    deny_url_regex: '(?i)/(video|hub|live|privacy|cookies)'
 
   - name: Euronews
     continent: Europe North
@@ -693,18 +688,25 @@ sources:
   # ======================
   # United States (EN)
   # ======================
+
+  - name: Associated Press
+    continent: North America
+    url: https://apnews.com
+    allow_url_regex: '(?i)apnews\.com/article/'
+    deny_url_regex: '(?i)/(video|hub|live|privacy|cookies)'
+    
   - name: New York Times
     continent: North America
     url: https://www.nytimes.com
     allow_url_regex: '(?i)nytimes\.com/\d{4}/\d{2}/\d{2}/'
     deny_url_regex: '(?i)/(interactive|video|live|wirecutter|crosswords|privacy|cookies)'
-
+    
   - name: Washington Post
     continent: North America
     url: https://www.washingtonpost.com
     allow_url_regex: '(?i)washingtonpost\.com/.+'
     deny_url_regex: '(?i)/(video|podcasts|games|privacy|cookies)'
-
+    
   - name: Wall Street Journal
     continent: North America
     url: https://www.wsj.com
@@ -927,6 +929,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
