@@ -342,31 +342,13 @@ sources:
   # Mexico (ES)
   # ======================
   
-  - name: El Universal
-    continent: North America
-    url: https://www.eluniversal.com.mx
-    allow_url_regex: '(?i)eluniversal\.com\.mx/(nacion|mundo|economia|politica|estados|opinion|cultura|deportes)/'
-    deny_url_regex: '(?i)/(video|tv|galeria|podcast|fotogaleria|cookies|privacidad)'
-  
-  - name: Reforma
-    continent: North America
-    url: https://www.reforma.com
-    allow_url_regex: '(?i)reforma\.com/(nacional|internacional|economia|opinion|cultura|deportes)/'
-    deny_url_regex: '(?i)/(video|galeria|podcast|cookies|privacy)'
-  
+
   - name: Milenio
     continent: North America
     url: https://www.milenio.com
     allow_url_regex: '(?i)milenio\.com/(politica|economia|internacional|estados|opinion|cultura|deportes)/'
     deny_url_regex: '(?i)/(video|podcast|fotogaleria|cookies|privacidad)'
   
-  - name: La Jornada
-    continent: North America
-    url: https://www.jornada.com.mx
-    allow_url_regex: '(?i)jornada\.com\.mx/(politica|economia|mundo|sociedad|cultura|deportes)/'
-    deny_url_regex: '(?i)/(video|galeria|podcast|cookies|privacidad)'
-
-
   - name: BBC Mundo
     continent: Europe North
     url: https://www.bbc.com/mundo
@@ -945,6 +927,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
