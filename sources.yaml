@@ -704,7 +704,7 @@ sources:
   - name: Washington Post
     continent: North America
     url: https://www.washingtonpost.com
-    allow_url_regex: '(?i)washingtonpost\.com/.+'
+    allow_url_regex: '(?i)washingtonpost\.com/.+/\d{4}/\d{2}/\d{2}/.+'
     deny_url_regex: '(?i)/(video|podcasts|games|privacy|cookies)'
     
   - name: Wall Street Journal
@@ -929,6 +929,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
