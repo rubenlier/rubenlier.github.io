@@ -216,16 +216,32 @@ def extract_candidates(
     return items
 
 
+#def fetch(client: httpx.Client, url: str) -> Optional[str]:
+#    try:
+#        r = client.get(url)
+#        r.raise_for_status()
+#        ct = r.headers.get("content-type", "").lower()
+#        if "text/html" not in ct and "application/xhtml+xml" not in ct:
+#            return None
+#        return r.text
+#    except Exception:
+#        return None
+
 def fetch(client: httpx.Client, url: str) -> Optional[str]:
     try:
         r = client.get(url)
+        print("FETCH", url, "->", r.status_code, "final", str(r.url), "ct", r.headers.get("content-type",""))
         r.raise_for_status()
         ct = r.headers.get("content-type", "").lower()
         if "text/html" not in ct and "application/xhtml+xml" not in ct:
             return None
         return r.text
-    except Exception:
+    except Exception as e:
+        print("FETCH FAIL", url, "->", repr(e))
         return None
+
+
+
 
 
 def scrape_source(
@@ -315,6 +331,7 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
 
 
 
