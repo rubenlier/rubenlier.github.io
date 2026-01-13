@@ -178,14 +178,15 @@ sources:
     continent: Europe North
     allow_url_regex: '(?i)svt\.se/nyheter/.+'
     deny_url_regex: '(?i)/(video|klipp|live)'
-
+    
   - name: NRK Nyheter
     url: https://www.nrk.no/nyheter/
     continent: Europe North
     allow_url_regex: '(?i)nrk\.no/nyheter/.+-1\.\d+(?:/)?$'
-    deny_url_regex: '(?i)nrk\.no/nyheter/1\.\d+(?:/)?$|(?i)/(video|tv|radio|podkast)'
-
-
+    deny_url_regex: '(?i)(nrk\.no/nyheter/1\.\d+(?:/)?$|/(video|tv|radio|podkast))'
+    
+    
+    
   - name: DR Nyheder
     url: https://www.dr.dk/nyheder
     continent: Europe North
@@ -507,7 +508,7 @@ sources:
   - name: Al Arabiya
     url: https://www.alarabiya.net
     continent: Middle East
-    allow_url_regex: '(?i)aljazeera\.net/.+'
+    allow_url_regex: '(?i)alarabiya\.net/.+'
     deny_url_regex: '(?i)/(video|programs|opinions|blogs)'
 
   - name: IRNA
@@ -935,6 +936,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
