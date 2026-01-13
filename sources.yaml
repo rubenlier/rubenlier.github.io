@@ -182,8 +182,9 @@ sources:
   - name: NRK Nyheter
     url: https://www.nrk.no/nyheter/
     continent: Europe North
-    allow_url_regex: '(?i)nrk\.no/nyheter/.+'
-    deny_url_regex: '(?i)/(video|tv|radio|podkast)'
+    allow_url_regex: '(?i)nrk\.no/nyheter/.+-1\.\d+(?:/)?$'
+    deny_url_regex: '(?i)nrk\.no/nyheter/1\.\d+(?:/)?$|(?i)/(video|tv|radio|podkast)'
+
 
   - name: DR Nyheder
     url: https://www.dr.dk/nyheder
@@ -934,6 +935,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
