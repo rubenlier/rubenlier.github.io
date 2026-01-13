@@ -503,6 +503,11 @@ sources:
     allow_url_regex: '(?i)aljazeera\.net/news/'
     deny_url_regex: '(?i)/(video|programs|opinions|blogs)'
 
+  - name: Al Arabiya
+    url: https://www.alarabiya.net
+    continent: Middle East
+    allow_url_regex: '(?i)aljazeera\.net/.+'
+    deny_url_regex: '(?i)/(video|programs|opinions|blogs)'
 
   - name: IRNA
     url: https://en.irna.ir
@@ -929,6 +934,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
