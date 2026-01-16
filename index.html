@@ -1027,7 +1027,7 @@ const showTip = (ev, p) => {
   const items = p.top7titles.map(t => `<li>${escapeHtml(t)}</li>`).join("");
   tooltip.innerHTML = `
     <div class="date">${escapeHtml(p.day)} — top score: ${escapeHtml(p.topScore.toFixed(2))}</div>
-    <div>Top 5 events:</div>
+    <div>Top 7 events:</div>
     <ol>${items}</ol>
   `;
   tooltip.style.display = "block";
