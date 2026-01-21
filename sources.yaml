@@ -6,7 +6,7 @@ sources:
   # ======================
   - name: BBC
     continent: Europe North
-    url: https://www..com
+    url: https://www.bbc.com
     allow_url_regex: '(?i)(bbc\.com|bbc\.co\.uk)/(news|business|sport)/articles/'
     deny_url_regex: '(?i)/(live|av|video|audio|signin|register|privacy|cookies)'
     
@@ -974,6 +974,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
