@@ -9,6 +9,16 @@ sources:
     url: https://www..com
     allow_url_regex: '(?i)(bbc\.com|bbc\.co\.uk)/(news|business|sport)/articles/'
     deny_url_regex: '(?i)/(live|av|video|audio|signin|register|privacy|cookies)'
+    
+    
+    
+  - name: The Independent
+    continent: Europe North
+    url: https://www.independent.co.uk
+    allow_url_regex: '(?i)independent\.co\.uk/.+'
+    deny_url_regex: '(?i)/(video|audio|gallery|privacy|cookies)'
+
+
 
   - name: The Guardian
     continent: Europe North
@@ -184,9 +194,7 @@ sources:
     continent: Europe North
     allow_url_regex: '(?i)nrk\.no/nyheter/.+-1\.\d+(?:/)?$'
     deny_url_regex: '(?i)(nrk\.no/nyheter/1\.\d+(?:/)?$|/(video|tv|radio|podkast))'
-    
-    
-    
+       
   - name: DR Nyheder
     url: https://www.dr.dk/nyheder
     continent: Europe North
@@ -406,6 +414,14 @@ sources:
     deny_url_regex: '(?i)/(video|podcast|opinion|especiales|suscripcion|cookies|privacidad)'
 
 
+  - name: La Tercera
+    continent: South America
+    url: https://www.latercera.com
+    allow_url_regex: '(?i)latercera\.com/.+'
+    deny_url_regex: '(?i)/(video|audio|privacy|cookies)'
+  
+
+
 
   # ======================
   # Canada (EN)
@@ -458,7 +474,12 @@ sources:
     allow_url_regex: '(?i)newsroom\.co\.nz/.+'
     deny_url_regex: '(?i)/(audio|podcast|video|programme|shows|tags|topics)'
 
-
+  - name: The Spinoff
+    continent: Oceania
+    url: https://thespinoff.co.nz
+    allow_url_regex: '(?i)thespinoff\.co\.nz/.+'
+    deny_url_regex: '(?i)/(video|privacy|cookies)'
+  
 
 
   # ======================
@@ -672,7 +693,7 @@ sources:
 
 
   - name: Mail & Guardian
-    continent: Middle East
+    continent: Africa
     url: https://mg.co.za
     allow_url_regex: '(?i)^https?://(www\.)?mg\.co\.za/article/\d{4}-\d{2}-\d{2}/.+/?$'
     deny_url_regex: '(?i)/(opinion|columnists|privacy|cookies|video|podcast)'
@@ -680,16 +701,21 @@ sources:
 
   - name: Jeune Afrique
     url: https://www.jeuneafrique.com
-    continent: Middle East
+    continent: Africa
     allow_url_regex: '(?i)jeuneafrique\.com/\d+/'
     deny_url_regex: '(?i)/(video|podcast|tribune|opinion|privacy|cookies)'
 
   - name: Premium Times
-    continent: Middle East
+    continent: Africa
     url: https://www.premiumtimesng.com
     allow_url_regex: '(?i)^https?://(www\.)?premiumtimesng\.com/.+\.html$'
     deny_url_regex: '(?i)/(video|podcast|opinion|privacy|cookies)'
 
+  - name: Daily Maverick
+    continent: Africa
+    url: https://www.dailymaverick.co.za
+    allow_url_regex: '(?i)dailymaverick\.co\.za/.+'
+    deny_url_regex: '(?i)/(video|podcast|privacy|cookies)'
 
 
   # ======================
@@ -867,7 +893,12 @@ sources:
     allow_url_regex: '(?i)nhk\.or\.jp/.+'
     deny_url_regex: '(?i)/(video|program|shows|tv|radio|audio|live|special|features|privacy|cookies)'
 
-
+  - name: Today Online
+    continent: Asia East
+    url: https://www.todayonline.com
+    allow_url_regex: '(?i)todayonline\.com/.+'
+    deny_url_regex: '(?i)/(video|privacy|cookies)'
+  
 
   - name: Channel NewsAsia
     continent: Asia East
@@ -880,6 +911,13 @@ sources:
     url: https://www.japantimes.co.jp
     allow_url_regex: '(?i)japantimes\.co\.jp/news/\d{4}/\d{2}/\d{2}/'
     deny_url_regex: '(?i)/(video|podcast|privacy|cookies)'
+
+
+  - name: The Mainichi
+    continent: Asia East
+    url: https://mainichi.jp/english
+    allow_url_regex: '(?i)mainichi\.jp/english/.+'
+    deny_url_regex: '(?i)/(video|privacy|cookies)'
 
 
   - name: The Korea Herald
@@ -936,6 +974,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
