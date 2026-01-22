@@ -40,7 +40,7 @@ sources:
 
   - name: Reuters
     continent: Europe North
-    url: https://www.reuters.com
+    url: https://www.reuters.com/world
     allow_url_regex: '(?i)reuters\.com/.+'
     deny_url_regex: '(?i)/(video|graphics|live|privacy|cookies)'
 
@@ -968,6 +968,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
