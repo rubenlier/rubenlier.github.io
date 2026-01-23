@@ -712,6 +712,13 @@ sources:
     deny_url_regex: '(?i)/(video|podcast|privacy|cookies)'
 
 
+  - name: Daily Nation
+    continent: Africa East
+    url: https://nation.africa
+    allow_url_regex: '(?i)nation\.africa/.+$'
+    deny_url_regex: '(?i)/(video|videos|podcast|audio|gallery|photos|privacy|cookies)'
+  
+
   # ======================
   # United States (EN)
   # ======================
@@ -763,6 +770,14 @@ sources:
     url: https://www.chicagotribune.com
     allow_url_regex: '(?i)chicagotribune\.com/.+'
     deny_url_regex: '(?i)/(video|podcasts|games|privacy|cookies)'
+
+  - name: Bloomberg
+    continent: Global
+    url: https://www.bloomberg.com
+    # Typical:
+    # https://www.bloomberg.com/news/articles/2021-01-21/...
+    allow_url_regex: '(?i)bloomberg\.com/news/(articles|features)/'
+    deny_url_regex: '(?i)/(opinion|video|videos|podcasts?|tv|live|events|press-releases|sponsored|privacy|cookies)'
 
   # ======================
   # China (EN/CN)
@@ -968,6 +983,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
