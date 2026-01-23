@@ -667,7 +667,7 @@ sources:
   # Africa (EN)
   # ======================
   - name: The Africa Report
-    continent: Middle East
+    continent: Africa
     url: https://www.theafricareport.com
     allow_url_regex: '(?i)^https?://(www\.)?theafricareport\.com/\d+/.+'
     deny_url_regex: '(?i)(/category/|/tag/|/author/|/magazine/|/rankings/|/events/|/about|/contact|/privacy|/cookies|/subscribe|/login|/video|/podcast)'
@@ -700,7 +700,7 @@ sources:
 
 
   - name: Daily Nation
-    continent: Africa East
+    continent: Africa
     url: https://nation.africa
     allow_url_regex: '(?i)nation\.africa/.+$'
     deny_url_regex: '(?i)/(video|videos|podcast|audio|gallery|photos|privacy|cookies)'
@@ -714,7 +714,7 @@ sources:
 
 
   - name: The EastAfrican
-    continent: Africa East
+    continent: Africa
     url: https://www.theeastafrican.co.ke
     allow_url_regex: '(?i)theeastafrican\.co\.ke/.+'
     deny_url_regex: '(?i)/(opinion|column|privacy|cookies|video|podcast)'
@@ -990,6 +990,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
