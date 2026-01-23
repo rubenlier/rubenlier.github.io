@@ -81,6 +81,27 @@
         }
         .flag-emoji:hover::after { opacity: 1; }
 
+
+        /* Talks flags: responsive sizing */
+        .flag-emoji{
+        font-size: clamp(14px, 2.2vw, 22px);
+        line-height: 1;
+        }
+
+        /* Slightly smaller on narrow screens */
+        @media (max-width: 820px){
+        .flag-emoji{ font-size: clamp(12px, 4.2vw, 18px); }
+        }
+
+        /* Keep your current ::after tooltip styling, then add: */
+        .flag-emoji.is-open::after { opacity: 1; }
+
+        /* Phones/tablets: don't rely on hover at all */
+        @media (hover: none){
+        .flag-emoji:hover::after { opacity: 0; } /* disable hover behavior on touch devices */
+        }
+
+
         /* Beta Holden history */
         .holden-form { display: flex; gap: 10px; margin-bottom: 0.75rem; }
         .holden-input {
@@ -844,7 +865,9 @@
                 loadHoldenHistory();
             } else if (page === 'worldnews') {
                 loadWorldNews();
-                if (typeof loadScoreHistoryGraph === 'function') loadScoreHistoryGraph();
+            if (typeof loadScoreHistoryGraph === 'function') loadScoreHistoryGraph();
+            } else if (page === 'talks') {
+                initTalksTooltips();
             }
         }
 
@@ -852,6 +875,44 @@
             const hash = window.location.hash.replace('#', '');
             return hash || 'home';
         }
+
+
+        function initTalksTooltips(){
+        const flags = Array.from(document.querySelectorAll(".flag-emoji"));
+        if (!flags.length) return;
+
+        // Make them keyboard/touch friendly
+        for (const f of flags){
+        f.setAttribute("role", "button");
+        f.setAttribute("tabindex", "0");
+        f.setAttribute("aria-label", f.getAttribute("data-tooltip") || "Talk");
+
+        const toggle = (ev) => {
+            ev.preventDefault();
+            ev.stopPropagation();
+
+            // close others
+            flags.forEach(x => { if (x !== f) x.classList.remove("is-open"); });
+            // toggle current
+            f.classList.toggle("is-open");
+        };
+
+        f.addEventListener("click", toggle, { passive: false });
+        f.addEventListener("touchend", toggle, { passive: false });
+
+        f.addEventListener("keydown", (e) => {
+            if (e.key === "Enter" || e.key === " ") toggle(e);
+        });
+        }
+
+        // tap anywhere else closes
+        document.addEventListener("click", () => flags.forEach(x => x.classList.remove("is-open")));
+        document.addEventListener("touchstart", () => flags.forEach(x => x.classList.remove("is-open")), { passive: true });
+        }
+
+
+
+
 
         window.addEventListener('hashchange', () => {
             loadPage(getPageFromHash());
