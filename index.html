@@ -232,6 +232,25 @@
         }
         .kpi { background: #f6f6f6; border: 1px solid #eee; border-radius: 999px; padding: 6px 10px; }
 
+
+
+        .news-card{ position: relative; }
+
+        .rank-badge{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: #111;
+        color: #fff;
+        border-radius: 999px;
+        padding: 4px 10px;
+        font-size: 0.85rem;
+        line-height: 1.2;
+        }
+
+
+
+
         /* FAMILIER full-screen view */
         .familier-root {
             position: fixed;
@@ -681,7 +700,9 @@
 
               return `
                 <div class="news-card">
-                  <div class="news-title">
+                    <div class="rank-badge">Rank ${idx + 1}</div>
+
+                    <div class="news-title">
                     <a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">
                       ${escapeHtml(title)}
                     </a>
@@ -897,7 +918,6 @@
             f.classList.toggle("is-open");
         };
 
-        f.addEventListener("click", toggle, { passive: false });
         f.addEventListener("touchend", toggle, { passive: false });
 
         f.addEventListener("keydown", (e) => {
