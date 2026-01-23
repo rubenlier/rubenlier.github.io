@@ -704,6 +704,22 @@ sources:
     url: https://nation.africa
     allow_url_regex: '(?i)nation\.africa/.+$'
     deny_url_regex: '(?i)/(video|videos|podcast|audio|gallery|photos|privacy|cookies)'
+
+
+  - name: Business Day
+    continent: Africa
+    url: https://businessday.ng
+    allow_url_regex: '(?i)^https?://(www\.)?businessday\.ng/.+/$'
+    deny_url_regex: '(?i)/(opinion|analysis|features|privacy|cookies|video|podcast)'
+
+
+  - name: The EastAfrican
+    continent: Africa East
+    url: https://www.theeastafrican.co.ke
+    allow_url_regex: '(?i)theeastafrican\.co\.ke/.+'
+    deny_url_regex: '(?i)/(opinion|column|privacy|cookies|video|podcast)'
+
+
   
 
   # ======================
@@ -869,6 +885,12 @@ sources:
     deny_url_regex: '(?i)/(video|videos|player|live|privacy|cookies|about|contact)'
 
 
+  - name: The Indian Express
+    url: https://indianexpress.com
+    continent: India
+    allow_url_regex: '(?i)indianexpress\.com/(article|world|india|politics|business)/.+'
+    deny_url_regex: '(?i)/(videos|audio|podcast|explained|opinion|columns|privacy|cookies)'
+
 
 
   # ======================
@@ -968,6 +990,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
