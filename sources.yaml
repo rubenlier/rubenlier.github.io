@@ -761,8 +761,6 @@ sources:
   - name: Bloomberg
     continent: Global
     url: https://www.bloomberg.com
-    # Typical:
-    # https://www.bloomberg.com/news/articles/2021-01-21/...
     allow_url_regex: '(?i)bloomberg\.com/news/(articles|features)/'
     deny_url_regex: '(?i)/(opinion|video|videos|podcasts?|tv|live|events|press-releases|sponsored|privacy|cookies)'
 
@@ -970,6 +968,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
