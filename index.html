@@ -852,6 +852,25 @@
             });
         }
 
+
+        function pingWorldNewsOnce() {
+            // prevent double-counting in same tab session
+            if (sessionStorage.getItem("worldnews_pinged")) return;
+            sessionStorage.setItem("worldnews_pinged", "1");
+
+            fetch("https://uetmawaocxlgvjlyhwun.supabase.co/functions/v1/ping-worldnews", {
+                method: "POST",
+                headers: {
+                "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVldG1hd2FvY3hsZ3ZqbHlod3VuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjUwMjA2MjEsImV4cCI6MjA4MDU5NjYyMX0.sco4i7wqlwyRO0lGg0Mn9MgJGz8NvJ0tBCqnVpf5MgA",
+                "X-Site-Token": "rubenlier-worldnews-v1",
+                },
+                keepalive: true,
+            }).catch(() => {});
+        }
+
+
+
+
         function loadPage(page) {
             const navbar = document.querySelector('.navbar');
             const layout = document.querySelector('.layout');
@@ -887,6 +906,7 @@
             } else if (page === 'worldnews') {
                 loadWorldNews();
             if (typeof loadScoreHistoryGraph === 'function') loadScoreHistoryGraph();
+                pingWorldNewsOnce();
             } else if (page === 'talks') {
                 initTalksTooltips();
             }
