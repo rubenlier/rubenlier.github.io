@@ -326,20 +326,7 @@ sources:
     allow_url_regex: '(?i)corriere\.it/(esteri|politica|economia)/.+'
     deny_url_regex: '(?i)/(video|podcast|opinioni|commenti)'
 
-  - name: Kathimerini English
-    url: https://www.ekathimerini.com
-    continent: Europe South
-    allow_url_regex: '(?i)ekathimerini\.com/.+'
-    deny_url_regex: '(?i)/(video|videos|player|live|privacy|cookies|about|contact)'
-
-  - name: Kathimerini
-    url: https://www.kathimerini.gr/
-    continent: Europe South
-    allow_url_regex: '(?i)kathimerini\.gr/.+'
-    deny_url_regex: '(?i)/(video|videos|player|live|privacy|cookies|about|contact)'
-    
-    
-    
+  
     
     
     
@@ -983,6 +970,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
