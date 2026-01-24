@@ -654,23 +654,27 @@
         
 
 // --- Region color mapping ---
-// Pick any colors you like; these are intentionally distinct.
 const REGION_COLORS = {
-  "Europe North": "#1f77b4",
-  "Europe South": "#17becf",
-  "Europe East":  "#9467bd",
+  // Europe → cool colors, but separated
+  "Europe North": "#1f77b4",   // deep blue
+  "Europe East":  "#9467bd",   // purple
+  "Europe South": "#17becf",   // cyan / teal
 
-  "North America": "#ff7f0e",
-  "South America": "#d62728",
+  // Americas → warm
+  "North America": "#ff7f0e",  // orange
+  "South America": "#d62728",  // red
 
-  "Middle East": "#8c564b",
-  "Africa": "#bcbd22",
-  "Oceania": "#7f7f7f",
+  // Asia → greens / yellows
+  "Asia East": "#2ca02c",      // green
+  "China": "#bcbd22",          // yellow-green
+  "India": "#e377c2",          // pink (keeps it distinct)
 
-  "India": "#e377c2",
-  "Asia East": "#4c78a8",
-  "China": "#9c755f"
+  // Middle East / Africa / Oceania → distinct earth & neutral tones
+  "Middle East": "#8c564b",    // brown
+  "Africa": "#a6761d",         // ochre (less close to China now)
+  "Oceania": "#7f7f7f"         // neutral gray
 };
+
 
 // Fallback color if you ever add a new label without updating REGION_COLORS
 function colorForRegion(name){
