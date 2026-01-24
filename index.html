@@ -397,6 +397,58 @@
 .scoreTick { font: 11px system-ui, -apple-system, Segoe UI, Roboto, sans-serif; fill:#666; }
 .scoreLabel { font: 12px system-ui, -apple-system, Segoe UI, Roboto, sans-serif; fill:#333; }
 
+/* --- Regions legend + rainbow bar (worldnews) --- */
+#regionLegendWrap{
+  margin: 12px 0 14px;
+  border: 1px solid #e6e6e6;
+  border-radius: 12px;
+  padding: 10px 12px;
+  background: #fff;
+}
+#regionLegendTitle{
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+#regionLegend{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 10px;
+  align-items: center;
+}
+.legend-item{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #eee;
+  background: #fafafa;
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 0.92rem;
+  color: #333;
+}
+.legend-dot{
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(0,0,0,0.15);
+}
+
+.region-bar{
+  height: 10px;
+  border-radius: 999px;
+  overflow: hidden;
+  border: 1px solid #eee;
+  background: #fff;
+  margin-top: 10px;
+}
+.region-bar-inner{
+  display: flex;
+  height: 100%;
+}
+.region-seg{
+  height: 100%;
+}
+
 </style>
 </head>
 <body>
@@ -501,7 +553,14 @@
 
             worldnews: `
     <h1>Global News</h1>
-    <div class="news-meta" id="worldnews-meta">Loading top clusters…</div>
+    
+
+  <div id="regionLegendWrap" style="display:none;">
+    <div id="regionLegendTitle">Regions</div>
+    <div id="regionLegend"></div>
+  </div>
+
+<div class="news-meta" id="worldnews-meta">Loading top clusters…</div>
     <div class="news-list" id="worldnews-list"></div>
 
     <div id="scoreHistoryWrap">
@@ -592,7 +651,88 @@
                 .replace(/'/g, "&#39;");
         }
 
-        function escapeRegExp(s) {
+        
+
+// --- Region color mapping ---
+// Pick any colors you like; these are intentionally distinct.
+const REGION_COLORS = {
+  "Europe North": "#1f77b4",
+  "Europe South": "#17becf",
+  "Europe East":  "#9467bd",
+
+  "North America": "#ff7f0e",
+  "South America": "#d62728",
+
+  "Middle East": "#8c564b",
+  "Africa": "#bcbd22",
+  "Oceania": "#7f7f7f",
+
+  "India": "#e377c2",
+  "Asia East": "#4c78a8",
+  "China": "#9c755f"
+};
+
+// Fallback color if you ever add a new label without updating REGION_COLORS
+function colorForRegion(name){
+  return REGION_COLORS[name] || "#111";
+}
+
+function uniqueStable(arr){
+  const out = [];
+  const seen = new Set();
+  for (const x of (arr || [])){
+    if (!x) continue;
+    if (seen.has(x)) continue;
+    seen.add(x);
+    out.push(x);
+  }
+  return out;
+}
+
+function renderRegionLegend(regions){
+  const wrap = document.getElementById("regionLegendWrap");
+  const el = document.getElementById("regionLegend");
+  if (!wrap || !el) return;
+
+  const regs = uniqueStable(regions).sort((a,b) => a.localeCompare(b));
+  if (!regs.length){
+    wrap.style.display = "none";
+    el.innerHTML = "";
+    return;
+  }
+
+  el.innerHTML = regs.map(r => `
+    <span class="legend-item" title="${escapeHtml(r)}">
+      <span class="legend-dot" style="background:${colorForRegion(r)};"></span>
+      <span>${escapeHtml(r)}</span>
+    </span>
+  `).join("");
+
+  wrap.style.display = "block";
+}
+
+// Build a rainbow bar from an ordered list of regions
+function renderRegionBar(regions){
+  const regs = uniqueStable(regions);
+  if (!regs.length) return "";
+
+  const n = regs.length;
+  const segW = (100 / n);
+
+  const segs = regs.map(r => `
+    <div class="region-seg"
+         style="width:${segW}%; background:${colorForRegion(r)};"
+         title="${escapeHtml(r)}"></div>
+  `).join("");
+
+  return `
+    <div class="region-bar" aria-label="Regions in this event">
+      <div class="region-bar-inner">${segs}</div>
+    </div>
+  `;
+}
+
+function escapeRegExp(s) {
             return (s || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
         }
 
@@ -659,7 +799,16 @@
 
             const top = data.clusters.slice(0, 7);
 
-            // Compute last update time from scraped_at_utc (max over clusters)
+            
+
+    // Legend should show regions present in the top clusters
+    const legendRegions = [];
+    for (const c of top){
+      const regs = Array.isArray(c.continents) ? c.continents : [];
+      for (const r of regs) legendRegions.push(r);
+    }
+    renderRegionLegend(legendRegions);
+// Compute last update time from scraped_at_utc (max over clusters)
             const scrapedTimes = data.clusters
             .map(c => c?.central_article?.scraped_at_utc)
             .filter(Boolean)
@@ -699,6 +848,12 @@
               const scraped = ca.scraped_at_utc || "";
               const published = ca.published_at || "";
 
+    const regions = (Array.isArray(c.continents) && c.continents.length)
+      ? c.continents
+      : (continent ? [continent] : []); // fallback for older runs
+
+
+
               return `
                 <div class="news-card">
 
@@ -716,7 +871,10 @@
                     </div>
 
 
-                  <div class="news-meta" style="margin-top:10px;">
+                  
+    ${renderRegionBar(regions)}
+
+<div class="news-meta" style="margin-top:10px;">
                     <div>${escapeHtml(source)}${continent ? " · " + escapeHtml(continent) : ""}</div>
                     ${published ? `<div>published: ${escapeHtml(published)}</div>` : ""}
                   </div>
