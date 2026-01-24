@@ -326,7 +326,18 @@ sources:
     allow_url_regex: '(?i)corriere\.it/(esteri|politica|economia)/.+'
     deny_url_regex: '(?i)/(video|podcast|opinioni|commenti)'
 
-  
+  - name: Ta Nea
+    continent: Europe South
+    url: https://www.tanea.gr
+    allow_url_regex: '(?i)tanea\.gr/.+'
+    deny_url_regex: '(?i)/(video|videos|photos|gallery|podcast|live|privacy|cookies)'
+    
+  - name: To Vima
+    continent: Europe South
+    url: https://www.tovima.gr
+    allow_url_regex: '(?i)tovima\.gr/.+'
+    deny_url_regex: '(?i)/(video|videos|photos|gallery|podcast|live|privacy|cookies)'
+
     
     
     
@@ -606,6 +617,25 @@ sources:
     allow_url_regex: '(?i)kyivpost\.com/post/\d+'
     deny_url_regex: '(?i)/(video|live|privacy|cookies)'
 
+  - name: The Kyiv Independent
+    continent: Europe East
+    url: https://kyivindependent.com
+    allow_url_regex: '(?i)kyivindependent\.com/.+'
+    deny_url_regex: '(?i)/(video|podcast|opinion|explainer|privacy|cookies)'
+
+  - name: Meduza
+    continent: Europe East
+    url: https://meduza.io
+    allow_url_regex: '(?i)meduza\.io/(news|feature|en)/.+'
+    deny_url_regex: '(?i)/(video|podcast|games|privacy|cookies)'
+
+  - name: Novaya Gazeta Europe
+    continent: Europe East
+    url: https://novayagazeta.eu
+    allow_url_regex: '(?i)novayagazeta\.eu/articles/.+'
+    deny_url_regex: '(?i)/(video|podcast|privacy|cookies)'
+  
+
   - name: The Moscow Times
     continent: Europe East
     url: https://www.themoscowtimes.com
@@ -624,6 +654,20 @@ sources:
     continent: Europe East
     allow_url_regex: '(?i)kommersant\.ru/doc/\d+'
     deny_url_regex: '(?i)/(video|gallery|podcast)'
+
+
+  - name: TASS
+    continent: Europe East
+    url: https://tass.com
+    allow_url_regex: '(?i)tass\.com/(politics|world|economy|defense|society)/\d+'
+    deny_url_regex: '(?i)/(video|infographics|gallery|photo|privacy|cookies)'
+
+
+  - name: RIA Novosti
+    continent: Europe East
+    url: https://ria.ru
+    allow_url_regex: '(?i)ria\.ru/\d{8}/.+\.html'
+    deny_url_regex: '(?i)/(video|infographics|photo|gallery|privacy|cookies)'
 
   - name: ERR News
     url: https://news.err.ee
@@ -990,6 +1034,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
