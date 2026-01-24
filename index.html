@@ -698,7 +698,7 @@ function renderRegionLegend(regions){
   const el = document.getElementById("regionLegend");
   if (!wrap || !el) return;
 
-  const regs = uniqueStable(regions).sort((a,b) => a.localeCompare(b));
+const regs = uniqueStable(regions);
   if (!regs.length){
     wrap.style.display = "none";
     el.innerHTML = "";
@@ -805,13 +805,23 @@ function escapeRegExp(s) {
 
             
 
-    // Legend should show regions present in the top clusters
-    const legendRegions = [];
-    for (const c of top){
-      const regs = Array.isArray(c.continents) ? c.continents : [];
-      for (const r of regs) legendRegions.push(r);
-    }
-    renderRegionLegend(legendRegions);
+// Fixed, complete legend (all regions, intentional order)
+const REGION_ORDER = [
+  "Europe North",
+  "Europe South",
+  "Europe East",
+  "North America",
+  "South America",
+  "Middle East",
+  "Africa",
+  "Oceania",
+  "India",
+  "Asia East",
+  "China"
+];
+
+renderRegionLegend(REGION_ORDER);
+
 // Compute last update time from scraped_at_utc (max over clusters)
             const scrapedTimes = data.clusters
             .map(c => c?.central_article?.scraped_at_utc)
