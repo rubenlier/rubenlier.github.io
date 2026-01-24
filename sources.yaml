@@ -2,7 +2,7 @@
 sources:
 
   # ======================
-  # Global / UK (EN)
+  # UK (EN)
   # ======================
   - name: BBC
     continent: Europe North
@@ -817,10 +817,17 @@ sources:
     deny_url_regex: '(?i)/(video|podcasts|games|privacy|cookies)'
 
   - name: Bloomberg
-    continent: Global
+    continent: North America
     url: https://www.bloomberg.com
     allow_url_regex: '(?i)bloomberg\.com/news/(articles|features)/'
     deny_url_regex: '(?i)/(opinion|video|videos|podcasts?|tv|live|events|press-releases|sponsored|privacy|cookies)'
+
+  - name: Yahoo News
+    continent: North America
+    url: https://news.yahoo.com
+    allow_url_regex: '(?i)news\.yahoo\.com/.+-\d+\.html'
+    deny_url_regex: '(?i)/(opinion|video|videos|podcasts?|tv|live|events|press-releases|sponsored|privacy|cookies)'
+
 
   # ======================
   # China (EN/CN)
@@ -1032,6 +1039,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
