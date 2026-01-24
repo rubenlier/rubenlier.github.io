@@ -326,12 +326,6 @@ sources:
     allow_url_regex: '(?i)corriere\.it/(esteri|politica|economia)/.+'
     deny_url_regex: '(?i)/(video|podcast|opinioni|commenti)'
 
-  - name: Ta Nea
-    continent: Europe South
-    url: https://www.tanea.gr
-    allow_url_regex: '(?i)tanea\.gr/.+'
-    deny_url_regex: '(?i)/(video|videos|photos|gallery|podcast|live|privacy|cookies)'
-    
   - name: To Vima
     continent: Europe South
     url: https://www.tovima.gr
@@ -1034,6 +1028,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
