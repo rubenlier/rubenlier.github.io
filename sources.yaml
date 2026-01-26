@@ -69,6 +69,12 @@ sources:
     allow_url_regex: '(?i)nos\.nl/artikel/'
     deny_url_regex: '(?i)/(video|live)'
 
+  - name: nu.nl
+    continent: Europe North
+    url: https://www.nu.nl
+    allow_url_regex: '(?i)nu\.nl/.+'
+    deny_url_regex: '(?i)/(video|live)'
+
   - name: NRC
     continent: Europe North
     url: https://www.nrc.nl
@@ -1038,6 +1044,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
