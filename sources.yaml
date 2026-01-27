@@ -232,7 +232,7 @@ sources:
   - name: Les Echos
     url: https://www.lesechos.fr
     continent: Europe South
-    allow_url_regex: '(?i)lesechos\.fr/(monde|economie-france|industrie-services|finance-marches|tech-medias)/'
+    allow_url_regex: '(?i)lesechos\.fr/.+'
     deny_url_regex: '(?i)/(video|podcast|diaporama|live|privacy|cookies)'
 
 
@@ -1044,6 +1044,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
