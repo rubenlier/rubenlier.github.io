@@ -19,8 +19,8 @@ jobs:
         run: |
           ls -lah
           test -f headlines_latest.jsonl
-      
-      - name: Run clustering via Cloud Run
+
+      - name: Run clustering via Cloud Run (retry twice on failure)
         env:
           URL: https://newscluster-api-416156146603.europe-west4.run.app/clusters/top
           SECRET: ${{ secrets.CRON_SECRET }}
@@ -36,24 +36,50 @@ jobs:
           RAW_URL="https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/${FILE}?nocache=$(date +%s)"
           echo "RAW_URL: $RAW_URL"
 
-          # Option 1: build request JSON directly in bash (no python; no env export issues)
+          # Build request JSON directly in bash
           REQ='{"jsonl_url":"'"$RAW_URL"'","top_k":25}'
 
-          # capture HTTP code + body
-          http_code=$(curl -sS -o output_new.json -w "%{http_code}" -X POST "$URL" \
-            -H "Content-Type: application/json; charset=utf-8" \
-            -H "X-CRON-SECRET: $SECRET" \
-            --data-binary "$REQ")
+          # Retry logic: total attempts = 3 (initial + 2 retries)
+          attempt=1
+          max_attempts=3
 
-          echo "HTTP: $http_code"
-          echo "First 400 chars of response:"
-          head -c 400 output_new.json || true
-          echo
+          while true; do
+            # capture HTTP code + body (also survive transient curl failures)
+            http_code=$(curl -sS -o output_new.json -w "%{http_code}" -X POST "$URL" \
+              -H "Content-Type: application/json; charset=utf-8" \
+              -H "X-CRON-SECRET: $SECRET" \
+              --data-binary "$REQ" || echo "000")
 
-          # If it's not 200, fail with useful output
-          test "$http_code" = "200"
+            echo "Attempt $attempt/$max_attempts - HTTP: $http_code"
+            echo "First 400 chars of response:"
+            head -c 400 output_new.json 2>/dev/null || true
+            echo
 
-                    # Merge new run into output.json (append instead of overwrite)
+            # Success
+            if [ "$http_code" = "200" ]; then
+              break
+            fi
+
+            # Retry-worthy conditions:
+            # 000 = curl/network error
+            # 409 = lock already running
+            # 429 = cooldown active
+            # 503 = temporary unavailable (optional, but harmless)
+            if [ "$http_code" = "000" ] || [ "$http_code" = "409" ] || [ "$http_code" = "429" ] || [ "$http_code" = "503" ]; then
+              if [ "$attempt" -ge "$max_attempts" ]; then
+                echo "Failed after $attempt attempts."
+                exit 1
+              fi
+              sleep $((attempt * 15))
+              attempt=$((attempt + 1))
+              continue
+            fi
+
+            # Any other non-200 code: fail immediately
+            exit 1
+          done
+
+          # Merge new run into output.json (append instead of overwrite)
           python - << 'PY'
           import json, os
           from datetime import datetime, timezone
@@ -100,11 +126,8 @@ jobs:
           print("OK appended. total runs:", len(existing), "clusters in new run:", len(clusters))
           PY
 
-
-
       - name: Cleanup temp files
         run: rm -f output_new.json
-
 
       - name: Commit output
         run: |
