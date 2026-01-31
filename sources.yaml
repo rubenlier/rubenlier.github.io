@@ -786,8 +786,7 @@ sources:
     continent: Africa
     url: https://www.africanews.com/
     allow_url_regex: '(?i)africanews\.com/(?:20\d{2}/\d{2}/\d{2}/|news/|africa/|world/|business/|sports/|culture/).+'
-    deny_url_regex: '(?i)/(?:video|videos|live|podcasts?|tv|program|shows|audio|watch|privacy|cookies|terms|about|contact|newsletter|tag/|topics/|author/|search)'
-
+    deny_url_regex: '(?i)/(?:video|pix-of-the-day|videos|live|podcasts?|tv|program|shows|audio|watch|privacy|cookies|terms|about|contact|newsletter|tag/|topics/|author/|search)'
   
 
   # ======================
@@ -1065,6 +1064,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
