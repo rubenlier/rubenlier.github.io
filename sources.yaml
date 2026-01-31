@@ -455,6 +455,27 @@ sources:
     allow_url_regex: '(?i)smh\.com\.au/.+'
     deny_url_regex: '(?i)/(live|video|audio|help|info|privacy|cookies)'
 
+
+  - name: The Australian
+    continent: Oceania
+    url: https://www.theaustralian.com.au
+    allow_url_regex: '(?i)theaustralian\.com\.au/.+'
+    deny_url_regex: '(?i)/(video|audio|podcast|subscribe|membership|privacy|cookies)'
+ 
+  
+  
+  - name: Herald Sun
+    continent: Oceania
+    url: https://www.heraldsun.com.au
+    allow_url_regex: '(?i)heraldsun\.com\.au/.+'
+    deny_url_regex: '(?i)/(video|audio|podcast|subscribe|membership|privacy|cookies)'
+
+  - name: The West Australian
+    continent: Oceania
+    url: https://thewest.com.au
+    allow_url_regex: '(?i)thewest\.com\.au/.+'
+    deny_url_regex: '(?i)/(video|audio|podcast|subscribe|membership|privacy|cookies)'
+
     
     
   - name: RNZ
@@ -1039,6 +1060,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
