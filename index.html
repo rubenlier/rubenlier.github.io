@@ -457,7 +457,7 @@
         <div class="navbar-inner">
             <a href="#home" data-page="home">Ruben Lier</a>
             <a href="#preprints" data-page="preprints">Preprints</a>
-            <a href="#talks" data-page="talks">Talks</a>
+            <a href="#talks" data-page="talks" id="nav-talks">Talks</a>
             <a href="#worldnews" data-page="worldnews">Global News</a>
             <!-- Notice: no link to #beta or #familier here on purpose -->
         </div>
@@ -497,6 +497,32 @@
         // API endpoints (beta only)
         const HOLDEN_API_URL_BETA =
             "https://holden-hcaulfield-medium-416156146603.europe-west4.run.app/generate";
+
+
+        // -----------------------------
+        // Mobile guard: disable Talks page on phones
+        // -----------------------------
+        const isPhone = () => {
+            // Your CSS switches to mobile layout at 820px; also treat "hover: none" devices as touch/phone.
+            return window.matchMedia("(max-width: 820px)").matches || window.matchMedia("(hover: none)").matches;
+        };
+
+        function enforceNoTalksOnPhone() {
+            const talksLink = document.getElementById("nav-talks") || document.querySelector('.navbar a[data-page="talks"]');
+
+            if (isPhone()) {
+                // 1) Hide the navbar link so users can’t navigate there from other pages
+                if (talksLink) talksLink.style.display = "none";
+
+                // 2) If someone manually navigates to #talks, immediately bounce them back to Home
+                if (window.location.hash === "#talks") {
+                    window.location.hash = "#home";
+                }
+            } else {
+                // Restore on desktop
+                if (talksLink) talksLink.style.display = "";
+            }
+        }
 
         // Pages are HTML snippets injected into #content
         const pages = {
@@ -1046,6 +1072,13 @@ renderRegionLegend(REGION_ORDER);
 
 
         function loadPage(page) {
+            // Block Talks on phones (even if hash is typed manually)
+            if (page === 'talks' && isPhone()) {
+                // Keep URL consistent too
+                if (window.location.hash === '#talks') window.location.hash = '#home';
+                page = 'home';
+            }
+
             const navbar = document.querySelector('.navbar');
             const layout = document.querySelector('.layout');
             const familierRoot = document.getElementById('familier-root');
@@ -1129,8 +1162,16 @@ renderRegionLegend(REGION_ORDER);
 
 
         window.addEventListener('hashchange', () => {
+            enforceNoTalksOnPhone();
             loadPage(getPageFromHash());
         });
+
+        // Also react to viewport changes (rotate phone, resize window)
+        window.addEventListener('resize', () => {
+            enforceNoTalksOnPhone();
+        }, { passive: true });
+
+        enforceNoTalksOnPhone();
 
         loadPage(getPageFromHash());
     </script>
