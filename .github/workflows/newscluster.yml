@@ -64,12 +64,20 @@ jobs:
             # 000 = curl/network error
             # 409 = lock already running
             # 429 = cooldown active
-            # 503 = temporary unavailable (optional, but harmless)
-            if [ "$http_code" = "000" ] || [ "$http_code" = "409" ] || [ "$http_code" = "429" ] || [ "$http_code" = "503" ]; then
+            # 500/502/503/504 = transient server errors
+            if [ "$http_code" = "000" ] || \
+               [ "$http_code" = "409" ] || \
+               [ "$http_code" = "429" ] || \
+               [ "$http_code" = "500" ] || \
+               [ "$http_code" = "502" ] || \
+               [ "$http_code" = "503" ] || \
+               [ "$http_code" = "504" ]; then
+
               if [ "$attempt" -ge "$max_attempts" ]; then
                 echo "Failed after $attempt attempts."
                 exit 1
               fi
+
               sleep $((attempt * 15))
               attempt=$((attempt + 1))
               continue
@@ -84,18 +92,15 @@ jobs:
           import json, os
           from datetime import datetime, timezone
 
-          # 1) load the newly fetched run (dict) from API response
           with open("output_new.json","r",encoding="utf-8") as f:
               new_run = json.load(f)
 
           if not isinstance(new_run, dict):
               raise SystemExit(f"API response is not a dict: {type(new_run)}")
 
-          # add metadata so the website can show “latest 5 runs”
           now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
           new_run.setdefault("created_at_utc", now)
 
-          # 2) load existing output.json (list of runs), or initialize
           if os.path.exists("output.json"):
               with open("output.json","r",encoding="utf-8") as f:
                   try:
@@ -105,21 +110,19 @@ jobs:
           else:
               existing = []
 
-          # migrate legacy format: if output.json was a dict, wrap it once
           if isinstance(existing, dict):
               existing = [existing]
           if not isinstance(existing, list):
               raise SystemExit(f"Existing output.json must be list/dict, got {type(existing)}")
 
-          # 3) append and write back
           existing.append(new_run)
 
           with open("output.json","w",encoding="utf-8") as f:
               json.dump(existing, f, ensure_ascii=False, indent=2)
 
-          # 4) sanity checks on the NEW run
           clusters = new_run.get("clusters")
           assert isinstance(clusters, list) and len(clusters) > 0, "No clusters in new run"
+
           ip = new_run.get("input_path")
           assert isinstance(ip, str) and ip.startswith("https://raw.githubusercontent.com/"), f"bad input_path: {ip}"
 
