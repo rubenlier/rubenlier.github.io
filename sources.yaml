@@ -111,10 +111,16 @@ sources:
   - name: Spiegel
     continent: Europe North
     url: https://www.spiegel.de
-    # keep only real Spiegel article pages: "...-a-1234567.html"
     allow_url_regex: '(?i)spiegel\.de/.+'
-    # drop games, service, subscription, calculators, index lists, etc.
     deny_url_regex: '(?i)(gruppenkonto\.spiegel\.de|/spiele/|/abo|/kuendigung|/service/|/spiegel/|/bestseller|/spiegelgeschichte/|/spiegelwissen|/deinspiegel|/spjc/|/spbest/|/print/|rechner|datenschutz|impressum|privacy|cookies|video|podcast|audio)'
+
+
+  - name: Handelsblatt
+    continent: Europe North
+    url: https://www.handelsblatt.com/
+    allow_url_regex: '(?i)handelsblatt\.com/(?:unternehmen|politik|finanzen|wirtschaft|meinung|technik|arts_und_style|audio|video)/.+'
+    deny_url_regex: '(?i)/(?:amp|bilder|galerie|video|podcast|audio|live|datenschutz|privacy|cookie|cookies|agb|impressum|kontakt|newsletter|account|login|registrieren|suche|search|shop|angebote|plus|zahlung|e-paper|epaper)'
+
 
 
   - name: Die Welt
@@ -1064,6 +1070,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
