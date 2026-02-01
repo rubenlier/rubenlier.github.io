@@ -39,7 +39,7 @@ jobs:
           # Build request JSON directly in bash
           REQ='{"jsonl_url":"'"$RAW_URL"'","top_k":10}'
 
-          # Retry logic: total attempts = 3 (initial + 2 retries)
+          # Retry logic: total attempts = 5 (initial + 4 retries)
           attempt=1
           max_attempts=3
 
