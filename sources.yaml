@@ -882,6 +882,14 @@ sources:
     deny_url_regex: '(?i)/(?:video/|videos/|podcasts?|audio|live|newsletters?|subscribe|membership|donate|privacy|cookies|terms|about|contact|tag/|tags/|author/|search|archive/)'
 
 
+  - name: PBS NewsHour
+    continent: North America
+    url: https://www.pbs.org/newshour/
+    allow_url_regex: '(?i)pbs\.org/newshour/(?:politics|nation|world|economy|science|health|education|arts|show)/.+'
+    deny_url_regex: '(?i)/(?:video/|live|watch|listen|podcasts?|topics/|tag/|author/|newsletter|search|about|contact|donate|support|press|jobs|careers|privacy|cookies|terms|sitemap)'
+
+
+
   # ======================
   # China (EN/CN)
   # ======================
@@ -1117,6 +1125,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
