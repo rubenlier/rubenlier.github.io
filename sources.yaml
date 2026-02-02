@@ -374,7 +374,7 @@ sources:
   - name: La Nación (Costa Rica)
     continent: Central America
     url: https://www.nacion.com/
-    allow_url_regex: '(?i)nacion\.com/(?:el-pais/|economia/|politica/|ciencia/|tecnologia/|mundo/|cultura/|opinion/).+'
+    allow_url_regex: '(?i)nacion\.com/.+'
     deny_url_regex: '(?i)/(?:video|videos|podcasts?|audio|tv|live|suscripciones?|perfil|autor|busqueda|tags?|especiales|newsletter|cookies|privacidad)'
   
 
@@ -869,6 +869,19 @@ sources:
     deny_url_regex: '(?i)/(opinion|video|videos|podcasts?|tv|live|events|press-releases|sponsored|privacy|cookies)'
 
 
+  - name: TIME
+    continent: North America
+    url: https://time.com/
+    allow_url_regex: '(?i)time\.com/.+'
+    deny_url_regex: '(?i)/(?:video|videos|podcasts?|audio|live|press-room|help|customer-care|subscribe|subscription|account|login|newsletter|newsletters|privacy|cookies|terms|about|contact|tag/|tags/|author/|search)'
+  
+  - name: The Atlantic
+    continent: North America
+    url: https://www.theatlantic.com/
+    allow_url_regex: '(?i)theatlantic\.com/.+'
+    deny_url_regex: '(?i)/(?:video/|videos/|podcasts?|audio|live|newsletters?|subscribe|membership|donate|privacy|cookies|terms|about|contact|tag/|tags/|author/|search|archive/)'
+
+
   # ======================
   # China (EN/CN)
   # ======================
@@ -981,6 +994,31 @@ sources:
     deny_url_regex: '(?i)/(videos|audio|podcast|explained|opinion|columns|privacy|cookies)'
 
 
+  - name: The Daily Star
+    continent: India
+    url: https://www.thedailystar.net/
+    allow_url_regex: '(?i)thedailystar\.net/.+'
+    deny_url_regex: '(?i)/(?:opinion|editorial|columns?|views?|letters?|sports|entertainment|arts?|lifestyle|travel|campus|youth|supplements?|features?|photo|gallery|video|videos|podcasts?|audio|live|webcast|e-paper|epaper|subscription|subscribe|privacy|cookies|about|contact|archive|tag/|tags?|author/|search)'
+
+  - name: Prothom Alo
+    continent: India
+    url: https://www.prothomalo.com/
+    allow_url_regex: '(?i)prothomalo\.com/.+'
+    deny_url_regex: '(?i)/(?:opinion|editorial|columns?|views?|sports|entertainment|lifestyle|travel|campus|youth|features?|special|supplement|photo|gallery|video|videos|podcasts?|audio|live|webcast|epaper|e-paper|subscription|subscribe|privacy|cookies|about|contact|archive|tag/|tags?|author/|search)'
+
+
+  - name: The Star
+    continent: Asia East
+    url: https://www.thestar.com.my/
+    allow_url_regex: '(?i)thestar\.com\.my/.+'
+    deny_url_regex: '(?i)/(?:opinion|editorial|column|letters?|sports|entertainment|lifestyle|travel|food|features?|photo|gallery|video|videos|podcasts?|audio|live|e-paper|epaper|subscription|subscribe|privacy|cookies|about|contact|archive|tag/|tags?|author/|search)'
+  
+  - name: Malaysiakini
+    continent: Asia East
+    url: https://www.malaysiakini.com/
+    allow_url_regex: '(?i)malaysiakini\.com/.+'
+    deny_url_regex: '(?i)/(?:opinion|columns?|commentary|letters?|sports|entertainment|lifestyle|features?|specials?|photo|gallery|video|videos|podcasts?|audio|live|subscribe|donate|membership|privacy|cookies|about|contact|archive|tag/|tags?|author/|search)'
+
 
   # ======================
   # Asia (EN/JP)
@@ -1079,6 +1117,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
