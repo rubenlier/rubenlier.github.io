@@ -368,6 +368,15 @@ sources:
     url: https://elpais.com/mexico/
     allow_url_regex: '(?i)elpais\.com/mexico/.+'
     deny_url_regex: '(?i)/(videos|audio|podcast|opinion|especiales|privacidad|cookies)'
+    
+    
+    
+  - name: La Nación (Costa Rica)
+    continent: Central America
+    url: https://www.nacion.com/
+    allow_url_regex: '(?i)nacion\.com/(?:el-pais/|economia/|politica/|ciencia/|tecnologia/|mundo/|cultura/|opinion/).+'
+    deny_url_regex: '(?i)/(?:video|videos|podcasts?|audio|tv|live|suscripciones?|perfil|autor|busqueda|tags?|especiales|newsletter|cookies|privacidad)'
+  
 
   # ======================
   # Latin America (ES/PR)
@@ -1070,6 +1079,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
