@@ -963,6 +963,9 @@ sources:
     deny_url_regex: '(?i)/(video|live|privacy|cookies|about|contact)'
     # Tencent’s news portal uses new.qq.com. :contentReference[oaicite:5]{index=5}
 
+
+    
+
   # ======================
   # India (EN/HN)
   # ======================
@@ -1031,6 +1034,19 @@ sources:
     url: https://www.malaysiakini.com/
     allow_url_regex: '(?i)malaysiakini\.com/.+'
     deny_url_regex: '(?i)/(?:opinion|columns?|commentary|letters?|sports|entertainment|lifestyle|features?|specials?|photo|gallery|video|videos|podcasts?|audio|live|subscribe|donate|membership|privacy|cookies|about|contact|archive|tag/|tags?|author/|search)'
+
+
+  - name: Taipei Times
+    continent: Asia East
+    url: https://www.taipeitimes.com/
+    allow_url_regex: '(?i)taipeitimes\.com/News/(?:taiwan|world|biz|editorials|feat|sports)/archives/\d{4}/\d{2}/\d{2}/.+'
+    deny_url_regex: '(?i)/(photo|gallery|advertisement|classifieds|rss|print|about|contact|privacy|cookies)'
+  
+  - name: United Daily News
+    continent: Asia East
+    url: https://udn.com/
+    allow_url_regex: '(?i)udn\.com/news/(?:story|browse)/.+'
+    deny_url_regex: '(?i)/(video|videos|podcast|audio|live|tv|photo|gallery|forum|member|login|search|rss|privacy|cookies)'
 
 
   # ======================
@@ -1130,6 +1146,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
