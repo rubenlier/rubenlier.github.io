@@ -218,6 +218,11 @@ sources:
     deny_url_regex: '(?i)/(video|audio)'
 
 
+  - name: Morgunblaðið
+    url: https://www.mbl.is/frettir
+    continent: Europe North
+    allow_url_regex: '(?i)mbl\.is/frettir/.+'
+    deny_url_regex: '(?i)/(video|audio)'
 
 
   # ======================
@@ -1125,6 +1130,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
