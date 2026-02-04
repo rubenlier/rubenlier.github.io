@@ -1039,13 +1039,13 @@ sources:
   - name: Taipei Times
     continent: Asia East
     url: https://www.taipeitimes.com/
-    allow_url_regex: '(?i)taipeitimes\.com/News/(?:taiwan|world|biz|editorials|feat|sports)/archives/\d{4}/\d{2}/\d{2}/.+'
+    allow_url_regex: '(?i)taipeitimes\.com/news/.+'
     deny_url_regex: '(?i)/(photo|gallery|advertisement|classifieds|rss|print|about|contact|privacy|cookies)'
   
   - name: United Daily News
     continent: Asia East
-    url: https://udn.com/
-    allow_url_regex: '(?i)udn\.com/news/(?:story|browse)/.+'
+    url: https://udn.com
+    allow_url_regex: '(?i)udn\.com/news/.+'
     deny_url_regex: '(?i)/(video|videos|podcast|audio|live|tv|photo|gallery|forum|member|login|search|rss|privacy|cookies)'
 
 
@@ -1146,6 +1146,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
