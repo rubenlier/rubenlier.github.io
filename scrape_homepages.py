@@ -47,7 +47,7 @@ def load_sources(path: str) -> List[SourceCfg]:
             SourceCfg(
                 name=s["name"],
                 url=s["url"],
-                source_continent=s.get("continent", "Unknown"),
+                source_continent = s.get("continent", "Unknown"),
                 allow_url_regex=s.get("allow_url_regex"),
                 deny_url_regex=s.get("deny_url_regex"),
             )
@@ -81,28 +81,7 @@ def is_probably_article_url(url: str) -> bool:
     return False
 
 
-# ✅ ROBUST, GENERIC FIX (no site-specific logic)
 def anchor_text(a: Tag) -> str:
-    """
-    Prefer headline-like elements inside <a> before falling back
-    to full anchor text. Prevents headline+lede concatenation.
-    """
-
-    # 1) Prefer nested headings
-    for tag in ("h1", "h2", "h3"):
-        h = a.find(tag)
-        if isinstance(h, Tag):
-            t = h.get_text(" ", strip=True)
-            if t:
-                return t
-
-    # 2) Prefer title-like attributes
-    for attr in ("title", "aria-label"):
-        t = a.get(attr)
-        if isinstance(t, str) and t.strip():
-            return t.strip()
-
-    # 3) Fallback: original behavior
     return a.get_text(" ", strip=True)
 
 
@@ -235,3 +214,120 @@ def extract_candidates(
     for it in items:
         it.pop("score", None)
     return items
+
+
+#def fetch(client: httpx.Client, url: str) -> Optional[str]:
+#    try:
+#        r = client.get(url)
+#        r.raise_for_status()
+#        ct = r.headers.get("content-type", "").lower()
+#        if "text/html" not in ct and "application/xhtml+xml" not in ct:
+#            return None
+#        return r.text
+#    except Exception:
+#        return None
+
+def fetch(client: httpx.Client, url: str) -> Optional[str]:
+    try:
+        r = client.get(url)
+        print("FETCH", url, "->", r.status_code, "final", str(r.url), "ct", r.headers.get("content-type",""))
+        r.raise_for_status()
+        ct = r.headers.get("content-type", "").lower()
+        if "text/html" not in ct and "application/xhtml+xml" not in ct:
+            return None
+        return r.text
+    except Exception as e:
+        print("FETCH FAIL", url, "->", repr(e))
+        return None
+
+
+
+
+
+def scrape_source(
+    client: httpx.Client, src: SourceCfg, max_items: int, sleep_s: float
+) -> List[Dict[str, Any]]:
+    html = fetch(client, src.url)
+    if html is None:
+        return []
+
+    items = extract_candidates(
+        html=html,
+        base_url=src.url,
+        allow=src.allow_url_regex,
+        deny=src.deny_url_regex,
+        max_items=max_items,
+    )
+
+    ts = datetime.now(timezone.utc).isoformat()
+    for it in items:
+        it["source_name"] = src.name
+        it["source_home"] = src.url
+        it["continent"] = src.source_continent
+        it["scraped_at_utc"] = ts
+
+    time.sleep(sleep_s)
+    return items
+
+
+def write_jsonl(path: str, rows: List[Dict[str, Any]]) -> None:
+    dir_ = os.path.dirname(path)
+    if dir_:
+        os.makedirs(dir_, exist_ok=True)
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
+        for r in rows:
+            f.write(json.dumps(r, ensure_ascii=False) + "\n")
+
+
+
+def write_json(path: str, obj: Any) -> None:
+    dir_ = os.path.dirname(path)
+    if dir_:
+        os.makedirs(dir_, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(obj, f, ensure_ascii=False)
+
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--sources", default="sources.yaml")
+    ap.add_argument("--out", default="headlines_latest.jsonl")
+    ap.add_argument("--per_site", type=int, default=25)
+    ap.add_argument("--sleep", type=float, default=1.0)
+    args = ap.parse_args()
+
+    sources = load_sources(args.sources)
+    if not sources:
+        print("No sources found in sources.yaml", file=sys.stderr)
+        return 2
+
+    headers = {
+        "User-Agent": "Mozilla/5.0 (compatible; LocalHeadlineBot/0.1; +https://rubenlier.nl)",
+        "Accept": "text/html,application/xhtml+xml",
+        "Accept-Language": "en-US,en;q=0.8,nl;q=0.7",
+    }
+
+    rows: List[Dict[str, Any]] = []
+    with httpx.Client(timeout=DEFAULT_TIMEOUT, headers=headers, follow_redirects=True) as client:
+        for src in sources:
+            items = scrape_source(client, src, max_items=args.per_site, sleep_s=args.sleep)
+            rows.extend(items)
+
+    seen_url = set()
+    deduped: List[Dict[str, Any]] = []
+    for r in rows:
+        u = normalize_url(r["url"])
+        if u in seen_url:
+            continue
+        seen_url.add(u)
+        r["url"] = u
+        deduped.append(r)
+
+    write_jsonl(args.out, deduped)
+    print(f"Wrote {len(deduped)} headlines to {args.out} (JSONL: 1 object per line)")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
