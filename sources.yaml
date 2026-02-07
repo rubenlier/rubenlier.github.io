@@ -430,6 +430,20 @@ sources:
     allow_url_regex: '(?i)oglobo\.globo\.com/(mundo|politica|economia)/.+'
     deny_url_regex: '(?i)/(opiniao|blogs|video|podcast)'
 
+
+  - name: O Estado de S. Paulo
+    continent: South America
+    url: https://www.estadao.com.br/
+    allow_url_regex: '(?i)estadao\.com\.br/.+'
+    deny_url_regex: '(?i)/(video|videos|podcast|audio|tv|live|esportes|cultura|paladar|emais|politica/colunistas|blogs|opiniao|privacy|cookies|about|contato)'
+
+  - name: Estado de Minas
+    continent: South America
+    url: https://www.em.com.br/
+    allow_url_regex: '(?i)em\.com\.br/.+'
+    deny_url_regex: '(?i)/(video|videos|podcast|audio|tv|live|esportes|lazer|cultura|colunistas|blogs|opiniao|privacy|cookies|about|contato)'
+
+
   - name: El Comercio Perú
     continent: South America
     url: https://elcomercio.pe
@@ -1193,6 +1207,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
