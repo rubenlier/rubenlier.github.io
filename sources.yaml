@@ -1032,79 +1032,79 @@ sources:
   # ======================
 
   - name: Times of India
-    continent: India
+    continent: South Asia
     url: https://timesofindia.indiatimes.com
     allow_url_regex: '(?i)timesofindia\.indiatimes\.com/.+/articleshow/'
     deny_url_regex: '(?i)/(videos|live|photo|privacy|cookies)'
 
   - name: Dainik Bhaskar
     url: https://www.bhaskar.com
-    continent: India
+    continent: South Asia
     allow_url_regex: "/national/|/international/|/business/|/politics/"
     deny_url_regex: '(?i)/(videos|live|photo|privacy|cookies)'
 
 
   - name: Dainik Jagran
     url: https://www.jagran.com
-    continent: India
+    continent: South Asia
     allow_url_regex: "/national/|/world/|/politics/|/business/"
     deny_url_regex: '(?i)/(videos|live|photo|privacy|cookies)'
 
 
   - name: The Hindu
     url: https://www.thehindu.com
-    continent: India
+    continent: South Asia
     allow_url_regex: "/news/|/opinion/|/business/|/international/"
     deny_url_regex: '(?i)/(video|videos|player|live|privacy|cookies|about|contact)'
 
   - name: Hindustan Times
     url: https://www.hindustantimes.com
-    continent: India
+    continent: South Asia
     allow_url_regex: "/india-news/|/world-news/|/business/|/politics/"
     deny_url_regex: '(?i)/(video|videos|player|live|privacy|cookies|about|contact)'
 
 
   - name: The Indian Express
     url: https://indianexpress.com
-    continent: India
+    continent: South Asia
     allow_url_regex: '(?i)indianexpress\.com/(article|world|india|politics|business)/.+'
     deny_url_regex: '(?i)/(videos|audio|podcast|explained|opinion|columns|privacy|cookies)'
 
 
   - name: The Daily Star
-    continent: India
+    continent: South Asia
     url: https://www.thedailystar.net/
     allow_url_regex: '(?i)thedailystar\.net/.+'
     deny_url_regex: '(?i)/(?:opinion|editorial|columns?|views?|letters?|sports|entertainment|arts?|lifestyle|travel|campus|youth|supplements?|features?|photo|gallery|video|videos|podcasts?|audio|live|webcast|e-paper|epaper|subscription|subscribe|privacy|cookies|about|contact|archive|tag/|tags?|author/|search)'
 
   - name: Prothom Alo
-    continent: India
+    continent: South Asia
     url: https://www.prothomalo.com/
     allow_url_regex: '(?i)prothomalo\.com/.+'
     deny_url_regex: '(?i)/(?:opinion|editorial|columns?|views?|sports|entertainment|lifestyle|travel|campus|youth|features?|special|supplement|photo|gallery|video|videos|podcasts?|audio|live|webcast|epaper|e-paper|subscription|subscribe|privacy|cookies|about|contact|archive|tag/|tags?|author/|search)'
 
 
   - name: The Star
-    continent: Asia East
+    continent: East Asia
     url: https://www.thestar.com.my/
     allow_url_regex: '(?i)thestar\.com\.my/.+'
     deny_url_regex: '(?i)/(?:opinion|editorial|column|letters?|sports|entertainment|lifestyle|travel|food|features?|photo|gallery|video|videos|podcasts?|audio|live|e-paper|epaper|subscription|subscribe|privacy|cookies|about|contact|archive|tag/|tags?|author/|search)'
   
   - name: Malaysiakini
-    continent: Asia East
+    continent: East Asia
     url: https://www.malaysiakini.com/
     allow_url_regex: '(?i)malaysiakini\.com/.+'
     deny_url_regex: '(?i)/(?:opinion|columns?|commentary|letters?|sports|entertainment|lifestyle|features?|specials?|photo|gallery|video|videos|podcasts?|audio|live|subscribe|donate|membership|privacy|cookies|about|contact|archive|tag/|tags?|author/|search)'
 
 
   - name: Taipei Times
-    continent: Asia East
+    continent: East Asia
     url: https://www.taipeitimes.com/
     allow_url_regex: '(?i)taipeitimes\.com/news/.+'
     deny_url_regex: '(?i)/(photo|gallery|advertisement|classifieds|rss|print|about|contact|privacy|cookies)'
   
   - name: United Daily News
-    continent: Asia East
+    continent: East Asia
     url: https://udn.com
     allow_url_regex: '(?i)udn\.com/news/.+'
     deny_url_regex: '(?i)/(video|videos|podcast|audio|live|tv|photo|gallery|forum|member|login|search|rss|privacy|cookies)'
@@ -1115,46 +1115,46 @@ sources:
   # ======================
 
   - name: Nikkei Asia
-    continent: Asia East
+    continent: East Asia
     url: https://asia.nikkei.com
     allow_url_regex: '(?i)asia\.nikkei\.com/.+'
     deny_url_regex: '(?i)/(video|podcast|live|privacy|cookies)'
     
   - name: NHK World
-    continent: Asia East
+    continent: East Asia
     url: https://www3.nhk.or.jp/nhkworld/en/news/
     allow_url_regex: '(?i)nhk\.or\.jp/.+'
     deny_url_regex: '(?i)/(video|program|shows|tv|radio|audio|live|special|features|privacy|cookies)'
 
   - name: Today Online
-    continent: Asia East
+    continent: East Asia
     url: https://www.todayonline.com
     allow_url_regex: '(?i)todayonline\.com/.+'
     deny_url_regex: '(?i)/(video|privacy|cookies)'
   
 
   - name: Channel NewsAsia
-    continent: Asia East
+    continent: East Asia
     url: https://www.channelnewsasia.com
     allow_url_regex: '(?i)channelnewsasia\.com/.+'
     deny_url_regex: '(?i)/(video|live|privacy|cookies)'
 
   - name: The Japan Times
-    continent: Asia East
+    continent: East Asia
     url: https://www.japantimes.co.jp
     allow_url_regex: '(?i)japantimes\.co\.jp/news/\d{4}/\d{2}/\d{2}/'
     deny_url_regex: '(?i)/(video|podcast|privacy|cookies)'
 
 
   - name: The Mainichi
-    continent: Asia East
+    continent: East Asia
     url: https://mainichi.jp/english
     allow_url_regex: '(?i)mainichi\.jp/english/.+'
     deny_url_regex: '(?i)/(video|privacy|cookies)'
 
 
   - name: The Korea Herald
-    continent: Asia East
+    continent: East Asia
     url: https://www.koreaherald.com
     allow_url_regex: '(?i)^https?://(www\.)?koreaherald\.com/article/\d+$'
     deny_url_regex: '(?i)/(video|podcast|gallery|opinion|column|letters|privacy|cookies)'
@@ -1162,14 +1162,14 @@ sources:
     
     
   - name: Taipei Times
-    continent: Asia East
+    continent: East Asia
     url: https://www.taipeitimes.com
     allow_url_regex: '(?i)^https?://(www\.)?taipeitimes\.com/News/[a-zA-Z]+/archives/\d{4}/\d{2}/\d{2}/\d+'
     deny_url_regex: '(?i)/(opinion|editorials|letters|classifieds|privacy|cookies)'
     
     
   - name: Philippine Daily Inquirer
-    continent: Asia East
+    continent: East Asia
     url: https://newsinfo.inquirer.net
     allow_url_regex: '(?i)newsinfo\.inquirer\.net/\d+/.+'
     deny_url_regex: '(?i)/(video|gallery|opinion|commentary|editorial)'
@@ -1177,7 +1177,7 @@ sources:
 
   - name: Asahi Shimbun (English)
     url: https://www.asahi.com/ajw/
-    continent: Asia East
+    continent: East Asia
     allow_url_regex: '(?i)asahi\.com/ajw/articles/'
     deny_url_regex: '(?i)/(video|podcast|gallery|privacy|cookies)'
 
@@ -1190,23 +1190,24 @@ sources:
 
   - name: Bangkok Post
     url: https://www.bangkokpost.com
-    continent: Asia East
+    continent: East Asia
     allow_url_regex: '(?i)bangkokpost\.com/(world|thailand|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
 
 
   - name: VNExpress International
     url: https://e.vnexpress.net
-    continent: Asia East
+    continent: East Asia
     allow_url_regex: '(?i)e\.vnexpress\.net/(news|world|business|economy|politics)/'
     deny_url_regex: '(?i)/(video|gallery|podcast|privacy|cookies)'
 
 
   - name: The Straits Times
     url: https://www.straitstimes.com
-    continent: Asia East
+    continent: East Asia
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
