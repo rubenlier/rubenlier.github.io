@@ -95,28 +95,43 @@ jobs:
           import json, os
           from datetime import datetime, timezone
 
+          # --- load new run ---
           with open("output_new.json","r",encoding="utf-8") as f:
               new_run = json.load(f)
-
           if not isinstance(new_run, dict):
               raise SystemExit(f"API response is not a dict: {type(new_run)}")
 
           now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
           new_run.setdefault("created_at_utc", now)
 
-          # 1) Latest-only file (overwrite each run)
+          # --- load existing history (output.json) if present ---
+          existing = []
+          if os.path.exists("output.json"):
+              try:
+                  with open("output.json","r",encoding="utf-8") as f:
+                      parsed = json.load(f)
+                  existing = parsed if isinstance(parsed, list) else [parsed]
+              except Exception:
+                  # if file exists but is corrupted/non-json, don't brick the workflow
+                  existing = []
+
+          # --- append + write history ---
+          existing.append(new_run)
+          with open("output.json","w",encoding="utf-8") as f:
+              json.dump(existing, f, ensure_ascii=False, indent=2)
+
+          # --- latest-only file ---
           with open("output_latest.json","w",encoding="utf-8") as f:
               json.dump([new_run], f, ensure_ascii=False, indent=2)
 
-
-          # Basic validations (same spirit as before)
+          # --- basic validations ---
           clusters = new_run.get("clusters")
           assert isinstance(clusters, list) and len(clusters) > 0, "No clusters in new run"
 
           ip = new_run.get("input_path")
           assert isinstance(ip, str) and ip.startswith("https://raw.githubusercontent.com/"), f"bad input_path: {ip}"
 
-          print("OK wrote output_latest.json and appended output.json. total runs:", len(existing), "clusters in new run:", len(clusters))
+          print("OK wrote output_latest.json and output.json. total runs:", len(existing), "clusters in new run:", len(clusters))
           PY
 
       - name: Cleanup temp files
