@@ -704,6 +704,22 @@ const REGION_COLORS = {
 };
 
 
+
+
+// Fixed, complete legend order (used for legend + per-cluster bars)
+const REGION_ORDER = [
+  "Europe North",
+  "Europe South",
+  "Europe East",
+  "North America",
+  "South America",
+  "Middle East",
+  "Africa",
+  "Oceania",
+  "South Asia",
+  "East Asia",
+  "China"
+];
 // Fallback color if you ever add a new label without updating REGION_COLORS
 function colorForRegion(name){
   return REGION_COLORS[name] || "#111";
@@ -719,6 +735,22 @@ function uniqueStable(arr){
     out.push(x);
   }
   return out;
+}
+
+function sortRegionsLikeLegend(regions){
+  const regs = uniqueStable(regions);
+
+  const rank = new Map(REGION_ORDER.map((r, i) => [r, i]));
+  const known = [];
+  const unknown = [];
+
+  for (const r of regs){
+    if (rank.has(r)) known.push(r);
+    else unknown.push(r); // preserve stable order for unexpected labels
+  }
+
+  known.sort((a, b) => rank.get(a) - rank.get(b));
+  return known.concat(unknown);
 }
 
 function renderRegionLegend(regions){
@@ -743,9 +775,9 @@ const regs = uniqueStable(regions);
   wrap.style.display = "block";
 }
 
-// Build a rainbow bar from an ordered list of regions
+// Build a rainbow bar from regions (sorted to match REGION_ORDER / legend)
 function renderRegionBar(regions){
-  const regs = uniqueStable(regions);
+  const regs = sortRegionsLikeLegend(regions);
   if (!regs.length) return "";
 
   const n = regs.length;
@@ -763,6 +795,7 @@ function renderRegionBar(regions){
     </div>
   `;
 }
+
 
 function escapeRegExp(s) {
             return (s || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -831,25 +864,7 @@ function escapeRegExp(s) {
 
             const top = data.clusters.slice(0, 7);
 
-            
-
-// Fixed, complete legend (all regions, intentional order)
-const REGION_ORDER = [
-  "Europe North",
-  "Europe South",
-  "Europe East",
-  "North America",
-  "South America",
-  "Middle East",
-  "Africa",
-  "Oceania",
-  "South Asia",
-  "East Asia",
-  "China"
-];
-
 renderRegionLegend(REGION_ORDER);
-
 // Compute last update time from scraped_at_utc (max over clusters)
             const scrapedTimes = data.clusters
             .map(c => c?.central_article?.scraped_at_utc)
