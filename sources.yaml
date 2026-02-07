@@ -193,6 +193,13 @@ sources:
     allow_url_regex: '(?i)aftenposten\.no/.+/i/'
     deny_url_regex: '(?i)/(video|podcast)'
 
+  - name: Dagbladet
+    continent: Europe North
+    url: https://www.dagbladet.no/
+    allow_url_regex: '(?i)dagbladet\.no/.+'
+    deny_url_regex: '(?i)/(video|videos|tv|podcast|audio|live|sport|kultur|meninger|privacy|cookies|about)'
+
+
   - name: SVT Nyheter
     url: https://www.svt.se/nyheter
     continent: Europe North
@@ -543,7 +550,13 @@ sources:
     url: https://www.haaretz.com
     allow_url_regex: '(?i)haaretz\.com/.+'
     deny_url_regex: '(?i)/(video|podcast|privacy|cookies)'
-
+  
+  - name: The Jerusalem Post
+    continent: Middle East
+    url: https://www.jpost.com/
+    allow_url_regex: '(?i)jpost\.com/.+'
+    deny_url_regex: '(?i)/(video|videos|podcast|audio|live|opinion|blogs|privacy|cookies|about)'
+  
 
   - name: Times of Israel
     continent: Middle East
@@ -964,6 +977,40 @@ sources:
     # Tencent’s news portal uses new.qq.com. :contentReference[oaicite:5]{index=5}
 
 
+  - name: Singtao News Network
+    continent: China
+    url: https://www.singtaousa.com/
+    allow_url_regex: '(?i)singtao.*\.com/.+'
+    deny_url_regex: '(?i)/(video|videos|podcast|audio|live|gallery|photo|privacy|cookies|about|contact)'
+  
+  - name: Yazhou Zhoukan (Asia Weekly)
+    continent: China
+    url: https://www.yzzk.com/
+    allow_url_regex: '(?i)yzzk\.com/.+'
+    deny_url_regex: '(?i)/(video|gallery|photo|privacy|cookies|about|contact)'
+  
+
+  - name: Sohu News
+    continent: China
+    url: https://news.sohu.com/
+    allow_url_regex: '(?i)sohu\.com/.+'
+    deny_url_regex: '(?i)/(video|videos|live|photo|gallery|ent|sports|auto|health|fashion|tv|privacy|cookies)'
+  
+  - name: STNN (Sing Tao News Network – HK)
+    continent: China
+    url: https://www.stnn.cc/
+    allow_url_regex: '(?i)stnn\.cc/.+'
+    deny_url_regex: '(?i)/(video|videos|live|photo|gallery|privacy|cookies|about)'
+  
+  - name: Guangming Daily
+    continent: China
+    url: https://www.gmw.cn/
+    allow_url_regex: '(?i)gmw\.cn/.+'
+    deny_url_regex: '(?i)/(video|videos|photo|gallery|special|topic|theory|edu|health|auto|culture|privacy|cookies)'
+  
+
+
+
     
 
   # ======================
@@ -1146,6 +1193,7 @@ sources:
     continent: Asia East
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
