@@ -1104,18 +1104,13 @@ sources:
     deny_url_regex: '(?i)/(?:opinion|columns?|commentary|letters?|sports|entertainment|lifestyle|features?|specials?|photo|gallery|video|videos|podcasts?|audio|live|subscribe|donate|membership|privacy|cookies|about|contact|archive|tag/|tags?|author/|search)'
 
 
-  - name: Taipei Times
+  - name: Central News Agency (CNA)
     continent: East Asia
-    url: https://www.taipeitimes.com/
-    allow_url_regex: '(?i)taipeitimes\.com/news/.+'
-    deny_url_regex: '(?i)/(photo|gallery|advertisement|classifieds|rss|print|about|contact|privacy|cookies)'
+    url: https://www.cna.com.tw/
+    language: zh
+    allow_url_regex: '(?i)cna\.com\.tw/news/(aopl|aipl|aopn|aopl|aopl|world|int)/.+'
+    deny_url_regex: '(?i)/(photo|video|gallery|live|topic|tag|author|search|about|privacy|terms)'
   
-  - name: United Daily News
-    continent: East Asia
-    url: https://udn.com
-    allow_url_regex: '(?i)udn\.com/news/.+'
-    deny_url_regex: '(?i)/(video|videos|podcast|audio|live|tv|photo|gallery|forum|member|login|search|rss|privacy|cookies)'
-
 
   # ======================
   # Asia (EN/JP)
@@ -1166,13 +1161,6 @@ sources:
     allow_url_regex: '(?i)^https?://(www\.)?koreaherald\.com/article/\d+$'
     deny_url_regex: '(?i)/(video|podcast|gallery|opinion|column|letters|privacy|cookies)'
 
-    
-    
-  - name: Taipei Times
-    continent: East Asia
-    url: https://www.taipeitimes.com
-    allow_url_regex: '(?i)^https?://(www\.)?taipeitimes\.com/News/[a-zA-Z]+/archives/\d{4}/\d{2}/\d{2}/\d+'
-    deny_url_regex: '(?i)/(opinion|editorials|letters|classifieds|privacy|cookies)'
     
     
   - name: Philippine Daily Inquirer
