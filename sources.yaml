@@ -1070,6 +1070,13 @@ sources:
     allow_url_regex: '(?i)indianexpress\.com/(article|world|india|politics|business)/.+'
     deny_url_regex: '(?i)/(videos|audio|podcast|explained|opinion|columns|privacy|cookies)'
 
+  - name: Anandabazar Patrika
+    continent: South Asia
+    url: https://www.anandabazar.com/
+    allow_url_regex: '(?i)anandabazar\.com/.+'
+    deny_url_regex: '(?i)/(video|videos|gallery|photo|podcast|audio|live|sport|entertainment|lifestyle|privacy|cookies|about|contact)'
+  
+
 
   - name: The Daily Star
     continent: South Asia
@@ -1207,6 +1214,7 @@ sources:
     continent: East Asia
     allow_url_regex: '(?i)straitstimes\.com/(asia|singapore|world|business|politics)/'
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
+
 
 
 
