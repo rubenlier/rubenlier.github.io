@@ -683,20 +683,20 @@
 
 // --- Region color mapping ---
 const REGION_COLORS = {
-  "Europe North":  "#d32f2f", // red
-  "Europe South":  "#ec407a", // rose / pink
-  "Europe East":   "#ab47bc", // purple
+  "East Asia":        "#f1c40f", // yellow
+  "China":            "#e67e22", // orange
+  "South Asia":       "#8e5a2b", // brown
 
-  "North America": "#7e57c2", // violet (still moving cooler)
-  "South America": "#5c6bc0", // indigo
+  "Middle East":      "#1e7f43", // dark green
+  "Africa":           "#2ecc71", // light green
 
-  "Middle East":   "#1e88e5", // blue
-  "Africa":        "#29b6f6", // sea blue / cyan
-  "Oceania":       "#26a69a", // teal
+  "Oceania":          "#1abc9c", // turquoise
+  "Europe South":     "#3498db", // sea blue
+  "Europe East":      "#2c3e90", // dark blue
 
-  "South Asia":    "#43a047", // green
-  "East Asia":     "#f9a825", // yellow-orange
-  "China":         "#8d6e63"  // brown (warm end, no gray)
+  "Europe North":     "#8e44ad", // purple
+  "North America":    "#e84393", // pink
+  "South America":    "#b71c1c"  // dark red
 };
 
 
@@ -704,17 +704,17 @@ const REGION_COLORS = {
 
 // Fixed, complete legend order (used for legend + per-cluster bars)
 const REGION_ORDER = [
-  "East Asia",
-  "China",
-  "South Asia",
-  "Middle East",
-  "Africa",
-  "Europe South",
-  "Europe East",
-  "Europe North",
-  "North America",
-  "South America",
-  "Oceania"
+  "East Asia",        // yellow
+  "China",            // orange
+  "South Asia",       // brown
+  "Middle East",      // dark green
+  "Africa",           // light green
+  "Oceania",          // turquoise
+  "Europe South",     // sea blue
+  "Europe East",      // dark blue
+  "Europe North",     // purple
+  "North America",    // pink
+  "South America"     // dark red
 ];
 // Fallback color if you ever add a new label without updating REGION_COLORS
 function colorForRegion(name){
