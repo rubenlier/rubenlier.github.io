@@ -3,6 +3,7 @@ name: Daily homepage scrape
 on:
   schedule:
     - cron: "55 6 * * *"  # 08:45 Amsterdam (CET, UTC+1)
+    - cron: "55 18 * * *"  # 08:45 Amsterdam (CET, UTC+1)
   workflow_dispatch:
 
 permissions:
@@ -60,6 +61,7 @@ jobs:
           git add headlines_latest.jsonl
           git diff --cached --quiet || git commit -m "Update headlines_latest"
           git push
+
 
 
 
