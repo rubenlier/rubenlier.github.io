@@ -807,7 +807,7 @@ function escapeRegExp(s) {
           listEl.innerHTML = "";
 
           try {
-            const res = await fetch("output.json", { cache: "no-store" });
+            const res = await fetch("output_latest.json", { cache: "no-store" });
             if (!res.ok) {
               throw new Error(`Could not load output.json (HTTP ${res.status})`);
             }
