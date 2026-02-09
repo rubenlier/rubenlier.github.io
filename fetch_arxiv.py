@@ -1,151 +1,81 @@
-#!/usr/bin/env python3
-
+import os
 import time
 import random
-import sys
 import requests
-import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
-from collections import defaultdict
 
 ARXIV_API_URL = "https://export.arxiv.org/api/query"
-HEADERS = {
-    "User-Agent": "rubenlier.nl arXiv-scraper/1.0 (contact: ruben.lier@email.com)"
-}
 
+# arXiv wants you to identify your client; set this in workflow env too if you like.
+DEFAULT_UA = "rubenlier.nl arXiv-scraper/1.0 (contact: ruben.lier@email.com)"
+USER_AGENT = os.getenv("ARXIV_USER_AGENT", DEFAULT_UA)
 
-def _iso_to_pretty_date(iso: str) -> str:
-    """Convert arXiv Atom ISO datetime to '19 August 2025'."""
-    if not iso:
-        return "Unknown"
-    try:
-        dt = datetime.fromisoformat(iso.replace("Z", "+00:00"))
-        return dt.strftime("%d %B %Y").lstrip("0")
-    except Exception:
-        return "Unknown"
+def _sleep_with_jitter(seconds: float) -> None:
+    time.sleep(seconds + random.uniform(0.0, 0.8))
 
+def fetch_arxiv_papers_api(
+    author: str = "Ruben Lier",
+    start: int = 0,
+    max_results: int = 100,
+    max_attempts: int = 8,
+):
+    """
+    Fetch arXiv Atom feed for an author with retries, backoff, and polite headers.
 
-def fetch_arxiv_papers_api(author: str = "Ruben Lier", max_results: int = 100):
+    - Retries on: timeouts, 429, 5xx
+    - Respects Retry-After when present
+    - Uses separate connect/read timeouts to avoid 30s read stalls killing the job
+    """
     params = {
         "search_query": f'au:"{author}"',
-        "start": 0,
+        "start": start,
         "max_results": max_results,
-        "sortBy": "submittedDate",
-        "sortOrder": "descending",
     }
 
-    # --- fetch arXiv feed with retries ---
-    for i in range(6):
-        r = requests.get(
-            ARXIV_API_URL,
-            params=params,
-            headers=HEADERS,
-            timeout=30,
-        )
+    session = requests.Session()
+    session.headers.update({
+        "User-Agent": USER_AGENT,
+        "Accept": "application/atom+xml, text/xml;q=0.9, */*;q=0.1",
+    })
 
-        if r.status_code == 200:
-            xml_text = r.text
-            break
+    # (connect timeout, read timeout)
+    timeout = (10, 90)
 
-        if r.status_code not in (429, 500, 502, 503, 504):
-            r.raise_for_status()
+    base_sleep = 3.0  # arXiv API etiquette when making multiple requests
 
-        time.sleep(min(60, 2**i) + random.random())
-    else:
-        raise RuntimeError(f"arXiv API failed after retries (HTTP {r.status_code})")
+    last_exc = None
+    for attempt in range(1, max_attempts + 1):
+        try:
+            resp = session.get(ARXIV_API_URL, params=params, timeout=timeout)
+            status = resp.status_code
 
-    root = ET.fromstring(xml_text)
-    ns = {"atom": "http://www.w3.org/2005/Atom"}
+            # Success
+            if status == 200 and "<entry" in resp.text:
+                return resp.text  # return raw Atom XML (parse later)
 
-    papers = []
+            # Throttling or transient server errors
+            if status in (429, 500, 502, 503, 504):
+                retry_after = resp.headers.get("Retry-After")
+                if retry_after and retry_after.isdigit():
+                    sleep_s = float(retry_after)
+                else:
+                    # exponential backoff capped
+                    sleep_s = min(120.0, base_sleep * (2 ** (attempt - 1)))
+                _sleep_with_jitter(sleep_s)
+                continue
 
-    for entry in root.findall("atom:entry", ns):
-        title = (
-            entry.findtext("atom:title", default="", namespaces=ns)
-            .strip()
-            .replace("\n", " ")
-        )
+            # Other non-retriable errors
+            resp.raise_for_status()
 
-        published_iso = entry.findtext("atom:published", default="", namespaces=ns) or ""
-        year = published_iso[:4] if published_iso else "????"
-        submission_date = _iso_to_pretty_date(published_iso)
+            # If 200 but no entries: still return text so you can debug / handle "no papers" gracefully
+            return resp.text
 
-        authors = []
-        for a in entry.findall("atom:author", ns):
-            name = (a.findtext("atom:name", default="", namespaces=ns) or "").strip()
-            if name:
-                authors.append(name)
-
-        link_abs = ""
-        for link in entry.findall("atom:link", ns):
-            if link.attrib.get("rel") == "alternate":
-                link_abs = (link.attrib.get("href", "") or "").strip()
-                break
-        if not link_abs:
-            link_abs = (entry.findtext("atom:id", default="", namespaces=ns) or "").strip()
-
-        if not title or not link_abs:
+        except (requests.exceptions.ReadTimeout,
+                requests.exceptions.ConnectTimeout,
+                requests.exceptions.ConnectionError) as e:
+            last_exc = e
+            sleep_s = min(120.0, base_sleep * (2 ** (attempt - 1)))
+            _sleep_with_jitter(sleep_s)
             continue
 
-        papers.append(
-            {
-                "title": title,
-                "url": link_abs,
-                "link": link_abs,
-                "authors": authors,
-                "submission_date": submission_date,
-                "year": year,
-            }
-        )
-
-    return papers
-
-
-def generate_html(papers):
-    papers_by_year = defaultdict(list)
-    for p in papers:
-        papers_by_year[p["year"]].append(p)
-
-    sorted_years = sorted(papers_by_year.keys(), reverse=True)
-    last_updated = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-
-    html_content = f'<p><em>Last updated: {last_updated} (UTC)</em></p>\n'
-
-    for year in sorted_years:
-        html_content += (
-            f'<h2 style="margin-top:20px;'
-            f'border-bottom:2px solid #333;'
-            f'padding-bottom:5px;">{year}</h2>\n'
-        )
-
-        for paper in papers_by_year[year]:
-            authors_formatted = ", ".join(
-                f"<strong>{name}</strong>"
-                if name.strip().lower() == "ruben lier"
-                else name
-                for name in paper["authors"]
-            )
-
-            html_content += f"""
-<div class="paper">
-  <h3><a href="{paper['link']}" target="_blank" rel="noopener">{paper['title']}</a></h3>
-  <p><strong>Authors:</strong> {authors_formatted}</p>
-  <p><strong>Originally submitted:</strong> {paper['submission_date']}</p>
-</div>
-<hr>
-"""
-
-    with open("paper.html", "w", encoding="utf-8") as f:
-        f.write(html_content.strip())
-
-    print("✅ Generated paper.html snippet successfully!")
-
-
-if __name__ == "__main__":
-    papers = fetch_arxiv_papers_api()
-
-    if not papers:
-        print("❌ No papers fetched from arXiv API; refusing to overwrite paper.html.")
-        sys.exit(1)
-
-    generate_html(papers)
+    # Exhausted retries
+    raise RuntimeError(f"Failed to fetch arXiv after {max_attempts} attempts") from last_exc
