@@ -94,10 +94,27 @@ jobs:
 
       - name: Run script to fetch arXiv papers
         env:
-          # Optional: provide UA to your Python script if you want to use it there too
           ARXIV_USER_AGENT: "rubenlier.nl arXiv-scraper/1.0 (contact: ruben.lier@email.com)"
         run: |
           python fetch_arxiv.py
+
+      - name: Touch paper.html (force visible last-updated stamp)
+        run: |
+          set -euo pipefail
+          TS="$(TZ=Europe/Amsterdam date '+%Y-%m-%d %H:%M (Amsterdam)')"
+
+          # Keep a single visible line at the top of paper.html.
+          # If it's already there, replace it; otherwise prepend it.
+          if grep -q 'id="preprints-last-updated"' paper.html; then
+            perl -0777 -i -pe 's#<div id="preprints-last-updated">.*?</div>#<div id="preprints-last-updated"><em>Last updated: '"$TS"'</em></div>#s' paper.html
+          else
+            tmp="$(mktemp)"
+            {
+              echo '<div id="preprints-last-updated"><em>Last updated: '"$TS"'</em></div>'
+              cat paper.html
+            } > "$tmp"
+            mv "$tmp" paper.html
+          fi
 
       - name: Commit and push if updated
         run: |
