@@ -1,1 +1,132 @@
+name: Clustercontent
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 23 * * *"
+
+
+
+permissions:
+  contents: write
+
+jobs:
+  cluster:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Ensure input exists
+        run: |
+          ls -lah
+          test -f headlines_latest.jsonl
+
+      - name: Run clustering via Cloud Run (retry twice on failure)
+        env:
+          URL: https://newscluster-api-416156146603.europe-west4.run.app/clusters/top_full
+          SECRET: ${{ secrets.CRON_SECRET }}
+          OWNER: ${{ github.repository_owner }}
+          REPO: ${{ github.event.repository.name }}
+        run: |
+          set -euo pipefail
+          echo "Calling: $URL"
+
+          FILE="headlines_latest.jsonl"
+          BRANCH="master"
+
+          RAW_URL="https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/${FILE}?nocache=$(date +%s)"
+          echo "RAW_URL: $RAW_URL"
+
+          # Build request JSON directly in bash
+          REQ='{"jsonl_url":"'"$RAW_URL"'","top_k":10}'
+
+          # Retry logic: total attempts = 5 (initial + 4 retries)
+          attempt=1
+          max_attempts=3
+
+          while true; do
+            # capture HTTP code + body (also survive transient curl failures)
+            http_code=$(curl -sS -o output_new.json -w "%{http_code}" -X POST "$URL" \
+              -H "Content-Type: application/json; charset=utf-8" \
+              -H "X-CRON-SECRET: $SECRET" \
+              --data-binary "$REQ" || echo "000")
+
+            echo "Attempt $attempt/$max_attempts - HTTP: $http_code"
+            echo "First 400 chars of response:"
+            head -c 400 output_new.json 2>/dev/null || true
+            echo
+
+            # Success
+            if [ "$http_code" = "200" ]; then
+              break
+            fi
+
+            # Retry-worthy conditions:
+            # 000 = curl/network error
+            # 409 = lock already running
+            # 429 = cooldown active
+            # 500/502/503/504 = transient server errors
+            if [ "$http_code" = "000" ] || \
+               [ "$http_code" = "409" ] || \
+               [ "$http_code" = "429" ] || \
+               [ "$http_code" = "500" ] || \
+               [ "$http_code" = "502" ] || \
+               [ "$http_code" = "503" ] || \
+               [ "$http_code" = "504" ]; then
+
+              if [ "$attempt" -ge "$max_attempts" ]; then
+                echo "Failed after $attempt attempts."
+                exit 1
+              fi
+
+              sleep $((attempt * 15))
+              attempt=$((attempt + 1))
+              continue
+            fi
+
+            # Any other non-200 code: fail immediately
+            exit 1
+          done
+
+                    # Write newest run to output_content.json
+          python - << 'PY'
+          import json
+          from datetime import datetime, timezone
+          
+          with open("output_new.json","r",encoding="utf-8") as f:
+              new_run = json.load(f)
+          if not isinstance(new_run, dict):
+              raise SystemExit(f"API response is not a dict: {type(new_run)}")
+          
+          now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+          new_run.setdefault("created_at_utc", now)
+          
+          clusters = new_run.get("clusters")
+          assert isinstance(clusters, list) and len(clusters) > 0, "No clusters in new run"
+          
+          with open("output_content.json","w",encoding="utf-8") as f:
+              json.dump([new_run], f, ensure_ascii=False, indent=2)
+          
+          print("OK wrote output_content.json. clusters in new run:", len(clusters))
+          PY
+
+      - name: Cleanup temp files
+        run: rm -f output_new.json
+
+      - name: Commit output
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output_content.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Update world news clusters"
+          git push
+
+          
