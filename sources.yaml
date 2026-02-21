@@ -358,7 +358,7 @@ sources:
     
     
   # ======================
-  # Mexico (ES)
+  # Mexico/Cuba (ES)
   # ======================
   
 
@@ -388,7 +388,19 @@ sources:
     url: https://www.nacion.com/
     allow_url_regex: '(?i)nacion\.com/.+'
     deny_url_regex: '(?i)/(?:video|videos|podcasts?|audio|tv|live|suscripciones?|perfil|autor|busqueda|tags?|especiales|newsletter|cookies|privacidad)'
-  
+
+  - name: Reforma
+    continent: North America
+    url: https://www.reforma.com/
+    allow_url_regex: '(?i)reforma\.com/.+'
+    deny_url_regex: '(?i)/(video|photo|tag|buscador|rss)'
+
+  - name: 14ymedio
+    continent: North America
+    url: https://www.14ymedio.com/
+    allow_url_regex: '(?i)14ymedio\.com/.+'
+    deny_url_regex: '(?i)/(video|tag/|search|category)'
+      
 
   # ======================
   # Latin America (ES/PR)
@@ -457,7 +469,17 @@ sources:
     allow_url_regex: '(?i)latercera\.com/.+'
     deny_url_regex: '(?i)/(video|audio|privacy|cookies)'
   
-
+  - name: El Espectador
+    continent: South America
+    url: https://www.elespectador.com/
+    allow_url_regex: '(?i)elespectador\.com/(politica|mundo|economia|judicial)/.+'
+    deny_url_regex: '(?i)/(video|photo|tag/|search)'
+  
+  - name: TalCual
+    continent: South America
+    url: https://talcualdigital.com/
+    allow_url_regex: '(?i)talcualdigital\.com/.+'
+    deny_url_regex: '(?i)/(video|tag/|search|category)'
 
 
   # ======================
@@ -770,8 +792,31 @@ sources:
     deny_url_regex: '(?i)/(video|podcast|live|privacy|cookies|category|tag)'
 
 
+  - name: Tengrinews
+    continent: Europe East
+    url: https://tengrinews.kz/
+    allow_url_regex: '(?i)tengrinews\.kz/(kazakhstan_news|world_news|politics|economy)/.+'
+    deny_url_regex: '(?i)/(photo|video|tag/|search)'
 
+  - name: Gazeta.uz
+    continent: Europe East
+    url: https://www.gazeta.uz/en/
+    allow_url_regex: '(?i)gazeta\.uz/en/\d{4}/\d{2}/\d{2}/.+'
+    deny_url_regex: '(?i)/(photo|video|tag/|search)'
+    
 
+  - name: Armenpress
+    continent: Europe East
+    url: https://armenpress.am/en/
+    allow_url_regex: '(?i)armenpress\.am/en/.+'
+    deny_url_regex: '(?i)/(photo|video|tag|category|search)'
+
+  - name: AzerNews
+    continent: Europe East
+    url: https://www.azernews.az/
+    allow_url_regex: '(?i)azernews\.az/(nation|region|world|business)/.+'
+    deny_url_regex: '(?i)/(photo|video|tag/|archive|search)'
+  
 
   # ======================
   # Africa (EN)
@@ -834,7 +879,25 @@ sources:
     url: https://www.africanews.com/
     allow_url_regex: '(?i)africanews\.com/(?:20\d{2}/\d{2}/\d{2}/|news/|africa/|world/|business/|sports/|culture/).+'
     deny_url_regex: '(?i)/(?:video|pix-of-the-day|videos|live|podcasts?|tv|program|shows|audio|watch|privacy|cookies|terms|about|contact|newsletter|tag/|topics/|author/|search)'
+
+  - name: Mada Masr
+    continent: Africa
+    url: https://www.madamasr.com/en/
+    allow_url_regex: '(?i)madamasr\.com/en/\d{4}/\d{2}/\d{2}/.+'
+    deny_url_regex: '(?i)/(photo|video|tag|category|search)'
   
+  - name: Le Desk
+    continent: Africa
+    url: https://ledesk.ma/en/
+    allow_url_regex: '(?i)ledesk\.ma/en/.+'
+    deny_url_regex: '(?i)/(photo|video|tag|category|search)'
+
+  - name: TSA Algérie
+    continent: Africa
+    url: https://www.tsa-algerie.com/
+    allow_url_regex: '(?i)tsa-algerie\.com/.+'
+    deny_url_regex: '(?i)/(video|photo|tag/|search|category)'
+        
 
   # ======================
   # United States (EN)
@@ -1091,26 +1154,36 @@ sources:
     deny_url_regex: '(?i)/(?:opinion|editorial|columns?|views?|sports|entertainment|lifestyle|travel|campus|youth|features?|special|supplement|photo|gallery|video|videos|podcasts?|audio|live|webcast|epaper|e-paper|subscription|subscribe|privacy|cookies|about|contact|archive|tag/|tags?|author/|search)'
 
 
-  - name: The Star
-    continent: East Asia
-    url: https://www.thestar.com.my/
-    allow_url_regex: '(?i)thestar\.com\.my/.+'
-    deny_url_regex: '(?i)/(?:opinion|editorial|column|letters?|sports|entertainment|lifestyle|travel|food|features?|photo|gallery|video|videos|podcasts?|audio|live|e-paper|epaper|subscription|subscribe|privacy|cookies|about|contact|archive|tag/|tags?|author/|search)'
+  - name: Ei Samay
+    continent: South Asia
+    url: https://eisamay.com/
+    allow_url_regex: '(?i)eisamay\.com/(nation|world|state|business)/.+'
+    deny_url_regex: '(?i)/(video|photo|tag/|search|amp)'
   
-  - name: Malaysiakini
-    continent: East Asia
-    url: https://www.malaysiakini.com/
-    allow_url_regex: '(?i)malaysiakini\.com/.+'
-    deny_url_regex: '(?i)/(?:opinion|columns?|commentary|letters?|sports|entertainment|lifestyle|features?|specials?|photo|gallery|video|videos|podcasts?|audio|live|subscribe|donate|membership|privacy|cookies|about|contact|archive|tag/|tags?|author/|search)'
+  - name: Bartaman
+    continent: South Asia
+    url: https://bartamanpatrika.com/
+    allow_url_regex: '(?i)bartamanpatrika\.com/.+'
+    deny_url_regex: '(?i)/(video|photo|tag|archive|search)'
+
+  - name: Daily Mirror Sri Lanka
+    continent: South Asia
+    url: https://www.dailymirror.lk/
+    allow_url_regex: '(?i)dailymirror\.lk/(news|business|world)/.+'
+    deny_url_regex: '(?i)/(video|photo|cartoon|tag/|archive)'
 
 
-  - name: Central News Agency (CNA)
-    continent: East Asia
-    url: https://www.cna.com.tw/
-    language: zh
-    allow_url_regex: '(?i)cna\.com\.tw/news/(aopl|aipl|aopn|aopl|aopl|world|int)/.+'
-    deny_url_regex: '(?i)/(photo|video|gallery|live|topic|tag|author|search|about|privacy|terms)'
-  
+  - name: The Kathmandu Post
+    continent: South Asia
+    url: https://kathmandupost.com/
+    allow_url_regex: '(?i)kathmandupost\.com/(national|politics|money|world)/.+'
+    deny_url_regex: '(?i)/(photo|video|tag/|archive|search)'
+
+  - name: Dawn
+    continent: South Asia
+    url: https://www.dawn.com/
+    allow_url_regex: '(?i)dawn\.com/news/\d+'
+    deny_url_regex: '(?i)/(video|images?|live|blog|tag/|search)'
 
   # ======================
   # Asia (EN/JP)
@@ -1204,16 +1277,56 @@ sources:
     deny_url_regex: '(?i)/(video|multimedia|gallery|podcast|privacy|cookies)'
 
 
+  - name: The Star
+    continent: East Asia
+    url: https://www.thestar.com.my/
+    allow_url_regex: '(?i)thestar\.com\.my/.+'
+    deny_url_regex: '(?i)/(?:opinion|editorial|column|letters?|sports|entertainment|lifestyle|travel|food|features?|photo|gallery|video|videos|podcasts?|audio|live|e-paper|epaper|subscription|subscribe|privacy|cookies|about|contact|archive|tag/|tags?|author/|search)'
+  
+  - name: Malaysiakini
+    continent: East Asia
+    url: https://www.malaysiakini.com/
+    allow_url_regex: '(?i)malaysiakini\.com/.+'
+    deny_url_regex: '(?i)/(?:opinion|columns?|commentary|letters?|sports|entertainment|lifestyle|features?|specials?|photo|gallery|video|videos|podcasts?|audio|live|subscribe|donate|membership|privacy|cookies|about|contact|archive|tag/|tags?|author/|search)'
 
 
+  - name: Central News Agency (CNA)
+    continent: East Asia
+    url: https://www.cna.com.tw/
+    language: zh
+    allow_url_regex: '(?i)cna\.com\.tw/news/(aopl|aipl|aopn|aopl|aopl|world|int)/.+'
+    deny_url_regex: '(?i)/(photo|video|gallery|live|topic|tag|author|search|about|privacy|terms)'
 
-
-
-
-
-
-
-
+  - name: Kompas
+    continent: East Asia
+    url: https://www.kompas.com/
+    allow_url_regex: '(?i)kompas\.com/(global|internasional|tren|news|read)/.+'
+    deny_url_regex: '(?i)/(video|foto|images?|tag/|indeks|search|amp/)'
+  
+  - name: Tempo
+    continent: East Asia
+    url: https://en.tempo.co/
+    allow_url_regex: '(?i)tempo\.co/(news|politics|business|world)/.+'
+    deny_url_regex: '(?i)/(video|photo|tag|index|amp|rss)'
+  
+  - name: Rappler
+    continent: East Asia
+    url: https://www.rappler.com/
+    allow_url_regex: '(?i)rappler\.com/(nation|world|business|asia-pacific|news)/.+'
+    deny_url_regex: '(?i)/(video|podcast|live|tag/|topics|about|contact)'
+  
+  - name: The Irrawaddy
+    continent: East Asia
+    url: https://www.irrawaddy.com/
+    allow_url_regex: '(?i)irrawaddy\.com/(news|politics|business|opinion)/.+'
+    deny_url_regex: '(?i)/(video|gallery|tag/|category|archives)'
+    
+  - name: Phnom Penh Post
+    continent: East Asia
+    url: https://www.phnompenhpost.com/
+    allow_url_regex: '(?i)phnompenhpost\.com/(national|international|business|politics)/.+'
+    deny_url_regex: '(?i)/(video|photo|tag/|search|about)'
+  
 
 
 
