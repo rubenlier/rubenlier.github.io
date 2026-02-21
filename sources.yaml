@@ -1166,6 +1166,14 @@ sources:
     allow_url_regex: '(?i)bartamanpatrika\.com/.+'
     deny_url_regex: '(?i)/(video|photo|tag|archive|search)'
 
+
+  - name: Jugantor
+    continent: South Asia
+    url: https://www.jugantor.com/
+    allow_url_regex: '(?i)jugantor\.com/(national|politics|international|economics|country-news)/.+'
+    deny_url_regex: '(?i)/(video|photo|tag/|archive|search|category)'
+
+
   - name: Daily Mirror Sri Lanka
     continent: South Asia
     url: https://www.dailymirror.lk/
@@ -1327,6 +1335,7 @@ sources:
     allow_url_regex: '(?i)phnompenhpost\.com/(national|international|business|politics)/.+'
     deny_url_regex: '(?i)/(video|photo|tag/|search|about)'
   
+
 
 
 
