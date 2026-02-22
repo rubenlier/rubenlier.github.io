@@ -926,7 +926,7 @@ renderRegionLegend(REGION_ORDER);
             }).format(d);
 
             metaEl.innerHTML = `
-            <div>Below are the 7 most important world events. The colors denote the regions where this event is being discussed (legend below).</div>
+            <div>Below are the 7 most important world events. Click "expand clusters" to see which news outlet reporter on the event. The colors denote the regions where this event is being discussed (legend below).</div>
             <div class="news-updated">
                 <span class="pill"><strong>Last updated:</strong> ${lastScraped ? fmtAMS(lastScraped) + " (Amsterdam)" : "unknown"}</span>
             </div>
