@@ -494,11 +494,13 @@
         .mono{ font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
         .region-badge{
-            display:inline-block;
-            padding: 2px 8px;
+            display: inline-flex;
+            align-items: center;       /* perfect vertical centering */
+            justify-content: center;   /* horizontal centering */
+            padding: 2px 10px;
             border-radius: 999px;
             font-size: 0.9rem;
-            line-height: 1.2;
+            line-height: 1;            /* prevent font metric shift */
             border: 1px solid rgba(0,0,0,0.12);
         }
 </style>
