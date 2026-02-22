@@ -449,6 +449,49 @@
   height: 100%;
 }
 
+
+        .cluster-actions{ margin-top: 10px; display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+        .expand-btn{
+            border: 1px solid #ddd;
+            background: #fafafa;
+            border-radius: 999px;
+            padding: 7px 12px;
+            cursor: pointer;
+            font-size: 0.92rem;
+        }
+        .expand-btn:hover{ background:#f0f0f0; }
+        .cluster-expanded{
+            margin-top: 10px;
+            border-top: 1px dashed #e6e6e6;
+            padding-top: 10px;
+            display: none;
+        }
+        .cluster-expanded.open{ display:block; }
+        .cluster-list{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 8px;
+        }
+        .cluster-item{
+            border: 1px solid #eee;
+            border-radius: 12px;
+            padding: 10px 12px;
+            background: #fafafa;
+        }
+        .cluster-item a{ color:#111; text-decoration:none; }
+        .cluster-item a:hover{ text-decoration: underline; }
+        .cluster-item-meta{
+            margin-top: 6px;
+            display:flex;
+            flex-wrap:wrap;
+            gap: 8px 10px;
+            color:#555;
+            font-size: 0.9rem;
+        }
+        .mono{ font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 </style>
 </head>
 <body>
@@ -807,9 +850,9 @@ function escapeRegExp(s) {
           listEl.innerHTML = "";
 
           try {
-            const res = await fetch("output_latest.json", { cache: "no-store" });
+            const res = await fetch("output_content.json", { cache: "no-store" });
             if (!res.ok) {
-              throw new Error(`Could not load output.json (HTTP ${res.status})`);
+              throw new Error(`Could not load output_content.json (HTTP ${res.status})`);
             }
 
             const text = await res.text();
@@ -831,7 +874,7 @@ function escapeRegExp(s) {
             }
 
             if (!parsed) {
-              throw new Error("output.json is empty or not valid JSON.");
+              throw new Error("output_content.json is empty or not valid JSON.");
             }
 
             // Normalize to a list of runs
@@ -841,7 +884,7 @@ function escapeRegExp(s) {
             const validRuns = runs.filter(r => r && typeof r === "object" && Array.isArray(r.clusters));
 
             if (!validRuns.length) {
-              throw new Error("output.json does not contain any run objects with a 'clusters' array.");
+              throw new Error("output_content.json does not contain any run objects with a 'clusters' array.");
             }
 
             // Pick the latest run *for today* (UTC), fallback to latest overall.
@@ -855,7 +898,7 @@ function escapeRegExp(s) {
             const data = todaysRuns.length ? pickLatest(todaysRuns) : pickLatest(validRuns);
 
             if (!data || !Array.isArray(data.clusters)) {
-              throw new Error("Could not select a valid run with clusters from output.json.");
+              throw new Error("Could not select a valid run with clusters from output_content.json.");
             }
 
             const top = data.clusters.slice(0, 7);
@@ -898,42 +941,116 @@ renderRegionLegend(REGION_ORDER);
               const url = ca.url || "#";
               const source = ca.source_id || "";
               const continent = ca.continent || "";
-              const scraped = ca.scraped_at_utc || "";
               const published = ca.published_at || "";
 
-    const regions = (Array.isArray(c.continents) && c.continents.length)
-      ? c.continents
-      : (continent ? [continent] : []); // fallback for older runs
+              const regions = (Array.isArray(c.continents) && c.continents.length)
+                ? c.continents
+                : (continent ? [continent] : []); // fallback
 
+              const clusterId = `cluster-${idx}`;
 
+              // Members for "expand cluster"
+              const membersRaw = Array.isArray(c.members) ? c.members : [];
+              const members = membersRaw
+                .map((m) => ({
+                  sim: (typeof m?.sim_to_centroid === "number") ? m.sim_to_centroid : null,
+                  a: m?.article || {}
+                }))
+                // keep stable sort; if sim exists, show highest sim first
+                .sort((x, y) => {
+                  const ax = (x.sim ?? -1);
+                  const ay = (y.sim ?? -1);
+                  return ay - ax;
+                });
+
+              const membersHtml = members.map((m, j) => {
+                const a = m.a || {};
+                const mTitle = a.title || "(no title)";
+                const mUrl = a.url || "#";
+                const mSource = a.source_id || "";
+                const mCont = a.continent || "";
+                const simTxt = (typeof m.sim === "number") ? m.sim.toFixed(3) : "";
+
+                return `
+                  <li class="cluster-item">
+                    <div>
+                      <a href="${escapeHtml(mUrl)}" target="_blank" rel="noopener noreferrer">
+                        ${escapeHtml(mTitle)}
+                      </a>
+                    </div>
+                    <div class="cluster-item-meta">
+                      ${mSource ? `<span class="kpi mono">${escapeHtml(mSource)}</span>` : ""}
+                      ${mCont ? `<span class="kpi">${escapeHtml(mCont)}</span>` : ""}
+                      ${simTxt ? `<span class="kpi">sim: ${escapeHtml(simTxt)}</span>` : ""}
+                    </div>
+                  </li>
+                `;
+              }).join("");
+
+              const expandLabel = `Expand cluster (${members.length})`;
 
               return `
                 <div class="news-card">
-
-                    <div class="news-title">
+                  <div class="news-title">
                     <a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">
                       ${escapeHtml(title)}
                     </a>
                   </div>
 
-                    <div class="news-kpis">
+                  <div class="news-kpis">
                     <span class="kpi">rank: ${idx + 1}</span>
                     <span class="kpi">score: ${escapeHtml(String(score))}</span>
                     <span class="kpi">sources: ${escapeHtml(String(c.n_sources ?? ""))}</span>
                     <span class="kpi">regions: ${escapeHtml(String(c.n_continents ?? ""))}</span>
-                    </div>
+                  </div>
 
+                  ${renderRegionBar(regions)}
 
-                  
-    ${renderRegionBar(regions)}
-
-<div class="news-meta" style="margin-top:10px;">
+                  <div class="news-meta" style="margin-top:10px;">
                     <div>${escapeHtml(source)}${continent ? " · " + escapeHtml(continent) : ""}</div>
                     ${published ? `<div>published: ${escapeHtml(published)}</div>` : ""}
+                  </div>
+
+                  <div class="cluster-actions">
+                    <button class="expand-btn" type="button"
+                            aria-expanded="false"
+                            aria-controls="${clusterId}"
+                            data-cluster-toggle="${clusterId}">
+                      ${escapeHtml(expandLabel)}
+                    </button>
+                    <span class="news-meta" style="margin:0;">coherence: ${escapeHtml(String(coherence ?? ""))}</span>
+                  </div>
+
+                  <div id="${clusterId}" class="cluster-expanded" aria-label="Cluster items">
+                    <ol class="cluster-list">${membersHtml}</ol>
                   </div>
                 </div>
               `;
             }).join("");
+
+            // Toggle "expand cluster" panels (event delegation)
+            if (!listEl.dataset.expandBound){
+              listEl.dataset.expandBound = "1";
+              listEl.addEventListener("click", (ev) => {
+                const btn = ev.target?.closest?.("button[data-cluster-toggle]");
+                if (!btn) return;
+
+                const id = btn.getAttribute("data-cluster-toggle");
+                const panel = id ? document.getElementById(id) : null;
+                if (!panel) return;
+
+                const isOpen = panel.classList.toggle("open");
+                btn.setAttribute("aria-expanded", isOpen ? "true" : "false");
+
+                if (isOpen){
+                  btn.textContent = "Collapse cluster";
+                } else {
+                  const count = panel.querySelectorAll(".cluster-item").length;
+                  btn.textContent = `Expand cluster (${count})`;
+                }
+              });
+            }
+
 
           } catch (err) {
             console.error(err);
@@ -1218,7 +1335,7 @@ renderRegionLegend(REGION_ORDER);
     metaEl.textContent = "Loading…";
 
     const res = await fetch("output.json", { cache: "no-store" });
-    if (!res.ok) throw new Error(`Could not load output.json (HTTP ${res.status})`);
+    if (!res.ok) throw new Error(`Could not load output_content.json (HTTP ${res.status})`);
 
     const parsed = await res.json();
     const runs = Array.isArray(parsed) ? parsed : (parsed ? [parsed] : []);
