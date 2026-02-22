@@ -492,6 +492,15 @@
             font-size: 0.9rem;
         }
         .mono{ font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+
+        .region-badge{
+            display:inline-block;
+            padding: 2px 8px;
+            border-radius: 999px;
+            font-size: 0.9rem;
+            line-height: 1.2;
+            border: 1px solid rgba(0,0,0,0.12);
+        }
 </style>
 </head>
 <body>
@@ -764,6 +773,18 @@ function colorForRegion(name){
   return REGION_COLORS[name] || "#111";
 }
 
+// Choose black/white text for contrast on a hex background
+function getTextColorForBackground(hexColor){
+  const hex = String(hexColor || "").replace("#", "");
+  if (hex.length !== 6) return "#ffffff";
+  const rgb = parseInt(hex, 16);
+  const r = (rgb >> 16) & 0xff;
+  const g = (rgb >> 8) & 0xff;
+  const b = (rgb >> 0) & 0xff;
+  const luminance = 0.299*r + 0.587*g + 0.114*b;
+  return luminance > 150 ? "#000000" : "#ffffff";
+}
+
 function uniqueStable(arr){
   const out = [];
   const seen = new Set();
@@ -926,7 +947,7 @@ renderRegionLegend(REGION_ORDER);
             }).format(d);
 
             metaEl.innerHTML = `
-            <div>Below are the 7 most important world events. Click "expand clusters" to see which news outlet reporter on the event. The colors denote the regions where this event is being discussed (legend below).</div>
+            <div>Below are the 7 most important world events. The colors denote the regions where this event is being discussed (legend below).</div>
             <div class="news-updated">
                 <span class="pill"><strong>Last updated:</strong> ${lastScraped ? fmtAMS(lastScraped) + " (Amsterdam)" : "unknown"}</span>
             </div>
@@ -980,7 +1001,7 @@ renderRegionLegend(REGION_ORDER);
                     </div>
                     <div class="cluster-item-meta">
                       ${mSource ? `<span class="kpi mono">${escapeHtml(mSource)}</span>` : ""}
-                      ${mCont ? `<span class="kpi">${escapeHtml(mCont)}</span>` : ""}
+                      ${mCont ? `<span class="region-badge" style="background:${colorForRegion(mCont)}; color:${getTextColorForBackground(colorForRegion(mCont))};">${escapeHtml(mCont)}</span>` : ""}
                       ${simTxt ? `<span class="kpi">sim: ${escapeHtml(simTxt)}</span>` : ""}
                     </div>
                   </li>
