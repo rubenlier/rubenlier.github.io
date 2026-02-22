@@ -1010,7 +1010,7 @@ renderRegionLegend(REGION_ORDER);
                 `;
               }).join("");
 
-              const expandLabel = `Expand cluster (${members.length})`;
+              const expandLabel = `expand cluster (${members.length})`;
 
               return `
                 <div class="news-card">
@@ -1066,10 +1066,10 @@ renderRegionLegend(REGION_ORDER);
                 btn.setAttribute("aria-expanded", isOpen ? "true" : "false");
 
                 if (isOpen){
-                  btn.textContent = "Collapse cluster";
+                  btn.textContent = "collapse cluster";
                 } else {
                   const count = panel.querySelectorAll(".cluster-item").length;
-                  btn.textContent = `Expand cluster (${count})`;
+                  btn.textContent = `expand cluster (${count})`;
                 }
               });
             }
