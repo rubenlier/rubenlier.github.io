@@ -82,11 +82,6 @@ sources:
     allow_url_regex: '(?i)rtl\.nl/nieuws/.+'
     deny_url_regex: '(?i)/(video|uitzendingen|shows|programma|privacy|cookies)'
       
-  - name: Volkskrant
-    continent: Europe North
-    url: https://www.volkskrant.nl
-    allow_url_regex: '(?i)^https?://(www\.)?volkskrant\.nl/(binnenland|buitenland|politiek|economie|wetenschap|cultuur|columns?)/.+'
-    deny_url_regex: '(?i)/(video|podcast|privacy|cookies)(/|$)'
 
 
   - name: Financieele Dagblad
@@ -1331,6 +1326,7 @@ sources:
     allow_url_regex: '(?i)phnompenhpost\.com/(national|international|business|politics)/.+'
     deny_url_regex: '(?i)/(video|photo|tag/|search|about)'
   
+
 
 
 
