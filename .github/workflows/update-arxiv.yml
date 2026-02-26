@@ -2,7 +2,10 @@ name: Update arXiv Papers
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # daily at midnight UTC
+    # Daily at midnight UTC
+    - cron: "0 0 * * *"
+    # Extra run later to catch arXiv indexing/announcement lag
+    - cron: "0 6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -25,12 +28,27 @@ jobs:
           python -m pip install --upgrade pip
           pip install beautifulsoup4 requests
 
+      # Robust query: try both "Ruben Lier" and "Lier, Ruben", newest-first.
       - name: Debug arXiv API fetch (runner) with retries
+        env:
+          ARXIV_QUERY: '(au:"Ruben Lier" OR au:"Lier, Ruben")'
+          ARXIV_MAX_RESULTS: "100"
+          ARXIV_SORTBY: "submittedDate"
+          ARXIV_SORTORDER: "descending"
+          ARXIV_USER_AGENT: "rubenlier.nl arXiv-scraper/1.0 (contact: ruben.lier@email.com)"
         run: |
           set -euo pipefail
 
-          URL="https://export.arxiv.org/api/query?search_query=au:Ruben+Lier&start=0&max_results=100"
-          UA="rubenlier.nl arXiv-scraper/1.0 (contact: ruben.lier@email.com)"
+          # URL-encode the query via python (avoids bash escaping footguns)
+          Q_ENC="$(python - << 'PY'
+          import os, urllib.parse
+          q=os.environ["ARXIV_QUERY"]
+          print(urllib.parse.quote(q, safe=""))
+          PY
+          )"
+
+          URL="https://export.arxiv.org/api/query?search_query=${Q_ENC}&start=0&max_results=${ARXIV_MAX_RESULTS}&sortBy=${ARXIV_SORTBY}&sortOrder=${ARXIV_SORTORDER}"
+          UA="$ARXIV_USER_AGENT"
 
           OUT_XML="debug_arxiv.xml"
           HDRS="debug_arxiv.headers"
@@ -38,6 +56,7 @@ jobs:
           max_attempts=8
           base_sleep=3
 
+          echo "ARXIV_QUERY=$ARXIV_QUERY"
           echo "URL=$URL"
 
           for attempt in $(seq 1 "$max_attempts"); do
@@ -59,7 +78,7 @@ jobs:
             fi
 
             echo "---- HEAD $OUT_XML ----"
-            head -n 80 "$OUT_XML" || true
+            head -n 120 "$OUT_XML" || true
             echo "---- END HEAD ----"
 
             if [[ "$code" == "429" || "$code" == "500" || "$code" == "502" || "$code" == "503" || "$code" == "504" || "$code" == "000" ]]; then
@@ -86,16 +105,55 @@ jobs:
             exit 1
           fi
 
-          # If it was 200 but entries are still 0, fail loudly (usually indicates not Atom feed)
           if [[ "$(grep -c '<entry>' "$OUT_XML" || true)" -eq 0 ]]; then
             echo "HTTP 200 but no <entry> elements found; refusing to continue."
             exit 1
           fi
 
+      - name: Inspect feed (titles + updated dates)
+        run: |
+          python - << 'PY'
+          import xml.etree.ElementTree as ET
+
+          path="debug_arxiv.xml"
+          ns={"a":"http://www.w3.org/2005/Atom"}
+          root=ET.parse(path).getroot()
+
+          entries=root.findall("a:entry", ns)
+          print("n_entries:", len(entries))
+          for e in entries[:15]:
+              title=(e.findtext("a:title", default="", namespaces=ns) or "").strip().replace("\n"," ")
+              updated=(e.findtext("a:updated", default="", namespaces=ns) or "").strip()
+              published=(e.findtext("a:published", default="", namespaces=ns) or "").strip()
+              aid=(e.findtext("a:id", default="", namespaces=ns) or "").strip()
+              print("-", updated, "|", published, "|", title, "|", aid)
+          PY
+
+      - name: Show fetch_arxiv.py environment inputs
+        env:
+          ARXIV_QUERY: '(au:"Ruben Lier" OR au:"Lier, Ruben")'
+          ARXIV_MAX_RESULTS: "100"
+          ARXIV_SORTBY: "submittedDate"
+          ARXIV_SORTORDER: "descending"
+          ARXIV_USER_AGENT: "rubenlier.nl arXiv-scraper/1.0 (contact: ruben.lier@email.com)"
+        run: |
+          python - << 'PY'
+          import os
+          for k in ["ARXIV_USER_AGENT","ARXIV_QUERY","ARXIV_MAX_RESULTS","ARXIV_SORTBY","ARXIV_SORTORDER"]:
+              print(f"{k}={os.getenv(k)}")
+          PY
+
       - name: Run script to fetch arXiv papers
         env:
           ARXIV_USER_AGENT: "rubenlier.nl arXiv-scraper/1.0 (contact: ruben.lier@email.com)"
+          # These envs are harmless even if your script doesn't read them yet;
+          # add support in fetch_arxiv.py if desired.
+          ARXIV_QUERY: '(au:"Ruben Lier" OR au:"Lier, Ruben")'
+          ARXIV_MAX_RESULTS: "100"
+          ARXIV_SORTBY: "submittedDate"
+          ARXIV_SORTORDER: "descending"
         run: |
+          set -euo pipefail
           python fetch_arxiv.py
 
       - name: Touch paper.html (force visible last-updated stamp)
@@ -123,6 +181,11 @@ jobs:
           git config user.email "actions@github.com"
 
           git add paper.html
+
+          echo "---- git status ----"
+          git status --porcelain || true
+          echo "---- staged diff stat ----"
+          git diff --cached --stat || true
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
