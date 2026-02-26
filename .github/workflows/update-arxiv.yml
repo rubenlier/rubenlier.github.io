@@ -2,10 +2,8 @@ name: Update arXiv Papers
 
 on:
   schedule:
-    # Daily at midnight UTC
-    - cron: "0 0 * * *"
-    # Extra run later to catch arXiv indexing/announcement lag
-    - cron: "0 6 * * *"
+    - cron: "0 0 * * *"   # daily at midnight UTC
+    - cron: "0 6 * * *"   # extra run for arXiv indexing lag
   workflow_dispatch:
 
 permissions:
@@ -28,7 +26,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install beautifulsoup4 requests
 
-      # Robust query: try both "Ruben Lier" and "Lier, Ruben", newest-first.
       - name: Debug arXiv API fetch (runner) with retries
         env:
           ARXIV_QUERY: '(au:"Ruben Lier" OR au:"Lier, Ruben")'
@@ -39,11 +36,9 @@ jobs:
         run: |
           set -euo pipefail
 
-          # URL-encode the query via python (avoids bash escaping footguns)
           Q_ENC="$(python - << 'PY'
           import os, urllib.parse
-          q=os.environ["ARXIV_QUERY"]
-          print(urllib.parse.quote(q, safe=""))
+          print(urllib.parse.quote(os.environ["ARXIV_QUERY"], safe=""))
           PY
           )"
 
@@ -77,17 +72,13 @@ jobs:
               break
             fi
 
-            echo "---- HEAD $OUT_XML ----"
-            head -n 120 "$OUT_XML" || true
-            echo "---- END HEAD ----"
-
             if [[ "$code" == "429" || "$code" == "500" || "$code" == "502" || "$code" == "503" || "$code" == "504" || "$code" == "000" ]]; then
               retry_after="$(awk 'BEGIN{IGNORECASE=1} /^Retry-After:/ {gsub("\r",""); print $2}' "$HDRS" | tail -n 1)"
               if [[ -n "${retry_after:-}" ]]; then
                 sleep_s="$retry_after"
               else
                 exp=$(( base_sleep * (2 ** (attempt - 1)) ))
-                jitter=$(( RANDOM % 3 ))   # 0–2s
+                jitter=$(( RANDOM % 3 ))
                 sleep_s=$(( exp + jitter ))
                 if (( sleep_s > 120 )); then sleep_s=120; fi
               fi
@@ -97,6 +88,9 @@ jobs:
             fi
 
             echo "Non-retriable HTTP status: $code"
+            echo "---- HEAD $OUT_XML ----"
+            head -n 120 "$OUT_XML" || true
+            echo "---- END HEAD ----"
             exit 1
           done
 
@@ -114,14 +108,11 @@ jobs:
         run: |
           python - << 'PY'
           import xml.etree.ElementTree as ET
-
-          path="debug_arxiv.xml"
           ns={"a":"http://www.w3.org/2005/Atom"}
-          root=ET.parse(path).getroot()
-
+          root=ET.parse("debug_arxiv.xml").getroot()
           entries=root.findall("a:entry", ns)
           print("n_entries:", len(entries))
-          for e in entries[:15]:
+          for e in entries[:20]:
               title=(e.findtext("a:title", default="", namespaces=ns) or "").strip().replace("\n"," ")
               updated=(e.findtext("a:updated", default="", namespaces=ns) or "").strip()
               published=(e.findtext("a:published", default="", namespaces=ns) or "").strip()
@@ -129,40 +120,65 @@ jobs:
               print("-", updated, "|", published, "|", title, "|", aid)
           PY
 
-      - name: Show fetch_arxiv.py environment inputs
-        env:
-          ARXIV_QUERY: '(au:"Ruben Lier" OR au:"Lier, Ruben")'
-          ARXIV_MAX_RESULTS: "100"
-          ARXIV_SORTBY: "submittedDate"
-          ARXIV_SORTORDER: "descending"
-          ARXIV_USER_AGENT: "rubenlier.nl arXiv-scraper/1.0 (contact: ruben.lier@email.com)"
-        run: |
-          python - << 'PY'
-          import os
-          for k in ["ARXIV_USER_AGENT","ARXIV_QUERY","ARXIV_MAX_RESULTS","ARXIV_SORTBY","ARXIV_SORTORDER"]:
-              print(f"{k}={os.getenv(k)}")
-          PY
-
-      - name: Run script to fetch arXiv papers
+      - name: Run script to fetch arXiv papers (with loud diagnostics)
         env:
           ARXIV_USER_AGENT: "rubenlier.nl arXiv-scraper/1.0 (contact: ruben.lier@email.com)"
-          # These envs are harmless even if your script doesn't read them yet;
-          # add support in fetch_arxiv.py if desired.
           ARXIV_QUERY: '(au:"Ruben Lier" OR au:"Lier, Ruben")'
           ARXIV_MAX_RESULTS: "100"
           ARXIV_SORTBY: "submittedDate"
           ARXIV_SORTORDER: "descending"
         run: |
           set -euo pipefail
+
+          echo "Repo root listing:"
+          ls -la
+
+          echo "Before: find paper.html"
+          find . -maxdepth 3 -name "paper.html" -print -exec ls -la {} \; || true
+
           python fetch_arxiv.py
+
+          echo "After fetch_arxiv.py: find paper.html"
+          find . -maxdepth 3 -name "paper.html" -print -exec ls -la {} \; || true
+
+          echo "Git status after fetch_arxiv.py:"
+          git status --porcelain || true
+
+          echo "Changed files (name-only):"
+          git diff --name-only || true
+
+      - name: Assert new papers are present in paper.html (fail loudly if not)
+        run: |
+          set -euo pipefail
+
+          # Update these if you want different "must include" IDs
+          MUST_IDS=("2602.21475" "2602.21367")
+
+          if [[ ! -f "paper.html" ]]; then
+            echo "ERROR: paper.html not found in repo root."
+            echo "Here are any paper.html files found:"
+            find . -name "paper.html" -print -maxdepth 5 || true
+            exit 1
+          fi
+
+          for id in "${MUST_IDS[@]}"; do
+            if grep -q "$id" paper.html; then
+              echo "OK: found $id in paper.html"
+            else
+              echo "ERROR: missing $id in paper.html"
+              echo "Showing first 80 lines of paper.html:"
+              head -n 80 paper.html || true
+              echo "Showing any lines mentioning arxiv.org:"
+              grep -n "arxiv.org" paper.html | head -n 50 || true
+              exit 1
+            fi
+          done
 
       - name: Touch paper.html (force visible last-updated stamp)
         run: |
           set -euo pipefail
           TS="$(TZ=Europe/Amsterdam date '+%Y-%m-%d %H:%M (Amsterdam)')"
 
-          # Keep a single visible line at the top of paper.html.
-          # If it's already there, replace it; otherwise prepend it.
           if grep -q 'id="preprints-last-updated"' paper.html; then
             perl -0777 -i -pe 's#<div id="preprints-last-updated">.*?</div>#<div id="preprints-last-updated"><em>Last updated: '"$TS"'</em></div>#s' paper.html
           else
@@ -182,8 +198,6 @@ jobs:
 
           git add paper.html
 
-          echo "---- git status ----"
-          git status --porcelain || true
           echo "---- staged diff stat ----"
           git diff --cached --stat || true
 
