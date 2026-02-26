@@ -24,9 +24,9 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install beautifulsoup4 requests
+          pip install requests
 
-      - name: Debug arXiv API fetch (runner) with retries
+      - name: Fetch arXiv Atom feed (robust query, newest-first) with retries
         env:
           ARXIV_QUERY: '(au:"Ruben Lier" OR au:"Lier, Ruben")'
           ARXIV_MAX_RESULTS: "100"
@@ -88,9 +88,7 @@ jobs:
             fi
 
             echo "Non-retriable HTTP status: $code"
-            echo "---- HEAD $OUT_XML ----"
             head -n 120 "$OUT_XML" || true
-            echo "---- END HEAD ----"
             exit 1
           done
 
@@ -120,56 +118,101 @@ jobs:
               print("-", updated, "|", published, "|", title, "|", aid)
           PY
 
-      - name: Run script to fetch arXiv papers (with loud diagnostics)
-        env:
-          ARXIV_USER_AGENT: "rubenlier.nl arXiv-scraper/1.0 (contact: ruben.lier@email.com)"
-          ARXIV_QUERY: '(au:"Ruben Lier" OR au:"Lier, Ruben")'
-          ARXIV_MAX_RESULTS: "100"
-          ARXIV_SORTBY: "submittedDate"
-          ARXIV_SORTORDER: "descending"
+      - name: Generate paper.html from debug_arxiv.xml (authoritative)
         run: |
           set -euo pipefail
+          python - << 'PY'
+          import html
+          import xml.etree.ElementTree as ET
+          from datetime import datetime
 
-          echo "Repo root listing:"
-          ls -la
+          ns={"a":"http://www.w3.org/2005/Atom"}
+          root=ET.parse("debug_arxiv.xml").getroot()
 
-          echo "Before: find paper.html"
-          find . -maxdepth 3 -name "paper.html" -print -exec ls -la {} \; || true
+          def parse_dt(s: str) -> datetime:
+              # Atom uses e.g. 2026-02-25T01:04:49Z
+              return datetime.strptime(s, "%Y-%m-%dT%H:%M:%SZ")
 
-          python fetch_arxiv.py
+          entries=[]
+          for e in root.findall("a:entry", ns):
+              title=(e.findtext("a:title", default="", namespaces=ns) or "").strip().replace("\n"," ")
+              aid=(e.findtext("a:id", default="", namespaces=ns) or "").strip()
+              published=(e.findtext("a:published", default="", namespaces=ns) or "").strip()
+              updated=(e.findtext("a:updated", default="", namespaces=ns) or "").strip()
+              authors=[(a.findtext("a:name", default="", namespaces=ns) or "").strip()
+                       for a in e.findall("a:author", ns)]
+              # Prefer abs link (aid is usually http://arxiv.org/abs/...)
+              link = aid.replace("http://", "https://")
+              entries.append({
+                  "title": title,
+                  "link": link,
+                  "authors": authors,
+                  "published": published,
+                  "updated": updated,
+              })
 
-          echo "After fetch_arxiv.py: find paper.html"
-          find . -maxdepth 3 -name "paper.html" -print -exec ls -la {} \; || true
+          # Sort newest-first by updated
+          entries.sort(key=lambda x: parse_dt(x["updated"]), reverse=True)
 
-          echo "Git status after fetch_arxiv.py:"
-          git status --porcelain || true
+          # Group by year of published date (this will create 2026, 2025, ...)
+          groups={}
+          for it in entries:
+              y=parse_dt(it["published"]).year
+              groups.setdefault(y, []).append(it)
 
-          echo "Changed files (name-only):"
-          git diff --name-only || true
+          years=sorted(groups.keys(), reverse=True)
+
+          def fmt_date(s: str) -> str:
+              dt=parse_dt(s)
+              # "25 February 2026"
+              return dt.strftime("%d %B %Y").lstrip("0")
+
+          out=[]
+          out.append("<!doctype html>")
+          out.append('<meta charset="utf-8">')
+          out.append("<title>Preprints</title>")
+          out.append("")  # keep file simple; your site CSS can style .paper
+          # NOTE: the "last-updated" div is handled by the next step (touch)
+          # but we include a placeholder so replacement works reliably.
+          out.append('<div id="preprints-last-updated"><em>Last updated: (set by workflow)</em></div>')
+
+          for y in years:
+              out.append(f'<h2 style="margin-top:20px;border-bottom:2px solid #333;padding-bottom:5px;">{y}</h2>')
+              for it in groups[y]:
+                  title=html.escape(it["title"])
+                  link=html.escape(it["link"])
+                  authors=it["authors"] or []
+                  authors_html=", ".join(html.escape(a) for a in authors) if authors else ""
+                  out.append('<div class="paper">')
+                  out.append(f'  <h3><a href="{link}" target="_blank" rel="noopener">{title}</a></h3>')
+                  if authors_html:
+                      out.append(f'  <p><strong>Authors:</strong> <strong>{authors_html}</strong></p>')
+                  out.append(f'  <p><strong>Originally submitted:</strong> {html.escape(fmt_date(it["published"]))}</p>')
+                  out.append("</div>")
+                  out.append("<hr>")
+
+          with open("paper.html", "w", encoding="utf-8") as f:
+              f.write("\n".join(out) + "\n")
+
+          print("Wrote paper.html with", len(entries), "entries across years:", years)
+          PY
+
+          echo "After generation:"
+          ls -la paper.html
+          echo "Top of paper.html:"
+          head -n 40 paper.html
 
       - name: Assert new papers are present in paper.html (fail loudly if not)
         run: |
           set -euo pipefail
-
-          # Update these if you want different "must include" IDs
           MUST_IDS=("2602.21475" "2602.21367")
-
-          if [[ ! -f "paper.html" ]]; then
-            echo "ERROR: paper.html not found in repo root."
-            echo "Here are any paper.html files found:"
-            find . -name "paper.html" -print -maxdepth 5 || true
-            exit 1
-          fi
-
           for id in "${MUST_IDS[@]}"; do
             if grep -q "$id" paper.html; then
               echo "OK: found $id in paper.html"
             else
               echo "ERROR: missing $id in paper.html"
-              echo "Showing first 80 lines of paper.html:"
-              head -n 80 paper.html || true
-              echo "Showing any lines mentioning arxiv.org:"
-              grep -n "arxiv.org" paper.html | head -n 50 || true
+              echo "Showing any lines mentioning arxiv:"
+              grep -n "arxiv" paper.html | head -n 80 || true
               exit 1
             fi
           done
@@ -178,7 +221,6 @@ jobs:
         run: |
           set -euo pipefail
           TS="$(TZ=Europe/Amsterdam date '+%Y-%m-%d %H:%M (Amsterdam)')"
-
           if grep -q 'id="preprints-last-updated"' paper.html; then
             perl -0777 -i -pe 's#<div id="preprints-last-updated">.*?</div>#<div id="preprints-last-updated"><em>Last updated: '"$TS"'</em></div>#s' paper.html
           else
