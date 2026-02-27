@@ -373,12 +373,6 @@ sources:
     deny_url_regex: '(?i)/(videos|audio|podcast|opinion|especiales|privacidad|cookies)'
     
     
-    
-  - name: La Nación (Costa Rica)
-    continent: North America
-    url: https://www.nacion.com/
-    allow_url_regex: '(?i)nacion\.com/.+'
-    deny_url_regex: '(?i)/(?:video|videos|podcasts?|audio|tv|live|suscripciones?|perfil|autor|busqueda|tags?|especiales|newsletter|cookies|privacidad)'
 
   - name: Reforma
     continent: North America
@@ -391,7 +385,56 @@ sources:
     url: https://www.14ymedio.com/
     allow_url_regex: '(?i)14ymedio\.com/.+'
     deny_url_regex: '(?i)/(video|tag/|search|category)'
-      
+
+
+  # ======================
+  # Central America (North America)
+  # ======================
+
+    
+  - name: La Nación (Costa Rica)
+    continent: North America
+    url: https://www.nacion.com/
+    allow_url_regex: '(?i)nacion\.com/.+'
+    deny_url_regex: '(?i)/(?:video|videos|podcasts?|audio|tv|live|suscripciones?|perfil|autor|busqueda|tags?|especiales|newsletter|cookies|privacidad)'
+
+
+
+  - name: El Faro (El Salvador)
+    continent: North America
+    url: https://elfaro.net
+    allow_url_regex: '(?i)elfaro\.net/.+'
+    deny_url_regex: '(?i)/(video|photo|multimedia|privacy|cookies)'
+
+  - name: La Prensa (Nicaragua)
+    continent: North America
+    url: https://www.laprensa.com.ni
+    allow_url_regex: '(?i)laprensa\.com\.ni/.+'
+    deny_url_regex: '(?i)/(video|photo|multimedia|privacy|cookies)'
+
+  - name: Plaza Pública (Guatemala)
+    continent: North America
+    url: https://www.plazapublica.com.gt
+    allow_url_regex: '(?i)plazapublica\.com\.gt/.+'
+    deny_url_regex: '(?i)/(video|photo|multimedia|privacy|cookies)'
+
+  - name: CRHoy (Costa Rica)
+    continent: North America
+    url: https://www.crhoy.com
+    allow_url_regex: '(?i)crhoy\.com/.+'
+    deny_url_regex: '(?i)/(video|photo|multimedia|privacy|cookies)'
+
+  - name: La Estrella de Panamá
+    continent: North America
+    url: https://www.laestrella.com.pa
+    allow_url_regex: '(?i)laestrella\.com\.pa/.+'
+    deny_url_regex: '(?i)/(video|photo|multimedia|privacy|cookies)'
+
+  - name: Loop News Caribbean
+    continent: North America
+    url: https://www.loopnews.com
+    allow_url_regex: '(?i)loopnews\.com/.+'
+    deny_url_regex: '(?i)/(video|photo|multimedia|privacy|cookies)'
 
   # ======================
   # Latin America (ES/PR)
@@ -545,7 +588,17 @@ sources:
     allow_url_regex: '(?i)newsroom\.co\.nz/.+'
     deny_url_regex: '(?i)/(audio|podcast|video|programme|shows|tags|topics)'
 
+  - name: Solomon Times
+    continent: Oceania
+    url: https://www.solomontimes.com
+    allow_url_regex: '(?i)solomontimes\.com/.+'
+    deny_url_regex: '(?i)/(video|photo|privacy|cookies)'
 
+  - name: Islands Business
+    continent: Oceania
+    url: https://islandsbusiness.com
+    allow_url_regex: '(?i)islandsbusiness\.com/.+'
+    deny_url_regex: '(?i)/(video|photo|privacy|cookies)'
 
   # ======================
   # Ireland (EN)
@@ -653,8 +706,24 @@ sources:
     url: https://www.milliyet.com.tr
     allow_url_regex: '(?i)milliyet\.com\.tr/(gundem|dunya|ekonomi|siyaset)/.+'
     deny_url_regex: '(?i)/(video|galeri|yazarlar|canli|privacy|cookies)'
-    
-   
+
+  - name: Al Bawaba
+    continent: Middle East
+    url: https://www.albawaba.com
+    allow_url_regex: '(?i)albawaba\.com/.+'
+    deny_url_regex: '(?i)/(video|photo|privacy|cookies)'
+
+  - name: The New Arab
+    continent: Middle East
+    url: https://www.newarab.com
+    allow_url_regex: '(?i)newarab\.com/.+'
+    deny_url_regex: '(?i)/(video|photo|privacy|cookies)'
+
+  - name: Amwaj Media
+    continent: Middle East
+    url: https://amwaj.media
+    allow_url_regex: '(?i)amwaj\.media/.+'
+    deny_url_regex: '(?i)/(video|photo|privacy|cookies)'
 
   # ======================
   # Eastern Europe
@@ -809,6 +878,57 @@ sources:
     deny_url_regex: '(?i)/(photo|video|tag/|archive|search)'
   
 
+  - name: CivilNet
+    continent: Europe East
+    url: https://www.civilnet.am
+    allow_url_regex: '(?i)civilnet\.am/.+'
+    deny_url_regex: '(?i)/(video|photo|privacy|cookies)'
+
+  - name: OC Media
+    continent: Europe East
+    url: https://oc-media.org
+    allow_url_regex: '(?i)oc-media\.org/.+'
+    deny_url_regex: '(?i)/(video|photo|privacy|cookies)'
+
+  - name: Balkan Insight
+    continent: Europe East
+    url: https://balkaninsight.com
+    allow_url_regex: '(?i)balkaninsight\.com/.+'
+    deny_url_regex: '(?i)/(video|photo|privacy|cookies)'
+
+
+  - name: Belsat TV
+    continent: Europe East
+    url: https://belsat.eu
+    allow_url_regex: '(?i)belsat\.eu/.+'
+    deny_url_regex: '(?i)/(video|photo|multimedia|privacy|cookies)'
+
+  - name: BelTA
+    continent: Europe East
+    url: https://www.belta.by
+    allow_url_regex: '(?i)belta\.by/.+'
+    deny_url_regex: '(?i)/(video|photo|gallery|privacy|cookies)'
+
+
+  - name: Sovetskaya Belorussiya
+    continent: Europe East
+    url: https://www.sb.by
+    allow_url_regex: '(?i)sb\.by/.+'
+    deny_url_regex: '(?i)/(video|photo|gallery|privacy|cookies)'
+
+  - name: ONT News
+    continent: Europe East
+    url: https://ont.by
+    allow_url_regex: '(?i)ont\.by/.+'
+    deny_url_regex: '(?i)/(video|photo|gallery|privacy|cookies)'
+
+  
+  - name: Minskaya Pravda
+    continent: Europe East
+    url: https://mlyn.by
+    allow_url_regex: '(?i)mlyn\.by/.+'
+    deny_url_regex: '(?i)/(video|photo|gallery|privacy|cookies)'
+
   # ======================
   # Africa (EN)
   # ======================
@@ -888,7 +1008,19 @@ sources:
     url: https://www.tsa-algerie.com/
     allow_url_regex: '(?i)tsa-algerie\.com/.+'
     deny_url_regex: '(?i)/(video|photo|tag/|search|category)'
-        
+
+
+  - name: Le Desk (Morocco)
+    continent: North Africa
+    url: https://ledesk.ma
+    allow_url_regex: '(?i)ledesk\.ma/.+'
+    deny_url_regex: '(?i)/(video|photo|privacy|cookies)'
+
+  - name: Egypt Independent
+    continent: North Africa
+    url: https://www.egyptindependent.com
+    allow_url_regex: '(?i)egyptindependent\.com/.+'
+    deny_url_regex: '(?i)/(video|photo|privacy|cookies)'
 
   # ======================
   # United States (EN)
@@ -1077,7 +1209,18 @@ sources:
     deny_url_regex: '(?i)/(video|videos|photo|gallery|special|topic|theory|edu|health|auto|culture|privacy|cookies)'
   
 
+  - name: Ulaanbaatar Post
+    continent: East Asia
+    url: https://ubpost.mongolnews.mn
+    allow_url_regex: '(?i)ubpost\.mongolnews\.mn/.+'
+    deny_url_regex: '(?i)/(video|photo|privacy|cookies)'
 
+
+  - name: The Standard HK
+    continent: China
+    url: https://www.thestandard.com.hk
+    allow_url_regex: '(?i)thestandard\.com\.hk/.+'
+    deny_url_regex: '(?i)/(video|photo|privacy|cookies)'
 
     
 
@@ -1184,6 +1327,13 @@ sources:
     allow_url_regex: '(?i)dawn\.com/news/\d+'
     deny_url_regex: '(?i)/(video|images?|live|blog|tag/|search)'
 
+
+  - name: MyRepublica
+    continent: South Asia
+    url: https://myrepublica.nagariknetwork.com
+    allow_url_regex: '(?i)myrepublica\.nagariknetwork\.com/.+'
+    deny_url_regex: '(?i)/(video|photo|privacy|cookies)'
+
   # ======================
   # Asia (EN/JP)
   # ======================
@@ -1220,7 +1370,20 @@ sources:
     deny_url_regex: '(?i)/(video|podcast|privacy|cookies)'
 
 
+  - name: Asahi Shimbun
+    continent: East Asia
+    url: https://www.asahi.com
+    allow_url_regex: '(?i)asahi\.com/articles/.+'
+    deny_url_regex: '(?i)/(video|photo|gallery|privacy|cookies)'
+
   - name: The Mainichi
+    continent: East Asia
+    url: https://mainichi.jp
+    allow_url_regex: '(?i)mainichi\.jp/articles/.+'
+    deny_url_regex: '(?i)/(video|photo|gallery|privacy|cookies)'
+
+
+  - name: The Mainichi (English)
     continent: East Asia
     url: https://mainichi.jp/english
     allow_url_regex: '(?i)mainichi\.jp/english/.+'
@@ -1325,7 +1488,9 @@ sources:
     url: https://www.phnompenhpost.com/
     allow_url_regex: '(?i)phnompenhpost\.com/(national|international|business|politics)/.+'
     deny_url_regex: '(?i)/(video|photo|tag/|search|about)'
-  
+
+
+
 
 
 
