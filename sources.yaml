@@ -798,6 +798,42 @@ sources:
     deny_url_regex: '(?i)/(video|podcast)'
 
 
+  - name: Népszava
+    continent: Europe East
+    url: https://nepszava.hu
+    allow_url_regex: '(?i)nepszava\.hu/.+'
+    deny_url_regex: '(?i)/(video|galeria|kepek|privacy|cookies)'
+
+  - name: G4Media
+    continent: Europe East
+    url: https://www.g4media.ro
+    allow_url_regex: '(?i)g4media\.ro/.+'
+    deny_url_regex: '(?i)/(video|foto|privacy|cookies)'
+
+  - name: Rzeczpospolita
+    continent: Europe East
+    url: https://www.rp.pl
+    allow_url_regex: '(?i)rp\.pl/.+'
+    deny_url_regex: '(?i)/(video|foto|privacy|cookies)'
+
+  - name: Delo
+    continent: Europe East
+    url: https://www.delo.si
+    allow_url_regex: '(?i)delo\.si/.+'
+    deny_url_regex: '(?i)/(video|foto|privacy|cookies)'
+
+  - name: SME
+    continent: Europe East
+    url: https://www.sme.sk
+    allow_url_regex: '(?i)sme\.sk/.+'
+    deny_url_regex: '(?i)/(video|foto|privacy|cookies)'
+
+  - name: Dnevnik
+    continent: Europe East
+    url: https://www.dnevnik.bg
+    allow_url_regex: '(?i)dnevnik\.bg/.+'
+    deny_url_regex: '(?i)/(video|gallery|privacy|cookies)'
+
     
   - name: Kyiv Post
     continent: Europe East
@@ -1543,6 +1579,7 @@ sources:
     url: https://www.phnompenhpost.com/
     allow_url_regex: '(?i)phnompenhpost\.com/(national|international|business|politics)/.+'
     deny_url_regex: '(?i)/(video|photo|tag/|search|about)'
+
 
 
 
