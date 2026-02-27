@@ -1369,6 +1369,12 @@ sources:
     allow_url_regex: '(?i)pajhwok\.com/.+'
     deny_url_regex: '(?i)/(video|gallery|privacy|cookies)'
 
+  - name: Bakhtar News Agency
+    continent: South Asia
+    url: https://www.bakhtarnews.af
+    allow_url_regex: '(?i)bakhtarnews\.af/.+'
+    deny_url_regex: '(?i)/(video|gallery|privacy|cookies)'
+
   # ======================
   # Asia (EN/JP)
   # ======================
@@ -1519,6 +1525,7 @@ sources:
     url: https://www.phnompenhpost.com/
     allow_url_regex: '(?i)phnompenhpost\.com/(national|international|business|politics)/.+'
     deny_url_regex: '(?i)/(video|photo|tag/|search|about)'
+
 
 
 
