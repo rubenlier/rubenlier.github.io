@@ -229,6 +229,19 @@ sources:
     allow_url_regex: '(?i)vb\.is/.+'
     deny_url_regex: '(?i)/(video|myndir|gallery|privacy|cookies)'
 
+  - name: Sermitsiaq
+    continent: Europe North
+    url: https://sermitsiaq.ag
+    allow_url_regex: '(?i)sermitsiaq\.ag/.+'
+    deny_url_regex: '(?i)/(video|photo|gallery|privacy|cookies)'
+
+
+  - name: KNR Nyheder
+    continent: Europe North
+    url: https://knr.gl
+    allow_url_regex: '(?i)knr\.gl/.+'
+    deny_url_regex: '(?i)/(tv|radio|video|privacy|cookies)'
+
 
   # ======================
   # France (FR)
@@ -1491,6 +1504,7 @@ sources:
     url: https://www.phnompenhpost.com/
     allow_url_regex: '(?i)phnompenhpost\.com/(national|international|business|politics)/.+'
     deny_url_regex: '(?i)/(video|photo|tag/|search|about)'
+
 
 
 
