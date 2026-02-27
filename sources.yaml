@@ -745,6 +745,8 @@ sources:
     allow_url_regex: '(?i)amwaj\.media/.+'
     deny_url_regex: '(?i)/(video|photo|privacy|cookies)'
 
+
+
   # ======================
   # Eastern Europe
   # ======================
@@ -1354,6 +1356,19 @@ sources:
     allow_url_regex: '(?i)myrepublica\.nagariknetwork\.com/.+'
     deny_url_regex: '(?i)/(video|photo|privacy|cookies)'
 
+
+  - name: TOLOnews
+    continent: South Asia
+    url: https://tolonews.com
+    allow_url_regex: '(?i)tolonews\.com/.+'
+    deny_url_regex: '(?i)/(video|gallery|privacy|cookies)'
+ 
+  - name: Pajhwok Afghan News
+    continent: South Asia
+    url: https://pajhwok.com
+    allow_url_regex: '(?i)pajhwok\.com/.+'
+    deny_url_regex: '(?i)/(video|gallery|privacy|cookies)'
+
   # ======================
   # Asia (EN/JP)
   # ======================
@@ -1504,6 +1519,7 @@ sources:
     url: https://www.phnompenhpost.com/
     allow_url_regex: '(?i)phnompenhpost\.com/(national|international|business|politics)/.+'
     deny_url_regex: '(?i)/(video|photo|tag/|search|about)'
+
 
 
 
