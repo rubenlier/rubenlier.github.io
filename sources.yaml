@@ -223,6 +223,13 @@ sources:
     deny_url_regex: '(?i)/(video|audio)'
 
 
+  - name: Viðskiptablaðið
+    continent: Europe North
+    url: https://www.vb.is
+    allow_url_regex: '(?i)vb\.is/.+'
+    deny_url_regex: '(?i)/(video|myndir|gallery|privacy|cookies)'
+
+
   # ======================
   # France (FR)
   # ======================
@@ -1471,11 +1478,7 @@ sources:
     allow_url_regex: '(?i)tempo\.co/(news|politics|business|world)/.+'
     deny_url_regex: '(?i)/(video|photo|tag|index|amp|rss)'
   
-  - name: Rappler
-    continent: East Asia
-    url: https://www.rappler.com/
-    allow_url_regex: '(?i)rappler\.com/(nation|world|business|asia-pacific|news)/.+'
-    deny_url_regex: '(?i)/(video|podcast|live|tag/|topics|about|contact)'
+
   
   - name: The Irrawaddy
     continent: East Asia
@@ -1488,6 +1491,7 @@ sources:
     url: https://www.phnompenhpost.com/
     allow_url_regex: '(?i)phnompenhpost\.com/(national|international|business|politics)/.+'
     deny_url_regex: '(?i)/(video|photo|tag/|search|about)'
+
 
 
 
