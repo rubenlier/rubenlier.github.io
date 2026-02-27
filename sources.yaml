@@ -146,19 +146,19 @@ sources:
 
 
   - name: Hamburger Abendblatt
-    continent: Europe West
+    continent: Europe North
     url: https://www.abendblatt.de
     allow_url_regex: '(?i)abendblatt\.de/.+'
     deny_url_regex: '(?i)/(video|podcast|bilder|privacy|cookies)'
 
   - name: Westdeutsche Allgemeine Zeitung (WAZ)
-    continent: Europe West
+    continent: Europe North
     url: https://www.waz.de
     allow_url_regex: '(?i)waz\.de/.+'
     deny_url_regex: '(?i)/(video|podcast|bilder|privacy|cookies)'
 
   - name: Die Zeit
-    continent: Europe West
+    continent: Europe North
     url: https://www.zeit.de
     allow_url_regex: '(?i)zeit\.de/.+'
     deny_url_regex: '(?i)/(video|podcast|spiele|privacy|cookies)'
@@ -1579,6 +1579,7 @@ sources:
     url: https://www.phnompenhpost.com/
     allow_url_regex: '(?i)phnompenhpost\.com/(national|international|business|politics)/.+'
     deny_url_regex: '(?i)/(video|photo|tag/|search|about)'
+
 
 
 
