@@ -47,17 +47,12 @@ jobs:
           # Build request JSON directly in bash
           REQ='{"jsonl_url":"'"$RAW_URL"'","top_k":10}'
 
-          # Retry logic: total attempts = 5 (initial + 4 retries)
           attempt=1
           max_attempts=5
 
           while true; do
             tmp="output_new_attempt_${attempt}.json"
 
-            # Robust curl:
-            # - force HTTP/1.1 to avoid occasional HTTP/2 peer resets
-            # - add curl-internal retries for transient network errors
-            # - timeouts to avoid hanging
             http_code=$(
               curl -sS -o "$tmp" -w "%{http_code}" -X POST "$URL" \
                 -H "Content-Type: application/json; charset=utf-8" \
@@ -65,7 +60,7 @@ jobs:
                 --data-binary "$REQ" \
                 --http1.1 \
                 --connect-timeout 15 \
-                --max-time 300 \
+                --max-time 1800 \
                 --retry 3 \
                 --retry-all-errors \
                 --retry-delay 2 \
@@ -77,20 +72,21 @@ jobs:
             head -c 400 "$tmp" 2>/dev/null || true
             echo
 
-            # Success: keep the successful body as output_new.json
+            # Success
             if [ "$http_code" = "200" ]; then
               mv "$tmp" output_new.json
               break
             fi
 
-            # Retry-worthy conditions:
-            # 000 = curl/network error
-            # 409 = lock already running
-            # 429 = cooldown active
-            # 500/502/503/504 = transient server errors
+            # IMPORTANT: cooldown is not a failure for the scheduled job
+            if [ "$http_code" = "429" ]; then
+              echo "Cooldown active; exiting successfully (no update performed)."
+              exit 0
+            fi
+
+            # Retry-worthy: 000 network error, 409 lock, transient 5xx
             if [ "$http_code" = "000" ] || \
                [ "$http_code" = "409" ] || \
-               [ "$http_code" = "429" ] || \
                [ "$http_code" = "500" ] || \
                [ "$http_code" = "502" ] || \
                [ "$http_code" = "503" ] || \
@@ -98,19 +94,17 @@ jobs:
 
               if [ "$attempt" -ge "$max_attempts" ]; then
                 echo "Failed after $attempt attempts."
-                # Keep the last response body for debugging
                 mv "$tmp" output_new.json 2>/dev/null || true
                 exit 1
               fi
 
-              # backoff: 15s, 30s, 45s, ...
-              sleep $((attempt * 15))
+              sleep $((attempt * 30))
               attempt=$((attempt + 1))
               rm -f "$tmp" || true
               continue
             fi
 
-            # Any other non-200 code: fail immediately, keep body
+            # Any other non-200 code: fail immediately, keep body for debugging
             mv "$tmp" output_new.json 2>/dev/null || true
             exit 1
           done
