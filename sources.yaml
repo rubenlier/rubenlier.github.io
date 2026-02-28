@@ -281,6 +281,13 @@ sources:
     deny_url_regex: '(?i)/(video|podcast|live|privacy|cookies)'
 
 
+  - name: La Croix
+    continent: Europe South
+    url: https://www.la-croix.com
+    allow_url_regex: '(?i)la-croix\.com/(France|Monde|Economie|Religion|Culture|Sciences|Famille|Debats)/.+'
+    deny_url_regex: '(?i)/(video|podcast|direct|live|newsletter|privacy|cookies|login|inscription)'
+
+
   - name: France24
     continent: Europe South
     url: https://www.france24.com
@@ -1575,6 +1582,7 @@ sources:
     url: https://www.phnompenhpost.com/
     allow_url_regex: '(?i)phnompenhpost\.com/(national|international|business|politics)/.+'
     deny_url_regex: '(?i)/(video|photo|tag/|search|about)'
+
 
 
 
