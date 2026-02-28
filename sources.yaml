@@ -1087,13 +1087,13 @@ sources:
 
 
   - name: Le Desk (Morocco)
-    continent: North Africa
+    continent: Africa
     url: https://ledesk.ma
     allow_url_regex: '(?i)ledesk\.ma/.+'
     deny_url_regex: '(?i)/(video|photo|privacy|cookies)'
 
   - name: Egypt Independent
-    continent: North Africa
+    continent: Africa
     url: https://www.egyptindependent.com
     allow_url_regex: '(?i)egyptindependent\.com/.+'
     deny_url_regex: '(?i)/(video|photo|privacy|cookies)'
@@ -1579,6 +1579,7 @@ sources:
     url: https://www.phnompenhpost.com/
     allow_url_regex: '(?i)phnompenhpost\.com/(national|international|business|politics)/.+'
     deny_url_regex: '(?i)/(video|photo|tag/|search|about)'
+
 
 
 
