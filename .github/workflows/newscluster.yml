@@ -5,8 +5,6 @@ on:
   schedule:
     - cron: "15 9 * * *"
 
-
-
 permissions:
   contents: write
 
@@ -22,7 +20,7 @@ jobs:
           ls -lah
           test -f headlines_latest.jsonl
 
-      - name: Run clustering via Cloud Run (retry twice on failure)
+      - name: Run clustering via Cloud Run (robust retries)
         env:
           URL: https://newscluster-api-416156146603.europe-west4.run.app/clusters/top
           SECRET: ${{ secrets.CRON_SECRET }}
@@ -38,27 +36,44 @@ jobs:
           RAW_URL="https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/${FILE}?nocache=$(date +%s)"
           echo "RAW_URL: $RAW_URL"
 
+          echo "Preflight: checking RAW_URL reachable..."
+          curl -sS -L --fail \
+            --connect-timeout 15 --max-time 60 \
+            -o /dev/null \
+            "$RAW_URL"
+          echo "RAW_URL OK"
+
           # Build request JSON directly in bash
           REQ='{"jsonl_url":"'"$RAW_URL"'","top_k":10}'
 
           # Retry logic: total attempts = 5 (initial + 4 retries)
           attempt=1
-          max_attempts=3
+          max_attempts=5
 
           while true; do
-            # capture HTTP code + body (also survive transient curl failures)
-            http_code=$(curl -sS -o output_new.json -w "%{http_code}" -X POST "$URL" \
-              -H "Content-Type: application/json; charset=utf-8" \
-              -H "X-CRON-SECRET: $SECRET" \
-              --data-binary "$REQ" || echo "000")
+            tmp="output_new_attempt_${attempt}.json"
+
+            http_code=$(
+              curl -sS -o "$tmp" -w "%{http_code}" -X POST "$URL" \
+                -H "Content-Type: application/json; charset=utf-8" \
+                -H "X-CRON-SECRET: $SECRET" \
+                --data-binary "$REQ" \
+                --http1.1 \
+                --connect-timeout 15 \
+                --max-time 1800 \
+                --retry 3 \
+                --retry-all-errors \
+                --retry-delay 2 \
+              || echo "000"
+            )
 
             echo "Attempt $attempt/$max_attempts - HTTP: $http_code"
             echo "First 400 chars of response:"
-            head -c 400 output_new.json 2>/dev/null || true
+            head -c 400 "$tmp" 2>/dev/null || true
             echo
 
-            # Success
             if [ "$http_code" = "200" ]; then
+              mv "$tmp" output_new.json
               break
             fi
 
@@ -77,21 +92,23 @@ jobs:
 
               if [ "$attempt" -ge "$max_attempts" ]; then
                 echo "Failed after $attempt attempts."
+                mv "$tmp" output_new.json 2>/dev/null || true
                 exit 1
               fi
 
               sleep $((attempt * 15))
               attempt=$((attempt + 1))
+              rm -f "$tmp" || true
               continue
             fi
 
-            # Any other non-200 code: fail immediately
+            # Any other non-200 code: fail immediately, keep body for debugging
+            mv "$tmp" output_new.json 2>/dev/null || true
             exit 1
           done
 
-          # Merge new run into output.json (append instead of overwrite)
-                    # Write newest run to output_latest.json AND append to output.json (history)
-           python - << 'PY'
+          # Write newest run to output_latest.json AND append to output.json (history)
+          python - << 'PY'
           import json, os
           from datetime import datetime, timezone
 
@@ -115,6 +132,14 @@ jobs:
                   # if file exists but is corrupted/non-json, don't brick the workflow
                   existing = []
 
+          # --- basic validations ---
+          clusters = new_run.get("clusters")
+          assert isinstance(clusters, list) and len(clusters) > 0, "No clusters in new run"
+
+          ip = new_run.get("input_path")
+          if isinstance(ip, str):
+              assert ip.startswith("https://raw.githubusercontent.com/"), f"bad input_path: {ip}"
+
           # --- append + write history ---
           existing.append(new_run)
           with open("output.json","w",encoding="utf-8") as f:
@@ -124,19 +149,13 @@ jobs:
           with open("output_latest.json","w",encoding="utf-8") as f:
               json.dump([new_run], f, ensure_ascii=False, indent=2)
 
-          # --- basic validations ---
-          clusters = new_run.get("clusters")
-          assert isinstance(clusters, list) and len(clusters) > 0, "No clusters in new run"
-
-          ip = new_run.get("input_path")
-          assert isinstance(ip, str) and ip.startswith("https://raw.githubusercontent.com/"), f"bad input_path: {ip}"
-
           print("OK wrote output_latest.json and output.json. total runs:", len(existing), "clusters in new run:", len(clusters))
           PY
 
-
       - name: Cleanup temp files
-        run: rm -f output_new.json
+        run: |
+          rm -f output_new.json
+          rm -f output_new_attempt_*.json
 
       - name: Commit output
         run: |
@@ -152,6 +171,3 @@ jobs:
 
           git commit -m "Update world news clusters"
           git push
-
-          
-          
