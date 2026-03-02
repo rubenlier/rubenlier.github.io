@@ -768,6 +768,51 @@ sources:
 
 
 
+  - name: Al-Ahram (Arabic)
+    continent: Middle East
+    url: https://gate.ahram.org.eg
+    allow_url_regex: '(?i)gate\.ahram\.org\.eg/.+'
+    deny_url_regex: '(?i)/(video|gallery|photo|privacy|cookies|rss|archive)'
+
+  - name: Youm7 (اليوم السابع)
+    continent: Middle East
+    url: https://www.youm7.com
+    allow_url_regex: '(?i)youm7\.com/.+'
+    deny_url_regex: '(?i)/(video|videos|gallery|photo|rss|search|privacy|cookies)'
+
+
+  - name: Addustour (الدستور - Jordan)
+    continent: Middle East
+    url: https://www.addustour.com
+    allow_url_regex: '(?i)addustour\.com/.+'
+    deny_url_regex: '(?i)/(video|videos|gallery|photo|tag/|search|privacy|cookies|rss)'
+
+  - name: Al Rai (الرأي - Jordan)
+    continent: Middle East
+    url: https://alrai.com
+    allow_url_regex: '(?i)alrai\.com/.+'
+    deny_url_regex: '(?i)/(video|videos|gallery|photo|tag/|search|privacy|cookies|rss)'
+
+  - name: Annahar (النهار - Lebanon)
+    continent: Middle East
+    url: https://www.annahar.com
+    allow_url_regex: '(?i)annahar\.com/.+'
+    deny_url_regex: '(?i)/(video|videos|gallery|photo|opinion|tag/|search|privacy|cookies)'
+
+  - name: Al Qabas (القبس - Kuwait)
+    continent: Middle East
+    url: https://www.alqabas.com
+    allow_url_regex: '(?i)alqabas\.com/.+'
+    deny_url_regex: '(?i)/(video|videos|gallery|photo|tag/|search|privacy|cookies)'
+
+  - name: Oman Daily (عمان - Oman)
+    continent: Middle East
+    url: https://www.omandaily.om
+    allow_url_regex: '(?i)omandaily\.om/.+'
+    deny_url_regex: '(?i)/(video|videos|gallery|photo|tag/|search|privacy|cookies)'
+
+
+
   # ======================
   # Eastern Europe
   # ======================
@@ -1100,6 +1145,25 @@ sources:
     url: https://www.egyptindependent.com
     allow_url_regex: '(?i)egyptindependent\.com/.+'
     deny_url_regex: '(?i)/(video|photo|privacy|cookies)'
+
+
+  - name: Hespress (هسبريس)
+    continent: Africa
+    url: https://www.hespress.com
+    allow_url_regex: '(?i)hespress\.com/.+'
+    deny_url_regex: '(?i)/(video|videos|gallery|photo|tag/|search|privacy|cookies)'
+
+  - name: Assabah (الصباح - Morocco)
+    continent: Africa
+    url: https://assabah.ma
+    allow_url_regex: '(?i)assabah\.ma/.+'
+    deny_url_regex: '(?i)/(video|gallery|photo|tag/|search|privacy|cookies)'
+
+  - name: Alsumaria (السومرية نيوز - Iraq)
+    continent: Middle East
+    url: https://www.alsumaria.tv
+    allow_url_regex: '(?i)alsumaria\.tv/news/.+'
+    deny_url_regex: '(?i)/(video|videos|gallery|photo|search|privacy|cookies)'
 
   # ======================
   # United States (EN)
@@ -1582,6 +1646,7 @@ sources:
     url: https://www.phnompenhpost.com/
     allow_url_regex: '(?i)phnompenhpost\.com/(national|international|business|politics)/.+'
     deny_url_regex: '(?i)/(video|photo|tag/|search|about)'
+
 
 
 
