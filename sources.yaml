@@ -1573,6 +1573,18 @@ sources:
     allow_url_regex: '(?i)asahi\.com/ajw/articles/'
     deny_url_regex: '(?i)/(video|podcast|gallery|privacy|cookies)'
 
+  - name: Kyodo News (JP)
+    continent: Asia East
+    url: https://www.kyodo.co.jp
+    allow_url_regex: '(?i)kyodo\.co\.jp/.+'
+    deny_url_regex: '(?i)/(photo|video|gallery|ranking|privacy|cookies)'
+
+  - name: Kyodo News (EN)
+    continent: Asia East
+    url: https://english.kyodonews.net
+    allow_url_regex: '(?i)english\.kyodonews\.net/news/.+'
+    deny_url_regex: '(?i)/(photo|video|gallery|ranking|privacy|cookies)'
+
 
 
 
@@ -1646,6 +1658,7 @@ sources:
     url: https://www.phnompenhpost.com/
     allow_url_regex: '(?i)phnompenhpost\.com/(national|international|business|politics)/.+'
     deny_url_regex: '(?i)/(video|photo|tag/|search|about)'
+
 
 
 
