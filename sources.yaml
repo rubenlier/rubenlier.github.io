@@ -1470,6 +1470,19 @@ sources:
     allow_url_regex: '(?i)dawn\.com/news/\d+'
     deny_url_regex: '(?i)/(video|images?|live|blog|tag/|search)'
 
+  
+  - name: Jang
+    continent: South Asia
+    url: https://jang.com.pk
+    allow_url_regex: '(?i)jang\.com\.pk/.+'
+    deny_url_regex: '(?i)/(video|gallery|live|epaper|privacy|cookies)'
+  
+  - name: Nawa-i-Waqt
+    continent: South Asia
+    url: https://www.nawaiwaqt.com.pk
+    allow_url_regex: '(?i)nawaiwaqt\.com\.pk/.+'
+    deny_url_regex: '(?i)/(video|gallery|live|epaper|privacy|cookies)'
+  
 
   - name: MyRepublica
     continent: South Asia
