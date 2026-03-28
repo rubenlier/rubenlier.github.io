@@ -1,363 +1,599 @@
 [
   {
-    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1774641047",
-    "n_items": 2884,
-    "n_clusters": 2367,
+    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1774674231",
+    "n_items": 2893,
+    "n_clusters": 2351,
     "clusters": [
       {
-        "score": 147.93985121848817,
-        "size": 29,
+        "score": 156.8456407486247,
+        "size": 28,
         "n_sources": 27,
         "n_continents": 7,
         "continents": [
           "China",
+          "East Asia",
+          "Europe North",
+          "Europe South",
+          "North America",
+          "Oceania",
+          "South Asia"
+        ],
+        "coherence": 0.8627030253410339,
+        "title": "Tiger Woods arrested and charged with driving under influence after Florida car crash",
+        "central_article": {
+          "title": "Tiger Woods arrested and charged with driving under influence after Florida car crash",
+          "url": "https://www.channelnewsasia.com/sport/tiger-woods-arrested-driving-under-influence-car-crash-6022271",
+          "source_id": "channelnewsasia.com",
+          "continent": "East Asia",
+          "published_at": null,
+          "scraped_at_utc": "2026-03-28T04:55:20.864172+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9440010786056519,
+            "article": {
+              "title": "Tiger Woods arrested and charged with driving under influence after Florida car crash",
+              "url": "https://www.channelnewsasia.com/sport/tiger-woods-arrested-driving-under-influence-car-crash-6022271",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:55:20.864172+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.933051347732544,
+            "article": {
+              "title": "Tiger Woods arrested on suspicion of DUI after rollover crash in Florida",
+              "url": "https://www.irishtimes.com/sport/golf/2026/03/27/tiger-woods-arrested-on-suspicion-of-dui-after-rollover-crash-in-florida/",
+              "source_id": "irishtimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:51:13.573824+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9294717311859131,
+            "article": {
+              "title": "Tiger Woods gripen för rattfylleri efter olycka",
+              "url": "https://www.dn.se/direkt/2026-03-27/tiger-woods-gripen-for-rattfylleri-efter-olycka/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:49:08.360980+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9292641878128052,
+            "article": {
+              "title": "Tiger Woods arrested and charged with DUI after rollover crash in Florida",
+              "url": "https://www.independent.co.uk/sport/golf/tiger-woods-car-crash-latest-b2947350.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:48:17.316542+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.928680419921875,
+            "article": {
+              "title": "Tiger Woods arrêté pour « conduite sous influence » après un accident de la route en Floride",
+              "url": "https://www.lemonde.fr/international/article/2026/03/27/tiger-woods-arrete-pour-conduite-sous-influence-apres-un-accident-de-la-route-en-floride_6674694_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:49:29.422744+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9266611933708191,
+            "article": {
+              "title": "Tiger Woods er anholdt efter bilulykke i påvirket tilstand",
+              "url": "https://politiken.dk/sport/art10787593/Tiger-Woods-er-anholdt-efter-bilulykke-i-p%C3%A5virket-tilstand",
+              "source_id": "politiken.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:49:06.419802+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9257501363754272,
+            "article": {
+              "title": "Tiger Woods arrested for DUI and property damage following rollover crash in Florida",
+              "url": "https://www.latimes.com/sports/story/2026-03-27/tiger-woods-crash-rollover-jupiter-island",
+              "source_id": "latimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:53:48.030821+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9204866290092468,
+            "article": {
+              "title": "Tiger Woods arrestato dopo un incidente stradale in Florida",
+              "url": "https://www.repubblica.it/esteri/2026/03/28/news/tiger_woods_arrestato_incidente_stradale_esame_urine-425249270/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:49:50.914361+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.909634530544281,
+            "article": {
+              "title": "Tiger Woods arrestato (e poi rilasciato) dopo un incidente d'auto in Florida: è accusato di guida in stato di ebbrezza",
+              "url": "https://www.corriere.it/esteri/26_marzo_28/tiger-woods-incidente-d-auto-in-florida-e-stato-arrestato-e-accusato-di-guida-in-stato-di-ebbrezza-11df141e-e78a-4240-910b-f938cf0ebxlk.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:49:52.900053+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9049786329269409,
+            "article": {
+              "title": "US-Golfstar Tiger Woods nach Autounfall festgenommen",
+              "url": "https://www.tagesschau.de/ausland/amerika/tiger-woods-unfall-102.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:48:35.703783+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8939437866210938,
+            "article": {
+              "title": "Tiger Woods arrested after another car crash",
+              "url": "https://www.sbs.com.au/news/article/tiger-woods-arrested-after-another-car-crash/qmpdztdeh",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:50:58.073851+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8929169178009033,
+            "article": {
+              "title": "Tiger Woods arrested following car crash near Florida home",
+              "url": "https://www.abc.net.au/news/2026-03-28/tiger-woods-involved-in-car-crash-near-florida-home/106506348",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:50:56.566507+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8834049701690674,
+            "article": {
+              "title": "Sports Tiger Woods arrested after car crash: DUI charge, mug shot released",
+              "url": "https://timesofindia.indiatimes.com/sports/golf/top-stories/tiger-woods-arrested-after-car-crash-dui-charge-mug-shot-released/articleshow/129857677.cms",
+              "source_id": "timesofindia.indiatimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:54:29.279579+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8743189573287964,
+            "article": {
+              "title": "Tiger Woods released on bail hours after arrest at crash scene on suspicion of DUI",
+              "url": "https://www.bostonglobe.com/2026/03/27/sports/tiger-woods-car-crash/",
+              "source_id": "bostonglobe.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:53:49.477579+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8743189573287964,
+            "article": {
+              "title": "Tiger Woods released on bail hours after arrest at crash scene on suspicion of DUI",
+              "url": "https://www.theguardian.com/sport/2026/mar/27/tiger-woods-rollover-crash-florida-jupiter-island",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:48:20.738533+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8723710179328918,
+            "article": {
+              "title": "Tiger Woods arrested after rollover car crash in Florida, sheriff says By Associated Press",
+              "url": "https://www.pbs.org/newshour/nation/tiger-woods-involved-in-rollover-car-crash-in-florida-sheriff-says",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:53:57.586994+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8675869703292847,
+            "article": {
+              "title": "Verenigde Staten Amerikaanse golfer Tiger Woods gearresteerd voor rijden onder invloed na verkeersongeval in Florida vr 27 mrt.",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/03/27/amerikaanse-golfer-tiger-woods-in-de-gevangenis-na-arrestatie-vo/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:49:38.730432+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8648966550827026,
+            "article": {
+              "title": "Tiger Woods released from jail after DUI arrest following rollover crash",
+              "url": "https://www.usatoday.com/story/sports/golf/2026/03/27/tiger-woods-crash-accident-florida/89352623007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:53:50.634053+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8630579710006714,
+            "article": {
+              "title": "Arrestan al golfista Tiger Woods en Florida tras sufrir un accidente y negarse a pasar una prueba de sustancias",
+              "url": "https://www.bbc.com/mundo/articles/cwyv79yexj9o",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:49:57.242325+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8298949003219604,
+            "article": {
+              "title": "Tiger Woods’ rollover crash is golfer’s fourth high-profile car accident and second DUI arrest",
+              "url": "https://apnews.com/article/tiger-woods-car-crash-dui-e0cb3bc5ff0df5552b3a0f8368df7bc9",
+              "source_id": "apnews.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:53:24.952764+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8193895220756531,
+            "article": {
+              "title": "6 uur geleden • Golf Golfer Woods gearresteerd voor rijden onder invloed na auto-ongeluk",
+              "url": "https://nos.nl/artikel/2608127-golfer-woods-gearresteerd-voor-rijden-onder-invloed-na-auto-ongeluk",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:48:26.879999+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8041032552719116,
+            "article": {
+              "title": "Arrestan a Woods por conducir bajo influencia de sustancia",
+              "url": "https://www.reforma.com/arrestan-a-woods-por-conducir-bajo-influencia-de-sustancia/ar3177266?v=7",
+              "source_id": "reforma.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:49:59.764664+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7914637923240662,
+            "article": {
+              "title": "Jason Oteri/AP Tiger Woods misstänkt för rattfylleri efter bilkrasch Golfstjärnan greps i Florida • Vägrade lämna urinprov.",
+              "url": "https://www.dn.se/varlden/tiger-woods-gripen-for-rattfylleri-vagrade-lamna-urinprov/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:49:08.360980+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7797627449035645,
+            "article": {
+              "title": "Tiger Woods released on bail after arrest on suspicion of DUI The golf legend managed to crawl out of his Land Rover after it struck another vehicle and rolled on its side.",
+              "url": "https://www.scmp.com/news/world/united-states-canada/article/3348218/tiger-woods-involved-rollover-car-crash-florida?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:53:59.012758+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7663440704345703,
+            "article": {
+              "title": "タイガー・ウッズ選手を逮捕 横転事故起こす、薬の影響下で運転か",
+              "url": "https://www.asahi.com/articles/ASV3W7TGNV3WUHBI009M.html?iref=comtop_7_02",
+              "source_id": "asahi.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:55:24.544380+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7555969953536987,
+            "article": {
+              "title": "ٹائیگر ووڈز گاڑی حادثے میں پراپرٹی کو نقصان پہنچانے پر گرفتار",
+              "url": "https://jang.com.pk/news/1568680",
+              "source_id": "jang.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:54:50.173291+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7387083172798157,
+            "article": {
+              "title": "高尔夫球星“老虎”伍兹涉酒驾或药驾被捕，特朗普：感到难过",
+              "url": "https://www.stnn.cc/c/2026-03-28/4048841.shtml",
+              "source_id": "stnn.cc",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:54:23.683614+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.731626033782959,
+            "article": {
+              "title": "Νέο τροχαίο στη Φλόριντα για τον Τάιγκερ Γουντς – Οδηγούσε υπό την επήρεια ουσιών",
+              "url": "https://www.tovima.gr/2026/03/27/world/taigker-gounts-neo-troxaio-gia-ton-astera-tou-gkolf-synelifthi-gia-odigisi-ypo-epireia-ousion/",
+              "source_id": "tovima.gr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:49:55.996314+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 121.06197888027793,
+        "size": 20,
+        "n_sources": 20,
+        "n_continents": 8,
+        "continents": [
+          "East Asia",
           "Europe East",
           "Europe North",
+          "Europe South",
           "Middle East",
           "North America",
           "South America",
           "South Asia"
         ],
-        "coherence": 0.8510117530822754,
-        "title": "Iran-linked hackers breach FBI Director Kash Patel’s personal email, publish excerpts online",
+        "coherence": 0.8442257642745972,
+        "title": "Iran-linked hackers breach FBI director's personal email, publish photos and documents",
         "central_article": {
-          "title": "Iran-linked hackers breach FBI Director Kash Patel’s personal email, publish excerpts online",
-          "url": "https://www.dawn.com/news/1985963/iran-linked-hackers-breach-fbi-director-kash-patels-personal-email-publish-excerpts-online",
-          "source_id": "dawn.com",
-          "continent": "South Asia",
+          "title": "Iran-linked hackers breach FBI director's personal email, publish photos and documents",
+          "url": "https://www.channelnewsasia.com/world/iran-hackers-fbi-director-kash-patel-handala-us-israel-war-6022201",
+          "source_id": "channelnewsasia.com",
+          "continent": "East Asia",
           "published_at": null,
-          "scraped_at_utc": "2026-03-27T19:38:31.011582+00:00"
+          "scraped_at_utc": "2026-03-28T04:55:20.864172+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9385040998458862,
+            "sim_to_centroid": 0.9390379190444946,
             "article": {
-              "title": "Iran-linked hackers breach FBI Director Kash Patel’s personal email, publish excerpts online",
-              "url": "https://www.dawn.com/news/1985963/iran-linked-hackers-breach-fbi-director-kash-patels-personal-email-publish-excerpts-online",
-              "source_id": "dawn.com",
-              "continent": "South Asia",
+              "title": "Iran-linked hackers breach FBI director's personal email, publish photos and documents",
+              "url": "https://www.channelnewsasia.com/world/iran-hackers-fbi-director-kash-patel-handala-us-israel-war-6022201",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:38:31.011582+00:00"
+              "scraped_at_utc": "2026-03-28T04:55:20.864172+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9377119541168213,
+            "sim_to_centroid": 0.927158772945404,
             "article": {
-              "title": "Iran-linked hackers breach FBI director Kash Patel’s personal e-mail, publish excerpts online",
-              "url": "https://www.theglobeandmail.com/world/us-politics/article-iran-linked-hackers-breach-fbi-director-kash-patel-email/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
+              "title": "Hackers vinculados a Irán acceden al correo personal del director del FBI y publican fotos personales suyas",
+              "url": "https://www.rtve.es/noticias/20260327/hackers-iran-acceden-correo-director-fbi-publican-fotos-personales/17001279.shtml",
+              "source_id": "rtve.es",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:34:57.927775+00:00"
+              "scraped_at_utc": "2026-03-28T04:49:47.966640+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9243417382240295,
-            "article": {
-              "title": "Iran-linked hackers steal, post FBI Director Kash Patel's emails",
-              "url": "https://www.usatoday.com/story/news/world/2026/03/27/iran-kash-patel-fbi-emails-hacked/89348915007/",
-              "source_id": "usatoday.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:37:34.782294+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9129657745361328,
-            "article": {
-              "title": "Iran-linked hackers claim breach of FBI chief Kash Patel's emails",
-              "url": "https://www.hindustantimes.com/world-news/iranlinked-hackers-claim-breach-of-fbi-chief-kash-patel-emails-publish-his-resume-says-report-doj-confirms-breach-101774623087891.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:38:15.912555+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9048294425010681,
-            "article": {
-              "title": "FBI director Kash Patel’s emails, photos hacked by Iran-linked group",
-              "url": "https://www.aljazeera.com/news/2026/3/27/fbi-director-kash-patels-emails-photos-hacked-by-iran-linked-group",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:14.493019+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9041280746459961,
-            "article": {
-              "title": "Iran-linked hackers breach FBI director's personal email, publish excerpts online",
-              "url": "https://www.thedailystar.net/news/world/news/iran-linked-hackers-breach-fbi-directors-personal-email-publish-excerpts-online-4136926",
-              "source_id": "thedailystar.net",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:38:20.150175+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9001701474189758,
-            "article": {
-              "title": "Pro-Iran hackers say they breached FBI chief Patel’s email account",
-              "url": "https://www.scmp.com/news/world/middle-east/article/3348214/pro-iran-hackers-say-they-breached-fbi-chief-patels-email-account-post-personal-files?module=latest&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:37:44.873289+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.897401750087738,
+            "sim_to_centroid": 0.9265302419662476,
             "article": {
               "title": "Iran-linked hackers publish excerpts of FBI director's personal email online",
               "url": "https://news.yahoo.com/articles/iran-linked-hackers-claim-breach-142402770.html",
               "source_id": "news.yahoo.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:37:39.781275+00:00"
+              "scraped_at_utc": "2026-03-28T04:53:53.812062+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8944446444511414,
+            "sim_to_centroid": 0.9165912866592407,
             "article": {
-              "title": "FBI director Kash Patel’s inbox breached: Iranian hackers leak private photos, resume",
-              "url": "https://indianexpress.com/article/world/us-news/fbi-director-kash-patels-personal-inbox-breached-iranian-hackers-leak-private-photos-resume-10605119/",
-              "source_id": "indianexpress.com",
-              "continent": "South Asia",
+              "title": "FBI director’s personal email, photos and documents leaked by Iran-linked hackers",
+              "url": "https://www.theguardian.com/us-news/2026/mar/27/fbi-director-kash-patel-email-hacked-by-iran",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:38:17.117879+00:00"
+              "scraped_at_utc": "2026-03-28T04:48:20.738533+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8944438099861145,
-            "article": {
-              "title": "Pro-Iranian hacking group claims credit for hack of FBI Director Kash Patel’s personal account",
-              "url": "https://apnews.com/article/patel-iran-hacking-cyberscurity-9237ca30d1c85f237d7d83e6798d97f0",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:37:09.328496+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8944438099861145,
-            "article": {
-              "title": "Pro-Iranian hacking group claims credit for hack of FBI Director Kash Patel’s personal account",
-              "url": "https://www.bostonglobe.com/2026/03/27/nation/kash-patel-hacked-pro-iranian-group/",
-              "source_id": "bostonglobe.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:37:33.608591+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8944438099861145,
-            "article": {
-              "title": "Pro-Iranian hacking group claims credit for hack of FBI Director Kash Patel’s personal account",
-              "url": "https://www.chicagotribune.com/2026/03/27/pro-iranian-hacking-kash-patel/",
-              "source_id": "chicagotribune.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:37:38.010700+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8944438099861145,
-            "article": {
-              "title": "Pro-Iranian hacking group claims credit for hack of FBI Director Kash Patel’s personal account",
-              "url": "https://www.latimes.com/world-nation/story/2026-03-27/pro-iranian-hacking-group-claims-credit-for-hack-of-fbi-director-kash-patels-personal-account",
-              "source_id": "latimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:37:32.284951+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8856548070907593,
+            "sim_to_centroid": 0.9162849187850952,
             "article": {
               "title": "Iranische Hacker veröffentlichen E-Mails des FBI-Chefs",
               "url": "https://www.spiegel.de/netzwelt/kash-patel-iranische-hacker-knacken-e-mail-postfach-des-fbi-chefs-a-ea1b25ea-0cb4-447c-9f17-632e3b6a8eed",
               "source_id": "spiegel.de",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:08.138979+00:00"
+              "scraped_at_utc": "2026-03-28T04:48:39.702033+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8736097812652588,
-            "article": {
-              "title": "Pro-Iranian group claims credit for hacking into FBI Director Patel's personal account",
-              "url": "https://www.pbs.org/newshour/nation/pro-iranian-group-claims-credit-for-hacking-into-fbi-director-patels-personal-account",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:37:43.430096+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8617343902587891,
+            "sim_to_centroid": 0.8971999883651733,
             "article": {
               "title": "FBI director gets his personal email hacked by ‘Iran-linked group’ and shared online",
               "url": "https://www.independent.co.uk/news/world/americas/us-politics/kash-patel-email-hacked-iran-b2947143.html",
               "source_id": "independent.co.uk",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:32:49.428619+00:00"
+              "scraped_at_utc": "2026-03-28T04:48:17.316542+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8590571284294128,
-            "article": {
-              "title": "Irankrieg: Iran-nahe Gruppe soll E-Mails von FBI-Direktor Patel gehackt haben",
-              "url": "https://www.zeit.de/politik/ausland/2026-03/iran-krieg-usa-israel-liveblog",
-              "source_id": "zeit.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:19.256378+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8558155298233032,
+            "sim_to_centroid": 0.8886495232582092,
             "article": {
               "title": "Grupo proiraní hackea correo electrónico personal del director del FBI y difunde fotos suyas",
               "url": "https://www.emol.com/noticias/Internacional/2026/03/27/1195608/hackean-correo-director-fbi.html",
               "source_id": "emol.com",
               "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:34:25.987628+00:00"
+              "scraped_at_utc": "2026-03-28T04:50:19.803719+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8516968488693237,
+            "sim_to_centroid": 0.8868588805198669,
             "article": {
-              "title": "Privémail FBI-directeur en Trump-getrouwe Kash Patel gehackt",
-              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5583216/mail-fbi-directeur-en-trump-getrouwe-kash-patel-gehackt-fotos",
-              "source_id": "rtl.nl",
-              "continent": "Europe North",
+              "title": "FBI director Kash Patel’s emails, photos hacked by Iran-linked group",
+              "url": "https://www.aljazeera.com/news/2026/3/27/fbi-director-kash-patels-emails-photos-hacked-by-iran-linked-group",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:01.583713+00:00"
+              "scraped_at_utc": "2026-03-28T04:51:14.891115+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8411819934844971,
+            "sim_to_centroid": 0.8778828978538513,
             "article": {
               "title": "Hackers proiraníes divulgan cientos de documentos e imágenes privadas del director del FBI",
               "url": "https://www.latercera.com/mundo/noticia/hackers-proiranies-divulgan-cientos-de-documentos-e-imagenes-privadas-del-director-del-fbi/",
               "source_id": "latercera.com",
               "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:34:34.726649+00:00"
+              "scraped_at_utc": "2026-03-28T04:50:31.141550+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8326395153999329,
+            "sim_to_centroid": 0.8541857004165649,
+            "article": {
+              "title": "Hackere med tråde til Iran retter angreb mod FBI's direktør",
+              "url": "https://www.dr.dk/nyheder/seneste/hackere-med-traade-til-iran-retter-angreb-mod-fbi-s-direktoer",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:49:19.022332+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8403424620628357,
+            "article": {
+              "title": "Связанная с Ираном хактивистская группа взломала почту директора ФБР",
+              "url": "https://tengrinews.kz/world_news/svyazannaya-iranom-haktivistskaya-gruppa-vzlomala-pochtu-595752/",
+              "source_id": "tengrinews.kz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:52:37.736612+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.838908314704895,
+            "article": {
+              "title": "Email Bos FBI Dibobol Hacker Iran, Foto-foto Tak Terduga Tersebar di Internet Global",
+              "url": "https://www.kompas.com/global/read/2026/03/28/104100970/email-bos-fbi-dibobol-hacker-iran-foto-foto-tak-terduga-tersebar-di?source=headline",
+              "source_id": "kompas.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:55:51.594083+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8193531632423401,
+            "article": {
+              "title": "Privémail FBI-directeur en Trump-getrouwe Kash Patel gehackt",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5583216/mail-fbi-directeur-en-trump-getrouwe-kash-patel-gehackt-fotos",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:48:30.850879+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8172591924667358,
+            "article": {
+              "title": "Pro-Iranian group claims credit for hack of FBI Director Kash Patel’s personal account",
+              "url": "https://apnews.com/article/patel-iran-hacking-cyberscurity-9237ca30d1c85f237d7d83e6798d97f0",
+              "source_id": "apnews.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:53:24.952764+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8063203692436218,
             "article": {
               "title": "Andrew Thomas/ TT FBI-chefens privata bilder publicerade Iranstödd hackergrupp kom åt Kash Patels mejlkonto.",
               "url": "https://www.dn.se/varlden/irankopplad-hackergrupp-lackte-fbi-chefens-privata-bilder/",
               "source_id": "dn.se",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:25.958758+00:00"
+              "scraped_at_utc": "2026-03-28T04:49:08.360980+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8138684630393982,
+            "sim_to_centroid": 0.7900124788284302,
             "article": {
-              "title": "Grupo ligado a Teerã diz ter hackeado diretor do FBI e divulga arquivos",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/03/grupo-ligado-ao-ira-diz-ter-hackeado-contas-do-diretor-do-fbi-e-divulga-arquivos.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
+              "title": "ایرانی ہیکرز نے ایف بی آئی ڈائریکٹر کا ای میل ہیک کر لیا",
+              "url": "https://www.nawaiwaqt.com.pk/28-Mar-2026/1981020",
+              "source_id": "nawaiwaqt.com.pk",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:34:28.515369+00:00"
+              "scraped_at_utc": "2026-03-28T04:54:52.201274+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.796034038066864,
-            "article": {
-              "title": "Pro-Iran hackers say they breached FBI chief Patel’s email account Photos and other personal documents, many appearing over a decade old, were released by the group Handala.",
-              "url": "https://www.scmp.com/news/world/middle-east/article/3348214/pro-iran-hackers-say-they-breached-fbi-chief-patels-email-account-post-personal-files?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:37:44.873289+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7921222448348999,
+            "sim_to_centroid": 0.7595949172973633,
             "article": {
               "title": "Iran-linked Handala hacking group breached FBI and obtained Kash Patel photos",
               "url": "https://www.thenationalnews.com/future/2026/03/27/iran-hack-fbi-kash-patel-handala/",
               "source_id": "thenationalnews.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:16.275705+00:00"
+              "scraped_at_utc": "2026-03-28T04:51:16.205553+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.790360689163208,
+            "sim_to_centroid": 0.7567161321640015,
             "article": {
-              "title": "E-mailurile directorului FBI au fost sparte de hackeri cu legături cu Iranul, potrivit Departamentului de Justiție al SUA (Reuters)",
-              "url": "https://www.g4media.ro/e-mailurile-directorului-fbi-au-fost-sparte-de-hackeri-cu-legaturi-cu-iranul-potrivit-departamentul-de-justitie-al-sua-reuters.html",
-              "source_id": "g4media.ro",
-              "continent": "Europe East",
+              "title": "Hacked Files of F.B.I. Director Kash Patel Circulate Online",
+              "url": "https://www.nytimes.com/2026/03/27/us/fbi-director-kash-patel-hacked-email-iran.html",
+              "source_id": "nytimes.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:50.985007+00:00"
+              "scraped_at_utc": "2026-03-28T04:53:26.324405+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7327178120613098,
-            "article": {
-              "title": "Хакеры взломали почту директора ФБР",
-              "url": "https://ria.ru/20260327/fbr-2083411564.html",
-              "source_id": "ria.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:36:13.378796+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7263729572296143,
-            "article": {
-              "title": "Liverapport FBI-chefen hackad av pro-iransk grupp Hackergruppen: Hämnd för bombningen av iranska flickskolan",
-              "url": "https://www.svt.se/nyheter/utrikes/senaste-nytt-om-iran-och-konflikten-med-usa-och-israel?inlagg=68b379eb335cb0862055ca496c7c9ae1",
-              "source_id": "svt.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:31.758798+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7129555940628052,
+            "sim_to_centroid": 0.7527339458465576,
             "article": {
               "title": "Проиранские хакеры взломали электронную почту директора ФБР. Они опубликовали фотографии, где он курит сигары и корчит гримасы в зеркале",
               "url": "https://meduza.io/news/2026/03/27/proiranskie-hakery-vzlomali-elektronnuyu-pochtu-direktora-fbr-oni-opublikovali-fotografii-gde-on-kurit-sigary-i-korchit-grimasy-v-zerkale",
               "source_id": "meduza.io",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:36:01.860020+00:00"
+              "scraped_at_utc": "2026-03-28T04:52:12.059570+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6612453460693359,
+            "sim_to_centroid": 0.672893762588501,
             "article": {
-              "title": "Kash Patel shares new update amid massive Handala email hack; 'big breakthrough'",
-              "url": "https://www.hindustantimes.com/world-news/us-news/kash-patel-shares-new-update-amid-massive-handala-email-hack-big-breakthrough-101774628613869.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
+              "title": "Iran targets US public opinion with online information war",
+              "url": "https://www.france24.com/en/middle-east/20260325-iran-targets-us-public-opinion-with-online-information-war",
+              "source_id": "france24.com",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:38:15.912555+00:00"
+              "scraped_at_utc": "2026-03-28T04:49:35.219167+00:00"
             }
           }
         ]
       },
       {
-        "score": 130.1185056399396,
-        "size": 27,
-        "n_sources": 26,
-        "n_continents": 9,
+        "score": 95.30050739294404,
+        "size": 17,
+        "n_sources": 16,
+        "n_continents": 8,
         "continents": [
           "China",
-          "East Asia",
           "Europe East",
           "Europe North",
           "Europe South",
@@ -366,1672 +602,1393 @@
           "South America",
           "South Asia"
         ],
-        "coherence": 0.7826249003410339,
-        "title": "Iran war to end in weeks, not months, says Rubio",
+        "coherence": 0.8410009741783142,
+        "title": "Al menos 10 soldados estadounidenses resultaron heridos en ataque iraní contra base aérea en Arabia Saudita",
         "central_article": {
-          "title": "Iran war to end in weeks, not months, says Rubio",
-          "url": "https://www.thetimes.com/world/middle-east/article/iran-war-latest-news-us-trump-tehran-h82cs3n0v",
-          "source_id": "thetimes.com",
-          "continent": "Europe North",
+          "title": "Al menos 10 soldados estadounidenses resultaron heridos en ataque iraní contra base aérea en Arabia Saudita",
+          "url": "https://www.latercera.com/mundo/noticia/al-menos-10-soldados-estadounidenses-resultaron-heridos-en-ataque-irani-contra-base-aerea-en-arabia-saudita/",
+          "source_id": "latercera.com",
+          "continent": "South America",
           "published_at": null,
-          "scraped_at_utc": "2026-03-27T19:32:51.083211+00:00"
+          "scraped_at_utc": "2026-03-28T04:50:31.141550+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9071786403656006,
+            "sim_to_centroid": 0.9099186658859253,
             "article": {
-              "title": "Iran war to end in weeks, not months, says Rubio",
-              "url": "https://www.thetimes.com/world/middle-east/article/iran-war-latest-news-us-trump-tehran-h82cs3n0v",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:32:51.083211+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.898101270198822,
-            "article": {
-              "title": "SUA se așteaptă ca operațiunea din Iran să se încheie în câteva săptămâni, nu în luni, spune Rubio",
-              "url": "https://hotnews.ro/sua-se-asteapta-ca-operatiunea-din-iran-sa-se-incheie-in-cateva-saptamani-nu-in-luni-spune-rubio-2204757",
-              "source_id": "hotnews.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:45.684103+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.877008855342865,
-            "article": {
-              "title": "Rubio tikisi, kad karo Irane tikslai bus pasiekti per artimiausias dvi savaites",
-              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/2879449/rubio-tikisi-kad-karo-irane-tikslai-bus-pasiekti-per-artimiausias-dvi-savaites",
-              "source_id": "lrt.lt",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:36:21.359969+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8767591714859009,
-            "article": {
-              "title": "Marco Rubio afirma que operación militar en Irán terminará en 'semanas', mientras EE. UU. se plantea enviar tropas",
-              "url": "https://www.eltiempo.com/mundo/medio-oriente/marco-rubio-afirma-que-la-operacion-militar-en-iran-terminara-en-cuestion-de-semanas-mientras-ee-uu-se-plantea-enviar-10-000-tropas-3543526",
-              "source_id": "eltiempo.com",
+              "title": "Al menos 10 soldados estadounidenses resultaron heridos en ataque iraní contra base aérea en Arabia Saudita",
+              "url": "https://www.latercera.com/mundo/noticia/al-menos-10-soldados-estadounidenses-resultaron-heridos-en-ataque-irani-contra-base-aerea-en-arabia-saudita/",
+              "source_id": "latercera.com",
               "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:34:21.884619+00:00"
+              "scraped_at_utc": "2026-03-28T04:50:31.141550+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8621454238891602,
+            "sim_to_centroid": 0.9082213640213013,
             "article": {
-              "title": "Rubio says Iran war expected to last ‘weeks not months,’ no U.S. ground troops needed",
-              "url": "https://www.theglobeandmail.com/world/article-marco-rubio-iran-war-weeks-months-ground-troops/",
+              "title": "Iranian attack on Saudi base wounds at least 10 US troops",
+              "url": "https://www.newarab.com/news/iranian-attack-saudi-base-wounds-least-10-us-troops",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:51:33.187444+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.905086874961853,
+            "article": {
+              "title": "Iranian missile attack on Saudi base wounds at least 10 U.S. troops, damages planes",
+              "url": "https://www.theglobeandmail.com/business/article-iran-war-us-talks-israel/",
               "source_id": "theglobeandmail.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:34:57.927775+00:00"
+              "scraped_at_utc": "2026-03-28T04:50:55.023225+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8537362813949585,
+            "sim_to_centroid": 0.8845254778862,
             "article": {
-              "title": "Iran-Israel war LIVE: U.S. expects Iran operation to conclude in weeks, not months, says Rubio",
-              "url": "https://www.thehindu.com/news/international/iran-israel-war-highlights-west-asia-conflict-march-27-2026/article70790939.ece",
-              "source_id": "thehindu.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:38:14.568443+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.842740535736084,
-            "article": {
-              "title": "Rubio stellt Kriegsende in den „nächsten zwei Wochen“ in Aussicht",
-              "url": "https://www.welt.de/politik/ausland/article69c61eccaf187d606b8148a0/iran-rubio-stellt-kriegsende-in-den-naechsten-zwei-wochen-in-aussicht-keine-bodentruppen-noetig-liveticker.html",
-              "source_id": "welt.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:11.053647+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8330347537994385,
-            "article": {
-              "title": "Marco Rubio asegura al G7 que la guerra concluirá \"en semanas, no meses\"",
-              "url": "https://www.rtve.es/noticias/20260327/guerra-iran-ultima-hora-directo-hoy-resumen-cronica/16999515.shtml",
-              "source_id": "rtve.es",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:59.194644+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8177123069763184,
-            "article": {
-              "title": "War in Iran to last for weeks, Rubio tells G7 counterparts",
-              "url": "https://www.thenationalnews.com/news/mena/2026/03/27/live-us-israel-iran-war/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:16.275705+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8146231174468994,
-            "article": {
-              "title": "Marco Rubio revela cuándo podría terminar la guerra en Irán y habla sobre la capacidad nuclear del régimen",
-              "url": "https://www.semana.com/mundo/articulo/marco-rubio-revela-cuando-podria-terminar-la-guerra-en-iran-y-habla-sobre-la-capacidad-nuclear-del-regimen/202657/",
-              "source_id": "semana.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:34:23.253752+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8075451850891113,
-            "article": {
-              "title": "US expects Iran war to end in ‘next couple of weeks’; EU energy ministers to meet on Tuesday",
-              "url": "https://www.irishtimes.com/world/middle-east/2026/03/27/iran-war-updates-live-us-trump-israel-energy-middle-east/",
-              "source_id": "irishtimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:13.287131+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.803415834903717,
-            "article": {
-              "title": "روبيو: العملية في إيران ستنتهي خلال أسابيع",
-              "url": "https://www.aljazeera.net/news/2026/3/27/عاجل-ترمب-نقوم-بعمل-جيد-للغاية-في",
-              "source_id": "aljazeera.net",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:20.150943+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7833914756774902,
-            "article": {
-              "title": "Az amerikai külügyminiszter szerint nem hónapok, hanem már csak hetek vannak hátra az iráni háborúból",
-              "url": "https://telex.hu/kulfold/2026/03/27/iran-usa-izrael-kozel-keleti-haboru-huszonnyolcadik-nap",
-              "source_id": "telex.hu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:44.315430+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.77595454454422,
-            "article": {
-              "title": "واشنطن: الحرب مع إيران ستنتهي في غضون أسابيع",
-              "url": "https://www.alsumaria.tv/news/international/560027/واشنطن-الحرب-مع-إيران-ستنتهي-في-غضون-أسابيع",
-              "source_id": "alsumaria.tv",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:37:07.748114+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7558199763298035,
-            "article": {
-              "title": "সরাসরি যুদ্ধ কয়েক সপ্তাহের মধ্যে শেষ হবে, স্থলবাহিনী প্রয়োজন নেই: মার্কিন পররাষ্ট্রমন্ত্রী",
-              "url": "https://www.prothomalo.com/world/5slmsanxj1",
-              "source_id": "prothomalo.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:38:21.511487+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7501946091651917,
-            "article": {
-              "title": "美国务卿：对伊朗战事还将持续2到4周",
-              "url": "https://www.xinhuanet.com/20260328/be2b4bac8dbe48f18ad9e7ba4929b799/c.html",
-              "source_id": "xinhuanet.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:37:52.139253+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.747599184513092,
-            "article": {
-              "title": "forventer, at krigen slutter inden for uger og ikke måneder.",
-              "url": "https://www.dr.dk/nyheder/udland/rubio-vi-er-faerdige-med-iran-om-uger",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:34.556632+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.745415985584259,
-            "article": {
-              "title": "US can achieve Iran goals without ground troops, Rubio says",
-              "url": "https://www.jpost.com/international/article-891440",
-              "source_id": "jpost.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:17.586105+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7381372451782227,
-            "article": {
-              "title": "‘We’ve had an exchange…’: Marco Rubio reveals whether Iran has replied to US proposal US Iran war middle east",
-              "url": "https://www.hindustantimes.com/world-news/weve-had-an-exchange-marco-rubio-reveals-whether-iran-has-replied-to-us-proposal-us-iran-war-middle-east-101774634482299.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:38:15.912555+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7324217557907104,
-            "article": {
-              "title": "Rubio asegura que sin enviar tropas se puede lograr el objetivo en Irán",
-              "url": "https://www.lavanguardia.com/internacional/20260327/11501168/rubio-asegura-enviar-tropas-lograr-objetivo-iran.html",
-              "source_id": "lavanguardia.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:56.737264+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.728666365146637,
-            "article": {
-              "title": "Direct – Guerre au Moyen-Orient : les États-Unis prévoient la fin des opérations en Iran dans \"les deux prochaines semaines\"",
-              "url": "https://www.rtbf.be/article/trump-reporte-son-ultimatum-a-l-iran-le-detroit-d-ormuz-au-menu-du-g7-11701046",
-              "source_id": "rtbf.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:52.651715+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7284344434738159,
-            "article": {
-              "title": "Détroit d’Ormuz, plan de paix, fin des opérations… Marco Rubio fait plusieurs déclarations sur la guerre en Iran",
-              "url": "https://www.lesoir.be/737406/article/2026-03-27/detroit-dormuz-plan-de-paix-fin-des-operations-marco-rubio-fait-plusieurs",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:54.067146+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7177592515945435,
-            "article": {
-              "title": "Tehran's counter-proposal to US expected soon; Rubio hints at next move",
-              "url": "https://www.hindustantimes.com/world-news/us-israel-iran-war-news-live-updates-strait-of-hormuz-donald-trump-brent-crude-oil-price-strait-of-hormuz-101774572738158.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:38:15.912555+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.716471254825592,
-            "article": {
-              "title": "ABD'den yeni İran açıklaması! '2 ila 4 hafta sürecek'",
-              "url": "https://www.milliyet.com.tr/dunya/abdden-yeni-iran-aciklamasi-2-ila-4-hafta-surecek-7561692",
-              "source_id": "milliyet.com.tr",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:28.198969+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6965693235397339,
-            "article": {
-              "title": "Just nu Rubio: ”Veckor kvar av kriget, inte månader” USA:s utrikesminister mötte pressen efter G7-mötet",
-              "url": "https://www.svt.se/nyheter/utrikes/senaste-nytt-om-iran-och-konflikten-med-usa-och-israel?inlagg=205c8e5ca406ae4737d23a79711b313c",
-              "source_id": "svt.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:31.758798+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6693962812423706,
-            "article": {
-              "title": "國際 盧比歐：伊朗未回應停戰提案 美行動目標兩週內完成",
-              "url": "https://www.cna.com.tw/news/aopl/202603280003.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:39:36.168121+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6506428718566895,
-            "article": {
-              "title": "‘That’s a lie’: US’ Rubio attacks Zelensky, ready to divert Ukraine arms to Iran",
-              "url": "https://www.straitstimes.com/world/europe/thats-a-lie-us-rubio-attacks-zelensky-ready-to-divert-ukraine-arms-to-iran?ref=latest-headlines",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:39:31.138840+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 116.47996660364484,
-        "size": 31,
-        "n_sources": 25,
-        "n_continents": 9,
-        "continents": [
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "Oceania",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.7683237791061401,
-        "title": "Israel y EE UU atacan una instalación nuclear en Irán",
-        "central_article": {
-          "title": "Israel y EE UU atacan una instalación nuclear en Irán",
-          "url": "https://elpais.com/internacional/2026-03-27/ultima-hora-del-ataque-de-estados-unidos-e-israel-contra-iran-en-directo.html",
-          "source_id": "elpais.com",
-          "continent": "Europe South",
-          "published_at": null,
-          "scraped_at_utc": "2026-03-27T19:33:55.341239+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8931116461753845,
-            "article": {
-              "title": "Israel y EE UU atacan una instalación nuclear en Irán",
+              "title": "Un ataque con misiles iraníes contra una base en Arabia Saudí hiere a 12 soldados estadounidenses",
               "url": "https://elpais.com/internacional/2026-03-27/ultima-hora-del-ataque-de-estados-unidos-e-israel-contra-iran-en-directo.html",
               "source_id": "elpais.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:55.341239+00:00"
+              "scraped_at_utc": "2026-03-28T04:49:43.413097+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8724786043167114,
+            "sim_to_centroid": 0.881445050239563,
             "article": {
-              "title": "Israel y EE.UU. atacan dos complejos nucleares de Irán",
-              "url": "https://www.emol.com/noticias/Internacional/2026/03/27/1195595/ataque-complejos-nucleares-iran.html",
-              "source_id": "emol.com",
+              "title": "Israel hits Iranian nuclear facilities and Tehran strikes base in Saudi Arabia, wounding US troops",
+              "url": "https://www.chicagotribune.com/2026/03/27/israel-hits-iranian-nuke-facilities/",
+              "source_id": "chicagotribune.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:53:51.872069+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.871492326259613,
+            "article": {
+              "title": "Twelve US troops wounded in Iran strike on base in Saudi Arabia, US official says",
+              "url": "https://www.thedailystar.net/news/world/us-israel-war-iran/news/twelve-us-troops-wounded-iran-strike-base-saudi-arabia-us-official-says-4137241",
+              "source_id": "thedailystar.net",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:54:39.126292+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8639276623725891,
+            "article": {
+              "title": "Escalada. Un ataque con misiles de Irán a una base en Arabia Saudita dañó aviones e hirió soldados de EE.UU.",
+              "url": "https://www.lanacion.com.ar/el-mundo/un-ataque-con-misiles-de-iran-a-una-base-en-arabia-saudita-dano-aviones-e-hirio-soldados-de-eeuu-nid27032026/",
+              "source_id": "lanacion.com.ar",
               "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:34:25.987628+00:00"
+              "scraped_at_utc": "2026-03-28T04:50:10.303029+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8441253900527954,
+            "sim_to_centroid": 0.8634607195854187,
             "article": {
-              "title": "США и Израиль атаковали два ядерных объекта в Иране",
-              "url": "https://ria.ru/20260327/iran-2083376341.html",
-              "source_id": "ria.ru",
-              "continent": "Europe East",
+              "title": "US troops injured in Iran strike on base in Saudi Arabia. Live updates.",
+              "url": "https://www.usatoday.com/live-story/news/world/2026/03/27/trump-iran-war-israel-live-updates/89336556007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:36:13.378796+00:00"
+              "scraped_at_utc": "2026-03-28T04:53:50.634053+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8407297134399414,
+            "sim_to_centroid": 0.8586602210998535,
             "article": {
-              "title": "Israel strikes two Iranian nuclear sites for first time in war",
-              "url": "https://www.thenationalnews.com/news/mena/2026/03/27/israel-strikes-two-iranian-nuclear-sites-for-first-time-in-war/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:16.275705+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.80860435962677,
-            "article": {
-              "title": "Israel steps up attacks on Iran ahead of potential ceasefire",
-              "url": "https://www.thetimes.com/world/middle-east/article/israel-destroy-weapons-infrastructure-iran-war-ceasefire-26h76chbn",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:32:51.083211+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8045374751091003,
-            "article": {
-              "title": "Israel lanza nuevos ataques contra Teherán",
-              "url": "https://elcomercio.pe/mundo/oriente-medio/iran-israel-lanza-nuevos-ataques-contra-teheran-estados-unidos-urmia-qom-fuerzas-de-defensa-israeli-ultimas-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:34:33.380781+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7964410781860352,
-            "article": {
-              "title": "Irán lanza nuevos ataques contra Israel y objetivos de Estados Unidos en el Golfo Pérsico",
-              "url": "https://elcomercio.pe/mundo/oriente-medio/iran-lanza-nuevos-ataques-contra-israel-y-objetivos-de-estados-unidos-en-el-golfo-persico-donald-trump-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:34:33.380781+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7959359288215637,
-            "article": {
-              "title": "US and Israel hit nuclear sites as Rubio trails end to Iran war",
-              "url": "https://www.channelnewsasia.com/world/iran-us-israel-g7-meeting-rubio-trump-strikes-nuclear-sites-6021606",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:39:06.322847+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7921762466430664,
-            "article": {
-              "title": "Iran says nuclear facilities have been targeted after Israel warns attacks will escalate. Follow live updates.",
+              "title": "updates Iranian missile attack wounds several US troops at Saudi air base, AP source says. Follow live updates.",
               "url": "https://www.bostonglobe.com/2026/03/27/nation/trump-administration-iran-attacks-updates/",
               "source_id": "bostonglobe.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:37:33.608591+00:00"
+              "scraped_at_utc": "2026-03-28T04:53:49.477579+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7914332747459412,
+            "sim_to_centroid": 0.8552581071853638,
             "article": {
-              "title": "Israel ataca instalaciones nucleares iraníes y Marco Rubio dice que conflicto terminará “en un par de semanas”",
-              "url": "https://www.latercera.com/mundo/noticia/israel-ataca-instalaciones-nucleares-iranies-y-marco-rubio-dice-que-conflicto-terminara-en-un-par-de-semanas/",
-              "source_id": "latercera.com",
-              "continent": "South America",
+              "title": "Atac cu rachete iraniene în Arabia Saudită: 12 soldați americani au fost răniți",
+              "url": "https://www.g4media.ro/atac-cu-rachete-iraniene-in-arabia-saudita-12-soldati-americani-au-fost-raniti.html",
+              "source_id": "g4media.ro",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:34:34.726649+00:00"
+              "scraped_at_utc": "2026-03-28T04:51:59.210453+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7901490926742554,
+            "sim_to_centroid": 0.8388781547546387,
             "article": {
-              "title": "Israel, Iran launch new waves of strikes as war nears fifth week",
-              "url": "https://www.newarab.com/news/israel-iran-launch-new-waves-strikes-war-nears-fifth-week",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:30.944831+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7884339094161987,
-            "article": {
-              "title": "Israel ataca instalaciones siderúrgicas, energéticas y nucleares y Teherán denuncia que Trump viola su propio ultimátum",
-              "url": "https://www.rtve.es/noticias/20260327/israel-ataca-instalaciones-siderurgicas-energeticas-nucleares-teheran-denuncia-trump-viola-su-propio-ultimatum/17001452.shtml",
-              "source_id": "rtve.es",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:59.194644+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7867403030395508,
-            "article": {
-              "title": "تصعيد نوعي.. إسرائيل تقصف منشآت \"نووية\" وصناعية بإيران والحرس الثوري يهدد بالمثل",
-              "url": "https://www.aljazeera.net/news/2026/3/27/عاجل-الحرس-الثوري-الإيراني-العدو-2",
-              "source_id": "aljazeera.net",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:20.150943+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.781566321849823,
-            "article": {
-              "title": "US-Israel attacks on Iran: Death toll and injuries live tracker",
-              "url": "https://www.aljazeera.com/news/2026/3/1/us-israel-attacks-on-iran-death-toll-and-injuries-live-tracker",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:14.493019+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7663704752922058,
-            "article": {
-              "title": "9 injured as Iran fires 7 missile salvos at Israel within hours, many with cluster warheads",
-              "url": "https://www.timesofisrael.com/9-injured-as-iran-fires-7-missile-salvos-at-israel-within-hours-many-with-cluster-warheads/",
-              "source_id": "timesofisrael.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:18.960909+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7606472969055176,
-            "article": {
-              "title": "Israel intensifica la guerra en todos los frentes y amenaza con matar a más altos cargos iraníes",
-              "url": "https://elpais.com/internacional/2026-03-27/israel-intensifica-la-guerra-en-todos-los-frentes-y-amenaza-con-asesinar-a-mas-altos-cargos-iranies.html",
-              "source_id": "elpais.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:55.341239+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7558093070983887,
-            "article": {
-              "title": "अमेरिका-इजरायल ने ईरान के न्यूक्लियर साइट्स को बनाया निशाना, अब जवाबी कार्रवाई की तैयारी में तेहरान",
-              "url": "https://www.jagran.com/world/other-us-israel-targets-iran-nuclear-sites-war-latest-news-updates-40186443.html",
-              "source_id": "jagran.com",
+              "title": "ایران کا سعودی پرنس سلطان ایئربیس پر میزائل حملہ، متعدد امریکی فوجی زخمی",
+              "url": "https://jang.com.pk/news/1568671",
+              "source_id": "jang.com.pk",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:38:13.267547+00:00"
+              "scraped_at_utc": "2026-03-28T04:54:50.173291+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7550366520881653,
+            "sim_to_centroid": 0.8256882429122925,
             "article": {
-              "title": "Tehran accuses Trump of breaking pause on energy strikes after Israel bombs nuclear and power sites",
-              "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-oil-trump-israel-strait-of-hormuz-peace-talks-b2945090.html",
-              "source_id": "independent.co.uk",
+              "title": "إصابة 12 جندياً أميركياً بهجوم إيراني على قاعدة في السعودية",
+              "url": "https://www.annahar.com/international/iran/293207/إصابة-12-جنديا-أميركيا-في-هجوم-إيراني-على-قاعدة-في-السعودية",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:51:42.099063+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8064903020858765,
+            "article": {
+              "title": "Iran strike wounds US troops and damages planes at Saudi airbase Israel, meanwhile, hit more of Iran’s nuclear sites, prompting Tehran to vow retaliation.",
+              "url": "https://www.scmp.com/news/world/middle-east/article/3348220/iran-strike-wounds-us-troops-and-damages-planes-saudi-airbase?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:53:59.012758+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7996896505355835,
+            "article": {
+              "title": "美媒：伊朗袭击沙特基地 美军10人受伤多架加油机受损",
+              "url": "https://www.xinhuanet.com/20260328/8fae55e5e9e24b84b2071b1770fc660f/c.html",
+              "source_id": "xinhuanet.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:54:11.217639+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7650266885757446,
+            "article": {
+              "title": "Attack mot saudisk flygbas – amerikanska soldater skadade Iransk robot har träffat militärbasen Prince Sultan",
+              "url": "https://www.svt.se/nyheter/utrikes/senaste-nytt-om-iran-och-konflikten-med-usa-och-israel?inlagg=2b1e4b5cc43a17a89d8f9a68f2d7f380",
+              "source_id": "svt.se",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:32:49.428619+00:00"
+              "scraped_at_utc": "2026-03-28T04:49:15.969636+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7513773441314697,
+            "sim_to_centroid": 0.76081383228302,
             "article": {
-              "title": "How will the US-Israel war on Iran play out?",
-              "url": "https://www.newarab.com/news/how-will-us-israel-war-iran-play-out",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
+              "title": "NYE ANGREP I natt: Flere amerikanske soldater skadd",
+              "url": "https://www.dagbladet.no/studio/80616-angrepet-mot-iran/11422350-amerikanske-soldater-såret-i-iransk-angrep",
+              "source_id": "dagbladet.no",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:30.944831+00:00"
+              "scraped_at_utc": "2026-03-28T04:49:14.582851+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.750408411026001,
+            "sim_to_centroid": 0.6984318494796753,
             "article": {
-              "title": "US expects to end war in ‘weeks, not months’, says Rubio; Israel launches attacks on Iranian nuclear site",
-              "url": "https://www.smh.com.au/world/middle-east/us-iran-war-live-updates-us-expects-to-end-operation-in-weeks-not-months-says-rubio-g7-call-for-attacks-on-civilians-to-stop-israel-attacks-iranian-nuclear-facilities-20260327-p5zjg1.html",
-              "source_id": "smh.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:01.972105+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.744608461856842,
-            "article": {
-              "title": "Iran accuses US of fighting Israel’s war",
-              "url": "https://www.albawaba.com/news/iran-accuses-us-fighting-israel%E2%80%99s-war-1624378",
-              "source_id": "albawaba.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:29.492920+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7418011426925659,
-            "article": {
-              "title": "Israel US Iran War",
-              "url": "https://www.bhaskar.com/international/news/iran-us-attack-deadline-extended-april-6-trump-137544019.html",
-              "source_id": "bhaskar.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:38:11.992227+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7413722276687622,
-            "article": {
-              "title": "الحرب على إيران مباشر.. إسرائيل تستهدف منشآت ترتبط بتخصيب اليورانيوم والحرس الثوري يتوعد بالرد",
-              "url": "https://www.aljazeera.net/news/liveblog/2026/3/26/الحرب-على-إيران-مباشر-نتنياهو-يعلن",
-              "source_id": "aljazeera.net",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:20.150943+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7390868067741394,
-            "article": {
-              "title": "Russia Reportedly Moves to Arm Iran With Advanced Drones After US-Israel Strikes",
-              "url": "https://www.kyivpost.com/post/72662",
-              "source_id": "kyivpost.com",
+              "title": "13 soldați americani morți și peste 300 de răniţi, majoritatea ușor, de la începutul războiului împotriva Iranului (armată)",
+              "url": "https://www.g4media.ro/13-soldati-americani-morti-si-peste-300-de-raniti-majoritatea-usor-de-la-inceputul-razboiului-impotriva-iranului-armata.html",
+              "source_id": "g4media.ro",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:59.112905+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7275223731994629,
-            "article": {
-              "title": "SME Minúta: Izrael potvrdil zásah zariadenia na spracovanie uránu v strednom Iráne",
-              "url": "https://www.sme.sk/svet/c/iran-izrael-usa-trump-netanjahu-blizky-vychod-27-3-2026-online-minuta-po-minute",
-              "source_id": "sme.sk",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:56.259640+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7248138189315796,
-            "article": {
-              "title": "DEFENSE Iranian Army drones strike major Israeli military logistics site",
-              "url": "https://www.presstv.ir/Detail/2026/03/27/765924/Iranian-Army-drones-strike-major-Israeli-military-logistics-site",
-              "source_id": "presstv.ir",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:23.272845+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7204530239105225,
-            "article": {
-              "title": "‘Beyond eye for eye’: IRGC warns US, Israeli-linked sites after strike on nuclear, steel plants",
-              "url": "https://www.presstv.ir/Detail/2026/03/27/765933/IRGC-warns-workers-to-evacuate-US-Israeli-linked-sites-after-steel-plant-strikes",
-              "source_id": "presstv.ir",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:23.272845+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7083200812339783,
-            "article": {
-              "title": "Close shave for family as Iranian missile strikes neighbourhood near Tel Aviv",
-              "url": "https://www.channelnewsasia.com/shorts/close-shave-family-iranian-missile-strikes-neighbourhood-near-tel-aviv-6020946",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:39:06.322847+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6924233436584473,
-            "article": {
-              "title": "İran’da kritik tesisler vuruldu: Ağır su kompleksi ve 'sarı kek' hedef alındı",
-              "url": "https://www.cumhuriyet.com.tr/dunya/iran-da-kritik-tesisler-vuruldu-agir-su-kompleksi-ve-sari-kek-hedef-alindi-2490163",
-              "source_id": "cumhuriyet.com.tr",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:26.757542+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6817270517349243,
-            "article": {
-              "title": "الجيش الإسرائيلي يؤكد استهداف مفاعل آراك للماء الثقيل في وسط إيران",
-              "url": "https://alrai.com/article/10949820/عربي-ودولي/الجيش-الإسرائيلي-يؤكد-استهداف-مفاعل-آراك-للماء-الثقيل-في-وسط-إيران",
-              "source_id": "alrai.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:35.328093+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.669797420501709,
-            "article": {
-              "title": "Estados Unidos e Israel destruyeron instalaciones nucleares iraníes en junio de 2025. ( AFP )",
-              "url": "https://www.laestrella.com.pa/mundo/estados-unidos-e-israel-atacan-plantas-nucleares-en-iran-JD21112694",
-              "source_id": "laestrella.com.pa",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:34:18.368720+00:00"
+              "scraped_at_utc": "2026-03-28T04:51:59.210453+00:00"
             }
           }
         ]
       },
       {
-        "score": 98.40577088721129,
-        "size": 19,
-        "n_sources": 17,
-        "n_continents": 10,
+        "score": 68.96968918456625,
+        "size": 14,
+        "n_sources": 14,
+        "n_continents": 8,
         "continents": [
           "China",
-          "East Asia",
           "Europe East",
           "Europe North",
           "Europe South",
           "Middle East",
           "North America",
-          "Oceania",
           "South America",
           "South Asia"
         ],
-        "coherence": 0.7906602025032043,
-        "title": "Trump extends deadline for Iran to reopen oil route or face power plant strikes",
+        "coherence": 0.8030336499214172,
+        "title": "'Strait of Trump': US president says Iran must open key waterway",
         "central_article": {
-          "title": "Trump extends deadline for Iran to reopen oil route or face power plant strikes",
-          "url": "https://www.pbs.org/newshour/show/trump-extends-deadline-for-iran-to-reopen-oil-route-or-face-power-plant-strikes",
-          "source_id": "pbs.org",
-          "continent": "North America",
+          "title": "'Strait of Trump': US president says Iran must open key waterway",
+          "url": "https://www.thedailystar.net/news/world/usa/news/strait-trump-us-president-says-iran-must-open-key-waterway-4137311",
+          "source_id": "thedailystar.net",
+          "continent": "South Asia",
           "published_at": null,
-          "scraped_at_utc": "2026-03-27T19:37:43.430096+00:00"
+          "scraped_at_utc": "2026-03-28T04:54:39.126292+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8753198385238647,
+            "sim_to_centroid": 0.8815078735351562,
             "article": {
-              "title": "Trump extends deadline for Iran to reopen oil route or face power plant strikes",
-              "url": "https://www.pbs.org/newshour/show/trump-extends-deadline-for-iran-to-reopen-oil-route-or-face-power-plant-strikes",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:37:43.430096+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.864885687828064,
-            "article": {
-              "title": "Trump extends Iran 'energy infrastructure destruction' deadline",
-              "url": "https://www.newarab.com/news/trump-extends-iran-energy-infrastructure-destruction-deadline",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:30.944831+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8579288125038147,
-            "article": {
-              "title": "Trump extends deadline for striking Iran’s energy plants into April",
-              "url": "https://kathmandupost.com/world/2026/03/27/trump-extends-deadline-for-striking-iran-s-energy-plants-into-april",
-              "source_id": "kathmandupost.com",
+              "title": "'Strait of Trump': US president says Iran must open key waterway",
+              "url": "https://www.thedailystar.net/news/world/usa/news/strait-trump-us-president-says-iran-must-open-key-waterway-4137311",
+              "source_id": "thedailystar.net",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:38:29.696066+00:00"
+              "scraped_at_utc": "2026-03-28T04:54:39.126292+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8433884382247925,
+            "sim_to_centroid": 0.862875759601593,
             "article": {
-              "title": "Trump Pushes Back Iran Strikes Deadline",
-              "url": "https://www.kyivpost.com/post/72688",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
+              "title": "Donald Trump dice que Irán debe reabrir el estrecho de Ormuz para alcanzar un acuerdo",
+              "url": "https://elcomercio.pe/mundo/oriente-medio/donald-trump-dice-que-iran-debe-reabrir-el-estrecho-de-ormuz-para-alcanzar-un-acuerdo-ultimas-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:59.112905+00:00"
+              "scraped_at_utc": "2026-03-28T04:50:29.719361+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8381550312042236,
-            "article": {
-              "title": "Trump minaccia ma poi apre all’Iran: “Potrei prendermi il petrolio, l’ultimatum slitta al 6 aprile”",
-              "url": "https://www.repubblica.it/esteri/2026/03/26/news/trump_iran_usa_guerra_tregua-425248841/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:34:02.105643+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.823222279548645,
-            "article": {
-              "title": "Trump verlängert Ultimatum an Iran zum zweiten Mal",
-              "url": "https://www.zdfheute.de/politik/ausland/iran-trump-ultimatum-hormus-verlaengerung-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:15.790556+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.811302900314331,
+            "sim_to_centroid": 0.8494865894317627,
             "article": {
               "title": "Trump gives Iranians ten more days to open Strait of Hormuz",
               "url": "https://www.thetimes.com/world/middle-east/israel-iran/article/iran-war-trump-strait-hormuz-w2rwlsfv0",
               "source_id": "thetimes.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:32:51.083211+00:00"
+              "scraped_at_utc": "2026-03-28T04:48:19.201870+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7990065813064575,
+            "sim_to_centroid": 0.8461188673973083,
             "article": {
-              "title": "Trump threatens Iran again to accept US peace plan",
-              "url": "https://www.channel4.com/news/trump-threatens-iran-again-to-accept-us-peace-plan",
-              "source_id": "channel4.com",
+              "title": "Trump suggests renaming Hormuz - 'Strait of Trump' during speech confirming negotiations with Iran",
+              "url": "https://www.jpost.com/middle-east/iran-news/article-891446",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:51:17.580061+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.840986430644989,
+            "article": {
+              "title": "President declares Iran must ‘open up the Strait of Trump’ as he groans over not winning Nobel Peace Prize",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-iran-strait-nobel-peace-prize-b2947423.html",
+              "source_id": "independent.co.uk",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:32:54.433108+00:00"
+              "scraped_at_utc": "2026-03-28T04:48:17.316542+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7979449033737183,
-            "article": {
-              "title": "Trump delays strikes on Iran’s power plants by 10 days, says talks ‘going very well’",
-              "url": "https://www.timesofisrael.com/trump-says-talks-with-iran-going-very-well-delays-strikes-on-power-plants-by-10-days/",
-              "source_id": "timesofisrael.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:18.960909+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7958624362945557,
-            "article": {
-              "title": "ترامب يمدّد مهلة استهداف منشآت الطاقة في إيران ويؤكد:المحادثات «جيدة جدًا»",
-              "url": "https://www.omandaily.om/العرب-والعالم/na/ترامب-يمدد-مهلة-استهداف-منشآت-الطاقة-في-إيران-ويؤكدالمحادثات-جيدة-جدا",
-              "source_id": "omandaily.om",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:40.808010+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7830733060836792,
-            "article": {
-              "title": "Israel warns attacks on Iran will expand as Trump delays Strait of Hormuz deadline",
-              "url": "https://www.abc.net.au/news/2026-03-27/trump-extends-deadline-to-open-strait-criticises-australia/106500428",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:34:59.405715+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7799628973007202,
-            "article": {
-              "title": "Trump dà dieci giorni in più all’Iran: «Negozino o sarò il loro incubo» |",
-              "url": "https://www.corriere.it/esteri/26_marzo_26/trump-negoziati-iran-incubo-41a11276-0aa8-4baa-b7a7-70aa56825xlk.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:34:03.819265+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7603549361228943,
+            "sim_to_centroid": 0.8136192560195923,
             "article": {
               "title": "Trump extends deadline to open Strait of Hormuz to April 6",
               "url": "https://www.france24.com/en/middle-east/20260326-live-israel-carries-out-fresh-wave-of-strikes-across-iran",
               "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:48.552329+00:00"
+              "scraped_at_utc": "2026-03-28T04:49:35.219167+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7564228177070618,
+            "sim_to_centroid": 0.7935229539871216,
             "article": {
-              "title": "Trump delays Iran energy bombing to April 6, citing talks Bernama 13 h ago ⋅ 15",
-              "url": "https://www.malaysiakini.com/news/771079",
-              "source_id": "malaysiakini.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:39:34.956465+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7439366579055786,
-            "article": {
-              "title": "Can Trump end his war on Iran in time for rescheduled China trip?",
-              "url": "https://www.scmp.com/news/china/diplomacy/article/3348033/can-donald-trump-end-his-war-iran-time-rescheduled-china-trip?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:37:44.873289+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7421106696128845,
-            "article": {
-              "title": "Trump says Iran ‘begging’ for deal during marathon cabinet meeting",
-              "url": "https://www.channel4.com/news/trump-says-iran-begging-for-deal-during-marathon-cabinet-meeting",
+              "title": "Trump delays strikes on Iran’s energy sites as Strait of Hormuz remains ‘closed’",
+              "url": "https://www.channel4.com/news/trump-delays-strikes-on-irans-energy-sites-as-strait-of-hormuz-remains-closed",
               "source_id": "channel4.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:32:54.433108+00:00"
+              "scraped_at_utc": "2026-03-28T04:48:23.325156+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7328795790672302,
+            "sim_to_centroid": 0.7915812730789185,
             "article": {
-              "title": "Trump’s Iran war is going to end badly, unless it ends worse",
-              "url": "https://www.theglobeandmail.com/business/commentary/article-iran-war-donald-trump-end-badly/",
-              "source_id": "theglobeandmail.com",
+              "title": "Trump extends deadline for Iran to reopen oil route or face power plant strikes",
+              "url": "https://www.pbs.org/newshour/show/trump-extends-deadline-for-iran-to-reopen-oil-route-or-face-power-plant-strikes",
+              "source_id": "pbs.org",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:34:57.927775+00:00"
+              "scraped_at_utc": "2026-03-28T04:53:57.586994+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7292454838752747,
+            "sim_to_centroid": 0.7865577340126038,
             "article": {
-              "title": "US delays strikes on Iran energy infrastructure — as it happened",
-              "url": "https://www.thetimes.com/world/middle-east/article/iran-war-latest-news-trump-lq9962f2f",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
+              "title": "Trump claims Iran allowed eight oil tankers through Hormuz as ‘gift’",
+              "url": "https://www.albawaba.com/news/trump-claims-iran-allowed-eight-oil-1624432",
+              "source_id": "albawaba.com",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:32:51.083211+00:00"
+              "scraped_at_utc": "2026-03-28T04:51:31.520389+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6875407695770264,
+            "sim_to_centroid": 0.776935338973999,
             "article": {
-              "title": "Trump promete auxílio adicional para agricultores dos EUA e cita novas diretrizes para diesel",
-              "url": "https://www.estadao.com.br/economia/agronegocios/trump-promete-auxilio-adicional-para-agricultores-dos-eua-e-cita-novas-diretrizes-para-diesel/",
-              "source_id": "estadao.com.br",
-              "continent": "South America",
+              "title": "特朗普发表最新讲话：将霍尔木兹海峡称为“特朗普海峡”",
+              "url": "https://www.sohu.com/a/1002164044_260616?edtsign=AFEE18771795BC8700BC2241064D717C7AC00079&edtcode=7l1qGClIU%2Fep9oAfqs2zVA%3D%3D&scm=10001.663_14-200000.0.0-0-0-0-0.&_f=index_cpc_1_0",
+              "source_id": "news.sohu.com",
+              "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:34:30.497589+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 39.59559603257867,
-        "size": 13,
-        "n_sources": 11,
-        "n_continents": 7,
-        "continents": [
-          "Africa",
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America"
-        ],
-        "coherence": 0.7669824957847595,
-        "title": "Iran may believe it has the upper hand as Trump seeks talks",
-        "central_article": {
-          "title": "Iran may believe it has the upper hand as Trump seeks talks",
-          "url": "https://www.japantimes.co.jp/news/2026/03/27/world/iran-upper-hand-us-talks/",
-          "source_id": "japantimes.co.jp",
-          "continent": "East Asia",
-          "published_at": null,
-          "scraped_at_utc": "2026-03-27T19:39:08.627531+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8687554597854614,
-            "article": {
-              "title": "Iran may believe it has the upper hand as Trump seeks talks",
-              "url": "https://www.japantimes.co.jp/news/2026/03/27/world/iran-upper-hand-us-talks/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:39:08.627531+00:00"
+              "scraped_at_utc": "2026-03-28T04:54:21.826387+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7896385788917542,
+            "sim_to_centroid": 0.7761457562446594,
             "article": {
-              "title": "Guerre en Iran : Israël et les pays du Golfe s’inquiètent d’une sortie du conflit bâclée par Donald Trump",
-              "url": "https://www.lemonde.fr/international/article/2026/03/27/guerre-en-iran-israel-et-les-pays-du-golfe-s-inquietent-d-une-sortie-du-conflit-baclee-par-donald-trump_6674470_3210.html",
-              "source_id": "lemonde.fr",
+              "title": "Trump exige a Irán que reabra Ormuz mientras critica a la OTAN: “Uno aprende quiénes son sus verdaderos amigos”",
+              "url": "https://elpais.com/internacional/2026-03-27/trump-exige-a-iran-que-reabra-el-estrecho-de-ormuz-mientras-critica-a-la-otan-en-estos-tiempos-uno-aprende-quienes-son-sus-verdaderos-amigos.html",
+              "source_id": "elpais.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:43.490605+00:00"
+              "scraped_at_utc": "2026-03-28T04:49:43.413097+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7824718952178955,
+            "sim_to_centroid": 0.7644092440605164,
             "article": {
-              "title": "The US wants talks with Iran but not peace ANALYSIS",
-              "url": "https://www.rt.com/news/636425-us-iran-peace-talks/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
+              "title": "Have to open up Strait of 'Trump': US President's intentional ‘mistake’ amid war",
+              "url": "https://www.hindustantimes.com/world-news/have-to-open-up-strait-of-trump-us-president-donald-hormuz-intentional-mistake-amid-war-video-101774667726756.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:36:07.748210+00:00"
+              "scraped_at_utc": "2026-03-28T04:54:35.527762+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7676791548728943,
+            "sim_to_centroid": 0.7551462054252625,
             "article": {
-              "title": "Interview Krieg gegen Iran Warum Trump auf Zeit spielt",
-              "url": "https://www.tagesschau.de/ausland/asien/groitl-interview-nahost-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
+              "title": "World Watch: US President calls it ‘Strait of Trump,’ then says it wasn’t an accident",
+              "url": "https://timesofindia.indiatimes.com/world/us/watch-us-president-calls-it-strait-of-trump-then-says-it-wasnt-an-accident/articleshow/129857464.cms",
+              "source_id": "timesofindia.indiatimes.com",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:05.303347+00:00"
+              "scraped_at_utc": "2026-03-28T04:54:29.279579+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7612099647521973,
-            "article": {
-              "title": "• Beursweek Trump zoekt met ‘Taco’ weg uit oorlog, maar beleggers zien dat Iran niet hapt",
-              "url": "https://fd.nl/financiele-markten/1590970/trump-zoekt-met-taco-weg-uit-oorlog-maar-beleggers-zien-dat-iran-niet-hapt",
-              "source_id": "fd.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:03.375004+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7601518630981445,
-            "article": {
-              "title": "محادثات ترامب مع إيران",
-              "url": "https://gate.ahram.org.eg/Daily/News/1012453.aspx",
-              "source_id": "gate.ahram.org.eg",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:33.724033+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7597173452377319,
-            "article": {
-              "title": "Trump jokes, rants, talks price of pens as Iran war enters fifth week",
-              "url": "https://www.latimes.com/world-nation/story/2026-03-27/trump-jokes-rants-talks-price-of-pens-as-iran-war-enters-fifth-week",
-              "source_id": "latimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:37:32.284951+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7562294602394104,
-            "article": {
-              "title": "What needs to be done differently this time for a US-Iran deal?",
-              "url": "https://www.thenationalnews.com/news/2026/03/27/third-times-the-charm-what-needs-to-be-done-differently-this-time-for-a-us-iran-deal/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:16.275705+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7533202171325684,
-            "article": {
-              "title": "Verden Iran-krigen Trump har øynene på «Irans kronjuvel». Det kan bli blodig.",
-              "url": "https://www.aftenposten.no/verden/i/ArrRVz/paa-denne-oeya-kan-iran-krigen-avsluttes-eller-bli-langt-mer-blodig",
-              "source_id": "aftenposten.no",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:27.587823+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7512001395225525,
-            "article": {
-              "title": "Trump’s Gulf allies push to have their concerns addressed before Iran war ends",
-              "url": "https://www.egyptindependent.com/trumps-gulf-allies-push-to-have-their-concerns-addressed-before-iran-war-ends/",
-              "source_id": "egyptindependent.com",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:37:04.576737+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.746862530708313,
-            "article": {
-              "title": "Onderhandelen of doorvechten? 'Iran heeft het gevoel dat het wint'",
-              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5582880/onderhandelen-doorvechten-iran-heeft-gevoel-dat-ze-winnen",
-              "source_id": "rtl.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:01.583713+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7433943748474121,
-            "article": {
-              "title": "Why Washington needs talks with Tehran more than it admits",
-              "url": "https://www.rt.com/news/636273-why-us-need-talks-with-iran/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:36:07.748210+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7301424145698547,
+            "sim_to_centroid": 0.7035776376724243,
             "article": {
               "title": "Trump claims Iran’s new supreme leader is ‘probably gay’",
               "url": "https://www.rt.com/news/636434-trump-claims-iran-leader-gay/",
               "source_id": "rt.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:36:07.748210+00:00"
+              "scraped_at_utc": "2026-03-28T04:52:19.701284+00:00"
             }
           }
         ]
       },
       {
-        "score": 28.83047299204063,
-        "size": 6,
-        "n_sources": 6,
-        "n_continents": 5,
-        "continents": [
-          "East Asia",
-          "Europe East",
-          "Europe South",
-          "North America",
-          "Oceania"
-        ],
-        "coherence": 0.892047107219696,
-        "title": "Trump signature to appear on US dollar bills",
-        "central_article": {
-          "title": "Trump signature to appear on US dollar bills",
-          "url": "https://www.rt.com/news/636366-trump-signature-dollar/",
-          "source_id": "rt.com",
-          "continent": "Europe East",
-          "published_at": null,
-          "scraped_at_utc": "2026-03-27T19:36:07.748210+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9360775947570801,
-            "article": {
-              "title": "Trump signature to appear on US dollar bills",
-              "url": "https://www.rt.com/news/636366-trump-signature-dollar/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:36:07.748210+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9255837202072144,
-            "article": {
-              "title": "Trump's signature to appear on US currency in a first for sitting president",
-              "url": "https://www.france24.com/en/americas/20260327-trump-s-signature-to-appear-on-us-currency-in-first-for-sitting-president",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:48.552329+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9092894196510315,
-            "article": {
-              "title": "You'll see Trump's signature on US dollar bills starting this year",
-              "url": "https://www.usatoday.com/story/graphics/2026/03/27/trump-signature-added-to-us-dollar-bills/89345016007/",
-              "source_id": "usatoday.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:37:34.782294+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8896622657775879,
-            "article": {
-              "title": "US Treasury plans to put Trump’s signature on new paper currency in first for sitting president",
-              "url": "https://apnews.com/article/trump-currency-signiture-treasury-first-d919877e39f907eba1172a07920ea80e",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:37:09.328496+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.87176513671875,
-            "article": {
-              "title": "Trump's signature to replace treasurer's on US paper currency",
-              "url": "https://www.sbs.com.au/news/article/trumps-signature-to-replace-treasurers-on-us-currency/8huw6uzx1",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:00.821715+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8199045658111572,
-            "article": {
-              "title": "In a first, Trump signature to appear on all US dollar bills Deutsche Welle 10 h ago ⋅ 3",
-              "url": "https://www.malaysiakini.com/world/771097",
-              "source_id": "malaysiakini.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:39:34.956465+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 28.31036034338828,
-        "size": 8,
-        "n_sources": 8,
-        "n_continents": 5,
-        "continents": [
-          "Africa",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East"
-        ],
-        "coherence": 0.8308696746826172,
-        "title": "Israel forces “on the verge of collapse,” IDF chief warns amid multi-front war",
-        "central_article": {
-          "title": "Israel forces “on the verge of collapse,” IDF chief warns amid multi-front war",
-          "url": "https://www.albawaba.com/news/israel-forces-%E2%80%9C-verge-collapse%E2%80%9D-idf-1624436",
-          "source_id": "albawaba.com",
-          "continent": "Middle East",
-          "published_at": null,
-          "scraped_at_utc": "2026-03-27T19:35:29.492920+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8924424648284912,
-            "article": {
-              "title": "Israel forces “on the verge of collapse,” IDF chief warns amid multi-front war",
-              "url": "https://www.albawaba.com/news/israel-forces-%E2%80%9C-verge-collapse%E2%80%9D-idf-1624436",
-              "source_id": "albawaba.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:29.492920+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8583592176437378,
-            "article": {
-              "title": "Fight on several fronts leading to collapse, warns Israeli general",
-              "url": "https://www.thetimes.com/world/middle-east/article/israel-idf-iran-news-btfq2gw3v",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:32:51.083211+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8517799377441406,
-            "article": {
-              "title": "El jefe de Estado Mayor de Israel alerta de que sus fuerzas “van a colapsar desde dentro”",
-              "url": "https://www.lavanguardia.com/internacional/20260327/11501153/jefe-mayor-israel-alerta-fuerzas-colapsar.html",
-              "source_id": "lavanguardia.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:56.737264+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8318430185317993,
-            "article": {
-              "title": "L’armée israélienne met en garde sur l’insuffisance de ses ressources humaines",
-              "url": "https://www.lemonde.fr/international/article/2026/03/27/l-armee-israelienne-met-en-garde-sur-l-insuffisance-de-ses-ressources-humaines_6674550_3210.html",
-              "source_id": "lemonde.fr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:43.490605+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8259856700897217,
-            "article": {
-              "title": "US/Israel-Iran War (Day 28): Israel’s military could ‘collapse’, top officials warn",
-              "url": "https://www.premiumtimesng.com/news/headlines/867187-us-israel-iran-war-day-28-israels-military-could-collapse-top-officials-warn.html",
-              "source_id": "premiumtimesng.com",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:36:51.113266+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8206562399864197,
-            "article": {
-              "title": "Opoziţia israeliană avertizează asupra unui „dezastru de securitate” din cauza lipsei de trupe de luptă",
-              "url": "https://www.g4media.ro/opozitia-israeliana-avertizeaza-asupra-unui-dezastru-de-securitate-din-cauza-lipsei-de-trupe-de-lupta.html",
-              "source_id": "g4media.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:50.985007+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.801703929901123,
-            "article": {
-              "title": "IDF chief warns of ‘collapse’ as Israel delays ultra-Orthodox draft – media",
-              "url": "https://www.rt.com/news/636426-chief-staff-warns-idf-collapse-personnel-shortages/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:36:07.748210+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7641867399215698,
-            "article": {
-              "title": "US-Israel missile defence on brink as interceptor stocks near ‘critical depletion’: Report",
-              "url": "https://www.presstv.ir/Detail/2026/03/27/765914/us-israeli-missile-defense-brink-interceptor-stocks-critical-depletion-report",
-              "source_id": "presstv.ir",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:23.272845+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 27.767624856883103,
-        "size": 8,
-        "n_sources": 8,
-        "n_continents": 4,
-        "continents": [
-          "East Asia",
-          "Europe North",
-          "Europe South",
-          "North America"
-        ],
-        "coherence": 0.8716269731521606,
-        "title": "Austria to ban social media for children under 14",
-        "central_article": {
-          "title": "Austria to ban social media for children under 14",
-          "url": "https://www.channelnewsasia.com/world/austria-social-media-ban-children-under-14-6021416",
-          "source_id": "channelnewsasia.com",
-          "continent": "East Asia",
-          "published_at": null,
-          "scraped_at_utc": "2026-03-27T19:39:06.322847+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9414602518081665,
-            "article": {
-              "title": "Austria to ban social media for children under 14",
-              "url": "https://www.channelnewsasia.com/world/austria-social-media-ban-children-under-14-6021416",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:39:06.322847+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9288975596427917,
-            "article": {
-              "title": "Austria to ban social media for under-14s",
-              "url": "https://www.politico.eu/article/austria-moves-towards-social-media-ban-for-under-14s/",
-              "source_id": "politico.eu",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:32:57.164039+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9264451861381531,
-            "article": {
-              "title": "Østrig vil forbyde sociale medier for børn og unge under 14 år",
-              "url": "https://www.dr.dk/nyheder/seneste/oestrig-vil-forbyde-sociale-medier-boern-og-unge-under-14-aar",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:34.556632+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8975985050201416,
-            "article": {
-              "title": "L'Autriche va interdire les réseaux sociaux jusqu'à 14 ans",
-              "url": "https://www.rts.ch/info/monde/2026/article/l-autriche-interdit-les-reseaux-sociaux-aux-moins-de-14-ans-des-cet-ete-29195925.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:50.026010+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.880720853805542,
-            "article": {
-              "title": "Nutzung erst ab 14 Jahren Österreich will Social-Media-Verbot für Kinder",
-              "url": "https://www.tagesschau.de/ausland/europa/oesterreich-social-media-verbot-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:05.303347+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8489276170730591,
-            "article": {
-              "title": "Germany considers banning social media for most children",
-              "url": "https://www.pbs.org/newshour/show/germany-considers-banning-social-media-for-most-children",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:37:43.430096+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.806728720664978,
-            "article": {
-              "title": "Sociale media verbieden voor kinderen? Het kabinet is voor",
-              "url": "https://fd.nl/economie/1590695/sociale-media-verbieden-voor-kinderen-het-kabinet-is-voor",
-              "source_id": "fd.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:03.375004+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7422374486923218,
-            "article": {
-              "title": "Koalition führt Social-Media-Verbot bis 14 Jahre ein 1.211 Postings",
-              "url": "https://www.derstandard.at/story/3000000314388/koalition-einigt-sich-auf-social-media-verbot-altersgrenze-bei-14-jahren",
-              "source_id": "derstandard.at",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:12.345216+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 27.19648839089729,
-        "size": 8,
-        "n_sources": 7,
+        "score": 68.73412899232986,
+        "size": 18,
+        "n_sources": 16,
         "n_continents": 6,
         "continents": [
+          "East Asia",
+          "Europe East",
           "Europe North",
           "Europe South",
-          "Middle East",
           "North America",
-          "Oceania",
           "South Asia"
         ],
-        "coherence": 0.8130836486816406,
-        "title": "Why Pakistan has emerged as a mediator between US and Iran",
+        "coherence": 0.8331795334815979,
+        "title": "Rubio says Iran war to last 'weeks not months,' no US ground troops needed",
         "central_article": {
-          "title": "Why Pakistan has emerged as a mediator between US and Iran",
-          "url": "https://apnews.com/article/pakistan-us-iran-war-emerging-peace-mediator-f4e809dd3f93b3d67b54f9d75d33d55c",
-          "source_id": "apnews.com",
-          "continent": "North America",
+          "title": "Rubio says Iran war to last 'weeks not months,' no US ground troops needed",
+          "url": "https://www.thedailystar.net/news/world/us-israel-war-iran/news/rubio-says-iran-war-last-weeks-not-months-no-us-ground-troops-needed-4137276",
+          "source_id": "thedailystar.net",
+          "continent": "South Asia",
           "published_at": null,
-          "scraped_at_utc": "2026-03-27T19:37:09.328496+00:00"
+          "scraped_at_utc": "2026-03-28T04:54:39.126292+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.925836443901062,
+            "sim_to_centroid": 0.9269872307777405,
             "article": {
-              "title": "Why Pakistan has emerged as a mediator between US and Iran",
-              "url": "https://apnews.com/article/pakistan-us-iran-war-emerging-peace-mediator-f4e809dd3f93b3d67b54f9d75d33d55c",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:37:09.328496+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9208735227584839,
-            "article": {
-              "title": "Why Pakistan has emerged as a key mediator between US and Iran",
-              "url": "https://www.timesofisrael.com/why-pakistan-has-emerged-as-a-key-mediator-between-us-and-iran/",
-              "source_id": "timesofisrael.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:18.960909+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8512942790985107,
-            "article": {
-              "title": "As Pakistan emerges as a US-Iran broker, it draws on relationships few others have",
-              "url": "https://www.abc.net.au/news/2026-03-27/pakistan-uniquely-positioned-to-become-us-iran-broker/106501884",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:34:59.405715+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7776192426681519,
-            "article": {
-              "title": "In call with PM, Kuwait crown prince endorses Pakistan’s efforts to mediate between US and Iran",
-              "url": "https://www.dawn.com/news/1985893/in-call-with-pm-kuwait-crown-prince-endorses-pakistans-efforts-to-mediate-between-us-and-iran",
-              "source_id": "dawn.com",
+              "title": "Rubio says Iran war to last 'weeks not months,' no US ground troops needed",
+              "url": "https://www.thedailystar.net/news/world/us-israel-war-iran/news/rubio-says-iran-war-last-weeks-not-months-no-us-ground-troops-needed-4137276",
+              "source_id": "thedailystar.net",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:38:31.011582+00:00"
+              "scraped_at_utc": "2026-03-28T04:54:39.126292+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7595493793487549,
+            "sim_to_centroid": 0.9262464046478271,
             "article": {
-              "title": "VS en Iran bereiden zich voor op onderhandelingen in Pakistan, aldus Duitse buitenlandminister",
-              "url": "https://www.nrc.nl/nieuws/2026/03/27/vs-en-iran-bereiden-zich-voor-op-onderhandelingen-in-pakistan-aldus-duitse-buitenlandminister-a4924139",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
+              "title": "Rubio says Iran war to last ‘weeks not months,’ no US ground troops needed",
+              "url": "https://www.straitstimes.com/world/live-us-israel-strike-iran-as-trump-urges-uprising?ref=top-stories",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:32:59.879378+00:00"
+              "scraped_at_utc": "2026-03-28T04:55:44.136465+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7578513026237488,
+            "sim_to_centroid": 0.9236166477203369,
             "article": {
-              "title": "Nixon to Trump: Pakistan’s long record as backchannel between rival powers",
-              "url": "https://www.aljazeera.com/news/2026/3/27/nixon-to-trump-pakistans-long-record-as-backchannel-between-rival-powers",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:14.493019+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7560603022575378,
-            "article": {
-              "title": "China says US-Iran talks would help restore Hormuz transit, supports Pakistan as mediator",
-              "url": "https://www.dawn.com/news/1985906/china-says-us-iran-talks-would-help-restore-hormuz-transit-supports-pakistan-as-mediator",
-              "source_id": "dawn.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:38:31.011582+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7555849552154541,
-            "article": {
-              "title": "Pakistan dient den USA im Iran-Krieg als Briefträger – und nicht die Schweiz",
-              "url": "https://www.nzz.ch/international/pakistan-statt-schweiz-warum-islamabad-im-irankrieg-vermittelt-ld.1930957",
-              "source_id": "nzz.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:20.711541+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 25.983328169735554,
-        "size": 11,
-        "n_sources": 10,
-        "n_continents": 5,
-        "continents": [
-          "Africa",
-          "China",
-          "Europe North",
-          "Middle East",
-          "North America"
-        ],
-        "coherence": 0.7690864205360413,
-        "title": "If Trump’s diplomacy fails, the Iran war could get much worse",
-        "central_article": {
-          "title": "If Trump’s diplomacy fails, the Iran war could get much worse",
-          "url": "https://www.egyptindependent.com/if-trumps-diplomacy-fails-the-iran-war-could-get-much-worse/",
-          "source_id": "egyptindependent.com",
-          "continent": "Africa",
-          "published_at": null,
-          "scraped_at_utc": "2026-03-27T19:37:04.576737+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8522266149520874,
-            "article": {
-              "title": "If Trump’s diplomacy fails, the Iran war could get much worse",
-              "url": "https://www.egyptindependent.com/if-trumps-diplomacy-fails-the-iran-war-could-get-much-worse/",
-              "source_id": "egyptindependent.com",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:37:04.576737+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8271490335464478,
-            "article": {
-              "title": "US may be in a recession. Iran could make it worse.",
-              "url": "https://www.usatoday.com/story/opinion/2026/03/27/oil-prices-strait-hormuz-iran-us-economy/89317446007/",
-              "source_id": "usatoday.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:37:34.782294+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7818528413772583,
-            "article": {
-              "title": "Irankrieg: \"Trump kann die Europäer für ihr deutliches Nein bestrafen\"",
-              "url": "https://www.zeit.de/politik/ausland/2026-03/atomwaffen-absicherung-iran-usa-russland-joachim-krause",
-              "source_id": "zeit.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:33:19.256378+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7763676643371582,
-            "article": {
-              "title": "In the Iran war, the unexpected winner is also the loser",
-              "url": "https://www.theglobeandmail.com/business/commentary/article-in-the-iran-war-the-unexpected-winner-is-also-the-loser/",
+              "title": "Rubio says Iran war expected to last ‘weeks not months,’ no U.S. ground troops needed",
+              "url": "https://www.theglobeandmail.com/world/article-marco-rubio-iran-war-weeks-months-ground-troops/",
               "source_id": "theglobeandmail.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:34:57.927775+00:00"
+              "scraped_at_utc": "2026-03-28T04:50:55.023225+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7762930393218994,
+            "sim_to_centroid": 0.9234713912010193,
             "article": {
-              "title": "News Analysis: Why U.S. fails to achieve decisive outcomes in Iran war?",
-              "url": "https://english.news.cn/20260327/3593b9099faa46378051489ed39761d7/c.html",
-              "source_id": "english.news.cn",
-              "continent": "China",
+              "title": "Rubio says Iran war to last 'weeks not months,' no ground troops needed",
+              "url": "https://asia.nikkei.com/spotlight/iran-tensions/rubio-says-iran-war-to-last-weeks-not-months-no-ground-troops-needed",
+              "source_id": "asia.nikkei.com",
+              "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:37:50.627833+00:00"
+              "scraped_at_utc": "2026-03-28T04:54:57.565161+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7757011651992798,
+            "sim_to_centroid": 0.9217330813407898,
             "article": {
-              "title": "Trump’s turn to Iran talks could mean he wants out — or he might have a surprise in store",
-              "url": "https://www.timesofisrael.com/trumps-turn-to-iran-talks-could-mean-he-wants-out-or-he-might-have-a-surprise-in-store/",
-              "source_id": "timesofisrael.com",
-              "continent": "Middle East",
+              "title": "Rubio says Iran war to last weeks, no US ground troops needed",
+              "url": "https://www.france24.com/en/europe/20260327-rubio-says-iran-war-to-last-weeks-no-us-ground-troops-needed",
+              "source_id": "france24.com",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:18.960909+00:00"
+              "scraped_at_utc": "2026-03-28T04:49:35.219167+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7529547214508057,
+            "sim_to_centroid": 0.8961540460586548,
             "article": {
-              "title": "El rechazo de Irán a dialogar con EE.UU. refleja una profunda desconfianza en Trump",
-              "url": "https://www.bbc.com/mundo/articles/cx2eqd4vv4wo",
-              "source_id": "bbc.com",
+              "title": "Marco Rubio says US expects to finish Iran war in ‘next couple of weeks’",
+              "url": "https://www.irishtimes.com/world/middle-east/2026/03/27/marco-rubio-says-us-expects-to-finish-iran-war-in-next-couple-of-weeks/",
+              "source_id": "irishtimes.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:34:07.990541+00:00"
+              "scraped_at_utc": "2026-03-28T04:51:13.573824+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7363675832748413,
+            "sim_to_centroid": 0.8825170993804932,
             "article": {
-              "title": "How War With Iran Could Lead to More Nuclear Weapons Around the World",
-              "url": "https://time.com/article/2026/03/27/us-iran-war-nuclear-weapons-proliferation-deterrent-trump/",
-              "source_id": "time.com",
+              "title": "Rubio tikisi, kad karo Irane tikslai bus pasiekti per artimiausias dvi savaites",
+              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/2879449/rubio-tikisi-kad-karo-irane-tikslai-bus-pasiekti-per-artimiausias-dvi-savaites",
+              "source_id": "lrt.lt",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:52:29.440881+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8681967258453369,
+            "article": {
+              "title": "Full report US expects Iran operation to end in ‘weeks, not months’, says Marco Rubio",
+              "url": "https://www.theguardian.com/world/2026/mar/27/us-expects-iran-operation-to-end-in-weeks-not-months-says-marco-rubio",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:48:20.738533+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8454416990280151,
+            "article": {
+              "title": "Rubio sees US action in Iran completed in weeks as airstrikes rumble on",
+              "url": "https://www.straitstimes.com/world/rubio-sees-us-action-in-iran-completed-in-weeks-as-airstrikes-rumble-on?ref=latest-headlines",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:55:44.136465+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8066198825836182,
+            "article": {
+              "title": "US operations in Iran ‘on or ahead of schedule’, says Rubio",
+              "url": "https://www.straitstimes.com/world/middle-east/us-operations-in-iran-on-or-ahead-of-schedule-says-rubio?ref=top-stories",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:55:44.136465+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.806022584438324,
+            "article": {
+              "title": "US-Außenminister Rubio: Kriegsziele in Iran bald erreicht",
+              "url": "https://www.zdfheute.de/politik/ausland/iran-usa-angriffe-energie-rubio-bodenoffensive-verhandlungen-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:48:54.678457+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.800976037979126,
+            "article": {
+              "title": "Israel launches new strikes on Iran as Rubio says war could end 'in a matter of weeks'",
+              "url": "https://www.pbs.org/newshour/show/israel-launches-new-strikes-on-iran-as-rubio-says-war-could-end-in-a-matter-of-weeks",
+              "source_id": "pbs.org",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:37:40.924350+00:00"
+              "scraped_at_utc": "2026-03-28T04:53:57.586994+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7354419231414795,
+            "sim_to_centroid": 0.7876499891281128,
             "article": {
-              "title": "Epic flurry: How Trump’s words on Iran have yo-yoed over three weeks of war",
-              "url": "https://www.egyptindependent.com/epic-flurry-how-trumps-words-on-iran-have-yo-yoed-over-three-weeks-of-war/",
-              "source_id": "egyptindependent.com",
-              "continent": "Africa",
+              "title": "Rubio asegura que sin enviar tropas se puede lograr el objetivo en Irán",
+              "url": "https://www.lavanguardia.com/internacional/20260327/11501168/rubio-asegura-enviar-tropas-lograr-objetivo-iran.html",
+              "source_id": "lavanguardia.com",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:37:04.576737+00:00"
+              "scraped_at_utc": "2026-03-28T04:49:45.026519+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7245140671730042,
+            "sim_to_centroid": 0.7557909488677979,
             "article": {
-              "title": "Food, beer and medicine: why Iran war shortages will reach far beyond oil",
-              "url": "https://www.thetimes.com/world/middle-east/israel-iran/article/iran-war-shortages-oil-food-medicine-hz663svmv",
+              "title": "Raid iraniano su base Usa in Arabia Saudita: feriti 12 soldati americani. Rubio: «La guerra durerà settimane, non mesi»",
+              "url": "https://www.corriere.it/esteri/diretta-live/26_marzo_28/guerra-in-iran-le-ultime-notizie-in-diretta.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:49:52.900053+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7554269433021545,
+            "article": {
+              "title": "Az amerikai külügyminiszter szerint nem hónapok, hanem már csak hetek vannak hátra az iráni háborúból",
+              "url": "https://telex.hu/kulfold/2026/03/27/iran-usa-izrael-kozel-keleti-haboru-huszonnyolcadik-nap",
+              "source_id": "telex.hu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:51:51.009012+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7251604795455933,
+            "article": {
+              "title": "Does the Iran war have a two to four-week deadline?",
+              "url": "https://www.channel4.com/news/does-the-iran-war-have-a-two-to-four-week-deadline",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:48:23.325156+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7238527536392212,
+            "article": {
+              "title": "forventer, at krigen slutter inden for uger og ikke måneder.",
+              "url": "https://www.dr.dk/nyheder/udland/rubio-vi-er-faerdige-med-iran-om-uger",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:49:19.022332+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7213684320449829,
+            "article": {
+              "title": "ایران میں زمینی فوج اتارے بغیر اپنے مقاصد حاصل کرسکتے ہیں، روبیو",
+              "url": "https://jang.com.pk/news/1568513",
+              "source_id": "jang.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:54:50.173291+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 55.29025255256732,
+        "size": 14,
+        "n_sources": 14,
+        "n_continents": 5,
+        "continents": [
+          "East Asia",
+          "Europe North",
+          "Europe South",
+          "North America",
+          "South Asia"
+        ],
+        "coherence": 0.8528202772140503,
+        "title": "Nepalese oud-premier gearresteerd om rol bij dodelijke Gen Z-protesten",
+        "central_article": {
+          "title": "Nepalese oud-premier gearresteerd om rol bij dodelijke Gen Z-protesten",
+          "url": "https://nos.nl/artikel/2608146-nepalese-oud-premier-gearresteerd-om-rol-bij-dodelijke-gen-z-protesten",
+          "source_id": "nos.nl",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-03-28T04:48:26.879999+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9096990823745728,
+            "article": {
+              "title": "Nepalese oud-premier gearresteerd om rol bij dodelijke Gen Z-protesten",
+              "url": "https://nos.nl/artikel/2608146-nepalese-oud-premier-gearresteerd-om-rol-bij-dodelijke-gen-z-protesten",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:48:26.879999+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9096006155014038,
+            "article": {
+              "title": "Nepal, arrestato l'ex premier Oli per i morti durante le proteste della Generazione Z",
+              "url": "https://www.corriere.it/esteri/26_marzo_28/nepal-arrestato-l-ex-premier-oli-per-i-morti-durante-le-proteste-della-generazione-z-998a9e15-2bde-4b04-8d42-60d5f6217xlk.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:49:52.900053+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9005132913589478,
+            "article": {
+              "title": "Former Nepal PM Oli, ex-Home Minister Lekhak arrested over Gen-Z protest killings",
+              "url": "https://www.thehindu.com/news/international/nepals-former-pm-oli-arrested-over-deaths-during-gen-z-protests/article70795245.ece",
+              "source_id": "thehindu.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:54:34.093759+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8999325037002563,
+            "article": {
+              "title": "Voormalig premier Nepal aangehouden voor rol tijdens 'Gen Z-protesten'",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5583383/voormalig-premier-nepal-aangehouden-voor-rol-tijdens-gen-z",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:48:30.850879+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8917726874351501,
+            "article": {
+              "title": "Nepal's ex-PM arrested over alleged role in protest crackdown",
+              "url": "https://www.japantimes.co.jp/news/2026/03/28/asia-pacific/crime-legal/nepal-ex-pm-arrest/",
+              "source_id": "japantimes.co.jp",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:55:22.231621+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8839845657348633,
+            "article": {
+              "title": "Nepal's ex-PM Oli held over deaths during Gen Z protests",
+              "url": "https://asia.nikkei.com/politics/nepal-s-ex-pm-oli-held-over-deaths-during-gen-z-protests",
+              "source_id": "asia.nikkei.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:54:57.565161+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.868014931678772,
+            "article": {
+              "title": "Népal : l’ex-premier ministre arrêté pour la répression des manifestations",
+              "url": "https://www.lemonde.fr/international/article/2026/03/28/au-nepal-l-ancien-premier-ministre-sharma-oli-arrete-pour-la-repression-meurtriere-des-manifestations-de-septembre_6674847_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:49:29.422744+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8523886203765869,
+            "article": {
+              "title": "Nepal police arrest former prime minister and former home minister over September protest deaths",
+              "url": "https://apnews.com/article/nepal-former-prime-minister-oli-arrest-protests-0853943a32336ba71f3564e2ee93c246",
+              "source_id": "apnews.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:53:24.952764+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8352413177490234,
+            "article": {
+              "title": "Nepal ex-PM KP Oli arrested for Gen-Z protest deaths day after Balen Shah sworn in",
+              "url": "https://indianexpress.com/article/world/former-nepal-pm-kp-oli-police-custody-gen-z-protests-deaths-balen-shah-10605610/",
+              "source_id": "indianexpress.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:54:36.918705+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8244557976722717,
+            "article": {
+              "title": "'Retaliatory, will fight': Ex-Nepal PM reacts to arrest linked to GenZ protests",
+              "url": "https://www.hindustantimes.com/world-news/retaliatory-will-fight-ex-nepal-pm-reacts-to-arrest-linked-to-genz-protests-crackdown-101774670257002.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:54:35.527762+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8184900283813477,
+            "article": {
+              "title": "Ex-PM KP Sharma Oli, former home minister Ramesh Lekhak detained over Gen Z protest crackdown",
+              "url": "https://kathmandupost.com/national/2026/03/28/ex-pm-kp-sharma-oli-former-home-minister-ramesh-lekhak-detained-over-gen-z-protest-crackdown",
+              "source_id": "kathmandupost.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:54:48.614227+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8045761585235596,
+            "article": {
+              "title": "L'ex-Premier ministre du Népal arrêté six mois après les manifestations meurtrières dans le pays",
+              "url": "https://www.rts.ch/info/monde/2026/article/l-ex-premier-ministre-du-nepal-arrete-six-mois-apres-les-manifestations-meurtrieres-dans-le-pays-29196575.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:49:37.278918+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7747140526771545,
+            "article": {
+              "title": "नेपाल के पूर्व पीएम केपी ओली गिरफ्तार: Gen-Z प्रोटेस्ट के दौरान लापरवाही बरतने का आरोप; इसमें 77 मौतें हुई थीं Play video",
+              "url": "https://www.bhaskar.com/g/international/news/nepal-pm-kp-sharma-oli-arrested-gen-z-protest-deaths-137552344.html",
+              "source_id": "bhaskar.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:54:31.024192+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7661003470420837,
+            "article": {
+              "title": "নেপালে নতুন সরকারের শপথের পরদিনই গ্রেপ্তার সাবেক প্রধানমন্ত্রী অলি ও স্বরাষ্ট্রমন্ত্রী",
+              "url": "https://www.prothomalo.com/world/asia/krq777j2xm",
+              "source_id": "prothomalo.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:54:40.448965+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 54.28818492868206,
+        "size": 11,
+        "n_sources": 11,
+        "n_continents": 8,
+        "continents": [
+          "China",
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Middle East",
+          "North America",
+          "Oceania",
+          "South America"
+        ],
+        "coherence": 0.8033939599990845,
+        "title": "Trump says Cuba to be next US target",
+        "central_article": {
+          "title": "Trump says Cuba to be next US target",
+          "url": "https://tass.com/world/2108303",
+          "source_id": "tass.com",
+          "continent": "Europe East",
+          "published_at": null,
+          "scraped_at_utc": "2026-03-28T04:52:24.274857+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9092288017272949,
+            "article": {
+              "title": "Trump says Cuba to be next US target",
+              "url": "https://tass.com/world/2108303",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:52:24.274857+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9038453698158264,
+            "article": {
+              "title": "Donald Trump: Cuba is next",
+              "url": "https://www.azernews.az/region/256275.html",
+              "source_id": "azernews.az",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:52:42.301291+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8856235146522522,
+            "article": {
+              "title": "„Kuba ist als Nächstes dran“, droht Trump",
+              "url": "https://www.welt.de/politik/ausland/article69c7341904eeb30f4b1078f6/donald-trump-kuba-ist-als-naechstes-dran-droht-der-us-praesident.html",
+              "source_id": "welt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:48:43.719005+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8441599607467651,
+            "article": {
+              "title": "“Cuba es la siguiente”: la declaración de Donald Trump que enciende las alarmas en Miami",
+              "url": "https://www.semana.com/mundo/articulo/cuba-es-la-siguiente-la-declaracion-de-donald-trump-que-enciende-las-alarmas-en-miami/202640/",
+              "source_id": "semana.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:50:13.251455+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8116108775138855,
+            "article": {
+              "title": "'Cuba é a próxima', diz Trump, elogiando operações militares dos EUA na Venezuela e no Irã Republicano fez declaração em conferência",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/03/cuba-e-a-proxima-diz-trump-elogiando-acoes-militares-dos-eua.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:50:22.835343+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.783659815788269,
+            "article": {
+              "title": "Setelah Iran, Kuba Jadi Target Trump Selanjutnya Global 1 jam lalu",
+              "url": "http://internasional.kompas.com/read/2026/03/28/095600870/setelah-iran-kuba-jadi-target-trump-selanjutnya?source=wp_berita_terbaru",
+              "source_id": "kompas.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:55:51.594083+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7756485342979431,
+            "article": {
+              "title": "Missile launched toward Israel from Yemen: IDF; Trump says ‘Cuba is next’",
+              "url": "https://www.smh.com.au/world/middle-east/us-iran-war-live-updates-us-expects-to-end-operation-in-weeks-not-months-says-rubio-g7-call-for-attacks-on-civilians-to-stop-israel-attacks-iranian-nuclear-facilities-20260327-p5zjg1.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:50:59.434622+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7703883051872253,
+            "article": {
+              "title": "特朗普：与伊朗战事尚未结束，还剩下3554个目标；“下一个是古巴”",
+              "url": "https://www.stnn.cc/c/2026-03-28/4048853.shtml",
+              "source_id": "stnn.cc",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:54:23.683614+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7266879677772522,
+            "article": {
+              "title": "Trump: We have 3,500 targets left, and we’ll be done quickly — as it happened",
+              "url": "https://www.thetimes.com/world/middle-east/article/iran-war-latest-news-us-trump-tehran-h82cs3n0v",
               "source_id": "thetimes.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:32:51.083211+00:00"
+              "scraped_at_utc": "2026-03-28T04:48:19.201870+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7210819721221924,
+            "sim_to_centroid": 0.7262071967124939,
             "article": {
-              "title": "ترامب يتواصل مع إيران... في أسوأ توقيت لإسرائيل؟",
-              "url": "https://www.annahar.com/international/united-states/292558/ترامب-يتواصل-مع-إيران-في-أسوأ-توقيت-لإسرائيل",
+              "title": "ترمب: تغيير النظام بإيران حدث بالفعل وكوبا هي التالية ولن نحمي دول الناتو",
+              "url": "https://www.aljazeera.net/news/2026/3/28/عاجل-ترمب-وجهنا-اليوم-ضربة-كبيرة",
+              "source_id": "aljazeera.net",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:51:20.243290+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7002731561660767,
+            "article": {
+              "title": "Canadian investments in Cuba at risk as Trump muses about invasion",
+              "url": "https://www.theglobeandmail.com/business/commentary/article-canadian-investments-cuba-trump-invasion/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:50:55.023225+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 37.17630693041294,
+        "size": 10,
+        "n_sources": 9,
+        "n_continents": 7,
+        "continents": [
+          "China",
+          "Europe East",
+          "Europe North",
+          "Middle East",
+          "North America",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.7945073843002319,
+        "title": "Estados Unidos e Israel bombardean dos plantas siderúrgicas en Irán",
+        "central_article": {
+          "title": "Estados Unidos e Israel bombardean dos plantas siderúrgicas en Irán",
+          "url": "https://www.laestrella.com.pa/mundo/estados-unidos-e-israel-bombardean-dos-plantas-siderurgicas-en-iran-DC21105701",
+          "source_id": "laestrella.com.pa",
+          "continent": "North America",
+          "published_at": null,
+          "scraped_at_utc": "2026-03-28T04:50:08.374488+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.849284291267395,
+            "article": {
+              "title": "Estados Unidos e Israel bombardean dos plantas siderúrgicas en Irán",
+              "url": "https://www.laestrella.com.pa/mundo/estados-unidos-e-israel-bombardean-dos-plantas-siderurgicas-en-iran-DC21105701",
+              "source_id": "laestrella.com.pa",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:50:08.374488+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8435183763504028,
+            "article": {
+              "title": "Israel launches strikes on nuclear sites as Iran warns of retaliation",
+              "url": "https://www.aljazeera.com/news/2026/3/27/israel-launches-strikes-on-iran-nuclear-sites-as-war-enters-fifth-week",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:51:14.891115+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8412121534347534,
+            "article": {
+              "title": "Israel strikes two Iranian nuclear sites for first time in war",
+              "url": "https://www.thenationalnews.com/news/mena/2026/03/27/israel-strikes-two-iranian-nuclear-sites-for-first-time-in-war/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:51:16.205553+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8254289031028748,
+            "article": {
+              "title": "Israel bombs 2 IRGC-linked steel plants, 2 nuclear facilities as Iran vows revenge",
+              "url": "https://www.timesofisrael.com/israel-bombs-2-irgc-linked-steel-plants-2-nuclear-facilities-as-iran-vows-revenge/",
+              "source_id": "timesofisrael.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:51:18.953726+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8111876845359802,
+            "article": {
+              "title": "Guns in the streets as US, Israel intensify month-long attacks across Iran",
+              "url": "https://www.aljazeera.com/news/2026/3/27/guns-in-the-streets-as-us-israel-intensify-month-long-attacks-across",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:51:14.891115+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8061108589172363,
+            "article": {
+              "title": "Irán lanza nuevos ataques contra Israel y objetivos de Estados Unidos en el Golfo Pérsico",
+              "url": "https://elcomercio.pe/mundo/oriente-medio/iran-lanza-nuevos-ataques-contra-israel-y-objetivos-de-estados-unidos-en-el-golfo-persico-donald-trump-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:50:29.719361+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7658703923225403,
+            "article": {
+              "title": "Iran-Israel war LIVE: Israel military says striking 'regime targets' in Tehran; One killed in Tel Aviv amid Iranian missile attack",
+              "url": "https://www.thehindu.com/news/international/iran-israel-us-war-west-asia-conflict-strait-of-hormuz-attacks-march-28-2026/article70795241.ece",
+              "source_id": "thehindu.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:54:34.093759+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7622966766357422,
+            "article": {
+              "title": "Oorlog Iran Amerikaanse en Israëlische raketvoorraden onder druk door intensief gebruik in Iran-oorlog",
+              "url": "https://www.nrc.nl/nieuws/2026/03/27/amerikaanse-en-israelische-raketvoorraden-onder-druk-door-intensief-gebruik-in-iran-oorlog-a4924204",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:48:28.800651+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7230013608932495,
+            "article": {
+              "title": "美媒：伊朗导弹再次造成多架美军加油机受损",
+              "url": "https://www.xinhuanet.com/20260328/15481999835447aa8688637ff9bca3a3/c.html",
+              "source_id": "xinhuanet.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:54:11.217639+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7171626687049866,
+            "article": {
+              "title": "US-Israeli strikes on Iran Part of Iranian missile falls on complex housing TASS bureau in Israel",
+              "url": "https://tass.com/world/2108301",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:52:24.274857+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 37.00520385240135,
+        "size": 14,
+        "n_sources": 12,
+        "n_continents": 6,
+        "continents": [
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.7668784856796265,
+        "title": "Israel steps up attacks on Iran ahead of potential ceasefire",
+        "central_article": {
+          "title": "Israel steps up attacks on Iran ahead of potential ceasefire",
+          "url": "https://www.thetimes.com/world/middle-east/article/israel-destroy-weapons-infrastructure-iran-war-ceasefire-26h76chbn",
+          "source_id": "thetimes.com",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-03-28T04:48:19.201870+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8255842328071594,
+            "article": {
+              "title": "Israel steps up attacks on Iran ahead of potential ceasefire",
+              "url": "https://www.thetimes.com/world/middle-east/article/israel-destroy-weapons-infrastructure-iran-war-ceasefire-26h76chbn",
+              "source_id": "thetimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:48:19.201870+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8249998092651367,
+            "article": {
+              "title": "Israel lanza nuevos ataques contra Teherán",
+              "url": "https://elcomercio.pe/mundo/oriente-medio/iran-israel-lanza-nuevos-ataques-contra-teheran-estados-unidos-urmia-qom-fuerzas-de-defensa-israeli-ultimas-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:50:29.719361+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8072127103805542,
+            "article": {
+              "title": "Irankrieg: Israel meldet einen Toten und Verletzte nach Angriff auf Tel Aviv",
+              "url": "https://www.zeit.de/politik/ausland/2026-03/iran-krieg-usa-israel-liveblog",
+              "source_id": "zeit.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:48:59.504178+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7860971689224243,
+            "article": {
+              "title": "One killed, several wounded in Iranian ballistic missile attack on central Israel",
+              "url": "https://www.timesofisrael.com/one-killed-several-wounded-in-iranian-ballistic-missile-attack-on-central-israel/",
+              "source_id": "timesofisrael.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:51:18.953726+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7821516990661621,
+            "article": {
+              "title": "Houthis target Israel for first time since war began",
+              "url": "https://www.jpost.com/middle-east/article-891453",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:51:17.580061+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.773207426071167,
+            "article": {
+              "title": "Israel ataca instalaciones energéticas y nucleares y Teherán denuncia que Trump viola su propio ultimátum",
+              "url": "https://www.rtve.es/noticias/20260327/israel-ataca-instalaciones-siderurgicas-energeticas-nucleares-teheran-denuncia-trump-viola-su-propio-ultimatum/17001452.shtml",
+              "source_id": "rtve.es",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:49:47.966640+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.772514820098877,
+            "article": {
+              "title": "Iranul amenință cu represalii pentru atacurile Israelului asupra unor instalații esențiale",
+              "url": "https://hotnews.ro/iranul-ameninta-cu-represalii-pentru-atacurile-israelului-asupra-unor-instalatii-esentiale-2204871",
+              "source_id": "hotnews.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:51:52.555651+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7612041234970093,
+            "article": {
+              "title": "رصد صواريخ من اليمن نحو إسرائيل لأول مرة منذ بداية الحرب",
+              "url": "https://www.aljazeera.net/news/liveblog/2026/3/26/الحرب-على-إيران-مباشر-نتنياهو-يعلن?update=9019152",
+              "source_id": "aljazeera.net",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:51:20.243290+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7569458484649658,
+            "article": {
+              "title": "الجيش الإسرائيلي يعلن عن أوّل هجوم صاروخي من اليمن خلال الحرب",
+              "url": "https://www.annahar.com/international/israeli-issues/293229/الجيش-الإسرائيلي-يعلن-عن-أول-هجوم-صاروخي-من-اليمن-خلال-الحرب",
               "source_id": "annahar.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-03-27T19:35:36.793259+00:00"
+              "scraped_at_utc": "2026-03-28T04:51:42.099063+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7568600177764893,
+            "article": {
+              "title": "اسرائیل کا ایرانی توانائی تنصیبات پر حملہ، کلسٹر بموں سے جواب، ایک اسرائیلی ہلاک، دو زخمی",
+              "url": "https://jang.com.pk/news/1560993",
+              "source_id": "jang.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:54:50.173291+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7299461364746094,
+            "article": {
+              "title": "‘Beyond eye for eye’: IRGC warns US, Israeli-linked sites after strike on nuclear, steel plants",
+              "url": "https://www.presstv.ir/Detail/2026/03/27/765933/IRGC-warns-workers-to-evacuate-US-Israeli-linked-sites-after-steel-plant-strikes",
+              "source_id": "presstv.ir",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:51:24.074980+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7287187576293945,
+            "article": {
+              "title": "US-Israeli strikes on Iran Israel, US attack Bushehr NPP area for third time",
+              "url": "https://tass.com/world/2108289",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:52:24.274857+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7261408567428589,
+            "article": {
+              "title": "Katz warns strikes on Iran to intensify as regime keeps up missile fire at Israeli civilian areas",
+              "url": "https://www.timesofisrael.com/katz-warns-strikes-on-iran-to-intensify-amid-unrelenting-missile-fire-at-civilian-areas/",
+              "source_id": "timesofisrael.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:51:18.953726+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.704714834690094,
+            "article": {
+              "title": "US-Israeli strikes on Iran Internet outage in Iran lasts nearly four weeks",
+              "url": "https://tass.com/economy/2107895",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:52:24.274857+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 29.683550637160167,
+        "size": 10,
+        "n_sources": 9,
+        "n_continents": 5,
+        "continents": [
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "North America",
+          "South America"
+        ],
+        "coherence": 0.8167861104011536,
+        "title": "Muere Noelia Castillo: la lucha judicial de una joven de 25 años contra su padre para recibir la eutanasia en España",
+        "central_article": {
+          "title": "Muere Noelia Castillo: la lucha judicial de una joven de 25 años contra su padre para recibir la eutanasia en España",
+          "url": "https://www.bbc.com/mundo/articles/cm291109l8jo",
+          "source_id": "bbc.com",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-03-28T04:49:57.242325+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9261295199394226,
+            "article": {
+              "title": "Muere Noelia Castillo: la lucha judicial de una joven de 25 años contra su padre para recibir la eutanasia en España",
+              "url": "https://www.bbc.com/mundo/articles/cm291109l8jo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:49:57.242325+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9101622700691223,
+            "article": {
+              "title": "Noelia Castillo: recibe la eutanasia la joven parapléjica española que libró una batalla legal con su padre",
+              "url": "https://elcomercio.pe/mundo/espana/noelia-castillo-ramos-espana-recibe-la-eutanasia-la-joven-paraplejica-espanola-que-libro-batalla-legal-con-su-padre-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:50:29.719361+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8692880868911743,
+            "article": {
+              "title": "25-year-old Noelia Castillo dies by legal euthanasia in case that drew national spotlight in Spain",
+              "url": "https://apnews.com/article/spain-euthanasia-case-03852078fc0c5ec75559c7d3fd3f0643",
+              "source_id": "apnews.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:53:24.952764+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8547134399414062,
+            "article": {
+              "title": "Was Noelia Castillo right to die? Assisted death of paraplegic, 25, divides Spain",
+              "url": "https://www.thetimes.com/world/europe/article/noelia-castillo-right-to-die-assisted-death-of-paraplegic-25-divides-spain-n09wrfwcs",
+              "source_id": "thetimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:48:19.201870+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8262709379196167,
+            "article": {
+              "title": "В Испании провели эвтаназию 25-летней Ноэлии Кастильо Рамос. Она два года боролась с собственной семьей за право умереть",
+              "url": "https://meduza.io/news/2026/03/27/v-ispanii-proveli-evtanaziyu-25-letney-noelii-kastilo-ramos-ona-dva-goda-borolas-s-sobstvennoy-semiey-za-pravo-uyti-iz-zhizni",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:52:12.059570+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7711041569709778,
+            "article": {
+              "title": "Sterbehilfe für junge Frau spaltet Spanien Der Fall Noelia Castillo wirft grundlegende Fragen auf: Wer darf Sterbehilfe in Anspruch nehmen?",
+              "url": "https://www.srf.ch/news/gesellschaft/noelia-castillo-sterbehilfe-fuer-junge-frau-spaltet-spanien",
+              "source_id": "srf.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:49:04.388589+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7675965428352356,
+            "article": {
+              "title": "Young woman euthanized in Spain after father loses legal battle",
+              "url": "https://www.rt.com/news/636411-spain-euthanasia-family-battle/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:52:19.701284+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7648410797119141,
+            "article": {
+              "title": "Eutanasia de Noelia Castillo: \"Ella sufrió un calvario judicial que alargaron para enturbiar la situación y asustar a los médicos\"",
+              "url": "https://www.bbc.com/mundo/articles/cj408jvkvldo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:49:57.242325+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7585018277168274,
+            "article": {
+              "title": "Las últimas horas de Noelia Castillo antes de cumplir su voluntad",
+              "url": "https://www.lavanguardia.com/vida/20260327/11500225/ultimas-horas-noelia-cumplir-voluntad.html",
+              "source_id": "lavanguardia.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:49:45.026519+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7192533016204834,
+            "article": {
+              "title": "Giovane paraplegica muore per eutanasia dopo due anni di battaglia e lo scontro con il padre",
+              "url": "https://www.repubblica.it/esteri/2026/03/26/news/spagna_giovane_paraplegica_muore_per_eutanasia_scontro_con_il_padre-425248567/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-03-28T04:49:50.914361+00:00"
             }
           }
         ]
       }
     ],
-    "created_at_utc": "2026-03-27T20:07:22Z"
+    "created_at_utc": "2026-03-28T05:19:57Z"
   }
 ]
