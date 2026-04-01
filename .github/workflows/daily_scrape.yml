@@ -35,7 +35,7 @@ jobs:
           ls -la
           python --version
 
-          python scrape_homepages.py --sources sources.yaml --out headlines_latest.jsonl --per_site 17 --sleep 1.0
+          python scrape_homepages.py --sources sources.yaml --out headlines_latest.jsonl --per_site 15 --sleep 1.0
 
           echo "After run:"
           ls -la
