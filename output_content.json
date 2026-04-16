@@ -1,262 +1,779 @@
 [
   {
-    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1776317912",
-    "n_items": 2541,
-    "n_clusters": 2047,
+    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1776329800",
+    "n_items": 2571,
+    "n_clusters": 2100,
     "clusters": [
       {
-        "score": 77.7688806175412,
-        "size": 20,
-        "n_sources": 18,
-        "n_continents": 7,
+        "score": 244.75909445285043,
+        "size": 39,
+        "n_sources": 35,
+        "n_continents": 11,
         "continents": [
+          "Africa",
+          "China",
+          "East Asia",
           "Europe East",
           "Europe North",
           "Europe South",
           "Middle East",
           "North America",
+          "Oceania",
           "South America",
           "South Asia"
         ],
-        "coherence": 0.8034918904304504,
-        "title": "Trump posts image of himself with Jesus, continues war of words with Pope",
+        "coherence": 0.8094062209129333,
+        "title": "Lebanese, Israeli leaders to hold talks today: Trump",
         "central_article": {
-          "title": "Trump posts image of himself with Jesus, continues war of words with Pope",
-          "url": "https://www.theglobeandmail.com/world/article-trump-jesus-pope-catholic-church-christianity/",
-          "source_id": "theglobeandmail.com",
-          "continent": "North America",
+          "title": "Lebanese, Israeli leaders to hold talks today: Trump",
+          "url": "https://www.albawaba.com/news/lebanese-israeli-leaders-hold-talks-1625612",
+          "source_id": "albawaba.com",
+          "continent": "Middle East",
           "published_at": null,
-          "scraped_at_utc": "2026-04-16T04:02:34.522748+00:00"
+          "scraped_at_utc": "2026-04-16T08:21:26.656102+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9181364178657532,
+            "sim_to_centroid": 0.9031606316566467,
             "article": {
-              "title": "Trump posts image of himself with Jesus, continues war of words with Pope",
-              "url": "https://www.theglobeandmail.com/world/article-trump-jesus-pope-catholic-church-christianity/",
-              "source_id": "theglobeandmail.com",
+              "title": "Lebanese, Israeli leaders to hold talks today: Trump",
+              "url": "https://www.albawaba.com/news/lebanese-israeli-leaders-hold-talks-1625612",
+              "source_id": "albawaba.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:21:26.656102+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8948098421096802,
+            "article": {
+              "title": "Israel and Lebanon leaders to hold first talks: Trump",
+              "url": "https://www.thedailystar.net/news/world/news/israel-and-lebanon-leaders-hold-first-talks-trump-4152711",
+              "source_id": "thedailystar.net",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:24:53.330802+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8854598999023438,
+            "article": {
+              "title": "Trump says Israel, Lebanon to hold talks on Thursday",
+              "url": "https://pajhwok.com/2026/04/16/trump-says-israel-lebanon-to-hold-talks-on-thursday/",
+              "source_id": "pajhwok.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:25:08.855620+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8784310817718506,
+            "article": {
+              "title": "Trump anuncia que hoy hablarán \"los líderes\" de Israel y Líbano por primera vez en 34 años",
+              "url": "https://www.rtve.es/noticias/20260416/trump-anuncia-hoy-hablaran-lideres-israel-libano/17026063.shtml",
+              "source_id": "rtve.es",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:19:53.264110+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8778049349784851,
+            "article": {
+              "title": "Trump says Israel and Lebanon’s leaders will speak on Thursday",
+              "url": "https://www.aljazeera.com/news/2026/4/16/trump-says-israel-and-lebanons-leaders-will-speak-on-thursday",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:21:11.408477+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8766440749168396,
+            "article": {
+              "title": "Trump afirma que “los dos líderes” de Líbano e Israel hablarán este jueves",
+              "url": "https://www.latercera.com/mundo/noticia/trump-afirma-que-los-dos-lideres-de-libano-e-israel-hablaran-este-jueves/",
+              "source_id": "latercera.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:20:34.005143+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.876483142375946,
+            "article": {
+              "title": "Trump says Israel, Lebanon leaders to speak for first time in decades",
+              "url": "https://www.channelnewsasia.com/world/us-trump-israel-lebanon-peace-talks-war-6059946",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:25:33.490389+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8757980465888977,
+            "article": {
+              "title": "Трамп анонсировал первые за 34 года переговоры лидеров Израиля и Ливана",
+              "url": "https://www.kommersant.ru/doc/8590232?from=top_main_8",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:22:12.468009+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8662945032119751,
+            "article": {
+              "title": "Afirma Trump que Israel y L�bano dialogar�n el jueves",
+              "url": "https://www.reforma.com/afirma-trump-que-israel-y-libano-dialogaran-el-jueves/ar3187376?v=2",
+              "source_id": "reforma.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:02:34.522748+00:00"
+              "scraped_at_utc": "2026-04-16T08:20:03.511342+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8744994401931763,
+            "sim_to_centroid": 0.8606059551239014,
             "article": {
-              "title": "Nach heftiger Kritik Trump postet schon wieder Bild mit Jesus",
-              "url": "https://www.spiegel.de/ausland/donald-trump-postet-schon-wieder-bild-mit-jesus-a-a2711506-4a69-4df1-8b06-5736796c2eed",
-              "source_id": "spiegel.de",
-              "continent": "Europe North",
+              "title": "Trump affirme que les dirigeants israélien et libanais vont se parler jeudi, le Liban dit « ne pas être au courant »",
+              "url": "https://www.lesoir.be/741082/article/2026-04-16/trump-affirme-que-les-dirigeants-israelien-et-libanais-vont-se-parler-jeudi-le",
+              "source_id": "lesoir.be",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:00:20.889239+00:00"
+              "scraped_at_utc": "2026-04-16T08:19:48.099942+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8566634654998779,
+            "sim_to_centroid": 0.8588427305221558,
             "article": {
-              "title": "Trump carga otra vez contra el Papa",
-              "url": "https://www.lavanguardia.com/internacional/20260415/11513870/trump-carga-vez-papa-le-echa-cara-manifestantes-muertos-iran.html",
+              "title": "Trump anuncia que Líbano e Israel iniciarán las conversaciones de paz hoy mismo",
+              "url": "https://www.lavanguardia.com/internacional/20260416/11514777/guerra-iran-ataque-estados-unidos-trump-israel-teheran-hoy-en-directo.html",
               "source_id": "lavanguardia.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:01:29.360002+00:00"
+              "scraped_at_utc": "2026-04-16T08:19:50.676241+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8503782749176025,
+            "sim_to_centroid": 0.8561098575592041,
             "article": {
-              "title": "Trump shares new AI image as feud with Pope Leo XIV escalates",
-              "url": "https://www.usatoday.com/story/news/politics/2026/04/15/donald-trump-jesus-image-pope/89629539007/",
-              "source_id": "usatoday.com",
-              "continent": "North America",
+              "title": "Middle East war live: Trump says Israel and Lebanon leaders to hold talks Thursday",
+              "url": "https://www.france24.com/en/middle-east/20260416-middle-east-war-live-iran-threatens-to-disrupt-gulf-trade-in-response-to-us-naval-blockade",
+              "source_id": "france24.com",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:05:17.382605+00:00"
+              "scraped_at_utc": "2026-04-16T08:19:42.418604+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8395732045173645,
+            "sim_to_centroid": 0.8492257595062256,
             "article": {
-              "title": "Trump continues to criticise the Pope — and turns on Meloni",
-              "url": "https://www.thetimes.com/world/europe/article/donald-trump-pope-leo-iran-war-latest-plsqj5bp6",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
+              "title": "Encontro entre líderes de Israel e do Líbano acontece nesta quinta, anuncia Trump",
+              "url": "https://www.estadao.com.br/internacional/encontro-entre-lideres-de-israel-e-do-libano-acontece-nesta-quinta-anuncia-trump-npr/",
+              "source_id": "estadao.com.br",
+              "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:00:02.550404+00:00"
+              "scraped_at_utc": "2026-04-16T08:20:29.979518+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8368163108825684,
+            "sim_to_centroid": 0.8476921319961548,
             "article": {
-              "title": "ٹرمپ نے (نعوذ بااللّٰہ) حضرت عیسیٰ کیساتھ تصویر پوسٹ کردی، تنازع مزید تیز",
-              "url": "https://jang.com.pk/news/1574573",
-              "source_id": "jang.com.pk",
+              "title": "WORLD Trump says Israel, Lebanon leaders to hold talks Thursday",
+              "url": "https://myrepublica.nagariknetwork.com/news/trump-says-israel-lebanon-leaders-to-hold-talks-thursday-11-57.html",
+              "source_id": "myrepublica.nagariknetwork.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:06:09.599512+00:00"
+              "scraped_at_utc": "2026-04-16T08:25:07.616378+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8268738985061646,
+            "sim_to_centroid": 0.8408430814743042,
             "article": {
-              "title": "Trump bringt in Papst-Kontroverse die US-Katholiken gegen sich auf",
-              "url": "https://www.diepresse.com/20769266/trump-bringt-in-papst-kontroverse-die-us-katholiken-gegen-sich-auf",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:00:33.403442+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8171746730804443,
-            "article": {
-              "title": "Trump posts a picture of Jesus hugging him days after his AI-deity image drew widespread anger",
-              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-jesus-photo-backlash-ai-b2958240.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:00:00.811261+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8160640001296997,
-            "article": {
-              "title": "Trump insistă și publică o imagine cu el îmbrățișat de Iisus. „Nebunilor de stânga radicală s-ar putea să nu le placă asta”",
-              "url": "https://hotnews.ro/donald-trump-publica-o-imagine-cu-el-alaturi-de-iisus-2220018",
-              "source_id": "hotnews.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:03:29.355764+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8080421686172485,
-            "article": {
-              "title": "Sectores católicos se revuelven contra Trump, que insiste en sus críticas al Papa",
-              "url": "https://elpais.com/internacional/2026-04-16/sectores-catolicos-se-revuelven-contra-trump-que-insiste-en-asociarse-con-jesucristo-y-en-sus-criticas-al-papa.html",
+              "title": "Trump dice que Israel y Líbano hablarán hoy pero Beirut niega que vaya a haber contactos próximos",
+              "url": "https://elpais.com/internacional/2026-04-16/ultima-hora-de-la-guerra-de-estados-unidos-e-israel-contra-iran-en-directo.html",
               "source_id": "elpais.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:01:27.564781+00:00"
+              "scraped_at_utc": "2026-04-16T08:19:49.327295+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8017618656158447,
+            "sim_to_centroid": 0.8278616070747375,
             "article": {
-              "title": "وسط تصاعد التوتر مع الفاتيكان.. ترمب ينشر صورة وكأنه يعانق \"المسيح\"",
-              "url": "https://www.aljazeera.net/news/2026/4/16/وسط-تصاعد-التوتر-مع-الفاتيكان-ترمب",
+              "title": "لبنان اور اسرائیل 34 برس بعد آج براہ راست بات چیت کریں گے: ٹرمپ",
+              "url": "https://www.nawaiwaqt.com.pk/16-Apr-2026/1986589",
+              "source_id": "nawaiwaqt.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:25:06.317460+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8240554928779602,
+            "article": {
+              "title": "Iran-Liveblog: ++ Trump kündigt Israel-Libanon-Gespräche an ++",
+              "url": "https://www.tagesschau.de/newsticker/liveblog-iran-donnerstag-110.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:19:00.279715+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8134795427322388,
+            "article": {
+              "title": "Spitzengespräch zwischen Israel und Libanon geplant?",
+              "url": "https://www.zdfheute.de/politik/ausland/israel-libanon-treffen-iran-hisbollah-trump-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:19:11.122445+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8097273111343384,
+            "article": {
+              "title": "ترمب يعلن عن تواصل مرتقب بين \"زعيمي\" إسرائيل ولبنان",
+              "url": "https://www.aljazeera.net/news/2026/4/16/عاجل-ترمب-محادثات-بين-إسرائيل-ولبنان",
               "source_id": "aljazeera.net",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:02:57.807846+00:00"
+              "scraped_at_utc": "2026-04-16T08:21:16.537107+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.799831211566925,
+            "sim_to_centroid": 0.8025380373001099,
             "article": {
-              "title": "Trump desafía a las críticas con otra imagen de Jesucristo: “Dios podría estar jugando su carta ganadora”",
-              "url": "https://www.lavanguardia.com/internacional/20260415/11514266/trump-vuelve-incendiar-redes-imagen-jesus-dios-jugando-carta-ganadora.html",
-              "source_id": "lavanguardia.com",
-              "continent": "Europe South",
+              "title": ". geleden • Buitenland Trump kondigt topoverleg aan tussen Israël en Libanon",
+              "url": "https://nos.nl/artikel/2610653-trump-kondigt-topoverleg-aan-tussen-israel-en-libanon",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:01:29.360002+00:00"
+              "scraped_at_utc": "2026-04-16T08:18:53.166859+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7852315902709961,
+            "sim_to_centroid": 0.7993442416191101,
             "article": {
-              "title": "Тръмп си постна ИИ портрет с Христос",
-              "url": "https://www.dnevnik.bg/sviat/2026/04/15/4902935_trump_si_pusna_ii_portret_s_hristos/",
-              "source_id": "dnevnik.bg",
+              "title": "Second round of Israel-Lebanon talks to take place on April 16, says Trump",
+              "url": "https://www.straitstimes.com/world/live-us-israel-strike-iran-as-trump-urges-uprising?ref=top-stories",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:25:59.328429+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7967983484268188,
+            "article": {
+              "title": "Trump: Israel och Libanon träffas på torsdag ”Det var länge sedan de två ledarna pratade med varandra”",
+              "url": "https://www.svt.se/nyheter/utrikes/senaste-nytt-om-iran-och-konflikten-med-usa-och-israel?inlagg=be214e6d8cfcd6e040b6e1329e35b3a5",
+              "source_id": "svt.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:19:26.673690+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7887358069419861,
+            "article": {
+              "title": "Trump közelgő tárgyalásról posztolt, miközben Izrael...",
+              "url": "https://telex.hu/kulfold/2026/04/16/donald-trump-izrael-libanon-megbeszeles",
+              "source_id": "telex.hu",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:03:42.063078+00:00"
+              "scraped_at_utc": "2026-04-16T08:21:44.556955+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7800340056419373,
+            "sim_to_centroid": 0.7777868509292603,
             "article": {
-              "title": "Brendan Smialowski/AFP Ny Jesusbild från Trump efter kritiken Raderade tidigare inlägg • Går till attack mot påven igen.",
-              "url": "https://www.dn.se/varlden/trump-publicerar-ny-jesusbild-fortsatter-attackera-paven/",
-              "source_id": "dn.se",
-              "continent": "Europe North",
+              "title": "Trump says Israel and Lebanon leaders will speak Thursday A potential Lebanon ceasefire is seen as a critical condition for US-Iran peace and the reopening of the Strait of Hormuz.",
+              "url": "https://www.scmp.com/news/world/middle-east/article/3350251/trump-says-israel-and-lebanon-leaders-hold-talks-thursday?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:00:47.369573+00:00"
+              "scraped_at_utc": "2026-04-16T08:24:20.469480+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7678436040878296,
+            "sim_to_centroid": 0.7729641795158386,
             "article": {
-              "title": "Cómo los ataques de Trump contra el Papa le están costando el apoyo de una parte importante de sus seguidores",
-              "url": "https://www.bbc.com/mundo/articles/cy011xgrgdro",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
+              "title": "Hopes for Middle East peace grow as Israel discusses Lebanon ceasefire",
+              "url": "https://kathmandupost.com/world/2026/04/16/hopes-for-middle-east-peace-grow-as-israel-discusses-lebanon-ceasefire",
+              "source_id": "kathmandupost.com",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:01:40.844410+00:00"
+              "scraped_at_utc": "2026-04-16T08:25:03.062786+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7593432068824768,
+            "sim_to_centroid": 0.7729641795158386,
             "article": {
-              "title": "After criticizing the pope, Trump slams Italy's Meloni over Iran",
-              "url": "https://www.newarab.com/news/after-criticizing-pope-trump-slams-italys-meloni-over-iran",
+              "title": "Hopes for Middle East peace grow as Israel discusses Lebanon ceasefire",
+              "url": "https://www.straitstimes.com/world/middle-east/hopes-for-middle-east-peace-grow-as-israel-discusses-lebanon-ceasefire?ref=top-stories",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:25:59.328429+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7720826864242554,
+            "article": {
+              "title": "US hails 'historic opportunity' for peace after Lebanon, Israel talks in Washington",
+              "url": "https://www.france24.com/en/middle-east/20260414-us-hails-historic-opportunity-for-peace-after-lebanon-israel-talks-in-washington-talks",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:19:42.418604+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7720675468444824,
+            "article": {
+              "title": "Lebanon and Israel meet in the US for the 1st time in 33 Years",
+              "url": "https://www.egyptindependent.com/lebanon-and-israel-meet-in-the-us-for-the-1st-time-in-33-years/",
+              "source_id": "egyptindependent.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:23:40.028928+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7638916969299316,
+            "article": {
+              "title": "Lebanon 'not aware' of talks with Israeli leaders promised by Trump",
+              "url": "https://www.thenationalnews.com/news/mena/2026/04/15/live-us-israel-iran-war-lebanon/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:21:12.646035+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7632185816764832,
+            "article": {
+              "title": "V živo: Izrael: premier Netanjahu bo še danes govoril z libanonskim predsednikom",
+              "url": "https://www.delo.si/novice/svet/trump-za-danes-napovedal-pogovore-voditeljev-izraela-in-libanona",
+              "source_id": "delo.si",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:21:57.695775+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7622277736663818,
+            "article": {
+              "title": "US optimistic about Iran deal, says Israel and Lebanon will talk",
+              "url": "https://www.newarab.com/news/us-optimistic-about-iran-deal-says-israel-and-lebanon-will-talk",
               "source_id": "newarab.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:03:10.051906+00:00"
+              "scraped_at_utc": "2026-04-16T08:21:28.128127+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7516515851020813,
+            "sim_to_centroid": 0.7549717426300049,
             "article": {
-              "title": "Trump gentager kritik af paven: Atombombe i Iran er uacceptabelt",
-              "url": "https://sermitsiaq.ag/samfund/trump-gentager-kritik-af-paven-atombombe-i-iran-er-uacceptabelt/2371935",
-              "source_id": "sermitsiaq.ag",
+              "title": "صباح \"النهار\": ترامب يُعلن عن محادثات بين لبنان وإسرائيل.... كثرة السيناريوهات وقلة الحلول!",
+              "url": "https://www.annahar.com/lebanon/300658/صباح-النهار",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:21:35.927516+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7523799538612366,
+            "article": {
+              "title": "以色列与黎巴嫩政府代表33年来首次在华盛顿开启对话",
+              "url": "https://photos.caixin.com/2026-04-15/102434423.html",
+              "source_id": "caixin.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:24:32.811897+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7499468326568604,
+            "article": {
+              "title": "Staakt-het-vuren Nieuwe onderhandelingen VS en Iran in zicht, Israël overweegt bestand van een week in Libanon",
+              "url": "https://www.nrc.nl/nieuws/2026/04/15/nieuwe-onderhandelingen-vs-en-iran-in-zicht-israel-overweegt-bestand-van-een-week-in-libanon-a4925657",
+              "source_id": "nrc.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:01:07.001729+00:00"
+              "scraped_at_utc": "2026-04-16T08:18:54.795628+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7383126616477966,
+            "sim_to_centroid": 0.7432979345321655,
             "article": {
-              "title": "Dudas sobre salud mental de Trump resurgen tras críticas al Papa y lapsus públicos: ¿es viable removerlo del cargo?",
-              "url": "https://www.eltiempo.com/mundo/eeuu-y-canada/dudas-sobre-la-salud-mental-de-trump-resurgen-tras-criticas-al-papa-y-lapsus-publicos-es-viable-como-piden-sus-detractores-removerlo-del-cargo-3547800",
-              "source_id": "eltiempo.com",
-              "continent": "South America",
+              "title": "newsticker Krieg in Nahost Trump: Spitzentreffen zwischen Israel und Libanon geplant Die neuesten Einträge aus dem Liveticker: China pocht auf freie Schiffsfahrt in der Strasse von Hormus Pakistan: Noch kein Datum für USA-Iran-Gespräche Netanjahu: Sicherheitszone im Libanon wird ausgeweitet",
+              "url": "https://www.srf.ch/news/international/nahost/krieg-in-nahost-trump-spitzentreffen-zwischen-israel-und-libanon-geplant",
+              "source_id": "srf.ch",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:01:54.978883+00:00"
+              "scraped_at_utc": "2026-04-16T08:19:17.361728+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7242251634597778,
+            "sim_to_centroid": 0.7423287630081177,
             "article": {
-              "title": "Dobré ráno: V mene otca a Trumpa. Americký prezident sa vidí ako Ježiš",
-              "url": "https://www.sme.sk/podcasty/c/trump-usa-iran-lev-xiv-papez-dobre-rano-podcast",
-              "source_id": "sme.sk",
-              "continent": "Europe East",
+              "title": "What was agreed in the Lebanon-Israel talks in Washington?",
+              "url": "https://www.newarab.com/news/what-was-agreed-lebanon-israel-talks-washington",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:03:40.110642+00:00"
+              "scraped_at_utc": "2026-04-16T08:21:28.128127+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7173800468444824,
+            "sim_to_centroid": 0.7320119142532349,
             "article": {
-              "title": "From Obama-apes to Trump-as-Jesus: Is there a rock bottom to the president’s unhinged social media habit?",
-              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-posts-ai-truth-social-rants-b2957649.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
+              "title": "حرب إيران مباشر.. مفاوضات مرتقبة بين واشنطن وطهران وترمب يتحدث عن لقاء لبناني إسرائيلي",
+              "url": "https://www.aljazeera.net/news/liveblog/2026/4/14/حرب-إيران-مباشر-15-سفينة-أمريكية-تحاصر",
+              "source_id": "aljazeera.net",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:00:00.811261+00:00"
+              "scraped_at_utc": "2026-04-16T08:21:16.537107+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7315927743911743,
+            "article": {
+              "title": "Israeli, Lebanese envoys hold historic summit in Washington to discuss peace deal",
+              "url": "https://www.timesofisrael.com/israeli-lebanese-envoys-hold-historic-summit-in-washington-to-discuss-peace-deal/",
+              "source_id": "timesofisrael.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:21:15.273300+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.692360520362854,
+            "article": {
+              "title": "Trump says war 'very close to being over' as US flags fresh talks with Iran",
+              "url": "https://www.sbs.com.au/news/article/us-flags-another-round-of-peace-talks-with-iran/qb9boxc2l",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:20:59.983354+00:00"
             }
           }
         ]
       },
       {
-        "score": 72.65742322209277,
-        "size": 15,
-        "n_sources": 15,
-        "n_continents": 6,
+        "score": 93.91337458260212,
+        "size": 25,
+        "n_sources": 22,
+        "n_continents": 7,
         "continents": [
+          "China",
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America"
+        ],
+        "coherence": 0.801084041595459,
+        "title": "Russian missiles and drones bombard Ukraine at night, killing at least 16 people",
+        "central_article": {
+          "title": "Russian missiles and drones bombard Ukraine at night, killing at least 16 people",
+          "url": "https://www.bostonglobe.com/2026/04/16/world/russia-ukraine-war-updates/",
+          "source_id": "bostonglobe.com",
+          "continent": "North America",
+          "published_at": null,
+          "scraped_at_utc": "2026-04-16T08:24:09.336437+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8886159062385559,
+            "article": {
+              "title": "Russian missiles and drones bombard Ukraine at night, killing at least 16 people",
+              "url": "https://www.bostonglobe.com/2026/04/16/world/russia-ukraine-war-updates/",
+              "source_id": "bostonglobe.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:24:09.336437+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8869603872299194,
+            "article": {
+              "title": "Има загинали и десетки ранени при мощна руска атака в украински градове",
+              "url": "https://www.dnevnik.bg/sviat/2026/04/16/4902988_zaginali_i_desetki_raneni_pri_moshtna_ruska_ataka_v/",
+              "source_id": "dnevnik.bg",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:22:01.136685+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8826103210449219,
+            "article": {
+              "title": "More than a dozen killed in Russian attacks on Kyiv, other Ukrainian cities",
+              "url": "https://www.france24.com/en/europe/20260416-more-than-a-dozen-killed-in-russian-attacks-on-kyiv-other-ukrainian-cities",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:19:42.418604+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.868944525718689,
+            "article": {
+              "title": "Tote und Verletzte bei russischen Angriffen auf ukrainische Großstädte",
+              "url": "https://www.tagesschau.de/ausland/europa/tote-russische-angriffe-ukraine-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:19:00.279715+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8682961463928223,
+            "article": {
+              "title": "Ukraine Russia pummels Ukraine with drone and missile strikes, killing at least 12",
+              "url": "https://www.theguardian.com/world/2026/apr/16/russia-drone-missile-strikes-ukraine-kyiv-dnipro",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:18:46.613929+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8658874034881592,
+            "article": {
+              "title": "Russia slams Ukrainian cities in mass missile attack overnight — at least 15 dead, 98 injured.",
+              "url": "https://kyivindependent.com/explosions-heard-in-kyiv-as-russia-launches-ballistic-missiles-at-ukraine/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:22:04.160738+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8603727221488953,
+            "article": {
+              "title": "Russian drone and missile strikes kills 14 in Ukraine",
+              "url": "https://www.albawaba.com/news/russian-drone-and-missile-strikes-kills-1625628",
+              "source_id": "albawaba.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:21:26.656102+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8573446273803711,
+            "article": {
+              "title": "Russian strikes kill at least 16 across Ukraine in worst attack this year",
+              "url": "https://www.scmp.com/news/world/europe/article/3350297/russian-missiles-and-drones-kill-least-16-across-ukraine-worst-attack-year?module=latest&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:24:20.469480+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8470942974090576,
+            "article": {
+              "title": "Russian attacks on Ukraine kill 14, including a child, authorities say",
+              "url": "https://www.aljazeera.com/news/2026/4/16/russian-attack-on-ukraines-kyiv-kills-12-year-old-child-wounds-10",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:21:11.408477+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8300442695617676,
+            "article": {
+              "title": "Russian Strikes Kill Dozens, Injure Scores Across Ukraine, Kyiv Hit by Ballistic Missiles",
+              "url": "https://www.kyivpost.com/post/74024",
+              "source_id": "kyivpost.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:22:02.445918+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.828354001045227,
+            "article": {
+              "title": "Cel puțin 12 morți la Kiev, Odesa și Dnipro în urma unor atacuri rusești / Kievul acuză „crime de război”",
+              "url": "https://www.g4media.ro/cel-putin-12-morti-la-kiev-odesa-si-dnipro-in-urma-unor-atacuri-rusesti-kievul-acuza-crime-de-razboi.html",
+              "source_id": "g4media.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:21:54.065074+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8045743703842163,
+            "article": {
+              "title": "Российские войска атаковали Киев, Одессу и Днепр. Погибли 13 человек, десятки пострадали",
+              "url": "https://meduza.io/news/2026/04/16/rossiyskie-voyska-atakovali-kiev-odessu-i-dnepr-pogibli-13-chelovek-desyatki-postradali",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:22:05.310366+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7905714511871338,
+            "article": {
+              "title": "Massale raketaanval op Oekraïne: veertien doden, onder wie 12-jarig kind",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5591119/massale-raketaanval-oekraine-doden-kyiv-kind-12-jaar-vrouw-35",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:18:56.564352+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7876853942871094,
+            "article": {
+              "title": "Oorlog in Oekraïne Zeker veertien doden bij Russische aanvallen in Oekraïense steden Kyiv, Odesa en Dnipro",
+              "url": "https://www.nrc.nl/nieuws/2026/04/16/zeker-veertien-doden-bij-russische-aanvallen-in-oekraiense-steden-kyiv-odesa-en-dnipro-a4925671",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:18:54.795628+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7849336862564087,
+            "article": {
+              "title": "Fresh Russian barrage kills 14 in Ukraine",
+              "url": "https://www.bangkokpost.com/world/3237955/fresh-russian-barrage-kills-14-in-ukraine",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:25:55.261346+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7758260369300842,
+            "article": {
+              "title": "newsticker Krieg in der Ukraine 15 Tote bei russischen Luftangriffen auf die Ukraine Die neuesten Einträge aus dem Liveticker: Selenski: Druck auf Russland muss wirken Massive russische Angriffswelle – mindestens 15 Tote Gouverneur von Krasnodar: Zwei Kinder getötet",
+              "url": "https://www.srf.ch/news/international/ukraine/krieg-in-der-ukraine-15-tote-bei-russischen-luftangriffen-auf-die-ukraine",
+              "source_id": "srf.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:19:17.361728+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7736033201217651,
+            "article": {
+              "title": "8 Dead, 16 Injured in Odesa as Russia Launches One of Largest Air Attacks Yet",
+              "url": "https://www.kyivpost.com/post/74033",
+              "source_id": "kyivpost.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:22:02.445918+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.773348331451416,
+            "article": {
+              "title": "2 uur geleden • Buitenland Doden en tientallen gewonden bij zware Russische aanvallen op Oekraïne",
+              "url": "https://nos.nl/artikel/2610642-doden-en-tientallen-gewonden-bij-zware-russische-aanvallen-op-oekraine",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:18:53.166859+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7722165584564209,
+            "article": {
+              "title": "Military operation in Ukraine Ukraine launches 207 drones at Russian regions last night, strikes kill two children",
+              "url": "https://tass.com/politics/2117899",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:22:14.446641+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7575423717498779,
+            "article": {
+              "title": "Russian attacks kill 1, injure 6 in Odesa after striking residential building, spark Kyiv Oblast fire.",
+              "url": "https://kyivindependent.com/russian-attacks-kill-1-injure-6-in-odesa-after-striking-residential-building-spark-kyiv-oblast-fire/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:22:04.160738+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7541052103042603,
+            "article": {
+              "title": "Four children among dead as Russia and Ukraine trade strikes",
+              "url": "https://www.thetimes.com/world/russia-ukraine-war/article/russia-ukraine-war-strikes-r0gxvrw9h",
+              "source_id": "thetimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:18:45.295070+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7266888618469238,
+            "article": {
+              "title": "Die Ukraine schickt immer mehr Roboter in den Krieg gegen Russland",
+              "url": "https://www.diepresse.com/20769743/hat-die-ukraine-mit-ihren-robotern-militaergeschichte-geschrieben",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:19:09.070058+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6906709671020508,
+            "article": {
+              "title": "120,000 drones and more missiles: Allies double down on Ukraine aid",
+              "url": "https://www.euronews.com/my-europe/2026/04/15/120000-drones-and-more-missiles-allies-double-down-on-ukraine-aid-in-berlin",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:18:50.258375+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6854757070541382,
+            "article": {
+              "title": "Omfattende angrep: Minst 16 drept",
+              "url": "https://www.dagbladet.no/nyheter/tolv-drept-i-russiske-angrep/84502281",
+              "source_id": "dagbladet.no",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:19:25.293025+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6653355360031128,
+            "article": {
+              "title": "Ukraine's air defenses sharpening aim at Russian missiles, drones, defense minister says.",
+              "url": "https://kyivindependent.com/ukraines-air-defense-intercepts-80-of-russias-cruise-missiles-90-of-drones-defense-minister-says/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:22:04.160738+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 69.2757178506693,
+        "size": 16,
+        "n_sources": 15,
+        "n_continents": 8,
+        "continents": [
+          "Africa",
+          "China",
           "Europe East",
           "Europe North",
           "Europe South",
@@ -264,7 +781,209 @@
           "North America",
           "South Asia"
         ],
-        "coherence": 0.8571891784667969,
+        "coherence": 0.790120542049408,
+        "title": "Why are some ships going through the Strait of Hormuz during a blockade?",
+        "central_article": {
+          "title": "Why are some ships going through the Strait of Hormuz during a blockade?",
+          "url": "https://www.egyptindependent.com/why-are-some-ships-going-through-the-strait-of-hormuz-during-a-blockade/",
+          "source_id": "egyptindependent.com",
+          "continent": "Africa",
+          "published_at": null,
+          "scraped_at_utc": "2026-04-16T08:23:40.028928+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8739802241325378,
+            "article": {
+              "title": "Why are some ships going through the Strait of Hormuz during a blockade?",
+              "url": "https://www.egyptindependent.com/why-are-some-ships-going-through-the-strait-of-hormuz-during-a-blockade/",
+              "source_id": "egyptindependent.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:23:40.028928+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8495036959648132,
+            "article": {
+              "title": "What is happening after U.S. \"blockades\" Strait of Hormuz?",
+              "url": "https://en.people.cn/n3/2026/0416/c90000-20447287.html",
+              "source_id": "en.people.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:24:22.373786+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8422640562057495,
+            "article": {
+              "title": "How many ships are crossing the Strait of Hormuz?",
+              "url": "https://www.bbc.com/news/articles/c3w39lg84w2o",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:18:41.941026+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8199044466018677,
+            "article": {
+              "title": "Die US Navy blockiert die Strasse von Hormuz. Langfristig kann sie das kaum durchhalten",
+              "url": "https://www.nzz.ch/pro/hormuz-die-militaerischen-herausforderungen-der-amerikanischen-seeblockade-ld.1933571",
+              "source_id": "nzz.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:19:16.030657+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8121359348297119,
+            "article": {
+              "title": "US blockade of the Strait of Hormuz: What do the numbers show?",
+              "url": "https://www.france24.com/en/middle-east/20260415-us-blockade-of-the-strait-of-hormuz-what-do-the-numbers-show",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:19:42.418604+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8077906370162964,
+            "article": {
+              "title": "Three US aircraft carrier groups and 10 destroyers blockade Strait of Hormuz",
+              "url": "https://www.thenationalnews.com/news/mena/2026/04/15/us-stacks-three-carrier-groups-and-10-destroyers-to-blockade-strait-of-hormuz/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:21:12.646035+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7938977479934692,
+            "article": {
+              "title": "Hormuz traffic remains at a trickle as US blockade of Iranian ports appears to hold",
+              "url": "https://www.timesofisrael.com/hormuz-traffic-remains-at-a-trickle-as-us-blockade-of-iranian-ports-appears-to-hold/",
+              "source_id": "timesofisrael.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:21:15.273300+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7888967394828796,
+            "article": {
+              "title": "Hormuz Ship Traffic Stays Way Down Amid Double Blockade",
+              "url": "https://www.bloomberg.com/news/articles/2026-04-15/double-blockade-keeps-hormuz-shipping-at-fraction-of-peace-level?srnd=homepage-americas",
+              "source_id": "bloomberg.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:24:15.461772+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7785438895225525,
+            "article": {
+              "title": "US intercepts 10th Iranian ship attempting to break Hormuz Strait blockade",
+              "url": "https://www.egyptindependent.com/us-intercepts-10th-iranian-ship-attempting-to-break-hormuz-strait-blockade/",
+              "source_id": "egyptindependent.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:23:40.028928+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.778502345085144,
+            "article": {
+              "title": "Trump’s Strait of Hormuz blockade fails to stop Iran’s ghost tankers",
+              "url": "https://www.thetimes.com/world/middle-east/article/iran-crude-oil-strait-hormuz-us-blockade-bbtjj6lgm",
+              "source_id": "thetimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:18:45.295070+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7677497863769531,
+            "article": {
+              "title": "Trump declares he will permanently open the Strait of Hormuz – but how?",
+              "url": "https://www.channel4.com/news/trump-declares-he-will-permanently-open-the-strait-of-hormuz-but-how",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:18:48.738900+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.75837242603302,
+            "article": {
+              "title": "Trump ‘permanently opening’ Strait of Hormuz ‘for China’",
+              "url": "https://www.rt.com/news/638459-trump-opening-hormuz-strait/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:22:10.741922+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7570681571960449,
+            "article": {
+              "title": "Hormuz Strait closure takes its toll on global economic growth",
+              "url": "https://kathmandupost.com/money/2026/04/16/hormuz-strait-closure-takes-its-toll-on-global-economic-growth",
+              "source_id": "kathmandupost.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:25:03.062786+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7562215328216553,
+            "article": {
+              "title": "Viaggio nello Stretto di Hormuz, con le navi bloccate sullo sfondo: «Qui almeno non suonano le sirene»",
+              "url": "https://www.corriere.it/esteri/26_aprile_15/stretto-hormuz-oman-iran-reportage-b38ef674-dd76-483d-a8dd-b8838d8f9xlk.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:19:57.709572+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7535359859466553,
+            "article": {
+              "title": "Why is the Strait of Hormuz critical to global energy flows?",
+              "url": "https://www.thehindu.com/news/international/why-is-the-strait-of-hormuz-critical-to-global-energy-flows-explained/article70865249.ece",
+              "source_id": "thehindu.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:24:49.590986+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7035611867904663,
+            "article": {
+              "title": "Près de 20'000 marins à bord des navires coincés dans le détroit d’Ormuz, \"de nombreux problèmes à bord\"",
+              "url": "https://www.rts.ch/info/monde/2026/article/pres-de-20-000-marins-a-bord-des-navires-coinces-dans-le-detroit-d-ormuz-beaucoup-de-problemes-a-bord-29213230.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:19:43.999856+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 44.63295919431663,
+        "size": 9,
+        "n_sources": 9,
+        "n_continents": 6,
+        "continents": [
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "South Asia"
+        ],
+        "coherence": 0.8618977069854736,
         "title": "Nine killed in Turkey's second school shooting in two days",
         "central_article": {
           "title": "Nine killed in Turkey's second school shooting in two days",
@@ -272,820 +991,583 @@
           "source_id": "thenationalnews.com",
           "continent": "Middle East",
           "published_at": null,
-          "scraped_at_utc": "2026-04-16T04:02:53.636015+00:00"
+          "scraped_at_utc": "2026-04-16T08:21:12.646035+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9218817353248596,
+            "sim_to_centroid": 0.9434783458709717,
             "article": {
               "title": "Nine killed in Turkey's second school shooting in two days",
               "url": "https://www.thenationalnews.com/news/mena/2026/04/15/four-killed-in-turkeys-second-school-shooting-in-two-days/",
               "source_id": "thenationalnews.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:02:53.636015+00:00"
+              "scraped_at_utc": "2026-04-16T08:21:12.646035+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9167425036430359,
+            "sim_to_centroid": 0.9333529472351074,
             "article": {
-              "title": "Un adolescent armé tue neuf personnes dans une école en Turquie",
-              "url": "https://www.rts.ch/info/monde/2026/article/turquie-un-adolescent-tue-quatre-personnes-dans-une-ecole-29212944.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
+              "title": "Nine dead and 13 injured in second school shooting in Turkey this week",
+              "url": "https://www.euronews.com/2026/04/15/four-dead-and-20-injured-in-second-school-shooting-in-turkey-this-week-governor-says",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:01:21.128325+00:00"
+              "scraped_at_utc": "2026-04-16T08:18:50.258375+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9122745990753174,
+            "sim_to_centroid": 0.9306504726409912,
             "article": {
               "title": "9 killed, 13 wounded in Turkey school shooting — second attack in",
               "url": "https://www.albawaba.com/news/9-killed-13-wounded-turkey-school-1625601",
               "source_id": "albawaba.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:03:08.382878+00:00"
+              "scraped_at_utc": "2026-04-16T08:21:26.656102+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9075028896331787,
+            "sim_to_centroid": 0.9289432764053345,
             "article": {
               "title": "Nine people killed in second Turkish school shooting in two days",
               "url": "https://www.thetimes.com/world/europe/article/turkey-school-shooting-p8fbjtr58",
               "source_id": "thetimes.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:00:02.550404+00:00"
+              "scraped_at_utc": "2026-04-16T08:18:45.295070+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9063726663589478,
+            "sim_to_centroid": 0.8282783031463623,
             "article": {
-              "title": "At least nine people killed in Turkiye’s second school shooting in two days",
-              "url": "https://www.aljazeera.com/news/2026/4/15/four-killed-in-turkiyes-second-school-shooting-in-two-days",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
+              "title": "तुर्किये में 13 साल के छात्र ने गोलीबारी की: 9 की मौत, हमलावर ने खुद को भी गोली मारी, 2 दिन में दूसरी स्कूल शूटिंग",
+              "url": "https://www.bhaskar.com/g/international/news/turkiye-school-shooting-student-kills-four-137705147.html",
+              "source_id": "bhaskar.com",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:02:52.146694+00:00"
+              "scraped_at_utc": "2026-04-16T08:24:47.176222+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8904858827590942,
-            "article": {
-              "title": "Gewalttat in der Türkei: Achtklässler tötet neun Menschen in Schule",
-              "url": "https://www.tagesschau.de/ausland/asien/tuerkei-gewalt-schule-tote-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:00:17.601864+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8778917193412781,
-            "article": {
-              "title": "Με 5 όπλα εισέβαλε στο σχολείο ο δράστης της επίθεσης στην Τουρκία - Στους 9 οι νεκροί",
-              "url": "https://www.tovima.gr/2026/04/15/world/nekros-o-drastis-tis-enoplis-epithesis-stin-tourkia-eisevale-sto-sxoleio-me-5-opla-kai-7-gemistires/",
-              "source_id": "tovima.gr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:01:39.417170+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8651926517486572,
-            "article": {
-              "title": "Estudiante de 14 años mata a nueve personas en colegio de Turquía",
-              "url": "https://www.laestrella.com.pa/mundo/estudiante-de-14-anos-mata-a-nueve-personas-en-colegio-de-turquia-CH21623881",
-              "source_id": "laestrella.com.pa",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:01:51.677184+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8534672260284424,
+            "sim_to_centroid": 0.8263062834739685,
             "article": {
               "title": "Восьмиклассник застрелил учителя и трех учеников в школе на юге Турции",
               "url": "https://www.kommersant.ru/doc/8589813?from=spot_main",
               "source_id": "kommersant.ru",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:03:55.193672+00:00"
+              "scraped_at_utc": "2026-04-16T08:22:12.468009+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8473713397979736,
+            "sim_to_centroid": 0.81162029504776,
             "article": {
-              "title": "Стрельба произошла в школе в Турции",
-              "url": "https://tengrinews.kz/world_news/strelba-proizoshla-v-shkole-v-turtsii-597156/",
-              "source_id": "tengrinews.kz",
-              "continent": "Europe East",
+              "title": "Turkey holding funerals for school shooting victims",
+              "url": "https://www.bangkokpost.com/world/3237983/turkey-holding-funerals-for-school-shooting-victims",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:04:09.994900+00:00"
+              "scraped_at_utc": "2026-04-16T08:25:55.261346+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8467324376106262,
-            "article": {
-              "title": "तुर्किये में 13 साल के छात्र ने गोलीबारी की 9 की मौत, हमलावर ने खुद को भी गोली मारी, 2 दिन में दूसरी स्कूल शूटिंग",
-              "url": "https://www.bhaskar.com/g/international/news/turkiye-school-shooting-student-kills-four-137705147.html",
-              "source_id": "bhaskar.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:05:51.674893+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7937349081039429,
-            "article": {
-              "title": "Funke Mediengruppe Schütze ebenfalls tot Türkei: Mindestens neun Tote und 13 Verletzte nach Schüssen an Schule",
-              "url": "https://www.abendblatt.de/panorama/article411722982/tuerkei-mindestens-vier-tote-nach-schuessen-an-grundschule.html",
-              "source_id": "abendblatt.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:00:38.321603+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7823134660720825,
+            "sim_to_centroid": 0.8067368268966675,
             "article": {
               "title": "School Shooting in Southern Turkey Leaves Four Dead, 20 Injured",
               "url": "https://balkaninsight.com/2026/04/15/school-shooting-in-southern-turkey-leaves-four-dead-20-injured/bi/",
               "source_id": "balkaninsight.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:04:17.335718+00:00"
+              "scraped_at_utc": "2026-04-16T08:22:36.234577+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7757564783096313,
+            "sim_to_centroid": 0.7477129697799683,
             "article": {
-              "title": "Okul çantasında 5 silah 7 şarjör! 8. sınıf öğrencisi dehşet saçtı: 9 ölü 13 yaralı",
-              "url": "https://www.hurriyet.com.tr/gundem/okul-cantasinda-5-silah-7-sarjor-8-sinif-ogrencisi-dehset-sacti-9-olu-13-yarali-43152066",
-              "source_id": "hurriyet.com.tr",
-              "continent": "Middle East",
+              "title": "Turkey orders mass arrests over online praise for recent school shootings",
+              "url": "https://www.france24.com/en/asia-pacific/20260416-turkey-orders-mass-arrests-over-online-praise-for-recent-school-shootings",
+              "source_id": "france24.com",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:03:04.223440+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7601178884506226,
-            "article": {
-              "title": "Ученик с дробовиком начал стрельбу в лицее в Турции: что известно о трагедии",
-              "url": "https://ont.by/ru/accidents-ru/view/uchenik-s-drobovikom-nachal-strelbu-v-litsee-v-turtsii-chto-izvestno-o-tragedii-316378-2026",
-              "source_id": "ont.by",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:04:24.506282+00:00"
+              "scraped_at_utc": "2026-04-16T08:19:42.418604+00:00"
             }
           }
         ]
       },
       {
-        "score": 67.45912084687308,
-        "size": 17,
-        "n_sources": 17,
-        "n_continents": 6,
+        "score": 38.05323288427746,
+        "size": 16,
+        "n_sources": 13,
+        "n_continents": 5,
         "continents": [
           "Africa",
-          "East Asia",
           "Europe East",
           "Europe North",
           "Europe South",
           "North America"
         ],
-        "coherence": 0.8173097968101501,
-        "title": "Bayern Munich edge Real Madrid to reach Champions League semi-finals",
+        "coherence": 0.7929197549819946,
+        "title": "Trump continues to criticise the Pope — and turns on Meloni",
         "central_article": {
-          "title": "Bayern Munich edge Real Madrid to reach Champions League semi-finals",
-          "url": "https://www.france24.com/en/sport/20260415-bayern-munich-edge-real-madrid-champions-league-semi-finals",
-          "source_id": "france24.com",
-          "continent": "Europe South",
+          "title": "Trump continues to criticise the Pope — and turns on Meloni",
+          "url": "https://www.thetimes.com/world/europe/article/donald-trump-pope-leo-iran-war-latest-plsqj5bp6",
+          "source_id": "thetimes.com",
+          "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-04-16T04:01:19.293252+00:00"
+          "scraped_at_utc": "2026-04-16T08:18:45.295070+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9105918407440186,
+            "sim_to_centroid": 0.8824222683906555,
             "article": {
-              "title": "Bayern Munich edge Real Madrid to reach Champions League semi-finals",
-              "url": "https://www.france24.com/en/sport/20260415-bayern-munich-edge-real-madrid-champions-league-semi-finals",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:01:19.293252+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8870240449905396,
-            "article": {
-              "title": "Bayern na heerlijk duel tegen Real naar halve finale Champions League",
-              "url": "https://www.rtl.nl/nieuws/sport/artikel/5591058/bayern-munchen-arsenal-naar-champions-league-halve-finale",
-              "source_id": "rtl.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:00:13.606909+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8809751272201538,
-            "article": {
-              "title": "UCL: Bayern edge Real Madrid in seven-goal thriller to reach semi-finals",
-              "url": "https://businessday.ng/sports/article/ucl-bayern-edge-real-madrid-in-seven-goal-thriller-to-reach-semi-finals/",
-              "source_id": "businessday.ng",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:04:40.015754+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8500174283981323,
-            "article": {
-              "title": "Elimina Bayern al Real Madrid de la Champions",
-              "url": "https://www.reforma.com/elimina-bayern-al-real-madrid-de-la-champions/ar3187047?v=2",
-              "source_id": "reforma.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:01:43.408865+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8248825073242188,
-            "article": {
-              "title": "Deportes Bayern Múnich tuvo su noche mágica y eliminó al Real Madrid de la Champions",
-              "url": "https://www.crhoy.com/deportes/bayern-munich-tuvo-su-noche-magica-y-elimino-al-real-madrid-de-la-champions/",
-              "source_id": "crhoy.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:01:49.115923+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8246409893035889,
-            "article": {
-              "title": "Arsenal, Bayern Munich seal Champions League semi-final spots",
-              "url": "https://www.premiumtimesng.com/news/top-news/872171-arsenal-bayern-munich-seal-champions-league-semi-final-spots.html",
-              "source_id": "premiumtimesng.com",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:04:32.868023+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8174586296081543,
-            "article": {
-              "title": "Arsenal och Bayern till semi i Champions League",
-              "url": "https://www.dn.se/direkt/2026-04-15/arsenal-och-bayern-till-semi-i-champions-league/",
-              "source_id": "dn.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:00:47.369573+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8155707120895386,
-            "article": {
-              "title": "„Real“ įveikęs „Bayern“ žengė į Čempionų lygos pusfinalį, jame – ir „Arsenal“ klubas",
-              "url": "https://www.lrt.lt/naujienos/sportas/10/2899425/real-iveikes-bayern-zenge-i-cempionu-lygos-pusfinali-jame-ir-arsenal-klubas",
-              "source_id": "lrt.lt",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:04:02.925019+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8140149116516113,
-            "article": {
-              "title": "7 buts, un rouge, énormément de tension : le Bayern de Vincent Kompany élimine le Real Madrid après une soirée de folie",
-              "url": "https://www.rtbf.be/article/bayern-munich-real-madrid-les-merengue-peuvent-ils-creer-l-exploit-direct-commente-21h-11709245",
-              "source_id": "rtbf.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:01:24.572311+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8058632612228394,
-            "article": {
-              "title": "Bayern München afværger Real Madrids forsøg på comeback",
-              "url": "https://politiken.dk/sport/fodbold/art10806612/Bayern-M%C3%BCnchen-afv%C3%A6rger-Real-Madrids-fors%C3%B8g-p%C3%A5-comeback",
-              "source_id": "politiken.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:00:45.528486+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8055181503295898,
-            "article": {
-              "title": "El Bayern termina con el sueño de remontada de un Real Madrid que llegó a recuperar su gen de Champions League",
-              "url": "https://www.rtve.es/deportes/20260415/bayern-munich-real-madrid-directo-hoy-resumen-resultado-vuelta-cuartos-champions/17022849.shtml",
-              "source_id": "rtve.es",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:01:31.807067+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8043240308761597,
-            "article": {
-              "title": "Díaz and Olise late show sends Bayern into semi-finals after Real Madrid classic",
-              "url": "https://www.irishtimes.com/sport/soccer/2026/04/15/diaz-and-olise-late-show-sends-bayern-into-semi-finals-after-real-madrid-classic/",
-              "source_id": "irishtimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:02:50.858832+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7904381155967712,
-            "article": {
-              "title": "«Бавария» и «Арсенал» вышли в полуфинал Лиги чемпионов",
-              "url": "https://www.kommersant.ru/doc/8590204?from=top_main_5",
-              "source_id": "kommersant.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:03:55.193672+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7830629944801331,
-            "article": {
-              "title": "Careul de ași al Champions League este complet / Nebunie de meci în Bayern – Real Madrid, scor 4-3",
-              "url": "https://www.g4media.ro/careul-de-asi-al-champions-league-este-complet-nebunie-de-meci-in-bayern-real-madrid-scor-4-3.html",
-              "source_id": "g4media.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:03:35.321625+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7697923183441162,
-            "article": {
-              "title": "Bayernu srhljivka s sedmimi goli, v polfinalu Arsenal proti Janu Oblaku",
-              "url": "https://www.delo.si/sport/nogomet/uefa-liga-prvakov-bayern-real-madrid-arsenal-sporting-cetrtfinale",
-              "source_id": "delo.si",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:03:38.657627+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7633810639381409,
-            "article": {
-              "title": "El Bayern firma con crueldad el año en blanco de un gran Real Madrid en Múnich",
-              "url": "https://www.lavanguardia.com/deportes/real-madrid/20260415/11514567/bayern-firma-crueldad-ano-blanco-heroico-real-madrid-munich.html",
-              "source_id": "lavanguardia.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:01:29.360002+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7467095851898193,
-            "article": {
-              "title": "Kemarahan Bellingham dan Carvajal Usai Real Madrid Disingkirkan Bayern Muenchen Bola",
-              "url": "https://bola.kompas.com/read/2026/04/16/10484168/kemarahan-bellingham-dan-carvajal-usai-real-madrid-disingkirkan-bayern-muenchen?source=sorotan",
-              "source_id": "kompas.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:07:14.693278+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 67.15560325538608,
-        "size": 17,
-        "n_sources": 17,
-        "n_continents": 7,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.7855777740478516,
-        "title": "US optimistic about reaching peace deal with Iran",
-        "central_article": {
-          "title": "US optimistic about reaching peace deal with Iran",
-          "url": "https://www.thedailystar.net/news/world/us-israel-war-iran/news/us-optimistic-about-reaching-peace-deal-iran-4152671",
-          "source_id": "thedailystar.net",
-          "continent": "South Asia",
-          "published_at": null,
-          "scraped_at_utc": "2026-04-16T04:05:58.476693+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8874722719192505,
-            "article": {
-              "title": "US optimistic about reaching peace deal with Iran",
-              "url": "https://www.thedailystar.net/news/world/us-israel-war-iran/news/us-optimistic-about-reaching-peace-deal-iran-4152671",
-              "source_id": "thedailystar.net",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:05:58.476693+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8732178211212158,
-            "article": {
-              "title": "US says optimistic about reaching peace deal with Iran",
-              "url": "https://www.newarab.com/news/us-says-optimistic-about-reaching-peace-deal-iran",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:03:10.051906+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8596818447113037,
-            "article": {
-              "title": "‘Good prospects’ of peace deal with Iran, claims US",
-              "url": "https://www.thetimes.com/world/middle-east/israel-iran/article/iran-war-jd-vance-mistrust-talks-latest-news-xxzdbdvvl",
+              "title": "Trump continues to criticise the Pope — and turns on Meloni",
+              "url": "https://www.thetimes.com/world/europe/article/donald-trump-pope-leo-iran-war-latest-plsqj5bp6",
               "source_id": "thetimes.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:00:02.550404+00:00"
+              "scraped_at_utc": "2026-04-16T08:18:45.295070+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8359569311141968,
+            "sim_to_centroid": 0.8507500290870667,
             "article": {
-              "title": "EUA dizem que conversa com Irã está ativa e que têm perspectiva de acordo",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/04/eua-dizem-que-negociacoes-com-ira-estao-ativas-e-que-tem-perspectiva-de-acordo.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
+              "title": "Trump bringt in Papst-Kontroverse die US-Katholiken gegen sich auf",
+              "url": "https://www.diepresse.com/20769266/trump-bringt-in-papst-kontroverse-die-us-katholiken-gegen-sich-auf",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:02:02.444122+00:00"
+              "scraped_at_utc": "2026-04-16T08:19:09.070058+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.797329306602478,
+            "sim_to_centroid": 0.8399611711502075,
             "article": {
-              "title": "Hopes grow for a breakthrough in US-Iran talks as Pakistan mediates",
-              "url": "https://www.aljazeera.com/news/2026/4/16/hopes-grow-for-a-breakthrough-in-us-iran-talks-as-pakistan-mediates",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:02:52.146694+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7906817197799683,
-            "article": {
-              "title": "Reports Hint at Upcoming US-Iran Talks Before Ceasefire Expires",
-              "url": "https://www.kyivpost.com/post/73917",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:03:43.381823+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.779658317565918,
-            "article": {
-              "title": "Guerre au Moyen-Orient : la Maison Blanche optimiste quant à un accord avec l'Iran lors d'un deuxième round de négociations au Pakistan",
-              "url": "https://www.rtbf.be/article/direct-guerre-au-moyen-orient-dix-pays-dont-canada-royaume-uni-et-japon-exigent-la-fin-urgente-des-hostilites-au-liban-11709972",
-              "source_id": "rtbf.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:01:24.572311+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7792208194732666,
-            "article": {
-              "title": "Trump says Iran war is very close to being over",
-              "url": "https://www.albawaba.com/news/trump-says-iran-war-very-close-being-1625545",
-              "source_id": "albawaba.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:03:08.382878+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7648961544036865,
-            "article": {
-              "title": "Trump wants to end war with Iran as soon as possible — media",
-              "url": "https://tass.com/world/2117857",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:03:57.048879+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.759075939655304,
-            "article": {
-              "title": "La Casa Blanca reconoce contactos para una nueva ronda de conversaciones de paz con Irán",
-              "url": "https://www.lavanguardia.com/internacional/20260415/11514555/casa-blanca-reconoce-contactos-nueva-ronda-conversaciones-iran.html",
-              "source_id": "lavanguardia.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:01:29.360002+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7559735774993896,
-            "article": {
-              "title": "Bloomberg: США и Иран думают продлить перемирие еще на две недели",
-              "url": "https://meduza.io/news/2026/04/15/bloomberg-ssha-i-iran-dumayut-prodlit-peremirie-esche-na-dve-nedeli",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:03:46.108866+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7546901702880859,
-            "article": {
-              "title": "White House: 'We feel good about the prospects of a deal'",
-              "url": "https://www.timesofisrael.com/pm-says-israel-ready-for-iran-war-resumption-while-us-gears-for-another-round-of-talks/",
-              "source_id": "timesofisrael.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:02:56.413002+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7487164735794067,
-            "article": {
-              "title": "End of Iran war ‘very close’",
-              "url": "https://www.rt.com/news/638440-trump-iran-us-talks/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:03:52.516623+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7457586526870728,
-            "article": {
-              "title": "US-Iran agree to ‘in-principle’ extension of ceasefire: Report",
-              "url": "https://indianexpress.com/article/world/us-iran-likely-to-extend-ceasefire-10639058/",
-              "source_id": "indianexpress.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:05:57.031733+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.745124101638794,
-            "article": {
-              "title": "How U.S. hopes to resolve Iran conflict with economic warfare",
-              "url": "https://www.theglobeandmail.com/world/article-economic-conflict-us-iran-trump-middle-east/",
-              "source_id": "theglobeandmail.com",
+              "title": "After criticizing the pope, Trump slams Italy’s Meloni over lack of support for Iran war",
+              "url": "https://apnews.com/article/italy-trump-giorgia-meloni-pope-iran-israel-172094da97513b78a91cd5abc1bdbdc8",
+              "source_id": "apnews.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:02:34.522748+00:00"
+              "scraped_at_utc": "2026-04-16T08:23:45.013332+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7450315952301025,
+            "sim_to_centroid": 0.8345036506652832,
             "article": {
-              "title": "Under fragile ceasefire, Iranians wonder if US deal can be done",
-              "url": "https://www.bbc.com/news/articles/c4g44gj7rgno",
+              "title": "How Trump’s Clash With Pope Leo Turned Into a Fight Over Theology",
+              "url": "https://www.nytimes.com/2026/04/15/us/just-war-vance-pope.html",
+              "source_id": "nytimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:23:46.265587+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8247833251953125,
+            "article": {
+              "title": "Streit mit dem Papst: Trump legt nach",
+              "url": "https://www.zdfheute.de/politik/ausland/trump-papst-streit-iran-krieg-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:19:11.122445+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8170691728591919,
+            "article": {
+              "title": "Cómo los ataques de Trump contra el Papa le están costando el apoyo de una parte importante de sus seguidores",
+              "url": "https://www.bbc.com/mundo/articles/cy011xgrgdro",
               "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T03:59:59.425589+00:00"
+              "scraped_at_utc": "2026-04-16T08:20:00.827816+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7323360443115234,
+            "sim_to_centroid": 0.8117280006408691,
             "article": {
-              "title": "Sensex up 500 points, Nifty 50 nears 24,400 on hopes of Iran-US peace talks",
-              "url": "https://www.hindustantimes.com/business/sensex-up-500-points-nifty-50-nears-24-400-on-hopes-of-iran-us-peace-talks-101776310405981.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
+              "title": "Trump shares new AI image as feud with Pope Leo XIV escalates",
+              "url": "https://www.usatoday.com/story/news/politics/2026/04/15/donald-trump-jesus-image-pope/89629539007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:05:55.649856+00:00"
+              "scraped_at_utc": "2026-04-16T08:24:10.440060+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.807428240776062,
+            "article": {
+              "title": "Trump and Meloni Split Amid Growing Dispute Over Pope and Iran",
+              "url": "https://www.nytimes.com/2026/04/15/world/europe/trump-meloni-italy-iran-pope.html",
+              "source_id": "nytimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:23:46.265587+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8063982129096985,
+            "article": {
+              "title": "Trump lanza un fuerte ataque contra el papa León XIV por sus críticas a la guerra en Irán, y este responde que \"no le tiene miedo\"",
+              "url": "https://www.bbc.com/mundo/articles/c1eq9vlpv6qo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:20:00.827816+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8014130592346191,
+            "article": {
+              "title": "Wie gefährlich wird der Papst-Streit für Donald Trump?",
+              "url": "https://www.zdfheute.de/politik/ausland/trump-usa-wahlen-papst-leo-streit-iran-krieg-frieden-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:19:11.122445+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7912759780883789,
+            "article": {
+              "title": "Sectores católicos se revuelven contra el presidente de EE UU, que insiste en criticar al Papa",
+              "url": "https://elpais.com/internacional/2026-04-16/sectores-catolicos-se-revuelven-contra-trump-que-insiste-en-asociarse-con-jesucristo-y-en-sus-criticas-al-papa.html",
+              "source_id": "elpais.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:19:49.327295+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7718110084533691,
+            "article": {
+              "title": "African Catholics recoil at Trump's spat with Pope Leo Africa",
+              "url": "https://nation.africa/kenya/news/africa/african-catholics-recoil-at-trump-s-spat-with-pope-leo-5425268",
+              "source_id": "nation.africa",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:23:13.482687+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.755412220954895,
+            "article": {
+              "title": "Trump gentager kritik af paven: Atombombe i Iran er uacceptabelt",
+              "url": "https://sermitsiaq.ag/samfund/trump-gentager-kritik-af-paven-atombombe-i-iran-er-uacceptabelt/2371935",
+              "source_id": "sermitsiaq.ag",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:19:34.619399+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7194634675979614,
+            "article": {
+              "title": "Trump’s Rant on Meloni and the Pope, Europe’s Reaction to Orban’s Defeat – Ukraine Latest, April 14",
+              "url": "https://www.kyivpost.com/post/73936",
+              "source_id": "kyivpost.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:22:02.445918+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7119261026382446,
+            "article": {
+              "title": "It’s Not Just Iran. Trump Is Flailing on Multiple Fronts.",
+              "url": "https://www.theatlantic.com/politics/2026/04/trump-iran-hungary-melania-epstein/686816/",
+              "source_id": "theatlantic.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:24:17.908821+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.660370409488678,
+            "article": {
+              "title": "Funke Mediengruppe Italiens Regierungschefin „Ihr Absturz hat begonnen“: Meloni in der Krise – nicht nur Trump macht Ärger",
+              "url": "https://www.abendblatt.de/politik/article411718923/ihr-absturz-hat-begonnen-meloni-in-der-krise-nicht-nur-trump-macht-aerger.html",
+              "source_id": "abendblatt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:19:13.065669+00:00"
             }
           }
         ]
       },
       {
-        "score": 59.8734750308458,
-        "size": 16,
-        "n_sources": 15,
-        "n_continents": 6,
+        "score": 33.34972500925158,
+        "size": 12,
+        "n_sources": 11,
+        "n_continents": 5,
         "continents": [
-          "Africa",
-          "East Asia",
           "Europe East",
+          "Europe North",
           "Europe South",
           "Middle East",
-          "Oceania"
+          "South Asia"
         ],
-        "coherence": 0.8184847831726074,
-        "title": "Trump says Israel and Lebanon talks to happen on Thursday",
+        "coherence": 0.7999432682991028,
+        "title": "Hungary’s Magyar urges president to quit, vows to overhaul state media",
         "central_article": {
-          "title": "Trump says Israel and Lebanon talks to happen on Thursday",
-          "url": "https://www.channelnewsasia.com/world/us-trump-israel-lebanon-peace-talks-war-6059946",
-          "source_id": "channelnewsasia.com",
-          "continent": "East Asia",
+          "title": "Hungary’s Magyar urges president to quit, vows to overhaul state media",
+          "url": "https://www.aljazeera.com/news/2026/4/15/hungarys-magyar-urges-president-to-quit-vows-to-overhaul-state-media",
+          "source_id": "aljazeera.com",
+          "continent": "Middle East",
           "published_at": null,
-          "scraped_at_utc": "2026-04-16T04:06:41.637528+00:00"
+          "scraped_at_utc": "2026-04-16T08:21:11.408477+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8844685554504395,
+            "sim_to_centroid": 0.8683035969734192,
             "article": {
-              "title": "Trump says Israel and Lebanon talks to happen on Thursday",
-              "url": "https://www.channelnewsasia.com/world/us-trump-israel-lebanon-peace-talks-war-6059946",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:06:41.637528+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8799458742141724,
-            "article": {
-              "title": "Trump announces meeting between Israel, Lebanon leaders",
-              "url": "https://www.jpost.com/middle-east/article-893167",
-              "source_id": "jpost.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:02:54.951375+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.867782711982727,
-            "article": {
-              "title": "Trump says Israel and Lebanon’s leaders will speak on Thursday",
-              "url": "https://www.aljazeera.com/news/2026/4/16/trump-says-israel-and-lebanons-leaders-will-speak-on-thursday",
+              "title": "Hungary’s Magyar urges president to quit, vows to overhaul state media",
+              "url": "https://www.aljazeera.com/news/2026/4/15/hungarys-magyar-urges-president-to-quit-vows-to-overhaul-state-media",
               "source_id": "aljazeera.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:02:52.146694+00:00"
+              "scraped_at_utc": "2026-04-16T08:21:11.408477+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8650394678115845,
+            "sim_to_centroid": 0.8404590487480164,
             "article": {
-              "title": "Trump dice que hoy hablarán \"los líderes\" de Israel y Líbano",
-              "url": "https://www.rtve.es/noticias/20260416/guerra-iran-ultima-hora-directo/17025807.shtml",
-              "source_id": "rtve.es",
+              "title": "Angekündigte Reformen in Ungarn Magyar fordert Präsidenten zum Rücktritt auf",
+              "url": "https://www.tagesschau.de/ausland/ungarn-magyar-reformen-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:19:00.279715+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8299065232276917,
+            "article": {
+              "title": "Peter Magyar will die «Propagandamaschinerie» in Ungarn stoppen – der staatliche Sender schwenkt bereits um",
+              "url": "https://www.nzz.ch/international/ungarn-der-staatliche-sender-schwenkt-bereits-um-peter-magyar-will-die-propagandamaschinerie-stoppen-ld.1933588",
+              "source_id": "nzz.ch",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:01:31.807067+00:00"
+              "scraped_at_utc": "2026-04-16T08:19:16.030657+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8509827852249146,
+            "sim_to_centroid": 0.8151788711547852,
             "article": {
-              "title": "ترامب: محادثات ستجري بين إسرائيل ولبنان الخميس",
-              "url": "https://www.annahar.com/lebanon/300655/ترامب-محادثات-بين-إسرائيل-ولبنان-ستعقد-غدا",
-              "source_id": "annahar.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:03:19.107088+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8305437564849854,
-            "article": {
-              "title": "ترمب: محادثات مرتقبة بين إسرائيل ولبنان غدا",
-              "url": "https://alrai.com/article/10952903/عربي-ودولي/ترمب-محادثات-مرتقبة-بين-إسرائيل-ولبنان-غدا",
-              "source_id": "alrai.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:03:17.648340+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8276340961456299,
-            "article": {
-              "title": "ترمب: محادثات بين إسرائيل ولبنان ستعقد الخميس",
-              "url": "https://www.aljazeera.net/news/liveblog/2026/4/14/حرب-إيران-مباشر-15-سفينة-أمريكية-تحاصر?update=9116662",
-              "source_id": "aljazeera.net",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:02:57.807846+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8265435695648193,
-            "article": {
-              "title": "Trumpas teigia, kad Izraelio ir Libano vadovų susitikimas „įvyks“ ketvirtadienį",
-              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/2900005/trumpas-teigia-kad-izraelio-ir-libano-vadovu-susitikimas-ivyks-ketvirtadieni",
-              "source_id": "lrt.lt",
+              "title": "Hungary shifts course as Peter Magyar wins election, signaling pro-Western turn",
+              "url": "https://georgiatoday.ge/hungary-shifts-course-as-peter-magyar-wins-election-signaling-pro-western-turn/",
+              "source_id": "georgiatoday.ge",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:04:02.925019+00:00"
+              "scraped_at_utc": "2026-04-16T08:22:26.544714+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8084849119186401,
+            "sim_to_centroid": 0.8123897314071655,
             "article": {
-              "title": "Hopes for Middle East peace grow as Israel discusses Lebanon ceasefire",
-              "url": "https://www.straitstimes.com/world/middle-east/hopes-for-middle-east-peace-grow-as-israel-discusses-lebanon-ceasefire?ref=top-stories",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
+              "title": "Hoop in Hongarije dat Magyar de corruptie van Orbáns systeem ‘verplettert’",
+              "url": "https://nos.nl/artikel/2610529-hoop-in-hongarije-dat-magyar-de-corruptie-van-orbans-systeem-verplettert",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:07:07.717334+00:00"
+              "scraped_at_utc": "2026-04-16T08:18:53.166859+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8084849119186401,
+            "sim_to_centroid": 0.8006539344787598,
             "article": {
-              "title": "Hopes for Middle East peace grow as Israel discusses Lebanon ceasefire",
-              "url": "https://www.channelnewsasia.com/world/hopes-middle-east-peace-israel-discusses-lebanon-ceasefire-war-iran-6059891",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:06:41.637528+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8082956075668335,
-            "article": {
-              "title": "US hails 'historic opportunity' for peace after Lebanon, Israel talks in Washington",
-              "url": "https://www.france24.com/en/middle-east/20260414-us-hails-historic-opportunity-for-peace-after-lebanon-israel-talks-in-washington-talks",
-              "source_id": "france24.com",
+              "title": "Manager, Opernsängerinnen und ein General: Peter Magyars Mitstreiter verkörpern den angestrebten Wandel in Ungarn",
+              "url": "https://www.nzz.ch/international/ungarn-hinter-wahlsieger-magyar-stehen-mitstreiter-mit-ungewoehnlichen-karrieren-ld.1933610",
+              "source_id": "nzz.ch",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:01:19.293252+00:00"
+              "scraped_at_utc": "2026-04-16T08:19:16.030657+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7984343767166138,
+            "sim_to_centroid": 0.794355034828186,
             "article": {
-              "title": "Lebanon and Israel meet in the US for the 1st time in 33 Years",
-              "url": "https://www.egyptindependent.com/lebanon-and-israel-meet-in-the-us-for-the-1st-time-in-33-years/",
-              "source_id": "egyptindependent.com",
-              "continent": "Africa",
+              "title": "Where will Magyar take Hungary?",
+              "url": "https://www.rt.com/news/638389-where-magyar-taking-hungary/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:04:45.971960+00:00"
+              "scraped_at_utc": "2026-04-16T08:22:10.741922+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7973823547363281,
+            "sim_to_centroid": 0.791863203048706,
             "article": {
-              "title": "First Lebanon–Israel Direct Talks in 43 Years Open in Washington",
-              "url": "https://www.albawaba.com/news/first-lebanon%E2%80%93israel-direct-talks-43-1625529",
-              "source_id": "albawaba.com",
-              "continent": "Middle East",
+              "title": "Magyar’s first target: Hungary’s state-controlled media",
+              "url": "https://www.politico.eu/article/peter-magyar-first-target-hungary-state-controlled-media/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:03:08.382878+00:00"
+              "scraped_at_utc": "2026-04-16T08:18:51.448909+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7909514307975769,
+            "sim_to_centroid": 0.7914612293243408,
             "article": {
-              "title": "What was agreed in the Lebanon-Israel talks in Washington?",
-              "url": "https://www.newarab.com/news/what-was-agreed-lebanon-israel-talks-washington",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
+              "title": "Péter Magyar says new government could take power at beginning of May",
+              "url": "https://www.euronews.com/my-europe/2026/04/15/hungarys-peter-magyar-says-new-government-could-take-power-at-beginning-of-may",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:03:10.051906+00:00"
+              "scraped_at_utc": "2026-04-16T08:18:50.258375+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.770756721496582,
+            "sim_to_centroid": 0.7885284423828125,
             "article": {
-              "title": "Entre Israël et le Liban, l’amorce de pourparlers « constructifs » sous l’égide des Etats-Unis",
-              "url": "https://www.lemonde.fr/international/article/2026/04/15/entre-israel-et-le-liban-l-amorce-de-pourparlers-constructifs-sous-l-egide-des-etats-unis_6680214_3210.html",
-              "source_id": "lemonde.fr",
+              "title": "Péter Magyar: The former loyalist who toppled Victor Orban",
+              "url": "https://www.thehindu.com/news/international/peter-magyar-the-former-loyalist-who-toppled-victor-orban/article70868053.ece",
+              "source_id": "thehindu.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:24:49.590986+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7336650490760803,
+            "article": {
+              "title": "Le nouveau Premier ministre hongrois veut suspendre l'information des médias publics",
+              "url": "https://www.rts.ch/info/monde/2026/article/le-nouveau-premier-ministre-hongrois-veut-suspendre-l-information-des-medias-publics-29213253.html",
+              "source_id": "rts.ch",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:01:13.084558+00:00"
+              "scraped_at_utc": "2026-04-16T08:19:43.999856+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6800248026847839,
+            "sim_to_centroid": 0.7325553297996521,
             "article": {
-              "title": "Trump says war 'very close to being over' as US flags fresh talks with Iran",
-              "url": "https://www.sbs.com.au/news/article/us-flags-another-round-of-peace-talks-with-iran/qb9boxc2l",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
+              "title": "Orban ‘puppets’ must be ousted, says Hungary’s new leader",
+              "url": "https://www.thetimes.com/world/europe/article/peter-magyar-viktor-orban-trump-hungary-politics-bfvfskdt3",
+              "source_id": "thetimes.com",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:02:37.691957+00:00"
+              "scraped_at_utc": "2026-04-16T08:18:45.295070+00:00"
             }
           }
         ]
       },
       {
-        "score": 46.09914042961609,
-        "size": 12,
-        "n_sources": 12,
-        "n_continents": 7,
+        "score": 32.05514225605026,
+        "size": 7,
+        "n_sources": 7,
+        "n_continents": 5,
         "continents": [
-          "China",
-          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Middle East",
+          "North America",
+          "South America"
+        ],
+        "coherence": 0.8824219107627869,
+        "title": "Tre döda i ny amerikansk fartygsattack",
+        "central_article": {
+          "title": "Tre döda i ny amerikansk fartygsattack",
+          "url": "https://www.dn.se/direkt/2026-04-16/tre-doda-i-ny-amerikansk-fartygsattack-2/",
+          "source_id": "dn.se",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-04-16T08:19:20.946439+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9138067960739136,
+            "article": {
+              "title": "Tre döda i ny amerikansk fartygsattack",
+              "url": "https://www.dn.se/direkt/2026-04-16/tre-doda-i-ny-amerikansk-fartygsattack-2/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:19:20.946439+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9129322171211243,
+            "article": {
+              "title": "US military kills three in new Eastern Pacific boat strike",
+              "url": "https://www.aljazeera.com/news/2026/4/16/us-military-kills-three-in-new-eastern-pacific-boat-strike",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:21:11.408477+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8851564526557922,
+            "article": {
+              "title": "Al menos tres muertos en un nuevo bombardeo de EE.UU. contra una embarcación en el Pacífico oriental",
+              "url": "https://www.latercera.com/mundo/noticia/al-menos-tres-muertos-en-un-nuevo-bombardeo-de-eeuu-contra-una-embarcacion-en-el-pacifico-oriental/",
+              "source_id": "latercera.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:20:34.005143+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8730366230010986,
+            "article": {
+              "title": "3 Killed in Boat Strike in the Pacific, Pentagon Says",
+              "url": "https://www.nytimes.com/2026/04/16/us/politics/us-military-boat-strike-pacific-drugs.html",
+              "source_id": "nytimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:23:46.265587+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8700160980224609,
+            "article": {
+              "title": "Trei morți într-un nou atac american asupra unei ambarcațiuni suspectate de trafic de droguri",
+              "url": "https://www.g4media.ro/trei-morti-intr-un-nou-atac-american-asupra-unei-ambarcatiuni-suspectate-de-trafic-de-droguri.html",
+              "source_id": "g4media.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:21:54.065074+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8680433034896851,
+            "article": {
+              "title": "US launches fifth strike on alleged Pacific drug boat in a week, killing three",
+              "url": "https://www.theguardian.com/us-news/2026/apr/16/us-launches-fifth-strike-on-alleged-pacific-drug-boat-in-a-week-killing-three",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:18:46.613929+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8539621233940125,
+            "article": {
+              "title": "مقتل 3 في ضربة نفذها الجيش الأميركي شرق المحيط الهادئ",
+              "url": "https://www.annahar.com/international/united-states/300663/مقتل-3-في-ضربة-نفذها-الجيش-الأميركي-شرق-المحيط-الهادي",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:21:35.927516+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 30.166767404648116,
+        "size": 10,
+        "n_sources": 10,
+        "n_continents": 5,
+        "continents": [
           "Europe East",
           "Europe North",
           "Europe South",
           "Middle East",
           "North America"
         ],
-        "coherence": 0.7799955010414124,
+        "coherence": 0.7989435791969299,
         "title": "Trump Says Iran War 'Close to Over,' Hints at Possible Deadline",
         "central_article": {
           "title": "Trump Says Iran War 'Close to Over,' Hints at Possible Deadline",
@@ -1093,709 +1575,325 @@
           "source_id": "time.com",
           "continent": "North America",
           "published_at": null,
-          "scraped_at_utc": "2026-04-16T04:05:21.030098+00:00"
+          "scraped_at_utc": "2026-04-16T08:24:16.732971+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8809301257133484,
+            "sim_to_centroid": 0.8900802135467529,
             "article": {
               "title": "Trump Says Iran War 'Close to Over,' Hints at Possible Deadline",
               "url": "https://time.com/article/2026/04/15/trump-iran-war-ending-fox-news/",
               "source_id": "time.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:05:21.030098+00:00"
+              "scraped_at_utc": "2026-04-16T08:24:16.732971+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8550937175750732,
+            "sim_to_centroid": 0.8447876572608948,
             "article": {
-              "title": "Trump 'to send thousands of troops' to Middle East despite claiming Iran war almost over",
-              "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-strait-of-hormuz-blockade-b2957027.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
+              "title": "Trump wants to end war with Iran as soon as possible — media",
+              "url": "https://tass.com/world/2117857",
+              "source_id": "tass.com",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:00:00.811261+00:00"
+              "scraped_at_utc": "2026-04-16T08:22:14.446641+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8199992179870605,
+            "sim_to_centroid": 0.8248926997184753,
             "article": {
               "title": "Pakistan delivers US messages to Iran as Trump says end to war is 'close'",
               "url": "https://www.thenationalnews.com/news/mena/2026/04/15/us-says-irans-sea-trade-completely-halted-as-trump-touts-close-end-to-war/",
               "source_id": "thenationalnews.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:02:53.636015+00:00"
+              "scraped_at_utc": "2026-04-16T08:21:12.646035+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7894248962402344,
+            "sim_to_centroid": 0.8143997192382812,
             "article": {
-              "title": "Done and dusted? Trump’s portrayal of the war in Iran collides with reality",
-              "url": "https://www.straitstimes.com/world/done-and-dusted-trumps-portrayal-of-the-war-in-iran-collides-with-reality?ref=latest-headlines",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
+              "title": "End of Iran war ‘very close’",
+              "url": "https://www.rt.com/news/638440-trump-iran-us-talks/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:07:07.717334+00:00"
+              "scraped_at_utc": "2026-04-16T08:22:10.741922+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7762751579284668,
-            "article": {
-              "title": "Trump says no need to extend Iran ceasefire, as talks to end war continue",
-              "url": "https://www.timesofisrael.com/trump-says-no-need-to-extend-iran-ceasefire-predicts-an-amazing-two-days-ahead/",
-              "source_id": "timesofisrael.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:02:56.413002+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7741342782974243,
+            "sim_to_centroid": 0.7820872068405151,
             "article": {
               "title": "Trump’s Portrayal of the War in Iran Collides With Reality",
               "url": "https://www.nytimes.com/2026/04/15/us/politics/trump-iran-war.html",
               "source_id": "nytimes.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:04:52.842907+00:00"
+              "scraped_at_utc": "2026-04-16T08:23:46.265587+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7627964019775391,
-            "article": {
-              "title": "Trump ‘wants out’ of Iran war – former US National Security Advisor",
-              "url": "https://www.channel4.com/news/trump-wants-out-of-iran-war-former-us-national-security-advisor",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:00:06.290144+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7627729177474976,
-            "article": {
-              "title": "Trump administration prepares for pivot to economic warfare on Iran",
-              "url": "https://www.pbs.org/newshour/world/trump-administration-prepares-for-pivot-to-economic-warfare-on-iran",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:05:23.688767+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7536676526069641,
+            "sim_to_centroid": 0.7752852439880371,
             "article": {
               "title": "“La guerra è quasi finita”, il negoziato a distanza tra Washington e Teheran",
               "url": "https://www.repubblica.it/esteri/2026/04/15/news/negoziato_stati_uniti_iran_guerra_stretto_hormuz-425286679/",
               "source_id": "repubblica.it",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:01:34.811059+00:00"
+              "scraped_at_utc": "2026-04-16T08:19:56.165390+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7455180883407593,
+            "sim_to_centroid": 0.7731311321258545,
+            "article": {
+              "title": "Trump collides with reality as Iran war fails to bend to his narrative",
+              "url": "https://www.irishtimes.com/world/us/2026/04/16/trump-collides-with-reality-as-iran-war-fails-to-bend-to-his-narrative/",
+              "source_id": "irishtimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:21:10.233286+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.771120011806488,
+            "article": {
+              "title": "Trump ‘wants out’ of Iran war – former US National Security Advisor",
+              "url": "https://www.channel4.com/news/trump-wants-out-of-iran-war-former-us-national-security-advisor",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:18:48.738900+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7643523216247559,
+            "article": {
+              "title": "Trump administration prepares for pivot to economic warfare on Iran",
+              "url": "https://www.pbs.org/newshour/world/trump-administration-prepares-for-pivot-to-economic-warfare-on-iran",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:24:19.066857+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.749299168586731,
             "article": {
               "title": "ترامب: ترقبوا يومين مذهلين..الحرب قد تنتهي قريبا",
               "url": "https://www.omandaily.om/العرب-والعالم/na/ترامب-ترقبوا-يومين-مذهلينالحرب-قد-تنتهي-قريبا",
               "source_id": "omandaily.om",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:03:24.044940+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7234583497047424,
-            "article": {
-              "title": "Trump Warns Ships Will Be ‘Immediately Eliminated’ as US Launches Iran Port Blockade",
-              "url": "https://www.kyivpost.com/post/73881",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:03:43.381823+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7158758640289307,
-            "article": {
-              "title": "美聯社指美伊原則上同意延長停火 特朗普強調封鎖港口奏效",
-              "url": "https://www.singtaousa.com/2026/04/15/news/world/the-associated-press-said-the-united-states-and-iran-agreed-in-principle-to-extend-the-ceasefire-and-trump-emphasized-that-the-port-blockade-was-effective/",
-              "source_id": "singtaousa.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:05:39.973316+00:00"
+              "scraped_at_utc": "2026-04-16T08:21:39.835742+00:00"
             }
           }
         ]
       },
       {
-        "score": 45.52271325151992,
-        "size": 13,
-        "n_sources": 13,
-        "n_continents": 7,
+        "score": 26.311835713252435,
+        "size": 7,
+        "n_sources": 7,
+        "n_continents": 4,
         "continents": [
           "Europe East",
           "Europe North",
           "Europe South",
-          "Middle East",
-          "North America",
-          "Oceania",
-          "South America"
+          "South Asia"
         ],
-        "coherence": 0.761470377445221,
-        "title": "Trump lanza un fuerte ataque contra el papa León XIV por sus críticas a la guerra en Irán, y este responde que \"no le tiene miedo\"",
+        "coherence": 0.8875628709793091,
+        "title": "La BBC va supprimer 2000 emplois, soit près de 10% de ses effectifs",
         "central_article": {
-          "title": "Trump lanza un fuerte ataque contra el papa León XIV por sus críticas a la guerra en Irán, y este responde que \"no le tiene miedo\"",
-          "url": "https://www.bbc.com/mundo/articles/c1eq9vlpv6qo",
-          "source_id": "bbc.com",
-          "continent": "Europe North",
+          "title": "La BBC va supprimer 2000 emplois, soit près de 10% de ses effectifs",
+          "url": "https://www.rts.ch/info/monde/2026/article/la-bbc-supprime-2000-emplois-face-a-des-pressions-financieres-29213569.html",
+          "source_id": "rts.ch",
+          "continent": "Europe South",
           "published_at": null,
-          "scraped_at_utc": "2026-04-16T04:01:40.844410+00:00"
+          "scraped_at_utc": "2026-04-16T08:19:43.999856+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.827138364315033,
+            "sim_to_centroid": 0.9444724321365356,
             "article": {
-              "title": "Trump lanza un fuerte ataque contra el papa León XIV por sus críticas a la guerra en Irán, y este responde que \"no le tiene miedo\"",
-              "url": "https://www.bbc.com/mundo/articles/c1eq9vlpv6qo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:01:40.844410+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8178001046180725,
-            "article": {
-              "title": "Wie gefährlich wird der Papst-Streit für Donald Trump?",
-              "url": "https://www.zdfheute.de/politik/ausland/trump-usa-wahlen-papst-leo-streit-iran-krieg-frieden-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:00:36.098514+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7941144704818726,
-            "article": {
-              "title": "Trump îl atacă din nou pe Papa Leon: „Lanțurile corupției, care desfigurează autoritatea și îi distrug credibilitatea, trebuie rupte”",
-              "url": "https://www.g4media.ro/trump-il-ataca-din-nou-pe-papa-leon-lanturile-coruptiei-care-desfigureaza-autoritatea-si-ii-distrug-credibilitatea-trebuie-rupte.html",
-              "source_id": "g4media.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:03:35.321625+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7823803424835205,
-            "article": {
-              "title": "CONVERSATIONS Trump's attacks on Pope reveal crisis of faith and anger over defeat to Iran: Priest",
-              "url": "https://www.presstv.ir/Detail/2026/04/15/766911/trump-attacks-pope-reveal-crisis-faith-anger-over-defeat-iran-priest",
-              "source_id": "presstv.ir",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:03:01.183762+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7798539996147156,
-            "article": {
-              "title": "Trump critica de nuevo al papa: \"¿Le pueden decir que Irán ha matado a 42.000 inocentes?\"",
-              "url": "https://www.rtve.es/noticias/20260415/trump-critica-papa-iran/17024168.shtml",
-              "source_id": "rtve.es",
+              "title": "La BBC va supprimer 2000 emplois, soit près de 10% de ses effectifs",
+              "url": "https://www.rts.ch/info/monde/2026/article/la-bbc-supprime-2000-emplois-face-a-des-pressions-financieres-29213569.html",
+              "source_id": "rts.ch",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:01:31.807067+00:00"
+              "scraped_at_utc": "2026-04-16T08:19:43.999856+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7596850395202637,
+            "sim_to_centroid": 0.927096426486969,
             "article": {
-              "title": "De Dag: Paus Leo XIV vs Donald 'Jezus' Trump",
-              "url": "https://nos.nl/artikel/2610563-podcast-de-dag-paus-leo-xiv-vs-donald-jezus-trump",
-              "source_id": "nos.nl",
+              "title": "BBC to cut up to 2,000 jobs in next two years to save money",
+              "url": "https://www.euronews.com/2026/04/15/bbc-to-cut-up-to-2000-jobs-in-next-two-years-to-save-575ml-from-operating-costs",
+              "source_id": "euronews.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:00:09.883882+00:00"
+              "scraped_at_utc": "2026-04-16T08:18:50.258375+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7577065229415894,
+            "sim_to_centroid": 0.9213278293609619,
             "article": {
-              "title": "Lula sai em defesa de Papa em mensagem à Igreja Católica após ataques de Trump",
-              "url": "https://oglobo.globo.com/mundo/noticia/2026/04/15/lula-sai-em-defesa-de-papa-em-mensagem-a-igreja-catolica-apos-ataques-de-trump.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:02:05.226574+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7511961460113525,
-            "article": {
-              "title": "Pope Leo's critiques of Trump policies hold more weight as a fellow American, priest says",
-              "url": "https://www.pbs.org/newshour/show/pope-leos-critiques-of-trump-policies-hold-more-weight-as-a-fellow-american-priest-says",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:05:23.688767+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7463930249214172,
-            "article": {
-              "title": "Pope, China, blockade: has Trump lost the plot?",
-              "url": "https://www.channel4.com/news/pope-china-blockade-has-trump-lost-the-plot",
+              "title": "BBC to cut up to 2,000 jobs in major cost-cutting drive",
+              "url": "https://www.channel4.com/news/bbc-to-cut-up-to-2000-jobs-in-major-cost-cutting-drive",
               "source_id": "channel4.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:00:06.290144+00:00"
+              "scraped_at_utc": "2026-04-16T08:18:48.738900+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7392261624336243,
+            "sim_to_centroid": 0.8865757584571838,
             "article": {
-              "title": "Donald Trump versus Papst Leo So kompliziert ist die Beziehung zwischen den USA und dem Vatikan",
-              "url": "https://www.spiegel.de/ausland/donald-trump-und-papst-leo-die-komplizierte-beziehungsgeschichte-zwischen-usa-und-vatikan-a-7bb0eadc-5720-4ac1-a3c4-c2281774352b",
-              "source_id": "spiegel.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:00:20.889239+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7386205196380615,
-            "article": {
-              "title": "Trump and Meloni Split Amid Growing Dispute Over Pope and Iran",
-              "url": "https://www.nytimes.com/2026/04/15/world/europe/trump-meloni-italy-iran-pope.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:04:52.842907+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7031992673873901,
-            "article": {
-              "title": "Why is Trump making the global energy crisis worse?",
-              "url": "https://www.rt.com/news/638398-us-naval-blockade-iran/",
-              "source_id": "rt.com",
+              "title": "BBC said to cut 2,000 jobs ahead of new head's arrival",
+              "url": "https://www.azernews.az/region/257090.html",
+              "source_id": "azernews.az",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:03:52.516623+00:00"
+              "scraped_at_utc": "2026-04-16T08:22:32.504106+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7018015384674072,
+            "sim_to_centroid": 0.8728265762329102,
             "article": {
-              "title": "Trump can’t stop shooting himself in the foot",
-              "url": "https://www.smh.com.au/business/the-economy/trump-can-t-stop-shooting-himself-in-the-foot-20260416-p5zob5.html",
-              "source_id": "smh.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:02:38.916004+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 45.00620100358842,
-        "size": 11,
-        "n_sources": 11,
-        "n_continents": 6,
-        "continents": [
-          "Africa",
-          "China",
-          "East Asia",
-          "Europe East",
-          "Middle East",
-          "South Asia"
-        ],
-        "coherence": 0.8234291076660156,
-        "title": "Iran offers proposal allowing ships to exit Oman side of Hormuz free of attack, source says",
-        "central_article": {
-          "title": "Iran offers proposal allowing ships to exit Oman side of Hormuz free of attack, source says",
-          "url": "https://www.jpost.com/middle-east/iran-news/article-893148",
-          "source_id": "jpost.com",
-          "continent": "Middle East",
-          "published_at": null,
-          "scraped_at_utc": "2026-04-16T04:02:54.951375+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9137961268424988,
-            "article": {
-              "title": "Iran offers proposal allowing ships to exit Oman side of Hormuz free of attack, source says",
-              "url": "https://www.jpost.com/middle-east/iran-news/article-893148",
-              "source_id": "jpost.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:02:54.951375+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9135295152664185,
-            "article": {
-              "title": "Iran proposes allowing ships to exit Oman side of Hormuz free of attack, source says",
-              "url": "https://www.japantimes.co.jp/news/2026/04/16/world/politics/iran-shipping-proposal/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:06:43.756673+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8868473768234253,
-            "article": {
-              "title": "Iranian proposal offers ships safe passage on Omani side of Hormuz, source says",
-              "url": "https://www.timesofisrael.com/iranian-proposal-offers-ships-safe-passage-on-omani-side-of-hormuz-source-says/",
-              "source_id": "timesofisrael.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:02:56.413002+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8513467311859131,
-            "article": {
-              "title": "Reuters: Iranul propune permiterea trecerii navelor prin partea din Oman a Strâmtorii Ormuz",
-              "url": "https://www.g4media.ro/reuters-iranul-propune-permiterea-trecerii-navelor-prin-partea-din-oman-a-stramtorii-ormuz.html",
-              "source_id": "g4media.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:03:35.321625+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8386415243148804,
-            "article": {
-              "title": "Iran considering easing Strait of Hormuz restrictions",
-              "url": "https://www.rt.com/news/638483-iran-omani-hormuz-traffic/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:03:52.516623+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8117235898971558,
-            "article": {
-              "title": "Iranian ships continue to cross Strait of Hormuz despite US blockade",
-              "url": "https://www.thenationalnews.com/business/energy/2026/04/15/iranian-ships-continue-to-cross-strait-of-hormuz-despite-us-blockade/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:02:53.636015+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7970631122589111,
-            "article": {
-              "title": "होर्मुज से किन जहाजों को निकलने देगा ईरान? अमेरिका को प्रस्ताव में बताया, शर्त भी रखी",
-              "url": "https://www.jagran.com/world/middle-east-iran-offers-proposal-allowing-ships-to-exit-oman-side-of-hormuz-free-of-attack-40208101.html",
-              "source_id": "jagran.com",
+              "title": "वर्ल्ड अपडेट्स: BBC 2000 नौकरियां खत्म करेगा, 5300 करोड़ रुपए बचाने के लिए 2 साल में कटौती",
+              "url": "https://www.bhaskar.com/g/international/news/bbc-jobs-cut-save-5300-crore-137709934.html",
+              "source_id": "bhaskar.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:05:52.965700+00:00"
+              "scraped_at_utc": "2026-04-16T08:24:47.176222+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7638657093048096,
+            "sim_to_centroid": 0.8338596224784851,
             "article": {
-              "title": "US says Iran's shipping 'completely halted' in Strait of Hormuz",
-              "url": "https://www.newarab.com/news/us-says-irans-shipping-completely-halted-strait-hormuz",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
+              "title": "Verenigd Koninkrijk BBC gaat bijna één op de tien werknemers ontslaan",
+              "url": "https://www.nrc.nl/nieuws/2026/04/15/bbc-gaat-bijna-een-op-de-tien-werknemers-ontslaan-a4925645",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:03:10.051906+00:00"
+              "scraped_at_utc": "2026-04-16T08:18:54.795628+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.762319803237915,
+            "sim_to_centroid": 0.8267816305160522,
             "article": {
-              "title": "伊朗提出一项方案：放行霍尔木兹南侧主航道，不会受到任何阻碍",
-              "url": "https://www.sohu.com/a/1010233570_115479?edtsign=A64E5F485907DBB294A81801C50C103F6ED39FCE&edtcode=7l1qGClIU%2Fep9oAfqs2zVA%3D%3D&scm=10001.663_14-200000.0.0-0-0-0-0.&_f=index_cpc_1_0",
-              "source_id": "news.sohu.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:05:43.239207+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7609943151473999,
-            "article": {
-              "title": "Why are some ships going through the Strait of Hormuz during a blockade?",
-              "url": "https://www.egyptindependent.com/why-are-some-ships-going-through-the-strait-of-hormuz-during-a-blockade/",
-              "source_id": "egyptindependent.com",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:04:45.971960+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7575922012329102,
-            "article": {
-              "title": "China Desak Iran Buka Selat Hormuz Pulihkan Kebebasan Navigasi Money",
-              "url": "https://money.kompas.com/read/2026/04/16/100300826/china-desak-iran-buka-selat-hormuz-pulihkan-kebebasan-navigasi?source=headline",
-              "source_id": "kompas.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:07:14.693278+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 34.473344252680874,
-        "size": 10,
-        "n_sources": 9,
-        "n_continents": 5,
-        "continents": [
-          "China",
-          "Europe East",
-          "Middle East",
-          "North America",
-          "South Asia"
-        ],
-        "coherence": 0.8467047810554504,
-        "title": "US Senate rejects another war powers resolution to limit Trump on Iran",
-        "central_article": {
-          "title": "US Senate rejects another war powers resolution to limit Trump on Iran",
-          "url": "https://www.aljazeera.com/news/2026/4/15/us-senate-rejects-another-war-powers-resolution-to-limit-trump-on-iran",
-          "source_id": "aljazeera.com",
-          "continent": "Middle East",
-          "published_at": null,
-          "scraped_at_utc": "2026-04-16T04:02:52.146694+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9204748272895813,
-            "article": {
-              "title": "US Senate rejects another war powers resolution to limit Trump on Iran",
-              "url": "https://www.aljazeera.com/news/2026/4/15/us-senate-rejects-another-war-powers-resolution-to-limit-trump-on-iran",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:02:52.146694+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8927425742149353,
-            "article": {
-              "title": "Senate Republicans Again Block Bid to Limit Trump’s Iran War Powers",
-              "url": "https://www.nytimes.com/2026/04/15/us/politics/trumps-iran-war-powers-vote-senate.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:04:52.842907+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8818678855895996,
-            "article": {
-              "title": "Senate again blocks effort to end Iran war, but tougher…",
-              "url": "https://www.usatoday.com/story/news/politics/2026/04/15/senate-war-powers-vote-results-iran/89625461007/",
-              "source_id": "usatoday.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:05:17.382605+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8779157400131226,
-            "article": {
-              "title": "Senate Republicans reject effort to halt Iran war, but some eye future war powers votes",
-              "url": "https://apnews.com/article/iran-war-trump-war-powers-8a47ef050f05d49677c5f4cf2f6bfbd4",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:04:51.472205+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.873953640460968,
-            "article": {
-              "title": "Senate Blocks Iran War Powers Resolution for Fourth Time",
-              "url": "https://time.com/article/2026/04/15/senate-blocks-iran-war-powers-resolution-for-fourth-time/",
-              "source_id": "time.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:05:21.030098+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8507030010223389,
-            "article": {
-              "title": "Сенат США отклонил резолюцию о завершении войны с Ираном",
-              "url": "https://meduza.io/news/2026/04/15/senat-ssha-otklonil-rezolyutsiyu-o-zavershenii-voyny-s-iranom",
+              "title": "«Би-би-си» сократит 10% сотрудников",
+              "url": "https://meduza.io/news/2026/04/15/bi-bi-si-sokratit-10-sotrudnikov",
               "source_id": "meduza.io",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:03:46.108866+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8301287293434143,
-            "article": {
-              "title": "限制特朗普战争权力议案又遭美参议院否决",
-              "url": "https://www.xinhuanet.com/20260416/42015abd5d09433e9165cf2de317808a/c.html",
-              "source_id": "xinhuanet.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:05:31.884658+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8018761873245239,
-            "article": {
-              "title": "Senate rejects effort to halt arms sales to Israel, but most Democrats vote to block them",
-              "url": "https://apnews.com/article/israel-congress-arms-sales-sanders-iran-gaza-cdfd0512f05a71cc6cbc3382044a8a9b",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:04:51.472205+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7830101251602173,
-            "article": {
-              "title": "ایران پر مزید حملوں کے لیے کانگریس کی پیشگی اجازت کی قرارداد مسترد",
-              "url": "https://jang.com.pk/news/1574531",
-              "source_id": "jang.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:06:09.599512+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7543747425079346,
-            "article": {
-              "title": "Провал резолюции о запрете ударов по Ирану угрожает мирному процессу, заявили в сенате США",
-              "url": "https://ria.ru/20260416/ssha-2087293625.html",
-              "source_id": "ria.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:03:59.139385+00:00"
+              "scraped_at_utc": "2026-04-16T08:22:05.310366+00:00"
             }
           }
         ]
       },
       {
-        "score": 33.91958655004522,
-        "size": 8,
-        "n_sources": 8,
+        "score": 26.134227242604524,
+        "size": 7,
+        "n_sources": 7,
         "n_continents": 5,
         "continents": [
           "China",
           "East Asia",
-          "Europe East",
           "Europe North",
-          "Oceania"
+          "Europe South",
+          "North America"
         ],
-        "coherence": 0.8670226335525513,
-        "title": "Huge blaze at Australian refinery threatens petrol supply amid global oil crisis",
+        "coherence": 0.8415795564651489,
+        "title": "China's GDP growth accelerates to 5% despite Iran war",
         "central_article": {
-          "title": "Huge blaze at Australian refinery threatens petrol supply amid global oil crisis",
-          "url": "https://www.scmp.com/news/asia/australasia/article/3350236/fire-australian-refinery-fuels-petrol-shortage-fears-amid-global-oil-crisis?module=latest&pgtype=homepage",
-          "source_id": "scmp.com",
-          "continent": "China",
+          "title": "China's GDP growth accelerates to 5% despite Iran war",
+          "url": "https://asia.nikkei.com/economy/china-s-gdp-growth-accelerates-to-5-despite-iran-war",
+          "source_id": "asia.nikkei.com",
+          "continent": "East Asia",
           "published_at": null,
-          "scraped_at_utc": "2026-04-16T04:05:25.004814+00:00"
+          "scraped_at_utc": "2026-04-16T08:25:10.813184+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9141675233840942,
+            "sim_to_centroid": 0.9013885259628296,
             "article": {
-              "title": "Huge blaze at Australian refinery threatens petrol supply amid global oil crisis",
-              "url": "https://www.scmp.com/news/asia/australasia/article/3350236/fire-australian-refinery-fuels-petrol-shortage-fears-amid-global-oil-crisis?module=latest&pgtype=homepage",
-              "source_id": "scmp.com",
+              "title": "China's GDP growth accelerates to 5% despite Iran war",
+              "url": "https://asia.nikkei.com/economy/china-s-gdp-growth-accelerates-to-5-despite-iran-war",
+              "source_id": "asia.nikkei.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:25:10.813184+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8805465698242188,
+            "article": {
+              "title": "China’s Economy Rides Out War as Growth Unexpectedly Touches 5%",
+              "url": "https://www.bloomberg.com/news/articles/2026-04-16/china-s-growth-rebound-tops-forecasts-with-iran-war-impact-muted?srnd=homepage-americas",
+              "source_id": "bloomberg.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-16T08:24:15.461772+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8606472611427307,
+            "article": {
+              "title": "China's economy grows 5% in the first quarter of the 15th Five-Year Plan period, exceeding expectation",
+              "url": "https://en.people.cn/n3/2026/0416/c90000-20447289.html",
+              "source_id": "en.people.cn",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:05:25.004814+00:00"
+              "scraped_at_utc": "2026-04-16T08:24:22.373786+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9050899744033813,
+            "sim_to_centroid": 0.8328725099563599,
             "article": {
-              "title": "Blaze tears through crucial Australian refinery",
-              "url": "https://www.bangkokpost.com/world/3237865/blaze-tears-through-crucial-australian-refinery",
-              "source_id": "bangkokpost.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:07:03.042328+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8857772350311279,
-            "article": {
-              "title": "Stor brand på raffinaderi i Australien",
-              "url": "https://www.dn.se/direkt/2026-04-15/stor-brand-pa-raffinaderi-i-australien/",
-              "source_id": "dn.se",
+              "title": "Chinese economie groeit, gevolgen Iran-oorlog nog beperkt",
+              "url": "https://fd.nl/economie/1593178/chinese-economie-groeit-gevolgen-iran-oorlog-nog-beperkt",
+              "source_id": "fd.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:00:47.369573+00:00"
+              "scraped_at_utc": "2026-04-16T08:18:58.353536+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8847305774688721,
+            "sim_to_centroid": 0.8214185237884521,
             "article": {
-              "title": "Australia says refinery fire could hit petrol production",
-              "url": "https://www.straitstimes.com/asia/australianz/significant-fire-breaks-out-at-viva-energy-refinery-in-australia-authorities-say?ref=asia",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
+              "title": "China records 5% GDP growth in Q1 2026",
+              "url": "https://www.chinadaily.com.cn/a/202604/16/WS69e042f4a310d6866eb43c35.html",
+              "source_id": "chinadaily.com.cn",
+              "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:07:07.717334+00:00"
+              "scraped_at_utc": "2026-04-16T08:24:23.547133+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.875564455986023,
+            "sim_to_centroid": 0.8113335371017456,
             "article": {
-              "title": "Refinery blaze may impact Australia's petrol production 'for some time'",
-              "url": "https://www.abc.net.au/news/2026-04-16/refinery-blaze-impact-petrol-production/106559468",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
+              "title": "China’s G.D.P. Is Stronger Than Expected, Led by Infrastructure Investments",
+              "url": "https://www.nytimes.com/2026/04/15/business/china-economy-growth.html",
+              "source_id": "nytimes.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:02:35.965157+00:00"
+              "scraped_at_utc": "2026-04-16T08:23:46.265587+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8753124475479126,
+            "sim_to_centroid": 0.7828497886657715,
             "article": {
-              "title": "'Small leak' behind oil refinery blaze that's set to impact Australia's fuel supply",
-              "url": "https://www.sbs.com.au/news/article/oil-refinery-fire-australia-fuel-supply-impact/g7mtm24k6",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
+              "title": "La Chine affirme que son économie tient bon malgré la crise du Moyen-Orient",
+              "url": "https://www.lemonde.fr/economie/article/2026/04/16/la-chine-affirme-que-son-economie-tient-bon-malgre-la-crise-du-moyen-orient_6680475_3234.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:02:37.691957+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.822242021560669,
-            "article": {
-              "title": "Australijos naftos perdirbimo gamykloje po sprogimų kilo didelis gaisras",
-              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/2900013/australijos-naftos-perdirbimo-gamykloje-po-sprogimu-kilo-didelis-gaisras",
-              "source_id": "lrt.lt",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:04:02.925019+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7732969522476196,
-            "article": {
-              "title": "Blaze deals another blow to Australia’s jet fuel supplies",
-              "url": "https://www.smh.com.au/business/companies/geelong-viva-refinery-fire-deals-another-blow-to-australia-s-jet-fuel-supplies-20260416-p5zobw.html",
-              "source_id": "smh.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-16T04:02:38.916004+00:00"
+              "scraped_at_utc": "2026-04-16T08:19:37.952404+00:00"
             }
           }
         ]
       }
     ],
-    "created_at_utc": "2026-04-16T05:52:43Z"
+    "created_at_utc": "2026-04-16T09:10:59Z"
   }
 ]
