@@ -1,16 +1,551 @@
 [
   {
-    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1776934993",
-    "n_items": 2563,
-    "n_clusters": 2126,
+    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1776957727",
+    "n_items": 2566,
+    "n_clusters": 2124,
     "clusters": [
       {
-        "score": 124.46495803529923,
-        "size": 22,
-        "n_sources": 22,
-        "n_continents": 9,
+        "score": 284.0065203976318,
+        "size": 46,
+        "n_sources": 41,
+        "n_continents": 10,
         "continents": [
           "China",
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "Oceania",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.8265680074691772,
+        "title": "Trump orders US Navy to 'shoot and kill' any boats laying mines in Strait of Hormuz",
+        "central_article": {
+          "title": "Trump orders US Navy to 'shoot and kill' any boats laying mines in Strait of Hormuz",
+          "url": "https://www.channelnewsasia.com/world/trump-orders-navy-attack-boats-laying-mines-strait-hormuz-6076541",
+          "source_id": "channelnewsasia.com",
+          "continent": "East Asia",
+          "published_at": null,
+          "scraped_at_utc": "2026-04-23T15:09:43.180287+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9351567029953003,
+            "article": {
+              "title": "Trump orders US Navy to 'shoot and kill' any boats laying mines in Strait of Hormuz",
+              "url": "https://www.channelnewsasia.com/world/trump-orders-navy-attack-boats-laying-mines-strait-hormuz-6076541",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:09:43.180287+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9307138919830322,
+            "article": {
+              "title": "Trump orders US to 'shoot and ‌kill any ​boat' laying mines in ​the ‌Strait of ⁠Hormuz",
+              "url": "https://www.abc.net.au/news/2026-04-23/iran-war-live-updates-iran-ceasfire/106593460",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:05:14.118632+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.927868664264679,
+            "article": {
+              "title": "Trump orders navy to ‘shoot and kill’ mine-laying boats in Strait of Hormuz",
+              "url": "https://www.smh.com.au/world/middle-east/iran-seizes-ships-in-strait-of-hormuz-as-peace-talks-stay-stalled-20260423-p5zqh3.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:05:19.231921+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9234921932220459,
+            "article": {
+              "title": "Trump orders US military to ‘shoot and kill’ boats laying mines in Hormuz",
+              "url": "https://indianexpress.com/article/world/united-states-iran-war-news-live-updates-lebanon-israel-trump-peace-talks-10651366/",
+              "source_id": "indianexpress.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:08:59.189986+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9174730777740479,
+            "article": {
+              "title": "Trump orders US Navy to destroy boats laying mines in Hormuz",
+              "url": "https://www.thedailystar.net/news/world/news/trump-orders-us-navy-destroy-boats-laying-mines-hormuz-4158901",
+              "source_id": "thedailystar.net",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:09:00.677867+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.906501293182373,
+            "article": {
+              "title": "Trump orders U.S. military to ‘shoot and kill’ small Iranian boats deploying mines in Hormuz",
+              "url": "https://www.theglobeandmail.com/world/article-us-iran-war-ceasefire-talks-strait-of-hormuz/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:05:11.861177+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9011193513870239,
+            "article": {
+              "title": "Ordena Trump atacar embarcaciones que pongan minas en Ormuz",
+              "url": "https://www.reforma.com/ordena-trump-atacar-embarcaciones-que-pongan-minas-en-ormuz/ar3191671?v=5",
+              "source_id": "reforma.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:04:17.617580+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8996562957763672,
+            "article": {
+              "title": "US to ‘shoot and kill’ Iranian boats laying mines in Hormuz, Trump says",
+              "url": "https://www.aljazeera.com/news/2026/4/23/us-to-shoot-and-kill-iranian-boats-laying-mines-in-hormuz-trump-says",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:05:33.372051+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8988059759140015,
+            "article": {
+              "title": "Trump orders US military to ‘shoot and kill’ Iranian small boats choking Strait of Hormuz",
+              "url": "https://www.chicagotribune.com/2026/04/23/trump-orders-us-military-to-shoot-and-kill-iranian-small-boats-choking-strait-of-hormuz/",
+              "source_id": "chicagotribune.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:08:18.508469+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8978408575057983,
+            "article": {
+              "title": "Trump says US to attack any boats laying mines in Strait of Hormuz",
+              "url": "https://www.koreaherald.com/article/10724457",
+              "source_id": "koreaherald.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:09:53.019266+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8951050043106079,
+            "article": {
+              "title": "Trump orders U.S. military to 'shoot and kill' Iranian small boats choking Strait of Hormuz",
+              "url": "https://www.pbs.org/newshour/world/trump-orders-u-s-military-to-shoot-and-kill-iranian-small-boats-choking-strait-of-hormuz",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:08:22.705240+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8875688910484314,
+            "article": {
+              "title": "Trump ordonne de détruire les bateaux iraniens posant des mines dans le détroit d’Ormuz",
+              "url": "https://www.lesoir.be/742655/article/2026-04-23/trump-ordonne-de-detruire-les-bateaux-iraniens-posant-des-mines-dans-le-detroit",
+              "source_id": "lesoir.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:03:59.950357+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8826385736465454,
+            "article": {
+              "title": "Trump ordena a la Marina de EE.UU. destruir los barcos que intenten minar el estrecho de Ormuz",
+              "url": "https://elcomercio.pe/mundo/eeuu/donald-trump-ordena-a-la-marina-de-estados-unidos-destruir-los-barcos-que-intenten-minar-el-estrecho-de-ormuz-iran-israel-ultimas-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:04:46.931748+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8712617754936218,
+            "article": {
+              "title": "Trump ordena destruir todos los barcos que coloquen minas en Ormuz y presume de tener el \"control total\" del estrecho",
+              "url": "https://www.rtve.es/noticias/20260423/tension-estrecho-ormuz-minas-peaje-iran/17038028.shtml",
+              "source_id": "rtve.es",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:04:05.677842+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8665181398391724,
+            "article": {
+              "title": "Trump orders the US military to ‘shoot and kill’ Iranian small boats choking the Strait of Hormuz. Follow live updates.",
+              "url": "https://www.bostonglobe.com/2026/04/23/nation/us-iran-war-updates/",
+              "source_id": "bostonglobe.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:08:16.170913+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8650427460670471,
+            "article": {
+              "title": "Trump orders navy to ‘shoot and kill’ boats mining Strait of Hormuz; Europe scrambles to produce jet fuel",
+              "url": "https://www.irishtimes.com/world/middle-east/2026/04/23/iran-us-trump-talks-hormuz-latest-live-updates/",
+              "source_id": "irishtimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:05:32.036687+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8625214099884033,
+            "article": {
+              "title": "Trump's 'shoot and kill' warning for Iranian ships amid Hormuz blockade",
+              "url": "https://www.hindustantimes.com/world-news/trumps-shoot-and-kill-warning-for-iranian-ships-putting-mines-amid-strait-of-hormuz-blockade-101776948604213.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:08:57.926027+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8622862100601196,
+            "article": {
+              "title": "SME Minúta: Trump nariadil ničiť iránske lode kladúce míny v Hormuzskom prielive",
+              "url": "https://www.sme.sk/svet/c/iran-izrael-usa-trump-netanjahu-blizky-vychod-23-4-2026-online-minuta-po-minute",
+              "source_id": "sme.sk",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:06:29.702181+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8603730797767639,
+            "article": {
+              "title": "Middle East war live: Trump issues 'shoot and kill' orders for boats laying mines in Strait of Hormuz",
+              "url": "https://www.france24.com/en/middle-east/20260423-middle-east-war-live-lebanon-meets-israel-in-washington-to-request-truce-extension",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:03:52.705928+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8533083200454712,
+            "article": {
+              "title": "Direct – Moyen-Orient : Donald Trump ordonne de détruire les bateaux iraniens posant des mines dans le détroit d'Ormuz",
+              "url": "https://www.rtbf.be/article/direct-moyen-orient-l-iran-cible-des-navires-a-ormuz-apres-que-trump-a-dit-prolonger-la-treve-11713962",
+              "source_id": "rtbf.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:03:58.330141+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8507424592971802,
+            "article": {
+              "title": "Israel-Iran LIVE: Trump orders U.S. Navy to 'shoot, kill' small boats laying mines in Strait of Hormuz",
+              "url": "https://www.thehindu.com/news/international/iran-israel-war-live-updates-april-23-2026-strait-of-hormuz-ships-attacked-by-tehran-donald-trump-ceasefire-west-asia-crisis/article70895506.ece",
+              "source_id": "thehindu.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:08:56.566880+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8503662347793579,
+            "article": {
+              "title": "Trump diz que Marinha dos EUA vai 'atirar e destruir qualquer navio do Irã' no Estreito de Ormuz",
+              "url": "https://www.estadao.com.br/internacional/trump-ameaca-atirar-e-destruir-qualquer-embarcacao-do-ira-no-estreito-de-ormuz-npr/",
+              "source_id": "estadao.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:04:43.627899+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8429582118988037,
+            "article": {
+              "title": "Trump amenaza con destruir cualquier barco que intente colocar minas en Ormuz",
+              "url": "https://www.lavanguardia.com/internacional/20260423/11521033/ee-uu-intercepta-superpetroleros-iranies-teheran-mantiene-cierre-ormuz.html",
+              "source_id": "lavanguardia.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:04:02.881290+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8355893492698669,
+            "article": {
+              "title": "Trump orders US navy to ‘shoot and kill’ boats in Strait",
+              "url": "https://www.thetimes.com/world/middle-east/article/iran-us-war-latest-washington-intercepts-three-oil-tankers-3ggsm05dz",
+              "source_id": "thetimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:02:39.415905+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8334805965423584,
+            "article": {
+              "title": "'Shoot to kill': Trump says US Navy ordered to target boats laying mines",
+              "url": "https://www.thenationalnews.com/news/mena/2026/04/23/live-us-iran-talks-strait-of-hormuz/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:05:35.487416+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8209218978881836,
+            "article": {
+              "title": "Marina SUA a primit ordin „să tragă și să ucidă” în Strâmtoarea Ormuz, din partea lui Trump. Navele vizate",
+              "url": "https://hotnews.ro/marina-sua-a-primit-ordin-sa-traga-si-sa-ucida-in-stramtoarea-ormuz-din-partea-lui-trump-navele-vizate-2227449",
+              "source_id": "hotnews.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:06:14.959561+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8177732229232788,
+            "article": {
+              "title": "V živo: Trump ukazal uničenje vseh ladij za polaganje min",
+              "url": "https://www.delo.si/novice/svet/bela-hisa-samo-predsednik-trump-ve-koliko-casa-bo-veljala-prekinitev-ognja",
+              "source_id": "delo.si",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:06:27.961809+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8151076436042786,
+            "article": {
+              "title": "La diretta Trump: “Ho dato ordine di affondare le barche posamine a Hormuz. Abbiamo il pieno controllo, è sigillato fino a un accordo”",
+              "url": "https://www.repubblica.it/esteri/2026/04/23/diretta/guerra_iran_usa_israele_news_oggi-425300333/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:04:08.968918+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.813971757888794,
+            "article": {
+              "title": "ٹرمپ نے تمام ایرانی کشتیوں پر حملہ کرنے کا حکم دیدیا",
+              "url": "https://www.nawaiwaqt.com.pk/23-Apr-2026/1988640",
+              "source_id": "nawaiwaqt.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:09:14.890482+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8068788051605225,
+            "article": {
+              "title": "ترامب: أصدرت أوامر بإطلاق النار على أي قارب يزرع الألغام في هرمز",
+              "url": "https://www.alsumaria.tv/news/international/562320/ترامب-أصدرت-أوامر-بإطلاق-النار-على-أي-قارب-يزرع-الألغام-في-هرمز",
+              "source_id": "alsumaria.tv",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:07:49.836924+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8002296090126038,
+            "article": {
+              "title": "Trump droht mit tödlichen Angriffen auf iranische Boote",
+              "url": "https://www.welt.de/politik/ausland/article69e43d97064e04c985e98958/krieg-in-nahost-trump-droht-mit-toedlichen-angriffen-auf-iranische-boote-liveticker.html",
+              "source_id": "welt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:03:02.120655+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7921174764633179,
+            "article": {
+              "title": "\"Disparar y hundir\". Donald Trump dice que Estados Unidos tiene \"el control total\" del estrecho de Ormuz y lanza una filosa advertencia",
+              "url": "https://www.lanacion.com.ar/el-mundo/la-filosa-advertencia-de-trump-a-todas-las-embarcaciones-que-coloquen-minas-en-el-estrecho-de-ormuz-nid23042026/",
+              "source_id": "lanacion.com.ar",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:04:28.802733+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7914673089981079,
+            "article": {
+              "title": "সরাসরি হরমুজ প্রণালিতে মাইন বসানোর নৌযান দেখলেই গুলির নির্দেশ দিয়েছি: ট্রাম্প",
+              "url": "https://www.prothomalo.com/world/8biouvagp3",
+              "source_id": "prothomalo.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:09:02.001588+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7910106182098389,
+            "article": {
+              "title": "Donald Trump says US has ‘total control’ over the Strait of Hormuz",
+              "url": "https://www.hindustantimes.com/world-news/us-iran-war-live-updates-peace-talks-trump-pakistan-tehran-ceasefire-strait-of-hormuz-abbas-araghchi-israel-latest-news-101776908722460.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:08:57.926027+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.78435218334198,
+            "article": {
+              "title": "بارودی سرنگیں بچھانے والی ہر کشتی کو تباہ کر دیا جائے، ٹرمپ کا حکم",
+              "url": "https://jang.com.pk/news/1576948",
+              "source_id": "jang.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:09:11.727724+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7833338379859924,
+            "article": {
+              "title": "ٹرمپ کا امریکی بحریہ کو آبنائے ہرمز میں بارودی سرنگیں بچھانے والی ہر کشتی کو تباہ کرنے کا ...",
+              "url": "https://www.nawaiwaqt.com.pk/23-Apr-2026/1988639",
+              "source_id": "nawaiwaqt.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:09:14.890482+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7631466388702393,
+            "article": {
+              "title": "'होर्मुज से नहीं हटेगी नाकाबंदी, देखते ही मार देना गोली', ट्रंप का तेहरान को संदेश; US नेवी को दिया आदेश",
+              "url": "https://www.jagran.com/world/america-trump-strong-message-to-iran-blockade-on-hormuz-will-not-be-lifted-said-tehran-does-not-know-who-is-iran-supreme-leader-40216550.html",
+              "source_id": "jagran.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:08:55.269598+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7495682239532471,
+            "article": {
+              "title": "ترامب: نسيطر على مضيق هرمز بشكل كامل والسفن تحتاج موافقتنا للدخول والخروج",
+              "url": "https://www.youm7.com/story/2026/4/23/ترامب-نسيطر-على-مضيق-هرمز-بشكل-كامل-والسفن-تحتاج-موافقتنا/7388231",
+              "source_id": "youm7.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:06:00.916307+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7399698495864868,
+            "article": {
+              "title": "特朗普：任何船只未经美国批准都无法通过霍尔木兹海峡",
+              "url": "https://www.xinhuanet.com/20260423/1537d4f5b6384a808ce01bf8f155b4a8/c.html",
+              "source_id": "xinhuanet.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:08:31.763921+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7293143272399902,
+            "article": {
+              "title": "Iran attacks three ships in Strait after Trump extends ceasefire — as it happened",
+              "url": "https://www.thetimes.com/world/middle-east/article/iran-us-war-latest-news-tehran-trumps-ceasefire-time-hfglhdrsn",
+              "source_id": "thetimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:02:39.415905+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7280188798904419,
+            "article": {
+              "title": "'Vur emri verdim...' Trump’tan İran’a peş peşe tehditler",
+              "url": "https://www.cumhuriyet.com.tr/dunya/trump-tan-iran-a-pes-pese-tehditler-tereddut-etmeyin-vurun-2497838",
+              "source_id": "cumhuriyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:05:47.924398+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7109800577163696,
+            "article": {
+              "title": "حرب إيران مباشر.. ترمب يتعهد بتدمير قوارب زرع الألغام في هرمز",
+              "url": "https://www.aljazeera.net/news/liveblog/2026/4/23/حرب-إيران-مباشر-ترمب-يقدم-عرضا-سخيا",
+              "source_id": "aljazeera.net",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:05:39.725474+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6909716129302979,
+            "article": {
+              "title": "EUA abordam navio do Irã, e Teerã cobra pedágio em Hormuz",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/04/ira-amplia-pressao-e-diz-que-cobrou-1o-pedagio-em-hormuz.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:04:38.723762+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6876527070999146,
+            "article": {
+              "title": "Iran targets ships in Strait of Hormuz as U.S. talks remain uncertain",
+              "url": "https://www.pbs.org/newshour/show/iran-targets-ships-in-strait-of-hormuz-as-u-s-talks-remain-uncertain",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:08:22.705240+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6785503625869751,
+            "article": {
+              "title": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
+              "url": "https://www.theguardian.com/world/2026/apr/22/strait-of-hormuz-gunboat-diplomacy-us-iran-blockade",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:02:40.842355+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6684022545814514,
+            "article": {
+              "title": "Iran's fast boat attacks intensify Strait of Hormuz confrontation",
+              "url": "https://www.thenationalnews.com/news/mena/2026/04/22/iran-fast-boat-attacks-intensify-us-iran-hormuz-confrontation/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:05:35.487416+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 133.25052795686332,
+        "size": 24,
+        "n_sources": 23,
+        "n_continents": 8,
+        "continents": [
           "East Asia",
           "Europe East",
           "Europe North",
@@ -20,623 +555,1259 @@
           "South America",
           "South Asia"
         ],
-        "coherence": 0.8071514368057251,
-        "title": "US Navy Secretary John Phelan fired amid Pentagon shakeup",
+        "coherence": 0.8354590535163879,
+        "title": "EU approves €90B loan to Ukraine",
         "central_article": {
-          "title": "US Navy Secretary John Phelan fired amid Pentagon shakeup",
-          "url": "https://www.jpost.com/american-politics/article-893886",
-          "source_id": "jpost.com",
-          "continent": "Middle East",
+          "title": "EU approves €90B loan to Ukraine",
+          "url": "https://www.politico.eu/article/eu-approves-e90b-loan-to-ukraine/",
+          "source_id": "politico.eu",
+          "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-04-23T08:27:54.475676+00:00"
+          "scraped_at_utc": "2026-04-23T15:02:46.502498+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.859850287437439,
+            "sim_to_centroid": 0.9306566119194031,
             "article": {
-              "title": "US Navy Secretary John Phelan fired amid Pentagon shakeup",
-              "url": "https://www.jpost.com/american-politics/article-893886",
-              "source_id": "jpost.com",
-              "continent": "Middle East",
+              "title": "EU approves €90B loan to Ukraine",
+              "url": "https://www.politico.eu/article/eu-approves-e90b-loan-to-ukraine/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:27:54.475676+00:00"
+              "scraped_at_utc": "2026-04-23T15:02:46.502498+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8517531752586365,
+            "sim_to_centroid": 0.9182682037353516,
+            "article": {
+              "title": "EU approves €90 bn Ukraine loan",
+              "url": "https://www.rt.com/news/638976-eu-approves-ukraine-loan/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:06:42.831093+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9128212332725525,
+            "article": {
+              "title": "L’Union européenne adopte définitivement le prêt de 90 milliards à l’Ukraine",
+              "url": "https://www.lesoir.be/742627/article/2026-04-23/lunion-europeenne-adopte-definitivement-le-pret-de-90-milliards-lukraine",
+              "source_id": "lesoir.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:03:59.950357+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8999293446540833,
+            "article": {
+              "title": "यूक्रेन को बड़ी राहत: यूरोपीय संघ ने 90 अरब यूरो का लोन किया मंजूर, रूस पर लगाए नए प्रतिबंध",
+              "url": "https://www.jagran.com/world/russia-major-relief-for-ukraine-european-union-approves-90-billion-euro-loan-imposes-new-sanctions-on-russia-40216665.html",
+              "source_id": "jagran.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:08:55.269598+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8988711833953857,
+            "article": {
+              "title": "EU formally approves 90 billion euros Ukraine loan, 20th package of Russia sanctions.",
+              "url": "https://kyivindependent.com/eu-gives-final-approval-to-90-billion-ukraine-loan-20th-russia-sanctions-package/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:06:35.160226+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8961575031280518,
+            "article": {
+              "title": "UE aprova empréstimo de € 90 bilhões para Ucrânia e mais um pacote de sanções contra Rússia",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/04/uniao-europeia-aprova-emprestimo-de-eur-90-bilhoes-para-ucrania-e-novo-pacote-de-sancoes-a-russia.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:04:38.723762+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8887314200401306,
+            "article": {
+              "title": "L'Union européenne débloque définitivement 90 milliards d'euros pour soutenir l'Ukraine",
+              "url": "https://www.rts.ch/info/monde/2026/article/l-union-europeenne-debloque-definitivement-90-milliards-d-euros-pour-soutenir-l-ukraine-29220718.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:03:54.545047+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8855746984481812,
+            "article": {
+              "title": "EU Approves €90B Ukraine Loan, New Russia Sanctions After Hungary, Slovakia Drop Veto",
+              "url": "https://www.kyivpost.com/post/74597",
+              "source_id": "kyivpost.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:06:33.425091+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8789490461349487,
+            "article": {
+              "title": "Članice EU dokončno potrdile 90-milijardno posojilo Ukrajini",
+              "url": "https://www.delo.si/novice/svet/clanice-eu-dokoncno-potrdile-90-milijardno-posojilo-ukrajini",
+              "source_id": "delo.si",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:06:27.961809+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8581310510635376,
+            "article": {
+              "title": "Einde van blokkade Hongarije: Oekraïne krijgt EU-lening van 90 miljard euro",
+              "url": "https://www.rtl.nl/nieuws/binnenland/artikel/5593799/einde-blokkade-hongarije-oekraine-eu-lening-90-miljard-euro",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:02:51.446717+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8575650453567505,
+            "article": {
+              "title": "Zelensky welcomes EU approval of €90 billion loan for Ukraine",
+              "url": "https://www.france24.com/en/europe/20260423-zelensky-to-join-european-leaders-in-cyprus-as-eu-unblocks-%E2%82%AC90bn-ukraine-loan",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:03:52.705928+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.852755069732666,
+            "article": {
+              "title": "UE aprova liberação de € 90 bilhões à Ucrânia após retomada de oleoduto russo que abastece a Hungria",
+              "url": "https://oglobo.globo.com/mundo/noticia/2026/04/23/ue-aprova-liberacao-de-90-bilhoes-de-euros-a-ucrania-apos-retomada-de-oleoduto-russo-que-abastece-a-hungria.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:04:42.010360+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8448694944381714,
+            "article": {
+              "title": "الاتحاد الأوروبي يُقر قرضاً ضخماً لأوكرانيا... وعقوبات جديدة على روسيا",
+              "url": "https://www.annahar.com/international/europe/303116/الاتحاد-الأوروبي-يقر-قرضا-ضخما-لأوكرانيا-وعقوبات-جديدة-على-روسيا",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:06:04.407581+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8364062309265137,
+            "article": {
+              "title": "ЕС с двухмесячной задержкой утвердил кредит Украине на 90 миллиардов евро",
+              "url": "https://ria.ru/20260423/kredit-2088545931.html",
+              "source_id": "ria.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:06:50.038291+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8285301923751831,
+            "article": {
+              "title": "Oorlog in Oekraïne Europese Unie stemt in met lening van 90 miljard aan Oekraïne en nieuw sanctiepakket voor Rusland",
+              "url": "https://www.nrc.nl/nieuws/2026/04/23/europese-unie-stemt-in-met-lening-van-90-miljard-aan-oekraine-en-nieuw-sanctiepakket-voor-rusland-a4926235",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:02:49.534157+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8281456828117371,
+            "article": {
+              "title": "國際 歐盟正式批准援助烏克蘭900億歐元貸款 通過對俄羅斯新制裁",
+              "url": "https://www.cna.com.tw/news/aopl/202604230344.aspx",
+              "source_id": "cna.com.tw",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:10:13.740181+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8280966281890869,
+            "article": {
+              "title": "'Deadlock over': EU unlocks $105bn loan for Ukraine, slaps new sanctions on Russia",
+              "url": "https://timesofindia.indiatimes.com/world/europe/eu-signs-off-on-ukraine-loan-new-russia-sanctions/articleshow/130469349.cms",
+              "source_id": "timesofindia.indiatimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:08:52.604911+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8188493847846985,
+            "article": {
+              "title": "Volodymyr Zelensky salue le déblocage du prêt européen de 90 milliards à l’Ukraine",
+              "url": "https://www.rtbf.be/article/le-pret-de-90-milliards-a-l-ukraine-et-le-20e-paquet-de-sanctions-adoptes-a-l-unanimite-11714226",
+              "source_id": "rtbf.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:03:58.330141+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7886373996734619,
+            "article": {
+              "title": "Liverapport EU:s jättelån till Ukraina har godkänts Nu formellt godkänt av medlemsländerna",
+              "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=42fcd9d94c46d5bda2212614b1ce01e6",
+              "source_id": "svt.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:03:32.187555+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7430342435836792,
+            "article": {
+              "title": "Διπλό μήνυμα Βρυξελλών από Κύπρο: 90 δισ. ευρώ για την Ουκρανία και νέες κυρώσεις στη Ρωσία",
+              "url": "https://www.tovima.gr/2026/04/23/world/diplo-minyma-vryksellon-apo-kypro-90-dis-eyro-gia-tin-oukrania-kai-nees-kyroseis-sti-rosia/",
+              "source_id": "tovima.gr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:04:13.619749+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7349061965942383,
+            "article": {
+              "title": "ЕС одобри заема за Украйна 10 дни след падането на Орбан",
+              "url": "https://www.dnevnik.bg/evropa/2026/04/23/4906370_es_odobri_zaema_za_ukraina_10_dni_sled_padaneto_na/",
+              "source_id": "dnevnik.bg",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:06:31.977604+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7230812907218933,
+            "article": {
+              "title": "WORLD Zelensky to join EU leaders in Cyprus after 90-bn-euro loan unblocked",
+              "url": "https://myrepublica.nagariknetwork.com/news/zelensky-to-join-eu-leaders-in-cyprus-after-90-bn-euro-loan-unblocked-64-88.html",
+              "source_id": "myrepublica.nagariknetwork.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:09:16.181945+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7074728012084961,
+            "article": {
+              "title": "$106 Billion Loan Reflects E.U.’s View That Peace in Ukraine Is Far Away",
+              "url": "https://www.nytimes.com/2026/04/23/world/europe/eu-loan-ukraine.html",
+              "source_id": "nytimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:07:53.086363+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6905760765075684,
+            "article": {
+              "title": "Druzhba oil flows resume, clearing path for €90B Ukraine loan",
+              "url": "https://www.politico.eu/article/druzhba-oil-ukraine-loan-slovakia-hungary-viktor-orban/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:02:46.502498+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 71.78555659684939,
+        "size": 15,
+        "n_sources": 14,
+        "n_continents": 7,
+        "continents": [
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "Oceania",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.8377431631088257,
+        "title": "Lebanon accuses Israel of killing journalist and firing on responders",
+        "central_article": {
+          "title": "Lebanon accuses Israel of killing journalist and firing on responders",
+          "url": "https://www.thetimes.com/world/middle-east/article/lebanon-journalist-killed-israeli-strikes-amal-khalil-jzwc708tr",
+          "source_id": "thetimes.com",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-04-23T15:02:39.415905+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9042767286300659,
+            "article": {
+              "title": "Lebanon accuses Israel of killing journalist and firing on responders",
+              "url": "https://www.thetimes.com/world/middle-east/article/lebanon-journalist-killed-israeli-strikes-amal-khalil-jzwc708tr",
+              "source_id": "thetimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:02:39.415905+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8919985890388489,
+            "article": {
+              "title": "Lebanon accuses Israel of war crimes after another journalist killed",
+              "url": "https://www.rt.com/news/638951-lebanon-journalists-israel-war-crimes/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:06:42.831093+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8856076002120972,
+            "article": {
+              "title": "Israeli strike kills journalist in southern Lebanon",
+              "url": "https://www.thenationalnews.com/news/mena/2026/04/23/israeli-strike-kills-journalist-in-southern-lebanon/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:05:35.487416+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8806111216545105,
+            "article": {
+              "title": "Israel committed war crime by killing journalist, Lebanon says",
+              "url": "https://www.newarab.com/news/israel-committed-war-crime-killing-journalist-lebanon-says",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:05:52.292830+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8654838800430298,
+            "article": {
+              "title": "Confirman la muerte de una periodista en un ataque israelí contra el sur del Líbano",
+              "url": "https://elcomercio.pe/mundo/oriente-medio/amal-khalil-confirman-la-muerte-de-una-periodista-en-un-ataque-de-israel-contra-el-sur-del-libano-at-tiri-al-akhbar-ultimas-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:04:46.931748+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8583168387413025,
+            "article": {
+              "title": "Líbano denuncia demolição de casas por Israel e ataques após cessar-fogo; jornalista morre",
+              "url": "https://www.estadao.com.br/internacional/libano-denuncia-demolicao-de-casas-por-israel-e-ataques-apos-cessar-fogo-jornalista-morre-npr/",
+              "source_id": "estadao.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:04:43.627899+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8514291048049927,
+            "article": {
+              "title": "Journalist among 5 killed in Israeli strikes in Lebanon",
+              "url": "https://pajhwok.com/2026/04/23/journalist-among-5-killed-in-israeli-strikes-in-lebanon/",
+              "source_id": "pajhwok.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:09:17.494252+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.842337965965271,
+            "article": {
+              "title": "Ливан обвини Израел във военни престъпления след гибелта на журналист при въздушен удар",
+              "url": "https://www.dnevnik.bg/sviat/2026/04/23/4906466_livan_obvini_izrael_vuv_voenni_prestupleniia_sled/",
+              "source_id": "dnevnik.bg",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:06:31.977604+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8384441137313843,
+            "article": {
+              "title": "Lebanese journalist Amal Khalil killed by Israeli strike amid ceasefire",
+              "url": "https://www.sbs.com.au/news/article/lebanese-journalist-amal-khalil-killed-by-israeli-strike-amid-ceasefire/9s6ptekcs",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:05:17.560704+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8228074312210083,
+            "article": {
+              "title": "'Absoluut een patroon': Israël doodt Libanese journalist terwijl zij schuilt",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5593699/amal-khalil-israel-doodt-libanese-journalist-terwijl-zij-schuilt",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:02:51.446717+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8212760090827942,
+            "article": {
+              "title": "Who was Amal Khalil, the Lebanese journalist killed by Israel?",
+              "url": "https://www.newarab.com/news/who-was-amal-khalil-lebanese-journalist-killed-israel",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:05:52.292830+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8178516626358032,
+            "article": {
+              "title": "Crisis in het Midden-Oosten Libanese journalist Amal Khalil gedood bij Israëlische aanval",
+              "url": "https://www.nrc.nl/nieuws/2026/04/22/libanese-journalist-amal-khalil-gedood-bij-israelische-aanval-a4926194",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:02:49.534157+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7869502902030945,
+            "article": {
+              "title": "What we know about Israel killing Lebanese journalist Amal Khalil",
+              "url": "https://www.aljazeera.com/news/2026/4/23/what-we-know-about-israel-killing-lebanese-journalist-amal-khalil",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:05:33.372051+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7775097489356995,
+            "article": {
+              "title": "Oorlog Midden-Oosten Libanon beschuldigt Israël van \"oorlogsmisdaden\" nadat journaliste is omgekomen bij luchtaanvallen",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/04/23/libanese-journaliste-omgekomen-bij-israelische-luchtaanval/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:03:55.958372+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7212479114532471,
+            "article": {
+              "title": "Body of journalist for pro-Hezbollah daily pulled from rubble of Lebanon home struck by IDF",
+              "url": "https://www.timesofisrael.com/body-of-journalist-for-pro-hezbollah-daily-pulled-from-rubble-of-home-struck-by-idf/",
+              "source_id": "timesofisrael.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:05:38.321139+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 60.0,
+        "size": 10,
+        "n_sources": 10,
+        "n_continents": 6,
+        "continents": [
+          "China",
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "North America"
+        ],
+        "coherence": 0.9077137112617493,
+        "title": "Trump reclassifies state-licensed medical marijuana as less-dangerous drug",
+        "central_article": {
+          "title": "Trump reclassifies state-licensed medical marijuana as less-dangerous drug",
+          "url": "https://www.pbs.org/newshour/politics/trump-reclassifies-state-licensed-medical-marijuana-as-less-dangerous-drug",
+          "source_id": "pbs.org",
+          "continent": "North America",
+          "published_at": null,
+          "scraped_at_utc": "2026-04-23T15:08:22.705240+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9528797268867493,
+            "article": {
+              "title": "Trump reclassifies state-licensed medical marijuana as less-dangerous drug",
+              "url": "https://www.pbs.org/newshour/politics/trump-reclassifies-state-licensed-medical-marijuana-as-less-dangerous-drug",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:08:22.705240+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9505007863044739,
+            "article": {
+              "title": "U.S. reclassifies state-licensed medical marijuana as a less-dangerous drug",
+              "url": "https://www.theglobeandmail.com/world/us-politics/article-us-trump-reclassifies-medical-marijuana-less-dangerous-drug/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:05:11.861177+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.949022650718689,
+            "article": {
+              "title": "US reclassifies state-licensed medical marijuana as a less-dangerous drug in a historic shift",
+              "url": "https://www.bostonglobe.com/2026/04/23/nation/medical-marijuana-reclassified-schedule-iii/",
+              "source_id": "bostonglobe.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:08:16.170913+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9375231266021729,
+            "article": {
+              "title": "Trump reclassifies state-licensed medical marijuana as a less-dangerous drug in a historic shift",
+              "url": "https://apnews.com/article/medical-marijuana-rescheduling-justice-department-trump-cannabis-1d6722d3aae122b1a91f8e4b6c690268",
+              "source_id": "apnews.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:07:51.729177+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9375231266021729,
+            "article": {
+              "title": "Trump reclassifies state-licensed medical marijuana as a less-dangerous drug in a historic shift",
+              "url": "https://www.chicagotribune.com/2026/04/23/trump-reclassifies-state-licensed-medical-marijuana-as-a-less-dangerous-drug-in-a-historic-shift-2/",
+              "source_id": "chicagotribune.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:08:18.508469+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9268825054168701,
+            "article": {
+              "title": "US reclassifies certain marijuana products as a less-dangerous drug",
+              "url": "https://www.scmp.com/news/world/united-states-canada/article/3351203/trump-reclassifies-state-licensed-medical-marijuana-less-dangerous-drug?module=latest&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:08:24.148087+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9268825054168701,
+            "article": {
+              "title": "US reclassifies certain marijuana products as a less-dangerous drug",
+              "url": "https://www.thestar.com.my/news/world/2026/04/23/us-reclassifies-certain-marijuana-products-as-a-less-dangerous-drug",
+              "source_id": "thestar.com.my",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:10:11.059524+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8739193677902222,
+            "article": {
+              "title": "EE UU saca la marihuana del grupo de las drogas más peligrosas para fomentar su uso médico",
+              "url": "https://elpais.com/sociedad/2026-04-23/la-administracion-de-trump-saca-la-marihuana-del-grupo-de-las-drogas-mas-peligrosas-para-fomentar-su-uso-medico.html",
+              "source_id": "elpais.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:04:01.315173+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8124560713768005,
+            "article": {
+              "title": "Trump administration moves to ease federal restrictions on marijuana",
+              "url": "https://www.theguardian.com/us-news/2026/apr/23/trump-administration-reclassify-marijuana-schedule-iii",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:02:40.842355+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8095476627349854,
+            "article": {
+              "title": "JAV palengvino galimybę vartoti marihuaną medicininiais tikslais",
+              "url": "https://www.lrt.lt/naujienos/sveikata/682/2907360/jav-palengvino-galimybe-vartoti-marihuana-medicininiais-tikslais",
+              "source_id": "lrt.lt",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:06:54.105629+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 59.97647142688117,
+        "size": 15,
+        "n_sources": 14,
+        "n_continents": 7,
+        "continents": [
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Middle East",
+          "North America",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.8017969727516174,
+        "title": "U.S. forces seize Iranian oil tanker in Indian Ocean",
+        "central_article": {
+          "title": "U.S. forces seize Iranian oil tanker in Indian Ocean",
+          "url": "https://www.azernews.az/region/257459.html",
+          "source_id": "azernews.az",
+          "continent": "Europe East",
+          "published_at": null,
+          "scraped_at_utc": "2026-04-23T15:07:05.952913+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8900924921035767,
+            "article": {
+              "title": "U.S. forces seize Iranian oil tanker in Indian Ocean",
+              "url": "https://www.azernews.az/region/257459.html",
+              "source_id": "azernews.az",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:07:05.952913+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8536653518676758,
+            "article": {
+              "title": "US intercepts three Iranian oil tankers in Asian waters, sources say",
+              "url": "https://kathmandupost.com/world/2026/04/23/us-intercepts-three-iranian-oil-tankers-in-asian-waters-sources-say",
+              "source_id": "kathmandupost.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:09:10.324959+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8528478741645813,
+            "article": {
+              "title": "US military says it seizes another oil tanker associated with Iran",
+              "url": "https://www.koreaherald.com/article/10724448",
+              "source_id": "koreaherald.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:09:53.019266+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8385792970657349,
+            "article": {
+              "title": "Estados Unidos intercepta y aborda un buque cisterna con petróleo iraní en el Índico",
+              "url": "https://elcomercio.pe/mundo/eeuu/estados-unidos-intercepta-y-aborda-un-buque-cisterna-con-petroleo-irani-en-el-indico-iran-donald-trump-israel-ultimas-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:04:46.931748+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.836461067199707,
+            "article": {
+              "title": "Reuters: US intercepts and redirects Iranian tankers in Asian waters amid escalating tensions",
+              "url": "https://georgiatoday.ge/reuters-us-intercepts-and-redirects-iranian-tankers-in-asian-waters-amid-escalating-tensions/",
+              "source_id": "georgiatoday.ge",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:06:59.867225+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8259163498878479,
+            "article": {
+              "title": "امریکی افواج نے ایرانی تیل لے جانے والا بحری جہاز تحویل میں لے لیا، ویڈیو جاری",
+              "url": "https://jang.com.pk/news/1576942",
+              "source_id": "jang.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:09:11.727724+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8080474734306335,
+            "article": {
+              "title": "البحرية الامريكية تعترض سفينة أخرى تنقل النفط من إيران",
+              "url": "https://www.alsumaria.tv/news/international/562319/البحرية-الامريكية-تعترض-سفينة-أخرى-تنقل-النفط-من-إيران",
+              "source_id": "alsumaria.tv",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:07:49.836924+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.807500958442688,
+            "article": {
+              "title": "El video del momento. Estados Unidos incautó otro buque que transportaba petróleo iraní en el océano Índico",
+              "url": "https://www.lanacion.com.ar/el-mundo/estados-unidos-incauto-otro-buque-carguero-que-transportaba-petroleo-irani-en-el-oceano-indico-nid23042026/",
+              "source_id": "lanacion.com.ar",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:04:28.802733+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8038747310638428,
+            "article": {
+              "title": "Detiene EU otro buque petrolero de Ir�n en oc�ano �ndico",
+              "url": "https://www.reforma.com/detiene-eu-otro-buque-petrolero-de-iran-en-oceano-indico/ar3191683?v=2",
+              "source_id": "reforma.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:04:17.617580+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7866713404655457,
+            "article": {
+              "title": "US forces board M/T Majestic X tanker transporting oil from Iran",
+              "url": "https://www.albawaba.com/news/us-forces-board-mt-majestic-x-tanker-1626069",
+              "source_id": "albawaba.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:05:50.835039+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.782137393951416,
+            "article": {
+              "title": "البنتاغون ينشر فيديو للسيطرة على سفينة بدعوى نقلها نفطا إيرانيا",
+              "url": "https://www.aljazeera.net/news/liveblog/2026/4/23/حرب-إيران-مباشر-ترمب-يقدم-عرضا-سخيا?update=9152032",
+              "source_id": "aljazeera.net",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:05:39.725474+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7797845602035522,
+            "article": {
+              "title": "USA stoppen iranischen Tanker: Das sind die Hintergründe",
+              "url": "https://www.zdfheute.de/politik/iran-schattentanker-usa-tifani-frontal-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:03:12.466116+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.748091459274292,
+            "article": {
+              "title": "Iran seizes pair of container ships, in first since start of war with US and Israel",
+              "url": "https://www.timesofisrael.com/iran-seizes-pair-of-container-ships-in-first-since-start-of-war-with-us-and-israel/",
+              "source_id": "timesofisrael.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:05:38.321139+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7439594268798828,
+            "article": {
+              "title": "'İran tankerine el konuldu'",
+              "url": "https://www.milliyet.com.tr/dunya/son-dakika-abd-goruntuleri-paylasti-iran-tankerine-el-konuldu-7576267",
+              "source_id": "milliyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:05:49.550222+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6693244576454163,
+            "article": {
+              "title": "رويترز عن مصادر: إيران تقتاد سفينتي حاويات إلى ميناء بندر عباس",
+              "url": "https://www.aljazeera.net/news/liveblog/2026/4/23/حرب-إيران-مباشر-ترمب-يقدم-عرضا-سخيا?update=9151981",
+              "source_id": "aljazeera.net",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:05:39.725474+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 59.389174256412666,
+        "size": 14,
+        "n_sources": 14,
+        "n_continents": 6,
+        "continents": [
+          "China",
+          "Europe East",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "South Asia"
+        ],
+        "coherence": 0.830659031867981,
+        "title": "Pentagon says US Navy Secretary Phelan resigns",
+        "central_article": {
+          "title": "Pentagon says US Navy Secretary Phelan resigns",
+          "url": "https://tass.com/world/2121233",
+          "source_id": "tass.com",
+          "continent": "Europe East",
+          "published_at": null,
+          "scraped_at_utc": "2026-04-23T15:06:48.006430+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8969079256057739,
             "article": {
               "title": "Pentagon says US Navy Secretary Phelan resigns",
               "url": "https://tass.com/world/2121233",
               "source_id": "tass.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:29:09.837876+00:00"
+              "scraped_at_utc": "2026-04-23T15:06:48.006430+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8475267887115479,
+            "sim_to_centroid": 0.8812534809112549,
             "article": {
               "title": "Navy Secretary John Phelan is leaving in the latest departure of a top defense leader",
               "url": "https://apnews.com/article/pentagon-navy-secretary-phelan-cao-3a871b87f1a31c1c7168f69e8fe4f7b5",
               "source_id": "apnews.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:30:14.699848+00:00"
+              "scraped_at_utc": "2026-04-23T15:07:51.729177+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8418111801147461,
+            "sim_to_centroid": 0.8798709511756897,
             "article": {
-              "title": "U.S. navy chief resigns amid Pentagon infighting",
-              "url": "https://www.politico.eu/article/u-s-navy-chief-resigns-amid-pentagon-infighting/",
-              "source_id": "politico.eu",
-              "continent": "Europe North",
+              "title": "US dismisses Navy secretary John Phelan",
+              "url": "https://www.albawaba.com/news/us-dismisses-navy-secretary-john-phelan-1626048",
+              "source_id": "albawaba.com",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:14.257136+00:00"
+              "scraped_at_utc": "2026-04-23T15:05:50.835039+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8361293077468872,
-            "article": {
-              "title": "Министр ВМС США покинул пост",
-              "url": "https://ria.ru/20260423/ssha-2088451055.html",
-              "source_id": "ria.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:29:12.222311+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8328620791435242,
-            "article": {
-              "title": "US Navy secretary abruptly ‘departing’ amid Iran blockade",
-              "url": "https://www.rt.com/news/638947-us-navy-secretary-steps-down/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:59.813415+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8322360515594482,
-            "article": {
-              "title": "Pentagon removes top Navy official amid military shake-up",
-              "url": "https://www.france24.com/en/americas/20260423-pentagon-removes-top-navy-official-amid-military-shake-up",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:26:15.966612+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8268224000930786,
-            "article": {
-              "title": "Navy Secretary Is Fired as Infighting Roils Pentagon",
-              "url": "https://www.nytimes.com/2026/04/22/us/politics/navy-secretary-john-phelan.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:30:16.033853+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8237851858139038,
-            "article": {
-              "title": "Secretário da Marinha dos Estados Unidos é demitido em meio a bloqueio naval ao Irã",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/04/secretario-da-marinha-dos-eua-e-demitido-em-meio-a-bloqueio-naval-ao-ira.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:27:01.691303+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.822101354598999,
+            "sim_to_centroid": 0.8791130185127258,
             "article": {
               "title": "John Phelan steps down as US Navy Secretary",
               "url": "https://pajhwok.com/2026/04/23/john-phelan-steps-down-as-us-navy-secretary/",
               "source_id": "pajhwok.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:31:45.223875+00:00"
+              "scraped_at_utc": "2026-04-23T15:09:17.494252+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8204102516174316,
+            "sim_to_centroid": 0.8777897357940674,
             "article": {
-              "title": "U.S. Navy secretary ousted after infighting with top Pentagon leaders",
-              "url": "https://www.japantimes.co.jp/news/2026/04/23/world/politics/us-navy-secretary-out-pentagon/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
+              "title": "US Navy chief John Phelan leaving his post 'immediately'",
+              "url": "https://www.timesofisrael.com/iran-says-it-wont-reopen-strait-of-hormuz-as-long-as-us-is-blockading-ports/",
+              "source_id": "timesofisrael.com",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:32:11.338538+00:00"
+              "scraped_at_utc": "2026-04-23T15:05:38.321139+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8176487684249878,
+            "sim_to_centroid": 0.8625099658966064,
+            "article": {
+              "title": "El Pentágono despide al secretario de la Marina, John Phelan",
+              "url": "https://www.lavanguardia.com/internacional/20260423/11520448/pentagono-despide-secretario-marina-john-phelan.html",
+              "source_id": "lavanguardia.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:04:02.881290+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.817230761051178,
+            "article": {
+              "title": "Il segretario alla Marina Usa silurato da Trump: Phelan fuori dopo lo scontro col Pentagono",
+              "url": "https://www.corriere.it/esteri/26_aprile_23/john-phelan-trump-silurato-d2ef0c56-d689-4fec-933d-00c24a9cdxlk.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:04:10.732528+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8101563453674316,
             "article": {
               "title": "وزير البحرية الأمريكية يترك منصبه \"بمفعول فوري\"",
               "url": "https://www.alsumaria.tv/news/international/562217/وزير-البحرية-الأمريكية-يترك-منصبه-بمفعول-فوري",
               "source_id": "alsumaria.tv",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:30:12.860623+00:00"
+              "scraped_at_utc": "2026-04-23T15:07:49.836924+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8097606897354126,
+            "sim_to_centroid": 0.8032486438751221,
             "article": {
-              "title": "ABD Donanma Sekreteri görevinden ayrıldı",
-              "url": "https://www.hurriyet.com.tr/gundem/pentagon-abd-donanma-sekreteri-phelanin-gorevinden-ayrildigini-duyurdu-43157267",
-              "source_id": "hurriyet.com.tr",
+              "title": "Who is John Phelan, the US Navy Secretary fired by Pete Hegseth?",
+              "url": "https://www.aljazeera.com/news/2026/4/23/who-is-john-phelan-the-us-navy-secretary-fired-by-pete-hegseth",
+              "source_id": "aljazeera.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:04.856444+00:00"
+              "scraped_at_utc": "2026-04-23T15:05:33.372051+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7982746362686157,
+            "sim_to_centroid": 0.7978881001472473,
             "article": {
-              "title": "Navy Secretary ousted in latest top military departure from Trump administration as US wages war in Iran",
-              "url": "https://www.independent.co.uk/news/world/americas/us-politics/navy-secretary-iran-war-phelan-hegseth-b2963131.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
+              "title": "Navy Secretary Is Fired as Infighting Shakes Pentagon",
+              "url": "https://www.nytimes.com/2026/04/22/us/politics/navy-secretary-john-phelan.html",
+              "source_id": "nytimes.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:05.702641+00:00"
+              "scraped_at_utc": "2026-04-23T15:07:53.086363+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7841212749481201,
+            "sim_to_centroid": 0.7977283596992493,
             "article": {
-              "title": "امریکی وزیر بحریہ جان سی فیلن کو عہدے سے ہٹا دیا گیا",
-              "url": "https://www.nawaiwaqt.com.pk/23-Apr-2026/1988571",
-              "source_id": "nawaiwaqt.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:31:42.720141+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7790845632553101,
-            "article": {
-              "title": "John Phelan, plus haut responsable civil de la marine des Etats-Unis, démissionne en pleine guerre",
-              "url": "https://www.lemonde.fr/international/article/2026/04/23/depart-immediat-du-secretaire-a-la-marine-des-etats-unis-john-phelan_6682532_3210.html",
-              "source_id": "lemonde.fr",
+              "title": "Pentagon removes top Navy official amid military shake-up",
+              "url": "https://www.france24.com/en/americas/20260423-pentagon-removes-top-navy-official-amid-military-shake-up",
+              "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:26:10.692766+00:00"
+              "scraped_at_utc": "2026-04-23T15:03:52.705928+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7750204801559448,
+            "sim_to_centroid": 0.7940878868103027,
+            "article": {
+              "title": "US Navy secretary abruptly ‘departing’ amid Iran blockade",
+              "url": "https://www.rt.com/news/638947-us-navy-secretary-steps-down/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:06:42.831093+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7737624049186707,
             "article": {
               "title": "US Navy chief leaves post 'effective immediately'",
               "url": "https://www.thenationalnews.com/news/mena/2026/04/23/us-navy-chief-leaves-post-effective-immediately/",
               "source_id": "thenationalnews.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:27:52.991094+00:00"
+              "scraped_at_utc": "2026-04-23T15:05:35.487416+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7728083729743958,
-            "article": {
-              "title": "US Navy chief out as Iran seizes 2 ships amid blockade",
-              "url": "https://www.usatoday.com/story/news/world/2026/04/22/trump-ceasefire-hormuz-blockade-iran-war-updates--live/89726141007/",
-              "source_id": "usatoday.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:30:44.824259+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7703063488006592,
-            "article": {
-              "title": "Trump briefing Pentagon replaces secretary of the navy amid US blockade in strait of Hormuz",
-              "url": "https://www.theguardian.com/us-news/2026/apr/23/trump-news-at-a-glance-latest-today",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:08.986746+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7689164280891418,
+            "sim_to_centroid": 0.7576802968978882,
             "article": {
               "title": "國防高層再現人事變動 五角大樓宣布海軍部長費蘭離任",
               "url": "https://www.singtaousa.com/2026/04/22/news/usa/personnel-changes-occur-again-at-the-top-level-of-defense-the-pentagon-announces-the-resignation-of-secretary-of-the-navy-phelan/",
               "source_id": "singtaousa.com",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:31:08.493530+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7497085332870483,
-            "article": {
-              "title": "Пентагон уволил главу военно-морских сил США Джона Фелана. По данным CNN и Axios, он «не ладил» с министром обороны Питом Хегсетом",
-              "url": "https://meduza.io/news/2026/04/23/pentagon-uvolil-glavu-voenno-morskih-sil-ssha-dzhona-felana-po-dannym-cnn-i-axios-on-ne-ladil-s-ministrom-oborony-pitom-hegsetom",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:51.377825+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7363951206207275,
-            "article": {
-              "title": "Die neuesten Entwicklungen Trumps zweite Amtszeit: Marine-Staatssekretär Phelan verlässt US-Regierung",
-              "url": "https://www.nzz.ch/international/trumps-zweite-amtszeit-die-neusten-entwicklungen-ld.1856621",
-              "source_id": "nzz.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:43.435409+00:00"
+              "scraped_at_utc": "2026-04-23T15:08:40.669884+00:00"
             }
           }
         ]
       },
       {
-        "score": 107.17121350842791,
-        "size": 30,
-        "n_sources": 25,
-        "n_continents": 8,
+        "score": 50.81751953205013,
+        "size": 11,
+        "n_sources": 11,
+        "n_continents": 6,
+        "continents": [
+          "Africa",
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Middle East",
+          "North America"
+        ],
+        "coherence": 0.84771728515625,
+        "title": "Trump-udsending vil erstatte Iran med Italien ved VM",
+        "central_article": {
+          "title": "Trump-udsending vil erstatte Iran med Italien ved VM",
+          "url": "https://sermitsiaq.ag/samfund/trump-udsending-vil-erstatte-iran-med-italien-ved-vm/2375678",
+          "source_id": "sermitsiaq.ag",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-04-23T15:03:41.693593+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9079073071479797,
+            "article": {
+              "title": "Trump-udsending vil erstatte Iran med Italien ved VM",
+              "url": "https://sermitsiaq.ag/samfund/trump-udsending-vil-erstatte-iran-med-italien-ved-vm/2375678",
+              "source_id": "sermitsiaq.ag",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:03:41.693593+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9070291519165039,
+            "article": {
+              "title": "Specjalny wysłannik Trumpa proponuje: Włochy za Iran na mundialu",
+              "url": "https://www.rp.pl/dyplomacja/art44214301-ft-wyslannik-donalda-trumpa-proponuje-zamiane-iranu-na-wlochy-na-mundialu",
+              "source_id": "rp.pl",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:06:25.508175+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9008554220199585,
+            "article": {
+              "title": "2026 World Cup: Trump envoy urges FIFA to swap Iran for Italy",
+              "url": "https://businessday.ng/sports/article/2026-world-cup-trump-envoy-urges-fifa-to-swap-iran-for-italy/",
+              "source_id": "businessday.ng",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:07:37.051059+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8972532749176025,
+            "article": {
+              "title": "Utusan Trump Usul Iran Tukar Tempat dengan Italia di Piala Dunia Bola",
+              "url": "https://bola.kompas.com/read/2026/04/23/20362668/utusan-trump-usul-iran-tukar-tempat-dengan-italia-di-piala-dunia?source=headline",
+              "source_id": "kompas.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:10:15.098213+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8882187604904175,
+            "article": {
+              "title": "Football Coupe du monde : un émissaire américain propose à la FIFA de remplacer l'Iran par l'Italie",
+              "url": "https://www.lorientlejour.com/article/1504572/coupe-du-monde-un-emissaire-americain-propose-a-la-fifa-de-remplacer-liran-par-litalie-.html",
+              "source_id": "lorientlejour.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:05:44.547482+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8452841639518738,
+            "article": {
+              "title": "Que Irán salga del Mundial 2026 y entre Italia: la propuesta de emisario de Trump a FIFA, según ‘Financial Times’",
+              "url": "https://www.nacion.com/puro-deporte/que-iran-salga-del-mundial-2026-y-entre-italia-la/C4HHP42BURDY5KRAPXQHWFGN3I/story/",
+              "source_id": "nacion.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:04:21.336689+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8403388261795044,
+            "article": {
+              "title": "Trump-vertrouweling adviseert om Italië en niet Iran naar het WK te sturen",
+              "url": "https://fd.nl/politiek/1594249/trump-vertrouweling-adviseert-om-italie-en-niet-iran-naar-het-wk-te-sturen",
+              "source_id": "fd.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:02:53.373182+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8286911845207214,
+            "article": {
+              "title": "Could Italy Replace Iran in the World Cup?",
+              "url": "https://time.com/article/2026/04/23/iran-italy-world-cup-us-war-soccer-diplomacy/",
+              "source_id": "time.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:08:20.123096+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8010482788085938,
+            "article": {
+              "title": "Italy responds to ‘shameful’ US offer to replace Iran at World Cup",
+              "url": "https://www.rt.com/news/638956-fifa-iran-italy-replacement/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:06:42.831093+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7622201442718506,
+            "article": {
+              "title": "Funke Mediengruppe Aus Liebe zu Meloni USA wollen Italien statt Iran zur Fußball-WM einladen",
+              "url": "https://www.abendblatt.de/politik/article411794831/usa-wollen-italien-statt-iran-zur-fussball-wm-einladen.html",
+              "source_id": "abendblatt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:03:14.598384+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7460428476333618,
+            "article": {
+              "title": "國際 義大利體壇反對美特使建議 不可能取代伊朗踢世界盃",
+              "url": "https://www.cna.com.tw/news/aopl/202604230363.aspx",
+              "source_id": "cna.com.tw",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:10:13.740181+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 43.523678193130166,
+        "size": 9,
+        "n_sources": 9,
+        "n_continents": 6,
         "continents": [
           "East Asia",
           "Europe East",
           "Europe North",
           "Europe South",
           "Middle East",
-          "North America",
-          "Oceania",
-          "South Asia"
+          "Oceania"
         ],
-        "coherence": 0.7752220630645752,
-        "title": "Iran seizes two ships crossing Hormuz, says it won't reopen strait while US blockade remains",
+        "coherence": 0.8568642139434814,
+        "title": "Former Philippines president Duterte to face ICC trial on crimes against humanity",
         "central_article": {
-          "title": "Iran seizes two ships crossing Hormuz, says it won't reopen strait while US blockade remains",
-          "url": "https://www.sbs.com.au/news/article/iran-seizes-two-ships-in-hormuz-wont-reopen-strait-until-us-blockade-remains/419igeek5",
+          "title": "Former Philippines president Duterte to face ICC trial on crimes against humanity",
+          "url": "https://www.sbs.com.au/news/article/former-philippines-president-duterte-to-face-icc-trial-on-crimes-against-humanity/wx5kehbde",
           "source_id": "sbs.com.au",
           "continent": "Oceania",
           "published_at": null,
-          "scraped_at_utc": "2026-04-23T08:27:39.601864+00:00"
+          "scraped_at_utc": "2026-04-23T15:05:17.560704+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8787132501602173,
+            "sim_to_centroid": 0.9302903413772583,
             "article": {
-              "title": "Iran seizes two ships crossing Hormuz, says it won't reopen strait while US blockade remains",
-              "url": "https://www.sbs.com.au/news/article/iran-seizes-two-ships-in-hormuz-wont-reopen-strait-until-us-blockade-remains/419igeek5",
+              "title": "Former Philippines president Duterte to face ICC trial on crimes against humanity",
+              "url": "https://www.sbs.com.au/news/article/former-philippines-president-duterte-to-face-icc-trial-on-crimes-against-humanity/wx5kehbde",
               "source_id": "sbs.com.au",
               "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:27:39.601864+00:00"
+              "scraped_at_utc": "2026-04-23T15:05:17.560704+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8691517114639282,
+            "sim_to_centroid": 0.9220066070556641,
             "article": {
-              "title": "Hormuz reopening 'not possible' amid US naval blockade, Iran says",
-              "url": "https://www.france24.com/en/middle-east/20260422-live-us-will-extend-ceasefire-unclear-if-iran-agrees-war",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:26:15.966612+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8613718152046204,
-            "article": {
-              "title": "Iran says won’t reopen Strait of Hormuz if US upholds naval blockade",
-              "url": "https://www.straitstimes.com/world/middle-east/iran-says-wont-reopen-strait-of-hormuz-as-long-as-us-blockade-remains?ref=top-stories",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:32:33.090334+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8600403070449829,
-            "article": {
-              "title": "Iran: Reopening Strait of Hormuz 'not possible' amid US blockade",
-              "url": "https://www.newarab.com/news/iran-reopening-strait-hormuz-not-possible-amid-us-blockade",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:11.075025+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.840671956539154,
-            "article": {
-              "title": "Iran seizes ships in Strait of Hormuz as talks remain stalled",
-              "url": "https://www.smh.com.au/world/middle-east/iran-seizes-ships-in-strait-of-hormuz-as-peace-talks-stay-stalled-20260423-p5zqh3.html",
-              "source_id": "smh.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:27:40.824808+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8290886878967285,
-            "article": {
-              "title": "Iran targets ships in Strait of Hormuz as U.S. talks remain uncertain",
-              "url": "https://www.pbs.org/newshour/show/iran-targets-ships-in-strait-of-hormuz-as-u-s-talks-remain-uncertain",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:30:50.462705+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8205139636993408,
-            "article": {
-              "title": "US intercepts Iran oil tankers in Asian waters as demining of Hormuz expected to take months",
-              "url": "https://www.timesofisrael.com/us-intercepts-iran-oil-tankers-in-asian-waters-as-demining-of-hormuz-expected-to-take-months/",
-              "source_id": "timesofisrael.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:27:55.903149+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.805959939956665,
-            "article": {
-              "title": "Iran war ‘Impossible’ to reopen strait of Hormuz amid ‘flagrant’ ceasefire breaches, Iran says",
-              "url": "https://www.theguardian.com/world/2026/apr/22/iranian-forces-ships-seized-strait-of-hormuz-us-peace-talks",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:08.986746+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8048341870307922,
-            "article": {
-              "title": "Tehran calls opening Strait of Hormuz ‘impossible’ as US navy chief steps down",
-              "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-ceasefire-deadline-strait-of-hormuz-b2962350.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:05.702641+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.801633358001709,
-            "article": {
-              "title": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
-              "url": "https://www.theguardian.com/world/2026/apr/22/strait-of-hormuz-gunboat-diplomacy-us-iran-blockade",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:08.986746+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7987228631973267,
-            "article": {
-              "title": "Iran seizes 2 ships in Strait of Hormuz",
-              "url": "https://www.channelnewsasia.com/shorts/iran-seizes-2-ships-in-strait-hormuz-6075221",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:32:09.933403+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7974002361297607,
-            "article": {
-              "title": "Iran seizes two ships in Strait of Hormuz",
-              "url": "https://www.albawaba.com/news/iran-seizes-two-ships-strait-hormuz-1625999",
-              "source_id": "albawaba.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:09.589148+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7936289310455322,
-            "article": {
-              "title": "Trump says Iran ‘collapsing’ over Hormuz blockade as IRGC attacks ships in key waterway",
-              "url": "https://www.timesofisrael.com/trump-says-iran-collapsing-over-hormuz-blockade-as-ships-attacked-in-key-waterway/",
-              "source_id": "timesofisrael.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:27:55.903149+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7907621264457703,
-            "article": {
-              "title": "Iran says Hormuz to remain closed; Pak discusses round 2 of talks with US",
-              "url": "https://www.hindustantimes.com/world-news/us-iran-war-live-updates-peace-talks-trump-pakistan-tehran-ceasefire-strait-of-hormuz-abbas-araghchi-israel-latest-news-101776908722460.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:31:26.454519+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7794735431671143,
-            "article": {
-              "title": "Israel-Iran LIVE: Iran says won’t reopen Hormuz if U.S. upholds naval blockade",
-              "url": "https://www.thehindu.com/news/international/iran-israel-war-live-updates-april-23-2026-strait-of-hormuz-ships-attacked-by-tehran-donald-trump-ceasefire-west-asia-crisis/article70895506.ece",
-              "source_id": "thehindu.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:31:25.090373+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7759106159210205,
-            "article": {
-              "title": "Iran tightens control of Hormuz after US calls off renewed attacks",
-              "url": "https://www.channelnewsasia.com/world/iran-seizes-ships-strait-hormuz-us-israel-war-6075821",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:32:09.933403+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7759106159210205,
-            "article": {
-              "title": "Iran tightens control of Hormuz after US calls off renewed attacks",
-              "url": "https://www.thedailystar.net/news/world/us-israel-war-iran/news/iran-tightens-control-hormuz-after-us-calls-renewed-attacks-4158466",
-              "source_id": "thedailystar.net",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:31:30.321141+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.773930549621582,
-            "article": {
-              "title": "Öffnung der Strasse von Hormuz gescheitert: USA wollen nun iranische Schiffe weltweit entern",
-              "url": "https://www.nzz.ch/international/oeffnung-der-strasse-von-hormuz-gescheitert-usa-wollen-nun-iranische-schiffe-weltweit-entern-ld.1934309",
-              "source_id": "nzz.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:43.435409+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7732081413269043,
-            "article": {
-              "title": "More confusion looms over Strait of Hormuz after Iran attacks three ships near waterway",
-              "url": "https://apnews.com/article/us-iran-war-strait-of-hormuz-oil-tankers-b8b1d607583f88334bf10489cc4b63a2",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:30:14.699848+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7439509630203247,
-            "article": {
-              "title": "Masked Iran soldiers board, seize two vessels in Strait of Hormuz, shows video",
-              "url": "https://www.hindustantimes.com/world-news/masked-iranian-soldiers-board-and-seize-two-vessels-in-strait-of-hormuz-shows-video-101776922448605.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:31:26.454519+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7354127168655396,
-            "article": {
-              "title": "U.S. says no deadline for Iran proposal amid Hormuz standoff",
-              "url": "https://www.japantimes.co.jp/news/2026/04/23/world/politics/us-iran-proposal-deadline/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:32:11.338538+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7328290343284607,
-            "article": {
-              "title": "US blockade of Hormuz casts shadow over Trump's China visit",
-              "url": "https://asia.nikkei.com/editor-s-picks/china-up-close/analysis-us-blockade-of-hormuz-casts-shadow-over-trump-s-china-visit",
+              "title": "ICC commits Philippines ex-leader Rodrigo Duterte to trial",
+              "url": "https://asia.nikkei.com/spotlight/society/crime/icc-commits-philippines-ex-leader-rodrigo-duterte-to-trial",
               "source_id": "asia.nikkei.com",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:31:47.091391+00:00"
+              "scraped_at_utc": "2026-04-23T15:09:19.285651+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7284876108169556,
+            "sim_to_centroid": 0.8948333263397217,
             "article": {
-              "title": "U.S. intercepts nearly 30 vessels amid ongoing maritime blockade of Iran [PHOTOS]",
-              "url": "https://www.azernews.az/region/257418.html",
-              "source_id": "azernews.az",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:29:28.165740+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7215877771377563,
-            "article": {
-              "title": "Oil Prices Jump 4% as Iran Keeps Hormuz Closed Despite Ceasefire",
-              "url": "https://www.kyivpost.com/post/74530",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:48.335872+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7025339007377625,
-            "article": {
-              "title": "Clearing Strait of Hormuz could take six months, says US",
-              "url": "https://www.thetimes.com/world/middle-east/article/iran-us-war-latest-washington-intercepts-three-oil-tankers-3ggsm05dz",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:07.632384+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6993433237075806,
-            "article": {
-              "title": "Iran-U.S. peace talks stall as both sides seem determined to enforce their blockades",
-              "url": "https://www.theglobeandmail.com/world/us-politics/article-iran-peace-talks-stall-as-both-sides-seem-determined-to-enforce-their/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:27:36.734447+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6952368021011353,
-            "article": {
-              "title": "ایران نے آبنائے ہرمز کھولنے کو ناممکن قرار دیدیا، امریکی ناکہ بندی سے عالمی معیشت دباؤ کا شکار",
-              "url": "https://jang.com.pk/news/1576839",
-              "source_id": "jang.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:31:40.615084+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6906739473342896,
-            "article": {
-              "title": "آبنائے ہرمز سے بارودی سرنگیں صاف کرنے میں 6 ماہ لگ سکتے ہیں: امریکا، ایران نے اسے کھولنا ناممکن قرار دیدیا",
-              "url": "https://jang.com.pk/news/1560993",
-              "source_id": "jang.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:31:40.615084+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6881003379821777,
-            "article": {
-              "title": "Military aggression failed, US bullying won’t open Strait of Hormuz: Qalibaf",
-              "url": "https://www.presstv.ir/Detail/2026/04/22/767376/Iran-Hormuz-reopening-Ghalibaf-US-bullying",
-              "source_id": "presstv.ir",
+              "title": "ICC: Philippine ex-president Rodrigo Duterte must stand trial for murder",
+              "url": "https://www.jpost.com/international/article-893989",
+              "source_id": "jpost.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:01.515750+00:00"
+              "scraped_at_utc": "2026-04-23T15:05:36.918074+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6875799894332886,
+            "sim_to_centroid": 0.8751859664916992,
             "article": {
-              "title": "US leader says deal with Iran impossible if naval blockade lifted",
-              "url": "https://tass.com/world/2120629",
+              "title": "ICC Pre-Trial Chamber confirms charges against former Philippine President Duterte",
+              "url": "https://tass.com/world/2121441",
               "source_id": "tass.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:29:09.837876+00:00"
+              "scraped_at_utc": "2026-04-23T15:06:48.006430+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8746241331100464,
+            "article": {
+              "title": "Ex-Philippine president Duterte to stand trial at ICC over deadly ‘war on drugs’",
+              "url": "https://www.france24.com/en/asia-pacific/20260423-ex-philippine-president-duterte-to-stand-trial-at-icc-over-deadly-war-on-drugs",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:03:52.705928+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8368055820465088,
+            "article": {
+              "title": "Filipijnse oud-president Duterte vervolgd voor misdaden tegen menselijkheid",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5593798/filipijnse-oud-president-duterte-vervolgd-misdaden-tegen",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:02:51.446717+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8274372816085815,
+            "article": {
+              "title": "Ex-Präsident der Philippinen Internationaler Strafgerichtshof macht Weg für Prozess gegen Rodrigo Duterte frei",
+              "url": "https://www.spiegel.de/ausland/rodrigo-duterte-internationaler-strafgerichtshof-laesst-prozess-zu-a-c7d752d3-0188-4d87-b806-03b4e0ab5854",
+              "source_id": "spiegel.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:02:58.455924+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7879182696342468,
+            "article": {
+              "title": "Strafhof Rechters Internationaal Strafhof zien voldoende bewijs: Rodrigo Duterte vervolgd voor misdaden tegen de menselijkheid",
+              "url": "https://www.nrc.nl/nieuws/2026/04/23/rechters-internationaal-strafhof-zien-voldoende-bewijs-rodrigo-duterte-vervolgd-voor-misdaden-tegen-de-menselijkheid-a4926217",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:02:49.534157+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7626763582229614,
+            "article": {
+              "title": "ICC judges reject bid to release former Philippine President Duterte",
+              "url": "https://www.japantimes.co.jp/news/2026/04/23/asia-pacific/politics/icc-judges-philippines-duterte/",
+              "source_id": "japantimes.co.jp",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-04-23T15:09:44.801055+00:00"
             }
           }
         ]
       },
       {
-        "score": 85.2167256108671,
-        "size": 20,
-        "n_sources": 19,
+        "score": 38.87033246718636,
+        "size": 11,
+        "n_sources": 10,
         "n_continents": 6,
         "continents": [
           "China",
@@ -644,256 +1815,9 @@
           "Europe North",
           "Europe South",
           "Middle East",
-          "South Asia"
+          "North America"
         ],
-        "coherence": 0.8417998552322388,
-        "title": "Two trains collide in Denmark, injuring several people",
-        "central_article": {
-          "title": "Two trains collide in Denmark, injuring several people",
-          "url": "https://www.albawaba.com/news/two-trains-collide-denmark-injuring-1626022",
-          "source_id": "albawaba.com",
-          "continent": "Middle East",
-          "published_at": null,
-          "scraped_at_utc": "2026-04-23T08:28:09.589148+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9439041018486023,
-            "article": {
-              "title": "Two trains collide in Denmark, injuring several people",
-              "url": "https://www.albawaba.com/news/two-trains-collide-denmark-injuring-1626022",
-              "source_id": "albawaba.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:09.589148+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9355878233909607,
-            "article": {
-              "title": "Danemark : collision entre deux trains, plusieurs blessés",
-              "url": "https://www.rtbf.be/article/danemark-collision-entre-deux-trains-plusieurs-blesses-11713995",
-              "source_id": "rtbf.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:26:20.394518+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9305528402328491,
-            "article": {
-              "title": "Trains collide head-on in Denmark, causing multiple injuries",
-              "url": "https://www.scmp.com/news/world/europe/article/3351119/trains-collide-head-denmark-causing-multiple-injuries?module=latest&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:30:51.893942+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8978244066238403,
-            "article": {
-              "title": "Deux trains entrent en collision au Danemark",
-              "url": "https://www.lesoir.be/742536/article/2026-04-23/deux-trains-entrent-en-collision-au-danemark",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:26:21.908617+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8953098058700562,
-            "article": {
-              "title": "Δεκάδες τραυματίες από σύγκρουση τρένων στη Δανία: Τέσσερις σε κρίσιμη κατάσταση",
-              "url": "https://www.tovima.gr/2026/04/23/world/sygkrousi-trenon-sti-dania-plirofories-gia-pollous-traymaties/",
-              "source_id": "tovima.gr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:26:35.314096+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8950759172439575,
-            "article": {
-              "title": "Frontálisan ütközött két vonat Dániában, többen életveszélyesen megsérültek",
-              "url": "https://telex.hu/kulfold/2026/04/23/dania-vonatbaleset-utkozes-sebesultek-eletveszelyes-allapotban",
-              "source_id": "telex.hu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:30.351720+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8899863362312317,
-            "article": {
-              "title": "At least 17 injured in head-on collision between trains in Denmark",
-              "url": "https://www.jpost.com/international/article-893900",
-              "source_id": "jpost.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:27:54.475676+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8776290416717529,
-            "article": {
-              "title": "Denmark rail accident: Two trains collide head-on near Copenhagen, several injured",
-              "url": "https://timesofindia.indiatimes.com/world/europe/denmark-rail-accident-two-trains-collide-head-on-near-copenhagen-several-injured/articleshow/130459950.cms",
-              "source_id": "timesofindia.indiatimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:31:21.195866+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8652893304824829,
-            "article": {
-              "title": "Un choque de trenes en Dinamarca deja al menos 17 heridos, cuatro de ellos graves",
-              "url": "https://www.rtve.es/noticias/20260423/choque-trenes-dinamarca-deja-menos-17-heridos-cuatro-ellos-graves/17037202.shtml",
-              "source_id": "rtve.es",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:26:27.188604+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8567056655883789,
-            "article": {
-              "title": "Train collision in Denmark prompts massive emergency response near Copenhagen",
-              "url": "https://www.france24.com/en/europe/20260423-train-collision-in-denmark-prompts-massive-emergency-response-near-copenhagen",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:26:15.966612+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8557308912277222,
-            "article": {
-              "title": "Huda železniška nesreča na Danskem, vsaj deset poškodovanih",
-              "url": "https://www.delo.si/novice/svet/huda-zelezniska-nesreca-na-danskem-vsaj-deset-poskodovanih",
-              "source_id": "delo.si",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:42.610215+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8414134979248047,
-            "article": {
-              "title": "При лобовом столкновении поездов в Дании пострадали 17 человек",
-              "url": "https://www.kommersant.ru/doc/8607870?from=top_main_4",
-              "source_id": "kommersant.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:29:07.470833+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8267569541931152,
-            "article": {
-              "title": "Europa Twee passagierstreinen botsen frontaal in Denemarken: 12 gewonden, 4 in kritieke toestand",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/04/23/denemarken-trein/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:26:18.930090+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8220809698104858,
-            "article": {
-              "title": "Tåg har frontalkrockat i Danmark",
-              "url": "https://www.dn.se/direkt/2026-04-23/tag-har-frontalkrockat-i-danmark/",
-              "source_id": "dn.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:50.452510+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8164962530136108,
-            "article": {
-              "title": "Une collision frontale entre deux trains au Danemark fait plusieurs blessés Monde aujourd'hui à",
-              "url": "https://www.rts.ch/info/monde/2026/article/collision-frontale-entre-deux-trains-au-danemark-plusieurs-blesses-29220167.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:26:17.576359+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7717955112457275,
-            "article": {
-              "title": "Kollision zweier Züge Schweres Zugunglück in Dänemark – 17 Verletzte Zwei Züge seien auf der Strecke zwischen Hillerød und Kagerup in Nordseeland zusammengestossen, teilt die Polizei mit.",
-              "url": "https://www.srf.ch/news/international/kollision-zweier-zuege-schweres-zugunglueck-in-daenemark-17-verletzte",
-              "source_id": "srf.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:45.297713+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.742967963218689,
-            "article": {
-              "title": "İki tren kafa kafaya çarpıştı!",
-              "url": "https://www.milliyet.com.tr/dunya/son-dakika-danimarkada-iki-tren-kafa-kafaya-carpisti-cok-sayida-yarali-var-7576021",
-              "source_id": "milliyet.com.tr",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:08.123921+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7395199537277222,
-            "article": {
-              "title": "Emil Helms/Ritzau Scanpix / NTB Fire kritisk skadd etter togulykke i Danmark Danmark Følg saken",
-              "url": "https://www.nrk.no/nyheter/danmark-1.14824394",
-              "source_id": "nrk.no",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:58.143840+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7274564504623413,
-            "article": {
-              "title": "Minst 17 skadade i tågkrock Danmark Stor räddningsinsats i Hillerød – Sverige erbjuder hjälp • Borgmästaren: ”Djupt skakad”.",
-              "url": "https://www.dn.se/varlden/tva-tag-har-frontalkrockat-i-danmark/",
-              "source_id": "dn.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:50.452510+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7039127349853516,
-            "article": {
-              "title": "To tog er stødt sammen på Gribskovbanen - flere personer meldes i kritisk tilstand",
-              "url": "https://www.dr.dk/nyheder/indland/tog-er-stoedt-sammen-paa-gribskovbanen-flere-personer-meldes-i-kritisk-tilstand",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:59.566000+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 74.06645733495954,
-        "size": 21,
-        "n_sources": 17,
-        "n_continents": 7,
-        "continents": [
-          "Africa",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "South America"
-        ],
-        "coherence": 0.8051678538322449,
+        "coherence": 0.8131773471832275,
         "title": "Trump extends Iran ceasefire as talks to end war stall",
         "central_article": {
           "title": "Trump extends Iran ceasefire as talks to end war stall",
@@ -901,1037 +1825,246 @@
           "source_id": "pbs.org",
           "continent": "North America",
           "published_at": null,
-          "scraped_at_utc": "2026-04-23T08:30:50.462705+00:00"
+          "scraped_at_utc": "2026-04-23T15:08:22.705240+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9133906364440918,
+            "sim_to_centroid": 0.921330451965332,
             "article": {
               "title": "Trump extends Iran ceasefire as talks to end war stall",
               "url": "https://www.pbs.org/newshour/show/trump-extends-iran-ceasefire-as-talks-to-end-war-stall",
               "source_id": "pbs.org",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:30:50.462705+00:00"
+              "scraped_at_utc": "2026-04-23T15:08:22.705240+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8998388051986694,
-            "article": {
-              "title": "Trump extends ceasefire with Iran until negotiations are finished",
-              "url": "https://www.egyptindependent.com/trump-extends-ceasefire-with-iran-until-negotiations-are-finished/",
-              "source_id": "egyptindependent.com",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:30:08.961968+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8961331248283386,
+            "sim_to_centroid": 0.896065354347229,
             "article": {
               "title": "Trump extends Iran ceasefire indefinitely as peace talks stall",
               "url": "https://www.france24.com/en/middle-east/20260422-trump-extends-iran-ceasefire-indefinitely-as-peace-talks-stall-war-usa",
               "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:26:15.966612+00:00"
+              "scraped_at_utc": "2026-04-23T15:03:52.705928+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8868978023529053,
-            "article": {
-              "title": "For how long did Trump extend ceasefire with Iran?",
-              "url": "https://www.albawaba.com/news/how-long-did-trump-extend-ceasefire-iran-1625983",
-              "source_id": "albawaba.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:09.589148+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8566144704818726,
-            "article": {
-              "title": "Trump extends ceasefire with Iran, citing ‘seriously fractured’ government",
-              "url": "https://georgiatoday.ge/trump-extends-ceasefire-with-iran-citing-seriously-fractured-government/",
-              "source_id": "georgiatoday.ge",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:29:21.575388+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8459383845329285,
+            "sim_to_centroid": 0.8717536926269531,
             "article": {
               "title": "Peace talks no closer as Trump extends ceasefire and Iran attacks cargo ships",
               "url": "https://www.channel4.com/news/peace-talks-no-closer-as-trump-extends-ceasefire-and-iran-attacks-cargo-ships",
               "source_id": "channel4.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:10.937420+00:00"
+              "scraped_at_utc": "2026-04-23T15:02:43.570227+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8423159718513489,
+            "sim_to_centroid": 0.8605490922927856,
             "article": {
               "title": "Trump Extends Ceasefire, Claims Iran ‘Collapsing Financially’",
               "url": "https://www.kyivpost.com/post/74476",
               "source_id": "kyivpost.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:48.335872+00:00"
+              "scraped_at_utc": "2026-04-23T15:06:33.425091+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8363646864891052,
+            "sim_to_centroid": 0.8536968231201172,
             "article": {
-              "title": "In major about-face, Trump announces extension of Iran truce hours before deadline",
-              "url": "https://www.timesofisrael.com/iran-undecided-on-talks-as-ceasefire-enters-final-hours-trump-they-have-to-negotiate/",
-              "source_id": "timesofisrael.com",
-              "continent": "Middle East",
+              "title": "Trump extends ceasefire with Iran, citing ‘seriously fractured’ government",
+              "url": "https://georgiatoday.ge/trump-extends-ceasefire-with-iran-citing-seriously-fractured-government/",
+              "source_id": "georgiatoday.ge",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:27:55.903149+00:00"
+              "scraped_at_utc": "2026-04-23T15:06:59.867225+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8154940009117126,
-            "article": {
-              "title": "Iran’s leaders debate war and peace after Trump ceasefire extension",
-              "url": "https://www.aljazeera.com/news/2026/4/22/irans-leaders-debate-war-and-peace-after-trump-ceasefire-extension",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:27:51.504690+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8127248883247375,
+            "sim_to_centroid": 0.8126285076141357,
             "article": {
               "title": "Iran war: What’s happening on day 55 after Trump extended ceasefire?",
               "url": "https://www.aljazeera.com/news/2026/4/23/iran-war-whats-happening-on-day-55-after-trump-extended-ceasefire",
               "source_id": "aljazeera.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:27:51.504690+00:00"
+              "scraped_at_utc": "2026-04-23T15:05:33.372051+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7912691235542297,
+            "sim_to_centroid": 0.7752871513366699,
             "article": {
-              "title": "USA forlænger våbenhvilen med Iran - blokade fastholdes",
-              "url": "https://sermitsiaq.ag/samfund/usa-forlaenger-vabenhvilen-med-iran-blokade-fastholdes/2374973",
-              "source_id": "sermitsiaq.ag",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:26:06.715602+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7816683650016785,
-            "article": {
-              "title": "Iran attacks three ships in Strait after Trump extends ceasefire — as it happened",
-              "url": "https://www.thetimes.com/world/middle-east/article/iran-us-war-latest-news-tehran-trumps-ceasefire-time-hfglhdrsn",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:07.632384+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7786074280738831,
-            "article": {
-              "title": "Ynet: Трамп продлил временное перемирие с Ираном до 26 апреля",
-              "url": "https://meduza.io/news/2026/04/22/belyy-dom-tramp-prodlil-vremennoe-peremirie-s-iranom-na-tri-pyat-dney",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:51.377825+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7719436287879944,
-            "article": {
-              "title": "Iran nie chce rozmawiać - Trump przedłuża rozejm, fake newsy uderzają w firmy",
-              "url": "https://www.rp.pl/biznes/art44203351-iran-nie-chce-rozmawiac-trump-przedluza-rozejm-fake-newsy-uderzaja-w-firmy",
-              "source_id": "rp.pl",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:40.105026+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7713032960891724,
-            "article": {
-              "title": "Verlängerung der Waffenruhe Trump soll Iran Frist gesetzt haben",
+              "title": "Waffenruhe im Iran-Krieg: Trump soll Teheran Frist gesetzt haben",
               "url": "https://www.tagesschau.de/ausland/asien/iran-feuerpause-eskalation-100.html",
               "source_id": "tagesschau.de",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:23.497269+00:00"
+              "scraped_at_utc": "2026-04-23T15:02:55.555844+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7567586898803711,
+            "sim_to_centroid": 0.7744460701942444,
             "article": {
-              "title": "White House says ‘3-5 day limit’ on Trump Iran ceasefire – what next?",
-              "url": "https://www.channel4.com/news/white-house-says-3-5-day-limit-on-trump-iran-ceasefire-what-next",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
+              "title": "US ramps up its standoff with Iran, deepening questions about efforts to end the war",
+              "url": "https://apnews.com/article/us-iran-war-hormuz-israel-pakistan-ceasefire-april-22-2026-267230f7f32b436822484479313840f7",
+              "source_id": "apnews.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:10.937420+00:00"
+              "scraped_at_utc": "2026-04-23T15:07:51.729177+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7441756725311279,
+            "sim_to_centroid": 0.7450296878814697,
             "article": {
               "title": "Trump kündigt neue Gespräche mit Iran an – doch selbst bei einer Einigung dürfte die Weltwirtschaft noch lange leiden",
               "url": "https://www.nzz.ch/international/trump-kuendigt-neue-verhandlungen-mit-iran-an-ld.1934300",
               "source_id": "nzz.ch",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:43.435409+00:00"
+              "scraped_at_utc": "2026-04-23T15:03:18.947333+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7295472621917725,
+            "sim_to_centroid": 0.7404833436012268,
             "article": {
-              "title": "La última amenaza incumplida de Trump en Irán ahonda su crisis interna en Estados Unidos",
-              "url": "https://elpais.com/internacional/2026-04-23/la-ultima-amenaza-no-cumplida-de-trump-en-iran-ahonda-su-crisis-interna-en-estados-unidos.html",
-              "source_id": "elpais.com",
-              "continent": "Europe South",
+              "title": "國語 特朗普延長停火是讓步還是誘敵？｜伊朗警告突襲將至 ｜日本解禁軍售震亞洲",
+              "url": "https://www.singtaousa.com/2026/04/22/opinion/mandarin-will-trump-extend-the-ceasefire-to-give-in-or-lure-the-enemy-%ef%bd%9ciran-warns-of-imminent-raid-%ef%bd%9cjapan-lifts-ban-on-arms-sales-shocks-asia/",
+              "source_id": "singtaousa.com",
+              "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:26:23.244672+00:00"
+              "scraped_at_utc": "2026-04-23T15:08:40.669884+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.728192925453186,
-            "article": {
-              "title": "Wie lange halten die Amerikaner den Wirtschaftskrieg gegen Iran durch?",
-              "url": "https://www.nzz.ch/wirtschaft/wie-lange-halten-die-amerikaner-den-wirtschaftskrieg-gegen-iran-durch-ld.1933625",
-              "source_id": "nzz.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:43.435409+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7263660430908203,
-            "article": {
-              "title": "Trump no tiene un plazo límite para una propuesta de paz de Irán, dice Casa Blanca",
-              "url": "https://elcomercio.pe/mundo/eeuu/donald-trump-no-tiene-un-plazo-limite-para-una-propuesta-de-paz-de-iran-dice-casa-blanca-estados-unidos-israel-ultimas-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:27:11.679357+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7229786515235901,
-            "article": {
-              "title": "Trump se atribuye suspensión de ejecución de ocho mujeres iraníes y Teherán lo niega",
-              "url": "https://elcomercio.pe/mundo/eeuu/iran-donald-trump-se-atribuye-suspension-de-ejecucion-de-ocho-mujeres-iranies-y-teheran-lo-niega-estados-unidos-pakistan-ultimas-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:27:11.679357+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 41.948378973084516,
-        "size": 11,
-        "n_sources": 11,
-        "n_continents": 5,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "Middle East",
-          "Oceania",
-          "South Asia"
-        ],
-        "coherence": 0.8458213210105896,
-        "title": "Israeli airstrike kills journalist Amal Khalil in south Lebanon",
-        "central_article": {
-          "title": "Israeli airstrike kills journalist Amal Khalil in south Lebanon",
-          "url": "https://www.newarab.com/news/israeli-airstrike-kills-journalist-amal-khalil-south-lebanon",
-          "source_id": "newarab.com",
-          "continent": "Middle East",
-          "published_at": null,
-          "scraped_at_utc": "2026-04-23T08:28:11.075025+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8878939151763916,
-            "article": {
-              "title": "Israeli airstrike kills journalist Amal Khalil in south Lebanon",
-              "url": "https://www.newarab.com/news/israeli-airstrike-kills-journalist-amal-khalil-south-lebanon",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:11.075025+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8849045634269714,
-            "article": {
-              "title": "Israeli strike kills journalist in southern Lebanon",
-              "url": "https://www.thenationalnews.com/news/mena/2026/04/23/israeli-strike-kills-journalist-in-southern-lebanon/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:27:52.991094+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8680938482284546,
-            "article": {
-              "title": "Israeli attacks on Lebanon kill at least five people, including journalist",
-              "url": "https://www.aljazeera.com/news/2026/4/22/at-least-four-killed-in-israeli-strikes-on-lebanon-journalists-wounded",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:27:51.504690+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8674750924110413,
-            "article": {
-              "title": "Lebanese journalist Amal Khalil killed by Israeli strike amid ceasefire",
-              "url": "https://www.sbs.com.au/news/article/lebanese-journalist-amal-khalil-killed-by-israeli-strike-amid-ceasefire/9s6ptekcs",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:27:39.601864+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8630793690681458,
-            "article": {
-              "title": "Journalist among 5 killed in Israeli strikes in Lebanon",
-              "url": "https://pajhwok.com/2026/04/23/journalist-among-5-killed-in-israeli-strikes-in-lebanon/",
-              "source_id": "pajhwok.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:31:45.223875+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8558241128921509,
-            "article": {
-              "title": "Crisis in het Midden-Oosten Libanese journalist Amal Khalil gedood bij Israëlische aanval",
-              "url": "https://www.nrc.nl/nieuws/2026/04/22/libanese-journalist-amal-khalil-gedood-bij-israelische-aanval-a4926194",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:17.383903+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8520402908325195,
-            "article": {
-              "title": "Lebanon accuses Israel of war crimes after another journalist killed",
-              "url": "https://www.rt.com/news/638951-lebanon-journalists-israel-war-crimes/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:59.813415+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8512824177742004,
-            "article": {
-              "title": "PALESTINE Lebanese journalist Amal Khalil deliberately killed in Israeli airstrike, body found in rubble",
-              "url": "https://www.presstv.ir/Detail/2026/04/22/767382/Lebanon-Israel-kills-journalist-female-al-Akhbar",
-              "source_id": "presstv.ir",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:01.515750+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8409773707389832,
-            "article": {
-              "title": "Libanon beskylder Israel for krigsforbrydelser, efter journalist meldt dræbt i luftangreb",
-              "url": "https://www.dr.dk/nyheder/udland/libanon-beskylder-israel-krigsforbrydelser-efter-journalist-meldt-draebt-i-luftangreb",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:59.566000+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8082895278930664,
-            "article": {
-              "title": "V živo: Izrael in Hezbolah nadaljujeta napade, na jugu Libanona ubita novinarka",
-              "url": "https://www.delo.si/novice/svet/bela-hisa-samo-predsednik-trump-ve-koliko-casa-bo-veljala-prekinitev-ognja",
-              "source_id": "delo.si",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:42.610215+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7241742610931396,
-            "article": {
-              "title": "Conflit Journaliste tuée par Israël : concert de condamnations, Salam promet de saisir la justice internationale",
-              "url": "https://www.lorientlejour.com/article/1504562/journaliste-tuee-par-israel-au-liban-sud-concert-de-condamnations-salam-promet-de-saisir-la-justice-internationale.html",
-              "source_id": "lorientlejour.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:02.841408+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 26.760787002703868,
-        "size": 8,
-        "n_sources": 8,
-        "n_continents": 4,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "North America",
-          "South America"
-        ],
-        "coherence": 0.8642403483390808,
-        "title": "New York Times says FBI investigated reporter after article about director Kash Patel’s girlfriend",
-        "central_article": {
-          "title": "New York Times says FBI investigated reporter after article about director Kash Patel’s girlfriend",
-          "url": "https://apnews.com/article/kash-patel-girlfriend-new-york-times-investigation-149655b7f7797d09dea9a2c8548d33cb",
-          "source_id": "apnews.com",
-          "continent": "North America",
-          "published_at": null,
-          "scraped_at_utc": "2026-04-23T08:30:14.699848+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9485576152801514,
-            "article": {
-              "title": "New York Times says FBI investigated reporter after article about director Kash Patel’s girlfriend",
-              "url": "https://apnews.com/article/kash-patel-girlfriend-new-york-times-investigation-149655b7f7797d09dea9a2c8548d33cb",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:30:14.699848+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9391430616378784,
-            "article": {
-              "title": "FBI said to have investigated Times reporter after article on Kash Patel’s girlfriend",
-              "url": "https://www.bostonglobe.com/2026/04/22/nation/kash-patel-girlfriend-nyt-report/",
-              "source_id": "bostonglobe.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:30:43.709025+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9183117151260376,
-            "article": {
-              "title": "FBI looked into New York Times reporter who investigated Kash Patel’s use of resources to help his girlfriend: report",
-              "url": "https://www.independent.co.uk/news/world/americas/us-politics/fbi-kash-patel-girlfriend-investigation-new-york-times-b2963132.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:05.702641+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8872994184494019,
-            "article": {
-              "title": "FBI teria investigado jornalista após reportagem sobre diretor, afirma The New York Times Kash Patel teria mobilizado funcionários para oferecer segurança e transporte à namorada",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/04/fbi-teria-investigado-jornalista-apos-reportagem-sobre-diretor-diz-nyt.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:27:01.691303+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8740189075469971,
-            "article": {
-              "title": "Pressefreiheit FBI soll nach Bericht über seinen Chef Patel gegen Reporterin ermittelt haben",
-              "url": "https://www.handelsblatt.com/politik/international/pressefreiheit-fbi-soll-nach-bericht-ueber-seinen-chef-patel-gegen-reporterin-ermittelt-haben/100219321.html",
-              "source_id": "handelsblatt.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:30.307627+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8321269154548645,
-            "article": {
-              "title": "F.B.I. Began Investigating Times Reporter Over Article on Patel’s Girlfriend",
-              "url": "https://www.nytimes.com/2026/04/22/us/politics/fbi-times-reporter.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:30:16.033853+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7870269417762756,
-            "article": {
-              "title": "După ce a scris despre iubita șefului FBI, o jurnalistă NYT a fost verificată de agenții federali",
-              "url": "https://hotnews.ro/dupa-ce-a-scris-despre-iubita-sefului-fbi-o-jurnalista-nyt-a-fost-verificata-de-agentii-federali-2226944",
-              "source_id": "hotnews.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:33.803263+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7274384498596191,
-            "article": {
-              "title": "House Democrats press FBI chief Kash Patel over drinking claims",
-              "url": "https://www.usatoday.com/story/news/politics/2026/04/22/fbi-director-kash-patel-alcohol-screening/89740708007/",
-              "source_id": "usatoday.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:30:44.824259+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 25.251739908412247,
-        "size": 12,
-        "n_sources": 11,
-        "n_continents": 4,
-        "continents": [
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America"
-        ],
-        "coherence": 0.7889410853385925,
-        "title": "Middle East war live: Lebanon meets Israel in Washington to request truce extension",
-        "central_article": {
-          "title": "Middle East war live: Lebanon meets Israel in Washington to request truce extension",
-          "url": "https://www.france24.com/en/middle-east/20260423-middle-east-war-live-lebanon-meets-israel-in-washington-to-request-truce-extension",
-          "source_id": "france24.com",
-          "continent": "Europe South",
-          "published_at": null,
-          "scraped_at_utc": "2026-04-23T08:26:15.966612+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8783955574035645,
-            "article": {
-              "title": "Middle East war live: Lebanon meets Israel in Washington to request truce extension",
-              "url": "https://www.france24.com/en/middle-east/20260423-middle-east-war-live-lebanon-meets-israel-in-washington-to-request-truce-extension",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:26:15.966612+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.854792058467865,
-            "article": {
-              "title": "Israel and Lebanon to meet in Washington while Iran-US talks are in limbo. Follow live updates.",
-              "url": "https://www.bostonglobe.com/2026/04/23/nation/us-iran-war-updates/",
-              "source_id": "bostonglobe.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:30:43.709025+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8105074167251587,
-            "article": {
-              "title": "وسط تصعيد ميداني.. جولة مفاوضات ثانية اليوم بين لبنان وإسرائيل",
-              "url": "https://www.aljazeera.net/news/2026/4/23/وسط-تصعيد-إسرائيلي-ميداني-جولة",
-              "source_id": "aljazeera.net",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:27:57.124322+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8091252446174622,
-            "article": {
-              "title": "ماذا نعرف عن جولة المحادثات الجديدة بين لبنان وإسرائيل اليوم؟ هذا ما ستطلبه بيروت",
-              "url": "https://www.annahar.com/lebanon/302966/ماذا-نعرف-عن-جولة-المحادثات-الجديدة-بين-لبنان-وإسرائيل-اليوم-هذا-ما-ستطلبه-بيروت",
-              "source_id": "annahar.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:20.053958+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.800655722618103,
-            "article": {
-              "title": "Israel og Libanon genoptager fredsforhandlinger",
-              "url": "https://politiken.dk/internationalt/art10501159/Israel-og-Libanon-genoptager-fredsforhandlinger",
-              "source_id": "politiken.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:47.574983+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.792500376701355,
-            "article": {
-              "title": "Krieg am Persischen Golf ++ Neue Gespräche zwischen Israel und dem Libanon ++",
-              "url": "https://www.tagesschau.de/newsticker/liveblog-iran-donnerstag-112.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:23.497269+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7913451194763184,
-            "article": {
-              "title": "Second round of Lebanon-Israel talks set to take place in Washington",
-              "url": "https://www.thenationalnews.com/news/us/2026/04/23/second-round-of-lebanon-israel-talks-set-to-take-place-in-washington/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:27:52.991094+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.786663293838501,
-            "article": {
-              "title": "Lebanon said to seek one-month truce extension; Hezbollah again targets troops with drone",
-              "url": "https://www.timesofisrael.com/lebanon-said-to-seek-one-month-truce-extension-hezbollah-again-targets-troops-with-drone/",
-              "source_id": "timesofisrael.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:27:55.903149+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7849454879760742,
+            "sim_to_centroid": 0.693681001663208,
             "article": {
               "title": "Lebanon ceasefire strains as Israel and Hezbollah exchange attacks",
               "url": "https://www.channel4.com/news/lebanon-ceasefire-strains-as-israel-and-hezbollah-exchange-attacks",
               "source_id": "channel4.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:10.937420+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7349094152450562,
-            "article": {
-              "title": "US-Israel attacks on Iran: Death toll and injuries live tracker",
-              "url": "https://www.aljazeera.com/news/2026/3/1/us-israel-attacks-on-iran-death-toll-and-injuries-live-tracker",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:27:51.504690+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7188381552696228,
-            "article": {
-              "title": "صباح \"النهار\" - لبنان يطلب تمديد الهدنة في جولة واشنطن اليوم... من يقود إيران؟",
-              "url": "https://www.annahar.com/lebanon/302963/صباح-النهار",
-              "source_id": "annahar.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:20.053958+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7046151161193848,
-            "article": {
-              "title": "İsrail tarih verdi: 'ABD-İran ateşkesinin ne zaman sona ereceği belli oldu!' Hürmüz Boğazı'nda cesur operasyon CANLI",
-              "url": "https://www.hurriyet.com.tr/dunya/live-israil-tarih-verdi-abd-iran-ateskesinin-sona-erecegi-tarih-belli-oldu-hurmuz-bogazinda-gemilere-baskin-goruntuleri-ortaya-cikti-43157276",
-              "source_id": "hurriyet.com.tr",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:04.856444+00:00"
+              "scraped_at_utc": "2026-04-23T15:02:43.570227+00:00"
             }
           }
         ]
       },
       {
-        "score": 24.85179508815505,
-        "size": 7,
-        "n_sources": 7,
+        "score": 38.70010326757594,
+        "size": 8,
+        "n_sources": 8,
         "n_continents": 5,
         "continents": [
+          "Europe East",
           "Europe North",
           "Europe South",
-          "Middle East",
           "North America",
           "South America"
         ],
-        "coherence": 0.8315163850784302,
-        "title": "Trump claims Virginia redistricting vote was 'rigged'…",
+        "coherence": 0.8933925628662109,
+        "title": "La imagen de una familia migrante separada por ICE, ganadora del World Press Photo",
         "central_article": {
-          "title": "Trump claims Virginia redistricting vote was 'rigged'…",
-          "url": "https://www.usatoday.com/story/news/politics/2026/04/22/trump-calls-virginia-redistricting-vote-rigged/89737956007/",
-          "source_id": "usatoday.com",
+          "title": "La imagen de una familia migrante separada por ICE, ganadora del World Press Photo",
+          "url": "https://www.14ymedio.com/cultura-y-ciencia/imagen-familia-migrante-separada-ice_1_1126020.html",
+          "source_id": "14ymedio.com",
           "continent": "North America",
           "published_at": null,
-          "scraped_at_utc": "2026-04-23T08:30:44.824259+00:00"
+          "scraped_at_utc": "2026-04-23T15:04:19.872053+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8872305154800415,
+            "sim_to_centroid": 0.9599292278289795,
             "article": {
-              "title": "Trump claims Virginia redistricting vote was 'rigged'…",
-              "url": "https://www.usatoday.com/story/news/politics/2026/04/22/trump-calls-virginia-redistricting-vote-rigged/89737956007/",
-              "source_id": "usatoday.com",
+              "title": "La imagen de una familia migrante separada por ICE, ganadora del World Press Photo",
+              "url": "https://www.14ymedio.com/cultura-y-ciencia/imagen-familia-migrante-separada-ice_1_1126020.html",
+              "source_id": "14ymedio.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:30:44.824259+00:00"
+              "scraped_at_utc": "2026-04-23T15:04:19.872053+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8722395896911621,
+            "sim_to_centroid": 0.9367967247962952,
             "article": {
-              "title": "Trump claims ‘rigged’ Virginia vote as court moves to block map redraw",
-              "url": "https://www.france24.com/en/americas/20260423-trump-claims-rigged-virginia-vote-court-moves-block-map-redraw",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:26:15.966612+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8427015542984009,
-            "article": {
-              "title": "El nuevo mapa electoral de Virginia que cambiaría la composición del Congreso de EE.UU.: Trump acusa \"fraude\"",
-              "url": "https://www.emol.com/noticias/Internacional/2026/04/22/1197996/elecciones-eeuu-mapa-electoral-virginia.html",
+              "title": "Retrato de una familia migrante separada por el ICE en EE.UU. gana el World Press Photo 2026",
+              "url": "https://www.emol.com/noticias/Espectaculos/2026/04/23/1198029/ganadora-world-press-photo-2026.html",
               "source_id": "emol.com",
               "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:26:58.811077+00:00"
+              "scraped_at_utc": "2026-04-23T15:04:35.997785+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8350529670715332,
+            "sim_to_centroid": 0.9287537336349487,
             "article": {
-              "title": "Democrats up in Virginia, but US voters may pay price for redistricting war",
-              "url": "https://www.aljazeera.com/news/2026/4/23/democrats-up-in-virginia-but-us-voters-may-pay-price-for-redistricting-war",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:27:51.504690+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8271019458770752,
-            "article": {
-              "title": "Democrats won the redistricting fight in Virginia. Was Trump’s gerrymandering war all for nothing?",
-              "url": "https://www.theguardian.com/us-news/2026/apr/22/virgina-midterm-elections-trump",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:08.986746+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8000794649124146,
-            "article": {
-              "title": "Virginia approves redistricting measure, boosting Democrats' hopes for midterms",
-              "url": "https://www.bbc.com/news/articles/c895j8zgqe4o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:04.513063+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.756209135055542,
-            "article": {
-              "title": "Funke Mediengruppe Neuzuschnitt in Bundesstaaten Trump: Referendum über Wahlkreise in Virginia „manipuliert“",
-              "url": "https://www.abendblatt.de/politik/article411793258/trump-referendum-ueber-wahlkreise-in-virginia-manipuliert.html",
-              "source_id": "abendblatt.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:39.525251+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 21.4796671533557,
-        "size": 10,
-        "n_sources": 8,
-        "n_continents": 4,
-        "continents": [
-          "China",
-          "Europe East",
-          "Europe North",
-          "Europe South"
-        ],
-        "coherence": 0.8202741742134094,
-        "title": "EU gives preliminary approval to unblock €90 billion Ukraine loan",
-        "central_article": {
-          "title": "EU gives preliminary approval to unblock €90 billion Ukraine loan",
-          "url": "https://www.france24.com/en/europe/20260422-eu-gives-preliminary-approval-to-unblock-90-bn-euro-ukraine-loan",
-          "source_id": "france24.com",
-          "continent": "Europe South",
-          "published_at": null,
-          "scraped_at_utc": "2026-04-23T08:26:15.966612+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.888401985168457,
-            "article": {
-              "title": "EU gives preliminary approval to unblock €90 billion Ukraine loan",
-              "url": "https://www.france24.com/en/europe/20260422-eu-gives-preliminary-approval-to-unblock-90-bn-euro-ukraine-loan",
-              "source_id": "france24.com",
+              "title": "La imagen de una familia separada por el ICE, foto del año en el World Press Photo",
+              "url": "https://www.rtve.es/noticias/20260423/imagen-familia-separada-por-ice-foto-del-ano-world-press-photo-2026/17037364.shtml",
+              "source_id": "rtve.es",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:26:15.966612+00:00"
+              "scraped_at_utc": "2026-04-23T15:04:05.677842+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8557153940200806,
+            "sim_to_centroid": 0.9200912714004517,
             "article": {
-              "title": "EU confident €90B Ukraine loan will be unlocked on Thursday",
-              "url": "https://www.politico.eu/article/eu-confident-90b-ukraine-loan-unlocked-thursday/",
-              "source_id": "politico.eu",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:14.257136+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8493157625198364,
-            "article": {
-              "title": "Ukraine loan set to be unlocked as EU moves to curb energy crisis",
-              "url": "https://www.euronews.com/my-europe/2026/04/23/europe-today-ukraine-loan-set-to-be-unlocked-as-eu-moves-to-curb-energy-crisis",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:12.917217+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8418794870376587,
-            "article": {
-              "title": "Zelensky to join European leaders in Cyprus as EU unblocks €90bn Ukraine loan",
-              "url": "https://www.france24.com/en/europe/20260423-zelensky-to-join-european-leaders-in-cyprus-as-eu-unblocks-%E2%82%AC90bn-ukraine-loan",
-              "source_id": "france24.com",
+              "title": "La photo d'une famille de migrants séparée par l'ICE remporte le World Press Photo Monde aujourd'hui à",
+              "url": "https://www.rts.ch/info/monde/2026/article/une-famille-de-migrants-separee-par-l-ice-remporte-le-world-press-photo-29220384.html",
+              "source_id": "rts.ch",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:26:15.966612+00:00"
+              "scraped_at_utc": "2026-04-23T15:03:54.545047+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8291915655136108,
+            "sim_to_centroid": 0.8958330154418945,
             "article": {
-              "title": "EU envoys approve €90 billion for Ukraine after Hungary lifts veto",
-              "url": "https://www.rt.com/news/638921-eu-envoys-approve-90-billion-ukraine/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
+              "title": "Una familia ecuatoriana desgarrada por ICE: la foto ganadora del World Press Photo 2026",
+              "url": "https://www.latercera.com/mundo/noticia/una-familia-ecuatoriana-desgarrada-por-ice-la-foto-ganadora-del-world-press-photo-2026/",
+              "source_id": "latercera.com",
+              "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:59.813415+00:00"
+              "scraped_at_utc": "2026-04-23T15:04:48.253802+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8277103900909424,
+            "sim_to_centroid": 0.8723239898681641,
             "article": {
-              "title": "EU launches procedure to unblock Ukraine loan and Russia sanctions",
-              "url": "https://www.euronews.com/my-europe/2026/04/22/eu-launches-procedure-to-unblock-90bn-ukraine-loan-and-new-russia-sanctions",
-              "source_id": "euronews.com",
+              "title": "'Gescheiden door ICE' uitgeroepen tot World Press Photo",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5593751/gescheiden-door-ice-uitgeroepen-world-press-photo",
+              "source_id": "rtl.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:12.917217+00:00"
+              "scraped_at_utc": "2026-04-23T15:02:51.446717+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8155532479286194,
+            "sim_to_centroid": 0.8278012275695801,
             "article": {
-              "title": "Zelensky to Attend EU Leaders’ Cyprus Meeting as €90B Ukraine Loan Takes Center Stage",
-              "url": "https://www.kyivpost.com/post/74548",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:48.335872+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7879962921142578,
-            "article": {
-              "title": "Постпреды стран ЕС одобрили 90-миллиардный кредит Украине и 20-й пакет санкций против России",
-              "url": "https://meduza.io/news/2026/04/22/postpredy-stran-es-odobrili-90-milliardnyy-kredit-ukraine-i-20-y-paket-sanktsiy-protiv-rossii",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:51.377825+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7750773429870605,
-            "article": {
-              "title": "歐盟敲定對烏克蘭900億歐元貸款及新一輪對俄制裁 主席國塞浦路斯指協議即將落實",
-              "url": "https://www.singtaousa.com/2026/04/22/news/world/the-eu-finalizes-a-90-billion-euro-loan-to-ukraine-and-a-new-round-of-sanctions-against-russia-cyprus-says-the-agreement-is-about-to-be-implemented/",
-              "source_id": "singtaousa.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:31:08.493530+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7319005727767944,
-            "article": {
-              "title": "Hongaarse blokkade van lening aan Oekraïne lijkt voorbij",
-              "url": "https://fd.nl/politiek/1594135/hongaarse-blokkade-van-lening-aan-oekraine-lijkt-voorbij",
-              "source_id": "fd.nl",
+              "title": "Fotografie Winnaar World Press Photo: immigrant die wordt opgepakt door ICE-agenten",
+              "url": "https://www.nrc.nl/nieuws/2026/04/23/foto-van-immigrant-die-wordt-opgepakt-door-ice-wint-world-press-photo-a4926158",
+              "source_id": "nrc.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:21.146042+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 20.763754913171304,
-        "size": 11,
-        "n_sources": 10,
-        "n_continents": 3,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "Europe South"
-        ],
-        "coherence": 0.8264023065567017,
-        "title": "Russian oil flow to Slovakia via Druzhba pipeline resumes",
-        "central_article": {
-          "title": "Russian oil flow to Slovakia via Druzhba pipeline resumes",
-          "url": "https://www.euronews.com/my-europe/2026/04/23/russian-oil-flow-to-slovakia-via-druzhba-pipeline-resumes",
-          "source_id": "euronews.com",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-04-23T08:25:12.917217+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9228658676147461,
-            "article": {
-              "title": "Russian oil flow to Slovakia via Druzhba pipeline resumes",
-              "url": "https://www.euronews.com/my-europe/2026/04/23/russian-oil-flow-to-slovakia-via-druzhba-pipeline-resumes",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:12.917217+00:00"
+              "scraped_at_utc": "2026-04-23T15:02:49.534157+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8695113062858582,
+            "sim_to_centroid": 0.805611252784729,
             "article": {
-              "title": "Slovakia confirms it is receiving oil via Druzhba pipeline.",
-              "url": "https://kyivindependent.com/slovakia-ukraine-druzhba-pipeline/",
-              "source_id": "kyivindependent.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:50.237798+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8682891130447388,
-            "article": {
-              "title": "Oil supplied to Slovakia via Druzhba pipeline after three-month shutdown",
-              "url": "https://tass.com/economy/2121287",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:29:09.837876+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8392583131790161,
-            "article": {
-              "title": "Поставки нефти по «Дружбе» в Словакию восстановлены",
-              "url": "https://www.kommersant.ru/doc/8607753?from=top_main_1",
+              "title": "Лучшей фотографией 2026 года по версии World Press Photo стала «Разлученные ICE»",
+              "url": "https://www.kommersant.ru/doc/8608031?from=spot_main",
               "source_id": "kommersant.ru",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:29:07.470833+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8389406800270081,
-            "article": {
-              "title": "Ukraine resumes oil flow via Druzhba pipeline – Hungary | Russia-Ukraine conflict",
-              "url": "https://www.rt.com/news/638920-hungary-ukraine-druzhba-oil/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:59.813415+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8155338168144226,
-            "article": {
-              "title": "Slovakiet bekræfter, at der igen kommer olie via omstridt rørledning",
-              "url": "https://www.dr.dk/nyheder/seneste/slovakiet-bekraefter-der-igen-kommer-olie-via-omstridt-roerledning",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:25:59.566000+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8028599619865417,
-            "article": {
-              "title": "Украина возобновила прокачку нефти по «Дружбе»",
-              "url": "https://meduza.io/news/2026/04/22/ukraina-vozobnovila-prokachku-nefti-po-druzhbe",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:51.377825+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7959694266319275,
-            "article": {
-              "title": "Словакия потвърди, че пак получава руски петрол по \"Дружба\"",
-              "url": "https://www.dnevnik.bg/sviat/voinata_v_ukraina/2026/04/23/4906154_slovakiia_potvurdi_che_pak_poluchava_ruski_petrol_po/",
-              "source_id": "dnevnik.bg",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:28:46.924918+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7897101640701294,
-            "article": {
-              "title": "Ministrė: atnaujintas rusiškos naftos tiekimas į Slovakiją per Ukrainą",
-              "url": "https://www.lrt.lt/naujienos/verslas/4/2907116/ministre-atnaujintas-rusiskos-naftos-tiekimas-i-slovakija-per-ukraina",
-              "source_id": "lrt.lt",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:29:15.693854+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7756178379058838,
-            "article": {
-              "title": "FACTBOX: What is known about resumption of oil transit via Druzhba pipeline",
-              "url": "https://tass.com/economy/2121031",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:29:09.837876+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7718691229820251,
-            "article": {
-              "title": "Ukraine reopens damaged Druzhba pipeline to unlock €90 billion EU loan",
-              "url": "https://www.france24.com/en/europe/20260421-ukraine-reopens-damaged-druzhba-pipeline-to-unlock-%E2%82%AC90-billion-eu-loan",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-04-23T08:26:15.966612+00:00"
+              "scraped_at_utc": "2026-04-23T15:06:46.012631+00:00"
             }
           }
         ]
       }
     ],
-    "created_at_utc": "2026-04-23T09:17:43Z"
+    "created_at_utc": "2026-04-23T15:36:32Z"
   }
 ]
