@@ -3,9 +3,7 @@ name: Clustercontent
 on:
   workflow_dispatch:
   schedule:
-    - cron: "15 03 * * *"
     - cron: "15 19 * * *"
-    - cron: "15 13 * * *"
     - cron: "15 7 * * *"
 
 permissions:
