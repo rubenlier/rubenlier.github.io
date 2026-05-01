@@ -3,9 +3,7 @@ name: Daily homepage scrape
 on:
   schedule:
     - cron: "55 6 * * *"  # 08:45 Amsterdam (CET, UTC+1)
-    - cron: "55 12 * * *"  # 08:45 Amsterdam (CET, UTC+1)
     - cron: "55 18 * * *"  # 08:45 Amsterdam (CET, UTC+1)
-    - cron: "55 00 * * *"  # 08:45 Amsterdam (CET, UTC+1)
   workflow_dispatch:
 
 permissions:
