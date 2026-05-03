@@ -1,7 +1,9 @@
-name: Convert output_content to output_latest
+name: Convert output_content to output_latest and output
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 12 * * *"
 
 permissions:
   contents: write
@@ -14,7 +16,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Convert output_content.json to output_latest.json
+      - name: Convert output_content.json to output_latest.json and output.json
         run: |
           set -euo pipefail
 
@@ -22,10 +24,12 @@ jobs:
 
           python - << 'PY'
           import json
+          import os
           from copy import deepcopy
 
           INPUT_FILE = "output_content.json"
-          OUTPUT_FILE = "output_latest.json"
+          LATEST_FILE = "output_latest.json"
+          HISTORY_FILE = "output.json"
 
           ARTICLE_KEYS = [
               "title",
@@ -105,6 +109,24 @@ jobs:
 
               return converted_run
 
+          def load_history(path):
+              if not os.path.exists(path):
+                  return []
+
+              try:
+                  with open(path, "r", encoding="utf-8") as f:
+                      data = json.load(f)
+              except Exception:
+                  return []
+
+              if isinstance(data, list):
+                  return data
+
+              if isinstance(data, dict):
+                  return [data]
+
+              return []
+
           with open(INPUT_FILE, "r", encoding="utf-8") as f:
               content_data = json.load(f)
 
@@ -114,29 +136,41 @@ jobs:
           if not content_data:
               raise ValueError(f"{INPUT_FILE} is empty")
 
-          # output_latest.json contains only the newest/current run.
-          latest_data = [convert_run(content_data[0])]
+          # Convert only the newest/current content run.
+          latest_run = convert_run(content_data[0])
 
-          with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+          # output_latest.json is overwritten with only the newest/current run.
+          latest_data = [latest_run]
+
+          with open(LATEST_FILE, "w", encoding="utf-8") as f:
               json.dump(latest_data, f, ensure_ascii=False, indent=2)
 
-          print(f"Converted {INPUT_FILE} -> {OUTPUT_FILE}")
-          print(f"clusters written: {len(latest_data[0]['clusters'])}")
+          # output.json is cumulative: preserve existing history and append newest/current run.
+          history = load_history(HISTORY_FILE)
+          history.append(latest_run)
+
+          with open(HISTORY_FILE, "w", encoding="utf-8") as f:
+              json.dump(history, f, ensure_ascii=False, indent=2)
+
+          print(f"Converted {INPUT_FILE} -> {LATEST_FILE}")
+          print(f"Appended newest run to {HISTORY_FILE}")
+          print(f"clusters written: {len(latest_run['clusters'])}")
+          print(f"history length: {len(history)}")
           PY
 
-      - name: Commit output_latest.json
+      - name: Commit output_latest.json and output.json
         run: |
           set -euo pipefail
 
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add output_latest.json
+          git add output_latest.json output.json
 
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
           fi
 
-          git commit -m "Update latest news clusters from content output"
+          git commit -m "Update latest and historical news clusters from content output"
           git push
