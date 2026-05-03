@@ -1,0 +1,142 @@
+name: Convert output_content to output_latest
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Convert output_content.json to output_latest.json
+        run: |
+          set -euo pipefail
+
+          test -f output_content.json
+
+          python - << 'PY'
+          import json
+          from copy import deepcopy
+
+          INPUT_FILE = "output_content.json"
+          OUTPUT_FILE = "output_latest.json"
+
+          ARTICLE_KEYS = [
+              "title",
+              "url",
+              "source_id",
+              "continent",
+              "published_at",
+              "scraped_at_utc",
+          ]
+
+          def clean_article(article):
+              if not isinstance(article, dict):
+                  article = {}
+
+              return {
+                  key: article.get(key)
+                  for key in ARTICLE_KEYS
+              }
+
+          def first_member_article(cluster):
+              members = cluster.get("members", [])
+              if not isinstance(members, list) or not members:
+                  return {}
+
+              first = members[0]
+              if not isinstance(first, dict):
+                  return {}
+
+              article = first.get("article", {})
+              return article if isinstance(article, dict) else {}
+
+          def convert_cluster(cluster):
+              if not isinstance(cluster, dict):
+                  raise TypeError(f"Cluster is not a dict: {type(cluster)}")
+
+              # The top article is central_article.
+              # If central_article is absent, fall back to members[0].article.
+              central = cluster.get("central_article")
+              if not isinstance(central, dict):
+                  central = first_member_article(cluster)
+
+              title = cluster.get("title")
+              if title is None:
+                  title = central.get("title")
+
+              return {
+                  "score": cluster.get("score"),
+                  "size": cluster.get("size"),
+                  "n_sources": cluster.get("n_sources"),
+                  "n_continents": cluster.get("n_continents"),
+                  "continents": cluster.get("continents", []),
+                  "coherence": cluster.get("coherence"),
+                  "title": title,
+                  "central_article": clean_article(central),
+                  "members_preview": [],
+              }
+
+          def convert_run(run):
+              if not isinstance(run, dict):
+                  raise TypeError(f"Run is not a dict: {type(run)}")
+
+              clusters = run.get("clusters")
+              if not isinstance(clusters, list):
+                  raise TypeError("Run does not contain a list under key 'clusters'")
+
+              converted_run = {}
+
+              # Preserve run-level metadata exactly, except clusters.
+              for key, value in run.items():
+                  if key != "clusters":
+                      converted_run[key] = deepcopy(value)
+
+              converted_run["clusters"] = [
+                  convert_cluster(cluster)
+                  for cluster in clusters
+              ]
+
+              return converted_run
+
+          with open(INPUT_FILE, "r", encoding="utf-8") as f:
+              content_data = json.load(f)
+
+          if not isinstance(content_data, list):
+              raise TypeError(f"{INPUT_FILE} should contain a list of runs")
+
+          if not content_data:
+              raise ValueError(f"{INPUT_FILE} is empty")
+
+          # output_latest.json contains only the newest/current run.
+          latest_data = [convert_run(content_data[0])]
+
+          with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+              json.dump(latest_data, f, ensure_ascii=False, indent=2)
+
+          print(f"Converted {INPUT_FILE} -> {OUTPUT_FILE}")
+          print(f"clusters written: {len(latest_data[0]['clusters'])}")
+          PY
+
+      - name: Commit output_latest.json
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add output_latest.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Update latest news clusters from content output"
+          git push
