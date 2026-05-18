@@ -845,6 +845,12 @@ sources:
     allow_url_regex: '(?i)idnes\.cz/.+'
     deny_url_regex: '(?i)/(video|podcast)'
 
+  - name: CT24
+    continent: Europe East
+    url: https://ct24.ceskatelevize.cz
+    allow_url_regex: '(?i)ct24\.ceskatelevize\.cz/clanek/(domaci|svet|ekonomika|veda|kultura|regiony|media)/'
+    deny_url_regex: '(?i)/(video|videa|ivysilani|porady|zive|live|pocasi|rss|program|teletext|privacy|cookies)'
+
 
   - name: Népszava
     continent: Europe East
