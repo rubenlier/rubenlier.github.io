@@ -1,13 +1,1112 @@
 [
   {
-    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1779102717",
-    "n_items": 2546,
-    "n_clusters": 2120,
+    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1779137039",
+    "n_items": 2565,
+    "n_clusters": 2097,
     "clusters": [
       {
-        "score": 160.38408983331834,
-        "size": 30,
-        "n_sources": 29,
+        "score": 258.9115188493021,
+        "size": 37,
+        "n_sources": 34,
+        "n_continents": 11,
+        "continents": [
+          "Africa",
+          "China",
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "Oceania",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.8264461159706116,
+        "title": "Trump siger, at han har udsat angreb mod Iran",
+        "central_article": {
+          "title": "Trump siger, at han har udsat angreb mod Iran",
+          "url": "https://www.dr.dk/nyheder/seneste/trump-siger-han-har-udsat-angreb-mod-iran",
+          "source_id": "dr.dk",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-05-18T20:19:56.780598+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9064902067184448,
+            "article": {
+              "title": "Trump siger, at han har udsat angreb mod Iran",
+              "url": "https://www.dr.dk/nyheder/seneste/trump-siger-han-har-udsat-angreb-mod-iran",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:56.780598+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9060948491096497,
+            "article": {
+              "title": "Trump says he has postponed a planned new strike on Iran",
+              "url": "https://www.abc.net.au/news/2026-05-19/us-israel-continue-strikes-on-iran/106695134",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:21:26.589092+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8943972587585449,
+            "article": {
+              "title": "Trump says he has called off planned Iran strike at request of Gulf allies",
+              "url": "https://www.scmp.com/news/world/united-states-canada/article/3354023/trump-says-he-has-called-tuesdays-planned-iran-strike-request-gulf-allies?module=latest&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:24:43.665343+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8940657377243042,
+            "article": {
+              "title": "Trump oznámil, že odkládá údery na Írán",
+              "url": "https://ct24.ceskatelevize.cz/clanek/svet/trump-oznamil-ze-odklada-udery-na-iran-373585",
+              "source_id": "ct24.ceskatelevize.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:22:32.499248+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.892170786857605,
+            "article": {
+              "title": "Trump says he called off new Iran attack at request of Gulf states",
+              "url": "https://www.bbc.com/news/articles/c7079e55zjro",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:08.934751+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8866407871246338,
+            "article": {
+              "title": "Trump afirma que pospone el “ataque programado contra Irán para mañana” a petición de los líderes de Medio Oriente",
+              "url": "https://www.latercera.com/mundo/noticia/trump-afirma-que-pospone-el-ataque-programado-contra-iran-para-manana-a-peticion-de-los-lideres-de-medio-oriente/",
+              "source_id": "latercera.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:21:01.978538+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8850914239883423,
+            "article": {
+              "title": "Trump says attack on Iran 'on hold' after Gulf states intervene",
+              "url": "https://www.newarab.com/news/trump-says-attack-iran-hold-after-gulf-states-intervene",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:22:09.183561+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8803383111953735,
+            "article": {
+              "title": "Trump delays planned Iran strike after Gulf intervention",
+              "url": "https://www.albawaba.com/news/trump-delays-planned-iran-strike-after-1627995",
+              "source_id": "albawaba.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:22:07.772175+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8773611783981323,
+            "article": {
+              "title": "Trump says he called off fresh strikes on Iran at request of Gulf leaders",
+              "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-updates-trump-b2978147.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:10.125149+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8741269707679749,
+            "article": {
+              "title": "Trump says US delays planned Iran strike after Gulf leaders push for diplomacy",
+              "url": "https://www.azernews.az/region/258598.html",
+              "source_id": "azernews.az",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:23:10.789491+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.873752772808075,
+            "article": {
+              "title": "Trump says US ‘holding off’ attacks on Iran after Saudi, UAE's request",
+              "url": "https://www.hindustantimes.com/world-news/trump-says-us-holding-off-attacks-on-iran-after-saudi-arabia-uaes-request-asks-army-to-stay-fully-prepared-101779133849248.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:25:17.288258+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8725544214248657,
+            "article": {
+              "title": "Trump a declarat că amână atacul militar împotriva Iranului, programat pentru marți, la cererea statelor din Golf",
+              "url": "https://www.g4media.ro/trump-a-declarat-ca-amana-atacul-militar-impotriva-iranului-programat-pentru-marti-la-cererea-statelor-din-golf.html",
+              "source_id": "g4media.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:22:34.890841+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8717785477638245,
+            "article": {
+              "title": "Trump says he paused attack on Iran as negotiations continue",
+              "url": "https://www.channelnewsasia.com/world/trump-iran-attack-peace-proposal-6128111",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:26:07.116047+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8708738088607788,
+            "article": {
+              "title": "L'annuncio di Trump: «Ho sospeso l'attacco all'Iran previsto per domani su richiesta degli alleati del Golfo. Sono in corso negoziati seri»",
+              "url": "https://www.corriere.it/esteri/diretta-live/26_maggio_18/guerra-in-iran-le-ultime-notizie-in-diretta-trump-pubblica-una-foto-con-ai-nella-stanza-dei-bottoni-pronto-a-far-esplodere-gli.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:20:30.037437+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8544964790344238,
+            "article": {
+              "title": "Trump delays ‘scheduled attack’ on Iran, crediting ‘serious negotiations’",
+              "url": "https://www.aljazeera.com/news/2026/5/18/trump-delays-scheduled-attack-on-iran-crediting-serious-negotiations",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:21:45.201803+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8502286672592163,
+            "article": {
+              "title": "Holding off attacks on Iran as serious talks taking place, says Trump",
+              "url": "https://www.hindustantimes.com/world-news/us-iran-war-live-news-israel-lebanon-gaza-donald-trump-clock-ticking-saudi-uae-netanyahu-abbas-araghchi-latest-updates-101779065556092.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:25:17.288258+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8500701189041138,
+            "article": {
+              "title": "Iran war latest: Trump says Gulf allies persuaded him to call off planned attack against Iran",
+              "url": "https://www.thenationalnews.com/news/mena/2026/05/18/live-us-iran-war-barakah/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:21:47.740502+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.84926837682724,
+            "article": {
+              "title": "Trump udskyder angreb på Iran: »Seriøse« fredsforhandlinger er i gang",
+              "url": "https://politiken.dk/internationalt/art10501159/Trump-udskyder-angreb-p%C3%A5-Iran-Der-er-%C2%BBseri%C3%B8se-fredsforhandlinger%C2%AB-i-gang",
+              "source_id": "politiken.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:45.716578+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8477833867073059,
+            "article": {
+              "title": "Trump diz que adiou ataque planejado para terça por pedido de líderes árabes",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/05/trump-diz-ter-adiado-ataque-ao-ira-planejado-para-terca-apos-pedido-de-lideres-arabes.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:20:53.209144+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8422577381134033,
+            "article": {
+              "title": "Trump anuncia que ha cancelado un ataque a Irán previsto para el martes",
+              "url": "https://elpais.com/internacional/2026-05-18/iran-anuncia-una-nueva-propuesta-de-paz-mientras-la-guerra-pasa-factura-a-trump-en-el-terreno-interno.html",
+              "source_id": "elpais.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:20:17.975663+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8383084535598755,
+            "article": {
+              "title": "Трамп заявил, что отложил удары по Ирану по просьбе Саудовской Аравии, Катара и ОАЭ. Он планировал их на 19 мая",
+              "url": "https://meduza.io/news/2026/05/18/tramp-zayavil-chto-otlozhil-udary-po-iranu-po-prosbe-saudovskoy-aravii-katara-i-oae-on-planiroval-ih-na-19-maya",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:22:45.092286+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8333911299705505,
+            "article": {
+              "title": "Trump says attack on Iran put on hold, warns ready for ‘full, large scale assault’ if no deal reached",
+              "url": "https://timesofindia.indiatimes.com/world/us/trump-says-attack-on-iran-put-on-hold-warns-us-ready-for-full-large-scale-assault-if-no-deal-reached/articleshow/131185381.cms",
+              "source_id": "timesofindia.indiatimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:25:12.091701+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.831952691078186,
+            "article": {
+              "title": "La diretta Trump: “Su richiesta dei Paesi del Golfo ho sospeso l'attacco all'Iran in programma domani. In corso negoziati seri”",
+              "url": "https://www.repubblica.it/esteri/2026/05/18/diretta/guerra_iran_usa_israele_news_oggi-425352724/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:20:28.119768+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.830278217792511,
+            "article": {
+              "title": "ترامب: أرجأنا الهجوم على إيران الذي كان مقرراً غداً",
+              "url": "https://www.annahar.com/international/iran/311160/ترامب-أرجأنا-الهجوم-على-إيران-الذي-كان-مقررا-غدا",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:22:15.462827+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8082334995269775,
+            "article": {
+              "title": "Τραμπ: Αναβάλλεται η επίθεση στο Ιράν για αύριο - Η παρέμβαση σταθμός",
+              "url": "https://www.tovima.gr/2026/05/18/world/tramp-anavalletai-i-epithesi-sto-iran-ayrio-i-paremvasi-stathmos/",
+              "source_id": "tovima.gr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:20:33.054871+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8063428997993469,
+            "article": {
+              "title": "ইরানে হামলার পরিকল্পনা স্থগিত ঘোষণা ট্রাম্পের",
+              "url": "https://bartamanpatrika.com/news/trump-announces-suspension-of-iran-attack-plan",
+              "source_id": "bartamanpatrika.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:25:25.441009+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7950531840324402,
+            "article": {
+              "title": "ترمب: أرجأت مهاجمة إيران بعد طلب من قطر والسعودية والإمارات",
+              "url": "https://www.aljazeera.net/news/2026/5/18/عاجل-ترمب-أمير-قطر-وولي-عهد-السعودية",
+              "source_id": "aljazeera.net",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:21:51.626282+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7947647571563721,
+            "article": {
+              "title": "Middle East war live: Trump claims he called off an Iran strike to allow for ‘serious negotiations’",
+              "url": "https://www.france24.com/en/middle-east/20260518-middle-east-war-live-drone-strikes-on-uae-and-saudi-arabia-fuel-escalation-fears",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:20:10.395900+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7709375619888306,
+            "article": {
+              "title": "Ordena Trump frenar ataque a Ir�n para alcanzar acuerdo",
+              "url": "https://www.reforma.com/ordena-trump-frenar-ataque-a-iran-para-alcanzar-acuerdo/ar3206319?v=2",
+              "source_id": "reforma.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:20:35.673066+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7669385075569153,
+            "article": {
+              "title": "Trump dal poslední šanci jednání s Íránem. Chystal už nový útok na úterý",
+              "url": "https://www.idnes.cz/zpravy/zahranicni/trump-odlozeni-utoku-na-iran-na-zadost-kanady-saudske-arabie-a-spojenych-arabskych-emiratu.A260518_212042_zahranicni_jira",
+              "source_id": "idnes.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:22:30.106349+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7576778531074524,
+            "article": {
+              "title": "newsticker Krieg in Nahost Trump: Für Dienstag geplanter Angriff auf den Iran ist ausgesetzt Die neuesten Einträge aus dem Liveticker: Trump: Für Dienstag geplanter Angriff auf den Iran ist ausgesetzt Emirate: Stromversorgung von AKW Barakah wiederhergestellt UNO: Israel muss Massnahmen zu Völkermord-Verhinderung ergreifen",
+              "url": "https://www.srf.ch/news/international/nahost/krieg-in-nahost-trump-fuer-dienstag-geplanter-angriff-auf-den-iran-ist-ausgesetzt",
+              "source_id": "srf.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:43.867404+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7392860651016235,
+            "article": {
+              "title": "Trump reportedly considering restarting Iran war",
+              "url": "https://www.channel4.com/news/trump-reportedly-considering-restarting-iran-war",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:14.646235+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7203876972198486,
+            "article": {
+              "title": "ترامب يعلن التريث في شن هجوم ضد إيران بعد طلب ثلاثة قادة عرب",
+              "url": "https://www.alsumaria.tv/news/international/564387/ترامب-يعلن-التريث-في-شن-هجوم-ضد-إيران-بعد-طلب-ثلاثة-قادة-عرب",
+              "source_id": "alsumaria.tv",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:24:08.023773+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7132631540298462,
+            "article": {
+              "title": "Iran presents new proposal to end war as Trump warns 'clock is ticking'",
+              "url": "https://www.thenationalnews.com/news/2026/05/18/iran-presents-new-proposal-to-end-war-as-trump-warns-clock-is-ticking/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:21:47.740502+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7119070887565613,
+            "article": {
+              "title": "What Trump says vs. what the intelligence says on Iran",
+              "url": "https://www.egyptindependent.com/what-trump-says-vs-what-the-intelligence-says-on-iran/",
+              "source_id": "egyptindependent.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:24:05.049636+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6961995363235474,
+            "article": {
+              "title": "After Trump's nuclear threat: Iran sends new edited proposal to the US",
+              "url": "https://www.albawaba.com/news/after-trumps-nuclear-threat-iran-sends-1627959",
+              "source_id": "albawaba.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:22:07.772175+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6837417483329773,
+            "article": {
+              "title": "US agrees to suspend Iranian oil sanctions during talks",
+              "url": "https://tass.com/economy/2132381",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:22:53.956609+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 249.65027758823396,
+        "size": 34,
+        "n_sources": 34,
+        "n_continents": 9,
+        "continents": [
+          "China",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "Oceania",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.8592951893806458,
+        "title": "Elon Musk loses lawsuit against OpenAI",
+        "central_article": {
+          "title": "Elon Musk loses lawsuit against OpenAI",
+          "url": "https://www.usatoday.com/story/tech/2026/05/18/elon-musk-loses-lawsuit-openai/90145826007/",
+          "source_id": "usatoday.com",
+          "continent": "North America",
+          "published_at": null,
+          "scraped_at_utc": "2026-05-18T20:24:35.768707+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9408978223800659,
+            "article": {
+              "title": "Elon Musk loses lawsuit against OpenAI",
+              "url": "https://www.usatoday.com/story/tech/2026/05/18/elon-musk-loses-lawsuit-openai/90145826007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:24:35.768707+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9344574213027954,
+            "article": {
+              "title": "Elon Musk loses lawsuit against OpenAI and its CEO Sam Altman",
+              "url": "https://indianexpress.com/article/world/elon-musk-loses-lawsuit-against-openai-sam-altman-10696440/",
+              "source_id": "indianexpress.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:25:18.556182+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9331854581832886,
+            "article": {
+              "title": "Elon Musk loses US lawsuit against OpenAI",
+              "url": "https://www.aljazeera.com/news/2026/5/18/elon-musk-loses-lawsuit-against-openai",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:21:45.201803+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9302391409873962,
+            "article": {
+              "title": "Elon Musk loses lawsuit against OpenAI and Sam Altman",
+              "url": "https://www.channel4.com/news/elon-musk-loses-lawsuit-against-openai-and-sam-altman",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:14.646235+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9302391409873962,
+            "article": {
+              "title": "Elon Musk loses lawsuit against OpenAI and Sam Altman",
+              "url": "https://www.abc.net.au/news/2026-05-19/musk-loses-open-ai/106695072",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:21:26.589092+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9131120443344116,
+            "article": {
+              "title": "Musk pierde el polémico juicio contra el magnate Sam Altman por OpenAI",
+              "url": "https://elpais.com/tecnologia/2026-05-18/elon-musk-pierde-el-juicio-contra-sam-altman-por-openai.html",
+              "source_id": "elpais.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:20:17.975663+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9016885757446289,
+            "article": {
+              "title": "Musk verliest rechtszaak over koers van OpenAI",
+              "url": "https://nos.nl/artikel/2614904-musk-verliest-rechtszaak-over-koers-van-openai",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:18.931362+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8989480137825012,
+            "article": {
+              "title": "Elon Musk loses lawsuit against OpenAI after high-stakes showdown with Sam Altman",
+              "url": "https://www.independent.co.uk/news/world/americas/elon-musk-openai-lawsuit-verdict-sam-altman-b2978929.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:10.125149+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8955918550491333,
+            "article": {
+              "title": "Elon Musk loses lawsuit against Sam Altman's OpenAI; case brought ‘too late’",
+              "url": "https://www.hindustantimes.com/world-news/elon-musk-loses-lawsuit-against-sam-altmans-openai-us-court-says-case-brought-too-late-101779126751977.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:25:17.288258+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8925309181213379,
+            "article": {
+              "title": "Niederlage für Elon Musk: US-Jury weist Klage gegen OpenAI ab",
+              "url": "https://www.diepresse.com/24666389/niederlage-fuer-elon-musk-us-jury-weist-klage-gegen-openai-ab",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:35.158263+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8924094438552856,
+            "article": {
+              "title": "Elon Musk förlorar i rätten mot Open AI",
+              "url": "https://www.dn.se/direkt/2026-05-18/elon-musk-forlorar-i-ratten-mot-open-ai/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:47.636255+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8869113326072693,
+            "article": {
+              "title": "‘Hypocrite’: Elon Musk loses lawsuit against OpenAI",
+              "url": "https://www.smh.com.au/business/companies/elon-musk-loses-lawsuit-against-openai-20260519-p5zyj1.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:21:29.232130+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8832426071166992,
+            "article": {
+              "title": "Elon Musk é derrotado em processo contra Sam Altman sobre mudanças na OpenAI",
+              "url": "https://oglobo.globo.com/economia/tecnologia/noticia/2026/05/18/elon-musk-e-derrotado-em-processo-contra-sam-altman-sobre-mudancas-na-openai.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:20:56.124375+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8829159736633301,
+            "article": {
+              "title": "Porota zavrgla tožbo Elona Muska proti OpenAI",
+              "url": "https://www.delo.si/novice/svet/porota-zavrgla-tozbo-elona-muska-proti-openai-2",
+              "source_id": "delo.si",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:22:39.170063+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8796989917755127,
+            "article": {
+              "title": "Înfrângere usturătoare: Elon Musk a pierdut procesul în disputa cu Sam Altman și OpenAI. Verdictul, dat în unanimitate",
+              "url": "https://hotnews.ro/infrangere-usturatoare-elon-musk-a-pierdut-procesul-in-disputa-cu-sam-altman-si-openai-verdictul-dat-in-unanimitate-2249517",
+              "source_id": "hotnews.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:22:28.036251+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.858642578125,
+            "article": {
+              "title": "Musk loses landmark lawsuit against OpenAI after jury finds he filed his claim too late",
+              "url": "https://www.france24.com/en/americas/20260518-musk-loses-his-lawsuit-against-openai-after-jury-finds-he-filed-his-claim-too-late",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:20:10.395900+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8564440011978149,
+            "article": {
+              "title": "Musk perde la causa su OpenAI contro Altman: respinta richiesta di risarcimento da 130 miliardi",
+              "url": "https://www.repubblica.it/economia/2026/05/18/news/openai_musk_perde_causa_altman_risarcimento_processo-425354451/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:20:28.119768+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8547588586807251,
+            "article": {
+              "title": "Elon Musk débouté de ses poursuites judiciaires contre Sam Altman et OpenAI",
+              "url": "https://www.lesoir.be/747406/article/2026-05-18/elon-musk-deboute-de-ses-poursuites-judiciaires-contre-sam-altman-et-openai",
+              "source_id": "lesoir.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:20:15.983011+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.85030198097229,
+            "article": {
+              "title": "Teismas atmetė Musko bylą prieš dirbtinio intelekto organizaciją „OpenAI“ ir jos vadovą",
+              "url": "https://www.lrt.lt/naujienos/mokslas-ir-it/11/2932442/teismas-atmete-musko-byla-pries-dirbtinio-intelekto-organizacija-openai-ir-jos-vadova",
+              "source_id": "lrt.lt",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:22:59.440081+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8495407104492188,
+            "article": {
+              "title": "AI Elon Musk verliest in zijn ruzie met OpenAI, volgens jury te laat met aanspannen rechtszaak",
+              "url": "https://www.nrc.nl/nieuws/2026/05/18/elon-musk-verliest-in-zijn-ruzie-met-openai-volgens-jury-te-laat-met-aanspannen-rechtszaak-a4928139",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:20.533337+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8451871871948242,
+            "article": {
+              "title": "Jury rejects Elon Musk’s lawsuit, sides with OpenAI in bitter feud over AI future",
+              "url": "https://www.latimes.com/business/story/2026-05-18/jury-sides-with-openai-tossing-out-elons-claim-that-sam-altman-stole-charity",
+              "source_id": "latimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:24:33.163556+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8441202640533447,
+            "article": {
+              "title": "OpenAI : Elon Musk débouté de ses poursuites contre Sam Altman et Microsoft pour cause de prescription",
+              "url": "https://www.lemonde.fr/economie/article/2026/05/18/elon-musk-deboute-de-ses-poursuites-contre-openai-pour-cause-de-prescription_6691066_3234.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:20:05.781382+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.839454174041748,
+            "article": {
+              "title": "Un jury californien déboute Elon Musk dans ses poursuites contre OpenAI",
+              "url": "https://www.rts.ch/info/monde/2026/article/un-jury-californien-deboute-elon-musk-dans-ses-poursuites-contre-openai-29246084.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:20:11.885707+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8392349481582642,
+            "article": {
+              "title": "Federal court rejects Elon Musk’s claims against OpenAI, saying he filed his lawsuit too late",
+              "url": "https://apnews.com/article/musk-openai-trial-verdict-0b9b0bfaffe96f2c930341f52dfe4f8c",
+              "source_id": "apnews.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:24:09.735707+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8374778032302856,
+            "article": {
+              "title": "Verenigde Staten Elon Musk verliest rechtszaak tegen OpenAI-top over toekomst van bedrijf achter ChatGPT",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/05/18/musk-verliest-rechtzaak-tegen-altman/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:20:13.210475+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8330581188201904,
+            "article": {
+              "title": "Musk prohrál soudní spor s firmou OpenAI Americký miliardář Elon Musk utrpěl porážku v soudním sporu se společností OpenAI, která se podle jeho žaloby odchýlila od původně uváděného cíle vyvíjet umělou inteligenci (AI) ku prospěchu lidstva, ne pro zisk. Porota v pondělí po zhruba dvou hodinách dospěla k závěru, že Musk žalobu podal příliš pozdě. Soudkyně Yvonne Gonzalezová Rogersová verdikt poroty přijala, napsala agentura AP. Reuters , Andrea Gričová",
+              "url": "https://ct24.ceskatelevize.cz/clanek/svet/musk-prohral-soudni-spor-s-firmou-openai-373582",
+              "source_id": "ct24.ceskatelevize.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:22:32.499248+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8276375532150269,
+            "article": {
+              "title": "Elon Musk débouté de ses poursuites contre OpenAI pour cause de prescription",
+              "url": "https://www.rtbf.be/article/elon-musk-deboute-de-ses-poursuites-contre-openai-pour-cause-de-prescription-11725936",
+              "source_id": "rtbf.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:20:14.590023+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.818813145160675,
+            "article": {
+              "title": "Musk förlorar rättegång mot Open AI Juryn: Väntat för länge med att stämma bolaget",
+              "url": "https://www.svt.se/nyheter/utrikes/elon-musk-forlorar-rattegang-mot-ai-jatte",
+              "source_id": "svt.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:53.866742+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8159765005111694,
+            "article": {
+              "title": "Verjährungsfrist abgelaufen Niederlage für Elon Musk: US-Jury weist Klage gegen OpenAI ab Der US-Tech-Milliardär Elon Musk ist mit seiner Klage gegen die Führung des KI-Vorreiters OpenAI gescheitert.",
+              "url": "https://www.srf.ch/news/wirtschaft/verjaehrungsfrist-abgelaufen-niederlage-fuer-elon-musk-us-jury-weist-klage-gegen-openai-ab",
+              "source_id": "srf.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:43.867404+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8124182224273682,
+            "article": {
+              "title": "Jury rules against Musk in feud with OpenAI, saying he filed lawsuit too late",
+              "url": "https://www.scmp.com/news/world/united-states-canada/article/3354020/jury-rules-against-elon-musk-his-feud-openai-saying-he-filed-his-lawsuit-too-late?module=latest&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:24:43.665343+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7920573949813843,
+            "article": {
+              "title": "Elon Musk taber retssag mod selskabet bag ChatGPT",
+              "url": "https://politiken.dk/viden/art10846961/Elon-Musk-taber-retssag-mod-selskabet-bag-ChatGPT",
+              "source_id": "politiken.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:45.716578+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7726680636405945,
+            "article": {
+              "title": "Elon Musk taber sag mod OpenAi",
+              "url": "https://www.dr.dk/nyheder/seneste/elon-musk-taber-sag-mod-openai",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:56.780598+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7376542091369629,
+            "article": {
+              "title": "Elon Musk wirft Sam Altman Betrug vor: Die wichtigsten Antworten zum Gerichtsprozess um die Anfänge von Open AI – und um dessen Zukunft",
+              "url": "https://www.nzz.ch/technologie/elon-musk-wirft-sam-altman-betrug-vor-die-wichtigsten-antworten-zum-gerichtsprozess-um-die-anfaenge-von-open-ai-und-um-dessen-zukunft-ld.10005019",
+              "source_id": "nzz.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:42.591707+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7345238924026489,
+            "article": {
+              "title": "Илон Маск проиграл суд Сэму Альтману",
+              "url": "https://meduza.io/news/2026/05/18/ilon-mask-proigral-sud-semu-altmanu",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:22:45.092286+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 107.83560957436354,
+        "size": 21,
+        "n_sources": 20,
+        "n_continents": 7,
+        "continents": [
+          "China",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "South Asia"
+        ],
+        "coherence": 0.8477931022644043,
+        "title": "San Diego police say they are responding to an active shooter at a local Islamic Center",
+        "central_article": {
+          "title": "San Diego police say they are responding to an active shooter at a local Islamic Center",
+          "url": "https://www.bostonglobe.com/2026/05/18/nation/san-diego-mosque-active-shooter/",
+          "source_id": "bostonglobe.com",
+          "continent": "North America",
+          "published_at": null,
+          "scraped_at_utc": "2026-05-18T20:24:34.689542+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.93805992603302,
+            "article": {
+              "title": "San Diego police say they are responding to an active shooter at a local Islamic Center",
+              "url": "https://www.bostonglobe.com/2026/05/18/nation/san-diego-mosque-active-shooter/",
+              "source_id": "bostonglobe.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:24:34.689542+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.93805992603302,
+            "article": {
+              "title": "San Diego police say they are responding to an active shooter at a local Islamic Center",
+              "url": "https://www.chicagotribune.com/2026/05/18/san-diego-islamic-center-shooting/",
+              "source_id": "chicagotribune.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:24:38.274600+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9360271692276001,
+            "article": {
+              "title": "Police responding to ‘active shooter’ at Islamic Center of San Diego",
+              "url": "https://www.aljazeera.com/news/2026/5/18/san-diego-police-say-responding-to-an-active-shooter-at-islamic-center",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:21:45.201803+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9232493042945862,
+            "article": {
+              "title": "Active shooter near San Diego Islamic Center, police say",
+              "url": "https://www.jpost.com/international/article-896616",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:21:49.071165+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9202977418899536,
+            "article": {
+              "title": "Reports of ‘active shooter situation’ at Islamic Centre in San Diego",
+              "url": "https://www.scmp.com/news/world/united-states-canada/article/3354024/reports-active-shooter-situation-islamic-centre-san-diego?module=latest&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:24:43.665343+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9101787805557251,
+            "article": {
+              "title": "San Diego police say they are responding to an active shooter at a local mosque",
+              "url": "https://apnews.com/article/san-diego-islamic-center-shooting-af934ee29b397fba1495baf2529c49f8",
+              "source_id": "apnews.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:24:09.735707+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9101787805557251,
+            "article": {
+              "title": "San Diego police say they are responding to an active shooter at a local mosque",
+              "url": "https://www.pbs.org/newshour/nation/san-diego-police-say-they-are-responding-to-an-active-shooter-at-a-local-mosque",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:24:42.165806+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8910565972328186,
+            "article": {
+              "title": "‘Active shooter’ reported at mosque in San Diego",
+              "url": "https://www.rt.com/news/640151-active-shooter-situation-reported-mosque-san-diego/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:22:50.276510+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8578790426254272,
+            "article": {
+              "title": "San Diego police say threat has been 'neutralized' after at least one killed during 'active shooter' at Islamic Center",
+              "url": "https://www.independent.co.uk/news/world/americas/san-diego-shooting-islamic-center-live-updates-b2978992.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:10.125149+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8568558692932129,
+            "article": {
+              "title": "San Diego mosque shooting videos: Scary scenes at Islamic Center amid active shooter reports; watch",
+              "url": "https://www.hindustantimes.com/world-news/us-news/san-diego-mosque-shooting-videos-scary-scenes-at-islamic-center-amid-active-shooter-reports-watch-101779132762616.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:25:17.288258+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8470767736434937,
+            "article": {
+              "title": "Active shooter at Islamic Center of San Diego, nearby elementary school evacuated",
+              "url": "https://timesofindia.indiatimes.com/world/us/active-shooter-at-islamic-center-of-san-diego-nearby-elementary-school-evacuated/articleshow/131185501.cms",
+              "source_id": "timesofindia.indiatimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:25:12.091701+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8432861566543579,
+            "article": {
+              "title": "Threat at Islamic center in San Diego ‘neutralized’ after active shooter reports, police say",
+              "url": "https://www.latimes.com/california/story/2026-05-18/san-diego-police-swarm-islamic-center-amid-reports-of-active-shooter",
+              "source_id": "latimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:24:33.163556+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8424810171127319,
+            "article": {
+              "title": "Reportan tirador activo en Centro Isl�mico de San Diego",
+              "url": "https://www.reforma.com/reportan-tirador-activo-en-centro-islamico-de-san-diego/ar3206324?v=2",
+              "source_id": "reforma.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:20:35.673066+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8424100279808044,
+            "article": {
+              "title": "San Diego, sparatoria in un centro islamico: «Almeno due morti e diversi feriti»",
+              "url": "https://www.corriere.it/esteri/26_maggio_18/san-diego-sparatoria-centro-islamico-f27db3cb-ab35-4f85-8160-2cf76ed30xlk.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:20:30.037437+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8297930359840393,
+            "article": {
+              "title": "Islamic Center of San Diego shooting prompts lockdowns at several Jewish institutions; police provide major update",
+              "url": "https://www.hindustantimes.com/world-news/us-news/islamic-center-of-san-diego-shooting-prompts-lockdowns-at-several-jewish-institutions-police-provide-major-update-101779134144953.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:25:17.288258+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.787743330001831,
+            "article": {
+              "title": "Spari in un centro islamico a San Diego: “Almeno due morti”. Ucciso l'assalitore",
+              "url": "https://www.repubblica.it/esteri/2026/05/18/news/san_diego_sparatoria_centro_islamico_morti_feriti-425354657/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:20:28.119768+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7825415134429932,
+            "article": {
+              "title": "إطلاق نار قرب مسجد في سان دييغو",
+              "url": "https://www.alsumaria.tv/news/international/564389/إطلاق-نار-قرب-مسجد-في-سان-دييغو",
+              "source_id": "alsumaria.tv",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:24:08.023773+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7792997360229492,
+            "article": {
+              "title": "Active shooter threat at San Diego Islamic center 'neutralized'",
+              "url": "https://www.usatoday.com/story/news/nation/2026/05/18/shooting-san-diego-islamic-center/90147753007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:24:35.768707+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7334743738174438,
+            "article": {
+              "title": "27 sek Just nu Uppgifter: Minst en död i skjutning vid moské i USA Massiv insats i San Diego • Polisen: Hotet avvärjt",
+              "url": "https://www.svt.se/nyheter/utrikes/misstankt-skottlossning-i-san-diego",
+              "source_id": "svt.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:53.866742+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7267464399337769,
+            "article": {
+              "title": "بالفيديو- الشرطة الأميركية تطوّق أكبر مسجد في سان دييغو بعد بلاغ عن إطلاق نار",
+              "url": "https://www.annahar.com/international/united-states/311163/بالفيديو--الشرطة-الأميركية-تطوق-أكبر-مسجد-في-سان-دييغو-بعد-بلاغ-عن-إطلاق-نار",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:22:15.462827+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7069594860076904,
+            "article": {
+              "title": "Just nu: Skjutning vid moské i USA",
+              "url": "https://www.dn.se/direkt/2026-05-18/skjutning-vid-moske-i-usa-garningsman-doda/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:47.636255+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 99.05842686253813,
+        "size": 20,
+        "n_sources": 20,
         "n_continents": 9,
         "continents": [
           "Africa",
@@ -15,1851 +1114,1212 @@
           "Europe East",
           "Europe North",
           "Europe South",
-          "Middle East",
-          "North America",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.8026102185249329,
-        "title": "Trump droht erneut \"Für Iran tickt die Uhr\"",
-        "central_article": {
-          "title": "Trump droht erneut \"Für Iran tickt die Uhr\"",
-          "url": "https://www.tagesschau.de/ausland/amerika/trump-drohung-iran-102.html",
-          "source_id": "tagesschau.de",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-05-18T10:50:12.803293+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8949381113052368,
-            "article": {
-              "title": "Trump droht erneut \"Für Iran tickt die Uhr\"",
-              "url": "https://www.tagesschau.de/ausland/amerika/trump-drohung-iran-102.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:12.803293+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8738653659820557,
-            "article": {
-              "title": "Trump droht Iran wieder mit Zerstörung - \"Uhr tickt\"",
-              "url": "https://www.zdfheute.de/politik/ausland/trump-iran-drohung-netanjahu-krieg-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:25.542985+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8679075241088867,
-            "article": {
-              "title": "‘The clock is ticking’: Trump warns Iran to ‘get moving’",
-              "url": "https://www.thenationalnews.com/news/us/2026/05/17/trump-iran-hormuz/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:52:25.287086+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8647453784942627,
-            "article": {
-              "title": "Trump warns 'clock is ticking' as Iran talks stall, oil prices rise",
-              "url": "https://www.usatoday.com/story/news/world/2026/05/18/iran-war-us-trump-strait-of-hormuz-updates--live/90133352007/",
-              "source_id": "usatoday.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:55:36.419905+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8637611865997314,
-            "article": {
-              "title": "Trump asegura que a Irán se le acaba el tiempo: Llama a alcanzar acuerdo o \"no quedará nada de ellos\"",
-              "url": "https://www.emol.com/noticias/Internacional/2026/05/17/1200249/donald-trump-iran-eeuu.html",
-              "source_id": "emol.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:51:35.537657+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8599923253059387,
-            "article": {
-              "title": "Trump zegt dat de tijd dringt voor Iran: 'Anders blijft er niets van ze over'",
-              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5602766/trump-iran-klokt-tikt-vredesdeal-oorlog-straat-hormuz",
-              "source_id": "rtl.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:09.174769+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8562992215156555,
-            "article": {
-              "title": "Trump asegura que a Irán se le acaba el tiempo para pactar o “no quedará nada de ellos”",
-              "url": "https://elcomercio.pe/mundo/oriente-medio/donald-trump-asegura-que-a-iran-se-le-acaba-el-tiempo-para-pactar-o-no-quedara-nada-de-ellos-estados-unidos-israel-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:51:44.392614+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.849258542060852,
-            "article": {
-              "title": "Trump wälzt wieder Angriffsoptionen: „Für den Iran tickt die Uhr“",
-              "url": "https://www.diepresse.com/24423322/trump-waelzt-wieder-angriffsoptionen-fuer-den-iran-tickt-die-uhr",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:23.406783+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8478963375091553,
-            "article": {
-              "title": "Trump warns Iran that 'there won't be anything left of them' without peace deal",
-              "url": "https://www.france24.com/en/middle-east/20260518-trump-warns-iran-peace-deal",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:58.736701+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.831222414970398,
-            "article": {
-              "title": "Stocks fall and oil rises after Trump warns Iran that ‘clock is ticking’",
-              "url": "https://apnews.com/article/stocks-markets-china-trump-iran-e7b781e8e2394be6486fa5f006e5e06e",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:55:11.181699+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8292050361633301,
-            "article": {
-              "title": "Trump droht Iran erneut mit Vernichtung: «Es wird nichts übrig bleiben»",
-              "url": "https://www.nzz.ch/international/trump-droht-iran-erneut-mit-vernichtung-es-wird-nichts-uebrigbleiben-ld.10007430",
-              "source_id": "nzz.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:30.535251+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8272689580917358,
-            "article": {
-              "title": "Trump warns Iran of harder strikes than before if there is no deal",
-              "url": "https://tass.com/world/2132063",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:53:53.902116+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.826810359954834,
-            "article": {
-              "title": "Trump Warns Iran of ‘Very Tough Times’ Ahead Without a Peace Deal",
-              "url": "https://www.kyivpost.com/post/76298",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:53:41.960394+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8262389898300171,
-            "article": {
-              "title": "Trump says 'clock is ticking for Iran' after call with Netanyahu on China, Hormuz",
-              "url": "https://www.jpost.com/middle-east/iran-news/article-896482",
-              "source_id": "jpost.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:52:26.515288+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8213027715682983,
-            "article": {
-              "title": "WORLD Trump says 'clock ticking' for Iran as peace negotiations stall",
-              "url": "https://myrepublica.nagariknetwork.com/news/trump-says-clock-ticking-for-iran-as-peace-negotiations-stall-73-84.html",
-              "source_id": "myrepublica.nagariknetwork.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:56:56.877632+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.81385338306427,
-            "article": {
-              "title": "Trump avverte l’Iran: «Senza intesa verrete annichiliti»",
-              "url": "https://www.corriere.it/esteri/26_maggio_17/trump-iran-tempo-stringe-emirati-droni-681358e6-4316-48a6-a149-8bb2a896cxlk.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:51:14.999469+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8095790147781372,
-            "article": {
-              "title": "Trump se desata contra Irán y lanza temida amenaza de aniquilación: “No quedará nada de ellos”",
-              "url": "https://www.semana.com/mundo/articulo/trump-se-desata-contra-iran-y-lanza-temida-amenaza-de-aniquilacion-no-quedara-nada-de-ellos/202628/",
-              "source_id": "semana.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:51:32.782267+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8048218488693237,
-            "article": {
-              "title": "Trump volta a ameaçar aniquilar o Irã caso país não aceite acordo de paz",
-              "url": "https://oglobo.globo.com/mundo/noticia/2026/05/17/trump-ameaca-aniquilar-o-ira-caso-pais-nao-aceite-acordo-de-paz.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:51:39.927237+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7993065118789673,
-            "article": {
-              "title": "U.S. and Iran far from Hormuz deal as Trump says clock is ticking",
-              "url": "https://www.japantimes.co.jp/news/2026/05/18/world/politics/us-iran-hormuz-deal-trump/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:57:25.213576+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7768243551254272,
-            "article": {
-              "title": "Oil prices rise after Trump warns Iran over stalled peace talks",
-              "url": "https://www.bbc.com/news/articles/czx2ne2ryppo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:49:55.941356+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7686300277709961,
-            "article": {
-              "title": "Oil prices climb as Donald Trump delivers stark message to Iran",
-              "url": "https://www.euronews.com/business/2026/05/18/oil-prices-climb-as-donald-trump-signals-tougher-action-on-iran",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:02.869706+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7652759552001953,
-            "article": {
-              "title": "What Trump says vs. what the intelligence says on Iran",
-              "url": "https://www.egyptindependent.com/what-trump-says-vs-what-the-intelligence-says-on-iran/",
-              "source_id": "egyptindependent.com",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:55:06.361338+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7612693905830383,
-            "article": {
-              "title": "Funke Mediengruppe Live Iran-Newsblog Trump droht mit Zerstörung – „Für den Iran tickt die Uhr“",
-              "url": "https://www.abendblatt.de/politik/article411965914/iran-krieg-news-aktuell-live-trump-waffenruhe-atomkraftwerk.html",
-              "source_id": "abendblatt.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:27.334289+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7559762001037598,
-            "article": {
-              "title": "Trump grozi Irańczykom, rosyjski atak na Dniepr",
-              "url": "https://wyborcza.pl/7,75398,32796210,trump-grozi-iranczykom-rosyjski-atak-na-dniepr-skrot-wydarzen.html",
-              "source_id": "wyborcza.pl",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:53:17.651728+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7523235082626343,
-            "article": {
-              "title": "Iran war day 80: Trump issues warning; Tehran ‘ready’ to confront attacks",
-              "url": "https://www.aljazeera.com/news/2026/5/18/iran-war-day-80-trump-issues-warning-tehran-ready-to-confront-aggression",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:52:23.353363+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7464398145675659,
-            "article": {
-              "title": "\"They Won’t See It Coming\": Trump Eyes \"Dark Eagle\" strikes on Iran",
-              "url": "https://www.albawaba.com/news/they-won%E2%80%99t-see-it-coming-trump-eyes-dark-1627767",
-              "source_id": "albawaba.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:52:58.266581+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.727772057056427,
-            "article": {
-              "title": "Impose sanctions on Iran, Trump’s treasury chief tells finance ministers",
-              "url": "https://www.politico.eu/article/impose-sanctions-on-iran-bessent-tells-finance-ministers/",
-              "source_id": "politico.eu",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:04.227070+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.713545024394989,
-            "article": {
-              "title": "odkaz Čtyři pětiny íránského arzenálu jsou zničeny, psát něco jiného je zrada, řekl Trump",
-              "url": "https://ct24.ceskatelevize.cz/clanek/svet/ctyri-petiny-iranskeho-arzenalu-jsou-zniceny-psat-neco-jineho-je-zrada-rekl-trump-373486",
-              "source_id": "ct24.ceskatelevize.cz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:53:27.507235+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6858899593353271,
-            "article": {
-              "title": "Trump returns from China with no Iran breakthrough — and a decision to make",
-              "url": "https://www.egyptindependent.com/trump-returns-from-china-with-no-iran-breakthrough-and-a-decision-to-make/",
-              "source_id": "egyptindependent.com",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:55:06.361338+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6560844779014587,
-            "article": {
-              "title": "Иран пригрозил уничтожить все базы США на юге Персидского залива",
-              "url": "https://ria.ru/20260518/iran-2093067005.html",
-              "source_id": "ria.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:53:55.555603+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 127.22996405969636,
-        "size": 27,
-        "n_sources": 22,
-        "n_continents": 8,
-        "continents": [
-          "Africa",
-          "East Asia",
-          "Europe East",
-          "Europe North",
           "North America",
           "Oceania",
           "South America",
           "South Asia"
         ],
-        "coherence": 0.8351024389266968,
-        "title": "WHO declares Ebola outbreak in DR Congo an international emergency",
+        "coherence": 0.7805505990982056,
+        "title": "WHO declares Ebola outbreak in DR Congo global health emergency",
         "central_article": {
-          "title": "WHO declares Ebola outbreak in DR Congo an international emergency",
-          "url": "https://www.bbc.com/news/articles/c2l2p0wwzzdo",
-          "source_id": "bbc.com",
-          "continent": "Europe North",
+          "title": "WHO declares Ebola outbreak in DR Congo global health emergency",
+          "url": "https://pajhwok.com/2026/05/18/who-declares-ebola-outbreak-in-dr-congo-global-health-emergency/",
+          "source_id": "pajhwok.com",
+          "continent": "South Asia",
           "published_at": null,
-          "scraped_at_utc": "2026-05-18T10:49:55.941356+00:00"
+          "scraped_at_utc": "2026-05-18T20:25:38.680829+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9458258152008057,
-            "article": {
-              "title": "WHO declares Ebola outbreak in DR Congo an international emergency",
-              "url": "https://www.bbc.com/news/articles/c2l2p0wwzzdo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:49:55.941356+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9458258152008057,
-            "article": {
-              "title": "WHO declares Ebola outbreak in DR Congo an international emergency",
-              "url": "https://www.channelnewsasia.com/shorts/who-declares-ebola-outbreak-in-dr-congo-international-emergency-6127851",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:57:23.837037+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9384995698928833,
+            "sim_to_centroid": 0.8893148899078369,
             "article": {
               "title": "WHO declares Ebola outbreak in DR Congo global health emergency",
               "url": "https://pajhwok.com/2026/05/18/who-declares-ebola-outbreak-in-dr-congo-global-health-emergency/",
               "source_id": "pajhwok.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:56:59.252751+00:00"
+              "scraped_at_utc": "2026-05-18T20:25:38.680829+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9278494119644165,
-            "article": {
-              "title": "WHO declares Ebola outbreak an international health emergency",
-              "url": "https://www.sbs.com.au/news/article/who-declares-ebola-outbreak-an-international-health-emergency/dhrqm1y2z",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:52:11.345501+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9261065125465393,
-            "article": {
-              "title": "WHO declares global health emergency over Ebola outbreak in Congo and Uganda",
-              "url": "https://www.latimes.com/world-nation/story/2026-05-17/who-declares-global-health-emergency-over-ebola-outbreak-in-congo-uganda",
-              "source_id": "latimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:55:34.082528+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9261065125465393,
-            "article": {
-              "title": "WHO declares global health emergency over Ebola outbreak in Congo and Uganda",
-              "url": "https://apnews.com/article/congo-ebola-uganda-who-africa-emergency-6f93a87ff28107bdda8990599bbcd52d",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:55:11.181699+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9203187823295593,
+            "sim_to_centroid": 0.8826205134391785,
             "article": {
               "title": "WHO declares Ebola outbreak in Congo, Uganda an emergency of international concern",
               "url": "https://kathmandupost.com/world/2026/05/18/who-declares-ebola-outbreak-in-congo-uganda-an-emergency-of-international-concern-1779072384",
               "source_id": "kathmandupost.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:56:52.618294+00:00"
+              "scraped_at_utc": "2026-05-18T20:25:31.899230+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9082919359207153,
+            "sim_to_centroid": 0.8533080220222473,
             "article": {
-              "title": "La OMS declara emergencia internacional tras brote de ébola en la RD Congo",
-              "url": "https://www.laestrella.com.pa/mundo/la-oms-declara-emergencia-internacional-tras-brote-de-ebola-en-la-rd-congo-FM22483789",
-              "source_id": "laestrella.com.pa",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:51:28.148353+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8923721313476562,
-            "article": {
-              "title": "Ebola outbreak declared global emergency by WHO after 88 deaths in Congo",
-              "url": "https://www.theglobeandmail.com/world/article-ebola-outbreak-with-88-suspected-deaths-in-congo-declared-global/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:52:08.578476+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8890442848205566,
-            "article": {
-              "title": "Ebola outbreak in Democratic Republic of Congo declared emergency",
-              "url": "https://www.channel4.com/news/ebola-outbreak-in-democratic-republic-of-congo-declared-emergency",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:01.556562+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8871686458587646,
-            "article": {
-              "title": "La OMS declara brote de ébola en República Democrática del Congo como una emergencia global",
-              "url": "https://www.bbc.com/mundo/articles/c7v98l89z1eo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:51:18.905722+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8426055908203125,
-            "article": {
-              "title": "What to know about the Ebola outbreak that has grown into a global health emergency",
-              "url": "https://www.pbs.org/newshour/world/what-to-know-about-the-ebola-outbreak-that-the-who-has-declared-a-global-health-emergency",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:55:42.548905+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8397443890571594,
-            "article": {
-              "title": "OMS declara emergencia sanitaria internacional por brote de ébola en África central",
-              "url": "https://www.laestrella.com.pa/mundo/oms-declara-emergencia-sanitaria-internacional-por-brote-de-ebola-en-africa-central-GM22481043",
-              "source_id": "laestrella.com.pa",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:51:28.148353+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8326630592346191,
-            "article": {
-              "title": "Explainer What is Ebola and why is WHO treating outbreak as global health emergency?",
+              "title": "Explained What is Ebola and why is WHO treating outbreak as global health emergency?",
               "url": "https://www.theguardian.com/world/2026/may/17/what-is-ebola-why-who-says-drc-uganda-outbreak-global-health-emergency",
               "source_id": "theguardian.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:00.270572+00:00"
+              "scraped_at_utc": "2026-05-18T20:19:12.987823+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8211342096328735,
+            "sim_to_centroid": 0.8204966187477112,
             "article": {
-              "title": "Qué significa que la OMS declare emergencia internacional por brote de ébola y qué implicancias tiene",
-              "url": "https://www.latercera.com/mundo/noticia/que-significa-que-la-oms-declare-emergencia-internacional-por-brote-de-ebola-y-que-implicancias-tiene/",
-              "source_id": "latercera.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:51:45.673596+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.821041464805603,
-            "article": {
-              "title": "ВОЗ признала вспышку лихорадки Эбола в ДР Конго чрезвычайной ситуацией",
-              "url": "https://www.kommersant.ru/doc/8671742?from=top_main_7",
-              "source_id": "kommersant.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:53:51.907322+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8169021606445312,
-            "article": {
-              "title": "Cambodia steps up Ebola surveillance as WHO declares global health emergency",
-              "url": "https://phnompenhpost.com/national/cambodia-steps-up-ebola-surveillance-as-who-declares-global-health-emergency/",
-              "source_id": "phnompenhpost.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:58:01.180779+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8032544851303101,
-            "article": {
-              "title": "WHO Declares Global Emergency Over Ebola Strain With No Vaccine",
-              "url": "https://time.com/article/2026/05/17/who-global-emergency-ebola-Bundibugyo/",
-              "source_id": "time.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:55:39.887526+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.802588701248169,
-            "article": {
-              "title": "Bundibugyo-virus WHO noemt ebola-uitbraak in Congo en Oeganda ‘internationale noodsituatie’",
-              "url": "https://www.nrc.nl/nieuws/2026/05/17/who-noemt-ebola-uitbraak-in-congo-en-oeganda-internationale-noodsituatie-a4928015",
-              "source_id": "nrc.nl",
+              "title": "udbrud af ebola i DR Congo og Uganda for en international sundhedskrise",
+              "url": "https://www.dr.dk/nyheder/udland/ebola-variant-har-faaet-who-i-alarmberedskab-tidligere-har-man-haft-en-effektiv-vaccine-det-har-man",
+              "source_id": "dr.dk",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:07.052078+00:00"
+              "scraped_at_utc": "2026-05-18T20:19:56.780598+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7985681295394897,
-            "article": {
-              "title": "India Ebola outbreak now a global health emergency: Is India at risk?",
-              "url": "https://timesofindia.indiatimes.com/india/ebola-outbreak-now-a-global-health-emergency-is-india-at-risk/articleshow/131169986.cms",
-              "source_id": "timesofindia.indiatimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:56:10.235478+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7515890598297119,
+            "sim_to_centroid": 0.815743088722229,
             "article": {
               "title": "What is Ebola and what makes the latest outbreak so concerning?",
               "url": "https://www.sbs.com.au/news/article/ebola-outbreak-2026-explainer/nfs6semvn",
               "source_id": "sbs.com.au",
               "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:52:11.345501+00:00"
+              "scraped_at_utc": "2026-05-18T20:21:27.848170+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7490187287330627,
+            "sim_to_centroid": 0.8138249516487122,
+            "article": {
+              "title": "WHO Tetapkan Wabah Ebola sebagai Darurat Global, Apa Risikonya bagi Indonesia? Health",
+              "url": "https://health.kompas.com/read/26E18213600568/who-tetapkan-wabah-ebola-sebagai-darurat-global-apa-risikonya-bagi-indonesia-?source=headline",
+              "source_id": "kompas.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:26:39.451506+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7970337867736816,
+            "article": {
+              "title": "Pourquoi la flambée d’Ebola en RDC inquiète les autorités sanitaires internationales",
+              "url": "https://www.lemonde.fr/planete/article/2026/05/18/pourquoi-la-flambee-d-ebola-en-rdc-inquiete-les-autorites-sanitaires-internationales_6691029_3244.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:20:05.781382+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7917179465293884,
+            "article": {
+              "title": "Indonesia tightens Ebola surveillance after WHO calls the outbreak in Africa a global emergency",
+              "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/05/18/indonesia-tightens-ebola-surveillance-after-who-calls-the-outbreak-in-africa-a-global-emergency",
+              "source_id": "thestar.com.my",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:26:34.878897+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.783166766166687,
+            "article": {
+              "title": "WHO Declares Global Emergency Over Ebola Strain With No Vaccine",
+              "url": "https://time.com/article/2026/05/17/who-global-emergency-ebola-Bundibugyo/",
+              "source_id": "time.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:24:39.563981+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7698464393615723,
+            "article": {
+              "title": "New Ebola outbreak in DR Congo: What we know",
+              "url": "https://www.bangkokpost.com/world/3256958/new-ebola-outbreak-in-dr-congo-what-we-know",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:26:27.347306+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7653170824050903,
+            "article": {
+              "title": "WHO warns of lack of pandemic preparedness amid Ebola outbreak",
+              "url": "https://www.channel4.com/news/who-warns-of-lack-of-pandemic-preparedness-amid-ebola-outbreak",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:14.646235+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7619974613189697,
+            "article": {
+              "title": "WHO ruft Gesundheitsnotstand aus Drei Gründe, warum der neue Ebola-Ausbruch beunruhigend ist Von Alina Schadwinkel",
+              "url": "https://www.spiegel.de/wissenschaft/medizin/ebola-drei-gruende-warum-der-neue-ausbruch-besorgniserregend-ist-a-f7ea2588-ebc5-4293-9090-1359fe7240b0",
+              "source_id": "spiegel.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:29.260209+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7570974826812744,
+            "article": {
+              "title": "Ebola grijpt om zich heen in Congo: waarom verspreidt deze variant zich zo snel?",
+              "url": "https://nos.nl/artikel/2614859-ebola-grijpt-om-zich-heen-in-congo-waarom-verspreidt-deze-variant-zich-zo-snel",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:18.931362+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7525858283042908,
+            "article": {
+              "title": "VIRAL DISEASE OUTBREAK SA’s Ebola risk ‘low’, say officials, after WHO declares international emergency By Naledi Mashishi",
+              "url": "https://www.dailymaverick.co.za/article/2026-05-18-sas-ebola-risk-low-say-officials-after-who-declares-international-emergency/?dm_source=blocks-list-item&dm_medium=card-link&dm_campaign=inform",
+              "source_id": "dailymaverick.co.za",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:23:36.315121+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7451754808425903,
+            "article": {
+              "title": "Casi un centenar de muertos y riesgo regional: Qué se sabe de la epidemia de ébola en RD Congo",
+              "url": "https://www.emol.com/noticias/Internacional/2026/05/18/1200328/ebola-rd-congo-epidemia-contagios.html",
+              "source_id": "emol.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:20:50.879329+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7444906234741211,
+            "article": {
+              "title": "What is an outbreak, epidemic or pandemic? Ebola and public health emergencies ...",
+              "url": "https://www.africanews.com/2026/05/18/what-is-an-outbreak-epidemic-or-pandemic-ebola-and-public-health-emergencies-explained/",
+              "source_id": "africanews.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:23:59.083735+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7347986698150635,
+            "article": {
+              "title": "Ebola and hantavirus outbreaks sign of our ‘dangerous’ times: WHO",
+              "url": "https://www.straitstimes.com/world/europe/ebola-and-hantavirus-outbreaks-sign-of-our-dangerous-times-who?ref=latest-headlines",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:26:32.510165+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7237017154693604,
             "article": {
               "title": "ВОЗ объявила вспышку Эболы в ДРК глобальной чрезвычайной ситуацией 17 мая",
               "url": "https://novayagazeta.eu/articles/2026/05/17/voz-obiavila-vspyshku-eboly-v-drk-globalnoi-chrezvychainoi-situatsiei-news",
               "source_id": "novayagazeta.eu",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:53:45.879185+00:00"
+              "scraped_at_utc": "2026-05-18T20:22:46.498935+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7419624328613281,
-            "article": {
-              "title": "Funke Mediengruppe Infektionskrankheit Ebola im Kongo: WHO ruft internationalen Gesundheitsnotstand aus",
-              "url": "https://www.abendblatt.de/panorama/article412016601/ebola-im-kongo-who-ruft-internationalen-gesundheitsnotstand-aus.html",
-              "source_id": "abendblatt.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:27.334289+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7370932102203369,
-            "article": {
-              "title": "Weltgesundheitsorganisation zu Fällen in Afrika Internationaler Alarm wegen Ebola-Ausbruchs ausgerufen",
-              "url": "https://www.spiegel.de/wissenschaft/medizin/ebola-weltgesundheitsorganisation-schlaegt-alarm-wegen-ausbruchs-in-kongo-und-uganda-a-ba36dddb-1e33-40aa-8082-6aeba099ae57",
-              "source_id": "spiegel.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:15.851640+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7108591794967651,
-            "article": {
-              "title": "What we know so far about the Ebola outbreak in Congo and Uganda",
-              "url": "https://www.theglobeandmail.com/world/article-ebola-explainer-outbreak-congo-uganda-bundibugyo/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:52:08.578476+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6909142732620239,
+            "sim_to_centroid": 0.7115814685821533,
             "article": {
               "title": "Health Africa CDC confirms Ebola outbreak in DRC May 15 -",
               "url": "https://www.theeastafrican.co.ke/tea/sustainability/health/africa-cdc-confirms-ebola-outbreak-in-drc-5460452",
               "source_id": "theeastafrican.co.ke",
               "continent": "Africa",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:54:58.623800+00:00"
+              "scraped_at_utc": "2026-05-18T20:23:57.862468+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6804155707359314,
+            "sim_to_centroid": 0.6971961259841919,
             "article": {
-              "title": "At least six Americans exposed to Ebola during DR Congo outbreak",
-              "url": "https://www.bbc.com/news/articles/cq6pz60p996o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
+              "title": "Congo opens more centers to treat rare type of Ebola that has killed more than 110",
+              "url": "https://apnews.com/article/congo-ebola-305bf410419bdb1311020b72111c12e7",
+              "source_id": "apnews.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:49:55.941356+00:00"
+              "scraped_at_utc": "2026-05-18T20:24:09.735707+00:00"
             }
           }
         ]
       },
       {
-        "score": 62.25625509043994,
-        "size": 11,
-        "n_sources": 11,
+        "score": 66.99705067121113,
+        "size": 15,
+        "n_sources": 14,
         "n_continents": 7,
         "continents": [
           "China",
           "Europe East",
           "Europe North",
           "Europe South",
-          "Middle East",
           "North America",
-          "South America"
+          "Oceania",
+          "South Asia"
         ],
-        "coherence": 0.8574907183647156,
-        "title": "Hantavirus-hit cruise ship docks at Rotterdam port for disinfection",
+        "coherence": 0.8239362239837646,
+        "title": "Justice Department announces a $1.7B fund to compensate Trump allies in a deal to drop IRS suit",
         "central_article": {
-          "title": "Hantavirus-hit cruise ship docks at Rotterdam port for disinfection",
-          "url": "https://www.irishtimes.com/world/europe/2026/05/18/hantavirus-mv-hondius-cruise-ship-rotterdam-port/",
-          "source_id": "irishtimes.com",
-          "continent": "Europe North",
+          "title": "Justice Department announces a $1.7B fund to compensate Trump allies in a deal to drop IRS suit",
+          "url": "https://apnews.com/article/trump-lawsuit-irs-leak-3729de38770b558be01712a143437bf8",
+          "source_id": "apnews.com",
+          "continent": "North America",
           "published_at": null,
-          "scraped_at_utc": "2026-05-18T10:52:22.156154+00:00"
+          "scraped_at_utc": "2026-05-18T20:24:09.735707+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9275708198547363,
+            "sim_to_centroid": 0.926543116569519,
             "article": {
-              "title": "Hantavirus-hit cruise ship docks at Rotterdam port for disinfection",
-              "url": "https://www.irishtimes.com/world/europe/2026/05/18/hantavirus-mv-hondius-cruise-ship-rotterdam-port/",
-              "source_id": "irishtimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:52:22.156154+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9238038063049316,
-            "article": {
-              "title": "Hantavirus-stricken cruise ship docks in the Netherlands for disinfection",
-              "url": "https://apnews.com/article/hantavirus-ship-rotterdam-b45915182f4c8ad6f273f10ffe89286a",
+              "title": "Justice Department announces a $1.7B fund to compensate Trump allies in a deal to drop IRS suit",
+              "url": "https://apnews.com/article/trump-lawsuit-irs-leak-3729de38770b558be01712a143437bf8",
               "source_id": "apnews.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:55:11.181699+00:00"
+              "scraped_at_utc": "2026-05-18T20:24:09.735707+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9137347936630249,
+            "sim_to_centroid": 0.926543116569519,
             "article": {
-              "title": "Hantavirus-hit cruise ship docks in the Netherlands",
-              "url": "https://www.aljazeera.com/news/2026/5/18/hantavirus-hit-cruise-ship-docks-in-the-netherlands",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
+              "title": "Justice Department announces a $1.7B fund to compensate Trump allies in a deal to drop IRS suit",
+              "url": "https://www.chicagotribune.com/2026/05/18/justice-department-irs/",
+              "source_id": "chicagotribune.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:52:23.353363+00:00"
+              "scraped_at_utc": "2026-05-18T20:24:38.274600+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9077476859092712,
+            "sim_to_centroid": 0.9257864952087402,
             "article": {
-              "title": "Hantavirus-hit cruise ship MV Hondius arrives in Rotterdam for disinfection",
-              "url": "https://www.france24.com/en/europe/20260518-hantavirus-hit-cruise-ship-mv-hondius-arrives-in-rotterdam-for-disinfection",
+              "title": "Justice Department announces a $1.7 billion fund to compensate Trump allies in a deal to drop IRS suit",
+              "url": "https://www.bostonglobe.com/2026/05/18/nation/trump-irs-lawsuit/",
+              "source_id": "bostonglobe.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:24:34.689542+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8655268549919128,
+            "article": {
+              "title": "Trump drops $10 billion IRS lawsuit in exchange for $1.7 billion fund for allies",
+              "url": "https://www.france24.com/en/americas/20260518-trump-drops-10-billion-irs-lawsuit-exchange-for-1-7-billion-for-allies-anti-weaponization-fund",
               "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:58.736701+00:00"
+              "scraped_at_utc": "2026-05-18T20:20:10.395900+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8868846893310547,
+            "sim_to_centroid": 0.8567388653755188,
             "article": {
-              "title": "Kelionę baigęs hantaviruso paveiktas kruizinis laivas prisišvartavo Roterdame",
-              "url": "https://www.lrt.lt/naujienos/sveikata/682/2932216/kelione-baiges-hantaviruso-paveiktas-kruizinis-laivas-prisisvartavo-roterdame",
-              "source_id": "lrt.lt",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:53:58.475718+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8672722578048706,
-            "article": {
-              "title": "Hantavirus : le « Hondius » a accosté dans le port de Rotterdam, aux Pays-Bas, avec 27 personnes à bord",
-              "url": "https://www.lemonde.fr/planete/article/2026/05/18/hantavirus-le-hondius-a-accoste-dans-le-port-de-rotterdam-aux-pays-bas-avec-27-personnes-a-bord_6690377_3245.html",
-              "source_id": "lemonde.fr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:53.477251+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8479708433151245,
-            "article": {
-              "title": "El barco del hantavirus llega a Países Bajos y sus 27 ocupantes serán puestos en cuarentena",
-              "url": "https://www.rtve.es/noticias/20260518/crucero-hantavirus-hondius-paises-bajos-cuarentena/17073005.shtml",
-              "source_id": "rtve.es",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:51:09.933683+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8400987386703491,
-            "article": {
-              "title": "Fin de la travesía. El crucero afectado por un brote de hantavirus llegó a su destino en Países Bajos",
-              "url": "https://www.lanacion.com.ar/sociedad/el-crucero-afectado-por-un-brote-de-hantavirus-llego-a-su-destino-final-en-paises-bajos-nid18052026/",
-              "source_id": "lanacion.com.ar",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:51:30.034688+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8314762115478516,
-            "article": {
-              "title": "„Hondius“ legt nach Hantavirus-Odyssee in Rotterdam an: Gesamte Crew muss in Quarantäne",
-              "url": "https://www.diepresse.com/24477282/hondius-legt-nach-hantavirus-odyssee-in-rotterdam-an-gesamte-crew-muss-in-quarantaene",
-              "source_id": "diepresse.com",
+              "title": "Trump’s DOJ announces $1.7B fund to pay his allies who were ‘unfairly’ investigated by Democrats",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-anti-weaponization-fund-b2978840.html",
+              "source_id": "independent.co.uk",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:23.406783+00:00"
+              "scraped_at_utc": "2026-05-18T20:19:10.125149+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7598865032196045,
+            "sim_to_centroid": 0.8519015312194824,
             "article": {
-              "title": "Canadian from hantavirus-hit cruise ship tests positive",
-              "url": "https://www.bbc.com/news/articles/c2k2p057ezno",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
+              "title": "What to know about Trump’s $1.7B fund to compensate allies claiming political targeting",
+              "url": "https://apnews.com/article/trump-doj-fund-irs-trump-family-lawsuit-c9aaa94c59988508c253d7200043cecc",
+              "source_id": "apnews.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:49:55.941356+00:00"
+              "scraped_at_utc": "2026-05-18T20:24:09.735707+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7259511351585388,
+            "sim_to_centroid": 0.8135533332824707,
             "article": {
-              "title": "“洪迪厄斯”号邮轮抵达荷兰鹿特丹港",
-              "url": "https://www.xinhuanet.com/20260518/f9d28d78fc654797b45ee12c08ed8b6e/c.html",
-              "source_id": "xinhuanet.com",
+              "title": "司法部成立17億元基金 賠償特朗普盟友以撤銷國稅局訴訟",
+              "url": "https://www.singtaousa.com/2026/05/18/news/usa/news-justice-department-trump-settlement-fund/",
+              "source_id": "singtaousa.com",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:55:52.100913+00:00"
+              "scraped_at_utc": "2026-05-18T20:24:58.536953+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8044453859329224,
+            "article": {
+              "title": "Trump schikt met eigen belastingdienst en richt miljardenfonds op voor compensatie ‘politieke vervolging’",
+              "url": "https://www.nrc.nl/nieuws/2026/05/18/trump-schikt-met-eigen-belastingdienst-en-richt-miljardenfonds-op-voor-compensatie-politieke-vervolging-a4928140",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:20.533337+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.803975522518158,
+            "article": {
+              "title": "Trump DOJ creates $1.7-billion fund for victims of legal ‘weaponization,’ prompting outrage",
+              "url": "https://www.latimes.com/world-nation/story/2026-05-18/trump-moves-to-dismiss-10b-suit-over-leak-of-tax-returns-after-reports-of-resolution",
+              "source_id": "latimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:24:33.163556+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8035780191421509,
+            "article": {
+              "title": "DOJ offering $1.8 billion 'lawfare' fund to settle Trump IRS lawsuit",
+              "url": "https://www.usatoday.com/story/news/politics/2026/05/18/donald-trump-drops-irs-lawsuit/90141153007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:24:35.768707+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7854247689247131,
+            "article": {
+              "title": "Trump schikt met IRS in ruil voor miljardenfonds voor achterban",
+              "url": "https://fd.nl/politiek/1597094/trump-schikt-met-irs-in-ruil-voor-miljardenfonds-voor-achterban",
+              "source_id": "fd.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:24.368230+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7630655765533447,
+            "article": {
+              "title": "$1.7 bn for Trump's allies? New 'Anti-Weaponization Fund' sparks outrage",
+              "url": "https://timesofindia.indiatimes.com/world/us/1-7-bn-for-trumps-allies-new-anti-weaponization-fund-sparks-outrage/articleshow/131182627.cms",
+              "source_id": "timesofindia.indiatimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:25:12.091701+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7537182569503784,
+            "article": {
+              "title": "‘Corruption on steroids’: Trump drops tax office lawsuit in return for $2.5b ‘slush fund’",
+              "url": "https://www.smh.com.au/world/north-america/corruption-on-steroids-trump-drops-tax-office-lawsuit-in-return-for-2-5b-slush-fund-20260519-p5zyix.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:21:29.232130+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7441314458847046,
+            "article": {
+              "title": "Verden USA Oppretter milliardfond for å kompensere Trump-allierte",
+              "url": "https://www.aftenposten.no/verden/i/n1GE8Q/usas-justisdepartement-oppretter-milliardfond-for-aa-kompensere-trump-a",
+              "source_id": "aftenposten.no",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:49.419967+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.734110414981842,
+            "article": {
+              "title": "Trump stáhl žalobu kvůli úniku daňových přiznání. Původně chtěl obří odškodné Americký prezident Donald Trump stáhl žalobu, v níž žádal finanční úřad Internal Revenue Service (IRS) o odškodné deset miliard dolarů (asi 208 miliard korun) kvůli úniku svých daňových přiznání do médií, informovaly v pondělí agentury AP a Reuters s odkazem na soudní dokumenty. Stanice ABC News minulý týden uvedla, že Trump je připraven žalobu stáhnout v rámci dohody o vytvoření fondu pro prezidentovy spojence, kteří se domnívají, že byli neoprávněně vyšetřováni. Aktualizováno před 3 h hodinami | ČTK , jol",
+              "url": "https://ct24.ceskatelevize.cz/clanek/svet/trump-stahl-zalobu-kvuli-uniku-danovych-priznani-puvodne-chtel-obri-odskodne-373570",
+              "source_id": "ct24.ceskatelevize.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:22:32.499248+00:00"
             }
           }
         ]
       },
       {
-        "score": 52.49026207243952,
-        "size": 23,
+        "score": 61.84779519936025,
+        "size": 19,
         "n_sources": 17,
-        "n_continents": 6,
+        "n_continents": 5,
         "continents": [
-          "China",
           "Europe East",
           "Europe North",
           "Europe South",
-          "North America",
-          "Oceania"
+          "Middle East",
+          "South Asia"
         ],
-        "coherence": 0.767130970954895,
-        "title": "et ukrainsk droneangreb ramte Moskva-regionen",
+        "coherence": 0.8364050388336182,
+        "title": "US extends waiver on sanctions for Russian seaborne oil by",
         "central_article": {
-          "title": "et ukrainsk droneangreb ramte Moskva-regionen",
-          "url": "https://www.dr.dk/nyheder/seneste/mindst-tre-doede-i-ukrainsk-angreb-naer-moskva",
-          "source_id": "dr.dk",
-          "continent": "Europe North",
+          "title": "US extends waiver on sanctions for Russian seaborne oil by",
+          "url": "https://www.hindustantimes.com/world-news/us-extends-waiver-on-sanctions-for-russian-seaborne-oil-by-30-days-report-101779121796399.html",
+          "source_id": "hindustantimes.com",
+          "continent": "South Asia",
           "published_at": null,
-          "scraped_at_utc": "2026-05-18T10:50:44.552872+00:00"
+          "scraped_at_utc": "2026-05-18T20:25:17.288258+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8600335717201233,
+            "sim_to_centroid": 0.9292055368423462,
             "article": {
-              "title": "et ukrainsk droneangreb ramte Moskva-regionen",
-              "url": "https://www.dr.dk/nyheder/seneste/mindst-tre-doede-i-ukrainsk-angreb-naer-moskva",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
+              "title": "US extends waiver on sanctions for Russian seaborne oil by",
+              "url": "https://www.hindustantimes.com/world-news/us-extends-waiver-on-sanctions-for-russian-seaborne-oil-by-30-days-report-101779121796399.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:44.552872+00:00"
+              "scraped_at_utc": "2026-05-18T20:25:17.288258+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8423933386802673,
+            "sim_to_centroid": 0.9200879335403442,
             "article": {
-              "title": "Ukraine Strikes Deep Into Moscow Region Using Domestically Built Drones",
-              "url": "https://www.kyivpost.com/post/76338",
+              "title": "U.S. extends sanctions waiver on Russian seaborne oil by",
+              "url": "https://www.thehindu.com/news/international/us-extend-sanction-waiver-on-russian-seaborne-oil/article70995346.ece",
+              "source_id": "thehindu.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:25:15.895360+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9124467968940735,
+            "article": {
+              "title": "US to extend sanctions relief on Russian oil transactions for",
+              "url": "https://tass.com/economy/2132569",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:22:53.956609+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9048459529876709,
+            "article": {
+              "title": "US Extends Sanctions Waiver for Russian Seaborne Oil",
+              "url": "https://www.kyivpost.com/post/76388",
               "source_id": "kyivpost.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:53:41.960394+00:00"
+              "scraped_at_utc": "2026-05-18T20:22:42.454481+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8267412185668945,
+            "sim_to_centroid": 0.902442455291748,
             "article": {
-              "title": "Ukrainian drone strikes kill four in Russia in its biggest attack in over a year",
-              "url": "https://www.sbs.com.au/news/article/ukraine-drone-attack-in-moscow/j0slo4qzq",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
+              "title": "USA förlänger undantag för rysk olja",
+              "url": "https://www.dn.se/direkt/2026-05-18/usa-forlanger-undantag-for-rysk-olja/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:52:11.345501+00:00"
+              "scraped_at_utc": "2026-05-18T20:19:47.636255+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8213635683059692,
+            "sim_to_centroid": 0.8914581537246704,
             "article": {
-              "title": "Ukraine launches around 600 drones at Russia, Zelensky claims ‘justified’ attack",
-              "url": "https://www.france24.com/en/europe/20260517-ukraine-launches-more-than-500-drones-at-russia-in-deadly-overnight-attack-authorities-say",
-              "source_id": "france24.com",
+              "title": "Les Etats-Unis prolongent l’exemption de sanctions du pétrole russe stocké en mer",
+              "url": "https://www.lesoir.be/747429/article/2026-05-18/les-etats-unis-prolongent-lexemption-de-sanctions-du-petrole-russe-stocke-en-mer",
+              "source_id": "lesoir.be",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:58.736701+00:00"
+              "scraped_at_utc": "2026-05-18T20:20:15.983011+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.803189218044281,
+            "sim_to_centroid": 0.8909306526184082,
             "article": {
-              "title": "Oltre 50 droni ucraini su Mosca: quattro morti. Azione di Kiev anche nel Donetsk: la diretta",
-              "url": "https://www.corriere.it/esteri/diretta-live/26_maggio_18/guerra-ucraina-russia-le-notizie-in-diretta-oltre-50-droni-ucraini-su-mosca-quattro-morti-azione-di-kiev-anche-nel-donetsk.shtml",
-              "source_id": "corriere.it",
+              "title": "USA verlängern Ausnahmen von Sanktionen für Russland-Öl",
+              "url": "https://www.tagesschau.de/ausland/amerika/usa-russisches-oel-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:26.308528+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8583320379257202,
+            "article": {
+              "title": "США продлят ослабление санкций на операции по продаже российской нефти",
+              "url": "https://ria.ru/20260518/ssha-2093184231.html",
+              "source_id": "ria.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:22:55.643665+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8574068546295166,
+            "article": {
+              "title": "US extends pause on Russian oil sanctions into June",
+              "url": "https://www.politico.eu/article/us-pause-russia-oil-sanctions-june-scott-bessent/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:17.715685+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8537881374359131,
+            "article": {
+              "title": "US to waive sanctions on Russian oil shipments for",
+              "url": "https://tass.com/economy/2132587",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:22:53.956609+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8481210470199585,
+            "article": {
+              "title": "США снова ослабят санкции против российской нефти. Еще на месяц",
+              "url": "https://meduza.io/news/2026/05/18/ssha-snova-oslabyat-sanktsii-protiv-rossiyskoy-nefti-esche-na-mesyats",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:22:45.092286+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8472790122032166,
+            "article": {
+              "title": "US extends sanctions waiver until June 17 on Russian oil loaded by April 17",
+              "url": "https://tass.com/economy/2132621",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:22:53.956609+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8297929763793945,
+            "article": {
+              "title": "US renews Russia oil sanctions waiver amid continued Iranian control over Hormuz",
+              "url": "https://www.presstv.ir/Detail/2026/05/18/768877/US-sanctions-waiver-Russian-renewal-Iran-Hormuz-control",
+              "source_id": "presstv.ir",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:22:01.641869+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8003413081169128,
+            "article": {
+              "title": "US again grants Russia oil sanctions waiver despite Treasury chief's pledges not to.",
+              "url": "https://kyivindependent.com/us-source-denies-reports-of-new-russian-oil-sanctions-waiver/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:22:43.991936+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7650865912437439,
+            "article": {
+              "title": "US agrees to lift oil sanctions on Iran",
+              "url": "https://www.albawaba.com/news/us-agrees-lift-oil-sanctions-iran-1627980",
+              "source_id": "albawaba.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:22:07.772175+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7529909014701843,
+            "article": {
+              "title": "ভারতের জন্য সুখবর! হরমুজ সংকট আবহে রুশ তেলে আরো ৩০ দিনের জন্য নিষেধাজ্ঞা শিথিল আমেরিকার",
+              "url": "https://bartamanpatrika.com/news/us-extends-sanctions-waiver-on-russian-seaborne-oil-by-30-days",
+              "source_id": "bartamanpatrika.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:25:25.441009+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7243764996528625,
+            "article": {
+              "title": "USA opět prodloužily výjimku umožňující nákup ruské ropy na tankerech Spojené státy podruhé prodloužily o třicet dní výjimku, která zemím umožní nakupovat sankcionovanou ruskou ropu naloženou na tankerech, oznámil v pondělí americký ministr financí Scott Bessent. Tvrdí, že výjimka umožní stabilizovat trh s ropou a dopravit surovinu do energeticky nejzranitelnějších zemí. Aktualizováno před 2 h hodinami | ČTK , ČT24 , hop",
+              "url": "https://ct24.ceskatelevize.cz/clanek/ekonomika/usa-opet-prodlouzily-vyjimku-umoznujici-nakup-ruske-ropy-na-tankerech-373578",
+              "source_id": "ct24.ceskatelevize.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:22:32.499248+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.71434086561203,
+            "article": {
+              "title": "Estados Unidos amplía sus sanciones contra Cuba",
+              "url": "https://elpais.com/us/2026-05-18/estados-unidos-amplia-sus-sanciones-contra-cuba.html",
+              "source_id": "elpais.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:51:14.999469+00:00"
+              "scraped_at_utc": "2026-05-18T20:20:17.975663+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7985870838165283,
+            "sim_to_centroid": 0.688422441482544,
             "article": {
-              "title": "Oorlog Rusland-Oekraïne \"Volkomen gerechtvaardigd\": Oekraïne voert aanval met 550 drones uit op Rusland, minstens 4 doden zo 17 mei",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/05/17/grote-droneaanval-op-moskou-rusland/",
-              "source_id": "vrt.be",
+              "title": "Gli Usa annunciano una deroga di un mese sul petrolio russo |",
+              "url": "https://www.repubblica.it/esteri/2026/05/18/diretta/guerra_ucraina_russia_news_oggi-425352733/",
+              "source_id": "repubblica.it",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:51:01.989632+00:00"
+              "scraped_at_utc": "2026-05-18T20:20:28.119768+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 39.891773590082195,
+        "size": 11,
+        "n_sources": 11,
+        "n_continents": 5,
+        "continents": [
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.835767388343811,
+        "title": "Iran submits new 14-point proposal to US via Pakistan to end war: Report",
+        "central_article": {
+          "title": "Iran submits new 14-point proposal to US via Pakistan to end war: Report",
+          "url": "https://www.presstv.ir/Detail/2026/05/18/768858/Iran-Pakistan-US-proposal",
+          "source_id": "presstv.ir",
+          "continent": "Middle East",
+          "published_at": null,
+          "scraped_at_utc": "2026-05-18T20:22:01.641869+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8858594298362732,
+            "article": {
+              "title": "Iran submits new 14-point proposal to US via Pakistan to end war: Report",
+              "url": "https://www.presstv.ir/Detail/2026/05/18/768858/Iran-Pakistan-US-proposal",
+              "source_id": "presstv.ir",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:22:01.641869+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7977554798126221,
+            "sim_to_centroid": 0.8765063285827637,
+            "article": {
+              "title": "Iran-Krieg: Teheran schickt neuen Vorschlag an die USA",
+              "url": "https://www.tagesschau.de/ausland/asien/iran-usa-verhandlungen-114.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:26.308528+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8634682893753052,
+            "article": {
+              "title": "Pakistan hands US revised Iranian proposal for ending war",
+              "url": "https://kathmandupost.com/world/2026/05/18/pakistan-hands-us-revised-iranian-proposal-for-ending-war",
+              "source_id": "kathmandupost.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:25:31.899230+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8566390872001648,
+            "article": {
+              "title": "Irán entrega nueva propuesta a Pakistán para reanudar negociación con EE.UU., según medios",
+              "url": "https://elcomercio.pe/mundo/oriente-medio/iran-entrega-nueva-propuesta-a-pakistan-para-reanudar-negociacion-con-estados-unidos-segun-medios-donald-trump-israel-ultimas-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:21:00.630265+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8553832769393921,
+            "article": {
+              "title": "Iran sends response to US proposal to end war via mediator Pakistan",
+              "url": "https://www.aljazeera.com/news/2026/5/18/iran-sends-response-to-us-proposal-to-end-war-via-mediator-pakistan-2",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:21:45.201803+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.852603018283844,
+            "article": {
+              "title": "Iran submits new proposal, says U.S. open to sanctions relief",
+              "url": "https://www.thehindu.com/news/international/iran-submits-new-proposal-says-us-open-to-sanctions-relief/article70995124.ece",
+              "source_id": "thehindu.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:25:15.895360+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8452560305595398,
+            "article": {
+              "title": "Iran submits updated 14-point proposal to US through Pakistan",
+              "url": "https://www.newarab.com/news/iran-submits-updated-14-point-proposal-us-through-pakistan",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:22:09.183561+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8285874724388123,
+            "article": {
+              "title": "Krise in Nahost Iran reagiert auf US-Vorschlag zu möglichem Kriegsende",
+              "url": "https://www.spiegel.de/ausland/iran-reagiert-auf-us-vorschlag-zu-moeglichem-kriegsende-a-a2948504-709d-45f7-aa1e-f8ef04935edc",
+              "source_id": "spiegel.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:29.260209+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8183202743530273,
+            "article": {
+              "title": "Iran has responded to latest US peace proposal, Tehran official says",
+              "url": "https://www.euronews.com/2026/05/18/trump-says-there-wont-be-anything-left-of-iran-if-it-does-not-quickly-agree-to-a-deal-with",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:16.215812+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7971327304840088,
+            "article": {
+              "title": "US-Israel war on Iran Iran makes new proposal for deal to end war, regional officials say",
+              "url": "https://www.theguardian.com/world/2026/may/18/iran-new-proposal-deal-to-end-war-us-israel",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:12.987823+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7136860489845276,
+            "article": {
+              "title": "Τι περιλαμβάνει η πρόταση του Ιράν για το πυρηνικό πρόγραμμα και τα Στενά του Ορμούζ",
+              "url": "https://www.tovima.gr/2026/05/18/world/ti-perilamvanei-i-protasi-tou-iran-gia-to-pyriniko-programma-kai-ta-stena-tou-ormouz/",
+              "source_id": "tovima.gr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:20:33.054871+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 38.2039088857255,
+        "size": 9,
+        "n_sources": 9,
+        "n_continents": 6,
+        "continents": [
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "Oceania"
+        ],
+        "coherence": 0.8307907581329346,
+        "title": "Russian drones hit two ships off Ukraine's coast, including Chinese-owned vessel",
+        "central_article": {
+          "title": "Russian drones hit two ships off Ukraine's coast, including Chinese-owned vessel",
+          "url": "https://www.france24.com/en/europe/20260518-russian-drones-hit-two-ships-off-ukraine-coast-including-chinese-owned-vessel-odesa",
+          "source_id": "france24.com",
+          "continent": "Europe South",
+          "published_at": null,
+          "scraped_at_utc": "2026-05-18T20:20:10.395900+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8663338422775269,
             "article": {
               "title": "Russian drones hit two ships off Ukraine's coast, including Chinese-owned vessel",
               "url": "https://www.france24.com/en/europe/20260518-russian-drones-hit-two-ships-off-ukraine-coast-including-chinese-owned-vessel-odesa",
               "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:58.736701+00:00"
+              "scraped_at_utc": "2026-05-18T20:20:10.395900+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7931012511253357,
+            "sim_to_centroid": 0.8639678955078125,
             "article": {
-              "title": "Ukrajina i Rusko hlásí mrtvé. Rusové zasáhli i loď s čínskou posádkou Jednoho mrtvého a kolem čtyřiceti zraněných si vyžádaly další útoky, které ruská armáda podnikla na různých místech na Ukrajině, informují ukrajinské úřady. Jen v Dnipru utrpělo zranění osmnáct lidí, mezi nimi dvouletá dívka a desetiletý chlapec. Další zraněné hlásí Oděsa, Záporožská oblast či Chersonská oblast, kde mělo dojít i ke zmíněnému úmrtí. Ruský dron zasáhl rovněž obchodní loď s čínskou posádkou v Černém moři. Ruské úřady informovaly o dvou mrtvých, které podle nich zabil ukrajinský dron. ČTK , srk",
-              "url": "https://ct24.ceskatelevize.cz/clanek/svet/ukrajina-po-ruskych-utocich-hlasi-jednoho-mrtveho-a-desitky-zranenych-373551",
-              "source_id": "ct24.ceskatelevize.cz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:53:27.507235+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7907826900482178,
-            "article": {
-              "title": "Russia downed over 3,000 Ukrainian drones in past week, state media reports.",
-              "url": "https://kyivindependent.com/russia-downed-over-3-000-drones-over-past-week-state-media-reports/",
-              "source_id": "kyivindependent.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:53:43.461055+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7900452613830566,
-            "article": {
-              "title": "Funke Mediengruppe Tote und Verletzte Ukraine mit heftiger Attacke – zahlreiche Drohnen schlagen bei Moskau ein",
-              "url": "https://www.abendblatt.de/politik/article412018870/ukraine-mit-heftiger-attacke-zahlreiche-drohnen-schlagen-bei-moskau-ein.html",
-              "source_id": "abendblatt.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:27.334289+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7831664085388184,
-            "article": {
-              "title": "Zelensky Hails Ukraine's Growing Drone Capability After Massive Moscow Strike",
-              "url": "https://time.com/article/2026/05/17/ukraine-drone-moscow-zelenksy/",
-              "source_id": "time.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:55:39.887526+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.777387261390686,
-            "article": {
-              "title": "At least 2 killed, 49 injured in Russian attacks across Ukraine over past day.",
-              "url": "https://kyivindependent.com/at-least-killed-injured-in-russian-attacks-across-ukraine-over-past-day/",
-              "source_id": "kyivindependent.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:53:43.461055+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7578301429748535,
-            "article": {
-              "title": "Аналитика Война в Украине Украина нанесла один из самых масштабных ударов дронами по Москве и Подмосковью Что стало целью атаки и могут ли такие удары повториться — «Новая-Европа» спросила у военных экспертов Илья Волжский Софья Каневская 17 мая",
-              "url": "https://novayagazeta.eu/articles/2026/05/17/ukraina-nanesla-odin-iz-samykh-masshtabnykh-udarov-dronami-po-moskve-i-podmoskoviu",
-              "source_id": "novayagazeta.eu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:53:45.879185+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7523889541625977,
-            "article": {
-              "title": "De gensidige angreb fra både russisk og ukrainsk side er fortsat",
-              "url": "https://www.dr.dk/nyheder/udland/efter-flere-russiske-angreb-rammer-ukraine-nu-moskva-vi-siger-tydeligt-til-russerne-deres-stat-skal",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:44.552872+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7482154369354248,
-            "article": {
-              "title": "Russian Drone Reportedly Hits Chinese Ship as Zelensky Warns of Wider Escalation",
-              "url": "https://www.kyivpost.com/post/76346",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:53:41.960394+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7447681427001953,
-            "article": {
-              "title": "Как Украина бьет дронами по Москве на протяжении всей войны? Интенсивность украинских атак за последние два года увеличилась в десятки раз",
-              "url": "https://meduza.io/feature/2026/05/17/kak-ukraina-biet-dronami-po-moskve-na-protyazhenii-vsey-voyny",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:53:44.551976+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7403324842453003,
-            "article": {
-              "title": "乌称遭开战来最大规模空袭 俄军发射超1500架无人机",
-              "url": "https://photos.caixin.com/2026-05-15/102444301.html",
-              "source_id": "caixin.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:55:56.750949+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7351856231689453,
-            "article": {
-              "title": "Ukraine war briefing The drones that bombarded Moscow region",
-              "url": "https://www.theguardian.com/world/2026/may/18/ukraine-war-briefing-the-drones-that-bombarded-moscow-region",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:00.270572+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7163997888565063,
-            "article": {
-              "title": "Russia Pounds Dnipro, Odesa Overnight: 20 Injured, Children Among Victims",
-              "url": "https://www.kyivpost.com/post/76334",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:53:41.960394+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.704542875289917,
-            "article": {
-              "title": "Ukrainian military drone found crashed in Lithuania — crisis management center",
-              "url": "https://tass.com/world/2132083",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:53:53.902116+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6992232799530029,
-            "article": {
-              "title": "В Киеве запаниковали после налета дронов ВСУ на Москву",
-              "url": "https://ria.ru/20260518/bpla-2093044303.html",
-              "source_id": "ria.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:53:55.555603+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6971525549888611,
-            "article": {
-              "title": "Neviditelná past. Ukrajinská pole dusí vlákna z dronů, hrozí smrtící exploze",
-              "url": "https://www.idnes.cz/zpravy/zahranicni/ukrajina-rusko-valka-opticke-kabely-vlakna-odminovani-likvidace.A260512_135400_zahranicni_dtt",
-              "source_id": "idnes.cz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:53:25.049502+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6634268760681152,
-            "article": {
-              "title": "Inside a Ukrainian mission to liberate territory from Russian occupation",
-              "url": "https://kyivindependent.com/inside-a-mission-to-liberate-russian-occupied-territory-in-ukraines-south/",
-              "source_id": "kyivindependent.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:53:43.461055+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 50.71135950458113,
-        "size": 11,
-        "n_sources": 11,
-        "n_continents": 6,
-        "continents": [
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "North America",
-          "South America"
-        ],
-        "coherence": 0.8472990393638611,
-        "title": "2 US Navy jets collide mid-air at Idaho airshow",
-        "central_article": {
-          "title": "2 US Navy jets collide mid-air at Idaho airshow",
-          "url": "https://www.channelnewsasia.com/shorts/2-us-navy-jets-collide-mid-air-idaho-airshow-6127811",
-          "source_id": "channelnewsasia.com",
-          "continent": "East Asia",
-          "published_at": null,
-          "scraped_at_utc": "2026-05-18T10:57:23.837037+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9156824350357056,
-            "article": {
-              "title": "2 US Navy jets collide mid-air at Idaho airshow",
-              "url": "https://www.channelnewsasia.com/shorts/2-us-navy-jets-collide-mid-air-idaho-airshow-6127811",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:57:23.837037+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8963534832000732,
-            "article": {
-              "title": "Moment two military jets collide mid-air and cause fiery crash during Idaho air show",
-              "url": "https://www.independent.co.uk/news/world/americas/idaho-air-force-plane-crash-mountain-home-b2978291.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:49:57.297972+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8852108716964722,
-            "article": {
-              "title": "Crew members safely eject after Navy jets collide during Idaho air show",
-              "url": "https://www.pbs.org/newshour/nation/crew-member-safely-eject-after-navy-jets-collide-during-idaho-air-show",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:55:42.548905+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8842276334762573,
-            "article": {
-              "title": "Dos aviones de combate chocan durante un show aéreo en Estados Unidos",
-              "url": "https://www.emol.com/noticias/Internacional/2026/05/17/1200266/aviones-chocan-en-eeuu.html",
-              "source_id": "emol.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:51:35.537657+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8421908617019653,
-            "article": {
-              "title": "4 crew members eject safely after two Navy jets crash during air show in Idaho",
-              "url": "https://apnews.com/article/air-show-idaho-incident-lockdown-cf2c98134c068cfcb8987e68a3177c62",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:55:11.181699+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.833559513092041,
-            "article": {
-              "title": "Piloten überleben Zusammenstoß zweier Jets in Idaho",
-              "url": "https://www.zdfheute.de/panorama/usa-idaho-flugzeugzusammenstoss-piloten-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:25.542985+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8309094309806824,
-            "article": {
-              "title": "Aviões se chocam, caem e explodem durante exibição nos EUA; veja vídeo",
-              "url": "https://www.estadao.com.br/internacional/avioes-se-chocam-caem-e-explodem-durante-exibicao-nos-eua-veja-video-do-acidente-npr/",
-              "source_id": "estadao.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:51:41.282864+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8282280564308167,
-            "article": {
-              "title": "Verenigde Staten 2 straaljagers botsen tijdens Amerikaanse vliegshow",
-              "url": "https://www.vrt.be/vrtnws/nl/kijk/2026/05/18/2-straaljagers-botsen-tijdens-amerikaanse-vliegshow/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:51:01.989632+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8242037296295166,
-            "article": {
-              "title": "Unfall im US-Bundesstaat Idaho Zusammenstoß bei Flugschau - Piloten überleben",
-              "url": "https://www.tagesschau.de/ausland/amerika/kampfjets-idaho-zusammenstoss-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:12.803293+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8025655150413513,
-            "article": {
-              "title": "En video quedó el angustiante momento en el que dos cazas estadounidenses chocan en pleno show aéreo: pilotos tuvieron que eyectarse",
-              "url": "https://www.semana.com/mundo/noticias-estados-unidos/articulo/en-video-quedo-el-angustiante-momento-en-que-dos-cazas-estadounidenses-chocan-en-pleno-show-aereo-pilotos-tuvieron-que-eyectarse/202639/",
-              "source_id": "semana.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:51:32.782267+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7771576046943665,
-            "article": {
-              "title": "Při letecké show v Idahu se srazily dvě stíhačky Při letecké show na vojenské základně v americkém státě Idaho se ve vzduchu srazily dvě stíhačky. Posádky se bezpečně katapultovaly, píše s odvoláním na organizátory agentura AP. Na místě jsou záchranáři, úřady budou věc vyšetřovat. před 4 h hodinami | ČTK , den",
-              "url": "https://ct24.ceskatelevize.cz/clanek/svet/pri-letecke-show-v-idahu-se-srazily-dve-stihacky-373550",
-              "source_id": "ct24.ceskatelevize.cz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:53:27.507235+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 37.411005619994334,
-        "size": 10,
-        "n_sources": 10,
-        "n_continents": 5,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "Middle East",
-          "North America",
-          "South Asia"
-        ],
-        "coherence": 0.8419883847236633,
-        "title": "Drone strikes UAE nuclear plant as US and Iran signal they are prepared to resume war",
-        "central_article": {
-          "title": "Drone strikes UAE nuclear plant as US and Iran signal they are prepared to resume war",
-          "url": "https://apnews.com/article/iran-us-uae-nuclear-drones-71e7e58f45193b7dee3df28740532a7b",
-          "source_id": "apnews.com",
-          "continent": "North America",
-          "published_at": null,
-          "scraped_at_utc": "2026-05-18T10:55:11.181699+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.928905189037323,
-            "article": {
-              "title": "Drone strikes UAE nuclear plant as US and Iran signal they are prepared to resume war",
-              "url": "https://apnews.com/article/iran-us-uae-nuclear-drones-71e7e58f45193b7dee3df28740532a7b",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:55:11.181699+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.928905189037323,
-            "article": {
-              "title": "Drone strikes UAE nuclear plant as US and Iran signal they are prepared to resume war",
-              "url": "https://www.bostonglobe.com/2026/05/17/world/drone-strike-causes-fire-outside-nuclear-power-plant-in-abu-dhabi/",
-              "source_id": "bostonglobe.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:55:35.343565+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9031610488891602,
-            "article": {
-              "title": "UAE reports drone strike on nuclear power plant",
-              "url": "https://www.rt.com/news/640111-uae-drone-strike-nuclear-plant/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:53:50.310758+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8936412334442139,
-            "article": {
-              "title": "Fire sparked after drone strike at UAE nuclear plant",
-              "url": "https://www.politico.eu/article/fire-drone-strike-united-arab-emirates-uae-barakah-nuclear-plant/",
-              "source_id": "politico.eu",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:04.227070+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8659610748291016,
-            "article": {
-              "title": "Iran threatens UAE after drone strike on nuclear plant leaves region on brink",
-              "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-updates-trump-b2978147.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:49:57.297972+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8332407474517822,
-            "article": {
-              "title": "Drone attack starts fire at UAE nuclear power plant By Jon Gambrell, Samy Magdy, Associated Press",
-              "url": "https://www.pbs.org/newshour/world/drone-attack-starts-fire-at-uae-nuclear-power-plant",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:55:42.548905+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8114776015281677,
-            "article": {
-              "title": "UAE and Saudi Arabia report drone incidents as Iran war deadlock drags on",
-              "url": "https://kathmandupost.com/world/2026/05/18/uae-and-saudi-arabia-report-drone-incidents-as-iran-war-deadlock-drags-on",
-              "source_id": "kathmandupost.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:56:52.618294+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7835069894790649,
-            "article": {
-              "title": "UN chief leads global denunciation of drone attack on UAE nuclear plant",
-              "url": "https://www.thenationalnews.com/news/uae/2026/05/18/un-chief-leads-global-denunciation-of-drone-attack-on-uae-nuclear-power-plant/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:52:25.287086+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7647064924240112,
-            "article": {
-              "title": "Brand bij kerncentrale in Verenigde Arabische Emiraten na aanval met drone, aanval zet staakt het vuren verder onder druk",
-              "url": "https://www.nrc.nl/nieuws/2026/05/17/brand-bij-kerncentrale-in-verenigde-arabische-emiraten-na-aanval-met-drone-aanval-zet-staakt-het-vuren-verder-onder-druk-a4928024",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:07.052078+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7063777446746826,
-            "article": {
-              "title": "Defence UAE nuclear plant strike revives India-Pakistan red line: What the 1988 pact says",
-              "url": "https://timesofindia.indiatimes.com/defence/international/uae-nuclear-plant-strike-revives-india-pakistan-red-line-what-the-1988-pact-says/articleshow/131169173.cms",
-              "source_id": "timesofindia.indiatimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:56:10.235478+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 33.877507037326005,
-        "size": 9,
-        "n_sources": 9,
-        "n_continents": 7,
-        "continents": [
-          "Africa",
-          "Europe North",
-          "Middle East",
-          "North America",
-          "Oceania",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.7759233117103577,
-        "title": "Oil climbs while stocks and bonds drop as Trump threatens to renew strikes on Iran",
-        "central_article": {
-          "title": "Oil climbs while stocks and bonds drop as Trump threatens to renew strikes on Iran",
-          "url": "https://www.thenationalnews.com/business/markets/2026/05/18/oil-climbs-while-stocks-and-bonds-drop-as-trump-threatens-to-renew-strikes-on-iran/",
-          "source_id": "thenationalnews.com",
-          "continent": "Middle East",
-          "published_at": null,
-          "scraped_at_utc": "2026-05-18T10:52:25.287086+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8846899271011353,
-            "article": {
-              "title": "Oil climbs while stocks and bonds drop as Trump threatens to renew strikes on Iran",
-              "url": "https://www.thenationalnews.com/business/markets/2026/05/18/oil-climbs-while-stocks-and-bonds-drop-as-trump-threatens-to-renew-strikes-on-iran/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:52:25.287086+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8375905752182007,
-            "article": {
-              "title": "Oil Oil prices rise and bonds wobble as Iran war stokes inflation fears",
-              "url": "https://www.theguardian.com/business/2026/may/18/oil-prices-rise-bonds-iran-war-peace-talks-inflation-trump-crude-gilts-starmer",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:00.270572+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8001061081886292,
-            "article": {
-              "title": "Precio del petróleo extiende rally tras renovadas tensiones en Medio Oriente",
-              "url": "https://www.emol.com/noticias/Economia/2026/05/18/1200284/petroleo-precio-medio-oriente.html",
-              "source_id": "emol.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:51:35.537657+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7820471525192261,
-            "article": {
-              "title": "عالمی مارکیٹ میں تیل کی قیمتوں میں ایک بار پھر اضافہ",
-              "url": "https://www.nawaiwaqt.com.pk/18-May-2026/1994667",
-              "source_id": "nawaiwaqt.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:56:55.682413+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7762957811355591,
-            "article": {
-              "title": "Krieg in Nahost Ölpreis steigt nach Angriff auf Kraftwerk in Emiraten, Drohnen über Saudi-Arabien abgefangen",
-              "url": "https://www.spiegel.de/ausland/iran-krieg-oelpreis-steigt-nach-angriff-auf-kraftwerk-in-emiraten-drohnen-ueber-saudi-arabien-abgefangen-a-f30c0f3b-db8c-483a-9e88-11b1596035b6",
-              "source_id": "spiegel.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:15.851640+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7558293342590332,
-            "article": {
-              "title": "Markets on edge as US-Iran standoff threatens Gulf energy infrastructure",
-              "url": "https://businessday.ng/world/article/markets-on-edge-as-us-iran-standoff-threatens-gulf-energy-infrastructure/",
-              "source_id": "businessday.ng",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:54:57.072207+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7274301052093506,
-            "article": {
-              "title": "Trump threatens war return, Iran declares new Hormuz authority",
-              "url": "https://www.newarab.com/news/trump-threatens-war-return-iran-declares-new-hormuz-authority",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:53:00.046550+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7239912748336792,
-            "article": {
-              "title": "UAE reports drone strike at nuclear power plant as Trump says 'clock is ticking' for Iran",
-              "url": "https://www.sbs.com.au/news/article/uae-power-plant-drone-strike-trump-iran-deal/47ul4dprf",
+              "title": "Ukrainian drone strikes kill four in Russia in its biggest attack in over a year",
+              "url": "https://www.sbs.com.au/news/article/ukraine-drone-attack-in-moscow/j0slo4qzq",
               "source_id": "sbs.com.au",
               "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:52:11.345501+00:00"
+              "scraped_at_utc": "2026-05-18T20:21:27.848170+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6953291893005371,
+            "sim_to_centroid": 0.8559144139289856,
             "article": {
-              "title": "Trump returns to the U.S. from China with pressure over rising inflation",
-              "url": "https://www.pbs.org/newshour/economy/trump-returns-to-the-u-s-from-china-with-pressure-over-rising-inflation",
-              "source_id": "pbs.org",
+              "title": "Russian drone hits Chinese ship off Ukraine before Putin meets Xi Jinping",
+              "url": "https://www.aljazeera.com/news/2026/5/18/russian-drone-hits-chinese-ship-off-ukraine-before-putin-visits-xi-jinping",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:21:45.201803+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8455030918121338,
+            "article": {
+              "title": "Ataca Ucrania a Rusia con 600 drones y deja cuatro muertos",
+              "url": "https://www.reforma.com/ataca-ucrania-a-rusia-con-600-drones-y-deja-cuatro-muertos/ar3205849?v=2",
+              "source_id": "reforma.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:55:42.548905+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 24.150753635923486,
-        "size": 9,
-        "n_sources": 8,
-        "n_continents": 5,
-        "continents": [
-          "Africa",
-          "China",
-          "Europe East",
-          "Europe North",
-          "North America"
-        ],
-        "coherence": 0.7990872263908386,
-        "title": "Trumps bezoek aan China kent één echte winnaar: Xi Jinping",
-        "central_article": {
-          "title": "Trumps bezoek aan China kent één echte winnaar: Xi Jinping",
-          "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5602209/trump-bezoek-china-einde-xi-jinping-grote-winnaar",
-          "source_id": "rtl.nl",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-05-18T10:50:09.174769+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8677828311920166,
-            "article": {
-              "title": "Trumps bezoek aan China kent één echte winnaar: Xi Jinping",
-              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5602209/trump-bezoek-china-einde-xi-jinping-grote-winnaar",
-              "source_id": "rtl.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:09.174769+00:00"
+              "scraped_at_utc": "2026-05-18T20:20:35.673066+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8265504240989685,
+            "sim_to_centroid": 0.8358268737792969,
             "article": {
-              "title": "Trump’s 2026 trip to China",
-              "url": "https://www.scmp.com/news/china/diplomacy/series/3346312/trumps-2026-trip-china?module=series_trump%E2%80%99s_2026_trip_to_china&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:55:43.973324+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8101304769515991,
-            "article": {
-              "title": "Met welke deals vertrekt Trump uit China?",
-              "url": "https://fd.nl/economie/1596625/met-welke-deals-vertrekt-trump-uit-china",
-              "source_id": "fd.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:10.958629+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8006903529167175,
-            "article": {
-              "title": "News Analysis: Trump spent two days with Xi in Beijing. Was he outplayed?",
-              "url": "https://www.latimes.com/politics/story/2026-05-17/trump-china-summit",
-              "source_id": "latimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:55:34.082528+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7939147353172302,
-            "article": {
-              "title": "„Trump vrea detensionarea. Xi vrea Taiwanul”. Omul care a arătat, când Trump a aterizat în China, ce va spune când va decola",
-              "url": "https://hotnews.ro/trump-vrea-detensionarea-xi-vrea-taiwanul-2247254",
-              "source_id": "hotnews.ro",
+              "title": "Drone incidents are a consequence of Russia's aggression against Ukraine",
+              "url": "https://www.baltictimes.com/drone_incidents_are_a_consequence_of_russia_s_aggression_against_ukraine_-_rinkevics/",
+              "source_id": "baltictimes.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:53:22.695648+00:00"
+              "scraped_at_utc": "2026-05-18T20:23:00.716272+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7849791049957275,
+            "sim_to_centroid": 0.826177716255188,
             "article": {
-              "title": "Trump’s China Trip Underscores How Power Has Shifted East",
-              "url": "https://time.com/article/2026/05/15/trump-xi-us-china-summit-analysis/",
-              "source_id": "time.com",
-              "continent": "North America",
+              "title": "Ukraines dronekrig presser nu for alvor Ruslands naboer",
+              "url": "https://www.dr.dk/nyheder/udland/ukraines-dronekrig-presser-nu-alvor-ruslands-naboer",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:55:39.887526+00:00"
+              "scraped_at_utc": "2026-05-18T20:19:56.780598+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.782758355140686,
+            "sim_to_centroid": 0.816390872001648,
             "article": {
-              "title": "Trump’s China Visit: Most Memorable Photos",
-              "url": "https://time.com/article/2026/05/14/trump-visit-china-taiwan-photos/",
-              "source_id": "time.com",
-              "continent": "North America",
+              "title": "Russian drone strikes Chinese cargo ship in Black Sea",
+              "url": "https://www.albawaba.com/news/russian-drone-strikes-chinese-cargo-ship-1627925",
+              "source_id": "albawaba.com",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:55:39.887526+00:00"
+              "scraped_at_utc": "2026-05-18T20:22:07.772175+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7711076736450195,
+            "sim_to_centroid": 0.7920201420783997,
             "article": {
-              "title": "Xi Jinping Was Only Humoring Trump",
-              "url": "https://www.theatlantic.com/ideas/2026/05/trump-lame-duck-superpower/687189/",
-              "source_id": "theatlantic.com",
-              "continent": "North America",
+              "title": "Ukraine breaches Russia’s strongest air defenses to hit Moscow",
+              "url": "https://www.politico.eu/article/ukraine-breaches-russia-strongest-air-defenses-drone-attack-hits-moscow/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:55:41.073076+00:00"
+              "scraped_at_utc": "2026-05-18T20:19:17.715685+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7538706660270691,
+            "sim_to_centroid": 0.7749819755554199,
             "article": {
-              "title": "GEOPOLITICS ANALYSIS Trump claims triumph in Beijing, while Xi Jinping smiles By J Brooks Spector",
-              "url": "https://www.dailymaverick.co.za/article/2026-05-17-trump-claims-triumph-in-beijing-while-xi-jinping-smiles/?dm_source=blocks-list-item&dm_medium=card-link&dm_campaign=inform",
-              "source_id": "dailymaverick.co.za",
-              "continent": "Africa",
+              "title": "Putin domani in Cina da Xi, il Cremlino: «Alte aspettative». Oltre 50 droni ucraini su Mosca: quattro morti",
+              "url": "https://www.corriere.it/esteri/diretta-live/26_maggio_18/guerra-ucraina-russia-le-notizie-in-diretta-oltre-50-droni-ucraini-su-mosca-quattro-morti-azione-di-kiev-anche-nel-donetsk.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:54:52.696644+00:00"
+              "scraped_at_utc": "2026-05-18T20:20:30.037437+00:00"
             }
           }
         ]
       },
       {
-        "score": 23.840727591899565,
-        "size": 9,
+        "score": 36.47533088687621,
+        "size": 10,
         "n_sources": 9,
-        "n_continents": 3,
+        "n_continents": 5,
         "continents": [
+          "Europe East",
           "Europe North",
           "Europe South",
+          "North America",
           "South America"
         ],
-        "coherence": 0.8751116991043091,
-        "title": "Shakira gana la batalla a Hacienda, condenada a devolverle 60 millones",
+        "coherence": 0.8579947352409363,
+        "title": "Shakira gana su última batalla contra Hacienda, que deberá devolverle 60 millones de euros",
         "central_article": {
-          "title": "Shakira gana la batalla a Hacienda, condenada a devolverle 60 millones",
-          "url": "https://www.rtve.es/noticias/20260518/shakira-gana-batalla-hacienda-tendra-pagar-costas-proceso/17073080.shtml",
-          "source_id": "rtve.es",
+          "title": "Shakira gana su última batalla contra Hacienda, que deberá devolverle 60 millones de euros",
+          "url": "https://www.lavanguardia.com/gente/20260518/11540939/shakira-gana-batalla-hacienda-debera-devolverle-60-millones-euros.html",
+          "source_id": "lavanguardia.com",
           "continent": "Europe South",
           "published_at": null,
-          "scraped_at_utc": "2026-05-18T10:51:09.933683+00:00"
+          "scraped_at_utc": "2026-05-18T20:20:19.224060+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8951836228370667,
-            "article": {
-              "title": "Shakira gana la batalla a Hacienda, condenada a devolverle 60 millones",
-              "url": "https://www.rtve.es/noticias/20260518/shakira-gana-batalla-hacienda-tendra-pagar-costas-proceso/17073080.shtml",
-              "source_id": "rtve.es",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:51:09.933683+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.894889235496521,
+            "sim_to_centroid": 0.9241139888763428,
             "article": {
               "title": "Shakira gana su última batalla contra Hacienda, que deberá devolverle 60 millones de euros",
               "url": "https://www.lavanguardia.com/gente/20260518/11540939/shakira-gana-batalla-hacienda-debera-devolverle-60-millones-euros.html",
               "source_id": "lavanguardia.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:51:07.323057+00:00"
+              "scraped_at_utc": "2026-05-18T20:20:19.224060+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8922659158706665,
+            "sim_to_centroid": 0.9224813580513,
+            "article": {
+              "title": "Shakira gana su batalla de 8 años contra la Hacienda española, que deberá devolverle 60 millones de euros",
+              "url": "https://www.bbc.com/mundo/articles/cy82j4lr9vpo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:20:34.231246+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.920820415019989,
+            "article": {
+              "title": "Shakira gana la última batalla a Hacienda, que deberá devolverle más de 60 millones de euros",
+              "url": "https://elpais.com/economia/2026-05-18/la-justicia-ordena-a-hacienda-a-devolver-a-shakira-mas-de-60-millones-de-euros.html",
+              "source_id": "elpais.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:20:17.975663+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.919623076915741,
+            "article": {
+              "title": "Shakira wygrała batalię z hiszpańskim fiskusem. W grę wchodzi ponad 55 mln euro",
+              "url": "https://www.rp.pl/spoleczenstwo/art44403911-shakira-wygrala-batalie-z-hiszpanskim-fiskusem-w-gre-wchodzi-ponad-55-mln-euro",
+              "source_id": "rp.pl",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:22:36.190272+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8925503492355347,
             "article": {
               "title": "Shakira wins €60m tax battle as Spanish court cancels ‘unlawful’ penalty",
               "url": "https://www.thetimes.com/world/europe/article/shakira-wins-spain-tax-case-2wpvx69rt",
               "source_id": "thetimes.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:49:58.948581+00:00"
+              "scraped_at_utc": "2026-05-18T20:19:11.540378+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8906533718109131,
+            "sim_to_centroid": 0.8544754981994629,
             "article": {
-              "title": "Shakira frifundet for skattesvindel: Skal have en lille halv millard tilbage – plus renter",
-              "url": "https://politiken.dk/kultur/art10846005/Shakira-frifundet-for-skattesvindel-Skal-have-en-lille-halv-millard-tilbage-%E2%80%93-plus-renter",
-              "source_id": "politiken.dk",
+              "title": "Shakira acquitted of tax fraud by Spanish court",
+              "url": "https://www.theglobeandmail.com/world/article-shakira-spain-tax-fraud-case/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:21:25.368107+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8488516211509705,
+            "article": {
+              "title": "Shakira hafði betur gegn spænska skattinum",
+              "url": "https://www.vb.is/frettir/shakira-hafdi-betur-gegn-spaenska-skattinum/",
+              "source_id": "vb.is",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:33.768619+00:00"
+              "scraped_at_utc": "2026-05-18T20:19:59.909294+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8684564232826233,
+            "sim_to_centroid": 0.7921351194381714,
             "article": {
-              "title": "Shakira får 60 miljoner euro efter dom i Spanien",
-              "url": "https://www.dn.se/direkt/2026-05-18/shakira-far-60-miljoner-euro-efter-dom-i-spanien/",
-              "source_id": "dn.se",
-              "continent": "Europe North",
+              "title": "La relación de Shakira con Piqué y el resto de claves de la sentencia contra Hacienda",
+              "url": "https://www.lavanguardia.com/economia/20260518/11541049/hay-sobre-pleito-shakira-hacienda.html",
+              "source_id": "lavanguardia.com",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:35.577073+00:00"
+              "scraped_at_utc": "2026-05-18T20:20:19.224060+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8676965236663818,
+            "sim_to_centroid": 0.7901978492736816,
             "article": {
-              "title": "Shakira frifindes for skattesvindel",
-              "url": "https://www.dr.dk/nyheder/seneste/shakira-frifindes-skattesvindel",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
+              "title": "Le fisc espagnol doit rembourser plus de 55 millions d'euros à Shakira Accusation de fraude aujourd'hui à",
+              "url": "https://www.rts.ch/info/monde/2026/article/shakira-le-fisc-espagnol-doit-lui-rembourser-55-millions-d-euros-29245644.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:44.552872+00:00"
+              "scraped_at_utc": "2026-05-18T20:20:11.885707+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8610113263130188,
+            "sim_to_centroid": 0.714698314666748,
             "article": {
-              "title": "Devolución millonaria. Absolvieron a Shakira de las acusaciones de fraude fiscal en España",
-              "url": "https://www.lanacion.com.ar/espectaculos/absolvieron-a-shakira-de-las-acusaciones-de-fraude-fiscal-en-espana-le-devolveran-55000000-de-euros-nid18052026/",
-              "source_id": "lanacion.com.ar",
+              "title": "Abogado de Shakira habla de “presión moral y psicológica” en proceso con Hacienda, “un calvario” para la artista",
+              "url": "https://www.semana.com/gente/articulo/abogado-de-shakira-habla-de-presion-moral-y-psicologica-en-proceso-con-hacienda-un-calvario-para-la-artista/202637/",
+              "source_id": "semana.com",
               "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:51:30.034688+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.859966516494751,
-            "article": {
-              "title": ". geleden • Buitenland 60 miljoen voor Shakira na vrijspraak in belastingfraudezaak",
-              "url": "https://nos.nl/artikel/2614826-60-miljoen-voor-shakira-na-vrijspraak-in-belastingfraudezaak",
-              "source_id": "nos.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:05.439724+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8458818197250366,
-            "article": {
-              "title": "Kultur Shakira Shakira frifunnet: Får tilbake over 60 millioner euro",
-              "url": "https://www.aftenposten.no/kultur/i/V6Qnr4/shakira-frifunnet-faar-tilbake-over-60-millioner-euro",
-              "source_id": "aftenposten.no",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:50:37.326752+00:00"
+              "scraped_at_utc": "2026-05-18T20:20:48.560484+00:00"
             }
           }
         ]
       },
       {
-        "score": 20.79302961116055,
-        "size": 6,
-        "n_sources": 6,
-        "n_continents": 4,
+        "score": 34.393762489077076,
+        "size": 10,
+        "n_sources": 9,
+        "n_continents": 5,
         "continents": [
-          "East Asia",
-          "Middle East",
-          "South America",
-          "South Asia"
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Oceania",
+          "South America"
         ],
-        "coherence": 0.8713127970695496,
-        "title": "Earthquake hits south-west China; thousands evacuate, buildings collapse",
+        "coherence": 0.8462425470352173,
+        "title": "Bodies of four missing Italian divers found in Maldives",
         "central_article": {
-          "title": "Earthquake hits south-west China; thousands evacuate, buildings collapse",
-          "url": "https://www.straitstimes.com/asia/east-asia/earthquake-hits-southwest-china-thousands-evacuate-buildings-collapse?ref=asia",
-          "source_id": "straitstimes.com",
-          "continent": "East Asia",
+          "title": "Bodies of four missing Italian divers found in Maldives",
+          "url": "https://www.sbs.com.au/news/article/italian-divers-bodies-found-maldives/g2qnuy6kq",
+          "source_id": "sbs.com.au",
+          "continent": "Oceania",
           "published_at": null,
-          "scraped_at_utc": "2026-05-18T10:57:48.141898+00:00"
+          "scraped_at_utc": "2026-05-18T20:21:27.848170+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8958480954170227,
+            "sim_to_centroid": 0.9372106194496155,
             "article": {
-              "title": "Earthquake hits south-west China; thousands evacuate, buildings collapse",
-              "url": "https://www.straitstimes.com/asia/east-asia/earthquake-hits-southwest-china-thousands-evacuate-buildings-collapse?ref=asia",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
+              "title": "Bodies of four missing Italian divers found in Maldives",
+              "url": "https://www.sbs.com.au/news/article/italian-divers-bodies-found-maldives/g2qnuy6kq",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:57:48.141898+00:00"
+              "scraped_at_utc": "2026-05-18T20:21:27.848170+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8935675024986267,
+            "sim_to_centroid": 0.9252914190292358,
             "article": {
-              "title": "Earthquake hits southwest China; thousands evacuate, buildings collapse",
-              "url": "https://www.channelnewsasia.com/east-asia/china-earthquake-liuzhou-guangxi-southwest-region-6127481",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
+              "title": "Bodies of four missing Italian scuba divers recovered in underwater cave in Maldives",
+              "url": "https://www.abc.net.au/news/2026-05-18/italian-divers-bodies-found-maldives-sea-cave/106694498",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:57:23.837037+00:00"
+              "scraped_at_utc": "2026-05-18T20:21:26.589092+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8893853425979614,
+            "sim_to_centroid": 0.9249140024185181,
             "article": {
-              "title": "Reportan dos muertos y 13 edificios derrumbados tras sismo al sur de China",
-              "url": "https://www.emol.com/noticias/Internacional/2026/05/18/1200283/sismo-china-dos-muertos.html",
-              "source_id": "emol.com",
+              "title": "Bodies of four Italian divers found in a Maldives cave",
+              "url": "https://www.smh.com.au/world/asia/search-team-finds-bodies-of-4-italian-divers-dead-in-maldives-accident-20260518-p5zyig.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:21:29.232130+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9084163904190063,
+            "article": {
+              "title": "Bodies of missing Italian divers found in Maldives",
+              "url": "https://www.bbc.com/news/articles/c332mngz25vo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:08.934751+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8999792337417603,
+            "article": {
+              "title": "Hallan los cuerpos de 4 de los buceadores italianos que se ahogaron mientras exploraban una cueva en Maldivas",
+              "url": "https://www.bbc.com/mundo/articles/c1w29nqqjveo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:20:34.231246+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8400238752365112,
+            "article": {
+              "title": "Trágico final. Hallan los cuerpos de los cuatro buzos italianos que estaban desaparecidos tras una inmersión en Maldivas",
+              "url": "https://www.lanacion.com.ar/el-mundo/hallan-los-cuerpos-de-los-cuatro-buzos-italianos-que-estaban-desaparecidos-tras-una-inmersion-en-nid18052026/",
+              "source_id": "lanacion.com.ar",
               "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:51:35.537657+00:00"
+              "scraped_at_utc": "2026-05-18T20:20:45.873084+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8834130764007568,
+            "sim_to_centroid": 0.7903815507888794,
             "article": {
-              "title": "Strong earthquake destroys 13 buildings, kills two in China",
-              "url": "https://www.albawaba.com/news/strong-earthquake-destroys-13-buildings-1627915",
-              "source_id": "albawaba.com",
-              "continent": "Middle East",
+              "title": "Překročili hloubkový limit. Prokuratura řeší smrt potápěčů na Maledivách Mezinárodní pátrací tým na Maledivách nalezl těla čtyř italských potápěčů, kteří zahynuli ve čtvrtek spolu s instruktorem. K vyzvednutí pozůstatků budou potřeba další ponory. Těla leží ve třetím segmentu podmořské jeskyně více než šedesát metrů pod hladinou. Příčiny tragédie jsou dál předmětem dohadů. V den ponoru špatné počasí zhoršovalo pod hladinou viditelnost. Tým měl sice povolení k průzkumu Indického oceánu, ale ne do takové hloubky. Případ už vyšetřuje italská prokuratura. Chce zjistit, proč zkušení potápěči, kterými oběti nehody byly, až dvojnásobně překročili místní hloubkový limit ponorů. A proč vstupovali do jeskyně, jejíž průzkum univerzita neplánovala. Milada McGrathová , ag",
+              "url": "https://ct24.ceskatelevize.cz/clanek/svet/prekrocili-hloubkovy-limit-prokuratura-resi-smrt-potapecu-na-maledivach-373581",
+              "source_id": "ct24.ceskatelevize.cz",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:52:58.266581+00:00"
+              "scraped_at_utc": "2026-05-18T20:22:32.499248+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8347511291503906,
+            "sim_to_centroid": 0.766262412071228,
             "article": {
-              "title": "Tremor na Ásia Terremoto de 5,2 graus mata duas pessoas e derruba 13 prédios em Guangxi, na China; mais de 7.000 moradores foram obrigados a abandonar a área afetada",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/05/terremoto-de-52-graus-mata-duas-pessoas-e-derruba-13-predios-na-china.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
+              "title": "Leichen der auf den Malediven verunglückten Taucher in 60 Metern Tiefe lokalisiert",
+              "url": "https://www.diepresse.com/24560755/leichen-der-auf-den-malediven-verunglueckten-taucher-in-60-metern-tiefe-lokalisiert",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:51:37.291531+00:00"
+              "scraped_at_utc": "2026-05-18T20:19:35.158263+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8309112787246704,
+            "sim_to_centroid": 0.7641928195953369,
             "article": {
-              "title": "چین کے علاقے گوانگشی میں خوفناک زلزلہ ،2افراد ہلاک،متعدد زخمی",
-              "url": "https://www.nawaiwaqt.com.pk/18-May-2026/1994669",
-              "source_id": "nawaiwaqt.com.pk",
-              "continent": "South Asia",
+              "title": "Azië Lichamen van 4 dode duikers gevonden in onderwatergrot op Malediven",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/05/18/4-overleden-toeristen-in-malediven-gevonden/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-05-18T10:56:55.682413+00:00"
+              "scraped_at_utc": "2026-05-18T20:20:13.210475+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7057529091835022,
+            "article": {
+              "title": "fem italienske dykkere i sidste uge omkom",
+              "url": "https://www.dr.dk/nyheder/seneste/fem-italienere-doede-i-dykkerulykke",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-18T20:19:56.780598+00:00"
             }
           }
         ]
       }
     ],
-    "created_at_utc": "2026-05-18T11:25:30Z"
+    "created_at_utc": "2026-05-18T20:56:43Z"
   }
 ]
