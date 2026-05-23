@@ -2,10 +2,10 @@ name: Daily homepage scrape
 
 on:
   schedule:
-    - cron: "55 6 * * *"  # 08:45 Amsterdam (CET, UTC+1)
-    - cron: "55 12 * * *"  # 08:45 Amsterdam (CET, UTC+1)
-    - cron: "55 18 * * *"  # 08:45 Amsterdam (CET, UTC+1)
-    - cron: "55 0 * * *"  # 08:45 Amsterdam (CET, UTC+1)
+    - cron: "55 6 * * *"
+    - cron: "55 12 * * *"
+    - cron: "55 18 * * *"
+    - cron: "55 0 * * *"
   workflow_dispatch:
 
 permissions:
@@ -17,6 +17,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          token: ${{ github.token }}
+          persist-credentials: true
+          fetch-depth: 1
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -28,7 +32,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install httpx beautifulsoup4 pyyaml
 
-      - name: Run scraper (debug)
+      - name: Run scraper
         run: |
           set -euxo pipefail
           echo "Repo root:"
@@ -50,9 +54,9 @@ jobs:
                   if line:
                       items.append(json.loads(line))
           print("n_items:", len(items))
-          print("first title:", items[0].get("title"))
+          if items:
+              print("first title:", items[0].get("title"))
           PY
-
 
       - name: Commit and push if changed
         run: |
@@ -63,18 +67,3 @@ jobs:
           git add headlines_latest.jsonl
           git diff --cached --quiet || git commit -m "Update headlines_latest"
           git push
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
