@@ -1,12 +1,458 @@
 [
   {
-    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1780052049",
-    "n_items": 2544,
-    "n_clusters": 2128,
+    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1780089323",
+    "n_items": 2505,
+    "n_clusters": 2056,
     "clusters": [
       {
-        "score": 184.63897642976337,
-        "size": 27,
+        "score": 149.12954213856227,
+        "size": 38,
+        "n_sources": 31,
+        "n_continents": 8,
+        "continents": [
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.7982773184776306,
+        "title": "Trump says making final decision on Iran deal",
+        "central_article": {
+          "title": "Trump says making final decision on Iran deal",
+          "url": "https://www.channelnewsasia.com/world/us-trump-iran-war-peace-deal-final-decision-6150311",
+          "source_id": "channelnewsasia.com",
+          "continent": "East Asia",
+          "published_at": null,
+          "scraped_at_utc": "2026-05-29T21:11:10.741149+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9097646474838257,
+            "article": {
+              "title": "Trump says making final decision on Iran deal",
+              "url": "https://www.channelnewsasia.com/world/us-trump-iran-war-peace-deal-final-decision-6150311",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:11:10.741149+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9024486541748047,
+            "article": {
+              "title": "Trump poised to make ‘final determination’ on Iran peace deal",
+              "url": "https://www.channel4.com/news/trump-poised-to-make-final-determination-on-iran-peace-deal",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:03:04.797046+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8969866037368774,
+            "article": {
+              "title": "Trump says ‘final determination’ to be made on possible Iran deal",
+              "url": "https://www.aljazeera.com/news/2026/5/29/trump-says-final-determination-to-be-made-on-possible-iran-deal",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:05:55.309294+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8962249755859375,
+            "article": {
+              "title": "Trump to make ‘final determination’ on proposed Iran deal",
+              "url": "https://www.thenationalnews.com/news/us/2026/05/29/trump-to-make-final-determination-on-proposed-iran-deal/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:05:56.787968+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8791013360023499,
+            "article": {
+              "title": "Trump anuncia que tomará hoy \"una decisión final\" sobre el acuerdo con Irán en una reunión en la Casa Blanca",
+              "url": "https://www.rtve.es/noticias/20260529/trump-decision-final-acuerdo-iran/17092494.shtml",
+              "source_id": "rtve.es",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:04:33.540348+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8754348754882812,
+            "article": {
+              "title": "Trump will \"endgültige Entscheidung\" zu Iran treffen",
+              "url": "https://www.zdfheute.de/politik/ausland/verhandlungen-usa-iran-krieg-trump-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:03:33.683468+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8674039840698242,
+            "article": {
+              "title": "Trump says meeting Friday to make final decision on deal with Iran",
+              "url": "https://www.thestar.com.my/news/world/2026/05/29/trump-says-meeting-friday-to-make-final-decision-on-deal-with-iran",
+              "source_id": "thestar.com.my",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:11:37.335986+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8625056147575378,
+            "article": {
+              "title": "Trump se reúne con su equipo para tomar \"decisión final\" sobre la guerra en Irán",
+              "url": "https://www.emol.com/noticias/Internacional/2026/05/29/1201349/trump-reunion-decision-guerra-iran.html",
+              "source_id": "emol.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:05:01.231441+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8587327003479004,
+            "article": {
+              "title": "Trump meets aides, ‘final call imminent’: What’s the status of Iran peace deal?",
+              "url": "https://www.hindustantimes.com/world-news/trump-heads-to-situation-room-says-final-call-imminent-what-s-the-status-of-iran-peace-deal-now-101780079267045.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:10:18.684285+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8556174039840698,
+            "article": {
+              "title": "Trump'tan İran duyurusu: Nihai kararı vermek üzere toplanıyoruz CANLI",
+              "url": "https://www.hurriyet.com.tr/dunya/live-abd-iran-hattinda-kritik-esik-birkac-puruz-kaldi-43187133",
+              "source_id": "hurriyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:06:25.883603+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8426312804222107,
+            "article": {
+              "title": "Trump says he’s making final decision on Iran deal as Tehran slams ‘mixture of truth and lies’",
+              "url": "https://www.france24.com/en/middle-east/20260529-trump-says-he-s-making-final-decision-on-iran-deal-as-tehran-slams-mixture-of-truth-and-lies",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:04:20.488096+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8325939774513245,
+            "article": {
+              "title": "Trump afirma que decidirá hoje sobre acordo de cessar-fogo com o Irã em reunião na Casa Branca",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/05/trump-diz-que-decidira-acordo-com-ira-em-reuniao-na-casa-branca-nesta-sexta.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:05:04.217591+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8281335830688477,
+            "article": {
+              "title": "Trump met with aides to make ‘final determination’ on deal to extend Iran cease-fire. Follow live updates.",
+              "url": "https://www.bostonglobe.com/2026/05/29/nation/trump-presidency-live-updates/",
+              "source_id": "bostonglobe.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:09:36.701516+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8188768625259399,
+            "article": {
+              "title": "Trump meeting with aides to make 'final determination' on moving forward with Iran deal By Aamer Madhani, Michelle Price, Associated Press",
+              "url": "https://www.pbs.org/newshour/world/trump-meeting-with-aides-to-make-final-determination-on-moving-forward-with-iran-deal",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:09:44.365900+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.816368818283081,
+            "article": {
+              "title": "Deal or strike: Trump to make final decision on Iran, lift blockade on Strait of Hormuz",
+              "url": "https://www.albawaba.com/news/deal-or-strike-trump-make-final-decision-1628738",
+              "source_id": "albawaba.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:06:30.921328+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8146581649780273,
+            "article": {
+              "title": "Trump in Situation Room to make final call on Iran peace deal",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-iran-war-peace-deal-b2986108.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:02:58.948885+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8119540214538574,
+            "article": {
+              "title": "Trump Susun Keputusan Akhir soal Iran, Ada 2 Poin Krusial Global",
+              "url": "https://internasional.kompas.com/read/2026/05/29/233107370/trump-susun-keputusan-akhir-soal-iran-ada-2-poin-krusial?source=headline",
+              "source_id": "kompas.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:11:41.901132+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7972491979598999,
+            "article": {
+              "title": "Trump meeting to make ‘final determination’ on Iran deal said to end with no decision",
+              "url": "https://www.timesofisrael.com/trump-meeting-to-make-final-determination-on-iran-deal-said-to-end-with-no-decision/",
+              "source_id": "timesofisrael.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:05:59.497670+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7880346775054932,
+            "article": {
+              "title": "Trump to decide imminently on Iran deal, says Hormuz Strait must open",
+              "url": "https://www.thedailystar.net/news/world/us-israel-war-iran/news/trump-decide-imminently-iran-deal-says-hormuz-strait-must-open-4186516",
+              "source_id": "thedailystar.net",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:10:21.451552+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7847017645835876,
+            "article": {
+              "title": "Трамп выступил с новым заявлением по Ирану",
+              "url": "https://tengrinews.kz/world_news/tramp-vyistupil-s-novyim-zayavleniem-po-iranu-600379/",
+              "source_id": "tengrinews.kz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:07:59.819522+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7738364934921265,
+            "article": {
+              "title": "US-Iran deal extending ceasefire awaits Trump green light",
+              "url": "https://www.straitstimes.com/world/middle-east/us-iran-deal-extending-ceasefire-awaits-trump-green-light?ref=top-stories",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:11:34.849255+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7724200487136841,
+            "article": {
+              "title": "Oil prices dip as tentative US-Iran deal awaits Trump’s final approval",
+              "url": "https://www.independent.co.uk/news/world/middle-east/trump-iran-war-us-ceasefire-oil-b2985704.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:02:58.948885+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7679080963134766,
+            "article": {
+              "title": "Trump’s fears over the midterms have forced him to do a deal with Iran",
+              "url": "https://www.independent.co.uk/voices/trump-iran-war-us-israel-deal-ceasefire-b2985836.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:02:58.948885+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7652838230133057,
+            "article": {
+              "title": "No decision made after Trump's White House meeting on Iran negotiations",
+              "url": "https://www.jpost.com/middle-east/iran-news/article-897762",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:05:58.122195+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7646966576576233,
+            "article": {
+              "title": "White House: US, Iran negotiators have agreed to MoU, but Trump’s approval still needed",
+              "url": "https://www.timesofisrael.com/white-house-us-iran-negotiators-have-agreed-to-mou-but-trumps-approval-still-needed/",
+              "source_id": "timesofisrael.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:05:59.497670+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7561078071594238,
+            "article": {
+              "title": "US, Iran Agree Deal Framework, Awaiting Trump Approval: US Sources",
+              "url": "https://www.kyivpost.com/post/77059",
+              "source_id": "kyivpost.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:07:30.483417+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.75472092628479,
+            "article": {
+              "title": "Trump se reúne dos horas en la Casa Blanca para hablar de Irán, pero no toma ninguna decisión",
+              "url": "https://www.lavanguardia.com/internacional/20260529/11551302/trump-reunido-casa-blanca-tomar-determinacion-final-sobre-iran.html",
+              "source_id": "lavanguardia.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:04:30.827240+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7519095540046692,
+            "article": {
+              "title": "ترامب \"لم يتّخذ\" قراراً نهائيّاً بشأن الاتفاق مع إيران... بانتظار التأكد من موافقة مجتبى خامنئي",
+              "url": "https://www.annahar.com/international/iran/314802/ترامب-لم-يتخذ-قرارا-نهائيا-بشأن-الاتفاق-مع-إيران-بانتظار-التأكد-من-موافقة-مجتبى-خامنئي",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:06:54.663268+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7490763664245605,
+            "article": {
+              "title": "Trump’s meeting on Iran peace deal has ended, White House official says",
+              "url": "https://www.france24.com/en/middle-east/20260529-middle-east-war-live-vance-says-us-and-iran-close-to-agreement-as-ceasefire-deal-reported",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:04:20.488096+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7439737915992737,
+            "article": {
+              "title": "Trump’s room to maneuver narrows as U.S., Iran close in on framework deal",
+              "url": "https://www.japantimes.co.jp/news/2026/05/29/world/politics/trump-iran-deal-room-narrow/",
+              "source_id": "japantimes.co.jp",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:11:12.099231+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7438342571258545,
+            "article": {
+              "title": "Awaiting Trump's approval: White House leaks main points of possible US-Iran deal",
+              "url": "https://www.albawaba.com/news/awaiting-trumps-approval-white-house-1628724",
+              "source_id": "albawaba.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:06:30.921328+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7383807897567749,
+            "article": {
+              "title": "Trump says naval blockade in Hormuz will be lifted and pledges 'final decision' on peace deal",
+              "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-strikes-ceasefire-strait-of-hormuz-b2985678.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:02:58.948885+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7359040975570679,
+            "article": {
+              "title": "國際 川普：將在白宮戰情室拍板 決定是否與伊朗達成協議",
+              "url": "https://www.cna.com.tw/news/aopl/202605290362.aspx",
+              "source_id": "cna.com.tw",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:11:40.478118+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7265006303787231,
+            "article": {
+              "title": "Oil prices tumble as Trump signals imminent Iran deal",
+              "url": "https://www.albawaba.com/business/oil-prices-tumble-trump-signals-imminent-1628645",
+              "source_id": "albawaba.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:06:30.921328+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7212383151054382,
+            "article": {
+              "title": "Ahead of Trump's final call, Iran says U.S. President's claims on deal a 'mixture of truth, lies'",
+              "url": "https://www.thehindu.com/news/international/us-iran-war-news-live-updates-peace-deal-trump-strait-of-hormuz-60-day-truce-29-may-2026/article71035756.ece",
+              "source_id": "thehindu.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:10:17.349176+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7191377878189087,
+            "article": {
+              "title": "Donald Trump will ein Abkommen mit Iran erzwingen – ignoriert er dabei Israels Interessen?",
+              "url": "https://www.nzz.ch/international/donald-trump-will-ein-abkommen-mit-iran-erzwingen-ignoriert-er-dabei-israels-interessen-ld.10008881",
+              "source_id": "nzz.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:03:43.081777+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7157562971115112,
+            "article": {
+              "title": "ڈونلڈ ٹرمپ نے ایران کی بحری ناکہ بندی ختم کرنے کا اعلان کردیا",
+              "url": "https://jang.com.pk/news/1587139",
+              "source_id": "jang.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:10:35.747708+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6944287419319153,
+            "article": {
+              "title": "Trump i möte för ”slutgiltigt beslut” – här är viktigaste punkterna Samlades i ”The situation room” • Beskeden om avtalet med Iran",
+              "url": "https://www.svt.se/nyheter/utrikes/donald-trump-i-mote-i-the-situation-room-beskeden-om-avtalet-med-iran",
+              "source_id": "svt.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:03:57.958694+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 129.08639543513368,
+        "size": 38,
         "n_sources": 27,
         "n_continents": 8,
         "continents": [
@@ -17,1789 +463,722 @@
           "Middle East",
           "North America",
           "Oceania",
-          "South America"
+          "South Asia"
         ],
-        "coherence": 0.8686248064041138,
-        "title": "Blue Origin rocket explodes on launch pad during test",
+        "coherence": 0.7970407009124756,
+        "title": "NATO vows to defend allied territory after Russian drone hits apartment block in Romania",
         "central_article": {
-          "title": "Blue Origin rocket explodes on launch pad during test",
-          "url": "https://www.abc.net.au/news/2026-05-29/blue-origin-rocket-explodes-during-test-jeff-bezos/106737482",
-          "source_id": "abc.net.au",
-          "continent": "Oceania",
+          "title": "NATO vows to defend allied territory after Russian drone hits apartment block in Romania",
+          "url": "https://www.theglobeandmail.com/world/article-russian-drone-hits-nato-member-romania/",
+          "source_id": "theglobeandmail.com",
+          "continent": "North America",
           "published_at": null,
-          "scraped_at_utc": "2026-05-29T10:37:48.614845+00:00"
+          "scraped_at_utc": "2026-05-29T21:05:38.542624+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.945528507232666,
+            "sim_to_centroid": 0.8659476041793823,
             "article": {
-              "title": "Blue Origin rocket explodes on launch pad during test",
-              "url": "https://www.abc.net.au/news/2026-05-29/blue-origin-rocket-explodes-during-test-jeff-bezos/106737482",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:37:48.614845+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9328281879425049,
-            "article": {
-              "title": "Blue Origin rocket explodes on the launch pad during an engine-firing test",
-              "url": "https://apnews.com/article/blue-origin-rocket-explosion-bezos-ecdb38828fac02e3a33cc4fd4e61543e",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:40:14.404442+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9272825717926025,
-            "article": {
-              "title": "Blue Origin rocket explodes on launch pad",
-              "url": "https://www.bangkokpost.com/world/3262765/blue-origin-rocket-explodes-on-launch-pad",
-              "source_id": "bangkokpost.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:42:28.825540+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9262524843215942,
-            "article": {
-              "title": "Jeff Bezos' Blue Origin rocket explodes during test",
-              "url": "https://www.channelnewsasia.com/shorts/jeff-bezos-blue-origin-rocket-explodes-during-test-6149616",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:42:07.944260+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9200339913368225,
-            "article": {
-              "title": "Blue Origin rocket explodes during launch pad test in Florida",
-              "url": "https://www.france24.com/en/technology/20260529-blue-origin-rocket-explodes-during-launch-pad-test-in-florida",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:36:31.163029+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9196159243583679,
-            "article": {
-              "title": "Explota cohete de Blue Origin durante prueba de lanzamiento",
-              "url": "https://www.reforma.com/explota-cohete-de-blue-origin-durante-prueba-de-lanzamiento/ar3212663?v=3",
-              "source_id": "reforma.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:36:53.242206+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9028762578964233,
-            "article": {
-              "title": "Blue Origin rocket explodes on launchpad (VIDEO)",
-              "url": "https://www.rt.com/news/640710-blue-origin-rocket-explodes/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:39:05.661163+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9015724658966064,
-            "article": {
-              "title": "Blue Origin'e ait roketin testi sırasında patlama",
-              "url": "https://www.hurriyet.com.tr/dunya/blue-origin-firmasina-ait-roketin-motor-testi-sirasinda-patlama-43187113",
-              "source_id": "hurriyet.com.tr",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:17.542514+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8875677585601807,
-            "article": {
-              "title": "Blue Origin's New Glenn rocket explodes on launchpad during test",
-              "url": "https://www.thenationalnews.com/news/us/2026/05/29/blue-origins-new-glenn-rocket-explodes-on-launchpad-during-test/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:03.736933+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8865405321121216,
-            "article": {
-              "title": "Ракета компании Blue Origin миллиардера Джеффа Безоса взорвалась на стартовой площадке",
-              "url": "https://meduza.io/news/2026/05/29/raketa-kompanii-blue-origin-milliardera-dzheffa-bezosa-vzorvalas-na-startovoy-ploschadke",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:59.984662+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8843570947647095,
-            "article": {
-              "title": "Blue-Origin-Rakete explodiert bei Test auf der Startrampe",
-              "url": "https://www.diepresse.com/26841727/blue-origin-rakete-explodiert-bei-test-auf-der-startrampe",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:45.918249+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8833693265914917,
-            "article": {
-              "title": "'Very rough day': Jeff Bezos' Blue Origin rocket explodes on launch pad",
-              "url": "https://www.sbs.com.au/news/article/jeff-bezos-blue-origin-rocket-explosion/lnxu7ctla",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:37:49.930916+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8788203001022339,
-            "article": {
-              "title": "Cohete de Blue Origin explota durante prueba previa a lanzamiento satelital",
-              "url": "https://www.emol.com/noticias/Internacional/2026/05/28/1201289/cohete-blue-origin-explota-prueba.html",
-              "source_id": "emol.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:37:09.673837+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8770343065261841,
-            "article": {
-              "title": "Blue Origin rocket explodes seconds into engine test",
-              "url": "https://www.euronews.com/next/2026/05/29/blue-origin-rocket-explodes-during-engine-firing-test-on-launch-pad",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:26.515169+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8768381476402283,
-            "article": {
-              "title": "Jeff Bezos's Blue Origin New Glenn rocket explodes on launch pad",
-              "url": "https://www.jpost.com/international/article-897730",
-              "source_id": "jpost.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:05.132842+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8710955381393433,
-            "article": {
-              "title": "Blue Origin Rocket Blows Up on Florida Launchpad During Test",
-              "url": "https://www.nytimes.com/2026/05/28/science/blue-origin-explosion-rocket.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:40:15.755232+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8696825504302979,
-            "article": {
-              "title": "Watch moment Jeff Bezos' Blue Origin rocket explodes",
-              "url": "https://www.usatoday.com/story/news/nation/2026/05/28/blue-origin-jeff-bezos-new-glenn-rocket-explosion/90305635007/",
-              "source_id": "usatoday.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:40:39.755937+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8489794731140137,
-            "article": {
-              "title": "Cohete de Blue Origin explota durante prueba de motores en Cabo Cañaveral",
-              "url": "https://www.latercera.com/mundo/noticia/cohete-de-blue-origin-explota-durante-prueba-de-motores-en-cabo-canaveral/",
-              "source_id": "latercera.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:37:24.401487+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8475313782691956,
-            "article": {
-              "title": "Il razzo di Blue Origin esplode sulla rampa di lancio durante un test di accensione del motore",
-              "url": "https://www.repubblica.it/esteri/2026/05/29/news/razzo_blu_origin_esplosione_bezos-425377055/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:36:46.112393+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8455895185470581,
-            "article": {
-              "title": "Blue-Origin-Rakete explodiert bei Test - großer Feuerball",
-              "url": "https://www.zdfheute.de/panorama/blue-origin-rakete-explosion-test-bezos-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:48.361583+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8407937288284302,
-            "article": {
-              "title": "Unternehmen von Jeff Bezos Blue-Origin-Rakete explodiert bei Test",
-              "url": "https://www.tagesschau.de/wirtschaft/technologie/bezos-rakete-explosion-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:36.250301+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8390684127807617,
-            "article": {
-              "title": "Il razzo di Blue Origin esplode durante i test sulla rampa di lancio: «Una anomalia all'accensione»",
-              "url": "https://www.corriere.it/esteri/26_maggio_29/il-razzo-di-blue-origin-esplode-durante-i-test-sulla-rampa-di-lancio-8bd7f462-c271-498f-a4d9-e5c83ee4bxlk.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:36:47.914361+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8288431167602539,
-            "article": {
-              "title": "Raketa společnosti Blue Origin explodovala při testu Raketa New Glenn společnosti Blue Origin miliardáře Jeffa Bezose explodovala při testu na startovací rampě, informují tiskové agentury. Veškerý personál je v bezpečí, ujistil Bezos s tím, že je ještě příliš brzy na zjištění, co se pokazilo. Aktualizováno před 5 h hodinami | ČTK , mac",
-              "url": "https://ct24.ceskatelevize.cz/clanek/svet/raketa-spolecnosti-blue-origin-explodovala-pri-testu-374001",
-              "source_id": "ct24.ceskatelevize.cz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:43.651490+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8221938014030457,
-            "article": {
-              "title": "Une fusée de Blue Origin explose sur sa rampe de lancement à Cap Canaveral",
-              "url": "https://www.rts.ch/info/sciences-tech/2026/article/la-fusee-new-glenn-de-blue-origin-explose-lors-d-un-essai-en-floride-29256914.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:36:32.652982+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7986774444580078,
-            "article": {
-              "title": "Ракета компании Безоса взорвалась на стартовой площадке",
-              "url": "https://www.kommersant.ru/doc/8693153?from=spot_main",
-              "source_id": "kommersant.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:39:07.718165+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7642381191253662,
-            "article": {
-              "title": "Roket testinde şiddetli patlama!",
-              "url": "https://www.milliyet.com.tr/dunya/son-dakika-milyarder-is-insani-jeff-bezosun-uzay-hayali-alev-aldi-roket-testinde-siddetli-patlama-korku-dolu-anlar-kamerada-7596044",
-              "source_id": "milliyet.com.tr",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:20.482766+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7256579399108887,
-            "article": {
-              "title": "En Cabo Cañaveral. La impactante explosión del cohete New Glenn de la empresa Blue Origin",
-              "url": "https://www.lanacion.com.ar/el-mundo/exploto-el-cohete-new-glenn-de-la-empresa-blue-origin-durante-una-prueba-de-motores-nid28052026/",
-              "source_id": "lanacion.com.ar",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:37:03.635007+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 179.065689852556,
-        "size": 48,
-        "n_sources": 39,
-        "n_continents": 7,
-        "continents": [
-          "China",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "South America"
-        ],
-        "coherence": 0.8156561851501465,
-        "title": "Russian drone hits apartments in Romania",
-        "central_article": {
-          "title": "Russian drone hits apartments in Romania",
-          "url": "https://www.azernews.az/region/259069.html",
-          "source_id": "azernews.az",
-          "continent": "Europe East",
-          "published_at": null,
-          "scraped_at_utc": "2026-05-29T10:39:25.196229+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9126096963882446,
-            "article": {
-              "title": "Russian drone hits apartments in Romania",
-              "url": "https://www.azernews.az/region/259069.html",
-              "source_id": "azernews.az",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:39:25.196229+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8994972705841064,
-            "article": {
-              "title": "Russian drone hits apartment block in Romania, defense ministry says",
-              "url": "https://www.politico.eu/article/russian-drone-hits-romania-apartment-block-defense-ministry/",
-              "source_id": "politico.eu",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:27.852732+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8953150510787964,
-            "article": {
-              "title": "Russian Drone Hits Romanian Apartment Building, Officials Say",
-              "url": "https://www.nytimes.com/2026/05/29/world/europe/romania-drone-russia-ukraine.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:40:15.755232+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8950127363204956,
-            "article": {
-              "title": "Russian Drone Hits Apartment Building in NATO Member Romania, Injuring Two",
-              "url": "https://www.kyivpost.com/post/77068",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:57.319864+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8923865556716919,
-            "article": {
-              "title": "Russian drone launched against Ukraine hits apartment building in Romania",
-              "url": "https://www.france24.com/en/europe/20260529-russian-drone-hits-apartment-building-in-romania-near-ukraine-border",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:36:31.163029+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8915842175483704,
-            "article": {
-              "title": "Russian drone hits Romania, prompting fierce criticism across Europe",
-              "url": "https://www.euronews.com/my-europe/2026/05/29/explosive-laden-russian-drone-hits-residential-building-in-romania-authorities-say",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:26.515169+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8865842819213867,
-            "article": {
-              "title": "Russian drone hits NATO member Romania, injuring two",
+              "title": "NATO vows to defend allied territory after Russian drone hits apartment block in Romania",
               "url": "https://www.theglobeandmail.com/world/article-russian-drone-hits-nato-member-romania/",
               "source_id": "theglobeandmail.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:37:47.353298+00:00"
+              "scraped_at_utc": "2026-05-29T21:05:38.542624+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8859679698944092,
+            "sim_to_centroid": 0.8582037687301636,
             "article": {
-              "title": "Moment Russian drone hits apartment block in Romania",
-              "url": "https://www.euronews.com/my-europe/2026/05/29/moment-russian-drone-hits-apartment-block-in-romania",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
+              "title": "Russia accused over drone that hit Romanian apartment block, Putin hits back",
+              "url": "https://www.hindustantimes.com/world-news/us-news/russia-accused-over-drone-that-hit-romanian-apartment-block-putin-hits-back-101780084235279.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:26.515169+00:00"
+              "scraped_at_utc": "2026-05-29T21:10:18.684285+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8818537592887878,
-            "article": {
-              "title": "NATO condemns Russia after drone crashes into Romanian residential building",
-              "url": "https://www.jpost.com/international/internationalrussia-ukraine-war/article-897732",
-              "source_id": "jpost.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:05.132842+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8722864389419556,
-            "article": {
-              "title": "Nato member Romania scrambles fighter jets after Russian drone hits flats",
-              "url": "https://www.thenationalnews.com/news/europe/2026/05/29/nato-member-romania-says-russian-drone-hit-block-of-flats/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:03.736933+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8716648817062378,
-            "article": {
-              "title": "Un dron ruso impacta contra un edificio en Rumanía y deja dos heridos",
-              "url": "https://www.lavanguardia.com/internacional/20260529/11550576/dron-ruso-impacta-edificio-rumania-miembro-otan-deja-dos-heridos.html",
-              "source_id": "lavanguardia.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:36:40.716356+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8642773032188416,
-            "article": {
-              "title": "Drone strikes residential building in Romania (VIDEO)",
-              "url": "https://www.rt.com/news/640709-drone-strikes-house-romania/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:39:05.661163+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8600682020187378,
-            "article": {
-              "title": "Russische Drohne trifft Hochhaus in Nato-Staat Rumänien",
-              "url": "https://www.diepresse.com/26842154/russische-drohne-trifft-hochhaus-in-nato-staat-rumaenien",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:45.918249+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8505856990814209,
-            "article": {
-              "title": "Russian drone launched against Ukraine crashes in Romania, injuring 2",
-              "url": "https://apnews.com/article/russia-ukraine-war-romania-drone-aa90986c237b8fa1d9116685c8c32f95",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:40:14.404442+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8460756540298462,
+            "sim_to_centroid": 0.8573563098907471,
             "article": {
               "title": "NATO states slam Russia after drone crashes in Romania",
               "url": "https://www.aljazeera.com/news/2026/5/29/nato-states-slam-russia-after-drone-crashes-in-romania",
               "source_id": "aljazeera.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:02.432613+00:00"
+              "scraped_at_utc": "2026-05-29T21:05:55.309294+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.845740020275116,
+            "sim_to_centroid": 0.8536216020584106,
             "article": {
-              "title": "Ukraine Offers Romania Drone Defense Cooperation After Russian Drone Hits Apartment Block",
-              "url": "https://www.kyivpost.com/post/77102",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:57.319864+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8456062078475952,
-            "article": {
-              "title": "Nato ‘ready to defend territory’ after Russian drone hits Romanian apartment",
-              "url": "https://www.thetimes.com/world/russia-ukraine-war/article/russia-strikes-romania-drone-nato-galati-news-0zgm3wqd0",
-              "source_id": "thetimes.com",
+              "title": "Romania asks for NATO support after Russian drone crash",
+              "url": "https://www.politico.eu/article/romania-asks-for-nato-support-after-russian-drone-crash/",
+              "source_id": "politico.eu",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:22.154532+00:00"
+              "scraped_at_utc": "2026-05-29T21:03:07.505556+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8445748090744019,
+            "sim_to_centroid": 0.8497846126556396,
             "article": {
-              "title": "Guerre en Ukraine : la Roumanie, membre de l’Otan, affirme avoir été touchée par un drone russe",
-              "url": "https://www.rtbf.be/article/guerre-en-ukraine-la-roumanie-membre-de-l-otan-affirme-avoir-ete-touchee-par-un-drone-russe-11731636",
-              "source_id": "rtbf.be",
-              "continent": "Europe South",
+              "title": "NATO slams 'reckless' Russia after drone hits Romanian apartment block",
+              "url": "https://www.abc.net.au/news/2026-05-29/romania-calls-defence-council-meeting-over-russian-drone/106739684",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:36:36.283827+00:00"
+              "scraped_at_utc": "2026-05-29T21:05:40.325548+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8418608903884888,
+            "sim_to_centroid": 0.8478421568870544,
             "article": {
-              "title": "В Румынии российский дрон упал на крышу жилого дома",
-              "url": "https://meduza.io/news/2026/05/29/v-rumynii-rossiyskiy-dron-upal-na-kryshu-zhilogo-doma",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:59.984662+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8418392539024353,
-            "article": {
-              "title": "EU denounces Russia's 'reckless' escalation after drone hits Romania",
-              "url": "https://www.euronews.com/my-europe/2026/05/29/eu-leaders-denounce-russias-reckless-escalation-after-drone-hits-romania",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:26.515169+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8372305035591125,
-            "article": {
-              "title": "Nato condemns Russian 'recklessness' after drone hits Romanian residential block",
+              "title": "Nato and EU condemn Russia after drone hits Romanian residential block Romania says the Russian drone was likely hit over Ukraine by its air defences and altered its trajectory. 4 hrs ago Europe",
               "url": "https://www.bbc.com/news/articles/c93x4nxlkjeo",
               "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:19.537964+00:00"
+              "scraped_at_utc": "2026-05-29T21:02:57.585172+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8361693620681763,
+            "sim_to_centroid": 0.8436993360519409,
             "article": {
-              "title": "‘Crossed Yet Another Line’: EU And NATO React After Russian Drone Hits Romania Home",
-              "url": "https://www.kyivpost.com/post/77087",
+              "title": "Russia accused of launching drone that hit apartment block in Romania, but Putin demands proof",
+              "url": "https://www.france24.com/en/europe/20260529-russian-drone-hits-apartment-building-in-romania-near-ukraine-border",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:04:20.488096+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8385282158851624,
+            "article": {
+              "title": "Russian drone crashes in Romania, injures 2",
+              "url": "https://www.albawaba.com/news/russian-drone-crashes-romania-injures-2-1628723",
+              "source_id": "albawaba.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:06:30.921328+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8368957042694092,
+            "article": {
+              "title": "Putin alleges drone that struck Romanian apartment building could have been Ukrainian",
+              "url": "https://www.france24.com/en/europe/20260529-live-nato-condemns-russia-s-recklessness-after-drone-hit-apartment-building-in-romania",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:04:20.488096+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8368157148361206,
+            "article": {
+              "title": "Outrage as drone strikes Romanian apartment block",
+              "url": "https://www.bangkokpost.com/world/3262855/outrage-as-drone-strikes-romanian-apartment-block",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:11:30.851916+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.836747407913208,
+            "article": {
+              "title": "Nato vows to defend its territory after Russian drone hits Romania",
+              "url": "https://www.channel4.com/news/nato-vows-to-defend-its-territory-after-russian-drone-hits-romania",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:03:04.797046+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8357052803039551,
+            "article": {
+              "title": "‘We Have Confirmation It Is a Russian Drone’: Romania Seeks Faster NATO Support",
+              "url": "https://www.kyivpost.com/post/77145",
               "source_id": "kyivpost.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:57.319864+00:00"
+              "scraped_at_utc": "2026-05-29T21:07:30.483417+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.831278920173645,
+            "sim_to_centroid": 0.8251936435699463,
             "article": {
-              "title": "Drohne im NATO-Staat Rumänien eingeschlagen",
-              "url": "https://www.tagesschau.de/ausland/europa/rumaenien-drohne-100.html",
-              "source_id": "tagesschau.de",
+              "title": "'Rusland kijkt hoe ver het kan gaan': zorgen na drone-inslag in Roemenië",
+              "url": "https://www.rtl.nl/nieuws/artikel/5607121/rusland-hoe-ver-kan-het-gaan-zorgen-drone-inslag-roemenie-hybride-dreiging",
+              "source_id": "rtl.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:36.250301+00:00"
+              "scraped_at_utc": "2026-05-29T21:03:13.564031+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8290873765945435,
+            "sim_to_centroid": 0.8228662014007568,
             "article": {
-              "title": "EU leaders condemn Russia for drone crash in Romania",
-              "url": "https://www.politico.eu/article/von-der-leyen-antonio-costa-condemn-russia-drone-strike-galati-romania-ukraine-war/",
-              "source_id": "politico.eu",
-              "continent": "Europe North",
+              "title": "‘I’m Afraid for My Life’: Romanians Fear More Drone Strikes After Russian Drone Hits Apartment Block",
+              "url": "https://www.kyivpost.com/post/77136",
+              "source_id": "kyivpost.com",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:27.852732+00:00"
+              "scraped_at_utc": "2026-05-29T21:07:30.483417+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8281319737434387,
+            "sim_to_centroid": 0.8181535601615906,
             "article": {
               "title": "Romania Mulls Response After Russian Drone Injures Two",
               "url": "https://balkaninsight.com/2026/05/29/romania-mulls-response-after-russian-drone-injures-two/bi/",
               "source_id": "balkaninsight.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:39:28.893895+00:00"
+              "scraped_at_utc": "2026-05-29T21:08:09.762211+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8279279470443726,
+            "sim_to_centroid": 0.8104101419448853,
             "article": {
-              "title": "Orosz drón csapódott egy lakóházba Romániában, ketten megsérültek",
-              "url": "https://telex.hu/kulfold/2026/05/29/dron-becsapodas-lakohaz-drontamadas-romania-galati-varos-ukrajna-oroszorszag-orosz-ukran-haboru",
-              "source_id": "telex.hu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:35.848388+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8228232264518738,
-            "article": {
-              "title": "Russische drone raakt Roemeense flat, Boekarest spreekt van ‘serieuze escalatie’",
-              "url": "https://fd.nl/politiek/1598075/russische-drone-treft-roemeense-flat-nabij-oekraiense-grens",
-              "source_id": "fd.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:34.243166+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8215576410293579,
-            "article": {
-              "title": "Russian drone strike on Romanian residential building 'serious and irresponsible escalation'.",
-              "url": "https://kyivindependent.com/drone-reportedly-strikes-residential-building-in-romania/",
+              "title": "Ukraine war latest: NATO condemns 'reckless' Russian drone strike on Romanian apartment building",
+              "url": "https://kyivindependent.com/ukraine-war-latest-nato-condemns-reckless-russian-drone-strike-on-romanian-apartment-building/",
               "source_id": "kyivindependent.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:58.908800+00:00"
+              "scraped_at_utc": "2026-05-29T21:07:32.595989+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8149653077125549,
+            "sim_to_centroid": 0.803183376789093,
             "article": {
-              "title": "Romania considers invoking NATO Article 4 after Russian drone incident",
-              "url": "https://georgiatoday.ge/romania-considers-invoking-nato-article-4-after-russian-drone-incident/",
-              "source_id": "georgiatoday.ge",
+              "title": "Πτώση drone στη Ρουμανία: Η Μόσχα δείχνει την Ουκρανία",
+              "url": "https://www.tovima.gr/2026/05/29/world/ptosi-drone-sti-roumania-i-mosxa-deixnei-tin-oukrania/",
+              "source_id": "tovima.gr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:04:41.891442+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8023558259010315,
+            "article": {
+              "title": "NATO macht Russland für Drohneneinschlag in Rumänien verantwortlich",
+              "url": "https://www.tagesschau.de/ausland/europa/rumaenien-drohneneinschlag-reaktionen-102.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:03:18.063064+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8014218807220459,
+            "article": {
+              "title": "Romania, Ukraine to Boost Joint Drone Production After Russian Drone Strike",
+              "url": "https://www.kyivpost.com/post/77143",
+              "source_id": "kyivpost.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:39:19.120515+00:00"
+              "scraped_at_utc": "2026-05-29T21:07:30.483417+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8125746250152588,
+            "sim_to_centroid": 0.8010797500610352,
             "article": {
-              "title": "Ruský dron zasáhl dům v Rumunsku, evropští státníci žádají mezinárodní odpověď Ruský dron v noci na pátek během útoku proti Ukrajině zasáhl na jihovýchodě Rumunska panelový dům. Informovaly o tom rumunské úřady a NATO. Na budově ve městě Galac u hranic s Ukrajinou jsou značné škody, dva lidé utrpěli lehká zranění. Rumunské ministerstvo obrany upřesnilo, že ruský dron se zřítil na střechu domu, explodoval a způsobil požár. Tamní diplomacie incident označila za závažnou a nezodpovědnou eskalaci ze strany Moskvy. Útok odsoudilo NATO i unijní představitelé. ČTK , Darja Stomatová , mac , +1 další",
+              "title": "Ρωσικό Drone έπληξε πολυκατοικία στη Ρουμανία – Δύο τραυματίες στο Γκαλάτσι",
+              "url": "https://www.tovima.gr/2026/05/29/world/rosiko-drone-eplikse-polykatoikia-sti-roumania-dyo-traymaties-sto-gkalatsi/",
+              "source_id": "tovima.gr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:04:41.891442+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7966570854187012,
+            "article": {
+              "title": "Ruský dron zasáhl dům v Rumunsku, evropští státníci žádají mezinárodní odpověď Ruský dron v noci na pátek během útoku proti Ukrajině zasáhl na jihovýchodě Rumunska panelový dům. Informovaly o tom rumunské úřady a NATO. Na budově ve městě Galac u hranic s Ukrajinou jsou značné škody, dva lidé utrpěli lehká zranění. Rumunské ministerstvo obrany upřesnilo, že ruský dron se zřítil na střechu domu, explodoval a způsobil požár. Tamní diplomacie incident označila za závažnou a nezodpovědnou eskalaci ze strany Moskvy. V reakci Bukurešť uzavřela ruský konzulát. Útok odsoudilo NATO i unijní představitelé. Aktualizováno před 4 h hodinami | ČTK , Darja Stomatová , mac , +2 další",
               "url": "https://ct24.ceskatelevize.cz/clanek/svet/obytnou-budovu-v-rumunskem-galacu-zasahl-dron-informuji-rumunska-media-374000",
               "source_id": "ct24.ceskatelevize.cz",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:43.651490+00:00"
+              "scraped_at_utc": "2026-05-29T21:07:11.947151+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8002748489379883,
+            "sim_to_centroid": 0.7939878702163696,
             "article": {
-              "title": "« Un danger pour nous tous » : l’Otan et l’Union européenne fustigent la Russie après le crash d’un drone en Roumanie",
-              "url": "https://www.lesoir.be/749570/article/2026-05-29/un-danger-pour-nous-tous-lotan-et-lunion-europeenne-fustigent-la-russie-apres-le",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
+              "title": "Путин заявил, что дрон, попавший в жилой дом в Румынии, мог быть украинским",
+              "url": "https://meduza.io/news/2026/05/29/putin-zayavil-chto-dron-popavshiy-v-zhiloy-dom-v-rumynii-mog-byt-ukrainskim",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:36:37.885851+00:00"
+              "scraped_at_utc": "2026-05-29T21:07:33.752348+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.799746036529541,
-            "article": {
-              "title": "Drone i Rumænien vækker forargelse: 'Ruslands angrebskrig har krydset endnu en grænse'",
-              "url": "https://www.dr.dk/nyheder/udland/drone-i-rumaenien-vaekker-forargelse-ruslands-angrebskrig-har-krydset-endnu-en-graense",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:36:08.282740+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7806570529937744,
+            "sim_to_centroid": 0.7890980243682861,
             "article": {
               "title": "Minister: Overnight drone strike on Romania shows Russia a threat to NATO allies",
               "url": "https://news.err.ee/1610041354/minister-overnight-drone-strike-on-romania-shows-russia-remains-threat-to-nato-allies",
               "source_id": "news.err.ee",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:39:12.803672+00:00"
+              "scraped_at_utc": "2026-05-29T21:07:49.583838+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7762966156005859,
+            "sim_to_centroid": 0.7875553369522095,
+            "article": {
+              "title": "Ukraine crisis Two people injured as drone crashes into apartment building in Romania",
+              "url": "https://tass.com/world/2138573",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:07:45.220701+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7839857339859009,
+            "article": {
+              "title": "Armenia’s ties with EU, drone incident in Romania: Kremlin spokesman’s remarks",
+              "url": "https://tass.com/politics/2138557",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:07:45.220701+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7688131332397461,
             "article": {
               "title": "Российский дрон врезался в многоквартирный жилой дом в румынском Галаце 29 мая",
               "url": "https://novayagazeta.eu/articles/2026/05/29/rossiiskii-dron-vrezalsia-v-mnogokvartirnyi-zhiloi-dom-v-rumynskom-galatse-news",
               "source_id": "novayagazeta.eu",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:39:01.957636+00:00"
+              "scraped_at_utc": "2026-05-29T21:07:36.222511+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7751117944717407,
+            "sim_to_centroid": 0.7682087421417236,
+            "article": {
+              "title": "Σφοδρές αντιδράσεις για το πλήγμα drone στη Ρουμανία - Ρούτε: «Θα υπερασπιστούμε κάθε σπιθαμή του ΝΑΤΟ»",
+              "url": "https://www.tovima.gr/2026/05/29/world/entones-antidraseis-apo-eyropi-nato-gia-to-pligma-me-drone-se-ktirio-sti-roumania/",
+              "source_id": "tovima.gr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:04:41.891442+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7619239091873169,
+            "article": {
+              "title": "Румыния — после падения российского дрона на жилой дом — закрыла генконсульство РФ в Констанце",
+              "url": "https://meduza.io/news/2026/05/29/rumyniya-posle-padeniya-rossiyskogo-drona-na-zhiloy-dom-zakryla-genkonsulstvo-rf-v-konstantse",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:07:33.752348+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7549352049827576,
+            "article": {
+              "title": "‘Russia must take responsibility for drone attack’",
+              "url": "https://www.channel4.com/news/russia-must-take-responsibility-for-drone-attack-romanian-foreign-minister",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:03:04.797046+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.752394437789917,
+            "article": {
+              "title": "der i nat fløj ind i Rumænien og ramte en beboelsesejendom",
+              "url": "https://www.dr.dk/nyheder/udland/drone-i-rumaenien-vaekker-forargelse-ruslands-angrebskrig-har-krydset-endnu-en-graense",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:04:01.798978+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7515517473220825,
+            "article": {
+              "title": "Война 1556-й день. Российский дрон попал в жилой дом в Румынии. НАТО обещает «защищать каждый дюйм территории союзников». ЕС готовит санкции",
+              "url": "https://meduza.io/feature/2026/05/29/voyna",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:07:33.752348+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7478777170181274,
             "article": {
               "title": "Romanya’daki apartmana Rus İHA’sı",
               "url": "https://www.hurriyet.com.tr/dunya/nato-uyesi-romanyadaki-apartmana-rus-ihasi-isabet-etti-43187112",
               "source_id": "hurriyet.com.tr",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:17.542514+00:00"
+              "scraped_at_utc": "2026-05-29T21:06:25.883603+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7706683278083801,
+            "sim_to_centroid": 0.7443567514419556,
             "article": {
-              "title": "An der Grenze zur Ukraine Drohneneinschlag setzt rumänisches Hochhaus in Brand",
-              "url": "https://www.spiegel.de/ausland/rumaenien-drohneneinschlag-setzt-hochhaus-an-grenze-zur-ukraine-in-brand-a-26c48ef5-a429-4794-a39e-9a4bc634f0af",
-              "source_id": "spiegel.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:38.749583+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7674390077590942,
-            "article": {
-              "title": "Ukraine war Nato ready to defend ‘every inch’ of territory as Russian drone hits Romania",
-              "url": "https://www.theguardian.com/world/2026/may/29/russian-drone-romanian-apartments-wounding-two-people-and-starting-fire",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:23.457395+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.764694333076477,
-            "article": {
-              "title": "Roemenië Russische drone neergekomen op Roemeense flat, Roemenië spreekt van ‘ernstige schending van internationaal recht’",
-              "url": "https://www.nrc.nl/nieuws/2026/05/29/russische-drone-neergekomen-op-roemeense-flat-roemenie-spreekt-van-ernstige-schending-van-internationaal-recht-a4928897",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:30.681487+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7578030824661255,
-            "article": {
-              "title": "Drohne in Rumänien: Russland \"eine Gefahr für alle\"",
-              "url": "https://www.zdfheute.de/politik/ausland/russische-drohne-trifft-stadt-rumaenien-nato-staat-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:48.361583+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7572911977767944,
-            "article": {
-              "title": "\"Cruzó una línea\". Un país de la OTAN acusa a Rusia por un dron que se estrelló contra un edificio residencial",
-              "url": "https://www.lanacion.com.ar/el-mundo/rumania-acusa-a-rusia-por-un-dron-que-cayo-en-un-edificio-residencial-nid29052026/",
-              "source_id": "lanacion.com.ar",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:37:03.635007+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.745869517326355,
-            "article": {
-              "title": "La UE acusa a Rusia de violar con impunidad el espacio aéreo tras el ataque a Rumania",
-              "url": "https://elpais.com/internacional/2026-05-29/dos-heridos-al-impactar-un-dron-ruso-contra-un-edificio-en-rumania.html",
-              "source_id": "elpais.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:36:39.135102+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7406795024871826,
-            "article": {
-              "title": "Romania didn't have time to shoot down Russian drone, defence official says",
-              "url": "https://www.france24.com/en/europe/20260529-live-nato-condemns-russia-s-recklessness-after-drone-hit-apartment-building-in-romania",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:36:31.163029+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.736101508140564,
-            "article": {
-              "title": "أصابت مبنى في رومانيا.. “مسيّرة روسية” تشعل الغضب في الناتو وأوروبا",
-              "url": "https://www.aljazeera.net/news/2026/5/29/مسيرة-روسية-تصيب-مبنى-في-رومانيا",
-              "source_id": "aljazeera.net",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:07.562993+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7322410345077515,
-            "article": {
-              "title": "НАТО обсудит удар беспилотника по многоэтажному дому в Румынии",
-              "url": "https://www.kommersant.ru/doc/8706957?from=top_main_6",
-              "source_id": "kommersant.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:39:07.718165+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6966450214385986,
-            "article": {
-              "title": "Russian Drone Strike Hits Cargo Ship En Route From Odesa Region To Turkey, Ukraine Says",
-              "url": "https://www.kyivpost.com/post/77085",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:57.319864+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6954096555709839,
-            "article": {
-              "title": "Romanian drone incursion is a 'provocation', Poland official says",
-              "url": "https://www.euronews.com/my-europe/2026/05/29/romanian-drone-incursion-is-no-mistake-its-a-provocation-polish-official-tells-euronews",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:26.515169+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6852177381515503,
-            "article": {
-              "title": "Russian oil refinery reportedly struck by Ukrainian drones in Volgograd.",
-              "url": "https://kyivindependent.com/russian-oil-refinery-reportedly-struck-by-ukrainian-drones-in-volgograd/",
-              "source_id": "kyivindependent.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:58.908800+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6822116374969482,
-            "article": {
-              "title": "羅馬尼亞邊境公寓遭俄無人機擊中起火，釀兩人受傷恐為北約首例",
-              "url": "https://www.singtaousa.com/2026/05/28/news/world/2-injured-after-drone-hits-apartment-building-in-romania-near-ukraine-border/",
-              "source_id": "singtaousa.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:41:01.306505+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 146.27888324262187,
-        "size": 29,
-        "n_sources": 27,
-        "n_continents": 9,
-        "continents": [
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "Oceania",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.7984907031059265,
-        "title": "Iran, US reach deal to extend ceasefire, pending Trump’s approval",
-        "central_article": {
-          "title": "Iran, US reach deal to extend ceasefire, pending Trump’s approval",
-          "url": "https://kathmandupost.com/world/2026/05/29/iran-us-reach-deal-to-extend-ceasefire-pending-trump-s-approval",
-          "source_id": "kathmandupost.com",
-          "continent": "South Asia",
-          "published_at": null,
-          "scraped_at_utc": "2026-05-29T10:41:32.112250+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8819051384925842,
-            "article": {
-              "title": "Iran, US reach deal to extend ceasefire, pending Trump’s approval",
-              "url": "https://kathmandupost.com/world/2026/05/29/iran-us-reach-deal-to-extend-ceasefire-pending-trump-s-approval",
-              "source_id": "kathmandupost.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:41:32.112250+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8819051384925842,
-            "article": {
-              "title": "Iran, US reach deal to extend ceasefire, pending Trump’s approval",
-              "url": "https://kathmandupost.com/world/2026/05/29/iran-us-reach-deal-to-extend-ceasefire-pending-trump-s-approval-1780048451",
-              "source_id": "kathmandupost.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:41:32.112250+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8770163059234619,
-            "article": {
-              "title": "Iran and US reportedly reach tentative deal to extend ceasefire",
-              "url": "https://www.sbs.com.au/news/article/iran-us-tentative-deal-ceasefire/18rygf0ps",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:37:49.930916+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8752050399780273,
-            "article": {
-              "title": "US and Iran 'very close' to deal but 'not there yet', Vance says US officials earlier told the BBC that the framework of a ceasefire extension deal had been agreed, pending the approval of Trump and Iran's leadership. 1 hr ago World",
-              "url": "https://www.bbc.com/news/articles/c87qng40wz9o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:19.537964+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8724715709686279,
-            "article": {
-              "title": "USA und Iran nähern sich vorläufiger Einigung an",
-              "url": "https://www.zdfheute.de/politik/ausland/iran-usa-verlaengerung-waffenruhe-vance-verhandlungen-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:48.361583+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8666471838951111,
-            "article": {
-              "title": "Are US and Iran on verge of deal to extend ceasefire for 60 days?",
-              "url": "https://www.channel4.com/news/are-us-and-iran-on-verge-of-deal-to-extend-ceasefire-for-60-days",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:24.810489+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8541919589042664,
-            "article": {
-              "title": "Iran e Usa hanno raggiunto un accordo, manca il sì di Trump. Vance: «Non è pronto a approvarlo»",
-              "url": "https://www.corriere.it/esteri/diretta-live/26_maggio_29/guerra-iran-notizie.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:36:47.914361+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8496090173721313,
-            "article": {
-              "title": "US and Iran reach peace deal pending Trump approval: officials",
-              "url": "https://www.independent.co.uk/news/world/americas/us-politics/iran-usa-peace-deal-trump-b2985433.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:20.679486+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8489185571670532,
-            "article": {
-              "title": "US, Iran close to preliminary deal on extending 60-day ceasefire",
-              "url": "https://pajhwok.com/2026/05/29/us-iran-close-to-preliminary-deal-on-extending-60-day-ceasefire/",
-              "source_id": "pajhwok.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:41:37.753974+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8400911092758179,
-            "article": {
-              "title": "US, Iran Agree Deal Framework, Awaiting Trump Approval: US Sources",
-              "url": "https://www.kyivpost.com/post/77059",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:57.319864+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8114374876022339,
-            "article": {
-              "title": "US and Iranian negotiators reach tentative deal to extend ceasefire and start new nuclear talks",
-              "url": "https://apnews.com/article/iran-us-war-oil-may-28-2026-8f5ed2813ba63df7ae9ccbe991688d29",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:40:14.404442+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8109866976737976,
-            "article": {
-              "title": "EE.UU. e Irán están cerca de alcanzar un acuerdo para extender el alto el fuego, según el vicepresidente JD Vance",
-              "url": "https://www.bbc.com/mundo/articles/c62xqlkn9zro",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:36:52.032569+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8106701374053955,
-            "article": {
-              "title": "VS en Iran dicht bij verlengen staakt-het-vuren",
-              "url": "https://fd.nl/politiek/1598118/vs-en-iran-dicht-bij-verlengen-staakt-het-vuren",
-              "source_id": "fd.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:34.243166+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.79414963722229,
-            "article": {
-              "title": "Estados Unidos e Irán hicieron “muchos avances” hacia un acuerdo, afirma Vance",
-              "url": "https://elcomercio.pe/mundo/eeuu/estados-unidos-e-iran-hicieron-muchos-avances-hacia-un-acuerdo-afirma-jd-vance-donald-trump-estrecho-de-ormuz-marco-rubio-ultimas-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:37:23.148584+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7910823822021484,
-            "article": {
-              "title": "Krieg in Nahost Vance meldet Fortschritte bei Irangesprächen – doch Trump hat noch nicht zugestimmt",
-              "url": "https://www.spiegel.de/ausland/vance-meldet-fortschritte-bei-iran-gespraechen-doch-trump-hat-noch-nicht-zugestimmt-a-a7c880f6-0cc6-47a5-bc79-1e1a255f85d7",
-              "source_id": "spiegel.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:38.749583+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7823089361190796,
-            "article": {
-              "title": "US-Israeli strikes on Iran US, Iran very close to reaching agreement",
-              "url": "https://tass.com/world/2138277",
+              "title": "Ukrainian drones entered various countries, with reports claiming 'Russian attack'",
+              "url": "https://tass.com/politics/2138739",
               "source_id": "tass.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:39:09.553794+00:00"
+              "scraped_at_utc": "2026-05-29T21:07:45.220701+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7753596305847168,
+            "sim_to_centroid": 0.7437636852264404,
             "article": {
-              "title": "Vance says U.S. and Iran make progress, but Trump's backing unclear",
-              "url": "https://www.pbs.org/newshour/show/vance-says-u-s-and-iran-make-progress-but-trumps-backing-unclear",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:40:44.901921+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7640142440795898,
-            "article": {
-              "title": "Berichte über Abkommen zwischen USA und Iran: Mehr als nur \"viele Fortschritte\"?",
-              "url": "https://www.tagesschau.de/ausland/asien/usa-iran-verhandlungen-abkommen-100.html",
-              "source_id": "tagesschau.de",
+              "title": "Daniel Mihaliescu/AFP Putin: Drönare kan ha varit ukrainsk Hus i Rumänien träffat – Nato fördömer.",
+              "url": "https://www.dn.se/varlden/rysk-dronare-slog-ned-i-rumanien-starka-reaktioner/",
+              "source_id": "dn.se",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:36.250301+00:00"
+              "scraped_at_utc": "2026-05-29T21:03:49.442171+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7611117362976074,
+            "sim_to_centroid": 0.7406225800514221,
             "article": {
-              "title": "Funke Mediengruppe Live Iran-Newsblog Einigung zwischen USA und Iran? Trumps Zustimmung laut Vance offen",
-              "url": "https://www.abendblatt.de/politik/article411965914/iran-krieg-news-aktuell-live-trump-waffenruhe-hormus.html",
-              "source_id": "abendblatt.de",
-              "continent": "Europe North",
+              "title": "Президент Румынии: дрон в Галаце упал из-за украинских сил ПВО",
+              "url": "https://www.kommersant.ru/doc/8707171?from=top_main_2",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:50.076250+00:00"
+              "scraped_at_utc": "2026-05-29T21:07:42.900596+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7585932016372681,
+            "sim_to_centroid": 0.7364555597305298,
             "article": {
-              "title": "EE UU afirma que ha acordado con Irán una prórroga del alto el fuego, pero Teherán lo niega",
-              "url": "https://elpais.com/internacional/2026-05-28/estados-unidos-afirma-que-ha-acordado-con-iran-una-prorroga-del-alto-el-fuego-pero-teheran-lo-niega.html",
-              "source_id": "elpais.com",
+              "title": "Putin už ví o pádu dronu v Rumunsku. Nejsou důkazy, že byl náš, zní z Moskvy",
+              "url": "https://www.idnes.cz/zpravy/zahranicni/putin-vi-o-zasahu-domu-ruskym-dronem-na-vychode-rumunska-potvrdil-kreml.A260529_135839_zahranicni_idh",
+              "source_id": "idnes.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:07:09.133524+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7337973117828369,
+            "article": {
+              "title": "Après la chute d’un drone russe en Roumanie, l’OTAN toujours à la recherche d’une défense adaptée à ce type d’incursions",
+              "url": "https://www.lemonde.fr/international/article/2026/05/29/apres-la-chute-d-un-drone-russe-en-roumanie-l-otan-toujours-a-la-recherche-d-une-defense-adaptee-a-ce-type-d-incursions_6694773_3210.html",
+              "source_id": "lemonde.fr",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:36:39.135102+00:00"
+              "scraped_at_utc": "2026-05-29T21:04:14.258774+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7573219537734985,
+            "sim_to_centroid": 0.6857490539550781,
             "article": {
-              "title": "Negotiators reach Iran deal, but Trump, Tehran must still sign off",
-              "url": "https://www.usatoday.com/story/news/world/2026/05/28/donald-trump-iran-war-strait-hormuz-tehran-nuclear/90296490007/",
-              "source_id": "usatoday.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:40:39.755937+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7547591924667358,
-            "article": {
-              "title": "US, Iran reach 60-day ceasefire deal reopening Strait of Hormuz, sources say.",
-              "url": "https://kyivindependent.com/us-iran-reach-60-day-ceasefire-deal-reopening-strait-of-hormuz-sources-say/",
+              "title": "These Ukrainian drone pilots took out NATO forces during drills.",
+              "url": "https://kyivindependent.com/these-ukrainian-drone-pilots-took-out-nato-forces-during-drills/",
               "source_id": "kyivindependent.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:58.908800+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7546604871749878,
-            "article": {
-              "title": "What’s happening on Iran war day 91 as US, Iran near 60-day truce",
-              "url": "https://www.aljazeera.com/news/2026/5/29/whats-happening-on-iran-war-day-91-as-us-iran-near-60-day-deal",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:02.432613+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7500418424606323,
-            "article": {
-              "title": "Beyaz Saray'dan üst düzey açıklama İran ile ABD sonunda anlaşıyor mu?",
-              "url": "https://www.cumhuriyet.com.tr/dunya/abd-baskan-yardimcisi-vance-iran-ile-anlasmaya-hic-olmadigi-kadar-yakiniz-2507748",
-              "source_id": "cumhuriyet.com.tr",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:18.986445+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7422863841056824,
-            "article": {
-              "title": "Awaiting Trump's approval: White House leaks main points of possible US-Iran deal",
-              "url": "https://www.albawaba.com/news/awaiting-trumps-approval-white-house-1628724",
-              "source_id": "albawaba.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:21.688854+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7315481901168823,
-            "article": {
-              "title": "Trump’s room to maneuver narrows as U.S., Iran close in on framework deal",
-              "url": "https://www.japantimes.co.jp/news/2026/05/29/world/politics/trump-iran-deal-room-narrow/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:42:09.359483+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7292184829711914,
-            "article": {
-              "title": "Washington chiede tempo per l'accordo. “Forse l’annuncio domenica”. Dubbi di Khamenei. E si spara ancora",
-              "url": "https://www.repubblica.it/esteri/2026/05/29/news/guerra_usa_iran_accordo_trump-425376872/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:36:46.112393+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7287575006484985,
-            "article": {
-              "title": "Iran US War Update",
-              "url": "https://www.bhaskar.com/international/news/iran-hormuz-strait-control-us-ceasefire-agreement-138055048.html",
-              "source_id": "bhaskar.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:41:13.466530+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6999603509902954,
-            "article": {
-              "title": "US-Israel war on Iran Donald Trump shares draft Iran peace agreement with Israel and other allies",
-              "url": "https://www.theguardian.com/world/2026/may/28/donald-trump-shares-draft-iran-peace-agreement-with-israel-and-other-allies",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:23.457395+00:00"
+              "scraped_at_utc": "2026-05-29T21:07:32.595989+00:00"
             }
           }
         ]
       },
       {
-        "score": 36.106097395502616,
-        "size": 7,
-        "n_sources": 7,
+        "score": 104.98448722989882,
+        "size": 22,
+        "n_sources": 21,
         "n_continents": 6,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "South America"
-        ],
-        "coherence": 0.8697584271430969,
-        "title": "UN blacklists Israel over sexual violence against Palestinians",
-        "central_article": {
-          "title": "UN blacklists Israel over sexual violence against Palestinians",
-          "url": "https://www.newarab.com/news/un-blacklists-israel-over-sexual-violence-against-palestinians",
-          "source_id": "newarab.com",
-          "continent": "Middle East",
-          "published_at": null,
-          "scraped_at_utc": "2026-05-29T10:38:22.949258+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9096204042434692,
-            "article": {
-              "title": "UN blacklists Israel over sexual violence against Palestinians",
-              "url": "https://www.newarab.com/news/un-blacklists-israel-over-sexual-violence-against-palestinians",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:22.949258+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8840934038162231,
-            "article": {
-              "title": "Israel furious over inclusion on UN sexual violence list",
-              "url": "https://www.rt.com/news/640700-israel-un-sexual-violence-blacklist/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:39:05.661163+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8799496293067932,
-            "article": {
-              "title": "Israeli and Russian forces added to UN blacklist for sexual violence in conflict zones",
-              "url": "https://apnews.com/article/israel-sexual-assault-conflict-zone-gaza-united-nations-c5d5c8300dd671d0e5cd1594c1da2006",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:40:14.404442+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8634918928146362,
-            "article": {
-              "title": "ONU inclui Israel em lista de acusados de violência sexual em zonas de conflito, diz embaixador israelense",
-              "url": "https://oglobo.globo.com/mundo/noticia/2026/05/28/onu-inclui-israel-em-lista-de-acusados-de-violencia-sexual-em-zonas-de-conflito-diz-embaixador-israelense.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:37:15.407995+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8618168830871582,
-            "article": {
-              "title": "Israeli entities to be added to UN sexual violence list over alleged Palestinian detainee abuse",
-              "url": "https://www.france24.com/en/middle-east/20260528-israeli-authorities-to-be-added-to-un-sexual-violence-list-over-alleged-palestinian-detainee-abuse",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:36:31.163029+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8557839393615723,
-            "article": {
-              "title": "Israel 'done' with UN Secretary General after army added to sexual violence blacklist",
-              "url": "https://www.thenationalnews.com/news/mena/2026/05/28/israel-done-with-un-secretary-general-after-prison-service-added-to-sexual-violence-blacklist/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:03.736933+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8335525393486023,
-            "article": {
-              "title": "UN-Bericht wirft Israels Sicherheitskräften sexualisierte Gewalt vor",
-              "url": "https://www.tagesschau.de/ausland/asien/israel-guterres-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:36.250301+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 36.10426051880517,
-        "size": 9,
-        "n_sources": 9,
-        "n_continents": 6,
-        "continents": [
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America"
-        ],
-        "coherence": 0.8194853663444519,
-        "title": "Israel ‘hits ancient site’ as it pushes deeper into southern Lebanon",
-        "central_article": {
-          "title": "Israel ‘hits ancient site’ as it pushes deeper into southern Lebanon",
-          "url": "https://www.thetimes.com/world/middle-east/israel-hezbollah-war/article/israel-lebanon-tyre-unesco-beaufort-castle-iran-war-57cp9dptl",
-          "source_id": "thetimes.com",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-05-29T10:35:22.154532+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8667400479316711,
-            "article": {
-              "title": "Israel ‘hits ancient site’ as it pushes deeper into southern Lebanon",
-              "url": "https://www.thetimes.com/world/middle-east/israel-hezbollah-war/article/israel-lebanon-tyre-unesco-beaufort-castle-iran-war-57cp9dptl",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:22.154532+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.845726490020752,
-            "article": {
-              "title": "Israel deploys ‘significant ground forces’ to expand operations in southern Lebanon",
-              "url": "https://www.france24.com/en/middle-east/20260526-middle-east-live-us-carries-out-self-defense-strikes-on-iran",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:36:31.163029+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8385014533996582,
-            "article": {
-              "title": "As Iran deal awaits 'sign off', Israel widens attacks on Lebanon",
-              "url": "https://www.newarab.com/news/iran-deal-awaits-sign-israel-widens-attacks-lebanon",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:22.949258+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8235958218574524,
-            "article": {
-              "title": "Israel carries out violent airstrikes in Lebanon's Tyre",
-              "url": "https://www.albawaba.com/news/israel-carries-out-violent-airstrikes-1628694",
-              "source_id": "albawaba.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:21.688854+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8146477937698364,
-            "article": {
-              "title": "Israel strikes Lebanese capital despite ceasefire claims (VIDEOS)",
-              "url": "https://www.rt.com/news/640691-israel-strikes-beirut-lebanon/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:39:05.661163+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8101917505264282,
-            "article": {
-              "title": "Israeli military strikes southern suburb of Beirut before crucial Lebanon-Israel talks in Washington",
-              "url": "https://apnews.com/article/lebanon-israel-hezbollah-airstrikes-tyre-washington-talks-9ee3d769ae672c1a64dae905797a73da",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:40:14.404442+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8096119165420532,
-            "article": {
-              "title": "Latest: Israel breaching international law in southern Lebanon, France says",
-              "url": "https://www.thenationalnews.com/news/mena/2026/05/29/live-us-iran-war-israel-lebanon/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:03.736933+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7952735424041748,
-            "article": {
-              "title": "How Israel has emptied southern Lebanon far beyond the front lines",
-              "url": "https://www.japantimes.co.jp/news/2026/05/29/world/society/israel-southern-lebanon-empty/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:42:09.359483+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7710797786712646,
-            "article": {
-              "title": "غارة إسرائيلية على جنوبي لبنان",
-              "url": "https://www.aljazeera.net/news/liveblog/2026/5/29/حرب-إيران-مباشر-اتفاق-أمريكي-إيراني?update=9297550",
-              "source_id": "aljazeera.net",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:07.562993+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 35.42691745597874,
-        "size": 9,
-        "n_sources": 9,
-        "n_continents": 5,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "Middle East",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.8521618843078613,
-        "title": "Business Oil price drops amid hopes of US-Iran peace deal",
-        "central_article": {
-          "title": "Business Oil price drops amid hopes of US-Iran peace deal",
-          "url": "https://www.theguardian.com/business/2026/may/29/oil-price-drops-amid-hopes-of-us-iran-peace-deal",
-          "source_id": "theguardian.com",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-05-29T10:35:23.457395+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8924827575683594,
-            "article": {
-              "title": "Business Oil price drops amid hopes of US-Iran peace deal",
-              "url": "https://www.theguardian.com/business/2026/may/29/oil-price-drops-amid-hopes-of-us-iran-peace-deal",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:23.457395+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8865607976913452,
-            "article": {
-              "title": "Oil prices fall after report of breakthrough in US-Iran talks",
-              "url": "https://www.bbc.com/news/articles/cp3p62xddq4o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:19.537964+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.880846381187439,
-            "article": {
-              "title": "Oil prices fall and markets rise on optimism over Iran ceasefire deal",
-              "url": "https://www.euronews.com/business/2026/05/29/oil-prices-fall-and-markets-rise-on-optimism-over-iran-ceasefire-deal",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:26.515169+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8501683473587036,
-            "article": {
-              "title": "Petróleo cai, com expectativas de avanço diplomático entre EUA e Irã; dólar recua",
-              "url": "https://oglobo.globo.com/economia/financas/ao-vivo/ibovespa-hoje-acompanhe-bolsa-e-dolar.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:37:15.407995+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8481690883636475,
-            "article": {
-              "title": "Oil prices tumble as Trump signals imminent Iran deal",
-              "url": "https://www.albawaba.com/business/oil-prices-tumble-trump-signals-imminent-1628645",
-              "source_id": "albawaba.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:21.688854+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8454367518424988,
-            "article": {
-              "title": "ایران امریکا معاہدے کی خبروں کیساتھ ہی عالمی منڈی میں تیل کی قیمتوں میں کمی",
-              "url": "https://www.nawaiwaqt.com.pk/29-May-2026/1997094",
-              "source_id": "nawaiwaqt.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:41:35.181930+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8370271921157837,
-            "article": {
-              "title": "Цены на нефть падают на фоне надежд на мирное соглашение между США и Ираном В мире",
-              "url": "http://belta.by/world/view/tseny-na-neft-padajut-na-fone-nadezhd-na-mirnoe-soglashenie-mezhdu-ssha-i-iranom-783450-2026/",
-              "source_id": "belta.by",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:39:34.998500+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8150005340576172,
-            "article": {
-              "title": "Olíu­verð lækkaði hratt eftir frétt íranska ríkissjón­varpsins",
-              "url": "https://www.vb.is/frettir/oliuverd-laekkadi-hratt-eftir-frett-iranska-rikissjonvarpsins/",
-              "source_id": "vb.is",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:36:11.799069+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8137648701667786,
-            "article": {
-              "title": "Oil heads for second weekly drop owing to Iran truce and weakening Asian demand",
-              "url": "https://www.thenationalnews.com/business/energy/2026/05/29/oil-prices-head-for-second-weekly-drop-as-fragile-iran-truce-wavers/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:03.736933+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 31.832565347972974,
-        "size": 8,
-        "n_sources": 8,
-        "n_continents": 5,
-        "continents": [
-          "Europe North",
-          "Middle East",
-          "North America",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.854322075843811,
-        "title": "US government prepares to print $250 note featuring Trump's face",
-        "central_article": {
-          "title": "US government prepares to print $250 note featuring Trump's face",
-          "url": "https://www.bbc.com/news/articles/clypeyx6nemo",
-          "source_id": "bbc.com",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-05-29T10:35:19.537964+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9265989661216736,
-            "article": {
-              "title": "US government prepares to print $250 note featuring Trump's face",
-              "url": "https://www.bbc.com/news/articles/clypeyx6nemo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:19.537964+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9068287014961243,
-            "article": {
-              "title": "US-Regierung plant 250-Dollar-Note mit Trump",
-              "url": "https://www.diepresse.com/26852892/us-regierung-plant-250-dollar-note-mit-trump",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:45.918249+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.901138186454773,
-            "article": {
-              "title": "US Treasury secretary confirms plans for $250 bill featuring Trump’s face",
-              "url": "https://www.aljazeera.com/news/2026/5/29/us-treasury-secretary-confirms-plans-for-banknote-featuring-trumps-face",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:02.432613+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8779479265213013,
-            "article": {
-              "title": "Treasury Prepares to Put Trump on a $250 Bill",
-              "url": "https://time.com/article/2026/05/29/trump-250-dollar-bill-treasury-currency-congress-semiquincentennial/",
-              "source_id": "time.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:40:42.363131+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8610930442810059,
-            "article": {
-              "title": "Will Trump's portrait appear on $250 bill? Here's what…",
-              "url": "https://www.usatoday.com/story/graphics/2026/05/28/trump-portrait-250-bill-look-like/90294395007/",
-              "source_id": "usatoday.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:40:39.755937+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7967977523803711,
-            "article": {
-              "title": "Secretário do Tesouro americano apoia ideia de estampar nota de dólar com rosto de Trump",
-              "url": "https://oglobo.globo.com/economia/financas/noticia/2026/05/28/secretario-do-tesouro-americano-apoia-ideia-de-estampar-dolar-com-rosto-de-trump.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:37:15.407995+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7861192226409912,
-            "article": {
-              "title": "‘Regering-Trump eiste president op nieuwe 250 dollarbiljet’",
-              "url": "https://fd.nl/politiek/1598031/regering-trump-eiste-president-op-nieuwe-250-dollarbiljet",
-              "source_id": "fd.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:34.243166+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7780529260635376,
-            "article": {
-              "title": "अमेरिका में 250 डॉलर के नोट पर ट्रम्प की तस्वीर 150 साल पुराना नियम बदलने की तैयारी, संसद की मंजूरी बाकी Play video",
-              "url": "https://www.bhaskar.com/g/international/news/us-dollar-note-trump-photo-plan-150-year-rule-change-138057258.html",
-              "source_id": "bhaskar.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:41:13.466530+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 28.070636805011453,
-        "size": 6,
-        "n_sources": 6,
-        "n_continents": 5,
         "continents": [
           "China",
           "Europe East",
           "Europe North",
+          "Middle East",
           "North America",
-          "Oceania"
+          "South Asia"
         ],
-        "coherence": 0.8867053389549255,
-        "title": "Man sentenced for plotting attack on Taylor Swift Vienna concert",
+        "coherence": 0.8635061383247375,
+        "title": "Ordena juez quitarle el nombre de Trump al Kennedy Center",
         "central_article": {
-          "title": "Man sentenced for plotting attack on Taylor Swift Vienna concert",
-          "url": "https://www.sbs.com.au/news/article/man-sentenced-taylor-swift-austria-plot/fsxd22tjn",
-          "source_id": "sbs.com.au",
-          "continent": "Oceania",
+          "title": "Ordena juez quitarle el nombre de Trump al Kennedy Center",
+          "url": "https://www.reforma.com/ordena-juez-quitarle-el-nombre-de-trump-al-kennedy-center/ar3213098?v=3",
+          "source_id": "reforma.com",
+          "continent": "North America",
           "published_at": null,
-          "scraped_at_utc": "2026-05-29T10:37:49.930916+00:00"
+          "scraped_at_utc": "2026-05-29T21:04:44.634149+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9211043119430542,
+            "sim_to_centroid": 0.9471097588539124,
             "article": {
-              "title": "Man sentenced for plotting attack on Taylor Swift Vienna concert",
-              "url": "https://www.sbs.com.au/news/article/man-sentenced-taylor-swift-austria-plot/fsxd22tjn",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
+              "title": "Ordena juez quitarle el nombre de Trump al Kennedy Center",
+              "url": "https://www.reforma.com/ordena-juez-quitarle-el-nombre-de-trump-al-kennedy-center/ar3213098?v=3",
+              "source_id": "reforma.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:37:49.930916+00:00"
+              "scraped_at_utc": "2026-05-29T21:04:44.634149+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9068905711174011,
+            "sim_to_centroid": 0.9445580244064331,
             "article": {
-              "title": "Жителя Австрии приговорили к 15 годам за подготовку теракта на концерте Тейлор Свифт",
-              "url": "https://meduza.io/news/2026/05/29/zhitelya-avstrii-prigovorili-k-15-godam-za-podgotovku-terakta-na-kontserte-teylor-svift",
-              "source_id": "meduza.io",
+              "title": "Trump's name must be removed from Kennedy Center, judge orders",
+              "url": "https://www.usatoday.com/story/news/politics/2026/05/29/trump-kennedy-center-rebranding-name-judge-illegal/90318608007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:09:37.864973+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9398350715637207,
+            "article": {
+              "title": "Dommer beordrer Trumps navn fjernet fra Kennedy Center",
+              "url": "https://politiken.dk/internationalt/art10862673/Dommer-beordrer-Trumps-navn-fjernet-fra-Kennedy-Center",
+              "source_id": "politiken.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:03:47.363179+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9277987480163574,
+            "article": {
+              "title": "US judge orders Trump’s name removed from Kennedy Centre",
+              "url": "https://www.scmp.com/news/world/united-states-canada/article/3355385/us-judge-orders-trumps-name-removed-kennedy-centre?module=latest&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:09:45.826354+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9132095575332642,
+            "article": {
+              "title": "US Judge orders removal of Trump's name from Kennedy Center, says only Congress can rename it",
+              "url": "https://www.hindustantimes.com/world-news/us-news/us-judge-orders-removal-of-trumps-name-from-kennedy-center-says-only-congress-can-rename-it-101780084251442.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:10:18.684285+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9043919444084167,
+            "article": {
+              "title": "Judge says Kennedy Center board violated law putting Trump’s name on building, orders it removed",
+              "url": "https://www.bostonglobe.com/2026/05/29/nation/judge-orders-trump-name-removed-kennedy-center/",
+              "source_id": "bostonglobe.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:09:36.701516+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8957828283309937,
+            "article": {
+              "title": "Rechter fluit Trump terug: naam moet van Kennedy Center in Washington af",
+              "url": "https://www.rtl.nl/nieuws/artikel/5607222/rechter-trump-kennedy-center",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:03:13.564031+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8787769079208374,
+            "article": {
+              "title": "JAV teisėjas įpareigojo pašalinti Trumpo vardą iš Kenedžio centro",
+              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/2944464/jav-teisejas-ipareigojo-pasalinti-trumpo-varda-is-kenedzio-centro",
+              "source_id": "lrt.lt",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:59.984662+00:00"
+              "scraped_at_utc": "2026-05-29T21:07:51.375537+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.884087324142456,
+            "sim_to_centroid": 0.8712159395217896,
             "article": {
-              "title": "Готовившему теракт на концерте Тейлор Свифт в Вене вынесли приговор",
-              "url": "https://tengrinews.kz/world_news/gotovivshemu-terakt-kontserte-teylor-svift-vene-vyinesli-600316/",
-              "source_id": "tengrinews.kz",
-              "continent": "Europe East",
+              "title": "2 t Verden Dommer beordrer Trumps navn fjernet fra Kennedy Center",
+              "url": "https://www.aftenposten.no/verden/i/6qBg5W/dommer-beordrer-trumps-navn-fjernet-fra-kennedy-center",
+              "source_id": "aftenposten.no",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:39:21.398498+00:00"
+              "scraped_at_utc": "2026-05-29T21:03:51.319476+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.877903938293457,
+            "sim_to_centroid": 0.859860897064209,
             "article": {
-              "title": "Suspect in plot to attack Taylor Swift's Vienna concert convicted and sentenced to 15 years By Philipp Jenne, Associated Press",
-              "url": "https://www.pbs.org/newshour/world/suspect-in-attack-plot-on-taylor-swifts-vienna-concert-convicted-and-sentenced-to-15-years",
+              "title": ". geleden • Buitenland Rechter: Trumps naam moet van Kennedy Center worden verwijderd",
+              "url": "https://nos.nl/artikel/2616388-rechter-trumps-naam-moet-van-kennedy-center-worden-verwijderd",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:03:08.676864+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8589895963668823,
+            "article": {
+              "title": "Judge says Kennedy Center board violated law putting Trump's name on building, blocks closure",
+              "url": "https://www.pbs.org/newshour/politics/judge-says-kennedy-center-board-violated-law-putting-trumps-name-on-building-blocks-closure",
               "source_id": "pbs.org",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:40:44.901921+00:00"
+              "scraped_at_utc": "2026-05-29T21:09:44.365900+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8745322227478027,
+            "sim_to_centroid": 0.8571068048477173,
             "article": {
-              "title": "維也納恐襲陰謀｜男子策劃襲擊泰勒絲演唱會判囚15年",
-              "url": "https://www.singtaousa.com/2026/05/28/news/world/man-jailed-over-plot-to-attack-taylor-swift-concert-in-vienna/",
+              "title": "Judge says Kennedy Center board broke law putting Trump’s name on building, blocks closure",
+              "url": "https://apnews.com/article/trump-kennedy-center-renovations-closure-1857159baf8db4692324acb7ef62f249",
+              "source_id": "apnews.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:09:11.636116+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8571068048477173,
+            "article": {
+              "title": "Judge says Kennedy Center board broke law putting Trump’s name on building, blocks closure",
+              "url": "https://www.chicagotribune.com/2026/05/29/kennedy-center-trump/",
+              "source_id": "chicagotribune.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:09:40.080052+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8521016836166382,
+            "article": {
+              "title": "قاض أميركي يأمر بإزالة اسم ترامب من مركز كنيدي",
+              "url": "https://www.annahar.com/international/united-states/314822/قاض-أميركي-يأمر-بإزالة-اسم-ترامب-من-مركز-كنيدي",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:06:54.663268+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8465152382850647,
+            "article": {
+              "title": "Mundo Juez ordena a Trump retirar su nombre del famoso Kennedy Center",
+              "url": "https://www.crhoy.com/mundo/juez-ordena-a-trump-retirar-su-nombre-del-famoso-kennedy-center/",
+              "source_id": "crhoy.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:04:50.804481+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.845867395401001,
+            "article": {
+              "title": "Dommer beordrer Trumps navn fjernet fra kulturinstitution",
+              "url": "https://www.dr.dk/nyheder/seneste/dommer-beordrer-trumps-navn-fjernet-fra-kulturinstitution",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:04:01.798978+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8436602354049683,
+            "article": {
+              "title": "Blog Amerikaanse politiek Rechter: naam Trump moet van muur Kennedy Center",
+              "url": "https://www.nrc.nl/nieuws/2025/09/19/amerikaanse-politiek-19-september-a4906609",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:03:10.922726+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8395775556564331,
+            "article": {
+              "title": "Суд запретил добавлять к названию Кеннеди-центра имя Трампа",
+              "url": "https://meduza.io/news/2026/05/29/sud-zapretil-dobavlyat-k-nazvaniyu-kennedi-tsentra-imya-trampa",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:07:33.752348+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8312371969223022,
+            "article": {
+              "title": "Trump can’t rename Kennedy Center after himself or close it down, judge says",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-kennedy-center-judge-ruling-b2986224.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:02:58.948885+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8121998310089111,
+            "article": {
+              "title": "Just nu: Domstol: Trumps namn måste bort från kulturcenter",
+              "url": "https://www.dn.se/direkt/2026-05-29/domstol-trumps-namn-maste-bort-fran-kulturcenter/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:03:49.442171+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.750121533870697,
+            "article": {
+              "title": "聯邦法官裁定甘迺迪中心不得冠上特朗普名字 叫停全面關閉翻修計劃",
+              "url": "https://www.singtaousa.com/2026/05/29/news/usa/federal-judge-rules-that-kennedy-center-cant-bear-trumps-name-halting-planned-shutdown-for-renovations/",
               "source_id": "singtaousa.com",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:41:01.306505+00:00"
+              "scraped_at_utc": "2026-05-29T21:10:02.712268+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8557137250900269,
+            "sim_to_centroid": 0.7201094627380371,
             "article": {
-              "title": "Jihadist jailed for 15 years over Taylor Swift concert terror plot",
-              "url": "https://www.thetimes.com/world/europe/article/jihadist-jailed-15-years-taylor-swift-concert-attack-2nswt6089",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
+              "title": "‘An appropriate birthday present’: JFK family celebrates after judge blocks Trump’s Kennedy Center renaming bid",
+              "url": "https://www.hindustantimes.com/world-news/us-news/an-appropriate-birthday-present-jfk-family-celebrates-after-judge-blocks-trump-s-kennedy-center-renaming-bid-101780084815079.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:35:22.154532+00:00"
+              "scraped_at_utc": "2026-05-29T21:10:18.684285+00:00"
             }
           }
         ]
       },
       {
-        "score": 20.0,
-        "size": 5,
-        "n_sources": 5,
-        "n_continents": 4,
+        "score": 48.28971593109557,
+        "size": 9,
+        "n_sources": 9,
+        "n_continents": 7,
         "continents": [
+          "China",
           "East Asia",
+          "Europe East",
+          "Europe North",
           "Middle East",
           "Oceania",
           "South Asia"
         ],
-        "coherence": 0.9082010984420776,
+        "coherence": 0.8468167781829834,
         "title": "Netanyahu directs Israeli forces to expand Gaza control to 70%",
         "central_article": {
           "title": "Netanyahu directs Israeli forces to expand Gaza control to 70%",
@@ -1807,146 +1186,912 @@
           "source_id": "japantimes.co.jp",
           "continent": "East Asia",
           "published_at": null,
-          "scraped_at_utc": "2026-05-29T10:42:09.359483+00:00"
+          "scraped_at_utc": "2026-05-29T21:11:12.099231+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9411416053771973,
+            "sim_to_centroid": 0.942331850528717,
             "article": {
               "title": "Netanyahu directs Israeli forces to expand Gaza control to 70%",
               "url": "https://www.japantimes.co.jp/news/2026/05/29/world/israel-gaza-control/",
               "source_id": "japantimes.co.jp",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:42:09.359483+00:00"
+              "scraped_at_utc": "2026-05-29T21:11:12.099231+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9379361867904663,
+            "sim_to_centroid": 0.928568959236145,
+            "article": {
+              "title": "Netanyahu tells Israeli army to take control of 70% of Gaza",
+              "url": "https://www.channel4.com/news/netanyahu-tells-israeli-army-to-take-control-of-70-of-gaza",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:03:04.797046+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.924964189529419,
             "article": {
               "title": "Netanyahu orders Israeli army to occupy 70 per cent of Gaza",
               "url": "https://www.thenationalnews.com/news/mena/2026/05/29/netanyahu-orders-israeli-army-to-occupy-70-per-cent-of-gaza/",
               "source_id": "thenationalnews.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:03.736933+00:00"
+              "scraped_at_utc": "2026-05-29T21:05:56.787968+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9155581593513489,
+            "sim_to_centroid": 0.9156061410903931,
             "article": {
               "title": "Benjamin Netanyahu says Israel will expand control of Gaza to 70 per cent",
               "url": "https://www.sbs.com.au/news/article/benjamin-netanyahu-israel-gaza-control/9fjq8wy0t",
               "source_id": "sbs.com.au",
               "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:37:49.930916+00:00"
+              "scraped_at_utc": "2026-05-29T21:05:41.984001+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.897344708442688,
+            "sim_to_centroid": 0.8307362794876099,
             "article": {
-              "title": "اسرائیلی وزیراعظم کا فوج کو غزہ کے 70 فیصد علاقے پر قبضہ کرنے کا حکم",
-              "url": "https://www.nawaiwaqt.com.pk/29-May-2026/1997111",
-              "source_id": "nawaiwaqt.com.pk",
-              "continent": "South Asia",
+              "title": "Netanyahu orders expansion of Gaza occupation",
+              "url": "https://www.rt.com/news/640748-israel-netanyahu-gaza-occupation/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:41:35.181930+00:00"
+              "scraped_at_utc": "2026-05-29T21:07:40.689058+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8490251898765564,
+            "sim_to_centroid": 0.8060407638549805,
             "article": {
               "title": "नेतन्याहू का गाजा के 70% हिस्से पर कब्जे का आदेश: लोग बोले- 100% कंट्रोल में लो, इजराइली PM बोले- धीरे-धीरे करेंगे",
               "url": "https://www.bhaskar.com/g/international/news/israel-pm-netanyahu-gaza-control-order-70-percent-138056396.html",
               "source_id": "bhaskar.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:41:13.466530+00:00"
+              "scraped_at_utc": "2026-05-29T21:10:14.750147+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7732821106910706,
+            "article": {
+              "title": "以色列称将占领加沙地区70%领土 加沙和平协议渐告落空",
+              "url": "https://international.caixin.com/2026-05-29/102449111.html",
+              "source_id": "caixin.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:09:59.186382+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7716299295425415,
+            "article": {
+              "title": "Netanjahu chce zająć 70 proc. Strefy Gazy, wybuch rakiety Jeffa Bezosa",
+              "url": "https://wyborcza.pl/7,75398,32821386,netanjahu-chce-zajac-70-proc-strefy-gazy-wybuch-rakiety-jeffa.html",
+              "source_id": "wyborcza.pl",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:07:02.602185+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7281907796859741,
+            "article": {
+              "title": "Netanyahu: Israëlische krijgsmacht rukt nog verder op richting het noorden van Libanon",
+              "url": "https://www.nrc.nl/nieuws/2026/05/29/netanyahu-israelische-krijgsmacht-rukt-nog-verder-op-richting-het-noorden-van-libanon-a4928991",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:03:10.922726+00:00"
             }
           }
         ]
       },
       {
-        "score": 16.942632124858154,
-        "size": 5,
-        "n_sources": 5,
-        "n_continents": 4,
+        "score": 40.85508432622184,
+        "size": 12,
+        "n_sources": 12,
+        "n_continents": 5,
         "continents": [
-          "China",
           "Europe East",
+          "Europe North",
           "Europe South",
-          "North America"
+          "Middle East",
+          "South America"
         ],
-        "coherence": 0.8668201565742493,
-        "title": "Anthropic融资650亿美元 投后估值9650亿美元超OpenAI",
+        "coherence": 0.8231373429298401,
+        "title": "EU to unlock 16 billion euros for Hungary as Magyar pushes ahead with post-Orban reforms",
         "central_article": {
-          "title": "Anthropic融资650亿美元 投后估值9650亿美元超OpenAI",
-          "url": "https://www.caixin.com/2026-05-29/102448963.html",
-          "source_id": "caixin.com",
-          "continent": "China",
+          "title": "EU to unlock 16 billion euros for Hungary as Magyar pushes ahead with post-Orban reforms",
+          "url": "https://www.france24.com/en/europe/20260529-eu-to-unlock-16-billion-euros-for-hungary-as-magyar-pushes-ahead-with-post-orban-reforms",
+          "source_id": "france24.com",
+          "continent": "Europe South",
           "published_at": null,
-          "scraped_at_utc": "2026-05-29T10:40:57.931990+00:00"
+          "scraped_at_utc": "2026-05-29T21:04:20.488096+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9173458814620972,
+            "sim_to_centroid": 0.8959004878997803,
             "article": {
-              "title": "Anthropic融资650亿美元 投后估值9650亿美元超OpenAI",
-              "url": "https://www.caixin.com/2026-05-29/102448963.html",
-              "source_id": "caixin.com",
-              "continent": "China",
+              "title": "EU to unlock 16 billion euros for Hungary as Magyar pushes ahead with post-Orban reforms",
+              "url": "https://www.france24.com/en/europe/20260529-eu-to-unlock-16-billion-euros-for-hungary-as-magyar-pushes-ahead-with-post-orban-reforms",
+              "source_id": "france24.com",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:40:57.931990+00:00"
+              "scraped_at_utc": "2026-05-29T21:04:20.488096+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.888567328453064,
+            "sim_to_centroid": 0.8768726587295532,
             "article": {
-              "title": "Компания Anthropic стала самым дорогим ИИ-стартапом, обогнав OpenAI",
-              "url": "https://meduza.io/news/2026/05/29/kompaniya-anthropic-stala-samym-dorogim-ii-startapom-obognav-openai",
-              "source_id": "meduza.io",
+              "title": "EU gibt eingefrorene Milliarden für Ungarn frei",
+              "url": "https://www.tagesschau.de/ausland/europa/eu-ungarn-118.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:03:18.063064+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8644325137138367,
+            "article": {
+              "title": "EU to release billions in frozen funds for Hungary amid Magyar reforms",
+              "url": "https://www.aljazeera.com/news/2026/5/29/eu-to-release-billions-in-frozen-funds-for-hungary-amid-magyar-reforms",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:05:55.309294+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8619205355644226,
+            "article": {
+              "title": "La UE liberará más de 16.000 millones de fondos tras el giro en Hungría",
+              "url": "https://www.lavanguardia.com/internacional/20260529/11551094/ue-liberara-mas-16-000-millones-fondos-europeos-giro-politico-hungria.html",
+              "source_id": "lavanguardia.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:04:30.827240+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8551105260848999,
+            "article": {
+              "title": "EU agrees plan to unblock €16bn in frozen funds to Hungary",
+              "url": "https://www.irishtimes.com/world/europe/2026/05/29/eu-agrees-plan-to-unblock-16bn-in-frozen-funds-to-hungary/",
+              "source_id": "irishtimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:05:54.084956+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8490172624588013,
+            "article": {
+              "title": "Hungary’s Magyar has ‘unlocked’ €16B in EU cash. Getting it is another story.",
+              "url": "https://www.politico.eu/article/hungary-peter-magyar-unlocked-e16b-eu-cash-ursula-von-der-leyen/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:03:07.505556+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8169811964035034,
+            "article": {
+              "title": "EU uvolní Maďarsku přes 16 miliard zmrazených eur, země se zavázala k reformám Evropská unie uvolní Maďarsku z evropských fondů přes 16 miliard zmrazených eur (asi 388 miliard korun). Brusel tak učiní s ohledem na pokrok, kterého Budapešť dosáhla či ještě dosáhne v oblasti reforem pod vedením nové vlády, uvedli po společném jednání předsedkyně Evropské komise (EK) Ursula von der Leyenová a nový maďarský premiér Péter Magyar. Maďarsko potřebuje zablokované prostředky EU k ozdravení svých veřejných financí. Magyar zdědil prudce rostoucí rozpočtový deficit a ekonomiku, která se po letech stagnace v prvním čtvrtletí sotva vymanila z recese. Aktualizováno před 7 h hodinami | ČTK , avu , mlu",
+              "url": "https://ct24.ceskatelevize.cz/clanek/svet/eu-uvolni-madarsku-pres-16-miliard-zmrazenych-eur-zeme-se-zavazala-k-formam-374020",
+              "source_id": "ct24.ceskatelevize.cz",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:38:59.984662+00:00"
+              "scraped_at_utc": "2026-05-29T21:07:11.947151+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8816977739334106,
+            "sim_to_centroid": 0.7997629046440125,
             "article": {
-              "title": "Intelligence artificielle : comment Anthropic a dépassé OpenAI en valorisation",
-              "url": "https://www.lemonde.fr/economie/article/2026/05/29/intelligence-artificielle-comment-anthropic-a-depasse-openai-en-valorisation_6694730_3234.html",
-              "source_id": "lemonde.fr",
-              "continent": "Europe South",
+              "title": "Comissão Europeia libera 16 bilhões de euros congelados para o país",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/05/comissao-europeia-libera-16-bilhoes-de-euros-de-fundos-congelados-para-hungria.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:36:26.230209+00:00"
+              "scraped_at_utc": "2026-05-29T21:05:04.217591+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8424270153045654,
+            "sim_to_centroid": 0.7919936180114746,
             "article": {
-              "title": "Anthropic recauda $65.000 millones y alcanza valorización de $965.000 millones",
-              "url": "https://www.crhoy.com/negocios/anthropic-recauda-65-000-millones-y-alcanza-valorizacion-de-965-000-millones/",
-              "source_id": "crhoy.com",
+              "title": "Brussel beloont nieuwe Hongaarse regering met vrijgave van miljarden",
+              "url": "https://fd.nl/politiek/1598132/brussel-beloont-nieuwe-hongaarse-regering-met-vrijgave-van-miljarden",
+              "source_id": "fd.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:03:15.776679+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7807846069335938,
+            "article": {
+              "title": "„Habe um jeden Cent gekämpft“: Magyar holt 16,4 Milliarden Euro für Ungarn in Brüssel ab",
+              "url": "https://www.diepresse.com/26849895/habe-um-jeden-cent-gekaempft-magyar-holt-164-milliarden-euro-fuer-ungarn-in-bruessel-ab",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:03:30.936188+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7494831085205078,
+            "article": {
+              "title": "Magyar bejelentette, hogy 16,4 milliárd euró felszabadításáról állapodtak meg",
+              "url": "https://telex.hu/kulfold/2026/05/29/magyar-peter-ursula-von-der-leyen-unios-penzek-targyalas-helyreallitasi-alap-kohezios-penzek",
+              "source_id": "telex.hu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:07:04.037057+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.735389232635498,
+            "article": {
+              "title": "Aftale om indefrosne midler er en frisk start for EU og Ungarn",
+              "url": "https://www.dr.dk/nyheder/udland/eu/aftale-om-indefrosne-midler-er-en-frisk-start-eu-og-ungarn",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:04:01.798978+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 40.44168321580606,
+        "size": 11,
+        "n_sources": 11,
+        "n_continents": 5,
+        "continents": [
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "North America",
+          "Oceania"
+        ],
+        "coherence": 0.8385055661201477,
+        "title": "Jeff Bezos’ Blue Origin rocket explodes on launchpad",
+        "central_article": {
+          "title": "Jeff Bezos’ Blue Origin rocket explodes on launchpad",
+          "url": "https://www.channel4.com/news/jeff-bezos-blue-origin-rocket-explodes-on-launchpad",
+          "source_id": "channel4.com",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-05-29T21:03:04.797046+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9413416385650635,
+            "article": {
+              "title": "Jeff Bezos’ Blue Origin rocket explodes on launchpad",
+              "url": "https://www.channel4.com/news/jeff-bezos-blue-origin-rocket-explodes-on-launchpad",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:03:04.797046+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9225063323974609,
+            "article": {
+              "title": "'Very rough day': Jeff Bezos' Blue Origin rocket explodes on launch pad",
+              "url": "https://www.sbs.com.au/news/article/jeff-bezos-blue-origin-rocket-explosion/lnxu7ctla",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:05:41.984001+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9052855372428894,
+            "article": {
+              "title": "Jeff Bezos' Blue Origin Rocket Explodes Into Flames on Launch Pad",
+              "url": "https://time.com/article/2026/05/29/jeff-bezos-blue-origin-rocket-explodes-launch-pad-video-response/",
+              "source_id": "time.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:36:59.303179+00:00"
+              "scraped_at_utc": "2026-05-29T21:09:41.774524+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8040629029273987,
+            "sim_to_centroid": 0.8807517290115356,
             "article": {
-              "title": "Anthropic apre in Italia, a Milano il sesto ufficio europeo del colosso dell’Intelligenza artificiale",
-              "url": "https://www.corriere.it/economia/consumi/26_maggio_28/anthropic-apre-in-italia-a-milano-il-sesto-ufficio-europeo-del-colosso-dell-intelligenza-artificiale-6351a629-cee0-443d-abe6-63b12d85dxlk.shtml",
-              "source_id": "corriere.it",
+              "title": "Blue Origin rocket explodes on launch pad during test",
+              "url": "https://www.abc.net.au/news/2026-05-29/blue-origin-rocket-explodes-during-test-jeff-bezos/106737482",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:05:40.325548+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8391324281692505,
+            "article": {
+              "title": "Ракета компании Безоса взорвалась на стартовой площадке",
+              "url": "https://www.kommersant.ru/doc/8693153?from=spot_main",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:07:42.900596+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8375155925750732,
+            "article": {
+              "title": "Il razzo di Blue Origin esplode sulla rampa di lancio durante un test di accensione del motore",
+              "url": "https://www.repubblica.it/esteri/2026/05/29/news/razzo_blu_origin_esplosione_bezos-425377055/",
+              "source_id": "repubblica.it",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-05-29T10:36:47.914361+00:00"
+              "scraped_at_utc": "2026-05-29T21:04:36.678620+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8019864559173584,
+            "article": {
+              "title": "Explota cohete de Blue Origin; estiman p�rdida de 200 mdd",
+              "url": "https://www.reforma.com/explota-cohete-de-blue-origin-estiman-perdida-de-200-mdd/ar3212663?v=9",
+              "source_id": "reforma.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:04:44.634149+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8015795350074768,
+            "article": {
+              "title": "Raumfahrt Bezos-Rakete explodiert bei Test vor dem Start",
+              "url": "https://www.handelsblatt.com/technik/raumfahrt-bezos-rakete-explodiert-bei-test-vor-dem-start/100228842.html",
+              "source_id": "handelsblatt.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:03:24.482908+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7823657989501953,
+            "article": {
+              "title": "Blue Origin investigates rocket explosion as public is warned about possible wreckage washing ashore",
+              "url": "https://www.chicagotribune.com/2026/05/29/blue-origin-rocket-explosion/",
+              "source_id": "chicagotribune.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:09:40.080052+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7744826078414917,
+            "article": {
+              "title": ", En video: el momento en el que explota un cohete de Blue Origin que iba a llevar al espacio satélites de Amazon , Duración 0,28",
+              "url": "https://www.bbc.com/mundo/articles/cm2pgw72230o",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:04:43.127993+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7366139888763428,
+            "article": {
+              "title": "Enorme vuurbal door ontploffing raket van Jeff Bezos: 'Heel zware dag'",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5606904/blue-origin-raket-ontploft-test-lanceerplatform-vuurbal-jeff",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:03:13.564031+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 37.80893571967574,
+        "size": 11,
+        "n_sources": 9,
+        "n_continents": 6,
+        "continents": [
+          "East Asia",
+          "Europe North",
+          "Europe South",
+          "Oceania",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.8287122845649719,
+        "title": "Rescuers free one of seven trapped in Laos cave",
+        "central_article": {
+          "title": "Rescuers free one of seven trapped in Laos cave",
+          "url": "https://www.bangkokpost.com/world/3262823/rescuers-free-one-of-seven-trapped-in-laos-cave",
+          "source_id": "bangkokpost.com",
+          "continent": "East Asia",
+          "published_at": null,
+          "scraped_at_utc": "2026-05-29T21:11:30.851916+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8996112942695618,
+            "article": {
+              "title": "Rescuers free one of seven trapped in Laos cave",
+              "url": "https://www.bangkokpost.com/world/3262823/rescuers-free-one-of-seven-trapped-in-laos-cave",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:11:30.851916+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8968020677566528,
+            "article": {
+              "title": "Rescuers free one of seven men trapped in Laos cave",
+              "url": "https://www.thedailystar.net/news/asia/southeast-asia/news/rescuers-free-one-seven-men-trapped-laos-cave-4186526",
+              "source_id": "thedailystar.net",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:10:21.451552+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8729575872421265,
+            "article": {
+              "title": "Mergulhadores resgatam primeiro homem preso em caverna inundada no Laos; veja",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/05/mergulhadores-resgatam-primeiro-homem-preso-em-caverna-inundada-no-laos.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:05:04.217591+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8620993494987488,
+            "article": {
+              "title": "First survivor rescued from Laos cave, evacuations suspended",
+              "url": "https://www.smh.com.au/world/asia/first-survivor-rescued-from-laos-cave-20260530-p6024r.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:05:43.213276+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8575260639190674,
+            "article": {
+              "title": "Rescuers evacuate the first of 5 villagers found trapped in a cave in Laos; 2 still missing",
+              "url": "https://www.channelnewsasia.com/world/laos-trapped-cave-rescue-save-6150386",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:11:10.741149+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8489610552787781,
+            "article": {
+              "title": "Primeiro sobrevivente deixa caverna inundada no Laos após mais de uma semana preso",
+              "url": "https://oglobo.globo.com/mundo/epoca/noticia/2026/05/29/primeiro-sobrevivente-deixa-caverna-inundada-no-laos-apos-mais-de-uma-semana-preso.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:05:07.649401+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7866369485855103,
+            "article": {
+              "title": "Article / Meldung Rettungskräfte befreien ersten Goldsucher aus Höhle in Laos",
+              "url": "https://www.tagesschau.de/ausland/asien/laos-hoehle-rettung-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:03:18.063064+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7799900770187378,
+            "article": {
+              "title": "'Like diving in coffee': The toughest challenges facing the Laos cave rescue",
+              "url": "https://www.sbs.com.au/news/article/challenges-facing-rescuers-in-the-laos-cave-rescue-mission/iv7fy1fh3",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:05:41.984001+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7777408361434937,
+            "article": {
+              "title": "Specialist divers head to Laos to join 'extremely challenging' cave rescue",
+              "url": "https://www.bangkokpost.com/world/3262823/specialist-divers-head-to-laos-to-join-extremely-challenging-cave-rescue",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:11:30.851916+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7773952484130859,
+            "article": {
+              "title": "Miners trapped in Laos cave send messages home",
+              "url": "https://www.channelnewsasia.com/shorts/miners-trapped-in-laos-cave-send-messages-home-6149901",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:11:10.741149+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7561143040657043,
+            "article": {
+              "title": "Azië Eerste goudzoeker bevrijd uit overstroomde grot in Laos, zoektocht naar 2 vermisten gaat door",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/05/29/laos-bevrijding/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:04:24.362468+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 36.21511836011695,
+        "size": 10,
+        "n_sources": 10,
+        "n_continents": 7,
+        "continents": [
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Oceania",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.7681962847709656,
+        "title": "Iran and US reportedly reach tentative deal to extend ceasefire",
+        "central_article": {
+          "title": "Iran and US reportedly reach tentative deal to extend ceasefire",
+          "url": "https://www.sbs.com.au/news/article/iran-us-tentative-deal-ceasefire/18rygf0ps",
+          "source_id": "sbs.com.au",
+          "continent": "Oceania",
+          "published_at": null,
+          "scraped_at_utc": "2026-05-29T21:05:41.984001+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.821967601776123,
+            "article": {
+              "title": "Iran and US reportedly reach tentative deal to extend ceasefire",
+              "url": "https://www.sbs.com.au/news/article/iran-us-tentative-deal-ceasefire/18rygf0ps",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:05:41.984001+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8177937269210815,
+            "article": {
+              "title": "Possible accord entre l’Iran et les Etats-Unis : ce que l’on sait",
+              "url": "https://www.lesoir.be/749770/article/2026-05-29/possible-accord-entre-liran-et-les-etats-unis-ce-que-lon-sait",
+              "source_id": "lesoir.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:04:29.258154+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7955339550971985,
+            "article": {
+              "title": "US, Iran close to preliminary deal on extending 60-day ceasefire",
+              "url": "https://pajhwok.com/2026/05/29/us-iran-close-to-preliminary-deal-on-extending-60-day-ceasefire/",
+              "source_id": "pajhwok.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:10:40.605416+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7646433711051941,
+            "article": {
+              "title": "Steht ein Iran-Deal bevor? Positionen noch \"weit auseinander\"",
+              "url": "https://www.zdfheute.de/politik/ausland/iran-trump-usa-krieg-verhandlungen-energiekrise-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:03:33.683468+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.760722279548645,
+            "article": {
+              "title": "Соглашение с США находится на финальных этапах утверждения, заявили в Иране Вчера,",
+              "url": "https://ria.ru/20260529/iran-2095623422.html",
+              "source_id": "ria.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:07:47.623658+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7575653195381165,
+            "article": {
+              "title": "Iran calls for actions not words after US officials say peace deal is near",
+              "url": "https://www.straitstimes.com/world/middle-east/iran-calls-for-actions-not-words-after-us-officials-say-peace-deal-is-near?ref=top-stories",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:11:34.849255+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7565231323242188,
+            "article": {
+              "title": "Funke Mediengruppe Live Iran-Newsblog Iran-Treffen vorbei – Trumps Entscheidung zu möglichem Abkommen steht weiter aus",
+              "url": "https://www.abendblatt.de/politik/article411965914/iran-krieg-news-aktuell-live-trump-waffenruhe-deal-abkommen.html",
+              "source_id": "abendblatt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:03:39.117879+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7400835156440735,
+            "article": {
+              "title": "Trump compartilha rascunho de acordo com Irã a aliados enquanto ministro paquistanês viaja aos EUA para reunião com Rubio",
+              "url": "https://oglobo.globo.com/mundo/noticia/2026/05/29/trump-compartilha-rascunho-de-acordo-com-ira-a-aliados-enquanto-ministro-paquistanes-viaja-aos-eua-para-reuniao-com-rubio.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:05:07.649401+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7379338145256042,
+            "article": {
+              "title": "La réunion de Donald Trump dans la 'Situation Room' sur un possible accord avec l'Iran est terminée Monde",
+              "url": "https://www.rts.ch/info/monde/2026/minute-par-minute/29255771.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:04:22.479639+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7291955947875977,
+            "article": {
+              "title": "La diretta Conclusa dopo due ore la riunione di Trump nella situation room. “Ma sull'Iran nessuna decisione”",
+              "url": "https://www.repubblica.it/esteri/2026/05/29/diretta/guerra_iran_usa_israelenews_oggi-425377003/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:04:36.678620+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 26.03341779020882,
+        "size": 9,
+        "n_sources": 9,
+        "n_continents": 4,
+        "continents": [
+          "China",
+          "Europe North",
+          "Middle East",
+          "North America"
+        ],
+        "coherence": 0.8351724147796631,
+        "title": "Bondi refuses to answer lawmakers’ questions about Trump’s involvement in Epstein files release",
+        "central_article": {
+          "title": "Bondi refuses to answer lawmakers’ questions about Trump’s involvement in Epstein files release",
+          "url": "https://apnews.com/article/pam-bondi-jeffrey-epstein-trump-9ca5612e397ff8365dfb212a214c97c9",
+          "source_id": "apnews.com",
+          "continent": "North America",
+          "published_at": null,
+          "scraped_at_utc": "2026-05-29T21:09:11.636116+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8832532167434692,
+            "article": {
+              "title": "Bondi refuses to answer lawmakers’ questions about Trump’s involvement in Epstein files release",
+              "url": "https://apnews.com/article/pam-bondi-jeffrey-epstein-trump-9ca5612e397ff8365dfb212a214c97c9",
+              "source_id": "apnews.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:09:11.636116+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8751446008682251,
+            "article": {
+              "title": "Pam Bondi refused to speak about Donald Trump's involvement in handling of Epstein files during a House committee interview",
+              "url": "https://www.pbs.org/newshour/politics/key-things-to-know-ahead-of-pam-bondis-interview-with-house-committee-about-her-handling-of-the-epstein-files",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:09:44.365900+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8737468719482422,
+            "article": {
+              "title": "Bondi refused to answer questions about Trump and Epstein files, Democrats say",
+              "url": "https://www.scmp.com/news/world/united-states-canada/article/3355383/bondi-refused-answer-questions-about-trump-and-epstein-files-democrats-say?module=latest&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:09:45.826354+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8509587645530701,
+            "article": {
+              "title": "Former US attorney general Pam Bondi defends her handling of Epstein files in congressional probe",
+              "url": "https://www.bbc.com/news/articles/czj2ldllgwgo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:02:57.585172+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8476600646972656,
+            "article": {
+              "title": "Ex-US Attorney General Pam Bondi testifies in Epstein files probe",
+              "url": "https://www.aljazeera.com/news/2026/5/29/ex-us-attorney-general-pam-bondi-testifies-in-epstein-files-probe",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:05:55.309294+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8213724493980408,
+            "article": {
+              "title": "Bondi Stonewalls Questions About Trump as She Defends DOJ’s Handling of the Epstein Files",
+              "url": "https://time.com/article/2026/05/29/Bondi-Epstein-interview-Trump-DOJ-Todd-Blanche-House-Congress/",
+              "source_id": "time.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:09:41.774524+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8082966208457947,
+            "article": {
+              "title": "Pam Bondi admits to 'redaction errors' in Epstein files, blames successor",
+              "url": "https://www.usatoday.com/story/news/politics/2026/05/29/pam-bondi-congress-interview-jeffrey-epstein/90281703007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:09:37.864973+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8037617206573486,
+            "article": {
+              "title": "Pam Bondi throws acting AG Todd Blanche under the bus over Epstein files in Congress testimony",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/pam-bondi-epstein-testimony-todd-blanche-b2986149.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:02:58.948885+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7523568868637085,
+            "article": {
+              "title": "ديموقراطيون يتهمون بوندي بالتستر في ملفات إبستين ورفض الإجابة عن أسئلة تخص ترامب",
+              "url": "https://www.annahar.com/international/united-states/314810/ديموقراطيون-يتهمون-بوندي-بالتستر-في-ملفات-إبستين-ورفض-الإجابة-عن-أسئلة-تخص-ترامب",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:06:54.663268+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 25.69345301362321,
+        "size": 6,
+        "n_sources": 6,
+        "n_continents": 5,
+        "continents": [
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America"
+        ],
+        "coherence": 0.8690077662467957,
+        "title": "Israel, Russia among new additions on UN sexual violence ‘blacklist’",
+        "central_article": {
+          "title": "Israel, Russia among new additions on UN sexual violence ‘blacklist’",
+          "url": "https://www.aljazeera.com/news/2026/5/29/israel-russia-un-conflict-related-sexual-violence-report",
+          "source_id": "aljazeera.com",
+          "continent": "Middle East",
+          "published_at": null,
+          "scraped_at_utc": "2026-05-29T21:05:55.309294+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9008476138114929,
+            "article": {
+              "title": "Israel, Russia among new additions on UN sexual violence ‘blacklist’",
+              "url": "https://www.aljazeera.com/news/2026/5/29/israel-russia-un-conflict-related-sexual-violence-report",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:05:55.309294+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8866862654685974,
+            "article": {
+              "title": "Israëlisch-Palestijns conflict VN plaatst Rusland en Israël voor het eerst op 'zwarte lijst' van seksueel geweld in conflicten",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/05/29/vn-rapport-israel-rusland-op-zwarte-lijst/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:04:24.362468+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8812243938446045,
+            "article": {
+              "title": "Israeli and Russian forces added to UN blacklist for sexual violence in conflict zones By Farnoush Amiri, Edith Lederer, Associated Press",
+              "url": "https://www.pbs.org/newshour/world/israeli-and-russian-forces-added-to-un-blacklist-for-sexual-violence-in-conflict-zones",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:09:44.365900+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8757010698318481,
+            "article": {
+              "title": "Seksueel geweld ‘Verenigde Naties zetten Israël en Rusland op zwarte lijst vanwege seksueel geweld’",
+              "url": "https://www.nrc.nl/nieuws/2026/05/29/verenigde-naties-zetten-israel-en-rusland-op-zwarte-lijst-vanwege-seksueel-geweld-a4928942",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:03:10.922726+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8524627685546875,
+            "article": {
+              "title": "UN blacklists Russian forces over sexual violence against Ukrainian POWs, detainees",
+              "url": "https://kyivindependent.com/un-blacklists-russian-forces-over-sexual-violence-against-ukrainian-pows-detainees/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:07:32.595989+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8171243071556091,
+            "article": {
+              "title": "Israeli entities to be added to UN sexual violence list over alleged Palestinian detainee abuse",
+              "url": "https://www.france24.com/en/middle-east/20260528-israeli-authorities-to-be-added-to-un-sexual-violence-list-over-alleged-palestinian-detainee-abuse",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-05-29T21:04:20.488096+00:00"
             }
           }
         ]
       }
     ],
-    "created_at_utc": "2026-05-29T11:07:36Z"
+    "created_at_utc": "2026-05-29T21:28:13Z"
   }
 ]
