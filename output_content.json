@@ -1,349 +1,1236 @@
 [
   {
-    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1780656897",
-    "n_items": 2529,
-    "n_clusters": 2167,
+    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1780692885",
+    "n_items": 2574,
+    "n_clusters": 2154,
     "clusters": [
       {
-        "score": 116.09845392097621,
-        "size": 27,
+        "score": 129.258458761283,
+        "size": 26,
         "n_sources": 25,
-        "n_continents": 7,
+        "n_continents": 8,
         "continents": [
+          "Africa",
           "East Asia",
           "Europe East",
           "Europe North",
           "Europe South",
           "Middle East",
-          "North America",
+          "Oceania",
           "South America"
         ],
-        "coherence": 0.8179305195808411,
-        "title": "Zelensky propone conversaciones cara a cara con Putin en una carta abierta al presidente ruso",
+        "coherence": 0.8126993179321289,
+        "title": "Putin says there is 'no point' meeting Zelensky over ending Ukraine war",
         "central_article": {
-          "title": "Zelensky propone conversaciones cara a cara con Putin en una carta abierta al presidente ruso",
-          "url": "https://www.bbc.com/mundo/articles/c8r8rkmll36o",
+          "title": "Putin says there is 'no point' meeting Zelensky over ending Ukraine war",
+          "url": "https://www.bbc.com/news/articles/cpqpqx5qe40o",
           "source_id": "bbc.com",
           "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-06-05T10:39:09.841979+00:00"
+          "scraped_at_utc": "2026-06-05T20:32:15.363849+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9208353161811829,
+            "sim_to_centroid": 0.9029325246810913,
             "article": {
-              "title": "Zelensky propone conversaciones cara a cara con Putin en una carta abierta al presidente ruso",
-              "url": "https://www.bbc.com/mundo/articles/c8r8rkmll36o",
+              "title": "Putin says there is 'no point' meeting Zelensky over ending Ukraine war",
+              "url": "https://www.bbc.com/news/articles/cpqpqx5qe40o",
               "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:39:09.841979+00:00"
+              "scraped_at_utc": "2026-06-05T20:32:15.363849+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9128724336624146,
+            "sim_to_centroid": 0.8875102400779724,
             "article": {
-              "title": "Zelenski propone negociaciones cara a cara en una carta abierta a Putin",
-              "url": "https://www.lavanguardia.com/internacional/20260605/11556691/zelenski-propone-negociaciones-cara-a-cara-en-una-carta-abierta-a-putin.html",
-              "source_id": "lavanguardia.com",
-              "continent": "Europe South",
+              "title": "Putin says he sees 'no point' meeting Zelenskyy",
+              "url": "https://www.abc.net.au/news/2026-06-05/drone-blast-in-romania-prompts-fresh-warning-over-ukraine-war/106766706",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:38:58.689697+00:00"
+              "scraped_at_utc": "2026-06-05T20:34:35.509545+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9035607576370239,
+            "sim_to_centroid": 0.886268138885498,
             "article": {
-              "title": "Zelenskiy calls for face-to-face talks in open letter to Putin",
-              "url": "https://www.irishtimes.com/world/europe/2026/06/05/zelenskiy-calls-for-face-to-face-talks-in-open-letter-to-putin/",
-              "source_id": "irishtimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:41:01.883067+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9028009176254272,
-            "article": {
-              "title": "Zelensky asks Putin for face-to-face meeting to end war",
-              "url": "https://www.thetimes.com/world/russia-ukraine-war/article/zelensky-putin-meeting-end-ukraine-war-8r3h5gfqz",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:37:23.708776+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9004067182540894,
-            "article": {
-              "title": "Zelenskyy proposes meeting to discuss end of war in letter to Putin",
-              "url": "https://www.euronews.com/my-europe/2026/06/04/zelenskyy-proposes-face-to-face-meeting-to-discuss-end-of-war-in-open-letter-to-putin",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:37:29.605420+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8788306713104248,
-            "article": {
-              "title": "Volodymyr Zelensky propose à Vladimir Poutine une rencontre en direct pour mettre fin à la guerre en Ukraine",
-              "url": "https://www.lemonde.fr/international/article/2026/06/05/volodymyr-zelensky-propose-a-vladimir-poutine-une-rencontre-directe-pour-mettre-fin-a-la-guerre-en-ukraine_6697898_3210.html",
-              "source_id": "lemonde.fr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:38:43.114345+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.867367148399353,
-            "article": {
-              "title": "Zelensky roept Poetin op tot gesprek",
-              "url": "https://fd.nl/politiek/1598730/zelensky-roept-poetin-op-tot-gesprek",
-              "source_id": "fd.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:37:37.415778+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8507891893386841,
-            "article": {
-              "title": "La respuesta del Kremlin. Zelensky le propuso a Putin una reunión cara a cara para alcanzar un \"alto el fuego total\"",
-              "url": "https://www.lanacion.com.ar/el-mundo/zelensky-le-propuso-un-encuentro-cara-a-cara-a-putin-y-el-kremlin-dice-que-pueden-reunirse-en-nid04062026/",
-              "source_id": "lanacion.com.ar",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:39:21.155337+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8377619981765747,
-            "article": {
-              "title": "Zelensky envoie une lettre à Poutine : la réponse du Kremlin",
-              "url": "https://www.lesoir.be/751002/article/2026-06-05/zelensky-envoie-une-lettre-poutine-la-reponse-du-kremlin",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:38:56.249394+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8349001407623291,
-            "article": {
-              "title": "Zelenskyy calls on Putin for direct negotiations in a neutral country",
-              "url": "https://apnews.com/article/russia-ukraine-zelenskyy-putin-c5d735ba02ba98199ccac4e6faf51bd0",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:43:45.628041+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8266067504882812,
-            "article": {
-              "title": "Zelensky proposes Putin meeting without US mediation",
-              "url": "https://www.azernews.az/region/259358.html",
-              "source_id": "azernews.az",
+              "title": "Putin Responds to Zelensky’s Letter, Says Meeting Would Be Pointless",
+              "url": "https://www.kyivpost.com/post/77608",
+              "source_id": "kyivpost.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:42:40.612764+00:00"
+              "scraped_at_utc": "2026-06-05T20:36:50.853775+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8254253268241882,
+            "sim_to_centroid": 0.8806498050689697,
             "article": {
-              "title": "Guerra da Ucrânia Em carta aberta, Zelenski propõe reunião com Putin e cessar-fogo; Kremlin diz que ucraniano pode ir a Moscou",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/06/em-carta-aberta-zelenski-propoe-reuniao-com-putin-e-cessar-fogo-kremlin-diz-que-ucraniano-pode-ir-a-moscou.shtml",
+              "title": "Putin afirma não ver motivo para reunião com Zelenski após carta de líder ucraniano",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/06/putin-diz-nao-ver-motivo-para-reuniao-com-zelenski-apos-carta-de-ucraniano.shtml",
               "source_id": "folha.uol.com.br",
               "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:40:14.575527+00:00"
+              "scraped_at_utc": "2026-06-05T20:34:02.355415+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8245548605918884,
+            "sim_to_centroid": 0.8802264332771301,
             "article": {
-              "title": "Zelensky scrive a Putin: «Vediamoci e chiudiamo la guerra». La replica: «Venga a Mosca quando vuole»",
-              "url": "https://www.corriere.it/esteri/diretta-live/26_giugno_05/guerra-ucraina-russia-le-notizie-in-diretta.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:39:05.938042+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8124420046806335,
-            "article": {
-              "title": "Zelenskyy tells Putin that Arab countries could host face-to-face peace talks",
-              "url": "https://www.thenationalnews.com/news/us/2026/06/04/zelenskyy-tells-putin-that-arab-countries-could-host-face-to-face-peace-talks/",
-              "source_id": "thenationalnews.com",
+              "title": "Russia’s Putin says ‘no point’ meeting Ukraine’s Zelenskyy for now",
+              "url": "https://www.aljazeera.com/news/2026/6/5/russias-putin-says-no-point-meeting-ukraines-zelenskyy-for-now",
+              "source_id": "aljazeera.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:41:05.490538+00:00"
+              "scraped_at_utc": "2026-06-05T20:35:08.644008+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8078140616416931,
+            "sim_to_centroid": 0.8753001689910889,
             "article": {
-              "title": "Poetin 'bereid tot compromis', Zelensky nodigt hem uit voor vredesoverleg",
-              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5609465/poetin-bereid-tot-compromis-zelensky-nodigt-hem-uit-voor-gesprek",
-              "source_id": "rtl.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:37:35.572478+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8062114715576172,
-            "article": {
-              "title": "Oorlog in Oekraïne Zelensky schrijft open brief aan Poetin: kom aan tafel, de oorlog is jouw persoonlijke keuze",
-              "url": "https://www.nrc.nl/nieuws/2025/08/19/oekraineblog-19-aug-a4903434",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:37:33.647749+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8062114715576172,
-            "article": {
-              "title": "Oorlog in Oekraïne Zelensky schrijft open brief aan Poetin: kom aan tafel, de oorlog is jouw persoonlijke keuze",
-              "url": "https://www.nrc.nl/nieuws/2026/06/05/zelensky-schrijft-open-brief-aan-poetin-kom-aan-tafel-de-oorlog-is-jouw-persoonlijke-keuze-a4929412",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:37:33.647749+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8044815063476562,
-            "article": {
-              "title": "Volodymyr Zelensky propose un tête-à-tête à Vladimir Poutine pour trouver un accord de paix Guerre en Ukraine aujourd'hui à",
-              "url": "https://www.rts.ch/info/monde/2026/article/zelensky-propose-un-tete-a-tete-a-poutine-pour-trouver-un-accord-de-paix-29264394.html",
-              "source_id": "rts.ch",
+              "title": "« Je n’y vois pas d’intérêt » : Poutine refuse la proposition de rencontre de Zelensky",
+              "url": "https://www.lesoir.be/751170/article/2026-06-05/je-ny-vois-pas-dinteret-poutine-refuse-la-proposition-de-rencontre-de-zelensky",
+              "source_id": "lesoir.be",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:38:50.419802+00:00"
+              "scraped_at_utc": "2026-06-05T20:33:27.265334+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7916009426116943,
+            "sim_to_centroid": 0.8576822280883789,
             "article": {
-              "title": "Selenskyj bietet Putin direkte Friedensgespräche an",
-              "url": "https://www.tagesschau.de/ausland/europa/ukraine-selenskyj-brief-putin-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
+              "title": "Putin rejeita oferta de Zelenski para encontro e diz que carta de ucraniano é 'grosseira'",
+              "url": "https://www.estadao.com.br/internacional/putin-rejeita-oferta-de-zelenski-para-um-encontro-e-diz-que-carta-de-ucraniano-e-grosseira/",
+              "source_id": "estadao.com.br",
+              "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:37:39.495785+00:00"
+              "scraped_at_utc": "2026-06-05T20:34:07.075964+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7878248691558838,
+            "sim_to_centroid": 0.8546609282493591,
             "article": {
-              "title": "Selenskyj an Putin: \"Ich schlage ein Treffen vor\"",
-              "url": "https://www.zdfheute.de/politik/ausland/putin-selenskyj-treffen-ukraine-krieg-russland-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
+              "title": "Zelensky Says Putin Does Not Want Peace After Rejecting Meeting Proposal",
+              "url": "https://www.kyivpost.com/post/77614",
+              "source_id": "kyivpost.com",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:37:55.259053+00:00"
+              "scraped_at_utc": "2026-06-05T20:36:50.853775+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7645988464355469,
+            "sim_to_centroid": 0.8506325483322144,
             "article": {
-              "title": "Russian attacks kill 11, injure 68 across Ukraine over past day as Zelensky proposes meeting with Putin to end war.",
-              "url": "https://kyivindependent.com/russian-attacks-kill-8-injure-68-across-ukraine-over-past-day-as-zelensky-proposes-meeting-with-putin-to-end-war/",
+              "title": "Why Zelensky's letter wasn't about Putin as Kremlin rejects meeting",
+              "url": "https://kyivindependent.com/behind-zelenskys-letter-to-putin/",
               "source_id": "kyivindependent.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:41:55.350383+00:00"
+              "scraped_at_utc": "2026-06-05T20:36:52.434089+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7577004432678223,
+            "sim_to_centroid": 0.8497048616409302,
             "article": {
-              "title": "Decoding Zelensky’s Open Letter: Putin’s War, Putin’s Failure",
-              "url": "https://www.kyivpost.com/post/77553",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
+              "title": "Putin rules out Zelensky's offer to meet and vows to pursue war goals",
+              "url": "https://www.france24.com/en/europe/20260605-live-us-house-passes-bill-in-support-of-ukraine-sanctions-russia",
+              "source_id": "france24.com",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:41:53.739674+00:00"
+              "scraped_at_utc": "2026-06-05T20:33:19.887066+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7551280856132507,
+            "sim_to_centroid": 0.8414703607559204,
             "article": {
-              "title": "Kremlin says Putin has been briefed on Zelenskiy letter",
-              "url": "https://www.thestar.com.my/news/world/2026/06/05/kremlin-says-putin-has-been-briefed-on-zelenskiy-letter",
-              "source_id": "thestar.com.my",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:46:11.500397+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7512357234954834,
-            "article": {
-              "title": "«Не бойтесь выйти из войны». Зеленский написал открытое письмо Путину с предложением встретиться и договориться о мире 4 июня",
-              "url": "https://novayagazeta.eu/articles/2026/06/04/ne-boites-vyiti-iz-voiny-zelenskii-napisal-otkrytoe-pismo-putinu-s-predlozheniem-vstretitsia-i-dogovoritsia-o-mire-news",
-              "source_id": "novayagazeta.eu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:41:58.447600+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.732665479183197,
-            "article": {
-              "title": "Kuleba Says Zelensky’s Open Letter to Putin Was About ‘Confidence in Victory,’ Not Talks",
-              "url": "https://www.kyivpost.com/post/77575",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:41:53.739674+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7154828310012817,
-            "article": {
-              "title": "Putin reagiert indirekt auf Selenskyjs Brief – und droht mit Einsatz neuer Hyperschallrakete",
-              "url": "https://www.welt.de/politik/ausland/article6a21f8948d84dbd8a4ed52b0/ukraine-krieg-putin-reagiert-indirekt-auf-selenskyjs-brief-und-droht-mit-einsatz-neuer-hyperschallrakete.html",
-              "source_id": "welt.de",
+              "title": "Putin to Zelenskyy: No peace talks — and don’t call me old",
+              "url": "https://www.politico.eu/article/vladimir-putin-to-volodymyr-zelenskyy-letter-no-peace-talks-dont-call-me-old/",
+              "source_id": "politico.eu",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:37:46.907930+00:00"
+              "scraped_at_utc": "2026-06-05T20:32:24.571869+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7040133476257324,
+            "sim_to_centroid": 0.8327098488807678,
             "article": {
-              "title": "الاتحاد الأوروبي يرحب بدعوة زيلينسكي لمفاوضات مباشرة مع بوتين",
-              "url": "https://www.annahar.com/international/europe/316993/الاتحاد-الأوروبي-يرحب-بدعوة-زيلينسكي-لمفاوضات-مباشرة-مع-بوتين",
-              "source_id": "annahar.com",
-              "continent": "Middle East",
+              "title": "SPIEF-2026 Putin says sees no point in meeting with Zelensky so far",
+              "url": "https://tass.com/politics/2142977",
+              "source_id": "tass.com",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:41:26.376198+00:00"
+              "scraped_at_utc": "2026-06-05T20:37:03.689861+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8273542523384094,
+            "article": {
+              "title": "Reacția lui Zelenski după ce Putin a exclus o întâlnire bilaterală: Alege din nou războiul",
+              "url": "https://www.g4media.ro/reactia-lui-zelenski-dupa-ce-putin-a-exclus-o-intalnire-bilaterala-aleger-din-nou-razboiul.html",
+              "source_id": "g4media.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:36:43.927432+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8038766384124756,
+            "article": {
+              "title": "Putinov hladni odziv na odprto pismo Zelenskega",
+              "url": "https://www.delo.si/novice/svet/putinov-hladni-odziv-na-odprto-pismo-zelenskega",
+              "source_id": "delo.si",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:36:47.450763+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7916489243507385,
+            "article": {
+              "title": "Putin: ”Ser ingen poäng med att prata med Zelenskyj” Rysslands president avvisar inbjudan",
+              "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=b99090f9d66b8e35a407bbff341dcfcb",
+              "source_id": "svt.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:33:01.930193+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7905609011650085,
+            "article": {
+              "title": "Vladímir Putin responde a invitación para reunirse con Zelenski y crece la tensión en Ucrania",
+              "url": "https://www.semana.com/mundo/articulo/vladimir-putin-responde-a-invitacion-para-reunirse-con-zelenski-y-crece-la-tension-en-ucrania/202603/",
+              "source_id": "semana.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:33:57.188802+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7852281332015991,
+            "article": {
+              "title": "«Российская сторона снова выбирает войну». Зеленский — об отказе Путина встретиться с ним",
+              "url": "https://meduza.io/news/2026/06/05/rossiyskaya-storona-snova-vybiraet-voynu-zelenskiy-ob-otkaze-putina-vstretitsya-s-nim",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:36:53.555528+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.774235725402832,
+            "article": {
+              "title": "Zelensky needles Putin in personal letter calling for face-to-face peace talks",
+              "url": "https://www.egyptindependent.com/zelensky-needles-putin-in-personal-letter-calling-for-face-to-face-peace-talks/",
+              "source_id": "egyptindependent.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:38:14.686910+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7681406736373901,
+            "article": {
+              "title": ". geleden • Buitenland Poetin wijst uitnodiging Zelensky af, ziet het nut er niet van in",
+              "url": "https://nos.nl/artikel/2617330-poetin-wijst-uitnodiging-zelensky-af-ziet-het-nut-er-niet-van-in",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:32:25.738009+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7565606236457825,
+            "article": {
+              "title": "Guerre en Ukraine : Zelensky propose une rencontre à Poutine pour mettre fin à la guerre, le président russe botte en touche",
+              "url": "https://www.rtbf.be/article/guerre-en-ukraine-volodymyr-zelensky-propose-de-mettre-fin-a-la-guerre-une-rencontre-avec-poutine-et-un-cessez-le-feu-complet-11735447",
+              "source_id": "rtbf.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:33:25.688949+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7562053203582764,
+            "article": {
+              "title": "La diretta Putin replica a Zelensky: “Ora non c’è motivo di vederci”. Incontro tra il presidente ucraino, Starmer, Macron e Merz |",
+              "url": "https://www.repubblica.it/esteri/2026/06/05/diretta/guerra_ucraina_russia_news_oggi-425390469/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:33:35.595310+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7548365592956543,
+            "article": {
+              "title": "Putin jednal se Schröderem, schůzku se Zelenským odpískal. Volí válku, míní Kyjev",
+              "url": "https://www.idnes.cz/zpravy/zahranicni/rusko-evropa-petrohrad-putin-mezinarodni-ekonomicke-forum-ukrajina-valka.A260605_154825_zahranicni_jhr",
+              "source_id": "idnes.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:35:40.323719+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7538465261459351,
+            "article": {
+              "title": "Путин отказа на Зеленски среща, получил и по-рано молба чрез руски бизнесмен",
+              "url": "https://www.dnevnik.bg/sviat/2026/06/05/4922085_putin_otkaza_na_zelenski_sreshta_poluchil_i_po-rano/",
+              "source_id": "dnevnik.bg",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:36:49.447923+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7422869205474854,
+            "article": {
+              "title": "Selenskyjs Brief im Ukraine-Krieg: Putin hat keinen Gesprächsbedarf",
+              "url": "https://www.tagesschau.de/ausland/europa/ukraine-krieg-angebot-selenskyj-reaktionen-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:32:33.380625+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7146682739257812,
+            "article": {
+              "title": "Funke Mediengruppe Ukraine-Krieg Putins Antwort auf Selenskyj ist eiskalt: „Ich sehe keinen Sinn“",
+              "url": "https://www.abendblatt.de/politik/article412198509/putin-gibt-sich-siegessicher-und-haelt-an-donbass-forderung-fest.html",
+              "source_id": "abendblatt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:32:47.227785+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7109845876693726,
+            "article": {
+              "title": "國際 普丁排除近期會晤澤倫斯基 強調俄軍持續推進戰事",
+              "url": "https://www.cna.com.tw/news/aopl/202606060005.aspx",
+              "source_id": "cna.com.tw",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:40:44.418027+00:00"
             }
           }
         ]
       },
       {
-        "score": 81.35403270669876,
-        "size": 14,
-        "n_sources": 13,
+        "score": 92.62194279047155,
+        "size": 18,
+        "n_sources": 17,
         "n_continents": 8,
         "continents": [
-          "Africa",
           "China",
-          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "North America",
+          "Oceania",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.823174238204956,
+        "title": "Astronauts took shelter and prepared to evacuate after air leak on International Space Station",
+        "central_article": {
+          "title": "Astronauts took shelter and prepared to evacuate after air leak on International Space Station",
+          "url": "https://www.independent.co.uk/space/nasa-international-space-station-evacuation-b2990719.html",
+          "source_id": "independent.co.uk",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-06-05T20:32:16.635938+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8898578882217407,
+            "article": {
+              "title": "Astronauts took shelter and prepared to evacuate after air leak on International Space Station",
+              "url": "https://www.independent.co.uk/space/nasa-international-space-station-evacuation-b2990719.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:32:16.635938+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8813580274581909,
+            "article": {
+              "title": "Astronauts take shelter as air leaks worsen on International Space Station",
+              "url": "https://www.scmp.com/news/world/united-states-canada/article/3356173/astronauts-take-shelter-air-leaks-worsen-international-space-station?module=latest&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:38:51.207462+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8605191111564636,
+            "article": {
+              "title": "ISS astronauts briefly put on evacuation alert during repair to fix air leak",
+              "url": "https://www.france24.com/en/science/20260605-nasa-places-iss-astronauts-on-evacuation-alert-as-air-leak-worsens",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:33:19.887066+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8591723442077637,
+            "article": {
+              "title": "Astronauts shelter for air leak repairs on International Space Station",
+              "url": "https://www.smh.com.au/world/north-america/astronauts-shelter-for-air-leak-repairs-on-international-space-station-20260606-p604g2.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:34:37.902958+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8534681797027588,
+            "article": {
+              "title": "ISS-Astronauten mussten wegen Lecks Raumstation verlassen",
+              "url": "https://www.diepresse.com/28511628/iss-astronauten-mussten-wegen-lecks-raumstation-verlassen",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:32:43.123666+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8512771129608154,
+            "article": {
+              "title": "NASA orders astronauts to take shelter after new leak aboard ISS",
+              "url": "https://www.euronews.com/my-europe/2026/06/05/nasa-international-space-station-astronauts-on-evacuation-alert-over-air-leak",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:32:23.169144+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8415716886520386,
+            "article": {
+              "title": "Leck in der ISS – Astronauten müssen sich in Raumkapsel zurückziehen",
+              "url": "https://www.welt.de/vermischtes/article6a22db0c9e32e33bafd53a07/leck-in-der-iss-astronauten-muessen-sich-in-raumkapsel-zurueckziehen.html",
+              "source_id": "welt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:32:40.056466+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8353904485702515,
+            "article": {
+              "title": "Астронавтам на МКС приказали готовиться к эвакуации из-за утечки воздуха",
+              "url": "https://ria.ru/20260605/chp-2097152381.html",
+              "source_id": "ria.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:37:05.577843+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8258044719696045,
+            "article": {
+              "title": "Una fuga de aire en la Estación Espacial Internacional obliga a los astronautas a refugiarse en una nave durante dos horas",
+              "url": "https://elpais.com/ciencia/2026-06-05/una-fuga-de-aire-en-la-estacion-espacial-internacional-obliga-a-los-astronautas-a-preparar-una-posible-evacuacion.html",
+              "source_id": "elpais.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:33:28.563463+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8239413499832153,
+            "article": {
+              "title": "Astronautas se preparam para evacuar Estação Espacial Internacional após alerta de ‘vazamento de ar’",
+              "url": "https://oglobo.globo.com/mundo/clima-e-ciencia/noticia/2026/06/05/caos-em-orbita-astronautas-se-preparam-para-evacuar-estacao-espacial-internacional-apos-alerta-de-vazamento-de-ar-em-modulo-russo.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:34:05.443957+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8224862813949585,
+            "article": {
+              "title": "Visuals show how an ISS air leak forced astronauts to shelter",
+              "url": "https://www.usatoday.com/story/graphics/2026/06/05/iss-air-leak-nasa-graphics/90419828007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:38:44.743185+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8152897953987122,
+            "article": {
+              "title": "ISS-Besatzung muss vorübergehend Schutz suchen",
+              "url": "https://www.tagesschau.de/ausland/amerika/nasa-iss-leck-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:32:33.380625+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8048171997070312,
+            "article": {
+              "title": "Астронавтов NASA приготовили к возможной эвакуации из-за утечки в российском сегменте Международной космической станции",
+              "url": "https://meduza.io/news/2026/06/05/astronavtov-nasa-prigotovili-k-vozmozhnoy-evakuatsii-iz-za-utechki-v-rossiyskom-segmente-mezhdunarodnoy-kosmicheskoy-stantsii",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:36:53.555528+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8013576865196228,
+            "article": {
+              "title": "Les astronautes de l'ISS brièvement évacués en raison d'une fuite d'air Station spatiale aujourd'hui à",
+              "url": "https://www.rts.ch/info/sciences-tech/2026/article/la-nasa-demande-aux-astronautes-de-l-iss-de-se-preparer-a-evacuer-en-raison-d-une-fuite-d-air-29264934.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:33:21.679726+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8009945750236511,
+            "article": {
+              "title": "Leak on space station triggers brief safety alert",
+              "url": "https://www.thedailystar.net/historical/science/news/leak-space-station-triggers-brief-safety-alert-4191416",
+              "source_id": "thedailystar.net",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:39:25.836388+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7590184211730957,
+            "article": {
+              "title": "Funke Mediengruppe Reparaturen laufen Luftleck im Transfertunnel: ISS-Astronauten drohte Evakuierung",
+              "url": "https://www.abendblatt.de/panorama/article412199467/iss-astronauten-bereiten-evakuierung-vor-raumstation-hat-ein-leck.html",
+              "source_id": "abendblatt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:32:47.227785+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7473012208938599,
+            "article": {
+              "title": "Космонавты обнаружили два места утечки воздуха на российском модуле МКС",
+              "url": "https://ria.ru/20260605/mks-2097189772.html",
+              "source_id": "ria.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:37:05.577843+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7435100674629211,
+            "article": {
+              "title": "国际空间站俄舱段“星辰”号服务舱内发现漏气点",
+              "url": "https://www.xinhuanet.com/20260605/ebb99d6ad09b475fa079e845dcffc48d/c.html",
+              "source_id": "xinhuanet.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:38:59.374944+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 48.50552559685148,
+        "size": 11,
+        "n_sources": 11,
+        "n_continents": 6,
+        "continents": [
+          "China",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "South Asia"
+        ],
+        "coherence": 0.8384045958518982,
+        "title": "US judge strikes down Trump policies targeting immigrants from 39 countries",
+        "central_article": {
+          "title": "US judge strikes down Trump policies targeting immigrants from 39 countries",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3356175/us-judge-strikes-down-trump-policies-targeting-immigrants-39-countries?module=latest&pgtype=homepage",
+          "source_id": "scmp.com",
+          "continent": "China",
+          "published_at": null,
+          "scraped_at_utc": "2026-06-05T20:38:51.207462+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.927147626876831,
+            "article": {
+              "title": "US judge strikes down Trump policies targeting immigrants from 39 countries",
+              "url": "https://www.scmp.com/news/world/united-states-canada/article/3356175/us-judge-strikes-down-trump-policies-targeting-immigrants-39-countries?module=latest&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:38:51.207462+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9058630466461182,
+            "article": {
+              "title": "US judge rejects Trump policies aimed at immigrants from 39 countries",
+              "url": "https://www.thenationalnews.com/news/us/2026/06/05/us-judge-rejects-trump-policies-aimed-at-immigrants-from-39-countries/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:35:10.070191+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8855605125427246,
+            "article": {
+              "title": "Un juez federal anula la política migratoria de Trump que pausó las solicitudes de asilo en 39 países",
+              "url": "https://www.rtve.es/noticias/20260605/juez-federal-anula-politica-migratoria-trump-pauso-solicitudes-asilo-personas-39-paises/17103435.shtml",
+              "source_id": "rtve.es",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:33:32.657910+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8827576637268066,
+            "article": {
+              "title": "U.S. federal judge rejects Trump administration immigration policy affecting 39 nations",
+              "url": "https://www.theglobeandmail.com/world/us-politics/article-federal-judge-trump-immigration-policy-national-guard/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:34:34.316462+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8699809312820435,
+            "article": {
+              "title": "قاض فيدرالي أميركي يلغي سياسات لترامب تستهدف مهاجرين من 39 دولة",
+              "url": "https://www.annahar.com/international/united-states/317167/قاض-فيدرالي-أميركي-يلغي-سياسات-لترامب-تستهدف-مهاجرين-من-39-دولة",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:35:29.613933+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8526668548583984,
+            "article": {
+              "title": "Judge strikes down Trump’s ‘anti-immigrant’ policies blocking asylum and green card applicants",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-uscis-asylum-green-card-ruling-b2990713.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:32:16.635938+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8327503204345703,
+            "article": {
+              "title": "Judge strikes down Trump policy that halted asylum decisions for 39 countries By Michael Casey, Associated Press",
+              "url": "https://www.pbs.org/newshour/politics/judge-strikes-down-trump-policy-that-halted-asylum-decisions-for-39-countries",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:38:49.700510+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7846289277076721,
+            "article": {
+              "title": "US-Gericht erklärt Stopp von Einwanderungsanträgen für rechtswidrig",
+              "url": "https://www.diepresse.com/28531876/us-gericht-erklaert-stopp-von-einwanderungsantraegen-fuer-rechtswidrig",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:32:43.123666+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7705869674682617,
+            "article": {
+              "title": "R.I. judge blocks Trump administration’s asylum freeze on 39 countries. Follow live updates.",
+              "url": "https://www.bostonglobe.com/2026/06/05/nation/trump-presidency-live-updates/",
+              "source_id": "bostonglobe.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:38:43.667565+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7575814723968506,
+            "article": {
+              "title": "US judge invalidates travel and visa ban on 39 countries: What happens next?",
+              "url": "https://timesofindia.indiatimes.com/world/us/us-judge-invalidates-travel-and-visa-ban-on-39-countries-what-happens-next/articleshow/131537140.cms",
+              "source_id": "timesofindia.indiatimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:39:17.929473+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7529260516166687,
+            "article": {
+              "title": "Trumps zweite Amtszeit: US-Gericht: Stopp von Einwanderungsanträgen rechtswidrig",
+              "url": "https://www.nzz.ch/international/trumps-zweite-amtszeit-die-neusten-entwicklungen-ld.1856621",
+              "source_id": "nzz.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:32:50.604553+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 41.83928218231945,
+        "size": 11,
+        "n_sources": 11,
+        "n_continents": 5,
+        "continents": [
           "Europe East",
           "Europe North",
           "Europe South",
           "Middle East",
-          "North America"
+          "South America"
         ],
-        "coherence": 0.8508839011192322,
+        "coherence": 0.8453004956245422,
+        "title": "Ukrainische Seedrohne explodiert im Hafen von rumänischer Stadt am Schwarzen Meer",
+        "central_article": {
+          "title": "Ukrainische Seedrohne explodiert im Hafen von rumänischer Stadt am Schwarzen Meer",
+          "url": "https://www.welt.de/politik/ausland/article6a22a25bb20db0d89b656343/ukraine-krieg-ukrainische-seedrohne-explodiert-im-hafen-von-rumaenischer-stadt-am-schwarzen-meer.html",
+          "source_id": "welt.de",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-06-05T20:32:40.056466+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8952413201332092,
+            "article": {
+              "title": "Ukrainische Seedrohne explodiert im Hafen von rumänischer Stadt am Schwarzen Meer",
+              "url": "https://www.welt.de/politik/ausland/article6a22a25bb20db0d89b656343/ukraine-krieg-ukrainische-seedrohne-explodiert-im-hafen-von-rumaenischer-stadt-am-schwarzen-meer.html",
+              "source_id": "welt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:32:40.056466+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8923258781433105,
+            "article": {
+              "title": "Stray Ukrainian naval drone explodes at Romania's Black Sea port.",
+              "url": "https://kyivindependent.com/romania-reports-naval-drone-explosion-near-black-sea-port/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:36:52.434089+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8823622465133667,
+            "article": {
+              "title": "Hafen von Konstanza Ukrainische Seedrohne explodiert in rumänischem Hafen",
+              "url": "https://www.tagesschau.de/ausland/europa/drohne-explosion-rumaenien-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:32:33.380625+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8769718408584595,
+            "article": {
+              "title": "Ukraine-Krieg Seedrohne detoniert in rumänischem Schwarzmeerhafen",
+              "url": "https://www.handelsblatt.com/politik/international/ukraine-krieg-seedrohne-detoniert-in-rumaenischem-schwarzmeerhafen/100230678.html",
+              "source_id": "handelsblatt.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:32:38.513987+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8731985092163086,
+            "article": {
+              "title": "Drone da Ucrânia explode em porto da Romênia no 2º incidente em uma semana",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/06/drone-da-ucrania-explode-em-porto-da-romenia-no-2o-incidente-em-uma-semana.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:34:02.355415+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8703322410583496,
+            "article": {
+              "title": "V rumunské Konstanci vybuchl ukrajinský námořní dron, další se samy zničily",
+              "url": "https://www.idnes.cz/zpravy/zahranicni/v-pristavu-v-rumunske-konstanci-explodoval-namorni-dron.A260605_104557_zahranicni_bro",
+              "source_id": "idnes.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:35:40.323719+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8444167971611023,
+            "article": {
+              "title": "Drone explosion in Romanian port spurs Ukraine war spillover fears",
+              "url": "https://www.aljazeera.com/news/2026/6/5/drone-explosion-in-romanian-port-spurs-ukraine-war-spillover-fears",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:35:08.644008+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8231841921806335,
+            "article": {
+              "title": "Un dron fuera de control explota en Rumanía y Kyiv admite que era suyo",
+              "url": "https://www.lavanguardia.com/sucesos/20260605/11556945/dron-naval-explota-puerto-rumano-constanza.html",
+              "source_id": "lavanguardia.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:33:30.104502+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.789365291595459,
+            "article": {
+              "title": "Rumanía evacúa a mil personas en Constanza tras la explosión del dron naval",
+              "url": "https://elcomercio.pe/mundo/europa/rumania-evacua-a-mil-personas-en-constanza-tras-la-explosion-del-dron-naval-ucrania-rusia-ultimas-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:34:09.981365+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7823461890220642,
+            "article": {
+              "title": "Ukraine says Russian jamming sent sea drone into Romania",
+              "url": "https://www.euronews.com/my-europe/2026/06/05/naval-drone-explodes-in-the-romanian-port-of-constanta",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:32:23.169144+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.768561601638794,
+            "article": {
+              "title": "Oorlog in Oekraïne Oekraïense zeedrone op drift geraakt en ontploft in haven van Constanta in Roemenië",
+              "url": "https://www.nrc.nl/nieuws/2026/06/05/oekraiense-zeedrone-op-drift-geraakt-en-ontploft-in-haven-van-constanta-in-roemenie-a4929464",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:32:27.357193+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 37.33240617716007,
+        "size": 12,
+        "n_sources": 11,
+        "n_continents": 5,
+        "continents": [
+          "China",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "South America"
+        ],
+        "coherence": 0.8225057125091553,
+        "title": "Outrage in France as body discovered in case of missing 11‑year‑old Lyhanna",
+        "central_article": {
+          "title": "Outrage in France as body discovered in case of missing 11‑year‑old Lyhanna",
+          "url": "https://www.france24.com/en/france/20260604-outrage-france-after-body-discovered-case-of-missing-11%E2%80%91year%E2%80%91old-lyhanna",
+          "source_id": "france24.com",
+          "continent": "Europe South",
+          "published_at": null,
+          "scraped_at_utc": "2026-06-05T20:33:19.887066+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9195489287376404,
+            "article": {
+              "title": "Outrage in France as body discovered in case of missing 11‑year‑old Lyhanna",
+              "url": "https://www.france24.com/en/france/20260604-outrage-france-after-body-discovered-case-of-missing-11%E2%80%91year%E2%80%91old-lyhanna",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:33:19.887066+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8795902729034424,
+            "article": {
+              "title": "Gevonden lichaam in Frankrijk inderdaad van vermiste Lyhanna (11)",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5609641/gevonden-lichaam-frankrijk-inderdaad-van-vermiste-lyhanna-11",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:32:29.421101+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8530531525611877,
+            "article": {
+              "title": "Óriási felháborodást váltott ki Franciaországban egy 11 éves lány meggyilkolása",
+              "url": "https://telex.hu/kulfold/2026/06/05/franciaorszag-bunugy-vizsgalat-nyomozas-gyilkossag",
+              "source_id": "telex.hu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:35:36.558531+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8507846593856812,
+            "article": {
+              "title": "Body found during search for 11-year-old girl in France",
+              "url": "https://www.rt.com/news/641059-france-girl-body-fpund/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:36:59.295736+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8374264240264893,
+            "article": {
+              "title": "France probes judicial 'dysfunction' after murder of 11‑year‑old Lyhanna shocks nation",
+              "url": "https://www.france24.com/en/france/20260605-france-probes-judicial-dysfunction-after-suspected-murder-of-11%E2%80%91year%E2%80%91old-lyhanna",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:33:19.887066+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8264752626419067,
+            "article": {
+              "title": "Francia sotto choc per il caso di Lyhanna, 11enne uccisa da un pedofilo: «Era noto dal 2017, perché non è stato arrestato?»",
+              "url": "https://www.corriere.it/esteri/26_giugno_05/francia-caso-lyhanna-00cec69d-b6a8-4473-a146-1507f38f8xlk.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:33:37.389442+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.816991925239563,
+            "article": {
+              "title": "Death of girl, 11, in France sparks storm over cracks in judicial system",
+              "url": "https://www.scmp.com/news/world/europe/article/3356177/death-girl-11-france-sparks-storm-over-cracks-judicial-system?module=latest&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:38:51.207462+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8097933530807495,
+            "article": {
+              "title": "Indignación en Francia por caso de niña desaparecida y presuntamente asesinada",
+              "url": "https://www.emol.com/noticias/Internacional/2026/06/05/1202029/francia-caso-nina-desaparecida.html",
+              "source_id": "emol.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:33:59.589759+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7911275029182434,
+            "article": {
+              "title": "Ermordete Elfjährige in Frankreich: Identität des Opfers bestätigt",
+              "url": "https://www.diepresse.com/28380688/ermordete-elfjaehrige-in-frankreich-identitaet-des-opfers-bestaetigt",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:32:43.123666+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7702016830444336,
+            "article": {
+              "title": "Frankrijk Lichaam in graansilo is van vermiste Lyhanna (11) in Frankrijk: doodsoorzaak nog niet bekend",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/06/05/lyhanna-teruggevonden/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:33:23.353594+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7609919905662537,
+            "article": {
+              "title": "Disparition de Lyhanna en France : le corps retrouvé dans le Gers est bien celui de la jeune fille",
+              "url": "https://www.rtbf.be/article/disparition-de-lyhanna-en-france-le-corps-retrouve-dans-le-gers-est-bien-celui-de-la-jeune-fille-11736058",
+              "source_id": "rtbf.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:33:25.688949+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.754083514213562,
+            "article": {
+              "title": "Le corps retrouvé en France est bien celui de l'enfant qui avait disparu Affaire Lyhanna aujourd'hui à",
+              "url": "https://www.rts.ch/info/monde/2026/article/la-disparition-d-une-enfant-enflamme-le-debat-sur-le-fonctionnement-de-la-justice-francaise-29264617.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:33:21.679726+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 27.491293291907184,
+        "size": 10,
+        "n_sources": 9,
+        "n_continents": 5,
+        "continents": [
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "South America"
+        ],
+        "coherence": 0.8014413714408875,
+        "title": "Israel bombs Lebanon as Hezbollah rejects ‘shameless surrender’",
+        "central_article": {
+          "title": "Israel bombs Lebanon as Hezbollah rejects ‘shameless surrender’",
+          "url": "https://www.rt.com/news/641026-israel-lebanon-strikes-hezbollah/",
+          "source_id": "rt.com",
+          "continent": "Europe East",
+          "published_at": null,
+          "scraped_at_utc": "2026-06-05T20:36:59.295736+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8628205060958862,
+            "article": {
+              "title": "Israel bombs Lebanon as Hezbollah rejects ‘shameless surrender’",
+              "url": "https://www.rt.com/news/641026-israel-lebanon-strikes-hezbollah/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:36:59.295736+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8573696613311768,
+            "article": {
+              "title": "Hezbollah chief rejects truce as Israel vows continued operations in south Lebanon",
+              "url": "https://www.france24.com/en/middle-east/20260604-israel-and-lebanon-agree-to-renew-ceasefire-condition-hezbollah-holds-fire",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:33:19.887066+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.835196852684021,
+            "article": {
+              "title": "Hezbollah rejects ceasefire between Israel and Lebanon as 'illusory'",
+              "url": "https://www.thenationalnews.com/news/mena/2026/06/04/israel-strikes-lebanon-hours-after-ceasefire-agreed/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:35:10.070191+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8255633115768433,
+            "article": {
+              "title": "Israel continues to strike southern Lebanon with no deal in sight",
+              "url": "https://www.channel4.com/news/israel-continues-to-strike-southern-lebanon-with-no-deal-in-sight",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:32:21.529849+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8005040884017944,
+            "article": {
+              "title": "Israel strikes Lebanon hours after US claims ceasefire agreed",
+              "url": "https://www.thetimes.com/world/middle-east/israel-iran/article/israel-ceasefire-new-announces-state-department-trump-iran-ndg80fqcz",
+              "source_id": "thetimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:32:18.798051+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.792938232421875,
+            "article": {
+              "title": "Hezbolá e Israel intercambian ataques pese al alto el fuego negociado en Estados Unidos",
+              "url": "https://elcomercio.pe/mundo/oriente-medio/libano-hezbola-e-israel-intercambian-ataques-pese-al-alto-el-fuego-negociado-en-estados-unidos-tiro-hospital-jabal-amel-ultimas-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:34:09.981365+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7807837128639221,
+            "article": {
+              "title": "Israel and Lebanon agree to renew truce, create ‘pilot’ zones where Hezbollah is banned",
+              "url": "https://www.timesofisrael.com/israel-lebanon-agree-to-renew-truce-create-pilot-zones-where-hezbollah-is-banned/",
+              "source_id": "timesofisrael.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:35:12.596001+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.76933753490448,
+            "article": {
+              "title": "No deal with Lebanon without Hezbollah, suggests Netanyahu",
+              "url": "https://www.newarab.com/news/no-deal-lebanon-without-hezbollah-suggests-netanyahu",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:35:24.617330+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7510183453559875,
+            "article": {
+              "title": "Weitere Kämpfe: Hisbollah lehnt Bedingungen zu Waffenruhe ab",
+              "url": "https://www.zdfheute.de/politik/ausland/libanon-israel-umsetzung-bruechige-waffenruhe-usa-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:32:45.430702+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7388808727264404,
+            "article": {
+              "title": "Lebanon on fire: Why Israel derailed US-Iran diplomacy",
+              "url": "https://www.rt.com/news/640986-lebanon-israel-us-iran-talks/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:36:59.295736+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 24.0,
+        "size": 6,
+        "n_sources": 6,
+        "n_continents": 4,
+        "continents": [
+          "China",
+          "Europe North",
+          "North America",
+          "Oceania"
+        ],
+        "coherence": 0.9462196230888367,
+        "title": "Buffy The Vampire Slayer actor Anthony Head dies at 72",
+        "central_article": {
+          "title": "Buffy The Vampire Slayer actor Anthony Head dies at 72",
+          "url": "https://www.irishtimes.com/culture/tv-radio/2026/06/05/buffy-the-vampire-slayer-star-anthony-head-dies-at-72/",
+          "source_id": "irishtimes.com",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-06-05T20:35:07.513939+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9737845063209534,
+            "article": {
+              "title": "Buffy The Vampire Slayer actor Anthony Head dies at 72",
+              "url": "https://www.irishtimes.com/culture/tv-radio/2026/06/05/buffy-the-vampire-slayer-star-anthony-head-dies-at-72/",
+              "source_id": "irishtimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:35:07.513939+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9641799926757812,
+            "article": {
+              "title": "Actor Anthony Head, known for ‘Buffy the Vampire Slayer,’ has died at 72",
+              "url": "https://apnews.com/article/anthony-head-obit-buffy-vampire-lasso-a1c56edf560de048e730a2cf337e4223",
+              "source_id": "apnews.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:38:19.375735+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9502643346786499,
+            "article": {
+              "title": "Buffy the Vampire Slayer, Ted Lasso actor Anthony Head dies aged 72",
+              "url": "https://www.scmp.com/news/world/united-states-canada/article/3356174/buffy-vampire-slayer-ted-lasso-actor-anthony-head-dies-aged-72?module=latest&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:38:51.207462+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.950087308883667,
+            "article": {
+              "title": "Anthony Head, British actor known for 'Buffy the Vampire Slayer,' dies at 72 By Associated Press",
+              "url": "https://www.pbs.org/newshour/arts/anthony-head-british-actor-known-for-buffy-the-vampire-slayer-dies-at-72",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:38:49.700510+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9418447017669678,
+            "article": {
+              "title": "Full story: Buffy the Vampire Slayer star Anthony Head dies aged 72",
+              "url": "https://www.independent.co.uk/arts-entertainment/tv/news/anthony-head-dead-buffy-the-vampire-slayer-cause-age-b2990619.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:32:16.635938+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8971566557884216,
+            "article": {
+              "title": "Anthony Head, known for roles in Buffy and Ted Lasso, dies",
+              "url": "https://www.abc.net.au/news/2026-06-06/anthony-head-dies-aged-72/106767200",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:34:35.509545+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 23.933298350107805,
+        "size": 7,
+        "n_sources": 7,
+        "n_continents": 4,
+        "continents": [
+          "China",
+          "East Asia",
+          "Europe East",
+          "South America"
+        ],
+        "coherence": 0.8686132431030273,
         "title": "China's Xi to visit North Korea next week, first time since 2019",
         "central_article": {
           "title": "China's Xi to visit North Korea next week, first time since 2019",
@@ -351,1250 +1238,291 @@
           "source_id": "asia.nikkei.com",
           "continent": "East Asia",
           "published_at": null,
-          "scraped_at_utc": "2026-06-05T10:45:21.223404+00:00"
+          "scraped_at_utc": "2026-06-05T20:39:50.497654+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9351443648338318,
+            "sim_to_centroid": 0.9219939708709717,
             "article": {
               "title": "China's Xi to visit North Korea next week, first time since 2019",
               "url": "https://asia.nikkei.com/politics/international-relations/china-s-xi-to-visit-north-korea-next-week-first-time-since-2019",
               "source_id": "asia.nikkei.com",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:45:21.223404+00:00"
+              "scraped_at_utc": "2026-06-05T20:39:50.497654+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9347050189971924,
+            "sim_to_centroid": 0.9213845729827881,
             "article": {
               "title": "China’s Xi to visit North Korea next week for first time since 2019",
               "url": "https://www.japantimes.co.jp/news/2026/06/05/asia-pacific/china-north-korea-xi-visit/",
               "source_id": "japantimes.co.jp",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:45:45.702384+00:00"
+              "scraped_at_utc": "2026-06-05T20:40:14.788203+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9195765256881714,
-            "article": {
-              "title": "Xi Jinping set for North Korea trip, the first visit since 2019",
-              "url": "https://www.euronews.com/2026/06/05/xi-jinping-set-for-north-korea-trip-on-monday-in-first-visit-to-pyongyang-in-seven-years",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:37:29.605420+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9180277585983276,
-            "article": {
-              "title": "China's Xi to visit North Korea next week for 1st time in 7 years",
-              "url": "https://www.azernews.az/region/259356.html",
-              "source_id": "azernews.az",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:42:40.612764+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9152771234512329,
+            "sim_to_centroid": 0.8982287645339966,
             "article": {
               "title": "Xi Jinping to pay state visit to North Korea",
               "url": "https://www.rt.com/news/641027-china-xi-north-korea-visit/",
               "source_id": "rt.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:42:02.742471+00:00"
+              "scraped_at_utc": "2026-06-05T20:36:59.295736+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8990926742553711,
+            "sim_to_centroid": 0.8583682179450989,
             "article": {
-              "title": "China’s Xi Jinping to make rare trip to North Korea next week",
-              "url": "https://www.egyptindependent.com/chinas-xi-jinping-to-make-rare-trip-to-north-korea-next-week/",
-              "source_id": "egyptindependent.com",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:43:40.524199+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8522886037826538,
-            "article": {
-              "title": "China’s Xi headed to North Korea in bid to shore up ties",
-              "url": "https://www.aljazeera.com/news/2026/6/5/chinas-xi-headed-to-north-korea-in-bid-to-shore-up-ties",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:41:03.251894+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8346443772315979,
-            "article": {
-              "title": "Why Xi Jinping Is Going to North Korea to Court Kim Jong-un",
-              "url": "https://www.nytimes.com/2026/06/04/world/asia/china-north-korea-xi-jinping-visit.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:43:46.940370+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8301599025726318,
-            "article": {
-              "title": "Chinese leader Xi Jinping visit to North Korea confirmed for next week Relations rebuilding after years of relative isolation due to pandemic, Beijing’s denuclearisation stance and closer Pyongyang-Moscow ties.",
-              "url": "https://www.scmp.com/news/china/diplomacy/article/3356021/chinese-leader-xi-jinping-visit-north-korea-confirmed-next-week?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
+              "title": "Xi to make two-day state visit to DPRK",
+              "url": "https://www.chinadaily.com.cn/a/202606/06/WS6a22f68ba310d6866eb4cb90.html",
+              "source_id": "chinadaily.com.cn",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:44:18.056905+00:00"
+              "scraped_at_utc": "2026-06-05T20:38:55.341022+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.825169563293457,
+            "sim_to_centroid": 0.8367927074432373,
             "article": {
-              "title": "Xi Jinping in visita da Kim Jong Un per «riprendersi» la Nord Corea (e parlare di Trump)",
-              "url": "https://www.corriere.it/esteri/26_giugno_05/xi-jinping-in-visita-da-kim-jong-un-per-riprendersi-la-nord-corea-e-parlare-di-trump-a2ed0d9e-18a3-4a17-9d29-f8e238aa5xlk.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
+              "title": "Xi faz 1ª visita à Coreia do Norte em sete anos; entenda por que líder chinês busca aproximação de Kim Jong-un",
+              "url": "https://oglobo.globo.com/mundo/noticia/2026/06/05/xi-faz-1a-visita-a-coreia-do-norte-em-sete-anos-entenda-por-que-lider-chines-busca-aproximacao-de-kim-jong-un.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:39:05.938042+00:00"
+              "scraped_at_utc": "2026-06-05T20:34:05.443957+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7840017080307007,
+            "sim_to_centroid": 0.825654923915863,
             "article": {
               "title": "Greater development of China-DPRK ties expected during Xi's upcoming visit to Pyongyang: spokesperson",
               "url": "https://en.people.cn/n3/2026/0605/c90000-20464473.html",
               "source_id": "en.people.cn",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:44:19.686166+00:00"
+              "scraped_at_utc": "2026-06-05T20:38:53.248324+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7840015888214111,
+            "sim_to_centroid": 0.8178699016571045,
             "article": {
-              "title": "Greater development of China-DPRK ties expected during Xi's upcoming visit to Pyongyang: spokesperson",
-              "url": "https://english.news.cn/20260605/3189cea5179143e98c64627d9073a060/c.html",
+              "title": "Xinhua Headlines: Xi's visit set to deepen China-DPRK ties",
+              "url": "https://english.news.cn/20260605/a99ec6f00d4d490e91e7c5db2ba78eaf/c.html",
               "source_id": "english.news.cn",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:44:23.140325+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7819933295249939,
-            "article": {
-              "title": "Xi to pay state visit to DPRK from June 8 to 9",
-              "url": "https://www.chinadaily.com.cn/a/202606/05/WS6a222f55a310d6866eb4c9da.html",
-              "source_id": "chinadaily.com.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:44:21.151138+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6982928514480591,
-            "article": {
-              "title": "Trump’s 2026 trip to China",
-              "url": "https://www.scmp.com/news/china/diplomacy/series/3346312/trumps-2026-trip-china?module=series_trump%E2%80%99s_2026_trip_to_china&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:44:18.056905+00:00"
+              "scraped_at_utc": "2026-06-05T20:38:57.605904+00:00"
             }
           }
         ]
       },
       {
-        "score": 66.90055760320571,
-        "size": 15,
-        "n_sources": 15,
-        "n_continents": 6,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "South Asia"
-        ],
-        "coherence": 0.8406795263290405,
-        "title": "House passes bill to aid Ukraine and impose new sanctions on Russia",
-        "central_article": {
-          "title": "House passes bill to aid Ukraine and impose new sanctions on Russia",
-          "url": "https://apnews.com/article/ukraine-congress-aid-trump-discharge-petition-c01c9e068b63d195d26e3134ed586a71",
-          "source_id": "apnews.com",
-          "continent": "North America",
-          "published_at": null,
-          "scraped_at_utc": "2026-06-05T10:43:45.628041+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9127881526947021,
-            "article": {
-              "title": "House passes bill to aid Ukraine and impose new sanctions on Russia",
-              "url": "https://apnews.com/article/ukraine-congress-aid-trump-discharge-petition-c01c9e068b63d195d26e3134ed586a71",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:43:45.628041+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8969787359237671,
-            "article": {
-              "title": "US House backs Russia sanctions, Ukraine aid, in latest blow to Trump",
-              "url": "https://kathmandupost.com/world/2026/06/05/us-house-backs-russia-sanctions-ukraine-aid-in-latest-blow-to-trump",
-              "source_id": "kathmandupost.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:45:08.305060+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8938498497009277,
-            "article": {
-              "title": "In latest blow to Trump on foreign policy, House passes Ukraine aid",
-              "url": "https://www.usatoday.com/story/news/politics/2026/06/04/ukraine-aid-russia-sanctions-house/90413424007/",
-              "source_id": "usatoday.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:44:11.345672+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8895455002784729,
-            "article": {
-              "title": "House passes bill to provide more Ukraine aid and impose new sanctions on Russia",
-              "url": "https://www.pbs.org/newshour/politics/house-passes-bill-to-provide-more-ukraine-aid-and-impose-new-sanctions-on-russia",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:44:16.564384+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8835351467132568,
-            "article": {
-              "title": "Ukraine crisis US House of Representatives passes bill on sanctions against Russia, assistance to Ukraine",
-              "url": "https://tass.com/world/2142123",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:42:06.601893+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8756774663925171,
-            "article": {
-              "title": "US House passes Ukraine aid bill despite attempted block by Republican leadership.",
-              "url": "https://kyivindependent.com/breaking-us-house-approves-ukraine-aid-bill-despite-block-from-republican-leadership/",
-              "source_id": "kyivindependent.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:41:55.350383+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8515437841415405,
-            "article": {
-              "title": "Repräsentantenhaus trotzt Trump und stimmt für Ukraine-Paket",
-              "url": "https://www.zdfheute.de/politik/ausland/usa-ukraine-krieg-hilfe-repraesentantenhaus-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:37:55.259053+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8408826589584351,
-            "article": {
-              "title": "US-Repräsentantenhaus stimmt für Ukrainehilfe und bekennt sich zu Nato",
-              "url": "https://www.spiegel.de/ausland/ukraine-us-repraesentantenhaus-stimmt-fuer-neues-hilfspaket-und-nato-kurs-a-512feadd-294d-449e-bd16-3d2a5ce83764",
-              "source_id": "spiegel.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:37:42.696616+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8308695554733276,
-            "article": {
-              "title": "Палата представителей Конгресса США приняла законопроект о санкциях в отношении России и новом пакете помощи Украине",
-              "url": "https://meduza.io/news/2026/06/05/palata-predstaviteley-kongressa-ssha-prinyala-zakonoproekt-o-sanktsiyah-v-otnoshenii-rossii-i-novom-pakete-pomoschi-ukraine",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:41:56.434296+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8213361501693726,
-            "article": {
-              "title": "House Passes Ukraine Aid in Defiance of Republican Leaders",
-              "url": "https://www.nytimes.com/2026/06/04/us/politics/house-ukraine-aid-russia-republicans.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:43:46.940370+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8048344850540161,
-            "article": {
-              "title": "Repræsentanternes Hus stemmer for syltet forslag om støtte til Ukraine",
-              "url": "https://sermitsiaq.ag/samfund/repraesentanternes-hus-stemmer-for-syltet-forslag-om-stotte-til-ukraine/2391366",
-              "source_id": "sermitsiaq.ag",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:38:21.299759+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8016763925552368,
-            "article": {
-              "title": "Палата представителей США одобрила проект о санкциях против России",
-              "url": "https://ria.ru/20260605/proekt-2096951804.html",
-              "source_id": "ria.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:42:08.511641+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7985014915466309,
-            "article": {
-              "title": "La Cámara de Representantes respalda sancionar a Rusia, un revés para Trump",
-              "url": "https://www.lavanguardia.com/internacional/20260605/11556614/camara-representantes-ee-uu-respalda-sancionar-rusia-reves-trump.html",
-              "source_id": "lavanguardia.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:38:58.689697+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7647878527641296,
-            "article": {
-              "title": "House Defies Trump on Ukraine in Historic Vote: What Happens Next?",
-              "url": "https://www.kyivpost.com/post/77573",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:41:53.739674+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7433866262435913,
-            "article": {
-              "title": "US House passes resolution preventing Trump from attacking Iran without approval",
-              "url": "https://www.albawaba.com/news/us-house-passes-resolution-preventing-1629193",
-              "source_id": "albawaba.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:41:19.335396+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 64.69863326702733,
-        "size": 15,
-        "n_sources": 12,
-        "n_continents": 9,
-        "continents": [
-          "Africa",
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "Oceania",
-          "South America"
-        ],
-        "coherence": 0.7975217700004578,
-        "title": "Hezbollah rejects Israeli ceasefire deal in Lebanon, clouding prospects for Iran conflict resolution",
-        "central_article": {
-          "title": "Hezbollah rejects Israeli ceasefire deal in Lebanon, clouding prospects for Iran conflict resolution",
-          "url": "https://www.sbs.com.au/news/article/hezbollah-rejects-israeli-ceasefire-deal-in-lebanon-clouding-prospects-for-iran-conflict-resolution/ulbrnhy75",
-          "source_id": "sbs.com.au",
-          "continent": "Oceania",
-          "published_at": null,
-          "scraped_at_utc": "2026-06-05T10:40:49.751984+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9024004936218262,
-            "article": {
-              "title": "Hezbollah rejects Israeli ceasefire deal in Lebanon, clouding prospects for Iran conflict resolution",
-              "url": "https://www.sbs.com.au/news/article/hezbollah-rejects-israeli-ceasefire-deal-in-lebanon-clouding-prospects-for-iran-conflict-resolution/ulbrnhy75",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:40:49.751984+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8946307897567749,
-            "article": {
-              "title": "Hezbollah rejects US-backed Israel Lebanon ceasefire deal",
-              "url": "https://www.channel4.com/news/hezbollah-rejects-us-backed-israel-lebanon-ceasefire-deal",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:37:27.991451+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8712868690490723,
-            "article": {
-              "title": "Hezbollah rejects 'illusory' ceasefire between Israel and Lebanon",
-              "url": "https://www.thenationalnews.com/news/mena/2026/06/04/israel-strikes-lebanon-hours-after-ceasefire-agreed/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:41:05.490538+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8382669687271118,
-            "article": {
-              "title": "Israel bombs Lebanon as Hezbollah rejects ‘shameless surrender’",
-              "url": "https://www.rt.com/news/641026-israel-lebanon-strikes-hezbollah/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:42:02.742471+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8338273763656616,
-            "article": {
-              "title": "Hezbollah rejects latest ceasefire agreement",
-              "url": "https://apnews.com/article/iran-us-war-israel-lebanon-hezbollah-ceasefire-06ea585ce43fd28e26c4d21d46a4df83",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:43:45.628041+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.828677773475647,
-            "article": {
-              "title": "Hezbollah chief rejects truce as Israel vows continued operations in south Lebanon",
-              "url": "https://www.france24.com/en/middle-east/20260604-israel-and-lebanon-agree-to-renew-ceasefire-condition-hezbollah-holds-fire",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:38:48.546244+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8248099684715271,
-            "article": {
-              "title": "Hezbollah rejects US-mediated ceasefire as ‘surrender to Israel’",
-              "url": "https://www.thetimes.com/world/middle-east/israel-hezbollah-war/article/lebanon-hezbollah-rejects-ceasefire-surrender-israel-vdpdhkr62",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:37:23.708776+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7928104400634766,
-            "article": {
-              "title": "Israel strikes Lebanon hours after US claims ceasefire agreed",
-              "url": "https://www.thetimes.com/world/middle-east/israel-iran/article/israel-ceasefire-new-announces-state-department-trump-iran-ndg80fqcz",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:37:23.708776+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7883479595184326,
-            "article": {
-              "title": "Hezbolá e Israel intercambian ataques pese al alto el fuego negociado en Estados Unidos",
-              "url": "https://elcomercio.pe/mundo/oriente-medio/libano-hezbola-e-israel-intercambian-ataques-pese-al-alto-el-fuego-negociado-en-estados-unidos-tiro-hospital-jabal-amel-ultimas-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:40:22.499820+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.786003828048706,
-            "article": {
-              "title": "Despite 'ceasefire', Israel pounds south Lebanon",
-              "url": "https://www.newarab.com/news/despite-ceasefire-israel-pounds-south-lebanon",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:41:21.069078+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7592173218727112,
-            "article": {
-              "title": "Israel mantendrá ataques en Líbano pese a extensión de la tregua con Hezbolá",
-              "url": "https://www.laestrella.com.pa/mundo/israel-mantendra-ataques-en-libano-pese-a-extension-de-la-tregua-con-hezbola-HB23003433",
-              "source_id": "laestrella.com.pa",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:39:19.120556+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7392122745513916,
-            "article": {
-              "title": "What to know about the deal between Israel and Lebanon extending their shaky ceasefire",
-              "url": "https://apnews.com/article/israel-lebanon-hezbollah-ceasefire-fighting-75695f2e611c8dd9851075f1fcd6ac47",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:43:45.628041+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7019022703170776,
-            "article": {
-              "title": "WORLD IN BRIEF: Hezbollah rejects ceasefire, Mali offers rewards for militants, Ruto backs US Ebola facility and other stories",
-              "url": "https://businessday.ng/world/article/world-in-brief-hezbollah-rejects-ceasefire-mali-offers-rewards-for-militants-ruto-backs-us-ebola-facility-and-other-stories/",
-              "source_id": "businessday.ng",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:43:31.605423+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7011602520942688,
-            "article": {
-              "title": "真主黨拒絕黎巴嫩新停火協議 美伊停戰前景蒙上陰影",
-              "url": "https://www.cna.com.tw/news/aopl/202606050223.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:46:14.374186+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7002719640731812,
-            "article": {
-              "title": "Lebanon on fire: Why Israel derailed US-Iran diplomacy ANALYSIS",
-              "url": "https://www.rt.com/news/640986-lebanon-israel-us-iran-talks/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:42:02.742471+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 60.98422129893479,
-        "size": 12,
-        "n_sources": 12,
-        "n_continents": 7,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.8359596729278564,
-        "title": "Estados Unidos sanciona al presidente cubano y a miembros de la familia Castro",
-        "central_article": {
-          "title": "Estados Unidos sanciona al presidente cubano y a miembros de la familia Castro",
-          "url": "https://www.nacion.com/el-mundo/estados-unidos-sanciona-al-presidente-cubano-y-a/I3L6NOCJFBCEFHZHZRHSDCC3ZU/story/",
-          "source_id": "nacion.com",
-          "continent": "North America",
-          "published_at": null,
-          "scraped_at_utc": "2026-06-05T10:39:14.250439+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8949970006942749,
-            "article": {
-              "title": "Estados Unidos sanciona al presidente cubano y a miembros de la familia Castro",
-              "url": "https://www.nacion.com/el-mundo/estados-unidos-sanciona-al-presidente-cubano-y-a/I3L6NOCJFBCEFHZHZRHSDCC3ZU/story/",
-              "source_id": "nacion.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:39:14.250439+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8806596994400024,
-            "article": {
-              "title": "EE.UU. sanciona al presidente de Cuba y miembros de la familia Castro",
-              "url": "https://www.emol.com/noticias/Internacional/2026/06/04/1201953/eeuu-sanciona-presidente-cuba-castro.html",
-              "source_id": "emol.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:40:11.882794+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8786886930465698,
-            "article": {
-              "title": "US sanctions Cuban President Miguel Díaz-Canel, wife and three others",
-              "url": "https://www.euronews.com/2026/06/05/us-sanctions-cuban-president-miguel-diaz-canel-as-trump-adds-pressure-to-islands-leadershi",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:37:29.605420+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8673276901245117,
-            "article": {
-              "title": "US sanctions Cuban president and Castro relatives in latest pressure campaign",
-              "url": "https://www.france24.com/en/americas/20260604-us-sanctions-cuban-president-and-castro-relatives-in-latest-pressure-campaign",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:38:48.546244+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8582788705825806,
-            "article": {
-              "title": "US raises pressure on Cuba as it sanctions President Diaz-Canel",
-              "url": "https://www.aljazeera.com/news/2026/6/5/us-raises-pressure-on-cuba-as-it-sanctions-president-diaz-canel",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:41:03.251894+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8518804907798767,
-            "article": {
-              "title": "USA verhängen Sanktionen gegen Kubas Präsidenten",
-              "url": "https://www.tagesschau.de/ausland/amerika/us-sanktionen-kuba-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:37:39.495785+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8480047583580017,
-            "article": {
-              "title": "WORLD US imposes sanctions on Cuban president, Castro family members",
-              "url": "https://myrepublica.nagariknetwork.com/news/us-imposes-sanctions-on-cuban-president-castro-family-members-68-28.html",
-              "source_id": "myrepublica.nagariknetwork.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:45:13.271277+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8462846279144287,
-            "article": {
-              "title": "U.S. sanctions Cuban President Díaz-Canel in latest move pressuring island's leadership By Fatima Hussein, Matthew Lee, Associated Press",
-              "url": "https://www.pbs.org/newshour/world/u-s-sanctions-cuban-president-diaz-canel-in-latest-move-pressuring-islands-leadership",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:44:16.564384+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8168588876724243,
-            "article": {
-              "title": "EE UU golpea el entorno familiar de Díaz-Canel y Raúl Castro con nuevas sanciones",
-              "url": "https://www.14ymedio.com/cuba/ee-uu-golpea-entorno-familiar_1_1127435.html",
-              "source_id": "14ymedio.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:39:12.651024+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7837961912155151,
-            "article": {
-              "title": "Cuba: El presidente Díaz-Canel denuncia la última lista de sanciones de Estados Unidos contra la isla",
-              "url": "https://elcomercio.pe/mundo/centroamerica/cuba-el-presidente-miguel-diaz-canel-denuncia-la-ultima-lista-de-sanciones-de-estados-unidos-contra-la-isla-donald-trump-ultimas-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:40:22.499820+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7756911516189575,
-            "article": {
-              "title": "Darbender Inselstaat USA verhängen Sanktionen gegen Kubas Präsident – Trump spricht von »gescheiterter Nation«",
-              "url": "https://www.spiegel.de/ausland/kuba-usa-verhaengen-sanktionen-gegen-praesident-miguel-diaz-canel-a-40ee0bad-efff-4f9b-95d9-796a25cb7fbd",
-              "source_id": "spiegel.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:37:42.696616+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7290473580360413,
-            "article": {
-              "title": "Az Egyesült Államok újabb szankciókat léptet életbe a...",
-              "url": "https://telex.hu/kulfold/2026/06/05/egyesult-allamok-uj-szankciok-kuba",
-              "source_id": "telex.hu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:41:35.152762+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 41.47847335803703,
-        "size": 12,
-        "n_sources": 12,
+        "score": 20.963953630448874,
+        "size": 8,
+        "n_sources": 7,
         "n_continents": 4,
         "continents": [
           "Europe East",
+          "Europe North",
+          "North America",
+          "South America"
+        ],
+        "coherence": 0.8421199917793274,
+        "title": "Muere apuñalado James Handy, actor de Jumanji y Top Gun: Maverick, y arrestan al hijo de su novia",
+        "central_article": {
+          "title": "Muere apuñalado James Handy, actor de Jumanji y Top Gun: Maverick, y arrestan al hijo de su novia",
+          "url": "https://www.bbc.com/mundo/articles/c93x3jwwjljo",
+          "source_id": "bbc.com",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-06-05T20:33:41.015610+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9220039248466492,
+            "article": {
+              "title": "Muere apuñalado James Handy, actor de Jumanji y Top Gun: Maverick, y arrestan al hijo de su novia",
+              "url": "https://www.bbc.com/mundo/articles/c93x3jwwjljo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:33:41.015610+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9024198055267334,
+            "article": {
+              "title": "Top Gun and Jumanji actor James Handy stabbed to death: Actor’s girlfriend says her son stopped taking schizophrenia meds before killing",
+              "url": "https://www.independent.co.uk/news/world/americas/crime/james-handy-death-latest-updates-top-gun-maverick-girlfriend-son-arrest-b2990238.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:32:16.635938+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8945589065551758,
+            "article": {
+              "title": "James Handy, reconocido actor de 'Jumanji' y 'Top Gun', fue asesinado por el hijo de su novia en EE. UU.",
+              "url": "https://www.eltiempo.com/cultura/gente/james-handy-reconocido-actor-de-jumanji-y-top-gun-fue-brutalmente-asesinado-por-el-hijo-de-su-novia-en-estados-unidos-escalofriante-confesion-3562300",
+              "source_id": "eltiempo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:33:55.329884+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8633240461349487,
+            "article": {
+              "title": "Halálra késelték James Handy amerikai színészt Los Angeles-i otthonában, barátnője fiát letartóztatták A 81 éves férfit, aki a nagyközönség leginkább a Jumanji és a Top Gun: Maverick című filmekből ismerheti, mellkason szúrva, házának udvarán találták meg. A színész kórházba szállítása után meghalt.",
+              "url": "https://nepszava.hu/3324973_los-angeles-halalos-keseles-szinesz-csaladi-tragedia-letartoztatas",
+              "source_id": "nepszava.hu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:36:42.265048+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8519606590270996,
+            "article": {
+              "title": "James Handy stabbing: What we know in 'Top Gun' actor's death",
+              "url": "https://www.usatoday.com/story/entertainment/celebrities/2026/06/05/james-handy-top-gun-death-stabbed-arrest-explained/90420770007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:38:44.743185+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.830219030380249,
+            "article": {
+              "title": "Veteran actor James Handy fatally stabbed in Tarzana; girlfriend’s son is arrested",
+              "url": "https://www.latimes.com/entertainment-arts/story/2026-06-04/actor-james-handy-stabbed-to-death-in-tarzana",
+              "source_id": "latimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:38:42.341026+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7379065752029419,
+            "article": {
+              "title": "James Handy: Hollywood’s ‘finest character actor’ with dark army past",
+              "url": "https://www.independent.co.uk/arts-entertainment/films/features/james-handy-death-top-gun-b2990241.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:32:16.635938+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7345669269561768,
+            "article": {
+              "title": "Aktor „Top Gun: Maverick” został zasztyletowany",
+              "url": "https://cyfrowa.rp.pl/it/art44572441-aktor-top-gun-maverick-zostal-zasztyletowany-internet-zyje-smiercia-jamesa-handy-ego",
+              "source_id": "rp.pl",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:36:45.495595+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 19.675105908760454,
+        "size": 6,
+        "n_sources": 6,
+        "n_continents": 4,
+        "continents": [
+          "China",
           "Europe North",
           "Europe South",
           "Middle East"
         ],
-        "coherence": 0.8707947134971619,
-        "title": "Explosion d’un drone marin dans un port en Roumanie",
+        "coherence": 0.8602600693702698,
+        "title": "France opens torture, 'war crime' probe over Israel's treatment of Gaza flotilla activists",
         "central_article": {
-          "title": "Explosion d’un drone marin dans un port en Roumanie",
-          "url": "https://www.lesoir.be/751029/article/2026-06-05/explosion-dun-drone-marin-dans-un-port-en-roumanie",
-          "source_id": "lesoir.be",
-          "continent": "Europe South",
-          "published_at": null,
-          "scraped_at_utc": "2026-06-05T10:38:56.249394+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9398486614227295,
-            "article": {
-              "title": "Explosion d’un drone marin dans un port en Roumanie",
-              "url": "https://www.lesoir.be/751029/article/2026-06-05/explosion-dun-drone-marin-dans-un-port-en-roumanie",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:38:56.249394+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9319519996643066,
-            "article": {
-              "title": "V rumunském přístavu explodoval námořní dron",
-              "url": "https://ct24.ceskatelevize.cz/clanek/svet/v-rumunskem-pristavu-explodoval-namorni-dron-374255",
-              "source_id": "ct24.ceskatelevize.cz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:41:43.119346+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9228862524032593,
-            "article": {
-              "title": "В порту на юго-востоке Румынии взорвался морской дрон",
-              "url": "https://meduza.io/news/2026/06/05/v-portu-na-yugo-vostoke-rumynii-vzorvalsya-morskoy-dron",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:41:56.434296+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9065408110618591,
-            "article": {
-              "title": "Naval drone explodes at Romania's Black Sea port.",
-              "url": "https://kyivindependent.com/romania-reports-naval-drone-explosion-near-black-sea-port/",
-              "source_id": "kyivindependent.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:41:55.350383+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8915926218032837,
-            "article": {
-              "title": "Explosion d'un drone maritime dans le port roumain de Constanta, pas de blessés",
-              "url": "https://www.rtbf.be/article/explosion-d-un-drone-maritime-dans-le-port-roumain-de-constanta-pas-de-blesses-11735730",
-              "source_id": "rtbf.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:38:54.319116+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8747444152832031,
-            "article": {
-              "title": "Drone detonates near oil terminal in Romanian Black Sea port of Constanta",
-              "url": "https://www.jpost.com/international/article-898478",
-              "source_id": "jpost.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:41:07.011617+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8691333532333374,
-            "article": {
-              "title": "Maritime drone ‘of type used' in Ukraine explodes in Romanian Black Sea port",
-              "url": "https://www.france24.com/en/europe/20260605-live-us-house-passes-bill-in-support-of-ukraine-sanctions-russia",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:38:48.546244+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8620688915252686,
-            "article": {
-              "title": "Zeedrone ontploft in Roemeense haven, gebied ontruimd",
-              "url": "https://nos.nl/artikel/2617235-zeedrone-ontploft-in-roemeense-haven-gebied-ontruimd",
-              "source_id": "nos.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:37:31.968882+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8545380234718323,
-            "article": {
-              "title": "Drone eksploderede i rumænsk havn - landets forsvar vil ikke kendes ved den",
-              "url": "https://www.dr.dk/nyheder/seneste/drone-eksploderede-i-rumaensk-havn-landets-forsvar-vil-ikke-kendes-ved-den",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:38:16.049740+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8448112607002258,
-            "article": {
-              "title": "Морской беспилотник взорвался в порту Констанцы в Румынии",
-              "url": "https://www.kommersant.ru/doc/8712580?from=top_main_5",
-              "source_id": "kommersant.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:42:04.542815+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8122814893722534,
-            "article": {
-              "title": "Хеликоптери облитат румънския бряг след взривил се украински дрон",
-              "url": "https://www.dnevnik.bg/sviat/2026/06/05/4921837_helikopteri_oblitat_rumunskiia_briag_sled_vzrivil_se/",
-              "source_id": "dnevnik.bg",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:41:52.214915+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7391391396522522,
-            "article": {
-              "title": "Primele informații de la MApN despre drona maritimă care a explodat în Portul Constanța. Un scenariu e exclus clar",
-              "url": "https://hotnews.ro/drona-maritima-care-a-explodat-in-portul-constanta-este-de-tipul-celor-folosite-in-razboiul-din-ucraina-spune-ministerul-apararii-2264712",
-              "source_id": "hotnews.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:41:38.263649+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 31.896548356129777,
-        "size": 7,
-        "n_sources": 7,
-        "n_continents": 6,
-        "continents": [
-          "East Asia",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "South America"
-        ],
-        "coherence": 0.8449656367301941,
-        "title": "Trump slams 'unpatriotic' vote as House orders end to Iran war",
-        "central_article": {
-          "title": "Trump slams 'unpatriotic' vote as House orders end to Iran war",
-          "url": "https://www.france24.com/en/americas/20260604-trump-slams-unpatriotic-vote-house-orders-end-to-iran-war",
+          "title": "France opens torture, 'war crime' probe over Israel's treatment of Gaza flotilla activists",
+          "url": "https://www.france24.com/en/middle-east/20260605-france-opens-torture-war-crime-probe-over-israel-s-treatment-of-gaza-flotilla-activists",
           "source_id": "france24.com",
           "continent": "Europe South",
           "published_at": null,
-          "scraped_at_utc": "2026-06-05T10:38:48.546244+00:00"
+          "scraped_at_utc": "2026-06-05T20:33:19.887066+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9099270105361938,
+            "sim_to_centroid": 0.9126597046852112,
             "article": {
-              "title": "Trump slams 'unpatriotic' vote as House orders end to Iran war",
-              "url": "https://www.france24.com/en/americas/20260604-trump-slams-unpatriotic-vote-house-orders-end-to-iran-war",
+              "title": "France opens torture, 'war crime' probe over Israel's treatment of Gaza flotilla activists",
+              "url": "https://www.france24.com/en/middle-east/20260605-france-opens-torture-war-crime-probe-over-israel-s-treatment-of-gaza-flotilla-activists",
               "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:38:48.546244+00:00"
+              "scraped_at_utc": "2026-06-05T20:33:19.887066+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8493542671203613,
+            "sim_to_centroid": 0.8947258591651917,
             "article": {
-              "title": "Câmara americana vota pelo fim da guerra com o Irã, em repreensão a Trump",
-              "url": "https://oglobo.globo.com/mundo/noticia/2026/06/03/camara-dos-eua-vota-pelo-fim-da-guerra-com-o-ira-em-repreensao-bipartidaria-a-trump.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:40:17.582563+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8485674858093262,
-            "article": {
-              "title": "Trump dismisses Congress vote to end Iran war",
-              "url": "https://www.channel4.com/news/trump-dismisses-congress-vote-to-end-iran-war",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:37:27.991451+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8381748199462891,
-            "article": {
-              "title": "US House votes to end Trump’s Iran war: Does it matter?",
-              "url": "https://www.aljazeera.com/news/2026/6/4/us-house-votes-to-end-trumps-iran-war-does-it-matter",
+              "title": "France opens ‘war crimes’ probe into Israel’s treatment of Gaza activists",
+              "url": "https://www.aljazeera.com/news/2026/6/5/france-opens-war-crimes-probe-into-israels-treatment-of-gaza-activists",
               "source_id": "aljazeera.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:41:03.251894+00:00"
+              "scraped_at_utc": "2026-06-05T20:35:08.644008+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8305130004882812,
+            "sim_to_centroid": 0.8478819727897644,
             "article": {
-              "title": "Condena Trump voto de C�mara contra guerra en Ir�n",
-              "url": "https://www.reforma.com/condena-trump-voto-de-camara-contra-guerra-en-iran/ar3216343",
-              "source_id": "reforma.com",
-              "continent": "North America",
+              "title": "法國檢方就加沙船隊案調查以色列，指控其涉嫌戰爭罪及酷刑",
+              "url": "https://www.singtaousa.com/2026/06/05/news/world/french-prosecutors-open-war-crime-probe-over-israel-treatment-of-gaza-flotilla-activists/",
+              "source_id": "singtaousa.com",
+              "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:39:11.179911+00:00"
+              "scraped_at_utc": "2026-06-05T20:39:07.479258+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8236045837402344,
+            "sim_to_centroid": 0.8447051048278809,
             "article": {
-              "title": "美眾院通過要求結束伊朗戰爭 川普發文痛批「不愛國」",
-              "url": "https://www.cna.com.tw/news/aopl/202606050008.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:46:14.374186+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8146184682846069,
-            "article": {
-              "title": "Trump spins ‘meaningless, unpatriotic’ Iran rebuke after House revolt",
-              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-iran-war-powers-house-vote-response-b2989624.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:37:22.153410+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 25.14303579346661,
-        "size": 6,
-        "n_sources": 6,
-        "n_continents": 5,
-        "continents": [
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Oceania"
-        ],
-        "coherence": 0.8646767139434814,
-        "title": "Disgraced ex-prince Andrew sublet royal cottages, UK auditors reveal in report",
-        "central_article": {
-          "title": "Disgraced ex-prince Andrew sublet royal cottages, UK auditors reveal in report",
-          "url": "https://www.straitstimes.com/world/europe/disgraced-ex-prince-andrew-sublet-royal-cottages-british-auditors-reveal?ref=latest-headlines",
-          "source_id": "straitstimes.com",
-          "continent": "East Asia",
-          "published_at": null,
-          "scraped_at_utc": "2026-06-05T10:46:08.435393+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8864514827728271,
-            "article": {
-              "title": "Disgraced ex-prince Andrew sublet royal cottages, UK auditors reveal in report",
-              "url": "https://www.straitstimes.com/world/europe/disgraced-ex-prince-andrew-sublet-royal-cottages-british-auditors-reveal?ref=latest-headlines",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:46:08.435393+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8786386251449585,
-            "article": {
-              "title": "Andrew was sub-letting Royal Lodge cottages, watchdog reveals",
-              "url": "https://www.bbc.com/news/articles/ce8p8dzvjy9o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:37:20.959777+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8773244619369507,
-            "article": {
-              "title": "L'ex-prince Andrew sous-louait des cottages dans une résidence alors qu'il ne payait pas de loyer",
-              "url": "https://www.rtbf.be/article/l-ex-prince-andrew-sous-louait-des-cottages-dans-une-residence-alors-qu-il-ne-payait-pas-de-loyer-11735567",
-              "source_id": "rtbf.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:38:54.319116+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8657050132751465,
-            "article": {
-              "title": "Skrivni najemniški posel nekdanjega britanskega princa Andrewa",
-              "url": "https://www.delo.si/novice/svet/skrivni-najemniski-posel-britanskega-princa-andrewa",
-              "source_id": "delo.si",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:41:50.197376+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8515110015869141,
-            "article": {
-              "title": "Britischer Rechnungshof enthüllt Früherer Prinz Andrew zahlte Mini-Miete für Anwesen und vermietete Cottages angeblich weiter",
-              "url": "https://www.spiegel.de/panorama/frueherer-prinz-andrew-zahlte-mini-miete-fuer-anwesen-und-vermietete-cottages-angeblich-weiter-a-0c33de88-342d-4949-9e7d-1590876c89d4",
-              "source_id": "spiegel.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:37:42.696616+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8284296989440918,
-            "article": {
-              "title": "Bruised Andrew under fire for secret rent deals",
-              "url": "https://www.smh.com.au/world/europe/andrew-spotted-with-large-purple-bruise-covering-much-of-his-face-20260605-p6046u.html",
-              "source_id": "smh.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:40:50.918253+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 23.611931086999686,
-        "size": 6,
-        "n_sources": 6,
-        "n_continents": 4,
-        "continents": [
-          "Europe North",
-          "Europe South",
-          "North America",
-          "Oceania"
-        ],
-        "coherence": 0.896739661693573,
-        "title": "Anthropic calls for plan to pause AI development if society struggles to manage the technology",
-        "central_article": {
-          "title": "Anthropic calls for plan to pause AI development if society struggles to manage the technology",
-          "url": "https://www.irishtimes.com/technology/2026/06/05/anthropic-calls-for-plan-to-pause-ai-development-if-society-struggles-to-manage-the-technology/",
-          "source_id": "irishtimes.com",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-06-05T10:41:01.883067+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9118689894676208,
-            "article": {
-              "title": "Anthropic calls for plan to pause AI development if society struggles to manage the technology",
-              "url": "https://www.irishtimes.com/technology/2026/06/05/anthropic-calls-for-plan-to-pause-ai-development-if-society-struggles-to-manage-the-technology/",
-              "source_id": "irishtimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:41:01.883067+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9098074436187744,
-            "article": {
-              "title": "Anthropic plädiert für weltweite Pause bei KI-Entwicklung",
-              "url": "https://www.diepresse.com/28267055/anthropic-plaediert-fuer-weltweite-pause-bei-ki-entwicklung",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:37:53.007346+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8998122215270996,
-            "article": {
-              "title": "Anthropic urges global freeze on AI as it warns of losing control",
-              "url": "https://www.smh.com.au/technology/anthropic-urges-global-freeze-on-ai-as-it-warns-of-losing-control-20260605-p6047x.html",
-              "source_id": "smh.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:40:50.918253+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8985661268234253,
-            "article": {
-              "title": "Anthropic fordert weltweite Aussetzung der KI-Entwicklung",
-              "url": "https://www.welt.de/wirtschaft/article6a225a52b20db0d89b655ccf/kuenstliche-intelligenz-anthropic-fordert-weltweite-aussetzung-der-ki-entwicklung.html",
-              "source_id": "welt.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:37:46.907930+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8941205739974976,
-            "article": {
-              "title": "Anthropic calls for global slowdown in AI race to weigh societal implications",
-              "url": "https://www.theglobeandmail.com/business/article-anthropic-claude-ai-implications-slowdown/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:40:47.214246+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8662624359130859,
-            "article": {
-              "title": "'Human role narrowing': Anthropic calls for global AI slowdown as systems could escape control",
-              "url": "https://www.france24.com/en/technology/20260605-anthropic-calls-for-global-ai-slowdown-says-systems-may-outpace-human-control",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:38:48.546244+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 19.40217613422675,
-        "size": 7,
-        "n_sources": 7,
-        "n_continents": 3,
-        "continents": [
-          "Europe North",
-          "Europe South",
-          "North America"
-        ],
-        "coherence": 0.8841725587844849,
-        "title": "U.S. Senate passes $70-billion in new funds for ICE, Border Patrol",
-        "central_article": {
-          "title": "U.S. Senate passes $70-billion in new funds for ICE, Border Patrol",
-          "url": "https://www.theglobeandmail.com/world/us-politics/article-us-senate-passes-70-billion-in-new-funds-for-ice-border-patrol/",
-          "source_id": "theglobeandmail.com",
-          "continent": "North America",
-          "published_at": null,
-          "scraped_at_utc": "2026-06-05T10:40:47.214246+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9264260530471802,
-            "article": {
-              "title": "U.S. Senate passes $70-billion in new funds for ICE, Border Patrol",
-              "url": "https://www.theglobeandmail.com/world/us-politics/article-us-senate-passes-70-billion-in-new-funds-for-ice-border-patrol/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:40:47.214246+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9113622903823853,
-            "article": {
-              "title": "Senate passes $70B immigration enforcement bill without limits on Trump settlement fund",
-              "url": "https://apnews.com/article/trump-settlement-fund-ice-border-patrol-vote-93b9f5b487997b629d87bf59a046d7ec",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:43:45.628041+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9089901447296143,
-            "article": {
-              "title": "Senate passes $70b immigration enforcement bill without limits on Trump settlement fund",
-              "url": "https://www.bostonglobe.com/2026/06/05/nation/senate-session-trump-settlement/",
-              "source_id": "bostonglobe.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:44:10.134638+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9086349010467529,
-            "article": {
-              "title": "Senate backs $70 billion in new funds for ICE, Border Patrol",
-              "url": "https://www.usatoday.com/story/news/politics/2026/06/05/us-senate-billions-funding-ice-border-patrol/90417413007/",
-              "source_id": "usatoday.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:44:11.345672+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8963679075241089,
-            "article": {
-              "title": "Aux Etats-Unis, le Sénat approuve une dotation de 70 milliards de dollars pour la police de l’immigration",
-              "url": "https://www.lemonde.fr/international/article/2026/06/05/aux-etats-unis-le-senat-approuve-70-milliards-de-dollars-pour-la-police-de-l-immigration_6697936_3210.html",
+              "title": "Une enquête pour « tortures » et « crime de guerre » ouverte par le PNAT après l’arrestation de membres français de la flottille pour Gaza",
+              "url": "https://www.lemonde.fr/international/article/2026/06/05/flottille-pour-gaza-le-parquet-national-antiterroriste-francais-ouvre-une-enquete-pour-tortures-et-crime-de-guerre_6697980_3210.html",
               "source_id": "lemonde.fr",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:38:43.114345+00:00"
+              "scraped_at_utc": "2026-06-05T20:33:13.430822+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8735156059265137,
+            "sim_to_centroid": 0.8371948003768921,
             "article": {
-              "title": "Senate Passes $70 Billion G.O.P. Immigration Bill",
-              "url": "https://www.nytimes.com/2026/06/04/us/politics/trump-payout-fund.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:43:46.940370+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7639110684394836,
-            "article": {
-              "title": "USA US-Senat beschließt Milliarden-Finanzierung für Einwanderungsbehörde",
-              "url": "https://www.handelsblatt.com/politik/international/einwanderungsbehoerde-us-senat-beschliesst-milliarden-finanzierung/100230608.html",
-              "source_id": "handelsblatt.com",
+              "title": "1 t Verden Frankrike etterforsker mistenkt tortur av Gaza-aksjonister",
+              "url": "https://www.aftenposten.no/verden/i/vrwA7p/frankrike-etterforsker-mistenkt-tortur-av-franske-gaza-aksjonister-i-israelsk-fengsel",
+              "source_id": "aftenposten.no",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-05T10:37:45.114551+00:00"
+              "scraped_at_utc": "2026-06-05T20:32:57.928370+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8243932723999023,
+            "article": {
+              "title": "法国检方宣布调查“全球坚韧船队”法国人遭暴力对待事件",
+              "url": "https://www.xinhuanet.com/20260605/45eb95e7e2a84f9d967484bf7dd93118/c.html",
+              "source_id": "xinhuanet.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-05T20:38:59.374944+00:00"
             }
           }
         ]
       }
     ],
-    "created_at_utc": "2026-06-05T11:10:44Z"
+    "created_at_utc": "2026-06-05T21:09:26Z"
   }
 ]
