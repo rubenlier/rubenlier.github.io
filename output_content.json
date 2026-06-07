@@ -1,249 +1,800 @@
 [
   {
-    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1780777295",
-    "n_items": 2542,
-    "n_clusters": 2142,
+    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1780826983",
+    "n_items": 2593,
+    "n_clusters": 2139,
     "clusters": [
       {
-        "score": 88.76426569131782,
+        "score": 189.91895928162674,
+        "size": 26,
+        "n_sources": 26,
+        "n_continents": 9,
+        "continents": [
+          "China",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "Oceania",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.8582552671432495,
+        "title": "Etats-Unis : au moins 12 personnes touchées par des tirs lors d’un festival dans l’Ohio",
+        "central_article": {
+          "title": "Etats-Unis : au moins 12 personnes touchées par des tirs lors d’un festival dans l’Ohio",
+          "url": "https://www.rtbf.be/article/etats-unis-au-moins-12-personnes-touchees-par-des-tirs-lors-d-un-festival-dans-l-ohio-11736499",
+          "source_id": "rtbf.be",
+          "continent": "Europe South",
+          "published_at": null,
+          "scraped_at_utc": "2026-06-07T09:53:42.572994+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9334956407546997,
+            "article": {
+              "title": "Etats-Unis : au moins 12 personnes touchées par des tirs lors d’un festival dans l’Ohio",
+              "url": "https://www.rtbf.be/article/etats-unis-au-moins-12-personnes-touchees-par-des-tirs-lors-d-un-festival-dans-l-ohio-11736499",
+              "source_id": "rtbf.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:53:42.572994+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9185217618942261,
+            "article": {
+              "title": "Manhunt underway after 12 injured in shooting at street festival in US state of Ohio",
+              "url": "https://www.sbs.com.au/news/article/multiple-people-shot-near-community-street-festival-in-us-state-of-ohio/6x5kjmtv0",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:55:13.902948+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9141356945037842,
+            "article": {
+              "title": "Policía de EE.UU. informa que tiroteo en festival en Ohio dejó al menos 12 personas heridas",
+              "url": "https://www.emol.com/noticias/Internacional/2026/06/06/1202106/tiroteo-festival-ohio-12-heridos.html",
+              "source_id": "emol.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:54:34.133004+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9136949181556702,
+            "article": {
+              "title": "Shooting near Ohio community festival wounds at least 12",
+              "url": "https://www.theglobeandmail.com/world/article-toledo-ohio-festival-shooting/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:55:10.664054+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9133869409561157,
+            "article": {
+              "title": "Estados Unidos: Al menos 12 heridos, dos de ellos de gravedad, tras tiroteo ocurrido cerca de un festival en Ohio",
+              "url": "https://www.latercera.com/mundo/noticia/estados-unidos-reportan-multiples-heridos-tras-tiroteo-ocurrido-cerca-de-un-festival-en-ohio/",
+              "source_id": "latercera.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:54:47.195117+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9094668626785278,
+            "article": {
+              "title": "Deja tiroteo 12 heridos cerca de festival en Ohio",
+              "url": "https://www.reforma.com/deja-tiroteo-12-heridos-cerca-de-un-festival-en-ohio/ar3217866?v=6",
+              "source_id": "reforma.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:53:59.584266+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9082241058349609,
+            "article": {
+              "title": "Verletzte nach Schüssen bei Festival in Ohio",
+              "url": "https://www.zdfheute.de/panorama/kriminalitaet/usa-ohio-festival-schuesse-verletzte-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:52:52.712991+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9064507484436035,
+            "article": {
+              "title": "Suspects sought after 12 shot, injured at Ohio festival, police say",
+              "url": "https://www.usatoday.com/story/news/nation/2026/06/06/ohio-shooting-injures-multiple-people-near-festival-police-say/90440681007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:58:27.726080+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9059610366821289,
+            "article": {
+              "title": "At least 12 people shot at an Ohio festival and a search for suspects is still ongoing, police say",
+              "url": "https://www.bostonglobe.com/2026/06/06/nation/ohio-festival-shooting-2/",
+              "source_id": "bostonglobe.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:58:26.501778+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9059610366821289,
+            "article": {
+              "title": "At least 12 people shot at an Ohio festival and a search for suspects is still ongoing, police say",
+              "url": "https://apnews.com/article/toledo-ohio-shooting-4fbc465161cf1d4e29f0f1b22d3fb9d3",
+              "source_id": "apnews.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:58:01.730457+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8970599174499512,
+            "article": {
+              "title": "‘Multiple’ people shot near Ohio festival as police search for suspect",
+              "url": "https://www.independent.co.uk/news/world/americas/crime/shooting-ohio-toledo-old-west-festival-b2991172.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:52:12.289296+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8736053705215454,
+            "article": {
+              "title": "SOCIETY Manhunt underway for suspects after 12 people shot near festival in Ohio, US",
+              "url": "https://www.presstv.ir/Detail/2026/06/07/769978/Manhunt-suspects-12-people-shot-festival-Toledo-Ohio",
+              "source_id": "presstv.ir",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:55:58.875699+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8663358092308044,
+            "article": {
+              "title": "Multiple people shot near festival in Toledo, Ohio, authorities say",
+              "url": "https://www.pbs.org/newshour/nation/multiple-people-shot-near-festival-in-toledo-ohio-authorities-say",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:58:33.277228+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8604586124420166,
+            "article": {
+              "title": "Multiple people shot at festival in US (VIDEO)",
+              "url": "https://www.rt.com/news/641128-multiple-people-shot-festival-us/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:56:48.959490+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.859196662902832,
+            "article": {
+              "title": "Police search for suspects after 12 people shot at US festival",
+              "url": "https://www.irishtimes.com/world/us/2026/06/07/police-search-for-suspects-after-12-people-shot-at-ohio-festival/",
+              "source_id": "irishtimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:55:46.324041+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.858498752117157,
+            "article": {
+              "title": "Multiple people shot near street festival in Toledo, Ohio, authorities say",
+              "url": "https://www.theguardian.com/us-news/2026/jun/06/toledo-ohio-shooting",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:52:15.233234+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8556606769561768,
+            "article": {
+              "title": "Minst tolv skjutna vid festival i USA",
+              "url": "https://www.dn.se/direkt/2026-06-07/minst-tolv-skjutna-vid-festival-i-usa/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:53:05.317626+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8435938358306885,
+            "article": {
+              "title": "crime, law and justice Comments At least 12 shot, wounded at Ohio community festival",
+              "url": "https://thewest.com.au/news/world/us-shooting-multiple-people-shot-near-community-festival-in-ohio-c-22395865",
+              "source_id": "thewest.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:55:19.767449+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8411102294921875,
+            "article": {
+              "title": "Two in critical condition after shooting incident at festival in Ohio",
+              "url": "https://www.euronews.com/2026/06/07/police-search-for-suspects-after-shooting-incident-injures-at-least-12-at-music-festival-i",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:52:19.678444+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.823418140411377,
+            "article": {
+              "title": "Ao menos 12 pessoas ficam feridas em tiroteio perto de festival nos Estados Unidos Dois atiradores trocaram tiros no estado de Ohio; as vítimas têm entre 14 e 61 anos",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/06/ao-menos-12-pessoas-ficam-feridas-em-tiroteio-perto-de-festival-nos-eua.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:54:36.791923+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7921006679534912,
+            "article": {
+              "title": "Twaalf gewonden bij schietpartij festival Ohio, twee mensen in kritieke toestand De politie is nog op zoek naar een of meerdere schutters.",
+              "url": "https://nos.nl/artikel/2617464-twaalf-gewonden-bij-schietpartij-festival-ohio-twee-mensen-in-kritieke-toestand",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:52:23.311369+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7842310070991516,
+            "article": {
+              "title": "Twaalf gewonden na schietpartij op festival VS: 'Totale chaos'",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5610317/twaalf-gewonden-na-schietpartij-op-festival-vs",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:52:27.233699+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.778207540512085,
+            "article": {
+              "title": "امریکی ریاست اوہائیو میں میلےکے دوران فائرنگ، 8 افراد زخمی",
+              "url": "https://www.nawaiwaqt.com.pk/07-Jun-2026/1999714",
+              "source_id": "nawaiwaqt.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:59:29.952238+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7663887739181519,
+            "article": {
+              "title": "美国俄亥俄州托莱多市枪击事件造成至少12人受伤",
+              "url": "https://www.xinhuanet.com/20260607/c81e9958e0744e119e5e42d299a66090/c.html",
+              "source_id": "xinhuanet.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:58:43.273185+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7513903975486755,
+            "article": {
+              "title": "12 sek Flera skjutna vid festival i amerikanska Toledo Två av dem vårdas för kritiska skador",
+              "url": "https://www.svt.se/nyheter/utrikes/flera-skjutna-nara-festival-i-ohio",
+              "source_id": "svt.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:53:12.615663+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7340810298919678,
+            "article": {
+              "title": "В американском штате Огайо в результате стрельбы ранены 12 человек В мире",
+              "url": "http://belta.by/world/view/v-amerikanskom-shtate-ogajo-v-rezultate-strelby-raneny-12-chelovek-784980-2026/",
+              "source_id": "belta.by",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:57:24.697605+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 89.37106450372352,
         "size": 18,
         "n_sources": 17,
         "n_continents": 8,
         "continents": [
+          "China",
           "East Asia",
           "Europe East",
           "Europe North",
           "Europe South",
           "Middle East",
           "North America",
-          "South America",
           "South Asia"
         ],
-        "coherence": 0.8146658539772034,
-        "title": "Israeli strike kills three Lebanese soldiers",
+        "coherence": 0.8160284161567688,
+        "title": "В Израиле произошла стрельба. Один человек погиб, есть раненые",
         "central_article": {
-          "title": "Israeli strike kills three Lebanese soldiers",
-          "url": "https://www.bangkokpost.com/world/3266890/israeli-strike-kills-three-lebanese-soldiers",
-          "source_id": "bangkokpost.com",
-          "continent": "East Asia",
+          "title": "В Израиле произошла стрельба. Один человек погиб, есть раненые",
+          "url": "https://meduza.io/news/2026/06/07/v-izrailya-proizoshla-strelba-odin-chelovek-pogib-est-ranenye",
+          "source_id": "meduza.io",
+          "continent": "Europe East",
           "published_at": null,
-          "scraped_at_utc": "2026-06-06T20:08:25.928902+00:00"
+          "scraped_at_utc": "2026-06-07T09:56:43.296359+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9229230880737305,
+            "sim_to_centroid": 0.9108801484107971,
             "article": {
-              "title": "Israeli strike kills three Lebanese soldiers",
-              "url": "https://www.bangkokpost.com/world/3266890/israeli-strike-kills-three-lebanese-soldiers",
-              "source_id": "bangkokpost.com",
-              "continent": "East Asia",
+              "title": "В Израиле произошла стрельба. Один человек погиб, есть раненые",
+              "url": "https://meduza.io/news/2026/06/07/v-izrailya-proizoshla-strelba-odin-chelovek-pogib-est-ranenye",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:08:25.928902+00:00"
+              "scraped_at_utc": "2026-06-07T09:56:43.296359+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.908653736114502,
+            "sim_to_centroid": 0.9081815481185913,
             "article": {
-              "title": "Three members of Lebanese army killed in Israeli strikes",
-              "url": "https://www.channel4.com/news/three-members-of-lebanese-army-killed-in-israeli-strikes",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:00:34.365443+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8964757323265076,
-            "article": {
-              "title": "Officers among Lebanese soldiers killed by Israeli strike in south Lebanon",
-              "url": "https://www.thenationalnews.com/news/mena/2026/06/06/general-among-several-lebanese-soldiers-killed-by-israeli-strike-in-south-lebanon/",
+              "title": "One killed and five wounded in shooting attack in central Israel",
+              "url": "https://www.thenationalnews.com/news/mena/2026/06/07/one-killed-and-five-wounded-in-shooting-attack-in-central-israel/",
               "source_id": "thenationalnews.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:03:34.509315+00:00"
+              "scraped_at_utc": "2026-06-07T09:55:49.197308+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8770190477371216,
+            "sim_to_centroid": 0.8963322639465332,
             "article": {
-              "title": "Israeli strike kills nine including three Lebanese soldiers",
-              "url": "https://www.euronews.com/2026/06/06/israeli-strike-kills-nine-including-lebanese-soldiers-as-border-truce-under-pressure",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:00:35.774892+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8740248084068298,
-            "article": {
-              "title": "Middle East live: Israeli strike kills three Lebanese soldiers",
-              "url": "https://www.france24.com/en/middle-east/20260606-middle-east-live-us-military-says-iran-launched-seven-ballistic-missiles-at-kuwait-bahrain",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:01:40.871233+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8395960330963135,
-            "article": {
-              "title": "Two Lebanese officers, one soldier killed in Lebanon strike",
-              "url": "https://www.newarab.com/news/two-lebanese-officers-one-soldier-killed-lebanon-strike",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:03:55.698388+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8350809812545776,
-            "article": {
-              "title": "Israeli Strike Kills 3 Lebanese Soldiers, Days After Truce Was Signed",
-              "url": "https://www.nytimes.com/2026/06/06/world/middleeast/israel-strike-lebanese-soldiers-general.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:06:14.181825+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8276618719100952,
-            "article": {
-              "title": "Israeli attacks in Lebanon kill 12 people, including high-ranking soldiers",
-              "url": "https://www.aljazeera.com/news/2026/6/6/israeli-attacks-in-lebanon-kill-10-people-including-high-ranking-soldiers",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:03:33.087683+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8246771097183228,
-            "article": {
-              "title": "Israeli airstrikes kill 9 including Lebanese army officers after ceasefire deal",
-              "url": "https://www.chicagotribune.com/2026/06/06/israel-airstrikes-southern-lebanon/",
-              "source_id": "chicagotribune.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:06:39.679092+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8068503141403198,
-            "article": {
-              "title": "Pakistan minister in Tehran for talks, Israeli strike kills 3 Lebanese soldiers",
-              "url": "https://www.hindustantimes.com/world-news/us-iran-war-news-live-updates-donald-trump-israel-lebanon-ceasefire-peace-talk-gulf-strait-of-hormuz-oil-prices-today-101780706296088.html",
-              "source_id": "hindustantimes.com",
+              "title": "One person killed, five injured in shooting in central Israel, ambulance service says",
+              "url": "https://www.thehindu.com/news/international/one-person-killed-five-injured-in-shooting-in-central-israel-ambulance-service-says/article71072704.ece",
+              "source_id": "thehindu.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:07:15.512285+00:00"
+              "scraped_at_utc": "2026-06-07T09:59:07.886330+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7922971844673157,
+            "sim_to_centroid": 0.8963322639465332,
             "article": {
-              "title": "Israel strikes Lebanon hours after US claims ceasefire agreed",
-              "url": "https://www.thetimes.com/world/middle-east/israel-iran/article/israel-ceasefire-new-announces-state-department-trump-iran-ndg80fqcz",
-              "source_id": "thetimes.com",
+              "title": "One person killed, five injured in shooting in central Israel, ambulance service says",
+              "url": "https://www.straitstimes.com/world/middle-east/one-person-killed-five-injured-in-shooting-in-central-israel-ambulance-service-says?ref=latest-headlines",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T10:00:29.225140+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8625619411468506,
+            "article": {
+              "title": "以色列中部枪击事件已致1死4伤",
+              "url": "https://www.xinhuanet.com/20260607/6d8b7a0658a4404e90282a40b70f5b8a/c.html",
+              "source_id": "xinhuanet.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:58:43.273185+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8622525930404663,
+            "article": {
+              "title": "Mindestens ein Toter und fünf Verletzte bei mutmaßlichem Terroranschlag in Israel",
+              "url": "https://www.diepresse.com/28619434/mindestens-ein-toter-und-fuenf-verletzte-bei-mutmasslichem-terroranschlag-in-israel",
+              "source_id": "diepresse.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:00:31.209256+00:00"
+              "scraped_at_utc": "2026-06-07T09:52:50.227111+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7781553268432617,
+            "sim_to_centroid": 0.8271739482879639,
             "article": {
-              "title": "Midden-Oosten Libanees legervoertuig doelwit van Israëlische aanval, drie inzittenden gedood",
-              "url": "https://www.nrc.nl/nieuws/2026/06/06/libanees-legervoertuig-doelwit-van-israelische-aanval-drie-inzittenden-gedood-a4929497",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
+              "title": "1 dead and 6 wounded in shootings near the West Bank, Israel’s rescue services say",
+              "url": "https://apnews.com/article/israel-palestinians-west-bank-shooting-217b7d7ef034c99b091e01462357f296",
+              "source_id": "apnews.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:00:40.195514+00:00"
+              "scraped_at_utc": "2026-06-07T09:58:01.730457+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7628925442695618,
+            "sim_to_centroid": 0.8261929750442505,
             "article": {
-              "title": "Ливан съобщи за удар от Израел с убити офицери и порица Иран: Не сме ви разменна монета",
-              "url": "https://www.dnevnik.bg/sviat/2026/06/06/4922149_livan_suobshti_za_udar_ot_izrael_s_ubiti_oficeri_i/",
-              "source_id": "dnevnik.bg",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:04:30.124681+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7610198259353638,
-            "article": {
-              "title": "Israel continues to strike southern Lebanon with no deal in sight",
-              "url": "https://www.channel4.com/news/israel-continues-to-strike-southern-lebanon-with-no-deal-in-sight",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:00:34.365443+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7558475136756897,
-            "article": {
-              "title": "Lebanon Israel strikes southern Lebanon after ordering evacuations of nine villages",
-              "url": "https://www.theguardian.com/world/2026/jun/05/israel-strikes-southern-lebanon-evacuations-nine-villages",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:00:32.588104+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7466171979904175,
-            "article": {
-              "title": "Líbano roza los 3.600 muertos desde que comenzó ofensiva israelí sin visos de desescalada",
-              "url": "https://elcomercio.pe/mundo/oriente-medio/libano-roza-los-3600-muertos-desde-que-comenzo-ofensiva-de-israel-sin-visos-de-desescalada-hezbola-guerra-en-iran-estados-unidos-ultimas-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:02:36.007519+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7367639541625977,
-            "article": {
-              "title": "odkaz Při izraelském útoku zemřeli libanonští důstojníci",
-              "url": "https://ct24.ceskatelevize.cz/clanek/svet/pri-izraelskem-utoku-zemrelo-nekolik-libanonskych-vojaku-374291",
-              "source_id": "ct24.ceskatelevize.cz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:04:16.534459+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7174288630485535,
-            "article": {
-              "title": "Hezbollah: Israeli attack on Lebanese army exposes Beirut's disregard for national sovereignty",
-              "url": "https://www.presstv.ir/Detail/2026/06/06/769940/Hezbollah--Israeli-attack-on-Lebanese-Army-result-of-Beirut-s-disregard-for-national-sovereignty,-people-s-lives",
-              "source_id": "presstv.ir",
+              "title": "مقتل مستوطن وإصابة 6 آخرين في عملية إطلاق نار مزدوجة في اسرائيل",
+              "url": "https://www.alsumaria.tv/news/international/566240/مقتل-مستوطن-وإصابة-6-آخرين-في-عملية-إطلاق-نار-مزدوجة-في-اسرائيل",
+              "source_id": "alsumaria.tv",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:03:48.083581+00:00"
+              "scraped_at_utc": "2026-06-07T09:57:59.885856+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8191267251968384,
+            "article": {
+              "title": "1 t Verden Avis: Én drept og flere såret i Israel",
+              "url": "https://www.aftenposten.no/verden/i/d4kwmo/avis-en-skutt-og-drept-og-flere-saaret-i-israel",
+              "source_id": "aftenposten.no",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:53:06.988272+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7817041277885437,
+            "article": {
+              "title": "イスラエル中部で銃撃、5人死傷 民間人標的 容疑者2人は死亡 6/7",
+              "url": "https://mainichi.jp/articles/20260607/k00/00m/030/150000c",
+              "source_id": "mainichi.jp",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T10:00:10.193348+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7739584445953369,
+            "article": {
+              "title": "إعلام إسرائيلي: قتيل في حوادث إطلاق نار قرب الضّفة الغربيّة",
+              "url": "https://www.annahar.com/international/israeli-issues/317520/إعلام-إسرائيلي-قتيل-في-حوادث-إطلاق-نار-قرب-الضفة-الغربية",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:56:12.849119+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7688211798667908,
+            "article": {
+              "title": "Israelsk politi jagter mistænkt efter skyderi med seks ramte – efterforskes som mulig terror",
+              "url": "https://politiken.dk/internationalt/art10871559/Israelsk-politi-jagter-mist%C3%A6nkt-efter-skyderi-med-seks-ramte-%E2%80%93-efterforskes-som-mulig-terror",
+              "source_id": "politiken.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:53:03.411854+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.764380931854248,
+            "article": {
+              "title": "Sparatoria a nord di Tel Aviv: un morto e 4 feriti. Gli Usa abbattono due droni iraniani a Hormuz",
+              "url": "https://www.repubblica.it/esteri/2026/06/07/diretta/guerra_iran_usa_israele_news_oggi-425394421/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:53:51.906331+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7640367150306702,
+            "article": {
+              "title": "Meldinger om skyderi i israelsk by tæt ved Vestbredden",
+              "url": "https://www.dr.dk/nyheder/seneste/meldinger-om-skyderi-i-israelsk-taet-ved-vestbredden",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:53:16.018127+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7623051404953003,
+            "article": {
+              "title": "Just nu Skjutning i Israel – minst en död och fem skadade Israeliska myndigheter rubricerar skottlossningen som en terrorattack",
+              "url": "https://www.svt.se/nyheter/utrikes/skjutningar-i-israel-minst-en-dod-och-flera-skadade",
+              "source_id": "svt.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:53:12.615663+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7593135237693787,
+            "article": {
+              "title": "قتيل و5 مصابين في عملية إطلاق نار في منطقة كوخاف يائير",
+              "url": "https://www.aljazeera.net/news/liveblog/2026/6/7/حرب-إيران-مباشر-رسالة-باكستانية?update=9331756",
+              "source_id": "aljazeera.net",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:55:53.317463+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7524891495704651,
+            "article": {
+              "title": "One killed, five wounded in Sharon terror attack as IDF, police continue hunt for escaped terrorist",
+              "url": "https://www.jpost.com/israel-news/article-898575",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:55:50.612833+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7524673938751221,
+            "article": {
+              "title": "مقتل إسرائيلي وإصابات خطيرة في عملية داخل الخط الأخضر",
+              "url": "https://www.aljazeera.net/news/2026/6/7/عاجل-مصادر-إسرائيلية-قتيل-و4-جرحى-في",
+              "source_id": "aljazeera.net",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:55:53.317463+00:00"
             }
           }
         ]
       },
       {
-        "score": 69.70017410939204,
-        "size": 22,
-        "n_sources": 19,
-        "n_continents": 6,
+        "score": 84.73894758974352,
+        "size": 19,
+        "n_sources": 18,
+        "n_continents": 7,
         "continents": [
           "East Asia",
           "Europe East",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "Oceania",
+          "South Asia"
+        ],
+        "coherence": 0.8206586837768555,
+        "title": "Pentagon sees growing espionage threat from Israel",
+        "central_article": {
+          "title": "Pentagon sees growing espionage threat from Israel",
+          "url": "https://www.japantimes.co.jp/news/2026/06/07/world/politics/israel-us-espionage-threat/",
+          "source_id": "japantimes.co.jp",
+          "continent": "East Asia",
+          "published_at": null,
+          "scraped_at_utc": "2026-06-07T10:00:06.178178+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8956334590911865,
+            "article": {
+              "title": "Pentagon sees growing espionage threat from Israel",
+              "url": "https://www.japantimes.co.jp/news/2026/06/07/world/politics/israel-us-espionage-threat/",
+              "source_id": "japantimes.co.jp",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T10:00:06.178178+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8913080096244812,
+            "article": {
+              "title": "Pentagon Sees Growing Espionage Threat From Israel",
+              "url": "https://www.nytimes.com/2026/06/06/us/politics/pentagon-sees-growing-espionage-threat-from-israel.html",
+              "source_id": "nytimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:58:03.161635+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8797548413276672,
+            "article": {
+              "title": "Pentagon voices concern over Israel’s increased intelligence activities in US — media",
+              "url": "https://tass.com/world/2143579",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:56:53.357051+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8764593601226807,
+            "article": {
+              "title": "САЩ са повишили до най-високото ниво риска от шпионаж от Израел",
+              "url": "https://www.dnevnik.bg/sviat/2026/06/07/4922133_sasht_sa_povishili_do_nai-visokoto_nivo_riska_ot/",
+              "source_id": "dnevnik.bg",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:56:38.527648+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8720114231109619,
+            "article": {
+              "title": "Pentagon raises Israel's espionage threat level to 'critical' amid tensions between US, Israel",
+              "url": "https://www.jpost.com/international/article-898525",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:55:50.612833+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.871566891670227,
+            "article": {
+              "title": "Le Pentagone relève au plus haut la menace de contre-espionnage israélien",
+              "url": "https://www.lesoir.be/751369/article/2026-06-07/le-pentagone-releve-au-plus-haut-la-menace-de-contre-espionnage-israelien",
+              "source_id": "lesoir.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:53:44.205309+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8663623332977295,
+            "article": {
+              "title": "US concerned over growing spying threat from Israel",
+              "url": "https://www.smh.com.au/world/north-america/us-concerned-over-growing-spying-threat-from-israel-20260607-p604kw.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:55:15.198185+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.853771448135376,
+            "article": {
+              "title": "Pentagon said to raise threat level on Israel spying to ‘critical’",
+              "url": "https://www.aljazeera.com/news/2026/6/6/pentagon-said-to-raise-threat-level-on-israel-spying-to-critical",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:55:47.572492+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8517249822616577,
+            "article": {
+              "title": "Guerre au Moyen-Orient : le Pentagone relève au plus haut la menace de contre-espionnage israélien",
+              "url": "https://www.rtbf.be/article/guerre-au-moyen-orient-le-pentagone-releve-au-plus-haut-la-menace-de-contre-espionnage-israelien-11736549",
+              "source_id": "rtbf.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:53:42.572994+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8410388231277466,
+            "article": {
+              "title": "Pentagon flags \"Critical\" Israeli intelligence threat",
+              "url": "https://www.albawaba.com/news/pentagon-flags-critical-israeli-1629330",
+              "source_id": "albawaba.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:56:05.770167+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8177129030227661,
+            "article": {
+              "title": "Tehdit seviyesi 'en üst düzeye' çıkarıldı Pentagon'da İsrail kaynaklı casusluk alarmı!",
+              "url": "https://www.cumhuriyet.com.tr/dunya/pentagon-dan-israil-e-casusluk-alarmi-tehdit-seviyesi-en-ust-duzeye-cikarildi-2510080",
+              "source_id": "cumhuriyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:56:02.610953+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7877941727638245,
+            "article": {
+              "title": "Israel goes too far by trying to uncover US position on Iran through espionage — media",
+              "url": "https://tass.com/world/2143603",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:56:53.357051+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.785180926322937,
+            "article": {
+              "title": "Израиль заподозрили в слежке за высокопоставленными чиновниками США - СМИ",
+              "url": "https://tengrinews.kz/world_news/izrail-zapodozrili-slejke-vyisokopostavlennyimi-chinovnikami-600955/",
+              "source_id": "tengrinews.kz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:57:07.818557+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7842605113983154,
+            "article": {
+              "title": "Il sospetto di Washington: “L’intelligence israeliana spia Witkoff e i vertici del Pentagono”",
+              "url": "https://www.repubblica.it/esteri/2026/06/07/news/allerta_washington_intelligence_israeliana_spia_witkoff_vertici_pentagono-425394322/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:53:51.906331+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7715378403663635,
+            "article": {
+              "title": "ABD'de 'en yüksek seviye' İsrail alarmı! 'Kontrolden çıktı'",
+              "url": "https://www.milliyet.com.tr/dunya/abdde-en-yuksek-seviye-israil-alarmi-kontrolden-cikti-7600788",
+              "source_id": "milliyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:56:04.405416+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7659976482391357,
+            "article": {
+              "title": "’امریکا ایران مذاکرات کی اسرائیل جاسوسی کررہا ہے‘",
+              "url": "https://jang.com.pk/news/1589470",
+              "source_id": "jang.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:59:27.702465+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7571627497673035,
+            "article": {
+              "title": "واشنطن تكتشف تجسسا إسرائيليا \"تجاوز الحد\" على مفاوضيها مع طهران",
+              "url": "https://www.aljazeera.net/news/liveblog/2026/6/7/حرب-إيران-مباشر-رسالة-باكستانية?update=9331639",
+              "source_id": "aljazeera.net",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:55:53.317463+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7270097732543945,
+            "article": {
+              "title": "Az izraeli hírszerzés lehallgathatta az Egyesült Államok...",
+              "url": "https://telex.hu/kulfold/2026/06/07/izrael-lehallgathatta-az-egyesult-allamok-es-iran-kozott-zajlo-targyalasokat-new-york-times",
+              "source_id": "telex.hu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:56:21.118775+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6962270736694336,
+            "article": {
+              "title": "Americans holding increasingly negative views of Israel",
+              "url": "https://www.newarab.com/news/americans-holding-increasingly-negative-views-israel",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:56:07.146458+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 67.65803079213934,
+        "size": 19,
+        "n_sources": 19,
+        "n_continents": 6,
+        "continents": [
+          "Europe East",
           "Europe North",
           "Europe South",
+          "Middle East",
           "North America",
-          "Oceania"
+          "South Asia"
         ],
-        "coherence": 0.8016008734703064,
+        "coherence": 0.7956535220146179,
         "title": "Ukraine launches new drone attack on St. Petersburg",
         "central_article": {
           "title": "Ukraine launches new drone attack on St. Petersburg",
@@ -251,1351 +802,1211 @@
           "source_id": "theglobeandmail.com",
           "continent": "North America",
           "published_at": null,
-          "scraped_at_utc": "2026-06-06T20:03:00.069497+00:00"
+          "scraped_at_utc": "2026-06-07T09:55:10.664054+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9102259278297424,
+            "sim_to_centroid": 0.9145054221153259,
             "article": {
               "title": "Ukraine launches new drone attack on St. Petersburg",
               "url": "https://www.theglobeandmail.com/world/article-ukraine-launches-new-drone-attack-st-petersburg/",
               "source_id": "theglobeandmail.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:03:00.069497+00:00"
+              "scraped_at_utc": "2026-06-07T09:55:10.664054+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8849061131477356,
+            "sim_to_centroid": 0.885421872138977,
             "article": {
               "title": "Ukraine launches ‘unprecedented’ drone attack on St Petersburg",
               "url": "https://www.thetimes.com/world/russia-ukraine-war/article/drone-attack-ukraine-russia-e3-talks-2vtmztkkj",
               "source_id": "thetimes.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:00:31.209256+00:00"
+              "scraped_at_utc": "2026-06-07T09:52:13.828266+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8808692693710327,
+            "sim_to_centroid": 0.885421872138977,
+            "article": {
+              "title": "Ukraine launches ‘unprecedented’ drone attack on St Petersburg",
+              "url": "https://georgiatoday.ge/ukraine-launches-unprecedented-drone-attack-on-st-petersburg/",
+              "source_id": "georgiatoday.ge",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:57:05.294632+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8843836784362793,
             "article": {
               "title": "Ukraine launches hundreds of drones at St Petersburg",
               "url": "https://www.channel4.com/news/ukraine-launches-hundreds-of-drones-at-st-petersburg",
               "source_id": "channel4.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:00:34.365443+00:00"
+              "scraped_at_utc": "2026-06-07T09:52:17.920890+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8704007267951965,
-            "article": {
-              "title": "Ukrainian drones target St Petersburg in attack Russia calls 'unprecedented'",
-              "url": "https://www.bbc.com/news/articles/cg7498kz808o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:00:29.528308+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8570448160171509,
-            "article": {
-              "title": "Ukraine greift Russland mit Hunderten Drohnen an",
-              "url": "https://www.diepresse.com/28544459/ukraine-greift-russland-mit-hunderten-drohnen-an",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:01:00.175088+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8441562056541443,
-            "article": {
-              "title": "Ukrainian drones target St Petersburg after Putin refuses talks with Zelenskiy",
-              "url": "https://www.irishtimes.com/world/europe/2026/06/06/ukrainian-drones-target-st-petersburg-after-putin-refuses-talks-with-zelenskiy/",
-              "source_id": "irishtimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:03:31.973042+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8348995447158813,
-            "article": {
-              "title": "Ucrania lanza un ataque \"sin precedentes\" en San Petersburgo con más de 140 drones en el último día del \"Davos de Rusia\"",
-              "url": "https://www.bbc.com/mundo/articles/cq812qjj5l0o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:02:00.471101+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.832302451133728,
+            "sim_to_centroid": 0.8423178791999817,
             "article": {
               "title": "Ukraine launches large-scale drone attack as Putin meets Schröder",
               "url": "https://www.euronews.com/my-europe/2026/06/06/ukraine-launches-large-scale-drone-attack-as-putin-meets-schroder",
               "source_id": "euronews.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:00:35.774892+00:00"
+              "scraped_at_utc": "2026-06-07T09:52:19.678444+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8123034238815308,
+            "sim_to_centroid": 0.8366631865501404,
             "article": {
-              "title": "Russian oil facilities hit by second Ukrainian drone attack after Putin rejects talks",
-              "url": "https://www.abc.net.au/news/2026-06-07/ukraine-hit-russian-oil-facilities/106768620",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:03:01.525141+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8041733503341675,
-            "article": {
-              "title": "Zelensky confirms another drone strike on St. Petersburg Oblast ahead of Putin's economic forum finale.",
-              "url": "https://kyivindependent.com/oil-depot-set-ablaze-as-ukraine-reportedly-launches-dozens-of-drones-towards-russia/",
-              "source_id": "kyivindependent.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:04:33.805685+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8018637895584106,
-            "article": {
-              "title": "Wirtschaftsforum endet Russland meldet Drohnenattacken - auch auf St. Petersburg",
-              "url": "https://www.tagesschau.de/ausland/europa/st-petersburg-drohnen-100.html",
-              "source_id": "tagesschau.de",
+              "title": "Ucrania lanza un ataque \"sin precedentes\" en San Petersburgo con más de 140 drones en el último día del \"Davos de Rusia\"",
+              "url": "https://www.bbc.com/mundo/articles/cq812qjj5l0o",
+              "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:00:46.797456+00:00"
+              "scraped_at_utc": "2026-06-07T09:53:57.097186+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7986366748809814,
-            "article": {
-              "title": "Ukrainian drones fly over Putin’s showcase forum",
-              "url": "https://www.bangkokpost.com/world/3266878/ukrainian-drones-fly-over-putins-showcase-forum",
-              "source_id": "bangkokpost.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:08:25.928902+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7985957860946655,
-            "article": {
-              "title": "Ukraine targets St. Petersburg again as Putin’s Davos wraps up",
-              "url": "https://www.politico.eu/article/ukraine-targets-st-petersburg-drone-attack-economic-forum/",
-              "source_id": "politico.eu",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:00:37.124109+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7982087135314941,
+            "sim_to_centroid": 0.7934297323226929,
             "article": {
               "title": "A Saint-Pétersbourg, le « Davos de Poutine » s’achève comme il a commencé, sous une pluie de drones ukrainiens",
               "url": "https://www.lemonde.fr/international/article/2026/06/06/a-saint-petersbourg-le-davos-de-poutine-s-acheve-comme-il-a-commence-sous-une-pluie-de-drones-ukrainiens_6698252_3210.html",
               "source_id": "lemonde.fr",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:01:35.811325+00:00"
+              "scraped_at_utc": "2026-06-07T09:53:28.275607+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7781346440315247,
+            "sim_to_centroid": 0.790420651435852,
             "article": {
-              "title": "Zum Abschluss des internationalen Wirtschaftsforums Ukrainische Drohnen legen Petersburger Flughafen stundenlang lahm",
-              "url": "https://www.spiegel.de/ausland/ukraine-krieg-drohnen-legen-petersburger-flughafen-zeitweise-lahm-a-d6d92199-2df7-45a0-b2eb-4ef333e1e980",
-              "source_id": "spiegel.de",
+              "title": "Ukraine targets St. Petersburg again as Putin’s Davos wraps up",
+              "url": "https://www.politico.eu/article/ukraine-targets-st-petersburg-drone-attack-economic-forum/",
+              "source_id": "politico.eu",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:00:49.998647+00:00"
+              "scraped_at_utc": "2026-06-07T09:52:22.110468+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7689180374145508,
+            "sim_to_centroid": 0.7838349342346191,
             "article": {
-              "title": "Ukraine apologizes to Greece over naval drone incident, says it shows Russia's war threat to Europe.",
-              "url": "https://kyivindependent.com/ukraine-apologizes-to-greece-over-naval-drone-incident-says-it-shows-russias-war-poses-threat-to-europe/",
+              "title": "At least 7 killed, 61 injured in Russian attacks across Ukraine as Moscow 'hunts' taxi driver with FPV drone.",
+              "url": "https://kyivindependent.com/at-least-7-killed-61-injured-in-russian-attacks-across-ukraine-as-moscow-hunts-people-with-fpv-drones/",
               "source_id": "kyivindependent.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:04:33.805685+00:00"
+              "scraped_at_utc": "2026-06-07T09:56:42.104680+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7674632668495178,
+            "sim_to_centroid": 0.7800585031509399,
             "article": {
-              "title": "Russian FPV Drones and Artillery Kill Two, Wound Four Civilians Across Ukraine",
-              "url": "https://www.kyivpost.com/post/77661",
-              "source_id": "kyivpost.com",
+              "title": "Ukraine war briefing: Kyiv unleashes hundreds of drones on Russia after Putin rejected Zelenskyy meeting",
+              "url": "https://www.theguardian.com/world/2026/jun/07/ukraine-war-briefing-kyiv-unleashes-hundreds-of-drones-on-russia-after-putin-rejected-zelenskyy-meeting",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:52:15.233234+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7772009372711182,
+            "article": {
+              "title": "Drohnenangriffe auf St. Petersburg während Wirtschaftsforum",
+              "url": "https://www.zdfheute.de/politik/ausland/angriff-drohnen-st-petersburg-ukraine-krieg-russland-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:52:52.712991+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7753627300262451,
+            "article": {
+              "title": "Drone-watching: How Ukraine keeps hitting its EU backers RECAP",
+              "url": "https://www.rt.com/news/641121-drone-backers-eu-ukraine/",
+              "source_id": "rt.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:04:31.636274+00:00"
+              "scraped_at_utc": "2026-06-07T09:56:48.959490+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7561622858047485,
+            "sim_to_centroid": 0.7596697807312012,
             "article": {
               "title": "Oekraïense drones raken opnieuw oliedepots, dag nadat Poetin onderhandelingen weigerde",
               "url": "https://fd.nl/politiek/1599109/oekraiense-drones-raken-opnieuw-oliedepots-dag-nadat-poetin-onderhandelingen-weigerde",
               "source_id": "fd.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:00:44.246369+00:00"
+              "scraped_at_utc": "2026-06-07T09:52:29.710414+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7490600347518921,
+            "sim_to_centroid": 0.7511754631996155,
             "article": {
-              "title": "Droni su Mosca e San Pietroburgo. Zelensky: «I raid sulla Russia? Sono le nostre sanzioni»",
-              "url": "https://www.corriere.it/esteri/diretta-live/26_giugno_06/guerra-ucraina-russia-le-notizie-in-diretta-1.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
+              "title": "Russian drone strikes nuclear fuel site near Chernobyl",
+              "url": "https://www.jpost.com/international/internationalrussia-ukraine-war/article-898591",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:01:57.676732+00:00"
+              "scraped_at_utc": "2026-06-07T09:55:50.612833+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7306313514709473,
+            "sim_to_centroid": 0.7496637105941772,
             "article": {
-              "title": "Ukraine's drones take aerial control over part of land route to Russian-occupied Crimea, military says.",
-              "url": "https://kyivindependent.com/ukraine-takes-aerial-control-over-part-of-land-route-to-russian-occupied-crimea-military-says/",
-              "source_id": "kyivindependent.com",
+              "title": "V novih napadih ruskih brezpilotnikov v Ukrajini ubita dva človeka",
+              "url": "https://www.delo.si/novice/svet/ukrajina-napadi-zrtve",
+              "source_id": "delo.si",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:04:33.805685+00:00"
+              "scraped_at_utc": "2026-06-07T09:56:36.396277+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7121137380599976,
+            "sim_to_centroid": 0.7479365468025208,
+            "article": {
+              "title": "Ruský dron zasáhl sklad s jaderným palivem u Černobylu",
+              "url": "https://ct24.ceskatelevize.cz/clanek/svet/rusky-dron-zasahl-sklad-s-jadernym-palivem-u-cernobylu-374307",
+              "source_id": "ct24.ceskatelevize.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:56:28.761676+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.723945140838623,
+            "article": {
+              "title": "Russia says it downed 339 Ukrainian drones in",
+              "url": "https://pajhwok.com/2026/06/07/russia-says-it-downed-339-ukrainian-drones-in-13-hours/",
+              "source_id": "pajhwok.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:59:33.704329+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7199839353561401,
+            "article": {
+              "title": "Ukrán dróncsapások érték Szentpétervárt, a lakosokat felszólították, hogy maradjanak otthon",
+              "url": "https://telex.hu/kulfold/2026/06/07/ukran-droncsapasok-ertek-szentpetervarat-lakosokat-felszolitottak-maradjanak-otthon",
+              "source_id": "telex.hu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:56:21.118775+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7160207033157349,
             "article": {
               "title": "Marine drone that exploded in Romania's Constanta port belonged to Ukraine — president",
               "url": "https://tass.com/world/2143581",
               "source_id": "tass.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:04:47.676058+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6441484689712524,
-            "article": {
-              "title": "Rusija obstreljevanje Sankt Peterburga označila za »napad brez primere«",
-              "url": "https://www.delo.si/novice/svet/rusija-obstreljevanje-sankt-peterburga-oznacila-za-napad-brez-primere",
-              "source_id": "delo.si",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:04:27.818546+00:00"
+              "scraped_at_utc": "2026-06-07T09:56:53.357051+00:00"
             }
           }
         ]
       },
       {
-        "score": 60.37560863826062,
-        "size": 16,
-        "n_sources": 16,
-        "n_continents": 6,
+        "score": 63.11526374884641,
+        "size": 13,
+        "n_sources": 12,
+        "n_continents": 7,
         "continents": [
-          "Africa",
           "East Asia",
           "Europe East",
           "Europe North",
           "Europe South",
-          "South Asia"
-        ],
-        "coherence": 0.8072474002838135,
-        "title": "USA und Iran greifen sich weiter an",
-        "central_article": {
-          "title": "USA und Iran greifen sich weiter an",
-          "url": "https://www.handelsblatt.com/politik/international/iran-krieg-usa-und-iran-greifen-sich-in-golfregion-erneut-an/100230778.html",
-          "source_id": "handelsblatt.com",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-06-06T20:00:51.373012+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8745385408401489,
-            "article": {
-              "title": "USA und Iran greifen sich weiter an",
-              "url": "https://www.handelsblatt.com/politik/international/iran-krieg-usa-und-iran-greifen-sich-in-golfregion-erneut-an/100230778.html",
-              "source_id": "handelsblatt.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:00:51.373012+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8734440803527832,
-            "article": {
-              "title": "امریکا، ایران کے ایک بار پھر ایک دوسرے پر حملے",
-              "url": "https://jang.com.pk/news/1589388",
-              "source_id": "jang.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:07:32.635272+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8734440803527832,
-            "article": {
-              "title": "امریکا، ایران کے ایک بار پھر ایک دوسرے پر حملے",
-              "url": "https://www.nawaiwaqt.com.pk/06-Jun-2026/1999480",
-              "source_id": "nawaiwaqt.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:07:34.673650+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8664940595626831,
-            "article": {
-              "title": "Opnieuw beschietingen tussen Iran en de VS, Golfstaten aangevallen",
-              "url": "https://fd.nl/politiek/1599223/opnieuw-beschietingen-tussen-iran-en-de-vs-golfstaten-aangevallen",
-              "source_id": "fd.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:00:44.246369+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8632729053497314,
-            "article": {
-              "title": "US and Iran trade strikes in latest Gulf flare-up",
-              "url": "https://www.channelnewsasia.com/world/us-iran-trade-strikes-bahrain-kuwait-6166176",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:08:07.480475+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8407279253005981,
-            "article": {
-              "title": "US attacks Iranian sites after Iran launches drones, in latest Gulf flare-up",
-              "url": "https://kathmandupost.com/world/2026/06/06/us-attacks-iranian-sites-after-iran-launches-drones-in-latest-gulf-flare-up",
-              "source_id": "kathmandupost.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:07:31.443440+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8286470174789429,
-            "article": {
-              "title": "Iran and US exchange strikes, threatening fragile ceasefire",
-              "url": "https://www.politico.eu/article/us-iran-war-missile-strikes-undermining-fragile-ceasefire/",
-              "source_id": "politico.eu",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:00:37.124109+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8239233493804932,
-            "article": {
-              "title": "U.S. attacks Iranian coastal sites after Iran launches drones in latest flare-up",
-              "url": "https://www.japantimes.co.jp/news/2026/06/06/world/us-iran-flareup/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:08:09.391899+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7903687953948975,
-            "article": {
-              "title": "Iran and US trade strikes in further test of ceasefire",
-              "url": "https://www.thetimes.com/world/middle-east/israel-hezbollah-war/article/lebanon-hezbollah-rejects-ceasefire-surrender-israel-vdpdhkr62",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:00:31.209256+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7706048488616943,
-            "article": {
-              "title": "US rolls out new Iran-related sanctions",
-              "url": "https://www.france24.com/en/middle-east/20260605-war-in-middle-east-live-israeli-military-continues-strikes-in-southern-lebanon-despite-ceasefire",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:01:40.871233+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7665390968322754,
-            "article": {
-              "title": "Тръмп нарече иранците силни и горди, двете страни отново размениха удари",
-              "url": "https://www.dnevnik.bg/sviat/2026/06/06/4922124_trump_nareche_irancite_silni_i_gordi_dvete_strani/",
-              "source_id": "dnevnik.bg",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:04:30.124681+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.757401704788208,
-            "article": {
-              "title": "US-Israel war on Iran Kuwait and Bahrain targeted by Iran after exchange of fire with US",
-              "url": "https://www.theguardian.com/world/2026/jun/06/us-says-iran-radar-sites-struck-and-drones-intercepted-in-latest-threat-to-fragile-ceasefire",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:00:32.588104+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.755623996257782,
-            "article": {
-              "title": "Raketen auf Kuwait und Bahrain: USA greifen Radarstellungen in Iran an",
-              "url": "https://www.tagesschau.de/ausland/asien/iran-usa-angriffe-110.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:00:46.797456+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7524895668029785,
-            "article": {
-              "title": "Tehran retaliates for ‘defensive’ US strike on Iranian island (VIDEOS)",
-              "url": "https://www.rt.com/news/641107-us-iran-qeshm-island-strike/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:04:41.974027+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7438262701034546,
-            "article": {
-              "title": "Guns on the television and in Iran’s streets as Trump renews war threats",
-              "url": "https://www.egyptindependent.com/guns-on-the-television-and-in-irans-streets-as-trump-renews-war-threats/",
-              "source_id": "egyptindependent.com",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:06:07.514355+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7346117496490479,
-            "article": {
-              "title": "Iran says US talks ‘at a deadlock’ as attacks continue across region",
-              "url": "https://www.channel4.com/news/iran-says-us-talks-at-a-deadlock-as-attacks-continue-across-region",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:00:34.365443+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 54.20205257489911,
-        "size": 10,
-        "n_sources": 10,
-        "n_continents": 8,
-        "continents": [
-          "China",
-          "Europe East",
-          "Europe North",
           "Middle East",
           "North America",
-          "Oceania",
-          "South America",
-          "South Asia"
+          "South America"
         ],
-        "coherence": 0.8221384286880493,
-        "title": "Iran’s soccer team leaves for World Cup as some officials still await US visas",
+        "coherence": 0.842829167842865,
+        "title": "Iran says staff blocked from entering US after players given World Cup visas",
         "central_article": {
-          "title": "Iran’s soccer team leaves for World Cup as some officials still await US visas",
-          "url": "https://apnews.com/article/world-cup-iran-us-visas-bb15821c4f8cbe0d2fe4a0d0bbd6edcc",
-          "source_id": "apnews.com",
-          "continent": "North America",
+          "title": "Iran says staff blocked from entering US after players given World Cup visas",
+          "url": "https://www.bbc.com/news/articles/cy8286nqz87o",
+          "source_id": "bbc.com",
+          "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-06-06T20:06:12.885671+00:00"
+          "scraped_at_utc": "2026-06-07T09:52:10.788406+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8642109632492065,
+            "sim_to_centroid": 0.9221009016036987,
             "article": {
-              "title": "Iran’s soccer team leaves for World Cup as some officials still await US visas",
-              "url": "https://apnews.com/article/world-cup-iran-us-visas-bb15821c4f8cbe0d2fe4a0d0bbd6edcc",
-              "source_id": "apnews.com",
-              "continent": "North America",
+              "title": "Iran says staff blocked from entering US after players given World Cup visas",
+              "url": "https://www.bbc.com/news/articles/cy8286nqz87o",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:06:12.885671+00:00"
+              "scraped_at_utc": "2026-06-07T09:52:10.788406+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8477543592453003,
+            "sim_to_centroid": 0.9221009016036987,
             "article": {
-              "title": "Iran slams US 'discriminatory treatment' over World Cup visa refusals",
-              "url": "https://www.sbs.com.au/news/fifa-world-cup-2026/article/iranian-world-cup-squad-granted-us-visas-days-before-tournament/5ulcn5jc0",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
+              "title": "Iran says staff blocked from entering US after players given World Cup visas",
+              "url": "https://www.thenationalnews.com/sport/football/2026/06/07/iran-says-staff-blocked-from-entering-us-after-players-given-world-cup-visas/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:03:02.792943+00:00"
+              "scraped_at_utc": "2026-06-07T09:55:49.197308+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8399956226348877,
+            "sim_to_centroid": 0.8921511173248291,
             "article": {
-              "title": "Главе Федерации футбола Ирана не дали визу перед чемпионатом мира в США",
-              "url": "https://meduza.io/news/2026/06/06/glave-federatsii-futbola-irana-ne-dali-vizu-pered-chempionatom-mira-v-ssha",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
+              "title": "Iran protests US visa denials for World Cup team staff",
+              "url": "https://www.koreaherald.com/article/10765486",
+              "source_id": "koreaherald.com",
+              "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:04:34.911070+00:00"
+              "scraped_at_utc": "2026-06-07T10:00:15.130648+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.837632954120636,
+            "sim_to_centroid": 0.8691798448562622,
+            "article": {
+              "title": "Iran's World Cup team approved for visas to play games in the US, officials say",
+              "url": "https://www.independent.co.uk/news/iran-tijuana-mexico-los-angeles-washington-b2990819.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:52:12.289296+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8654155135154724,
+            "article": {
+              "title": "Members of Iranian soccer staff wait to receive US visas ahead of 2026 FIFA World Cup, official say",
+              "url": "https://www.jpost.com/international/article-898556",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:55:50.612833+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8493751883506775,
             "article": {
               "title": "Iran World Cup squad heads to Mexico as US visa row erupts",
               "url": "https://www.newarab.com/news/iran-world-cup-squad-heads-mexico-us-visa-row-erupts",
               "source_id": "newarab.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:03:55.698388+00:00"
+              "scraped_at_utc": "2026-06-07T09:56:07.146458+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8373717069625854,
+            "sim_to_centroid": 0.8361145257949829,
+            "article": {
+              "title": "Главе Федерации футбола Ирана не дали визу перед чемпионатом мира в США",
+              "url": "https://meduza.io/news/2026/06/06/glave-federatsii-futbola-irana-ne-dali-vizu-pered-chempionatom-mira-v-ssha",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:56:43.296359+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8319569826126099,
+            "article": {
+              "title": "Iran heads to World Cup in Mexico amid bitter visa standoff with Washington",
+              "url": "https://www.france24.com/en/iran-heads-to-world-cup-in-mexico-amid-bitter-visa-standoff-with-washington",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:53:36.241395+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8291806578636169,
             "article": {
               "title": "Irán acusa a Estados Unidos de “trato discriminatorio” por negar visados para el Mundial",
               "url": "https://elcomercio.pe/mundo/oriente-medio/iran-acusa-a-estados-unidos-de-trato-discriminatorio-por-negar-visados-para-el-mundial-2026-donald-trump-mexico-copa-del-mundo-ultimas-noticia/",
               "source_id": "elcomercio.pe",
               "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:02:36.007519+00:00"
+              "scraped_at_utc": "2026-06-07T09:54:45.815257+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8323541283607483,
+            "sim_to_centroid": 0.8143117427825928,
             "article": {
-              "title": "Iran football squad cleared for US entry but staff still await visas",
-              "url": "https://www.euronews.com/2026/06/06/iran-football-squad-cleared-for-us-entry-but-staff-still-await-visas",
-              "source_id": "euronews.com",
+              "title": "Fußball-WM: Irans Team darf nur am Spieltag in die USA",
+              "url": "https://www.diepresse.com/28615088/fussball-wm-irans-team-darf-nur-am-spieltag-in-die-usa",
+              "source_id": "diepresse.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:00:35.774892+00:00"
+              "scraped_at_utc": "2026-06-07T09:52:50.227111+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8214023113250732,
+            "sim_to_centroid": 0.80712890625,
             "article": {
-              "title": "伊朗足协：美国违背体育规则，多名国家队随队成员未获签证",
-              "url": "https://www.sohu.com/a/1033155145_115479?edtsign=DEE7B037424C7D9578AB4DEB439FA3F52AA1AC76&edtcode=7l1qGClIU%2Fep9oAfqs2zVA%3D%3D&scm=10001.663_14-200000.0.0-0-0-0-0.&_f=index_cpc_1_0",
-              "source_id": "news.sohu.com",
-              "continent": "China",
+              "title": "'Many' Iranian, African journalists denied visas to cover FIFA World Cup in US",
+              "url": "https://www.jpost.com/international/article-898562",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:07:03.369064+00:00"
+              "scraped_at_utc": "2026-06-07T09:55:50.612833+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.806241512298584,
+            "sim_to_centroid": 0.7630351185798645,
             "article": {
-              "title": "امریکا نے فیفا ورلڈکپ کیلئے ایران کے15رکنی وفدکو ویزے دینے سےانکار کردیا",
-              "url": "https://www.nawaiwaqt.com.pk/06-Jun-2026/1999468",
-              "source_id": "nawaiwaqt.com.pk",
-              "continent": "South Asia",
+              "title": "Irán aguarda las visas para EE UU de 15 miembros del cuerpo técnico y la directiva",
+              "url": "https://elpais.com/mexico/2026-06-07/iran-aguarda-todavia-las-visas-para-ee-uu-de-15-miembros-del-cuerpo-tecnico-y-la-directiva-para-el-mundial.html",
+              "source_id": "elpais.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:07:34.673650+00:00"
+              "scraped_at_utc": "2026-06-07T09:53:58.393781+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7736262679100037,
+            "sim_to_centroid": 0.7547276616096497,
             "article": {
               "title": "Wereldkampioenschap Iraans voetbalteam kan deelnemen aan wereldkampioenschap, Amerikaanse autoriteiten verlenen visa",
               "url": "https://www.nrc.nl/nieuws/2026/06/06/iraans-voetbalteam-kan-deelnemen-aan-wereldkampioenschap-amerikaanse-autoriteiten-verlenen-visa-a4929481",
               "source_id": "nrc.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:00:40.195514+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7607946395874023,
-            "article": {
-              "title": "जंग के बावजूद ईरानी फुटबॉल टीम को अमेरिकी वीजा मिला: सपोर्ट स्टाफ को अब तक इजाजत नहीं, ईरान बोला- यह भेदभाव Play video",
-              "url": "https://www.bhaskar.com/international/news/us-iran-sanctions-energy-banking-tehran-response-138121512.html",
-              "source_id": "bhaskar.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:07:11.677504+00:00"
+              "scraped_at_utc": "2026-06-07T09:52:25.258838+00:00"
             }
           }
         ]
       },
       {
-        "score": 40.71818891639424,
-        "size": 11,
-        "n_sources": 10,
-        "n_continents": 7,
+        "score": 51.6011284437538,
+        "size": 17,
+        "n_sources": 15,
+        "n_continents": 6,
         "continents": [
-          "Africa",
           "China",
+          "Europe East",
+          "Europe North",
           "Europe South",
           "Middle East",
-          "North America",
-          "Oceania",
-          "South America"
+          "South Asia"
         ],
-        "coherence": 0.7916359305381775,
-        "title": "Iran launches ballistic missiles at Bahrain, Kuwait after US hits its radar sites",
+        "coherence": 0.7887467741966248,
+        "title": "Parlamentswahl in Armenien hat begonnen",
         "central_article": {
-          "title": "Iran launches ballistic missiles at Bahrain, Kuwait after US hits its radar sites",
-          "url": "https://www.france24.com/en/middle-east/20260606-iran-targets-bahrain-and-kuwait-after-new-us-strikes",
-          "source_id": "france24.com",
-          "continent": "Europe South",
+          "title": "Parlamentswahl in Armenien hat begonnen",
+          "url": "https://www.zdfheute.de/politik/ausland/armenien-wahl-parlament-russland-eu-100.html",
+          "source_id": "zdfheute.de",
+          "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-06-06T20:01:40.871233+00:00"
+          "scraped_at_utc": "2026-06-07T09:52:52.712991+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8910176753997803,
+            "sim_to_centroid": 0.8998403549194336,
             "article": {
-              "title": "Iran launches ballistic missiles at Bahrain, Kuwait after US hits its radar sites",
-              "url": "https://www.france24.com/en/middle-east/20260606-iran-targets-bahrain-and-kuwait-after-new-us-strikes",
+              "title": "Parlamentswahl in Armenien hat begonnen",
+              "url": "https://www.zdfheute.de/politik/ausland/armenien-wahl-parlament-russland-eu-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:52:52.712991+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8944749236106873,
+            "article": {
+              "title": "В Армении начались выборы в парламент",
+              "url": "https://mlyn.by/07062026/v-armenii-nachalis-vybory-v-parlament/",
+              "source_id": "mlyn.by",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:57:32.455790+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8602226376533508,
+            "article": {
+              "title": "В Армении начались парламентские выборы. Они проходят на фоне обострения отношений Еревана с Москвой из-за сближения с ЕС",
+              "url": "https://meduza.io/news/2026/06/07/v-armenii-nachalis-parlamentskie-vybory-oni-prohodyat-na-fone-obostreniya-otnosheniy-erevana-s-moskvoy-iz-za-sblizheniya-s-es",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:56:43.296359+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8568085432052612,
+            "article": {
+              "title": "В Армении проходят выборы, которые определят курс дальнейшего развития страны",
+              "url": "https://tengrinews.kz/world_news/armenii-prohodyat-vyiboryi-kotoryie-opredelyat-kurs-600972/",
+              "source_id": "tengrinews.kz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:57:07.818557+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8432726860046387,
+            "article": {
+              "title": "Arménci rozhodují o novém parlamentu. Hraje se o kurz k Západu i vztahy s Moskvou",
+              "url": "https://www.idnes.cz/zpravy/zahranicni/obyvatele-armenie-od-rana-vybiraji-pristi-slozeni-sveho-parlamentu.A260607_111103_zahranicni_ijan",
+              "source_id": "idnes.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:56:25.795825+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8284302949905396,
+            "article": {
+              "title": "Armenien wählt: Zwischen EU-Annäherung und Russland-Kurs",
+              "url": "https://www.tagesschau.de/ausland/asien/armenien-russland-eu-wahl-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:52:34.293182+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.816850483417511,
+            "article": {
+              "title": "Polls Open in Armenia’s Pivotal Election as Pashinyan Battles Pro-Russian Blocs",
+              "url": "https://www.kyivpost.com/post/77674",
+              "source_id": "kyivpost.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:56:40.035129+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8166422843933105,
+            "article": {
+              "title": "أرمينيا تنتخب برلمانا جديدا وسط تهديدات روسية بـ\"سيناريو أوكراني\"",
+              "url": "https://www.aljazeera.net/news/2026/6/7/أرمينيا-تنتخب-برلمانا-جديدا-وسط",
+              "source_id": "aljazeera.net",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:55:53.317463+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7855176329612732,
+            "article": {
+              "title": "Is the Armenian election really about the West vs Russia?",
+              "url": "https://oc-media.org/is-the-armenian-election-really-about-the-west-vs-russia/",
+              "source_id": "oc-media.org",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:57:16.159618+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7824080586433411,
+            "article": {
+              "title": "Armenia goes to polls in pivotal vote to decide South Caucasus future",
+              "url": "https://www.euronews.com/2026/06/07/armenia-goes-to-polls-in-pivotal-vote-to-decide-south-caucasus-future",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:52:19.678444+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7799922227859497,
+            "article": {
+              "title": "Armenian parliamentary vote will test prime minister's pivot from Russia",
+              "url": "https://www.france24.com/en/europe/20260607-armenia-polls-open-in-test-of-prime-minister-s-pivot-away-from-russia",
               "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:01:40.871233+00:00"
+              "scraped_at_utc": "2026-06-07T09:53:36.241395+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8526853919029236,
+            "sim_to_centroid": 0.771619975566864,
             "article": {
-              "title": "Irã lança mísseis contra Bahrein e Kuwait após ataque dos EUA a radares",
-              "url": "https://oglobo.globo.com/mundo/noticia/2026/06/06/ira-lanca-misseis-contra-bahrein-e-kuwait-apos-ataque-dos-eua-a-radares-e-aumenta-pressao-sobre-cessar-fogo-no-golfo.ghtml",
-              "source_id": "oglobo.globo.com",
+              "title": "EU and Russia clash as Armenians head to the polls, Putin fumes",
+              "url": "https://www.scmp.com/news/world/europe/article/3356251/eu-and-russia-clash-armenians-head-polls-putin-fumes?module=latest&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:58:34.805820+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.739803671836853,
+            "article": {
+              "title": "Vor Wahl in Armenien: Pro-russische Oppositionskandidaten festgenommen",
+              "url": "https://www.tagesschau.de/ausland/europa/armenien-oppositionskandidaten-festgenommen-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:52:34.293182+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7294126749038696,
+            "article": {
+              "title": "Who’s who in Armenia’s 2026 parliamentary elections?",
+              "url": "https://oc-media.org/whos-who-in-armenias-2026-parliamentary-elections/",
+              "source_id": "oc-media.org",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:57:16.159618+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6996185779571533,
+            "article": {
+              "title": "Новости Международная политика В Армении стартовали парламентские выборы 7 июня",
+              "url": "https://novayagazeta.eu/articles/2026/06/07/v-armenii-startovali-parlamentskie-vybory-news",
+              "source_id": "novayagazeta.eu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:56:44.535394+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6911982297897339,
+            "article": {
+              "title": "В Армении открылись участки для голосования на парламентских выборах В мире",
+              "url": "http://belta.by/world/view/v-armenii-otkrylis-uchastki-dlja-golosovanija-na-parlamentskih-vyborah-784972-2026/",
+              "source_id": "belta.by",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:57:24.697605+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6125807762145996,
+            "article": {
+              "title": "সংসদের বাজেট অধিবেশন শুরু",
+              "url": "https://www.prothomalo.com/politics/34nhgkp86l",
+              "source_id": "prothomalo.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:59:15.282682+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 46.474895390550486,
+        "size": 11,
+        "n_sources": 11,
+        "n_continents": 6,
+        "continents": [
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "Oceania",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.829851508140564,
+        "title": "US shoots down two Iranian drones over Strait of Hormuz",
+        "central_article": {
+          "title": "US shoots down two Iranian drones over Strait of Hormuz",
+          "url": "https://www.irishtimes.com/world/middle-east/2026/06/07/us-shoots-down-iranian-drones-threatening-strait-of-hormuz-shipping/",
+          "source_id": "irishtimes.com",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-06-07T09:55:46.324041+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9278299808502197,
+            "article": {
+              "title": "US shoots down two Iranian drones over Strait of Hormuz",
+              "url": "https://www.irishtimes.com/world/middle-east/2026/06/07/us-shoots-down-iranian-drones-threatening-strait-of-hormuz-shipping/",
+              "source_id": "irishtimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:55:46.324041+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8784397840499878,
+            "article": {
+              "title": "Middle East live: US downs two Iranian drones targeting Hormuz shipping traffic",
+              "url": "https://www.france24.com/en/middle-east/20260607-middle-east-live-us-downs-two-iranian-drones-targeting-hormuz-shipping-traffic",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:53:36.241395+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8783206939697266,
+            "article": {
+              "title": "US downs two Iranian attack drones 'threatening int'l maritime traffic' in Strait of Hormuz",
+              "url": "https://www.jpost.com/middle-east/iran-news/article-898548",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:55:50.612833+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8633794784545898,
+            "article": {
+              "title": "EE.UU. destruye dos drones iraníes que operaban en el estrecho de Ormuz",
+              "url": "https://www.latercera.com/mundo/noticia/eeuu-destruye-dos-drones-iranies-que-operaban-en-el-estrecho-de-ormuz/",
+              "source_id": "latercera.com",
               "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:02:31.816254+00:00"
+              "scraped_at_utc": "2026-06-07T09:54:47.195117+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8226327896118164,
+            "sim_to_centroid": 0.8540248870849609,
             "article": {
-              "title": "IRGC pounds US bases in Kuwait, Bahrain after drone attacks on Iranian territory",
-              "url": "https://www.presstv.ir/Detail/2026/06/06/769908/IRGC-reports-missile-strikes-US-Kuwait,-Bahrain-American-aggression",
-              "source_id": "presstv.ir",
-              "continent": "Middle East",
+              "title": "West Asia war LIVE: U.S. says it destroyed two Iran drones targeting Hormuz shipping",
+              "url": "https://www.thehindu.com/news/international/west-asia-conflict-iran-us-israel-war-strait-of-hormuz-live-updates-june-7-2026/article71072180.ece",
+              "source_id": "thehindu.com",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:03:48.083581+00:00"
+              "scraped_at_utc": "2026-06-07T09:59:07.886330+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8102684617042542,
+            "sim_to_centroid": 0.8296814560890198,
             "article": {
-              "title": "Bahrain, Kuwait hit by Iran salvoes; Israel bombs South Lebanon",
-              "url": "https://www.newarab.com/news/bahrain-kuwait-hit-iran-salvoes-israel-bombs-south-lebanon",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
+              "title": "Gli Usa: «Abbattuti due droni iraniani su Hormuz»|",
+              "url": "https://www.corriere.it/esteri/diretta-live/26_giugno_07/guerra-in-iran-le-notizie-in-diretta-gli-usa-abbattuti-due-droni-iraniani-minacciavano-il-traffico-di-navi-a-hormuz.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:03:55.698388+00:00"
+              "scraped_at_utc": "2026-06-07T09:53:53.909876+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7834956645965576,
+            "sim_to_centroid": 0.8098734021186829,
             "article": {
-              "title": "Latest: Bahrain intercepts three Iranian missiles and several drones",
-              "url": "https://www.thenationalnews.com/news/mena/2026/06/06/live-us-iran-war-kuwait-bahrain/",
+              "title": "US intercepts more Iranian attacks over Hormuz",
+              "url": "https://www.thenationalnews.com/news/mena/2026/06/07/live-us-iran-war-hormuz-drone/",
               "source_id": "thenationalnews.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:03:34.509315+00:00"
+              "scraped_at_utc": "2026-06-07T09:55:49.197308+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7804505825042725,
+            "sim_to_centroid": 0.793662428855896,
             "article": {
-              "title": "Bahrain repels missile and drone attack, blames Iran",
-              "url": "https://www.albawaba.com/news/bahrain-repels-missile-and-drone-attack-1629323",
-              "source_id": "albawaba.com",
+              "title": "Ticker Iran-Krieg: USA schiessen Drohnen bei Strasse von Hormuz ab",
+              "url": "https://www.nzz.ch/international/iran-krieg-aktuelle-news-und-entwicklungen-im-liveticker-ld.10009801",
+              "source_id": "nzz.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:52:59.427594+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7914087772369385,
+            "article": {
+              "title": "US shoots Iranian drones; Israel and Hezbollah exchange strikes",
+              "url": "https://www.newarab.com/news/us-shoots-iranian-drones-israel-and-hezbollah-exchange-strikes",
+              "source_id": "newarab.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:03:54.360238+00:00"
+              "scraped_at_utc": "2026-06-07T09:56:07.146458+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7742952704429626,
+            "sim_to_centroid": 0.7710455656051636,
             "article": {
               "title": "US says Iranian coastal radar sites struck after drones threaten shipping",
               "url": "https://www.sbs.com.au/news/article/us-says-iranian-coastal-radar-sites-struck-after-drones-threaten-shipping/6zjihdf0h",
               "source_id": "sbs.com.au",
               "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:03:02.792943+00:00"
+              "scraped_at_utc": "2026-06-07T09:55:13.902948+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.753242015838623,
+            "sim_to_centroid": 0.7307000160217285,
             "article": {
-              "title": "Iran launches missile attacks on Gulf neighbours in ‘serious escalation’",
-              "url": "https://www.theglobeandmail.com/world/article-fragile-iran-ceasefire-faces-new-test-after-exchange-of-fire-in-the/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:03:00.069497+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7516984939575195,
-            "article": {
-              "title": "POLITICS Iran urges UN to stop repeated US violations of ceasefire after attack on radar facilities",
-              "url": "https://www.presstv.ir/Detail/2026/06/06/769951/Iran-US-aggression-Qeshm-",
+              "title": "The tide has turned: Iran’s strategic control of Strait of Hormuz crushes American naval supremacy",
+              "url": "https://www.presstv.ir/Detail/2026/06/06/769941/tide-turned-iran-strategic-control-of-strait-hormuz-crushes-american-naval-supremacy",
               "source_id": "presstv.ir",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:03:48.083581+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7480013370513916,
-            "article": {
-              "title": "伊朗谴责美国袭击伊方沿海雷达设施",
-              "url": "https://www.xinhuanet.com/20260606/553f583bbc3642209c5c7d76f53c08a6/c.html",
-              "source_id": "xinhuanet.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:06:53.405337+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7402075529098511,
-            "article": {
-              "title": "Egyptian citizens injured in Kuwait following Iranian attack",
-              "url": "https://www.egyptindependent.com/egyptian-citizens-injured-in-kuwait-following-iranian-attack/",
-              "source_id": "egyptindependent.com",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:06:07.514355+00:00"
+              "scraped_at_utc": "2026-06-07T09:55:58.875699+00:00"
             }
           }
         ]
       },
       {
-        "score": 39.766423365865215,
-        "size": 10,
-        "n_sources": 10,
-        "n_continents": 6,
+        "score": 42.47527198327247,
+        "size": 15,
+        "n_sources": 14,
+        "n_continents": 5,
         "continents": [
-          "Africa",
-          "China",
-          "East Asia",
           "Europe North",
-          "Europe South",
-          "North America"
+          "Middle East",
+          "North America",
+          "South America",
+          "South Asia"
         ],
-        "coherence": 0.8177356719970703,
-        "title": "Pope Leo XIV urges Spain to stop fanning flames of polarization on first papal visit in 15 years",
+        "coherence": 0.8000853657722473,
+        "title": "Three members of Lebanese army killed in Israeli strikes",
         "central_article": {
-          "title": "Pope Leo XIV urges Spain to stop fanning flames of polarization on first papal visit in 15 years",
-          "url": "https://apnews.com/article/pope-spain-migration-sagrada-familia-650b269286ecf851ed51ebb0e7f5980c",
-          "source_id": "apnews.com",
-          "continent": "North America",
+          "title": "Three members of Lebanese army killed in Israeli strikes",
+          "url": "https://www.channel4.com/news/three-members-of-lebanese-army-killed-in-israeli-strikes",
+          "source_id": "channel4.com",
+          "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-06-06T20:06:12.885671+00:00"
+          "scraped_at_utc": "2026-06-07T09:52:17.920890+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8839312195777893,
+            "sim_to_centroid": 0.8902872800827026,
             "article": {
-              "title": "Pope Leo XIV urges Spain to stop fanning flames of polarization on first papal visit in 15 years",
-              "url": "https://apnews.com/article/pope-spain-migration-sagrada-familia-650b269286ecf851ed51ebb0e7f5980c",
-              "source_id": "apnews.com",
-              "continent": "North America",
+              "title": "Three members of Lebanese army killed in Israeli strikes",
+              "url": "https://www.channel4.com/news/three-members-of-lebanese-army-killed-in-israeli-strikes",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:06:12.885671+00:00"
+              "scraped_at_utc": "2026-06-07T09:52:17.920890+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8820969462394714,
+            "sim_to_centroid": 0.8896790742874146,
             "article": {
-              "title": "Pope Leo urges end to ‘polarising narratives’ on Spain visit",
-              "url": "https://www.scmp.com/news/world/europe/article/3356222/pope-leo-urges-end-polarising-narratives-spain-visit?module=latest&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
+              "title": "Officers among Lebanese soldiers killed by Israeli strike in south Lebanon",
+              "url": "https://www.thenationalnews.com/news/mena/2026/06/06/general-among-several-lebanese-soldiers-killed-by-israeli-strike-in-south-lebanon/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:06:44.854313+00:00"
+              "scraped_at_utc": "2026-06-07T09:55:49.197308+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8686562180519104,
+            "sim_to_centroid": 0.8837110996246338,
             "article": {
-              "title": "Pope calls for end to polarisation on Spain visit",
-              "url": "https://www.bangkokpost.com/world/3266895/pope-calls-for-end-to-polarisation-on-spain-visit",
-              "source_id": "bangkokpost.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:08:25.928902+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8333470821380615,
-            "article": {
-              "title": "Pope Leo XIV calls for national unity on first day in Spain",
-              "url": "https://www.euronews.com/my-europe/2026/06/06/pope-leo-xiv-calls-for-national-reconciliation-on-his-first-day-in-spain",
+              "title": "Deadly Israeli strikes hit Lebanon as Middle East tensions escalate",
+              "url": "https://www.euronews.com/my-europe/2026/06/07/at-least-2-killed-22-wounded-in-lebanon-as-iran-war-enters-100th-day",
               "source_id": "euronews.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:00:35.774892+00:00"
+              "scraped_at_utc": "2026-06-07T09:52:19.678444+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.825404167175293,
+            "sim_to_centroid": 0.8603167533874512,
             "article": {
-              "title": "What Pope Leo’s Spain visit tells us about his priorities",
-              "url": "https://www.egyptindependent.com/what-pope-leos-spain-visit-tells-us-about-his-priorities/",
-              "source_id": "egyptindependent.com",
-              "continent": "Africa",
+              "title": "Israeli strikes kill 12 in Lebanon, including senior army officers",
+              "url": "https://pajhwok.com/2026/06/07/israeli-strikes-kill-12-in-lebanon-including-senior-army-officers/",
+              "source_id": "pajhwok.com",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:06:07.514355+00:00"
+              "scraped_at_utc": "2026-06-07T09:59:33.704329+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8238263130187988,
+            "sim_to_centroid": 0.8159322738647461,
             "article": {
-              "title": "El papa pide acabar con las ‘narrativas divisivas’ en su primer día en España",
-              "url": "https://www.laestrella.com.pa/mundo/el-papa-pide-acabar-con-las-narrativas-divisivas-en-su-primer-dia-en-espana-IC23032974",
-              "source_id": "laestrella.com.pa",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:02:17.997983+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8181248903274536,
-            "article": {
-              "title": "Pope Leo visits Spain to highlight migration, meet victims of sexual abuse by clergy",
-              "url": "https://www.france24.com/en/europe/20260606-pope-visits-spain-with-focus-on-migrants-amid-political-tensions",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:01:40.871233+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8034306764602661,
-            "article": {
-              "title": "Pope Leo Arrives in Spain for First Major European Trip as Pontiff. Here's What to Know",
-              "url": "https://time.com/article/2026/06/06/pope-leo-spain-trip-schedule-francis-legacy-migrants-war-political-backdrop/",
-              "source_id": "time.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:06:41.100453+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7403106689453125,
-            "article": {
-              "title": "León XIV inicia su viaje a España con un mensaje a favor de la paz y contra la \"cultura del enfrentamiento\"",
-              "url": "https://www.rtve.es/noticias/20260606/visita-papa-leon-xiv-madrid-cronica-dia-6/17101864.shtml",
-              "source_id": "rtve.es",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:01:52.968623+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6982281804084778,
-            "article": {
-              "title": "53 sek Påven i splittrat Spanien – uppmanar till minskad polarisering ”Kränkningarna av människans värdighet fortsätter”",
-              "url": "https://www.svt.se/nyheter/utrikes/paven-i-splittrat-spanien-uppmanar-till-minskad-polarisering",
-              "source_id": "svt.se",
+              "title": "Lebanese general among three soldiers killed in Israeli attack on car",
+              "url": "https://www.bbc.com/news/articles/cj0g8jymg92o",
+              "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:01:21.932023+00:00"
+              "scraped_at_utc": "2026-06-07T09:52:10.788406+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8097336292266846,
+            "article": {
+              "title": "Israeli Strike Kills 3 Lebanese Soldiers, Days After Truce Was Signed",
+              "url": "https://www.nytimes.com/2026/06/06/world/middleeast/israel-strike-lebanese-soldiers-general.html",
+              "source_id": "nytimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:58:03.161635+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8028626441955566,
+            "article": {
+              "title": "Israeli airstrikes kill 9 including Lebanese army officers after ceasefire deal",
+              "url": "https://apnews.com/article/lebanon-israel-hezbollah-airstrike-soldiers-killed-iran-6150614827e9f932807527799b50f5d0",
+              "source_id": "apnews.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:58:01.730457+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7999844551086426,
+            "article": {
+              "title": "Israel continues to strike southern Lebanon with no deal in sight",
+              "url": "https://www.channel4.com/news/israel-continues-to-strike-southern-lebanon-with-no-deal-in-sight",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:52:17.920890+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7687389850616455,
+            "article": {
+              "title": "Midden-Oosten Libanees legervoertuig doelwit van Israëlische aanval, drie inzittenden gedood",
+              "url": "https://www.nrc.nl/nieuws/2026/06/06/libanees-legervoertuig-doelwit-van-israelische-aanval-drie-inzittenden-gedood-a4929497",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:52:25.258838+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7590722441673279,
+            "article": {
+              "title": "Líbano roza los 3.600 muertos desde que comenzó ofensiva israelí sin visos de desescalada",
+              "url": "https://elcomercio.pe/mundo/oriente-medio/libano-roza-los-3600-muertos-desde-que-comenzo-ofensiva-de-israel-sin-visos-de-desescalada-hezbola-guerra-en-iran-estados-unidos-ultimas-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:54:45.815257+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7584341764450073,
+            "article": {
+              "title": "جنوبی لبنان میں اسرائیلی فوج کے حملے، 2 افراد جاں بحق",
+              "url": "https://www.nawaiwaqt.com.pk/07-Jun-2026/1999715",
+              "source_id": "nawaiwaqt.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:59:29.952238+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7505166530609131,
+            "article": {
+              "title": "Israel’s new assault lets Hezbollah tighten its grip on Lebanon",
+              "url": "https://www.thetimes.com/world/middle-east/article/israels-new-assault-lets-hezbollah-tighten-its-grip-on-lebanon-v7l2bcw3c",
+              "source_id": "thetimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:52:13.828266+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.745998740196228,
+            "article": {
+              "title": "Two IDF soldiers killed in southern Lebanon as fighting against Hezbollah continues",
+              "url": "https://www.timesofisrael.com/two-idf-soldiers-killed-in-separate-incidents-in-south-lebanon-as-fighting-continues/",
+              "source_id": "timesofisrael.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:55:52.013993+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7410053610801697,
+            "article": {
+              "title": "Lebanon army chief in Pakistan, funeral plans for soldiers killed by Israel",
+              "url": "https://www.aljazeera.com/news/2026/6/7/lebanon-army-chief-in-pakistan-funeral-planned-for-troops-killed-by-israel",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:55:47.572492+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7250092625617981,
+            "article": {
+              "title": "Israeli strike wounds sea turtle conservationist in Lebanon",
+              "url": "https://www.newarab.com/news/israeli-strike-wounds-sea-turtle-conservationist-lebanon",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:56:07.146458+00:00"
             }
           }
         ]
       },
       {
-        "score": 35.2995109083658,
+        "score": 40.15563032305832,
         "size": 9,
         "n_sources": 9,
+        "n_continents": 5,
+        "continents": [
+          "China",
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Middle East"
+        ],
+        "coherence": 0.8772200345993042,
+        "title": "China launches ‘special maritime operation’ off Taiwan",
+        "central_article": {
+          "title": "China launches ‘special maritime operation’ off Taiwan",
+          "url": "https://www.rt.com/news/641142-china-special-maritime-operation-taiwan/",
+          "source_id": "rt.com",
+          "continent": "Europe East",
+          "published_at": null,
+          "scraped_at_utc": "2026-06-07T09:56:48.959490+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9226391315460205,
+            "article": {
+              "title": "China launches ‘special maritime operation’ off Taiwan",
+              "url": "https://www.rt.com/news/641142-china-special-maritime-operation-taiwan/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:56:48.959490+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9093566536903381,
+            "article": {
+              "title": "Китай начал специальную морскую операцию недалеко от Тайваня",
+              "url": "https://ria.ru/20260607/kitaj-2097425611.html",
+              "source_id": "ria.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:56:55.586130+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8998323678970337,
+            "article": {
+              "title": "China conducts maritime operation east of Taiwan island",
+              "url": "https://www.chinadaily.com.cn/a/202606/06/WS6a2417dda310d6866eb4cd1a.html",
+              "source_id": "chinadaily.com.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:58:38.605069+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8959595561027527,
+            "article": {
+              "title": "China Launches Maritime Enforcement Operation East of Taiwan",
+              "url": "https://www.kyivpost.com/post/77677",
+              "source_id": "kyivpost.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:56:40.035129+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.882744312286377,
+            "article": {
+              "title": "China conducted special law enforcement operation east of Taiwan",
+              "url": "https://tass.com/world/2143653",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:56:53.357051+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8761892318725586,
+            "article": {
+              "title": "China holds 'special operation' near Taiwan after Japan-Philippines sea border talks",
+              "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/06/07/china-holds-039special-operation039-near-taiwan-after-japan-philippines-sea-border-talks",
+              "source_id": "thestar.com.my",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T10:00:32.096542+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8485369086265564,
+            "article": {
+              "title": "Taiwan coast guard says deploys vessels in response to China operation",
+              "url": "https://www.japantimes.co.jp/news/2026/06/07/asia-pacific/politics/taiwan-coast-guard-deploy/",
+              "source_id": "japantimes.co.jp",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T10:00:06.178178+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.84195876121521,
+            "article": {
+              "title": "Taiwan skickar fartyg som svar på kinesisk insats",
+              "url": "https://www.dn.se/direkt/2026-06-07/taiwan-skickar-fartyg-som-svar-pa-kinesisk-insats/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:53:05.317626+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8177638053894043,
+            "article": {
+              "title": "Çin 'özel operasyon' başlattı! Tayvan Boğazı'nda tansiyon yükseliyor",
+              "url": "https://www.cumhuriyet.com.tr/dunya/tayvan-bogazi-nda-tansiyon-yukseliyor-cin-ozel-operasyon-baslatti-2510065",
+              "source_id": "cumhuriyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:56:02.610953+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 36.30487044247233,
+        "size": 11,
+        "n_sources": 10,
         "n_continents": 5,
         "continents": [
           "Europe East",
           "Europe North",
           "Europe South",
           "North America",
-          "South America"
-        ],
-        "coherence": 0.8514413237571716,
-        "title": "Consigue Mirra Andreeva la corona de Roland Garros",
-        "central_article": {
-          "title": "Consigue Mirra Andreeva la corona de Roland Garros",
-          "url": "https://www.reforma.com/consigue-mirra-andreeva-la-corona-de-roland-garros/ar3217706?v=8",
-          "source_id": "reforma.com",
-          "continent": "North America",
-          "published_at": null,
-          "scraped_at_utc": "2026-06-06T20:02:01.651475+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8909122347831726,
-            "article": {
-              "title": "Consigue Mirra Andreeva la corona de Roland Garros",
-              "url": "https://www.reforma.com/consigue-mirra-andreeva-la-corona-de-roland-garros/ar3217706?v=8",
-              "source_id": "reforma.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:02:01.651475+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8904005289077759,
-            "article": {
-              "title": "Tennis: Mirra Andreeva wins first Grand Slam at French Open",
-              "url": "https://www.euronews.com/2026/06/06/tennis-mirra-andreeva-wins-womens-roland-garros-final",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:00:35.774892+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8785866498947144,
-            "article": {
-              "title": "Российская теннисистка Мирра Андреева выиграла Roland Garros",
-              "url": "https://www.kommersant.ru/doc/8726680?from=top_main_1",
-              "source_id": "kommersant.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:04:45.476906+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8461596369743347,
-            "article": {
-              "title": "La Russe Mirra Andreeva victorieuse à Roland-Garros : « Je veux me remercier d’avoir cru en moi »",
-              "url": "https://www.lesoir.be/751310/article/2026-06-06/la-russe-mirra-andreeva-victorieuse-roland-garros-je-veux-me-remercier-davoir",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:01:48.849226+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8444921374320984,
-            "article": {
-              "title": "Mirra Andreeva écrase Maja Chwalinska en finale et décroche son premier titre du Grand Chelem Tennis - Roland-Garros aujourd'hui à",
-              "url": "https://www.rts.ch/sport/tennis/2026/article/roland-garros-andreeva-remporte-son-premier-grand-chelem-29265515.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:01:42.798918+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8425768613815308,
-            "article": {
-              "title": "La nueva reina de París. Mirra Andreeva fue demasiado para Chwalinska y se consagró campeona de Roland Garros",
-              "url": "https://www.lanacion.com.ar/deportes/tenis/mirra-andreeva-impuso-su-mayor-jerarquia-y-se-consagro-campeon-de-roland-garros-nid06062026/",
-              "source_id": "lanacion.com.ar",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:02:19.672954+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8423115015029907,
-            "article": {
-              "title": "Russian Andreeva beats Poland's Chwalinska to win French Open title",
-              "url": "https://www.france24.com/en/sport/20260606-andreeva-beats-chwalinska-win-french-open-title-women",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:01:40.871233+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8143191337585449,
-            "article": {
-              "title": "Россиянка Мирра Андреева стала победительницей \"Ролан Гаррос\"",
-              "url": "https://ria.ru/20260606/tennis-2097379861.html",
-              "source_id": "ria.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:04:49.609334+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8132135272026062,
-            "article": {
-              "title": "French Open: Russian teen Mirra Andreeva says she fought ‘so many demons inside’ to win her 1st Grand Slam",
-              "url": "https://www.chicagotribune.com/2026/06/06/russian-teen-mirra-andreeva-says-she-had-to-overcome-so-many-demons-inside-to-win-the-french-open/",
-              "source_id": "chicagotribune.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:06:39.679092+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 27.31292900657077,
-        "size": 6,
-        "n_sources": 6,
-        "n_continents": 5,
-        "continents": [
-          "China",
-          "Europe North",
-          "Europe South",
-          "North America",
           "Oceania"
         ],
-        "coherence": 0.8812325596809387,
-        "title": "In D-Day speech, Hegseth urges Europe to counter ‘invasion’ of migrants",
+        "coherence": 0.8359857797622681,
+        "title": "Hegseth attacks Europe over migration with beach 'invasion' D-Day speech",
         "central_article": {
-          "title": "In D-Day speech, Hegseth urges Europe to counter ‘invasion’ of migrants",
-          "url": "https://www.scmp.com/news/world/europe/article/3356224/d-day-speech-hegseth-urges-europe-counter-invasion-migrants?module=latest&pgtype=homepage",
-          "source_id": "scmp.com",
-          "continent": "China",
+          "title": "Hegseth attacks Europe over migration with beach 'invasion' D-Day speech",
+          "url": "https://www.bbc.com/news/articles/c802e7jk458o",
+          "source_id": "bbc.com",
+          "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-06-06T20:06:44.854313+00:00"
+          "scraped_at_utc": "2026-06-07T09:52:10.788406+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9506748914718628,
+            "sim_to_centroid": 0.9385831952095032,
             "article": {
-              "title": "In D-Day speech, Hegseth urges Europe to counter ‘invasion’ of migrants",
-              "url": "https://www.scmp.com/news/world/europe/article/3356224/d-day-speech-hegseth-urges-europe-counter-invasion-migrants?module=latest&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:06:44.854313+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9197180271148682,
-            "article": {
-              "title": "Europe being invaded by ‘dangerous ideologies,’ Hegseth warns in D-Day speech",
-              "url": "https://www.politico.eu/article/europe-being-invaded-by-dangerous-ideologies-hegseth-warns-in-d-day-speech/",
-              "source_id": "politico.eu",
+              "title": "Hegseth attacks Europe over migration with beach 'invasion' D-Day speech",
+              "url": "https://www.bbc.com/news/articles/c802e7jk458o",
+              "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:00:37.124109+00:00"
+              "scraped_at_utc": "2026-06-07T09:52:10.788406+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.895694375038147,
+            "sim_to_centroid": 0.9341344237327576,
             "article": {
               "title": "Hegseth blasts ‘invasion’ of migrants on Europe’s beaches in D-Day speech in France",
               "url": "https://www.france24.com/en/europe/20260606-hegseth-urges-europe-on-d-day-to-counter-present-day-invasion",
               "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:01:40.871233+00:00"
+              "scraped_at_utc": "2026-06-07T09:53:36.241395+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8907213807106018,
+            "sim_to_centroid": 0.9167052507400513,
             "article": {
-              "title": "Hegseth warns of 'invasion' and 'dangerous ideologies' in D-Day anniversary speech",
-              "url": "https://www.pbs.org/newshour/politics/hegseth-warns-of-invasion-and-dangerous-ideologies-in-d-day-anniversary-speech",
-              "source_id": "pbs.org",
+              "title": "Hegseth warns of migrant 'invasion' of Europe in D-Day memorial speech",
+              "url": "https://www.sbs.com.au/news/article/hegseth-warns-of-migrant-invasion-of-europe-in-d-day-memorial-speech/1u4wjc3b8",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:55:13.902948+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9067836999893188,
+            "article": {
+              "title": "Hegseth invokes immigration and ‘invasion’ in D-Day speech in France",
+              "url": "https://apnews.com/article/france-us-hegseth-dday-immigration-7c1fd9635a4a292c6d2dc9c4b325ca11",
+              "source_id": "apnews.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:06:43.502707+00:00"
+              "scraped_at_utc": "2026-06-07T09:58:01.730457+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8872362375259399,
+            "sim_to_centroid": 0.8953163623809814,
             "article": {
-              "title": "Hegseth uses D-Day memorial to rail against ‘invasion’ of Europe by migrants",
-              "url": "https://www.smh.com.au/world/north-america/hegseth-uses-d-day-memorial-to-rail-against-invasion-of-europe-by-migrants-20260607-p604jh.html",
-              "source_id": "smh.com.au",
-              "continent": "Oceania",
+              "title": "Hegseth Uses D-Day Anniversary Speech to Attack European Immigration Policies",
+              "url": "https://time.com/article/2026/06/06/hegseth-d-day-speech-immigration/",
+              "source_id": "time.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:03:03.963517+00:00"
+              "scraped_at_utc": "2026-06-07T09:58:30.641397+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7433505058288574,
+            "sim_to_centroid": 0.8752470016479492,
             "article": {
-              "title": "La diretta Hegseth esorta gli europei al riarmo: “Stiano dalla nostra parte”",
-              "url": "https://www.repubblica.it/esteri/2026/06/06/diretta/guerra_ucraina_russia_news_oggi-425392711/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:01:55.742291+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 25.633775556432813,
-        "size": 9,
-        "n_sources": 8,
-        "n_continents": 4,
-        "continents": [
-          "China",
-          "East Asia",
-          "Europe North",
-          "Europe South"
-        ],
-        "coherence": 0.8556349873542786,
-        "title": "Formidable French first lady Bernadette Chirac dies at 93",
-        "central_article": {
-          "title": "Formidable French first lady Bernadette Chirac dies at 93",
-          "url": "https://www.scmp.com/news/world/europe/article/3356227/bernadette-chirac-formidable-french-first-lady-dubbed-last-queen-france-dies-93?module=latest&pgtype=homepage",
-          "source_id": "scmp.com",
-          "continent": "China",
-          "published_at": null,
-          "scraped_at_utc": "2026-06-06T20:06:44.854313+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9340946674346924,
-            "article": {
-              "title": "Formidable French first lady Bernadette Chirac dies at 93",
-              "url": "https://www.scmp.com/news/world/europe/article/3356227/bernadette-chirac-formidable-french-first-lady-dubbed-last-queen-france-dies-93?module=latest&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:06:44.854313+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9310864806175232,
-            "article": {
-              "title": "Ehemalige Première Dame Frankreichs Bernadette Chirac mit 93 Jahren gestorben",
-              "url": "https://www.spiegel.de/ausland/bernadette-chirac-ehemalige-premiere-dame-frankreichs-mit-93-jahren-gestorben-a-941974dd-9237-4377-ae7a-f2da24106fc7",
-              "source_id": "spiegel.de",
+              "title": "Europe being invaded by ‘dangerous ideologies,’ Hegseth warns in D-Day speech",
+              "url": "https://www.politico.eu/article/europe-being-invaded-by-dangerous-ideologies-hegseth-warns-in-d-day-speech/",
+              "source_id": "politico.eu",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:00:49.998647+00:00"
+              "scraped_at_utc": "2026-06-07T09:52:22.110468+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9292157888412476,
+            "sim_to_centroid": 0.7672255039215088,
             "article": {
-              "title": "Bernadette Chirac, widow of former French president, dies at 93",
-              "url": "https://www.france24.com/en/france/20260606-bernadette-chirac-widow-of-former-president-dies-age-93",
+              "title": "В опит да смъмри Европа Хегсет заговори за мигрантски десант на плажовете в България",
+              "url": "https://www.dnevnik.bg/sviat/2026/06/07/4922264_v_opit_da_smumri_evropa_hegset_zagovori_za_migrantski/",
+              "source_id": "dnevnik.bg",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:56:38.527648+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7648470401763916,
+            "article": {
+              "title": "Pete Hegseth: Kaj bodo evropske države storile glede migracijske 'invazije'?",
+              "url": "https://www.delo.si/novice/svet/pete-hegseth-evropa-migracije-kritika",
+              "source_id": "delo.si",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:56:36.396277+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7596023678779602,
+            "article": {
+              "title": "„Europäische Strände werden von gefährlichen Ideologien gestürmt“, kritisiert Pete Hegseth",
+              "url": "https://www.welt.de/politik/ausland/article6a24a6a8b20db0d89b657c29/pete-hegseth-rede-zum-d-day-europaeische-straende-von-gefaehrlichen-ideologien-gestuermt.html",
+              "source_id": "welt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:52:43.473931+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7284440994262695,
+            "article": {
+              "title": "US defence chief links D-Day to European migration ‘invasion’",
+              "url": "https://www.euronews.com/my-europe/2026/06/07/us-defence-chief-uses-d-day-speech-to-warn-on-migration-invasion",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-07T09:52:19.678444+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7089552879333496,
+            "article": {
+              "title": "Residents of French village say US Defense Secretary Hegseth not welcome for D-Day visit",
+              "url": "https://www.france24.com/en/france/20260607-residents-of-french-village-say-us-defense-secretary-hegseth-not-welcome-d-day-visit",
               "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:01:40.871233+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8707876205444336,
-            "article": {
-              "title": "Formidable French first lady Bernadette Chirac dies at 93 She weathered husband Jacques Chirac’s notorious womanising and became a political power in her own right.",
-              "url": "https://www.scmp.com/news/world/europe/article/3356227/bernadette-chirac-formidable-french-first-lady-dubbed-last-queen-france-dies-93?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:06:44.854313+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8701326251029968,
-            "article": {
-              "title": "French ex-president Chirac's widow dies at 93",
-              "url": "https://www.chinadaily.com.cn/a/202606/06/WS6a24033da310d6866eb4ccfe.html",
-              "source_id": "chinadaily.com.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:06:48.580934+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8324412703514099,
-            "article": {
-              "title": "Frankrijk Bernadette Chodron de Courcel (93) overleden, weduwe van oud-president Jacques Chirac",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/06/06/bernadette-chirac-overleden/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:01:44.589060+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8216633796691895,
-            "article": {
-              "title": "Bernadette Chirac est décédée à l'âge de 93 ans Disparition aujourd'hui à",
-              "url": "https://www.rts.ch/info/monde/2026/article/bernadette-chirac-est-morte-a-93-ans-veuve-du-president-francais-29265397.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:01:42.798918+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7696783542633057,
-            "article": {
-              "title": "Portrait Décès de Bernadette Chirac, une Première dame libre",
-              "url": "https://www.lesoir.be/751274/article/2026-06-06/deces-de-bernadette-chirac-une-premiere-dame-libre",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:01:48.849226+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.741614580154419,
-            "article": {
-              "title": "Bernadette Chirac remembered as dedicated, discreet first lady",
-              "url": "https://www.bangkokpost.com/world/3266873/bernadette-chirac-remembered-as-dedicated-discreet-first-lady",
-              "source_id": "bangkokpost.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:08:25.928902+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 23.87318494561345,
-        "size": 10,
-        "n_sources": 7,
-        "n_continents": 5,
-        "continents": [
-          "East Asia",
-          "Europe North",
-          "Europe South",
-          "Oceania",
-          "South Asia"
-        ],
-        "coherence": 0.823481559753418,
-        "title": "India’s youth strain to be heard as angry ‘cockroaches’ stage New Delhi march",
-        "central_article": {
-          "title": "India’s youth strain to be heard as angry ‘cockroaches’ stage New Delhi march",
-          "url": "https://www.straitstimes.com/asia/south-asia/angry-cockroaches-protest-against-exam-leaks-in-delhi-as-indias-youths-strain-to-be-heard?ref=top-stories",
-          "source_id": "straitstimes.com",
-          "continent": "East Asia",
-          "published_at": null,
-          "scraped_at_utc": "2026-06-06T20:08:29.327311+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9144994020462036,
-            "article": {
-              "title": "India’s youth strain to be heard as angry ‘cockroaches’ stage New Delhi march",
-              "url": "https://www.straitstimes.com/asia/south-asia/angry-cockroaches-protest-against-exam-leaks-in-delhi-as-indias-youths-strain-to-be-heard?ref=top-stories",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:08:29.327311+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9144994020462036,
-            "article": {
-              "title": "India’s youth strain to be heard as angry ‘cockroaches’ stage New Delhi march",
-              "url": "https://www.straitstimes.com/asia/south-asia/angry-cockroaches-protest-against-exam-leaks-in-delhi-as-indias-youths-strain-to-be-heard?ref=asia",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:08:29.327311+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9021182656288147,
-            "article": {
-              "title": "India's 'cockroach' youth movement stages first street protest in New Delhi",
-              "url": "https://www.channelnewsasia.com/asia/india-cockroach-janta-party-abhijeet-dipke-protest-6166131",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:08:07.480475+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8791911602020264,
-            "article": {
-              "title": "Supporters of India's Gen Z 'cockroach' party stage first protest in New Delhi",
-              "url": "https://www.france24.com/en/asia-pacific/20260606-supporters-of-india-gen-z-cockroach-party-stage-first-protest-new-delhi",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:01:40.871233+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8590147495269775,
-            "article": {
-              "title": "India's 'cockroach' political movement spills onto Delhi's streets",
-              "url": "https://www.abc.net.au/news/2026-06-07/cockroach-janta-party-cjp-india-protest/106768540",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:03:01.525141+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8110373616218567,
-            "article": {
-              "title": "What is India’s Gen-Z ‘cockroach’ movement and why is it a worry for Modi?",
-              "url": "https://www.channelnewsasia.com/asia/india-cockroach-janata-party-abhijeet-dipke-6166296",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:08:07.480475+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7506839036941528,
-            "article": {
-              "title": "When roses, rage and ‘cockroaches’ came together in a summer swarm in Delhi",
-              "url": "https://www.hindustantimes.com/india-news/roses-rage-and-cockroaches-how-was-the-josh-at-the-cjp-protest-today-delhi-jantar-mantar-abhijeet-dipke-101780763865768.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:07:15.512285+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7451492547988892,
-            "article": {
-              "title": "“Il partito degli scarafaggi”, a Nuova Delhi la protesta della Gen Z contro il governo Modi",
-              "url": "https://www.repubblica.it/esteri/2026/06/06/news/partito_blatte_india_protesta_gen_z_contro_governo_modi_disoccupazione_giovani_riforma_educazione-425393373/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:01:55.742291+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7386499643325806,
-            "article": {
-              "title": "Stor kakerlak-bevægelse samlet i Indien: Kræver bedre fremtid for unge",
-              "url": "https://www.dr.dk/nyheder/udland/reels/stor-kakerlak-bevaegelse-samlet-i-indien-kraever-bedre-fremtid-unge",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:01:25.733583+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7199727296829224,
-            "article": {
-              "title": "Media distrust emerges as key theme at 'Cockroach' protest",
-              "url": "https://www.hindustantimes.com/india-news/media-distrust-emerges-as-a-key-theme-among-cockroach-janta-party-protesters-ground-report-from-jantar-mantar-101780763292552.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-06T20:07:15.512285+00:00"
+              "scraped_at_utc": "2026-06-07T09:53:36.241395+00:00"
             }
           }
         ]
       }
     ],
-    "created_at_utc": "2026-06-06T20:33:18Z"
+    "created_at_utc": "2026-06-07T10:27:40Z"
   }
 ]
