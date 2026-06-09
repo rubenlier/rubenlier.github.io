@@ -1,15 +1,833 @@
 [
   {
-    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1781001707",
-    "n_items": 2434,
-    "n_clusters": 2020,
+    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1781039335",
+    "n_items": 2608,
+    "n_clusters": 2161,
     "clusters": [
       {
-        "score": 86.47625341309673,
-        "size": 32,
-        "n_sources": 22,
+        "score": 428.9040544106061,
+        "size": 59,
+        "n_sources": 55,
+        "n_continents": 11,
+        "continents": [
+          "Africa",
+          "China",
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "Oceania",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.8312009572982788,
+        "title": "Trump says Iran shot down US helicopter and vows to respond",
+        "central_article": {
+          "title": "Trump says Iran shot down US helicopter and vows to respond",
+          "url": "https://www.bbc.com/news/articles/cze9359gglyo",
+          "source_id": "bbc.com",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-06-09T20:51:10.240526+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9408840537071228,
+            "article": {
+              "title": "Trump says Iran shot down US helicopter and vows to respond",
+              "url": "https://www.bbc.com/news/articles/cze9359gglyo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:51:10.240526+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9339611530303955,
+            "article": {
+              "title": "Donald Trump claims Iran shot down US helicopter and vows to ‘respond’",
+              "url": "https://www.irishtimes.com/world/middle-east/2026/06/09/trump-says-pilots-of-us-helicopter-that-crashed-in-strait-of-hormuz-are-fine/",
+              "source_id": "irishtimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:53:53.630712+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9321187138557434,
+            "article": {
+              "title": "Trump says Iran shot down US helicopter, vows to retaliate",
+              "url": "https://www.smh.com.au/world/north-america/trump-says-iran-shot-down-a-us-apache-helicopter-vows-to-retaliate-20260610-p605cx.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:53:40.029026+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.927395224571228,
+            "article": {
+              "title": "Trump vows to respond after US helicopter shot down by Iran",
+              "url": "https://www.abc.net.au/news/2026-06-10/us-chopper-shot-down-near-oman/106778864",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:53:36.918315+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9260956048965454,
+            "article": {
+              "title": "Trump says Iran downed US Apache helicopter, vows US response",
+              "url": "https://www.scmp.com/news/world/middle-east/article/3356552/trump-says-iran-shot-down-apache-helicopter-us-must-react?module=latest&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:57:23.474944+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9234440326690674,
+            "article": {
+              "title": "Trump says Iran shot down US helicopter over Hormuz, vows to respond",
+              "url": "https://www.aljazeera.com/news/2026/6/9/trump-says-iran-shot-down-us-helicopters-over-hormuz-vows-to-respond",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:53:54.996586+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9230995178222656,
+            "article": {
+              "title": "Trump Says Iran Shot Down U.S. Army Helicopter, Vows to Respond",
+              "url": "https://time.com/article/2026/06/09/us-army-helicopter-crashes-near-strait-of-hormuz-crew-drone-rescue/",
+              "source_id": "time.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:57:19.405835+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9198784232139587,
+            "article": {
+              "title": "Trump vows to 'respond' after Iran shoots down helicopter",
+              "url": "https://www.thenationalnews.com/news/mena/2026/06/09/live-us-helicopter-hormuz-iran-israel/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:53:56.575760+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9197788238525391,
+            "article": {
+              "title": "Trump says Iran shot down an American helicopter, adds US 'must' respond",
+              "url": "https://www.usatoday.com/story/news/politics/2026/06/09/us-helicopter-attack-iran-trump/90475864007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:57:16.443371+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9189568758010864,
+            "article": {
+              "title": "Trump vows response after Iran shoots down US helicopter",
+              "url": "https://www.france24.com/en/trump-vows-response-after-iran-shoots-down-us-helicopter",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:52:18.929545+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9144442081451416,
+            "article": {
+              "title": "Trump promet de « répliquer » après que « les Iraniens ont abattu » un hélicoptère américain",
+              "url": "https://www.lesoir.be/751869/article/2026-06-09/trump-promet-de-repliquer-apres-que-les-iraniens-ont-abattu-un-helicoptere",
+              "source_id": "lesoir.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:52:26.650613+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9137305617332458,
+            "article": {
+              "title": "Trump says Apache helicopter shot down by Iran and vows ‘response’",
+              "url": "https://www.independent.co.uk/news/world/americas/us-apache-helicopter-crash-strait-of-hormuz-b2992224.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:51:11.538709+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9105702638626099,
+            "article": {
+              "title": "Trump says Iran downed Apache helicopter, ‘US must respond to attack’",
+              "url": "https://indianexpress.com/article/world/donald-trump-threatens-iran-retaliation-us-apache-helicopter-shot-down-strait-of-hormuz-10732006/",
+              "source_id": "indianexpress.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:57:57.729128+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9070720672607422,
+            "article": {
+              "title": "Trump vows response after accusing Iran of shooting down U.S. helicopter over Hormuz",
+              "url": "https://www.theglobeandmail.com/world/article-us-pilots-iran-strait-of-hormuz/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:53:34.915694+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9051929116249084,
+            "article": {
+              "title": "Trump accuses Iran of downing US military helicopter, threatens response",
+              "url": "https://www.sbs.com.au/news/article/trump-accuses-iran-of-downing-us-military-helicopter-threatens-response/kp8lwbw33",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:53:38.563383+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8971202373504639,
+            "article": {
+              "title": "‘US must respond’, says Trump after claim of Iranian attack on Apache helicopter",
+              "url": "https://www.hindustantimes.com/world-news/us-must-respond-says-trump-after-claim-of-iranian-attack-on-apache-helicopter-101781024120728.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:57:56.314917+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8927894830703735,
+            "article": {
+              "title": "Trump acusa a Irán de derribar helicóptero de Estados Unidos y promete ‘responder’",
+              "url": "https://www.nacion.com/el-mundo/trump-acusa-a-iran-de-derribar-helicoptero-de/7ZHLVF3ST5DB7MXVZDKNRWMSN4/story/",
+              "source_id": "nacion.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:52:46.064617+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.888595700263977,
+            "article": {
+              "title": "Trump says US ‘must’ respond after Iran shot down US Army helicopter near Strait of Hormuz",
+              "url": "https://apnews.com/article/iran-us-ceasefire-helicopter-hezbollah-israel-9-june-2026-50d7a8ecbb2cf33836af152679adb40e",
+              "source_id": "apnews.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:56:50.769151+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8833684921264648,
+            "article": {
+              "title": "US must respond to Iran’s downing of Apache helicopter, Trump warns",
+              "url": "https://www.jpost.com/middle-east/article-898893",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:53:58.071838+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8832616209983826,
+            "article": {
+              "title": "Trump acusa a Irán de derribar helicóptero de EE.UU. y promete \"responder a este ataque\"",
+              "url": "https://www.emol.com/noticias/Internacional/2026/06/09/1202346/trump-acusa-iran-derribo-helicoptero.html",
+              "source_id": "emol.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:52:59.099438+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8796491026878357,
+            "article": {
+              "title": "L'Iran abat un hélicoptère américain, selon Donald Trump, qui promet de répliquer Monde",
+              "url": "https://www.rts.ch/info/monde/2026/minute-par-minute/29266548.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:52:20.782575+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8792089819908142,
+            "article": {
+              "title": "Trump acusa Irã de derrubar helicóptero americano e afirma que os EUA 'devem' responder",
+              "url": "https://oglobo.globo.com/mundo/noticia/2026/06/09/trump-acusa-ira-de-derrubar-helicoptero-americano-e-afirma-que-os-eua-devem-responder.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:53:05.118693+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8768258094787598,
+            "article": {
+              "title": "Trump afirma que Irã derrubou helicóptero dos EUA no estreito de Hormuz e promete retaliação",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/06/trump-diz-que-ira-derrubou-helicoptero-dos-eua-e-promete-retaliacao.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:53:01.680208+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8673137426376343,
+            "article": {
+              "title": "Trump warns of fresh attacks after Iran shoots down American helicopter",
+              "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-netanyahu-israel-lebanon-b2992131.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:51:11.538709+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8573430776596069,
+            "article": {
+              "title": "Trump says Iran was responsible for downing US helicopter near Strait of Hormuz and US ‘must’ respond. Follow live updates.",
+              "url": "https://www.bostonglobe.com/2026/06/09/nation/trump-presidency-live-updates/",
+              "source_id": "bostonglobe.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:57:15.318479+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8503521680831909,
+            "article": {
+              "title": "Трамп заявил о сбитом Ираном вертолете Apache и предупредил об ответе США",
+              "url": "https://tengrinews.kz/world_news/tramp-zayavil-sbitom-iranom-vertolete-apache-predupredil-601164/",
+              "source_id": "tengrinews.kz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:55:36.925288+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.847568690776825,
+            "article": {
+              "title": "হেলিকপ্টার ভূপাতিত করেছে ইরান, জবাব দেবে যুক্তরাষ্ট্র: ট্রাম্প",
+              "url": "https://www.prothomalo.com/world/middle-east/r1f7s1r7kl",
+              "source_id": "prothomalo.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:58:00.720563+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8440791368484497,
+            "article": {
+              "title": "Irankrieg: Donald Trump kündigt Reaktion auf Abschuss von Militärhubschrauber an",
+              "url": "https://www.zeit.de/politik/ausland/2026-05/iran-krieg-donald-trump-hormus-live",
+              "source_id": "zeit.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:51:46.478926+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8371067047119141,
+            "article": {
+              "title": "Trump acusa a Irán del derribo de un helicóptero en el estrecho de Ormuz y amenaza con represalias",
+              "url": "https://www.rtve.es/noticias/20260609/helicoptero-apache-eeuu-cae-estrecho-ormuz/17106739.shtml",
+              "source_id": "rtve.es",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:52:32.530846+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8313011527061462,
+            "article": {
+              "title": "«США обязаны ответить на эту атаку». Трамп заявил, что Иран сбил американский вертолет над Ормузским проливом",
+              "url": "https://meduza.io/news/2026/06/09/ssha-obyazany-otvetit-na-etu-ataku-tramp-zayavil-chto-iran-sbil-amerikanskiy-vertolet-nad-ormuzskim-prolivom",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:54:55.022070+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8305026888847351,
+            "article": {
+              "title": "'Karşılık vereceğiz' Trump, İran'ın ABD helikopterini düşürdüğünü açıkladı",
+              "url": "https://www.cumhuriyet.com.tr/dunya/trump-iran-in-abd-helikopterini-dusurdugunu-acikladi-karsilik-verecegiz-2510831",
+              "source_id": "cumhuriyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:54:11.241091+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8300354480743408,
+            "article": {
+              "title": "Trump'tan flaş gelişmeyi duyurdu: İran, ABD helikopterini düşürdü CANLI",
+              "url": "https://www.hurriyet.com.tr/dunya/live-trumptan-flas-gelismeyi-duyurdu-iran-abd-helikopterini-dusurdu-43198362",
+              "source_id": "hurriyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:54:09.698113+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8294777870178223,
+            "article": {
+              "title": "Trump wirft Iran Abschuss von US-Hubschrauber vor",
+              "url": "https://www.zdfheute.de/politik/ausland/usa-iran-donald-trump-militaer-hubschrauber-soldaten-reaktion-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:51:42.559225+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8291511535644531,
+            "article": {
+              "title": "Middle East live: Trump says ‘US must respond’ to Iran downing of helicopter near Strait of Hormuz",
+              "url": "https://www.france24.com/en/middle-east/20260609-middle-east-live-israeli-strikes-kill-14-in-southern-lebanon",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:52:18.929545+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8268269300460815,
+            "article": {
+              "title": "Trump promete represalias tras el derribo por Irán de un helicóptero Apache en Ormuz",
+              "url": "https://www.lavanguardia.com/internacional/20260609/11560548/trump-promete-represalia-derribo-iran-helicoptero-apache-ormuz.html",
+              "source_id": "lavanguardia.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:52:29.612649+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8202539086341858,
+            "article": {
+              "title": "Trump says Iran shot down one of four Apache helicopters over Hormuz",
+              "url": "https://www.hindustantimes.com/world-news/us-iran-war-news-live-updates-strikes-israel-tehran-ceasefire-trump-netanyahu-lebanon-hezbollah-hormuz-strait-oil-prices-101780966342140.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:57:56.314917+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8194664716720581,
+            "article": {
+              "title": "Máxima tensión. Trump anunció que Irán derribó un helicóptero militar y advirtió que EE.UU. “deberá responder” Por Guillermo Idiart",
+              "url": "https://www.lanacion.com.ar/estados-unidos/trump-anuncio-que-iran-derribo-el-helicoptero-militar-y-dijo-que-eeuu-debera-responder-nid09062026/",
+              "source_id": "lanacion.com.ar",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:52:54.000817+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8184103965759277,
+            "article": {
+              "title": "West Asia war LIVE: Trump says U.S. must respond after Iran downs Apache helicopter",
+              "url": "https://www.thehindu.com/news/international/west-asia-conflict-iran-us-israel-war-strait-of-hormuz-live-updates-june-9-2026/article71079114.ece",
+              "source_id": "thehindu.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:57:54.921149+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8183569312095642,
+            "article": {
+              "title": "Trump Trump zegt dat maandag neergestorte Apache-helikopter is neergehaald door Iran, VS ‘genoodzaakt’ te reageren",
+              "url": "https://www.nrc.nl/nieuws/2026/06/09/trump-zegt-dat-maandag-neergestorte-apache-helikopter-is-neergehaald-door-iran-vs-genoodzaakt-te-reageren-a4929731",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:51:23.473504+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8148400783538818,
+            "article": {
+              "title": "Advierte Trump represalias a Ir�n tras derribar helic�ptero",
+              "url": "https://www.reforma.com/advierte-trump-represalias-a-iran-tras-derribar-helicoptero/ar3219080?v=8",
+              "source_id": "reforma.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:52:42.593910+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8134950399398804,
+            "article": {
+              "title": "Trump amenaza a Irán con represalias tras el derribo de un helicóptero y siembra dudas sobre la tregua",
+              "url": "https://elpais.com/internacional/2026-06-09/trump-amenaza-a-iran-con-represalias-tras-el-derribo-de-un-helicoptero-y-siembra-dudas-sobre-la-tregua.html",
+              "source_id": "elpais.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:52:28.049337+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8051656484603882,
+            "article": {
+              "title": "Трамп заявил, что Иран сбил американский вертолет над Ормузским проливом",
+              "url": "https://ria.ru/20260609/tramp-2098007954.html",
+              "source_id": "ria.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:55:07.160119+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8005517721176147,
+            "article": {
+              "title": "„Müssen zwangsläufig reagieren“ – Trump kündigt Vergeltung nach Hubschrauber-Abschuss an",
+              "url": "https://www.welt.de/politik/ausland/article6a28478f5b5345aa051d59e7/nahost-krieg-muessen-zwangslaeufig-reagieren-trump-kuendigt-vergeltung-nach-hubschrauber-abschuss-an.html",
+              "source_id": "welt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:51:36.819624+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7875899076461792,
+            "article": {
+              "title": "جدید اپاچی ہیلی کاپٹر ایرانیوں نے مار گرایا، جوابی کارروائی ضروری ہے: ٹرمپ",
+              "url": "https://jang.com.pk/news/1590149",
+              "source_id": "jang.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:58:13.269703+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7851579189300537,
+            "article": {
+              "title": "Funke Mediengruppe Live Iran-Newsblog Trump macht Iran für Helikopter-Absturz verantwortlich – „müssen reagieren“",
+              "url": "https://www.abendblatt.de/politik/article412152244/iran-krieg-news-israel-usa-libanon-aktuell-strasse-von-hormus.html",
+              "source_id": "abendblatt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:51:44.281756+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7842290997505188,
+            "article": {
+              "title": "Elicottero Usa abbattuto a Hormuz, l’equipaggio salvato da drone navale. Trump: risponderemo |",
+              "url": "https://www.repubblica.it/esteri/2026/06/09/news/elicottero_usa_abbattuto_hormuz_equipaggio_salvato_drone_navale-425400095/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:52:35.778769+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7802591323852539,
+            "article": {
+              "title": "Trump threatens retaliation after U.S. chopper downed",
+              "url": "https://www.channel4.com/news/trump-threatens-retaliation-after-u-s-chopper-downed",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:51:17.325350+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7632930278778076,
+            "article": {
+              "title": "イランがホルムズ海峡付近で米軍ヘリ撃墜 トランプ氏「対応が必要」",
+              "url": "https://www.asahi.com/articles/ASV6964BYV69UHBI02WM.html?iref=comtop_7_02",
+              "source_id": "asahi.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:58:55.719676+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7482362389564514,
+            "article": {
+              "title": "イランが米軍ヘリコプターを撃墜 トランプ氏、報復を宣言 6/10",
+              "url": "https://mainichi.jp/articles/20260610/k00/00m/030/004000c",
+              "source_id": "mainichi.jp",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:58:57.730756+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7198723554611206,
+            "article": {
+              "title": "ट्रम्प का दावा-ईरान ने होर्मुज के पास अमेरिकी हेलिकॉप्टर गिराया इसका जवाब जरूर देंगे; उपराष्ट्रपति वेंस बोले- ईरान जंग नहीं चाहता Play video",
+              "url": "https://www.bhaskar.com/international/news/iran-president-national-security-priority-iran-statement-138145820.html",
+              "source_id": "bhaskar.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:57:52.387483+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7150840759277344,
+            "article": {
+              "title": "國際 川普：美軍阿帕契遭伊朗擊落 美方必須做出回應",
+              "url": "https://www.cna.com.tw/news/aopl/202606100006.aspx",
+              "source_id": "cna.com.tw",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:59:23.702381+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7066971063613892,
+            "article": {
+              "title": "Iran deal near, then missiles flew: Trump reveals diplomatic setback",
+              "url": "https://www.albawaba.com/news/iran-deal-near-then-missiles-flew-trump-1629447",
+              "source_id": "albawaba.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:54:14.570623+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7050599455833435,
+            "article": {
+              "title": "Trump says US helicopter pilots who went down in Strait of Hormuz are fine",
+              "url": "https://kathmandupost.com/world/2026/06/09/trump-says-us-helicopter-pilots-who-went-down-in-strait-of-hormuz-are-fine",
+              "source_id": "kathmandupost.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:58:11.684299+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6892625093460083,
+            "article": {
+              "title": "Trump says Iran downed US Apache helicopter, vows US response Two US crew members were rescued near Oman, but the incident adds new strain to already fragile peace efforts.",
+              "url": "https://www.scmp.com/news/world/middle-east/article/3356552/trump-says-iran-shot-down-apache-helicopter-us-must-react?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:57:23.474944+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6812067031860352,
+            "article": {
+              "title": "Trump asegura que Netanyahu “no tiene más opción” que aceptar el acuerdo con Irán",
+              "url": "https://elcomercio.pe/mundo/oriente-medio/donald-trump-asegura-que-benjamin-netanyahu-no-tiene-mas-opcion-que-aceptar-el-acuerdo-con-iran-israel-estados-unidos-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:53:10.090179+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6775864362716675,
+            "article": {
+              "title": "Guns on the television and in Iran’s streets as Trump renews war threats",
+              "url": "https://www.egyptindependent.com/guns-on-the-television-and-in-irans-streets-as-trump-renews-war-threats/",
+              "source_id": "egyptindependent.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:56:44.766781+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6734025478363037,
+            "article": {
+              "title": "Verden Sier Iran skjøt ned helikopter: – USA må svare på dette angrepet",
+              "url": "https://www.aftenposten.no/verden/i/RjOOwO/trump-anklager-iran-for-aa-ha-skutt-ned-helikopter-lover-gjengjeldelse",
+              "source_id": "aftenposten.no",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:51:56.062321+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6699382662773132,
+            "article": {
+              "title": "Trump says Iran deal is days away as both sides step back from brink",
+              "url": "https://www.euronews.com/2026/06/09/trump-insists-iran-deal-is-days-away-as-both-sides-step-back-from-brink",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:51:19.127515+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6649359464645386,
+            "article": {
+              "title": "Trump sets yet another timeline for ‘total victory’ in Iran",
+              "url": "https://www.rt.com/news/641289-trump-iran-latest-deadline/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:55:00.323554+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 62.338151718459116,
+        "size": 10,
+        "n_sources": 10,
         "n_continents": 7,
         "continents": [
+          "China",
+          "Europe East",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.876815676689148,
+        "title": "NASA unveils Artemis III astronauts to test technology for future moon landing",
+        "central_article": {
+          "title": "NASA unveils Artemis III astronauts to test technology for future moon landing",
+          "url": "https://indianexpress.com/article/world/nasa-artemis-iii-crew-announcement-earth-orbit-docking-test-10732041/",
+          "source_id": "indianexpress.com",
+          "continent": "South Asia",
+          "published_at": null,
+          "scraped_at_utc": "2026-06-09T20:57:57.729128+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9301127195358276,
+            "article": {
+              "title": "NASA unveils Artemis III astronauts to test technology for future moon landing",
+              "url": "https://indianexpress.com/article/world/nasa-artemis-iii-crew-announcement-earth-orbit-docking-test-10732041/",
+              "source_id": "indianexpress.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:57:57.729128+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9288440942764282,
+            "article": {
+              "title": "NASA unveils Artemis III astronauts to test technology for a future moon landing",
+              "url": "https://apnews.com/article/nasa-artemis-iii-crew-7c09de3e1fd5b1f7fbfc9e9d702d71a5",
+              "source_id": "apnews.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:56:50.769151+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9288440942764282,
+            "article": {
+              "title": "NASA unveils Artemis III astronauts to test technology for a future moon landing",
+              "url": "https://www.chicagotribune.com/2026/06/09/nasa-artemis-iii-astronauts-moon/",
+              "source_id": "chicagotribune.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:57:17.758905+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9192273616790771,
+            "article": {
+              "title": "NASA announces astronauts for Artemis III spaceflight, scheduled for 2027",
+              "url": "https://www.aljazeera.com/news/2026/6/9/nasa-announces-astronauts-for-artemis-iii-spaceflight-scheduled-for-2027",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:53:54.996586+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9086540937423706,
+            "article": {
+              "title": "NASA Announces Its Artemis III Astronauts",
+              "url": "https://www.nytimes.com/2026/06/09/science/space/artemis-iii-astronauts-nasa-crew.html",
+              "source_id": "nytimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:56:52.270651+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.90176922082901,
+            "article": {
+              "title": "Nasa reveals Artemis III astronauts in next step towards moon landing",
+              "url": "https://www.scmp.com/news/world/united-states-canada/article/3356551/nasa-reveals-artemis-iii-astronauts-next-step-towards-moon-landing?module=latest&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:57:23.474944+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8657445311546326,
+            "article": {
+              "title": "NASA объявило экипаж лунной миссии Artemis III на 2027 год",
+              "url": "https://www.kommersant.ru/doc/8728720?from=spot_main",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:55:02.960698+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8384548425674438,
+            "article": {
+              "title": "Caminho de volta à Lua: Nasa anuncia tripulação da missão Artemis III, nova etapa da corrida espacial",
+              "url": "https://oglobo.globo.com/mundo/noticia/2026/06/09/caminho-de-volta-a-lua-nasa-anuncia-tripulacao-da-missao-artemis-iii-nova-etapa-da-corrida-espacial.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:53:05.118693+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7775614261627197,
+            "article": {
+              "title": "La NASA anuncia la tripulación de Artemis III: Randy Bresnik, Frank Rubio, Andre Douglas y el italiano Luca Parmitano",
+              "url": "https://www.rtve.es/noticias/20260609/nasa-anuncia-tripulacion-artemis-iii-bresnik-rubio-douglas-astronauta-italiano-parmitano/17107750.shtml",
+              "source_id": "rtve.es",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:52:32.530846+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.768944501876831,
+            "article": {
+              "title": "Artemis crew revealed for 2027 orbital test mission",
+              "url": "https://www.usatoday.com/story/graphics/2026/06/09/artemis-iii-crew-launch-nasa-moon-mission/90409148007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:57:16.443371+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 59.251081203749315,
+        "size": 18,
+        "n_sources": 13,
+        "n_continents": 8,
+        "continents": [
+          "East Asia",
           "Europe East",
           "Europe North",
           "Europe South",
@@ -18,7 +836,7 @@
           "Oceania",
           "South America"
         ],
-        "coherence": 0.7845834493637085,
+        "coherence": 0.7874786257743835,
         "title": "Israel and Iran trade strikes in first clash since truce despite Trump's call for restraint",
         "central_article": {
           "title": "Israel and Iran trade strikes in first clash since truce despite Trump's call for restraint",
@@ -26,1390 +844,537 @@
           "source_id": "sbs.com.au",
           "continent": "Oceania",
           "published_at": null,
-          "scraped_at_utc": "2026-06-09T10:26:38.428354+00:00"
+          "scraped_at_utc": "2026-06-09T20:53:38.563383+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8756866455078125,
+            "sim_to_centroid": 0.8841350078582764,
             "article": {
               "title": "Israel and Iran trade strikes in first clash since truce despite Trump's call for restraint",
               "url": "https://www.sbs.com.au/news/article/trump-urges-netanyahu-to-hold-back-after-iranian-retaliation-as-war-enters-100th-day/7vvf3fd5k",
               "source_id": "sbs.com.au",
               "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:26:38.428354+00:00"
+              "scraped_at_utc": "2026-06-09T20:53:38.563383+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8412702083587646,
-            "article": {
-              "title": "Iran tries to call the shots with strikes on Israel",
-              "url": "https://www.thenationalnews.com/news/mena/2026/06/08/deterrence-and-leverage-iran-tries-to-call-the-shots-with-strikes-on-israel/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:26:50.462046+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.838590145111084,
-            "article": {
-              "title": "Iran fires missiles at Israel for first time during ceasefire",
-              "url": "https://www.thetimes.com/world/middle-east/article/israel-beirut-airstrikes-lebanon-iran-peace-deal-trump-5dr5phs8b",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:24.848361+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8382312059402466,
-            "article": {
-              "title": "Iran and Israel step back from the brink after new attacks",
-              "url": "https://www.channel4.com/news/iran-and-israel-step-back-from-the-brink-after-new-attacks",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:27.589620+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8379091024398804,
-            "article": {
-              "title": "Israel und Iran beenden Angriffe",
-              "url": "https://www.zdfheute.de/politik/ausland/iran-israel-angriffe-krieg-drohungen-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:50.037333+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8357598185539246,
+            "sim_to_centroid": 0.8669115304946899,
             "article": {
               "title": "Iran launches missiles at Israel in first bombardment since fragile ceasefire",
               "url": "https://www.france24.com/en/middle-east/20260607-iran-launches-missiles-at-israel-in-first-bombardment-since-fragile-ceasefire",
               "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:25:23.544120+00:00"
+              "scraped_at_utc": "2026-06-09T20:52:18.929545+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8351185917854309,
+            "sim_to_centroid": 0.8630571365356445,
             "article": {
-              "title": "Israel and Iran step back from further strikes after renewed clashes",
-              "url": "https://www.france24.com/en/middle-east/20260608-israel-and-iran-step-back-from-further-strikes-after-renewed-clashes",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:25:23.544120+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8304773569107056,
-            "article": {
-              "title": "Irán e Israel anuncian que detendrán sus ataques tras intercambiar fuego por primera vez desde el cese el fuego en abril",
-              "url": "https://www.bbc.com/mundo/articles/cvg4x2z010zo",
-              "source_id": "bbc.com",
+              "title": "Iran fires missiles at Israel for first time during ceasefire",
+              "url": "https://www.thetimes.com/world/middle-east/article/israel-beirut-airstrikes-lebanon-iran-peace-deal-trump-5dr5phs8b",
+              "source_id": "thetimes.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:25:39.547622+00:00"
+              "scraped_at_utc": "2026-06-09T20:51:13.169938+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8222770690917969,
-            "article": {
-              "title": "Israel and Iran agree to pause strikes, Trump says",
-              "url": "https://www.azernews.az/region/259532.html",
-              "source_id": "azernews.az",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:29:20.061979+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8185830116271973,
+            "sim_to_centroid": 0.8302405476570129,
             "article": {
               "title": "Իրանն ու Իսրայելը երկամսյա դադարից հետո կրկին հարվածում են միմյանց",
               "url": "https://civilnet.am/hy/stories/239",
               "source_id": "civilnet.am",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:29:21.804778+00:00"
+              "scraped_at_utc": "2026-06-09T20:55:42.823339+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8082430958747864,
+            "sim_to_centroid": 0.8189091682434082,
             "article": {
-              "title": "US-Israel war on Iran Israel and Iran step back from renewed conflict after Trump calls for halt",
-              "url": "https://www.theguardian.com/world/2026/jun/08/israel-and-iran-attacks-pause-after-trump-calls-to-stop-shooting",
-              "source_id": "theguardian.com",
+              "title": "Israel and Iran step back from further strikes after renewed clashes",
+              "url": "https://www.france24.com/en/middle-east/20260608-israel-and-iran-step-back-from-further-strikes-after-renewed-clashes",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:52:18.929545+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8188228607177734,
+            "article": {
+              "title": "Irán e Israel anuncian que detendrán sus ataques tras intercambiar fuego por primera vez desde el cese el fuego en abril",
+              "url": "https://www.bbc.com/mundo/articles/cvg4x2z010zo",
+              "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:26.257661+00:00"
+              "scraped_at_utc": "2026-06-09T20:52:41.261122+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8057160377502441,
-            "article": {
-              "title": "Iran and Israel halt hostilities, warn tit-for-tat strikes could resume: As it happened",
-              "url": "https://www.rt.com/news/641154-iran-israel-missile-attack/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:28:42.540059+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8036849498748779,
-            "article": {
-              "title": "Trump pidió frenar los ataques, Netanyahu siguió adelante: qué detonó la nueva crisis entre Israel e Irán",
-              "url": "https://elcomercio.pe/mundo/oriente-medio/crisis-entre-israel-e-iran-por-que-volvieron-los-ataques-y-que-papel-jugo-donald-trump-libano-hezbola-estados-unidos-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:26:06.421088+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7992238402366638,
-            "article": {
-              "title": "Israel says attacks on Iran will stop ‘for now’ but fight ‘not over’",
-              "url": "https://www.thetimes.com/world/middle-east/article/iran-war-latest-news-israel-us-trump-missiles-xmh3r00kj",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:24.848361+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7958166599273682,
-            "article": {
-              "title": "Israel, Iran agree to stop strikes for a week, Trump reveals",
-              "url": "https://tass.com/world/2144355",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:28:46.333817+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7937560081481934,
-            "article": {
-              "title": "Netanyahu signals temporary pause on Iran strikes",
-              "url": "https://www.albawaba.com/news/netanyahu-signals-temporary-pause-iran-1629550",
-              "source_id": "albawaba.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:27:04.862746+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7900909185409546,
-            "article": {
-              "title": "Iran war day 102: Trump warns Israel against new strikes as ceasefire holds",
-              "url": "https://www.aljazeera.com/news/2026/6/9/iran-war-day-102-trump-warns-israel-against-new-strikes-as-ceasefire-holds",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:26:49.085326+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7850263714790344,
+            "sim_to_centroid": 0.8040701150894165,
             "article": {
               "title": "Exchange of missile strikes between Israel and Iran threatens fragile ceasefire",
               "url": "https://www.pbs.org/newshour/show/exchange-of-missile-strikes-between-israel-and-iran-threatens-fragile-ceasefire",
               "source_id": "pbs.org",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:30:53.889400+00:00"
+              "scraped_at_utc": "2026-06-09T20:57:22.034429+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7767635583877563,
+            "sim_to_centroid": 0.794467568397522,
             "article": {
-              "title": "Iran's axis signals new phase of war after exchanging blows with Israel",
-              "url": "https://www.thenationalnews.com/news/mena/2026/06/07/iran-attacks-israel-with-missiles-and-drones-after-beirut-strike/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:26:50.462046+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7713654041290283,
-            "article": {
-              "title": "Iran erklärt Angriffe auf Israel für beendet",
-              "url": "https://www.zdfheute.de/politik/ausland/israel-iran-angriffe-ende-100.html",
-              "source_id": "zdfheute.de",
+              "title": "Israel says attacks on Iran will stop ‘for now’ but fight ‘not over’",
+              "url": "https://www.thetimes.com/world/middle-east/article/iran-war-latest-news-israel-us-trump-missiles-xmh3r00kj",
+              "source_id": "thetimes.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:50.037333+00:00"
+              "scraped_at_utc": "2026-06-09T20:51:13.169938+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7634004354476929,
+            "sim_to_centroid": 0.7922859787940979,
+            "article": {
+              "title": "Israel launches new strikes on southern Lebanon, again testing truce",
+              "url": "https://www.straitstimes.com/world/middle-east/israel-launches-deadly-strikes-on-lebanons-tyre-after-warning?ref=top-stories",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:59:18.326251+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7801847457885742,
+            "article": {
+              "title": "Netanyahu signals temporary pause on Iran strikes",
+              "url": "https://www.albawaba.com/news/netanyahu-signals-temporary-pause-iran-1629550",
+              "source_id": "albawaba.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:54:14.570623+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7752479314804077,
+            "article": {
+              "title": "Israel, Iran agree to stop strikes for a week, Trump reveals",
+              "url": "https://tass.com/world/2144355",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:55:05.145504+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.774938702583313,
             "article": {
               "title": "Israel ataca “objetivos militares” en el oeste y centro de Irán a pesar de pedido de Trump para que no lo haga",
               "url": "https://elcomercio.pe/mundo/oriente-medio/israel-ataca-objetivos-militares-en-el-oeste-y-centro-de-iran-a-pesar-de-pedido-de-donald-trump-para-que-no-lo-haga-isfahan-estados-unidos-libano-noticia/",
               "source_id": "elcomercio.pe",
               "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:26:06.421088+00:00"
+              "scraped_at_utc": "2026-06-09T20:53:10.090179+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7547664642333984,
-            "article": {
-              "title": "Ticker Iran-Krieg: Trump warnt Netanyahu vor neuem Krieg +++ Israel bestätigt Feuerpause nach Angriffen",
-              "url": "https://www.nzz.ch/international/iran-krieg-aktuelle-news-und-entwicklungen-im-liveticker-ld.10009801",
-              "source_id": "nzz.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:53.330215+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.752505362033844,
+            "sim_to_centroid": 0.756874144077301,
             "article": {
               "title": "What Iran and Israel's escalation means for efforts to end regional conflict",
               "url": "https://www.pbs.org/newshour/show/what-iran-and-israels-escalation-means-for-efforts-to-end-regional-conflict",
               "source_id": "pbs.org",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:30:53.889400+00:00"
+              "scraped_at_utc": "2026-06-09T20:57:22.034429+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7441791296005249,
+            "sim_to_centroid": 0.7449138164520264,
             "article": {
-              "title": "Angriffe auf Israel und Iran Nahost-Experte: «Der Iran fühlt sich als Sieger des Krieges» Erstmals seit der Waffenruhe haben Israel und der Iran Raketen aufeinander abgefeuert. Cyrus Schayegh ordnet ein.",
-              "url": "https://www.srf.ch/news/international/angriffe-auf-israel-und-iran-nahost-experte-der-iran-fuehlt-sich-als-sieger-des-krieges",
-              "source_id": "srf.ch",
-              "continent": "Europe South",
+              "title": "Israel ‘kills eight’ in new strikes on Lebanon despite Trump warning",
+              "url": "https://www.independent.co.uk/news/world/middle-east/iran-israel-lebanon-strikes-tyre-trump-war-b2992506.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:54.842537+00:00"
+              "scraped_at_utc": "2026-06-09T20:51:11.538709+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7420201897621155,
-            "article": {
-              "title": "Israel bombs Tyre, south Lebanon despite Trump and Iran warnings",
-              "url": "https://www.newarab.com/news/israel-bombs-tyre-south-lebanon-despite-trump-and-iran-warnings",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:27:06.179693+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7319823503494263,
-            "article": {
-              "title": "Israel needs a deal with Iran, not another war",
-              "url": "https://www.timesofisrael.com/1465757-israel-needs-a-deal-with-iran-not-another-war/",
-              "source_id": "timesofisrael.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:26:53.095323+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7288545370101929,
-            "article": {
-              "title": "Inside the deterrence dynamics of Iran's strike on Israel",
-              "url": "https://www.newarab.com/analysis/inside-deterrence-dynamics-irans-strike-israel",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:27:06.179693+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7282676696777344,
-            "article": {
-              "title": "Malgré l’escalade militaire entre Israël et l’Iran, les négociateurs s’activent",
-              "url": "https://www.lemonde.fr/international/article/2026/06/09/conflit-israel-iran-les-negociateurs-s-activent-malgre-l-escalade-militaire_6700141_3210.html",
-              "source_id": "lemonde.fr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:25:19.093779+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7235013842582703,
+            "sim_to_centroid": 0.7336173057556152,
             "article": {
               "title": "Cómo los recientes ataques de Irán contra Israel indican que Teherán se siente cada vez más fuerte",
               "url": "https://www.bbc.com/mundo/articles/cj4gdwv4lwdo",
               "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:25:39.547622+00:00"
+              "scraped_at_utc": "2026-06-09T20:52:41.261122+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.717941164970398,
+            "sim_to_centroid": 0.7327133417129517,
             "article": {
-              "title": "Latest: Israel ‘kills eight’ in airstrike on Lebanon despite Trump telling Netanyahu to stop",
-              "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-netanyahu-israel-lebanon-b2992131.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:23.436033+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7176107168197632,
-            "article": {
-              "title": "Have flights resumed operations since the Iran-Israel attacks?",
-              "url": "https://www.newarab.com/news/have-flights-resumed-operations-iran-israel-attacks",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:27:06.179693+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.698051929473877,
-            "article": {
-              "title": "Lebanon on fire: Why Israel derailed US-Iran diplomacy",
-              "url": "https://www.rt.com/news/640986-lebanon-israel-us-iran-talks/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:28:42.540059+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 72.66701316015859,
-        "size": 15,
-        "n_sources": 15,
-        "n_continents": 7,
-        "continents": [
-          "China",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.8263854384422302,
-        "title": "US helicopter crashes near the Strait of Hormuz",
-        "central_article": {
-          "title": "US helicopter crashes near the Strait of Hormuz",
-          "url": "https://www.albawaba.com/news/us-helicopter-crashes-near-strait-hormuz-1629638",
-          "source_id": "albawaba.com",
-          "continent": "Middle East",
-          "published_at": null,
-          "scraped_at_utc": "2026-06-09T10:27:04.862746+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9231234788894653,
-            "article": {
-              "title": "US helicopter crashes near the Strait of Hormuz",
-              "url": "https://www.albawaba.com/news/us-helicopter-crashes-near-strait-hormuz-1629638",
-              "source_id": "albawaba.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:27:04.862746+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.915542721748352,
-            "article": {
-              "title": "US Apache helicopter crashes near the Strait of Hormuz",
-              "url": "https://www.independent.co.uk/news/world/americas/us-apache-helicopter-crash-strait-of-hormuz-b2992224.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:23.436033+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8943437337875366,
-            "article": {
-              "title": "Crew rescued after US Apache helicopter goes down near Strait of Hormuz",
-              "url": "https://www.jpost.com/international/article-898795",
-              "source_id": "jpost.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:26:51.817505+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8823038935661316,
-            "article": {
-              "title": "Crew Is Rescued After U.S. Helicopter Goes Down Near Strait of Hormuz",
-              "url": "https://www.nytimes.com/2026/06/08/us/politics/us-helicopter-strait-of-hormuz.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:30:25.927827+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8620917201042175,
-            "article": {
-              "title": "Trump says pilots are fine after US helicopter crashes near Strait of Hormuz",
-              "url": "https://apnews.com/article/iran-us-ceasefire-helicopter-hezbollah-israel-9-june-2026-50d7a8ecbb2cf33836af152679adb40e",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:30:24.589998+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8120137453079224,
-            "article": {
-              "title": "POLITICS Trump acknowledges US attack helicopter crash near Strait of Hormuz",
-              "url": "https://www.presstv.ir/Detail/2026/06/09/770112/Trump-helicopter-crash-Strait-of-Hormuz",
-              "source_id": "presstv.ir",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:26:59.012348+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8098406791687012,
-            "article": {
-              "title": "Amerikaanse Apache-heli stort neer bij Straat van Hormuz",
-              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5611026/amerikaanse-apache-heli-stort-neer-bij-straat-van-hormuz",
-              "source_id": "rtl.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:35.121567+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8083743453025818,
-            "article": {
-              "title": "হরমুজ প্রণালিতে যুক্তরাষ্ট্রের সামরিক হেলিকপ্টার বিধ্বস্ত",
-              "url": "https://www.prothomalo.com/world/usa/92aaxpemgc",
-              "source_id": "prothomalo.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:31:31.386744+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8009399771690369,
-            "article": {
-              "title": "Guerre au Moyen-Orient : un hélicoptère de combat américain Apache s’écrase près du Détroit d’Ormuz",
-              "url": "https://www.rtbf.be/article/guerre-au-moyen-orient-un-helicoptere-de-combat-americain-apache-s-ecrase-pres-du-detroit-d-ormuz-11737400",
-              "source_id": "rtbf.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:25:27.700463+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7982499599456787,
-            "article": {
-              "title": "Trump says US helicopter pilots who went down in Strait of Hormuz are fine",
-              "url": "https://kathmandupost.com/world/2026/06/09/trump-says-us-helicopter-pilots-who-went-down-in-strait-of-hormuz-are-fine",
-              "source_id": "kathmandupost.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:31:41.983751+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7875138521194458,
-            "article": {
-              "title": "Tensión en Medio Oriente. Un helicóptero militar de Estados Unidos se estrelló cerca del estrecho de Ormuz",
-              "url": "https://www.lanacion.com.ar/el-mundo/un-helicoptero-militar-de-estados-unidos-se-estrello-cerca-del-estrecho-de-ormuz-nid09062026/",
-              "source_id": "lanacion.com.ar",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:25:50.081823+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7830206751823425,
-            "article": {
-              "title": "美军“阿帕奇”武装直升机在霍尔木兹海峡附近坠毁",
-              "url": "https://www.xinhuanet.com/20260609/8e120f3d1e104c1ab76c10ea318ee7b2/c.html",
-              "source_id": "xinhuanet.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:31:03.071364+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7808286547660828,
-            "article": {
-              "title": "U.S. pilots who went down near Strait of Hormuz are fine, Trump says",
-              "url": "https://www.theglobeandmail.com/world/article-us-pilots-iran-strait-of-hormuz/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:26:35.241302+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7777272462844849,
-            "article": {
-              "title": "آبنائے ہرمز کے قریب امریکی گن شپ ہیلی کاپٹر گر کر تباہ",
-              "url": "https://jang.com.pk/news/1590040",
-              "source_id": "jang.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:31:43.264110+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7598667144775391,
-            "article": {
-              "title": "US-Kampfhubschrauber nahe der Straße von Hormus abgestürzt",
-              "url": "https://www.handelsblatt.com/politik/international/iran-krieg-us-kampfhubschrauber-nahe-der-strasse-von-hormus-abgestuerzt/100136895.html",
-              "source_id": "handelsblatt.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:43.690955+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 70.68238613118804,
-        "size": 20,
-        "n_sources": 17,
-        "n_continents": 6,
-        "continents": [
-          "China",
-          "Europe North",
-          "Europe South",
-          "North America",
-          "Oceania",
-          "South America"
-        ],
-        "coherence": 0.8266447186470032,
-        "title": "Trump Booed at NBA Finals Game in New York City’s Madison Square Garden",
-        "central_article": {
-          "title": "Trump Booed at NBA Finals Game in New York City’s Madison Square Garden",
-          "url": "https://time.com/article/2026/06/08/trump-nba-finals-knicks-spurs-new-york-mamdani/",
-          "source_id": "time.com",
-          "continent": "North America",
-          "published_at": null,
-          "scraped_at_utc": "2026-06-09T10:30:51.296656+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.899543285369873,
-            "article": {
-              "title": "Trump Booed at NBA Finals Game in New York City’s Madison Square Garden",
-              "url": "https://time.com/article/2026/06/08/trump-nba-finals-knicks-spurs-new-york-mamdani/",
-              "source_id": "time.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:30:51.296656+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8939764499664307,
-            "article": {
-              "title": "President Trump booed loudly by raucous crowd at NBA Finals Game 3",
-              "url": "https://www.usatoday.com/story/sports/nba/2026/06/08/president-trump-arrives-game-3-nba-finals-msg/90424036007/",
-              "source_id": "usatoday.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:30:48.802494+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8797307014465332,
-            "article": {
-              "title": "Donald Trump booed by the crowd during the anthem prior to Game 3 of the NBA Finals",
-              "url": "https://www.chicagotribune.com/2026/06/08/trump-nba-finals-knicks/",
-              "source_id": "chicagotribune.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:30:49.998257+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8797307014465332,
-            "article": {
-              "title": "Donald Trump booed by the crowd during the anthem prior to Game 3 of the NBA Finals",
-              "url": "https://apnews.com/article/nba-finals-trump-knicks-new-york-7b43bea56ff57b48f72d365efd1b7ddb",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:30:24.589998+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8720794916152954,
-            "article": {
-              "title": "Crowd boos Trump during national anthem as he watches Knicks at NBA Finals in Madison Square Garden",
-              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-knicks-boos-nba-finals-national-anthem-b2992110.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:23.436033+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.869448184967041,
-            "article": {
-              "title": "En Nueva York. Trump fue abucheado en el Madison Square Garden durante la tercera final de la NBA: su reacción",
-              "url": "https://www.lanacion.com.ar/el-mundo/donald-trump-fue-abucheado-en-el-madison-square-garden-en-la-tercera-final-de-la-nba-nid08062026/",
-              "source_id": "lanacion.com.ar",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:25:50.081823+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8675590753555298,
-            "article": {
-              "title": "Trump es abucheado en el Madison Square Garden antes del tercer juego de finales de la NBA (video)",
-              "url": "https://www.nacion.com/el-mundo/trump-es-abucheado-en-el-madison-square-garden/62Z24HLNT5CV5LV5BEJCNNTB3E/story/",
-              "source_id": "nacion.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:25:43.244633+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8627716302871704,
-            "article": {
-              "title": "Came for the basketball, stayed for the boos: Trump heckled at New York NBA game",
-              "url": "https://www.sbs.com.au/news/article/trump-booed-at-new-york-nba-match/dc5wsei27",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:26:38.428354+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8485488891601562,
-            "article": {
-              "title": "Donald Trump copieusement hué pendant l'hymne national en marge d'une finale NBA",
-              "url": "https://www.rts.ch/info/monde/2026/article/donald-trump-copieusement-hue-pendant-l-hymne-national-en-marge-d-une-finale-nba-29267586.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:25:24.985585+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.837517261505127,
-            "article": {
-              "title": "Trump bei NBA-Finale ausgebuht - er selbst spricht von Jubel",
-              "url": "https://www.zdfheute.de/politik/ausland/trump-ausgebuht-nba-finale-basketball-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:50.037333+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.832230269908905,
-            "article": {
-              "title": "特朗普出席NBA总决赛遭全场狂嘘",
-              "url": "https://www.sohu.com/a/1034259886_115479?scm=10001.691_14-200000.0.0-0-0-0-0.",
-              "source_id": "news.sohu.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:31:15.916253+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8260048627853394,
-            "article": {
-              "title": "Trump appears to doze off during controversial NBA Finals appearance in New York",
-              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-asleep-finals-knicks-madison-square-garden-b2992124.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:23.436033+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8243191242218018,
-            "article": {
-              "title": "Trump gets a cold reception at NBA Finals game as Spurs beat Knicks",
-              "url": "https://www.france24.com/en/americas/20260608-trump-gets-a-cold-reception-at-nba-finals-game-as-spurs-beat-knicks",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:25:23.544120+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7914612293243408,
-            "article": {
-              "title": "Trump en Finales de la NBA: seguridad al máximo en el Madison Square Garden",
-              "url": "https://www.crhoy.com/deportes/trump-en-finales-de-la-nba-seguridad-al-maximo-en-el-madison-square-garden/",
-              "source_id": "crhoy.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:25:45.978648+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7880012392997742,
-            "article": {
-              "title": "cidade natal Trump é recebido com vaias em jogo das finais da NBA, em Nova York; veja vídeo - Saul Loeb/AFP",
-              "url": "http://www1.folha.uol.com.br/mundo/2026/06/trump-e-recebido-com-vaias-em-jogo-das-finais-da-nba-em-nova-york-veja-video.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:25:57.807953+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7811087369918823,
-            "article": {
-              "title": "Trump loudly booed in Madison Square Garden as Republicans cry foul over Los Angeles vote",
-              "url": "https://www.irishtimes.com/world/us/2026/06/09/republicans-cry-foul-over-los-angeles-vote-as-trump-booed-in-new-yorks-garden/",
-              "source_id": "irishtimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:26:47.868457+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.76239413022995,
-            "article": {
-              "title": "Donald Trump Hostile reception as New York crowd boos and jeers president",
-              "url": "https://www.theguardian.com/sport/2026/jun/08/donald-trump-knicks-spurs-nba-finals-crowd-reaction-boos",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:26.257661+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7422938346862793,
-            "article": {
-              "title": "Trump may be a sports fan — but is he really a Knicks fan?",
-              "url": "https://www.independent.co.uk/news/world/americas/us-politics/donald-trump-knicks-nba-finals-msg-b2991940.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:23.436033+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7372106909751892,
-            "article": {
-              "title": "'City's gonna be crazy:' Knicks run electrifies NYC, as Trump's attendance locks down arena",
-              "url": "https://www.bbc.com/news/articles/ceqd5jgded8o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:22.168054+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7369636297225952,
-            "article": {
-              "title": "Why does Trump keep saluting during the national anthem?",
-              "url": "https://www.independent.co.uk/news/world/americas/us-politics/donald-trump-saluting-national-anthem-b2683751.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:23.436033+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 67.40052259975957,
-        "size": 15,
-        "n_sources": 15,
-        "n_continents": 7,
-        "continents": [
-          "China",
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Middle East",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.811338484287262,
-        "title": "Trump says peace deal with Iran could come in ‘two or three days’",
-        "central_article": {
-          "title": "Trump says peace deal with Iran could come in ‘two or three days’",
-          "url": "https://www.politico.eu/article/donald-trump-iran-israel-halted-attacks-after-intervention/",
-          "source_id": "politico.eu",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-06-09T10:24:29.127673+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8887525200843811,
-            "article": {
-              "title": "Trump says peace deal with Iran could come in ‘two or three days’",
-              "url": "https://www.politico.eu/article/donald-trump-iran-israel-halted-attacks-after-intervention/",
-              "source_id": "politico.eu",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:29.127673+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8846824765205383,
-            "article": {
-              "title": "Trump says US to finalize Iran deal within days, achieve 'total victory' within two weeks",
-              "url": "https://www.jpost.com/middle-east/iran-news/article-898796",
-              "source_id": "jpost.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:26:51.817505+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8555458188056946,
-            "article": {
-              "title": "Trump: Middle East peace deal is within 2 to",
-              "url": "https://www.albawaba.com/news/trump-middle-east-peace-deal-within-2-3-1629602",
-              "source_id": "albawaba.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:27:04.862746+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8518067598342896,
-            "article": {
-              "title": "Трамп допустил подписание мирного соглашения с Ираном через два-три дня",
-              "url": "https://ria.ru/20260609/iran-2097843098.html",
-              "source_id": "ria.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:28:48.107702+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8354578018188477,
-            "article": {
-              "title": "Trump asegura que EE.UU. declarará una “victoria total” sobre Irán “en las próximas dos semanas”",
-              "url": "https://www.latercera.com/mundo/noticia/trump-asegura-que-eeuu-declarara-una-victoria-total-sobre-iran-en-las-proximas-dos-semanas/",
-              "source_id": "latercera.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:26:07.706114+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8335858583450317,
-            "article": {
-              "title": "特朗普说两周内将宣布对伊朗“全面胜利”",
-              "url": "https://www.xinhuanet.com/20260609/fcecd3e0350e4738bf46b7b75ad5909b/c.html",
-              "source_id": "xinhuanet.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:31:03.071364+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8179148435592651,
-            "article": {
-              "title": "„In den letzten Zügen“: Trump sieht Iran-Abkommen vor Abschluss",
-              "url": "https://www.diepresse.com/28950509/in-den-letzten-zuegen-trump-sieht-iran-abkommen-vor-abschluss",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:48.013751+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8113287091255188,
-            "article": {
-              "title": "Трамп обещает, что США вот-вот, скоро-скоро, уже-уже заключат сделку с Ираном. Сколько раз он это говорил?",
-              "url": "https://meduza.io/feature/2026/06/09/tramp-obeschaet-chto-ssha-vot-vot-skoro-skoro-uzhe-uzhe-zaklyuchat-sdelku-s-iranom-skolko-raz-on-eto-govoril",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:28:37.042037+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8109146356582642,
-            "article": {
-              "title": "Trump Says in ‘Final Throes’ of Reaching Middle East Peace Deal",
-              "url": "https://www.kyivpost.com/post/77801",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:28:34.139224+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8004713654518127,
-            "article": {
-              "title": "Trump says in 'final throes' of reaching Middle East peace deal",
-              "url": "https://www.channelnewsasia.com/world/trump-iran-middle-east-peace-deal-final-throes-6170706",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:32:19.409547+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7712793350219727,
-            "article": {
-              "title": "Can Trump keep peace with Iran in his reach?",
-              "url": "https://www.channel4.com/news/can-trump-keep-peace-with-iran-in-his-reach",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:27.589620+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7682433128356934,
-            "article": {
-              "title": "Opgørelse: 37 gange har Trump sagt at USA var tæt på aftale med Iran",
-              "url": "https://sermitsiaq.ag/samfund/opgorelse-37-gange-har-trump-sagt-at-usa-var-taet-pa-aftale-med-iran/2392523",
-              "source_id": "sermitsiaq.ag",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:25:11.866189+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7568017840385437,
-            "article": {
-              "title": "Trump asegura que Netanyahu “no tiene más opción” que aceptar el acuerdo con Irán",
-              "url": "https://elcomercio.pe/mundo/oriente-medio/donald-trump-asegura-que-benjamin-netanyahu-no-tiene-mas-opcion-que-aceptar-el-acuerdo-con-iran-israel-estados-unidos-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:26:06.421088+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7544807195663452,
-            "article": {
-              "title": "Trump and Iran envoy express optimism over deal",
-              "url": "https://www.thenationalnews.com/news/mena/2026/06/09/trump-says-us-army-helicopter-crew-fine-after-crash-near-strait-of-hormuz/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:26:50.462046+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7288107872009277,
-            "article": {
-              "title": "اسرائیل اور ایران نے ایک ہفتے تک ایک دوسرے کیخلاف کارروائی نہ کرنے پر اتفاق کرلیا: ڈونلڈ ٹرمپ",
-              "url": "https://jang.com.pk/news/1560993",
-              "source_id": "jang.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:31:43.264110+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 47.61219148592185,
-        "size": 11,
-        "n_sources": 10,
-        "n_continents": 6,
-        "continents": [
-          "China",
-          "East Asia",
-          "Europe East",
-          "Middle East",
-          "Oceania",
-          "South Asia"
-        ],
-        "coherence": 0.8537488579750061,
-        "title": "Philippines earthquake death toll rises to 37 as rescue efforts continue",
-        "central_article": {
-          "title": "Philippines earthquake death toll rises to 37 as rescue efforts continue",
-          "url": "https://www.thenationalnews.com/news/2026/06/09/philippines-earthquake-death-toll-rises-to-37-as-rescue-efforts-continue/",
-          "source_id": "thenationalnews.com",
-          "continent": "Middle East",
-          "published_at": null,
-          "scraped_at_utc": "2026-06-09T10:26:50.462046+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9253376722335815,
-            "article": {
-              "title": "Philippines earthquake death toll rises to 37 as rescue efforts continue",
-              "url": "https://www.thenationalnews.com/news/2026/06/09/philippines-earthquake-death-toll-rises-to-37-as-rescue-efforts-continue/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:26:50.462046+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9228315353393555,
-            "article": {
-              "title": "Philippines earthquake death toll rises to 37",
-              "url": "https://pajhwok.com/2026/06/09/philippines-earthquake-death-toll-rises-to-37/",
-              "source_id": "pajhwok.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:31:50.252149+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9165850877761841,
-            "article": {
-              "title": "Race to find survivors as Philippines quake toll rises to 37",
-              "url": "https://www.aljazeera.com/news/2026/6/9/race-to-find-survivors-as-philippines-quake-toll-rises-to-37",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:26:49.085326+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9041706919670105,
-            "article": {
-              "title": "Death Toll from Philippines Earthquake Rises to 37",
-              "url": "https://tolonews.com/world-199557",
-              "source_id": "tolonews.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:31:49.073861+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9041706919670105,
-            "article": {
-              "title": "Death Toll from Philippines Earthquake Rises to 37",
-              "url": "https://tolonews.com/index.php/world-199557",
-              "source_id": "tolonews.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:31:49.073861+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8731837272644043,
-            "article": {
-              "title": "Philippines earthquake kills at least 35, dozens missing as thousands wait to return home",
-              "url": "https://www.sbs.com.au/news/article/philippines-earthquake-kills-at-least-35-dozens-missing-as-thousands-wait-to-return-home/gj1ndk1g7",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:26:38.428354+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8174086809158325,
-            "article": {
-              "title": "37 लोगों की मौत और 32000 बेघर... फिलीपींस के लोगों ने फिर देखी 50 साल पहले वाली तबाही",
-              "url": "https://www.jagran.com/world/other-philippines-earthquake-78-magnitude-kills-37-32000-homeless-40267688.html",
-              "source_id": "jagran.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:31:25.116852+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8090839385986328,
-            "article": {
-              "title": "At least 35 killed, 134 injured after 7.8-magnitude quake strikes southern Philippines",
-              "url": "https://phnompenhpost.com/international/at-least-35-killed-134-injured-after-7-8-magnitude-quake-strikes-southern-philippines/",
+              "title": "Israeli strikes on Iran ‘fully coordinated’ with US, says Tehran",
+              "url": "https://phnompenhpost.com/international/israeli-strikes-on-iran-fully-coordinated-with-us-says-tehran/",
               "source_id": "phnompenhpost.com",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:32:50.488769+00:00"
+              "scraped_at_utc": "2026-06-09T20:59:27.846058+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8027620315551758,
+            "sim_to_centroid": 0.73095703125,
             "article": {
-              "title": "Rescuers search for survivors after Philippines quake kills 37 More than 400 people were injured and four remain missing after Monday’s magnitude 7.8 earthquake.",
-              "url": "https://www.scmp.com/news/asia/southeast-asia/article/3356475/rescuers-search-survivors-after-philippines-quake-kills-37?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
+              "title": "Israel needs a deal with Iran, not another war",
+              "url": "https://www.timesofisrael.com/1465757-israel-needs-a-deal-with-iran-not-another-war/",
+              "source_id": "timesofisrael.com",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:30:55.323435+00:00"
+              "scraped_at_utc": "2026-06-09T20:53:59.466512+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7687129378318787,
+            "sim_to_centroid": 0.6722680330276489,
             "article": {
-              "title": "Rescuers race to reach trapped victims after powerful quake in southern Philippines",
-              "url": "https://www.channelnewsasia.com/asia/philippines-earthquake-rescuers-trapped-victims-southern-general-santos-6170571",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
+              "title": "Iran launches ballistic missiles at Bahrain, Kuwait after US hits its radar sites",
+              "url": "https://www.france24.com/en/middle-east/20260606-iran-targets-bahrain-and-kuwait-after-new-us-strikes",
+              "source_id": "france24.com",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:32:19.409547+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7469905614852905,
-            "article": {
-              "title": "Последствия землетрясения на Филиппинах",
-              "url": "https://www.kommersant.ru/doc/8727959?from=spot_main",
-              "source_id": "kommersant.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:28:44.453665+00:00"
+              "scraped_at_utc": "2026-06-09T20:52:18.929545+00:00"
             }
           }
         ]
       },
       {
-        "score": 35.812778013494096,
-        "size": 9,
-        "n_sources": 9,
-        "n_continents": 5,
-        "continents": [
-          "China",
-          "East Asia",
-          "Europe East",
-          "North America",
-          "South Asia"
-        ],
-        "coherence": 0.854328453540802,
-        "title": "Federal judge strikes down Trump’s $100,000 fee on new H-1B visas",
-        "central_article": {
-          "title": "Federal judge strikes down Trump’s $100,000 fee on new H-1B visas",
-          "url": "https://apnews.com/article/h1b-visa-trump-foreign-workers-technology-de169f36bb0bbdc7c982b556d62e9560",
-          "source_id": "apnews.com",
-          "continent": "North America",
-          "published_at": null,
-          "scraped_at_utc": "2026-06-09T10:30:24.589998+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9298540353775024,
-            "article": {
-              "title": "Federal judge strikes down Trump’s $100,000 fee on new H-1B visas",
-              "url": "https://apnews.com/article/h1b-visa-trump-foreign-workers-technology-de169f36bb0bbdc7c982b556d62e9560",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:30:24.589998+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9029616713523865,
-            "article": {
-              "title": "U.S. judge blocks Trump’s $100,000 H-1B visa fee for skilled foreign workers",
-              "url": "https://www.theglobeandmail.com/world/article-us-judge-blocks-trumps-100000-h-1b-visa-fee-for-skilled-foreign/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:26:35.241302+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8865938186645508,
-            "article": {
-              "title": "Trump’s $100,000 H-1B visa fee is unlawful, U.S. judge rules",
-              "url": "https://www.japantimes.co.jp/news/2026/06/09/world/politics/trump-h-1b-visa-fee-us-judge/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:32:20.731034+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8837147355079651,
-            "article": {
-              "title": "Federal judge strikes down Trump's $100,000 fee on new H-1B visas for high-skilled workers By Michael Casey, Associated Press",
-              "url": "https://www.pbs.org/newshour/politics/federal-judge-strikes-down-trumps-100000-fee-on-new-h-1b-visas-for-high-skilled-workers",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:30:53.889400+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8580573201179504,
-            "article": {
-              "title": "美一联邦法官驳回特朗普政府H-1B签证申请费提价政策",
-              "url": "https://international.caixin.com/2026-06-09/102452459.html",
-              "source_id": "caixin.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:31:07.817457+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8578006625175476,
-            "article": {
-              "title": "US court strikes down $100,000 fee for H-1B visa. What it means for Indians",
-              "url": "https://www.hindustantimes.com/india-news/us-court-strikes-down-trumps-unlawful-100-000-fee-for-h-1b-visa-what-it-means-for-indians-101780975862574.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:31:27.559466+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8216754198074341,
-            "article": {
-              "title": "Американский суд признал незаконным сбор в 100 тысяч долларов за визы высококвалифицированным специалистам, введенный Трампом",
-              "url": "https://meduza.io/news/2026/06/09/amerikanskiy-sud-priznal-nezakonnym-sbor-v-100-tysyach-dollarov-za-vizy-vysokokvalifitsirovannym-spetsialistam-vvedennyy-trampom",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:28:37.042037+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7749378681182861,
-            "article": {
-              "title": "Съд отмени новата цена за американска виза за специалисти",
-              "url": "https://www.dnevnik.bg/sviat/2026/06/09/4922900_sud_otmeni_novata_cena_za_amerikanska_viza_za/",
-              "source_id": "dnevnik.bg",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:28:32.754758+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7733608484268188,
-            "article": {
-              "title": "H-1B वीजा पर 1 लाख डॉलर वसूलने का आदेश रद्द कोर्ट बोला- ट्रम्प फीस के नाम पर टैक्स नहीं ले सकते; भारतीयों को सबसे ज्यादा राहत Play video",
-              "url": "https://www.bhaskar.com/g/international/news/us-court-blocks-h1b-visa-tax-fee-registration-drops-38-138146881.html",
-              "source_id": "bhaskar.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:31:23.894718+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 34.13452410992802,
-        "size": 9,
-        "n_sources": 9,
+        "score": 46.303694237428566,
+        "size": 16,
+        "n_sources": 15,
         "n_continents": 5,
         "continents": [
           "Europe East",
           "Europe North",
           "Europe South",
           "Oceania",
-          "South America"
+          "South Asia"
         ],
-        "coherence": 0.8447293639183044,
-        "title": "Somali referee dropped from World Cup after being refused entry to US",
+        "coherence": 0.8035467267036438,
+        "title": "What's happening in Belfast? Riots erupt after brutal stabbing attack; scary visuals surface",
         "central_article": {
-          "title": "Somali referee dropped from World Cup after being refused entry to US",
-          "url": "https://www.france24.com/en/americas/20260608-somali-referee-dropped-from-world-cup-after-being-refused-entry-to-us",
-          "source_id": "france24.com",
-          "continent": "Europe South",
+          "title": "What's happening in Belfast? Riots erupt after brutal stabbing attack; scary visuals surface",
+          "url": "https://www.hindustantimes.com/world-news/whats-happening-in-belfast-ireland-riots-erupt-after-brutal-stabbing-attack-scary-visuals-surface-101781037167362.html",
+          "source_id": "hindustantimes.com",
+          "continent": "South Asia",
           "published_at": null,
-          "scraped_at_utc": "2026-06-09T10:25:23.544120+00:00"
+          "scraped_at_utc": "2026-06-09T20:57:56.314917+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9229046106338501,
+            "sim_to_centroid": 0.8680146336555481,
             "article": {
-              "title": "Somali referee dropped from World Cup after being refused entry to US",
-              "url": "https://www.france24.com/en/americas/20260608-somali-referee-dropped-from-world-cup-after-being-refused-entry-to-us",
+              "title": "What's happening in Belfast? Riots erupt after brutal stabbing attack; scary visuals surface",
+              "url": "https://www.hindustantimes.com/world-news/whats-happening-in-belfast-ireland-riots-erupt-after-brutal-stabbing-attack-scary-visuals-surface-101781037167362.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:57:56.314917+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8591945171356201,
+            "article": {
+              "title": "Belfast erupts after police charge man over ‘brutal attempted beheading’",
+              "url": "https://www.smh.com.au/world/europe/belfast-police-arrest-man-after-brutal-attempted-beheading-20260609-p605cm.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:53:40.029026+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8337761163711548,
+            "article": {
+              "title": "UK police arrest man over 'barbaric' knife attack in Belfast",
+              "url": "https://www.abc.net.au/news/2026-06-09/belfast-stabbing/106778482",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:53:36.918315+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8310997486114502,
+            "article": {
+              "title": "Belfast protesters set vehicles on fire, block roads over brutal street stabbing",
+              "url": "https://www.france24.com/en/europe/20260609-uk-leaders-urge-calm-as-far-right-figures-call-for-anti-migrant-protests-over-belfast-stabbing",
               "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:25:23.544120+00:00"
+              "scraped_at_utc": "2026-06-09T20:52:18.929545+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9120268821716309,
+            "sim_to_centroid": 0.8305200338363647,
             "article": {
-              "title": "First Somali referee to officiate at World Cup barred from entering US",
-              "url": "https://www.rt.com/news/641278-somali-referee-us-barred/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:28:42.540059+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9027780890464783,
-            "article": {
-              "title": "Fußball-Problem: WM-Schiedsrichter aus Somalia darf nicht in die USA einreisen",
-              "url": "https://www.diepresse.com/28948005/fussball-problem-wm-schiedsrichter-aus-somalia-darf-nicht-in-die-usa-einreisen",
-              "source_id": "diepresse.com",
+              "title": "Hundreds take to streets in Belfast as man (30) charged with knife attack",
+              "url": "https://www.irishtimes.com/crime-law/2026/06/09/arrest-made-after-man-seriously-injured-in-belfast-stabbing/",
+              "source_id": "irishtimes.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:48.013751+00:00"
+              "scraped_at_utc": "2026-06-09T20:53:53.630712+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8912554979324341,
+            "sim_to_centroid": 0.826201319694519,
             "article": {
-              "title": "Somali World Cup referee Omar Artan denied entry into United States",
-              "url": "https://www.sbs.com.au/news/article/omar-artan-somali-world-cup-referee-denied-entry-us/1dscar5au",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
+              "title": "Belfast, scoppia la protesta anti-immigrati: veicoli in fiamme e strade bloccate dopo un accoltellamento attribuito a un rifugiato",
+              "url": "https://www.corriere.it/esteri/26_giugno_09/irlanda-del-nord-veicoli-in-fiamme-e-strade-bloccate-dopo-un-attacco-con-coltello-attribuito-a-un-migrante-6954e123-a46c-4e42-924b-68fc1700axlk.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:26:38.428354+00:00"
+              "scraped_at_utc": "2026-06-09T20:52:37.939604+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8865714073181152,
+            "sim_to_centroid": 0.8146644830703735,
             "article": {
-              "title": "WM-Schiedsrichter wird Einreise in die USA verweigert",
-              "url": "https://www.spiegel.de/sport/omar-artan-wm-schiedsrichter-wird-einreise-in-die-usa-verweigert-a-a72aa801-c19e-4668-afdb-eb12a067730f",
-              "source_id": "spiegel.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:41.593536+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8365246057510376,
-            "article": {
-              "title": "Afrikas bedste dommer nægtet indrejse i USA",
-              "url": "https://politiken.dk/sport/fodbold/VM_i_fodbold/art10873748/Afrikas-bedste-dommer-n%C3%A6gtet-indrejse-i-USA",
-              "source_id": "politiken.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:56.705871+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8154247999191284,
-            "article": {
-              "title": "Somalische toparbiter mist WK na weigering aan Amerikaanse grens",
-              "url": "https://www.rtl.nl/nieuws/sport/artikel/5611039/afrikaans-scheidsrechter-van-het-jaar-geweigerd-aan-grens-vs",
-              "source_id": "rtl.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:35.121567+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7299189567565918,
-            "article": {
-              "title": "El debut del argentino Tello. Estados Unidos le niega el ingreso al país al mejor árbitro de África y se reflota la polémica migratoria",
-              "url": "https://www.lanacion.com.ar/deportes/futbol/mundial-2026-estados-unidos-le-nego-el-ingreso-al-pais-a-omar-artan-mejor-arbitro-de-africa-nid08062026/",
-              "source_id": "lanacion.com.ar",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:25:50.081823+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7051596641540527,
-            "article": {
-              "title": "Tickets ingetrokken: supporters uit Iran ineens niet welkom op WK voetbal",
-              "url": "https://nos.nl/artikel/2617778-tickets-ingetrokken-supporters-uit-iran-ineens-niet-welkom-op-wk-voetbal",
+              "title": "VK opgeschrikt door brute mesaanval in Belfast, oproepen tot protest én kalmte",
+              "url": "https://nos.nl/artikel/2617834-vk-opgeschrikt-door-brute-mesaanval-in-belfast-oproepen-tot-protest-en-kalmte",
               "source_id": "nos.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:30.229783+00:00"
+              "scraped_at_utc": "2026-06-09T20:51:21.668750+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.812735915184021,
+            "article": {
+              "title": "Policisté zatkli Súdánce v souvislosti s brutálním útokem v Belfastu",
+              "url": "https://www.idnes.cz/zpravy/zahranicni/policie-irsko-pobodani-sudanec-klid-verejnost-video-internet-utok-poraneni-muz-belfast.A260609_214548_zahranicni_fohl",
+              "source_id": "idnes.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:54:34.165898+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8005357980728149,
+            "article": {
+              "title": "Zavargások kezdődtek Belfastban, miután egy szudáni férfi...",
+              "url": "https://telex.hu/kulfold/2026/06/09/belfast-zavargasok-szudan-gyilkossagi-kiserlet",
+              "source_id": "telex.hu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:54:29.913573+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.793555498123169,
+            "article": {
+              "title": "Belfast stabbing: attacker in custody as political leaders call for calm",
+              "url": "https://www.channel4.com/news/belfast-stabbing-attacker-in-custody-as-political-leaders-call-for-calm",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:51:17.325350+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7935192584991455,
+            "article": {
+              "title": "Verden Belfast Massive protester etter brutalt knivangrep",
+              "url": "https://www.aftenposten.no/verden/i/ExjR0G/sudansk-mann-arrestert-etter-brutalt-drapsforsoek-har-utloest-store-protester-i-belfast",
+              "source_id": "aftenposten.no",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:51:56.062321+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.790203332901001,
+            "article": {
+              "title": "Sudanese refugee arrested for attempted beheading in Belfast (GRAPHIC VIDEO)",
+              "url": "https://www.rt.com/news/641314-belfast-migrant-stabbing-beheading/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:55:00.323554+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7804021835327148,
+            "article": {
+              "title": "Regno Unito, rifugiato sudanese tenta di decapitare uomo a Belfast: si temono disordini anti-migranti",
+              "url": "https://www.repubblica.it/esteri/2026/06/09/news/regno_unito_rifugiato_sudan_accoltella_uomo_belfast_proteste_anti_migranti-425400287/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:52:35.778769+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7623898983001709,
+            "article": {
+              "title": "Verenigd Koninkrijk Brand gesticht bij betoging in Belfast na gewelddadig steekincident door vluchteling geleden",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/06/09/vrees-voor-rellen-na-gewelddadig-steekincident-door-vluchteling/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:52:22.333955+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7401036024093628,
+            "article": {
+              "title": "Demonstraties en relletjes na luguber steekincident in Noord-Ierland",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5611306/belfast-steekincident-noord-ierland-rellen",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:51:25.551954+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7198309898376465,
+            "article": {
+              "title": "Belfast North MLA: Do not join street protests after stabbing",
+              "url": "https://www.channel4.com/news/belfast-north-mla-do-not-join-street-protests-after-stabbing",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:51:17.325350+00:00"
             }
           }
         ]
       },
       {
-        "score": 33.34120348587077,
+        "score": 39.95166023069109,
+        "size": 9,
+        "n_sources": 9,
+        "n_continents": 6,
+        "continents": [
+          "Africa",
+          "China",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "South America"
+        ],
+        "coherence": 0.8397372364997864,
+        "title": "Israeli air strikes hit Lebanon’s Tyre killing eight",
+        "central_article": {
+          "title": "Israeli air strikes hit Lebanon’s Tyre killing eight",
+          "url": "https://www.channel4.com/news/israeli-air-strikes-hit-lebanons-tyre-killing-eight",
+          "source_id": "channel4.com",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-06-09T20:51:17.325350+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8968407511711121,
+            "article": {
+              "title": "Israeli air strikes hit Lebanon’s Tyre killing eight",
+              "url": "https://www.channel4.com/news/israeli-air-strikes-hit-lebanons-tyre-killing-eight",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:51:17.325350+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8732221126556396,
+            "article": {
+              "title": "Acht doden door Israëlische bombardementen in Libanon",
+              "url": "https://fd.nl/politiek/1599432/acht-doden-door-israelische-bombardementen-in-libanon",
+              "source_id": "fd.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:51:27.452944+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8574284911155701,
+            "article": {
+              "title": "Lebanon Israeli attack on Tyre in Lebanon kills eight as evacuation ordered for Christian quarter",
+              "url": "https://www.theguardian.com/world/2026/jun/09/israeli-attack-tyre-lebanon-evacuation-ordered-historic-christian-quarter",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:51:14.632769+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8516010046005249,
+            "article": {
+              "title": "Israel lança ataque contra Líbano, mata 8 e determina retirada de cidade",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/06/israel-ordena-retirada-de-cidade-inteira-no-sul-do-libano-ataques-matam-oito.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:53:01.680208+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8479300141334534,
+            "article": {
+              "title": "Israeli airstrikes kill at least nine in southern Lebanon’s Tyre",
+              "url": "https://www.presstv.ir/Detail/2026/06/09/770140/Lebanon-Tyre-Israel-",
+              "source_id": "presstv.ir",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:54:07.660334+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8263944983482361,
+            "article": {
+              "title": "Israeli airstrikes on southern Lebanon leave over 7 dead, 18 injured",
+              "url": "https://www.egyptindependent.com/israeli-airstrikes-on-southern-lebanon-leave-7-dead-18-injured/",
+              "source_id": "egyptindependent.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:56:44.766781+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8180177807807922,
+            "article": {
+              "title": "Tote bei israelischem Angriff auf libanesische Hafenstadt Tyros",
+              "url": "https://www.tagesschau.de/ausland/asien/libanon-israel-angriffe-gewalt-westjordanland-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:51:29.615661+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8177777528762817,
+            "article": {
+              "title": "以色列袭击黎巴嫩南部已致8死32伤",
+              "url": "https://www.xinhuanet.com/20260609/ddf5ae5b74274d6bbfc570cc088dfaa5/c.html",
+              "source_id": "xinhuanet.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:57:31.597966+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7684228420257568,
+            "article": {
+              "title": "L'Idf continua a sparare in Libano: 8 morti a Tiro",
+              "url": "https://www.repubblica.it/esteri/2026/06/09/diretta/guerra_iran_usa_israele_news_oggi-425398307/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:52:35.778769+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 38.29461202229161,
         "size": 9,
         "n_sources": 9,
         "n_continents": 6,
@@ -1417,370 +1382,484 @@
           "Africa",
           "Europe East",
           "Europe North",
+          "Europe South",
           "Middle East",
-          "Oceania",
           "South Asia"
         ],
-        "coherence": 0.8035619854927063,
-        "title": "Iranische Fans bangen nach verweigerter Ticketzuteilung um WM-Besuch",
+        "coherence": 0.8312650322914124,
+        "title": "World Cup tickets for Iran fans revoked days before tournament, says country's federation",
         "central_article": {
-          "title": "Iranische Fans bangen nach verweigerter Ticketzuteilung um WM-Besuch",
-          "url": "https://www.diepresse.com/28994362/iranische-fans-bangen-nach-verweigerter-ticketzuteilung-um-wm-besuch",
-          "source_id": "diepresse.com",
-          "continent": "Europe North",
+          "title": "World Cup tickets for Iran fans revoked days before tournament, says country's federation",
+          "url": "https://www.france24.com/en/sport/20260609-world-cup-tickets-for-iran-fans-revoked-days-before-tournament-says-ffiri-federation",
+          "source_id": "france24.com",
+          "continent": "Europe South",
           "published_at": null,
-          "scraped_at_utc": "2026-06-09T10:24:48.013751+00:00"
+          "scraped_at_utc": "2026-06-09T20:52:18.929545+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8809236288070679,
+            "sim_to_centroid": 0.9134974479675293,
             "article": {
-              "title": "Iranische Fans bangen nach verweigerter Ticketzuteilung um WM-Besuch",
-              "url": "https://www.diepresse.com/28994362/iranische-fans-bangen-nach-verweigerter-ticketzuteilung-um-wm-besuch",
-              "source_id": "diepresse.com",
+              "title": "World Cup tickets for Iran fans revoked days before tournament, says country's federation",
+              "url": "https://www.france24.com/en/sport/20260609-world-cup-tickets-for-iran-fans-revoked-days-before-tournament-says-ffiri-federation",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:52:18.929545+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8947486877441406,
+            "article": {
+              "title": "Iran Iran federation says ticket allocation has been pulled days before start of World Cup",
+              "url": "https://www.theguardian.com/football/2026/jun/09/iran-federation-says-ticket-allocation-has-been-pulled-days-before-start-of-world-cup",
+              "source_id": "theguardian.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:48.013751+00:00"
+              "scraped_at_utc": "2026-06-09T20:51:14.632769+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8275432586669922,
+            "sim_to_centroid": 0.8771786689758301,
             "article": {
-              "title": "Iran at the 2026 World Cup: War, visa denials, and missing fans",
-              "url": "https://www.newarab.com/features/iran-2026-world-cup-war-visa-denials-and-missing-fans",
-              "source_id": "newarab.com",
+              "title": "World Cup 2026: Iran fans lose ticket allocation days before kick-off",
+              "url": "https://businessday.ng/sports/article/world-cup-2026-iran-fans-lose-ticket-allocation-days-before-kick-off/",
+              "source_id": "businessday.ng",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:56:35.420291+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8740675449371338,
+            "article": {
+              "title": "Iran says ticket allocation for World Cup pulled days before tournament starts",
+              "url": "https://www.thenationalnews.com/sport/world-cup-2026/2026/06/09/iran-says-ticket-allocation-for-world-cup-pulled-days-before-tournament-starts/",
+              "source_id": "thenationalnews.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:27:06.179693+00:00"
+              "scraped_at_utc": "2026-06-09T20:53:56.575760+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8270248174667358,
+            "sim_to_centroid": 0.8474634885787964,
             "article": {
-              "title": "WORLD Iran says US revoked World Cup ticket allocation for supporters",
-              "url": "https://myrepublica.nagariknetwork.com/news/iran-says-us-revoked-world-cup-ticket-allocation-for-supporters-20-95.html",
-              "source_id": "myrepublica.nagariknetwork.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:31:46.353198+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8201035261154175,
-            "article": {
-              "title": "Iran says ticket allocation for World Cup withdrawn days before tournament",
-              "url": "https://www.abc.net.au/news/2026-06-09/us-removes-iran-ticket-allocation-for-world-cup/106778062",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:26:36.712015+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8175241351127625,
-            "article": {
-              "title": "MS ve fotbale 2026 ONLINE: Írán si stěžuje, že mu USA zabavily vstupenky",
-              "url": "https://www.idnes.cz/fotbal/mistrovstvi-sveta-ve-fotbale/ms-ve-fotbale-2026-usa-kanada-mexiko-online-cesko.A260528_100107_ms-fotbal_tals",
-              "source_id": "idnes.cz",
+              "title": "Iranian fans shut out of World Cup",
+              "url": "https://www.rt.com/news/641292-iran-world-cup-tickets/",
+              "source_id": "rt.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:27:21.951180+00:00"
+              "scraped_at_utc": "2026-06-09T20:55:00.323554+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7957184314727783,
+            "sim_to_centroid": 0.7907781600952148,
+            "article": {
+              "title": "فیفا ورلڈ کپ 2026: ٹرمپ حکومت نے ایرانی شائقین کے میچ ٹکٹس منسوخ کر دیے",
+              "url": "https://www.nawaiwaqt.com.pk/09-Jun-2026/2000320",
+              "source_id": "nawaiwaqt.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:58:15.342290+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7746061086654663,
             "article": {
               "title": "Iranians express dismay and hope towards the national team ahead of World Cup",
               "url": "https://www.africanews.com/2026/06/07/iranians-express-dismay-and-hope-towards-the-national-team-ahead-of-world-cup/",
               "source_id": "africanews.com",
               "continent": "Africa",
               "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:30:13.946453+00:00"
+              "scraped_at_utc": "2026-06-09T20:56:36.814416+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7611163854598999,
+            "sim_to_centroid": 0.7672262191772461,
             "article": {
-              "title": "Direkt. USA stoppar Iran – får inga biljetter",
-              "url": "https://www.dn.se/sport/folj-direkt-fotbolls-vm-2026/",
-              "source_id": "dn.se",
+              "title": "How Iran's cross-border World Cup commute could affect results",
+              "url": "https://www.newarab.com/news/how-irans-cross-border-world-cup-commute-could-affect-results",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:54:15.931319+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7418186664581299,
+            "article": {
+              "title": "WK voetbal Iraanse voetbalbond: FIFA trekt WK-wedstrijdkaarten voor Iraanse supporters in",
+              "url": "https://www.nrc.nl/nieuws/2026/06/09/iraanse-voetbalbond-fifa-trekt-wk-wedstrijdkaarten-voor-iraanse-supporters-in-a4929689",
+              "source_id": "nrc.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:58.450101+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.75824373960495,
-            "article": {
-              "title": "Reprezentacja Iranu dotarła na mundial",
-              "url": "https://sport.rp.pl/pilka-nozna/art44583851-reprezentacja-iranu-dotarla-na-mundial-jestesmy-zaniepokojeni-zachowaniem-amerykanow",
-              "source_id": "rp.pl",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:28:27.259957+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7438600063323975,
-            "article": {
-              "title": "\"El Mundial no es para nosotros, es para ellos\": el enfado de los fans a los que no conceden visas para ir a EE.UU. a ver el torneo",
-              "url": "https://www.bbc.com/mundo/articles/cyv0p45dle8o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:25:39.547622+00:00"
+              "scraped_at_utc": "2026-06-09T20:51:23.473504+00:00"
             }
           }
         ]
       },
       {
-        "score": 27.053100955238886,
-        "size": 8,
-        "n_sources": 7,
+        "score": 19.98348798866385,
+        "size": 6,
+        "n_sources": 5,
+        "n_continents": 4,
+        "continents": [
+          "Africa",
+          "Europe East",
+          "Europe North",
+          "North America"
+        ],
+        "coherence": 0.8998348116874695,
+        "title": "Who is the Somali referee barred from entering the US for the World Cup?",
+        "central_article": {
+          "title": "Who is the Somali referee barred from entering the US for the World Cup?",
+          "url": "https://www.bbc.com/news/articles/c8j27zkp94zo",
+          "source_id": "bbc.com",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-06-09T20:51:10.240526+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9486048221588135,
+            "article": {
+              "title": "Who is the Somali referee barred from entering the US for the World Cup?",
+              "url": "https://www.bbc.com/news/articles/c8j27zkp94zo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:51:10.240526+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9320516586303711,
+            "article": {
+              "title": "First Somali referee to officiate at World Cup barred from entering US",
+              "url": "https://www.rt.com/news/641278-somali-referee-us-barred/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:55:00.323554+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.91578209400177,
+            "article": {
+              "title": "Somali World Cup referee being denied entry to U.S. sparks global uproar",
+              "url": "https://www.theglobeandmail.com/world/article-us-denied-entry-somali-world-cup-referee/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:53:34.915694+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8992196321487427,
+            "article": {
+              "title": "Somali referee Omar Artan denied entry to US ahead of World Cup",
+              "url": "https://www.africanews.com/2026/06/09/somali-referee-omar-aytan-denied-entry-to-us-ahead-of-world-cup/",
+              "source_id": "africanews.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:56:36.814416+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.875938355922699,
+            "article": {
+              "title": "FIFA says 'not involved' as award-winning Somali ref denied US entry",
+              "url": "https://www.euronews.com/2026/06/09/somali-referee-omar-artan-axed-from-world-cup-after-being-denied-entry-to-us",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:51:19.127515+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8274123668670654,
+            "article": {
+              "title": "\"Me interrogaron durante 11 horas\": EE.UU. niega la entrada para el Mundial al \"mejor árbitro africano del año\"",
+              "url": "https://www.bbc.com/mundo/articles/c0lywde6ypxo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:52:41.261122+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 19.58563080975349,
+        "size": 5,
+        "n_sources": 5,
         "n_continents": 5,
+        "continents": [
+          "Europe East",
+          "Europe North",
+          "North America",
+          "Oceania",
+          "South Asia"
+        ],
+        "coherence": 0.851184070110321,
+        "title": "Mundial de fútbol 2026: consulta el calendario de partidos de tu selección (con el horario de tu país)",
+        "central_article": {
+          "title": "Mundial de fútbol 2026: consulta el calendario de partidos de tu selección (con el horario de tu país)",
+          "url": "https://www.bbc.com/mundo/articles/c3v25v922k4o",
+          "source_id": "bbc.com",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-06-09T20:52:41.261122+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8696706295013428,
+            "article": {
+              "title": "Mundial de fútbol 2026: consulta el calendario de partidos de tu selección (con el horario de tu país)",
+              "url": "https://www.bbc.com/mundo/articles/c3v25v922k4o",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:52:41.261122+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8563854098320007,
+            "article": {
+              "title": "Your group-by-group guide to the 2026 World Cup: part one",
+              "url": "https://www.smh.com.au/sport/soccer/your-group-by-group-guide-to-the-2026-world-cup-part-one-20260606-p604h6.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:53:40.029026+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8543906211853027,
+            "article": {
+              "title": "Sports FIFA World Cup 2026 all-in-one guide: Full schedule, fixtures, groups, India timings, venues, knockout dates, FAQs and more",
+              "url": "https://timesofindia.indiatimes.com/sports/football/fifa-world-cup/fifa-world-cup-2026-all-in-one-guide-full-schedule-fixtures-groups-india-timings-venues-knockout-dates-faqs-and-more/articleshow/131605941.cms",
+              "source_id": "timesofindia.indiatimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:57:51.131465+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8527237176895142,
+            "article": {
+              "title": "MS ve fotbale 2026: program, skupiny, kdy hrají Češi",
+              "url": "https://www.idnes.cz/fotbal/mistrovstvi-sveta-ve-fotbale/ms-ve-fotbale-2026-program-vysledky-s-kym-hraji-cesi.A260228_211333_ms-fotbal_ald",
+              "source_id": "idnes.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:54:34.165898+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8227499723434448,
+            "article": {
+              "title": "The 2026 World Cup has arrived. Here's what to know about the 16 stadiums hosting matches",
+              "url": "https://www.pbs.org/newshour/nation/the-2026-world-cup-has-arrived-heres-what-to-know-about-the-16-stadiums-hosting-matches",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:57:22.034429+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 18.088393705620316,
+        "size": 6,
+        "n_sources": 6,
+        "n_continents": 4,
+        "continents": [
+          "China",
+          "East Asia",
+          "Europe North",
+          "Middle East"
+        ],
+        "coherence": 0.8434433341026306,
+        "title": "Trump: Middle East peace deal is within 2 to",
+        "central_article": {
+          "title": "Trump: Middle East peace deal is within 2 to",
+          "url": "https://www.albawaba.com/news/trump-middle-east-peace-deal-within-2-3-1629602",
+          "source_id": "albawaba.com",
+          "continent": "Middle East",
+          "published_at": null,
+          "scraped_at_utc": "2026-06-09T20:54:14.570623+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8777815699577332,
+            "article": {
+              "title": "Trump: Middle East peace deal is within 2 to",
+              "url": "https://www.albawaba.com/news/trump-middle-east-peace-deal-within-2-3-1629602",
+              "source_id": "albawaba.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:54:14.570623+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8727037906646729,
+            "article": {
+              "title": "ترامب: الاتفاق على إنهاء الحرب في الشرق الأوسط بات وشيكا",
+              "url": "https://www.omandaily.om/العرب-والعالم/na/ترامب-الاتفاق-على-إنهاء-الحرب-في-الشرق-الأوسط-بات-وشيكا",
+              "source_id": "omandaily.om",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:54:25.579767+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8600274324417114,
+            "article": {
+              "title": "Trump says in 'final throes' of reaching Middle East peace deal",
+              "url": "https://www.channelnewsasia.com/world/trump-iran-middle-east-peace-deal-final-throes-6170706",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:58:50.468537+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8453676104545593,
+            "article": {
+              "title": "„In den letzten Zügen“: Trump sieht Iran-Abkommen vor Abschluss",
+              "url": "https://www.diepresse.com/28950509/in-den-letzten-zuegen-trump-sieht-iran-abkommen-vor-abschluss",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:51:40.119139+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8167375326156616,
+            "article": {
+              "title": "特朗普宣布伊以将停火 美伊和平协议或在两三天内签署",
+              "url": "https://international.caixin.com/2026-06-09/102452616.html",
+              "source_id": "caixin.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:57:36.245781+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7880419492721558,
+            "article": {
+              "title": "Opgørelse: 37 gange har Trump sagt at USA var tæt på aftale med Iran",
+              "url": "https://sermitsiaq.ag/samfund/opgorelse-37-gange-har-trump-sagt-at-usa-var-taet-pa-aftale-med-iran/2392523",
+              "source_id": "sermitsiaq.ag",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:52:09.810554+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 16.24828727376554,
+        "size": 7,
+        "n_sources": 6,
+        "n_continents": 4,
         "continents": [
           "China",
           "Europe East",
           "Europe North",
-          "Middle East",
-          "North America"
+          "Europe South"
         ],
-        "coherence": 0.8484907150268555,
-        "title": "Компания OpenAI подала заявку на IPO",
+        "coherence": 0.821986734867096,
+        "title": "Germany and France ended fighter jet project",
         "central_article": {
-          "title": "Компания OpenAI подала заявку на IPO",
-          "url": "https://meduza.io/news/2026/06/09/kompaniya-openai-podala-zayavku-na-ipo",
-          "source_id": "meduza.io",
+          "title": "Germany and France ended fighter jet project",
+          "url": "https://www.azernews.az/region/259548.html",
+          "source_id": "azernews.az",
           "continent": "Europe East",
           "published_at": null,
-          "scraped_at_utc": "2026-06-09T10:28:37.042037+00:00"
+          "scraped_at_utc": "2026-06-09T20:55:40.990625+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9092644453048706,
+            "sim_to_centroid": 0.911366879940033,
             "article": {
-              "title": "Компания OpenAI подала заявку на IPO",
-              "url": "https://meduza.io/news/2026/06/09/kompaniya-openai-podala-zayavku-na-ipo",
-              "source_id": "meduza.io",
+              "title": "Germany and France ended fighter jet project",
+              "url": "https://www.azernews.az/region/259548.html",
+              "source_id": "azernews.az",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:28:37.042037+00:00"
+              "scraped_at_utc": "2026-06-09T20:55:40.990625+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8909034729003906,
+            "sim_to_centroid": 0.8622322082519531,
             "article": {
-              "title": "OpenAI files preliminary SEC paperwork for IPO, opening the door to a Wall Street debut",
-              "url": "https://www.pbs.org/newshour/nation/openai-files-preliminary-sec-paperwork-for-ipo-opening-the-door-to-a-wall-street-debut",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:30:53.889400+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8891781568527222,
-            "article": {
-              "title": "OpenAI follows Anthropic by filing for US IPO as AI companies aim to go public",
-              "url": "https://www.thenationalnews.com/business/markets/2026/06/09/openai-follows-anthropic-by-filing-for-us-ipo-as-ai-companies-aim-to-go-public/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:26:50.462046+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8688651323318481,
-            "article": {
-              "title": "OpenAI zet eerste stap naar beursgang, 'bijna 1 biljoen waard'",
-              "url": "https://www.rtl.nl/nieuws/economie/artikel/5611079/dringen-op-de-beurs-ook-openai-zet-eerste-stap-naar-beursgang",
-              "source_id": "rtl.nl",
+              "title": "France and Germany abandon plans to build fighter jet",
+              "url": "https://www.thetimes.com/world/europe/article/france-germany-abandon-fighter-jet-zg3g07j0n",
+              "source_id": "thetimes.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:35.121567+00:00"
+              "scraped_at_utc": "2026-06-09T20:51:13.169938+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8147872686386108,
+            "sim_to_centroid": 0.8335647583007812,
             "article": {
-              "title": "ChatGPT-Entwickler OpenAI will an die Börse",
-              "url": "https://www.zdfheute.de/wirtschaft/unternehmen/openai-boerse-antrag-boersengang-100.html",
-              "source_id": "zdfheute.de",
+              "title": "Berlin declares Franco-German fighter jet project dead in blow to Macron",
+              "url": "https://www.politico.eu/article/berlin-declares-france-germany-next-gen-fighter-jet-project-dead/",
+              "source_id": "politico.eu",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:50.037333+00:00"
+              "scraped_at_utc": "2026-06-09T20:51:20.471999+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8118927478790283,
+            "sim_to_centroid": 0.7959723472595215,
             "article": {
-              "title": "OpenAI秘密交表 美股超级IPO季料增近4万亿美元市值",
-              "url": "https://www.caixin.com/2026-06-09/102452426.html",
-              "source_id": "caixin.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:31:07.817457+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8070935010910034,
-            "article": {
-              "title": "T早报｜美芯片股反弹；OpenAI提交IPO申请；SpaceX IPO获大幅超额认购",
-              "url": "https://www.caixin.com/2026-06-09/102452303.html",
-              "source_id": "caixin.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:31:07.817457+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7959408164024353,
-            "article": {
-              "title": "Nach SpaceX und Anthropic: Wer soll noch in OpenAI investieren?",
-              "url": "https://www.diepresse.com/28949863/nach-spacex-und-anthropic-wer-soll-noch-in-openai-investieren",
-              "source_id": "diepresse.com",
+              "title": "Frans-Duits straaljagerproject mislukt, wat ging er mis?",
+              "url": "https://nos.nl/artikel/2617843-frans-duits-straaljagerproject-mislukt-wat-ging-er-mis",
+              "source_id": "nos.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:48.013751+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 20.526920265996157,
-        "size": 10,
-        "n_sources": 8,
-        "n_continents": 4,
-        "continents": [
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America"
-        ],
-        "coherence": 0.8112002611160278,
-        "title": "Spencer Pratt out of LA mayor race as left-wing rival Nithya Raman advances",
-        "central_article": {
-          "title": "Spencer Pratt out of LA mayor race as left-wing rival Nithya Raman advances",
-          "url": "https://www.bbc.com/news/articles/cx219kxkj1jo",
-          "source_id": "bbc.com",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-06-09T10:24:22.168054+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9223794937133789,
-            "article": {
-              "title": "Spencer Pratt out of LA mayor race as left-wing rival Nithya Raman advances",
-              "url": "https://www.bbc.com/news/articles/cx219kxkj1jo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:22.168054+00:00"
+              "scraped_at_utc": "2026-06-09T20:51:21.668750+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8904416561126709,
+            "sim_to_centroid": 0.7889644503593445,
             "article": {
-              "title": "Los Angeles Nithya Raman edges out Spencer Pratt to face Karen Bass in LA mayoral runoff",
-              "url": "https://www.theguardian.com/us-news/2026/jun/08/karen-bass-nithya-raman-los-angeles-mayoral-race",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:26.257661+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8766419887542725,
-            "article": {
-              "title": "Nithya Raman Secures Second L.A. Mayor Spot and Ends Spencer Pratt’s Run",
-              "url": "https://www.nytimes.com/2026/06/08/us/elections/nithya-raman-la-mayor-karen-bass.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:30:25.927827+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.824535608291626,
-            "article": {
-              "title": "Progressive Nithya Raman advances to November runoff against Los Angeles Mayor Karen Bass",
-              "url": "https://apnews.com/article/los-angeles-mayor-2026-election-e0ef2b83cd8f94556d1c532227bb49dd",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:30:24.589998+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7909513115882874,
-            "article": {
-              "title": "Blow to Trump as his LA mayor pick and former reality TV star Spencer Pratt knocked out of race",
-              "url": "https://www.independent.co.uk/news/world/americas/us-politics/los-angeles-mayor-spencer-pratt-trump-b2992231.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:23.436033+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.780630886554718,
-            "article": {
-              "title": "Echoing Mamdani, Nithya Raman advances in LA mayor race",
-              "url": "https://www.newarab.com/news/echoing-mamdani-nithya-raman-advances-la-mayor-race",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:27:06.179693+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7701593637466431,
-            "article": {
-              "title": "Spencer Pratt, le candidat républicain à la mairie de Los Angeles, éliminé dès la primaire",
-              "url": "https://www.lemonde.fr/international/article/2026/06/09/primaire-a-los-angeles-le-candidat-republicain-elimine-donald-trump-crie-a-la-fraude_6700138_3210.html",
-              "source_id": "lemonde.fr",
+              "title": "Alemania se resigna ante el fin del caza europeo: “El proyecto se ha estrellado contra la realidad”",
+              "url": "https://elpais.com/economia/2026-06-09/alemania-se-resigna-ante-el-fin-del-caza-europeo-el-proyecto-se-ha-estrellado-contra-la-realidad.html",
+              "source_id": "elpais.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:25:19.093779+00:00"
+              "scraped_at_utc": "2026-06-09T20:52:28.049337+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7685150504112244,
+            "sim_to_centroid": 0.78496253490448,
             "article": {
-              "title": "Profile Nithya Raman: progressive who bested Spencer Pratt eyes Hollywood ending",
-              "url": "https://www.theguardian.com/us-news/2026/jun/08/nithya-raman-los-angeles-mayor-runoff-profile",
-              "source_id": "theguardian.com",
+              "title": "德國終止與法國聯合戰機計劃，歐洲防務合作面臨重大挑戰",
+              "url": "https://www.singtaousa.com/2026/06/09/news/world/franco-german-fighter-jet-scrapping-leaves-european-allies-at-odds/",
+              "source_id": "singtaousa.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-06-09T20:57:39.906921+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.776843786239624,
+            "article": {
+              "title": "Why Europe’s most ambitious combat jet project never took off",
+              "url": "https://www.thetimes.com/world/europe/article/future-combat-air-system-france-germany-xltsl0cvh",
+              "source_id": "thetimes.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:24:26.257661+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7468403577804565,
-            "article": {
-              "title": "The rise and fall of Spencer Pratt’s improbable campaign for Los Angeles mayor",
-              "url": "https://apnews.com/article/los-angeles-mayor-spencer-pratt-karen-bass-389b4c2757478d91a29bd319e2c682d9",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:30:24.589998+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7409065961837769,
-            "article": {
-              "title": "Left-winger beats Trump-backed Republican to advance to LA mayor runoff",
-              "url": "https://www.france24.com/en/americas/20260609-democratic-socialist-candidate-beats-trump-backed-republican-to-advance-to-la-mayor-runoff",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-06-09T10:25:23.544120+00:00"
+              "scraped_at_utc": "2026-06-09T20:51:13.169938+00:00"
             }
           }
         ]
       }
     ],
-    "created_at_utc": "2026-06-09T10:56:43Z"
+    "created_at_utc": "2026-06-09T21:23:32Z"
   }
 ]
