@@ -1,385 +1,544 @@
 [
   {
-    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1783024583",
-    "n_items": 2600,
-    "n_clusters": 2162,
+    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1783073433",
+    "n_items": 2575,
+    "n_clusters": 2126,
     "clusters": [
       {
-        "score": 189.91252490556076,
-        "size": 31,
-        "n_sources": 28,
-        "n_continents": 10,
+        "score": 110.38604940347004,
+        "size": 25,
+        "n_sources": 23,
+        "n_continents": 8,
         "continents": [
+          "China",
+          "East Asia",
+          "Europe East",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.7978096008300781,
+        "title": "Iran prepares for dayslong funeral for late Supreme Leader Ayatollah Ali Khamenei, killed in war",
+        "central_article": {
+          "title": "Iran prepares for dayslong funeral for late Supreme Leader Ayatollah Ali Khamenei, killed in war",
+          "url": "https://apnews.com/article/ali-khamenei-funeral-supreme-leader-iran-us-war-july-3-2026-554d4f05f43ebbb86f81821eb18c0927",
+          "source_id": "apnews.com",
+          "continent": "North America",
+          "published_at": null,
+          "scraped_at_utc": "2026-07-03T09:51:06.531653+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8951263427734375,
+            "article": {
+              "title": "Iran prepares for dayslong funeral for late Supreme Leader Ayatollah Ali Khamenei, killed in war",
+              "url": "https://apnews.com/article/ali-khamenei-funeral-supreme-leader-iran-us-war-july-3-2026-554d4f05f43ebbb86f81821eb18c0927",
+              "source_id": "apnews.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:51:06.531653+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8648735284805298,
+            "article": {
+              "title": "Farewell ceremonies for Iran's late Supreme Leader Ali Khamenei begin in Tehran",
+              "url": "https://www.azernews.az/region/260574.html",
+              "source_id": "azernews.az",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:50:27.383929+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8612031936645508,
+            "article": {
+              "title": "Farewell ceremony for Ayatollah Ali Khamenei underway in Tehran",
+              "url": "https://georgiatoday.ge/farewell-ceremony-for-ayatollah-ali-khamenei-underway-in-tehran/",
+              "source_id": "georgiatoday.ge",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:50:21.753178+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8586783409118652,
+            "article": {
+              "title": "Preparations Underway for Ali Khamenei’s Funeral in Iran",
+              "url": "https://tolonews.com/world-199875",
+              "source_id": "tolonews.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:52:31.593629+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.850989580154419,
+            "article": {
+              "title": "Iran’s Khamenei funeral: Which world leaders are attending?",
+              "url": "https://www.aljazeera.com/news/2026/7/3/irans-khamenei-funeral-which-world-leaders-are-attending",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:48:57.610451+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8333055973052979,
+            "article": {
+              "title": "POLITICS Iran begins funeral ceremonies for martyred Leader Ayatollah Khamenei",
+              "url": "https://www.presstv.ir/Detail/2026/07/03/771508/Funeral-martyred-Leader-begins-Tehran",
+              "source_id": "presstv.ir",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:49:06.475530+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8282769322395325,
+            "article": {
+              "title": "Iran prepares to bury slain supreme leader with week of mass mourning",
+              "url": "https://www.thedailystar.net/news/world/news/iran-prepares-bury-slain-supreme-leader-week-mass-mourning-4214816",
+              "source_id": "thedailystar.net",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:52:14.227086+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8254170417785645,
+            "article": {
+              "title": "Khamenei’s coffin placed in Tehran religious complex as Iran begins days-long funeral Delayed by months of conflict, Iran prepares to bury its slain supreme leader with a week of mass mourning.",
+              "url": "https://www.scmp.com/news/world/middle-east/article/3359300/khameneis-coffin-placed-tehran-religious-complex-iran-begins-days-long-funeral?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:51:38.086019+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8222938776016235,
+            "article": {
+              "title": "Middle East live: Khamenei laid in state in Tehran as dignitaries pay tribute ahead of funeral",
+              "url": "https://www.france24.com/en/middle-east/20260703-middle-east-live-iran-prepares-to-say-final-goodbye-to-supreme-leader-khamenei",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:47:33.903167+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8142921924591064,
+            "article": {
+              "title": "Midden-Oosten Lichaam van opperleider Ali Khamenei aangekomen in Teheran, regime verwacht miljoenen Iraniërs voor herdenkingen",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/07/03/lichaam-van-iraanse-hoogste-leider-khamenei-teheran/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:47:37.077946+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8124726414680481,
+            "article": {
+              "title": "Iran's slain leader Khamenei laid in state in Tehran for week of mass funeral events",
+              "url": "https://www.straitstimes.com/world/middle-east/irans-slain-leader-khamenei-laid-in-state-in-tehran-for-week-of-mass-funeral-events?ref=latest-headlines",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:53:28.567086+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8019369840621948,
+            "article": {
+              "title": "Iran prepares for Khamenei's funeral, warns US over Hormuz",
+              "url": "https://www.newarab.com/news/iran-prepares-khameneis-funeral-warns-us-over-hormuz",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:49:13.944157+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7990872263908386,
+            "article": {
+              "title": "Des millions d’Iraniens attendus à Téhéran pour l’hommage à Ali Khamenei, qui commencera samedi",
+              "url": "https://www.lemonde.fr/international/article/2026/07/03/funerailles-historiques-a-teheran-des-millions-d-iraniens-attendus-pour-l-hommage-au-guide-supreme-ali-khamenei-qui-commencera-samedi_6719147_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:47:29.198509+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7964829206466675,
+            "article": {
+              "title": "İran Hamaney’e veda ediyor: Cenaze töreni başladı",
+              "url": "https://www.hurriyet.com.tr/dunya/iran-hamaneye-veda-ediyor-2-ulke-ve-5-sehirde-toren-43227013",
+              "source_id": "hurriyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:49:08.501138+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7872387766838074,
+            "article": {
+              "title": "Mapping Iran’s Ali Khamenei funeral: Where mourners will gather each day",
+              "url": "https://www.aljazeera.com/news/2026/7/3/mapping-irans-ali-khamenei-funeral-where-mourners-will-gather-each-day",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:48:57.610451+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7860979437828064,
+            "article": {
+              "title": "The final journey: Millions prepare to bid farewell to Iran's martyred Leader across three cities",
+              "url": "https://www.presstv.ir/Detail/2026/07/02/771480/the-final-journey-millions-prepare-bid-farewell-iran-martyred-leader-three-cities",
+              "source_id": "presstv.ir",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:49:06.475530+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7859712839126587,
+            "article": {
+              "title": "Com 'maior funeral da História' para Khamenei, Irã busca demonstrar poder e resiliência",
+              "url": "https://oglobo.globo.com/mundo/noticia/2026/07/03/com-maior-funeral-da-historia-para-ali-khamenei-ira-busca-demonstrar-poder-e-resiliencia-depois-da-guerra.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:48:13.116508+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7637489438056946,
+            "article": {
+              "title": "WORLD Supreme leader's body arrives at Tehran religious complex for funeral",
+              "url": "https://myrepublica.nagariknetwork.com/news/supreme-leaders-body-arrives-at-tehran-religious-complex-for-funeral-20-42.html",
+              "source_id": "myrepublica.nagariknetwork.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:52:30.328132+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7624102830886841,
+            "article": {
+              "title": "Pakistani PM to attend Iran supreme leader's funeral",
+              "url": "https://www.albawaba.com/news/pakistani-pm-attend-iran-supreme-leaders-1631943",
+              "source_id": "albawaba.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:49:12.622652+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7572751045227051,
+            "article": {
+              "title": "İran, Hamaney'e veda ediyor! 5 şehir ve 2 ülkede cenaze töreni: 20 milyon kişi katılacak",
+              "url": "https://www.milliyet.com.tr/dunya/son-dakika-iran-hamaneye-veda-ediyor-5-sehir-ve-2-ulkede-cenaze-toreni-20-milyon-kisi-katilacak-7616723",
+              "source_id": "milliyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:49:11.333830+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7522784471511841,
+            "article": {
+              "title": "Guerre au Moyen-Orient : la dépouille de l’ancien guide suprême Ali Khamenei est arrivée à Téhéran",
+              "url": "https://www.rtbf.be/article/guerre-au-moyen-orient-l-iran-se-prepare-aux-funerailles-de-l-ancien-guide-supreme-ali-khamenei-11751948",
+              "source_id": "rtbf.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:47:39.258293+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7477027177810669,
+            "article": {
+              "title": "4 meses após morte de líder supremo, Irã prepara funeral histórico para Ali Khamenei Cerimônias em homenagem ao aiatolá durarão seis dias a partir desta sexta (3)",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/07/ira-prepara-funeral-historico-para-ali-khamenei-quatro-meses-apos-sua-morte.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:48:10.727889+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.739243745803833,
+            "article": {
+              "title": "Iran, la prova di forza al funerale di Ali Khamenei: “Dobbiamo ribellarci”",
+              "url": "https://www.repubblica.it/esteri/2026/07/03/news/iran_la_prova_di_forza_al_funerale_di_khamenei_dobbiamo_ribellarci-425447859/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:47:47.593583+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7081251740455627,
+            "article": {
+              "title": "Iran warns US and ‘Zionist regime’ against attacks on Khamenei funeral",
+              "url": "https://www.rt.com/news/642514-iran-khamenei-funeral-warning/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:50:08.224506+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6907113194465637,
+            "article": {
+              "title": "Body of Ali Khamenei reported to have been moved in public for first time since assassination",
+              "url": "https://www.thenationalnews.com/news/mena/2026/07/03/body-of-ali-khamenei-allegedly-moved-in-public-for-first-time-since-assassination/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:48:59.048492+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 102.34404218027412,
+        "size": 18,
+        "n_sources": 17,
+        "n_continents": 9,
+        "continents": [
+          "Africa",
           "China",
           "East Asia",
           "Europe East",
           "Europe North",
           "Europe South",
           "Middle East",
-          "North America",
-          "Oceania",
           "South America",
           "South Asia"
         ],
-        "coherence": 0.822354793548584,
-        "title": "Venezuela earthquake survivor pulled from rubble after eight days",
+        "coherence": 0.8195804357528687,
+        "title": "France records nearly 30% increase in deaths during June heatwave",
         "central_article": {
-          "title": "Venezuela earthquake survivor pulled from rubble after eight days",
-          "url": "https://www.abc.net.au/news/2026-07-03/earthquake-rescue/106872998",
-          "source_id": "abc.net.au",
-          "continent": "Oceania",
+          "title": "France records nearly 30% increase in deaths during June heatwave",
+          "url": "https://www.euronews.com/health/2026/07/03/france-records-nearly-30-increase-in-deaths-during-junes-heatwave",
+          "source_id": "euronews.com",
+          "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-07-02T20:12:27.481113+00:00"
+          "scraped_at_utc": "2026-07-03T09:46:35.481324+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.911849319934845,
+            "sim_to_centroid": 0.9023500680923462,
             "article": {
-              "title": "Venezuela earthquake survivor pulled from rubble after eight days",
-              "url": "https://www.abc.net.au/news/2026-07-03/earthquake-rescue/106872998",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:12:27.481113+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9115132689476013,
-            "article": {
-              "title": "Survivor pulled from rubble eight days after Venezuela earthquakes",
-              "url": "https://www.smh.com.au/world/south-america/survivor-pulled-from-rubble-eight-days-after-venezuela-earthquakes-20260703-p60c7d.html",
-              "source_id": "smh.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:12:30.818152+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8961672186851501,
-            "article": {
-              "title": "Venezuelan man pulled alive from rubble after eight days",
-              "url": "https://www.channel4.com/news/venezuelan-man-pulled-alive-from-rubble-after-eight-days",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:09:51.662116+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8897985816001892,
-            "article": {
-              "title": "Venezuela quake survivor pulled out alive after eight days",
-              "url": "https://www.bbc.com/news/articles/ce375v12z0qo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:09:45.072996+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8850686550140381,
-            "article": {
-              "title": "‘Miracle’: Trapped man rescued eight days after Venezuela earthquakes",
-              "url": "https://www.aljazeera.com/news/2026/7/2/miracle-trapped-man-rescued-eight-days-after-venezuela-earthquakes",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:12:42.523540+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8842725157737732,
-            "article": {
-              "title": "Rescuers save ‘miracle’ man trapped for eight days after Venezuela quake",
-              "url": "https://www.thetimes.com/world/latin-america/article/venezuela-earthquake-death-toll-rescue-3bqcwdvqc",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:09:47.894902+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8818293809890747,
-            "article": {
-              "title": "‘Truly a miracle’: Venezuelan man rescued from rubble 8 days after twin quakes",
-              "url": "https://www.scmp.com/news/world/americas/article/3359219/venezuelan-man-rescued-rubble-8-days-after-deadly-quakes-truly-miracle?module=latest&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:15:25.157498+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8615707755088806,
-            "article": {
-              "title": "8. günde enkazdan sağ çıkarıldı! Venezuela'da hayata böyle el uzattı",
-              "url": "https://www.milliyet.com.tr/dunya/8-gunde-enkazdan-sag-cikarildi-venezuelada-hayata-boyle-el-uzatti-7616426",
-              "source_id": "milliyet.com.tr",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:12:57.635621+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8606334924697876,
-            "article": {
-              "title": "Vigilante é resgatado com vida 8 dias após tremores na Venezuela",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/07/vigilante-e-resgatado-com-vida-apos-8-dias-dos-terremotos-na-venezuela.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:52.960440+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8585747480392456,
-            "article": {
-              "title": "В Венесуэле нашли выжившего спустя восемь дней после землетрясения",
-              "url": "https://ria.ru/20260702/venesuela-2102406152.html",
-              "source_id": "ria.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:13:47.813726+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.858229398727417,
-            "article": {
-              "title": "Security guard rescued from building basement eight days after Venezuela earthquakes",
-              "url": "https://www.france24.com/en/americas/20260702-security-guard-rescued-from-building-basement-eight-days-after-venezuela-earthquakes",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:01.001318+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8562875986099243,
-            "article": {
-              "title": "Venezuelan security guard pulled alive from building basement 8 days after twin quakes",
-              "url": "https://apnews.com/article/venezuela-earthquake-survivor-gil-flores-security-guard-ecb4f8db7608e16dd09bcca962a35bc8",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:14:51.130572+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8562875390052795,
-            "article": {
-              "title": "Venezuelan security guard pulled alive from building basement 8 days after twin quakes",
-              "url": "https://www.channelnewsasia.com/world/venezuela-earthquake-security-guard-pulled-alive-8-days-after-6228161",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:16:57.312590+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8514066934585571,
-            "article": {
-              "title": "Venezuelan security guard pulled alive from rubble days after quakes",
-              "url": "https://www.euronews.com/2026/07/02/venezuelan-security-guard-pulled-alive-from-basement-eight-days-after-twin-quakes",
+              "title": "France records nearly 30% increase in deaths during June heatwave",
+              "url": "https://www.euronews.com/health/2026/07/03/france-records-nearly-30-increase-in-deaths-during-junes-heatwave",
               "source_id": "euronews.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:09:53.307408+00:00"
+              "scraped_at_utc": "2026-07-03T09:46:35.481324+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8429768085479736,
+            "sim_to_centroid": 0.8716033697128296,
             "article": {
-              "title": "Hernán Gil fue rescatado con vida tras pasar ocho días bajo los escombros en Venezuela",
-              "url": "https://www.laestrella.com.pa/mundo/hernan-gil-fue-rescatado-con-vida-tras-pasar-ocho-dias-bajo-los-escombros-en-venezuela-CB23775766",
-              "source_id": "laestrella.com.pa",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:42.116507+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8392387628555298,
-            "article": {
-              "title": "Hernán Gil, rescatado con vida tras ocho días atrapado bajo los escombros en Venezuela",
-              "url": "https://www.lavanguardia.com/internacional/20260702/11582128/cientos-rescatistas-rescatan-hernan-gil-ocho-dias-atrapado-escombros-venezuela.html",
-              "source_id": "lavanguardia.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:20.260644+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8384642601013184,
-            "article": {
-              "title": "Medio mundo al rescate de Hernán: un venezolano sale con vida de entre los escombros tras ocho días sepultado",
-              "url": "https://elpais.com/america/2026-07-02/medio-mundo-al-rescate-de-hernan-mas-de-100-personas-de-10-paises-tratan-de-salvar-a-un-venezolano-tras-una-semana-bajo-los-escombros.html",
-              "source_id": "elpais.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:18.455323+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8353161215782166,
-            "article": {
-              "title": "\"¡Un milagro!\": el extraordinario rescate de Hernán, el hombre que estuvo 8 días bajo los escombros después de los terremotos de Venezuela",
-              "url": "https://www.bbc.com/mundo/articles/cpd351vpl08o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:30.329457+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8310599327087402,
-            "article": {
-              "title": "Após 8 dias sob escombros, venezuelano é resgatado com vida em La Guaira",
-              "url": "https://oglobo.globo.com/mundo/noticia/2026/07/02/apos-oito-dias-preso-sob-escombros-venezuelano-e-resgatado-com-vida-em-la-guaira-a-mais-devastada-pelos-terremotos.ghtml",
-              "source_id": "oglobo.globo.com",
+              "title": "Francia registra un aumento del 30% en las muertes en plena ola de calor",
+              "url": "https://www.latercera.com/mundo/noticia/francia-registra-un-aumento-del-30-en-las-muertes-en-plena-ola-de-calor/",
+              "source_id": "latercera.com",
               "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:55.960083+00:00"
+              "scraped_at_utc": "2026-07-03T09:48:18.879953+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8281475305557251,
+            "sim_to_centroid": 0.8691614270210266,
             "article": {
-              "title": "Ocho días sepultado tras los terremotos: el rescate de Hernán Gil devuelve la esperanza a Venezuela",
-              "url": "https://www.rtve.es/noticias/20260702/rescatan-a-superviviente-terremotos-venezuela-tras-ocho-dias-bajo-escombros/17141227.shtml",
-              "source_id": "rtve.es",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:22.891658+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8118438720703125,
-            "article": {
-              "title": "Terremotos en Venezuela: rescatan con vida a Hernán Gil, vigilante que estaba atrapado bajo los escombros",
-              "url": "https://www.eltiempo.com/mundo/venezuela/rescatan-con-vida-a-hernan-gil-el-vigilante-que-llevaba-mas-de-una-semana-atrabado-bajo-los-escombros-por-los-terremotos-en-venezuela-3568466",
-              "source_id": "eltiempo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:45.691625+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8067739009857178,
-            "article": {
-              "title": "Venezuela'daki depremden mucize kurtuluş: 8. günde enkaz altından sağ çıkarıldı! Hayata böyle el salladı",
-              "url": "https://www.hurriyet.com.tr/dunya/venezueladaki-depremden-mucize-kurtulus-8-gun-sonra-enkaz-altindan-sag-cikarildi-hayata-boyle-el-salladi-43226757",
-              "source_id": "hurriyet.com.tr",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:12:54.546400+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7850878834724426,
-            "article": {
-              "title": "Security guard rescued after 7 days beneath collapsed mall debris in Venezuela",
-              "url": "https://www.hindustantimes.com/world-news/venezuela-earthquakes-security-guard-survives-7-days-beneath-collapsed-mall-rescued-alive-101783007330423.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:15:58.167706+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7458802461624146,
-            "article": {
-              "title": "Hernán Gil, el venezolano rescatado tras ocho días entre los escombros, está en observación en una clínica de Caracas",
-              "url": "https://elcomercio.pe/mundo/venezuela/terremotos-en-venezuela-hernan-gil-el-venezolano-rescatado-tras-ocho-dias-entre-los-escombros-esta-en-observacion-en-una-clinica-de-caracas-la-guaira-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:12:00.914352+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7431207299232483,
-            "article": {
-              "title": "Acht dagen onder puin, toch nog gered: zo overleefde Hernan (43)",
-              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5623501/overleven-na-dagen-onder-puin-na-aardbevingen",
-              "source_id": "rtl.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:09:59.780544+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7290909886360168,
-            "article": {
-              "title": "A week after Venezuela's quakes, one missed call is keeping hope alive",
-              "url": "https://www.sbs.com.au/news/article/venezuela-earthquakes-missed-call-rubble-search/8udwj0dnt",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:12:29.359752+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7288259267807007,
-            "article": {
-              "title": "Nyolc napig volt a romok alatt egy venezuelai pláza biztonsági őre, míg végül élve kimentették A 43 éves Hernán Alberto Gil Flores úgy élte túl a földrengést, hogy szolgálati helyén, egy kis kabinban volt, ami megvédte a lezúduló törmelékektől.",
-              "url": "https://nepszava.hu/3328084_venezuela-tulelo-romok-foldrenges-bevasarlokozpont",
-              "source_id": "nepszava.hu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:13:24.216750+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7263222932815552,
-            "article": {
-              "title": "Los españoles supervivientes de los terremotos en Venezuela: \"Acabé sepultado bajo mi casa y me rescató un vecino\"",
-              "url": "https://www.rtve.es/noticias/20260702/espanoles-supervivientes-terremotos-venezuela-acabe-sepultado-bajo-casa-rescato-vecino/17140054.shtml",
-              "source_id": "rtve.es",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:22.891658+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7256855368614197,
-            "article": {
-              "title": "Mundo Venezolano sobrevivió a terremoto escondido debajo de mesa y esperó una semana por el rescate",
-              "url": "https://www.crhoy.com/mundo/venezolano-sobrevivio-a-terremoto-escondido-debajo-de-mesa-y-espero-una-semana-por-el-rescate/",
-              "source_id": "crhoy.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:39.491389+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7158075571060181,
-            "article": {
-              "title": "國際 委內瑞拉強震夷平建築 警衛受困8天奇蹟獲救",
-              "url": "https://www.cna.com.tw/news/aopl/202607030005.aspx",
-              "source_id": "cna.com.tw",
+              "title": "At least 3,700 excess deaths reported during heatwave in France, Belgium, Netherlands",
+              "url": "https://www.bangkokpost.com/world/3280527/at-least-3700-excess-deaths-reported-during-heatwave-in-france-belgium-and-netherlands",
+              "source_id": "bangkokpost.com",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:17:28.459761+00:00"
+              "scraped_at_utc": "2026-07-03T09:53:24.606003+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6958669424057007,
+            "sim_to_centroid": 0.8646985292434692,
             "article": {
-              "title": "How to help those impacted by the Venezuela earthquakes",
-              "url": "https://apnews.com/article/venezuela-earthquakes-red-cross-how-to-help-fc64bb65cd2da3c9206a37b74e89d3f7",
-              "source_id": "apnews.com",
-              "continent": "North America",
+              "title": "At least 3,700 excess deaths reported during heatwave in France, Belgium and Netherlands",
+              "url": "https://www.thestar.com.my/news/world/2026/07/03/at-least-3700-excess-deaths-reported-during-heatwave-in-france-belgium-and-netherlands",
+              "source_id": "thestar.com.my",
+              "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:14:51.130572+00:00"
+              "scraped_at_utc": "2026-07-03T09:53:31.567340+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8633509278297424,
+            "article": {
+              "title": "Antallet af døde steg med 30 procent i Frankrig under hedebølge",
+              "url": "https://www.dr.dk/nyheder/udland/antallet-af-doede-steg-med-30-procent-i-frankrig-under-hedeboelge",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:47:19.780839+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8575502634048462,
+            "article": {
+              "title": "Во Франции более двух тысяч человек умерли за неделю из-за аномальной жары",
+              "url": "https://ria.ru/20260703/rist-2102503590.html",
+              "source_id": "ria.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:50:13.474329+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8504230976104736,
+            "article": {
+              "title": "Frankrike: Fler döda efter värmebölja",
+              "url": "https://www.dn.se/direkt/2026-07-03/frankrike-fler-doda-efter-varmebolja/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:47:11.364515+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8404921293258667,
+            "article": {
+              "title": "法国6月热浪期间全因超额死亡人数超2000",
+              "url": "https://www.xinhuanet.com/20260703/33ccf650851d43a0b98a2ce789fede3c/c.html",
+              "source_id": "xinhuanet.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:51:47.958879+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8397629857063293,
+            "article": {
+              "title": "WORLD France deaths rose by 30% during heatwave",
+              "url": "https://myrepublica.nagariknetwork.com/news/france-deaths-rose-by-30-during-heatwave-29-97.html",
+              "source_id": "myrepublica.nagariknetwork.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:52:30.328132+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8323993682861328,
+            "article": {
+              "title": "Ruim 2000 extra doden in Frankrijk tijdens 'historische' hittegolf",
+              "url": "https://nos.nl/artikel/2621452-ruim-2000-extra-doden-in-frankrijk-tijdens-historische-hittegolf",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:46:37.976800+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8241778612136841,
+            "article": {
+              "title": "France records 2,025 excess deaths in June heatwave",
+              "url": "https://www.france24.com/en/france/20260703-france-records-2-025-excess-deaths-in-june-heatwave",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:47:33.903167+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8143613338470459,
+            "article": {
+              "title": "1,000 dead and counting: Shocking heatwave toll threatens to topple French government",
+              "url": "https://www.egyptindependent.com/1000-dead-and-counting-shocking-heatwave-toll-threatens-to-topple-french-government/",
+              "source_id": "egyptindependent.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:51:01.193691+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8110493421554565,
+            "article": {
+              "title": "Valul de caniculă a contribuit la cel puțin 3.700 de decese în Franța, Belgia și Olanda",
+              "url": "https://www.g4media.ro/valul-de-canicula-a-contribuit-la-cel-putin-3-700-de-decese-in-franta-belgia-si-olanda.html",
+              "source_id": "g4media.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:49:47.805618+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7878193855285645,
+            "article": {
+              "title": "Presque 30 % de décès en plus enregistrés en France la semaine du 22 juin, au pic de la canicule",
+              "url": "https://www.lemonde.fr/societe/article/2026/07/03/canicule-de-juin-les-deces-ont-augmente-de-presque-30-selon-sante-publique-france_6718477_3224.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:47:29.198509+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.771830677986145,
+            "article": {
+              "title": "Tom Nicholson / REUTERS,NTB Over 2000 ekstra dødsfall under hetebølgen i Frankrike Hetebølge og varmerekorder Følg saken",
+              "url": "https://www.nrk.no/nyheter/hetebolge-og-varmerekorder-1.14638111",
+              "source_id": "nrk.no",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:47:18.390900+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7359217405319214,
+            "article": {
+              "title": "فرنسا تُسجّل 2025 وفاة إضافية بسبب موجة الحر",
+              "url": "https://www.annahar.com/international/europe/326368/فرنسا-تسجل-2025-وفاة-إضافية-بسبب-موجة-الحر",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:49:30.680751+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7210922837257385,
+            "article": {
+              "title": "Belgium deaths spiked by 39% in June heatwave Belgium deaths spiked by 39% in June heatwave",
+              "url": "https://myrepublica.nagariknetwork.com/news/belgium-deaths-spiked-by-39-in-june-heatwave-55-61.html",
+              "source_id": "myrepublica.nagariknetwork.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:52:30.328132+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6944034099578857,
+            "article": {
+              "title": "Longer, hotter heatwaves leading to rise in heat stress around the world",
+              "url": "https://www.africanews.com/2026/06/23/longer-hotter-heatwaves-leading-to-rise-in-heat-stress-around-the-world/",
+              "source_id": "africanews.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:50:55.665205+00:00"
             }
           }
         ]
       },
       {
-        "score": 154.22181103862962,
-        "size": 32,
-        "n_sources": 28,
-        "n_continents": 9,
+        "score": 77.24871799784437,
+        "size": 24,
+        "n_sources": 19,
+        "n_continents": 7,
         "continents": [
           "East Asia",
           "Europe East",
@@ -387,1415 +546,1389 @@
           "Europe South",
           "Middle East",
           "North America",
-          "Oceania",
-          "South America",
-          "South Asia"
+          "Oceania"
         ],
-        "coherence": 0.801792562007904,
-        "title": "Russia bombards Kyiv in one of war's biggest strikes, at least 21 people killed",
+        "coherence": 0.7913362383842468,
+        "title": "Russia bombards Kyiv in deadliest strike this year, killing at least 30 people",
         "central_article": {
-          "title": "Russia bombards Kyiv in one of war's biggest strikes, at least 21 people killed",
-          "url": "https://www.channelnewsasia.com/world/russia-bombards-kyiv-in-one-wars-biggest-strikes-least-21-people-killed-6228626",
-          "source_id": "channelnewsasia.com",
+          "title": "Russia bombards Kyiv in deadliest strike this year, killing at least 30 people",
+          "url": "https://www.japantimes.co.jp/news/2026/07/03/world/kyiv-barrage-largest-ever/",
+          "source_id": "japantimes.co.jp",
           "continent": "East Asia",
           "published_at": null,
-          "scraped_at_utc": "2026-07-02T20:16:57.312590+00:00"
+          "scraped_at_utc": "2026-07-03T09:53:05.507024+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8811322450637817,
+            "sim_to_centroid": 0.8970091342926025,
             "article": {
-              "title": "Russia bombards Kyiv in one of war's biggest strikes, at least 21 people killed",
-              "url": "https://www.channelnewsasia.com/world/russia-bombards-kyiv-in-one-wars-biggest-strikes-least-21-people-killed-6228626",
-              "source_id": "channelnewsasia.com",
+              "title": "Russia bombards Kyiv in deadliest strike this year, killing at least 30 people",
+              "url": "https://www.japantimes.co.jp/news/2026/07/03/world/kyiv-barrage-largest-ever/",
+              "source_id": "japantimes.co.jp",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:16:57.312590+00:00"
+              "scraped_at_utc": "2026-07-03T09:53:05.507024+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8738378286361694,
+            "sim_to_centroid": 0.8731117248535156,
             "article": {
-              "title": "Russia launches major attack on Kyiv, killing at least 21",
-              "url": "https://www.theglobeandmail.com/world/article-russia-strikes-kyiv-ukraine-drones-missiles/",
+              "title": "Rescuers search for survivors as Kyiv mourns at least 30 killed in Russian attack",
+              "url": "https://www.theglobeandmail.com/world/article-ukraine-kyiv-survivors-russia-attack/",
               "source_id": "theglobeandmail.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:12:25.847083+00:00"
+              "scraped_at_utc": "2026-07-03T09:48:41.967118+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8608970642089844,
-            "article": {
-              "title": "Kyiv 'night of horror' as at least 21 killed in Russian attacks across Ukraine",
-              "url": "https://www.abc.net.au/news/2026-07-02/russia-strikes-central-kyiv-death-toll/106870544",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:12:27.481113+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8571016788482666,
-            "article": {
-              "title": "Russian intense attack kills 13, injures at least 56 in Kyiv",
-              "url": "https://www.albawaba.com/news/russian-intense-attack-kills-10-injures-1631922",
-              "source_id": "albawaba.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:12:58.880727+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8567830324172974,
-            "article": {
-              "title": "Russia conducts deadly missile, drone strikes on Kyiv after Zelensky warns of ‘massive attack’",
-              "url": "https://www.france24.com/en/europe/20260701-fire-breaks-out-in-central-kyiv-after-explosion-during-air-raid-alert",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:01.001318+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8555464148521423,
+            "sim_to_centroid": 0.8472957015037537,
             "article": {
               "title": "Kyiv targeted in deadly Russian strikes",
               "url": "https://www.channel4.com/news/kyiv-targeted-in-deadly-russian-strikes",
               "source_id": "channel4.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:09:51.662116+00:00"
+              "scraped_at_utc": "2026-07-03T09:46:34.016025+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8439570665359497,
+            "sim_to_centroid": 0.8315370082855225,
             "article": {
-              "title": "Zerstörte Häuser in Kiew Ukraine meldet massive russische Angriffe - mehrere Tote",
-              "url": "https://www.tagesschau.de/ausland/europa/ukraine-angriff-120.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
+              "title": "Heavy Russian strikes kill at least 21 in Kyiv after Ukrainian strikes disrupt Moscow's oil sector",
+              "url": "https://www.pbs.org/newshour/world/heavy-russian-strikes-kill-at-least-21-in-kyiv-after-ukrainian-strikes-disrupt-moscows-oil-sector",
+              "source_id": "pbs.org",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:10:04.293634+00:00"
+              "scraped_at_utc": "2026-07-03T09:51:36.756066+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.841449499130249,
+            "sim_to_centroid": 0.8308310508728027,
             "article": {
-              "title": "At least 22 killed in Kyiv as Zelenskyy warns of ‘massive Russian strike’",
-              "url": "https://www.aljazeera.com/news/2026/7/2/kyiv-attacked-after-ukraines-zelenskyy-warns-of-massive-russian-strike",
-              "source_id": "aljazeera.com",
+              "title": "Death toll of Russian strikes on Kyiv rises to 21 killed, nearly 90 injured",
+              "url": "https://www.albawaba.com/news/death-toll-russian-strikes-kyiv-rises-21-1631977",
+              "source_id": "albawaba.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:12:42.523540+00:00"
+              "scraped_at_utc": "2026-07-03T09:49:12.622652+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8412570357322693,
+            "sim_to_centroid": 0.8197750449180603,
             "article": {
-              "title": "Russian strikes kill 17 in largest ever attack on Kyiv, mayor says",
-              "url": "https://www.japantimes.co.jp/news/2026/07/02/world/kyiv-barrage-largest-ever/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:16:58.817592+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8412214517593384,
-            "article": {
-              "title": "Russia Bombards Ukrainian Capital With Deadly Wave of Attacks",
-              "url": "https://www.nytimes.com/2026/07/02/world/europe/russia-attack-on-kyiv.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:14:52.718002+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8386769890785217,
-            "article": {
-              "title": "'Night of hell': Ukraine, Russia vow escalation after massive attack kills dozens in Kyiv",
-              "url": "https://www.france24.com/en/europe/20260702-night-of-hell-ukraine-russia-vow-escalation-after-massive-attack-kills-21-in-kyiv",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:01.001318+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.836198091506958,
-            "article": {
-              "title": "Dejan al menos 18 muertos ataques de Rusia en Kiev",
-              "url": "https://www.reforma.com/dejan-al-menos-21-muertos-ataques-de-rusia-en-kiev/ar3233317?v=6",
-              "source_id": "reforma.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:32.868856+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8312678337097168,
-            "article": {
-              "title": "'Serious destruction' — massive Russian missile, drone attack on Kyiv kills at least 27, injures over 90.",
-              "url": "https://kyivindependent.com/explosions-rock-kyiv-as-ukraine-braces-for-russias-next-bombardment/",
-              "source_id": "kyivindependent.com",
+              "title": "Harminc halott a Kijev ellen idén végrehajtott leghalálosabb orosz támadásban",
+              "url": "https://telex.hu/kulfold/2026/07/03/orosz-ukran-haboru-kijev-tamadas",
+              "source_id": "telex.hu",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:13:35.304043+00:00"
+              "scraped_at_utc": "2026-07-03T09:49:38.641113+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8284958600997925,
+            "sim_to_centroid": 0.8167027235031128,
+            "article": {
+              "title": "Kievul continuă operațiunile de salvare după atacul devastator al Rusiei, în timp ce ucrainenii jelesc zeci de morți",
+              "url": "https://www.g4media.ro/kievul-continua-operatiunile-de-salvare-dupa-atacul-devastator-al-rusiei-in-timp-ce-ucrainenii-jelesc-zeci-de-morti.html",
+              "source_id": "g4media.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:49:47.805618+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8162642121315002,
+            "article": {
+              "title": "Russia pounds Kyiv with missiles and drones after Ukraine's strikes on oil infrastructure",
+              "url": "https://www.pbs.org/newshour/show/russia-pounds-kyiv-with-missiles-and-drones-after-ukraines-strikes-on-oil-infrastructure",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:51:36.756066+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.816064178943634,
             "article": {
               "title": "Russia Launches Drone and Missile Attack on Kyiv in Deadly 'Night of Horror'",
               "url": "https://time.com/article/2026/07/02/russia-drone-missile-attack-kyiv-ukraine-death-toll/",
               "source_id": "time.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:15:21.113642+00:00"
+              "scraped_at_utc": "2026-07-03T09:51:34.466097+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8162828683853149,
+            "sim_to_centroid": 0.8084288835525513,
             "article": {
-              "title": "Ukraine war latest: 'Serious destruction' — massive Russian missile, drone attack on Kyiv kills at least 27, injures over 90.",
-              "url": "https://kyivindependent.com/ukraine-war-latest-serious-destruction-massive-russian-missile-drone-attack-on-kyiv-kills-at-least-22-injures-nearly-90/",
+              "title": "Ukraine and Russia both vow to escalate conflict after Russian strikes on Kyiv kill 25",
+              "url": "https://www.sbs.com.au/news/article/ukraine-russia-escalate-conflict-strikes-kill-25/gyvxj86xw",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:48:44.699540+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8079545497894287,
+            "article": {
+              "title": "Schwerste russische Angriffswelle auf Kiew seit Kriegsbeginn",
+              "url": "https://www.diepresse.com/34736796/schwerste-russische-angriffswelle-auf-kiew-seit-kriegsbeginn",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:46:58.708380+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8005952835083008,
+            "article": {
+              "title": "'Serious destruction' — massive Russian missile, drone attack on Kyiv kills at least 30, injures over 90.",
+              "url": "https://kyivindependent.com/explosions-rock-kyiv-as-ukraine-braces-for-russias-next-bombardment/",
               "source_id": "kyivindependent.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:13:35.304043+00:00"
+              "scraped_at_utc": "2026-07-03T09:50:01.911410+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8106186389923096,
+            "sim_to_centroid": 0.7989371418952942,
             "article": {
-              "title": "8 killed, 34 injured in Russian strikes on Kyiv",
-              "url": "https://pajhwok.com/2026/07/02/8-killed-34-injured-in-russian-strikes-on-kyiv/",
-              "source_id": "pajhwok.com",
-              "continent": "South Asia",
+              "title": "Four killed in Ukraine a day after deadliest Russian attacks this year",
+              "url": "https://www.aljazeera.com/news/2026/7/3/four-killed-in-ukraine-a-day-after-deadliest-russian-attacks-this-year",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:16:26.834209+00:00"
+              "scraped_at_utc": "2026-07-03T09:48:57.610451+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8019315004348755,
+            "sim_to_centroid": 0.7854186296463013,
+            "article": {
+              "title": "В Киеве число погибших в результате российского удара увеличилось до 30 человек",
+              "url": "https://meduza.io/news/2026/07/03/v-kieve-chislo-pogibshih-v-rezultate-rossiyskogo-udara-uvelichilos-do-30-chelovek",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:50:03.016150+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7785100936889648,
             "article": {
               "title": "At least 13 killed after 'most massive' assault on Ukrainian capital since Russia's invasion",
               "url": "https://www.sbs.com.au/news/article/at-least-13-killed-after-most-massive-assault-on-ukrainian-capital-since-russias-invasion/5d82ikg5v",
               "source_id": "sbs.com.au",
               "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:12:29.359752+00:00"
+              "scraped_at_utc": "2026-07-03T09:48:44.699540+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7949924468994141,
+            "sim_to_centroid": 0.7783551812171936,
             "article": {
-              "title": "OBRAZEM: Rusko pod tlakem. Masivní útok na Kyjev je pomstou za nálety na Moskvu",
-              "url": "https://www.idnes.cz/zpravy/zahranicni/rusko-ukrajina-valka-boje-utok-kyjev-pomsta-dron-raketa.A260702_093846_zahranicni_herp",
-              "source_id": "idnes.cz",
+              "title": "Kyiv Mourns 30 Killed After Russian Missile Pulverizes 64 Apartments in Ordinary High-Rise",
+              "url": "https://www.kyivpost.com/post/79469",
+              "source_id": "kyivpost.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:13:19.528563+00:00"
+              "scraped_at_utc": "2026-07-03T09:50:00.225360+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7947478294372559,
+            "sim_to_centroid": 0.7770700454711914,
             "article": {
-              "title": "Russland fliegt heftige Luftangriffe auf ukrainische Städte",
-              "url": "https://www.zdfheute.de/politik/ausland/krieg-ukraine-heftige-russische-luftangriffe-auf-ukrainische-staedte-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:10:22.666577+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7688208222389221,
-            "article": {
-              "title": "Guerra da Ucrânia Mulher lamenta destruição de edifício em Kiev atingido por ataque russo; mega-ataque de Moscou provocou pelo menos 25 mortes na capital - Viacheslav Ratinski/Reuters",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/07/russia-faz-mega-ataque-contra-kiev-polonia-mobiliza-cacas.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:52.960440+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7677184343338013,
-            "article": {
-              "title": "Raid russo su Kiev, almeno 25 morti: «Colpito anche un pronto soccorso». L'Ucraina: «Dateci i Patriot»",
-              "url": "https://www.corriere.it/esteri/diretta-live/26_luglio_02/ucraina-russia-guerra-notizie.shtml",
-              "source_id": "corriere.it",
+              "title": "Ticker vor Tote und Verletzte bei neuen russischen Angriffen auf die Ukraine +++ Kiew ruft für Freitag Trauertag aus",
+              "url": "https://www.nzz.ch/international/tote-und-verletzte-bei-neuen-russischen-angriffen-auf-die-ukraine-kiew-ruft-fuer-freitag-trauertag-aus-ld.10009803",
+              "source_id": "nzz.ch",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:27.582419+00:00"
+              "scraped_at_utc": "2026-07-03T09:47:06.201053+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7644297480583191,
+            "sim_to_centroid": 0.7655463218688965,
             "article": {
-              "title": "Zelenskyj varoval pred masívnym útokom. O pár hodín Rusko zasiahlo Kyjev raketami a dronmi",
-              "url": "https://www.sme.sk/svet/c/zelenskyj-varoval-pred-masivnym-utokom-o-par-hodin-rusko-zasiahlo-kyjev-raketami-a-dronmi",
-              "source_id": "sme.sk",
+              "title": "Ukraine Strikes Belgorod Energy Facilities After Deadly Russian Attack on Kyiv",
+              "url": "https://www.kyivpost.com/post/79482",
+              "source_id": "kyivpost.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:13:32.041481+00:00"
+              "scraped_at_utc": "2026-07-03T09:50:00.225360+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7622348070144653,
+            "sim_to_centroid": 0.7509468793869019,
             "article": {
-              "title": "Russian forces strike facilities used by Kiev for killing civilians",
-              "url": "https://tass.com/politics/2154577",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:13:46.146517+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7612661719322205,
-            "article": {
-              "title": "'Most massive' Russian attack on Kyiv kills at least 25 The latest barrage deployed the largest number of weapons on the capital and hit locations over a wide area.",
-              "url": "https://www.bbc.com/news/articles/c4gyv05gk4do",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:09:45.072996+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7566955089569092,
-            "article": {
-              "title": "Zelensky appeals for US missile deal after 27 killed in Kyiv",
+              "title": "Zelensky appeals for US missile deal after 30 killed in Kyiv",
               "url": "https://www.thetimes.com/world/russia-ukraine-war/article/russia-attack-kyiv-drones-missiles-zelensky-warning-putin-wrpb2vjls",
               "source_id": "thetimes.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:09:47.894902+00:00"
+              "scraped_at_utc": "2026-07-03T09:46:31.279495+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7561748027801514,
-            "article": {
-              "title": "Massive Russian Strike Damages DTEK Energy Facilities in Kyiv",
-              "url": "https://www.kyivpost.com/post/79444",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:13:33.589864+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7544795274734497,
-            "article": {
-              "title": "Kallas proposes new Russia sanctions after massive strikes in Kyiv",
-              "url": "https://www.politico.eu/article/kallas-proposes-new-russia-sanctions-massive-strikes-kyiv/",
-              "source_id": "politico.eu",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:09:54.744995+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7540539503097534,
-            "article": {
-              "title": "Oorlog Rusland-Oekraïne Zeker 21 doden en 87 gewonden bij \"zwaarste vijandelijke aanval ooit \" op Kiev",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/07/02/zware-aanval-rusland-oekraine-kiev-doden/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:04.875601+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7389856576919556,
+            "sim_to_centroid": 0.7340157628059387,
             "article": {
               "title": "Putin is just ‘lashing out at civilians in Kyiv’",
               "url": "https://www.channel4.com/news/putin-is-just-lashing-out-at-civilians-in-kyiv-ukrainian-journalist",
               "source_id": "channel4.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:09:51.662116+00:00"
+              "scraped_at_utc": "2026-07-03T09:46:34.016025+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7290081977844238,
+            "sim_to_centroid": 0.7285205721855164,
             "article": {
-              "title": "Russia's overnight attack destroys around 800,000 Ukrainian books.",
-              "url": "https://kyivindependent.com/around-800-000-of-ukrainian-publishers-books-destroyed-in-overnight-russian-attack/",
-              "source_id": "kyivindependent.com",
+              "title": "Сюжеты Война в Украине Нам важно спасти живое Киев пережил очередную ночную российскую атаку с воздуха, погибли не менее 30 человек. Репортаж нашего собкора Ольги Мусафировой Ольга Мусафирова 2 июля",
+              "url": "https://novayagazeta.eu/articles/2026/07/02/nam-vazhno-spasti-zhivoe",
+              "source_id": "novayagazeta.eu",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:13:35.304043+00:00"
+              "scraped_at_utc": "2026-07-03T09:50:04.490888+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7207385301589966,
+            "sim_to_centroid": 0.7257823944091797,
             "article": {
-              "title": "Zmasowany atak na Kijów, Trump zrywa umowę z Kanadą i Meksykiem",
-              "url": "https://wyborcza.pl/7,75398,32890951,zmasowany-atak-na-kijow-trump-zrywa-umowe-z-kanada-i-meksykiem.html",
-              "source_id": "wyborcza.pl",
-              "continent": "Europe East",
+              "title": "‘I grabbed my child’: Kyiv residents face devastation of biggest Russian barrage of war",
+              "url": "https://www.japantimes.co.jp/news/2026/07/03/world/kyiv-residents-russian-barrage/",
+              "source_id": "japantimes.co.jp",
+              "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:13:13.251624+00:00"
+              "scraped_at_utc": "2026-07-03T09:53:05.507024+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7163604497909546,
+            "sim_to_centroid": 0.7243702411651611,
             "article": {
-              "title": "В Киеве 52 тысячи человек ночевали в метро из-за удара России. Так много еще не было",
-              "url": "https://meduza.io/news/2026/07/02/v-kieve-52-tysyacham-zhiteley-prishlos-nochevat-v-metro-iz-za-rossiyskogo-massirovannogo-udara",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:13:36.514878+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 78.29068386970043,
-        "size": 14,
-        "n_sources": 14,
-        "n_continents": 7,
-        "continents": [
-          "China",
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "South Asia"
-        ],
-        "coherence": 0.8550922274589539,
-        "title": "Bomb blast in central Damascus cafe kills several",
-        "central_article": {
-          "title": "Bomb blast in central Damascus cafe kills several",
-          "url": "https://www.france24.com/en/middle-east/20260702-bomb-blast-in-central-damascus-cafe-kills-several",
-          "source_id": "france24.com",
-          "continent": "Europe South",
-          "published_at": null,
-          "scraped_at_utc": "2026-07-02T20:11:01.001318+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9372556209564209,
-            "article": {
-              "title": "Bomb blast in central Damascus cafe kills several",
-              "url": "https://www.france24.com/en/middle-east/20260702-bomb-blast-in-central-damascus-cafe-kills-several",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:01.001318+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.92762291431427,
-            "article": {
-              "title": "Explosion at Damascus cafe kills six, authorities say",
-              "url": "https://www.newarab.com/news/explosion-damascus-cafe-kills-six-authorities-say",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:13:00.653979+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9275331497192383,
-            "article": {
-              "title": "Bomb blast at Damascus cafe kills six, Syrian state media say",
-              "url": "https://www.bbc.com/news/articles/cn0vwxyz40zo",
-              "source_id": "bbc.com",
+              "title": "42 sek Liverapport Fyra personer dödade i rysk attack – flera barn skadade Räddningsarbetet i Ukraina fortsätter",
+              "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=c05dd6a5f73dc72a6153ca384bf9bc6c",
+              "source_id": "svt.se",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:09:45.072996+00:00"
+              "scraped_at_utc": "2026-07-03T09:47:17.072166+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9156301617622375,
+            "sim_to_centroid": 0.6790274381637573,
             "article": {
-              "title": "Six killed in central Damascus cafe bombing, Syrian state TV says",
-              "url": "https://www.euronews.com/2026/07/02/explosion-heard-in-damascus-syrian-state-tv-reports",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:09:53.307408+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9006684422492981,
-            "article": {
-              "title": "Bomb blast at Damascus cafe kills 9, Syrian authorities say",
-              "url": "https://www.scmp.com/news/world/middle-east/article/3359221/bomb-blast-damascus-cafe-kills-6-syria-authorities-say?module=latest&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:15:25.157498+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8971340656280518,
-            "article": {
-              "title": "Five killed in Damascus cafe bombing (EXCLUSIVE VIDEO)",
-              "url": "https://www.rt.com/news/642494-syria-damascus-explosion/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:13:42.374114+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.882095456123352,
-            "article": {
-              "title": "Tote bei Bombenexplosion in Café in Damaskus",
-              "url": "https://www.diepresse.com/34659164/tote-bei-bombenexplosion-in-cafe-in-damaskus",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:10:20.287401+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8501170873641968,
-            "article": {
-              "title": "Une explosion a tué au moins neuf personnes dans un café du centre de Damas, selon les autorités syriennes",
-              "url": "https://www.lemonde.fr/international/article/2026/07/02/a-damas-au-moins-cinq-morts-dans-l-explosion-d-un-cafe-dans-le-centre-provoquee-par-un-engin-explosif-selon-la-television-officielle_6718037_3210.html",
-              "source_id": "lemonde.fr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:10:55.678641+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8469524383544922,
-            "article": {
-              "title": "What’s behind the deadly bombing of a crowded Damascus cafe?",
-              "url": "https://www.aljazeera.com/news/2026/7/2/whats-behind-the-deadly-bombing-of-a-crowded-damascus-cafe",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:12:42.523540+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8257306814193726,
-            "article": {
-              "title": "सीरिया की राजधानी दमिश्क के कैफे में बड़ा बम धमाका, 5 लोगों की मौत और 16 घायल",
-              "url": "https://www.jagran.com/world/other-major-bomb-blast-at-cafe-in-syria-capital-damascus-five-people-killed-40292977.html",
-              "source_id": "jagran.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:15:55.521060+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7822860479354858,
-            "article": {
-              "title": "سوريا... 7 قتلى بانفجار داخل مقهى في دمشق (فيديو)",
-              "url": "https://www.annahar.com/arab-world/arabian-levant/326213/التلفزيون-الرسمي-دوي-انفجار-في-دمشق",
+              "title": "بعد هجوم روسي... منقذون أوكرانيون يبحثون عن ناجين وكييف في حداد",
+              "url": "https://www.annahar.com/international/europe/326424/بعد-هجوم-روسي-منقذون-أوكرانيون-يبحثون-عن-ناجين-وكييف-في-حداد",
               "source_id": "annahar.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:13:05.978341+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.780576765537262,
-            "article": {
-              "title": "Bomb blast kills at least six people in Syrian capital",
-              "url": "https://www.thenationalnews.com/news/2026/07/02/several-people-injured-in-explosion-in-damascus/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:12:44.492777+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7800815105438232,
-            "article": {
-              "title": "Syria: Casualties in explosion near Palace of Justice in Damascus",
-              "url": "https://www.albawaba.com/news/syria-casualties-explosion-near-palace-1631970",
-              "source_id": "albawaba.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:12:58.880727+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7176086902618408,
-            "article": {
-              "title": "國際 大馬士革咖啡館土製炸彈爆炸 釀6死22傷",
-              "url": "https://www.cna.com.tw/news/aopl/202607030004.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:17:28.459761+00:00"
+              "scraped_at_utc": "2026-07-03T09:49:30.680751+00:00"
             }
           }
         ]
       },
       {
-        "score": 66.83338743494937,
-        "size": 17,
-        "n_sources": 16,
+        "score": 60.76419623631805,
+        "size": 13,
+        "n_sources": 12,
+        "n_continents": 7,
+        "continents": [
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "North America",
+          "Oceania",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.8352367877960205,
+        "title": "Venezuelan man pulled alive from rubble after eight days",
+        "central_article": {
+          "title": "Venezuelan man pulled alive from rubble after eight days",
+          "url": "https://www.channel4.com/news/venezuelan-man-pulled-alive-from-rubble-after-eight-days",
+          "source_id": "channel4.com",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-07-03T09:46:34.016025+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9061201214790344,
+            "article": {
+              "title": "Venezuelan man pulled alive from rubble after eight days",
+              "url": "https://www.channel4.com/news/venezuelan-man-pulled-alive-from-rubble-after-eight-days",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:46:34.016025+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8846261501312256,
+            "article": {
+              "title": "El extraordinario rescate del hombre que estuvo 8 días bajo los escombros tras los terremotos en Venezuela",
+              "url": "https://elcomercio.pe/mundo/venezuela/terremotos-en-venezuela-el-extraordinario-rescate-de-hernan-gil-el-hombre-que-estuvo-8-dias-bajo-los-escombros-tras-los-sismos-la-guaira-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:48:17.597080+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8730341196060181,
+            "article": {
+              "title": "Man who spent eight days stuck under collapsed shopping centre in Venezuela rescued alive",
+              "url": "https://www.abc.net.au/news/2026-07-03/earthquake-rescue/106872998",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:48:43.218199+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8659365177154541,
+            "article": {
+              "title": "\"¡Un milagro!\": el extraordinario rescate de Hernán, el hombre que estuvo 8 días bajo los escombros tras los terremotos en Venezuela",
+              "url": "https://www.bbc.com/mundo/articles/cpd351vpl08o",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:47:52.201490+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8586382269859314,
+            "article": {
+              "title": "В Венесуэле спустя восемь дней после землетрясения обнаружили выжившего человека",
+              "url": "https://tengrinews.kz/world_news/venesuele-spustya-vosem-dney-zemletryaseniya-obnarujili-603117/",
+              "source_id": "tengrinews.kz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:50:24.007270+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8440015316009521,
+            "article": {
+              "title": "Hernán Gil fue rescatado con vida tras pasar ocho días bajo los escombros en Venezuela",
+              "url": "https://www.laestrella.com.pa/mundo/hernan-gil-fue-rescatado-con-vida-tras-pasar-ocho-dias-bajo-los-escombros-en-venezuela-CB23775766",
+              "source_id": "laestrella.com.pa",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:48:01.130236+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8384042978286743,
+            "article": {
+              "title": "وینزویلا زلزلے کے 8 روز بعد ملبے سے 1شخص کو زندہ نکال لیا گیا",
+              "url": "https://www.nawaiwaqt.com.pk/03-Jul-2026/2007057",
+              "source_id": "nawaiwaqt.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:52:29.114714+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8319789171218872,
+            "article": {
+              "title": "Venezuela quake survivor pulled out alive after eight days Hernán Gil was trapped under a collapsed multi-storey car park. 3 hrs ago Latin America",
+              "url": "https://www.bbc.com/news/articles/ce375v12z0qo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:46:28.081950+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8092278242111206,
+            "article": {
+              "title": "「悲劇の中の奇跡」ベネズエラ地震から8日ぶり、40代男性を救出",
+              "url": "https://www.asahi.com/articles/ASV732SCSV73UHBI00KM.html?iref=comtop_7_05",
+              "source_id": "asahi.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:53:07.247153+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7923626899719238,
+            "article": {
+              "title": "Inside the 'extremely complex' operation to save a Venezuelan trapped for eight days",
+              "url": "https://www.sbs.com.au/news/article/inside-the-extremely-complex-operation-to-save-a-venezuelan-trapped-for-eight-days/ewxxzeuqa",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:48:44.699540+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.790246844291687,
+            "article": {
+              "title": "¿Cómo logró sobrevivir el venezolano Hernán Gil tras ocho días bajo escombros?: Cruzrojista lo analiza",
+              "url": "https://www.nacion.com/el-pais/como-logro-sobrevivir-el-venezolano-hernan-gil/MHJZLLHGKVBGVOJEBNYXTDDZOE/story/",
+              "source_id": "nacion.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:47:56.079318+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7839040160179138,
+            "article": {
+              "title": "মিরাকল! ভেনেজুয়েলার ভূমিকম্পের পর ধ্বংসস্তূপে আট দিন আটকে থাকার...",
+              "url": "https://bartamanpatrika.com/news/miracle-security-guard-rescued-alive-after-eight-days-trapped-in-rubble-after-venezuela-earthquake",
+              "source_id": "bartamanpatrika.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:52:19.131606+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7795959711074829,
+            "article": {
+              "title": "委內瑞拉強震夷平建築 警衛受困8天奇蹟獲救",
+              "url": "https://www.cna.com.tw/news/aopl/202607030005.aspx",
+              "source_id": "cna.com.tw",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:53:33.923874+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 52.43121865556448,
+        "size": 14,
+        "n_sources": 12,
+        "n_continents": 7,
+        "continents": [
+          "Africa",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "Oceania",
+          "South Asia"
+        ],
+        "coherence": 0.8057370781898499,
+        "title": "Spain cruise past Austria while Portugal edge Croatia into last-16",
+        "central_article": {
+          "title": "Spain cruise past Austria while Portugal edge Croatia into last-16",
+          "url": "https://www.euronews.com/2026/07/03/spain-cruise-past-austria-while-portugal-edge-croatia-wednesday-to-book-last-16-tie",
+          "source_id": "euronews.com",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-07-03T09:46:35.481324+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.901941180229187,
+            "article": {
+              "title": "Spain cruise past Austria while Portugal edge Croatia into last-16",
+              "url": "https://www.euronews.com/2026/07/03/spain-cruise-past-austria-while-portugal-edge-croatia-wednesday-to-book-last-16-tie",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:46:35.481324+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.873760998249054,
+            "article": {
+              "title": "Portugal edge Croatia to set up blockbuster Round of 16 clash with Spain",
+              "url": "https://businessday.ng/sports/article/portugal-edge-croatia-to-set-up-blockbuster-round-of-16-clash-with-spain/",
+              "source_id": "businessday.ng",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:50:52.941438+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8517036437988281,
+            "article": {
+              "title": "Portugal wins bonkers World Cup game over Croatia to reach round of 16",
+              "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/02/portugal-croatia-world-cup-live-score-lineup-watch-ronaldo-highlights/90778519007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:51:31.897672+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8443442583084106,
+            "article": {
+              "title": "World Cup 2026: Spain cruise into last 16 with win over Austria",
+              "url": "https://www.france24.com/en/sport/20260702-world-cup-2026-spain-cruise-into-last-16-with-win-over-austria",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:47:33.903167+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8413290977478027,
+            "article": {
+              "title": "Spain outclass Austria to reach World Cup last 16",
+              "url": "https://businessday.ng/sports/article/spain-outclass-austria-to-reach-world-cup-last-16/",
+              "source_id": "businessday.ng",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:50:52.941438+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.823100209236145,
+            "article": {
+              "title": "World Cup 2026: Ramos stoppage-time winner sends Portugal past Croatia into last 16",
+              "url": "https://www.france24.com/en/sport/20260703-world-cup-2026-ramos-stoppage-time-winner-sends-portugal-past-croatia-into-last-16",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:47:33.903167+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8214634656906128,
+            "article": {
+              "title": "Spain, Portugal, Switzerland advance to FIFA World Cup round of 16",
+              "url": "https://pajhwok.com/2026/07/03/spain-portugal-switzerland-advance-to-fifa-world-cup-round-of-16/",
+              "source_id": "pajhwok.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:52:32.792833+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7939927577972412,
+            "article": {
+              "title": "World Cup 2026 Ramos sends Portugal into last 16 as VAR drama caps wild finish against Croatia",
+              "url": "https://www.theguardian.com/football/2026/jul/02/portugal-croatia-world-cup-2026-last-32-match-report",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:46:32.596687+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7922356724739075,
+            "article": {
+              "title": "Ronaldo scores first World Cup knockout goal to send Portugal into last 16",
+              "url": "https://www.thenationalnews.com/sport/world-cup-2026/2026/07/03/cristiano-ronaldo-dedicates-portugals-world-cup-win-to-late-teammate-diogo-jota-we-knew-he-was-present/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:48:59.048492+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7921652793884277,
+            "article": {
+              "title": "WATCH: Switzerland reach last 16 for fourth straight World Cup, Ronaldo lifts Portugal",
+              "url": "https://www.sbs.com.au/news/article/fifa-world-cup-2026-results-july-03/0ewhnzp2y",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:48:44.699540+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7753186821937561,
+            "article": {
+              "title": "WK voetbal Portugal na zinderend duel tegen Kroatië door naar achtste finales en Spaanse keeper breekt record",
+              "url": "https://www.nrc.nl/nieuws/2026/07/03/portugal-na-zinderend-duel-tegen-kroatie-door-naar-achtste-finales-en-spaanse-keeper-breekt-record-a4931686",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:46:39.585226+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7576643228530884,
+            "article": {
+              "title": "Una España solvente minimiza a Austria y jugará contra Portugal en los octavos del Mundial",
+              "url": "https://www.lavanguardia.com/deportes/futbol/20260702/11583038/espana-solvente-minimiza-austria-planta-octavos-mundial.html",
+              "source_id": "lavanguardia.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:47:42.428186+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7228121161460876,
+            "article": {
+              "title": "فیفا ورلڈ کپ 2026 :سپین نے آسٹریا کو اورپرتگال نے کروشیا کو شکست دے ...",
+              "url": "https://www.nawaiwaqt.com.pk/03-Jul-2026/2007058",
+              "source_id": "nawaiwaqt.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:52:29.114714+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6884875297546387,
+            "article": {
+              "title": "ÖFB-Team chancenlos Oyarzabal-Doppelpack - Spanien gewinnt 3:0 gegen Österreich",
+              "url": "https://www.tagesschau.de/sport/oyarzabal-doppelpack-spanien-erteilt-oesterreich-eine-lehrstunde,wm-spielbericht-spanien-oesterreich-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:46:45.309031+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 46.61976934344741,
+        "size": 13,
+        "n_sources": 13,
         "n_continents": 6,
         "continents": [
           "Europe East",
           "Europe North",
           "Europe South",
-          "North America",
-          "Oceania",
-          "South America"
-        ],
-        "coherence": 0.827570915222168,
-        "title": "Jetzt live: Spanien führt gegen Österreich 1:0",
-        "central_article": {
-          "title": "Jetzt live: Spanien führt gegen Österreich 1:0",
-          "url": "https://www.diepresse.com/34424085/jetzt-live-spanien-fuehrt-gegen-oesterreich-10",
-          "source_id": "diepresse.com",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-07-02T20:10:20.287401+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8889601826667786,
-            "article": {
-              "title": "Jetzt live: Spanien führt gegen Österreich 1:0",
-              "url": "https://www.diepresse.com/34424085/jetzt-live-spanien-fuehrt-gegen-oesterreich-10",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:10:20.287401+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8828409910202026,
-            "article": {
-              "title": "EN VIVO: España vs. Austria",
-              "url": "https://www.laestrella.com.pa/deportes/futbol/en-vivo-espana-vs-austria-FO23783240",
-              "source_id": "laestrella.com.pa",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:42.116507+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8826566338539124,
-            "article": {
-              "title": "España se adelanta a Austria con un gol de Oyarzabal (1-0)",
-              "url": "https://elpais.com/deportes/mundial-futbol/2026-07-02/espana-austria-en-directo-partido-de-dieciseisavos-del-mundial-2026-en-vivo.html",
-              "source_id": "elpais.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:18.455323+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8752138614654541,
-            "article": {
-              "title": "España 1 - 0 Austria, dieciseisavos de final: Oyarzabal adelanta a 'La Roja'",
-              "url": "https://www.rtve.es/deportes/20260702/mundial-2026-espana-austria-directo-video-resumen-resultado-dieciseisavos-final/17138331.shtml",
-              "source_id": "rtve.es",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:22.891658+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.870468258857727,
-            "article": {
-              "title": "Una gran España manda en el marcador ante Austria tras un gol de Oyarzabal (1-0)",
-              "url": "https://www.lavanguardia.com/deportes/futbol/20260702/11581855/espana-austria-mundial-2026-selecciones-partido-futbol-hoy-en-directo.html",
-              "source_id": "lavanguardia.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:20.260644+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8694679737091064,
-            "article": {
-              "title": "Spanien führt verdient gegen Österreich",
-              "url": "https://www.welt.de/sport/fussball/wm/article6a46a5952a7c6edbda63d765/sechzehntelfinale-spanien-fuehrt-verdient-gegen-oesterreich.html",
-              "source_id": "welt.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:10:12.047353+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8669366836547852,
-            "article": {
-              "title": "Spain vs Austria live updates: La Roja pushing for World Cup knockout win",
-              "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/07/02/spain-austria-live-world-cup-score-lineups-watch/90778518007/",
-              "source_id": "usatoday.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:15:17.182551+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8497864007949829,
-            "article": {
-              "title": "Oyarzabal scores for Spain after goal disallowed against Austria",
-              "url": "https://www.smh.com.au/sport/soccer/fifa-world-cup-2026-live-updates-spain-take-on-austria-as-portugal-prepare-for-croatia-switzerland-to-meet-algeria-as-round-off-32-knockout-phases-continue-20260702-p60c1u.html",
-              "source_id": "smh.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:12:30.818152+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8352402448654175,
-            "article": {
-              "title": "En vivo | España (1) vs. Austria (0), un partido trampa para una de las candidatas a ganar el Mundial",
-              "url": "https://www.eltiempo.com/deportes/futbol-internacional/en-vivo-espana-vs-austria-un-partido-trampa-para-una-de-las-candidatas-a-ganar-el-mundial-minuto-a-minuto-del-juego-de-dieciseisavos-de-final-3568539",
-              "source_id": "eltiempo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:45.691625+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.834098219871521,
-            "article": {
-              "title": "En vivo. España vs. Austria: Este gol de Oyarzabal encamina a La Roja a octavos de final en el Mundial 2026",
-              "url": "https://www.nacion.com/puro-deporte/futbol/espana-vs-austria-como-ver-a-lamine-yamal-en-un/FXFNFFEJINCANKDEQQK5NBOC6Y/story/",
-              "source_id": "nacion.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:36.258821+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7976288795471191,
-            "article": {
-              "title": "ONLINE: Španělsko - Rakousko 1:0, trefa Oyarzabala, pak zasahuje brankář Schlager",
-              "url": "https://www.idnes.cz/fotbal/mistrovstvi-sveta-ve-fotbale/spanelsko-rakousko-play-off-online-vysledek-zpravodajstvi.A260702_182230_ms-fotbal_duff",
-              "source_id": "idnes.cz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:13:19.528563+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7896360754966736,
-            "article": {
-              "title": "En Los Ángeles. España le gana con autoridad a Austria, con un gol de su goleador en el Mundial Por Augusto Sanz",
-              "url": "https://www.lanacion.com.ar/deportes/futbol/espana-vs-austria-en-vivo-por-el-mundial-2026-nid02072026/",
-              "source_id": "lanacion.com.ar",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:44.333082+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7882670164108276,
-            "article": {
-              "title": "ONLINE: Futbalisti Španielska v zápase dominujú. Proti Rakúsku sa ujímajú vedenia",
-              "url": "https://sportnet.sme.sk/spravy/spanielsko-rakusko-online-prenos-vyradovacia-faza-ms-vo-futbale-2026",
-              "source_id": "sme.sk",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:13:32.041481+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7745971083641052,
-            "article": {
-              "title": "Just nu: Österrike jagar kvittering mot Spanien",
-              "url": "https://www.dn.se/sport/folj-direkt-fotbolls-vm-2026/",
-              "source_id": "dn.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:10:34.629806+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7729790210723877,
-            "article": {
-              "title": "Coupe du monde 2026 : l’Espagne devant à la pause face à l’Autriche (1-0, direct)",
-              "url": "https://www.lesoir.be/757062/article/2026-07-02/coupe-du-monde-2026-lespagne-devant-la-pause-face-lautriche-1-0-direct",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:09.380907+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7590537071228027,
-            "article": {
-              "title": "Spain takes the lead agianst Austria as Yamal dazzles",
-              "url": "https://www.abc.net.au/news/2026-07-03/world-cup-live-updates-esp-aus-por-cro-sui-alg/106871216",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:12:27.481113+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7308748364448547,
-            "article": {
-              "title": "Dani Olmo y Pedro Porro, novedades en la alineación de España ante Austria",
-              "url": "https://www.lavanguardia.com/deportes/futbol/20260702/11582973/espana-austria-mundial-2026-alineaciones.html",
-              "source_id": "lavanguardia.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:20.260644+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 36.2664959929727,
-        "size": 9,
-        "n_sources": 9,
-        "n_continents": 6,
-        "continents": [
-          "China",
-          "Europe East",
-          "Europe North",
           "North America",
           "South America",
           "South Asia"
         ],
-        "coherence": 0.8203820586204529,
-        "title": "En video: el momento en el que una pareja rusa sube hasta lo más alto del Empire State de Nueva York",
+        "coherence": 0.7970631718635559,
+        "title": "Cifra de muertos por terremotos en Venezuela asciende a 2.595",
         "central_article": {
-          "title": "En video: el momento en el que una pareja rusa sube hasta lo más alto del Empire State de Nueva York",
-          "url": "https://www.bbc.com/mundo/articles/cq517v55n42o",
-          "source_id": "bbc.com",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-07-02T20:11:30.329457+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8660156726837158,
-            "article": {
-              "title": "En video: el momento en el que una pareja rusa sube hasta lo más alto del Empire State de Nueva York",
-              "url": "https://www.bbc.com/mundo/articles/cq517v55n42o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:30.329457+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8496072292327881,
-            "article": {
-              "title": "Couple Arrested After Climbing Empire State Building: What to Know",
-              "url": "https://time.com/article/2026/07/02/empire-state-building-climb-russian-couple/",
-              "source_id": "time.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:15:21.113642+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.840701699256897,
-            "article": {
-              "title": "“No pueden estar aquí arriba”. El momento del arresto de la pareja de rusos que subió al Empire State según lo captó una bodycam",
-              "url": "https://www.lanacion.com.ar/estados-unidos/video-asi-fue-el-arresto-de-la-pareja-de-rusos-que-subio-a-la-aguja-del-empire-state-segun-lo-capto-nid02072026/",
-              "source_id": "lanacion.com.ar",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:44.333082+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8259563446044922,
-            "article": {
-              "title": "Couple who climbed Empire State Building for proposal appears in court on felony charges",
-              "url": "https://www.independent.co.uk/news/world/americas/couple-arrested-climbing-empire-state-building-charged-felonies-b3007801.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:09:46.372670+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8142799139022827,
-            "article": {
-              "title": "वर्ल्ड अपडेट्स न्यूयॉर्क की एम्पायर स्टेट बिल्डिंग पर चढ़ा कपल, प्रपोज किया; दोनों गिरफ्तार",
-              "url": "https://www.bhaskar.com/g/international/news/world-updates-2-july-us-iran-qatar-hormuz-hezbollah-pakistan-bangladesh-breaking-news-138338085.html",
-              "source_id": "bhaskar.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:15:54.299101+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8131271004676819,
-            "article": {
-              "title": "Empire State Building stunt: Couple identified as Netflix ‘Skywalkers’ stars",
-              "url": "https://indianexpress.com/article/world/netflix-skywalkers-couple-ivan-kuznetsov-angelina-nikolau-empire-state-building-proposal-10768808/",
-              "source_id": "indianexpress.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:16:00.814482+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8102148771286011,
-            "article": {
-              "title": "2 climbers scale NYC's Empire State Building. See…",
-              "url": "https://www.usatoday.com/picture-gallery/news/nation/2026/07/01/empire-state-banner-climbers-photo/90769725007/",
-              "source_id": "usatoday.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:15:17.182551+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8014488220214844,
-            "article": {
-              "title": "俄罗斯情侣徒手爬上纽约帝国大厦塔尖 悬挂横幅高空求婚",
-              "url": "https://photos.caixin.com/2026-07-02/102460009.html",
-              "source_id": "caixin.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:15:38.724198+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7620872259140015,
-            "article": {
-              "title": "Сюжеты Общество Российские руферы развернули на Empire State Building баннер о любви и мире Анжелу и Ивана, прославившихся опасными восхождениями, арестовала полиция Нью-Йорка Новая газета Европа 2 июля",
-              "url": "https://novayagazeta.eu/articles/2026/07/02/rossiiskie-rufery-razvernuli-na-empire-state-building-banner-o-liubvi-i-mire",
-              "source_id": "novayagazeta.eu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:13:38.163438+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 35.41500458110927,
-        "size": 9,
-        "n_sources": 9,
-        "n_continents": 4,
-        "continents": [
-          "China",
-          "Europe North",
-          "North America",
-          "Oceania"
-        ],
-        "coherence": 0.8967233300209045,
-        "title": "Former Olympian indicted on felony charge over alleged Reflecting Pool vandalism",
-        "central_article": {
-          "title": "Former Olympian indicted on felony charge over alleged Reflecting Pool vandalism",
-          "url": "https://apnews.com/article/reflecting-pool-arrest-felony-trump-renovations-vandalism-d946ccf6bfc5207d4c5380b9001b7c26",
-          "source_id": "apnews.com",
+          "title": "Cifra de muertos por terremotos en Venezuela asciende a 2.595",
+          "url": "https://www.crhoy.com/mundo/cifra-de-muertos-por-terremotos-en-venezuela-asciende-a-2-595/",
+          "source_id": "crhoy.com",
           "continent": "North America",
           "published_at": null,
-          "scraped_at_utc": "2026-07-02T20:14:51.130572+00:00"
+          "scraped_at_utc": "2026-07-03T09:47:59.009734+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.958585262298584,
+            "sim_to_centroid": 0.9142704010009766,
             "article": {
-              "title": "Former Olympian indicted on felony charge over alleged Reflecting Pool vandalism",
-              "url": "https://apnews.com/article/reflecting-pool-arrest-felony-trump-renovations-vandalism-d946ccf6bfc5207d4c5380b9001b7c26",
-              "source_id": "apnews.com",
+              "title": "Cifra de muertos por terremotos en Venezuela asciende a 2.595",
+              "url": "https://www.crhoy.com/mundo/cifra-de-muertos-por-terremotos-en-venezuela-asciende-a-2-595/",
+              "source_id": "crhoy.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:14:51.130572+00:00"
+              "scraped_at_utc": "2026-07-03T09:47:59.009734+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.958585262298584,
+            "sim_to_centroid": 0.902436375617981,
             "article": {
-              "title": "Former Olympian indicted on felony charge over alleged Reflecting Pool vandalism",
-              "url": "https://www.chicagotribune.com/2026/07/02/former-olympian-indicted-reflecting-pool-vandalism/",
-              "source_id": "chicagotribune.com",
-              "continent": "North America",
+              "title": "Venezuela actualiza balance por terremotos: 2.595 muertos y proceso de identificación sigue en marcha",
+              "url": "https://www.emol.com/noticias/Internacional/2026/07/02/1204545/venezuela-actualiza-balance.html",
+              "source_id": "emol.com",
+              "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:15:19.317346+00:00"
+              "scraped_at_utc": "2026-07-03T09:48:07.960001+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9526652693748474,
+            "sim_to_centroid": 0.8948657512664795,
             "article": {
-              "title": "Ex-US Olympian indicted in what Trump called Reflecting Pool vandalism",
-              "url": "https://www.scmp.com/news/world/united-states-canada/article/3359224/ex-us-olympian-indicted-what-trump-called-reflecting-pool-vandalism?module=latest&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:15:25.157498+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9484140872955322,
-            "article": {
-              "title": "Former Olympian charged over alleged 'vandalism' of US Reflecting Pool",
-              "url": "https://www.abc.net.au/news/2026-07-03/former-olympian-david-hearn-charged-over-reflecting-pool-damage/106873506",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:12:27.481113+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8932117223739624,
-            "article": {
-              "title": "Olympic canoeist indicted after allegedly tampering with Reflecting Pool",
-              "url": "https://www.usatoday.com/story/news/nation/2026/07/02/canoeist-david-hearn-reflecting-pool-indicted/90787034007/",
-              "source_id": "usatoday.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:15:17.182551+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.893024742603302,
-            "article": {
-              "title": "Ex-Olympian who touched Reflecting Pool charged with felony destruction of property by Trump’s DOJ",
-              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-reflecting-pool-arrest-felony-b3007867.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:09:46.372670+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8919879198074341,
-            "article": {
-              "title": "Former Olympian indicted for alleged Reflecting Pool vandalism. Follow live updates.",
-              "url": "https://www.bostonglobe.com/2026/07/02/nation/trump-presidency-live-updates/",
-              "source_id": "bostonglobe.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:15:16.030795+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8692115545272827,
-            "article": {
-              "title": "Olympian Is Indicted After Arrest at Washington’s Reflecting Pool",
-              "url": "https://www.nytimes.com/2026/07/02/us/reflecting-pool-indictment-david-hearn.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:14:52.718002+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7048236131668091,
-            "article": {
-              "title": "Verden Risikerer ti års fengsel for vandalisme mot Trumps prestisjebasseng",
-              "url": "https://www.aftenposten.no/verden/i/3pRvEe/amerikansk-kanohelt-tiltalt-for-vandalisme-mot-donald-trumps-nye-prestisjebasseng",
-              "source_id": "aftenposten.no",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:10:36.383102+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 32.61889270241974,
-        "size": 9,
-        "n_sources": 9,
-        "n_continents": 6,
-        "continents": [
-          "China",
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East"
-        ],
-        "coherence": 0.7991815209388733,
-        "title": "French clash over air conditioners as another heatwave looms (VIDEOS)",
-        "central_article": {
-          "title": "French clash over air conditioners as another heatwave looms (VIDEOS)",
-          "url": "https://www.rt.com/news/642489-france-heatwave-air-conditioners-fight/",
-          "source_id": "rt.com",
-          "continent": "Europe East",
-          "published_at": null,
-          "scraped_at_utc": "2026-07-02T20:13:42.374114+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9060088396072388,
-            "article": {
-              "title": "French clash over air conditioners as another heatwave looms (VIDEOS)",
-              "url": "https://www.rt.com/news/642489-france-heatwave-air-conditioners-fight/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:13:42.374114+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8483712673187256,
-            "article": {
-              "title": "French scramble to find air conditioners before next heatwave",
-              "url": "https://www.channelnewsasia.com/world/france-find-air-conditioner-heatwave-6227696",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:16:57.312590+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8103755712509155,
-            "article": {
-              "title": "Firefighters battle blazes scorching southern France after record heatwave",
-              "url": "https://www.france24.com/en/france/20260702-firefighters-battle-blazes-scorching-southern-france-after-record-heatwave",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:01.001318+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7887723445892334,
-            "article": {
-              "title": "Fransa'da 'Dikkat edin biri ölebilir' çığlıkları arasında klima izdihamı",
-              "url": "https://www.milliyet.com.tr/dunya/fransada-dikkat-edin-biri-olebilir-cigliklari-arasinda-klima-izdihami-7616516",
-              "source_id": "milliyet.com.tr",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:12:57.635621+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.785259485244751,
-            "article": {
-              "title": "France’s far right pledges 40 million air conditioners as heat turns political",
-              "url": "https://www.japantimes.co.jp/news/2026/07/02/world/france-far-right-aircon-heat/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:16:58.817592+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7843478918075562,
-            "article": {
-              "title": "Por qué en Francia están pintando las ventanas con tiza para combatir el calor",
-              "url": "https://www.bbc.com/mundo/articles/c0myky29myeo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:30.329457+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.77524733543396,
-            "article": {
-              "title": "法国一超市爆发空调“抢购大战”：大门被撞烂、多人躺地互殴",
-              "url": "https://www.sohu.com/a/1044965317_114988?edtsign=E2A4AD3D20BCA66FF3495F8412A6C90BEA53A81C&edtcode=7l1qGClIU%2Fep9oAfqs2zVA%3D%3D&scm=10001.663_14-200000.0.0-0-0-0-0.&_f=index_cpc_1_0",
-              "source_id": "news.sohu.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:15:44.930588+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7562154531478882,
-            "article": {
-              "title": "Why Europe struggles to handle heatwaves?",
-              "url": "https://english.news.cn/20260702/6fcffd1238354113b16a7628098550b4/c.html",
-              "source_id": "english.news.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:15:31.605054+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7380357384681702,
-            "article": {
-              "title": "Um Klimaanlagen tobt ein Kulturkampf – und die EU weiss nicht so recht, wie sie sich dazu stellen soll",
-              "url": "https://www.nzz.ch/international/um-klimaanlagen-tobt-ein-kulturkampf-und-die-eu-weiss-nicht-so-recht-wie-sie-sich-dazu-stellen-soll-ld.10013511",
-              "source_id": "nzz.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:10:28.635826+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 25.597045839958135,
-        "size": 6,
-        "n_sources": 6,
-        "n_continents": 5,
-        "continents": [
-          "China",
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South"
-        ],
-        "coherence": 0.8682559132575989,
-        "title": "EU court upholds Google antitrust fine",
-        "central_article": {
-          "title": "EU court upholds Google antitrust fine",
-          "url": "https://www.azernews.az/region/260562.html",
-          "source_id": "azernews.az",
-          "continent": "Europe East",
-          "published_at": null,
-          "scraped_at_utc": "2026-07-02T20:14:02.943815+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.913759171962738,
-            "article": {
-              "title": "EU court upholds Google antitrust fine",
-              "url": "https://www.azernews.az/region/260562.html",
+              "title": "Death toll from Venezuela earthquakes rises to 2,595",
+              "url": "https://www.azernews.az/region/260569.html",
               "source_id": "azernews.az",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:14:02.943815+00:00"
+              "scraped_at_utc": "2026-07-03T09:50:27.383929+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8982812166213989,
+            "sim_to_centroid": 0.8443126082420349,
             "article": {
-              "title": "Top EU court upholds Google Android fine in landmark antitrust case",
-              "url": "https://www.politico.eu/article/top-eu-court-upholds-google-android-fine-in-landmark-antitrust-case/",
-              "source_id": "politico.eu",
+              "title": "Venezuela planea con EE UU la reconstrucción tras los terremotos que causaron al menos 2.595 muertes",
+              "url": "https://www.14ymedio.com/internacional/venezuela-planea-ee-uu-reconstruccion_1_1128385.html",
+              "source_id": "14ymedio.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:47:54.823198+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8186661005020142,
+            "article": {
+              "title": "Venezuela: Delcy Rodríguez asegura que etapa de búsqueda y rescate continúa mientras víctimas fatales aumentan a 2.595",
+              "url": "https://www.latercera.com/mundo/noticia/venezuela-deicy-rodriguez-asegura-que-etapa-de-busqueda-y-rescate-continua-mientras-victimas-fatales-aumentan-a-2595/",
+              "source_id": "latercera.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:48:18.879953+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8104551434516907,
+            "article": {
+              "title": "وینزویلا زلزلہ: ہلاکتیں 2,595 تک پہنچ گئیں، 38 ہزار افراد تاحال لاپتا",
+              "url": "https://www.nawaiwaqt.com.pk/03-Jul-2026/2007048",
+              "source_id": "nawaiwaqt.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:52:29.114714+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7828995585441589,
+            "article": {
+              "title": "Nuevo reporte de muertos por terremotos en Venezuela. “Nadie va a fosa común”, dijo Delcy Rodríguez",
+              "url": "https://www.semana.com/mundo/articulo/nuevo-reporte-de-muertos-por-terremotos-en-venezuela-nadie-va-a-fosa-comun-dijo-delcy-rodriguez/202601/",
+              "source_id": "semana.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:48:05.592178+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7587816715240479,
+            "article": {
+              "title": "'We're not stopping': Virginia rescue team searches for quake survivors in Venezuela",
+              "url": "https://www.pbs.org/newshour/show/were-not-stopping-virginia-rescue-team-searches-for-quake-survivors-in-venezuela",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:51:36.756066+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7419376373291016,
+            "article": {
+              "title": "Prédios marcados com 'D' simbolizam mortes após terremotos na Venezuela; veja vídeo",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/07/predios-marcados-com-d-simbolizam-mortes-apos-terremotos-na-venezuela-veja-video.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:48:10.727889+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7332610487937927,
+            "article": {
+              "title": "Почему землетрясение в Венесуэле привело к большому количеству жертв и разрушений",
+              "url": "https://www.kommersant.ru/doc/8781129?from=spot_main",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:50:10.007223+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7315270900726318,
+            "article": {
+              "title": "Las impactantes cifras que revelan la magnitud de los terremotos que golpearon Venezuela hace una semana",
+              "url": "https://www.bbc.com/mundo/articles/ckg41l0v2ngo",
+              "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:09:54.744995+00:00"
+              "scraped_at_utc": "2026-07-03T09:47:52.201490+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8903164863586426,
+            "sim_to_centroid": 0.730225682258606,
             "article": {
-              "title": "欧盟法院维持对谷歌约41亿欧元反垄断罚款",
-              "url": "https://www.xinhuanet.com/20260702/c6021433c383440991410462dc0bbfe7/c.html",
-              "source_id": "xinhuanet.com",
-              "continent": "China",
+              "title": "Bijna 2600 doden in Venezuela, Rode Kruis vreest voor uitbraak ziekten",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5623740/bijna-2600-doden-venezuela-rode-kruis-vreest-voor-uitbraak",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:15:33.980663+00:00"
+              "scraped_at_utc": "2026-07-03T09:46:41.462326+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8775424957275391,
+            "sim_to_centroid": 0.6981813907623291,
             "article": {
-              "title": "Google, la Corte Ue conferma la maxi multa da 4,1 miliardi di euro su Android",
-              "url": "https://www.corriere.it/economia/finanza/26_luglio_02/google-la-corte-ue-conferma-la-maxi-multa-da-4-1-miliardi-di-euro-su-android-456cf028-1224-43e0-8bfa-6bf51cd38xlk.shtml",
-              "source_id": "corriere.it",
+              "title": "Delcy Rodríguez eleva la cifra de muertos a 2.595 y niega que el Gobierno tardara en intervenir",
+              "url": "https://www.rtve.es/noticias/20260703/venezuela-terremotos-nuevo-balance-muertos-delcy-rodriguez/17141681.shtml",
+              "source_id": "rtve.es",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:27.582419+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.819847822189331,
-            "article": {
-              "title": "EU最高裁、グーグルへの7600億円制裁金を支持 競争法違反",
-              "url": "https://www.asahi.com/articles/ASV724WTGV72ULFA01KM.html?iref=comtop_7_03",
-              "source_id": "asahi.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:17:01.062013+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.809788167476654,
-            "article": {
-              "title": "Google muss Rekordstrafe zahlen",
-              "url": "https://www.zdfheute.de/politik/ausland/eugh-google-strafe-vier-milliarden-rekordstrafe-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:10:22.666577+00:00"
+              "scraped_at_utc": "2026-07-03T09:47:45.053228+00:00"
             }
           }
         ]
       },
       {
-        "score": 23.89143523602056,
-        "size": 6,
-        "n_sources": 6,
+        "score": 44.480483583209335,
+        "size": 13,
+        "n_sources": 13,
+        "n_continents": 4,
+        "continents": [
+          "Europe North",
+          "Middle East",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.8687613606452942,
+        "title": "Allvarlig bussolycka i Pakistan – 40 döda",
+        "central_article": {
+          "title": "Allvarlig bussolycka i Pakistan – 40 döda",
+          "url": "https://www.dn.se/direkt/2026-07-03/allvarlig-bussolycka-i-pakistan-40-doda/",
+          "source_id": "dn.se",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-07-03T09:47:11.364515+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9280975461006165,
+            "article": {
+              "title": "Allvarlig bussolycka i Pakistan – 40 döda",
+              "url": "https://www.dn.se/direkt/2026-07-03/allvarlig-bussolycka-i-pakistan-40-doda/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:47:11.364515+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9261714220046997,
+            "article": {
+              "title": "40 Menschen sterben bei Busunglück in Pakistan",
+              "url": "https://www.diepresse.com/34799641/40-menschen-sterben-bei-busunglueck-in-pakistan",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:46:58.708380+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9120670557022095,
+            "article": {
+              "title": "40 meldes dræbt i busulykke i det vestlige Pakistan",
+              "url": "https://www.dr.dk/nyheder/udland/40-meldes-draebt-i-busulykke-i-det-vestlige-pakistan",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:47:19.780839+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9118871688842773,
+            "article": {
+              "title": "At least 40 dead after bus falls into ditch in Pakistan",
+              "url": "https://www.thedailystar.net/news/asia/south-asia/news/least-40-dead-after-bus-falls-ditch-pakistan-4214841",
+              "source_id": "thedailystar.net",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:52:14.227086+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9106040596961975,
+            "article": {
+              "title": "At least 40 killed in passenger bus crash in southwest Pakistan",
+              "url": "https://www.aljazeera.com/news/2026/7/3/at-least-40-killed-in-passenger-bus-crash-in-southwest-pakistan",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:48:57.610451+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.875194787979126,
+            "article": {
+              "title": "فاجعة في باكستان.. 40 قتيلاً بسقوط حافلة في وادٍ عميق غربي البلاد",
+              "url": "https://www.alsumaria.tv/news/international/568751/فاجعة-في-باكستان-40-قتيلاً-بسقوط-حافلة-في-وادٍ-عميق-غربي-البلاد",
+              "source_id": "alsumaria.tv",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:51:04.485303+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8724218606948853,
+            "article": {
+              "title": "باكستان... 40 قتيلاً إثر سقوط حافلة في واد (فيديو)",
+              "url": "https://www.annahar.com/international/asia/326395/باكستان-40-قتيلا-إثر-سقوط-حافلة-في-واد-فيديو",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:49:30.680751+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8716724514961243,
+            "article": {
+              "title": "Ao menos 40 pessoas morrem após ônibus cair em barranco de mais de 20 metros no Paquistão",
+              "url": "https://oglobo.globo.com/mundo/noticia/2026/07/03/ao-menos-40-mortos-apos-onibus-cair-em-barranco-de-mais-de-20-metros-no-paquistao-video.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:48:13.116508+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8286248445510864,
+            "article": {
+              "title": "वर्ल्ड अपडेट्स: पाकिस्तान के खैबर पख्तूनख्वा में बस खाई में गिरी, 40 यात्रियों की मौत",
+              "url": "https://www.bhaskar.com/g/international/news/venezuela-dog-miraculously-rescued-after-8-days-under-rubble-138349405.html",
+              "source_id": "bhaskar.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:52:06.433299+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8267324566841125,
+            "article": {
+              "title": "At least 32 dead after overcrowded bus plunges into ravine in Pakistan",
+              "url": "https://www.bbc.com/news/articles/czrxezg60x1o",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:46:28.081950+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8230879306793213,
+            "article": {
+              "title": ". geleden • Buitenland Passagiersbus stort in ravijn in Pakistan, 40 doden",
+              "url": "https://nos.nl/artikel/2621459-passagiersbus-stort-in-ravijn-in-pakistan-40-doden",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:46:37.976800+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8171918392181396,
+            "article": {
+              "title": "ژوب: بس کھائی میں گر گئی، 40 افراد جاں بحق",
+              "url": "https://jang.com.pk/news/1596235",
+              "source_id": "jang.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:52:27.258438+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7901440262794495,
+            "article": {
+              "title": "acidente de trânsito Ônibus despenca de barranco de mais de 20 metros de profundidade e mata ao menos 40 pessoas no Paquistão; outras 11 ficam feridas - Reprodução/redes sociais",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/07/onibus-despenca-de-barranco-e-mata-ao-menos-40-pessoas-no-paquistao.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:48:10.727889+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 34.58187434401621,
+        "size": 11,
+        "n_sources": 11,
         "n_continents": 5,
         "continents": [
-          "East Asia",
+          "Africa",
+          "Europe North",
+          "Europe South",
+          "North America",
+          "South America"
+        ],
+        "coherence": 0.8071992993354797,
+        "title": "Portugal schakelt Kroatië uit, zinderend slot met afgekeurde goal in 103de minuut",
+        "central_article": {
+          "title": "Portugal schakelt Kroatië uit, zinderend slot met afgekeurde goal in 103de minuut",
+          "url": "https://nos.nl/artikel/2621400-portugal-schakelt-kroatie-uit-zinderend-slot-met-afgekeurde-goal-in-103de-minuut",
+          "source_id": "nos.nl",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-07-03T09:46:37.976800+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8510063290596008,
+            "article": {
+              "title": "Portugal schakelt Kroatië uit, zinderend slot met afgekeurde goal in 103de minuut",
+              "url": "https://nos.nl/artikel/2621400-portugal-schakelt-kroatie-uit-zinderend-slot-met-afgekeurde-goal-in-103de-minuut",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:46:37.976800+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8500670194625854,
+            "article": {
+              "title": "Nach dramatischer Verlängerung Portugal schlägt Kroatien mit 2:1",
+              "url": "https://www.tagesschau.de/sport/feuerwerk-in-haelfte-zwei-ronaldos-wm-reise-geht-weiter,wm-spielbericht-portugal-kroatien-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:46:45.309031+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.840036153793335,
+            "article": {
+              "title": "World Cup: Portugal rallies to beat Croatia 2-1 behind goals from Cristiano Ronaldo and Gonçalo Ramos",
+              "url": "https://www.chicagotribune.com/2026/07/02/world-cup-portugal-croatia-cristiano-ronaldo/",
+              "source_id": "chicagotribune.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:51:33.084717+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8383318185806274,
+            "article": {
+              "title": "Portugal será el rival de España: remonta en el 94' y el VAR anula un gol a Croacia en la última jugada",
+              "url": "https://www.rtve.es/deportes/20260703/mundial-2026-portugal-croacia-directo-resumen-resultado/17136765.shtml",
+              "source_id": "rtve.es",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:47:45.053228+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8180441856384277,
+            "article": {
+              "title": "Wild finish as Portugal knocks Croatia out of the World Cup",
+              "url": "https://apnews.com/article/world-cup-score-portugal-croatia-ad94f33ede5ada4c8fb63b3893ee2b8e",
+              "source_id": "apnews.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:51:06.531653+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8166834115982056,
+            "article": {
+              "title": "Le Portugal de Cristiano Ronaldo renverse la Croatie 2-1 et affrontera l'Espagne en 8es FIFA Coupe du monde 2026 aujourd'hui à",
+              "url": "https://www.rts.ch/sport/football/coupe-du-monde-de-la-fifa/2026/article/mondial-2026-le-portugal-de-ronaldo-ecarte-la-croatie-2-1-29293143.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:47:35.531847+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8006653189659119,
+            "article": {
+              "title": "Portugal wint van Kroatië na omstreden 'chip-in-balbeslissing' VAR",
+              "url": "https://www.rtl.nl/nieuws/sport/artikel/5623678/portugal-kroatie-wedstrijd-slotfase-achtste-finale-tegen-spanje",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:46:41.462326+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7933180332183838,
+            "article": {
+              "title": "Pasó de todo. Cristiano marcó para Portugal tras un llamado del VAR, que le había anulado un golazo, y se fue enojado",
+              "url": "https://www.lanacion.com.ar/deportes/futbol/video-los-goles-de-portugal-vs-croacia-en-el-mundial-2026-nid02072026/",
+              "source_id": "lanacion.com.ar",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:48:02.879541+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7661799788475037,
+            "article": {
+              "title": "البرتغال يعبر بشق الأنفس إلى ثمن نهائي المونديال على حساب كرواتيا",
+              "url": "https://www.hespress.com/%d8%a7%d9%84%d8%a8%d8%b1%d8%aa%d8%ba%d8%a7%d9%84-%d9%8a%d8%b9%d8%a8%d8%b1-%d8%a8%d8%b4%d9%82-%d8%a7%d9%84%d8%a3%d9%86%d9%81%d8%b3-%d8%a5%d9%84%d9%89-%d8%ab%d9%85%d9%86-%d9%86%d9%87%d8%a7%d8%a6%d9%8a-1771505.html",
+              "source_id": "hespress.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:51:02.460822+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7567397356033325,
+            "article": {
+              "title": "¡De no creer! Qué increíble todo lo que pasó entre Portugal y Croacia en el Mundial 2026",
+              "url": "https://www.nacion.com/puro-deporte/futbol/portugal-vs-croacia-hora-y-canal-para-ver-a/DUMJKKQTMNDANJV6HSV33J4WLY/story/",
+              "source_id": "nacion.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:47:56.079318+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7481194734573364,
+            "article": {
+              "title": "Pone Ramos a Portugal y a CR7 en Octavos ante Espa�a",
+              "url": "https://www.reforma.com/se-meten-portugal-y-cr7-a-octavos-con-polemica/ar3233762?v=10",
+              "source_id": "reforma.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:47:53.433612+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 29.078533834625297,
+        "size": 9,
+        "n_sources": 9,
+        "n_continents": 5,
+        "continents": [
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "North America",
+          "South America"
+        ],
+        "coherence": 0.8126675486564636,
+        "title": "Suiza vs. Argelia: suizos vencen sin complicaciones a los argelinos y avanzan a los octavos de final del Mundial",
+        "central_article": {
+          "title": "Suiza vs. Argelia: suizos vencen sin complicaciones a los argelinos y avanzan a los octavos de final del Mundial",
+          "url": "https://www.nacion.com/puro-deporte/futbol/suiza-vs-argelia-a-que-hora-y-como-ver-este/DJXPLJXCXFG3BJUZTYM3MZSXVM/story/",
+          "source_id": "nacion.com",
+          "continent": "North America",
+          "published_at": null,
+          "scraped_at_utc": "2026-07-03T09:47:56.079318+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.892570972442627,
+            "article": {
+              "title": "Suiza vs. Argelia: suizos vencen sin complicaciones a los argelinos y avanzan a los octavos de final del Mundial",
+              "url": "https://www.nacion.com/puro-deporte/futbol/suiza-vs-argelia-a-que-hora-y-como-ver-este/DJXPLJXCXFG3BJUZTYM3MZSXVM/story/",
+              "source_id": "nacion.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:47:56.079318+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8755917549133301,
+            "article": {
+              "title": "Sigue en carrera. Suiza le ganó 2-0 a Argelia, consiguió el pase a octavos y espera rival Por Julián Valdez",
+              "url": "https://www.lanacion.com.ar/deportes/futbol/suiza-argelia-por-el-mundial-2026-en-vivo-nid02072026/",
+              "source_id": "lanacion.com.ar",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:48:02.879541+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8683463335037231,
+            "article": {
+              "title": "La Suisse domine l'Algérie 2-0 et file en 8es de finale! FIFA Coupe du monde 2026 aujourd'hui à",
+              "url": "https://www.rts.ch/sport/football/coupe-du-monde-de-la-fifa/2026/article/mondial-2026-la-suisse-bat-l-algerie-2-0-et-se-qualifie-en-8es-29293165.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:47:35.531847+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8626466989517212,
+            "article": {
+              "title": "Deportes Suiza derrota a Argelia y se mete en octavos de final",
+              "url": "https://www.crhoy.com/deportes/suiza-derrota-a-argelia-y-se-mete-en-octavos-de-final/",
+              "source_id": "crhoy.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:47:59.009734+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7860608100891113,
+            "article": {
+              "title": "Stimmen zum Achtelfinal-Einzug Nati-Erfolgsrezept: Ehrlichkeit und Tore zum richtigen Zeitpunkt Nach dem 2:0-Sieg gegen Algerien an der WM 2026 waren die Freude und Erleichterung gross im Schweizer Lager.",
+              "url": "https://www.srf.ch/sport/fussball/fifa-wm-2026/stimmen-zum-achtelfinal-einzug-nati-erfolgsrezept-ehrlichkeit-und-tore-zum-richtigen-zeitpunkt",
+              "source_id": "srf.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:47:07.905424+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7828529477119446,
+            "article": {
+              "title": "Suiza se mete a Octavos tras eliminar a Argelia",
+              "url": "https://www.reforma.com/suiza-se-mete-a-octavos-tras-eliminar-a-argelia/ar3233851?v=5",
+              "source_id": "reforma.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:47:53.433612+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7733054161071777,
+            "article": {
+              "title": "World Cup 2026: Manzambi's brilliance guides Switzerland past Algeria",
+              "url": "https://www.france24.com/en/sport/20260703-switzerland-beat-algeria-2-0-to-move-into-world-cup-last-16",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:47:33.903167+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7365133762359619,
+            "article": {
+              "title": "Szwajcaria w 1/8 finału mundialu. Jak co cztery lata",
+              "url": "https://sport.rp.pl/pilka-nozna/art44764621-tradycyjny-awans-szwajcarii-do-1-8-finalu-mundialu",
+              "source_id": "rp.pl",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:49:49.174681+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7361199855804443,
+            "article": {
+              "title": "2:0 in Vancouver Schweizer lassen Algerien keine Chance",
+              "url": "https://www.tagesschau.de/sport/schweiz-laesst-algerien-keine-chance,wm-spielbericht-schweiz-algerien-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:46:45.309031+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 28.64256638881033,
+        "size": 11,
+        "n_sources": 8,
+        "n_continents": 5,
+        "continents": [
+          "Europe East",
           "Europe North",
           "Middle East",
           "North America",
           "Oceania"
         ],
-        "coherence": 0.8544645309448242,
-        "title": "الفاتيكان يعلن طرد أعضاء جماعة كاثوليكية متمردة من الكنيسة",
+        "coherence": 0.8332028985023499,
+        "title": "Taylor Swift and Travis Kelce’s (maybe) wedding celebrations have begun. Here’s what we know",
         "central_article": {
-          "title": "الفاتيكان يعلن طرد أعضاء جماعة كاثوليكية متمردة من الكنيسة",
-          "url": "https://www.annahar.com/international/world/326297/الفاتيكان-يعلن-طرد-أعضا-جماعة-كاثوليكية-متمردة-من-الكنيسة",
-          "source_id": "annahar.com",
-          "continent": "Middle East",
+          "title": "Taylor Swift and Travis Kelce’s (maybe) wedding celebrations have begun. Here’s what we know",
+          "url": "https://www.smh.com.au/culture/celebrity/everything-there-is-to-know-and-what-we-suspect-about-taylor-swift-s-wedding-to-travis-kelce-20260630-p60bey.html",
+          "source_id": "smh.com.au",
+          "continent": "Oceania",
           "published_at": null,
-          "scraped_at_utc": "2026-07-02T20:13:05.978341+00:00"
+          "scraped_at_utc": "2026-07-03T09:48:45.884166+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8825317621231079,
+            "sim_to_centroid": 0.911360502243042,
             "article": {
-              "title": "الفاتيكان يعلن طرد أعضاء جماعة كاثوليكية متمردة من الكنيسة",
-              "url": "https://www.annahar.com/international/world/326297/الفاتيكان-يعلن-طرد-أعضا-جماعة-كاثوليكية-متمردة-من-الكنيسة",
-              "source_id": "annahar.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:13:05.978341+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8788223266601562,
-            "article": {
-              "title": "Vatican excommunicates bishops and priests belonging to traditionalist group",
-              "url": "https://www.theglobeandmail.com/world/article-vatican-schism-st-pius-x-excommunicate-bishops-catholic-pope-leo-xiv/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:12:25.847083+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8625994920730591,
-            "article": {
-              "title": "Members of rebel Catholic group in schism and excommunicated, Vatican says",
-              "url": "https://www.japantimes.co.jp/news/2026/07/02/world/catholic-church-excommunicated-schism/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:16:58.817592+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8580361008644104,
-            "article": {
-              "title": "Pope excommunicates gang of rebel bishops",
-              "url": "https://www.thetimes.com/world/europe/article/pope-leo-excommunicate-rebel-bishops-f6xth7qtv",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:09:47.894902+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8355386853218079,
-            "article": {
-              "title": "Vatican excommunicates members of right-wing breakaway group SSPX",
-              "url": "https://www.abc.net.au/news/2026-07-02/vatican-excommunicates-sspx-society-st-pius-x-ordain-bishops/106872616",
-              "source_id": "abc.net.au",
+              "title": "Taylor Swift and Travis Kelce’s (maybe) wedding celebrations have begun. Here’s what we know",
+              "url": "https://www.smh.com.au/culture/celebrity/everything-there-is-to-know-and-what-we-suspect-about-taylor-swift-s-wedding-to-travis-kelce-20260630-p60bey.html",
+              "source_id": "smh.com.au",
               "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:12:27.481113+00:00"
+              "scraped_at_utc": "2026-07-03T09:48:45.884166+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8092589974403381,
+            "sim_to_centroid": 0.8890565633773804,
             "article": {
-              "title": "El Vaticano excomulga a los obispos rebeldes del grupo de los lefebvrianos y advierte de la misma pena a sus miles de seguidores",
-              "url": "https://www.bbc.com/mundo/articles/cly76q6478po",
+              "title": "Taylor Swift and Travis Kelce arrive at MSG as reports swirl they may wed tonight — or already have",
+              "url": "https://www.independent.co.uk/arts-entertainment/music/news/taylor-swift-wedding-madison-square-garden-travis-kelce-live-updates-b3007298.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:46:29.508607+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8826732635498047,
+            "article": {
+              "title": "Prasideda Swift ir Kelce`io vestuvių šventė, kurioje dalyvaus gausybė žvaigždžių",
+              "url": "https://www.lrt.lt/naujienos/laisvalaikis/13/2979159/prasideda-swift-ir-kelce-io-vestuviu-svente-kurioje-dalyvaus-gausybe-zvaigzdziu",
+              "source_id": "lrt.lt",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:50:16.675810+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8821638822555542,
+            "article": {
+              "title": "Hochzeit von Swift und Kelce: Feiern offenbar gestartet",
+              "url": "https://www.zdfheute.de/panorama/prominente/taylor-swift-hochzeit-travis-kelce-new-york-madison-square-garden-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:47:00.910707+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8792903423309326,
+            "article": {
+              "title": "Taylor Swift and Travis Kelce’s wedding is set for today at Madison Square Garden",
+              "url": "https://apnews.com/article/taylor-swift-travis-kelce-wedding-09fe20408ed795a47aeb600cc4adf2e8",
+              "source_id": "apnews.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:51:06.531653+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.858881950378418,
+            "article": {
+              "title": "Taylor Swift's likely wedding guests spotted in New York",
+              "url": "https://www.usatoday.com/story/entertainment/music/2026/07/02/taylor-swift-travis-kelce-wedding-guest-list/90782980007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:51:31.897672+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8196742534637451,
+            "article": {
+              "title": "Taylor Swift and Travis Kelce donate $26 million ahead of MSG wedding",
+              "url": "https://www.independent.co.uk/arts-entertainment/music/news/taylor-swift-msg-wedding-travis-kelce-charity-b3007830.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:46:29.508607+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7894812822341919,
+            "article": {
+              "title": "Taylor Swift expert gives her predictions on the wedding of the decade",
+              "url": "https://www.independent.co.uk/arts-entertainment/music/news/taylor-swift-wedding-expert-travis-kelce-b3007775.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:46:29.508607+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7608774304389954,
+            "article": {
+              "title": "The Knicks. The World Cup. Taylor Swift’s likely wedding. It’s the Summer of New York",
+              "url": "https://apnews.com/article/new-york-summer-knicks-world-cup-swift-c8e3d4434d1fb5727053d75935f5bdd1",
+              "source_id": "apnews.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-03T09:51:06.531653+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7535300254821777,
+            "article": {
+              "title": "Sabrina Carpenter and Graham Norton spotted in NYC before rumoured Swift wedding celebrations",
+              "url": "https://www.bbc.com/news/articles/ce8ml4q37veo",
               "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:11:30.329457+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 23.21189765727493,
-        "size": 6,
-        "n_sources": 6,
-        "n_continents": 4,
-        "continents": [
-          "China",
-          "East Asia",
-          "Europe North",
-          "South Asia"
-        ],
-        "coherence": 0.893322229385376,
-        "title": "WHO declares cruise ship-linked hantavirus outbreak over",
-        "central_article": {
-          "title": "WHO declares cruise ship-linked hantavirus outbreak over",
-          "url": "https://www.thedailystar.net/news/world/news/who-declares-cruise-ship-linked-hantavirus-outbreak-over-4214306",
-          "source_id": "thedailystar.net",
-          "continent": "South Asia",
-          "published_at": null,
-          "scraped_at_utc": "2026-07-02T20:16:02.265587+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9342544674873352,
-            "article": {
-              "title": "WHO declares cruise ship-linked hantavirus outbreak over",
-              "url": "https://www.thedailystar.net/news/world/news/who-declares-cruise-ship-linked-hantavirus-outbreak-over-4214306",
-              "source_id": "thedailystar.net",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:16:02.265587+00:00"
+              "scraped_at_utc": "2026-07-03T09:46:28.081950+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9342544674873352,
+            "sim_to_centroid": 0.7382422685623169,
             "article": {
-              "title": "WHO declares cruise ship-linked hantavirus outbreak over",
-              "url": "https://www.scmp.com/news/world/article/3359220/who-declares-cruise-ship-linked-hantavirus-outbreak-over?module=latest&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
+              "title": "Taylor Swift's wedding: List of strict rules on guests",
+              "url": "https://www.albawaba.com/entertainment/taylor-swifts-wedding-list-strict-rules-1631928",
+              "source_id": "albawaba.com",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:15:25.157498+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9263578057289124,
-            "article": {
-              "title": "WHO: Hantavirusutbrottet är över",
-              "url": "https://www.dn.se/direkt/2026-07-02/who-hantavirusutbrottet-ar-over/",
-              "source_id": "dn.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:10:34.629806+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.918496310710907,
-            "article": {
-              "title": "WHO gibt Entwarnung: Hantavirus-Ausbruch zu Ende",
-              "url": "https://www.diepresse.com/34696423/who-gibt-entwarnung-hantavirus-ausbruch-zu-ende",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:10:20.287401+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8592803478240967,
-            "article": {
-              "title": "世卫组织宣布“洪迪厄斯”号相关汉坦病毒疫情结束",
-              "url": "https://www.xinhuanet.com/20260703/0d0913b72ec24655a8c1f8ff9922ddce/c.html",
-              "source_id": "xinhuanet.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:15:33.980663+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7872899770736694,
-            "article": {
-              "title": "國際 世衛：郵輪漢他病毒疫情結束 最後接觸者檢測呈陰性",
-              "url": "https://www.cna.com.tw/news/aopl/202607030008.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-02T20:17:28.459761+00:00"
+              "scraped_at_utc": "2026-07-03T09:49:12.622652+00:00"
             }
           }
         ]
       }
     ],
-    "created_at_utc": "2026-07-02T20:49:58Z"
+    "created_at_utc": "2026-07-03T10:24:37Z"
   }
 ]
