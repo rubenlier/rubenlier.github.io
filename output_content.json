@@ -1,744 +1,966 @@
 [
   {
-    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1784626813",
-    "n_items": 2513,
-    "n_clusters": 2027,
+    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1784666112",
+    "n_items": 2563,
+    "n_clusters": 2087,
     "clusters": [
       {
-        "score": 212.28164789193238,
+        "score": 189.1066049205996,
         "size": 30,
-        "n_sources": 28,
-        "n_continents": 9,
+        "n_sources": 29,
+        "n_continents": 7,
         "continents": [
-          "China",
+          "East Asia",
           "Europe East",
           "Europe North",
           "Europe South",
+          "Middle East",
+          "North America",
+          "South America"
+        ],
+        "coherence": 0.8858209848403931,
+        "title": "Frankreich beschließt Social-Media-Verbot für Kinder unter 15 Jahren",
+        "central_article": {
+          "title": "Frankreich beschließt Social-Media-Verbot für Kinder unter 15 Jahren",
+          "url": "https://www.tagesschau.de/ausland/europa/frankreich-social-media-verbot-102.html",
+          "source_id": "tagesschau.de",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-07-21T20:07:34.289776+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9491881728172302,
+            "article": {
+              "title": "Frankreich beschließt Social-Media-Verbot für Kinder unter 15 Jahren",
+              "url": "https://www.tagesschau.de/ausland/europa/frankreich-social-media-verbot-102.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:07:34.289776+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9473879337310791,
+            "article": {
+              "title": "Frankreich beschließt Social-Media-Verbot für unter 15-Jährige",
+              "url": "https://www.zdfheute.de/politik/ausland/frankreich-social-media-verbot-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:07:50.119103+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9470500946044922,
+            "article": {
+              "title": "Frankreich beschließt Social-Media-Verbot für Unter-15-Jährige",
+              "url": "https://www.diepresse.com/38839035/frankreich-beschliesst-social-media-verbot-fuer-unter-15-jaehrige",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:07:47.573499+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9430681467056274,
+            "article": {
+              "title": "Frankrig forbyder adgang til sociale medier for børn under 15 år",
+              "url": "https://www.dr.dk/nyheder/udland/frankrig-forbyder-adgang-til-sociale-medier-boern-under-15-aar",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:08:13.694033+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.937968373298645,
+            "article": {
+              "title": "Frankrigs parlament forbyder sociale medier til børn under 15 år",
+              "url": "https://politiken.dk/internationalt/art10924362/Frankrigs-parlament-forbyder-sociale-medier-til-b%C3%B8rn-under-15-%C3%A5r",
+              "source_id": "politiken.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:07:59.731992+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9371641874313354,
+            "article": {
+              "title": "Francia aprueba la prohibición de redes sociales para menores de 15 años",
+              "url": "https://www.lavanguardia.com/vida/20260721/11597962/francia-aprueba-prohibicion-redes-sociales-menores-15-anos.html",
+              "source_id": "lavanguardia.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:08:39.618168+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.934769332408905,
+            "article": {
+              "title": "France first in Europe to ban social media for under-15s",
+              "url": "https://www.euronews.com/my-europe/2026/07/21/france-to-be-the-first-eu-country-to-ban-social-media-for-under-15s",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:07:23.503735+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9324191212654114,
+            "article": {
+              "title": "França proíbe redes sociais para menores de 15 anos; entenda",
+              "url": "https://oglobo.globo.com/economia/tecnologia/noticia/2026/07/21/redes-sociais-para-menores-de-15-anos-podem-ser-proibidas-na-franca-entenda.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:09:19.879267+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9311175346374512,
+            "article": {
+              "title": "Proh�be Francia uso de redes sociales a menores de 15 a�os",
+              "url": "https://www.reforma.com/prohibe-francia-uso-de-redes-sociales-a-menores-de-15-anos/ar3244244",
+              "source_id": "reforma.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:08:51.376489+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.929120659828186,
+            "article": {
+              "title": "Во Франции запретили социальные сети для детей до 15 лет",
+              "url": "https://www.kommersant.ru/doc/8831691?from=top_main_7",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:11:28.322365+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9279577732086182,
+            "article": {
+              "title": "Frankrijk verbiedt als eerste EU-land sociale media onder 15 jaar",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5630439/frankrijk-sociale-media-verbod-onder-15-jaar-eerste-europese-land",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:07:29.818789+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9218173027038574,
+            "article": {
+              "title": "France adopts sweeping social media ban for children under 15",
+              "url": "https://www.theglobeandmail.com/world/article-france-social-media-ban-children-15/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:09:49.210464+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9063363075256348,
+            "article": {
+              "title": "البرلمان الفرنسي يحظر استخدام وسائل التواصل لمن هم دون 15 عاما",
+              "url": "https://www.annahar.com/international/europe/332058/البرلمان-الفرنسي-يحظر-استخدام-وسائل-التواصل-لمن-هم-دون-15-عاما",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:42.328999+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9047363996505737,
+            "article": {
+              "title": "French lawmakers pass sweeping social media ban for children under 15",
+              "url": "https://www.pbs.org/newshour/world/french-lawmakers-pass-sweeping-social-media-ban-for-children-under-15",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:13:08.769451+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9027758836746216,
+            "article": {
+              "title": "La Francia vieta i social agli under 15, via libera definitivo del Parlamento: è il primo Paese in Europa",
+              "url": "https://www.repubblica.it/esteri/2026/07/21/news/francia_approvato_divieto_social_under_15-425484949/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:08:45.011007+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.901404857635498,
+            "article": {
+              "title": "La France interdit les réseaux sociaux aux moins de 15 ans, une première en Europe",
+              "url": "https://www.rtbf.be/article/la-france-interdit-les-reseaux-sociaux-aux-moins-de-15-ans-une-premiere-en-europe-11761056",
+              "source_id": "rtbf.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:08:36.511942+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8970476984977722,
+            "article": {
+              "title": "'Major step forward': French lawmakers approve social media ban for children under 15",
+              "url": "https://www.france24.com/en/france/20260721-french-lawmakers-expected-to-pass-social-media-ban-for-children-under-15",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:08:30.772535+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8858999013900757,
+            "article": {
+              "title": "Prancūzija – pirmoji ES šalis, uždraudusi soc. tinklus jaunesniems nei 15 metų vaikams",
+              "url": "https://www.lrt.lt/naujienos/mokslas-ir-it/11/2997405/prancuzija-pirmoji-es-salis-uzdraudusi-soc-tinklus-jaunesniems-nei-15-metu-vaikams",
+              "source_id": "lrt.lt",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:11:36.110629+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.885387659072876,
+            "article": {
+              "title": "France becomes first EU country to ban social media for teenagers",
+              "url": "https://www.thetimes.com/world/europe/article/france-first-eu-country-to-ban-social-media-teenagers-nsgxxtwkm",
+              "source_id": "thetimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:07:19.164528+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8816196918487549,
+            "article": {
+              "title": "Mundo Francia aprueba la prohibición de las redes sociales para menores de 15 años",
+              "url": "https://www.crhoy.com/mundo/francia-aprueba-la-prohibicion-de-las-redes-sociales-para-menores-de-15-anos/",
+              "source_id": "crhoy.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:09:03.988840+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8689476251602173,
+            "article": {
+              "title": "Frankrijk Frankrijk verbiedt als eerste Europese land sociale media onder 15 jaar",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/07/21/sociale-media-ban-frankrijk/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:08:33.874504+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8465474843978882,
+            "article": {
+              "title": "フランス、15歳未満のSNS利用を禁止 9月の新学期から適用へ",
+              "url": "https://www.asahi.com/articles/ASV7P6JM9V7PUHBI041M.html?iref=comtop_7_02",
+              "source_id": "asahi.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:14:34.023863+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8364307880401611,
+            "article": {
+              "title": ". geleden • Buitenland Franse parlement stemt in met verbod op sociale media voor kinderen onder 15",
+              "url": "https://nos.nl/artikel/2623924-franse-parlement-stemt-in-met-verbod-op-sociale-media-voor-kinderen-onder-15",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:07:25.948896+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8335119485855103,
+            "article": {
+              "title": "France set to fast-track under-15s social media ban",
+              "url": "https://www.france24.com/en/tv-shows/tech-24/20260125-france-set-to-fast-track-under-15s-social-media-ban",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:08:30.772535+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8301013112068176,
+            "article": {
+              "title": "France Joins a Global Move Toward Restricting Social Media for Children",
+              "url": "https://www.nytimes.com/2026/07/21/world/europe/france-social-media-ban.html",
+              "source_id": "nytimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:12:38.256622+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8168618679046631,
+            "article": {
+              "title": "2 t Verden Frankrike vedtar å innføre 15-årsgrense for sosiale medier",
+              "url": "https://www.aftenposten.no/verden/i/WvJlaL/frankrike-innfoerer-15-aars-aldersgrense-for-sosiale-medier-et-stort-framskritt",
+              "source_id": "aftenposten.no",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:08:03.549362+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.79743492603302,
+            "article": {
+              "title": "Konec dětského scrollování. Francie jako první zakázala sociální sítě",
+              "url": "https://www.idnes.cz/zpravy/zahranicni/francouzsky-parlament-definitivne-schvalil-zakaz-socialnich-siti-detem.A260721_204005_zahranicni_varg",
+              "source_id": "idnes.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:56.941289+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7937847375869751,
+            "article": {
+              "title": "國際 法參議院通過法案 禁15歲以下兒童使用社群媒體",
+              "url": "https://www.cna.com.tw/news/aopl/202607220005.aspx",
+              "source_id": "cna.com.tw",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:14:58.238991+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7740646600723267,
+            "article": {
+              "title": "Premiere in Europa Frankreich beschliesst Social-Media-Verbot für unter 15-Jährige Mit der Zustimmung von Senat und Nationalversammlung hat das Parlament den Gesetzesvorschlag endgültig angenommen.",
+              "url": "https://www.srf.ch/news/international/premiere-in-europa-frankreich-beschliesst-social-media-verbot-fuer-unter-15-jaehrige",
+              "source_id": "srf.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:07:57.763826+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7727057933807373,
+            "article": {
+              "title": "Парламент Франции принял законопроект, запрещающий доступ к соцсетям для детей младше 15 лет В мире",
+              "url": "http://belta.by/world/view/parlament-frantsii-prinjal-zakonoproekt-zapreschajuschij-dostup-k-sotssetjam-dlja-detej-mladshe-15-let-792364-2026/",
+              "source_id": "belta.by",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:11:59.546752+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 116.56213217995422,
+        "size": 28,
+        "n_sources": 27,
+        "n_continents": 7,
+        "continents": [
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "North America",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.8033354878425598,
+        "title": "Zelensky sacks Ukraine army chief Oleksandr Syrsky",
+        "central_article": {
+          "title": "Zelensky sacks Ukraine army chief Oleksandr Syrsky",
+          "url": "https://www.france24.com/en/europe/20260721-zelensky-fires-ukraine-army-chief-oleksandr-syrsky",
+          "source_id": "france24.com",
+          "continent": "Europe South",
+          "published_at": null,
+          "scraped_at_utc": "2026-07-21T20:08:30.772535+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8880649209022522,
+            "article": {
+              "title": "Zelensky sacks Ukraine army chief Oleksandr Syrsky",
+              "url": "https://www.france24.com/en/europe/20260721-zelensky-fires-ukraine-army-chief-oleksandr-syrsky",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:08:30.772535+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8801023364067078,
+            "article": {
+              "title": "Zelensky dismisses Commander-in-Chief Syrskyi amid widespread protests",
+              "url": "https://kyivindependent.com/breaking-zelensky-dismisses-commander-in-chief-syrskyi-amid-widespread-protests/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:11:18.452982+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.877657949924469,
+            "article": {
+              "title": "Zelenski l-a demis pe șeful armatei ucrainene, pe fondul valului de proteste",
+              "url": "https://hotnews.ro/zelenski-l-a-demis-pe-seful-armatei-ucrainene-pe-fondul-valului-de-proteste-2306354",
+              "source_id": "hotnews.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:54.438682+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8757128119468689,
+            "article": {
+              "title": "Ukraine’s Zelenskyy fires military chief after protests and names a replacement",
+              "url": "https://apnews.com/article/ukraine-zelenskyy-syrskyi-army-chief-504513cfcc5cbc55175dc605cc711793",
+              "source_id": "apnews.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:12:36.845569+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8705663681030273,
+            "article": {
+              "title": "Zelensky sacks Ukraine’s top general after days of protests",
+              "url": "https://www.thetimes.com/world/russia-ukraine-war/article/zelensky-sacks-ukraine-top-general-after-protests-cglvr2j3j",
+              "source_id": "thetimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:07:19.164528+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8694724440574646,
+            "article": {
+              "title": "Zelenskyj fyrer hærchef efter store protester",
+              "url": "https://politiken.dk/internationalt/art10537513/Zelenskyj-fyrer-h%C3%A6rchef-efter-store-protester",
+              "source_id": "politiken.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:07:59.731992+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8635642528533936,
+            "article": {
+              "title": "Zelenskyj har fyret hærchef Syrskyj",
+              "url": "https://www.dr.dk/nyheder/seneste/zelenskyj-har-fyret-haerchef-syrskyj",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:08:13.694033+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8386471271514893,
+            "article": {
+              "title": "President Zelensky stuurt ook legerchef Syrsky weg",
+              "url": "https://nos.nl/artikel/2623927-president-zelensky-stuurt-ook-legerchef-syrsky-weg",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:07:25.948896+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8336101770401001,
+            "article": {
+              "title": "Just nu: Zelenskyj byter ut militärchefen",
+              "url": "https://www.dn.se/direkt/ukraina/2026-07-21/zelenskyj-avskedar-ukrainas-militarchef/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:08:01.685687+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8326505422592163,
+            "article": {
+              "title": "Verden Zelenskyj sparker forsvarssjefen",
+              "url": "https://www.aftenposten.no/verden/i/XMzl3o/zelenskyj-bytter-ut-forsvarssjefen",
+              "source_id": "aftenposten.no",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:08:03.549362+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8232793807983398,
+            "article": {
+              "title": "Zelensky Dismisses Ukraine’s Top General",
+              "url": "https://www.nytimes.com/2026/07/21/world/europe/ukraine-syrskyi-russia-war-fedorov-zelensky-protest.html",
+              "source_id": "nytimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:12:38.256622+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8208773136138916,
+            "article": {
+              "title": "Zelensky rimuove dall'incarico il comandante in capo delle forze armate Syrskyi. Mosca, espulsi diplomatici italiani",
+              "url": "https://www.corriere.it/esteri/diretta-live/26_luglio_21/guerra-ucraina-russia-le-notizie-in-diretta-attacco-al-mercantile-a-odessa-4-indiani-tra-le-10-vittime.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:08:46.577234+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8164945840835571,
+            "article": {
+              "title": "Zelenszkij mégis leváltotta az ukrán hadsereg főparancsnokát",
+              "url": "https://telex.hu/kulfold/2026/07/21/zelenszkij-megis-levaltotta-az-ukran-hadsereg-foparancsnokat",
+              "source_id": "telex.hu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:52.062913+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8130408525466919,
+            "article": {
+              "title": "Just nu Zelenskyj avskedar försvarschefen Oleksandr Syrskyi byts ut efter massprotester",
+              "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=225a403c017ca36ddffe47e00f629c14",
+              "source_id": "svt.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:08:10.563797+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8049912452697754,
+            "article": {
+              "title": "Ukraine: Wolodymyr Selenskyj tauscht ukrainischen Militärchef aus",
+              "url": "https://www.zeit.de/politik/ausland/2026-07/selenskyj-tauscht-ukrainischen-militaerchef-aus",
+              "source_id": "zeit.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:07:54.811582+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7926738262176514,
+            "article": {
+              "title": "Ticker vor Krieg in der Ukraine: Selenski entlässt Oberbefehlshaber Sirski",
+              "url": "https://www.nzz.ch/international/krieg-in-der-ukraine-selenski-setzt-armeechef-sirski-ab-nachfolger-wird-generalmajor-michailo-drapati-ld.10009803",
+              "source_id": "nzz.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:07:56.249645+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7855846881866455,
+            "article": {
+              "title": "Zełenski zdymisjonował głównodowodzącego ukraińską armią",
+              "url": "https://wyborcza.pl/7,75399,32923655,zelenski-zdymisjonowal-glownodowodzacego-ukrainska-armia.html",
+              "source_id": "wyborcza.pl",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:49.629768+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7850342988967896,
+            "article": {
+              "title": "Selenskyj entlässt Oberbefehlshaber Syrskyj",
+              "url": "https://www.welt.de/politik/ausland/article6a5fcef230e912be641edb03/ukraine-selenskyj-entlaesst-oberbefehlshaber-syrskyj.html",
+              "source_id": "welt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:07:41.339869+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7818509340286255,
+            "article": {
+              "title": "Zelenskyj odvolal Syrského z čela armády. Nahradí ho hrdina z bojů na Donbasu Drapatyj",
+              "url": "https://www.idnes.cz/zpravy/zahranicni/novym-hlavnim-velitelem-ukrajinske-armady-bude-mychajlo-drapatyj-uvedl-prezident-zelenskyj-dosavadni.A260721_215713_zahranicni_tbr",
+              "source_id": "idnes.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:56.941289+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7783551216125488,
+            "article": {
+              "title": "La diretta Zelensky rimuove il capo delle forze armate. Zakharova: “Espulsione dei diplomatici italiani è risposta a Roma”",
+              "url": "https://www.repubblica.it/esteri/2026/07/21/diretta/guerra_ucraina_-_russia_le_news_di_oggi-425483338/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:08:45.011007+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7601619958877563,
+            "article": {
+              "title": "Зеленский уволил Сырского с поста главкома ВСУ",
+              "url": "https://www.kommersant.ru/doc/8830559?from=top_main_2",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:11:28.322365+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.757790207862854,
+            "article": {
+              "title": "Why many Ukrainians feel Commander-in-Chief Syrskyi must go",
+              "url": "https://kyivindependent.com/analysis-why-ukrainians-feel-commander-in-chief-syrskyi-must-go-2/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:11:18.452982+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7464078664779663,
+            "article": {
+              "title": "Александра Сырского уволили с поста главнокомандующего ВСУ",
+              "url": "https://meduza.io/news/2026/07/21/aleksandra-syrskogo-uvolili-s-posta-glavnokomanduyuschego-vsu",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:11:19.553813+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7416788339614868,
+            "article": {
+              "title": "Ukraine’s top general could be on the way out",
+              "url": "https://www.hindustantimes.com/world-news/ukraines-top-general-could-be-on-the-way-out-101784628211017.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:13:37.501358+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7383694052696228,
+            "article": {
+              "title": "Syrsky Dismissed as Commander-in-Chief, Drapaty Replaces Him",
+              "url": "https://www.kyivpost.com/post/80782",
+              "source_id": "kyivpost.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:11:16.764798+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7340269088745117,
+            "article": {
+              "title": "Ukraine commander-in-chief’s job on the line",
+              "url": "https://www.bangkokpost.com/world/3289385/ukraine-commanderinchiefs-job-on-the-line",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:14:49.977942+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6979098320007324,
+            "article": {
+              "title": "ウクライナ軍総司令官が解任 人気の国防相と対立、市民が大規模抗議",
+              "url": "https://www.asahi.com/articles/ASV7P6FY8V7PUHBI03LM.html?iref=comtop_7_04",
+              "source_id": "asahi.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:14:34.023863+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6848180294036865,
+            "article": {
+              "title": "Depois de seis dias de protestos, Zelenski decide demitir chefe das Forças Armadas da Ucrânia Rússia ataca navios e portos no mar Negro e restringe parada de barcos para evitar drones",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/07/protestos-pressionam-zelenski-a-demitir-chefe-das-forcas-armadas.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:09:16.934496+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 85.6524819729342,
+        "size": 20,
+        "n_sources": 18,
+        "n_continents": 8,
+        "continents": [
+          "East Asia",
+          "Europe East",
+          "Europe North",
           "Middle East",
           "North America",
           "Oceania",
           "South America",
           "South Asia"
         ],
-        "coherence": 0.8656969666481018,
-        "title": "Trump imposes 50% tariffs on Canadian goods",
+        "coherence": 0.7960969805717468,
+        "title": "Трамп пригрозил атаковать объекты, связанные с ядерной программой Ирана",
         "central_article": {
-          "title": "Trump imposes 50% tariffs on Canadian goods",
-          "url": "https://georgiatoday.ge/trump-imposes-50-tariffs-on-canadian-goods/",
-          "source_id": "georgiatoday.ge",
+          "title": "Трамп пригрозил атаковать объекты, связанные с ядерной программой Ирана",
+          "url": "https://ria.ru/20260721/tramp-2106099207.html",
+          "source_id": "ria.ru",
           "continent": "Europe East",
           "published_at": null,
-          "scraped_at_utc": "2026-07-21T09:21:25.956575+00:00"
+          "scraped_at_utc": "2026-07-21T20:11:32.736141+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9569313526153564,
+            "sim_to_centroid": 0.8669219017028809,
             "article": {
-              "title": "Trump imposes 50% tariffs on Canadian goods",
-              "url": "https://georgiatoday.ge/trump-imposes-50-tariffs-on-canadian-goods/",
-              "source_id": "georgiatoday.ge",
+              "title": "Трамп пригрозил атаковать объекты, связанные с ядерной программой Ирана",
+              "url": "https://ria.ru/20260721/tramp-2106099207.html",
+              "source_id": "ria.ru",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:21:25.956575+00:00"
+              "scraped_at_utc": "2026-07-21T20:11:32.736141+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9400101900100708,
+            "sim_to_centroid": 0.8538806438446045,
             "article": {
-              "title": "Trump hits Canada with new 50% tariffs",
-              "url": "https://www.usatoday.com/story/news/politics/2026/07/20/trump-canada-tariffs-wildfire/90987616007/",
-              "source_id": "usatoday.com",
-              "continent": "North America",
+              "title": "Trump kündigt US-Angriff auf Gegend rund um iranische Atomeinrichtung an",
+              "url": "https://www.handelsblatt.com/politik/international/iran-krieg-trump-kuendigt-us-angriff-auf-iranische-atomeinrichtung-an/100136895.html",
+              "source_id": "handelsblatt.com",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:22:44.869331+00:00"
+              "scraped_at_utc": "2026-07-21T20:07:39.893869+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9351325631141663,
+            "sim_to_centroid": 0.8515497446060181,
             "article": {
-              "title": "Donald Trump impose au Canada de nouveaux droits de douane de 50 % sur plusieurs produits",
-              "url": "https://www.lemonde.fr/international/article/2026/07/21/donald-trump-impose-au-canada-de-nouveaux-droits-de-douane-de-50-sur-plusieurs-produits_6728016_3210.html",
-              "source_id": "lemonde.fr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:18:41.392520+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9291163086891174,
-            "article": {
-              "title": "Trump imposes 50% tariffs on Canadian goods, citing disputes over autos, alcohol and cheese",
-              "url": "https://apnews.com/article/trump-canada-50-tariff-autos-alcohol-cheese-ca268ef24992b16695954c4c2e5eae6a",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:22:19.612991+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9280269742012024,
-            "article": {
-              "title": "Trump imposes 50% US tariffs on some Canadian goods, citing discrimination",
-              "url": "https://www.aljazeera.com/news/2026/7/21/trump-imposes-50-us-tariffs-on-some-canadian-goods-citing-discrimination",
-              "source_id": "aljazeera.com",
+              "title": "Trump considers expanding military operation against Iran, targeting nuclear facilities",
+              "url": "https://www.albawaba.com/news/trump-considers-expanding-military-1633473",
+              "source_id": "albawaba.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:20:15.453096+00:00"
+              "scraped_at_utc": "2026-07-21T20:10:18.795155+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9276717901229858,
+            "sim_to_centroid": 0.8483548164367676,
             "article": {
-              "title": "Trump imposes 50% tariffs on Canadian goods citing disputes over autos",
-              "url": "https://www.euronews.com/business/2026/07/21/trump-imposes-50-tariffs-on-canadian-goods-citing-disputes-over-autos",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:43.664911+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9245939254760742,
-            "article": {
-              "title": "Trump imposes 50 percent tariffs on Canadian goods, citing disputes over autos, alcohol, and cheese",
-              "url": "https://www.bostonglobe.com/2026/07/20/nation/trump-canada-tariffs/",
-              "source_id": "bostonglobe.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:22:43.824521+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9067087173461914,
-            "article": {
-              "title": "Трамп ввел дополнительные 50-процентные пошлины на товары из Канады",
-              "url": "https://meduza.io/news/2026/07/21/tramp-vvel-dopolnitelnye-50-protsentnye-poshliny-na-tovary-iz-kanady",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:21:05.304426+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9060596227645874,
-            "article": {
-              "title": "Trump to Impose 50% Tariff on Many Canadian Goods",
-              "url": "https://www.nytimes.com/2026/07/20/business/economy/trump-tariffs-canada.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:22:20.977655+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9053465127944946,
-            "article": {
-              "title": "Trump imposes 50pc tariffs on nearly $20bn Canadian imports",
-              "url": "https://pajhwok.com/2026/07/21/trump-imposes-50pc-tariffs-on-nearly-20bn-canadian-imports/",
-              "source_id": "pajhwok.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:23:46.221762+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8993015885353088,
-            "article": {
-              "title": "Trump signs order imposing new 50% tariffs on certain Canadian goods",
-              "url": "https://www.france24.com/en/economy/20260720-trump-signs-order-imposing-new-50-tariffs-on-certain-canadian-goods",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:18:46.992316+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8978276252746582,
-            "article": {
-              "title": "USA indfører 50 procent told på flere varer fra Canada",
-              "url": "https://sermitsiaq.ag/samfund/usa-indforer-50-procent-told-pa-flere-varer-fra-canada/2407437",
-              "source_id": "sermitsiaq.ag",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:18:37.852093+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8935971260070801,
-            "article": {
-              "title": "Trump impõe tarifa de 50% sobre o Canadá por 'discriminar' automóveis e bebidas dos EUA",
-              "url": "https://www.estadao.com.br/economia/trump-impoe-tarifa-produtos-canada/",
-              "source_id": "estadao.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:19:34.635852+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8902174234390259,
-            "article": {
-              "title": "Trump imposes 50% tariffs on Canadian goods in response to ‘continued discrimination’",
-              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-tariffs-canada-trade-carney-b3018482.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:37.518287+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.884726345539093,
-            "article": {
-              "title": "USA verhängen Zölle in Höhe von 50 Prozent auf Produkte aus Kanada",
-              "url": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/usa-zoelle-kanada-102.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:54.246523+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8840769529342651,
-            "article": {
-              "title": "Les Etats-Unis vont imposer 50% de droits de douane sur plusieurs produits canadiens",
-              "url": "https://www.rts.ch/info/monde/2026/article/les-etats-unis-vont-imposer-50-de-droits-de-douane-sur-plusieurs-produits-canadiens-29308492.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:18:48.688870+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8737001419067383,
-            "article": {
-              "title": "Trump brüskiert Kanada mit 50 Prozent Zusatzzöllen",
-              "url": "https://www.diepresse.com/38579800/trump-brueskiert-kanada-mit-50-prozent-zusatzzoellen",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:18:07.769119+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8685466051101685,
-            "article": {
-              "title": "Trump imposes 50% tariffs on Canadian goods, citing disputes over autos, alcohol and cheese By Josh Boak, Associated Press",
-              "url": "https://www.pbs.org/newshour/politics/trump-imposes-50-tariffs-on-canadian-goods-citing-disputes-over-autos-alcohol-and-cheese",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:22:49.833994+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8681968450546265,
-            "article": {
-              "title": "امریکی صدر نے کینیڈا سے درآمد ہونے والی بیشتر اشیاء پر 50 فیصد ٹیرف عائد کردیا",
-              "url": "https://www.nawaiwaqt.com.pk/21-Jul-2026/2012348",
-              "source_id": "nawaiwaqt.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:23:42.734387+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8677763342857361,
-            "article": {
-              "title": "U.S. to impose additional 50 pct tariff on certain Canadian goods",
-              "url": "https://english.news.cn/20260721/19627d49978e43c1826c0a81ffd92b48/c.html",
-              "source_id": "english.news.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:22:56.463834+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8654748201370239,
-            "article": {
-              "title": "Trump kondigt nieuwe heffingen aan op Canadese producten",
-              "url": "https://fd.nl/economie/1605337/trump-kondigt-nieuwe-heffingen-aan-op-canadese-producten",
-              "source_id": "fd.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:52.092056+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8642302751541138,
-            "article": {
-              "title": "امریکی صدر ٹرمپ نے کینیڈا کی کئی مصنوعات پر 50 فیصد ٹیرف لگا دیا",
-              "url": "https://www.nawaiwaqt.com.pk/21-Jul-2026/2012336",
-              "source_id": "nawaiwaqt.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:23:42.734387+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8521804213523865,
-            "article": {
-              "title": "Trump erhebt neue Zölle gegen Kanada",
-              "url": "https://www.zdfheute.de/wirtschaft/usa-trump-zoelle-kanada-100.html",
+              "title": "Trump richtet neue Drohungen an Teheran",
+              "url": "https://www.zdfheute.de/politik/ausland/trump-iran-krieg-drohung-vergeltung-tote-soldaten-100.html",
               "source_id": "zdfheute.de",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:18:10.447171+00:00"
+              "scraped_at_utc": "2026-07-21T20:07:50.119103+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8386558294296265,
+            "sim_to_centroid": 0.8350093364715576,
             "article": {
-              "title": "Trump slaps 50% tariffs on Canada and Carney vows to 'intensify' trade talks",
-              "url": "https://www.bbc.com/news/articles/cg4dzq3x3e1o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:36.379518+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8228801488876343,
-            "article": {
-              "title": "Trump to impose new tariffs on Canadian exports over auto, dairy and alcohol disputes",
-              "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-tariffs-canada-us-executive-order-section-338/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:20:01.315773+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8140823841094971,
-            "article": {
-              "title": "特朗普宣布对加拿大部分商品加征50%关税 为史上首次338关税",
-              "url": "https://international.caixin.com/2026-07-21/102466412.html",
-              "source_id": "caixin.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:23:02.132242+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7516905069351196,
-            "article": {
-              "title": "VS kondigt historische invoerheffingen op Canadese producten aan",
-              "url": "https://www.rtl.nl/nieuws/economie/artikel/5630116/importheffingen-vs-canadese-producten",
-              "source_id": "rtl.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:49.728665+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7090535759925842,
-            "article": {
-              "title": "46 sek Trump: Strafftullar på 50 procent mot Kanada Träder i kraft om 30 dagar • Kanadas svar: Kommer vidta alla nödvändiga åtgärder",
-              "url": "https://www.svt.se/nyheter/utrikes/trumps-hot-kan-infora-50-procentiga-tullar-mot-kanada",
-              "source_id": "svt.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:18:29.764175+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.683222770690918,
-            "article": {
-              "title": "New U.S. tariffs hit a Canada tied in knots with contradictory trade policies",
-              "url": "https://www.theglobeandmail.com/business/commentary/article-new-us-tariffs-hit-a-canada-tied-in-knots-with-contradictory-trade/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:20:01.315773+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6818733811378479,
-            "article": {
-              "title": "Fiji hit with 32% US tariff under Trump’s new trade policy",
-              "url": "https://islandsbusiness.com/news-break/fiji-hit-with-32-us-tariff-under-trumps-new-trade-policy/",
-              "source_id": "islandsbusiness.com",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:20:12.854289+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 162.65090670366914,
-        "size": 30,
-        "n_sources": 27,
-        "n_continents": 10,
-        "continents": [
-          "Africa",
-          "China",
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.7986368536949158,
-        "title": "US attacks Iran for 10th consecutive night",
-        "central_article": {
-          "title": "US attacks Iran for 10th consecutive night",
-          "url": "https://www.aljazeera.com/news/2026/7/21/us-launches-tenth-consecutive-night-of-attacks-on-iran",
-          "source_id": "aljazeera.com",
-          "continent": "Middle East",
-          "published_at": null,
-          "scraped_at_utc": "2026-07-21T09:20:15.453096+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9177767038345337,
-            "article": {
-              "title": "US attacks Iran for 10th consecutive night",
-              "url": "https://www.aljazeera.com/news/2026/7/21/us-launches-tenth-consecutive-night-of-attacks-on-iran",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:20:15.453096+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8946278691291809,
-            "article": {
-              "title": "U.S. military bombs Iran for 10th consecutive night in renewed push to open Strait of Hormuz",
-              "url": "https://www.theglobeandmail.com/world/article-us-and-iran-trade-fire/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:20:01.315773+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8901748657226562,
-            "article": {
-              "title": "US strikes Iran for 10th consecutive night as Tehran strikes tanker in the Strait of Hormuz",
-              "url": "https://www.bostonglobe.com/2026/07/21/world/iran-us-war/",
-              "source_id": "bostonglobe.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:22:43.824521+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8901748657226562,
-            "article": {
-              "title": "US strikes Iran for 10th consecutive night as Tehran strikes tanker in the Strait of Hormuz",
-              "url": "https://apnews.com/article/iran-us-hormuz-strait-war-july-21-2026-1664f6a4dad005a99771b2ad15213585",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:22:19.612991+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8884430527687073,
-            "article": {
-              "title": "Voor de tiende nacht op rij aanvallen tussen Iran en VS",
-              "url": "https://nos.nl/artikel/2623828-voor-de-tiende-nacht-op-rij-aanvallen-tussen-iran-en-vs",
-              "source_id": "nos.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:46.057255+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8880103230476379,
-            "article": {
-              "title": "Iran attacks another tanker in Strait of Hormuz as US strikes for 10th night",
-              "url": "https://www.irishtimes.com/world/middle-east/2026/07/21/iran-attacks-another-tanker-in-strait-of-hormuz-as-us-strikes-for-10th-night/",
-              "source_id": "irishtimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:20:14.351482+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8849401473999023,
-            "article": {
-              "title": "US-Militär bombadiert Iran die zehnte Nacht in Folge",
-              "url": "https://www.tagesschau.de/ausland/asien/iran-krieg-angriffe-104.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:54.246523+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.877225399017334,
-            "article": {
-              "title": "Iran hits Gulf, Jordan as US continues 10th night of strikes",
-              "url": "https://www.newarab.com/news/iran-hits-gulf-jordan-us-continues-10th-night-strikes",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:20:31.692655+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8644689321517944,
-            "article": {
-              "title": "امریکی فوج کے مسلسل دسویں رات ایران پر حملے",
-              "url": "https://jang.com.pk/news/1600748",
-              "source_id": "jang.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:23:40.652873+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8622766733169556,
-            "article": {
-              "title": "Latest Iran retaliates after US carries out 10th consecutive night of strikes",
-              "url": "https://www.thenationalnews.com/news/mena/2026/07/21/live-us-iran-strikes-kuwait-jordan/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:20:16.650509+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8431891202926636,
-            "article": {
-              "title": "US strikes Iran for ninth consecutive day as more ships targeted in Strait of Hormuz",
-              "url": "https://www.france24.com/en/middle-east/20260720-us-strikes-iran-ninth-consecutive-day-more-ships-targeted-strait-of-hormuz-kuwait-bahrain",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:18:46.992316+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8340864181518555,
-            "article": {
-              "title": "US, Iran exchange strikes on 10th day of conflict",
-              "url": "https://pajhwok.com/2026/07/21/us-iran-exchange-strikes-on-10th-day-of-conflict/",
-              "source_id": "pajhwok.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:23:46.221762+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.825350821018219,
-            "article": {
-              "title": "امریکا کے مسلسل دسویں رات حملے، ایران کی کویت اور بحرین میں جوابی کارروائی",
-              "url": "https://www.nawaiwaqt.com.pk/21-Jul-2026/2012346",
-              "source_id": "nawaiwaqt.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:23:42.734387+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8087719678878784,
-            "article": {
-              "title": "US continues to attack Iran as tension expands to Red Sea",
-              "url": "https://www.premiumtimesng.com/foreign/896929-us-continues-to-attack-iran-as-tension-expands-to-red-sea.html",
-              "source_id": "premiumtimesng.com",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:21:57.096024+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7913221120834351,
-            "article": {
-              "title": "واشنطن تواصل ضرباتها لليلة العاشرة وطهران تجدد قصف البحرين والكويت",
-              "url": "https://www.aljazeera.net/news/2026/7/21/هجمات-لليلة-العاشرة-على-إيران-وطهران",
-              "source_id": "aljazeera.net",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:20:19.121400+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7854033708572388,
-            "article": {
-              "title": "U.S. launches more strikes on Iran after deaths of service members",
-              "url": "https://www.pbs.org/newshour/show/u-s-launches-more-strikes-on-iran-after-deaths-of-service-members",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:22:49.833994+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7838972806930542,
-            "article": {
-              "title": "Liverapport Iran: Fartyg i brand i Hormuzsundet USA anfaller Iran för tionde natten i rad • Amerikansk bas i Kuwait attackerad",
-              "url": "https://www.svt.se/nyheter/utrikes/senaste-nytt-om-iran-och-konflikten-med-usa-och-israel?inlagg=11eea2d66cba44d0fb23d5dc6922f09a",
-              "source_id": "svt.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:18:29.764175+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7602712512016296,
-            "article": {
-              "title": "Neue US-Angriffe und Sorgen vor Ausweitung des Iran-Kriegs",
-              "url": "https://www.zdfheute.de/politik/ausland/iran-krieg-usa-sorge-ausweitung-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:18:10.447171+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7570177316665649,
-            "article": {
-              "title": "Hormuz tankers on fire, as US, Iran continue attacks: What’s the latest?",
-              "url": "https://www.aljazeera.com/news/2026/7/21/hormuz-tankers-on-fire-as-us-iran-continue-attacks-whats-the-latest",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:20:15.453096+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.746936559677124,
-            "article": {
-              "title": "Iran and the US are already fighting their next war",
-              "url": "https://www.rt.com/news/643145-iran-and-america-new-war/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:21:11.478311+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7377591133117676,
-            "article": {
-              "title": "Iran war updates: the fight over the Strait of Hormuz continues",
-              "url": "https://www.channel4.com/news/iran-war-updates-the-fight-over-the-strait-of-hormuz-continues",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:42.315746+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7329063415527344,
-            "article": {
-              "title": "الجيش الأمريكي يعلن بدء موجة هجمات جديدة على إيران",
-              "url": "https://www.alsumaria.tv/news/international/570979/الجيش-الأمريكي-يعلن-بدء-موجة-هجمات-جديدة-على-إيران",
-              "source_id": "alsumaria.tv",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:22:18.004647+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.729131817817688,
-            "article": {
-              "title": "美軍連續第九晚襲擊伊朗 魯比奧稱仍有意以外交終結戰事",
-              "url": "https://www.singtaousa.com/2026/07/20/news/world/us-military-attacks-iran-for-ninth-consecutive-night/",
-              "source_id": "singtaousa.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:23:09.932659+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.728740930557251,
-            "article": {
-              "title": "5 Iran Nyatakan Perang Skala Penuh, AS Terus Bombardir Target Militer Tren",
-              "url": "https://www.kompas.com/tren/read/2026/07/21/140000865/iran-nyatakan-perang-skala-penuh-as-terus-bombardir-target-militer?source=terpopuler",
-              "source_id": "kompas.com",
+              "title": "Trump 'not finished' with Iran as Tehran steps up strikes",
+              "url": "https://www.channelnewsasia.com/world/iran-us-attacks-return-war-6268111",
+              "source_id": "channelnewsasia.com",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:24:44.344621+00:00"
+              "scraped_at_utc": "2026-07-21T20:14:30.707658+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7285095453262329,
+            "sim_to_centroid": 0.8320884704589844,
             "article": {
-              "title": "Az Egyesült Államok újabb csapásokkal támadta Iránt, a Pentagon szerint már közel száz amerikai katona sérült meg július eleje óta",
-              "url": "https://telex.hu/kulfold/2026/07/21/egyesult-allamok-ujabb-tamadasi-hullam-iran-ellen-donald-trump",
-              "source_id": "telex.hu",
-              "continent": "Europe East",
+              "title": "Dice Trump que atacar�n sitio cercano a sede nuclear iran�",
+              "url": "https://www.reforma.com/dice-trump-que-atacaran-sitio-cercano-a-sede-nuclear-irani/ar3244160?v=3",
+              "source_id": "reforma.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:20:45.400164+00:00"
+              "scraped_at_utc": "2026-07-21T20:08:51.376489+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.715034008026123,
+            "sim_to_centroid": 0.8225171566009521,
             "article": {
-              "title": "Iran pushed for 10-day ceasefire with US, while Trump pushes for Iran to ‘pay a price’",
-              "url": "https://www.jpost.com/middle-east/iran-news/article-903154",
+              "title": "Trump eyes expanded Iran campaign as Israeli officials warn Tehran may strike Israel",
+              "url": "https://www.jpost.com/middle-east/article-903231",
               "source_id": "jpost.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:20:17.938419+00:00"
+              "scraped_at_utc": "2026-07-21T20:10:06.828983+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7098690271377563,
+            "sim_to_centroid": 0.8218512535095215,
             "article": {
-              "title": "Irán ataca radares y sistemas de defensa estadounidense en respuesta a bombardeos",
-              "url": "https://www.emol.com/noticias/Internacional/2026/07/21/1206213/iran-ataca-radares-sistemas-eeuu.html",
-              "source_id": "emol.com",
-              "continent": "South America",
+              "title": "'Not finished': Trump signals US strikes on Iran's Pickaxe Mountain site",
+              "url": "https://www.abc.net.au/news/2026-07-22/trump-pickaxe-mountain/106942520",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:19:23.546164+00:00"
+              "scraped_at_utc": "2026-07-21T20:09:50.451278+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7061660289764404,
+            "sim_to_centroid": 0.8210934996604919,
             "article": {
-              "title": "ایران کے کویت اور بحرین میں امریکی فوجی تنصیبات پر مزید حملے",
-              "url": "https://jang.com.pk/news/1600924",
+              "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
+              "url": "https://www.bbc.com/news/articles/cx25wg2x26do",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:07:16.303472+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8020980358123779,
+            "article": {
+              "title": "امریکی صدر ٹرمپ نے نطنز کے پہاڑوں میں ایرانی ایٹمی مرکز پر حملے کی دھمکی دے دی",
+              "url": "https://jang.com.pk/news/1601008",
               "source_id": "jang.com.pk",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:23:40.652873+00:00"
+              "scraped_at_utc": "2026-07-21T20:13:54.995633+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6996584534645081,
+            "sim_to_centroid": 0.7998275756835938,
             "article": {
-              "title": "Zehnte Angriffswelle der USA: Vermittler wollen Waffenruhe im Iran",
-              "url": "https://www.diepresse.com/38579799/zehnte-angriffswelle-der-usa-vermittler-wollen-waffenruhe-im-iran",
-              "source_id": "diepresse.com",
+              "title": "Trump afirma que Irán está “desesperado” por negociar y amenaza con nuevos ataques",
+              "url": "https://www.semana.com/mundo/articulo/trump-afirma-que-iran-esta-desesperado-por-negociar-y-amenaza-con-nuevos-ataques/202638/",
+              "source_id": "semana.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:09:11.393442+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.786262571811676,
+            "article": {
+              "title": "نطنز میں ایٹمی مرکز پر حملہ جلد ہوگا، ایران کچھ نہیں کرسکے گا، ٹرمپ کی دھمکی",
+              "url": "https://jang.com.pk/news/1560993",
+              "source_id": "jang.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:13:54.995633+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7772572636604309,
+            "article": {
+              "title": "Trump warns Iran the US ‘has been nice’ so far in attacks as threat of full-blown war grows",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-iran-warning-strikes-war-b3018991.html",
+              "source_id": "independent.co.uk",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:18:07.769119+00:00"
+              "scraped_at_utc": "2026-07-21T20:07:17.645819+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6769635081291199,
+            "sim_to_centroid": 0.7643347978591919,
             "article": {
-              "title": "US delays nightly Iran bombing until after World Cup final",
-              "url": "https://www.rt.com/news/643244-us-iran-bombing-world-cup/",
+              "title": "Funke Mediengruppe Live Krieg im Iran Trump nimmt wichtigen Atom-Komplex des Iran ins Visier – „mit voller Wucht“",
+              "url": "https://www.abendblatt.de/politik/article412152244/iran-krieg-news-aktuell-live-trump-angriff-tod-soldat-rache-hormus-tanker.html",
+              "source_id": "abendblatt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:07:51.814829+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.763102650642395,
+            "article": {
+              "title": "Trump expects to keep launching strikes on Iran from British bases",
+              "url": "https://www.rt.com/news/643286-trump-uk-burnham-bases/",
               "source_id": "rt.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:21:11.478311+00:00"
+              "scraped_at_utc": "2026-07-21T20:11:26.448968+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7528120279312134,
+            "article": {
+              "title": "إيران مباشر.. ترمب يلوّح بضرب موقع نووي في جبل الفأس واستهداف الحوثيين",
+              "url": "https://www.aljazeera.net/news/liveblog/2026/7/21/إيران-انفجارات-بمدن-إيرانية-وهجمات",
+              "source_id": "aljazeera.net",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:08.048178+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7400110960006714,
+            "article": {
+              "title": "'Çok yakında vuracağız' Trump'tan 'Kazma Dağı' mesajı",
+              "url": "https://www.cumhuriyet.com.tr/dunya/trump-tan-kazma-dagi-mesaji-cok-yakinda-vuracagiz-2522755",
+              "source_id": "cumhuriyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:15.848051+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7374209761619568,
+            "article": {
+              "title": "Iran strikes Gulf, Jordan; Aoun meets Trump at White House",
+              "url": "https://www.newarab.com/news/iran-strikes-gulf-jordan-aoun-meets-trump-white-house",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:20.147129+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.737235426902771,
+            "article": {
+              "title": "مباشر ترامب: سنقصف جبل الفأس في إيران قريباً جداً... وطهران تكثّف استهداف دول المنطقة | \"النهار\" في تغطية متواصلة",
+              "url": "https://www.annahar.com/international/iran/281108/إسرائيل-تعلن-شن-ضربة-استباقية-على-إيران-النهار-في-تغطية-مباشرة",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:42.328999+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7083104252815247,
+            "article": {
+              "title": "What is Pickaxe Mountain, Iran's nuclear site which might be among Trump's next targets",
+              "url": "https://www.jpost.com/middle-east/iran-news/article-903221",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:06.828983+00:00"
             }
           }
         ]
       },
       {
-        "score": 142.6936943286107,
-        "size": 40,
-        "n_sources": 30,
-        "n_continents": 8,
+        "score": 84.80837457130811,
+        "size": 17,
+        "n_sources": 16,
+        "n_continents": 9,
         "continents": [
           "China",
           "East Asia",
           "Europe East",
           "Europe North",
           "Europe South",
-          "Middle East",
           "North America",
-          "Oceania"
+          "Oceania",
+          "South America",
+          "South Asia"
         ],
-        "coherence": 0.796012282371521,
+        "coherence": 0.794116199016571,
         "title": "Andy Burnham takes office as British PM, unveils new cabinet",
         "central_article": {
           "title": "Andy Burnham takes office as British PM, unveils new cabinet",
@@ -746,684 +968,205 @@
           "source_id": "en.people.cn",
           "continent": "China",
           "published_at": null,
-          "scraped_at_utc": "2026-07-21T09:22:53.301052+00:00"
+          "scraped_at_utc": "2026-07-21T20:13:12.049481+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.924474835395813,
+            "sim_to_centroid": 0.9035940170288086,
             "article": {
               "title": "Andy Burnham takes office as British PM, unveils new cabinet",
               "url": "https://en.people.cn/n3/2026/0721/c90000-20479856.html",
               "source_id": "en.people.cn",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:22:53.301052+00:00"
+              "scraped_at_utc": "2026-07-21T20:13:12.049481+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.924474835395813,
-            "article": {
-              "title": "Andy Burnham takes office as British PM, unveils new cabinet",
-              "url": "https://english.news.cn/20260721/d4e18d99d3e2472db107dab5589cda2e/c.html",
-              "source_id": "english.news.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:22:56.463834+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8996083736419678,
-            "article": {
-              "title": "Andy Burnham takes office as British prime minister",
-              "url": "https://tass.com/world/2162565",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:21:15.516936+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8744562864303589,
+            "sim_to_centroid": 0.8779962062835693,
             "article": {
               "title": "New U.K. PM Burnham stamps authority with Cabinet shakeup",
               "url": "https://www.japantimes.co.jp/news/2026/07/21/world/uk-pm-burnham-cabinet/",
               "source_id": "japantimes.co.jp",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:24:18.036210+00:00"
+              "scraped_at_utc": "2026-07-21T20:14:32.096280+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8721264600753784,
+            "sim_to_centroid": 0.8359024524688721,
             "article": {
-              "title": "Neuer Britischer Premier Burnham will Briten wieder Hoffnung geben",
-              "url": "https://www.tagesschau.de/ausland/europa/grossbritannien-neuer-premier-burnham-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:54.246523+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8695781826972961,
-            "article": {
-              "title": "UK Prime Minister Andy Burnham unveils new government, replacing Starmer era",
-              "url": "https://www.france24.com/en/europe/20260721-uk-prime-minister-andy-burnham-unveils-new-government-replacing-starmer-era",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:18:46.992316+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.866023600101471,
-            "article": {
-              "title": "Burnham to chair first Cabinet as Britain’s new PM",
-              "url": "https://www.politico.eu/article/andy-burnham-to-become-uk-prime-minister/",
-              "source_id": "politico.eu",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:44.976652+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.858690619468689,
-            "article": {
-              "title": "Andy Burnham becomes Prime Minister, promising the biggest changes for 40 years",
-              "url": "https://www.channel4.com/news/andy-burnham-becomes-prime-minister-promising-the-biggest-changes-for-40-years",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:42.315746+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8484317660331726,
-            "article": {
-              "title": "Burnham belooft ‘nieuw economisch model’ voor VK en stelt eerste ministers aan",
-              "url": "https://fd.nl/politiek/1605189/burnham-belooft-nieuw-economisch-model-voor-verenigd-koninkrijk",
-              "source_id": "fd.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:52.092056+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.832027792930603,
-            "article": {
-              "title": "What Andy Burnham’s new-look Cabinet tells us about Britain’s direction",
+              "title": "What Andy Burnham’s new-look Cabinet says about UK’s direction",
               "url": "https://www.politico.eu/article/andy-burnham-britain-new-look-cabinet-winners-losers/",
               "source_id": "politico.eu",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:44.976652+00:00"
+              "scraped_at_utc": "2026-07-21T20:07:24.835520+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8319790363311768,
+            "sim_to_centroid": 0.8331668376922607,
             "article": {
-              "title": "Andy Burnham vijfde Britse premier sinds brexit",
-              "url": "https://fd.nl/politiek/1605186/andy-burnham-vijfde-britse-premier-sinds-brexitreferendum",
-              "source_id": "fd.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:52.092056+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8270609378814697,
-            "article": {
-              "title": "Burnham lover briterne økonomisk pusterum i første tale i Downing Street",
-              "url": "https://sermitsiaq.ag/samfund/burnham-lover-briterne-okonomisk-pusterum-i-forste-tale-i-downing-street/2407097",
-              "source_id": "sermitsiaq.ag",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:18:37.852093+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8264157772064209,
-            "article": {
-              "title": "Burnham promises to restore stability as UK enters 'new era'",
-              "url": "https://www.euronews.com/my-europe/2026/07/20/new-pm-andy-burnham-vows-10-year-plan-to-stabilise-uk",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:43.664911+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8218963146209717,
-            "article": {
-              "title": "Neuer britischer Premierminister Burnham präsentiert sein neues Kabinett – Überraschung im Finanzministerium",
-              "url": "https://www.spiegel.de/ausland/andy-burnham-das-sind-die-ersten-minister-des-neuen-premierministers-a-3ff7d200-777c-4e0f-a697-7b33d280a3fb",
-              "source_id": "spiegel.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:56.746734+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.820824146270752,
-            "article": {
-              "title": "Voormalig burgemeester van Manchester, Andy Burnham, is officieel de nieuwe premier van het VK",
-              "url": "https://www.nrc.nl/nieuws/2026/07/20/voormalig-burgemeester-van-manchester-andy-burnham-is-officieel-de-nieuwe-premier-van-het-vk-a4932873",
+              "title": "Wat wil premier Burnham voor elkaar krijgen in het Verenigd Koninkrijk?",
+              "url": "https://www.nrc.nl/nieuws/2026/07/21/een-telefoontje-met-trump-45-pond-belastingverlaging-en-een-handvol-beloften-de-eerste-dagen-van-premier-burnham-a4932878",
               "source_id": "nrc.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:47.922829+00:00"
+              "scraped_at_utc": "2026-07-21T20:07:27.850747+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8207138776779175,
+            "sim_to_centroid": 0.8151785135269165,
             "article": {
               "title": "What do people think of Andy Burnham as PM?",
               "url": "https://www.channel4.com/news/what-do-people-think-of-andy-burnham-as-pm",
               "source_id": "channel4.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:42.315746+00:00"
+              "scraped_at_utc": "2026-07-21T20:07:21.993648+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8112499117851257,
+            "sim_to_centroid": 0.8071666955947876,
             "article": {
-              "title": "Andy Burnham entre à Downing Street en promettant de « distribuer le pouvoir partout dans le pays »",
-              "url": "https://www.lemonde.fr/international/article/2026/07/21/andy-burnham-entre-a-downing-street-et-choisit-l-ex-ministre-de-la-defense-john-healey-comme-chancelier-de-l-echiquier_6728014_3210.html",
-              "source_id": "lemonde.fr",
-              "continent": "Europe South",
+              "title": "Burnham lover briterne økonomisk pusterum i første tale i Downing Street",
+              "url": "https://sermitsiaq.ag/samfund/burnham-lover-briterne-okonomisk-pusterum-i-forste-tale-i-downing-street/2407097",
+              "source_id": "sermitsiaq.ag",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:18:41.392520+00:00"
+              "scraped_at_utc": "2026-07-21T20:08:19.930419+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8099928498268127,
-            "article": {
-              "title": "Key issues the UK’s new leader Andy Burnham faces",
-              "url": "https://apnews.com/article/britain-burnham-prime-minister-starmer-economy-immigration-19deb2ceb705703310db55bf4802fce7",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:22:19.612991+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7963730096817017,
+            "sim_to_centroid": 0.8045448660850525,
             "article": {
               "title": "Key Moments From Burnham’s First Day as U.K. PM, Including His Invite to Trump",
               "url": "https://time.com/article/2026/07/20/andy-burnham-uk-prime-minister-day-one-trump-invitation/",
               "source_id": "time.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:22:47.396529+00:00"
+              "scraped_at_utc": "2026-07-21T20:13:06.199877+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7962799072265625,
-            "article": {
-              "title": "Neuer britischer Premier Burnham streicht Mehrwertsteuer auf Stromrechnungen",
-              "url": "https://www.diepresse.com/38578812/neuer-britischer-premier-burnham-streicht-mehrwertsteuer-auf-stromrechnungen",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:18:07.769119+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7957122921943665,
+            "sim_to_centroid": 0.7966858744621277,
             "article": {
               "title": "Starmer quits, Burnham rises: What you need to know about the UK’s new leadership",
               "url": "https://www.rt.com/news/643240-uk-leadership-change-explainer/",
               "source_id": "rt.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:21:11.478311+00:00"
+              "scraped_at_utc": "2026-07-21T20:11:26.448968+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7940196990966797,
+            "sim_to_centroid": 0.7879285216331482,
             "article": {
-              "title": "Quién es Andy Burnham, el \"rey del norte\" elegido como primer ministro de Reino Unido",
-              "url": "https://www.bbc.com/mundo/articles/cj9gwy0nzgyo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:19:05.658486+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7879428863525391,
-            "article": {
-              "title": "Le nouveau Premier ministre Andy Burnham promet \"un plan sur dix ans\" pour redresser le Royaume-Uni Gouvernement britannique hier à",
-              "url": "https://www.rts.ch/info/monde/2026/article/royaume-uni-andy-burnham-succede-a-keir-starmer-comme-premier-ministre-29307675.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:18:48.688870+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.779552698135376,
-            "article": {
-              "title": "Inizia l’era di Burnham: “Crescita e speranza, ho un piano decennale”",
-              "url": "https://www.repubblica.it/esteri/2026/07/21/news/burnham_presentazione_ministri_piano_decennale-425483307/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:19:00.834058+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7792471647262573,
-            "article": {
-              "title": "UK leader Burnham gathers his Cabinet after sweeping away Starmer supporters",
-              "url": "https://apnews.com/article/uk-prime-minister-burnham-cabinet-meeting-economy-18d380d746c0e2df0d2a1f3d35cf4ce0",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:22:19.612991+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7768046855926514,
-            "article": {
-              "title": "What does Burnham’s record on homelessness in Manchester say about his first pledge at PM?",
-              "url": "https://www.channel4.com/news/what-does-burnhams-record-on-homelessness-in-manchester-say-about-his-first-pledge-at-pm",
+              "title": "Burnham v Trump: will new PM stand up to President?",
+              "url": "https://www.channel4.com/news/burnham-v-trump-will-new-pm-stand-up-to-president",
               "source_id": "channel4.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:42.315746+00:00"
+              "scraped_at_utc": "2026-07-21T20:07:21.993648+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7753289937973022,
+            "sim_to_centroid": 0.786469042301178,
             "article": {
-              "title": "Wales: What is the First Minister hoping for from new PM Burnham?",
-              "url": "https://www.channel4.com/news/wales-what-is-the-first-minister-hoping-for-from-new-pm-burnham",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
+              "title": "Andy Burnham, el sétimo primer ministro británico en 10 años, y una crisis que no tiene fin",
+              "url": "https://elcomercio.pe/mundo/actualidad/andy-burnham-el-setimo-primer-ministro-britanico-en-10-anos-y-una-crisis-que-no-tiene-fin-tiene-la-ventaja-de-que-es-popular-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:42.315746+00:00"
+              "scraped_at_utc": "2026-07-21T20:09:24.387036+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7653077244758606,
+            "sim_to_centroid": 0.7862450480461121,
             "article": {
-              "title": "What kind of economy is Burnham inheriting and what will he do with it?",
-              "url": "https://www.channel4.com/news/what-kind-of-economy-is-burnham-inheriting-and-what-will-he-do-with-it",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
+              "title": "New UK PM Andy Burnham to spend ‘one day a week’ working in Manchester",
+              "url": "https://www.straitstimes.com/world/europe/new-uk-pm-andy-burnham-to-spend-one-day-a-week-working-in-manchester?ref=latest-headlines",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:42.315746+00:00"
+              "scraped_at_utc": "2026-07-21T20:14:53.538764+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7591272592544556,
-            "article": {
-              "title": "What Andy Burnham means for UK policy in the Middle East",
-              "url": "https://www.newarab.com/analysis/what-andy-burnham-means-uk-policy-middle-east",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:20:31.692655+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7565441131591797,
-            "article": {
-              "title": "Spain celebrates World Cup triumph as Burnham takes office in the UK",
-              "url": "https://www.euronews.com/my-europe/2026/07/21/europe-today-spain-celebrates-world-cup-triumph-as-burnham-takes-office-in-the-uk",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:43.664911+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7498209476470947,
-            "article": {
-              "title": "Explained Andy Burnham’s first Labour cabinet: who’s in and who’s out?",
-              "url": "https://www.theguardian.com/politics/2026/jul/20/andy-burnham-labour-cabinet-profiles",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:40.478532+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7336767911911011,
+            "sim_to_centroid": 0.7647337913513184,
             "article": {
               "title": "英国新首相伯纳姆上台 高举“权力下放”旗帜瞄准生活成本痛点",
               "url": "https://international.caixin.com/2026-07-21/102466619.html",
               "source_id": "caixin.com",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:23:02.132242+00:00"
+              "scraped_at_utc": "2026-07-21T20:13:20.495016+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7224024534225464,
+            "sim_to_centroid": 0.7590574622154236,
             "article": {
-              "title": "Kirsty Wigglesworth / AP,NTB Burnham kutter strømmomsen på sin første dag som statsminister Storbritannia Følg saken",
-              "url": "https://www.nrk.no/nyheter/storbritannia-1.11961064",
-              "source_id": "nrk.no",
+              "title": "Neuer britischer Premier So sieht Andy Burnhams Kabinett aus Der neue britische Premier verliert keine Zeit – kurz nach seiner Ernennung hat Andy Burnham das Kabinett neu geordnet.",
+              "url": "https://www.srf.ch/news/international/neuer-britischer-premier-so-sieht-andy-burnhams-kabinett-aus",
+              "source_id": "srf.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:07:57.763826+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7379277348518372,
+            "article": {
+              "title": "UK to remove 5% tax on electricity bills as Burnham's cabinet meets",
+              "url": "https://www.euronews.com/my-europe/2026/07/21/uk-to-remove-5-tax-on-electricity-bills-as-burnham-holds-first-cabinet-meeting",
+              "source_id": "euronews.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:18:31.020620+00:00"
+              "scraped_at_utc": "2026-07-21T20:07:23.503735+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7202156782150269,
-            "article": {
-              "title": "British PM announces new cabinet lineup",
-              "url": "https://tass.com/world/2162845",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:21:15.516936+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.713518500328064,
-            "article": {
-              "title": "Il Regno Unito entra nell'era Burnham: «Dopo 40 anni cambieremo modello» |",
-              "url": "https://www.corriere.it/esteri/26_luglio_20/regno-unito-andrew-burnham-premier-6a414570-1d0d-49fe-bac7-718ca7e40xlk.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:19:02.451190+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7084672451019287,
-            "article": {
-              "title": "Burnham Makes Surprise Pick for Top Finance Job",
-              "url": "https://www.nytimes.com/2026/07/20/business/andy-burnham-john-healey.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:22:20.977655+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7080932855606079,
-            "article": {
-              "title": "New Prime Minister pledges to 'bring back hope' to UK",
-              "url": "https://www.thenationalnews.com/news/uk/2026/07/20/uk-prime-minister-visits-king-to-resign/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:20:16.650509+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7000847458839417,
-            "article": {
-              "title": "Verenigd Koninkrijk Andy Burnham belooft grote verandering, maar heeft amper 3 jaar ma 20 jul.",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/07/20/premier-andy-burnham-staat-voor-reusachtige-uitdagingen/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:18:50.065200+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6924662590026855,
+            "sim_to_centroid": 0.7366982698440552,
             "article": {
               "title": "'Ceases to be a nuclear power': The high-stakes deal the new UK PM inherits",
               "url": "https://www.sbs.com.au/news/article/andy-burnham-aukus-submarine-deal-australia/j38e9qzzf",
               "source_id": "sbs.com.au",
               "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:20:03.980581+00:00"
+              "scraped_at_utc": "2026-07-21T20:09:51.785894+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6894807815551758,
+            "sim_to_centroid": 0.7363035678863525,
             "article": {
-              "title": "Prime Minister Andy Burnham and his wife, Marie-France van Heel, at 10 Downing Street in London on Monday.",
-              "url": "https://www.nytimes.com/2026/07/20/world/europe/andy-burnham-uk.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
+              "title": "Political minefields: On the new Prime Minister of the United Kingdom",
+              "url": "https://www.thehindu.com/opinion/editorial/political-minefields-on-the-new-prime-minister-of-the-united-kingdom/article71249912.ece",
+              "source_id": "thehindu.com",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:22:20.977655+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 97.61290954738928,
-        "size": 18,
-        "n_sources": 17,
-        "n_continents": 8,
-        "continents": [
-          "China",
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "Oceania"
-        ],
-        "coherence": 0.833670973777771,
-        "title": "Iran-backed Houthis announce a maritime blockade of Saudi Arabia",
-        "central_article": {
-          "title": "Iran-backed Houthis announce a maritime blockade of Saudi Arabia",
-          "url": "https://www.thetimes.com/world/middle-east/article/houthi-blockade-saudi-arabia-iran-yemen-qtgfm5bxv",
-          "source_id": "thetimes.com",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-07-21T09:17:39.251448+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9260005354881287,
-            "article": {
-              "title": "Iran-backed Houthis announce a maritime blockade of Saudi Arabia",
-              "url": "https://www.thetimes.com/world/middle-east/article/houthi-blockade-saudi-arabia-iran-yemen-qtgfm5bxv",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:39.251448+00:00"
+              "scraped_at_utc": "2026-07-21T20:13:36.307881+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9178181290626526,
+            "sim_to_centroid": 0.7303758859634399,
             "article": {
-              "title": "Houthis declare naval blockade of Saudi Arabia",
-              "url": "https://www.rt.com/news/643278-houthis-saudi-naval-blockade/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:21:11.478311+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9020852446556091,
-            "article": {
-              "title": "Yemen’s Houthis declare naval blockade against Saudi Arabia",
-              "url": "https://www.independent.co.uk/news/world/middle-east/yemen-houthi-blockade-saudi-arabia-b3018262.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:37.518287+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8923099637031555,
-            "article": {
-              "title": "Houthi’s kondigen zeeblokkade Saoedi-Arabië aan",
-              "url": "https://fd.nl/politiek/1605203/houthis-kondigen-zeeblokkade-saoedi-arabie-aan",
-              "source_id": "fd.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:52.092056+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8844825625419617,
-            "article": {
-              "title": "Houthis announce maritime ban on Saudi Red Sea ports",
-              "url": "https://www.albawaba.com/news/houthis-announce-maritime-ban-saudi-red-1633438",
-              "source_id": "albawaba.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:20:30.234881+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8800907135009766,
-            "article": {
-              "title": "Yemen's Houthis declare Saudi maritime blockade, threatening new front in US-Iran war",
-              "url": "https://www.sbs.com.au/news/article/houthi-blockade-of-saudi-arabia-us-iran-war/ii1v861my",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:20:03.980581+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8791589736938477,
-            "article": {
-              "title": "Yemen's Houthis announce 'maritime embargo' on Saudi Arabia",
-              "url": "https://www.bbc.com/news/articles/cm2gmddx1ldo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:36.379518+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.871279776096344,
-            "article": {
-              "title": "Aan Iran verbonden Houthi's kondigen Saoedische zeeblokkade aan",
-              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5630144/saoedische-zeeblokkade-door-houthis-jemen-iran-vs-oorlog",
-              "source_id": "rtl.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:49.728665+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8560582399368286,
-            "article": {
-              "title": "Yemen’s Iranian-backed Houthis say they will block Saudi shipping at Red Sea gateway",
-              "url": "https://apnews.com/article/yemen-saudi-arabia-maritime-embargo-fd7c4a3911f7eee18251483fc8af768c",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:22:19.612991+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8544212579727173,
-            "article": {
-              "title": "Йеменские хуситы объявили о морской блокаде Саудовской Аравии",
-              "url": "https://meduza.io/news/2026/07/20/yemenskie-husity-ob-yavili-o-morskoy-blokade-saudovskoy-aravii",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:21:05.304426+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8439853191375732,
-            "article": {
-              "title": "Houthi’s kondigen maritieme blokkade af tegen Saoedi-Arabië en dat verergert mogelijk de crisis op de wereldwijde oliemarkt",
-              "url": "https://www.nrc.nl/nieuws/2026/07/20/houthis-kondigen-maritieme-blokkade-af-tegen-saoedi-arabie-en-dat-verergert-mogelijk-de-crisis-op-de-wereldwijde-oliemarkt-a4932883",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:47.922829+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8101291656494141,
-            "article": {
-              "title": "Iran fighting 'full-scale war' with US, Yemen's Houthis announce Saudi naval blockade",
-              "url": "https://www.france24.com/en/middle-east/20260719-middle-east-live-us-launches-strikes-to-punish-iran-after-troops-killed",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:18:46.992316+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7711771726608276,
-            "article": {
-              "title": "How a Houthi blockade in the Red Sea threatens global energy supplies",
-              "url": "https://www.theglobeandmail.com/world/article-how-houthi-blockade-in-red-sea-threatens-global-energy-supplies/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:20:01.315773+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7691612243652344,
-            "article": {
-              "title": "Saudi Arabia rejects Houthi ‘maritime embargo’ threat and warns of Red Sea escalation",
-              "url": "https://www.thenationalnews.com/news/mena/2026/07/21/saudi-arabia-rejects-houthi-maritime-embargo-threat-warns-of-red-sea-escalation/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:20:16.650509+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7618531584739685,
-            "article": {
-              "title": "胡塞武装宣称将对沙特实施海上封锁 红海危机是否再现？(含视频)",
-              "url": "https://international.caixin.com/2026-07-20/102466330.html",
-              "source_id": "caixin.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:23:02.132242+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7537209987640381,
-            "article": {
-              "title": "How a Houthi blockade in the Red Sea tightens Iran’s grip on global energy supply",
-              "url": "https://www.japantimes.co.jp/news/2026/07/21/world/politics/houthi-red-sea-iran-energy-supplies/",
-              "source_id": "japantimes.co.jp",
+              "title": "New UK PM announces energy tax cut on first day",
+              "url": "https://www.bangkokpost.com/world/3289400/new-uk-pm-announces-energy-tax-cut-on-first-day",
+              "source_id": "bangkokpost.com",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:24:18.036210+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7309007048606873,
-            "article": {
-              "title": "沙特外交部、联合国等回应胡塞武装对沙特实施海上禁运",
-              "url": "https://www.stnn.cc/detail/6a5f0de02f4150621fcd4eb2.html",
-              "source_id": "stnn.cc",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:23:14.501819+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7014439702033997,
-            "article": {
-              "title": "Saudi oil loadings drop by 36% as Houthi threats disrupt Bab Al Mandeb passage",
-              "url": "https://www.thenationalnews.com/business/energy/2026/07/20/saudi-oil-loadings-drop-by-36-as-houthi-threats-disrupt-bab-al-mandeb-passage/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:20:16.650509+00:00"
+              "scraped_at_utc": "2026-07-21T20:14:49.977942+00:00"
             }
           }
         ]
       },
       {
-        "score": 90.77578107911523,
+        "score": 76.30249498848795,
         "size": 19,
-        "n_sources": 17,
+        "n_sources": 16,
         "n_continents": 8,
         "continents": [
-          "Africa",
+          "East Asia",
           "Europe East",
           "Europe North",
           "Europe South",
@@ -1432,7 +1175,762 @@
           "Oceania",
           "South America"
         ],
-        "coherence": 0.819147527217865,
+        "coherence": 0.796535074710846,
+        "title": "Iran-backed Houthis threaten Red Sea blockade against Saudi Arabia",
+        "central_article": {
+          "title": "Iran-backed Houthis threaten Red Sea blockade against Saudi Arabia",
+          "url": "https://www.usatoday.com/story/graphics/2026/07/21/red-sea-blockade-saudi-fuel-prices/90993212007/",
+          "source_id": "usatoday.com",
+          "continent": "North America",
+          "published_at": null,
+          "scraped_at_utc": "2026-07-21T20:13:02.191645+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8830167651176453,
+            "article": {
+              "title": "Iran-backed Houthis threaten Red Sea blockade against Saudi Arabia",
+              "url": "https://www.usatoday.com/story/graphics/2026/07/21/red-sea-blockade-saudi-fuel-prices/90993212007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:13:02.191645+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8722760677337646,
+            "article": {
+              "title": "Iran-backed Houthis announce a maritime blockade of Saudi Arabia",
+              "url": "https://www.thetimes.com/world/middle-east/article/houthi-blockade-saudi-arabia-iran-yemen-qtgfm5bxv",
+              "source_id": "thetimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:07:19.164528+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8713366985321045,
+            "article": {
+              "title": "Yemen's Houthis declare Saudi maritime blockade, threatening new front in US-Iran war",
+              "url": "https://www.sbs.com.au/news/article/houthi-blockade-of-saudi-arabia-us-iran-war/ii1v861my",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:09:51.785894+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.862297534942627,
+            "article": {
+              "title": "Houthis declare naval blockade of Saudi Arabia",
+              "url": "https://www.rt.com/news/643278-houthis-saudi-naval-blockade/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:11:26.448968+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8481684923171997,
+            "article": {
+              "title": "Saudi crude tankers turn back in Red Sea as Houthi threat widens war",
+              "url": "https://www.theglobeandmail.com/world/article-iran-hits-tanker-in-strait-of-hormuz-as-us-air-strikes-continue/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:09:49.210464+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8049412965774536,
+            "article": {
+              "title": "How a Houthi blockade in the Red Sea threatens global energy supplies",
+              "url": "https://www.theglobeandmail.com/world/article-how-houthi-blockade-in-red-sea-threatens-global-energy-supplies/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:09:49.210464+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8045141100883484,
+            "article": {
+              "title": "Iran fighting 'full-scale war' with US, Yemen's Houthis announce Saudi naval blockade",
+              "url": "https://www.france24.com/en/middle-east/20260719-middle-east-live-us-launches-strikes-to-punish-iran-after-troops-killed",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:08:30.772535+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7981604933738708,
+            "article": {
+              "title": "Tankers carrying Saudi oil U-turn in Red Sea after Houthi threats",
+              "url": "https://www.thenationalnews.com/news/gulf/2026/07/21/saudi-arabia-rejects-houthi-maritime-embargo-threat-and-warns-of-red-sea-escalation/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:05.482813+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7920440435409546,
+            "article": {
+              "title": "Petroleiros ligados à Arábia Saudita mudam rota no Mar Vermelho após ameaça de ataque dos houthis",
+              "url": "https://oglobo.globo.com/mundo/noticia/2026/07/21/petroleiros-ligados-a-arabia-saudita-mudam-rota-no-mar-vermelho-apos-ameaca-de-ataque-dos-houthis.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:09:19.879267+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7785831689834595,
+            "article": {
+              "title": "How a Houthi blockade in the Red Sea tightens Iran’s grip on global energy supply",
+              "url": "https://www.japantimes.co.jp/news/2026/07/21/world/politics/houthi-red-sea-iran-energy-supplies/",
+              "source_id": "japantimes.co.jp",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:14:32.096280+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7776949405670166,
+            "article": {
+              "title": "Oil tankers reverse course as Yemen’s Houthis open new front in US-Iran war",
+              "url": "https://www.irishtimes.com/world/middle-east/2026/07/21/iran-attacks-another-tanker-in-strait-of-hormuz-as-us-strikes-for-10th-night/",
+              "source_id": "irishtimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:02.980769+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7715796232223511,
+            "article": {
+              "title": "Saudi Arabia slams Houthi blockade: How will rest of the world be impacted?",
+              "url": "https://www.aljazeera.com/news/2026/7/21/saudi-condemns-houthi-blockade-how-will-the-rest-of-the-world-be-impacted",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:04.132154+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7668420672416687,
+            "article": {
+              "title": "Asian refiners look to Suez Canal to move Saudi oil amid Houthi shipping threats",
+              "url": "https://www.straitstimes.com/world/middle-east/asian-refiners-look-to-suez-canal-to-move-saudi-oil-amid-houthi-shipping-threats?ref=latest-headlines",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:14:53.538764+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7620140314102173,
+            "article": {
+              "title": "Huthirebellerna hotar fartyg i Röda havet: ”Bannade” Inför en sjöblockad mot Saudiarabien",
+              "url": "https://www.svt.se/nyheter/utrikes/huthirebellerna-hotar-fartyg-i-roda-havet-bannade",
+              "source_id": "svt.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:08:10.563797+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7594666481018066,
+            "article": {
+              "title": "Οι Χούθι ανακοίνωσαν ναυτικό αποκλεισμό κατά της Σαουδικής Αραβίας",
+              "url": "https://www.tovima.gr/2026/07/20/world/oi-xouthi-anakoinosan-naytiko-apokleismo-kata-tis-saoudikis-aravias/",
+              "source_id": "tovima.gr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:08:49.046321+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7542835474014282,
+            "article": {
+              "title": "Could the Saudi-Houthi standoff reignite Yemen's war?",
+              "url": "https://www.newarab.com/analysis/could-saudi-houthi-standoff-reignite-yemens-war",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:20.147129+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7478561997413635,
+            "article": {
+              "title": "Saudi oil loadings drop by 36% as Houthi threats disrupt Bab Al Mandeb passage",
+              "url": "https://www.thenationalnews.com/business/energy/2026/07/20/saudi-oil-loadings-drop-by-36-as-houthi-threats-disrupt-bab-al-mandeb-passage/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:05.482813+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.742770254611969,
+            "article": {
+              "title": "Seeblockade: Huthi-Miliz zwingt offenbar Schiffe zur Umkehr",
+              "url": "https://www.tagesschau.de/ausland/asien/huthi-seeblockade-saudi-arabien-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:07:34.289776+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.736319899559021,
+            "article": {
+              "title": "Latest: US ready to respond if Houthis impose Red Sea blockade, says Trump",
+              "url": "https://www.thenationalnews.com/news/mena/2026/07/21/live-us-iran-strikes-kuwait-jordan/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:05.482813+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 70.98602021191077,
+        "size": 14,
+        "n_sources": 13,
+        "n_continents": 8,
+        "continents": [
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "Oceania",
+          "South Asia"
+        ],
+        "coherence": 0.8236184120178223,
+        "title": "Trump imposes 50% tariffs on Canadian goods",
+        "central_article": {
+          "title": "Trump imposes 50% tariffs on Canadian goods",
+          "url": "https://georgiatoday.ge/trump-imposes-50-tariffs-on-canadian-goods/",
+          "source_id": "georgiatoday.ge",
+          "continent": "Europe East",
+          "published_at": null,
+          "scraped_at_utc": "2026-07-21T20:11:41.904528+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9204882383346558,
+            "article": {
+              "title": "Trump imposes 50% tariffs on Canadian goods",
+              "url": "https://georgiatoday.ge/trump-imposes-50-tariffs-on-canadian-goods/",
+              "source_id": "georgiatoday.ge",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:11:41.904528+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9197932481765747,
+            "article": {
+              "title": "Trump hits Canada with 50% tariff",
+              "url": "https://www.albawaba.com/business/trump-hits-canada-50-tariff-1633512",
+              "source_id": "albawaba.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:18.795155+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8964321613311768,
+            "article": {
+              "title": "Trump imposes 50pc tariffs on nearly $20bn Canadian imports",
+              "url": "https://pajhwok.com/2026/07/21/trump-imposes-50pc-tariffs-on-nearly-20bn-canadian-imports/",
+              "source_id": "pajhwok.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:14:00.421669+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.87803715467453,
+            "article": {
+              "title": "Trump’s new 50 percent Canada tariffs: What products are affected and why?",
+              "url": "https://www.aljazeera.com/news/2026/7/21/trumps-new-50-percent-canada-tariffs-what-products-are-affected-and-why",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:04.132154+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8656373023986816,
+            "article": {
+              "title": "USA indfører 50 procent told på flere varer fra Canada",
+              "url": "https://sermitsiaq.ag/samfund/usa-indforer-50-procent-told-pa-flere-varer-fra-canada/2407437",
+              "source_id": "sermitsiaq.ag",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:08:19.930419+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8627553582191467,
+            "article": {
+              "title": "Trump kondigt nieuwe heffingen aan op Canadese producten",
+              "url": "https://fd.nl/economie/1605337/trump-kondigt-nieuwe-heffingen-aan-op-canadese-producten",
+              "source_id": "fd.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:07:32.017295+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.817654013633728,
+            "article": {
+              "title": "Carney looking at 'all options' as Trump announces 50% tariffs on Canada",
+              "url": "https://www.bbc.com/news/articles/cg4dzq3x3e1o",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:07:16.303472+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8151986598968506,
+            "article": {
+              "title": "What tariffs has Trump introduced and why?",
+              "url": "https://www.bbc.com/news/articles/cn93e12rypgo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:07:16.303472+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7762026786804199,
+            "article": {
+              "title": "'Trump komt met nieuwe importheffingen voor tientallen landen'",
+              "url": "https://www.rtl.nl/nieuws/economie/artikel/5630335/trump-maakt-zich-klaar-om-tientallen-landen-nieuwe-heffingen-op-te",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:07:29.818789+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.77281653881073,
+            "article": {
+              "title": "Trump tariffs Trump defends 50% tariffs on Canada, saying ‘they need us to survive’",
+              "url": "https://www.theguardian.com/us-news/2026/jul/21/trump-defends-tariff-canada",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:07:20.700347+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7683588862419128,
+            "article": {
+              "title": "Trump verso una nuova offensiva: in arrivo nuovi dazi a decine di Paesi",
+              "url": "https://www.repubblica.it/economia/2026/07/21/news/trump_nuovi_dazi_paesi-425484205/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:08:45.011007+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7610152959823608,
+            "article": {
+              "title": "Aplican 50% de arancel a Canad�",
+              "url": "https://www.reforma.com/aplican-50-de-arancel-a-canada/ar3243945?v=2",
+              "source_id": "reforma.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:08:51.376489+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7464072108268738,
+            "article": {
+              "title": "Canada evaluating 'all options' after fresh US tariffs threat",
+              "url": "https://www.channelnewsasia.com/world/canada-evaluating-all-options-after-fresh-us-tariffs-threat-6268931",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:14:30.707658+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7298598289489746,
+            "article": {
+              "title": "Fiji hit with 32% US tariff under Trump’s new trade policy",
+              "url": "https://islandsbusiness.com/news-break/fiji-hit-with-32-us-tariff-under-trumps-new-trade-policy/",
+              "source_id": "islandsbusiness.com",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:01.657426+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 62.8938806792922,
+        "size": 15,
+        "n_sources": 13,
+        "n_continents": 7,
+        "continents": [
+          "East Asia",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.8261178731918335,
+        "title": "Donald Trump promet de « beaucoup aider » le Liban en recevant le président Joseph Aoun",
+        "central_article": {
+          "title": "Donald Trump promet de « beaucoup aider » le Liban en recevant le président Joseph Aoun",
+          "url": "https://www.lemonde.fr/international/article/2026/07/21/donald-trump-promet-de-beaucoup-aider-le-liban-en-recevant-le-president-joseph-aoun_6729108_3210.html",
+          "source_id": "lemonde.fr",
+          "continent": "Europe South",
+          "published_at": null,
+          "scraped_at_utc": "2026-07-21T20:08:24.607633+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8911454677581787,
+            "article": {
+              "title": "Donald Trump promet de « beaucoup aider » le Liban en recevant le président Joseph Aoun",
+              "url": "https://www.lemonde.fr/international/article/2026/07/21/donald-trump-promet-de-beaucoup-aider-le-liban-en-recevant-le-president-joseph-aoun_6729108_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:08:24.607633+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8882352709770203,
+            "article": {
+              "title": "Trump vows to help Lebanon as Aoun urges Israeli withdrawal",
+              "url": "https://www.newarab.com/news/trump-vows-help-lebanon-aoun-urges-israeli-withdrawal",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:20.147129+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8673980832099915,
+            "article": {
+              "title": "Trump lover Libanon støtte",
+              "url": "https://www.dr.dk/nyheder/seneste/trump-lover-libanon-stoette",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:08:13.694033+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8650839924812317,
+            "article": {
+              "title": "Trump says US-Lebanon flights can resume, pledges help for that country after meeting its president",
+              "url": "https://apnews.com/article/lebanon-president-hezbollah-trump-aoun-israel-e0364d0334c2f4d888d2b3970c9fe5b1",
+              "source_id": "apnews.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:12:36.845569+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8487943410873413,
+            "article": {
+              "title": "Trump zegt in persconferentie met president Aoun van Libanon het land te willen helpen: ‘Er is zeer slecht omgegaan met Libanon’",
+              "url": "https://www.nrc.nl/nieuws/2026/07/21/trump-zegt-in-persconferentie-met-president-aoun-van-libanon-het-land-te-willen-helpen-er-is-zeer-slecht-omgegaan-met-libanon-a4932988",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:07:27.850747+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.832527220249176,
+            "article": {
+              "title": "Lebanon’s president wants Donald Trump’s help to rebuild the country",
+              "url": "https://www.hindustantimes.com/world-news/lebanons-president-wants-donald-trump-s-help-to-rebuild-the-country-101784628373499.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:13:37.501358+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8210891485214233,
+            "article": {
+              "title": "Trump promises Lebanon ‘respect’ as its Prez shares plan to disarm Hezbollah",
+              "url": "https://www.hindustantimes.com/world-news/trump-promises-lebanon-respect-it-deserves-as-its-president-presents-plan-to-disarm-hezbollah-101784648681575.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:13:37.501358+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8156078457832336,
+            "article": {
+              "title": "presidente libanês nos eua Joseph Aoun, líder do Líbano, conversa com Donald Trump na Casa Branca; americano promete ajuda para desarmar Hezbollah e negociar com Israel - Saul Loeb/AFP",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/07/trump-recebe-presidente-do-libano-e-promete-ajuda-para-desarmar-hezbollah-e-negociar-com-israel.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:09:16.934496+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8114615678787231,
+            "article": {
+              "title": "Trump approves direct US-Lebanon flights amid Aoun visit",
+              "url": "https://www.newarab.com/news/trump-approves-direct-us-lebanon-flights-amid-aoun-visit",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:20.147129+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8068985939025879,
+            "article": {
+              "title": "Lebanon's Aoun meets Trump at White House",
+              "url": "https://www.thenationalnews.com/news/us/2026/07/21/aoun-trump-lebanon-us-israel/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:05.482813+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8020625710487366,
+            "article": {
+              "title": "Trump vows to help Lebanon but offers no timeline for Israeli withdrawal",
+              "url": "https://www.aljazeera.com/news/2026/7/21/trump-vows-to-help-lebanon-but-offers-no-timeline-for-israeli-withdrawal",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:04.132154+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7976740598678589,
+            "article": {
+              "title": "ترامب يعد بمساعدة لبنان لتجاوز أزمته",
+              "url": "https://www.omandaily.om/العرب-والعالم/na/ترامب-يعد-بمساعدة-لبنان-لتجاوز-أزمته",
+              "source_id": "omandaily.om",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:46.973615+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7952768802642822,
+            "article": {
+              "title": "Lebanese president to meet Trump amid pressure to disarm Hezbollah",
+              "url": "https://www.bangkokpost.com/world/3289390/lebanese-president-to-meet-trump-amid-pressure-to-disarm-hezbollah",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:14:49.977942+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7928137183189392,
+            "article": {
+              "title": "من البيت الأبيض... ترامب: سنساعد لبنان كثيراً وعون يطلب دعماً سياسياً للجيش",
+              "url": "https://www.annahar.com/lebanon/332062/من-البيت-الأبيض-ترامب-سنساعد-لبنان-كثيرا-وعون-يطلب-دعما-سياسيا-للجيش",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:42.328999+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7557012438774109,
+            "article": {
+              "title": "ترمب يتعهد بمساعدة لبنان وعون يأمل إنهاء العداء مع إسرائيل",
+              "url": "https://www.aljazeera.net/news/2026/7/21/عاجل-الرئيس-الأمريكي-دونالد-ترمب",
+              "source_id": "aljazeera.net",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:08.048178+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 32.723575002574115,
+        "size": 11,
+        "n_sources": 10,
+        "n_continents": 6,
+        "continents": [
+          "Africa",
+          "East Asia",
+          "Europe East",
+          "Europe South",
+          "Middle East",
+          "South Asia"
+        ],
+        "coherence": 0.7787502408027649,
+        "title": "US continues to attack Iran as tension expands to Red Sea",
+        "central_article": {
+          "title": "US continues to attack Iran as tension expands to Red Sea",
+          "url": "https://www.premiumtimesng.com/foreign/896929-us-continues-to-attack-iran-as-tension-expands-to-red-sea.html",
+          "source_id": "premiumtimesng.com",
+          "continent": "Africa",
+          "published_at": null,
+          "scraped_at_utc": "2026-07-21T20:12:16.349981+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8375830054283142,
+            "article": {
+              "title": "US continues to attack Iran as tension expands to Red Sea",
+              "url": "https://www.premiumtimesng.com/foreign/896929-us-continues-to-attack-iran-as-tension-expands-to-red-sea.html",
+              "source_id": "premiumtimesng.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:12:16.349981+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8372219800949097,
+            "article": {
+              "title": "Iran steps up attacks in return to war with US",
+              "url": "https://www.bangkokpost.com/world/3289405/iran-steps-up-attacks-in-return-to-war-with-us",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:14:49.977942+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8125472068786621,
+            "article": {
+              "title": "Iran targets US facilities in Bahrain and Erbil as Gulf conflict escalates",
+              "url": "https://www.albawaba.com/news/iran-targets-us-facilities-bahrain-and-1633533",
+              "source_id": "albawaba.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:18.795155+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8028010129928589,
+            "article": {
+              "title": "Iran and the US are already fighting their next war",
+              "url": "https://www.rt.com/news/643145-iran-and-america-new-war/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:11:26.448968+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7941036820411682,
+            "article": {
+              "title": "US strikes Iran for ninth consecutive day as more ships targeted in Strait of Hormuz",
+              "url": "https://www.france24.com/en/middle-east/20260720-us-strikes-iran-ninth-consecutive-day-more-ships-targeted-strait-of-hormuz-kuwait-bahrain",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:08:30.772535+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7877110242843628,
+            "article": {
+              "title": "Iranian forces target Bahrain and Kuwait after US hits Iran’s south",
+              "url": "https://kathmandupost.com/world/2026/07/21/iranian-forces-target-bahrain-and-kuwait-after-us-hits-iran-s-south",
+              "source_id": "kathmandupost.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:13:53.634025+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7515894770622253,
+            "article": {
+              "title": "ايران تهدد حلفاء أمريكا بمزيد من الهجمات",
+              "url": "https://www.omandaily.om/العرب-والعالم/na/ايران-تهدد-حلفاء-أمريكا-بمزيد-من-الهجمات",
+              "source_id": "omandaily.om",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:46.973615+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7420069575309753,
+            "article": {
+              "title": "Trump's renewed attacks aren't a victory for Iran's hardliners",
+              "url": "https://www.newarab.com/opinion/trumps-renewed-attacks-arent-victory-irans-hardliners",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:20.147129+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7395961284637451,
+            "article": {
+              "title": "CONVERSATIONS US renewed attacks on Iran after being shaken by mass funeral for martyred Leader: Analyst",
+              "url": "https://www.presstv.ir/Detail/2026/07/15/772282/us-renewed-attacks-Iran-after-shaken-martyred-leader-mass-funeral-analyst",
+              "source_id": "presstv.ir",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:10:12.679896+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.738194465637207,
+            "article": {
+              "title": "US announces death of another service member, Jordan summons Iranian envoy over attacks",
+              "url": "https://www.france24.com/en/middle-east/20260719-us-announces-death-of-another-service-member-jordan-summons-iranian-envoy-over-attacks",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:08:30.772535+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7228983044624329,
+            "article": {
+              "title": "US-Israeli strikes on Iran US to strike Iran's alleged new nuclear facility",
+              "url": "https://tass.com/world/2163183",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:11:30.557925+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 31.667348525219108,
+        "size": 12,
+        "n_sources": 9,
+        "n_continents": 5,
+        "continents": [
+          "Africa",
+          "Europe North",
+          "Europe South",
+          "North America",
+          "Oceania"
+        ],
+        "coherence": 0.8297247290611267,
         "title": "Spain celebrates World Cup glory in Madrid",
         "central_article": {
           "title": "Spain celebrates World Cup glory in Madrid",
@@ -1440,810 +1938,246 @@
           "source_id": "usatoday.com",
           "continent": "North America",
           "published_at": null,
-          "scraped_at_utc": "2026-07-21T09:22:44.869331+00:00"
+          "scraped_at_utc": "2026-07-21T20:13:02.191645+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9112042188644409,
+            "sim_to_centroid": 0.9281092286109924,
             "article": {
               "title": "Spain celebrates World Cup glory in Madrid",
               "url": "https://www.usatoday.com/picture-gallery/sports/soccer/worldcup/2026/07/20/spain-world-cup-2026-win-parade/90984782007/",
               "source_id": "usatoday.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:22:44.869331+00:00"
+              "scraped_at_utc": "2026-07-21T20:13:02.191645+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9081308841705322,
+            "sim_to_centroid": 0.9188755750656128,
             "article": {
-              "title": "An estimated two million celebrate Spain's World Cup victory in Madrid",
-              "url": "https://www.euronews.com/my-europe/2026/07/20/more-than-a-million-fans-fill-madrids-streets-to-welcome-world-champions",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
+              "title": "Spain celebrates World Cup glory",
+              "url": "https://www.africanews.com/2026/07/20/spain-celebrates-world-cup-glory/",
+              "source_id": "africanews.com",
+              "continent": "Africa",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:43.664911+00:00"
+              "scraped_at_utc": "2026-07-21T20:12:24.685994+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8896118402481079,
+            "sim_to_centroid": 0.8969061374664307,
             "article": {
               "title": "Spain's World Cup heroes celebrate with victory parade through Madrid",
               "url": "https://www.france24.com/en/sport/20260720-spain-s-world-cup-heroes-set-for-royal-welcome-and-madrid-parade",
               "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:18:46.992316+00:00"
+              "scraped_at_utc": "2026-07-21T20:08:30.772535+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8851096034049988,
+            "sim_to_centroid": 0.8931168913841248,
             "article": {
               "title": "Wild celebrations in Madrid after Spain seal FIFA World Cup victory",
               "url": "https://www.africanews.com/2026/07/20/wild-celebrations-in-madrid-after-spain-seal-fifa-world-cup-victory/",
               "source_id": "africanews.com",
               "continent": "Africa",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:22:07.675090+00:00"
+              "scraped_at_utc": "2026-07-21T20:12:24.685994+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8598595857620239,
+            "sim_to_centroid": 0.8558783531188965,
             "article": {
               "title": "World Cup winners get heroes’ welcome in Madrid",
               "url": "https://www.thetimes.com/world/europe/article/spain-world-cup-parade-celebration-madrid-qpcp9kxqj",
               "source_id": "thetimes.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:39.251448+00:00"
+              "scraped_at_utc": "2026-07-21T20:07:19.164528+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8491660356521606,
+            "sim_to_centroid": 0.8233373165130615,
             "article": {
-              "title": "Španělské oslavy v Madridu, přišly skoro dva miliony lidí. Fotbalisty přijal i král",
-              "url": "https://www.idnes.cz/fotbal/mistrovstvi-sveta-ve-fotbale/spanele-mistri-sveta-navrat-spanelsko-madrid.A260720_152508_ms-fotbal_duff",
-              "source_id": "idnes.cz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:20:50.977535+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8484549522399902,
-            "article": {
-              "title": "Spaanse voetballers in uitzinnig Madrid gehuldigd voor tweede wereldtitel",
-              "url": "https://nos.nl/artikel/2623814-spaanse-voetballers-in-uitzinnig-madrid-gehuldigd-voor-tweede-wereldtitel",
-              "source_id": "nos.nl",
+              "title": "Spain celebrates World Cup triumph as Burnham takes office in the UK",
+              "url": "https://www.euronews.com/my-europe/2026/07/21/europe-today-spain-celebrates-world-cup-triumph-as-burnham-takes-office-in-the-uk",
+              "source_id": "euronews.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:46.057255+00:00"
+              "scraped_at_utc": "2026-07-21T20:07:23.503735+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8258379697799683,
-            "article": {
-              "title": "Spain receive heroes' welcome as world champions climb to top spot in Fifa rankings",
-              "url": "https://www.thenationalnews.com/sport/world-cup-2026/2026/07/21/spain-receive-heroes-welcome-as-world-champions-climb-to-top-spot-in-fifa-rankings/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:20:16.650509+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8253252506256104,
-            "article": {
-              "title": "‘Kings of the World’: Spain celebrate historic 2026 FIFA World Cup triumph with massive victory parade in Madrid",
-              "url": "https://www.premiumtimesng.com/sports/football/896944-kings-of-the-world-spain-celebrate-historic-2026-fifa-world-cup-triumph-with-massive-victory-parade-in-madrid.html",
-              "source_id": "premiumtimesng.com",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:21:57.096024+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8203603029251099,
+            "sim_to_centroid": 0.8165273070335388,
             "article": {
               "title": "Las imágenes de los multitudinarios festejos de los jugadores de España tras proclamarse campeones del Mundial 2026",
               "url": "https://www.bbc.com/mundo/articles/cwyj34zdll7o",
               "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:19:05.658486+00:00"
+              "scraped_at_utc": "2026-07-21T20:08:50.130995+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8076456785202026,
-            "article": {
-              "title": "'Kings of the World': Spain's World Cup stars get a hero's welcome from fans and royals",
-              "url": "https://www.sbs.com.au/news/article/spain-football-team-gets-heroes-welcome-after-world-cup-win/8ii21aidk",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:20:03.980581+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7992441654205322,
-            "article": {
-              "title": "Spain Nearly two million join celebrations in Madrid",
-              "url": "https://www.theguardian.com/football/2026/jul/20/spain-world-cup-celebration-madrid",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:40.478532+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7974050045013428,
-            "article": {
-              "title": "Spain crowned world champions for second time",
-              "url": "https://georgiatoday.ge/spain-crowned-world-champions-for-second-time/",
-              "source_id": "georgiatoday.ge",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:21:25.956575+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7820831537246704,
-            "article": {
-              "title": "Lamine Yamal celebrates Spain World Cup win with…",
-              "url": "https://www.usatoday.com/picture-gallery/sports/soccer/worldcup/2026/07/19/lamine-yamal-celebrates-spain-world-cup-win-brother-keyne/90978281007/",
-              "source_id": "usatoday.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:22:44.869331+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7786669135093689,
+            "sim_to_centroid": 0.8128708600997925,
             "article": {
               "title": "Spain crowned world champions after 1-0 win over Argentina",
               "url": "https://businessday.ng/news/article/spain-crowned-world-champions-after-1-0-win-over-argentina/",
               "source_id": "businessday.ng",
               "continent": "Africa",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:22:05.022141+00:00"
+              "scraped_at_utc": "2026-07-21T20:12:21.941031+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7779951095581055,
+            "sim_to_centroid": 0.8063820600509644,
             "article": {
-              "title": "حشود مليونية تستقبل أبطال العالم في شوارع العاصمة الإسبانية مدريد",
-              "url": "https://www.hespress.com/%d8%ad%d8%b4%d9%88%d8%af-%d9%85%d9%84%d9%8a%d9%88%d9%86%d9%8a%d8%a9-%d8%aa%d8%b3%d8%aa%d9%82%d8%a8%d9%84-%d8%a3%d8%a8%d8%b7%d8%a7%d9%84-%d8%a7%d9%84%d8%b9%d8%a7%d9%84%d9%85-%d9%81%d9%8a-%d8%b4%d9%88-1780206.html",
-              "source_id": "hespress.com",
-              "continent": "Africa",
+              "title": "'Kings of the World': Spain's World Cup stars get a hero's welcome from fans and royals",
+              "url": "https://www.sbs.com.au/news/article/spain-football-team-gets-heroes-welcome-after-world-cup-win/8ii21aidk",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:22:16.174559+00:00"
+              "scraped_at_utc": "2026-07-21T20:09:51.785894+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7551857233047485,
+            "sim_to_centroid": 0.7718230485916138,
             "article": {
-              "title": "Galería | Las mejores imágenes de las celebraciones de los jugadores españoles",
-              "url": "https://www.lavanguardia.com/deportes/futbol/mundial-2026/20260720/11597011/mejores-imagenes-celebraciones-victoria-seleccion.html",
+              "title": "El Barça, club de campeones del mundo con España",
+              "url": "https://www.lavanguardia.com/deportes/20260721/11597028/barca-club-campeones-mundo-espana-mundial-2026.html",
               "source_id": "lavanguardia.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:18:55.860825+00:00"
+              "scraped_at_utc": "2026-07-21T20:08:39.618168+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7533431053161621,
+            "sim_to_centroid": 0.7340041399002075,
             "article": {
-              "title": "La selección celebra su segunda estrella junto a la afición en Madrid",
+              "title": "Trump and Infantino booed as they present World Cup trophy to Spain",
+              "url": "https://www.africanews.com/2026/07/20/trump-and-infantino-booed-as-they-present-world-cup-trophy-to-spain/",
+              "source_id": "africanews.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:12:24.685994+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6988657116889954,
+            "article": {
+              "title": "Así celebró la selección la segunda estrella por las calles de Madrid",
               "url": "https://www.lavanguardia.com/deportes/20260720/11596886/seleccion-espanola-celebra-segunda-estrella-aficion-madrid.html",
               "source_id": "lavanguardia.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:18:55.860825+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6891728639602661,
-            "article": {
-              "title": "Noche roja. La fiesta de España campeón, 2 millones de fanáticos y la crítica de Dani Olmo a la selección argentina",
-              "url": "https://www.lanacion.com.ar/deportes/futbol/la-fiesta-interminable-de-espana-y-la-fulminante-critica-de-dani-olmo-deben-ser-un-ejemplo-nid20072026/",
-              "source_id": "lanacion.com.ar",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:19:18.087672+00:00"
+              "scraped_at_utc": "2026-07-21T20:08:39.618168+00:00"
             }
           }
         ]
       },
       {
-        "score": 41.16845131934643,
-        "size": 12,
-        "n_sources": 11,
-        "n_continents": 7,
+        "score": 25.09099581589534,
+        "size": 7,
+        "n_sources": 7,
+        "n_continents": 5,
         "continents": [
+          "Africa",
           "China",
           "Europe East",
           "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "South America"
-        ],
-        "coherence": 0.774773359298706,
-        "title": "Donald Trump menace l’Iran après de nouvelles frappes, Téhéran parle de « guerre totale »",
-        "central_article": {
-          "title": "Donald Trump menace l’Iran après de nouvelles frappes, Téhéran parle de « guerre totale »",
-          "url": "https://www.lesoir.be/760562/article/2026-07-21/donald-trump-menace-liran-apres-de-nouvelles-frappes-teheran-parle-de-guerre",
-          "source_id": "lesoir.be",
-          "continent": "Europe South",
-          "published_at": null,
-          "scraped_at_utc": "2026-07-21T09:18:54.417584+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8731293678283691,
-            "article": {
-              "title": "Donald Trump menace l’Iran après de nouvelles frappes, Téhéran parle de « guerre totale »",
-              "url": "https://www.lesoir.be/760562/article/2026-07-21/donald-trump-menace-liran-apres-de-nouvelles-frappes-teheran-parle-de-guerre",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:18:54.417584+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8107779026031494,
-            "article": {
-              "title": "Trump considers expanding military operation against Iran, targeting nuclear facilities",
-              "url": "https://www.albawaba.com/news/trump-considers-expanding-military-1633473",
-              "source_id": "albawaba.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:20:30.234881+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8050198554992676,
-            "article": {
-              "title": "Trump končal premirje, Iran govori o popolni vojni z ZDA",
-              "url": "https://www.delo.si/novice/svet/trump-koncal-premirje-iran-govori-o-popolni-vojni-z-zda",
-              "source_id": "delo.si",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:21:00.810414+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7934667468070984,
-            "article": {
-              "title": "Trump posts poll showing most Americans back ending Iran war – as he ramps it up",
-              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-iran-war-approval-rating-b3018277.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:37.518287+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7885706424713135,
-            "article": {
-              "title": "EE.UU. e Irán se dirigen hacia la guerra total",
-              "url": "https://www.lavanguardia.com/internacional/20260720/11596896/ee-uu-e-iran-dirigen-guerra-total-novena-noche-consecutiva-bombardeos.html",
-              "source_id": "lavanguardia.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:18:55.860825+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7876284122467041,
-            "article": {
-              "title": "Trump advierte a Teherán tras muerte de tercer soldado mientras Irán admite que está sumido “en una guerra a gran escala” con EE.UU.",
-              "url": "https://www.latercera.com/mundo/noticia/trump-advierte-a-teheran-tras-muerte-de-tercer-soldado-mientras-iran-admite-que-esta-sumido-en-una-guerra-a-gran-escala-con-eeuu/",
-              "source_id": "latercera.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:19:38.633804+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7645822167396545,
-            "article": {
-              "title": "Where are renewed U.S.-Iran tensions headed?",
-              "url": "https://english.news.cn/20260720/2cee8899c9e8455c9ca537d3d43ec46d/c.html",
-              "source_id": "english.news.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:22:56.463834+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7549819350242615,
-            "article": {
-              "title": "After deadly weekend for US troops, Trump vows revenge",
-              "url": "https://www.newarab.com/news/after-deadly-weekend-us-troops-trump-vows-revenge",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:20:31.692655+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7437000274658203,
-            "article": {
-              "title": "Tehran tells Trump ‘our missiles will rain down on you for years’ in new threat",
-              "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-updates-trump-strait-of-hormuz-tanker-accident-b3017638.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:37.518287+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7302954792976379,
-            "article": {
-              "title": "Trump Owes Americans a Better Explanation About Iran",
-              "url": "https://www.theatlantic.com/national-security/2026/07/trump-war-iran-casualties/687996/",
-              "source_id": "theatlantic.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:22:48.593265+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7271493673324585,
-            "article": {
-              "title": "Funke Mediengruppe Live Krieg im Iran Neue Trump-Drohungen gegen Iran – Tanker in der Straße von Hormus beschossen",
-              "url": "https://www.abendblatt.de/politik/article412152244/iran-krieg-news-aktuell-live-trump-angriff-tod-soldat-rache-hormus-tanker.html",
-              "source_id": "abendblatt.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:18:12.337542+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7179781198501587,
-            "article": {
-              "title": "ايران تهدد حلفاء أمريكا بمزيد من الهجمات",
-              "url": "https://www.omandaily.om/العرب-والعالم/na/ايران-تهدد-حلفاء-أمريكا-بمزيد-من-الهجمات",
-              "source_id": "omandaily.om",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:20:40.310785+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 32.149969809281004,
-        "size": 8,
-        "n_sources": 8,
-        "n_continents": 6,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "Middle East",
-          "North America",
-          "Oceania",
           "South Asia"
         ],
-        "coherence": 0.8198421001434326,
-        "title": "Following Mamdani Threats, Trump Says Netanyahu Will Not Be Arrested in U.S.",
+        "coherence": 0.8334321975708008,
+        "title": "FIFA investigates Argentina over World Cup final incidents",
         "central_article": {
-          "title": "Following Mamdani Threats, Trump Says Netanyahu Will Not Be Arrested in U.S.",
-          "url": "https://www.nytimes.com/2026/07/20/world/middleeast/israel-un-mamdani-netanyahu-arrest.html",
-          "source_id": "nytimes.com",
-          "continent": "North America",
-          "published_at": null,
-          "scraped_at_utc": "2026-07-21T09:22:20.977655+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9267847537994385,
-            "article": {
-              "title": "Following Mamdani Threats, Trump Says Netanyahu Will Not Be Arrested in U.S.",
-              "url": "https://www.nytimes.com/2026/07/20/world/middleeast/israel-un-mamdani-netanyahu-arrest.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:22:20.977655+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.875527024269104,
-            "article": {
-              "title": "Trump rejects Mamdani’s threat to arrest Israel’s Netanyahu for war crimes",
-              "url": "https://www.aljazeera.com/news/2026/7/20/trump-rejects-mamdani-threat-to-arrest-israels-netanyahu-for-war-crimes",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:20:15.453096+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8418645858764648,
-            "article": {
-              "title": "US-Israel Trump says Benjamin Netanyahu ‘will not be arrested’ if he visits the US",
-              "url": "https://www.theguardian.com/us-news/2026/jul/20/trump-benjamin-netanyahu-will-not-be-arrested",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:40.478532+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8245339393615723,
-            "article": {
-              "title": "No threat of Netanyahu's arrest in US",
-              "url": "https://tass.com/world/2162729",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:21:15.516936+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.824196457862854,
-            "article": {
-              "title": "Trump: Netanjahu wird \"auf keinen Fall festgenommen\"",
-              "url": "https://www.zdfheute.de/politik/ausland/trump-mamdani-netanjahu-festnahme-drohung-new-york-usa-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:18:10.447171+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.785114049911499,
-            "article": {
-              "title": "صدر ٹرمپ کا نیتن یاہو کو امریکا میں کسی بھی صورت گرفتار کرنے سے انکار",
-              "url": "https://www.nawaiwaqt.com.pk/21-Jul-2026/2012342",
-              "source_id": "nawaiwaqt.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:23:42.734387+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7483886480331421,
-            "article": {
-              "title": "Netanyahu may visit New York. Mamdani and Trump disagree on what awaits him",
-              "url": "https://www.sbs.com.au/news/article/netanyahu-new-york-arrest-mamdani-trump-icc-warrant/3clvqrutg",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:20:03.980581+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7323274612426758,
-            "article": {
-              "title": "Netanyahu lashes out at Zohran Mamdani over ICC arrest threat",
-              "url": "https://www.newarab.com/news/netanyahu-lashes-out-zohran-mamdani-over-icc-arrest-threat",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:20:31.692655+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 30.294227427697432,
-        "size": 7,
-        "n_sources": 7,
-        "n_continents": 5,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "North America",
-          "South America"
-        ],
-        "coherence": 0.8711218237876892,
-        "title": "Geen verkiezingen meer in Nicaragua, zegt dictator Ortega",
-        "central_article": {
-          "title": "Geen verkiezingen meer in Nicaragua, zegt dictator Ortega",
-          "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5630220/geen-verkiezingen-meer-nicaragua-zegt-dictator-daniel-ortega",
-          "source_id": "rtl.nl",
+          "title": "FIFA investigates Argentina over World Cup final incidents",
+          "url": "https://www.euronews.com/2026/07/21/fifa-opens-investigation-into-argentina-over-post-world-cup-final-incidents",
+          "source_id": "euronews.com",
           "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-07-21T09:17:49.728665+00:00"
+          "scraped_at_utc": "2026-07-21T20:07:23.503735+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9317857027053833,
+            "sim_to_centroid": 0.9073894023895264,
             "article": {
-              "title": "Geen verkiezingen meer in Nicaragua, zegt dictator Ortega",
-              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5630220/geen-verkiezingen-meer-nicaragua-zegt-dictator-daniel-ortega",
-              "source_id": "rtl.nl",
+              "title": "FIFA investigates Argentina over World Cup final incidents",
+              "url": "https://www.euronews.com/2026/07/21/fifa-opens-investigation-into-argentina-over-post-world-cup-final-incidents",
+              "source_id": "euronews.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:49.728665+00:00"
+              "scraped_at_utc": "2026-07-21T20:07:23.503735+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9223014116287231,
+            "sim_to_centroid": 0.8905816078186035,
             "article": {
-              "title": "Nicaragua’s president says country will not hold any more elections",
-              "url": "https://www.theguardian.com/world/2026/jul/20/nicaraguas-president-says-country-will-not-hold-any-more-elections",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:40.478532+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8821679949760437,
-            "article": {
-              "title": "Президент Никарагуа Даниэль Ортега объявил, что в его стране больше не будет выборов",
-              "url": "https://meduza.io/news/2026/07/21/prezident-nikaragua-daniel-ortega-ob-yavil-chto-v-ego-strane-bolshe-ne-budet-vyborov",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:21:05.304426+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.869667649269104,
-            "article": {
-              "title": "Daniel Ortega afirma que “no volverá a haber elecciones” en Nicaragua y anuncia leyes para impedir el regreso de la oposición al poder",
-              "url": "https://www.latercera.com/mundo/noticia/daniel-ortega-afirma-que-no-volvera-a-haber-elecciones-en-nicaragua-y-anuncia-leyes-para-impedir-el-regreso-de-la-oposicion-al-poder/",
-              "source_id": "latercera.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:19:38.633804+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8431078195571899,
-            "article": {
-              "title": "Latijns-Amerika President Ortega van Nicaragua wil verkiezingen afschaffen",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/07/21/president-van-nicaragua-wil-verkiezingen-afschaffen/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:18:50.065200+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8293716311454773,
-            "article": {
-              "title": "Esto dice Rodrigo Chaves sobre afirmación de Daniel Ortega de que no habrá más elecciones en Nicaragua",
-              "url": "https://www.nacion.com/politica/esto-dice-rodrigo-chaves-sobre-afirmacion-de/T2UWCZS37BDNRAQ5J3VOKADIHM/story/",
-              "source_id": "nacion.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:19:10.189047+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8194509744644165,
-            "article": {
-              "title": "Nicaraguas president om framtida val: ”Aldrig”",
-              "url": "https://www.dn.se/direkt/2026-07-21/nicaraguas-president-om-framtida-val-aldrig/",
-              "source_id": "dn.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:18:22.904066+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 27.431362706119227,
-        "size": 8,
-        "n_sources": 8,
-        "n_continents": 4,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "North America"
-        ],
-        "coherence": 0.8691902160644531,
-        "title": "Paramount-Warner Bros merger temporarily halted by federal judge",
-        "central_article": {
-          "title": "Paramount-Warner Bros merger temporarily halted by federal judge",
-          "url": "https://www.independent.co.uk/arts-entertainment/paramount-merger-warner-bros-halted-b3018383.html",
-          "source_id": "independent.co.uk",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-07-21T09:17:37.518287+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9115514755249023,
-            "article": {
-              "title": "Paramount-Warner Bros merger temporarily halted by federal judge",
-              "url": "https://www.independent.co.uk/arts-entertainment/paramount-merger-warner-bros-halted-b3018383.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:37.518287+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9059853553771973,
-            "article": {
-              "title": "Le rachat de Warner Bros par Paramount suspendu par une juge aux Etats-Unis",
-              "url": "https://www.rts.ch/info/economie/2026/article/le-rachat-de-warner-bros-par-paramount-suspendu-aux-etats-unis-29308437.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:18:48.688870+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.905421257019043,
-            "article": {
-              "title": "Федеральный суд в США приостановил слияние Paramount и Warner Bros.",
-              "url": "https://meduza.io/news/2026/07/21/federalnyy-sud-v-ssha-priostanovil-sliyanie-paramount-i-warner-bros",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:21:05.304426+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8766295909881592,
-            "article": {
-              "title": "Paramount-Warner Bros. deal on hold after court ruling",
-              "url": "https://www.latimes.com/entertainment-arts/business/story/2026-07-20/judge-temporarily-paused-paramounts-warner-bros-takeover",
-              "source_id": "latimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:22:42.472263+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.87567138671875,
-            "article": {
-              "title": "Rechter schort overname mediareus Warner Bros door Paramount voor twee weken op",
-              "url": "https://www.nrc.nl/nieuws/2026/07/20/rechter-schort-overname-mediareus-warner-bros-door-paramount-voor-twee-weken-op-a4932920",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:47.922829+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8607906699180603,
-            "article": {
-              "title": "Hollywood-Fusion Gericht setzt Paramount-Übernahme von Warner aus",
-              "url": "https://www.tagesschau.de/wirtschaft/unternehmen/paramount-warner-uebernahme-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:54.246523+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8432274460792542,
-            "article": {
-              "title": "Negocios Megafusión de Warner Bros. y Paramount queda suspendida",
-              "url": "https://www.crhoy.com/negocios/megafusion-de-warner-bros-y-paramount-queda-suspendida/",
-              "source_id": "crhoy.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:19:13.516535+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7742447853088379,
-            "article": {
-              "title": "Films & Series Rechter schort overname Warner Bros Discovery door Paramount Skydance tijdelijk op ma 20 jul.",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/07/20/rechter-schort-overname-warner-bros-discovery-door-paramount-sky/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:18:50.065200+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 27.01622426735873,
-        "size": 7,
-        "n_sources": 7,
-        "n_continents": 5,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "North America",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.8482179045677185,
-        "title": "Pentagon says nearly 100 US troops injured in Iranian attacks",
-        "central_article": {
-          "title": "Pentagon says nearly 100 US troops injured in Iranian attacks",
-          "url": "https://pajhwok.com/2026/07/21/pentagon-says-nearly-100-us-troops-injured-in-iranian-attacks/",
-          "source_id": "pajhwok.com",
-          "continent": "South Asia",
-          "published_at": null,
-          "scraped_at_utc": "2026-07-21T09:23:46.221762+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8975948095321655,
-            "article": {
-              "title": "Pentagon says nearly 100 US troops injured in Iranian attacks",
-              "url": "https://pajhwok.com/2026/07/21/pentagon-says-nearly-100-us-troops-injured-in-iranian-attacks/",
+              "title": "FIFA probe on-pitch clash after Spain-Argentina World Cup final",
+              "url": "https://pajhwok.com/2026/07/21/fifa-probe-on-pitch-clash-after-spain-argentina-world-cup-final/",
               "source_id": "pajhwok.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:23:46.221762+00:00"
+              "scraped_at_utc": "2026-07-21T20:14:00.421669+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8932018280029297,
+            "sim_to_centroid": 0.8867519497871399,
             "article": {
-              "title": "Nearly 100 American soldiers injured in Iran war this month: Pentagon",
-              "url": "https://www.usatoday.com/story/news/politics/2026/07/20/american-soldiers-injuries-iran-war/90990072007/",
-              "source_id": "usatoday.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:22:44.869331+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8611755967140198,
-            "article": {
-              "title": "US service members killed by Iranian attacks identified by Pentagon",
-              "url": "https://www.independent.co.uk/news/world/americas/us-soldiers-identified-isabella-gonzales-tyler-feehan-iran-war-b3018280.html",
-              "source_id": "independent.co.uk",
+              "title": "La FIFA abre una investigación contra Argentina por los incidentes tras la derrota en la final del Mundial 2026",
+              "url": "https://www.bbc.com/mundo/articles/cwye8j2yq83o",
+              "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:17:37.518287+00:00"
+              "scraped_at_utc": "2026-07-21T20:08:50.130995+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8347875475883484,
+            "sim_to_centroid": 0.8482599258422852,
             "article": {
-              "title": "Pentágono confirma casi 100 militares estadounidenses heridos en ataques iraníes durante julio",
-              "url": "https://www.latercera.com/mundo/noticia/pentagono-confirma-casi-100-militares-estadounidenses-heridos-en-ataques-iranies-durante-julio/",
-              "source_id": "latercera.com",
-              "continent": "South America",
+              "title": "国际足联调查世界杯决赛赛后冲突",
+              "url": "https://www.xinhuanet.com/20260721/c0672d0109224b3ba356a936d2cd83de/c.html",
+              "source_id": "xinhuanet.com",
+              "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:19:38.633804+00:00"
+              "scraped_at_utc": "2026-07-21T20:13:16.684090+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8211908340454102,
+            "sim_to_centroid": 0.8219823837280273,
             "article": {
-              "title": "Pentagon concealing true casualty numbers in Iran war",
-              "url": "https://www.rt.com/news/643276-pentagon-us-casualty-number-iran/",
-              "source_id": "rt.com",
+              "title": "FIFA begint onderzoek naar ‘incidenten’ na de WK-finale, noemt Paredes’ naam niet",
+              "url": "https://www.nrc.nl/nieuws/2026/07/21/fifa-begint-onderzoek-naar-incidenten-na-de-wk-finale-noemt-paredes-naam-niet-a4932939",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-07-21T20:07:27.850747+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7698319554328918,
+            "article": {
+              "title": "Awantura po finale mundialu. Argentyna bez honoru, sędzia Slavko Vincić stracił kontrolę",
+              "url": "https://sport.rp.pl/pilka-nozna/art44854991-awantura-po-finale-mundialu-argentyna-bez-honoru-sedzia-slavko-vincic-stracil-kontrole",
+              "source_id": "rp.pl",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:21:11.478311+00:00"
+              "scraped_at_utc": "2026-07-21T20:11:04.365824+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8181801438331604,
+            "sim_to_centroid": 0.7092282772064209,
             "article": {
-              "title": "US soldiers killed by Iran were from Texas and Hawaii, military says",
-              "url": "https://apnews.com/article/iran-war-us-soldier-deaths-jordan-attack-1fd99826dfd511913b63d0b033b262d9",
-              "source_id": "apnews.com",
-              "continent": "North America",
+              "title": "Au Mondial 2026, la spirale de l’agressivité argentine a commencé avec l’Algérie",
+              "url": "https://www.tsa-algerie.com/au-mondial-2026-la-spirale-de-lagressivite-argentine-a-commence-avec-lalgerie/",
+              "source_id": "tsa-algerie.com",
+              "continent": "Africa",
               "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:22:19.612991+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8113947510719299,
-            "article": {
-              "title": "Pentagon Withheld Dozens of U.S. Military Injuries in Iran War",
-              "url": "https://www.nytimes.com/2026/07/20/us/politics/troops-injured-jordan-iran-war.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-07-21T09:22:20.977655+00:00"
+              "scraped_at_utc": "2026-07-21T20:12:27.906974+00:00"
             }
           }
         ]
       }
     ],
-    "created_at_utc": "2026-07-21T09:56:07Z"
+    "created_at_utc": "2026-07-21T20:50:04Z"
   }
 ]
