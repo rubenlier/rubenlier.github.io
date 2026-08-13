@@ -1,1936 +1,1484 @@
 [
   {
-    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1786610600",
-    "n_items": 2492,
-    "n_clusters": 2059,
+    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1786651135",
+    "n_items": 2493,
+    "n_clusters": 2107,
     "clusters": [
       {
-        "score": 165.22480131993584,
-        "size": 34,
-        "n_sources": 29,
+        "score": 54.17000361394632,
+        "size": 15,
+        "n_sources": 13,
         "n_continents": 7,
         "continents": [
+          "Africa",
           "Europe East",
           "Europe North",
           "Europe South",
           "Middle East",
-          "North America",
-          "Oceania",
-          "South Asia"
-        ],
-        "coherence": 0.8588201999664307,
-        "title": "White House press secretary and Trump adviser Karoline Leavitt to leave role",
-        "central_article": {
-          "title": "White House press secretary and Trump adviser Karoline Leavitt to leave role",
-          "url": "https://www.france24.com/en/americas/20260812-white-house-press-secretary-and-trump-adviser-karoline-leavitt-to-leave-role",
-          "source_id": "france24.com",
-          "continent": "Europe South",
-          "published_at": null,
-          "scraped_at_utc": "2026-08-13T08:08:19.971961+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9410883188247681,
-            "article": {
-              "title": "White House press secretary and Trump adviser Karoline Leavitt to leave role",
-              "url": "https://www.france24.com/en/americas/20260812-white-house-press-secretary-and-trump-adviser-karoline-leavitt-to-leave-role",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:08:19.971961+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9406909346580505,
-            "article": {
-              "title": "Trumps Pressesprecherin Karoline Leavitt verlässt Posten",
-              "url": "https://www.zdfheute.de/politik/ausland/karoline-leavitt-sprecherin-weisses-haus-trump-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:40.467088+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9389011859893799,
-            "article": {
-              "title": "White House press secretary Karoline Leavitt is leaving the Trump administration",
-              "url": "https://apnews.com/article/trump-press-secretary-leavitt-dc3753a957b05ef554bf277221d9cf46",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:11:53.715485+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.934341311454773,
-            "article": {
-              "title": "White House press secretary Karoline Leavitt to leave role, Trump says",
-              "url": "https://www.euronews.com/2026/08/12/white-house-press-secretary-karoline-leavitt-to-leave-role-at-end-of-month-trump-says",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:12.560008+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9336051344871521,
-            "article": {
-              "title": "Karoline Leavitt quits job as White House press secretary, Trump announces",
-              "url": "https://www.independent.co.uk/news/world/americas/us-politics/karoline-leavitt-out-white-house-press-secretary-quits-b3032120.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:05.929891+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9302364587783813,
-            "article": {
-              "title": "Karoline Leavitt to step down as White House press secretary",
-              "url": "https://www.aljazeera.com/news/2026/8/12/trump-reveals-karoline-leavitt-to-step-down-as-white-house-press-secretary",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:09:51.224543+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9234299659729004,
-            "article": {
-              "title": "Karoline Leavitt will step down as White House press secretary, Trump says",
-              "url": "https://www.theguardian.com/us-news/2026/aug/12/karoline-leavitt-resigns",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:08.744226+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9191898107528687,
-            "article": {
-              "title": "Karoline Leavitt, White House Press Secretary, to Step Down",
-              "url": "https://www.nytimes.com/2026/08/12/us/politics/karoline-leavitt-trump-press-secretary.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:11:55.134797+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9174464344978333,
-            "article": {
-              "title": "Trump says White House press secretary Karoline Leavitt to leave post",
-              "url": "https://www.bbc.com/news/articles/cvglzrvyrz3o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:04.749574+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9154594540596008,
-            "article": {
-              "title": "White House press secretary Karoline Leavitt, one of Trump’s top advocates, to step down",
-              "url": "https://www.latimes.com/world-nation/story/2026-08-12/white-house-press-secretary-karoline-leavitt-youngest-person-to-hold-role-to-leave-at-months-end",
-              "source_id": "latimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:12:16.666610+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9117701053619385,
-            "article": {
-              "title": "Karoline Leavitt to Step Down as White House Press Secretary",
-              "url": "https://time.com/article/2026/08/12/Karoline-Leavitt-to-step-down-white-house-press-secretary-Donald-Trump/",
-              "source_id": "time.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:12:23.454013+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9117701053619385,
-            "article": {
-              "title": "Karoline Leavitt to Step Down as White House Press Secretary",
-              "url": "https://www.kyivpost.com/post/82245",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:10:36.743313+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9045348167419434,
-            "article": {
-              "title": "Karoline Leavitt is leaving her role as Trump's White House press secretary By Associated Press",
-              "url": "https://www.pbs.org/newshour/politics/karoline-leavitt-is-leaving-her-role-as-trumps-white-house-press-secretary",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:12:25.968148+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9004290103912354,
-            "article": {
-              "title": "White House press secretary Karoline Leavitt to leave job this month, Donald Trump says",
-              "url": "https://www.sbs.com.au/news/article/karoline-leavitt-to-leave-job/3clr9bi3v",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:09:38.191984+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8959554433822632,
-            "article": {
-              "title": "Vita husets pressekreterare Karoline Leavitt slutar Trump: Ska spendera mer tid med sin familj",
-              "url": "https://www.svt.se/nyheter/utrikes/donald-trumps-pressekreterare-slutar",
-              "source_id": "svt.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:08:01.252692+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8939906358718872,
-            "article": {
-              "title": "Odhaja tiskovna predstavnica Bele hiše Karoline Leavitt",
-              "url": "https://www.delo.si/novice/svet/odhaja-tiskovna-predstavnica-bele-hise-karoline-leavitt",
-              "source_id": "delo.si",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:10:35.155957+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8850210309028625,
-            "article": {
-              "title": "La portavoz de Trump, Karoline Leavitt, deja el cargo “para pasar más tiempo con su familia”",
-              "url": "https://www.lavanguardia.com/internacional/20260812/11612839/portavoz-trump-karoline-leavitt-deja-cargo-pasar-mas-familia.html",
-              "source_id": "lavanguardia.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:08:29.036839+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8687547445297241,
-            "article": {
-              "title": "Kurz nach ihrer Elternzeit Trumps Pressesprecherin Leavitt gibt ihren Posten auf",
-              "url": "https://www.spiegel.de/ausland/karoline-leavitt-trumps-pressesprecherin-gibt-posten-im-weissen-haus-auf-a-9dbc0665-ed5e-46da-bc5f-721bb6d942e3",
-              "source_id": "spiegel.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:26.654982+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8647862076759338,
-            "article": {
-              "title": "Donald Trump annonce le départ de sa porte-parole, Karoline Leavitt",
-              "url": "https://www.lemonde.fr/international/article/2026/08/12/donald-trump-annonce-le-depart-de-sa-porte-parole-karoline-leavitt_6745099_3210.html",
-              "source_id": "lemonde.fr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:08:14.849030+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.856050968170166,
-            "article": {
-              "title": "Trump-Sprecherin Leavitt - die oberste Influencerin des Weißen Hauses geht",
-              "url": "https://www.tagesschau.de/ausland/amerika/leavitt-ruecktritt-102.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:23.626701+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8550727367401123,
-            "article": {
-              "title": "Statement auf Truth Social Trumps Pressesprecherin Leavitt verlässt Weißes Haus",
-              "url": "https://www.tagesschau.de/ausland/trump-leavitt-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:23.626701+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8392236232757568,
-            "article": {
-              "title": "Távozik Karoline Leavitt, a Fehér Ház szóvivője, hogy több időt tölthessen a családjával",
-              "url": "https://telex.hu/kulfold/2026/08/12/tavozik-karoline-leavitt-a-feher-haz-sajtotitkara-hogy-tobb-idot-tolthessen-a-csaladjaval",
-              "source_id": "telex.hu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:10:20.790948+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8345851898193359,
-            "article": {
-              "title": "Funke Mediengruppe Aus familiären Gründen Trump-Sprecherin Karoline Leavitt verlässt Weißes Haus",
-              "url": "https://www.abendblatt.de/politik/article412847332/trumps-sprecherin-karoline-leavitt-verlaesst-weisses-haus.html",
-              "source_id": "abendblatt.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:42.274164+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8235396146774292,
-            "article": {
-              "title": "Karoline Leavitt stopt eind augustus als woordvoerder van het Witte Huis",
-              "url": "https://www.nrc.nl/nieuws/2026/08/12/karoline-leavitt-stopt-eind-augustus-als-woordvoerder-van-het-witte-huis-a4934378",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:17.067042+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8123983144760132,
-            "article": {
-              "title": "Leavitt to leave White House press secretary post before September",
-              "url": "https://tass.com/world/2172117",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:10:49.993891+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8095244765281677,
-            "article": {
-              "title": "Lascia Leavitt, la portavoce della Casa Bianca. Donald: “Trascorrerà più tempo con i figli”",
-              "url": "https://www.repubblica.it/esteri/2026/08/12/news/karoline_leavitt_portavoce_casa_bianca_trump-425526199/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:08:34.514073+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7916547060012817,
-            "article": {
-              "title": "Verenigde Staten Woordvoerster Witte Huis Karoline Leavitt stapt eind deze maand op wo 12 aug.",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/08/12/woordvoerster-witte-huis-karoline-leavitt-stapt-eind-deze-maand/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:08:23.198643+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7833941578865051,
-            "article": {
-              "title": "Die neuesten Entwicklungen Trumps zweite Amtszeit: Pressesprecherin Leavitt tritt Ende Monat zurück",
-              "url": "https://www.nzz.ch/international/trumps-zweite-amtszeit-der-us-praesident-will-impfempfehlungen-fuer-kinder-deutlich-einschraenken-usa-widerrufen-mehr-als-175-000-visa-unter-trump-ld.1856621",
-              "source_id": "nzz.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:47.915012+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7803044319152832,
-            "article": {
-              "title": "ٹرمپ نے وائٹ ہاؤس پریس سیکرٹری کے عہدہ چھوڑنے کی تصدیق کردی",
-              "url": "https://www.nawaiwaqt.com.pk/13-Aug-2026/2018950",
-              "source_id": "nawaiwaqt.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:13:16.206480+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.763298749923706,
-            "article": {
-              "title": "Karoline Leavitt’s Most Memorable Moments as White House Press Secretary",
-              "url": "https://time.com/article/2026/08/12/karoline-leavitt-white-house-press-secretary-memorable-moments/",
-              "source_id": "time.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:12:23.454013+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7535232305526733,
-            "article": {
-              "title": "From Sean Spicer to Karoline Leavitt. Trump's press secretaries",
-              "url": "https://www.usatoday.com/story/news/politics/2026/08/12/trump-white-house-press-secretaries/91277749007/",
-              "source_id": "usatoday.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:12:19.300890+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7376819252967834,
-            "article": {
-              "title": "Trump's fiercest defender? Five moments defining Karoline Leavitt's time as press secretary",
-              "url": "https://www.sbs.com.au/news/article/karoline-leavitt-leaving-white-house-press-secretary-defining-moments/sx5garnlu",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:09:38.191984+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7315181493759155,
-            "article": {
-              "title": "Key takeaways Karoline Leavitt: six key takeaways from 20 months as Trump’s press secretary",
-              "url": "https://www.theguardian.com/us-news/2026/aug/12/karoline-leavitt-resignation-takeaways",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:08.744226+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.69671630859375,
-            "article": {
-              "title": "Press secretary’s announcement in full as she exits her role",
-              "url": "https://www.independent.co.uk/news/world/americas/us-politics/karoline-leavitt-leaving-announcement-trump-white-house-press-secretary-b3032138.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:05.929891+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 159.9684609996817,
-        "size": 26,
-        "n_sources": 24,
-        "n_continents": 9,
-        "continents": [
-          "China",
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.8399396538734436,
-        "title": "Putin visits disputed Kuril islands, sparking protest from Japan",
-        "central_article": {
-          "title": "Putin visits disputed Kuril islands, sparking protest from Japan",
-          "url": "https://www.france24.com/en/asia-pacific/20260813-putin-visits-kuril-islands-claimed-by-japan",
-          "source_id": "france24.com",
-          "continent": "Europe South",
-          "published_at": null,
-          "scraped_at_utc": "2026-08-13T08:08:19.971961+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9485378265380859,
-            "article": {
-              "title": "Putin visits disputed Kuril islands, sparking protest from Japan",
-              "url": "https://www.france24.com/en/asia-pacific/20260813-putin-visits-kuril-islands-claimed-by-japan",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:08:19.971961+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9315156936645508,
-            "article": {
-              "title": "Putin besucht erstmals umstrittene Kurilen-Insel – Japan reagiert empört",
-              "url": "https://www.welt.de/politik/ausland/article6a7d57efa87e8142c31ce6f9/putin-besucht-erstmals-umstrittene-kurilen-insel-japan-reagiert-empoert.html",
-              "source_id": "welt.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:30.907098+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9204390048980713,
-            "article": {
-              "title": "Putin Visits Disputed Kuril Islands for First Time as Russia-Japan Tensions Deepen",
-              "url": "https://www.kyivpost.com/post/82247",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:10:36.743313+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9145159125328064,
-            "article": {
-              "title": "Kritik aus Japan: Putin besucht umstrittene Kurilen-Insel",
-              "url": "https://www.tagesschau.de/ausland/asien/russland-kurilen-inseln-putin-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:23.626701+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.912556529045105,
-            "article": {
-              "title": "Putin visits Kuril islands claimed by Japan",
-              "url": "https://www.bangkokpost.com/world/3301093/putin-visits-kuril-islands-claimed-by-japan",
-              "source_id": "bangkokpost.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:14:05.151153+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8953548073768616,
-            "article": {
-              "title": "Putin enrages Japan with trip to disputed island",
-              "url": "https://www.politico.eu/article/vladimir-putin-disputed-kuril-islands-visit-japan-russia/",
-              "source_id": "politico.eu",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:13.693764+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8885313272476196,
-            "article": {
-              "title": "Putin pays his first visit to Pacific island chain claimed by Japan, drawing a protest from Tokyo",
-              "url": "https://apnews.com/article/russia-putin-japan-kuril-islands-northern-territories-iturup-bc9cf6a0aa3fdbed5264d32297d740b4",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:11:53.715485+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8705105781555176,
-            "article": {
-              "title": "Путин впервые приехал на Курилы. Япония выразила «решительный протест»",
-              "url": "https://meduza.io/news/2026/08/13/putin-vpervye-priehal-na-kurily-yaponiya-vyrazila-reshitelnyy-protest",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:10:39.409960+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8698955178260803,
-            "article": {
-              "title": "Putin visita pela primeira vez território disputado com o Japão",
-              "url": "https://oglobo.globo.com/mundo/noticia/2026/08/13/putin-visita-pela-primeira-vez-as-ilhas-curilas-territorio-disputado-com-o-japao.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:09:03.980817+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8609852194786072,
-            "article": {
-              "title": "Vlagyimir Putyin ellátogatott a Japán által követelt Kuril-szigetekre",
-              "url": "https://telex.hu/kulfold/2026/08/13/vlagyimir-putyin-ellatogatott-a-japan-altal-kovetelt-kuril-szigetekre-iturup-haditengereszeti-hadgyakorlat-eszak-korea",
-              "source_id": "telex.hu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:10:20.790948+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8597416877746582,
-            "article": {
-              "title": "بوتين يزور جزر الكوريل المتنازع عليها مع اليابان وطوكيو تحتج",
-              "url": "https://www.aljazeera.net/news/2026/8/13/بوتين-يزور-جزر-الكوريل-المتنازع-عليها",
-              "source_id": "aljazeera.net",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:09:55.459056+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8546345829963684,
-            "article": {
-              "title": "Russia’s Putin visits Japan-claimed islands for first time; Tokyo protests August 13, 2026",
-              "url": "https://www.asahi.com/ajw/articles/16806078",
-              "source_id": "asahi.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:13:58.833071+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.85194331407547,
-            "article": {
-              "title": "Putin besøger omstridt øgruppe",
-              "url": "https://www.dr.dk/nyheder/udland/putin-besoeger-omstridt-oegruppe",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:08:04.560100+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8485005497932434,
-            "article": {
-              "title": "Putin rozhněval Tokio návštěvou sporných Kuril",
-              "url": "https://ct24.ceskatelevize.cz/clanek/svet/putin-rozhneval-tokio-navstevou-spornych-kuril-376544",
-              "source_id": "ct24.ceskatelevize.cz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:10:27.607633+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8352546691894531,
-            "article": {
-              "title": "بوتين يزور جزر الكوريل المتنازع عليها مع اليابان... وطوكيو تحتّج (فيديو)",
-              "url": "https://www.annahar.com/international/world/338099/للمرة-الأولى-بوتين-يزور-جزر-الكوريل-المتنازع-عليها-مع-اليابان-فيديو",
-              "source_id": "annahar.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:10:11.648353+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8333942294120789,
-            "article": {
-              "title": "Putin visits disputed Etorofu island off Hokkaido, media reports",
-              "url": "https://www.japantimes.co.jp/news/2026/08/13/japan/society/russia-putin-japan-disputed-isle-visit/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:13:49.817034+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8301166296005249,
-            "article": {
-              "title": "Vladimir Putin a stârnit furie la Tokyo, după prima vizită într-un teritoriu disputat cu Japonia",
-              "url": "https://hotnews.ro/vladimir-putin-a-starnit-furie-la-tokyo-dupa-prima-vizita-intr-un-teritoriu-disputat-cu-japonia-2323536",
-              "source_id": "hotnews.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:10:22.223199+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8231730461120605,
-            "article": {
-              "title": "普京登上俄日争议岛屿 日本强烈抗议",
-              "url": "https://www.xinhuanet.com/20260813/b3362fa02d03431bb61b6b9bb2051c41/c.html",
-              "source_id": "xinhuanet.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:12:35.647101+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8185094594955444,
-            "article": {
-              "title": "Putin visits Russian-controlled Etorofu Island claimed by Japan （2026/8/13）",
-              "url": "https://mainichi.jp/english/articles/20260813/p2g/00m/0in/031000c",
-              "source_id": "mainichi.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:13:55.050303+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8137418031692505,
-            "article": {
-              "title": "Путин впервые посетил Курильские острова",
-              "url": "https://ria.ru/20260813/putin-2110589140.html",
-              "source_id": "ria.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:10:52.210341+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7880513668060303,
-            "article": {
-              "title": "Путин впервые посетил курильский остров Итуруп",
-              "url": "https://www.kommersant.ru/doc/8878415?from=top_main_8",
-              "source_id": "kommersant.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:10:47.778969+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7763170003890991,
-            "article": {
-              "title": "World Why Putin’s first Kuril Islands visit matters as Russia-Japan ties hit new low",
-              "url": "https://timesofindia.indiatimes.com/world/rest-of-world/why-putins-first-kuril-islands-visit-matters-as-russia-japan-ties-hit-new-low/articleshow/133198569.cms",
-              "source_id": "timesofindia.indiatimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:12:53.640584+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7649134397506714,
-            "article": {
-              "title": "Japan protests Putin's first visit to disputed islands Japan protests Putin's first visit to disputed islands",
-              "url": "https://myrepublica.nagariknetwork.com/news/japan-protests-putins-first-visit-to-disputed-islands-63-64.html",
-              "source_id": "myrepublica.nagariknetwork.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:13:17.336669+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7338593006134033,
-            "article": {
-              "title": "МИД Японии заявил протест из-за визита Путина на Итуруп",
-              "url": "https://ria.ru/20260813/putin-2110594044.html",
-              "source_id": "ria.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:10:52.210341+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7334425449371338,
-            "article": {
-              "title": "Just nu: Putin smakade kaviar på omstridd ögrupp",
-              "url": "https://www.dn.se/direkt/2026-08-13/putin-smakade-kaviar-pa-omstridd-ogrupp/",
-              "source_id": "dn.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:54.154451+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.659993588924408,
-            "article": {
-              "title": "Japan expands sanctions over Russia's invasion of Ukraine",
-              "url": "https://www.france24.com/en/asia-pacific/20231215-japan-expands-sanctions-over-russia-s-invasion-of-ukraine",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:08:19.971961+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 60.03963032426004,
-        "size": 25,
-        "n_sources": 17,
-        "n_continents": 6,
-        "continents": [
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
           "North America",
           "Oceania"
         ],
-        "coherence": 0.7940064072608948,
-        "title": "Millions catch Spain’s first total solar eclipse in over a century",
+        "coherence": 0.7962535619735718,
+        "title": "Las impresionantes imágenes del eclipse solar total que se pudo ver en Europa",
         "central_article": {
-          "title": "Millions catch Spain’s first total solar eclipse in over a century",
-          "url": "https://apnews.com/article/solar-eclipse-spain-europe-iceland-sun-4748323b3df8272d546683cc1dbc1d15",
-          "source_id": "apnews.com",
-          "continent": "North America",
+          "title": "Las impresionantes imágenes del eclipse solar total que se pudo ver en Europa",
+          "url": "https://www.bbc.com/mundo/articles/cedjpv785qjo",
+          "source_id": "bbc.com",
+          "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-08-13T08:11:53.715485+00:00"
+          "scraped_at_utc": "2026-08-13T19:47:44.797918+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8845148086547852,
-            "article": {
-              "title": "Millions catch Spain’s first total solar eclipse in over a century",
-              "url": "https://apnews.com/article/solar-eclipse-spain-europe-iceland-sun-4748323b3df8272d546683cc1dbc1d15",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:11:53.715485+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8749384880065918,
-            "article": {
-              "title": "Total eclipse: Spain savours its moment in the sun",
-              "url": "https://www.thetimes.com/world/europe/article/solar-eclipse-spain-today-news-latest-rnmmlg2nc",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:07.450899+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8604164123535156,
-            "article": {
-              "title": "Solar eclipse plunges large swathe of Spain into total darkness",
-              "url": "https://www.euronews.com/my-europe/2026/08/12/eye-on-the-sky-millions-across-europe-hope-to-catch-glimpse-of-rare-total-eclipse",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:12.560008+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8587703704833984,
-            "article": {
-              "title": "How solar eclipse was seen across Europe",
-              "url": "https://www.channel4.com/news/how-solar-eclipse-was-seen-across-europe",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:11.188681+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8579654097557068,
-            "article": {
-              "title": "España enmudece en la noche fugaz de un eclipse solar inédito en más de un siglo",
-              "url": "https://www.rtve.es/noticias/20260812/solar-2026-espana-enmudece-eclipse-historico/17184221.shtml",
-              "source_id": "rtve.es",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:08:31.912995+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8451917171478271,
-            "article": {
-              "title": "Europe witnesses once-in-a-generation solar eclipse",
-              "url": "https://www.channel4.com/news/europe-witnesses-once-in-a-generation-solar-eclipse",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:11.188681+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8439532518386841,
+            "sim_to_centroid": 0.8912051320075989,
             "article": {
               "title": "Las impresionantes imágenes del eclipse solar total que se pudo ver en Europa",
               "url": "https://www.bbc.com/mundo/articles/cedjpv785qjo",
               "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:08:39.908438+00:00"
+              "scraped_at_utc": "2026-08-13T19:47:44.797918+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8420581817626953,
+            "sim_to_centroid": 0.881526529788971,
             "article": {
-              "title": "Spain plunged into darkness by total eclipse",
-              "url": "https://www.channel4.com/news/spain-plunged-into-darkness-by-total-eclipse",
+              "title": "The Most Spectacular Photos of Europe's Total Solar Eclipse",
+              "url": "https://time.com/article/2026/08/13/best-europe-solar-eclipse-photos/",
+              "source_id": "time.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:51:32.207207+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8787186741828918,
+            "article": {
+              "title": "How solar eclipse was seen across Europe",
+              "url": "https://www.channel4.com/news/how-solar-eclipse-was-seen-across-europe",
               "source_id": "channel4.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:11.188681+00:00"
+              "scraped_at_utc": "2026-08-13T19:46:25.043130+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8239719867706299,
+            "sim_to_centroid": 0.8284391164779663,
             "article": {
-              "title": "Excitement nearing fever pitch as Spain awaits solar eclipse",
-              "url": "https://www.thetimes.com/world/europe/article/spain-solar-eclipse-2026-time-tourists-cfclwwldr",
+              "title": "Por tierra, mar y aire: así hemos visto el eclipse solar total desde cada rincón de España",
+              "url": "https://www.rtve.es/noticias/20260813/eclipse-solar-total-espana-tierra-mar-aire/17190127.shtml",
+              "source_id": "rtve.es",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:47:36.923184+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8225374221801758,
+            "article": {
+              "title": "Total eclipse: Spain savours its moment in the sun",
+              "url": "https://www.thetimes.com/world/europe/article/solar-eclipse-spain-today-news-latest-rnmmlg2nc",
               "source_id": "thetimes.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:07.450899+00:00"
+              "scraped_at_utc": "2026-08-13T19:46:22.217388+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8093029260635376,
+            "sim_to_centroid": 0.8220985531806946,
             "article": {
               "title": "Millions watched Europe's total solar eclipse. Australia's turn is coming",
               "url": "https://www.sbs.com.au/news/article/next-total-solar-eclipse-australia-2028/victu0f39",
               "source_id": "sbs.com.au",
               "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:09:38.191984+00:00"
+              "scraped_at_utc": "2026-08-13T19:48:42.274844+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8072447180747986,
+            "sim_to_centroid": 0.8192629814147949,
             "article": {
-              "title": "El eclipse hechiza a España",
-              "url": "https://www.lavanguardia.com/vida/20260812/11612862/eclipse-hechiza-espana.html",
+              "title": "Witness the solar eclipse through these incredible…",
+              "url": "https://www.usatoday.com/picture-gallery/news/nation/2026/08/12/solar-eclipse-stunning-photos/91275859007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:51:28.215189+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8136172294616699,
+            "article": {
+              "title": "Las mejores fotografías del eclipse solar tomadas por los lectores",
+              "url": "https://www.lavanguardia.com/participacion/las-fotos-de-los-lectores/20260813/11604660/mejores-imagenes-eclipse-solar.html",
               "source_id": "lavanguardia.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:08:29.036839+00:00"
+              "scraped_at_utc": "2026-08-13T19:47:34.411786+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8009048700332642,
+            "sim_to_centroid": 0.766514778137207,
             "article": {
-              "title": "Partial to total eclipse sweeps across much of Europe",
-              "url": "https://www.france24.com/en/europe/20260812-in-pictures-partial-to-total-eclipse-seen-across-much-of-europe",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:08:19.971961+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7993497848510742,
-            "article": {
-              "title": "Solar eclipse seen across Ireland",
-              "url": "https://www.irishtimes.com/photography/2026/08/12/in-pictures-solar-eclipse-seen-across-ireland/",
-              "source_id": "irishtimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:09:50.017104+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7854663133621216,
-            "article": {
-              "title": "Why the eclipse looks different across Europe",
-              "url": "https://www.channel4.com/news/why-the-eclipse-looks-different-across-europe",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:11.188681+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7844144105911255,
-            "article": {
-              "title": "‘First of our lives’: Thousands race for best spot in Spain to watch total solar eclipse (3/4)",
-              "url": "https://www.france24.com/en/europe/20260812-the-first-of-our-lives-thousands-spain-rush-best-spot-watch-total-solar-eclipse",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:08:19.971961+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7779918909072876,
-            "article": {
-              "title": "В Европе впервые в XXI веке произошло полное солнечное затмение Фотографии",
-              "url": "https://meduza.io/feature/2026/08/12/v-evrope-vpervye-v-xxi-veke-proizoshlo-polnoe-solnechnoe-zatmenie",
-              "source_id": "meduza.io",
+              "title": "Eyes on the Sky for the Solar Eclipse in the Balkans",
+              "url": "https://balkaninsight.com/2026/08/13/eyes-on-the-sky-for-the-solar-eclipse-in-the-balkans/bi/",
+              "source_id": "balkaninsight.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:10:39.409960+00:00"
+              "scraped_at_utc": "2026-08-13T19:50:17.033441+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.776873767375946,
-            "article": {
-              "title": "‘Amazing, incredible’ – astrophysicist on Europe’s solar eclipse",
-              "url": "https://www.channel4.com/news/amazing-incredible-astrophysicist-on-europes-solar-eclipse",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:11.188681+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7524263262748718,
-            "article": {
-              "title": "Lietuvos astronomas įamžino 114 metų Ispanijoje nematytą visišką Saulės užtemimą",
-              "url": "https://www.lrt.lt/naujienos/mokslas-ir-it/11/3020084/lietuvos-astronomas-iamzino-114-metu-ispanijoje-nematyta-visiska-saules-uztemima",
-              "source_id": "lrt.lt",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:10:54.476099+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.751167356967926,
-            "article": {
-              "title": "Ce s-a întâmplat în Spania când eclipsa a ajuns în faza de totalitate. „Poate avem noroc până la urmă. Dacă suflăm cu toții spre el?”",
-              "url": "https://hotnews.ro/ce-s-a-intamplat-in-spania-cand-eclipsa-a-ajuns-in-faza-de-totalitate-poate-avem-noroc-pana-la-urma-daca-suflam-cu-totii-spre-el-2323467",
-              "source_id": "hotnews.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:10:22.223199+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7469337582588196,
-            "article": {
-              "title": "OBRAZEM: Podívaná, jaká dlouho nebude. Češi si užívali nevídané zatmění",
-              "url": "https://www.idnes.cz/zpravy/domaci/zatmeni-slunce-spanelsko-cesko-fotografie-bryle-mesic.A260812_212151_domaci_sahu/foto",
-              "source_id": "idnes.cz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:10:25.111469+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7305192947387695,
-            "article": {
-              "title": "Voor het eerst in meer dan een kwart eeuw vindt in Nederland een bijna volledige zonsverduistering plaats",
-              "url": "https://www.nrc.nl/nieuws/2026/08/12/voor-het-eerst-in-meer-dan-een-kwart-eeuw-vindt-in-nederland-een-bijna-volledige-zonsverduistering-plaats-a4934233",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:17.067042+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7292470932006836,
-            "article": {
-              "title": "\"Una auténtica rareza astronómica\": la inusual trilogía de eclipses que se verá desde España",
-              "url": "https://www.bbc.com/mundo/articles/cddjg74l8q9o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:08:39.908438+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7088304758071899,
-            "article": {
-              "title": "Česko zažilo zatmění Slunce ze čtyř pětin. Nadšenci byli v balonu či jeli do Španělska",
-              "url": "https://www.idnes.cz/technet/vesmir/vesmir-zameni-slunce-evropa-mesic-stin-zeme.A260810_103713_tec_vesmir_vse",
-              "source_id": "idnes.cz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:10:25.111469+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7048441171646118,
-            "article": {
-              "title": "歐洲近30年最壯觀日食 西班牙變黑夜、英國見9成日偏食",
-              "url": "https://www.cna.com.tw/news/aopl/202608130030.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:14:13.474940+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6928632259368896,
-            "article": {
-              "title": "Sonnenfinsternis über Deutschland Und plötzlich wurde es dunkler",
-              "url": "https://www.tagesschau.de/inland/sonnenfinsternis-446.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:23.626701+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 53.10090070287942,
-        "size": 14,
-        "n_sources": 13,
-        "n_continents": 5,
-        "continents": [
-          "Europe North",
-          "Middle East",
-          "North America",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.8595613241195679,
-        "title": "ICE plans to equip agents with gloves that can deliver electric shocks",
-        "central_article": {
-          "title": "ICE plans to equip agents with gloves that can deliver electric shocks",
-          "url": "https://www.bbc.com/news/articles/c20d292gdp4o",
-          "source_id": "bbc.com",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-08-13T08:07:04.749574+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9522609114646912,
-            "article": {
-              "title": "ICE plans to equip agents with gloves that can deliver electric shocks",
-              "url": "https://www.bbc.com/news/articles/c20d292gdp4o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:04.749574+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9457337856292725,
-            "article": {
-              "title": "ICE planning to give officers gloves that deliver electric shocks",
-              "url": "https://www.theglobeandmail.com/world/us-politics/article-ice-officers-gloves-electric-shocks-democrats-new-york-letitia-james/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:09:35.198740+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9337802529335022,
-            "article": {
-              "title": "ICE Plans to Give Officers Gloves That Can Deliver Electric Shocks",
-              "url": "https://www.nytimes.com/2026/08/12/us/politics/ice-gloves-shock.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:11:55.134797+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.901809573173523,
-            "article": {
-              "title": "ICE quer dar a seus agentes luvas capazes de aplicar choques elétricos",
-              "url": "https://www.estadao.com.br/internacional/ice-planeja-fornecer-agentes-luvas-choques-eletricos-dolorosos-npr/",
-              "source_id": "estadao.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:09:05.884018+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8973856568336487,
-            "article": {
-              "title": "ICE-Agenten sollen Elektroschock-Handschuhe bekommen",
-              "url": "https://www.spiegel.de/ausland/usa-ice-agenten-sollen-elektroschock-handschuhe-bekommen-a-b0f736fb-89aa-44b6-9556-e5621935573d",
-              "source_id": "spiegel.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:26.654982+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8942638635635376,
-            "article": {
-              "title": "ICE agents to have electric shock gloves",
-              "url": "https://www.albawaba.com/news/ice-agents-have-electric-shock-gloves-1634916",
-              "source_id": "albawaba.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:10:04.340014+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8828831911087036,
-            "article": {
-              "title": "ICE’s plan to give officers electric shock gloves draws outrage and fears of misuse",
-              "url": "https://apnews.com/article/ice-electric-shock-gloves-016e15e31c5dac5cc253d32b4734dd2a",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:11:53.715485+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8820393681526184,
-            "article": {
-              "title": "US-Behörde ICE plant Kauf von Elektroschock-Handschuhen",
-              "url": "https://www.diepresse.com/41170292/us-behoerde-ice-plant-kauf-von-elektroschock-handschuhen",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:37.955155+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8811689615249634,
-            "article": {
-              "title": "ICE will Elektroschock-Handschuhe kaufen",
-              "url": "https://www.zdfheute.de/politik/ausland/usa-behoerde-ice-elektroschock-handschuhe-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:40.467088+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8700751066207886,
-            "article": {
-              "title": "Plan to Equip ICE Agents With Electric Shock Gloves Draws Alarm",
-              "url": "https://time.com/article/2026/08/12/ice-electric-shock-gloves/",
-              "source_id": "time.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:12:23.454013+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7965565919876099,
-            "article": {
-              "title": "ICE usaría guantes con descargas eléctricas para someter a migrantes durante sus operativos en Estados Unidos",
-              "url": "https://www.eltiempo.com/mundo/eeuu-y-canada/ice-usaria-guantes-con-descargas-electricas-para-someter-a-migrantes-durante-sus-operativos-en-estados-unidos-como-funcionan-y-que-riesgos-hay-3577914",
-              "source_id": "eltiempo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:08:54.180772+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7355719804763794,
-            "article": {
-              "title": "World Why is ICE under fire over its $20 million electric shock-glove plan?",
-              "url": "https://timesofindia.indiatimes.com/world/us/why-is-ice-under-fire-over-its-20-million-electric-shock-glove-plan/articleshow/133200753.cms",
-              "source_id": "timesofindia.indiatimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:12:53.640584+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7355043292045593,
-            "article": {
-              "title": "ICE Is Getting Body Cameras. But Will They Help Hold Agents Accountable?",
-              "url": "https://time.com/article/2026/08/12/ice-is-getting-body-cameras-but-will-they-help-hold-agents-accountable-/",
-              "source_id": "time.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:12:23.454013+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7248251438140869,
-            "article": {
-              "title": "Governo Trump planeja equipar servidores do ICE com luvas de choque para reprimir migrantes Dispositivo não é amplamente adotado por forças; contrato pode chegar a U$S 20 mi",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/08/governo-trump-planeja-equipar-agentes-do-ice-com-luvas-de-choque-para-acoes-contra-imigrantes.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:09:01.125994+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 36.66729894063536,
-        "size": 14,
-        "n_sources": 13,
-        "n_continents": 6,
-        "continents": [
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "North America",
-          "South Asia"
-        ],
-        "coherence": 0.7490352988243103,
-        "title": "Imagini spectaculoase cu eclipsa solară. Cum s-a văzut fenomenul care are loc o dată într-o generație",
-        "central_article": {
-          "title": "Imagini spectaculoase cu eclipsa solară. Cum s-a văzut fenomenul care are loc o dată într-o generație",
-          "url": "https://hotnews.ro/imagini-spectaculoase-cu-eclipsa-solara-cum-s-a-vazut-fenomenul-care-are-loc-o-data-intr-o-generatie-2323560",
-          "source_id": "hotnews.ro",
-          "continent": "Europe East",
-          "published_at": null,
-          "scraped_at_utc": "2026-08-13T08:10:22.223199+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8190057873725891,
-            "article": {
-              "title": "Imagini spectaculoase cu eclipsa solară. Cum s-a văzut fenomenul care are loc o dată într-o generație",
-              "url": "https://hotnews.ro/imagini-spectaculoase-cu-eclipsa-solara-cum-s-a-vazut-fenomenul-care-are-loc-o-data-intr-o-generatie-2323560",
-              "source_id": "hotnews.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:10:22.223199+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8075650334358215,
-            "article": {
-              "title": "Scenes From the Solar Eclipse",
-              "url": "https://www.nytimes.com/2026/08/12/world/europe/solar-eclipse-europe-photos.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:11:55.134797+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8050139546394348,
-            "article": {
-              "title": "Voici vos plus belles photos de l'éclipse",
-              "url": "https://www.rtbf.be/article/voici-vos-plus-belles-photos-de-l-eclipse-11769703",
-              "source_id": "rtbf.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:08:25.945778+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7808117866516113,
-            "article": {
-              "title": "Van strand en uit een vliegtuig: zeldzame eclips levert prachtige plaatjes op",
-              "url": "https://www.rtl.nl/nieuws/binnenland/artikel/5638245/donker-spanje-timelapse-vanuit-een-vliegtuig-zeldzame-eclips",
-              "source_id": "rtl.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:19.083112+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7638958096504211,
-            "article": {
-              "title": "Photos: The Total Solar Eclipse of 2026",
-              "url": "https://www.theatlantic.com/photography/2026/08/photos-solar-eclipse-2026/688261/",
-              "source_id": "theatlantic.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:12:24.655024+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7620084881782532,
-            "article": {
-              "title": "Eclipse colectivo en Montjuïc",
-              "url": "https://www.lavanguardia.com/local/barcelona/20260812/11612834/eclipse-colectivo-montjuic.html",
-              "source_id": "lavanguardia.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:08:29.036839+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7602136135101318,
-            "article": {
-              "title": "Even Dublin’s seagulls took a moment to pause as the solar eclipse filled the sky",
-              "url": "https://www.irishtimes.com/ireland/2026/08/12/even-dublins-seagulls-take-a-moment-to-pause-with-the-solar-eclipse-over-the-capital/",
-              "source_id": "irishtimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:09:50.017104+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.750698447227478,
-            "article": {
-              "title": "L'éclipse solaire a traversé la Suisse sous les yeux d'une foule de passionnés Sciences-Tech.",
-              "url": "https://www.rts.ch/info/sciences-tech/2026/minute-par-minute/29326637.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:08:21.531905+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7460702061653137,
-            "article": {
-              "title": "आसमान में सूर्य-चंद्रमा का अद्भुत मिलन: यूरोप में दिखा सूर्य ग्रहण का दुर्लभ नजारा, ब्रिटेन में 90% ढका सूरज",
-              "url": "https://www.jagran.com/world/united-kingdom-rare-solar-eclipse-wows-europe-uk-sees-90-sun-covered-40339152.html",
-              "source_id": "jagran.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:12:56.167045+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.745805025100708,
-            "article": {
-              "title": "En images De Salou en Espagne à Dilbeek en Belgique : vos plus belles photos de l’éclipse",
-              "url": "https://www.lesoir.be/764716/article/2026-08-12/de-salou-en-espagne-dilbeek-en-belgique-vos-plus-belles-photos-de-leclipse",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:08:27.451321+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.718701958656311,
+            "sim_to_centroid": 0.7631646394729614,
             "article": {
               "title": "Solar eclipse 2026: Where and when to watch across Russia and Europe",
               "url": "https://www.rt.com/news/644160-europe-solar-eclipse-2026/",
               "source_id": "rt.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:10:45.515489+00:00"
+              "scraped_at_utc": "2026-08-13T19:49:53.237148+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6917153596878052,
+            "sim_to_centroid": 0.7619587182998657,
             "article": {
-              "title": "Britain stares at its fifth heat wave of the summer",
-              "url": "https://apnews.com/article/europe-heatwave-drought-wildfire-1efa65679bd29770e3b7ea4a9ca839a4",
-              "source_id": "apnews.com",
-              "continent": "North America",
+              "title": "El eclipse solar, al detalle: navega por las imágenes en alta resolución",
+              "url": "https://www.rtve.es/noticias/20260813/imagenes-alta-resolucion-eclipse/17189736.shtml",
+              "source_id": "rtve.es",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:11:53.715485+00:00"
+              "scraped_at_utc": "2026-08-13T19:47:36.923184+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.678274929523468,
+            "sim_to_centroid": 0.7579476237297058,
             "article": {
-              "title": "València vive el eclipse entre el bullicio de su paseo marítimo y el encanto de L'Albufera",
-              "url": "https://www.lavanguardia.com/local/valencia/20260812/11612840/valencia-vive-eclipse-bullicio-paseo-maritimo-encanto-l-albufera.html",
+              "title": "«Роскосмос» показал кадры солнечного затмения из космоса",
+              "url": "https://www.kommersant.ru/doc/8878359?from=spot_main",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:49:55.418781+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7574175596237183,
+            "article": {
+              "title": "Thousands watch partial solar eclipse in north of Algeria",
+              "url": "https://www.africanews.com/2026/08/13/thousands-watch-partial-solar-eclipse-in-north-of-algeria/",
+              "source_id": "africanews.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:50:49.094898+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6989911198616028,
+            "article": {
+              "title": "Las imágenes más espectaculares del regalo de la Luna",
+              "url": "https://www.lavanguardia.com/vida/20260812/11612791/primeras-imagenes-deja-eclipse-solar-sobre-peninsula.html",
               "source_id": "lavanguardia.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:08:29.036839+00:00"
+              "scraped_at_utc": "2026-08-13T19:47:34.411786+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6567143797874451,
+            "sim_to_centroid": 0.6804039478302002,
             "article": {
-              "title": "日全食奇景 西班牙喜迎商機也憂人潮亂象",
-              "url": "https://www.cna.com.tw/news/aopl/202608120026.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
+              "title": "Europe swelters in latest wave of extreme heat",
+              "url": "https://www.aljazeera.com/news/2026/8/13/europe-swelters-in-latest-wave-of-extreme-heat",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:14:13.474940+00:00"
+              "scraped_at_utc": "2026-08-13T19:48:58.241758+00:00"
             }
           }
         ]
       },
       {
-        "score": 32.8613961855758,
+        "score": 53.51247505631791,
         "size": 10,
         "n_sources": 10,
-        "n_continents": 5,
+        "n_continents": 7,
         "continents": [
-          "Europe North",
+          "China",
+          "East Asia",
+          "Europe East",
+          "Europe South",
           "Middle East",
           "North America",
-          "South America",
           "South Asia"
         ],
-        "coherence": 0.8160551190376282,
-        "title": "Trump se escondió en un contenedor de comida para cambiar de avión en secreto por una amenaza de Irán",
+        "coherence": 0.8462839126586914,
+        "title": "Iran says Strait of Hormuz under its control, rejects Trump claims",
         "central_article": {
-          "title": "Trump se escondió en un contenedor de comida para cambiar de avión en secreto por una amenaza de Irán",
-          "url": "https://www.bbc.com/mundo/articles/c24m8ymgz7ro",
-          "source_id": "bbc.com",
-          "continent": "Europe North",
+          "title": "Iran says Strait of Hormuz under its control, rejects Trump claims",
+          "url": "https://www.aljazeera.com/news/2026/8/13/iran-says-strait-of-hormuz-under-its-control-rejects-trump-claims",
+          "source_id": "aljazeera.com",
+          "continent": "Middle East",
           "published_at": null,
-          "scraped_at_utc": "2026-08-13T08:08:39.908438+00:00"
+          "scraped_at_utc": "2026-08-13T19:48:58.241758+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8943046927452087,
+            "sim_to_centroid": 0.9409348964691162,
             "article": {
-              "title": "Trump se escondió en un contenedor de comida para cambiar de avión en secreto por una amenaza de Irán",
-              "url": "https://www.bbc.com/mundo/articles/c24m8ymgz7ro",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:08:39.908438+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8758143782615662,
-            "article": {
-              "title": "How a catering truck helped Trump secretly switch planes amid threat from Iran",
-              "url": "https://www.pbs.org/newshour/show/how-a-catering-truck-helped-trump-secretly-switch-planes-amid-threat-from-iran",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:12:25.968148+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8566442728042603,
-            "article": {
-              "title": "Reports Trump hid in catering van ahead of secret flight following Iran threat",
-              "url": "https://www.channel4.com/news/reports-trump-hid-in-catering-van-ahead-of-secret-flight-following-iran-threat",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:11.188681+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8090451955795288,
-            "article": {
-              "title": "Trump'ın nefes kesen kaçış operasyonu: Detaylar ortaya çıktı! ABD Başkanı yemek kamyonuyla uçak değiştirmiş",
-              "url": "https://www.hurriyet.com.tr/dunya/trumpin-nefes-kesen-kacis-operasyonu-detaylar-ortaya-cikti-abd-baskani-yemek-kamyonuyla-ucak-degistirmis-43271434",
-              "source_id": "hurriyet.com.tr",
+              "title": "Iran says Strait of Hormuz under its control, rejects Trump claims",
+              "url": "https://www.aljazeera.com/news/2026/8/13/iran-says-strait-of-hormuz-under-its-control-rejects-trump-claims",
+              "source_id": "aljazeera.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:09:59.941028+00:00"
+              "scraped_at_utc": "2026-08-13T19:48:58.241758+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8078820705413818,
+            "sim_to_centroid": 0.9118272662162781,
             "article": {
-              "title": "Iranian shoulder-fired missile sparked Trump plane switch: report",
-              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-plane-switch-iran-missile-threat-b3031831.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
+              "title": "Iran rejects Trump claims of US control over Hormuz as 'lies'",
+              "url": "https://www.channelnewsasia.com/world/iran-trump-control-strait-hormuz-lies-6318021",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:05.929891+00:00"
+              "scraped_at_utc": "2026-08-13T19:53:00.649469+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8019500970840454,
+            "sim_to_centroid": 0.9012118577957153,
             "article": {
-              "title": "World Missile threat made Donald Trump move to smaller US jet during Turkey visit: Report",
-              "url": "https://timesofindia.indiatimes.com/world/us/missile-threat-made-donald-trump-move-to-smaller-us-jet-during-turkey-visit-report/articleshow/133196786.cms",
-              "source_id": "timesofindia.indiatimes.com",
+              "title": "Iran calls out Trump's ‘lies’ about US control over the Strait of Hormuz",
+              "url": "https://www.france24.com/en/middle-east/20260813-iran-says-trump-lied-about-us-control-over-strait-of-hormuz",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:47:24.666823+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8771660327911377,
+            "article": {
+              "title": "'Baseless Lies': Iran dismisses US President Trump's claims of 'total control' over Strait of Hormuz",
+              "url": "https://www.thestar.com.my/news/world/2026/08/13/039baseless-lies039-iran-dismisses-us-president-trump039s-claims-of-039total-control039-over-strait-of-hormuz",
+              "source_id": "thestar.com.my",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:53:26.322066+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8702151775360107,
+            "article": {
+              "title": "Iran, US make competing claims over control of Strait of Hormuz",
+              "url": "https://kathmandupost.com/world/2026/08/13/iran-us-make-competing-claims-over-control-of-strait-of-hormuz",
+              "source_id": "kathmandupost.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:12:53.640584+00:00"
+              "scraped_at_utc": "2026-08-13T19:52:25.623766+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7936847805976868,
+            "sim_to_centroid": 0.8702086210250854,
             "article": {
-              "title": "Trump bekræfter opsigtsvækkende flyskift efter Nato-møde",
-              "url": "https://sermitsiaq.ag/samfund/trump-bekraefter-opsigtsvaekkende-flyskift-efter-nato-mode/2413927",
-              "source_id": "sermitsiaq.ag",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:08:10.795867+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7871042490005493,
-            "article": {
-              "title": "Missile threat prompted Secret Service to move Trump off Air Force One, source says",
-              "url": "https://www.theglobeandmail.com/world/article-missile-threat-prompted-secret-service-to-move-trump-off-air-force-one/",
+              "title": "Iran and U.S. make competing claims over control of Strait of Hormuz",
+              "url": "https://www.theglobeandmail.com/world/article-iran-us-strait-of-hormuz/",
               "source_id": "theglobeandmail.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:09:35.198740+00:00"
+              "scraped_at_utc": "2026-08-13T19:48:39.564078+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7753450274467468,
+            "sim_to_centroid": 0.8100788593292236,
             "article": {
-              "title": "¿Un misil portátil contra Trump? La alerta de Israel que obligó a cambiar su avión en secreto",
-              "url": "https://elcomercio.pe/mundo/eeuu/donald-trump-israel-alerto-sobre-un-posible-ataque-de-iran-con-un-misil-portatil-contra-su-avion-air-force-one-que-se-sabe-estados-unidos-turquia-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
+              "title": "Иран ответил на заявление Трампа о “полном контроле“ над Ормузом",
+              "url": "https://tengrinews.kz/world_news/iran-otvetil-zayavlenie-trampa-polnom-kontrole-ormuzom-606140/",
+              "source_id": "tengrinews.kz",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:09:10.279420+00:00"
+              "scraped_at_utc": "2026-08-13T19:50:09.535195+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7587766051292419,
+            "sim_to_centroid": 0.7821311950683594,
             "article": {
-              "title": "Sali� Trump de Turqu�a escondido en cami�n de comida",
-              "url": "https://www.reforma.com/salio-trump-de-turquia-escondido-en-camion-de-comida/ar3256424?v=3",
-              "source_id": "reforma.com",
-              "continent": "North America",
+              "title": "Iran says no vessels can cross Hormuz Strait without its permission",
+              "url": "https://english.news.cn/20260813/2aa2feae42494b17a021196cef73f78f/c.html",
+              "source_id": "english.news.cn",
+              "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:08:41.498341+00:00"
+              "scraped_at_utc": "2026-08-13T19:51:41.524361+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7704769372940063,
+            "article": {
+              "title": "ایران نے آبنائے ہرمز پر امریکی کنٹرول کا دعویٰ مسترد کردیا",
+              "url": "https://jang.com.pk/news/1560993",
+              "source_id": "jang.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:52:26.915970+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7285875082015991,
+            "article": {
+              "title": "Strait of Hormuz developments Iranian forces say they fully control Strait of Hormuz",
+              "url": "https://tass.com/world/2172433",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:49:57.165016+00:00"
             }
           }
         ]
       },
       {
-        "score": 28.7478479501786,
-        "size": 8,
-        "n_sources": 8,
+        "score": 49.61965430768273,
+        "size": 12,
+        "n_sources": 12,
+        "n_continents": 6,
+        "continents": [
+          "China",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Oceania",
+          "South America"
+        ],
+        "coherence": 0.8255441784858704,
+        "title": "Passagierstrein ontspoord in zuiden van Engeland, 11 gewonden",
+        "central_article": {
+          "title": "Passagierstrein ontspoord in zuiden van Engeland, 11 gewonden",
+          "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5638576/passagierstrein-ontspoord-zuiden-van-engeland",
+          "source_id": "rtl.nl",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-08-13T19:46:32.745557+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8789063096046448,
+            "article": {
+              "title": "Passagierstrein ontspoord in zuiden van Engeland, 11 gewonden",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5638576/passagierstrein-ontspoord-zuiden-van-engeland",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:46:32.745557+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8712949752807617,
+            "article": {
+              "title": "Trein ontspoord in Zuidoost-Engeland, 11 gewonden",
+              "url": "https://nos.nl/artikel/2626719-trein-ontspoord-in-zuidoost-engeland-11-gewonden",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:46:28.803365+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8605673313140869,
+            "article": {
+              "title": "11 injured, as UK train derails and carriages flip",
+              "url": "https://www.scmp.com/news/world/europe/article/3363958/uk-passenger-train-derails-and-flips?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:51:36.066421+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8564668893814087,
+            "article": {
+              "title": "Angleterre : un train déraille près de Brighton, deux blessés graves",
+              "url": "https://www.rtbf.be/article/un-train-deraille-pres-de-brighton-pas-d-information-sur-de-possibles-victimes-11770046",
+              "source_id": "rtbf.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:47:30.072275+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8509228229522705,
+            "article": {
+              "title": "Verenigd Koninkrijk Trein ontspoord in Zuidoost-Engeland, 2 mensen zwaargewond",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/08/13/trein-ontspoord-in-zuidoost-engeland-nog-geen-duidelijkheid-ove/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:47:27.791479+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8407057523727417,
+            "article": {
+              "title": "Two seriously injured as train derails in East Sussex",
+              "url": "https://www.channel4.com/news/two-seriously-injured-as-train-derails-in-east-sussex",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:46:25.043130+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8403921127319336,
+            "article": {
+              "title": "Passenger train derails and flips over in southern England",
+              "url": "https://www.abc.net.au/news/2026-08-14/train-derail-sussex-uk/107035866",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:48:40.853419+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8198034167289734,
+            "article": {
+              "title": "Decenas de personas quedaron atrapadas. Un tren de pasajeros descarriló y volcó en el sur de Inglaterra",
+              "url": "https://www.lanacion.com.ar/el-mundo/un-tren-de-pasajeros-descarrilo-y-volco-en-el-sur-de-inglaterra-nid13082026/",
+              "source_id": "lanacion.com.ar",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:47:58.557757+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7868906259536743,
+            "article": {
+              "title": "Kisiklott egy személyvonat Londontól 80 kilométerre, ketten súlyosan megsérültek",
+              "url": "https://telex.hu/belfold/2026/08/13/del-anglia-sussex-kisiklott-vonat",
+              "source_id": "telex.hu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:49:27.658790+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7742913961410522,
+            "article": {
+              "title": "To personer alvorligt såret efter togafsporing i Storbritannien",
+              "url": "https://politiken.dk/internationalt/art10946460/To-personer-alvorligt-s%C3%A5ret-efter-togafsporing-i-Storbritannien",
+              "source_id": "politiken.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:46:58.508897+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7671903371810913,
+            "article": {
+              "title": "Accident feroviar lângă Brighton / Mai multe persoane au rămas blocate în vagoane",
+              "url": "https://www.g4media.ro/accident-feroviar-langa-brighton-mai-multe-persoane-au-ramas-blocate-in-vagoane.html",
+              "source_id": "g4media.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:49:39.871412+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7590985298156738,
+            "article": {
+              "title": "В Великобритании из-за схода поезда пострадали 11 человек В мире",
+              "url": "http://belta.by/world/view/v-velikobritanii-iz-za-shoda-poezda-postradali-11-chelovek-796007-2026/",
+              "source_id": "belta.by",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:50:29.316188+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 40.98423114037573,
+        "size": 9,
+        "n_sources": 9,
         "n_continents": 5,
         "continents": [
           "Europe East",
           "Europe North",
           "Europe South",
-          "Middle East",
+          "North America",
           "South America"
         ],
-        "coherence": 0.8339366912841797,
-        "title": "Colombia earthquake rescue efforts enter 'final phase' as death toll rises",
+        "coherence": 0.8813049793243408,
+        "title": "Judge dismisses Trump administration lawsuit alleging antisemitism at Harvard",
         "central_article": {
-          "title": "Colombia earthquake rescue efforts enter 'final phase' as death toll rises",
-          "url": "https://www.france24.com/en/americas/20260813-colombia-earthquake-rescue-efforts-enter-final-phase-as-death-toll-rises",
-          "source_id": "france24.com",
-          "continent": "Europe South",
+          "title": "Judge dismisses Trump administration lawsuit alleging antisemitism at Harvard",
+          "url": "https://www.pbs.org/newshour/politics/judge-dismisses-trump-administration-lawsuit-alleging-antisemitism-at-harvard",
+          "source_id": "pbs.org",
+          "continent": "North America",
           "published_at": null,
-          "scraped_at_utc": "2026-08-13T08:08:19.971961+00:00"
+          "scraped_at_utc": "2026-08-13T19:51:34.765357+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8835169076919556,
+            "sim_to_centroid": 0.9416948556900024,
             "article": {
-              "title": "Colombia earthquake rescue efforts enter 'final phase' as death toll rises",
-              "url": "https://www.france24.com/en/americas/20260813-colombia-earthquake-rescue-efforts-enter-final-phase-as-death-toll-rises",
-              "source_id": "france24.com",
-              "continent": "Europe South",
+              "title": "Judge dismisses Trump administration lawsuit alleging antisemitism at Harvard",
+              "url": "https://www.pbs.org/newshour/politics/judge-dismisses-trump-administration-lawsuit-alleging-antisemitism-at-harvard",
+              "source_id": "pbs.org",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:08:19.971961+00:00"
+              "scraped_at_utc": "2026-08-13T19:51:34.765357+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8693311810493469,
+            "sim_to_centroid": 0.9374251365661621,
             "article": {
-              "title": "Search efforts in Colombia enter ‘final phase’ as quake toll reaches 265",
-              "url": "https://www.aljazeera.com/news/2026/8/13/search-efforts-in-colombia-enter-final-phase-as-quake-toll-reaches-265",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
+              "title": "Judge dismisses Trump administration lawsuit alleging antisemitism at Harvard University",
+              "url": "https://apnews.com/article/harvard-trump-antisemitism-lawsuit-dismissed-civil-rights-4fd6ce6eb8ce040940efd78560a6c4f5",
+              "source_id": "apnews.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:09:51.224543+00:00"
+              "scraped_at_utc": "2026-08-13T19:51:02.988066+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8642733097076416,
+            "sim_to_centroid": 0.9228938817977905,
             "article": {
-              "title": "Resgates entram em 'fase final' após terremoto mais mortal do século na Colômbia",
-              "url": "https://oglobo.globo.com/mundo/noticia/2026/08/13/resgates-entram-em-fase-final-apos-terremoto-mais-mortal-do-seculo-na-colombia.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:09:03.980817+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8549392223358154,
-            "article": {
-              "title": "Bilanțul deceselor după cutremurul din Columbia ajunge la 265 de morți / Căutarea supraviețuitorilor intră în faza decisivă",
-              "url": "https://www.g4media.ro/bilantul-deceselor-dupa-cutremurul-din-columbia-ajunge-la-265-de-morti-cautarea-supravietuitorilor-intra-in-faza-decisiva.html",
-              "source_id": "g4media.ro",
+              "title": "JAV teismas atmetė Trumpo administracijos ieškinį dėl tariamo antisemitizmo Harvarde",
+              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3020397/jav-teismas-atmete-trumpo-administracijos-ieskini-del-tariamo-antisemitizmo-harvarde",
+              "source_id": "lrt.lt",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:10:31.439976+00:00"
+              "scraped_at_utc": "2026-08-13T19:50:02.372836+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8229739665985107,
+            "sim_to_centroid": 0.9069826602935791,
             "article": {
-              "title": "Las víctimas mortales del terremoto en Colombia ascienden a 265",
-              "url": "https://www.rtve.es/noticias/20260813/victimas-mortales-terremoto-colombia-ascienden-desaparecidos/17189572.shtml",
-              "source_id": "rtve.es",
+              "title": "Etats-Unis : la plainte de Trump contre Harvard rejetée",
+              "url": "https://www.lesoir.be/764903/article/2026-08-13/etats-unis-la-plainte-de-trump-contre-harvard-rejetee",
+              "source_id": "lesoir.be",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:08:31.912995+00:00"
+              "scraped_at_utc": "2026-08-13T19:47:31.591433+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8175625801086426,
+            "sim_to_centroid": 0.8961586952209473,
             "article": {
-              "title": "Σεισμός στην Κολομβία: Ανεβαίνει ο αριθμός των θυμάτων, εκατοντάδες οι αγνοούμενοι",
-              "url": "https://www.tovima.gr/2026/08/13/world/seismos-stin-kolomvia-anevainei-o-arithmos-ton-thymaton-ekatontades-oi-agnooumenoi/",
-              "source_id": "tovima.gr",
-              "continent": "Europe South",
+              "title": "Desestima corte de EU demanda de Trump contra Harvard",
+              "url": "https://www.reforma.com/desestima-corte-de-eu-demanda-de-trump-contra-harvard/ar3257367?v=3",
+              "source_id": "reforma.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:08:38.754724+00:00"
+              "scraped_at_utc": "2026-08-13T19:47:47.409602+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7799289226531982,
+            "sim_to_centroid": 0.8886474370956421,
             "article": {
-              "title": "Colombia earthquake: on the ground with emergency rescue teams",
-              "url": "https://www.channel4.com/news/colombia-earthquake-on-the-ground-with-emergency-rescue-teams",
-              "source_id": "channel4.com",
+              "title": "Trump administration Judge dismisses Trump lawsuit that claimed Harvard failed to protect Jewish students",
+              "url": "https://www.theguardian.com/us-news/2026/aug/13/trump-harvard-lawsuit-dismissed",
+              "source_id": "theguardian.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:11.188681+00:00"
+              "scraped_at_utc": "2026-08-13T19:46:23.522100+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7789671421051025,
+            "sim_to_centroid": 0.8612635135650635,
             "article": {
-              "title": "Rescatistas de EE. UU. y México llegan a Colombia para apoyar los afectados tras el terremoto",
-              "url": "https://www.semana.com/mundo/articulo/rescatistas-de-ee-uu-y-mexico-llegan-a-colombia-para-apoyar-los-afectados-tras-el-terremoto/202654/",
-              "source_id": "semana.com",
+              "title": "Domstol avfärdar Trumps Harvard-stämning",
+              "url": "https://www.dn.se/direkt/2026-08-13/domstol-avfardar-trumps-harvard-stamning/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:47:00.347293+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8028157949447632,
+            "article": {
+              "title": "Die neuesten Entwicklungen Trumps zweite Amtszeit: Antisemitismus-Klage gegen Harvard abgewiesen",
+              "url": "https://www.nzz.ch/international/trumps-zweite-amtszeit-der-us-praesident-will-impfempfehlungen-fuer-kinder-deutlich-einschraenken-usa-widerrufen-mehr-als-175-000-visa-unter-trump-ld.1856621",
+              "source_id": "nzz.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:46:54.855301+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7738628387451172,
+            "article": {
+              "title": "Juiz dos Estados Unidos rejeita ação do governo Trump contra Harvard por antissemitismo EUA acusava a universidade de discriminar judeus após protestos contra guerra em Gaza",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/08/juiz-dos-eua-rejeita-acao-do-governo-trump-contra-harvard-por-antissemitismo.shtml",
+              "source_id": "folha.uol.com.br",
               "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:08:55.556870+00:00"
+              "scraped_at_utc": "2026-08-13T19:48:07.501788+00:00"
             }
           }
         ]
       },
       {
-        "score": 21.901468366959815,
-        "size": 10,
-        "n_sources": 8,
+        "score": 40.37168323636039,
+        "size": 20,
+        "n_sources": 16,
         "n_continents": 4,
         "continents": [
           "East Asia",
-          "Europe North",
-          "Middle East",
-          "South America"
-        ],
-        "coherence": 0.824163556098938,
-        "title": "'I think we will keep it,' Trump says about control of Hormuz strait",
-        "central_article": {
-          "title": "'I think we will keep it,' Trump says about control of Hormuz strait",
-          "url": "https://www.euronews.com/2026/08/12/trump-hails-wall-of-steel-blocakade-says-us-will-keep-control-of-strait-of-hormuz",
-          "source_id": "euronews.com",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-08-13T08:07:12.560008+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8898483514785767,
-            "article": {
-              "title": "'I think we will keep it,' Trump says about control of Hormuz strait",
-              "url": "https://www.euronews.com/2026/08/12/trump-hails-wall-of-steel-blocakade-says-us-will-keep-control-of-strait-of-hormuz",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:12.560008+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8680747747421265,
-            "article": {
-              "title": "'I think we'll keep it': Trump says US controls Hormuz, IDF believes blockade is 'highly effective'",
-              "url": "https://www.jpost.com/middle-east/iran-news/article-905321",
-              "source_id": "jpost.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:09:54.204630+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8579072952270508,
-            "article": {
-              "title": "Trump declares US will 'keep' Hormuz as MoU deadline nears",
-              "url": "https://www.newarab.com/news/trump-declares-us-will-keep-hormuz-mou-deadline-nears",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:10:05.637428+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8537148833274841,
-            "article": {
-              "title": "Iran counters Trump claim of control over Strait of Hormuz",
-              "url": "https://www.jpost.com/middle-east/article-905395",
-              "source_id": "jpost.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:09:54.204630+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8361437320709229,
-            "article": {
-              "title": "Iran says Strait of Hormuz is under its control, Fars news reports",
-              "url": "https://www.straitstimes.com/asia/iran-says-strait-of-hormuz-is-under-its-control-fars-news-reports?ref=latest-headlines",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:14:08.568298+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8361436128616333,
-            "article": {
-              "title": "Iran says Strait of Hormuz is under its control, Fars news reports",
-              "url": "https://www.thestar.com.my/news/world/2026/08/13/iran-says-strait-of-hormuz-is-under-its-control-fars-news-reports",
-              "source_id": "thestar.com.my",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:14:10.899929+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8119754791259766,
-            "article": {
-              "title": "Trump diz ter controle total do Estreito de Ormuz e alega que bloqueio naval dos EUA é 'muro de aço'",
-              "url": "https://www.estadao.com.br/internacional/trump-diz-ter-controle-total-do-estreito-de-ormuz-e-alega-que-bloqueio-naval-dos-eua-e-muro-de-aco-npr/",
-              "source_id": "estadao.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:09:05.884018+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.796906590461731,
-            "article": {
-              "title": "川普稱將繼續控制荷莫茲海峽 嗆伊朗對美軍封鎖無能為力",
-              "url": "https://www.cna.com.tw/news/aopl/202608130013.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:14:13.474940+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7756162285804749,
-            "article": {
-              "title": "Iran an Trump: „Die Straße von Hormuz bleibt blockiert“",
-              "url": "https://www.diepresse.com/41170271/iran-an-trump-die-strasse-von-hormuz-bleibt-blockiert",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:37.955155+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7153044939041138,
-            "article": {
-              "title": "Sunday deadline for MOU looms amid US-Iran standoff over Hormuz",
-              "url": "https://www.newarab.com/news/sunday-deadline-mou-looms-amid-us-iran-standoff-over-hormuz",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:10:05.637428+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 20.0,
-        "size": 5,
-        "n_sources": 5,
-        "n_continents": 4,
-        "continents": [
           "Europe East",
           "Europe North",
-          "South America",
-          "South Asia"
+          "Europe South"
         ],
-        "coherence": 0.9014997482299805,
-        "title": "2 killed in military helicopter crash in Texas",
+        "coherence": 0.807849109172821,
+        "title": "‘Absolutely unacceptable’: Japan condemns visit by Vladimir Putin to disputed Kuril Islands",
         "central_article": {
-          "title": "2 killed in military helicopter crash in Texas",
-          "url": "https://pajhwok.com/2026/08/13/2-killed-in-military-helicopter-crash-in-texas/",
-          "source_id": "pajhwok.com",
-          "continent": "South Asia",
+          "title": "‘Absolutely unacceptable’: Japan condemns visit by Vladimir Putin to disputed Kuril Islands",
+          "url": "https://www.theguardian.com/world/2026/aug/13/japan-condemns-vladimir-putin-visit-kuril-islands",
+          "source_id": "theguardian.com",
+          "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-08-13T08:13:18.532164+00:00"
+          "scraped_at_utc": "2026-08-13T19:46:23.522100+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9506499767303467,
+            "sim_to_centroid": 0.9000886678695679,
             "article": {
-              "title": "2 killed in military helicopter crash in Texas",
-              "url": "https://pajhwok.com/2026/08/13/2-killed-in-military-helicopter-crash-in-texas/",
-              "source_id": "pajhwok.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:13:18.532164+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9356261491775513,
-            "article": {
-              "title": "Two soldiers dead after Apache helicopter crashes in Texas",
-              "url": "https://www.independent.co.uk/news/world/americas/texas-military-helicopter-crash-fort-hood-b3032213.html",
-              "source_id": "independent.co.uk",
+              "title": "‘Absolutely unacceptable’: Japan condemns visit by Vladimir Putin to disputed Kuril Islands",
+              "url": "https://www.theguardian.com/world/2026/aug/13/japan-condemns-vladimir-putin-visit-kuril-islands",
+              "source_id": "theguardian.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:05.929891+00:00"
+              "scraped_at_utc": "2026-08-13T19:46:23.522100+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9082337021827698,
+            "sim_to_centroid": 0.8993067741394043,
             "article": {
-              "title": "Dos militares muertos en Texas tras accidente de helicóptero del ejército de Estados Unidos",
-              "url": "https://elcomercio.pe/mundo/eeuu/texas-dos-militares-muertos-en-salado-tras-accidente-de-helicoptero-del-ejercito-de-estados-unidos-base-militar-de-ford-hood-ultimas-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:09:10.279420+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8757342100143433,
-            "article": {
-              "title": "Two pilots killed in US Army helicopter crash",
-              "url": "https://www.rt.com/news/644185-two-pilots-killed-in-us-helicopter-crash/",
-              "source_id": "rt.com",
+              "title": "Japan protests Putin’s visit to disputed Kuril Islands",
+              "url": "https://georgiatoday.ge/japan-protests-putins-visit-to-disputed-kuril-islands/",
+              "source_id": "georgiatoday.ge",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:10:45.515489+00:00"
+              "scraped_at_utc": "2026-08-13T19:50:07.345836+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8372547626495361,
+            "sim_to_centroid": 0.898352861404419,
             "article": {
-              "title": "Two dead after military helicopter crashes in Texas An Apache military helicopter crashed in central Texas, officials said Wednesday.",
-              "url": "https://www.bbc.com/news/articles/ceqep0n2ej9o",
+              "title": "Putin goads Japan with ‘unacceptable’ visit to disputed Kuril Islands",
+              "url": "https://www.thetimes.com/world/asia/article/putin-russia-japan-kuril-iturup-5tjs2q0lg",
+              "source_id": "thetimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:46:22.217388+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.881464421749115,
+            "article": {
+              "title": "Japan summons Russian ambassador after Putin visits disputed Kuril islands",
+              "url": "https://www.france24.com/en/asia-pacific/20260813-putin-visits-kuril-islands-claimed-by-japan",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:47:24.666823+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8575931787490845,
+            "article": {
+              "title": "\"Absolutamente inaceptable\": por qué la visita de Putin a una isla en el Pacífico causó la indignación de Japón",
+              "url": "https://www.bbc.com/mundo/articles/c4gj41jl0npo",
               "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:07:04.749574+00:00"
+              "scraped_at_utc": "2026-08-13T19:47:44.797918+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8438869118690491,
+            "article": {
+              "title": "Putin pays 1st visit to Russia-controlled island, draws protest from Japan （2026/8/13）",
+              "url": "https://mainichi.jp/english/articles/20260813/p2g/00m/0in/031000c",
+              "source_id": "mainichi.jp",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:53:07.971296+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8414450287818909,
+            "article": {
+              "title": "Putin visits disputed island near Japan, drawing Tokyo’s ire August 13, 2026",
+              "url": "https://www.asahi.com/ajw/articles/16806078",
+              "source_id": "asahi.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:53:12.554798+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8371165990829468,
+            "article": {
+              "title": "Japan PM says Putin visit to disputed island chain 'unacceptable' （2026/8/13）",
+              "url": "https://mainichi.jp/english/articles/20260813/p2g/00m/0in/043000c",
+              "source_id": "mainichi.jp",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:53:07.971296+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.832807719707489,
+            "article": {
+              "title": "Putin visits disputed Etorofu island off Hokkaido, sparking protest from Tokyo",
+              "url": "https://www.japantimes.co.jp/news/2026/08/13/japan/society/russia-putin-japan-disputed-isle-visit/",
+              "source_id": "japantimes.co.jp",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:53:02.218783+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8189746141433716,
+            "article": {
+              "title": "МИД России прокомментировал недовольство Японии визитом Путина на Курилы",
+              "url": "https://ria.ru/20260813/mid-2110683929.html",
+              "source_id": "ria.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:49:59.047597+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8163248896598816,
+            "article": {
+              "title": "Putin visita le isole Curili contese da più di ottant'anni con il Giappone. Tokyo convoca l'ambasciatore |",
+              "url": "https://www.repubblica.it/esteri/2026/08/13/news/putin_visita_isole_curili_contese_con_giappone_prima_volta_dopo_945_tokyo_convoca_ambasciatore-425527230/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:47:39.542856+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7864160537719727,
+            "article": {
+              "title": "Omstreden bezoek Poetin aan Koerilen-eilanden legt spanning met Japan bloot",
+              "url": "https://nos.nl/artikel/2626667-omstreden-bezoek-poetin-aan-koerilen-eilanden-legt-spanning-met-japan-bloot",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:46:28.803365+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7844545841217041,
+            "article": {
+              "title": "Rusia respinge criticile Japoniei şi îi denunţă revizionismul după vizita preşedintelui Putin în insulele Kurile",
+              "url": "https://www.g4media.ro/rusia-respinge-criticile-japoniei-si-ii-denunta-revizionismul-dupa-vizita-presedintelui-putin-in-insulele-kurile.html",
+              "source_id": "g4media.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:49:39.871412+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7838726043701172,
+            "article": {
+              "title": "Rusland Japan roept Russische ambassadeur op het matje na bezoek van Poetin aan betwiste eilandengroep: \"Onaanvaardbaar\"",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/08/13/poetin-bezoek-koerilen-spanningen-japan/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:47:27.791479+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7829549312591553,
+            "article": {
+              "title": "FACTBOX: Putin personally visits Kuril Islands for first time",
+              "url": "https://tass.com/politics/2172243",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:49:57.165016+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7774438858032227,
+            "article": {
+              "title": "Russia-Japan dispute over Kuril Islands Japan summons Russian ambassador after Putin's trip to Iturup: what we know",
+              "url": "https://tass.com/politics/2172451",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:49:57.165016+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.750516951084137,
+            "article": {
+              "title": "Россия отвергла претензии Японии в связи с визитом Путина на Курилы",
+              "url": "https://ria.ru/20260813/chp-2110789828.html",
+              "source_id": "ria.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:49:59.047597+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7486341595649719,
+            "article": {
+              "title": "Сюжеты Политика Путин впервые посетил Курилы и нарвался на протест Токио Российские власти ставят крест на осторожных попытках Японии возобновить диалог Николай Першин 13 августа",
+              "url": "https://novayagazeta.eu/articles/2026/08/13/putin-vpervye-posetil-kurily-i-narvalsia-na-protest-tokio",
+              "source_id": "novayagazeta.eu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:49:49.208486+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6854938268661499,
+            "article": {
+              "title": "\"Впервые в истории\". СМИ рассказали, что произошло в Японии из-за Путина",
+              "url": "https://ria.ru/20260813/putin-2110698679.html",
+              "source_id": "ria.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:49:59.047597+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.629833459854126,
+            "article": {
+              "title": "‘Monstrous consequences’ if Japan sticks to Kuril Islands claim",
+              "url": "https://www.rt.com/news/644202-kurils-japan-putin-medvedev/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:49:53.237148+00:00"
             }
           }
         ]
       },
       {
-        "score": 15.935755765476442,
-        "size": 6,
-        "n_sources": 6,
-        "n_continents": 3,
+        "score": 30.66070359440236,
+        "size": 7,
+        "n_sources": 7,
+        "n_continents": 5,
         "continents": [
+          "China",
           "Europe East",
           "Europe North",
-          "South America"
+          "Europe South",
+          "Middle East"
         ],
-        "coherence": 0.8756387233734131,
-        "title": "Zelensky Says 5% of US Patriot Missiles Could Save Ukraine This Winter",
+        "coherence": 0.8735267519950867,
+        "title": "Poland says it arrested Russian hired to kill Ukrainian-American citizen",
         "central_article": {
-          "title": "Zelensky Says 5% of US Patriot Missiles Could Save Ukraine This Winter",
-          "url": "https://www.kyivpost.com/post/82254",
-          "source_id": "kyivpost.com",
-          "continent": "Europe East",
+          "title": "Poland says it arrested Russian hired to kill Ukrainian-American citizen",
+          "url": "https://www.scmp.com/news/world/europe/article/3363952/poland-says-it-arrested-russian-hired-kill-ukrainian-american-citizen?module=top_story&pgtype=homepage",
+          "source_id": "scmp.com",
+          "continent": "China",
           "published_at": null,
-          "scraped_at_utc": "2026-08-13T08:10:36.743313+00:00"
+          "scraped_at_utc": "2026-08-13T19:51:36.066421+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9196304678916931,
+            "sim_to_centroid": 0.8998101949691772,
             "article": {
-              "title": "Zelensky Says 5% of US Patriot Missiles Could Save Ukraine This Winter",
-              "url": "https://www.kyivpost.com/post/82254",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
+              "title": "Poland says it arrested Russian hired to kill Ukrainian-American citizen",
+              "url": "https://www.scmp.com/news/world/europe/article/3363952/poland-says-it-arrested-russian-hired-kill-ukrainian-american-citizen?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:10:36.743313+00:00"
+              "scraped_at_utc": "2026-08-13T19:51:36.066421+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8990036249160767,
+            "sim_to_centroid": 0.8988481760025024,
             "article": {
-              "title": "Ukraine needs more Patriot missiles ahead of winter, Zelenskyy says",
-              "url": "https://www.azernews.az/region/262325.html",
-              "source_id": "azernews.az",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:11:06.182991+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8742223978042603,
-            "article": {
-              "title": "Ukraine could 'destroy all the Russians’ ballistic missiles' if US sells 10% of Patriot missile supply to Kyiv, Zelensky says.",
-              "url": "https://kyivindependent.com/ukraine-could-destroy-all-the-russians-ballistic-missiles-if-us-sells-10-of-patriot-missile-supply-zelensky-says/",
+              "title": "Poland arrests Russian man for alleged assassination plot against US-Ukrainian national, Tusk says.",
+              "url": "https://kyivindependent.com/poland-arrests-russian-man-for-alleged-assassination-plot-against-us-ukrainian-national-pm-tusk-says/",
               "source_id": "kyivindependent.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:10:38.331495+00:00"
+              "scraped_at_utc": "2026-08-13T19:49:46.504875+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8681018352508545,
+            "sim_to_centroid": 0.8908478617668152,
             "article": {
-              "title": "Zelenskyj: Ukraine mangler det tidobbelte antal Patriot-missiler",
-              "url": "https://www.dr.dk/nyheder/seneste/zelenskyj-ukraine-mangler-det-tidobbelte-antal-patriot-missiler",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
+              "title": "Poland arrests man who allegedly tried to kill Ukrainian American",
+              "url": "https://www.aljazeera.com/news/2026/8/13/poland-arrests-man-who-allegedly-tried-to-kill-ukrainian-american",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:08:04.560100+00:00"
+              "scraped_at_utc": "2026-08-13T19:48:58.241758+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8625667095184326,
+            "sim_to_centroid": 0.86981201171875,
             "article": {
-              "title": "Zelenszkij: Adják el Ukrajnának az amerikai Patriot-készletek 10 százalékát, és megsemmisítjük az összes orosz ballisztikus rakétát",
-              "url": "https://telex.hu/kulfold/2026/08/13/volodimir-zelenszkij-ukran-elnok-interju-cnn-patriot-raketak-amerikai-keszlet-5-10-szazalek-orosz-ballisztikus-rakatek",
-              "source_id": "telex.hu",
+              "title": "В Польше задержали россиянина по подозрению в подготовке убийства гражданина США и Украины",
+              "url": "https://meduza.io/news/2026/08/13/v-polshe-zaderzhali-rossiyanina-po-podozreniyu-v-podgotovke-ubiystva-grazhdanina-ssha-i-ukrainy",
+              "source_id": "meduza.io",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:10:20.790948+00:00"
+              "scraped_at_utc": "2026-08-13T19:49:47.717463+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8303075432777405,
+            "sim_to_centroid": 0.8680704832077026,
             "article": {
-              "title": "Ucrania necesita 5 % de los misiles Patriot que tiene EE.UU. para pasar el invierno",
-              "url": "https://elcomercio.pe/mundo/europa/guerra-rusia-ucrania-kiev-necesita-5-de-los-misiles-patriot-que-tiene-estados-unidos-para-pasar-el-invierno-dice-volodymyr-zelensky-vladimir-putin-ultimas-noticia/",
+              "title": "Russische man gearresteerd in Polen, zou van plan zijn Oekraïens-Amerikaanse burger te vermoorden vanwege Kremlinkritiek",
+              "url": "https://www.nrc.nl/nieuws/2026/08/13/russische-man-gearresteerd-in-polen-zou-van-plan-zijn-oekraiens-amerikaanse-burger-om-te-leggen-vanwege-kremlinkritiek-a4934426",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:46:30.465234+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8653205633163452,
+            "article": {
+              "title": "Russian detained over plot to 'execute' Ukrainian-American in Warsaw, Tusk says",
+              "url": "https://www.france24.com/en/europe/20260813-poland-detains-russian-for-execution-plot-in-warsaw-tusk-says",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:47:24.666823+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8219783306121826,
+            "article": {
+              "title": "Poland Russian plot to kill Ukrainian American thwarted in Warsaw, says Polish PM",
+              "url": "https://www.theguardian.com/world/2026/aug/13/russian-plot-kill-ukrainian-american-thwarted-poland-says-polish-pm",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:46:23.522100+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 29.14540006279904,
+        "size": 11,
+        "n_sources": 9,
+        "n_continents": 5,
+        "continents": [
+          "Europe North",
+          "Europe South",
+          "North America",
+          "Oceania",
+          "South America"
+        ],
+        "coherence": 0.8131269216537476,
+        "title": "La secretaria de prensa de la Casa Blanca Karoline Leavitt dejará el cargo y será asesora externa de Trump",
+        "central_article": {
+          "title": "La secretaria de prensa de la Casa Blanca Karoline Leavitt dejará el cargo y será asesora externa de Trump",
+          "url": "https://elcomercio.pe/mundo/eeuu/karoline-leavitt-la-secretaria-de-prensa-de-la-casa-blanca-dejara-el-cargo-y-sera-asesora-externa-de-donald-trump-estados-unidos-ultimas-noticia/",
+          "source_id": "elcomercio.pe",
+          "continent": "South America",
+          "published_at": null,
+          "scraped_at_utc": "2026-08-13T19:48:15.030941+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8786447048187256,
+            "article": {
+              "title": "La secretaria de prensa de la Casa Blanca Karoline Leavitt dejará el cargo y será asesora externa de Trump",
+              "url": "https://elcomercio.pe/mundo/eeuu/karoline-leavitt-la-secretaria-de-prensa-de-la-casa-blanca-dejara-el-cargo-y-sera-asesora-externa-de-donald-trump-estados-unidos-ultimas-noticia/",
               "source_id": "elcomercio.pe",
               "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-08-13T08:09:10.279420+00:00"
+              "scraped_at_utc": "2026-08-13T19:48:15.030941+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8721463680267334,
+            "article": {
+              "title": "White House press secretary Karoline Leavitt to leave job this month, Donald Trump says",
+              "url": "https://www.sbs.com.au/news/article/karoline-leavitt-to-leave-job/3clr9bi3v",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:48:42.274844+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8374595642089844,
+            "article": {
+              "title": "Karoline Leavitt, fidèle de Donald Trump et porte-parole de la Maison Blanche, quitte ses fonctions Monde",
+              "url": "https://www.rts.ch/info/monde/2026/article/karoline-leavitt-porte-parole-de-donald-trump-demissionne-29327097.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:47:26.231147+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.832705020904541,
+            "article": {
+              "title": "Who will Trump tap as new press secretary? 10 options to replace Leavitt.",
+              "url": "https://www.usatoday.com/story/news/politics/2026/08/13/who-will-replace-karoline-leavitt-new-press-secretary/91284615007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:51:28.215189+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8133054971694946,
+            "article": {
+              "title": "Lascia Leavitt, la portavoce della Casa Bianca. Donald: “Trascorrerà più tempo con i figli”",
+              "url": "https://www.repubblica.it/esteri/2026/08/12/news/karoline_leavitt_portavoce_casa_bianca_trump-425526199/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:47:39.542856+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7907696962356567,
+            "article": {
+              "title": "Karoline Leavitt stopt eind augustus als woordvoerder van het Witte Huis",
+              "url": "https://www.nrc.nl/nieuws/2026/08/12/karoline-leavitt-stopt-eind-augustus-als-woordvoerder-van-het-witte-huis-a4934378",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:46:30.465234+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7897993922233582,
+            "article": {
+              "title": "From Sean Spicer to Karoline Leavitt. Trump's press…",
+              "url": "https://www.usatoday.com/story/news/politics/2026/08/12/trump-white-house-press-secretaries/91277749007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:51:28.215189+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7891556024551392,
+            "article": {
+              "title": "Karoline Leavitt’s resignation left Trump flat-footed with no plan to replace her as press secretary: official",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-karoline-leavitt-press-secretary-replacement-b3032508.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:46:20.637664+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7858774662017822,
+            "article": {
+              "title": "Trump's fiercest defender? Five moments defining Karoline Leavitt's time as press secretary",
+              "url": "https://www.sbs.com.au/news/article/karoline-leavitt-leaving-white-house-press-secretary-defining-moments/sx5garnlu",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:48:42.274844+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7849413156509399,
+            "article": {
+              "title": "Analyse Met vertrek van Karoline Leavitt verliest Trump op moeilijk moment zijn persoonlijke MAGA-megafoon",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/08/13/met-het-vertrek-van-karoline-leavitt-verliest-trump-meer-dan-all/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:47:27.791479+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7695909738540649,
+            "article": {
+              "title": "Funke Mediengruppe Spitzen-Personalie Rätsel um Karoline Leavitts Abgang: Wer übernimmt nun Trumps lautestes Mikrofon?",
+              "url": "https://www.abendblatt.de/politik/article412852488/raetsel-um-karoline-leavitts-abgang-wer-uebernimmt-nun-trumps-lautestes-mikrofon.html",
+              "source_id": "abendblatt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:46:50.937946+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 28.420069636404676,
+        "size": 8,
+        "n_sources": 8,
+        "n_continents": 5,
+        "continents": [
+          "East Asia",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "Oceania"
+        ],
+        "coherence": 0.8316432237625122,
+        "title": "Israeli settlers keep up siege of Palestinian homes in West Bank after clashes with troops",
+        "central_article": {
+          "title": "Israeli settlers keep up siege of Palestinian homes in West Bank after clashes with troops",
+          "url": "https://www.sbs.com.au/news/article/settlers-seige-palestinian-homes-in-west-bank/iuq0fhfh8",
+          "source_id": "sbs.com.au",
+          "continent": "Oceania",
+          "published_at": null,
+          "scraped_at_utc": "2026-08-13T19:48:42.274844+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8814140558242798,
+            "article": {
+              "title": "Israeli settlers keep up siege of Palestinian homes in West Bank after clashes with troops",
+              "url": "https://www.sbs.com.au/news/article/settlers-seige-palestinian-homes-in-west-bank/iuq0fhfh8",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:48:42.274844+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8561083674430847,
+            "article": {
+              "title": "Extremist Israeli settlers lay siege to Palestinian families",
+              "url": "https://www.channel4.com/news/extremist-israeli-settlers-lay-siege-to-palestinian-families",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:46:25.043130+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8371192216873169,
+            "article": {
+              "title": "'Israeli terrorists' target villagers' homes in days-long siege",
+              "url": "https://www.abc.net.au/news/2026-08-14/israeli-settlers-besiege-west-bank-village/107035462",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:48:40.853419+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8350484371185303,
+            "article": {
+              "title": "Israeli settlers’ siege of Palestinian homes in West Bank enters fourth day",
+              "url": "https://www.aljazeera.com/news/2026/8/13/israeli-settlers-besiege-three-palestinian-families-in-occupied-west-bank",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:48:58.241758+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8266216516494751,
+            "article": {
+              "title": "Israeli troops fail to oust settlers blockading Palestinian homes in the West Bank",
+              "url": "https://www.france24.com/en/middle-east/20260812-israeli-settlers-keep-up-siege-of-palestinian-homes-despite-rare-military-intervention",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:47:24.666823+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8239023685455322,
+            "article": {
+              "title": "West Bank Israeli militants besiege two Palestinian families in their West Bank homes",
+              "url": "https://www.theguardian.com/world/2026/aug/12/israeli-militants-besiege-two-palestinian-families-in-their-west-bank-homes",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:46:23.522100+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.815909743309021,
+            "article": {
+              "title": "Palestinians told to leave homes in village where Israeli settlers besieged houses",
+              "url": "https://www.bbc.com/news/articles/cj4kppdk2qwo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:46:19.051249+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7770220041275024,
+            "article": {
+              "title": "Israeli army seizes 16 Palestinian homes, converts them into military posts",
+              "url": "https://www.thestar.com.my/news/world/2026/08/13/israeli-army-seizes-16-palestinian-homes-converts-them-into-military-posts",
+              "source_id": "thestar.com.my",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:53:26.322066+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 28.106417657972983,
+        "size": 11,
+        "n_sources": 10,
+        "n_continents": 5,
+        "continents": [
+          "China",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "South Asia"
+        ],
+        "coherence": 0.7847949862480164,
+        "title": "US rushes new carrier to Middle East as sailors report burnout aboard USS Lincoln",
+        "central_article": {
+          "title": "US rushes new carrier to Middle East as sailors report burnout aboard USS Lincoln",
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/us-rushes-new-carrier-to-middle-east-amid-reports-of-mental-health-crisis-on-uss-lincoln/articleshow/133223354.cms",
+          "source_id": "timesofindia.indiatimes.com",
+          "continent": "South Asia",
+          "published_at": null,
+          "scraped_at_utc": "2026-08-13T19:52:04.447921+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8648207187652588,
+            "article": {
+              "title": "US rushes new carrier to Middle East as sailors report burnout aboard USS Lincoln",
+              "url": "https://timesofindia.indiatimes.com/world/middle-east/us-rushes-new-carrier-to-middle-east-amid-reports-of-mental-health-crisis-on-uss-lincoln/articleshow/133223354.cms",
+              "source_id": "timesofindia.indiatimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:52:04.447921+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8524168729782104,
+            "article": {
+              "title": "Replacement aircraft carrier heading to Middle East after complaints of conditions on USS Lincoln",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/aircraft-carrier-uss-lincoln-iran-complaint-b3032726.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:46:20.637664+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8256551027297974,
+            "article": {
+              "title": "Untragbare Zustände auf der „USS Abraham Lincoln“: USA tauschen Flugzeugträger im Nahen Osten aus",
+              "url": "https://www.diepresse.com/41172812/untragbare-zustaende-auf-der-uss-abraham-lincoln-usa-tauschen-flugzeugtraeger-im-nahen-osten-aus",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:46:46.911238+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8117850422859192,
+            "article": {
+              "title": "Denuncian el deterioro de las condiciones de los soldados a bordo del portaaviones Lincoln",
+              "url": "https://www.lavanguardia.com/internacional/20260813/11613361/legisladores-ee-uu-denuncian-deterioro-condiciones-soldados-bordo-portaaviones-abraham-lincoln.html",
+              "source_id": "lavanguardia.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:47:34.411786+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8011486530303955,
+            "article": {
+              "title": "USS Abraham Lincoln conditions under scrutiny after reports sailors attempted to jump overboard",
+              "url": "https://www.jpost.com/international/article-905420",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:49:01.792282+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7884016633033752,
+            "article": {
+              "title": "Sailor’s texts reveal dire conditions on USS Abraham Lincoln: report",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/uss-abraham-lincoln-sailor-texts-b3032651.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:46:20.637664+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7803970575332642,
+            "article": {
+              "title": "Menaces de suicide, nourriture rationnée ... que se passe-t-il à bord du porte-avions américain USS Abraham Lincoln ?",
+              "url": "https://www.rtbf.be/article/menaces-de-suicide-nourriture-rationnee-que-se-passe-t-il-a-bord-du-porte-avions-americain-uss-abraham-lincoln-11769908",
+              "source_id": "rtbf.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:47:30.072275+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7606216669082642,
+            "article": {
+              "title": "Marinai stremati senza toccare terra da oltre sei mesi: gli Usa ritirano la Lincoln dall'Iran. Al suo posto arriva la Washington",
+              "url": "https://www.corriere.it/esteri/26_agosto_13/portaerei-usa-washington-lincoln-b87e24ae-8f55-4776-aae4-1d4655763xlk.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:47:41.457164+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7573515772819519,
+            "article": {
+              "title": "Reports of US sailors in Middle East trying to jump ship spark outcry",
+              "url": "https://www.aljazeera.com/news/2026/8/13/reports-of-us-sailors-in-middle-east-trying-to-jump-ship-spark-outcry",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:48:58.241758+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7017533183097839,
+            "article": {
+              "title": "阿拉伯海軍事部署：喬治華盛頓號航母將接替長期執勤的林肯號",
+              "url": "https://www.singtaousa.com/2026/08/13/news/world/uss-george-washington-headed-to-middle-east-to-relieve-uss-abraham-lincoln-reports-say/",
+              "source_id": "singtaousa.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:51:53.595784+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6883924007415771,
+            "article": {
+              "title": "3 t Verden USA sender nytt hangarskip til Midtøsten – avløser omstridt skip",
+              "url": "https://www.aftenposten.no/verden/i/0pgg9G/usa-sender-nytt-hangarskip-til-midtoesten-avloeser-omstridt-skip",
+              "source_id": "aftenposten.no",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:47:01.973899+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 28.0,
+        "size": 8,
+        "n_sources": 7,
+        "n_continents": 4,
+        "continents": [
+          "China",
+          "East Asia",
+          "Europe North",
+          "North America"
+        ],
+        "coherence": 0.9071654081344604,
+        "title": "Kennedy Centre board votes to put Trump’s name on the building – again",
+        "central_article": {
+          "title": "Kennedy Centre board votes to put Trump’s name on the building – again",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3363959/kennedy-centre-board-votes-put-trumps-name-building-again?module=top_story&pgtype=homepage",
+          "source_id": "scmp.com",
+          "continent": "China",
+          "published_at": null,
+          "scraped_at_utc": "2026-08-13T19:51:36.066421+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9597089290618896,
+            "article": {
+              "title": "Kennedy Centre board votes to put Trump’s name on the building – again",
+              "url": "https://www.scmp.com/news/world/united-states-canada/article/3363959/kennedy-centre-board-votes-put-trumps-name-building-again?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:51:36.066421+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9597089290618896,
+            "article": {
+              "title": "Kennedy Centre board votes to put Trump’s name on the building – again",
+              "url": "https://www.scmp.com/news/world/united-states-canada/article/3363959/kennedy-centre-board-votes-put-trumps-name-building-again?module=latest&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:51:36.066421+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9581127166748047,
+            "article": {
+              "title": "Kennedy Center board votes to inscribe Trump's name on building",
+              "url": "https://www.straitstimes.com/world/kennedy-center-board-votes-to-inscribe-trumps-name-on-building?ref=latest-headlines",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:53:23.874053+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9501296281814575,
+            "article": {
+              "title": "Kennedy Center Board Decides to Inscribe Trump’s Name on Building",
+              "url": "https://www.nytimes.com/2026/08/13/arts/design/kennedy-center-closure-board-vote-trump.html",
+              "source_id": "nytimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:51:04.278869+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9246219992637634,
+            "article": {
+              "title": "Kennedy Center board votes to add Trump's name below sign",
+              "url": "https://www.usatoday.com/story/news/politics/2026/08/13/kennedy-center-trump-sign-judge-order/91288605007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:51:28.215189+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9233390092849731,
+            "article": {
+              "title": "Washington DC Kennedy Center board votes again to renovate building and inscribe Trump’s name on it – report",
+              "url": "https://www.theguardian.com/us-news/2026/aug/13/kennedy-center-renovations-trump-name",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:46:23.522100+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8567811250686646,
+            "article": {
+              "title": "Kennedy Center finds questionable workaround to etch Trump’s name on the building — again",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/kennedy-center-trump-name-vote-building-b3032777.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:46:20.637664+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7249208688735962,
+            "article": {
+              "title": "Kennedy Center board moves forward with a two-year closure to allow for renovations",
+              "url": "https://www.pbs.org/newshour/politics/ap-report-kennedy-center-board-moves-forward-with-a-two-year-closure-to-allow-for-renovations",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-13T19:51:34.765357+00:00"
             }
           }
         ]
       }
     ],
-    "created_at_utc": "2026-08-13T08:56:46Z"
+    "created_at_utc": "2026-08-13T20:11:35Z"
   }
 ]
