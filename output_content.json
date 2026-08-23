@@ -1,13 +1,263 @@
 [
   {
-    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1787471242",
-    "n_items": 2488,
-    "n_clusters": 2043,
+    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1787513576",
+    "n_items": 2475,
+    "n_clusters": 2056,
     "clusters": [
       {
-        "score": 130.6022885852162,
-        "size": 39,
-        "n_sources": 30,
+        "score": 136.0860916214331,
+        "size": 20,
+        "n_sources": 19,
+        "n_continents": 10,
+        "continents": [
+          "China",
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "Oceania",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.8332527279853821,
+        "title": "Wartime elections would 'destroy' Ukraine, says Zelensky",
+        "central_article": {
+          "title": "Wartime elections would 'destroy' Ukraine, says Zelensky",
+          "url": "https://www.france24.com/en/europe/20260823-wartime-elections-would-destroy-ukraine-says-zelensky",
+          "source_id": "france24.com",
+          "continent": "Europe South",
+          "published_at": null,
+          "scraped_at_utc": "2026-08-23T19:10:51.639776+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9204502701759338,
+            "article": {
+              "title": "Wartime elections would 'destroy' Ukraine, says Zelensky",
+              "url": "https://www.france24.com/en/europe/20260823-wartime-elections-would-destroy-ukraine-says-zelensky",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:10:51.639776+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9107214212417603,
+            "article": {
+              "title": "Zelensky rejects wartime elections, says would 'split' Ukraine",
+              "url": "https://www.bangkokpost.com/world/3306568/zelensky-rejects-wartime-elections-says-would-split-ukraine",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:16:48.731510+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9051111936569214,
+            "article": {
+              "title": "Wartime election would ‘destroy’ Ukraine, Zelenskiy says",
+              "url": "https://www.thedailystar.net/news/world/news/wartime-election-would-destroy-ukraine-zelenskiy-says-4254891",
+              "source_id": "thedailystar.net",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:15:46.376048+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9022191762924194,
+            "article": {
+              "title": "Zelenskyy says wartime elections could ‘destroy’ Ukraine",
+              "url": "https://www.aljazeera.com/news/2026/8/23/zelenskyy-says-wartime-elections-could-destroy-ukraine",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:12:35.100320+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8961191773414612,
+            "article": {
+              "title": "Zelenskyy: Elections would ‘tear Ukraine apart’",
+              "url": "https://www.politico.eu/article/volodymyr-zelenskyy-elections-would-tear-ukraine-apart/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:09:53.650777+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8935436010360718,
+            "article": {
+              "title": "Zelensky rejeita convocar eleições em tempo de guerra: \"Iria dividir a Ucrânia\"",
+              "url": "https://oglobo.globo.com/mundo/noticia/2026/08/23/zelensky-rejeita-convocar-eleicoes-em-tempo-de-guerra-iria-dividir-a-ucrania.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:11:36.646648+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8931393623352051,
+            "article": {
+              "title": "Rechaza Zelensky elecciones porque 'fracturar�an Ucrania'",
+              "url": "https://www.reforma.com/rechaza-zelensky-elecciones-porque-fracturarian-ucrania/ar3262862?v=3",
+              "source_id": "reforma.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:11:11.345459+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8803170919418335,
+            "article": {
+              "title": "Zelensky: ‘verkiezingen in oorlogstijd zouden land in gevaar brengen’",
+              "url": "https://www.nrc.nl/nieuws/2026/08/23/zelensky-verkiezingen-in-oorlogstijd-zouden-land-in-gevaar-brengen-a4934994",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:09:56.705799+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.862488865852356,
+            "article": {
+              "title": "Des élections pendant la guerre seraient \"dangereuses\", estime Volodymyr Zelensky",
+              "url": "https://www.rts.ch/info/monde/2026/article/ukraine-zelensky-juge-des-elections-dangereuses-29335745.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:10:53.045767+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8447917103767395,
+            "article": {
+              "title": "Elections now would 'destroy Ukraine,' Zelensky says, revealing new details on disagreements with Fedorov.",
+              "url": "https://kyivindependent.com/zelensky-rejects-fedorovs-wartime-election-call-says-vote-now-would-destroy-ukraine/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:13:24.625240+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8415854573249817,
+            "article": {
+              "title": "Zelensky: verkiezingen kunnen Oekraïne nu verscheuren",
+              "url": "https://fd.nl/politiek/1609812/zelensky-verkiezingen-kunnen-oekraine-nu-verscheuren",
+              "source_id": "fd.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:10:01.039384+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8361853361129761,
+            "article": {
+              "title": "Zelenski descarta celebrar elecciones ante presión de exministro: \"Fracturaría Ucrania\"",
+              "url": "https://www.emol.com/noticias/Internacional/2026/08/23/1209314/zelenski-descarta-elecciones-presidenciales-ucrania.html",
+              "source_id": "emol.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:11:30.730317+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7896403074264526,
+            "article": {
+              "title": "Selenskyj: Wahlen im Krieg würden Ukraine \"zerstören\"",
+              "url": "https://www.zdfheute.de/politik/ausland/selenskyj-wahlen-ukraine-eu-abwehr-krieg-russland-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:10:15.205472+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7861566543579102,
+            "article": {
+              "title": "Zelensky verwerpt oproep ontslagen minister tot verkiezingen: 'Te gevaarlijk'",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5642026/zelensky-verwerpt-oproep-rivaal-tot-verkiezingen-oorlogstijd",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:09:58.891111+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7720025777816772,
+            "article": {
+              "title": "Zelenskyy rejects plea for wartime presidential election",
+              "url": "https://www.abc.net.au/news/2026-08-24/zelenskyy-ukraine-wartime-election/107069326",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:12:16.162746+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7657393217086792,
+            "article": {
+              "title": "زيلينسكي يرفض إجراء انتخابات أثناء الحرب محذّرا من \"شق الصف\" في أوكرانيا",
+              "url": "https://www.omandaily.om/article/1209121",
+              "source_id": "omandaily.om",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:13:02.217918+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7564387321472168,
+            "article": {
+              "title": "Volodimir Zelenski diz que eleições durante guerra com a Rússia iriam 'dividir a Ucrânia' Presidente afirma que pleito seria enorme risco enquanto o país combate invasão",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/08/zelenski-diz-que-eleicoes-durante-guerra-iriam-dividir-a-ucrania.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:11:33.539701+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7376707196235657,
+            "article": {
+              "title": "Zelenskyy details rift with Ukraine's dismissed defense minister Fedorov",
+              "url": "https://www.pbs.org/newshour/world/zelenskyy-details-rift-with-ukraines-dismissed-defense-minister-fedorov",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:15:12.216844+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7353664040565491,
+            "article": {
+              "title": "Zelensky details rift with Ukraine’s dismissed defence minister Fedorov",
+              "url": "https://www.scmp.com/news/world/russia-central-asia/article/3364991/zelensky-details-rift-ukraines-dismissed-defence-minister-fedorov?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:15:13.507337+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7353662848472595,
+            "article": {
+              "title": "Zelensky details rift with Ukraine’s dismissed defence minister Fedorov",
+              "url": "https://www.scmp.com/news/world/russia-central-asia/article/3364991/zelensky-details-rift-ukraines-dismissed-defence-minister-fedorov?module=latest&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:15:13.507337+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 70.86479907044621,
+        "size": 16,
+        "n_sources": 16,
         "n_continents": 7,
         "continents": [
           "Europe East",
@@ -15,1805 +265,1223 @@
           "Europe South",
           "Middle East",
           "North America",
-          "South America",
-          "South Asia"
+          "Oceania",
+          "South America"
         ],
-        "coherence": 0.8050098419189453,
-        "title": "US imposes 50% tariffs on $20 billion of Canadian goods as trade talks collapse",
+        "coherence": 0.8084549903869629,
+        "title": "Trump berates Canada after talks devolve into trade war",
         "central_article": {
-          "title": "US imposes 50% tariffs on $20 billion of Canadian goods as trade talks collapse",
-          "url": "https://www.azernews.az/region/262723.html",
-          "source_id": "azernews.az",
-          "continent": "Europe East",
+          "title": "Trump berates Canada after talks devolve into trade war",
+          "url": "https://www.irishtimes.com/world/us/2026/08/23/trump-berates-canada-after-talks-devolve-into-trade-war/",
+          "source_id": "irishtimes.com",
+          "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-08-23T07:24:51.878478+00:00"
+          "scraped_at_utc": "2026-08-23T19:12:33.875422+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8758107423782349,
+            "sim_to_centroid": 0.8642082214355469,
             "article": {
-              "title": "US imposes 50% tariffs on $20 billion of Canadian goods as trade talks collapse",
-              "url": "https://www.azernews.az/region/262723.html",
-              "source_id": "azernews.az",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:24:51.878478+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.866014838218689,
-            "article": {
-              "title": "US imposes 50 percent tariffs on $20bn in Canadian goods after talks fail",
-              "url": "https://www.aljazeera.com/news/2026/8/22/us-imposes-50-tariffs-on-20bn-worth-of-canadian-goods-after-talks-fail",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:23:41.994618+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8580121994018555,
-            "article": {
-              "title": "EUA impõem tarifa de 50% sobre US$ 20 bilhões em produtos do Canadá após fracasso de negociações",
-              "url": "https://www.estadao.com.br/internacional/eua-impoem-tarifa-de-50-sobre-us-20-bilhoes-em-produtos-do-canada-apos-fracasso-de-negociacoes-npr/",
-              "source_id": "estadao.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:57.710352+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8569397926330566,
-            "article": {
-              "title": "Canada fires back at Trump’s 50% tariffs",
-              "url": "https://www.rt.com/news/644508-canada-fires-back-trump-tariffs/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:24:32.563101+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8568698167800903,
-            "article": {
-              "title": "U.S. imposes 50% tariffs on some Canadian goods after last-ditch talks failed",
-              "url": "https://www.hindustantimes.com/world-news/us-imposes-50-tariffs-on-some-canadian-goods-after-last-ditch-talks-failed-101787390519777.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:26:37.886835+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8531991839408875,
-            "article": {
-              "title": "Canada to hit US with retaliatory tariffs as trade war escalates",
-              "url": "https://www.aljazeera.com/news/2026/8/23/canada-to-hit-us-with-retaliatory-tariffs-as-trade-war-escalates",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:23:41.994618+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8482609987258911,
-            "article": {
-              "title": "Canadian PM says country 'at war' with US on trade and fires back at Trump’s 50% tariffs with retaliatory measures",
-              "url": "https://www.independent.co.uk/news/world/americas/canada-tariffs-us-carney-trump-feud-b3037587.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:21:11.633756+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8454519510269165,
-            "article": {
-              "title": "US imposes 50 per cent tariffs on Canada",
-              "url": "https://www.thenationalnews.com/business/2026/08/22/us-imposes-50-tariffs-on-canada/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:23:43.630225+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8444250226020813,
-            "article": {
-              "title": "Canada vows to match US tariffs 'dollar for dollar' after failed trade negotiations",
-              "url": "https://www.france24.com/en/americas/20260822-carney-says-canada-will-match-us-tariffs-dollar-for-dollar-after-failed-trade-negotiations",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:10.945831+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8416202068328857,
-            "article": {
-              "title": "‘We got attacked’: Canada to retaliate after Trump imposes 50% tariffs",
-              "url": "https://www.irishtimes.com/world/canada/2026/08/23/we-got-attacked-canada-to-retaliate-after-trump-imposes-50-tariffs/",
+              "title": "Trump berates Canada after talks devolve into trade war",
+              "url": "https://www.irishtimes.com/world/us/2026/08/23/trump-berates-canada-after-talks-devolve-into-trade-war/",
               "source_id": "irishtimes.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:23:40.842910+00:00"
+              "scraped_at_utc": "2026-08-23T19:12:33.875422+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8399737477302551,
+            "sim_to_centroid": 0.8488907814025879,
             "article": {
-              "title": "Canada to Match Trump’s 50% Tariffs, Dollar for Dollar",
-              "url": "https://time.com/article/2026/08/22/us-canada-trade-negotiations-breakdown-tariffs/",
-              "source_id": "time.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:25:58.364692+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8335025310516357,
-            "article": {
-              "title": "Canada says it will match US tariffs 'dollar for dollar' as trade talks break down",
-              "url": "https://www.bbc.com/news/articles/cvgvyy4x2mvo",
+              "title": "Trump says Canada wants 'benefits' of being US state as Carney says countries in trade war",
+              "url": "https://www.bbc.com/news/articles/cx272np7vgyo",
               "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:21:10.260461+00:00"
+              "scraped_at_utc": "2026-08-23T19:09:43.797150+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.833422064781189,
+            "sim_to_centroid": 0.8394597768783569,
             "article": {
-              "title": "Canada announces retaliatory tariffs on US imports",
-              "url": "https://pajhwok.com/2026/08/23/canada-announces-retaliatory-tariffs-on-us-imports/",
-              "source_id": "pajhwok.com",
-              "continent": "South Asia",
+              "title": "Trump hits back at Canada after retaliatory tariffs announced",
+              "url": "https://www.abc.net.au/news/2026-08-23/donald-trump-hits-back-at-canada-over-tariffs-mark-carney/107069122",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:26:56.050884+00:00"
+              "scraped_at_utc": "2026-08-23T19:12:16.162746+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8310931921005249,
+            "sim_to_centroid": 0.8343675136566162,
             "article": {
-              "title": "VS leggen 50% importheffing op Canadese goederen na klappen van handelsgesprekken",
-              "url": "https://fd.nl/economie/1609803/vs-leggen-50-impotheffing-op-canadese-goederen-na-klappen-van-handelsgesprekken",
-              "source_id": "fd.nl",
-              "continent": "Europe North",
+              "title": "Trump says Canada wants 'benefits of being a State, without being one' as trade war deepens",
+              "url": "https://www.france24.com/en/americas/20260823-trump-says-canada-wants-benefits-of-being-a-state-as-trade-war-deepens",
+              "source_id": "france24.com",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:21:25.243549+00:00"
+              "scraped_at_utc": "2026-08-23T19:10:51.639776+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8300350904464722,
-            "article": {
-              "title": "US and Canada fall deeper into a trade war with new tariffs as talks collapse and blame is spread",
-              "url": "https://apnews.com/article/canada-us-trade-tariffs-trump-857ef76b20a766e370d70176135b678e",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:25:29.974355+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8279694318771362,
-            "article": {
-              "title": "Tras fracaso de negociaciones: Canadá anuncia aranceles de represalia contra EE.UU.",
-              "url": "https://www.emol.com/noticias/Internacional/2026/08/22/1209284/canada-responde-aranceles-eeuu.html",
-              "source_id": "emol.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:50.399505+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.819606363773346,
-            "article": {
-              "title": "US Canada trade talks fall apart",
-              "url": "https://www.albawaba.com/business/us-canada-trade-talks-fall-apart-1635563",
-              "source_id": "albawaba.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:23:53.936051+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8126828074455261,
-            "article": {
-              "title": "Handelsgespräche gescheitert USA verhängen neue Zölle gegen Kanada",
-              "url": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/usa-kanada-handelsstreit-zoelle-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:21:27.021556+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8120548725128174,
-            "article": {
-              "title": "Canadá igualará los aranceles estadounidenses \"dólar por dólar\" tras la ruptura de las negociaciones comerciales con el gobierno de Trump",
-              "url": "https://www.bbc.com/mundo/articles/cpd7dvg6jepo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:31.001701+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8101457357406616,
-            "article": {
-              "title": "US, Canada fail to reach trade deal as Washington announces 50pc tariffs",
-              "url": "https://pajhwok.com/2026/08/22/us-canada-fail-to-reach-trade-deal-as-washington-announces-50pc-tariffs/",
-              "source_id": "pajhwok.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:26:56.050884+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8096622228622437,
-            "article": {
-              "title": "What Trump’s new tariffs mean for Canada’s economy",
-              "url": "https://www.theglobeandmail.com/business/article-what-trumps-new-tariffs-would-mean-for-canadas-economy/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:23:25.616330+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8008955717086792,
-            "article": {
-              "title": "‘Olho por olho’, ‘dólar por dólar’: entenda como o Canadá pretende retaliar na mesma moeda as tarifas de Trump",
-              "url": "https://oglobo.globo.com/economia/noticia/2026/08/22/olho-por-olho-dolar-por-dolar-entenda-como-o-canada-pretende-retaliar-na-mesma-moeda-as-tarifas-de-trump.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:56.300229+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7953184843063354,
-            "article": {
-              "title": "Canada ripostează după tarifele lui Trump / Mark Carney acuză Washingtonul că a declanșat un „război”",
-              "url": "https://hotnews.ro/canada-riposteaza-dupa-tarifele-lui-trump-mark-carney-acuza-washingtonul-ca-a-declansat-un-razboi-2331041",
-              "source_id": "hotnews.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:24:10.965386+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.790797233581543,
+            "sim_to_centroid": 0.8248844742774963,
             "article": {
               "title": "Canada ‘at war’ with US over tariffs, says Carney",
               "url": "https://www.thetimes.com/world/canada-world/article/canada-match-trumps-tariffs-trade-talks-2d3vqk0kj",
               "source_id": "thetimes.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:21:12.954076+00:00"
+              "scraped_at_utc": "2026-08-23T19:09:46.955820+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7884318232536316,
+            "sim_to_centroid": 0.8222841024398804,
             "article": {
-              "title": "Canadá está 'em guerra' com EUA e retaliará 'dólar por dólar', diz primeiro-ministro",
-              "url": "https://www.estadao.com.br/economia/canada-esta-em-guerra-com-os-eua-e-retaliacao-sera-dolar-por-dolar-diz-primeiro-ministro/",
-              "source_id": "estadao.com.br",
+              "title": "‘No more!!!’: Trump lashes out after US-Canada talks devolve into trade war",
+              "url": "https://www.theguardian.com/us-news/2026/aug/23/donald-trump-lashes-out-after-us-canada-talks-devolve-into-trade-war",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:09:48.163922+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8165858387947083,
+            "article": {
+              "title": "Trump Tariffs: Canada promises ‘dollar for dollar’ retaliation in US trade war",
+              "url": "https://www.channel4.com/news/trump-tariffs-canada-promises-dollar-for-dollar-retaliation-in-us-trade-war",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:09:50.643120+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8112881183624268,
+            "article": {
+              "title": "Trump afirma que Canadá quiere los “beneficios” de ser un estado de EE.UU. tras fracaso de negociaciones comerciales",
+              "url": "https://www.latercera.com/mundo/noticia/trump-afirma-que-canada-quiere-los-beneficios-de-ser-un-estado-de-eeuu-tras-fracaso-de-negociaciones-comerciales/",
+              "source_id": "latercera.com",
               "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:57.710352+00:00"
+              "scraped_at_utc": "2026-08-23T19:11:51.482299+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.785110592842102,
+            "sim_to_centroid": 0.8017513155937195,
             "article": {
-              "title": "'Wants benefits of US state': Trump hits back at Canada amid tariff row",
-              "url": "https://www.hindustantimes.com/world-news/wants-benefits-of-us-state-trump-hits-back-at-canada-with-51st-state-jibe-amid-tariff-row-mark-carney-trade-news-101787464586855.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
+              "title": "Canada's Carney stands up to Trump in an escalating trade war. Could his gamble pay off?",
+              "url": "https://www.sbs.com.au/news/article/mark-carney-us-canada-trump-tariff-trade-war/6p0twor5s",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:26:37.886835+00:00"
+              "scraped_at_utc": "2026-08-23T19:12:17.762671+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7835331559181213,
+            "sim_to_centroid": 0.8001706600189209,
             "article": {
-              "title": "What to know about Trump’s 50% tariffs on Canadian goods that just went into effect",
-              "url": "https://apnews.com/article/trump-tariffs-canada-us-trade-war-293908564c7a381ea58a61db6e9a8517",
+              "title": "Mark Carney warned about economic coercion. Now Trump is testing the Canadian prime minister.",
+              "url": "https://www.chicagotribune.com/2026/08/23/mark-carney-economic-coercion-canada/",
+              "source_id": "chicagotribune.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:15:07.811226+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7942823767662048,
+            "article": {
+              "title": "Carney warned about economic coercion. Now Trump is testing the Canadian prime minister",
+              "url": "https://apnews.com/article/canada-carney-trump-tariffs-economic-coercion-trade-a180ac85a70bbfb512ea59c224cb6c31",
               "source_id": "apnews.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:25:29.974355+00:00"
+              "scraped_at_utc": "2026-08-23T19:14:41.242572+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7829723954200745,
+            "sim_to_centroid": 0.7936180830001831,
             "article": {
-              "title": "Трамп резко высказался о торговых отношениях с Канадой",
-              "url": "https://tengrinews.kz/world_news/tramp-rezko-vyiskazalsya-o-torgovyih-otnosheniyah-s-kanadoy-606797/",
-              "source_id": "tengrinews.kz",
-              "continent": "Europe East",
+              "title": "Canada to hit back in trade war after Trump’s 50 per cent levy",
+              "url": "https://www.thenationalnews.com/news/2026/08/23/canada-to-hit-back-dollar-for-dollar-in-trade-war-after-trumps-50-per-cent-levy/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:24:48.462160+00:00"
+              "scraped_at_utc": "2026-08-23T19:12:37.368206+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7807611227035522,
+            "sim_to_centroid": 0.7851287722587585,
             "article": {
-              "title": "What to know about Trump's 50% tariffs on Canadian goods that just went into effect",
-              "url": "https://www.pbs.org/newshour/economy/what-to-know-about-trumps-50-tariffs-on-canadian-goods-that-just-went-into-effect",
-              "source_id": "pbs.org",
-              "continent": "North America",
+              "title": "\"¡Se acabó!\": Trump acusa a Canadá de imponer \"enormes aranceles\" a agricultores de EE.UU.",
+              "url": "https://www.emol.com/noticias/Internacional/2026/08/23/1209322/trump-estados-unidos-canada.html",
+              "source_id": "emol.com",
+              "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:26:00.740375+00:00"
+              "scraped_at_utc": "2026-08-23T19:11:30.730317+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7732940912246704,
+            "sim_to_centroid": 0.7831636071205139,
             "article": {
               "title": "Trump loses trade war with Canada",
               "url": "https://tass.com/world/2176601",
               "source_id": "tass.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:24:36.568139+00:00"
+              "scraped_at_utc": "2026-08-23T19:13:36.342041+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7666885852813721,
+            "sim_to_centroid": 0.7645034790039062,
             "article": {
-              "title": "Canada to impose retaliatory tariffs on US steel, electronics, other products, Carney says",
-              "url": "https://kathmandupost.com/world/2026/08/23/canada-to-impose-retaliatory-tariffs-on-us-steel-electronics-other-products-carney-says",
-              "source_id": "kathmandupost.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:26:50.381439+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7632914185523987,
-            "article": {
-              "title": "ترامب يرد على كندا بعد إعلانها فرض رسوم مقابلة",
-              "url": "https://www.annahar.com/international/united-states/340699/ترامب-يرد-على-كندا-بعد-إعلانها-فرض-رسوم-مقابلة",
-              "source_id": "annahar.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:24:00.575297+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7598546743392944,
-            "article": {
-              "title": "Experte warnt vor \"Handelskrieg\" zwischen Kanada und USA",
-              "url": "https://www.tagesschau.de/ausland/amerika/zollstreit-usa-kanada-eskaliert-100.html",
-              "source_id": "tagesschau.de",
+              "title": "leestijd Canada spreekt van ‘oorlog’ over handel na nieuwe Amerikaanse heffingen De Canadese premier Mark Carney zegt de Amerikaanse heffingen ‘dollar voor dollar’ te vergelden om Canadese werknemers en bedrijven te beschermen.",
+              "url": "https://fd.nl/economie/1609803/vs-leggen-50-impotheffing-op-canadese-goederen-na-klappen-van-handelsgesprekken",
+              "source_id": "fd.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:21:27.021556+00:00"
+              "scraped_at_utc": "2026-08-23T19:10:01.039384+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7590445876121521,
+            "sim_to_centroid": 0.7506932616233826,
             "article": {
-              "title": "Fallito il negoziato Usa-Canada: tornano i dazi. Carney: «Chiedono troppo offrendo poco, vogliono spezzarci e controllarci»",
-              "url": "https://www.corriere.it/economia/finanza/26_agosto_22/dazi-canada-nuove-tariffe-prodotti-usa-8-settembre-carney-trump-74760e9b-e08b-4f8a-aa97-13ce74e13xlk.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:28.395261+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7471029758453369,
-            "article": {
-              "title": "A trade war between Canada and the US further ruptures a once-close and durable alliance",
-              "url": "https://apnews.com/article/canada-us-trade-war-trump-carney-tariffs-4d18583fe52134ca8550652ad9772d2c",
-              "source_id": "apnews.com",
+              "title": "Trump revives annexation comments as governors say tariffs on Canada will harm Americans",
+              "url": "https://www.theglobeandmail.com/world/article-us-canada-trade-tariffs-trump-mark-carney-august-23/",
+              "source_id": "theglobeandmail.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:25:29.974355+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7469846606254578,
-            "article": {
-              "title": "Trump’s trade war with Canada: A timeline of how we got here",
-              "url": "https://apnews.com/article/trump-us-canada-tariffs-timeline-470fe71d7e6071f44f1607ca24f0d966",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:25:29.974355+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7417500019073486,
-            "article": {
-              "title": "Se cae acuerdo de EU y Canad� para evitar aranceles",
-              "url": "https://www.reforma.com/se-cae-acuerdo-de-eu-y-canada-para-evitar-aranceles/ar3262371?v=5",
-              "source_id": "reforma.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:33.755051+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7238963842391968,
-            "article": {
-              "title": "Trump’s Top Trade Representative Details Offer That Canada Rejected",
-              "url": "https://www.nytimes.com/2026/08/22/business/economy/greer-us-canada-trade-deal.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:25:31.421462+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6989037990570068,
-            "article": {
-              "title": "L’échec des discussions commerciales entre les Etats-Unis et le Canada met à l’épreuve la stratégie de fermeté d’Ottawa",
-              "url": "https://www.lemonde.fr/economie/article/2026/08/22/l-echec-des-discussions-commerciales-entre-etats-unis-et-canada-met-a-l-epreuve-la-strategie-de-fermete-d-ottawa_6753060_3234.html",
-              "source_id": "lemonde.fr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:05.363651+00:00"
+              "scraped_at_utc": "2026-08-23T19:12:14.896792+00:00"
             }
           }
         ]
       },
       {
-        "score": 129.49953308058187,
-        "size": 18,
-        "n_sources": 18,
-        "n_continents": 8,
-        "continents": [
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.8787727952003479,
-        "title": "US judge overturns Trump policy suspending immigrant visas for 75 countries",
-        "central_article": {
-          "title": "US judge overturns Trump policy suspending immigrant visas for 75 countries",
-          "url": "https://pajhwok.com/2026/08/22/us-judge-overturns-trump-policy-suspending-immigrant-visas-for-75-countries/",
-          "source_id": "pajhwok.com",
-          "continent": "South Asia",
-          "published_at": null,
-          "scraped_at_utc": "2026-08-23T07:26:56.050884+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9359261989593506,
-            "article": {
-              "title": "US judge overturns Trump policy suspending immigrant visas for 75 countries",
-              "url": "https://pajhwok.com/2026/08/22/us-judge-overturns-trump-policy-suspending-immigrant-visas-for-75-countries/",
-              "source_id": "pajhwok.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:26:56.050884+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9349430799484253,
-            "article": {
-              "title": "Jueza de Estados Unidos anula la suspensión de visas impuesta por Trump a 75 países",
-              "url": "https://elcomercio.pe/mundo/eeuu/donald-trump-jueza-de-estados-unidos-anula-la-suspension-de-visas-impuesta-por-el-presidente-a-75-paises-jeannette-vargas-marco-rubio-ultimas-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:23:01.433183+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9259392023086548,
-            "article": {
-              "title": "US judge strikes down Trump immigrant visa ban affecting 75 countries",
-              "url": "https://www.aljazeera.com/news/2026/8/22/us-judge-strikes-down-trump-immigrant-visa-ban-affecting-75-countries",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:23:41.994618+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9215251803398132,
-            "article": {
-              "title": "Juíza anula decisão de Trump que suspendia vistos de imigração para 75 países, inclusive o Brasil",
-              "url": "https://oglobo.globo.com/mundo/noticia/2026/08/22/juiza-anula-decisao-de-trump-que-suspendia-vistos-para-75-paises.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:56.300229+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9108965396881104,
-            "article": {
-              "title": "Un tribunal federal de Estados Unidos anula la suspensión de visados para 75 países ordenada por Trump",
-              "url": "https://www.rtve.es/noticias/20260822/tribunal-federal-estados-unidos-anula-suspension-visados-para-75-paises-ordenada-por-trump/17199056.shtml",
-              "source_id": "rtve.es",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:23.903659+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8987187147140503,
-            "article": {
-              "title": "Judge strikes down Trump’s 75-country visa ban",
-              "url": "https://www.bangkokpost.com/world/3306155/judge-strikes-down-trumps-75country-visa-ban",
-              "source_id": "bangkokpost.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:27:41.587043+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8964447975158691,
-            "article": {
-              "title": "Aux Etats-Unis, une juge fédérale annule le gel des visas permanents imposé par Donald Trump à 75 pays",
-              "url": "https://www.lemonde.fr/international/article/2026/08/22/aux-etats-unis-une-juge-federale-annule-le-gel-des-visas-permanents-impose-par-donald-trump-a-75-pays_6753299_3210.html",
-              "source_id": "lemonde.fr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:05.363651+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8920453786849976,
-            "article": {
-              "title": "Juíza anula medida de Trump que suspendia vistos de imigração para Brasil e 74 países",
-              "url": "https://www.estadao.com.br/internacional/juiza-anula-medida-de-trump-que-suspendia-vistos-de-imigracao-para-brasil-e-outros-74-paises/",
-              "source_id": "estadao.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:57.710352+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.887345016002655,
-            "article": {
-              "title": "Federal judge vacates Trump policy that suspended processing of immigration visas from 75 countries",
-              "url": "https://apnews.com/article/trump-administration-visa-ban-immigration-64feb19b54d1bce50891437a5ba25d50",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:25:29.974355+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8848387002944946,
-            "article": {
-              "title": "'Contrary to law': US judge strikes down Trump's 75-country visa ban",
-              "url": "https://www.france24.com/en/americas/20260822-contrary-to-law-us-judge-strikes-down-trump-s-75-country-visa-ban",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:10.945831+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8828107118606567,
-            "article": {
-              "title": "O instanță din SUA a anulat decizia administratiei Trump de a suspenda vizele pentru 75 de țări, inclusiv Republica Moldova",
-              "url": "https://hotnews.ro/o-instanta-din-sua-a-anulat-decizia-administratiei-trump-de-a-suspenda-vizele-pentru-75-de-tari-inclusiv-republica-moldova-2331008",
-              "source_id": "hotnews.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:24:10.965386+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8803852796554565,
-            "article": {
-              "title": "US judge strikes down policy suspending immigrant visa processing for 75 nations",
-              "url": "https://e.vnexpress.net/news/news/us-judge-strikes-down-policy-suspending-immigrant-visa-processing-for-75-nations-5112095.html",
-              "source_id": "e.vnexpress.net",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:27:44.533553+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8758609294891357,
-            "article": {
-              "title": "Un tribunal de EE UU anula la suspensión de visados para 75 países, incluida Cuba",
-              "url": "https://www.14ymedio.com/internacional/tribunal-ee-uu-anula-suspension_1_1130066.html",
-              "source_id": "14ymedio.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:35.700096+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8594177961349487,
-            "article": {
-              "title": "Суд в США отменил запрет Госдепа на выдачу иммиграционных виз гражданам 75 стран (в том числе России)",
-              "url": "https://meduza.io/news/2026/08/22/sud-v-ssha-otmenil-zapret-gosdepa-na-vydachu-immigratsionnyh-viz-grazhdanam-75-stran-v-tom-chisle-rossii",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:24:26.365762+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8513160347938538,
-            "article": {
-              "title": "Una jueza anula la prohibición de visados de EE.UU. a ciudadanos de 75 países, entre ellos Colombia, Uruguay y Cuba",
-              "url": "https://www.bbc.com/mundo/articles/cp3r3nn6nnxo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:31.001701+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8452011346817017,
-            "article": {
-              "title": "امریکی جج نے پاکستان سمیت 75 ممالک پر امیگریشن ویزا پابندی ختم کر ...",
-              "url": "https://www.nawaiwaqt.com.pk/23-Aug-2026/2021772",
-              "source_id": "nawaiwaqt.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:26:53.598142+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8120125532150269,
-            "article": {
-              "title": "ABD’de Trump yönetimine vize darbesi: 75 ülkeye yönelik uygulama iptal edildi",
-              "url": "https://www.cumhuriyet.com.tr/dunya/abd-de-trump-yonetimine-vize-darbesi-75-ulkeye-yonelik-uygulama-iptal-edildi-2531470",
-              "source_id": "cumhuriyet.com.tr",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:23:51.333767+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7222828269004822,
-            "article": {
-              "title": "Justiça dos EUA derruba restrição de vistos de residência para Brasil e mais 74 países Juíza de NY diz que a medida contrariava lei e excedia poderes do Departamento de Estado",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/08/justica-dos-eua-derruba-restricao-de-vistos-de-residencia-para-75-paises-incluindo-o-brasil.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:52.921614+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 81.91124914942671,
-        "size": 20,
-        "n_sources": 19,
-        "n_continents": 6,
-        "continents": [
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "South Asia"
-        ],
-        "coherence": 0.8338875770568848,
-        "title": "Des dizaines de blessés après un tremblement de terre de magnitude 5,9 près de Tokyo",
-        "central_article": {
-          "title": "Des dizaines de blessés après un tremblement de terre de magnitude 5,9 près de Tokyo",
-          "url": "https://www.rts.ch/info/monde/2026/article/un-seisme-de-magnitude-5-9-fait-37-blesses-pres-de-tokyo-29335680.html",
-          "source_id": "rts.ch",
-          "continent": "Europe South",
-          "published_at": null,
-          "scraped_at_utc": "2026-08-23T07:22:12.459476+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9114236831665039,
-            "article": {
-              "title": "Des dizaines de blessés après un tremblement de terre de magnitude 5,9 près de Tokyo",
-              "url": "https://www.rts.ch/info/monde/2026/article/un-seisme-de-magnitude-5-9-fait-37-blesses-pres-de-tokyo-29335680.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:12.459476+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8992087244987488,
-            "article": {
-              "title": "More than 30 injured in 5.9-magnitude earthquake in Japan",
-              "url": "https://pajhwok.com/2026/08/23/more-than-30-injured-in-5-9-magnitude-earthquake-in-japan/",
-              "source_id": "pajhwok.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:26:56.050884+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8972146511077881,
-            "article": {
-              "title": "5.9 magnitude earthquake hits Japan, dozens injured",
-              "url": "https://www.channelnewsasia.com/east-asia/japan-tokyo-earthquake-train-service-disrupted-6335551",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:27:25.206529+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8879489302635193,
-            "article": {
-              "title": "زلزال في اليابان يخلّف عشرات المصابين",
-              "url": "https://www.alsumaria.tv/news/international/573870/زلزال-في-اليابان-يخلّف-عشرات-المصابين",
-              "source_id": "alsumaria.tv",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:25:28.257562+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8870307803153992,
-            "article": {
-              "title": "Un séisme de magnitude 5,9 secoue l’est du Japon, faisant plus de 30 blessés dans la région de Tokyo",
-              "url": "https://www.lemonde.fr/international/article/2026/08/23/un-seisme-de-magnitude-5-9-secoue-l-est-du-japon-faisant-plus-de-30-blesses-dans-la-region-de-tokyo_6753860_3210.html",
-              "source_id": "lemonde.fr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:05.363651+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8744556903839111,
-            "article": {
-              "title": "Cutremur cu magnitudinea de 5,9 în apropiere de Tokyo, soldat cu zeci de răniţi",
-              "url": "https://www.g4media.ro/cutremur-cu-magnitudinea-de-59-in-apropiere-de-tokyo-soldat-cu-zeci-de-raniti.html",
-              "source_id": "g4media.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:24:18.780027+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8686723709106445,
-            "article": {
-              "title": "В Японии при землетрясении пострадали почти 40 человек",
-              "url": "https://www.kommersant.ru/doc/8906363?from=top_main_5",
-              "source_id": "kommersant.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:24:34.770650+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.866196870803833,
-            "article": {
-              "title": "زلزال بقوة 5.9 درجات يهز طوكيو ويصيب 37 شخصاً",
-              "url": "https://www.annahar.com/international/340668/زلزال-بقوة-59-درجات-يهز-طوكيو-ويصيب-37-شخصا",
-              "source_id": "annahar.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:24:00.575297+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8582029342651367,
-            "article": {
-              "title": "زلزال يضرب قرب طوكيو ويخلّف عشرات المصابين",
-              "url": "https://www.aljazeera.net/news/2026/8/23/زلزال-يضرب-قرب-طوكيو-ويخلف-عشرات",
-              "source_id": "aljazeera.net",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:23:46.284311+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8541545271873474,
-            "article": {
-              "title": "5.9-magnitude earthquake strikes eastern Japan including Tokyo, disrupting trains",
-              "url": "https://www.straitstimes.com/asia/east-asia/5-9-magnitude-earthquake-strikes-eastern-japan-strong-jolt-felt-in-tokyo?ref=top-stories",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:27:45.793986+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8439159989356995,
-            "article": {
-              "title": "Un tremblement de terre fait au moins 37 blessés dans la région de Tokyo",
-              "url": "https://www.lesoir.be/766523/article/2026-08-23/un-tremblement-de-terre-fait-au-moins-37-blesses-dans-la-region-de-tokyo",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:18.227451+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.836639940738678,
-            "article": {
-              "title": "Ιαπωνία: Σεισμός 5,9 Ρίχτερ κοντά στο Τόκιο – Δεκάδες τραυματίες 1 ώρα πριν",
-              "url": "https://www.tovima.gr/2026/08/23/world/iaponia-seismos-59-rixter-konta-sto-tokio-dekades-traymaties/",
-              "source_id": "tovima.gr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:29.778613+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8170493841171265,
-            "article": {
-              "title": "ফের ভূমিকম্পের কবলে জাপান, আহত ৩০",
-              "url": "https://bartamanpatrika.com/news/japan-hit-by-another-earthquake-23-injured",
-              "source_id": "bartamanpatrika.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:26:45.817843+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8074614405632019,
-            "article": {
-              "title": "M5.9 quake strikes eastern Japan including Tokyo, disrupting trains （2026/8/23）",
-              "url": "https://mainichi.jp/english/articles/20260823/p2g/00m/0na/001000c",
-              "source_id": "mainichi.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:27:31.775539+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8064171671867371,
-            "article": {
-              "title": "37 skadade i jordskalv i Japan",
-              "url": "https://www.dn.se/direkt/2026-08-23/37-skadade-i-jordskalv-i-japan/",
-              "source_id": "dn.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:21:48.123762+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7760204076766968,
-            "article": {
-              "title": "जापान में फिर डोली धरती: भूकंप के जोरदार झटकों से कांपा टोक्यो, 20 से अधिक लोग घायल",
-              "url": "https://www.jagran.com/world/japan-strong-earthquake-tremors-in-japan-more-than-20-people-injured-40349365.html",
-              "source_id": "jagran.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:26:35.050062+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7726483941078186,
-            "article": {
-              "title": "Из-за землетрясения в Японии пострадали около 40 человек В мире",
-              "url": "http://belta.by/world/view/iz-za-zemletrjasenija-v-japonii-postradali-okolo-40-chelovek-797380-2026/",
-              "source_id": "belta.by",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:25:00.880678+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7612204551696777,
-            "article": {
-              "title": "جاپان میں زلزلے کے جھٹکے، شدت 5.8 ریکارڈ",
-              "url": "https://jang.com.pk/news/1609888",
-              "source_id": "jang.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:26:51.590971+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.744312047958374,
-            "article": {
-              "title": "Aardbeving bij Tokio, meteorologen waarschuwen voor komende week",
-              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5641960/gewonden-aardbeving-japan",
-              "source_id": "rtl.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:21:23.283953+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7075557112693787,
-            "article": {
-              "title": "22.08.26 Мощное землетрясение магнитудой 5,9 произошо в Японии В мире",
-              "url": "http://belta.by/world/view/moschnoe-zemletrjasenie-magnitudoj-59-proizosho-v-japonii-797369-2026/",
-              "source_id": "belta.by",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:25:00.880678+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 61.99303554899606,
-        "size": 10,
-        "n_sources": 10,
-        "n_continents": 7,
-        "continents": [
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Oceania",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.875705361366272,
-        "title": "Father leaves 7yo son behind on Mount Fuji to continue climb",
-        "central_article": {
-          "title": "Father leaves 7yo son behind on Mount Fuji to continue climb",
-          "url": "https://www.abc.net.au/news/2026-08-23/father-leaves-son-behind-on-mount-fuji-climb/107068276",
-          "source_id": "abc.net.au",
-          "continent": "Oceania",
-          "published_at": null,
-          "scraped_at_utc": "2026-08-23T07:23:26.962330+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9508530497550964,
-            "article": {
-              "title": "Father leaves 7yo son behind on Mount Fuji to continue climb",
-              "url": "https://www.abc.net.au/news/2026-08-23/father-leaves-son-behind-on-mount-fuji-climb/107068276",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:23:26.962330+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9390562176704407,
-            "article": {
-              "title": "Father leaves son, 7, behind on Mount Fuji to carry on climbing",
-              "url": "https://www.thetimes.com/world/asia/article/father-leaves-son-behind-mount-fuji-dznzq3l7q",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:21:12.954076+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9354277849197388,
-            "article": {
-              "title": "Man leaves 7-year-old son alone on Mount Fuji for hours to continue hike",
-              "url": "https://www.japantimes.co.jp/news/2026/08/22/japan/crime-legal/japan-dad-child-mount-fuji/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:27:26.549387+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9237900972366333,
-            "article": {
-              "title": "Pai deixa menino de 7 anos sozinho no Monte Fuji, no Japão, e continua subida com outro filho; criança teria cansado",
-              "url": "https://oglobo.globo.com/mundo/epoca/noticia/2026/08/22/pai-deixa-menino-de-7-anos-sozinho-no-monte-fuji-e-continua-subida-com-outro-filho-crianca-teria-cansado.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:56.300229+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8848704099655151,
-            "article": {
-              "title": "Oče na gori Fudži pustil sedemletnega sina in nadaljeval z vzponom",
-              "url": "https://www.delo.si/magazin/zanimivosti/oce-na-gori-fuji-pustil-sedemletnega-sina-in-nadaljeval-z-vzponom",
-              "source_id": "delo.si",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:24:22.261164+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8820781707763672,
-            "article": {
-              "title": "Azië Man laat zoon van 7 urenlang alleen achter tijdens beklimming van Fuji in Japan za 22 aug.",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/08/22/japan-fuji-vader-zoon-achtergelaten/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:14.039205+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.862647294998169,
-            "article": {
-              "title": "Man leaves young son on Mount Fuji before ascending Japan’s highest peak",
-              "url": "https://www.theguardian.com/world/2026/aug/22/man-leaves-young-son-mount-fuji-japan",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:21:14.246468+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8536360859870911,
-            "article": {
-              "title": "উঁচু পর্বতে ৭ বছরের ছেলেকে একা ফেলে গেলেন বাবা, এরপর...",
-              "url": "https://www.prothomalo.com/world/asia/1vatdcc3wg",
-              "source_id": "prothomalo.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:26:41.947468+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.776199221611023,
-            "article": {
-              "title": "Arina Antonova/TT Pappa lämnade sjuåring ensam på Fuji Vandrade vidare mot toppen • Barnet hittades vid bergsstuga.",
-              "url": "https://www.dn.se/varlden/pappa-lamnade-sjuaring-ensam-pa-fuji/",
-              "source_id": "dn.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:21:48.123762+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7484949827194214,
-            "article": {
-              "title": "Magára hagyta hétéves gyerekét egy férfi a Fudzsin",
-              "url": "https://telex.hu/kulfold/2026/08/22/fudzsi-hegy-japan-gyerek-egyedul-csaladi-kirandulas",
-              "source_id": "telex.hu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:24:09.552475+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 48.469890756428086,
+        "score": 48.13801360442665,
         "size": 11,
         "n_sources": 11,
         "n_continents": 6,
         "continents": [
+          "China",
           "East Asia",
-          "Europe East",
+          "Europe North",
           "Europe South",
-          "Middle East",
-          "North America",
+          "Oceania",
           "South Asia"
         ],
-        "coherence": 0.8382576107978821,
-        "title": "Iran condemns US plans to announce new sanctions",
+        "coherence": 0.8368834853172302,
+        "title": "Humanoid robot breaks Usain Bolt's 100m record in China",
         "central_article": {
-          "title": "Iran condemns US plans to announce new sanctions",
-          "url": "https://www.newarab.com/news/iran-condemns-us-plans-announce-new-sanctions",
-          "source_id": "newarab.com",
-          "continent": "Middle East",
+          "title": "Humanoid robot breaks Usain Bolt's 100m record in China",
+          "url": "https://www.france24.com/en/asia-pacific/20260823-humanoid-robots-break-records-at-competition-in-beijing",
+          "source_id": "france24.com",
+          "continent": "Europe South",
           "published_at": null,
-          "scraped_at_utc": "2026-08-23T07:23:55.296786+00:00"
+          "scraped_at_utc": "2026-08-23T19:10:51.639776+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9217471480369568,
+            "sim_to_centroid": 0.9312667846679688,
             "article": {
-              "title": "Iran condemns US plans to announce new sanctions",
-              "url": "https://www.newarab.com/news/iran-condemns-us-plans-announce-new-sanctions",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:23:55.296786+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9217471480369568,
-            "article": {
-              "title": "Iran condemns US plans to announce new sanctions",
-              "url": "https://www.channelnewsasia.com/world/iran-condemns-us-plans-announce-new-sanctions-6335291",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:27:25.206529+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9171435832977295,
-            "article": {
-              "title": "Iran condemns U.S. plans to announce new sanctions",
-              "url": "https://www.japantimes.co.jp/news/2026/08/23/world/iran-denounces-us-sanctions/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:27:26.549387+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8570795059204102,
-            "article": {
-              "title": "Iran condemns U.S. plans to announce new sanctions as both sides show no signs of peace talks",
-              "url": "https://www.theglobeandmail.com/world/article-iran-condemns-us-plans-to-announce-new-sanctions-as-both-sides-show-no/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:23:25.616330+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8246300220489502,
-            "article": {
-              "title": "Iran condemns looming US sanctions as Hormuz standoff deepens",
-              "url": "https://www.thenationalnews.com/news/gulf/2026/08/23/iran-condemns-looming-us-sanctions-as-hormuz-standoff-deepens/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:23:43.630225+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8165686130523682,
-            "article": {
-              "title": "Iran: Vsako državo, ki se bo pridružila ukrepom ZDA, bomo šteli za sovražno",
-              "url": "https://www.delo.si/novice/svet/iran-vsako-drzavo-ki-se-bo-pridruzila-urepom-zda-bomo-steli-za-sovrazno",
-              "source_id": "delo.si",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:24:22.261164+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.812995970249176,
-            "article": {
-              "title": "Iran warns of retaliation against countries joining US ‘economic war’",
-              "url": "https://www.aljazeera.com/news/2026/8/22/iran-warns-nearby-nations-against-joining-us-economic-war-efforts",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:23:41.994618+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8070490956306458,
-            "article": {
-              "title": "Téhéran menace de représailles tout pays soutenant les sanctions économiques américaines",
-              "url": "https://www.lemonde.fr/international/article/2026/08/22/teheran-menace-de-represailles-tout-pays-soutenant-les-sanctions-economiques-americaines_6753646_3210.html",
-              "source_id": "lemonde.fr",
+              "title": "Humanoid robot breaks Usain Bolt's 100m record in China",
+              "url": "https://www.france24.com/en/asia-pacific/20260823-humanoid-robots-break-records-at-competition-in-beijing",
+              "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:05.363651+00:00"
+              "scraped_at_utc": "2026-08-23T19:10:51.639776+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7953086495399475,
-            "article": {
-              "title": "Iranas: valstybės prisijungsiančios prie JAV sankcijų bus laikomos priešėmis",
-              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3030016/iranas-valstybes-prisijungsiancios-prie-jav-sankciju-bus-laikomos-priesemis",
-              "source_id": "lrt.lt",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:24:41.831241+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7832603454589844,
-            "article": {
-              "title": "إيران تندد بعزم أمريكا إعلان عقوبات جديدة.. ترامب: نراقب «ما سيحدث» في الصراع",
-              "url": "https://www.omandaily.om/article/1209067",
-              "source_id": "omandaily.om",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:24:05.623520+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7633036971092224,
-            "article": {
-              "title": "Iran security chief threatens neighbors against new U.S. economic measures",
-              "url": "https://www.thehindu.com/news/international/iran-security-chief-threatens-neighbors-against-new-us-economic-measures/article71380026.ece",
-              "source_id": "thehindu.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:26:36.224783+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 38.762922965444616,
-        "size": 9,
-        "n_sources": 9,
-        "n_continents": 5,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "North America",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.8701603412628174,
-        "title": "Girl, 17, dead and three injured in sword attack at Swedish school",
-        "central_article": {
-          "title": "Girl, 17, dead and three injured in sword attack at Swedish school",
-          "url": "https://www.thetimes.com/world/europe/article/several-injured-sword-attack-sweden-school-0ktvpdwqh",
-          "source_id": "thetimes.com",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-08-23T07:21:12.954076+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9222801327705383,
-            "article": {
-              "title": "Girl, 17, dead and three injured in sword attack at Swedish school",
-              "url": "https://www.thetimes.com/world/europe/article/several-injured-sword-attack-sweden-school-0ktvpdwqh",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:21:12.954076+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9188888072967529,
-            "article": {
-              "title": "Student killed in sword attack at a Swedish school was a 17-year-old girl By Associated Press",
-              "url": "https://www.pbs.org/newshour/world/student-killed-in-sword-attack-at-a-swedish-school-was-a-17-year-old-girl",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:26:00.740375+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9136605262756348,
-            "article": {
-              "title": "Policía sueca confirma muerte de una joven de 17 años tras el ataque con espada en una escuela",
-              "url": "https://www.latercera.com/mundo/noticia/policia-sueca-confirma-muerte-de-una-joven-de-17-anos-tras-el-ataque-con-espada-en-una-escuela/",
-              "source_id": "latercera.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:23:02.718390+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8893568515777588,
-            "article": {
-              "title": "سویڈن: سکول میں تلوار بردار نوجوان کا حملہ، 17 سالہ طالبہ ہلاک اور ...",
-              "url": "https://www.nawaiwaqt.com.pk/23-Aug-2026/2021771",
-              "source_id": "nawaiwaqt.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:26:53.598142+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8612640500068665,
-            "article": {
-              "title": "17 éves lány halt meg a pénteki svédországi kardos támadásban",
-              "url": "https://telex.hu/kulfold/2026/08/22/svedorszag-kard-tamadas-17-eves-aldozat",
-              "source_id": "telex.hu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:24:09.552475+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8596205711364746,
-            "article": {
-              "title": "Ermittlungen nach Attacke an Schule 17-jährige Schülerin ist Opfer des Schwertangriffs in Schweden",
-              "url": "https://www.spiegel.de/ausland/schweden-17-jaehrige-schuelerin-ist-opfer-des-schwertangriffs-in-fagersta-a-2fedee15-23be-43e8-8c88-155b1cbe498c",
-              "source_id": "spiegel.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:21:29.317712+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8581740856170654,
-            "article": {
-              "title": "Jessica Gow/TT / TT NYHETSBYRÅN,NTB 17 år gammel jente drept i skoleangrep i Sverige Sverige Følg saken",
-              "url": "https://www.nrk.no/nyheter/sverige-1.14892471",
-              "source_id": "nrk.no",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:21:54.884323+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.812781810760498,
-            "article": {
-              "title": "1 killed, 3 wounded in sword attack at Swedish school",
-              "url": "https://pajhwok.com/2026/08/22/1-killed-3-wounded-in-sword-attack-at-swedish-school/",
-              "source_id": "pajhwok.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:26:56.050884+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7954163551330566,
-            "article": {
-              "title": "Egy 17 éves lány halt meg a svédországi iskolai támadásban A 18 éves támadót emberölés és többrendbeli emberölési kísérlet vádjával előzetes őrizetbe helyezték. Indítéka továbbra sem ismert.",
-              "url": "https://nepszava.hu/3331419_svedorszag-iskolai-kardos-tamadas-17-eves-lany-meghalt",
-              "source_id": "nepszava.hu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:24:16.930865+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 32.92274194632332,
-        "size": 7,
-        "n_sources": 7,
-        "n_continents": 6,
-        "continents": [
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "South Asia"
-        ],
-        "coherence": 0.8512988090515137,
-        "title": "Robot slår Usain Bolts verdensrekord",
-        "central_article": {
-          "title": "Robot slår Usain Bolts verdensrekord",
-          "url": "https://www.dr.dk/nyheder/udland/robot-slaar-usain-bolts-verdensrekord",
-          "source_id": "dr.dk",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-08-23T07:21:56.414902+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9234614372253418,
-            "article": {
-              "title": "Robot slår Usain Bolts verdensrekord",
-              "url": "https://www.dr.dk/nyheder/udland/robot-slaar-usain-bolts-verdensrekord",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:21:56.414902+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9057636857032776,
+            "sim_to_centroid": 0.9231088161468506,
             "article": {
               "title": "Chinese robot beats Usain Bolt’s 100m record at Beijing games",
               "url": "https://pajhwok.com/2026/08/23/chinese-robot-beats-usain-bolts-100m-record-at-beijing-games/",
               "source_id": "pajhwok.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:26:56.050884+00:00"
+              "scraped_at_utc": "2026-08-23T19:16:02.679109+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.903648853302002,
+            "sim_to_centroid": 0.9219585061073303,
             "article": {
-              "title": "Un robot chino bate el récord de Usain Bolt en los 100 metros en una prueba previa a los Juegos Mundiales",
-              "url": "https://www.rtve.es/noticias/20260822/robot-chino-bate-record-mundial-usain-bolt-100-metros-prueba-previa-a-juegos-mundiales-robots/17199091.shtml",
-              "source_id": "rtve.es",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:23.903659+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8894626498222351,
-            "article": {
-              "title": "Китайский робот-гуманоид побил рекорд Усэйна Болта на стометровке",
-              "url": "https://www.kommersant.ru/doc/8906293?from=spot_main",
-              "source_id": "kommersant.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:24:34.770650+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8291654586791992,
-            "article": {
-              "title": "WM der humanoiden Roboter Roboter schneller über 100 Meter als Usain Bolt",
-              "url": "https://www.tagesschau.de/ausland/asien/china-roboter-lauf-100.html",
-              "source_id": "tagesschau.de",
+              "title": "Chinese humanoid robot beats Bolt's 100-metre world record time",
+              "url": "https://www.euronews.com/2026/08/23/chinese-humanoid-robot-beats-bolts-100-metre-world-record-time",
+              "source_id": "euronews.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:21:27.021556+00:00"
+              "scraped_at_utc": "2026-08-23T19:09:52.128531+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7841167449951172,
+            "sim_to_centroid": 0.9193120002746582,
             "article": {
-              "title": "Usaın Bolt’un rekorunu kırdı",
-              "url": "https://www.hurriyet.com.tr/dunya/usain-boltun-rekorunu-kirdi-43282084",
-              "source_id": "hurriyet.com.tr",
-              "continent": "Middle East",
+              "title": "Chinese robots beat Usain Bolt’s 100m world record",
+              "url": "https://www.smh.com.au/world/asia/chinese-robots-beat-usain-bolt-s-100m-world-record-at-beijing-games-20260823-p60qrz.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:23:49.886269+00:00"
+              "scraped_at_utc": "2026-08-23T19:12:18.962978+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.723473072052002,
+            "sim_to_centroid": 0.8874869346618652,
+            "article": {
+              "title": "Über 100 Meter Sprintende Roboter knacken laut chinesischen Medien den Rekord von Usain Bolt",
+              "url": "https://www.spiegel.de/wissenschaft/technik/kuenstliche-intelligenz-chinas-sprint-roboter-knacken-rekord-von-usain-bolt-a-43ff06fd-afc4-4a0d-88a9-feca28344b02",
+              "source_id": "spiegel.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:10:05.768843+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8582628965377808,
+            "article": {
+              "title": "Chinese humanoid robots smash human records in 100m sprint and high jump at Beijing robot games （2026/8/23）",
+              "url": "https://mainichi.jp/english/articles/20260823/p2g/00m/0sc/017000c",
+              "source_id": "mainichi.jp",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:16:38.747629+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7858349680900574,
+            "article": {
+              "title": "Chinesischer Roboter bricht Weltrekord über 100 Meter An den World Humanoid Robot Games rannte er in nur 9.39 Sekunden ins Ziel.",
+              "url": "https://www.srf.ch/news/wirtschaft/schneller-als-usain-bolt-chinesischer-roboter-bricht-weltrekord-ueber-100-meter",
+              "source_id": "srf.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:10:22.530343+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7804064154624939,
+            "article": {
+              "title": "Faster than Usain Bolt: The five-day robot Olympics putting humanoid autonomy to the test",
+              "url": "https://www.sbs.com.au/news/article/beijing-world-humanoid-robot-games-robot-olympics-china-2026/ikmxqx9rp",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:12:17.762671+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7434484958648682,
+            "article": {
+              "title": "走る、踊るだけじゃない 躍進する中国ロボットが見据えるものとは",
+              "url": "https://www.asahi.com/articles/ASV8R1S8XV8RUHBI01JM.html?iref=comtop_7_01",
+              "source_id": "asahi.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:16:35.464400+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7352982759475708,
+            "article": {
+              "title": "World Humanoid Robot Games open in Beijing",
+              "url": "https://www.chinadaily.com.cn/a/202608/22/WS6a89ad6aa3106bc57421ced2.html",
+              "source_id": "chinadaily.com.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:15:16.989258+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7193337082862854,
             "article": {
               "title": "Robots can outrun humans, but can they plug in a cable?",
               "url": "https://www.japantimes.co.jp/news/2026/08/23/asia-pacific/science-health/robots-outrun-humans-future/",
               "source_id": "japantimes.co.jp",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:27:26.549387+00:00"
+              "scraped_at_utc": "2026-08-23T19:16:33.860019+00:00"
             }
           }
         ]
       },
       {
-        "score": 31.344794338477207,
-        "size": 8,
-        "n_sources": 8,
-        "n_continents": 4,
+        "score": 37.262335365250514,
+        "size": 11,
+        "n_sources": 10,
+        "n_continents": 5,
+        "continents": [
+          "China",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "South Asia"
+        ],
+        "coherence": 0.8411920070648193,
+        "title": "Landfill collapse in Guinea kills at least 30 people",
+        "central_article": {
+          "title": "Landfill collapse in Guinea kills at least 30 people",
+          "url": "https://www.aljazeera.com/news/2026/8/23/landfill-collapse-in-guinea-kills-at-least-22-people-official-says",
+          "source_id": "aljazeera.com",
+          "continent": "Middle East",
+          "published_at": null,
+          "scraped_at_utc": "2026-08-23T19:12:35.100320+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9191420078277588,
+            "article": {
+              "title": "Landfill collapse in Guinea kills at least 30 people",
+              "url": "https://www.aljazeera.com/news/2026/8/23/landfill-collapse-in-guinea-kills-at-least-22-people-official-says",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:12:35.100320+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9060143232345581,
+            "article": {
+              "title": "Landfill collapse kills at least 30 in Guinea as rescuers search for survivors",
+              "url": "https://www.scmp.com/news/world/africa/article/3364990/landfill-collapse-kills-least-22-guinea-rescuers-search-survivors?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:15:13.507337+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9060143232345581,
+            "article": {
+              "title": "Landfill collapse kills at least 30 in Guinea as rescuers search for survivors",
+              "url": "https://www.scmp.com/news/world/africa/article/3364990/landfill-collapse-kills-least-22-guinea-rescuers-search-survivors?module=latest&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:15:13.507337+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8779506683349609,
+            "article": {
+              "title": "30 døde i affaldsskred i Guinea",
+              "url": "https://www.dr.dk/nyheder/seneste/30-doede-i-affaldsskred-i-guinea",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:10:36.798541+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8393594026565552,
+            "article": {
+              "title": "Tientallen doden in Guinee door instorten vuilnisbelt",
+              "url": "https://nos.nl/artikel/2628041-tientallen-doden-in-guinee-door-instorten-vuilnisbelt",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:09:54.775503+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8283601999282837,
+            "article": {
+              "title": "Müllkippe rutscht auf Siedlung: mindestens 18 Tote in Guinea",
+              "url": "https://www.diepresse.com/41196609/muellkippe-rutscht-auf-siedlung-mindestens-18-tote-in-guinea",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:10:12.614758+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8192351460456848,
+            "article": {
+              "title": "22 doden door instorten vuilnisbelt in Guinee",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5642159/22-doden-door-instorten-vuilnisbelt-guinee",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:09:58.891111+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8177288174629211,
+            "article": {
+              "title": "Afrika Vuilnisbelt stort in op huizen in Guinee: minstens 30 doden geleden",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/08/23/dertig-doden-door-instorten-vuilnisbelt-in-guinee/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:10:54.847899+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7962993383407593,
+            "article": {
+              "title": "At least 22 people killed in landslip in capital of Guinea, officials say",
+              "url": "https://www.thehindu.com/news/international/several-dead-many-injured-in-a-landslip-triggered-by-heavy-rains-at-a-landfill-in-conakry-guinea/article71382052.ece",
+              "source_id": "thehindu.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:15:43.646536+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7954626679420471,
+            "article": {
+              "title": "几内亚首都一垃圾填埋场垮塌造成至少30人死亡",
+              "url": "https://www.xinhuanet.com/20260824/dec07737dc424600aeda4d0a0d5ffe43/c.html",
+              "source_id": "xinhuanet.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:15:20.668795+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7475451231002808,
+            "article": {
+              "title": "Just nu: Över 30 döda i jordskred i sophög",
+              "url": "https://www.dn.se/direkt/2026-08-23/over-30-doda-i-jordskred-i-sophog/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:10:26.994408+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 35.6436918535611,
+        "size": 13,
+        "n_sources": 11,
+        "n_continents": 5,
+        "continents": [
+          "Europe East",
+          "Europe North",
+          "Middle East",
+          "North America",
+          "South Asia"
+        ],
+        "coherence": 0.813247799873352,
+        "title": "Canada to Match Trump’s 50% Tariffs, Dollar for Dollar",
+        "central_article": {
+          "title": "Canada to Match Trump’s 50% Tariffs, Dollar for Dollar",
+          "url": "https://time.com/article/2026/08/22/us-canada-trade-negotiations-breakdown-tariffs/",
+          "source_id": "time.com",
+          "continent": "North America",
+          "published_at": null,
+          "scraped_at_utc": "2026-08-23T19:15:09.676509+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8677569031715393,
+            "article": {
+              "title": "Canada to Match Trump’s 50% Tariffs, Dollar for Dollar",
+              "url": "https://time.com/article/2026/08/22/us-canada-trade-negotiations-breakdown-tariffs/",
+              "source_id": "time.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:15:09.676509+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8634095191955566,
+            "article": {
+              "title": "Canada fires back at Trump’s 50% tariffs",
+              "url": "https://www.rt.com/news/644508-canada-fires-back-trump-tariffs/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:13:31.288905+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8452841639518738,
+            "article": {
+              "title": "Canada announces retaliatory tariffs on US imports",
+              "url": "https://pajhwok.com/2026/08/23/canada-announces-retaliatory-tariffs-on-us-imports/",
+              "source_id": "pajhwok.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:16:02.679109+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8162566423416138,
+            "article": {
+              "title": "Canada declares economic war against the US",
+              "url": "https://www.albawaba.com/business/us-canada-trade-talks-fall-apart-1635563",
+              "source_id": "albawaba.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:12:49.148499+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8152015209197998,
+            "article": {
+              "title": "USA und Kanada: Und plötzlich ist der Handelskrieg zurück",
+              "url": "https://www.zeit.de/wirtschaft/2026-08/usa-kanada-zollstreit-wirtschaft-zusammenarbeit",
+              "source_id": "zeit.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:10:19.734634+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8057096004486084,
+            "article": {
+              "title": "Canadá igualará los aranceles estadounidenses \"dólar por dólar\" tras la ruptura de las negociaciones comerciales con el gobierno de Trump",
+              "url": "https://www.bbc.com/mundo/articles/cpd7dvg6jepo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:11:10.043741+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8045250177383423,
+            "article": {
+              "title": "What to know about Trump’s 50% tariffs on Canadian goods that just went into effect",
+              "url": "https://apnews.com/article/trump-tariffs-canada-us-trade-war-293908564c7a381ea58a61db6e9a8517",
+              "source_id": "apnews.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:14:41.242572+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8033946752548218,
+            "article": {
+              "title": "US and Canada fall deeper into a trade war with new tariffs as talks collapse and blame is spread",
+              "url": "https://apnews.com/article/canada-us-trade-tariffs-trump-857ef76b20a766e370d70176135b678e",
+              "source_id": "apnews.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:14:41.242572+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8026627898216248,
+            "article": {
+              "title": "Kanada stellt sich „Dollar für Dollar“ gegen Trump",
+              "url": "https://www.diepresse.com/41195639/kanada-stellt-sich-dollar-fuer-dollar-gegen-trump",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:10:12.614758+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7963937520980835,
+            "article": {
+              "title": "Zollstreit zwischen USA und Kanada eskaliert erneut",
+              "url": "https://www.zdfheute.de/politik/ausland/usa-kanada-zoelle-handelsstreit-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:10:15.205472+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7906981706619263,
+            "article": {
+              "title": "Canada, US and tit-for-tat tariffs: How will they impact their economies?",
+              "url": "https://www.aljazeera.com/news/2026/8/23/canada-us-and-tit-for-tat-tariffs-how-will-it-impact-their-economies",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:12:35.100320+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7881739735603333,
+            "article": {
+              "title": "The Strange Items From Canada That Will Take Trump’s 50% Tariffs",
+              "url": "https://www.nytimes.com/2026/08/23/world/canada/canadian-goods-trump-tariffs-items-list.html",
+              "source_id": "nytimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:14:42.677350+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7727553248405457,
+            "article": {
+              "title": "Trump’s trade war with Canada: A timeline of how we got here",
+              "url": "https://apnews.com/article/trump-us-canada-tariffs-timeline-470fe71d7e6071f44f1607ca24f0d966",
+              "source_id": "apnews.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:14:41.242572+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 31.690504701567985,
+        "size": 7,
+        "n_sources": 7,
+        "n_continents": 5,
         "continents": [
           "Europe East",
           "Europe North",
           "Europe South",
-          "Middle East"
+          "Middle East",
+          "South Asia"
         ],
-        "coherence": 0.8958624601364136,
-        "title": "Atac ciberneticfără precedent în Marea Britanie: Hackeri din Iran au oprit funcționarea unei centrale electrice timp de patru zile",
+        "coherence": 0.8801338076591492,
+        "title": "Iran hackers shut UK power facility for",
         "central_article": {
-          "title": "Atac ciberneticfără precedent în Marea Britanie: Hackeri din Iran au oprit funcționarea unei centrale electrice timp de patru zile",
-          "url": "https://www.g4media.ro/atac-ciberneticfara-precedent-in-marea-britanie-hackeri-din-iran-au-oprit-functionarea-unei-centrale-electrice-timp-de-patru-zile.html",
-          "source_id": "g4media.ro",
-          "continent": "Europe East",
+          "title": "Iran hackers shut UK power facility for",
+          "url": "https://timesofindia.indiatimes.com/world/uk/iran-hackers-shut-uk-power-facility-for-4-days/articleshow/133445525.cms",
+          "source_id": "timesofindia.indiatimes.com",
+          "continent": "South Asia",
           "published_at": null,
-          "scraped_at_utc": "2026-08-23T07:24:18.780027+00:00"
+          "scraped_at_utc": "2026-08-23T19:15:39.842177+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9337671995162964,
+            "sim_to_centroid": 0.9292894601821899,
             "article": {
-              "title": "Atac ciberneticfără precedent în Marea Britanie: Hackeri din Iran au oprit funcționarea unei centrale electrice timp de patru zile",
-              "url": "https://www.g4media.ro/atac-ciberneticfara-precedent-in-marea-britanie-hackeri-din-iran-au-oprit-functionarea-unei-centrale-electrice-timp-de-patru-zile.html",
-              "source_id": "g4media.ro",
-              "continent": "Europe East",
+              "title": "Iran hackers shut UK power facility for",
+              "url": "https://timesofindia.indiatimes.com/world/uk/iran-hackers-shut-uk-power-facility-for-4-days/articleshow/133445525.cms",
+              "source_id": "timesofindia.indiatimes.com",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:24:18.780027+00:00"
+              "scraped_at_utc": "2026-08-23T19:15:39.842177+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9320156574249268,
-            "article": {
-              "title": "Hackers uit Iran brachten Britse energiecentrale tot stilstand",
-              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5641957/iraanse-hackers-legden-britse-energiecentrale-plat",
-              "source_id": "rtl.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:21:23.283953+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9099196195602417,
-            "article": {
-              "title": "'Iraanse hackers legden Britse energiecentrale 4 dagen plat'",
-              "url": "https://nos.nl/artikel/2627950-iraanse-hackers-legden-britse-energiecentrale-4-dagen-plat",
-              "source_id": "nos.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:21:19.848151+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9085662364959717,
-            "article": {
-              "title": "La diretta Telegraph: hacker iraniani hanno bloccato una centrale elettrica britannica per 4 giorni",
-              "url": "https://www.repubblica.it/esteri/2026/08/23/diretta/guerra_iran_usa_israele_news_oggi-425542318/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:26.686438+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9043627977371216,
+            "sim_to_centroid": 0.9154013395309448,
             "article": {
               "title": "Iranian cyberattack shut down UK power station for several days",
               "url": "https://www.albawaba.com/news/iranian-cyberattack-shut-down-uk-power-1635562",
               "source_id": "albawaba.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:23:53.936051+00:00"
+              "scraped_at_utc": "2026-08-23T19:12:49.148499+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8910733461380005,
+            "sim_to_centroid": 0.8989489078521729,
             "article": {
-              "title": "'Unprecedented' cyberattack on UK power plant caused by hackers linked to Iranian regime",
-              "url": "https://www.jpost.com/international/islamic-terrorism/article-906279",
-              "source_id": "jpost.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:23:44.906801+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8640939593315125,
-            "article": {
-              "title": "هجوم سيبراني يعطّل محطة كهرباء في بريطانيا... ما علاقة إيران؟",
-              "url": "https://www.annahar.com/international/iran/340664/هجوم-سيبراني-يعطل-محطة-كهربا-في-بريطانيا-ما-علاقة-إيران",
-              "source_id": "annahar.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:24:00.575297+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8231011033058167,
-            "article": {
-              "title": "La guerra ibrida è arrivata in GB, il Telegraph: «Hacker legati all'Iran hanno bloccato una centrale a luglio per 4 giorni»",
-              "url": "https://www.corriere.it/esteri/diretta-live/26_agosto_23/iran-usa-news-diretta.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:28.395261+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 26.883847775246775,
-        "size": 9,
-        "n_sources": 9,
-        "n_continents": 5,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "North America",
-          "Oceania",
-          "South Asia"
-        ],
-        "coherence": 0.7969726324081421,
-        "title": "Russian drones hit Ukraine mall, killing 16 and wounding 13 including children",
-        "central_article": {
-          "title": "Russian drones hit Ukraine mall, killing 16 and wounding 13 including children",
-          "url": "https://www.sbs.com.au/news/article/russian-drones-hit-ukraine-mall-killing-16-and-wounding-13-including-children/xa46prquo",
-          "source_id": "sbs.com.au",
-          "continent": "Oceania",
-          "published_at": null,
-          "scraped_at_utc": "2026-08-23T07:23:28.256928+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8840668201446533,
-            "article": {
-              "title": "Russian drones hit Ukraine mall, killing 16 and wounding 13 including children",
-              "url": "https://www.sbs.com.au/news/article/russian-drones-hit-ukraine-mall-killing-16-and-wounding-13-including-children/xa46prquo",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:23:28.256928+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8579981327056885,
-            "article": {
-              "title": "16 killed, over 130 wounded in Russian drone strikes in Ukraine",
-              "url": "https://pajhwok.com/2026/08/22/16-killed-over-130-wounded-in-russian-drone-strikes-in-ukraine/",
-              "source_id": "pajhwok.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:26:56.050884+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8249223232269287,
-            "article": {
-              "title": "Estonian investors' Ukrainian shopping center hit in a drone attack",
-              "url": "https://news.err.ee/1610116693/estonian-investors-ukrainian-shopping-center-hit-in-a-drone-attack",
-              "source_id": "news.err.ee",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:24:40.312719+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7968490719795227,
-            "article": {
-              "title": "Rusland meldt Oekraïense droneaanval op distributiecentrum van webwinkel Ozon",
-              "url": "https://www.nrc.nl/nieuws/2026/08/22/rusland-meldt-oekraiense-droneaanval-op-distributiecentrum-van-webwinkel-ozon-a4934977",
+              "title": "‘Iraanse hackers legden kleine Britse energiecentrale vier dagen plat’",
+              "url": "https://www.nrc.nl/nieuws/2026/08/23/iraanse-hackers-legden-kleine-britse-energiecentrale-vier-dagen-plat-a4934990",
               "source_id": "nrc.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:21:21.438730+00:00"
+              "scraped_at_utc": "2026-08-23T19:09:56.705799+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.789197564125061,
+            "sim_to_centroid": 0.8941107988357544,
             "article": {
-              "title": "Ruslands angreb på Ukraine",
-              "url": "https://politiken.dk/tag/main/Konflikten_om_Ukraine",
-              "source_id": "politiken.dk",
+              "title": "‘Iraanse cyberaanval legt Britse energiecentrale plat’",
+              "url": "https://fd.nl/politiek/1609814/iraanse-cyberaanval-legt-britse-energiecentrale-plat",
+              "source_id": "fd.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:21:46.119381+00:00"
+              "scraped_at_utc": "2026-08-23T19:10:01.039384+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7882741689682007,
+            "sim_to_centroid": 0.8664395213127136,
             "article": {
-              "title": "Ukraine Planned to Swarm Moscow Airports With AI-Guided Drones",
-              "url": "https://www.theatlantic.com/national-security/2026/08/ukraine-moscow-airports-ai-drones/688337/",
-              "source_id": "theatlantic.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:25:59.558244+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7503617405891418,
-            "article": {
-              "title": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
-              "url": "https://www.bbc.com/news/articles/c39egw7nmk2o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:21:10.260461+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7477710843086243,
-            "article": {
-              "title": "Ukraine Attack on Ukraine shopping centre that killed 16 is ‘terror by design’, says EU foreign policy chief",
-              "url": "https://www.theguardian.com/world/2026/aug/22/ukraine-shopping-centre-attack-deaths-russia-terror-by-design-kaja-kallas-kryvyi-rih",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:21:14.246468+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7333128452301025,
-            "article": {
-              "title": "Russian Drone Strikes Private Home in Kharkiv, Injuring 8",
-              "url": "https://www.kyivpost.com/post/82918",
-              "source_id": "kyivpost.com",
+              "title": "Cyber attack shut down UK power plant",
+              "url": "https://www.rt.com/news/644555-iran-cyber-attack-uk-power/",
+              "source_id": "rt.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:24:23.828833+00:00"
+              "scraped_at_utc": "2026-08-23T19:13:31.288905+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8663219809532166,
+            "article": {
+              "title": "Gli hacker di Teheran colpiscono il Regno Unito: “Spenta una centrale elettrica per quattro giorni”",
+              "url": "https://www.repubblica.it/esteri/2026/08/23/news/regno_unito_attacco_hacker_iran_centrale_elettrica_spenta-425543268/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:11:05.739040+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7904248833656311,
+            "article": {
+              "title": "Иранские хакеры вывели из строя электростанцию в Великобритании В мире",
+              "url": "http://belta.by/world/view/iranskie-hakery-vyveli-iz-stroja-elektrostantsiju-v-velikobritanii-797423-2026/",
+              "source_id": "belta.by",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:14:05.049530+00:00"
             }
           }
         ]
       },
       {
-        "score": 26.13259774208681,
-        "size": 10,
+        "score": 31.569702085032265,
+        "size": 9,
         "n_sources": 9,
         "n_continents": 4,
         "continents": [
           "Europe East",
           "Europe North",
           "Europe South",
-          "South America"
+          "North America"
         ],
-        "coherence": 0.8359329104423523,
-        "title": "Macron says France will deliver interceptor missiles to Ukraine after new Russian strikes",
+        "coherence": 0.873735785484314,
+        "title": "Kong Haralds helbredstilstand forværret",
         "central_article": {
-          "title": "Macron says France will deliver interceptor missiles to Ukraine after new Russian strikes",
-          "url": "https://www.france24.com/en/europe/20260822-russian-strikes-in-ukraine-kill-at-least-two-people-injure-several-others",
-          "source_id": "france24.com",
-          "continent": "Europe South",
+          "title": "Kong Haralds helbredstilstand forværret",
+          "url": "https://www.dr.dk/nyheder/seneste/kong-haralds-helbredstilstand-forvaerret",
+          "source_id": "dr.dk",
+          "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-08-23T07:22:10.945831+00:00"
+          "scraped_at_utc": "2026-08-23T19:10:36.798541+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9090144634246826,
+            "sim_to_centroid": 0.9240257143974304,
             "article": {
-              "title": "Macron says France will deliver interceptor missiles to Ukraine after new Russian strikes",
-              "url": "https://www.france24.com/en/europe/20260822-russian-strikes-in-ukraine-kill-at-least-two-people-injure-several-others",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:10.945831+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9021962881088257,
-            "article": {
-              "title": "Macron Confirms Delivery of Interceptor Missiles to Ukraine",
-              "url": "https://www.kyivpost.com/post/82913",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:24:23.828833+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8847180604934692,
-            "article": {
-              "title": "Emmanuel Macron anuncia envio de mísseis interceptadores à Ucrânia",
-              "url": "https://oglobo.globo.com/mundo/noticia/2026/08/22/emmanuel-macron-anuncia-envio-de-misseis-interceptadores-a-ucrania.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:56.300229+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8781999349594116,
-            "article": {
-              "title": "Președintele Macron confirmă că Franța va trimite Ucrainei rachete interceptoare pentru a se apăra de atacurile Rusiei",
-              "url": "https://www.g4media.ro/presedintele-macron-confirma-ca-franta-va-trimite-ucrainei-rachete-interceptoare-pentru-a-se-apara-de-atacurile-rusiei.html",
-              "source_id": "g4media.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:24:18.780027+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8333621621131897,
-            "article": {
-              "title": "France to ramp up Ukraine support, says Macron",
-              "url": "https://www.politico.eu/article/france-to-ramp-up-ukraine-support-says-emmanuel-macron/",
-              "source_id": "politico.eu",
+              "title": "Kong Haralds helbredstilstand forværret",
+              "url": "https://www.dr.dk/nyheder/seneste/kong-haralds-helbredstilstand-forvaerret",
+              "source_id": "dr.dk",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:21:18.711973+00:00"
+              "scraped_at_utc": "2026-08-23T19:10:36.798541+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8157570362091064,
+            "sim_to_centroid": 0.9043915271759033,
             "article": {
-              "title": "La mano tesa di Macron a Zelensky: “Pronti a inviare gli intercettori”",
-              "url": "https://www.repubblica.it/esteri/2026/08/23/news/vertice_volenterosi_ucraina_mano_tesa_macron_a_zelensky_invio_intercettori-425542136/",
-              "source_id": "repubblica.it",
+              "title": "L’état de santé du roi Harald de Norvège, 89 ans, s’est « aggravé »",
+              "url": "http://soirmag.lesoir.be/766620/article/2026-08-23/letat-de-sante-du-roi-harald-de-norvege-89-ans-sest-aggrave",
+              "source_id": "lesoir.be",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:26.686438+00:00"
+              "scraped_at_utc": "2026-08-23T19:10:59.154069+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8050776720046997,
+            "sim_to_centroid": 0.9029198884963989,
             "article": {
-              "title": "France to speed up missile deliveries to Ukraine amid critical air defense shortage.",
-              "url": "https://kyivindependent.com/france-to-speed-up-missile-deliveries-to-ukraine-amid-critical-air-defense-shortage/",
-              "source_id": "kyivindependent.com",
+              "title": "Kung Haralds hälsa försämrad",
+              "url": "https://www.dn.se/direkt/2026-08-23/kung-haralds-halsa-forsamrad/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:10:26.994408+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8816050887107849,
+            "article": {
+              "title": "Just nu Norska hovet: Kung Haralds hälsa försämrad",
+              "url": "https://www.svt.se/nyheter/utrikes/kung-haralds-tillstand-har-forsamrats",
+              "source_id": "svt.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:10:33.906053+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8813375234603882,
+            "article": {
+              "title": "Kong Haralds tilstand er blevet forværret i weekenden",
+              "url": "https://politiken.dk/internationalt/art10956577/Kong-Haralds-tilstand-er-blevet-forv%C3%A6rret-i-weekenden",
+              "source_id": "politiken.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:10:24.732844+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8691684007644653,
+            "article": {
+              "title": "Mundo Estado de salud del rey Harald de Noruega “se agravó”",
+              "url": "https://www.crhoy.com/mundo/estado-de-salud-del-rey-harald-de-noruega-se-agravo/",
+              "source_id": "crhoy.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:11:18.416264+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8583141565322876,
+            "article": {
+              "title": ". geleden • Koningshuis Toestand Noorse koning Harald (89) in ziekenhuis verslechterd",
+              "url": "https://nos.nl/artikel/2628061-toestand-noorse-koning-harald-89-in-ziekenhuis-verslechterd",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:09:54.775503+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8393754959106445,
+            "article": {
+              "title": "Norskému králi Haraldovi se zhoršil stav. Vladařské povinnosti plní korunní princ",
+              "url": "https://www.idnes.cz/zpravy/zahranicni/zdravotni-stav-devetaosmdesatileteho-norskeho-krale-haralda-v-se-zhorsil.A260823_200650_zahranicni_sahu",
+              "source_id": "idnes.cz",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:24:25.275515+00:00"
+              "scraped_at_utc": "2026-08-23T19:13:10.540314+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.795414924621582,
+            "sim_to_centroid": 0.8024842143058777,
             "article": {
-              "title": "Macron manda missili intercettori e spinge gli alleati Volenterosi: «Troppo orrore, aiutiamo Kiev»",
-              "url": "https://www.corriere.it/esteri/26_agosto_23/guerra-russia-ucraina-macron-missili-intercettori-volenterosi-0bdea96d-6074-4f43-bd1e-bcd052308xlk.shtml",
-              "source_id": "corriere.it",
+              "title": "Norge Kongens helsetilstand Siste Kongens helsetilstand forverret",
+              "url": "https://www.aftenposten.no/norge/i/xrwzXV/slottet-kongens-helsetilstand-har-forverret-seg-i-helgen",
+              "source_id": "aftenposten.no",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:10:28.406568+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 30.793659908275984,
+        "size": 8,
+        "n_sources": 8,
+        "n_continents": 5,
+        "continents": [
+          "East Asia",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America"
+        ],
+        "coherence": 0.8476858735084534,
+        "title": "Trump caps summer of US 250th birthday at IndyCar race through Washington",
+        "central_article": {
+          "title": "Trump caps summer of US 250th birthday at IndyCar race through Washington",
+          "url": "https://www.jpost.com/international/article-906359",
+          "source_id": "jpost.com",
+          "continent": "Middle East",
+          "published_at": null,
+          "scraped_at_utc": "2026-08-23T19:12:38.709824+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8930100798606873,
+            "article": {
+              "title": "Trump caps summer of US 250th birthday at IndyCar race through Washington",
+              "url": "https://www.jpost.com/international/article-906359",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:12:38.709824+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8785281181335449,
+            "article": {
+              "title": "Trump caps USA's 250th birthday summer with Indy race through Washington",
+              "url": "https://www.bangkokpost.com/world/3306573/trump-caps-usas-250th-birthday-summer-with-indy-race-through-washington",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:16:48.731510+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8623539805412292,
+            "article": {
+              "title": "Verenigde Staten Freedom 250 Grand Prix: Trump laat auto's door Washington D.C. racen om 250 jaar VS te vieren",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/08/23/freedom-250-grand-prix-washington/",
+              "source_id": "vrt.be",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:22:28.395261+00:00"
+              "scraped_at_utc": "2026-08-23T19:10:54.847899+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7753375172615051,
+            "sim_to_centroid": 0.8497153520584106,
             "article": {
-              "title": "Macron cree que ataque ruso en centro comercial ucraniano es “una confesión de debilidad”",
-              "url": "https://elcomercio.pe/mundo/europa/guerra-rusia-ucrania-emmanuel-macron-cree-que-ataque-ruso-en-centro-comercial-ucraniano-es-una-confesion-de-debilidad-volodymyr-zelensky-vladimir-putin-ultimas-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
+              "title": "Trump waves the green flag to start the IndyCar race as drivers zoom through Washington’s streets",
+              "url": "https://apnews.com/article/trump-indycar-america-250-fe6d60c0be3a82c63d44d7aa1703a671",
+              "source_id": "apnews.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:23:01.433183+00:00"
+              "scraped_at_utc": "2026-08-23T19:14:41.242572+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7602512836456299,
+            "sim_to_centroid": 0.8358709812164307,
             "article": {
-              "title": "Zelensky, Macron Agree on Missile Supplies and Production Licenses",
-              "url": "https://www.kyivpost.com/post/82908",
-              "source_id": "kyivpost.com",
+              "title": "Freedom 250 Grand Prix underway in DC, Trump starts race: Updates",
+              "url": "https://www.usatoday.com/story/news/usa250/2026/08/23/trump-dc-grand-prix-race-updates--live/91393835007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:15:06.652165+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.831494927406311,
+            "article": {
+              "title": "From White House ballroom to IndyCar race, Trump's spectacles take center stage in D.C.",
+              "url": "https://www.pbs.org/newshour/show/from-white-house-ballroom-to-indycar-race-trumps-spectacles-take-center-stage-in-d-c",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:15:12.216844+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8152947425842285,
+            "article": {
+              "title": "Trumps nächste Show: Rennwagen rasen ums Kapitol",
+              "url": "https://www.zdfheute.de/politik/ausland/indy-car-rennen-usa-washington-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:10:15.205472+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8152189254760742,
+            "article": {
+              "title": "+++ USA +++ Trump dreht Ehrenrunde bei Autorennen mitten in Washington Live-Blog",
+              "url": "https://www.handelsblatt.com/politik/international/usa-trump-dreht-ehrenrunde-bei-autorennen-mitten-in-washington/29669594.html",
+              "source_id": "handelsblatt.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:10:08.007423+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 29.866025088693103,
+        "size": 6,
+        "n_sources": 6,
+        "n_continents": 5,
+        "continents": [
+          "China",
+          "Europe East",
+          "Europe North",
+          "Middle East",
+          "North America"
+        ],
+        "coherence": 0.8991048336029053,
+        "title": "Jueza anula suspensión de visas de inmigrante impuesta por Trump a ciudadanos de 75 países",
+        "central_article": {
+          "title": "Jueza anula suspensión de visas de inmigrante impuesta por Trump a ciudadanos de 75 países",
+          "url": "https://www.laestrella.com.pa/mundo/america/jueza-anula-suspension-de-visas-de-inmigrante-impuesta-por-trump-a-ciudadanos-de-75-paises-MG25105328",
+          "source_id": "laestrella.com.pa",
+          "continent": "North America",
+          "published_at": null,
+          "scraped_at_utc": "2026-08-23T19:11:21.082037+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9339625239372253,
+            "article": {
+              "title": "Jueza anula suspensión de visas de inmigrante impuesta por Trump a ciudadanos de 75 países",
+              "url": "https://www.laestrella.com.pa/mundo/america/jueza-anula-suspension-de-visas-de-inmigrante-impuesta-por-trump-a-ciudadanos-de-75-paises-MG25105328",
+              "source_id": "laestrella.com.pa",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:11:21.082037+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9264690279960632,
+            "article": {
+              "title": "US judge strikes down Trump immigrant visa ban affecting 75 countries",
+              "url": "https://www.aljazeera.com/news/2026/8/22/us-judge-strikes-down-trump-immigrant-visa-ban-affecting-75-countries",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:12:35.100320+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9246248006820679,
+            "article": {
+              "title": "US court reverses Trump’s 75-country visa ban",
+              "url": "https://www.rt.com/news/644550-us-trump-immigrant-visa/",
+              "source_id": "rt.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-08-23T07:24:23.828833+00:00"
+              "scraped_at_utc": "2026-08-23T19:13:31.288905+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8880698680877686,
+            "article": {
+              "title": "Суд в США отменил запрет Госдепа на выдачу иммиграционных виз гражданам 75 стран (в том числе России)",
+              "url": "https://meduza.io/news/2026/08/22/sud-v-ssha-otmenil-zapret-gosdepa-na-vydachu-immigratsionnyh-viz-grazhdanam-75-stran-v-tom-chisle-rossii",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:13:25.777896+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.866539716720581,
+            "article": {
+              "title": "Una jueza anula la prohibición de visados de EE.UU. a ciudadanos de 75 países, entre ellos Colombia, Uruguay y Cuba",
+              "url": "https://www.bbc.com/mundo/articles/cp3r3nn6nnxo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:11:10.043741+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8549628853797913,
+            "article": {
+              "title": "特朗普暫停處理75國簽證禁令遭法官推翻",
+              "url": "https://www.singtaousa.com/2026/08/22/news/usa/federal-judge-vacates-trump-policy-that-suspended-processing-of-immigration-visas-from-75-countries/",
+              "source_id": "singtaousa.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:15:29.794577+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 25.874003886653142,
+        "size": 10,
+        "n_sources": 9,
+        "n_continents": 4,
+        "continents": [
+          "Europe North",
+          "Europe South",
+          "North America",
+          "Oceania"
+        ],
+        "coherence": 0.8339439630508423,
+        "title": "Natalie Harp has a magnificent obsession with Trump",
+        "central_article": {
+          "title": "Natalie Harp has a magnificent obsession with Trump",
+          "url": "https://www.smh.com.au/world/north-america/natalie-harp-has-a-magnificent-obsession-with-trump-20260823-p60qq4.html",
+          "source_id": "smh.com.au",
+          "continent": "Oceania",
+          "published_at": null,
+          "scraped_at_utc": "2026-08-23T19:12:18.962978+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9077773094177246,
+            "article": {
+              "title": "Natalie Harp has a magnificent obsession with Trump",
+              "url": "https://www.smh.com.au/world/north-america/natalie-harp-has-a-magnificent-obsession-with-trump-20260823-p60qq4.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:12:18.962978+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8932363390922546,
+            "article": {
+              "title": "Qui est Natalie Harp, l'assistante dévouée de Donald Trump soudainement mise sous les projecteurs ?",
+              "url": "https://www.rtbf.be/article/qui-est-natalie-harp-l-assistante-devouee-de-donald-trump-soudainement-mise-sous-les-projecteurs-11774157",
+              "source_id": "rtbf.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:10:57.628416+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8506567478179932,
+            "article": {
+              "title": "Natalie Harp thinks Donald Trump is amazing... and he agrees",
+              "url": "https://www.irishtimes.com/world/us/2026/08/23/natalie-harp-thinks-donald-trump-is-amazing-and-he-agrees/",
+              "source_id": "irishtimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:12:33.875422+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8488872647285461,
+            "article": {
+              "title": "De rel rond Trumps 'menselijke printer': wie is Natalie Harp?",
+              "url": "https://nos.nl/artikel/2627875-de-rel-rond-trumps-menselijke-printer-wie-is-natalie-harp",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:09:54.775503+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.841294527053833,
+            "article": {
+              "title": "Questions mount over role of Trump’s executive assistant Natalie Harp",
+              "url": "https://www.channel4.com/news/questions-mount-over-role-of-trumps-executive-assistant-natalie-harp",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:09:50.643120+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8166478276252747,
+            "article": {
+              "title": "The White House Freak-Out Over Natalie Harp",
+              "url": "https://www.theatlantic.com/politics/2026/08/ossoff-trump-natalie-harp/688365/",
+              "source_id": "theatlantic.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:15:10.864649+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8103545308113098,
+            "article": {
+              "title": "Another Democratic rising star jibes at Trump over Natalie Harp",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-natalie-harp-democrat-abdul-elsayed-michgan-policies-b3037618.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:09:45.123576+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7973349094390869,
+            "article": {
+              "title": "Natalie Harp reportedly posted 150 pro-Trump tweets on day of Capitol riot",
+              "url": "https://www.theguardian.com/us-news/2026/aug/23/natalie-harp-january-6-trump-capitol-tweets",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:09:48.163922+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7919558882713318,
+            "article": {
+              "title": "Natalie Harp, a Trump: “No quiero decepcionarte nunca. Gracias por ser mi guardián y protector”",
+              "url": "https://www.lavanguardia.com/internacional/20260823/11618245/quiero-decepcionarte-nunca-gracias-mi-guardian-protector.html",
+              "source_id": "lavanguardia.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:11:00.696604+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7812942862510681,
+            "article": {
+              "title": "Trump aide Natalie Harp back in her comfort zone as she trails president on another golf course",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/natalie-harp-2020-trump-election-memo-b3037750.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-08-23T19:09:45.123576+00:00"
             }
           }
         ]
       }
     ],
-    "created_at_utc": "2026-08-23T08:00:54Z"
+    "created_at_utc": "2026-08-23T19:46:43Z"
   }
 ]
