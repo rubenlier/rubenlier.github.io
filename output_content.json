@@ -1,23 +1,1082 @@
 [
   {
-    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1788266060",
-    "n_items": 2464,
-    "n_clusters": 2050,
+    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1788299131",
+    "n_items": 2444,
+    "n_clusters": 1971,
     "clusters": [
       {
-        "score": 77.48487198420686,
-        "size": 35,
-        "n_sources": 23,
-        "n_continents": 6,
+        "score": 228.12526261368066,
+        "size": 47,
+        "n_sources": 38,
+        "n_continents": 10,
         "continents": [
+          "China",
           "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "Oceania",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.7979447245597839,
+        "title": "US launches new strikes on Iran",
+        "central_article": {
+          "title": "US launches new strikes on Iran",
+          "url": "https://www.rt.com/news/644983-us-iran-strikes-escalation/",
+          "source_id": "rt.com",
+          "continent": "Europe East",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-01T21:29:10.475717+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9143580794334412,
+            "article": {
+              "title": "US launches new strikes on Iran",
+              "url": "https://www.rt.com/news/644983-us-iran-strikes-escalation/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:29:10.475717+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8992918133735657,
+            "article": {
+              "title": "US military carries out new strikes on Iranian targets as hostilities flare",
+              "url": "https://www.scmp.com/news/us/diplomacy/article/3366032/us-military-carries-out-new-strikes-iranian-targets-hostilities-flare?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:30:43.536604+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.879464328289032,
+            "article": {
+              "title": "Estados Unidos inicia una nueva oleada de ataques contra objetivos en Irán",
+              "url": "https://www.rtve.es/noticias/20260901/estados-unidos-inicia-nueva-oleada-ataques-objetivos-iran/17208794.shtml",
+              "source_id": "rtve.es",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:50.767625+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.872425377368927,
+            "article": {
+              "title": "U.S. strikes Iran and Tehran fires back as hostilities flare again",
+              "url": "https://www.thehindu.com/news/international/us-military-strikes-iran-after-attempted-attacks-on-shipping-in-strait-of-hormuz/article71416842.ece",
+              "source_id": "thehindu.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:31:16.226329+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8701403141021729,
+            "article": {
+              "title": "ABD, İran'a yeni bir saldırı başlattı",
+              "url": "https://www.hurriyet.com.tr/dunya/live-abd-irana-yeni-bir-saldiri-baslatti-43292704",
+              "source_id": "hurriyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:28:14.874788+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.851803183555603,
+            "article": {
+              "title": "Guerre au Moyen-Orient : l’armée américaine déclenche de nouvelles frappes contre l’Iran, qui riposte",
+              "url": "https://www.lesoir.be/768425/article/2026-09-01/guerre-au-moyen-orient-larmee-americaine-declenche-de-nouvelles-frappes-contre",
+              "source_id": "lesoir.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:46.501740+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8516042232513428,
+            "article": {
+              "title": "US launches fresh strikes on Iran around Strait of Hormuz",
+              "url": "https://www.abc.net.au/news/2026-09-02/us-iran-attack-hormuz/107105276",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:27:50.613822+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8495068550109863,
+            "article": {
+              "title": "US and Iran trade fire as hostilities flare again",
+              "url": "https://www.france24.com/en/middle-east/20260901-us-and-iran-trade-fire-as-hostilities-flare-again",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:39.045359+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8450698256492615,
+            "article": {
+              "title": "امریکا نے ایک بار پھر ایران پر بمباری شروع کردی",
+              "url": "https://jang.com.pk/news/1612310",
+              "source_id": "jang.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:31:32.352583+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8423469066619873,
+            "article": {
+              "title": "US launches fresh strikes on Iran amid army secretary resignation",
+              "url": "https://www.channel4.com/news/us-launches-fresh-strikes-on-iran-amid-army-secretary-resignation",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:25:38.666828+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8391107320785522,
+            "article": {
+              "title": "VS valt Iraanse doelen aan, Iran dreigt met vergeldingsaanvallen",
+              "url": "https://nos.nl/artikel/2629313-vs-valt-iraanse-doelen-aan-iran-dreigt-met-vergeldingsaanvallen",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:25:42.803474+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8390504717826843,
+            "article": {
+              "title": "U.S. launches fresh strikes on Iranian targets around Strait of Hormuz",
+              "url": "https://www.theglobeandmail.com/world/article-iran-us-war-trump-threatens-strikes/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:27:49.369758+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8385361433029175,
+            "article": {
+              "title": "США начали наносить удары по Ирану: военные атакуют объекты КСИР",
+              "url": "https://tengrinews.kz/world_news/ssha-nachali-nanosit-udaryi-iranu-voennyie-atakuyut-obyektyi-607557/",
+              "source_id": "tengrinews.kz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:29:25.085448+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8368545770645142,
+            "article": {
+              "title": "US launches new barrage of strikes on Iran around Strait of Hormuz",
+              "url": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/us-launches-new-barrage-of-strikes-on-iran-around-strait-of-hormuz",
+              "source_id": "asia.nikkei.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:31:43.018927+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8367441892623901,
+            "article": {
+              "title": "US and Iran trade strikes and threats as conflict heats up again",
+              "url": "https://www.channel4.com/news/us-and-iran-trade-strikes-and-threats-as-conflict-heats-up-again",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:25:38.666828+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8263435363769531,
+            "article": {
+              "title": "U.S. Launches Airstrikes on Iran for 2nd Time in",
+              "url": "https://www.nytimes.com/2026/09/01/us/politics/us-launches-air-strikes-iran.html",
+              "source_id": "nytimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:30:10.711435+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8212090134620667,
+            "article": {
+              "title": "US launches major strikes on Iran, Trump warns bigger attack ‘in the wings’",
+              "url": "https://www.smh.com.au/world/north-america/us-launches-major-strikes-against-iran-for-first-time-since-late-july-20260902-p60tkl.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:27:53.524600+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8185503482818604,
+            "article": {
+              "title": "Naher Osten USA und Iran melden erneut heftige Angriffe",
+              "url": "https://www.tagesschau.de/ausland/asien/usa-iran-angriffe-124.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:25:50.274038+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.816834032535553,
+            "article": {
+              "title": "ABD resmen duyurdu İran’a yönelik yeni saldırı başlatıldı",
+              "url": "https://www.cumhuriyet.com.tr/turkiye/abd-nin-saldiri-tehdidinin-ardindan-hurmuz-bogazi-cevresinde-patlama-sesleri-2534140",
+              "source_id": "cumhuriyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:28:16.353870+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8118582963943481,
+            "article": {
+              "title": "EE.UU. vuelve a atacar objetivos militares en Irán como represalia por su bloqueo en Ormuz",
+              "url": "https://www.lavanguardia.com/internacional/20260901/11624944/ee-uu-vuelve-atacar-objetivos-militares-iran-represalia-bloqueo-ormuz.html",
+              "source_id": "lavanguardia.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:48.201320+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8114386796951294,
+            "article": {
+              "title": "USA greifen erneut Ziele der Revolutionsgarden im Iran an",
+              "url": "https://www.diepresse.com/41223831/usa-greifen-erneut-ziele-der-revolutionsgarden-im-iran-an",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:03.908336+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8007919192314148,
+            "article": {
+              "title": "Trump vows to hit Iran 'hard' after first exchange of fire in weeks",
+              "url": "https://www.sbs.com.au/news/article/trump-vows-to-hit-iran-hard-after-first-exchange-of-fire-in-weeks/zphcz24e9",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:27:52.032461+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7869108319282532,
+            "article": {
+              "title": "US-Israel war on Iran US launches new airstrikes on Iranian targets as hostilities flare",
+              "url": "https://www.theguardian.com/world/2026/sep/01/us-iran-airstrikes-launch",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:25:36.030853+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7863520383834839,
+            "article": {
+              "title": "Iran and US exchange fire after US strikes Larak Island",
+              "url": "https://georgiatoday.ge/iran-and-us-exchange-fire-after-us-strikes-larak-island/",
+              "source_id": "georgiatoday.ge",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:29:22.829000+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7833042144775391,
+            "article": {
+              "title": "Trump says US is carrying out ‘large and powerful’ strikes on Iranian targets near Hormuz",
+              "url": "https://www.azernews.az/region/263244.html",
+              "source_id": "azernews.az",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:29:28.463865+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7820106744766235,
+            "article": {
+              "title": "Trump threatens to ‘hit Iran hard’ after new flare-up",
+              "url": "https://www.rt.com/news/644946-trump-hit-iran-hard/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:29:10.475717+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7815471291542053,
+            "article": {
+              "title": "US and Iran trade tit-for-tat strikes as fears of a wider conflict grow",
+              "url": "https://www.sbs.com.au/news/article/us-and-iran-trade-tit-for-tat-strikes-as-fears-of-a-wider-conflict-grow/wtbabqpvx",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:27:52.032461+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7774783968925476,
+            "article": {
+              "title": "USA zasáhly další íránské cíle, Teherán udeřil na Jordánsko",
+              "url": "https://ct24.ceskatelevize.cz/clanek/svet/americke-sily-zahajily-dalsi-utoky-na-iranske-cile-vybuchy-hlasi-ostrov-kesm-377170",
+              "source_id": "ct24.ceskatelevize.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:28:52.094887+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7773735523223877,
+            "article": {
+              "title": "দক্ষিণ ইরানে নতুন করে যুক্তরাষ্ট্রের ব্যাপক হামলা",
+              "url": "https://www.prothomalo.com/world/middle-east/tu9n15y1dc",
+              "source_id": "prothomalo.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:31:22.521499+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7764694690704346,
+            "article": {
+              "title": "Ticker vor 4 Stunden Iran-Krieg: USA greifen erneut Ziele in Iran an +++ Trump droht Iran mit weiteren Angriffen",
+              "url": "https://www.nzz.ch/international/iran-krieg-irans-revolutionsgarden-wollen-volle-kontrolle-ueber-strasse-von-hormuz-haben-durch-die-strasse-von-hormuz-fahren-wieder-mehr-schiffe-ld.10021246",
+              "source_id": "nzz.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:10.866224+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7731467485427856,
+            "article": {
+              "title": "Middle East live: US military striking targets in Iran after attempted attacks on shipping",
+              "url": "https://www.france24.com/en/middle-east/20260901-middle-east-live-oil-prices-extend-gains-as-us-iran-tensions-flare-again",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:39.045359+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7714978456497192,
+            "article": {
+              "title": "‘Hit them hard’: Does Trump have another ‘new’ Iran strategy, can it work?",
+              "url": "https://www.aljazeera.com/news/2026/9/1/hit-them-hard-does-trump-have-another-new-iran-strategy-can-it-work",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:28:05.730285+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7669327259063721,
+            "article": {
+              "title": "Sirens sound in Jordan as Iran launches retaliatory strikes against US targets in Middle East",
+              "url": "https://www.jpost.com/middle-east/article-907279",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:28:08.613220+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7594470977783203,
+            "article": {
+              "title": "Нефть резко подорожала на фоне новых ударов США по Ирану",
+              "url": "https://tengrinews.kz/world_news/neft-rezko-podorojala-na-fone-novyih-udarov-ssha-po-iranu-607561/",
+              "source_id": "tengrinews.kz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:29:25.085448+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7588443756103516,
+            "article": {
+              "title": "Trump mulls resuming Iran war after first strikes in weeks",
+              "url": "https://www.newarab.com/news/trump-mulls-resuming-iran-war-after-first-strikes-weeks",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:28:20.332355+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7536880970001221,
+            "article": {
+              "title": "Latest: Trump warns Iran will be hit harder if it retaliates to US strikes",
+              "url": "https://www.thenationalnews.com/news/mena/2026/09/01/live-us-iran-hormuz/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:28:07.285294+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7515580654144287,
+            "article": {
+              "title": "إيران تطلق \"عملية حاسمة\" رداً على القصف الأميركي... وترامب يلوّح بـ\"الهجوم الأكبر\"",
+              "url": "https://www.annahar.com/international/iran/343358/أكسيوس-الولايات-المتحدة-تنفذ-هجمات-على-أهداف-إيرانية-قرب-مضيق-هرمز",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:28:36.994935+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7515225410461426,
+            "article": {
+              "title": "Kikötőket és reptereket támadott az amerikai légierő Iránban",
+              "url": "https://telex.hu/kulfold/2026/09/01/amerikai-irani-haboru-legicsapasok-hormuzi-szoros-kesm-sziget",
+              "source_id": "telex.hu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:28:44.977350+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7504903078079224,
+            "article": {
+              "title": "Will the latest US-Iran escalation lead to renewed war?",
+              "url": "https://www.newarab.com/news/will-latest-us-iran-escalation-lead-renewed-war",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:28:20.332355+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7495637536048889,
+            "article": {
+              "title": "Iran says it responded with missiles to US attack despite Trump’s threats",
+              "url": "https://www.aljazeera.com/news/2026/9/1/us-military-says-launching-new-attacks-on-iran",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:28:05.730285+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7482368350028992,
+            "article": {
+              "title": "Trump warns of ‘biggest attack of them all’ in threat to Tehran after fresh strikes",
+              "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-kharg-oil-jordan-airbase-b3042455.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:25:33.183946+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.747874915599823,
+            "article": {
+              "title": "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control",
+              "url": "https://www.pbs.org/newshour/show/u-s-and-iran-trade-strikes-for-first-time-in-weeks-over-strait-of-hormuz-control",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:30:42.335353+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7452229261398315,
+            "article": {
+              "title": "CENTCOM begins wave of strikes on Iran in retaliation for targeting of US troops in region",
+              "url": "https://www.jpost.com/middle-east/iran-news/article-907267",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:28:08.613220+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7443428039550781,
+            "article": {
+              "title": "Trump afirma que acordos de paz com Irã não valem nada, e Estados Unidos atacam o país",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/09/eua-fazem-novo-ataque-contra-o-ira-apos-ameacas-de-trump.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:27:17.854131+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7128216028213501,
+            "article": {
+              "title": "What the latest U.S.-Iran strikes mean for oil supplies and maritime safety",
+              "url": "https://www.pbs.org/newshour/show/what-the-latest-u-s-iran-strikes-mean-for-oil-supplies-and-maritime-safety",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:30:42.335353+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7014681100845337,
+            "article": {
+              "title": "At least four people killed in Iran when a US strike hit a house where a wedding was taking place",
+              "url": "https://www.channelnewsasia.com/world/least-four-people-killed-in-iran-when-us-strike-hit-house-where-wedding-was-taking-place-6355866",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:32:05.961158+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6919667720794678,
+            "article": {
+              "title": "Iran hævder at have dræbt amerikanske soldater",
+              "url": "https://politiken.dk/internationalt/art10501159/Iran-h%C3%A6vder-at-have-dr%C3%A6bt-amerikanske-soldater",
+              "source_id": "politiken.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:14.379803+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 109.33142901347183,
+        "size": 44,
+        "n_sources": 34,
+        "n_continents": 5,
+        "continents": [
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America"
+        ],
+        "coherence": 0.8117170929908752,
+        "title": "Germany accuses Russia of drone attack on Leipzig airport",
+        "central_article": {
+          "title": "Germany accuses Russia of drone attack on Leipzig airport",
+          "url": "https://www.aljazeera.com/news/2026/9/1/germany-accuses-russia-of-drone-attack-on-leipzig-airport",
+          "source_id": "aljazeera.com",
+          "continent": "Middle East",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-01T21:28:05.730285+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9424890279769897,
+            "article": {
+              "title": "Germany accuses Russia of drone attack on Leipzig airport",
+              "url": "https://www.aljazeera.com/news/2026/9/1/germany-accuses-russia-of-drone-attack-on-leipzig-airport",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:28:05.730285+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.942272424697876,
+            "article": {
+              "title": "Germany blames Russia for attempted drone attack at Leipzig airport",
+              "url": "https://www.pbs.org/newshour/world/germany-blames-russia-for-attempted-drone-attack-at-leipzig-airport",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:30:42.335353+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9404890537261963,
+            "article": {
+              "title": "Germany officially blames Russia for drone attack attempt at Leipzig airport.",
+              "url": "https://kyivindependent.com/germany-officially-blames-russia-for-drone-attack-attempt-at-leipzig-airport/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:29:03.461185+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9304910898208618,
+            "article": {
+              "title": "Germany says Russia behind Leipzig airport drone attack",
+              "url": "https://www.bbc.com/news/articles/c5ylm3m67n2o",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:25:31.884748+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9303009510040283,
+            "article": {
+              "title": "Alemania acusa a Rusia de un ataque con drones en el aeropuerto de Leipzig",
+              "url": "https://www.bbc.com/mundo/articles/c9dwey5qv1po",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:57.712357+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9286986589431763,
+            "article": {
+              "title": "Alemania señala a Rusia como responsable del ataque con drones en el aeropuerto de Leipzig",
+              "url": "https://www.lavanguardia.com/internacional/20260901/11624890/alemania-senala-rusia-responsable-ataque-drones-aeropuerto-leipzig.html",
+              "source_id": "lavanguardia.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:48.201320+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.924400806427002,
+            "article": {
+              "title": "Tyskland giver Rusland skylden for dronehændelse i Leipzig",
+              "url": "https://www.dr.dk/nyheder/udland/tyskland-giver-rusland-skylden-dronehaendelse-i-leipzig",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:25.012399+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9194437265396118,
+            "article": {
+              "title": "Germany says Russia was behind last month’s attempted drone attack at Leipzig airport",
+              "url": "https://www.irishtimes.com/world/europe/2026/09/01/germany-says-russia-was-behind-last-months-attempted-drone-attack-at-leipzig-airport/",
+              "source_id": "irishtimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:28:04.522081+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9158463478088379,
+            "article": {
+              "title": "Germany accuses Moscow of drone attack on Leipzig airport",
+              "url": "https://www.thetimes.com/world/europe/article/germany-russia-leipzig-airport-drone-attack-sanctions-j0xtq279r",
+              "source_id": "thetimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:25:34.704885+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8948097229003906,
+            "article": {
+              "title": "Duitse regering wijst Rusland aan als dader van een mislukte aanslag met drones in Leipzig en treft sancties",
+              "url": "https://www.nrc.nl/nieuws/2026/09/01/duitse-regering-wijst-rusland-aan-als-dader-van-een-mislukte-aanslag-met-drones-in-leipzig-en-treft-sancties-a4935580",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:25:44.425516+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8792012929916382,
+            "article": {
+              "title": "Germany blames Russia for Leipzig airport drone attack, orders Russian consulate closed",
+              "url": "https://www.france24.com/en/europe/20260901-germany-blames-russia-for-leipzig-airport-drone-attack-orders-russian-consulate-closed",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:39.045359+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8726591467857361,
+            "article": {
+              "title": "Duitse regering gaat ervan uit dat drone in Leipzig uit Rusland kwam",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5646564/drone-luchthaven-leipzig-waarschijnlijk-van-rusland-russen",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:25:46.475319+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8641648888587952,
+            "article": {
+              "title": "Germany blames Russia for airport drone incident, hits back with sanctions",
+              "url": "https://www.france24.com/en/germany-blames-russia-for-airport-drone-incident-hits-back-with-sanctions",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:39.045359+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8641176223754883,
+            "article": {
+              "title": "Duitsland Duitse regering houdt Rusland verantwoordelijk voor mislukte droneaanval in Leipzig en neemt sancties",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/09/01/beschuldigt-duitsland-rusland-van-mislukte-aanslag-in-leipzig/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:42.270674+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8598851561546326,
+            "article": {
+              "title": "Drohnen-Anschlagsversuch in Leipzig: Bundesregierung macht Russland verantwortlich",
+              "url": "https://www.diepresse.com/41223767/drohnen-anschlagsversuch-in-leipzig-bundesregierung-macht-russland-verantwortlich",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:03.908336+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8466051816940308,
+            "article": {
+              "title": "Alemania acusa a Rusia del ataque con dron en Leipzig y cierra el último consulado ruso en el país",
+              "url": "https://www.rtve.es/noticias/20260901/alemania-acusa-rusia-del-ataque-con-dron-leipzig-cierra-ultimo-consulado-ruso-pais/17208778.shtml",
+              "source_id": "rtve.es",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:50.767625+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8424581289291382,
+            "article": {
+              "title": "Bundesregierung: Russland für Drohnen-Anschlagsversuch in Leipzig verantwortlich",
+              "url": "https://www.tagesschau.de/eilmeldung/bundesregierung-drohne-flughafen-leipzig-halle-russland-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:25:50.274038+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8373001217842102,
+            "article": {
+              "title": "L’Allemagne accuse la Russie d’avoir piloté une tentative d’attentat à Leipzig",
+              "url": "https://www.lemonde.fr/international/article/2026/09/01/l-allemagne-accuse-la-russie-d-avoir-pilote-une-tentative-d-attentat-a-leipzig_6763526_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:34.205547+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8278760313987732,
+            "article": {
+              "title": "Germany blames Russia for drone incursion, announces retaliatory measures",
+              "url": "https://www.politico.eu/article/germany-blames-russia-leipzig-drone-attack-retaliatory-measures/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:25:41.413848+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.826248824596405,
+            "article": {
+              "title": "Duitse regering neemt maatregelen tegen Moskou na drone-actie Leipzig",
+              "url": "https://fd.nl/politiek/1610588/duitse-regering-neemt-maatregelen-tegen-moskou-na-drone-actie-leipzig",
+              "source_id": "fd.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:25:48.307713+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8211168050765991,
+            "article": {
+              "title": "L'Allemagne désigne la Russie comme responsable pour le drone explosif découvert à Leipzig Menaces hybrides aujourd'hui à",
+              "url": "https://www.rts.ch/info/monde/2026/article/drone-explosif-a-leipzig-l-allemagne-designe-la-russie-29344790.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:40.743743+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8111864328384399,
+            "article": {
+              "title": "Drohnenangriff in Leipzig: Russland war’s!",
+              "url": "https://www.zeit.de/politik/deutschland/2026-09/drohne-angriff-leipzig-flughafen-bundesregierung-russland",
+              "source_id": "zeit.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:09.194835+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8075407147407532,
+            "article": {
+              "title": "Russian envoy calls German measures over Leipzig drone incident unprecedented escalation",
+              "url": "https://tass.com/politics/2180717",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:29:14.375397+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8033967018127441,
+            "article": {
+              "title": "Ebrahim Noroozi/AP Tyskland pekar ut Ryssland för drönarincident Flög vid Leipzigs flygplats.",
+              "url": "https://www.dn.se/varlden/tyskland-vantas-peka-ut-ryssland-for-dronarincident-pa-flygplats/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:16.155416+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.789391040802002,
+            "article": {
+              "title": "Német belügyminiszter: orosz megbízásból támadhatták meg drónnal a lipcsei repteret",
+              "url": "https://telex.hu/kulfold/2026/09/01/lipcsei-repter-drontamadas-oroszok",
+              "source_id": "telex.hu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:28:44.977350+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.784795880317688,
+            "article": {
+              "title": "Drohnenvorfall in Leipzig – Strafmaßnahmen gegen Russland",
+              "url": "https://www.zeit.de/thema/drohne",
+              "source_id": "zeit.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:09.194835+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.782008171081543,
+            "article": {
+              "title": "Von der Leyen vows response to Russian drone incident in Germany",
+              "url": "https://www.euronews.com/my-europe/2026/09/01/von-der-leyen-pledges-response-to-russian-hybrid-attacks-ahead-of-rutte-meeting",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:25:40.233118+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7661019563674927,
+            "article": {
+              "title": "Putin anklager Tyskland for at plante beviser for droneangreb",
+              "url": "https://politiken.dk/internationalt/art10537513/Putin-anklager-Tyskland-for-at-plante-beviser-for-droneangreb",
+              "source_id": "politiken.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:14.379803+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.761409342288971,
+            "article": {
+              "title": "Almanya'dan Rusya'ya dron saldırısı suçlaması... Rus Konsolosluğu ve Moskova'daki Rus evi kapatılacak",
+              "url": "https://www.hurriyet.com.tr/dunya/almanyadan-rusyaya-dron-saldirisi-suclamasi-rus-konsoloslugu-ve-moskovadaki-rus-evi-kapatilacak-43292682",
+              "source_id": "hurriyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:28:14.874788+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7578005194664001,
+            "article": {
+              "title": "Германия официально обвинила Россию в организации атаки в аэропорту Лейпцига 1 сентября",
+              "url": "https://novayagazeta.eu/articles/2026/09/01/germaniia-ofitsialno-obvinila-rossiiu-v-organizatsii-ataki-v-aeroportu-leiptsiga-news",
+              "source_id": "novayagazeta.eu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:29:06.321344+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7568895816802979,
+            "article": {
+              "title": "Berlin sanktioniert Russland «Nicht im Krieg, aber täglich Ziel» Berlin macht Russland für den Drohnen-Vorfall in Leipzig verantwortlich. Und beschliesst massvolle Massnahmen. Analyse von Alexandra Gubser Deutschland-Korrespondentin",
+              "url": "https://www.srf.ch/news/international/berlin-sanktioniert-russland-nicht-im-krieg-aber-taeglich-ziel",
+              "source_id": "srf.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:12.601017+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7550357580184937,
+            "article": {
+              "title": "Anschlagsversuch in Leipzig: Russland weist Vorwürfe zu Leipziger Drohnenvorfall zurück",
+              "url": "https://www.zeit.de/politik/ausland/2026-09/russland-drohnenangriff-flughafen-leipzig-halle-konsulat-kulturzentrum",
+              "source_id": "zeit.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:09.194835+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7508515119552612,
+            "article": {
+              "title": "Putin beskylder Tyskland for at plante beviser efter dronehændelse",
+              "url": "https://www.dr.dk/nyheder/udland/putin-beskylder-tyskland-plante-beviser-efter-dronehaendelse",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:25.012399+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7481913566589355,
+            "article": {
+              "title": "Almanya: Leipzig Havalimanı saldırısının sorumlusu Rusya'nın Bonn'daki konsolosluğu kapatılacak",
+              "url": "https://www.milliyet.com.tr/dunya/almanya-leipzig-havalimani-saldirisinin-sorumlusu-rusya-rus-konsoloslugu-kapatilacak-7652447",
+              "source_id": "milliyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:28:17.979412+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7372642755508423,
+            "article": {
+              "title": "Tensione tra Berlino e Mosca. «A Lipsia attacco russo con droni esplosivi, atto di guerra ibrida»|",
+              "url": "https://www.corriere.it/esteri/26_settembre_01/la-germania-accusa-la-russia-i-droni-esplosivi-all-aeroporto-di-lipsia-sono-stati-un-atto-di-guerra-ibrida-sul-suolo-tedesco-bac7d7e6-0cd3-4ede-9b8f-1e2e1ffafxlk.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:55.185125+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.729234516620636,
+            "article": {
+              "title": "Moscow dismisses ‘fabricated’ German drone incident claims",
+              "url": "https://www.rt.com/news/644982-germany-russia-embassy-drone/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:29:10.475717+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7203632593154907,
+            "article": {
+              "title": "Sprengstoffdrohne am Flughafen Leipzig/Halle: Bundesregierung schließt Russisches Haus und Generalkonsulat in Bonn",
+              "url": "https://www.zeit.de/politik/deutschland/2026-09/bundesregierung-schliesst-russisches-generalkonsulat-in-bonn-gxe",
+              "source_id": "zeit.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:09.194835+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7118321061134338,
+            "article": {
+              "title": "Maxime Prévot exprime sa solidarité avec l’Allemagne suite à l’attaque de drone déjouée à Leipzig",
+              "url": "https://www.lesoir.be/768442/article/2026-09-01/maxime-prevot-exprime-sa-solidarite-avec-lallemagne-suite-lattaque-de-drone",
+              "source_id": "lesoir.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:46.501740+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7090327739715576,
+            "article": {
+              "title": "Funke Mediengruppe Sprengstoffdrohne Drohnen-Vorfall am Flughafen Leipzig/Halle: Spur führt offenbar nach Russland",
+              "url": "https://www.abendblatt.de/politik/article413023590/drohnen-vorfall-am-flughafen-leipzighalle-spur-fuehrt-offenbar-nach-russland.html",
+              "source_id": "abendblatt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:07.554381+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7001599669456482,
+            "article": {
+              "title": "Funke Mediengruppe Neue Ermittlungserkenntnisse Dobrindt: Russland verantwortlich für versuchten Anschlag in Leipzig",
+              "url": "https://www.abendblatt.de/politik/article413030769/dobrindt-russland-verantwortlich-fuer-versuchten-anschlag-in-leipzig.html",
+              "source_id": "abendblatt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:07.554381+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6909520030021667,
+            "article": {
+              "title": "Sådan vil Tyskland ramme Rusland",
+              "url": "https://www.dr.dk/nyheder/udland/live-tysk-regering-giver-status-paa-dronesag?focusId=12356772",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:25.012399+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6901209354400635,
+            "article": {
+              "title": "«Η Ρωσία πίσω από το drone με εκρηκτικά στο αεροδρόμιο της Λειψίας» 1 ώρα πριν",
+              "url": "https://www.tovima.gr/2026/09/01/world/germania-i-rosia-piso-apo-tin-apopeira-sto-aerodromio-tis-leipsias-koino-metopo-ee-nato/",
+              "source_id": "tovima.gr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:56.564651+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6872349381446838,
+            "article": {
+              "title": "Ukraine confirms drone strike on Russia’s Ust-Luga port.",
+              "url": "https://kyivindependent.com/ukrainian-drones-damage-russias-ust-luga-port-governor-says/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:29:03.461185+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6538835763931274,
+            "article": {
+              "title": "Drohnenanschlag in Leipzig: Wie die Ermittler herausfanden, woher die Drohne kam",
+              "url": "https://www.zeit.de/politik/ausland/2026-09/drohne-anschlag-leipzig-flughafen-sprengstoff",
+              "source_id": "zeit.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:09.194835+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 89.25996819107883,
+        "size": 26,
+        "n_sources": 17,
+        "n_continents": 9,
+        "continents": [
+          "Africa",
+          "China",
+          "East Asia",
+          "Europe East",
           "Europe North",
           "Europe South",
           "North America",
           "South America",
           "South Asia"
         ],
-        "coherence": 0.784565806388855,
+        "coherence": 0.7922230362892151,
         "title": "Nepal flood death toll crosses 1,000, rescuers reach remote areas",
         "central_article": {
           "title": "Nepal flood death toll crosses 1,000, rescuers reach remote areas",
@@ -25,1822 +1084,1156 @@
           "source_id": "straitstimes.com",
           "continent": "East Asia",
           "published_at": null,
-          "scraped_at_utc": "2026-09-01T12:13:08.765012+00:00"
+          "scraped_at_utc": "2026-09-01T21:32:27.884868+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8861268758773804,
+            "sim_to_centroid": 0.8768768310546875,
             "article": {
               "title": "Nepal flood death toll crosses 1,000, rescuers reach remote areas",
               "url": "https://www.straitstimes.com/asia/nepal-rescuers-reach-remote-areas-electricity-restored-nearly-a-week-after-devastating-floods?ref=top-stories",
               "source_id": "straitstimes.com",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:13:08.765012+00:00"
+              "scraped_at_utc": "2026-09-01T21:32:27.884868+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8703262805938721,
+            "sim_to_centroid": 0.8625405430793762,
             "article": {
-              "title": "Nepal death toll crosses 1,000 as rescuers race to find workers trapped in mud-filled tunnels",
-              "url": "https://www.bbc.com/news/articles/c5ylvgq9q71o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:05:32.078246+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8424065113067627,
-            "article": {
-              "title": "Death toll from catastrophic Nepal-China floods surpasses 1,000",
-              "url": "https://www.theglobeandmail.com/world/article-death-toll-from-catastrophic-nepal-china-floods-surpasses-1000/",
-              "source_id": "theglobeandmail.com",
+              "title": "Mass burials in Nepal as death toll from flash floods exceeds 1,000",
+              "url": "https://apnews.com/article/nepal-flash-floods-death-toll-tibet-china-835459b2978adcd2b3bcf6e0595aee6c",
+              "source_id": "apnews.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:08:04.670807+00:00"
+              "scraped_at_utc": "2026-09-01T21:30:09.198825+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8374582529067993,
+            "sim_to_centroid": 0.8555854558944702,
             "article": {
-              "title": "Nepal rescue teams seek hundreds of workers trapped in hydropower tunnels by deadly floods",
-              "url": "https://www.france24.com/en/asia-pacific/20260831-nepal-rescue-teams-seek-hundreds-of-workers-trapped-in-hydropower-tunnels-by-deadly-floods",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:43.445329+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.830019474029541,
-            "article": {
-              "title": "Nepal flood survivors rebuild as search for thousands continues",
-              "url": "https://www.channelnewsasia.com/shorts/nepal-flood-survivors-rebuild-search-thousands-continues-6354516",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:12:46.259549+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8294495344161987,
-            "article": {
-              "title": "Glacial flood death toll surpasses 1,000 in Nepal and Tibet",
+              "title": "Nepal-Tibet flood death toll surpasses 1,000",
               "url": "https://www.france24.com/en/asia-pacific/20260831-glacial-flood-death-toll-surpasses-900-in-nepal-and-tibet",
               "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:43.445329+00:00"
+              "scraped_at_utc": "2026-09-01T21:26:39.045359+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8220996856689453,
+            "sim_to_centroid": 0.848262369632721,
             "article": {
-              "title": "Nepal: Stories of loss and anguish after deadly flood",
-              "url": "https://www.channel4.com/news/nepal-stories-of-loss-and-anguish-after-deadly-flood",
+              "title": "Nepal deaths cross 1,000 as rescuers continue search for hundreds trapped in tunnels",
+              "url": "https://www.rt.com/news/644975-nepal-deaths-cross-1000/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:29:10.475717+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8307824730873108,
+            "article": {
+              "title": "Nepali families hold symbolic funerals for missing after floods",
+              "url": "https://www.channelnewsasia.com/world/nepali-families-symbolic-funerals-missing-floods-6354221",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:32:05.961158+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8300408124923706,
+            "article": {
+              "title": "Nepal-Tibet deadly floods: Thousands missing, including hundreds of foreign tourists",
+              "url": "https://www.france24.com/en/asia-pacific/20260826-hundreds-of-foreign-nationals-missing-in-nepal-tibet-landslides",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:39.045359+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8261654376983643,
+            "article": {
+              "title": "Nepal-Tibet flood rescue effort continues as hundreds feared trapped",
+              "url": "https://www.channel4.com/news/nepal-tibet-flood-rescue-effort-continues-as-hundreds-feared-trapped",
               "source_id": "channel4.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:05:37.837584+00:00"
+              "scraped_at_utc": "2026-09-01T21:25:38.666828+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8170863389968872,
+            "sim_to_centroid": 0.8190930485725403,
+            "article": {
+              "title": "After the floods, Nepal works to bury hundreds of washed-up unidentified bodies",
+              "url": "https://www.france24.com/en/after-the-floods-nepal-works-to-bury-hundreds-of-washed-up-unidentified-bodies",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:39.045359+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8171223998069763,
+            "article": {
+              "title": "More than a thousand dead and thousands more missing: The Nepal-China flooding in numbers",
+              "url": "https://www.egyptindependent.com/more-than-a-thousand-dead-and-thousands-more-missing-the-nepal-china-flooding-in-numbers/",
+              "source_id": "egyptindependent.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:30:03.905449+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8094902038574219,
             "article": {
               "title": "Nepal-Tibet toll tops 1,000 as tunnel rescue offers last hope",
               "url": "https://www.channelnewsasia.com/asia/nepal-tibet-toll-1000-rescue-tunnel-6354286",
               "source_id": "channelnewsasia.com",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:12:46.259549+00:00"
+              "scraped_at_utc": "2026-09-01T21:32:05.961158+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8095566034317017,
-            "article": {
-              "title": "Dodental overstromingen Nepal en Tibet boven de 1000",
-              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5646507/dodental-overstromingen-nepal-tibet-boven-1000",
-              "source_id": "rtl.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:05:46.166335+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8086780309677124,
-            "article": {
-              "title": "'We're coming to get them': Rescuers pin hopes on underground spaces after deadly Nepal floods",
-              "url": "https://www.channelnewsasia.com/asia/rescuers-pin-hopes-underground-spaces-nepal-floods-6354076",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:12:46.259549+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8055723905563354,
-            "article": {
-              "title": "Nepal e Tibete: passa de mil o número de mortos; 4.462 estão desaparecidos",
-              "url": "https://oglobo.globo.com/mundo/noticia/2026/09/01/passa-de-mil-o-numero-de-mortos-apos-deslizamento-de-terra-entre-o-nepal-e-a-china.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:07:33.893654+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8037477135658264,
-            "article": {
-              "title": "Faces of the flood: Nepalis search photos of the dead for relatives",
-              "url": "https://www.thetimes.com/world/asia/article/nepal-floods-news-latest-tibet-z7vwccjjj",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:05:34.858540+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8021571636199951,
-            "article": {
-              "title": "Death toll surges to 1,003 in Nepal; nearly 4,000 still missing",
-              "url": "https://www.thehindu.com/news/international/nepal-flash-floods-live-updates-death-toll-persons-missing-rescue-relief-september-1-2026/article71413472.ece",
-              "source_id": "thehindu.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:11:56.379159+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7998504638671875,
-            "article": {
-              "title": "Nepal-Tibet flood disaster Nepal-Tibet flood deaths pass 1,000 as police ask relatives for DNA to identify victims",
-              "url": "https://www.theguardian.com/world/2026/sep/01/nepal-tibet-flood-deaths-police-relatives-dna-identification",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:05:36.182777+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.79927659034729,
+            "sim_to_centroid": 0.8035989999771118,
             "article": {
               "title": "Nepal flood death toll rises to 987, nearly 4,000 still missing",
               "url": "https://kathmandupost.com/national/2026/09/01/nepal-flood-death-toll-rises-to-987-nearly-4-000-still-missing",
               "source_id": "kathmandupost.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:12:10.927579+00:00"
+              "scraped_at_utc": "2026-09-01T21:31:30.992851+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7923730611801147,
+            "sim_to_centroid": 0.7978979349136353,
             "article": {
-              "title": "Nepal y China elevan a mil los muertos por la riada masiva mientras buscan a más de 4.000 desaparecidos",
-              "url": "https://www.rtve.es/noticias/20260901/nepal-china-muertos-riada-masiva-desaparecidos/17207836.shtml",
-              "source_id": "rtve.es",
+              "title": "Inondations dans l’Himalaya : le bilan dépasse désormais le millier de morts au Népal",
+              "url": "https://www.lemonde.fr/international/article/2026/09/01/inondations-dans-l-himalaya-le-bilan-depasse-desormais-le-millier-de-morts-au-nepal_6763178_3211.html",
+              "source_id": "lemonde.fr",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:56.476574+00:00"
+              "scraped_at_utc": "2026-09-01T21:26:34.205547+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7911864519119263,
+            "sim_to_centroid": 0.7895123362541199,
             "article": {
-              "title": "After the floods, Nepal's survivors look to rebuilding their lives",
-              "url": "https://www.france24.com/en/after-the-floods-nepal-s-survivors-look-to-rebuilding-their-lives",
-              "source_id": "france24.com",
-              "continent": "Europe South",
+              "title": "Nepal flood survivors fear loss of culture and community",
+              "url": "https://apnews.com/article/nepal-floods-survivors-losing-culture-tibet-china-0dfa9b08dc7e6568485d4832e880d503",
+              "source_id": "apnews.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:43.445329+00:00"
+              "scraped_at_utc": "2026-09-01T21:30:09.198825+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7896989583969116,
-            "article": {
-              "title": "Cifra de fallecidos por riada entre Nepal y China sigue en aumento y supera los 1.000",
-              "url": "https://www.emol.com/noticias/Internacional/2026/09/01/1210139/cifra-fallecidos-riada-nepal-mil.html",
-              "source_id": "emol.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:07:28.359481+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7895091772079468,
-            "article": {
-              "title": "tragédia na ásia Nepaleses afixam cartazes em busca de desaparecidos após desastre ambiental no país; número de vítimas passa de 1.000, e há mais de 4.000 desaparecidos - Monika Malla/Reuters",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/09/avalanche-entre-nepal-e-china-deixou-mais-de-1000-mortos-numero-de-desaparecidos-ultrapassa-4000.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:07:31.005620+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7894004583358765,
-            "article": {
-              "title": "The floods keep coming. Nepal keeps starting over",
-              "url": "https://kathmandupost.com/national/2026/08/31/the-floods-keep-coming-nepal-keeps-starting-over",
-              "source_id": "kathmandupost.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:12:10.927579+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7844295501708984,
-            "article": {
-              "title": "Nepal disaster: Fake and AI images flood social media as deaths mount",
-              "url": "https://www.france24.com/en/nepal-disaster-fake-and-ai-images-flood-social-media-as-deaths-mount",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:43.445329+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7764727473258972,
+            "sim_to_centroid": 0.7789112329483032,
             "article": {
               "title": "What is the progress in the search for workers trapped in Nepal’s flooded hydropowers?",
               "url": "https://kathmandupost.com/national/2026/09/01/what-is-the-progress-in-the-search-for-workers-trapped-in-nepal-s-flooded-hydropower-tunnels",
               "source_id": "kathmandupost.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:12:10.927579+00:00"
+              "scraped_at_utc": "2026-09-01T21:31:30.992851+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7696332931518555,
+            "sim_to_centroid": 0.7784526348114014,
             "article": {
-              "title": "Nepal: si scava per recuperare 900 lavoratori intrappolati nei tunnel degli impianti idroelettrici",
-              "url": "https://www.corriere.it/esteri/26_agosto_31/devastazione-in-nepal-si-scava-per-ritrovare-i-lavoratori-intrappolati-una-bambina-estratta-viva-787c0fc3-125a-4345-94a1-1f5637631xlk.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:07:01.181699+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7688518762588501,
-            "article": {
-              "title": "Hundreds of foreign nationals missing in wake of Nepal-Tibet landslides",
-              "url": "https://www.france24.com/en/asia-pacific/20260826-hundreds-of-foreign-nationals-missing-in-nepal-tibet-landslides",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:43.445329+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7634531259536743,
-            "article": {
-              "title": "More countries join Nepal flood rescue efforts",
-              "url": "https://kathmandupost.com/national/2026/08/31/more-countries-join-nepal-flood-rescue-efforts",
-              "source_id": "kathmandupost.com",
+              "title": "Nepal PM links devastating flash floods to climate change as death toll crosses 1,050",
+              "url": "https://www.thehindu.com/news/international/nepal-flash-floods-live-updates-death-toll-persons-missing-rescue-relief-september-1-2026/article71413472.ece",
+              "source_id": "thehindu.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:12:10.927579+00:00"
+              "scraped_at_utc": "2026-09-01T21:31:16.226329+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7605783939361572,
-            "article": {
-              "title": "Zahl der Toten nach Sturzflut im Himalaya steigt auf 1.000",
-              "url": "https://www.tagesschau.de/ausland/asien/himalaya-nepal-sturzflut-tote-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:05:50.953577+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7553336024284363,
-            "article": {
-              "title": "Hundreds trapped in Nepal hydropower plant’s blocked tunnels",
-              "url": "https://www.channel4.com/news/hundreds-trapped-in-nepal-hydropower-plants-blocked-tunnels",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:05:37.837584+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7440035939216614,
-            "article": {
-              "title": "La carrera contrarreloj para rescatar a más de 600 obreros de hidroeléctricas atrapados en túneles tras la avalancha en Nepal y Tíbet",
-              "url": "https://www.bbc.com/mundo/articles/c07lkdn73zyo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:07:04.765379+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.743151068687439,
-            "article": {
-              "title": "Nach der Flutkatastrophe Mehr als tausend Tote in Nepal – Gesundheitsgefahren wachsen Rettungskräfte kämpfen im Himalaya gegen Zeit und Wetter. Hinzu kommen erschwerte hygienische Bedingungen.",
-              "url": "https://www.srf.ch/news/international/nach-der-flutkatastrophe-mehr-als-tausend-tote-in-nepal-gesundheitsgefahren-wachsen",
-              "source_id": "srf.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:11.523747+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7419191598892212,
+            "sim_to_centroid": 0.7764282822608948,
             "article": {
               "title": "Nepal’s wall of missing offers last hope after glacial flash flood destruction",
               "url": "https://www.japantimes.co.jp/news/2026/09/01/asia-pacific/society/nepal-wall-missing-himalayas-flood/",
               "source_id": "japantimes.co.jp",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:12:47.924532+00:00"
+              "scraped_at_utc": "2026-09-01T21:32:07.352963+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.737406849861145,
+            "sim_to_centroid": 0.7729506492614746,
             "article": {
-              "title": ". geleden • Buitenland Dodental Nepal boven de 1000, 'hoop op redden van mensen eigenlijk opgegeven'",
-              "url": "https://nos.nl/artikel/2629256-dodental-nepal-boven-de-1000-hoop-op-redden-van-mensen-eigenlijk-opgegeven",
-              "source_id": "nos.nl",
-              "continent": "Europe North",
+              "title": "Rescuers battle debris, mud at Nepal hydropower tunnel as families hold ‘hope’",
+              "url": "https://www.hindustantimes.com/india-news/rescuers-battle-flood-debris-mud-at-nepal-hydropower-tunnel-as-victims-families-say-we-still-have-hope-101788268271641.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:05:42.538982+00:00"
+              "scraped_at_utc": "2026-09-01T21:31:18.137213+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7362401485443115,
+            "sim_to_centroid": 0.7705376148223877,
+            "article": {
+              "title": "UN Women estimates 43,000 women and girls in Nepal need urgent flood assistance",
+              "url": "https://kathmandupost.com/national/2026/09/01/un-women-estimates-43-000-women-and-girls-in-nepal-need-urgent-flood-assistance",
+              "source_id": "kathmandupost.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:31:30.992851+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7654731273651123,
+            "article": {
+              "title": "Nepal steps up diplomatic push for support after floods",
+              "url": "https://kathmandupost.com/national/2026/09/01/nepal-steps-up-diplomatic-push-for-support-after-floods",
+              "source_id": "kathmandupost.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:31:30.992851+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7641663551330566,
             "article": {
               "title": "Residents of flood-ravaged town in Nepal return home",
               "url": "https://www.channelnewsasia.com/shorts/residents-flood-ravaged-town-in-nepal-return-home-6354796",
               "source_id": "channelnewsasia.com",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:12:46.259549+00:00"
+              "scraped_at_utc": "2026-09-01T21:32:05.961158+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.714621901512146,
+            "sim_to_centroid": 0.7639004588127136,
             "article": {
-              "title": "Le bilan de la crue au Népal dépasse désormais les 1000 morts Drame dans l'Himalaya aujourd'hui à",
-              "url": "https://www.rts.ch/info/monde/2026/article/nepal-le-bilan-de-la-crue-depasse-les-1-000-morts-29343929.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:45.580646+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6992406845092773,
-            "article": {
-              "title": "More than 1,000 dead and nearly 4,500 missing",
-              "url": "https://apnews.com/article/nepal-flash-floods-death-toll-tibet-china-835459b2978adcd2b3bcf6e0595aee6c",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:10:46.087904+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6484877467155457,
-            "article": {
-              "title": "SOCIETY Rasuwa flood death toll reaches 1,000",
-              "url": "https://myrepublica.nagariknetwork.com/news/rasuwa-flood-death-toll-reaches-1000-86-86.html",
-              "source_id": "myrepublica.nagariknetwork.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:12:15.536048+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 65.87021118789853,
-        "size": 16,
-        "n_sources": 14,
-        "n_continents": 7,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "Oceania",
-          "South Asia"
-        ],
-        "coherence": 0.8205437660217285,
-        "title": "Trump vows to hit Iran 'hard' after first exchange of fire in weeks",
-        "central_article": {
-          "title": "Trump vows to hit Iran 'hard' after first exchange of fire in weeks",
-          "url": "https://www.sbs.com.au/news/article/trump-vows-to-hit-iran-hard-after-first-exchange-of-fire-in-weeks/zphcz24e9",
-          "source_id": "sbs.com.au",
-          "continent": "Oceania",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-01T12:08:07.525527+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9178200960159302,
-            "article": {
-              "title": "Trump vows to hit Iran 'hard' after first exchange of fire in weeks",
-              "url": "https://www.sbs.com.au/news/article/trump-vows-to-hit-iran-hard-after-first-exchange-of-fire-in-weeks/zphcz24e9",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:08:07.525527+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9091058969497681,
-            "article": {
-              "title": "Trump vows to hit Iran hard after first exchanges of fire in a month",
-              "url": "https://kathmandupost.com/world/2026/09/01/trump-vows-to-hit-iran-hard-after-first-exchanges-of-fire-in-a-month",
-              "source_id": "kathmandupost.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:12:10.927579+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9021074771881104,
-            "article": {
-              "title": "Trump Vows to Hit Iran ‘Hard’ After First Fresh Strikes in a Month",
-              "url": "https://time.com/article/2026/08/31/us-iran-strikes-larak-island/",
-              "source_id": "time.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:11:19.450039+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8907359838485718,
-            "article": {
-              "title": "After a month-long lull in violence, Trump vows to hit Iran hard",
-              "url": "https://www.newarab.com/news/after-month-long-lull-violence-trump-vows-hit-iran-hard",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:08:37.464074+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8795424699783325,
-            "article": {
-              "title": "Trump threatens to ‘hit Iran hard’ after new flare-up",
-              "url": "https://www.rt.com/news/644946-trump-hit-iran-hard/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:09:30.095119+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8549339771270752,
-            "article": {
-              "title": "Trump vows retaliation after Iranian strikes on US bases",
-              "url": "https://www.thenationalnews.com/news/us/2026/08/31/trump-vows-response-to-latest-iran-attacks-on-us-bases/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:08:22.547102+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8354811072349548,
-            "article": {
-              "title": "‘Hit them hard’: Does Trump have another ‘new’ Iran strategy, can it work?",
-              "url": "https://www.aljazeera.com/news/2026/9/1/hit-them-hard-does-trump-have-another-new-iran-strategy-can-it-work",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:08:20.878119+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8287583589553833,
-            "article": {
-              "title": "Trump mulls resuming Iran war after first strikes in weeks",
-              "url": "https://www.newarab.com/news/trump-mulls-resuming-iran-war-after-first-strikes-weeks",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:08:37.464074+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7959181070327759,
-            "article": {
-              "title": "US and Iran trade strikes and threats as conflict heats up again",
-              "url": "https://www.channel4.com/news/us-and-iran-trade-strikes-and-threats-as-conflict-heats-up-again",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:05:37.837584+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7878154516220093,
-            "article": {
-              "title": "ٹرمپ کی اردن میں کارروائی کے جواب میں ایران پر شدید حملوں کی دھمکی",
-              "url": "https://www.nawaiwaqt.com.pk/01-Sep-2026/2024283",
-              "source_id": "nawaiwaqt.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:12:14.306471+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7802051305770874,
-            "article": {
-              "title": "ٹرمپ کا ایران کو ’سخت جواب‘ دینے کا اعلان",
-              "url": "https://jang.com.pk/news/1560993",
-              "source_id": "jang.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:12:12.189769+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7617233991622925,
-            "article": {
-              "title": "‘A day late & a dollar short’: US official on Iran as Trump mulls strikes again",
-              "url": "https://www.hindustantimes.com/world-news/always-a-day-late-and-a-dollar-short-us-official-on-iran-as-trump-considers-limited-strikes-again-amid-deal-deadlock-101788257285498.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:11:57.652158+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7612037658691406,
-            "article": {
-              "title": "Trump: «Colpiremo duro in Iran, ma senza atomiche» |",
-              "url": "https://www.corriere.it/esteri/diretta-live/26_settembre_01/guerra-usa-iran-le-notizie-in-diretta-gli-stati-uniti-bombardano-postazioni-iraniane-sull-isola-di-larak-teheran-risponde.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:07:01.181699+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7588270306587219,
-            "article": {
-              "title": "ترامب يضرب إيران ويدعو إلى التفاوض... استراتيجية أم ارتباك؟",
-              "url": "https://www.annahar.com/articles/annahar-writers/343236/ترامب-يضرب-إيران-ويدعو-إلى-التفاوض-استراتيجية-أم-ارتباك",
-              "source_id": "annahar.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:08:53.204561+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7539501786231995,
-            "article": {
-              "title": "Will the latest US-Iran escalation lead to renewed war?",
-              "url": "https://www.newarab.com/news/will-latest-us-iran-escalation-lead-renewed-war",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:08:37.464074+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7105720043182373,
-            "article": {
-              "title": "U.S. and Iran trade strikes for first time in weeks over Strait of Hormuz control",
-              "url": "https://www.pbs.org/newshour/show/u-s-and-iran-trade-strikes-for-first-time-in-weeks-over-strait-of-hormuz-control",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:11:22.119017+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 62.12049708877002,
-        "size": 21,
-        "n_sources": 18,
-        "n_continents": 6,
-        "continents": [
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "South America"
-        ],
-        "coherence": 0.7893889546394348,
-        "title": "Russischer Angriff auf die Ukraine - mindestens 12 Tote",
-        "central_article": {
-          "title": "Russischer Angriff auf die Ukraine - mindestens 12 Tote",
-          "url": "https://www.tagesschau.de/ausland/europa/russische-angriffe-ukraine-108.html",
-          "source_id": "tagesschau.de",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-01T12:05:50.953577+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8853614330291748,
-            "article": {
-              "title": "Russischer Angriff auf die Ukraine - mindestens 12 Tote",
-              "url": "https://www.tagesschau.de/ausland/europa/russische-angriffe-ukraine-108.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:05:50.953577+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.875525951385498,
-            "article": {
-              "title": "'Massive' Russian missile and drone attack on Kyiv kills 12",
-              "url": "https://www.euronews.com/my-europe/2026/09/01/at-least-four-people-killed-as-russia-launches-nighttime-ballistic-missile-attacks-targeti",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:05:39.358014+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8680856823921204,
-            "article": {
-              "title": "Une attaque russe \"massive\" fait 12 morts à Kiev et dans sa région",
-              "url": "https://www.rts.ch/info/monde/2026/article/guerre-en-ukraine-une-frappe-russe-fait-12-morts-a-kiev-29343998.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:45.580646+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8569329977035522,
-            "article": {
-              "title": "Russian drone and missile barrage kills at least 12 in Ukraine’s Kyiv",
-              "url": "https://www.aljazeera.com/news/2026/9/1/russian-drone-and-missile-barrage-kills-at-least-12-in-ukraines-kyiv",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:08:20.878119+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8269277811050415,
-            "article": {
-              "title": "Deadly Russian air attack hits energy and rail infrastructure in Kyiv",
-              "url": "https://www.france24.com/en/europe/20260901-live-deadly-russian-air-attack-hits-railway-depot-in-kyiv",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:43.445329+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8094277381896973,
-            "article": {
-              "title": "Kyiv, Odesa hardest hit in overnight Russian attack as 16 killed, 54 injured across Ukraine.",
-              "url": "https://kyivindependent.com/kyiv-odesa-hardest-hit-in-overnight-russian-attack-that-killed-16-injured-54-across-ukraine/",
-              "source_id": "kyivindependent.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:09:22.159960+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.806666374206543,
-            "article": {
-              "title": "12 killed in Kyiv and suburbs, including 6 rail workers, as Russia’s barrage enters 6th day.",
-              "url": "https://kyivindependent.com/russia-attacks-kyiv-for-another-night-as-explosions-fires-hit-ukraines-capital/",
-              "source_id": "kyivindependent.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:09:22.159960+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7962431907653809,
-            "article": {
-              "title": "Valentyn Ogirenko / Valentyn Ogirenko / Reuters / NTB Sju drept i russiske angrep i Kyiv Krigen i Ukraina Følg saken",
-              "url": "https://www.nrk.no/nyheter/krigen-i-ukraina-1.11480927",
-              "source_id": "nrk.no",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:24.579346+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7901514768600464,
-            "article": {
-              "title": "Россия нанесла удар по Киеву и Киевской области. Погибли больше десяти человек",
-              "url": "https://meduza.io/news/2026/09/01/rossiya-nanesla-udar-po-kievu-i-kievskoy-oblasti-pogibli-bolshe-desyati-chelovek",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:09:23.278345+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7884565591812134,
-            "article": {
-              "title": "Rusia a folosit un nou tip de armă pentru a lovi intens Ucraina. Zeci de morți, distrugeri și goana Kievului pentru a găsi un răspuns",
-              "url": "https://hotnews.ro/rusia-a-folosit-un-nou-tip-de-arma-pentru-a-lovi-intens-ucraina-zeci-de-morti-distrugeri-si-goana-kievului-pentru-a-gasi-un-raspuns-2338256",
-              "source_id": "hotnews.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:09:04.967829+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7809915542602539,
-            "article": {
-              "title": "Doden en gewonden door Russische aanvallen, zesde nacht op rij",
-              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5646539/doden-gewonden-russische-aanvallen-zesde-nacht-op-rij",
-              "source_id": "rtl.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:05:46.166335+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7765458822250366,
-            "article": {
-              "title": "Drone and missile strikes kill 19 in Russia and Ukraine",
-              "url": "https://www.france24.com/en/europe/20260816-drone-and-missile-strikes-kill-19-in-russia-and-ukraine",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:43.445329+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7714102268218994,
-            "article": {
-              "title": "國際 俄國無人機及彈道飛彈夜襲 基輔12死21傷",
-              "url": "https://www.cna.com.tw/news/aopl/202609010330.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:13:14.168872+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7654842138290405,
-            "article": {
-              "title": "37 people killed after Russian attack on Ukrainian warehouse",
-              "url": "https://www.channel4.com/news/37-people-killed-after-russian-attack-on-ukrainian-warehouse",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:05:37.837584+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7560967206954956,
-            "article": {
-              "title": "Russia is targeting ‘the daily life activities of people’ in Ukraine",
-              "url": "https://www.channel4.com/news/russia-is-targeting-the-daily-life-activities-of-people-in-ukraine",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:05:37.837584+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7538297772407532,
-            "article": {
-              "title": "Atak rakietowy w Kijowie. Celem zajezdnia kolejowa. Są ofiary śmiertelne",
-              "url": "https://wyborcza.pl/7,75399,32998060,atak-rakietowy-w-kijowie-celem-zajezdnia-kolejowa-sa-ofiary.html",
-              "source_id": "wyborcza.pl",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:08:59.959456+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7515630125999451,
-            "article": {
-              "title": "Twaalf doden na Russische aanvallen, ‘nieuwe drones met straalmotor lastiger te onderscheppen’",
-              "url": "https://www.nrc.nl/nieuws/2026/09/01/twaalf-doden-na-russische-aanvallen-nieuwe-drones-met-straalmotor-lastiger-te-onderscheppen-a4935554",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:05:44.416409+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7403695583343506,
-            "article": {
-              "title": "Número de mortos em ataque russo à Ucrânia sobe para 38, na incursão mais letal da guerra neste ano",
-              "url": "https://www.estadao.com.br/internacional/numero-de-mortos-em-ataque-russo-a-ucrania-sobe-para-38-na-incursao-mais-letal-da-guerra-neste-ano/",
-              "source_id": "estadao.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:07:35.437509+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7322942018508911,
-            "article": {
-              "title": "Rússia provoca 12 mortes na 6ª noite seguida de ataques a Kiev Moscou condena exercício dos EUA com Japão e Austrália e promete resposta 'devastadora'",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/09/russia-mata-12-na-6a-noite-seguida-de-ataques-a-kiev.shtml",
+              "title": "tragédia na ásia Nepaleses afixam cartazes em busca de desaparecidos após desastre ambiental no país; número de vítimas passa de 1.000, e há mais de 4.000 desaparecidos - Monika Malla/Reuters",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/09/avalanche-entre-nepal-e-china-deixou-mais-de-1000-mortos-numero-de-desaparecidos-ultrapassa-4000.shtml",
               "source_id": "folha.uol.com.br",
               "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:07:31.005620+00:00"
+              "scraped_at_utc": "2026-09-01T21:27:17.854131+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.729600191116333,
+            "sim_to_centroid": 0.7557518482208252,
             "article": {
-              "title": "Ukraine Hits Russia’s Biggest Baltic Port as 516 Drones Reportedly Swarm Russian Skies",
-              "url": "https://www.kyivpost.com/post/83481",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
+              "title": "Nepali families hold symbolic funerals for the missing",
+              "url": "https://www.bangkokpost.com/world/3312049/nepali-families-hold-symbolic-funerals-for-the-missing",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:09:20.231940+00:00"
+              "scraped_at_utc": "2026-09-01T21:32:23.374842+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7152023911476135,
+            "sim_to_centroid": 0.7465155720710754,
             "article": {
-              "title": "Russia’s air defenses destroy 13 Ukrainian smart bombs, 1,050 UAVs over past day",
-              "url": "https://tass.com/politics/2180397",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:09:38.435118+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 42.58528022986783,
-        "size": 14,
-        "n_sources": 12,
-        "n_continents": 5,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "North America",
-          "Oceania"
-        ],
-        "coherence": 0.8314328193664551,
-        "title": "Un ancien membre de gang reconnu coupable du meurtre de Tupac Shakur",
-        "central_article": {
-          "title": "Un ancien membre de gang reconnu coupable du meurtre de Tupac Shakur",
-          "url": "https://www.rts.ch/info/monde/2026/article/tupac-shakur-un-ex-membre-de-gang-reconnu-coupable-29343876.html",
-          "source_id": "rts.ch",
-          "continent": "Europe South",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-01T12:06:45.580646+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9303199052810669,
-            "article": {
-              "title": "Un ancien membre de gang reconnu coupable du meurtre de Tupac Shakur",
-              "url": "https://www.rts.ch/info/monde/2026/article/tupac-shakur-un-ex-membre-de-gang-reconnu-coupable-29343876.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:45.580646+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.878995418548584,
-            "article": {
-              "title": "Ex-Compton gang leader found guilty in murder of Tupac Shakur",
-              "url": "https://www.latimes.com/california/story/2026-08-31/jury-in-tupac-murder-case-deliberates-charge-against-duane-davis",
-              "source_id": "latimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:11:09.110840+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.858512282371521,
-            "article": {
-              "title": "Mord an US-Rapper Tupac: Ex-Gangmitglied schuldig gesprochen",
-              "url": "https://www.zdfheute.de/panorama/kriminalitaet/mord-prozess-tupac-shakur-angeklagter-schuldig-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:02.561560+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8555456399917603,
-            "article": {
-              "title": "Decades After Tupac Shakur’s Murder, a Talkative Gang Member Is Convicted",
-              "url": "https://www.nytimes.com/2026/08/31/arts/music/tupac-shakur-murder-duane-davis-guilty-convicted.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:10:47.487144+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8541303873062134,
-            "article": {
-              "title": "Duane ‘Keffe D’ Davis Found Guilty of Tupac Shakur’s Murder",
-              "url": "https://time.com/article/2026/09/01/duane-davis-tupac-shakur-1996-killing-guilty-verdict/",
-              "source_id": "time.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:11:19.450039+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8452858924865723,
-            "article": {
-              "title": "Declaran a Duane Davis culpable del asesinato del rapero Tupac Shakur hace 30 años",
-              "url": "https://www.bbc.com/mundo/articles/c99dy5yr2yjo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:07:04.765379+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8448360562324524,
-            "article": {
-              "title": "Voormalig bendeleider dertig jaar na dato schuldig bevonden aan moord op hiphoplegende Tupac",
-              "url": "https://www.nrc.nl/nieuws/2026/09/01/voormalig-bendeleider-dertig-jaar-na-dato-schuldig-bevonden-aan-moord-op-hiphoplegende-tupac-a4935549",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:05:44.416409+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8424251079559326,
-            "article": {
-              "title": "Duane 'Keffe D' Davis found guilty in Tupac Shakur murder",
-              "url": "https://www.france24.com/en/americas/20260901-duane-keffe-d-davis-found-guilty-in-tupac-shakur-murder",
+              "title": "Melting Himalayas? Nepal disaster exposes growing risk of glacial flooding",
+              "url": "https://www.france24.com/en/tv-shows/the-debate/20260831-melting-himalayas-nepal-disaster-exposes-growing-risk-of-glacial-flooding",
               "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:43.445329+00:00"
+              "scraped_at_utc": "2026-09-01T21:26:39.045359+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8284024000167847,
+            "sim_to_centroid": 0.744369387626648,
             "article": {
-              "title": "Присяжные признали бывшего лидера уличной банды виновным по делу об убийстве Тупака Шакура",
-              "url": "https://meduza.io/news/2026/09/01/prisyazhnye-priznali-byvshego-lidera-ulichnoy-bandy-vinovnym-po-delu-ob-ubiystve-tupaka-shakura",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
+              "title": "Zahl der Toten nach Sturzflut im Himalaya steigt auf 1.000",
+              "url": "https://www.tagesschau.de/ausland/asien/himalaya-nepal-sturzflut-tote-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:09:23.278345+00:00"
+              "scraped_at_utc": "2026-09-01T21:25:50.274038+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8275818824768066,
+            "sim_to_centroid": 0.7341854572296143,
             "article": {
-              "title": "Why ‘Keffe D’ was convicted of murder in Tupac Shakur’s killing",
-              "url": "https://apnews.com/article/tupac-shakur-murder-trial-4f0260f89d0b55647844d30559c309d3",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:10:46.087904+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7999436855316162,
-            "article": {
-              "title": "Quién era el rapero Tupac Shakur, cómo fue asesinado y por qué tardaron 30 años en declarar un culpable del crimen",
-              "url": "https://www.bbc.com/mundo/articles/c0rdxzg102zo",
+              "title": "Cómo fueron los últimos minutos antes de que las inundaciones arrasaran la frontera entre Nepal y China",
+              "url": "https://www.bbc.com/mundo/articles/cqxv9xq7qy0o",
               "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:07:04.765379+00:00"
+              "scraped_at_utc": "2026-09-01T21:26:57.712357+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7881078720092773,
+            "sim_to_centroid": 0.6791866421699524,
             "article": {
-              "title": "Who Is the Former Gang Member Convicted in Shakur’s Death?",
-              "url": "https://www.nytimes.com/2026/08/31/arts/music/duane-davis-keffe-d-tupac-murder.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
+              "title": "截至当地时间9月1日17时，尼泊尔泥石流灾害造成的遇难人数升至1066人",
+              "url": "https://www.stnn.cc/detail/6a96d3a4b4b06b3f17dbd65f.html",
+              "source_id": "stnn.cc",
+              "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:10:47.487144+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7491807341575623,
-            "article": {
-              "title": "Three decades after Tupac's death, a jury has reached a verdict",
-              "url": "https://www.sbs.com.au/news/article/three-decades-after-tupacs-death-a-jury-has-reached-a-verdict/8pqm0uyip",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:08:07.525527+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7367905378341675,
-            "article": {
-              "title": "SAUL LOEB / AFP,NTB Tidligere gjengleder kjent skyldig i drapet på Tupac Shakur USA Følg saken",
-              "url": "https://www.nrk.no/nyheter/usa-1.12873918",
-              "source_id": "nrk.no",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:24.579346+00:00"
+              "scraped_at_utc": "2026-09-01T21:31:05.966548+00:00"
             }
           }
         ]
       },
       {
-        "score": 40.48380559689122,
-        "size": 8,
-        "n_sources": 8,
+        "score": 86.28061014011108,
+        "size": 17,
+        "n_sources": 17,
         "n_continents": 7,
         "continents": [
           "Europe East",
-          "Europe North",
+          "Europe South",
           "Middle East",
           "North America",
           "Oceania",
           "South America",
           "South Asia"
         ],
-        "coherence": 0.835110068321228,
-        "title": "'It hurts': Lionel Messi announces international retirement after World Cup final defeat",
+        "coherence": 0.835696280002594,
+        "title": "Abaten en pleno Times Square a mujer que asesinó a vicepresidenta de Bank of America",
         "central_article": {
-          "title": "'It hurts': Lionel Messi announces international retirement after World Cup final defeat",
-          "url": "https://www.sbs.com.au/news/article/lionel-messi-announces-international-retirement-after-word-cup-final-defeat/8yeovhjfw",
-          "source_id": "sbs.com.au",
-          "continent": "Oceania",
+          "title": "Abaten en pleno Times Square a mujer que asesinó a vicepresidenta de Bank of America",
+          "url": "https://www.emol.com/noticias/Internacional/2026/09/01/1210214/ataque-times-square-bank-america.html",
+          "source_id": "emol.com",
+          "continent": "South America",
           "published_at": null,
-          "scraped_at_utc": "2026-09-01T12:08:07.525527+00:00"
+          "scraped_at_utc": "2026-09-01T21:27:15.354455+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8988549709320068,
+            "sim_to_centroid": 0.9081857204437256,
             "article": {
-              "title": "'It hurts': Lionel Messi announces international retirement after World Cup final defeat",
-              "url": "https://www.sbs.com.au/news/article/lionel-messi-announces-international-retirement-after-word-cup-final-defeat/8yeovhjfw",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:08:07.525527+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8960031270980835,
-            "article": {
-              "title": "Argentina’ Messi retires from international football",
-              "url": "https://pajhwok.com/2026/09/01/argentina-messi-retires-from-international-football/",
-              "source_id": "pajhwok.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:12:16.848020+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8897737264633179,
-            "article": {
-              "title": "Messi announces retirement from international football: “I have nothing left to give”",
-              "url": "https://georgiatoday.ge/messi-has-announced-his-retirement-from-international-football/",
-              "source_id": "georgiatoday.ge",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:09:47.921467+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8323565721511841,
-            "article": {
-              "title": "Messi (39) stopt bij nationale elftal Argentinië, de verloren WK-finale tegen Spanje was zijn laatste interland",
-              "url": "https://www.nrc.nl/nieuws/2026/08/31/messi-39-stopt-bij-nationale-elftal-argentinie-verloren-wk-finale-tegen-spanje-laatste-interland-a4935533",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:05:44.416409+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8210228681564331,
-            "article": {
-              "title": "Leo Messi ogłasza pożegnanie. „Zabieram ze sobą niezapomniane wspomnienia i chwile”",
-              "url": "https://sport.rp.pl/pilka-nozna/art45078831-leo-messi-oglasza-pozegnanie-zabieram-ze-soba-niezapomniane-wspomnienia-i-chwile",
-              "source_id": "rp.pl",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:09:16.079711+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7976429462432861,
-            "article": {
-              "title": "‘Gracias para toda la vida’: las reacciones del fútbol al retiro de Lionel Messi",
-              "url": "https://www.laestrella.com.pa/deportes/futbol/gracias-para-toda-la-vida-las-reacciones-del-futbol-al-retiro-de-lionel-messi-GG25326264",
-              "source_id": "laestrella.com.pa",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:07:19.691581+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7952640056610107,
-            "article": {
-              "title": "\"Fin de la magia\". Así reflejaron las tapas de los diarios del mundo el retiro de Messi de la selección argentina",
-              "url": "https://www.lanacion.com.ar/deportes/futbol/asi-reflejaron-los-diarios-del-mundo-el-retiro-de-messi-de-la-seleccion-argentina-el-mejor-de-la-nid01092026/",
-              "source_id": "lanacion.com.ar",
+              "title": "Abaten en pleno Times Square a mujer que asesinó a vicepresidenta de Bank of America",
+              "url": "https://www.emol.com/noticias/Internacional/2026/09/01/1210214/ataque-times-square-bank-america.html",
+              "source_id": "emol.com",
               "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:07:22.268348+00:00"
+              "scraped_at_utc": "2026-09-01T21:27:15.354455+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7499624490737915,
+            "sim_to_centroid": 0.9073637127876282,
             "article": {
-              "title": "Messi: Trophies, heartache and the greatest World Cup player",
-              "url": "https://www.thenationalnews.com/sport/football/2026/09/01/lionel-messi-by-the-numbers-trophies-heartache-and-the-greatest-world-cup-player-in-history/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:08:22.547102+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 39.78461930021494,
-        "size": 12,
-        "n_sources": 12,
-        "n_continents": 5,
-        "continents": [
-          "Europe North",
-          "Europe South",
-          "North America",
-          "Oceania",
-          "South America"
-        ],
-        "coherence": 0.8178271651268005,
-        "title": "What's behind the 'biggest oil deal in world history' Trump is touting with Venezuela?",
-        "central_article": {
-          "title": "What's behind the 'biggest oil deal in world history' Trump is touting with Venezuela?",
-          "url": "https://www.sbs.com.au/news/article/donald-trump-venezuela-biggest-oil-deal/rah3xlmvi",
-          "source_id": "sbs.com.au",
-          "continent": "Oceania",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-01T12:08:07.525527+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9077971577644348,
-            "article": {
-              "title": "What's behind the 'biggest oil deal in world history' Trump is touting with Venezuela?",
-              "url": "https://www.sbs.com.au/news/article/donald-trump-venezuela-biggest-oil-deal/rah3xlmvi",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:08:07.525527+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8872851133346558,
-            "article": {
-              "title": "Trump announces ‘biggest oil deal in world history’ with Venezuela",
-              "url": "https://www.channel4.com/news/trump-announces-biggest-oil-deal-in-world-history-with-venezuela",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:05:37.837584+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8608734011650085,
-            "article": {
-              "title": "Trump vows US will take 'all' of Venezuela's oil as deal details emerge",
-              "url": "https://www.euronews.com/business/2026/09/01/trump-vows-us-will-take-all-of-venezuelas-oil-as-deal-details-emerge",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:05:39.358014+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8564345836639404,
-            "article": {
-              "title": "En qué consiste el \"mayor acuerdo petrolero de la historia\" anunciado por EE.UU. y Venezuela, y por qué es tan polémico",
-              "url": "https://www.bbc.com/mundo/articles/c783xln84p1o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:07:04.765379+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8343093395233154,
-            "article": {
-              "title": "Así son las claves del polémico acuerdo petrolero entre Venezuela y Estados Unidos",
-              "url": "https://www.semana.com/mundo/articulo/asi-son-las-claves-del-polemico-acuerdo-petrolero-entre-venezuela-y-estados-unidos/202643/",
-              "source_id": "semana.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:07:25.477360+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8154976963996887,
-            "article": {
-              "title": "How the Pentagon Is Getting Into the Venezuelan Oil Business Under Trump",
-              "url": "https://www.nytimes.com/2026/08/31/us/politics/pentagon-venezuela-oil.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:10:47.487144+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7980588674545288,
-            "article": {
-              "title": "Energie USA veröffentlichen Details zu Öldeal mit Venezuela",
-              "url": "https://www.handelsblatt.com/politik/international/energie-usa-veroeffentlichen-details-zu-oeldeal-mit-venezuela/100251103.html",
-              "source_id": "handelsblatt.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:05:55.394262+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7907204627990723,
-            "article": {
-              "title": "Erklärt Trump greift nach Venezuelas Erdöl. Doch das ist ein riskantes Spiel",
-              "url": "https://www.nzz.ch/wirtschaft/trump-greift-nach-venezuelas-erdoel-die-wichtigsten-antworten-zum-deal-zwischen-den-usa-und-venezuela-ld.10021711",
-              "source_id": "nzz.ch",
+              "title": "La mujer apuñalada mortalmente en Times Square era una directiva de Bank of America",
+              "url": "https://www.lavanguardia.com/internacional/20260901/11624986/mujer-apunalada-mortalmente-times-square-directiva-bank-of-america.html",
+              "source_id": "lavanguardia.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:08.217641+00:00"
+              "scraped_at_utc": "2026-09-01T21:26:48.201320+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7860260605812073,
+            "sim_to_centroid": 0.9006130695343018,
             "article": {
-              "title": "EUA vão comprar petróleo da Venezuela pelo preço de custo e terão 100 anos de concessão",
-              "url": "https://oglobo.globo.com/economia/noticia/2026/09/01/eua-vao-comprar-petroleo-da-venezuela-pelo-preco-de-custo-e-terao-100-anos-de-concessao-veja-detalhes.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
+              "title": "Woman fatally stabbed in Times Square was Bank of America VP",
+              "url": "https://www.usatoday.com/story/news/crime/2026/09/01/erin-piacenti-bank-of-america-vice-president-killed/91562650007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:07:33.893654+00:00"
+              "scraped_at_utc": "2026-09-01T21:30:36.384595+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7855076789855957,
+            "sim_to_centroid": 0.8916707634925842,
             "article": {
-              "title": "As Trump pivots to Venezuela for energy, U.S. big oil and big money invest in Canada",
-              "url": "https://www.theglobeandmail.com/business/commentary/article-trump-pivots-venezuela-energy-us-big-oil-money-invest-canada/",
+              "title": "Bank of America vice-president Erin Piacenti killed in Times Square stabbing",
+              "url": "https://www.theglobeandmail.com/business/article-times-square-stabbing-erin-piacenti-bank-of-america/",
               "source_id": "theglobeandmail.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:08:04.670807+00:00"
+              "scraped_at_utc": "2026-09-01T21:27:49.369758+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7499257326126099,
+            "sim_to_centroid": 0.8890565037727356,
             "article": {
-              "title": "US-Deal mit Venezuela Große Zweifel an Trumps Ölversprechen",
-              "url": "https://www.tagesschau.de/ausland/amerika/usa-venezuela-oel-deal-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:05:50.953577+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7414894104003906,
-            "article": {
-              "title": "¿Qué significa el “histórico” acuerdo que da a EE.UU. acceso a 65.000 millones de barriles?",
-              "url": "https://elcomercio.pe/mundo/venezuela/donald-trump-y-el-petroleo-de-venezuela-que-se-sabe-hasta-ahora-del-acuerdo-que-da-a-estados-unidos-acceso-a-65000-millones-de-barriles-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:07:38.723960+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 34.44608296140971,
-        "size": 9,
-        "n_sources": 9,
-        "n_continents": 4,
-        "continents": [
-          "China",
-          "Europe North",
-          "Oceania",
-          "South Asia"
-        ],
-        "coherence": 0.8911752700805664,
-        "title": "Keir Starmer trækker sig fra det britiske parlament",
-        "central_article": {
-          "title": "Keir Starmer trækker sig fra det britiske parlament",
-          "url": "https://www.dr.dk/nyheder/seneste/keir-starmer-traekker-sig-fra-det-britiske-parlament",
-          "source_id": "dr.dk",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-01T12:06:26.266535+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9398084878921509,
-            "article": {
-              "title": "Keir Starmer trækker sig fra det britiske parlament",
-              "url": "https://www.dr.dk/nyheder/seneste/keir-starmer-traekker-sig-fra-det-britiske-parlament",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:26.266535+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9298940896987915,
-            "article": {
-              "title": "Keir Starmer to stand down as MP",
-              "url": "https://www.irishtimes.com/world/uk/2026/09/01/keir-starmer-to-stand-down-as-mp/",
-              "source_id": "irishtimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:08:19.731278+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8895817995071411,
-            "article": {
-              "title": "Just nu Starmer lämnar även parlamentet",
-              "url": "https://www.svt.se/nyheter/utrikes/starmer-lamnar-aven-parlamentet",
-              "source_id": "svt.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:22.929753+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8842625617980957,
-            "article": {
-              "title": "Former British PM Keir Starmer to leave politics, UK media reports",
-              "url": "https://www.abc.net.au/news/2026-09-01/keir-starmer-to-stand-down-as-mp/107104952",
-              "source_id": "abc.net.au",
+              "title": "Bank of America vice president killed in Times Square stabbing",
+              "url": "https://www.smh.com.au/business/companies/bank-of-america-vice-president-killed-in-times-square-stabbing-20260902-p60tkv.html",
+              "source_id": "smh.com.au",
               "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:08:06.092840+00:00"
+              "scraped_at_utc": "2026-09-01T21:27:53.524600+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8840776085853577,
+            "sim_to_centroid": 0.8832392692565918,
             "article": {
-              "title": "After resigning as UK PM, Keir Starmer to stand down as MP: ‘Will focus on…’",
-              "url": "https://www.hindustantimes.com/world-news/after-resigning-as-uk-pm-keir-starmer-to-stand-down-as-mp-101788263604078.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:11:57.652158+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8811012506484985,
-            "article": {
-              "title": "Verden Keir Starmer vil trekke seg fra Parlamentet",
-              "url": "https://www.aftenposten.no/verden/i/BxdJ87/keir-starmer-vil-trekke-seg-fra-parlamentet",
-              "source_id": "aftenposten.no",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:18.008281+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8793143033981323,
-            "article": {
-              "title": "UK ex-PM Starmer to quit parliament, focus on ‘international affairs’",
-              "url": "https://www.scmp.com/news/world/europe/article/3366013/uk-ex-pm-starmer-quit-parliament-focus-international-affairs?module=latest&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:11:23.373861+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8695038557052612,
-            "article": {
-              "title": "Keir Starmer will force by-election after quitting as member of parliament",
-              "url": "https://www.politico.eu/article/keir-starmer-will-force-by-election-after-quitting-as-member-of-parliament/",
-              "source_id": "politico.eu",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:05:41.186742+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8630333542823792,
-            "article": {
-              "title": "Just nu: Starmer avgår som parlamentsledamot",
-              "url": "https://www.dn.se/direkt/2026-09-01/starmer-avgar-som-parlamentsledamot/",
-              "source_id": "dn.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:16.341965+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 31.35452966868492,
-        "size": 8,
-        "n_sources": 8,
-        "n_continents": 4,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "North America",
-          "South America"
-        ],
-        "coherence": 0.8959245681762695,
-        "title": "Supreme Court lets White House continue construction on Trump’s $400 million ballroom",
-        "central_article": {
-          "title": "Supreme Court lets White House continue construction on Trump’s $400 million ballroom",
-          "url": "https://apnews.com/article/trump-white-house-ballroom-supreme-court-6b9434af0a2dbeffa0ca19f5cdf7d775",
-          "source_id": "apnews.com",
-          "continent": "North America",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-01T12:10:46.087904+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.954787015914917,
-            "article": {
-              "title": "Supreme Court lets White House continue construction on Trump’s $400 million ballroom",
-              "url": "https://apnews.com/article/trump-white-house-ballroom-supreme-court-6b9434af0a2dbeffa0ca19f5cdf7d775",
-              "source_id": "apnews.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:10:46.087904+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9512181878089905,
-            "article": {
-              "title": "Supreme Court clears way for Trump to keep building White House ballroom",
-              "url": "https://www.bbc.com/news/articles/c9w457e7ydlo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:05:32.078246+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9227479696273804,
-            "article": {
-              "title": "Curtea Supremă îi permite lui Trump să continue construcția sălii de bal de 400 de milioane de dolari",
-              "url": "https://www.g4media.ro/curtea-suprema-ii-permite-lui-trump-sa-continue-constructia-salii-de-bal-de-400-de-milioane-de-dolari.html",
-              "source_id": "g4media.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:09:14.748865+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9006566405296326,
-            "article": {
-              "title": "White House Ballroom Construction Can Proceed, Supreme Court Says",
-              "url": "https://www.nytimes.com/2026/08/31/us/politics/supreme-court-trump-ballroom.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:10:47.487144+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8795885443687439,
-            "article": {
-              "title": "Corte Suprema de EE.UU. da luz verde a Trump para que construya un salón de baile en la Casa Blanca",
-              "url": "https://elcomercio.pe/mundo/eeuu/corte-suprema-de-estados-unidos-da-luz-verde-a-donald-trump-para-que-construya-un-salon-de-baile-en-la-casa-blanca-tribunal-supremo-ultimas-noticia/",
-              "source_id": "elcomercio.pe",
+              "title": "Identifican a una de las víctimas del ataque en Times Square: era vicepresidenta de Bank of America",
+              "url": "https://www.eltiempo.com/mundo/eeuu-y-canada/identifican-a-una-de-las-victimas-del-ataque-en-times-square-era-vicepresidenta-de-bank-of-america-3582723",
+              "source_id": "eltiempo.com",
               "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:07:38.723960+00:00"
+              "scraped_at_utc": "2026-09-01T21:27:11.176927+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8719070553779602,
+            "sim_to_centroid": 0.8792470097541809,
             "article": {
-              "title": "News Wrap: Supreme Court allows Trump ballroom construction to continue amid challenges",
-              "url": "https://www.pbs.org/newshour/show/news-wrap-supreme-court-allows-trump-ballroom-construction-to-continue-amid-challenges",
+              "title": "Вице-президент Bank of America погибла от удара ножом на Таймс-сквер",
+              "url": "https://www.kommersant.ru/doc/8923525?from=top_main_7",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:29:12.670686+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8553556203842163,
+            "article": {
+              "title": "Quem foi Erin Piacenti, vice-presidente do Bank of America morta a facadas na Times Square, em NY",
+              "url": "https://oglobo.globo.com/mundo/noticia/2026/09/01/quem-foi-erin-piacenti-vice-presidente-do-bank-of-america-morta-em-ataque-a-faca-em-ny.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:27:20.266056+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.850843071937561,
+            "article": {
+              "title": "Bank of America'nın üst düzey yöneticisi Times Meydanı’ndaki bıçaklı saldırıda öldürüldü",
+              "url": "https://www.hurriyet.com.tr/dunya/bank-of-americanin-ust-duzey-yoneticisi-times-meydanindaki-bicakli-saldirida-olduruldu-43292768",
+              "source_id": "hurriyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:28:14.874788+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8457583785057068,
+            "article": {
+              "title": "New York, la donna uccisa a Times Square era Erin Piacenti: vicepresidente di Bank of America",
+              "url": "https://www.corriere.it/esteri/26_settembre_01/erin-piacenti-vicepresidente-bank-of-america-new-york-times-square-coltello-d6db5c06-e48b-4799-bfff-0dc808612xlk.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:55.185125+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8313852548599243,
+            "article": {
+              "title": "ABD'de korkunç olay! Times Meydanı’nda Bank of America yöneticisi bıçaklandı",
+              "url": "https://www.milliyet.com.tr/dunya/abdde-korkunc-olay-times-meydaninda-bank-of-america-yoneticisi-bicaklandi-7652512",
+              "source_id": "milliyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:28:17.979412+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8056725263595581,
+            "article": {
+              "title": "نیویارک: چاقو بردار خاتون کا حملہ، بینک آف امریکا کی نائب صدر ہلاک",
+              "url": "https://jang.com.pk/news/1612305",
+              "source_id": "jang.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:31:32.352583+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8052029609680176,
+            "article": {
+              "title": "Woman killed in Times Square stabbing attack worked for Bank of America By Jennifer Peltz, Associated Press",
+              "url": "https://www.pbs.org/newshour/nation/woman-killed-in-times-square-stabbing-attack-worked-for-bank-of-america",
               "source_id": "pbs.org",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:11:22.119017+00:00"
+              "scraped_at_utc": "2026-09-01T21:30:42.335353+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8506435751914978,
+            "sim_to_centroid": 0.7459015250205994,
             "article": {
-              "title": "SCOTUS Clears Way For Trump’s $400 Million White House Ballroom",
-              "url": "https://time.com/article/2026/09/01/white-house-east-wing-ballroom-trump-supreme-court/",
-              "source_id": "time.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:11:19.450039+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.835847795009613,
-            "article": {
-              "title": "Funke Mediengruppe Schräges Urteil Supreme Court: Trump darf weiterbauen – obwohl sein Ballsaal wohl illegal ist",
-              "url": "https://www.abendblatt.de/politik/article413022334/supreme-court-trump-darf-weiterbauen-obwohl-sein-ballsaal-wohl-illegal-ist.html",
-              "source_id": "abendblatt.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:04.857133+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 28.365931225800622,
-        "size": 11,
-        "n_sources": 10,
-        "n_continents": 4,
-        "continents": [
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South"
-        ],
-        "coherence": 0.8312618732452393,
-        "title": "Drohne am Flughafen Leipzig: Bundesregierung will Russland für Drohnenvorfall verantwortlich machen",
-        "central_article": {
-          "title": "Drohne am Flughafen Leipzig: Bundesregierung will Russland für Drohnenvorfall verantwortlich machen",
-          "url": "https://www.zeit.de/politik/deutschland/2026-09/bundesregierung-will-russland-fuer-drohnenvorfall-verantwortlich-machen-gxe",
-          "source_id": "zeit.de",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-01T12:06:06.547131+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9330630898475647,
-            "article": {
-              "title": "Drohne am Flughafen Leipzig: Bundesregierung will Russland für Drohnenvorfall verantwortlich machen",
-              "url": "https://www.zeit.de/politik/deutschland/2026-09/bundesregierung-will-russland-fuer-drohnenvorfall-verantwortlich-machen-gxe",
-              "source_id": "zeit.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:06.547131+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8942228555679321,
-            "article": {
-              "title": "Bundesregierung macht Russland für Drohnenattacke am Leipziger Flughafen verantwortlich",
-              "url": "https://www.welt.de/politik/ausland/article6a96a117518a586e1855f465/leipzig-bundesregierung-macht-russland-fuer-drohnenattacke-an-flughafen-verantwortlich.html",
-              "source_id": "welt.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:05:57.134112+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8816059827804565,
-            "article": {
-              "title": "Drohnen in Leipzig: Berlin will Moskau verantwortlich machen",
-              "url": "https://www.zdfheute.de/politik/deutschland/drohnen-vorfall-leipzig-russland-verantwortlich-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:02.561560+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8664611577987671,
-            "article": {
-              "title": "Drohnenvorfall: Bundesregierung macht offenbar Russland verantwortlich",
-              "url": "https://www.tagesschau.de/inland/innenpolitik/drohnen-vorfall-forderungen-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:05:50.953577+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8292247653007507,
-            "article": {
-              "title": "Germania se pregătește să acuze direct Rusia pentru atacul eșuat cu dronă de pe aeroportul din Leipzig. Ce înseamnă asta",
-              "url": "https://hotnews.ro/germania-se-pregateste-sa-acuze-direct-rusia-pentru-atacul-esuat-cu-drona-de-pe-aeroportul-din-leipzig-ce-inseamna-asta-2338343",
-              "source_id": "hotnews.ro",
+              "title": "Вице-президент Bank of America стала жертвой поножовщины в Нью-Йорке Вчера,",
+              "url": "https://ria.ru/20260901/ssha-2114712545.html",
+              "source_id": "ria.ru",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:09:04.967829+00:00"
+              "scraped_at_utc": "2026-09-01T21:29:16.484578+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8291127681732178,
+            "sim_to_centroid": 0.7450404167175293,
             "article": {
-              "title": "Duitsland Duitsland staat op het punt Rusland te beschuldigen van droneaanval in Leipzig, mogelijk ook sancties op til",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/09/01/beschuldigt-duitsland-rusland-van-mislukte-aanslag-in-leipzig/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
+              "title": "Woman goes on stabbing spree in Times Square (VIDEOS)",
+              "url": "https://www.rt.com/news/644945-times-square-woman-stabbing/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:47.584019+00:00"
+              "scraped_at_utc": "2026-09-01T21:29:10.475717+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8257924318313599,
+            "sim_to_centroid": 0.7369086742401123,
             "article": {
-              "title": "Germany set to blame Russia for attempted airport drone attack",
-              "url": "https://www.thestar.com.my/news/world/2026/09/01/germany-set-to-blame-russia-for-attempted-airport-drone-attack",
-              "source_id": "thestar.com.my",
-              "continent": "East Asia",
+              "title": "“Emocionalmente perturbada”. Qué se sabe de la presunta asesina que fue abatida por la policía en Times Square",
+              "url": "https://www.lanacion.com.ar/estados-unidos/ataque-en-times-square-que-se-sabe-de-la-presunta-asesina-que-mato-y-fue-abatida-por-la-policia-nid01092026/",
+              "source_id": "lanacion.com.ar",
+              "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:13:11.207084+00:00"
+              "scraped_at_utc": "2026-09-01T21:27:09.808459+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7986181974411011,
+            "sim_to_centroid": 0.7253921627998352,
             "article": {
-              "title": "Bericht: Spur nach Drohnen-Vorfall in Leipzig führt zu russischem Geheimdienst",
-              "url": "https://www.diepresse.com/41214134/bericht-spur-nach-drohnen-vorfall-in-leipzig-fuehrt-zu-russischem-geheimdienst",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
+              "title": "Két embert is megkéselt egy nő a New York-i Times Square-en, mielőtt lelőtték a rendőrök",
+              "url": "https://telex.hu/kulfold/2026/09/01/new-york-keseles-tamadas-times-square",
+              "source_id": "telex.hu",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:00.181752+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7802734375,
-            "article": {
-              "title": "Funke Mediengruppe Sprengstoffdrohne Drohnen-Vorfall am Flughafen Leipzig/Halle: Spur führt offenbar nach Russland",
-              "url": "https://www.abendblatt.de/politik/article413023590/drohnen-vorfall-am-flughafen-leipzighalle-spur-fuehrt-offenbar-nach-russland.html",
-              "source_id": "abendblatt.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:04.857133+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7789165377616882,
-            "article": {
-              "title": "+++ Ukraine-Krieg +++ Bundesregierung will Drohnenanschlag offenbar Russland zuschreiben Live-Blog",
-              "url": "https://www.handelsblatt.com/politik/international/ukraine-krieg-bundesregierung-will-drohnenanschlag-offenbar-russland-zuschreiben/27982126.html",
-              "source_id": "handelsblatt.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:05:55.394262+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.726589560508728,
-            "article": {
-              "title": "FAQ Flughafen Leipzig/Halle Wann reagiert die Regierung auf den Drohnenvorfall?",
-              "url": "https://www.tagesschau.de/inland/innenpolitik/drohnen-angriff-bundesregierung-reaktion-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:05:50.953577+00:00"
+              "scraped_at_utc": "2026-09-01T21:28:44.977350+00:00"
             }
           }
         ]
       },
       {
-        "score": 26.3617592380522,
-        "size": 10,
-        "n_sources": 10,
-        "n_continents": 4,
+        "score": 32.29894111487214,
+        "size": 7,
+        "n_sources": 7,
+        "n_continents": 6,
         "continents": [
-          "China",
+          "Europe East",
           "Europe North",
           "Europe South",
-          "Middle East"
+          "Middle East",
+          "North America",
+          "South America"
         ],
-        "coherence": 0.8166069984436035,
-        "title": "Le roi Haakon VIII de Norvège prête serment devant le Parlement (photos)",
+        "coherence": 0.8474729657173157,
+        "title": "Haakon VIII, sin Mette-Marit, jura ante el Parlamento noruego",
         "central_article": {
-          "title": "Le roi Haakon VIII de Norvège prête serment devant le Parlement (photos)",
-          "url": "http://soirmag.lesoir.be/768346/article/2026-09-01/le-roi-haakon-viii-de-norvege-prete-serment-devant-le-parlement-photos",
-          "source_id": "lesoir.be",
+          "title": "Haakon VIII, sin Mette-Marit, jura ante el Parlamento noruego",
+          "url": "https://www.lavanguardia.com/gente/20260901/11624639/haakon-viii-mette-marit-jura-parlamento-noruego.html",
+          "source_id": "lavanguardia.com",
           "continent": "Europe South",
           "published_at": null,
-          "scraped_at_utc": "2026-09-01T12:06:52.281684+00:00"
+          "scraped_at_utc": "2026-09-01T21:26:48.201320+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9107829332351685,
-            "article": {
-              "title": "Le roi Haakon VIII de Norvège prête serment devant le Parlement (photos)",
-              "url": "http://soirmag.lesoir.be/768346/article/2026-09-01/le-roi-haakon-viii-de-norvege-prete-serment-devant-le-parlement-photos",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:52.281684+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8929262161254883,
-            "article": {
-              "title": "Norway’s King Haakon VIII swears allegiance to constitution",
-              "url": "https://www.scmp.com/news/world/europe/article/3366012/norways-king-haakon-viii-swears-allegiance-constitution?module=latest&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:11:23.373861+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8733817338943481,
-            "article": {
-              "title": "El rey Haakon VIII jura la Constitución ante el Parlamento de Noruega tras la muerte de Harald V",
-              "url": "https://www.rtve.es/noticias/20260901/rey-haakon-viii-jura-constitucion-parlamento-noruega/17208125.shtml",
-              "source_id": "rtve.es",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:56.476574+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8588256239891052,
-            "article": {
-              "title": "Her aflægger kong Haakon ed for Stortinget",
-              "url": "https://www.dr.dk/nyheder/udland/reels/her-aflaegger-kong-haakon-ed-stortinget",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:26.266535+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8560628890991211,
+            "sim_to_centroid": 0.9097493886947632,
             "article": {
               "title": "Haakon VIII, sin Mette-Marit, jura ante el Parlamento noruego",
               "url": "https://www.lavanguardia.com/gente/20260901/11624639/haakon-viii-mette-marit-jura-parlamento-noruego.html",
               "source_id": "lavanguardia.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:53.875532+00:00"
+              "scraped_at_utc": "2026-09-01T21:26:48.201320+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8115530014038086,
+            "sim_to_centroid": 0.8787772059440613,
             "article": {
-              "title": "Royalty Noorse koning Haakon legt eed af in parlement, Mette-Marit haakt af door longcomplicaties geleden",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/09/01/eedaflegging-noorse-koning-haakon-en-kroonprinses-ingrid-alexand/",
-              "source_id": "vrt.be",
+              "title": "Король Норвегии Хокон VIII принес присягу",
+              "url": "https://www.kommersant.ru/doc/8923393?from=spot_main",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:29:12.670686+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8740242719650269,
+            "article": {
+              "title": "Norvège : le roi Haakon VIII a prêté serment sans son épouse (photos)",
+              "url": "https://www.lesoir.be/768459/article/2026-09-01/norvege-le-roi-haakon-viii-prete-serment-sans-son-epouse-photos",
+              "source_id": "lesoir.be",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:47.584019+00:00"
+              "scraped_at_utc": "2026-09-01T21:26:46.501740+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7862862348556519,
+            "sim_to_centroid": 0.8666085600852966,
             "article": {
-              "title": "Haakon har avlagt trohetseden",
-              "url": "https://www.dn.se/direkt/2026-09-01/haakon-har-avlagt-trohetseden/",
-              "source_id": "dn.se",
+              "title": "König Haakon VIII. legt Eid im norwegischen Parlament ab",
+              "url": "https://www.tagesschau.de/ausland/europa/koenig-norwegen-eid-100.html",
+              "source_id": "tagesschau.de",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:16.341965+00:00"
+              "scraped_at_utc": "2026-09-01T21:25:50.274038+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7414188981056213,
+            "sim_to_centroid": 0.8145387172698975,
             "article": {
-              "title": "الملك الجديد للنرويج يؤدي اليمين أمام البرلمان عقب وفاة هارالد",
-              "url": "https://www.annahar.com/international/343253/الملك-الجديد-للنرويج-يؤدي-اليمين-أمام-البرلمان-عقب-وفاة-هارالد",
+              "title": "ملك النرويج هاكون الثامن يؤدي اليمين أمام البرلمان",
+              "url": "https://www.omandaily.om/article/1209729",
+              "source_id": "omandaily.om",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:28:41.119640+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8112214803695679,
+            "article": {
+              "title": "mudança no trono Novo rei da Noruega presta juramento no Parlamento após morte do pai; Haakon 8º não passará por coroação, abolida em 1908, para assumir cargo que era de Harald 5º - Odd Andersen/AFP",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/09/novo-rei-da-noruega-presta-juramento-no-parlamento-apos-morte-do-pai.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:27:17.854131+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7773907780647278,
+            "article": {
+              "title": "Haakon VIII inicia su reinado sin su esposa: Mette-Marit continúa recuperándose ( EFE/EPA/JAVAD PARSA )",
+              "url": "https://www.laestrella.com.pa/mundo/haakon-viii-jura-como-rey-de-noruega-sin-la-reina-mette-marit-a-su-lado-LA25348773",
+              "source_id": "laestrella.com.pa",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:27:07.812345+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 27.89862219355781,
+        "size": 11,
+        "n_sources": 10,
+        "n_continents": 4,
+        "continents": [
+          "Europe East",
+          "Europe South",
+          "Middle East",
+          "South Asia"
+        ],
+        "coherence": 0.8279395699501038,
+        "title": "Zelensky avverte le compagnie aeree: “Finiti i giorni sicuri nei cieli russi”. Putin: “Terrorismo di Stato”",
+        "central_article": {
+          "title": "Zelensky avverte le compagnie aeree: “Finiti i giorni sicuri nei cieli russi”. Putin: “Terrorismo di Stato”",
+          "url": "https://www.repubblica.it/esteri/2026/09/01/diretta/guerra_ucraina_russia_news_oggi-425557870/",
+          "source_id": "repubblica.it",
+          "continent": "Europe South",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-01T21:26:53.425540+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9109295606613159,
+            "article": {
+              "title": "Zelensky avverte le compagnie aeree: “Finiti i giorni sicuri nei cieli russi”. Putin: “Terrorismo di Stato”",
+              "url": "https://www.repubblica.it/esteri/2026/09/01/diretta/guerra_ucraina_russia_news_oggi-425557870/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:53.425540+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8952202200889587,
+            "article": {
+              "title": "'Safe days in Russian skies are over,' warns Zelensky",
+              "url": "https://www.france24.com/en/europe/20260901-live-deadly-russian-air-attack-hits-railway-depot-in-kyiv",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:39.045359+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8800570964813232,
+            "article": {
+              "title": "Zelenskyy warns 'safe days in Russian skies are over'",
+              "url": "https://www.thehindu.com/news/international/zelenskyy-warns-safe-days-in-russian-skies-are-over/article71417049.ece",
+              "source_id": "thehindu.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:31:16.226329+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8503715991973877,
+            "article": {
+              "title": "Zelenski ironizează Rusia și avertizează companiile aeriene: „Spațiul aerian rusesc se va închide efectiv”",
+              "url": "https://hotnews.ro/zelenski-ironizeaza-rusia-si-avertizeaza-companiile-aeriene-spatiul-aerian-rusesc-se-va-inchide-efectiv-2338886",
+              "source_id": "hotnews.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:28:46.982946+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8451957702636719,
+            "article": {
+              "title": "«Предупреждаем партнеров: в небе России безопасные моменты закончились». Зеленский обратился к авиакомпаниям, летающим над Россией",
+              "url": "https://meduza.io/news/2026/09/01/preduprezhdaem-partnerov-v-nebe-rossii-bezopasnye-momenty-zakonchilis-zelenskiy-obratilsya-k-aviakompaniyam-letayuschim-nad-rossiey",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:29:04.678671+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8374855518341064,
+            "article": {
+              "title": "Zelenskyj varoval aerolinky před drony v Rusku. Státní terorismus, ohradil se Putin",
+              "url": "https://www.idnes.cz/zpravy/zahranicni/zelenskyj-letecky-prepravce-vyuziti-rusko-vzdusny-prostor-valka-ukrajina.A260901_224153_zahranicni_mikp",
+              "source_id": "idnes.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:28:48.891962+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8121312856674194,
+            "article": {
+              "title": "Volodimir Zelenskiy: Rusya'nın hava sahası fiilen kapanacak",
+              "url": "https://www.milliyet.com.tr/dunya/zelenskiy-rusyanin-hava-sahasi-fiilen-kapanacak-7652508",
+              "source_id": "milliyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:28:17.979412+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7928116321563721,
+            "article": {
+              "title": "«Это заявка на государственный терроризм». Путин ответил на предупреждение Зеленского о небезопасности российского неба",
+              "url": "https://meduza.io/news/2026/09/01/eto-zayavka-na-gosudarstvennyy-terrorizm-putin-otvetil-na-preduprezhdenie-zelenskogo-o-nebezopasnosti-rossiyskogo-neba",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:29:04.678671+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.78260338306427,
+            "article": {
+              "title": "Новости Война в Украине Зеленский предупредил авиаперевозчиков, что небо в России станет полностью небезопасным из-за украинских дронов 1 сентября",
+              "url": "https://novayagazeta.eu/articles/2026/09/01/zelenskii-predupredil-aviaperevozchikov-chto-nebo-v-rossii-stanet-polnostiu-nebezopasnym-iz-za-ukrainskikh-dronov-news",
+              "source_id": "novayagazeta.eu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:29:06.321344+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7554137706756592,
+            "article": {
+              "title": "Ukraine Warns Airlines Against Traveling Through Russian Airspace",
+              "url": "https://www.kyivpost.com/post/83519",
+              "source_id": "kyivpost.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:29:02.042400+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7451155185699463,
+            "article": {
+              "title": "بوتين: تهديد زيلينسكي بإغلاق المجال الجوي الروسي \"إرهاب دولة\"",
+              "url": "https://www.annahar.com/international/europe/343435/بوتين-تهديد-زيلينسكي-بإغلاق-المجال-الجوي-الروسي-إرهاب-دولة",
               "source_id": "annahar.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:08:53.204561+00:00"
+              "scraped_at_utc": "2026-09-01T21:28:36.994935+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 26.279160844856136,
+        "size": 8,
+        "n_sources": 8,
+        "n_continents": 5,
+        "continents": [
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America"
+        ],
+        "coherence": 0.8159793615341187,
+        "title": "Will Venezuela leave OPEC after ‘colonial’ US oil deal?",
+        "central_article": {
+          "title": "Will Venezuela leave OPEC after ‘colonial’ US oil deal?",
+          "url": "https://www.newarab.com/news/will-venezuela-leave-opec-after-colonial-us-oil-deal",
+          "source_id": "newarab.com",
+          "continent": "Middle East",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-01T21:28:20.332355+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8366839289665222,
+            "article": {
+              "title": "Will Venezuela leave OPEC after ‘colonial’ US oil deal?",
+              "url": "https://www.newarab.com/news/will-venezuela-leave-opec-after-colonial-us-oil-deal",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:28:20.332355+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7395537495613098,
+            "sim_to_centroid": 0.8307848572731018,
             "article": {
-              "title": "Här avlägger kung Haakon VIII trohetseden: ”Allt för Norge” Svor under tisdagen eden i norska parlamentet",
-              "url": "https://www.svt.se/nyheter/inrikes/kung-haakon-viii-avlagger-ed-i-stortinget",
-              "source_id": "svt.se",
+              "title": "Källa: USA ska följa upp oljeavtal i Venezuela",
+              "url": "https://www.dn.se/direkt/2026-09-01/kalla-usa-ska-folja-upp-oljeavtal-i-venezuela/",
+              "source_id": "dn.se",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:22.929753+00:00"
+              "scraped_at_utc": "2026-09-01T21:26:16.155416+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6952786445617676,
+            "sim_to_centroid": 0.8295133709907532,
             "article": {
-              "title": "Haakon VIII. hat sich sein halbes Leben auf die Königsrolle in Norwegen vorbereitet",
-              "url": "https://www.diepresse.com/41220538/haakon-viii-hat-sich-sein-halbes-leben-auf-die-koenigsrolle-in-norwegen-vorbereitet",
-              "source_id": "diepresse.com",
+              "title": "Öl-Deal mit Venezuela: Sinken nun die Spritpreise in den USA?",
+              "url": "https://www.zdfheute.de/politik/ausland/venezuela-usa-oel-abkommen-foerderung-industrie-100.html",
+              "source_id": "zdfheute.de",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-01T12:06:00.181752+00:00"
+              "scraped_at_utc": "2026-09-01T21:26:05.909645+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8165463209152222,
+            "article": {
+              "title": "En qué consiste el \"mayor acuerdo petrolero de la historia\" anunciado por EE.UU. y Venezuela, y por qué es tan polémico",
+              "url": "https://www.bbc.com/mundo/articles/c783xln84p1o",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:57.712357+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.813683271408081,
+            "article": {
+              "title": "Amerikaanse oliedeal met Venezuela oogst vooral argwaan",
+              "url": "https://fd.nl/economie/1610765/amerikaanse-oliedeal-met-venezuela-oogst-vooral-argwaan",
+              "source_id": "fd.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:25:48.307713+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8091285228729248,
+            "article": {
+              "title": "Analyst breaks down challenges U.S. will face to unlock Venezuela's oil",
+              "url": "https://www.pbs.org/newshour/show/analyst-breaks-down-challenges-u-s-will-face-to-unlock-venezuelas-oil",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:30:42.335353+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8013386726379395,
+            "article": {
+              "title": "USA sahají po pětině venezuelské ropy. Caracas se těší na obří příjmy ze zbytku",
+              "url": "https://www.idnes.cz/ekonomika/zahranicni/venezuela-dohoda-usa-pristup-ropa.A260901_212604_zahranicni_mikp",
+              "source_id": "idnes.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:28:48.891962+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7901558876037598,
+            "article": {
+              "title": "Venezuela : l’Assemblée nationale approuve l’accord pétrolier conclu avec Washington (17 champs pétrolifères pour les Etats-Unis)",
+              "url": "https://www.rtbf.be/article/venezuela-l-assemblee-nationale-approuve-l-accord-petrolier-conclu-avec-washington-17-champs-petroliferes-pour-les-etats-unis-11778643",
+              "source_id": "rtbf.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:44.677374+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 21.537450590990197,
+        "size": 9,
+        "n_sources": 8,
+        "n_continents": 5,
+        "continents": [
+          "East Asia",
+          "Europe North",
+          "Middle East",
+          "Oceania",
+          "South Asia"
+        ],
+        "coherence": 0.7761827707290649,
+        "title": "ترامب يتوعد إيران بضربات \"أقوى بكثير\" إذا ردت على القصف الأميركي",
+        "central_article": {
+          "title": "ترامب يتوعد إيران بضربات \"أقوى بكثير\" إذا ردت على القصف الأميركي",
+          "url": "https://www.annahar.com/international/iran/343389/ترامب-يتوعد-إيران-بضربات-أقوى-بكثير-إذا-ردت-على-القصف-الأميركي",
+          "source_id": "annahar.com",
+          "continent": "Middle East",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-01T21:28:36.994935+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8560211658477783,
+            "article": {
+              "title": "ترامب يتوعد إيران بضربات \"أقوى بكثير\" إذا ردت على القصف الأميركي",
+              "url": "https://www.annahar.com/international/iran/343389/ترامب-يتوعد-إيران-بضربات-أقوى-بكثير-إذا-ردت-على-القصف-الأميركي",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:28:36.994935+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8295021653175354,
+            "article": {
+              "title": "Iran will be ‘totally wiped out as a country’ if it retaliates for US strikes, Trump says",
+              "url": "https://www.jpost.com/international/article-907275",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:28:08.613220+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8079607486724854,
+            "article": {
+              "title": "ایران کا امریکی حملوں پر جواب کئی گنا زیادہ شدت سے دینے کا اعلان",
+              "url": "https://jang.com.pk/news/1612317",
+              "source_id": "jang.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:31:32.352583+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8066246509552002,
+            "article": {
+              "title": "حملہ ’جائز‘ تھا، تہران نے جوابی کارروائی کی تو امریکا مزید بڑے حملے کرے گا، ٹرمپ",
+              "url": "https://jang.com.pk/news/1612316",
+              "source_id": "jang.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:31:32.352583+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.766668975353241,
+            "article": {
+              "title": "國際 美軍反擊伊朗 川普警告德黑蘭若還手將遭受更大打擊",
+              "url": "https://www.cna.com.tw/news/aopl/202609020007.aspx",
+              "source_id": "cna.com.tw",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:32:32.888265+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7641093730926514,
+            "article": {
+              "title": "Iran’s president says Tehran will reciprocate if US honours interim deal commitments",
+              "url": "https://kathmandupost.com/world/2026/09/01/iran-s-president-says-tehran-will-reciprocate-if-us-honours-interim-deal-commitments",
+              "source_id": "kathmandupost.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:31:30.992851+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7605083584785461,
+            "article": {
+              "title": "Iran says US will 'regret' new wave of attacks",
+              "url": "https://www.abc.net.au/news/2026-09-02/iran-updates-us-fresh-strikes/107105310",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:27:50.613822+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7083934545516968,
+            "article": {
+              "title": "Israel warns it will retaliate if UK imposes sanctions",
+              "url": "https://www.bbc.com/news/articles/cr7degkkv5go",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:25:31.884748+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6858558654785156,
+            "article": {
+              "title": "EN DIRECT Trump menace « d’anéantir » l’Iran ; quatre morts lors d'un mariage après une frappe américaine dans le sud...",
+              "url": "https://www.lorientlejour.com/article/1546183/l-armee-israelienne-poursuit-ses-dynamitages-de-grande-ampleur-au-liban-sud-direct.html",
+              "source_id": "lorientlejour.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:28:13.231576+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 20.685822625104187,
+        "size": 5,
+        "n_sources": 5,
+        "n_continents": 5,
+        "continents": [
+          "Europe South",
+          "Middle East",
+          "North America",
+          "Oceania",
+          "South America"
+        ],
+        "coherence": 0.8621145486831665,
+        "title": "Alejandro Betancourt, the controversial Venezuelan oil tycoon Trump is banking on",
+        "central_article": {
+          "title": "Alejandro Betancourt, the controversial Venezuelan oil tycoon Trump is banking on",
+          "url": "https://www.france24.com/en/americas/20260901-alejandro-betancourt-the-controversial-venezuelan-oil-tycoon-trump-is-banking-on",
+          "source_id": "france24.com",
+          "continent": "Europe South",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-01T21:26:39.045359+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9113456606864929,
+            "article": {
+              "title": "Alejandro Betancourt, the controversial Venezuelan oil tycoon Trump is banking on",
+              "url": "https://www.france24.com/en/americas/20260901-alejandro-betancourt-the-controversial-venezuelan-oil-tycoon-trump-is-banking-on",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:39.045359+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8761723637580872,
+            "article": {
+              "title": "What's behind the 'biggest oil deal in world history' Trump is touting with Venezuela?",
+              "url": "https://www.sbs.com.au/news/article/donald-trump-venezuela-biggest-oil-deal/rah3xlmvi",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:27:52.032461+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8727781772613525,
+            "article": {
+              "title": "Who is Alejandro Betancourt, ex-Chavez ally now Trump’s Venezuela oil man?",
+              "url": "https://www.aljazeera.com/news/2026/9/1/who-is-alejandro-betancourt-ex-chavez-ally-now-trumps-venezuela-oil-man",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:28:05.730285+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8297683000564575,
+            "article": {
+              "title": "El polémico empresario venezolano detrás del negocio petrolero entre Trump y el chavismo",
+              "url": "https://www.eltiempo.com/mundo/venezuela/el-polemico-empresario-venezolano-detras-del-negocio-petrolero-entre-trump-y-el-chavismo-detalles-hasta-ahora-desconocidos-del-acuerdo-3582656",
+              "source_id": "eltiempo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:27:11.176927+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8205080032348633,
+            "article": {
+              "title": "As Trump pivots to Venezuela for energy, U.S. big oil and big money invest in Canada",
+              "url": "https://www.theglobeandmail.com/business/commentary/article-trump-pivots-venezuela-energy-us-big-oil-money-invest-canada/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:27:49.369758+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 18.712497480067803,
+        "size": 5,
+        "n_sources": 5,
+        "n_continents": 4,
+        "continents": [
+          "China",
+          "Europe North",
+          "Europe South",
+          "North America"
+        ],
+        "coherence": 0.8866918683052063,
+        "title": "Burnham makes his parliamentary debut as PM",
+        "central_article": {
+          "title": "Burnham makes his parliamentary debut as PM",
+          "url": "https://www.channel4.com/news/burnham-makes-his-parliamentary-debut-as-pm",
+          "source_id": "channel4.com",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-01T21:25:38.666828+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9203411340713501,
+            "article": {
+              "title": "Burnham makes his parliamentary debut as PM",
+              "url": "https://www.channel4.com/news/burnham-makes-his-parliamentary-debut-as-pm",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:25:38.666828+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.919721782207489,
+            "article": {
+              "title": "UK’s Burnham pledges to restore hope as he makes House of Commons debut as PM",
+              "url": "https://www.scmp.com/news/world/europe/article/3366034/uks-burnham-pledges-restore-hope-he-makes-house-commons-debut-pm?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:30:43.536604+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8811817169189453,
+            "article": {
+              "title": "UK needs 'substantial change', says PM Andy Burnham in maiden parliament speech",
+              "url": "https://www.france24.com/en/europe/20260901-live-uk-pm-andy-burnham-faces-mps-for-first-time-since-taking-office",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:39.045359+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8719512224197388,
+            "article": {
+              "title": "Il primo discorso da premier di Burnham ai Comuni: “Riporteremo speranza in ogni angolo del Paese”",
+              "url": "https://www.repubblica.it/esteri/2026/09/01/news/gran_bretagna_burnham_prima_volta_premier_camera_comuni_speranza_al_paese_costo_vita-425559159/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:26:53.425540+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8402635455131531,
+            "article": {
+              "title": "Britain lost its way with Thatcher and Brexit, Burnham tells Parliament in first speech",
+              "url": "https://www.theglobeandmail.com/world/article-andy-burnham-britain-prime-minister-thatcher-brexit/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-01T21:27:49.369758+00:00"
             }
           }
         ]
       }
     ],
-    "created_at_utc": "2026-09-01T12:48:06Z"
+    "created_at_utc": "2026-09-01T21:57:20Z"
   }
 ]
