@@ -1,631 +1,408 @@
 [
   {
-    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1788557234",
-    "n_items": 2506,
-    "n_clusters": 2058,
+    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1788606975",
+    "n_items": 2463,
+    "n_clusters": 2063,
     "clusters": [
       {
-        "score": 147.55090317119618,
-        "size": 26,
-        "n_sources": 25,
-        "n_continents": 8,
+        "score": 244.52221767050014,
+        "size": 33,
+        "n_sources": 33,
+        "n_continents": 11,
         "continents": [
+          "Africa",
           "China",
+          "East Asia",
           "Europe East",
           "Europe North",
           "Europe South",
           "Middle East",
           "North America",
           "Oceania",
-          "South America"
-        ],
-        "coherence": 0.8391711711883545,
-        "title": "Judge declares mistrial in Lindsay Clancy murder case after jury deadlock",
-        "central_article": {
-          "title": "Judge declares mistrial in Lindsay Clancy murder case after jury deadlock",
-          "url": "https://www.theglobeandmail.com/world/article-judge-in-lindsay-clancy-trial-to-hold-off-on-formally-declaring-a/",
-          "source_id": "theglobeandmail.com",
-          "continent": "North America",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-04T21:06:36.630930+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9002047777175903,
-            "article": {
-              "title": "Judge declares mistrial in Lindsay Clancy murder case after jury deadlock",
-              "url": "https://www.theglobeandmail.com/world/article-judge-in-lindsay-clancy-trial-to-hold-off-on-formally-declaring-a/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:06:36.630930+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8982473015785217,
-            "article": {
-              "title": "Mistrial is declared in Lindsay Clancy child killings case after jury deadlocks",
-              "url": "https://www.latimes.com/world-nation/story/2026-09-04/judge-in-lindsay-clancy-case-says-hell-declare-mistrial-then-gives-defense-1-hour-to-appeal",
-              "source_id": "latimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:09:37.689165+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.892075777053833,
-            "article": {
-              "title": "US judge declares mistrial in Lindsay Clancy child-killing case after jury deadlock",
-              "url": "https://www.france24.com/en/americas/20260904-judge-declares-mistrial-in-case-of-us-woman-who-killed-her-children",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:05:15.637010+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8915119171142578,
-            "article": {
-              "title": "Judge declares mistrial in Lindsay Clancy murder trial",
-              "url": "https://www.jpost.com/international/article-907611",
-              "source_id": "jpost.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:07:00.414575+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8906496167182922,
-            "article": {
-              "title": "Judge declares mistrial in Lindsay Clancy murder case that gripped America",
-              "url": "https://www.smh.com.au/world/north-america/judge-declares-mistrial-in-lindsay-clancy-murder-case-that-gripped-america-20260902-p60tki.html",
-              "source_id": "smh.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:06:42.850686+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8811380863189697,
-            "article": {
-              "title": "Mistrial declared in Lindsay Clancy murder case",
-              "url": "https://www.abc.net.au/news/2026-09-05/lindsay-clancy-mistrial-declared/107085620",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:06:38.196354+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.880427360534668,
-            "article": {
-              "title": "Mistrial declared in Lindsay Clancy child killings case",
-              "url": "https://www.scmp.com/news/world/united-states-canada/article/3366447/mistrial-declared-lindsay-clancy-child-killings-case?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:09:49.331735+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.880427360534668,
-            "article": {
-              "title": "Mistrial declared in Lindsay Clancy child killings case",
-              "url": "https://www.scmp.com/news/world/united-states-canada/article/3366447/mistrial-declared-lindsay-clancy-child-killings-case?module=latest&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:09:49.331735+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8743650913238525,
-            "article": {
-              "title": "Mistrial declared in Lindsay Clancy murder case. What happens now?",
-              "url": "https://www.usatoday.com/story/news/crime/2026/09/04/lindsay-clancy-no-verdict-whats-next-new-trial/91608890007/",
-              "source_id": "usatoday.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:09:40.930658+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8557999730110168,
-            "article": {
-              "title": "Döntésképtelenség miatt érvénytelen a gyerekeit megölő Lindsay Clancy tárgyalása",
-              "url": "https://telex.hu/kulfold/2026/09/04/lindsay-clancy-per-targyalas-gyilkossag-egyesult-allamok",
-              "source_id": "telex.hu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:07:29.841606+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8554064631462097,
-            "article": {
-              "title": "Key things to know about Lindsay Clancy's case after judge declares mistrial",
-              "url": "https://www.pbs.org/newshour/nation/key-things-to-know-about-lindsay-clancys-case-after-judge-declares-mistrial",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:09:47.989743+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8535308837890625,
-            "article": {
-              "title": "Polémica decisión en el juicio contra Lindsay Clancy por el asesinato de sus hijos en EE. UU.: juez declara nulidad",
-              "url": "https://www.eltiempo.com/mundo/eeuu-y-canada/polemica-decision-en-el-juicio-contra-lindsay-clancy-por-el-asesinato-de-sus-tres-hijos-en-ee-uu-juez-declara-nulidad-por-falta-de-veredicto-3583604",
-              "source_id": "eltiempo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:05:55.846421+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.852554202079773,
-            "article": {
-              "title": "Lindsay Clancy case ends in a mistrial after jury deadlocks",
-              "url": "https://www.independent.co.uk/news/world/americas/crime/lindsay-clancy-mistrial-verdict-deadlocked-hung-jury-b3042769.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:05.417910+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8485614657402039,
-            "article": {
-              "title": "¿Qué pasará ahora que un juez declaró nulo el juicio contra Lindsay Clancy, la madre acusada de matar a sus tres hijos en EE.UU.?",
-              "url": "https://www.bbc.com/mundo/articles/cy4z89zr77zo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:05:39.924515+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8438394665718079,
-            "article": {
-              "title": "El juez declara nulo el juicio a Lindsay Clancy por matar a sus tres hijos ante el bloqueo del jurado",
-              "url": "https://elpais.com/sociedad/2026-09-04/el-juicio-a-lindsay-clancy-por-matar-a-sus-tres-hijos-es-declarado-nulo-por-el-bloqueo-del-jurado.html",
-              "source_id": "elpais.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:05:26.967857+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8321455717086792,
-            "article": {
-              "title": "Explained Lindsay Clancy judge declares mistrial – what happens next?",
-              "url": "https://www.theguardian.com/us-news/2026/sep/04/lindsay-clancy-trial-verdict-mistrial",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:08.944811+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8271182775497437,
-            "article": {
-              "title": "Lindsay Clancy’s murder trial over deaths of her three children collapses",
-              "url": "https://www.irishtimes.com/world/us/2026/09/04/lindsay-clancys-murder-trial-collapses-as-jury-fails-to-reach-unanimous-verdict/",
-              "source_id": "irishtimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:06:56.019168+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8255767822265625,
-            "article": {
-              "title": "Lindsey Clancys mordsag ender uden dom",
-              "url": "https://www.dr.dk/nyheder/udland/lindsey-clancys-mordsag-ender-uden-dom",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:59.954303+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.806077778339386,
-            "article": {
-              "title": "Clamorosa svolta nel caso Lindsay Clancy, la donna che uccise i tre figli: il processo viene annullato. I motivi e cosa succede ora",
-              "url": "https://www.corriere.it/esteri/26_settembre_04/lindsay-clancy-annullato-processo-47dcf4d4-7e0b-4af5-aa9d-afccd0c61xlk.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:05:36.490599+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8013976812362671,
-            "article": {
-              "title": "Declaran nulo el juicio contra Lindsay Clancy, la mujer acusada de matar a sus tres hijos en EE.UU. en 2023",
-              "url": "https://www.rtve.es/noticias/20260904/declaran-nulo-juicio-contra-lindsay-clancy-mujer-acusada-matar-a-tres-hijos-estados-unidos/17213314.shtml",
-              "source_id": "rtve.es",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:05:31.363424+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7994996309280396,
-            "article": {
-              "title": "Zaak Lindsay Clancy, die haar kinderen vermoordde, loopt uit op impasse",
-              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5648010/zaak-lindsay-clancy-die-haar-kinderen-vermoordde-loopt-uit-op",
-              "source_id": "rtl.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:19.438509+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7964076399803162,
-            "article": {
-              "title": "US-Prozess gegen mutmaßliche Kindsmörderin Lindsay Clancy geplatzt",
-              "url": "https://www.diepresse.com/41233148/us-prozess-gegen-mutmassliche-kindsmoerderin-lindsay-clancy-geplatzt",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:33.996673+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7830315828323364,
-            "article": {
-              "title": "Estados Unidos Juiz anula julgamento de Lindsay Clancy, que matou os 3 filhos nos EUA",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/09/juiz-anula-julgamento-de-lindsay-clancy-que-matou-os-3-filhos-nos-eua.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:06:02.594110+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7689498662948608,
-            "article": {
-              "title": "Rättegången mot Clancy ogiltigförklaras",
-              "url": "https://www.dn.se/direkt/2026-09-04/rattegangen-mot-clancy-ogiltigforklaras/",
-              "source_id": "dn.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:48.990777+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.741253137588501,
-            "article": {
-              "title": "Присяжные не смогли вынести решение по делу Линдси Клэнси, обвиняемой в убийстве своих детей",
-              "url": "https://meduza.io/news/2026/09/04/prisyazhnye-ne-smogli-vynesti-reshenie-po-delu-lindsi-klensi-obvinyaemoy-v-ubiystve-svoih-detey",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:07:52.422219+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7382519245147705,
-            "article": {
-              "title": "The Meaning of the Lindsay Clancy Mistrial",
-              "url": "https://www.theatlantic.com/ideas/2026/09/clancy-mistrial-debate-conspiracy/688483/",
-              "source_id": "theatlantic.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:09:46.454298+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 122.36227866742153,
-        "size": 25,
-        "n_sources": 22,
-        "n_continents": 8,
-        "continents": [
-          "China",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "Oceania",
           "South America",
           "South Asia"
         ],
-        "coherence": 0.8273004293441772,
-        "title": "UN votes to adopt new world map that reflects Africa’s true size",
+        "coherence": 0.8209806680679321,
+        "title": "UN votes to adopt new world map that shows true size of Africa",
         "central_article": {
-          "title": "UN votes to adopt new world map that reflects Africa’s true size",
-          "url": "https://www.aljazeera.com/news/2026/9/4/un-votes-to-adopt-new-world-map-that-reflects-africas-true-size",
-          "source_id": "aljazeera.com",
-          "continent": "Middle East",
+          "title": "UN votes to adopt new world map that shows true size of Africa",
+          "url": "https://www.premiumtimesng.com/news/headlines/907493-un-votes-to-adopt-new-world-map-that-shows-true-size-of-africa.html",
+          "source_id": "premiumtimesng.com",
+          "continent": "Africa",
           "published_at": null,
-          "scraped_at_utc": "2026-09-04T21:06:57.305227+00:00"
+          "scraped_at_utc": "2026-09-05T11:01:18.572764+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9133342504501343,
+            "sim_to_centroid": 0.9227399826049805,
             "article": {
-              "title": "UN votes to adopt new world map that reflects Africa’s true size",
-              "url": "https://www.aljazeera.com/news/2026/9/4/un-votes-to-adopt-new-world-map-that-reflects-africas-true-size",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
+              "title": "UN votes to adopt new world map that shows true size of Africa",
+              "url": "https://www.premiumtimesng.com/news/headlines/907493-un-votes-to-adopt-new-world-map-that-shows-true-size-of-africa.html",
+              "source_id": "premiumtimesng.com",
+              "continent": "Africa",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:06:57.305227+00:00"
+              "scraped_at_utc": "2026-09-05T11:01:18.572764+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9013094902038574,
+            "sim_to_centroid": 0.916474461555481,
             "article": {
-              "title": "UN adopts new map: Africa bigger, North America and Europe smaller",
-              "url": "https://www.scmp.com/news/world/article/3366446/un-adopts-new-map-africa-bigger-north-america-and-europe-smaller?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:09:49.331735+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9013094902038574,
-            "article": {
-              "title": "UN adopts new map: Africa bigger, North America and Europe smaller",
-              "url": "https://www.scmp.com/news/world/article/3366446/un-adopts-new-map-africa-bigger-north-america-and-europe-smaller?module=latest&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:09:49.331735+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8983654975891113,
-            "article": {
-              "title": "Africa bigger, US smaller as UN votes to adopt a new world map",
-              "url": "https://www.abc.net.au/news/2026-09-05/africa-bigger-us-smaller-united-nations-adopts-new-world-map/107119646",
-              "source_id": "abc.net.au",
+              "title": "The UN has backed a new world map that makes Africa bigger and the US smaller",
+              "url": "https://www.sbs.com.au/news/article/un-backed-new-world-map-makes-africa-bigger-us-smaller/6dzjwbp9q",
+              "source_id": "sbs.com.au",
               "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:06:38.196354+00:00"
+              "scraped_at_utc": "2026-09-05T10:59:13.856217+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.894179105758667,
+            "sim_to_centroid": 0.9123200178146362,
             "article": {
-              "title": "La ONU adopta un nuevo mapa de África más ajustado a las dimensiones reales",
-              "url": "https://elpais.com/planeta-futuro/2026-09-04/la-onu-adopta-un-nuevo-mapa-de-africa-mas-ajustado-a-las-dimensiones-reales-en-una-resolucion-no-vinculante.html",
-              "source_id": "elpais.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:05:26.967857+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8736366033554077,
-            "article": {
-              "title": "ONU aprova resolução para adotar novo mapa-múndi que mostra tamanho real da África",
-              "url": "https://oglobo.globo.com/mundo/noticia/2026/09/04/onu-vota-nesta-sexta-resolucao-para-adotar-novo-mapa-mundi-que-mostra-tamanho-real-da-africa.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:06:05.969106+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8730701208114624,
-            "article": {
-              "title": "Just nu FN godtar ny karta – Afrika större och USA mindre",
-              "url": "https://www.svt.se/nyheter/utrikes/afrika-storre-och-usa-mindre-fn-godtar-ny-karta",
-              "source_id": "svt.se",
+              "title": "UN stimmen für neue Weltkarte - Afrika größer dargestellt",
+              "url": "https://www.tagesschau.de/ausland/afrika/un-weltkarte-afrika-100.html",
+              "source_id": "tagesschau.de",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:56.246352+00:00"
+              "scraped_at_utc": "2026-09-05T10:57:02.118382+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8711764812469482,
+            "sim_to_centroid": 0.9108887910842896,
             "article": {
-              "title": "L'ONU vote pour des cartes du monde plus fidèles à la réalité des continents",
-              "url": "https://www.rts.ch/info/monde/2026/article/cartographie-l-onu-adopte-des-cartes-aux-proportions-reelles-29348055.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
+              "title": "UN votes to adopt new map showing Africa's true size",
+              "url": "https://www.thenationalnews.com/news/us/2026/09/04/mercator-map-un-equal-earth-us/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:05:17.762847+00:00"
+              "scraped_at_utc": "2026-09-05T10:59:30.466473+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8599821329116821,
+            "sim_to_centroid": 0.8971127271652222,
             "article": {
-              "title": "“L'Africa è più grande di come viene rappresentata”: l’Onu adotta una nuova mappa. Gli Usa unici contrari",
-              "url": "https://www.repubblica.it/esteri/2026/09/04/news/onu_vota_per_adottare_mappa_che_rappresenti_meglio_africa_mercatore-425565213/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
+              "title": "Africa bigger and U.S. smaller: U.N. adopts new map",
+              "url": "https://www.japantimes.co.jp/news/2026/09/05/world/un-adopts-new-map/",
+              "source_id": "japantimes.co.jp",
+              "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:05:34.447632+00:00"
+              "scraped_at_utc": "2026-09-05T11:03:51.837084+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8577369451522827,
+            "sim_to_centroid": 0.8969619274139404,
+            "article": {
+              "title": "UN General Assembly endorses a new world map that shows more accurately Africa’s size",
+              "url": "https://apnews.com/article/un-africa-map-mercator-equal-earth-projection-b138fe9f76d7ff54cc7d5c9b1ddfa983",
+              "source_id": "apnews.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:01:39.133251+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8825970888137817,
+            "article": {
+              "title": "FN vedtager nyt verdenskort – med et mindre USA og større Afrika",
+              "url": "https://politiken.dk/internationalt/art10971668/FN-vedtager-nyt-verdenskort-%E2%80%93-med-et-mindre-USA-og-st%C3%B8rre-Afrika",
+              "source_id": "politiken.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:57:26.246650+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8735855221748352,
+            "article": {
+              "title": "VN stemt voor wereldkaart die Afrika op schaal afbeeldt",
+              "url": "https://fd.nl/politiek/1611271/vn-stemt-voor-wereldkaart-die-afrika-op-schaal-afbeeldt",
+              "source_id": "fd.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:56:59.991733+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8723228573799133,
+            "article": {
+              "title": "UN votes for more accurate maps to show Africa’s true size",
+              "url": "https://www.theglobeandmail.com/world/article-un-votes-for-more-accurate-maps-to-show-africas-true-size/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:59:10.455029+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8680605888366699,
             "article": {
               "title": "VN-vergadering stemt in met invoering nieuwe wereldkaart die Afrika wél op schaal afbeeldt",
               "url": "https://www.nrc.nl/nieuws/2026/09/04/vn-vergadering-stemt-in-met-invoering-nieuwe-wereldkaart-die-afrika-wel-op-schaal-afbeeldt-a4935938",
               "source_id": "nrc.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:17.411422+00:00"
+              "scraped_at_utc": "2026-09-05T10:56:56.377113+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8513556718826294,
+            "sim_to_centroid": 0.8617721199989319,
+            "article": {
+              "title": "Afrika větší, Rusko menší. OSN schválila překreslení staletí používané mapy světa",
+              "url": "https://www.idnes.cz/zpravy/zahranicni/pryc-s-kartografickym-kolonialismem-osn-resi-mapy-nespravedlive-vuci-africe.A260904_130941_zahranicni_dtt",
+              "source_id": "idnes.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:00:09.011424+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8572804927825928,
+            "article": {
+              "title": "放大非洲、缩小北美，联合国大会通过新世界地图，美国怒斥",
+              "url": "https://www.stnn.cc/detail/6a9b8305b4b06b3f17f7f84c.html",
+              "source_id": "stnn.cc",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:02:36.019746+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8451166152954102,
+            "article": {
+              "title": "Google Maps أمام خريطة عالم جديدة... قرار أممي يغيّر حجم أفريقيا",
+              "url": "https://www.annahar.com/technology/344399/google-maps-أمام-خريطة-عالم-جديدة-قرار-أممي-يغير-حجم-أفريقيا",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:59:54.190626+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8390370607376099,
             "article": {
               "title": "La ONU aprueba un nuevo mapamundi que refleja el tamaño real de África",
               "url": "https://www.bbc.com/mundo/articles/cn8evenx6epo",
               "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:05:39.924515+00:00"
+              "scraped_at_utc": "2026-09-05T10:58:14.040328+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8348199725151062,
+            "sim_to_centroid": 0.8335056304931641,
+            "article": {
+              "title": "L'ONU vote pour des cartes du monde plus fidèles à la réalité des continents Monde",
+              "url": "https://www.rts.ch/info/monde/2026/article/cartographie-l-onu-adopte-des-cartes-aux-proportions-reelles-29348055.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:57:53.745396+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8279913663864136,
+            "article": {
+              "title": "Генассамблея ООН проголосовала за изменение карты мира из-за Африки",
+              "url": "https://tengrinews.kz/world_news/genassambleya-oon-progolosovala-izmenenie-kartyi-mira-iz-za-607847/",
+              "source_id": "tengrinews.kz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:00:49.782014+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8071674704551697,
             "article": {
               "title": "UN ditches Mercator map to adopt more accurate one reflecting Africa's true size",
               "url": "https://www.france24.com/en/earth/20260904-un-ditches-mercator-map-to-adopt-more-accurate-one-reflecting-africa-s-true-size",
               "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:05:15.637010+00:00"
+              "scraped_at_utc": "2026-09-05T10:57:51.763467+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8256025314331055,
+            "sim_to_centroid": 0.8021427392959595,
             "article": {
-              "title": "La ONU cambia el mapamundi por uno más fiel al tamaño de los continentes",
-              "url": "https://www.lavanguardia.com/internacional/20260904/11627562/onu-vota-cambiar-mapamundi-utilizar-sea-mas-fiel-tamano-continentes.html",
-              "source_id": "lavanguardia.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:05:28.542805+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.825183629989624,
-            "article": {
-              "title": "FN röstade för ny karta",
-              "url": "https://www.dn.se/direkt/2026-09-04/fn-rostade-for-ny-karta-usa-var-emot/",
-              "source_id": "dn.se",
+              "title": "UN backs effort to depict Africa correctly on maps despite US opposition",
+              "url": "https://www.politico.eu/article/un-backs-effort-to-depict-africa-correctly-on-maps-despite-us-opposition/",
+              "source_id": "politico.eu",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:48.990777+00:00"
+              "scraped_at_utc": "2026-09-05T10:56:53.286276+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8231164813041687,
+            "sim_to_centroid": 0.8010060787200928,
             "article": {
-              "title": "Afrika Afrika niet langer verkleind: VN stemt voor wereldkaart met eerlijke verhoudingen geleden",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/09/04/vn-stemt-voor-nieuwe-wereldkaart-met-grotere-weergave-van-afrika/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
+              "title": "UN ने बदला दुनिया का नक्शा, अमेरिका ने विरोध किया: नए मैप में अफ्रीका बड़ा, यूरोप-US छोटे; जानिए भारत पर इसका क्या असर Play video",
+              "url": "https://www.bhaskar.com/g/international/news/un-world-map-redesign-africa-europe-size-change-voting-news-138935980.html",
+              "source_id": "bhaskar.com",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:05:20.370160+00:00"
+              "scraped_at_utc": "2026-09-05T11:02:43.660205+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8087223768234253,
+            "sim_to_centroid": 0.7949998378753662,
+            "article": {
+              "title": "نیا عالمی نقشہ، افریقہ سب سے بڑا براعظم قرار",
+              "url": "https://www.nawaiwaqt.com.pk/05-Sep-2026/2025554",
+              "source_id": "nawaiwaqt.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:03:15.958966+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7935827970504761,
             "article": {
               "title": "ООН проголосовала за отказ от традиционной карты мира",
               "url": "https://meduza.io/news/2026/09/04/oon-progolosovala-za-otkaz-ot-traditsionnoy-karty-mira",
               "source_id": "meduza.io",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:07:52.422219+00:00"
+              "scraped_at_utc": "2026-09-05T11:00:25.571127+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8057080507278442,
+            "sim_to_centroid": 0.7836635112762451,
             "article": {
-              "title": "الأمم المتحدة: قرار بتعديل خريطة العالم لتصبح أكثر واقعية",
-              "url": "https://www.annahar.com/international/world/344331/الأمم-المتحدة-قرار-بتعديل-خريطة-العالم-لتصبح-أكثر-واقعية",
-              "source_id": "annahar.com",
-              "continent": "Middle East",
+              "title": "UN کا نیا عالمی نقشہ، افریقا دنیا کا سب سے بڑا برِاعظم قرار",
+              "url": "https://jang.com.pk/news/1613257",
+              "source_id": "jang.com.pk",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:07:21.036590+00:00"
+              "scraped_at_utc": "2026-09-05T11:03:13.884959+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7991933226585388,
-            "article": {
-              "title": "novo mapa ONU aprova adoção de modelo de mapa-múndi com tamanho de países menos distorcido; só EUA votam contra - Editoria de Arte/Folhapress",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/09/onu-aprova-novo-mapa-mundi-menos-distorcido-so-eua-votam-contra.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:06:02.594110+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7924468517303467,
-            "article": {
-              "title": "Harta lumii se schimbă după aproape 500 de ani. ONU a votat pentru renunțarea la proiecția Mercator",
-              "url": "https://www.g4media.ro/harta-lumii-se-schimba-dupa-aproape-500-de-ani-onu-a-votat-pentru-renuntarea-la-proiectia-mercator.html",
-              "source_id": "g4media.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:07:43.647789+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7689735889434814,
-            "article": {
-              "title": "AFP FN godkänner ny världskarta Europa blir mindre • USA röstade emot beslutet.",
-              "url": "https://www.dn.se/varlden/fn-godtar-ny-varldskarta-europa-blir-mindre/",
-              "source_id": "dn.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:48.990777+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7688581943511963,
+            "sim_to_centroid": 0.7750636339187622,
             "article": {
               "title": "Cómo se verá la Argentina. La ONU impone un nuevo mapa del mundo que corrige una distorsión de más de 450 años",
               "url": "https://www.lanacion.com.ar/el-mundo/la-onu-deja-de-lado-los-viejos-mapas-de-mercator-por-una-nueva-cartografia-mundial-mas-cercana-a-la-nid04092026/",
               "source_id": "lanacion.com.ar",
               "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:05:54.482372+00:00"
+              "scraped_at_utc": "2026-09-05T10:58:26.974714+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7625399827957153,
+            "sim_to_centroid": 0.7741923332214355,
             "article": {
-              "title": "L’ONU encourage l’utilisation d’une représentation cartographique plus réaliste et l’abandon de la projection dite « de Mercator »",
-              "url": "https://www.lemonde.fr/international/article/2026/09/04/l-onu-adopte-une-reforme-d-ampleur-pour-promouvoir-une-cartographie-mondiale-plus-proche-de-la-realite-que-la-projection-dite-de-mercator_6765845_3210.html",
-              "source_id": "lemonde.fr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:05:09.634332+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7509695291519165,
-            "article": {
-              "title": "दुनिया का नक्शा बदलने की तैयारी, UN में आज वोटिंग: यूरोप-रूस-कनाडा का साइज छोटा होगा, अफ्रीका-साउथ अमेरिका को फायदा Play video",
-              "url": "https://www.bhaskar.com/international/news/un-voting-world-map-redesign-africa-europe-russia-canada-size-138931984.html",
-              "source_id": "bhaskar.com",
+              "title": "India votes in favour of UNGA resolution endorsing new world map",
+              "url": "https://www.thehindu.com/news/international/india-votes-in-favour-of-unga-resolution-endorsing-new-world-map/article71431214.ece",
+              "source_id": "thehindu.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:10:20.773992+00:00"
+              "scraped_at_utc": "2026-09-05T11:02:46.346057+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7133575081825256,
+            "sim_to_centroid": 0.7720096111297607,
             "article": {
-              "title": "La guerra de los mapas: la ONU respalda la propuesta de Togo para acabar con el plano Mercator",
-              "url": "https://www.rtve.es/noticias/20260904/guerra-mapas-togo-onu-fin-plano-mercator-aulas/17212771.shtml",
-              "source_id": "rtve.es",
+              "title": "Afrika Afrika niet langer verkleind: VN stemt voor wereldkaart met eerlijke verhoudingen vr 4 sep.",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/09/04/vn-stemt-voor-nieuwe-wereldkaart-met-grotere-weergave-van-afrika/",
+              "source_id": "vrt.be",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:05:31.363424+00:00"
+              "scraped_at_utc": "2026-09-05T10:57:55.726905+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.707563042640686,
+            "sim_to_centroid": 0.7713381052017212,
             "article": {
-              "title": "Votação sobre novo mapa-múndi se soma a série de ações da ONU contra o legado da escravidão",
-              "url": "https://oglobo.globo.com/mundo/noticia/2026/09/04/votacao-da-onu-sobre-novo-mapa-mundi-se-soma-a-serie-de-acoes-da-organizacao-contra-o-legado-da-escravidao-entenda.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
+              "title": "Die Afrika-Reform auf der Weltkarte – Was sich jetzt bei der Darstellung des Kontinents ändert",
+              "url": "https://www.welt.de/politik/article6a9bbc51181cb962d4884525/un-entscheidung-die-afrika-reform-auf-der-weltkarte-was-sich-jetzt-bei-der-darstellung-des-kontinents-aendert.html",
+              "source_id": "welt.de",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:06:05.969106+00:00"
+              "scraped_at_utc": "2026-09-05T10:57:07.804033+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7698559165000916,
+            "article": {
+              "title": "Explainer: 457 साल बाद बदला दुनिया का नक्शा, क्यों खुश हुआ अफ्रीका और US नाराज; UN में वोटिंग में भारत ने किसे दिया समर्थन",
+              "url": "https://www.jagran.com/world/other-world-map-changes-after-457-years-why-africa-happy-and-america-upset-india-support-on-which-side-in-un-vote-in-united-nations-40362952.html",
+              "source_id": "jagran.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:02:45.084416+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7523843050003052,
+            "article": {
+              "title": "AFP FN godkänner ny världskarta Europa blir mindre • USA röstade emot beslutet.",
+              "url": "https://www.dn.se/varlden/fn-godtar-ny-varldskarta-europa-blir-mindre/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:57:28.203650+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7467210292816162,
+            "article": {
+              "title": "Dünya haritası değişiyor mu? BM'den tarihi karar... Tek bir ülke karşı çıktı!",
+              "url": "https://www.cumhuriyet.com.tr/dunya/dunya-haritasi-degisiyor-mu-bm-den-tarihi-karar-tek-bir-ulke-karsi-cikti-2535098",
+              "source_id": "cumhuriyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:59:40.688961+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7430244088172913,
+            "article": {
+              "title": "ছোট হয়ে গেল ইউরোপ, উত্তর আমেরিকা! নতুন বিশ্ব মানচিত্রে ছাড়পত্র...",
+              "url": "https://bartamanpatrika.com/news/un-approves-new-map-showing-africas-true-size",
+              "source_id": "bartamanpatrika.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:02:56.782970+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.740756630897522,
+            "article": {
+              "title": "Yüzyıllardır bildiğimiz dünya haritası değişiyor: 164 ülke kabul etti",
+              "url": "https://www.hurriyet.com.tr/dunya/yuzyillardir-boyle-biliyorduk-164-ulke-kabul-ettti-dunya-haritasi-degisiyor-43296843",
+              "source_id": "hurriyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:59:39.165129+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7296255230903625,
+            "article": {
+              "title": "「メルカトル図法の世界地図やめて」 国連決議が採択、日本も賛成",
+              "url": "https://www.asahi.com/articles/ASV947GNTV94UHBI00QM.html?iref=comtop_7_06",
+              "source_id": "asahi.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:03:53.849969+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7170606255531311,
+            "article": {
+              "title": "Afrika večja, ZDA manjše",
+              "url": "https://www.delo.si/novice/svet/afrika-vecja-zda-manjse-zn-glasoval-za-nov-zemljevid-sveta",
+              "source_id": "delo.si",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:00:21.072894+00:00"
             }
           }
         ]
       },
       {
-        "score": 115.04377721638389,
-        "size": 25,
-        "n_sources": 23,
-        "n_continents": 7,
+        "score": 164.18399185820917,
+        "size": 35,
+        "n_sources": 30,
+        "n_continents": 9,
         "continents": [
           "East Asia",
           "Europe East",
@@ -633,684 +410,412 @@
           "Europe South",
           "Middle East",
           "North America",
-          "Oceania"
-        ],
-        "coherence": 0.8327816724777222,
-        "title": "Russian drone strikes Ukraine Security Service HQ in central Kyiv",
-        "central_article": {
-          "title": "Russian drone strikes Ukraine Security Service HQ in central Kyiv",
-          "url": "https://www.euronews.com/my-europe/2026/09/04/russian-drone-strikes-ukraine-security-service-headquarters-in-central-kyiv",
-          "source_id": "euronews.com",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-04T21:04:13.015644+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9325306415557861,
-            "article": {
-              "title": "Russian drone strikes Ukraine Security Service HQ in central Kyiv",
-              "url": "https://www.euronews.com/my-europe/2026/09/04/russian-drone-strikes-ukraine-security-service-headquarters-in-central-kyiv",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:13.015644+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9253988862037659,
-            "article": {
-              "title": "Russian drone strike hits security service headquarters in Kyiv",
-              "url": "https://www.politico.eu/article/russian-drone-strike-hits-security-service-headquarters-kyiv-ukraine/",
-              "source_id": "politico.eu",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:14.368514+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9179484248161316,
-            "article": {
-              "title": "Russian drone strikes Ukraine security service HQ",
-              "url": "https://www.france24.com/en/europe/20260904-russian-drone-aimed-directly-at-ukraine-security-service-hq-zelensky-says",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:05:15.637010+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9092723727226257,
-            "article": {
-              "title": "Russian drone attack hits Ukraine's SBU headquarters in Kyiv",
-              "url": "https://www.abc.net.au/news/2026-09-05/brk-ukraine-sbu-strike/107119104",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:06:38.196354+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9046996831893921,
-            "article": {
-              "title": "Drone hits Ukraine’s ⁠SBU security service headquarters in central Kyiv",
-              "url": "https://www.thetimes.com/world/russia-ukraine-war/article/drone-hits-ukraines-sbu-security-service-headquarters-in-central-kyiv-99c32dqbn",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:07.433075+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8940666317939758,
-            "article": {
-              "title": "Russian drone strikes SBU headquarters in central Kyiv, injuring at least 12.",
-              "url": "https://kyivindependent.com/breaking-russian-drone-hits-kyivs-center/",
-              "source_id": "kyivindependent.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:07:51.178209+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8931503295898438,
-            "article": {
-              "title": "Russian drone strikes Ukraine's security service HQ, escalating air war",
-              "url": "https://www.thestar.com.my/news/world/2026/09/04/smoke-rises-in-central-kyiv-after-russian-drone-attack",
-              "source_id": "thestar.com.my",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:11:39.429547+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8888154029846191,
-            "article": {
-              "title": "Russian Drone Strikes SBU Headquarters in Central Kyiv, Targets Chief’s Office",
-              "url": "https://www.kyivpost.com/post/83777",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:07:49.562177+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8505346775054932,
-            "article": {
-              "title": "Russia hits Ukrainian security headquarters in drone attack, Zelensky says",
-              "url": "https://www.bbc.com/news/articles/c5yep7y48x2o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:04.106494+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8456101417541504,
-            "article": {
-              "title": "Russische Drohne trifft Geheimdienstzentrale in Kiew",
-              "url": "https://www.diepresse.com/41232270/russische-drohne-trifft-geheimdienstzentrale-in-kiew",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:33.996673+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8456101417541504,
-            "article": {
-              "title": "Russische Drohne trifft Geheimdienstzentrale in Kiew",
-              "url": "https://www.tagesschau.de/ausland/europa/ukraine-russland-angriffe-sbu-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:23.897084+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8434399366378784,
-            "article": {
-              "title": "Russische Drohne attackiert Geheimdienstzentrale in Kyjiw",
-              "url": "https://www.spiegel.de/ausland/russische-drohne-attackiert-geheimdienstzentrale-in-kyjiw-a-fb26bc32-6df9-400c-98c9-34227cb6c57c",
-              "source_id": "spiegel.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:26.697817+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.84032142162323,
-            "article": {
-              "title": "Kiew: Russische Drohne trifft Geheimdienstzentrale",
-              "url": "https://www.zdfheute.de/politik/ausland/kiew-drohne-angriff-geheimdienst-sbu-ukraine-selenskyj-krieg-russland-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:36.471893+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8214417099952698,
-            "article": {
-              "title": "Russia hits Ukraine's security service headquarters in Kyiv, Zelenskyy says",
-              "url": "https://www.channelnewsasia.com/world/russia-hits-ukraines-security-service-kyiv-6363281",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:11:14.212075+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8199093341827393,
-            "article": {
-              "title": "Russische droneaanval op gebouw van Oekraïense veiligheidsdienst SBOe, zeker zeven gewonden",
-              "url": "https://www.nrc.nl/nieuws/2026/09/04/russische-droneaanval-op-gebouw-van-oekraiense-veiligheidsdienst-sboe-zeker-zeven-gewonden-a4935940",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:17.411422+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8025127649307251,
-            "article": {
-              "title": "Un drone russe frappe le quartier général des services secrets ukrainiens à Kiev Guerre en Ukraine aujourd'hui à",
-              "url": "https://www.rts.ch/info/monde/2026/article/un-drone-russe-frappe-le-siege-des-services-secrets-a-kiev-29347796.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:05:17.762847+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8015249371528625,
-            "article": {
-              "title": "Российский беспилотник ударил по штаб-квартире СБУ в Киеве",
-              "url": "https://meduza.io/news/2026/09/04/rossiyskiy-bespilotnik-udaril-po-shtab-kvartire-sbu-v-kieve",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:07:52.422219+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8000872135162354,
-            "article": {
-              "title": "Russian drone strikes Ukraine security service headquarters as U.S. talks on the war are expected By Samya Kullab, Associated Press",
-              "url": "https://www.pbs.org/newshour/world/russian-drone-strikes-ukraine-security-service-headquarters-as-u-s-talks-on-the-war-are-expected",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:09:47.989743+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7764401435852051,
-            "article": {
-              "title": "Moszkva csapást mért az SZBU kijevi központjára, Zelenszkij megfelelő választ ígért Precíziós dróncsapás érte Kijevben az Ukrán Biztonsági Szolgálat központját, tucatnyi ember sebesülését okozva. Az ukrán elnök válaszcsapásra adott utasítást. A minden jel szerint orosz támadás nyilvánvalóan aláássa a béketárgyalások újrafelvételét célzó legutóbbi erőfeszítéseket.",
-              "url": "https://nepszava.hu/3332297_orosz-droncsapas-szbu-kijevi-szekhaz-ukran-fenyegetes",
-              "source_id": "nepszava.hu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:07:39.773822+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7740965485572815,
-            "article": {
-              "title": "Российский дрон попал в центральное здание СБУ в Киеве 4 сентября",
-              "url": "https://novayagazeta.eu/articles/2026/09/04/rossiiskii-dron-popal-v-tsentralnoe-zdanie-sbu-v-kieve-news",
-              "source_id": "novayagazeta.eu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:07:54.690068+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7610366344451904,
-            "article": {
-              "title": "Беспилотник ударил по зданию СБУ в Киеве",
-              "url": "https://www.kommersant.ru/doc/8936728?from=top_main_3",
-              "source_id": "kommersant.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:08:02.929964+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7601014375686646,
-            "article": {
-              "title": "Ukraine war latest: Russia strikes SBU headquarters in daytime attack, injures at least 12",
-              "url": "https://kyivindependent.com/ukraine-war-latest-russia-strikes-sbu-headquarters-in-daytime-attack-injuring-at-least-12/",
-              "source_id": "kyivindependent.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:07:51.178209+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7581574320793152,
-            "article": {
-              "title": "Russia’s jet-powered drones overwhelm Ukraine, killing dozens",
-              "url": "https://www.aljazeera.com/news/2026/9/4/russias-jet-powered-drones-overwhelm-ukraine-killing-dozens",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:06:57.305227+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.728229284286499,
-            "article": {
-              "title": "Lukoil oil depot reportedly catches fire in Sochi after drone attack",
-              "url": "https://georgiatoday.ge/lukoil-oil-depot-reportedly-catches-fire-in-sochi-after-drone-attack/",
-              "source_id": "georgiatoday.ge",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:08:16.155223+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7246076464653015,
-            "article": {
-              "title": "How Kyiv residents cope with constant drone attacks.",
-              "url": "https://kyivindependent.com/how-kyiv-residents-cope-with-constant-drone-attacks/",
-              "source_id": "kyivindependent.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:07:51.178209+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 59.63452989008031,
-        "size": 21,
-        "n_sources": 14,
-        "n_continents": 7,
-        "continents": [
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
           "Oceania",
           "South America",
           "South Asia"
         ],
-        "coherence": 0.8006534576416016,
-        "title": "Nine days after disaster, two pulled alive from Nepal hydropower tunnel",
+        "coherence": 0.8005131483078003,
+        "title": "Rescuers in Nepal pull 2 people alive from the debris 10 days after devastating floods",
         "central_article": {
-          "title": "Nine days after disaster, two pulled alive from Nepal hydropower tunnel",
-          "url": "https://www.straitstimes.com/asia/two-people-rescued-alive-from-nepal-hydropower-tunnel?ref=top-stories",
-          "source_id": "straitstimes.com",
-          "continent": "East Asia",
+          "title": "Rescuers in Nepal pull 2 people alive from the debris 10 days after devastating floods",
+          "url": "https://apnews.com/article/nepal-floods-chinese-national-alive-f9a6d181a30af8366700e47e498ec3b1",
+          "source_id": "apnews.com",
+          "continent": "North America",
           "published_at": null,
-          "scraped_at_utc": "2026-09-04T21:11:36.750989+00:00"
+          "scraped_at_utc": "2026-09-05T11:01:39.133251+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9139819741249084,
+            "sim_to_centroid": 0.9027503728866577,
             "article": {
-              "title": "Nine days after disaster, two pulled alive from Nepal hydropower tunnel",
-              "url": "https://www.straitstimes.com/asia/two-people-rescued-alive-from-nepal-hydropower-tunnel?ref=top-stories",
-              "source_id": "straitstimes.com",
+              "title": "Rescuers in Nepal pull 2 people alive from the debris 10 days after devastating floods",
+              "url": "https://apnews.com/article/nepal-floods-chinese-national-alive-f9a6d181a30af8366700e47e498ec3b1",
+              "source_id": "apnews.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:01:39.133251+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.882646918296814,
+            "article": {
+              "title": "Nepal tunnel rescue revives hope 10 days after flood",
+              "url": "https://www.bangkokpost.com/world/3314535/nepal-tunnel-rescue-revives-hope-10-days-after-flood",
+              "source_id": "bangkokpost.com",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:11:36.750989+00:00"
+              "scraped_at_utc": "2026-09-05T11:04:11.488424+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8915111422538757,
+            "sim_to_centroid": 0.882604718208313,
             "article": {
-              "title": "Nepal flood survivors pulled alive from hydropower tunnel nine days later",
-              "url": "https://kathmandupost.com/national/2026/09/04/voices-heard-from-inside-trishuli-3a-hydropower-tunnel-says-lawmaker",
-              "source_id": "kathmandupost.com",
+              "title": "Nepal tunnel rescue revives hopes 10 days after flood",
+              "url": "https://www.channelnewsasia.com/asia/nepal-survivor-chinese-national-flood-underground-hydropower-projects-6364381",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:03:50.000491+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8825840950012207,
+            "article": {
+              "title": "Nepal flash floods: Two more people rescued alive after being trapped for",
+              "url": "https://www.thehindu.com/news/international/nepal-rescue-operation-after-flash-flood-people-rescued/article71431497.ece",
+              "source_id": "thehindu.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:10:37.202885+00:00"
+              "scraped_at_utc": "2026-09-05T11:02:46.346057+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8898319005966187,
-            "article": {
-              "title": "Two workers rescued from Nepal tunnel nine days after flash floods",
-              "url": "https://www.thetimes.com/world/asia/article/two-workers-rescued-from-nepal-tunnel-nine-days-after-deadly-flood-f2vcgmpkd",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:07.433075+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8730698227882385,
+            "sim_to_centroid": 0.866405725479126,
             "article": {
               "title": "Two pulled out alive from Nepal tunnel as search for survivors continues",
               "url": "https://www.channel4.com/news/two-pulled-out-alive-from-nepal-tunnel-as-search-for-survivors-continues",
               "source_id": "channel4.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:11.235735+00:00"
+              "scraped_at_utc": "2026-09-05T10:56:49.942600+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.855505108833313,
+            "sim_to_centroid": 0.8640626668930054,
             "article": {
-              "title": "How two Nepal hydropower workers survived nine days trapped underground",
-              "url": "https://kathmandupost.com/national/2026/09/04/how-two-nepal-hydropower-workers-survived-nine-days-trapped-underground",
-              "source_id": "kathmandupost.com",
+              "title": "Två räddade i Nepal – tio dygn efter skreden",
+              "url": "https://www.dn.se/direkt/2026-09-05/tva-raddade-i-nepal-tio-dygn-efter-skreden/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:57:28.203650+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.860716700553894,
+            "article": {
+              "title": "Yderligere to overlevende fundet efter voldsomme oversvømmelser i Nepal",
+              "url": "https://www.dr.dk/nyheder/udland/yderligere-overlevende-fundet-efter-voldsomme-oversvoemmelser-i-nepal",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:57:38.414679+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8593848347663879,
+            "article": {
+              "title": "Zehn Tage nach Flutkatastrophe verschüttet – Retter in Nepal bergen zwei weitere Überlebende",
+              "url": "https://www.welt.de/vermischtes/article6a9bd290181cb962d4884614/nepal-zehn-tage-nach-flutkatastrophe-verschuettet-retter-bergen-zwei-weitere-ueberlebende.html",
+              "source_id": "welt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:57:07.804033+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8553754687309265,
+            "article": {
+              "title": "Praėjus 10 dienų po potvynių, Nepale iš tunelio išgelbėtas gyvas Kinijos pilietis",
+              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3043057/praejus-10-dienu-po-potvyniu-nepale-is-tunelio-isgelbetas-gyvas-kinijos-pilietis",
+              "source_id": "lrt.lt",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:00:42.077431+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.847170352935791,
+            "article": {
+              "title": "Two workers rescued from Nepal tunnel nine days after flash floods",
+              "url": "https://www.thetimes.com/world/asia/article/two-workers-rescued-from-nepal-tunnel-nine-days-after-deadly-flood-f2vcgmpkd",
+              "source_id": "thetimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:56:45.755451+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8418446779251099,
+            "article": {
+              "title": "Nepal'de yeni mucize: 10 gün sonra kurtarıldılar",
+              "url": "https://www.hurriyet.com.tr/dunya/nepalde-yeni-mucize-10-gun-sonra-kurtarildilar-43296922",
+              "source_id": "hurriyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:59:39.165129+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.841692328453064,
+            "article": {
+              "title": "News Wrap: 2 men rescued from Nepal tunnel 9 days after catastrophic flood",
+              "url": "https://www.pbs.org/newshour/show/news-wrap-2-men-rescued-from-nepal-tunnel-9-days-after-catastrophic-flood",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:02:12.924793+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8310043811798096,
+            "article": {
+              "title": "Двух человек нашли живыми под землей спустя девять дней после наводнения в Непале",
+              "url": "https://tengrinews.kz/world_news/dvuh-nashli-jivyimi-zemley-spustya-devyat-dney-navodneniya-607850/",
+              "source_id": "tengrinews.kz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:00:49.782014+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8189626932144165,
+            "article": {
+              "title": "Nepali woman rescued alive from buried home 10 days after flood",
+              "url": "https://www.thedailystar.net/news/world/news/nepali-woman-rescued-alive-buried-home-10-days-after-flood-4265361",
+              "source_id": "thedailystar.net",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:10:37.202885+00:00"
+              "scraped_at_utc": "2026-09-05T11:02:50.925469+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8443045616149902,
+            "sim_to_centroid": 0.8145669102668762,
+            "article": {
+              "title": "Nepal, estratti vivi a 10 giorni dal disastro un cittadino cinese intrappolato in un tunnel e una donna bloccata in casa",
+              "url": "https://www.corriere.it/esteri/26_settembre_05/nepal-estratto-vivo-6f05e09f-5cf0-4df3-abf4-e422f017cxlk.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:58:10.460301+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8103703260421753,
+            "article": {
+              "title": "Inondations au Népal : deux rescapés de plus retrouvés par les services de secours",
+              "url": "https://www.rtbf.be/article/nepal-un-troisieme-rescape-est-extrait-vivant-d-un-tunnel-11780302",
+              "source_id": "rtbf.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:57:58.595542+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8069500923156738,
             "article": {
               "title": "'Back in miracle country': Two trapped workers rescued from Nepal hydropower tunnel",
               "url": "https://www.sbs.com.au/news/article/nepal-hydropower-tunnel-trapped-worker-rescue/0fxiv206k",
               "source_id": "sbs.com.au",
               "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:06:41.247761+00:00"
+              "scraped_at_utc": "2026-09-05T10:59:13.856217+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8381273746490479,
+            "sim_to_centroid": 0.8027303814888,
             "article": {
-              "title": "نیپال میں تباہ کن سیلاب: ٹنل سے 9 روز بعد 2 افرادکو زندہ نکال لیا گیا",
-              "url": "https://www.nawaiwaqt.com.pk/04-Sep-2026/2025213",
-              "source_id": "nawaiwaqt.com.pk",
-              "continent": "South Asia",
+              "title": "1 t Verden To personer funnet i live ti dager etter styrtflommen i Nepal",
+              "url": "https://www.aftenposten.no/verden/i/V6XaL1/to-personer-funnet-i-live-ti-dager-etter-styrtflommen-i-nepal",
+              "source_id": "aftenposten.no",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:10:40.899176+00:00"
+              "scraped_at_utc": "2026-09-05T10:57:29.911906+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8302541971206665,
+            "sim_to_centroid": 0.7951273918151855,
             "article": {
-              "title": "В Непале из затопленного тоннеля ГЭС спасли двух выживших — спустя девять дней после наводнения",
-              "url": "https://meduza.io/feature/2026/09/04/v-nepale-iz-zatoplennogo-tonnelya-ges-spasli-dvuh-vyzhivshih-spustya-devyat-dney-posle-navodneniya",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:07:52.422219+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8285484313964844,
-            "article": {
-              "title": "Wife says rescued husband has ‘a second life’ after nine days trapped in Nepal tunnel",
-              "url": "https://kathmandupost.com/national/2026/09/04/wife-says-rescued-husband-has-a-second-life-after-nine-days-trapped-in-nepal-tunnel",
+              "title": "Chinese national pulled alive from hydropower tunnel in Nepal after",
+              "url": "https://kathmandupost.com/national/2026/09/05/chinese-national-rescued-alive-after-10-days-trapped-in-hydropower-tunnel",
               "source_id": "kathmandupost.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:10:37.202885+00:00"
+              "scraped_at_utc": "2026-09-05T11:03:12.330561+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8152726292610168,
-            "article": {
-              "title": "Equipes resgatam dois trabalhadores presos em túnel no Nepal; são mais de 1.300 mortos",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/09/equipes-resgatam-dois-trabalhadores-presos-em-tunel-no-nepal.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:06:02.594110+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8132007122039795,
-            "article": {
-              "title": "El increíble rescate de dos trabajadores tras 9 días atrapados en un túnel por la avalancha en la frontera entre Nepal y Tíbet",
-              "url": "https://www.bbc.com/mundo/articles/cz9z5qdlgz3o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:05:39.924515+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8103790283203125,
+            "sim_to_centroid": 0.793350100517273,
             "article": {
               "title": "‘Fight through darkness, water’: Nepal survivor recounts escape from flood-hit tunnel",
               "url": "https://www.france24.com/en/asia-pacific/20260903-fight-through-darkness-water-nepal-survivor-recounts-escape-from-flood-hit-tunnel",
               "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:05:15.637010+00:00"
+              "scraped_at_utc": "2026-09-05T10:57:51.763467+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7845556735992432,
+            "sim_to_centroid": 0.7901747226715088,
             "article": {
-              "title": "Nepal rescuers try to reach dozens trapped in tunnel after two found alive More than 1,300 people have died and thousands are missing, but rescuers' hopes have risen after finding survivors in a tunnel. 9 hrs ago Asia",
-              "url": "https://www.bbc.com/news/articles/c7903j1vpe5o",
+              "title": "Crue au Népal : un troisième rescapé extrait vivant d’un tunnel, dix jours après la catastrophe (photos)",
+              "url": "https://www.lesoir.be/769174/article/2026-09-05/crue-au-nepal-un-troisieme-rescape-extrait-vivant-dun-tunnel-dix-jours-apres-la",
+              "source_id": "lesoir.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:58:00.513317+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7802375555038452,
+            "article": {
+              "title": "Equipes resgatam dois trabalhadores presos em túnel no Nepal; são mais de 1.300 mortos",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/09/equipes-resgatam-dois-trabalhadores-presos-em-tunel-no-nepal.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:58:36.198767+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7800421714782715,
+            "article": {
+              "title": "El increíble rescate de dos trabajadores tras 9 días atrapados en un túnel por la avalancha en la frontera entre Nepal y Tíbet",
+              "url": "https://www.bbc.com/mundo/articles/cz9z5qdlgz3o",
               "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:04.106494+00:00"
+              "scraped_at_utc": "2026-09-05T10:58:14.040328+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.776178240776062,
+            "sim_to_centroid": 0.7715643644332886,
             "article": {
-              "title": "‘My responsibility was to save others’: Hero foreman rescued from tunnel in Nepal after",
-              "url": "https://www.channelnewsasia.com/shorts/my-responsibility-was-save-others-hero-foreman-rescued-tunnel-in-nepal-after-9-days-6363101",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
+              "title": "Aussie expert hopeful of more Nepal rescues as two more saved",
+              "url": "https://www.smh.com.au/world/asia/survivable-pockets-australian-tunnel-expert-arrives-in-nepal-hopeful-of-more-rescues-20260905-p60upo.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:11:14.212075+00:00"
+              "scraped_at_utc": "2026-09-05T10:59:15.491771+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7607859373092651,
+            "sim_to_centroid": 0.7686229944229126,
             "article": {
-              "title": "Rajesh Kumar Singh / AP,NTB Nepal: To personer reddet etter ni dager Flom og jordskred i Nepal Følg saken",
+              "title": "Au Népal, un troisième rescapé extrait vivant d’un tunnel, les recherches se poursuivent",
+              "url": "https://www.lemonde.fr/international/article/2026/09/05/au-nepal-les-recherches-se-poursuivent-pour-tenter-de-localiser-de-nouveaux-survivants-dans-les-tunnels_6766313_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:57:46.655070+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7630187273025513,
+            "article": {
+              "title": "নেপালে সুড়ঙ্গ থেকে ১০ দিনের মাথায় এক চীনা নাগরিক জীবিত উদ্ধার",
+              "url": "https://www.prothomalo.com/world/asia/ep8cf2h7tg",
+              "source_id": "prothomalo.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:02:52.387159+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7511177062988281,
+            "article": {
+              "title": "Två räddade i Nepal – efter tio dagar Hoppet rinner ut för tusentals saknade efter lerskredet",
+              "url": "https://www.svt.se/nyheter/utrikes/tva-raddade-i-nepal-efter-tio-dagar",
+              "source_id": "svt.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:57:35.174304+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.750535249710083,
+            "article": {
+              "title": "Flom og jordskred i Nepal",
               "url": "https://www.nrk.no/nyheter/flom-og-jordskred-i-nepal-1.18002313",
               "source_id": "nrk.no",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:58.030333+00:00"
+              "scraped_at_utc": "2026-09-05T10:57:36.806614+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7516331672668457,
+            "sim_to_centroid": 0.7479979395866394,
             "article": {
-              "title": "Two more Australians found safe after deadly Nepal floods but dozens still missing",
-              "url": "https://www.sbs.com.au/news/article/two-more-australians-found-safe-after-nepal-floods-as-36-remain-unaccounted-for/f3r9mfwet",
+              "title": "resgate na ásia Trabalhador chinês é resgatado após ter ficado preso em túnel por 10 dias por causa de deslizamento de terra no Nepal - Exército nepalês via Reuters/AFP",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/09/cidadao-chines-e-resgatado-no-nepal-apos-ficar-10-dias-preso-por-deslizamento.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:58:36.198767+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.730949342250824,
+            "article": {
+              "title": "'I don't know if I'm dreaming': Rebuilding lives after Nepal's devastating floods",
+              "url": "https://www.france24.com/en/asia-pacific/20260905-i-dont-know-if-im-dreaming-rebuilding-lives-after-nepal-devastating-floods",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:57:51.763467+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7292841076850891,
+            "article": {
+              "title": "Two people rescued alive on 11th day after floods",
+              "url": "https://kathmandupost.com/national/2026/09/05/two-people-rescued-alive-on-11th-day-after-floods",
+              "source_id": "kathmandupost.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:03:12.330561+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7193807363510132,
+            "article": {
+              "title": "'Please run': Nepali engineer reveals steps that saved him from floods",
+              "url": "https://www.abc.net.au/news/2026-09-05/rasuwa-nepali-engineer-flood-survivor-rabindra-hamal/107113726",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:59:12.043140+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7191824316978455,
+            "article": {
+              "title": "UAE response team begins search and rescue efforts in flood-stricken Nepal",
+              "url": "https://www.thenationalnews.com/news/uae/2026/09/05/uae-response-team-begins-search-and-rescue-efforts-in-flood-stricken-nepal-as-aid-drive-continues/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:59:30.466473+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.683466911315918,
+            "article": {
+              "title": "Australian drone team arrives in Nepal as search for missing continues",
+              "url": "https://www.sbs.com.au/news/article/australian-drone-team-arrives-in-nepal-as-search-for-missing-continues/b4w3pq17k",
               "source_id": "sbs.com.au",
               "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:06:41.247761+00:00"
+              "scraped_at_utc": "2026-09-05T10:59:13.856217+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.743064284324646,
+            "sim_to_centroid": 0.6720803380012512,
             "article": {
-              "title": "How engineers in a WhatsApp group are guiding Nepal’s flood rescue efforts",
-              "url": "https://www.japantimes.co.jp/news/2026/09/04/asia-pacific/nepal-engineers-whatsapp-flood-rescue/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:11:15.681393+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7391083240509033,
-            "article": {
-              "title": "नेपाल बाढ़-9 दिन बाद सुरंग से जिंदा निकले 2 मजदूर: आवाज सुनकर रेस्क्यू टीम ने बचाया, 40 के अब भी फंसे होने की आशंका Play video",
-              "url": "https://www.bhaskar.com/international/news/nepal-flood-relief-india-humanitarian-aid-c130j-update-138925634.html",
-              "source_id": "bhaskar.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:10:20.773992+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.702860951423645,
-            "article": {
-              "title": "Rescued tunnel worker says he stayed behind to save others",
-              "url": "https://kathmandupost.com/national/2026/09/04/rescued-tunnel-worker-says-he-stayed-behind-to-save-others",
+              "title": "Woman rescued alive after 10 days trapped in debris-buried house",
+              "url": "https://kathmandupost.com/national/2026/09/05/woman-rescued-alive-after-10-days-trapped-in-debris-buried-house",
               "source_id": "kathmandupost.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:10:37.202885+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6981543302536011,
-            "article": {
-              "title": "Nepal unveils relief package to help flood-hit businesses recover",
-              "url": "https://kathmandupost.com/money/2026/09/04/nepal-unveils-relief-package-to-help-flood-hit-businesses-recover",
-              "source_id": "kathmandupost.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:10:37.202885+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6533958315849304,
-            "article": {
-              "title": "After nine days in darkness, two men walked back into the light",
-              "url": "https://kathmandupost.com/national/2026/09/04/ten-days-in-darkness-then-two-men-walked-back-into-the-light",
-              "source_id": "kathmandupost.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:10:37.202885+00:00"
+              "scraped_at_utc": "2026-09-05T11:03:12.330561+00:00"
             }
           }
         ]
       },
       {
-        "score": 55.714402437432646,
-        "size": 9,
-        "n_sources": 8,
-        "n_continents": 7,
-        "continents": [
-          "China",
-          "East Asia",
-          "Europe North",
-          "Europe South",
-          "North America",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.8989773988723755,
-        "title": "Trump threatens to cut trade with some countries if Fed doesn’t lower rates",
-        "central_article": {
-          "title": "Trump threatens to cut trade with some countries if Fed doesn’t lower rates",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3366445/trump-threatens-cut-trade-some-countries-if-fed-doesnt-lower-rates?module=latest&pgtype=homepage",
-          "source_id": "scmp.com",
-          "continent": "China",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-04T21:09:49.331735+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9681229591369629,
-            "article": {
-              "title": "Trump threatens to cut trade with some countries if Fed doesn’t lower rates",
-              "url": "https://www.scmp.com/news/world/united-states-canada/article/3366445/trump-threatens-cut-trade-some-countries-if-fed-doesnt-lower-rates?module=latest&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:09:49.331735+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9681229591369629,
-            "article": {
-              "title": "Trump threatens to cut trade with some countries if Fed doesn’t lower rates",
-              "url": "https://www.scmp.com/news/world/united-states-canada/article/3366445/trump-threatens-cut-trade-some-countries-if-fed-doesnt-lower-rates?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:09:49.331735+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9564961791038513,
-            "article": {
-              "title": "Trump threatens trade cut off with some countries if Fed doesn’t cut interest rates",
-              "url": "https://www.theglobeandmail.com/business/article-trump-threatens-trade-cut-off-with-some-countries-if-fed-doesnt-cut/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:06:36.630930+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9354267716407776,
-            "article": {
-              "title": "Trump threatens to stop trade with other countries if the US doesn’t lower its own interest rates",
-              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-threat-trade-fed-interest-rates-b3044886.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:05.417910+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9334467649459839,
-            "article": {
-              "title": "Trump Threatens to Halt Some Trade Unless the Fed Cuts Rates",
-              "url": "https://www.nytimes.com/2026/09/04/business/economy/trump-trade-threats-fed-rate-cuts.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:09:15.801507+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9172775745391846,
-            "article": {
-              "title": "‘Lower rate or…': Trump threatens to stop trading with US trade-deficit nations",
-              "url": "https://www.hindustantimes.com/world-news/us-news/lower-the-rate-or-trump-threatens-to-stop-trading-with-us-trade-deficit-countries-101788543572341.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:10:24.751215+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8945915102958679,
-            "article": {
-              "title": "Trump minaccia la Fed: «Tagli i tassi o stop agli scambi con i Paesi in surplus con gli Stati Uniti»",
-              "url": "https://www.corriere.it/economia/finanza/26_settembre_04/trump-minaccia-la-fed-tagli-i-tassi-o-stop-agli-scambi-con-i-paesi-in-surplus-con-gli-usa-cd8414a3-042b-4f38-b988-77d787a60xlk.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:05:36.490599+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.805701494216919,
-            "article": {
-              "title": "國際 川普命聯準會降息 否則與貿易逆差國停止往來",
-              "url": "https://www.cna.com.tw/news/aopl/202609040342.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:11:42.745959+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7116102576255798,
-            "article": {
-              "title": "Com novo tarifaço de Trump, exportações para os EUA caem quase 10% no ano até agosto",
-              "url": "https://oglobo.globo.com/economia/noticia/2026/09/04/com-novo-tarifaco-de-trump-exportacoes-para-os-eua-caem-quase-10percent-no-ano-ate-agosto.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:06:05.969106+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 42.118872061875784,
-        "size": 8,
-        "n_sources": 8,
+        "score": 116.6905947161532,
+        "size": 23,
+        "n_sources": 22,
         "n_continents": 7,
         "continents": [
           "East Asia",
@@ -1321,277 +826,938 @@
           "North America",
           "South Asia"
         ],
-        "coherence": 0.8430288434028625,
-        "title": "Iran hits U.S. targets over wedding strike that Washington says it is probing",
+        "coherence": 0.8445146679878235,
+        "title": "US Envoys Witkoff and Kushner Arrive in Moscow for Talks",
         "central_article": {
-          "title": "Iran hits U.S. targets over wedding strike that Washington says it is probing",
-          "url": "https://www.japantimes.co.jp/news/2026/09/04/world/politics/iran-us-wedding-strike/",
-          "source_id": "japantimes.co.jp",
-          "continent": "East Asia",
+          "title": "US Envoys Witkoff and Kushner Arrive in Moscow for Talks",
+          "url": "https://www.kyivpost.com/post/83835",
+          "source_id": "kyivpost.com",
+          "continent": "Europe East",
           "published_at": null,
-          "scraped_at_utc": "2026-09-04T21:11:15.681393+00:00"
+          "scraped_at_utc": "2026-09-05T11:00:22.811407+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9094208478927612,
+            "sim_to_centroid": 0.9267972707748413,
             "article": {
-              "title": "Iran hits U.S. targets over wedding strike that Washington says it is probing",
-              "url": "https://www.japantimes.co.jp/news/2026/09/04/world/politics/iran-us-wedding-strike/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:11:15.681393+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8937756419181824,
-            "article": {
-              "title": "US probe airstrike on wedding in Iran",
-              "url": "https://pajhwok.com/2026/09/04/us-probe-airstrike-on-wedding-in-iran/",
-              "source_id": "pajhwok.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:10:43.531323+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8806352615356445,
-            "article": {
-              "title": "US probes Iran wedding strike that analysis shows was likely direct hit by US munition",
-              "url": "https://kathmandupost.com/world/2026/09/04/us-probes-iran-wedding-strike-that-analysis-shows-was-likely-direct-hit-by-us-munition",
-              "source_id": "kathmandupost.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:10:37.202885+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8666324615478516,
-            "article": {
-              "title": "Evidence points to direct US hit on Iran wedding",
-              "url": "https://www.rt.com/news/645100-us-iran-hit-wedding-evidence/",
-              "source_id": "rt.com",
+              "title": "US Envoys Witkoff and Kushner Arrive in Moscow for Talks",
+              "url": "https://www.kyivpost.com/post/83835",
+              "source_id": "kyivpost.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:08:00.680022+00:00"
+              "scraped_at_utc": "2026-09-05T11:00:22.811407+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8615049123764038,
+            "sim_to_centroid": 0.9237531423568726,
             "article": {
-              "title": "Iran hits US targets in Mideast, wedding strikes being probed, Vance says",
-              "url": "https://www.france24.com/en/middle-east/20260903-iran-hits-us-targets-as-washington-says-probing-wedding-strike",
-              "source_id": "france24.com",
-              "continent": "Europe South",
+              "title": "US envoys Witkoff, Kushner arrive in Moscow for talks on peace in Ukraine, sources say",
+              "url": "https://www.straitstimes.com/world/europe/putins-envoy-dmitriev-to-meet-witkoff-kushner-upon-their-arrival-in-moscow-sources-say?ref=latest-headlines",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:05:15.637010+00:00"
+              "scraped_at_utc": "2026-09-05T11:04:15.977581+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.794366180896759,
+            "sim_to_centroid": 0.9139201641082764,
             "article": {
-              "title": "US JD Vance reacts to airstrike that killed four at Iran wedding: ‘Things happen’",
-              "url": "https://www.theguardian.com/world/2026/sep/03/iran-strikes-wedding-jd-vance",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:08.944811+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7735658288002014,
-            "article": {
-              "title": "واشنطن تفرض عقوبات جديدة على كيانات مرتبطة بطهران.. وتحقق في قصف حفل الزفاف",
-              "url": "https://www.omandaily.om/article/1209902",
-              "source_id": "omandaily.om",
+              "title": "Witkoff, Kushner land in Moscow for Ukraine peace talks",
+              "url": "https://www.jpost.com/international/internationalrussia-ukraine-war/article-907632",
+              "source_id": "jpost.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:07:25.840056+00:00"
+              "scraped_at_utc": "2026-09-05T10:59:31.955980+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7643297910690308,
+            "sim_to_centroid": 0.9098615646362305,
             "article": {
-              "title": "Women gathered in a small Iranian town for a wedding. Then deadly strikes hit",
-              "url": "https://apnews.com/article/iran-war-wedding-us-strikes-b0a9d9a28ef221e52f4643a062dbfca1",
+              "title": "Nu er Witkoff og Kushner landet i Moskva",
+              "url": "https://politiken.dk/internationalt/art10537513/Nu-er-Witkoff-og-Kushner-landet-i-Moskva",
+              "source_id": "politiken.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:57:26.246650+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9024490118026733,
+            "article": {
+              "title": "Trump’s Witkoff and Kushner arrive in Moscow ahead of Putin talks",
+              "url": "https://www.azernews.az/region/263432.html",
+              "source_id": "azernews.az",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:00:54.074582+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9003199934959412,
+            "article": {
+              "title": "Russiske medier: Witkoff og Kushner er landet i Moskva",
+              "url": "https://www.dr.dk/nyheder/udland/live-krigen-i-ukraine?focusId=12378140",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:57:38.414679+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8923466205596924,
+            "article": {
+              "title": "US envoys Witkoff, Kushner arrive in Moscow for talks on ending Russia’s war.",
+              "url": "https://kyivindependent.com/us-envoys-witkoff-kushner-arrive-in-moscow-for-talks-on-ending-russias-war/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:00:24.392665+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8857865929603577,
+            "article": {
+              "title": "US envoys Witkoff and Kushner are in Moscow in a new push for peace between Russia and Ukraine",
+              "url": "https://apnews.com/article/russia-ukraine-war-kushner-witkoff-visit-36a991feaff241bb8f24857ac159202a",
               "source_id": "apnews.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:09:14.163327+00:00"
+              "scraped_at_utc": "2026-09-05T11:01:39.133251+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8741462230682373,
+            "article": {
+              "title": "Ukraine-Krieg: US-Gesandte Witkoff und Kushner wohl in Russland",
+              "url": "https://www.diepresse.com/41230974/ukraine-krieg-us-gesandte-witkoff-und-kushner-wohl-in-russland",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:57:11.642623+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8585484027862549,
+            "article": {
+              "title": "Amerikaanse onderhandelaren Kushner en Witkoff reizen dit weekend af naar Rusland en Oekraïne",
+              "url": "https://www.nrc.nl/nieuws/2026/09/05/amerikaanse-onderhandelaren-kushner-en-witkoff-reizen-dit-weekend-af-naar-rusland-en-oekraine-a4935968",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:56:56.377113+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8567651510238647,
+            "article": {
+              "title": "Ukraine crisis US envoys Witkoff, Kushner to visit Moscow, Kiev this weekend",
+              "url": "https://tass.com/world/2182929",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:00:36.441090+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8539625406265259,
+            "article": {
+              "title": "‘Witkoff en Kushner reizen naar Moskou en Kyiv met vredesvoorstel’",
+              "url": "https://fd.nl/politiek/1611146/witkoff-en-kushner-reizen-naar-moskou-en-kyiv-met-vredesvoorstel",
+              "source_id": "fd.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:56:59.991733+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8534253835678101,
+            "article": {
+              "title": "Witkoff, Kushner head to Russia, Ukraine for peace efforts",
+              "url": "https://pajhwok.com/2026/09/05/witkoff-kushner-head-to-russia-ukraine-for-peace-efforts/",
+              "source_id": "pajhwok.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:03:18.695329+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8437211513519287,
+            "article": {
+              "title": "Witkoff and Kushner set to visit Moscow then Kyiv on Sunday",
+              "url": "https://www.politico.eu/article/steve-witkoff-jared-kushner-donald-trump-visit-moscow-and-kyiv/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:56:53.286276+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8248635530471802,
+            "article": {
+              "title": "La diretta Witkoff e Kushner arrivati a Mosca, Trump: “Portano una proposta”",
+              "url": "https://www.repubblica.it/esteri/2026/09/05/diretta/guerra_ucraina_russia_news_oggi-425566049/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:58:08.531892+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8006182312965393,
+            "article": {
+              "title": "Trump Envoys Arrive in Moscow for Negotiations on Ukraine War",
+              "url": "https://www.nytimes.com/2026/09/05/world/europe/russia-ukraine-witkoff-kushner-moscow.html",
+              "source_id": "nytimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:01:40.710004+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7851448655128479,
+            "article": {
+              "title": "«Интерфакс»: Уиткофф и Кушнер прилетели в Москву",
+              "url": "https://www.kommersant.ru/doc/8937219?from=top_main_1",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:00:34.461009+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7842317223548889,
+            "article": {
+              "title": "Уиткофф и Кушнер прибыли в Москву",
+              "url": "https://ria.ru/20260905/samolet-2115640481.html",
+              "source_id": "ria.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:00:38.725717+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.781525731086731,
+            "article": {
+              "title": "Funke Mediengruppe Live Ukraine-Newsblog Ukraine-Krieg: US-Vermittler Kushner und Witkoff in Moskau eingetroffen",
+              "url": "https://www.abendblatt.de/politik/article412317251/ukraine-krieg-russland-news-aktuell-luftangriff-tote-us-vermittler-kushner-witkoff.html",
+              "source_id": "abendblatt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:57:15.853523+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7799510955810547,
+            "article": {
+              "title": "newsticker Krieg in der Ukraine US-Sondergesandte Witkoff und Kushner in Moskau eingetroffen Die neuesten Einträge aus dem Liveticker: Kushner und Witkoff in Moskau eingetroffen Selenski: Russland beschiesst vor US-Besuch Kiewer Flughäfen Lokale Feuerpause für Reparatur des AKW in Saporischja",
+              "url": "https://www.srf.ch/news/international/ukraine/krieg-in-der-ukraine-us-sondergesandte-witkoff-und-kushner-in-moskau-eingetroffen",
+              "source_id": "srf.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:57:24.236144+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7665071487426758,
+            "article": {
+              "title": "Witkoff, Kushner Likely to Visit Moscow and Kyiv on Sept. 5-6",
+              "url": "https://georgiatoday.ge/witkoff-kushner-likely-to-visit-moscow-and-kyiv-on-sept-5-6/",
+              "source_id": "georgiatoday.ge",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:00:46.921812+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7634820938110352,
+            "article": {
+              "title": "US-Vermittler reisen nach Moskau und Kiew",
+              "url": "https://www.zdfheute.de/politik/ausland/witkoff-kushner-reise-moskau-kiew-ukraine-krieg-russland-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:57:14.006931+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7417075634002686,
+            "article": {
+              "title": "Amerikansk delegation er landet i Moskva, skriver russiske medier",
+              "url": "https://www.dr.dk/nyheder/udland/live-krigen-i-ukraine",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:57:38.414679+00:00"
             }
           }
         ]
       },
       {
-        "score": 39.15972511714906,
-        "size": 12,
+        "score": 42.67686784124381,
+        "size": 13,
+        "n_sources": 13,
+        "n_continents": 5,
+        "continents": [
+          "China",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East"
+        ],
+        "coherence": 0.8158539533615112,
+        "title": "US envoys visit Russia and Ukraine as Trump says he has ‘idea for peace’",
+        "central_article": {
+          "title": "US envoys visit Russia and Ukraine as Trump says he has ‘idea for peace’",
+          "url": "https://www.thetimes.com/world/russia-ukraine-war/article/steve-witkoff-jared-kushner-us-russia-ukraine-talks-jfcbxjm5f",
+          "source_id": "thetimes.com",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-05T10:56:45.755451+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8925676345825195,
+            "article": {
+              "title": "US envoys visit Russia and Ukraine as Trump says he has ‘idea for peace’",
+              "url": "https://www.thetimes.com/world/russia-ukraine-war/article/steve-witkoff-jared-kushner-us-russia-ukraine-talks-jfcbxjm5f",
+              "source_id": "thetimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:56:45.755451+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8892309665679932,
+            "article": {
+              "title": "Trump says US envoys to visit Moscow, Kyiv with new Ukraine peace bid",
+              "url": "https://www.scmp.com/news/world/united-states-canada/article/3366464/trump-sends-witkoff-kushner-moscow-and-kyiv-new-ukraine-peace-plan?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:02:14.169100+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8747468590736389,
+            "article": {
+              "title": "Trump sends envoys to Moscow and Kyiv with new plan to 'end the war'",
+              "url": "https://www.france24.com/en/europe/20260905-trump-sends-envoys-to-moscow-and-kyiv-with-new-plan-to-end-the-war",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:57:51.763467+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8597376942634583,
+            "article": {
+              "title": "Trump confirma que sus enviados viajan a Rusia y Ucrania con \"una propuesta para poner fin a la guerra\"",
+              "url": "https://www.rtve.es/noticias/20260905/trump-confirma-enviados-viajan-a-rusia-ucrania-con-propuesta-para-poner-fin-a-guerra/17213390.shtml",
+              "source_id": "rtve.es",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:58:05.518498+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8538861274719238,
+            "article": {
+              "title": "Trump's peace envoys to visit Moscow and Kyiv over weekend",
+              "url": "https://www.bbc.com/news/articles/c23x0z48x0no",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:56:42.825899+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8267714977264404,
+            "article": {
+              "title": "موفدا ترامب في موسكو... مساعٍ أميركية جديدة لإنهاء حرب أوكرانيا",
+              "url": "https://www.annahar.com/international/europe/344443/أ-ف-ب-موفدا-ترامب-وصلا-إلى-موسكو",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:59:54.190626+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8226467370986938,
+            "article": {
+              "title": "1 t Verden Trumps menn til Moskva og Kyiv med fredsforslag",
+              "url": "https://www.aftenposten.no/verden/i/XMnOeE/trumps-menn-i-moskva-med-nytt-fredsforslag",
+              "source_id": "aftenposten.no",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:57:29.911906+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7925196886062622,
+            "article": {
+              "title": "Ukraine orders temporary ceasefire as US envoys set to visit Kyiv, Moscow for peace talks, Ukrainian media reports.",
+              "url": "https://kyivindependent.com/units-of-ukraines-army-ordered-to-halt-fighting-as-us-envoys-set-to-visit-ukraine-russia/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:00:24.392665+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7906962037086487,
+            "article": {
+              "title": "Just nu USA:s sändebud framme i Moskva Trump: Har med sig förslag till fredsavtal",
+              "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=3e2918cc99c0b163108885590cb75f1a",
+              "source_id": "svt.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:57:35.174304+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7612818479537964,
+            "article": {
+              "title": "Ofensivă diplomatică în Moscova. Emisarii lui Trump, primiți de omul lui Putin",
+              "url": "https://hotnews.ro/ofensiva-diplomatica-in-moscova-emisarii-lui-trump-primiti-de-omul-lui-putin-2341930",
+              "source_id": "hotnews.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:00:06.209338+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7563906908035278,
+            "article": {
+              "title": "US-Unterhändler in Moskau und Kiew Ein neuer Anlauf für Frieden in der Ukraine",
+              "url": "https://www.tagesschau.de/ausland/europa/ukraine-usa-russland-witkoff-kushner-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:57:02.118382+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7545337677001953,
+            "article": {
+              "title": "At least 5 killed in Russian attacks on Ukraine as US envoys visit Moscow",
+              "url": "https://www.aljazeera.com/news/2026/9/5/at-least-5-killed-in-russian-attacks-on-ukraine-as-us-envoys-visit-moscow",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:59:28.667334+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7310916185379028,
+            "article": {
+              "title": "Special US flight crosses Russian border amid expectations of negotiators’ visit",
+              "url": "https://tass.com/politics/2183075",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:00:36.441090+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 41.436505959911685,
+        "size": 9,
+        "n_sources": 9,
+        "n_continents": 6,
+        "continents": [
+          "Europe East",
+          "Europe North",
+          "Middle East",
+          "North America",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.8470356464385986,
+        "title": "Two killed and 81 injured after explosions at Bolivian army base",
+        "central_article": {
+          "title": "Two killed and 81 injured after explosions at Bolivian army base",
+          "url": "https://www.euronews.com/2026/09/05/at-least-two-killed-and-81-injured-after-explosions-at-bolivian-army-base",
+          "source_id": "euronews.com",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-05T10:56:51.646544+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9120684862136841,
+            "article": {
+              "title": "Two killed and 81 injured after explosions at Bolivian army base",
+              "url": "https://www.euronews.com/2026/09/05/at-least-two-killed-and-81-injured-after-explosions-at-bolivian-army-base",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:56:51.646544+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8833849430084229,
+            "article": {
+              "title": "Una doble explosión en un cuartel militar de Bolivia deja al menos 2 muertos y 81 heridos",
+              "url": "https://www.bbc.com/mundo/articles/c78076w3jeyo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:58:14.040328+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8784146904945374,
+            "article": {
+              "title": "10 killed, dozens injured in Bolivia military facility explosions",
+              "url": "https://pajhwok.com/2026/09/05/10-killed-dozens-injured-in-bolivia-military-facility-explosions/",
+              "source_id": "pajhwok.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:03:18.695329+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8582875728607178,
+            "article": {
+              "title": "Bolivijos kariuomenės bazėje nugriaudėjus sprogimams 2 žmonės žuvo, dešimtys buvo sužeisti",
+              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3043034/bolivijos-kariuomenes-bazeje-nugriaudejus-sprogimams-2-zmones-zuvo-desimtys-buvo-suzeisti",
+              "source_id": "lrt.lt",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:00:42.077431+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8568732738494873,
+            "article": {
+              "title": "Blasts at Bolivian military base kill at least 10, injure dozens",
+              "url": "https://www.aljazeera.com/news/2026/9/5/blasts-at-bolivian-military-base-kill-at-least-10-injure-dozens",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:59:28.667334+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8445193767547607,
+            "article": {
+              "title": "Mundo Dos muertos y 59 heridos tras explosión en recinto militar en Bolivia",
+              "url": "https://www.crhoy.com/mundo/dos-muertos-y-59-heridos-tras-explosion-en-recinto-militar-en-bolivia/",
+              "source_id": "crhoy.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:58:21.901010+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.815453290939331,
+            "article": {
+              "title": "IMÁGENES IMPACTANTES Tragedia en Bolivia. Explotó un depósito militar en el límite con Perú: dos muertos, 81 heridos y siete desaparecidos",
+              "url": "https://www.lanacion.com.ar/el-mundo/bolivia-dos-personas-murieron-y-otras-59-resultaron-heridas-tras-la-explosion-de-un-deposito-militar-nid05092026/",
+              "source_id": "lanacion.com.ar",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:58:26.974714+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7937514781951904,
+            "article": {
+              "title": "Explosão mata ao menos 2 e fere 59 em instalação militar na Bolívia; 52 das vítimas são civis Ministro da Defesa diz que investigação tenta descobrir causas da detonação em Viacha",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/09/explosao-deixa-ao-menos-58-feridos-em-instalacao-militar-na-bolivia.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:58:36.198767+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.78056800365448,
+            "article": {
+              "title": "Flera döda i explosion på militärförläggning",
+              "url": "https://www.dn.se/direkt/2026-09-05/flera-doda-i-explosion-pa-militarforlaggning/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:57:28.203650+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 39.278108295348325,
+        "size": 9,
+        "n_sources": 8,
+        "n_continents": 6,
+        "continents": [
+          "East Asia",
+          "Europe North",
+          "Europe South",
+          "North America",
+          "Oceania",
+          "South America"
+        ],
+        "coherence": 0.859893262386322,
+        "title": "Trump calls Iran conflict ‘small potatoes,’ as he plays down war",
+        "central_article": {
+          "title": "Trump calls Iran conflict ‘small potatoes,’ as he plays down war",
+          "url": "https://www.japantimes.co.jp/news/2026/09/05/world/politics/trump-iran-war-small-potatoes/",
+          "source_id": "japantimes.co.jp",
+          "continent": "East Asia",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-05T11:03:51.837084+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9494959115982056,
+            "article": {
+              "title": "Trump calls Iran conflict ‘small potatoes,’ as he plays down war",
+              "url": "https://www.japantimes.co.jp/news/2026/09/05/world/politics/trump-iran-war-small-potatoes/",
+              "source_id": "japantimes.co.jp",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:03:51.837084+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9397329092025757,
+            "article": {
+              "title": "Trump says Iran war is 'small potatoes' as conflict grinds on",
+              "url": "https://www.sbs.com.au/news/article/trump-says-iran-war-small-potatoes-as-conflict-grinds-on/2zwuji5wj",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:59:13.856217+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9168210029602051,
+            "article": {
+              "title": "Trump calls Iran conflict ‘small potatoes’ and defends Vance’s position that it’s not a war",
+              "url": "https://apnews.com/article/trump-iran-vance-war-23a45a2c45c048a9e894baeab89c7a2f",
+              "source_id": "apnews.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:01:39.133251+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8918367028236389,
+            "article": {
+              "title": "Trump gets testy and calls Iran war ‘small potatoes’ when pressed on length of fight",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-iran-war-length-venezuela-b3045032.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:56:44.097262+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8854720592498779,
+            "article": {
+              "title": "Trump says Iran war is 'small potatoes', Israel strikes southern Lebanon",
+              "url": "https://www.france24.com/en/middle-east/20260904-middle-east-live-south-korea-prepares-for-military-deployment-in-strait-of-hormuz",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:57:51.763467+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8164777755737305,
+            "article": {
+              "title": "Brooks and Capehart on Trump calling Iran war 'small potatoes'",
+              "url": "https://www.pbs.org/newshour/show/brooks-and-capehart-on-trump-calling-iran-war-small-potatoes",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:02:12.924793+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8086382746696472,
+            "article": {
+              "title": "Trump dice que la guerra con Irán es “pan comido” para EE.UU.: “Para nosotros es de poca monta”",
+              "url": "https://elcomercio.pe/mundo/eeuu/donald-trump-dice-que-la-guerra-con-iran-es-pan-comido-para-estados-unidos-para-nosotros-es-de-poca-monta-ultimas-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:58:45.894233+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7997122406959534,
+            "article": {
+              "title": "Trump downplays the conflict with Iran. Is it a sign of trouble for his presidency?",
+              "url": "https://www.sbs.com.au/news/article/trump-downplays-the-conflict-with-iran-is-it-a-sign-of-trouble-for-his-presidency/81acfdy79",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:59:13.856217+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7308527231216431,
+            "article": {
+              "title": "‘I Wouldn’t Call it a War’: Vance Downplays Situation in Iran",
+              "url": "https://time.com/article/2026/09/03/vance-iran-war-press-briefing/",
+              "source_id": "time.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:02:09.206390+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 38.89754183276366,
+        "size": 19,
         "n_sources": 12,
         "n_continents": 5,
         "continents": [
           "Europe East",
           "Europe North",
           "Europe South",
-          "Middle East",
-          "South Asia"
+          "North America",
+          "Oceania"
         ],
-        "coherence": 0.8146608471870422,
-        "title": "Meloni sets a record, leading Italy’s longest-serving government since WWII",
+        "coherence": 0.8133172988891602,
+        "title": "A mistrial is declared in the murder case against Lindsay Clancy. Here’s what could happen next",
         "central_article": {
-          "title": "Meloni sets a record, leading Italy’s longest-serving government since WWII",
-          "url": "https://www.aljazeera.com/news/2026/9/4/meloni-sets-a-record-leading-italys-longest-serving-government-since-wwii",
-          "source_id": "aljazeera.com",
-          "continent": "Middle East",
+          "title": "A mistrial is declared in the murder case against Lindsay Clancy. Here’s what could happen next",
+          "url": "https://apnews.com/article/lindsay-clancy-mistrial-what-happens-next-e38bef47f5af93bf95aabad272215b45",
+          "source_id": "apnews.com",
+          "continent": "North America",
           "published_at": null,
-          "scraped_at_utc": "2026-09-04T21:06:57.305227+00:00"
+          "scraped_at_utc": "2026-09-05T11:01:39.133251+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9087375402450562,
+            "sim_to_centroid": 0.8997040390968323,
             "article": {
-              "title": "Meloni sets a record, leading Italy’s longest-serving government since WWII",
-              "url": "https://www.aljazeera.com/news/2026/9/4/meloni-sets-a-record-leading-italys-longest-serving-government-since-wwii",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
+              "title": "A mistrial is declared in the murder case against Lindsay Clancy. Here’s what could happen next",
+              "url": "https://apnews.com/article/lindsay-clancy-mistrial-what-happens-next-e38bef47f5af93bf95aabad272215b45",
+              "source_id": "apnews.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:06:57.305227+00:00"
+              "scraped_at_utc": "2026-09-05T11:01:39.133251+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8906445503234863,
+            "sim_to_centroid": 0.8924822807312012,
             "article": {
-              "title": "Giorgia Meloni bat le record de longévité au pouvoir en Italie",
-              "url": "https://www.rts.ch/info/monde/2026/article/italie-record-de-longevite-au-pouvoir-pour-giorgia-meloni-29347865.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
+              "title": "What's next for Lindsay Clancy after a mistrial in her murder case",
+              "url": "https://www.pbs.org/newshour/show/whats-next-for-lindsay-clancy-after-a-mistrial-in-her-murder-case",
+              "source_id": "pbs.org",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:05:17.762847+00:00"
+              "scraped_at_utc": "2026-09-05T11:02:12.924793+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8755937814712524,
+            "sim_to_centroid": 0.890312671661377,
             "article": {
-              "title": "Giorgia Meloni congratulated on becoming modern Italy's longest serving leader",
-              "url": "https://www.thenationalnews.com/news/europe/2026/09/04/giorgia-meloni-congratulated-on-becoming-modern-italys-longest-serving-leader/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
+              "title": "The Lindsay Clancy case has ended in a mistrial. What happens now?",
+              "url": "https://www.abc.net.au/news/2026-09-05/lindsay-clancy-murder-trial-declared-mistrial-what-next/107119826",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:06:58.962731+00:00"
+              "scraped_at_utc": "2026-09-05T10:59:12.043140+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8330889344215393,
+            "sim_to_centroid": 0.8798050880432129,
             "article": {
-              "title": "Power party: Italy’s Meloni marks record as PM with major festivities",
-              "url": "https://www.france24.com/en/europe/20260904-italy-s-meloni-throws-party-to-celebrate-record-in-power",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:05:15.637010+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8318476676940918,
-            "article": {
-              "title": "Mirziyoyev congratulates Meloni on record tenure as Italy’s prime minister",
-              "url": "https://www.gazeta.uz/en/2026/09/04/italy/",
-              "source_id": "gazeta.uz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:08:21.153968+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8214699029922485,
-            "article": {
-              "title": "Tisíc a jedna grimasa. Meloniová slaví, její kabinet vládne nejdéle od Mussoliniho",
-              "url": "https://www.idnes.cz/zpravy/zahranicni/meloniove-vlada-se-v-patek-stane-nejdele-slouzicim-kabinetem-v-italii-od-1946.A260903_124820_zahranicni_kha/foto",
-              "source_id": "idnes.cz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:07:34.364200+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8188130855560303,
-            "article": {
-              "title": "पीएम मोदी ने मेलोनी को बधाई दी: सबसे लंबे समय तक इटली की प्रधानमंत्री रहने का रिकॉर्ड, लगातार 1413 दिन से सत्ता में Play video",
-              "url": "https://www.bhaskar.com/international/news/italy-pm-giorgia-meloni-record-longest-term-pm-modi-congratulates-138927519.html",
-              "source_id": "bhaskar.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:10:20.773992+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7936615943908691,
-            "article": {
-              "title": "Cumhurbaşkanı Erdoğan’dan Meloni’ye tebrik mesajı",
-              "url": "https://www.hurriyet.com.tr/gundem/cumhurbaskani-erdogandan-italya-basbakani-meloniye-tebrik-mesaji-43296360",
-              "source_id": "hurriyet.com.tr",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:07:07.757797+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7901316285133362,
-            "article": {
-              "title": "ميلوني تقود أطول حكومة إيطالية منذ الحرب العالمية الثانية",
-              "url": "https://www.annahar.com/international/europe/344345/ميلوني-تقود-أطول-حكومة-إيطالية-منذ-الحرب-العالمية-الثانية",
-              "source_id": "annahar.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:07:21.036590+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7501115798950195,
-            "article": {
-              "title": "Europa Hoe Giorgia Meloni is uitgegroeid tot de meest stabiele Italiaanse naoorlogse premier",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/09/03/giorgia-meloni-vestigt-record-van-langslopende-italiaanse-regeri/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:05:20.370160+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7325321435928345,
-            "article": {
-              "title": "Токаев поздравил Мелони с историческим достижением правительства Италии",
-              "url": "https://tengrinews.kz/kazakhstan_news/tokaev-pozdravil-meloni-istoricheskim-dostijeniem-607833/",
-              "source_id": "tengrinews.kz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:08:19.235861+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7292979955673218,
-            "article": {
-              "title": "Meloni accused of fiddling with Italy’s electoral system to ensure re-election",
-              "url": "https://www.thetimes.com/world/europe/article/meloni-italy-electoral-reform-9cm22xw8q",
-              "source_id": "thetimes.com",
+              "title": "Explained Lindsay Clancy judge declares mistrial – what happens next?",
+              "url": "https://www.theguardian.com/us-news/2026/sep/04/lindsay-clancy-trial-verdict-mistrial",
+              "source_id": "theguardian.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:07.433075+00:00"
+              "scraped_at_utc": "2026-09-05T10:56:47.265650+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8780937194824219,
+            "article": {
+              "title": "Key things to know about Lindsay Clancy's case after judge declares mistrial",
+              "url": "https://www.pbs.org/newshour/nation/key-things-to-know-about-lindsay-clancys-case-after-judge-declares-mistrial",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:02:12.924793+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8735806941986084,
+            "article": {
+              "title": "Lindsay Clancy case ends in a mistrial after jury deadlocks",
+              "url": "https://www.independent.co.uk/news/world/americas/crime/lindsay-clancy-mistrial-verdict-deadlocked-hung-jury-b3042769.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:56:44.097262+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8529340624809265,
+            "article": {
+              "title": "Mistrial declared in Lindsay Clancy murder case, after jury deadlocks",
+              "url": "https://www.bbc.com/news/articles/cpwlrj2je1po",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:56:42.825899+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.837046205997467,
+            "article": {
+              "title": "¿Qué pasa ahora con Lindsay Clancy, acusada de matar a sus tres hijos, tras declararse nulo el juicio?",
+              "url": "https://www.rtve.es/noticias/20260905/caso-lindsay-clancy-declararse-juicio-nulo/17213461.shtml",
+              "source_id": "rtve.es",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:58:05.518498+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8056661486625671,
+            "article": {
+              "title": "The closely-watched Lindsay Clancy trial ends with one last dramatic moment",
+              "url": "https://apnews.com/article/lindsay-clancy-postpartum-massachusetts-trial-appeal-e489ac271a567c21ed5565ac495f5932",
+              "source_id": "apnews.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:01:39.133251+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7989564538002014,
+            "article": {
+              "title": "¿Qué pasará ahora que un juez declaró nulo el juicio contra Lindsay Clancy, la madre acusada de matar a sus tres hijos en EE.UU.?",
+              "url": "https://www.bbc.com/mundo/articles/cy4z89zr77zo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:58:14.040328+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.793317437171936,
+            "article": {
+              "title": "The Meaning of the Lindsay Clancy Mistrial",
+              "url": "https://www.theatlantic.com/ideas/2026/09/clancy-mistrial-debate-conspiracy/688483/",
+              "source_id": "theatlantic.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:02:10.489429+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7811266183853149,
+            "article": {
+              "title": "Döntésképtelenség miatt érvénytelen a gyerekeit megölő Lindsay Clancy tárgyalása",
+              "url": "https://telex.hu/kulfold/2026/09/04/lindsay-clancy-per-targyalas-gyilkossag-egyesult-allamok",
+              "source_id": "telex.hu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:00:03.808869+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.772740364074707,
+            "article": {
+              "title": "Key moments from Lindsay Clancy's trial over children's killings",
+              "url": "https://www.bbc.com/news/articles/cg7mlmg475go",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:56:42.825899+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.772088885307312,
+            "article": {
+              "title": "US-Prozess gegen mutmaßliche Kindsmörderin Lindsay Clancy geplatzt",
+              "url": "https://www.diepresse.com/41233148/us-prozess-gegen-mutmassliche-kindsmoerderin-lindsay-clancy-geplatzt",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:57:11.642623+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7661759853363037,
+            "article": {
+              "title": "World News Lindsay Clancy’s lawyer targets juror in dramatic twist",
+              "url": "https://thewest.com.au/news/world/lindsay-clancy-trial-defence-asks-judge-to-remove-juror-after-six-days-of-deliberations-c-22822540",
+              "source_id": "thewest.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:59:18.660401+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.759756326675415,
+            "article": {
+              "title": "The Lindsay Clancy trial was always going to end this way",
+              "url": "https://www.independent.co.uk/news/world/americas/lindsay-clancy-trial-verdict-jury-what-next-b3043550.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:56:44.097262+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7541568279266357,
+            "article": {
+              "title": "Lindsay Clancy Faces Years of Confinement, No Matter What Comes Next",
+              "url": "https://www.nytimes.com/2026/09/05/us/lindsay-clancy-psychiatric-hospital.html",
+              "source_id": "nytimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:01:40.710004+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7331111431121826,
+            "article": {
+              "title": "The Women Obsessed With Lindsay Clancy",
+              "url": "https://www.theatlantic.com/ideas/2026/08/lindsay-clancy-trial-women/688470/",
+              "source_id": "theatlantic.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:02:10.489429+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7119728326797485,
+            "article": {
+              "title": "Lindsay Clancy murder trial has divided US on whether she's victim or criminal Some say the case shed light on the mental health struggles of mothers, while others argue it's no excuse for murder. 53 mins ago US & Canada",
+              "url": "https://www.bbc.com/news/articles/cx2z0xnw2d6o",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:56:42.825899+00:00"
             }
           }
         ]
       },
       {
-        "score": 33.3869632698751,
-        "size": 8,
-        "n_sources": 8,
-        "n_continents": 5,
+        "score": 31.290540616766975,
+        "size": 7,
+        "n_sources": 7,
+        "n_continents": 6,
         "continents": [
           "China",
-          "Europe South",
+          "East Asia",
+          "Europe East",
           "Middle East",
           "North America",
-          "South America"
+          "Oceania"
         ],
-        "coherence": 0.8638572096824646,
+        "coherence": 0.8411292433738708,
         "title": "Trump's White House releases deportation video games",
         "central_article": {
           "title": "Trump's White House releases deportation video games",
@@ -1599,347 +1765,326 @@
           "source_id": "newarab.com",
           "continent": "Middle East",
           "published_at": null,
-          "scraped_at_utc": "2026-09-04T21:07:14.120213+00:00"
+          "scraped_at_utc": "2026-09-05T10:59:45.348798+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9198887944221497,
+            "sim_to_centroid": 0.8784551620483398,
             "article": {
               "title": "Trump's White House releases deportation video games",
               "url": "https://www.newarab.com/news/trumps-white-house-releases-deportation-video-games",
               "source_id": "newarab.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:07:14.120213+00:00"
+              "scraped_at_utc": "2026-09-05T10:59:45.348798+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8889268636703491,
+            "sim_to_centroid": 0.8747861385345459,
             "article": {
               "title": "White House Promotes Trump Agenda in ‘Arcade’ Video Games",
               "url": "https://time.com/article/2026/09/04/white-house-arcade-trump-agenda-immigration/",
               "source_id": "time.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:09:45.082606+00:00"
+              "scraped_at_utc": "2026-09-05T11:02:09.206390+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8808293342590332,
+            "sim_to_centroid": 0.8688873052597046,
             "article": {
-              "title": "White House releases retro-style arcade games inviting players to block border ‘siege,’ fill Trump Accounts",
-              "url": "https://www.theglobeandmail.com/world/us-politics/article-white-house-arcade-games-trump/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
+              "title": "The White House launched a video game. A major games company is not impressed",
+              "url": "https://www.sbs.com.au/news/article/white-house-launched-a-video-game-makers-of-tetris-are-not-impressed/nfz5stpa9",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:06:36.630930+00:00"
+              "scraped_at_utc": "2026-09-05T10:59:13.856217+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.876792311668396,
+            "sim_to_centroid": 0.8487257957458496,
             "article": {
-              "title": "White House website debuts 5 retro arcade video games that promote Trump’s agenda",
-              "url": "https://apnews.com/article/trump-white-house-video-game-arcade-d540ff089ed5b1d432715a4209b16a23",
-              "source_id": "apnews.com",
-              "continent": "North America",
+              "title": "На сайте Белого дома появились игры про задержание мигрантов и строительство стены",
+              "url": "https://www.kommersant.ru/doc/8936760?from=spot_main",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:09:14.163327+00:00"
+              "scraped_at_utc": "2026-09-05T11:00:34.461009+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8611099720001221,
+            "sim_to_centroid": 0.8297305107116699,
             "article": {
-              "title": "Governo Trump lança game que simula captura e deportação de imigrantes dos Estados Unidos",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/09/governo-trump-lanca-videogame-que-simula-captura-e-deportacao-de-imigrantes-dos-eua.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
+              "title": "أول تعليق من شركة \"تتريس\" على لعبة الفيديو التي نشرها البيت الأبيض",
+              "url": "https://www.annahar.com/international/united-states/344448/أول-تعليق-من-شركة-تتريس-على-لعبة-الفيديو-التي-نشرها-البيت-الأبيض",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:06:02.594110+00:00"
+              "scraped_at_utc": "2026-09-05T10:59:54.190626+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8602055311203003,
-            "article": {
-              "title": "Casa Blanca lanza videojuegos con políticas de Trump: Tetris advierte acciones legales",
-              "url": "https://www.emol.com/noticias/Internacional/2026/09/04/1210586/casa-blanca-videojuegos-inmigrantes.html",
-              "source_id": "emol.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:05:59.967279+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8290910124778748,
-            "article": {
-              "title": "Verenigde Staten Witte Huis lanceert videogame waarin je migranten moet oppakken en deporteren: \"Ik word er misselijk van\"",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/09/04/witte-huis-lanceert-videogame-waarin-je-migranten-moet-oppakken/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:05:20.370160+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7940139770507812,
+            "sim_to_centroid": 0.8103731274604797,
             "article": {
               "title": "白宫网站上线抓捕移民电子游戏 人权团体批恐将移民“非人化”",
               "url": "https://international.caixin.com/2026-09-04/102482069.html",
               "source_id": "caixin.com",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:10:03.783752+00:00"
+              "scraped_at_utc": "2026-09-05T11:02:26.899653+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7769464254379272,
+            "article": {
+              "title": "Tetris distances itself from controversial White House ‘arcade’ games",
+              "url": "https://www.japantimes.co.jp/news/2026/09/05/world/politics/tetris-white-house-arcade-games/",
+              "source_id": "japantimes.co.jp",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:03:51.837084+00:00"
             }
           }
         ]
       },
       {
-        "score": 26.0723500334765,
+        "score": 29.74988708760864,
         "size": 7,
         "n_sources": 7,
-        "n_continents": 5,
+        "n_continents": 6,
         "continents": [
           "Europe East",
           "Europe North",
           "Europe South",
           "Middle East",
+          "South America",
           "South Asia"
         ],
-        "coherence": 0.8411054611206055,
-        "title": "Trump says US may hit Iran's Pickaxe Mountain soon",
+        "coherence": 0.8310311436653137,
+        "title": "Meloni sets a record, leading Italy’s longest-serving government since WWII",
         "central_article": {
-          "title": "Trump says US may hit Iran's Pickaxe Mountain soon",
-          "url": "https://www.jpost.com/middle-east/iran-news/article-907610",
-          "source_id": "jpost.com",
+          "title": "Meloni sets a record, leading Italy’s longest-serving government since WWII",
+          "url": "https://www.aljazeera.com/news/2026/9/4/meloni-sets-a-record-leading-italys-longest-serving-government-since-wwii",
+          "source_id": "aljazeera.com",
           "continent": "Middle East",
           "published_at": null,
-          "scraped_at_utc": "2026-09-04T21:07:00.414575+00:00"
+          "scraped_at_utc": "2026-09-05T10:59:28.667334+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8968992233276367,
+            "sim_to_centroid": 0.9042704105377197,
             "article": {
-              "title": "Trump says US may hit Iran's Pickaxe Mountain soon",
-              "url": "https://www.jpost.com/middle-east/iran-news/article-907610",
-              "source_id": "jpost.com",
+              "title": "Meloni sets a record, leading Italy’s longest-serving government since WWII",
+              "url": "https://www.aljazeera.com/news/2026/9/4/meloni-sets-a-record-leading-italys-longest-serving-government-since-wwii",
+              "source_id": "aljazeera.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:07:00.414575+00:00"
+              "scraped_at_utc": "2026-09-05T10:59:28.667334+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8859909176826477,
+            "sim_to_centroid": 0.8432477116584778,
             "article": {
-              "title": "Trump: USA kan snart angripe atomanlegg",
-              "url": "https://www.dagbladet.no/studio/80616-angrepet-mot-iran/12376285-trump-usa-kan-snart-angripe-iransk-atomanlegg",
-              "source_id": "dagbladet.no",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:53.863868+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8434531688690186,
-            "article": {
-              "title": "2 t Verden Trump sier USA snart kan angripe iransk atomanlegg",
-              "url": "https://www.aftenposten.no/verden/i/ExEVmK/trump-sier-usa-snart-kan-angripe-iransk-atomanlegg",
-              "source_id": "aftenposten.no",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:50.653344+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8302991390228271,
-            "article": {
-              "title": "امریکا جلد ایران کے کوہ کلنگ گزلا کو نشانہ بناسکتا ہے، ٹرمپ",
-              "url": "https://jang.com.pk/news/1613123",
+              "title": "اٹلی: میلونی حکومت نے طویل ترین حکومت کا ریکارڈ توڑ دیا",
+              "url": "https://jang.com.pk/news/1613263",
               "source_id": "jang.com.pk",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:10:38.745673+00:00"
+              "scraped_at_utc": "2026-09-05T11:03:13.884959+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8228095769882202,
+            "sim_to_centroid": 0.8388452529907227,
             "article": {
-              "title": "La diretta Trump: “Presto potremo colpire Pickaxe Mountain”. Raid iraniani in Giordania contro obiettivi Usa",
-              "url": "https://www.repubblica.it/esteri/2026/09/04/diretta/guerra_iran_usa_israele_news_oggi-425563967/",
-              "source_id": "repubblica.it",
+              "title": "En Italie, Giorgia Meloni célèbre près de quatre années au pouvoir malgré les crises et les revers",
+              "url": "https://www.lemonde.fr/international/article/2026/09/05/en-italie-giorgia-meloni-celebre-pres-de-quatre-annees-au-pouvoir-malgre-les-crises-et-les-revers_6766318_3210.html",
+              "source_id": "lemonde.fr",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:05:34.447632+00:00"
+              "scraped_at_utc": "2026-09-05T10:57:46.655070+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8225047588348389,
+            "sim_to_centroid": 0.8241194486618042,
             "article": {
-              "title": "ترمب: قد نضرب جبل رأس الفأس في إيران قريبا",
-              "url": "https://www.aljazeera.net/news/liveblog/2026/9/4/إيران-مباشر-فانس-يؤكد-حماية-السفن-في?update=9738168",
-              "source_id": "aljazeera.net",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:07:02.051891+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7857812643051147,
-            "article": {
-              "title": "Трамп заявил, что США фактически взяли под контроль Иран",
-              "url": "https://tengrinews.kz/world_news/tramp-zayavil-chto-ssha-fakticheski-vzyali-pod-kontrol-iran-607840/",
-              "source_id": "tengrinews.kz",
+              "title": "Mirziyoyev congratulates Meloni on record tenure as Italy’s prime minister",
+              "url": "https://www.gazeta.uz/en/2026/09/04/italy/",
+              "source_id": "gazeta.uz",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:08:19.235861+00:00"
+              "scraped_at_utc": "2026-09-05T11:00:51.621254+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8204278349876404,
+            "article": {
+              "title": "Meloni firade 1 414 dagar vid makten",
+              "url": "https://www.dn.se/direkt/2026-09-04/meloni-firade-1-414-dagar-vid-makten/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:57:28.203650+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8030714988708496,
+            "article": {
+              "title": "Meloni marks government longevity with 2027 vote in sight",
+              "url": "https://www.euronews.com/2026/09/04/meloni-marks-government-longevity-at-bari-rally-with-2027-vote-in-sight",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:56:51.646544+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7832356095314026,
+            "article": {
+              "title": "“¡Gracias de corazón, amigo!\". Meloni celebró un histórico récord de su gobierno y Milei la felicitó: qué se dijeron ambos mandatarios",
+              "url": "https://www.lanacion.com.ar/el-mundo/giorgia-meloni-celebro-que-su-gobierno-se-convirtiera-en-el-mas-longevo-de-italia-y-milei-la-nid04092026/",
+              "source_id": "lanacion.com.ar",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T10:58:26.974714+00:00"
             }
           }
         ]
       },
       {
-        "score": 25.421037282477897,
-        "size": 11,
+        "score": 26.0006369932371,
+        "size": 10,
         "n_sources": 10,
         "n_continents": 4,
         "continents": [
+          "Europe East",
           "Europe North",
           "Europe South",
-          "Middle East",
-          "Oceania"
+          "Middle East"
         ],
-        "coherence": 0.8093395233154297,
-        "title": "Nuovo scandalo sui fondi a Reform Uk: il partito di Farage sotto accusa. E al suo congresso arrivano anche inviati europei",
+        "coherence": 0.8138483166694641,
+        "title": "Zelensky dénonce des frappes russes sur les aéroports de Kiev avant la visite des émissaires américains",
         "central_article": {
-          "title": "Nuovo scandalo sui fondi a Reform Uk: il partito di Farage sotto accusa. E al suo congresso arrivano anche inviati europei",
-          "url": "https://www.corriere.it/esteri/26_settembre_04/farage-fondi-reform-uk-b34fecfe-de82-4228-a450-eea89221exlk.shtml",
-          "source_id": "corriere.it",
+          "title": "Zelensky dénonce des frappes russes sur les aéroports de Kiev avant la visite des émissaires américains",
+          "url": "https://www.lesoir.be/769180/article/2026-09-05/zelensky-denonce-des-frappes-russes-sur-les-aeroports-de-kiev-avant-la-visite",
+          "source_id": "lesoir.be",
           "continent": "Europe South",
           "published_at": null,
-          "scraped_at_utc": "2026-09-04T21:05:36.490599+00:00"
+          "scraped_at_utc": "2026-09-05T10:58:00.513317+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8765977621078491,
+            "sim_to_centroid": 0.8922781944274902,
             "article": {
-              "title": "Nuovo scandalo sui fondi a Reform Uk: il partito di Farage sotto accusa. E al suo congresso arrivano anche inviati europei",
-              "url": "https://www.corriere.it/esteri/26_settembre_04/farage-fondi-reform-uk-b34fecfe-de82-4228-a450-eea89221exlk.shtml",
-              "source_id": "corriere.it",
+              "title": "Zelensky dénonce des frappes russes sur les aéroports de Kiev avant la visite des émissaires américains",
+              "url": "https://www.lesoir.be/769180/article/2026-09-05/zelensky-denonce-des-frappes-russes-sur-les-aeroports-de-kiev-avant-la-visite",
+              "source_id": "lesoir.be",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:05:36.490599+00:00"
+              "scraped_at_utc": "2026-09-05T10:58:00.513317+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8469237089157104,
+            "sim_to_centroid": 0.8760178089141846,
             "article": {
-              "title": "Farage nei guai: “Discuteva di finanziamenti illeciti al suo partito”. Proteste al congresso di Reform Uk",
-              "url": "https://www.repubblica.it/esteri/2026/09/04/news/farage_finanziamento_illecito_partito_video_accusa-425564076/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
+              "title": "Russia 'deliberately' targeted Kyiv, Boryspil airports ahead of US envoys' visit, Zelensky says.",
+              "url": "https://kyivindependent.com/russia-deliberately-targeted-kyiv-boryspil-airports-ahead-of-u-s-envoys-visit-zelensky-says/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:05:34.447632+00:00"
+              "scraped_at_utc": "2026-09-05T11:00:24.392665+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8393166065216064,
+            "sim_to_centroid": 0.865559458732605,
             "article": {
-              "title": "Will Nigel Farage be investigated over Reform UK secret donations plot?",
-              "url": "https://www.channel4.com/news/will-nigel-farage-be-investigated-over-reform-uk-secret-donations-plot",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
+              "title": "Kyiv Airports Struck in Response to US Diplomacy, Zelensky Says",
+              "url": "https://www.kyivpost.com/post/83833",
+              "source_id": "kyivpost.com",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:11.235735+00:00"
+              "scraped_at_utc": "2026-09-05T11:00:22.811407+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8362233638763428,
+            "sim_to_centroid": 0.8275606632232666,
             "article": {
-              "title": "Why is Farage’s Reform accused of violating the UK’s foreign funding rules?",
-              "url": "https://www.aljazeera.com/news/2026/9/4/why-is-farages-reform-accused-of-violating-the-uks-foreign-funding-rules",
-              "source_id": "aljazeera.com",
+              "title": "Rusko udeřilo na letiště v Kyjevě den před příjezdem Trumpových vyjednavačů",
+              "url": "https://www.idnes.cz/zpravy/zahranicni/rusko-ukrajina-kyjev-utok-letiste-witkoff-kushner.A260905_113813_zahranicni_dvou",
+              "source_id": "idnes.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:00:09.011424+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.821666955947876,
+            "article": {
+              "title": "زيلينسكي يندد باستهداف روسي لمطاري كييف قبل زيارة الموفدَين الأميركيَّين",
+              "url": "https://www.annahar.com/international/europe/344436/زيلينسكي-يندد-باستهداف-روسي-لمطاري-كييف-قبل-زيارة-الموفدين-الأميركيين",
+              "source_id": "annahar.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:06:57.305227+00:00"
+              "scraped_at_utc": "2026-09-05T10:59:54.190626+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8234080076217651,
+            "sim_to_centroid": 0.8187664747238159,
             "article": {
-              "title": "Farage defiant as Reform aides step down over foreign donations sting",
-              "url": "https://www.abc.net.au/news/2026-09-05/nigel-farage-reform-uk-foreign-donations-sting/107119272",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
+              "title": "Зеленский: Россия демонстративно ударила по аэропортам в Киеве и Борисполе на фоне сообщений о визите переговорщиков США",
+              "url": "https://meduza.io/news/2026/09/05/zelenskiy-rossiya-demonstrativno-udarila-po-aeroportam-v-kieve-i-borispole-na-fone-soobscheniy-o-vizite-peregovorschikov-ssha",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:06:38.196354+00:00"
+              "scraped_at_utc": "2026-09-05T11:00:25.571127+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8077245354652405,
+            "sim_to_centroid": 0.7835534811019897,
             "article": {
-              "title": "How a ‘dodgy money’ scandal hijacked Nigel Farage’s reset conference",
-              "url": "https://www.politico.eu/article/nigel-farage-reform-uk-fresh-scandal-gripped-reset-conference/",
-              "source_id": "politico.eu",
+              "title": "Kiev’s threats against civil aviation aimed at disrupting Russia-US contacts — envoy",
+              "url": "https://tass.com/politics/2182997",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:00:36.441090+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7795240879058838,
+            "article": {
+              "title": "Rusko udeřilo na letiště v Kyjevě, ukrajinskému příměří navzdory",
+              "url": "https://ct24.ceskatelevize.cz/clanek/svet/rusove-pri-utoku-na-jihovychode-ukrajiny-zabili-ctyri-lidi-377290",
+              "source_id": "ct24.ceskatelevize.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-05T11:00:12.614024+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7514209747314453,
+            "article": {
+              "title": "Wie die Ukraine den zivilen Luftverkehr in Russland lahmlegen will – und vielleicht auch kann",
+              "url": "https://www.handelsblatt.com/unternehmen/dienstleister/ukraine-krieg-wie-kiew-den-zivilen-luftverkehr-in-russland-lahmlegen-will1234/100252009.html",
+              "source_id": "handelsblatt.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:14.368514+00:00"
+              "scraped_at_utc": "2026-09-05T10:57:06.138655+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7934191226959229,
+            "sim_to_centroid": 0.7221348881721497,
             "article": {
-              "title": "Undercover sting targets Farage as protests disrupt his major address",
-              "url": "https://www.smh.com.au/world/europe/undercover-sting-targets-farage-as-protests-disrupt-his-major-address-20260905-p60und.html",
-              "source_id": "smh.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:06:42.850686+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7870955467224121,
-            "article": {
-              "title": "Annoyance was written all over Nigel Farage’s face at Reform UK annual conference",
-              "url": "https://www.irishtimes.com/world/uk/2026/09/04/irritation-was-written-all-over-nigel-farages-face-at-reform-uk-annual-conference/",
-              "source_id": "irishtimes.com",
+              "title": "Liverapport Zelenskyj: Ryska attacker mot flygplatser Ukrainska presidenten överväger motdrag nästa vecka",
+              "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=6f8fef053d089573c6cab093a5318106",
+              "source_id": "svt.se",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:06:56.019168+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7809014916419983,
-            "article": {
-              "title": "Nigel Farage: Der Mann mit dem Spendenproblem",
-              "url": "https://www.zdfheute.de/politik/ausland/grossbritannien-reform-uk-parteitag-nigel-farage-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:36.471893+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7667112350463867,
-            "article": {
-              "title": "Pressure on Farage to halt Reform's slump after bruising summer",
-              "url": "https://www.newarab.com/news/pressure-farage-halt-reforms-slump-after-bruising-summer",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:07:14.120213+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7444139122962952,
-            "article": {
-              "title": "Reform CAUGHT ON CAMERA – the foreign money scandal",
-              "url": "https://www.channel4.com/news/reform-caught-on-camera-the-foreign-money-scandal",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-04T21:04:11.235735+00:00"
+              "scraped_at_utc": "2026-09-05T10:57:35.174304+00:00"
             }
           }
         ]
       }
     ],
-    "created_at_utc": "2026-09-04T21:39:16Z"
+    "created_at_utc": "2026-09-05T11:27:56Z"
   }
 ]
