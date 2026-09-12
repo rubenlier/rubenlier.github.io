@@ -1,1527 +1,1109 @@
 [
   {
-    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1789162944",
-    "n_items": 2456,
-    "n_clusters": 2028,
+    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1789212994",
+    "n_items": 2475,
+    "n_clusters": 2062,
     "clusters": [
       {
-        "score": 222.4104556692903,
-        "size": 57,
-        "n_sources": 41,
-        "n_continents": 10,
+        "score": 86.02783259110768,
+        "size": 22,
+        "n_sources": 22,
+        "n_continents": 6,
         "continents": [
-          "China",
           "East Asia",
           "Europe East",
           "Europe North",
           "Europe South",
           "Middle East",
-          "North America",
-          "Oceania",
-          "South America",
           "South Asia"
         ],
-        "coherence": 0.7776734828948975,
-        "title": "US marks 25th anniversary of 9/11 attacks",
+        "coherence": 0.814373791217804,
+        "title": "Saudi Arabia shuts critical oil pipeline after drone attack: What it means",
         "central_article": {
-          "title": "US marks 25th anniversary of 9/11 attacks",
-          "url": "https://www.abc.net.au/news/2026-09-12/us-marks-25th-anniversary-of-9-11-attacks/107146166",
-          "source_id": "abc.net.au",
-          "continent": "Oceania",
+          "title": "Saudi Arabia shuts critical oil pipeline after drone attack: What it means",
+          "url": "https://www.aljazeera.com/news/2026/9/12/saudi-arabia-shuts-critical-oil-pipeline-after-drone-attack-what-happened",
+          "source_id": "aljazeera.com",
+          "continent": "Middle East",
           "published_at": null,
-          "scraped_at_utc": "2026-09-11T21:23:52.561958+00:00"
+          "scraped_at_utc": "2026-09-12T11:19:49.802556+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9130776524543762,
+            "sim_to_centroid": 0.9173345565795898,
             "article": {
-              "title": "US marks 25th anniversary of 9/11 attacks",
-              "url": "https://www.abc.net.au/news/2026-09-12/us-marks-25th-anniversary-of-9-11-attacks/107146166",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:23:52.561958+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.905207633972168,
-            "article": {
-              "title": "Amerika herdenkt aanslagen van 11 september, 25 jaar later",
-              "url": "https://nos.nl/artikel/2630583-amerika-herdenkt-aanslagen-van-11-september-25-jaar-later",
-              "source_id": "nos.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:20.085239+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8982747793197632,
-            "article": {
-              "title": "Americans mark 25 years since 9/11 attacks amid enduring grief, reflection",
-              "url": "https://www.scmp.com/news/world/united-states-canada/article/3367265/americans-mark-25-years-9/11-attacks-amid-enduring-grief-reflection?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:06.093925+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8982747793197632,
-            "article": {
-              "title": "Americans mark 25 years since 9/11 attacks amid enduring grief, reflection",
-              "url": "https://www.scmp.com/news/world/united-states-canada/article/3367265/americans-mark-25-years-9/11-attacks-amid-enduring-grief-reflection?module=latest&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:06.093925+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8937398195266724,
-            "article": {
-              "title": "Americans mark 25 years since the Sept. 11 attacks",
-              "url": "https://www.theglobeandmail.com/world/article-us-marks-25-years-since-september-11-attacks/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:23:51.323933+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8849462270736694,
-            "article": {
-              "title": "'Never, ever forget' - America marks 25th anniversary of 9/11 attacks",
-              "url": "https://www.bbc.com/news/articles/clyjqvjzlwno",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:09.316845+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8776237964630127,
-            "article": {
-              "title": "New York marks 25th anniversary of 9/11 attacks",
-              "url": "https://www.bangkokpost.com/world/3318055/new-york-marks-25th-anniversary-of-911-attacks",
-              "source_id": "bangkokpost.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:28:44.179546+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8749992847442627,
-            "article": {
-              "title": "USA mindes 25-årsdagen for 11. september",
-              "url": "https://www.dr.dk/nyheder/udland/reels/usa-mindes-25-aarsdagen-11-september",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:22:04.651440+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8683792352676392,
-            "article": {
-              "title": "A nation marks 25 years since 9/11. 'We will always remember you'",
-              "url": "https://www.usatoday.com/story/news/nation/2026/09/11/nation-mourns-september-11-25th-anniversary/91609275007/",
-              "source_id": "usatoday.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:26:58.509413+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8637084364891052,
-            "article": {
-              "title": "US mourns on 25th anniversary of 9/11",
-              "url": "https://www.theguardian.com/us-news/gallery/2026/sep/11/911-25th-anniversary",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:13.773730+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.863371729850769,
-            "article": {
-              "title": "Watch live: 25 years later, New York City remembers 9/11",
-              "url": "https://www.chicagotribune.com/2026/09/11/9-11-nyc-25-years/",
-              "source_id": "chicagotribune.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:00.782164+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8597007989883423,
-            "article": {
-              "title": "'That's why we fight': The US marks 25 years since 9/11 attacks",
-              "url": "https://www.france24.com/en/americas/20260911-trump-new-york-25-years-9-11-muslim-mayor",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:22:18.486353+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.853831946849823,
-            "article": {
-              "title": "PHOTOS: Americans mark 25th anniversary of 9/11",
-              "url": "https://www.pbs.org/newshour/nation/photos-americans-mark-25th-anniversary-of-9-11",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:04.830784+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8413801193237305,
-            "article": {
-              "title": "‘These were people like you and me going to work’: America remembers 9/11 victims 25 years on",
-              "url": "https://www.smh.com.au/world/north-america/america-pauses-to-remember-victims-of-9-11-attacks-25-years-on-20260911-p60wpv.html",
-              "source_id": "smh.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:23:55.212466+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8381179571151733,
-            "article": {
-              "title": "How US leaders remembered the 25th anniversary of the 9/11 attacks",
-              "url": "https://www.aljazeera.com/news/2026/9/11/how-us-leaders-remembered-the-25th-anniversary-of-the-9-11",
+              "title": "Saudi Arabia shuts critical oil pipeline after drone attack: What it means",
+              "url": "https://www.aljazeera.com/news/2026/9/12/saudi-arabia-shuts-critical-oil-pipeline-after-drone-attack-what-happened",
               "source_id": "aljazeera.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:24:06.191132+00:00"
+              "scraped_at_utc": "2026-09-12T11:19:49.802556+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.835509181022644,
+            "sim_to_centroid": 0.9098636507987976,
             "article": {
-              "title": "9/11: Remembering victims of attacks that changed the world – 25 years on",
-              "url": "https://www.channel4.com/news/9-11-remembering-victims-of-attacks-that-changed-the-world-25-years-on",
-              "source_id": "channel4.com",
+              "title": "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
+              "url": "https://www.bbc.com/news/articles/c62m933465eo",
+              "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:15.668117+00:00"
+              "scraped_at_utc": "2026-09-12T11:17:22.336937+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8253823518753052,
+            "sim_to_centroid": 0.8795042037963867,
             "article": {
-              "title": "Kommentar 25 Jahre nach den Anschlägen 9/11 ist nicht vorbei",
-              "url": "https://www.tagesschau.de/kommentar/11-september-usa-afghanistan-100.html",
+              "title": "Saudi-Arabien schaltet nach Drohnenangriffen wichtige Öl-Pipeline ab",
+              "url": "https://www.tagesschau.de/ausland/asien/saudi-arabien-stellt-betrieb-von-oelpipeline-ein-100.html",
               "source_id": "tagesschau.de",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:28.188295+00:00"
+              "scraped_at_utc": "2026-09-12T11:17:39.634106+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8046517372131348,
+            "sim_to_centroid": 0.868660569190979,
             "article": {
-              "title": "25 Years After 9/11, Americans Must Remember What Binds Us",
-              "url": "https://time.com/article/2026/09/11/25-years-after-9-11-americans-must-remember-what-binds-us/",
-              "source_id": "time.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:02.326984+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7971671223640442,
-            "article": {
-              "title": "Sept 11 anniversary marked by sombre remembrance 25 years later (with photos)",
-              "url": "https://www.thestar.com.my/news/nation/2026/09/11/sept-11-anniversary-marked-by-sombre-remembrance-25-years-later",
-              "source_id": "thestar.com.my",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:28:50.503155+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7958412766456604,
-            "article": {
-              "title": "Ook een nieuwe generatie herdenkt 25 jaar na 9/11 de slachtoffers, terwijl Trump koppeling maakt met zijn oorlog tegen Iran",
-              "url": "https://www.nrc.nl/nieuws/2026/09/11/ook-een-nieuwe-generatie-herdenkt-25-jaar-na-9-11-de-slachtoffers-terwijl-trump-koppeling-maakt-met-zijn-oorlog-tegen-iran-a4936466",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:22.035033+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7926384210586548,
-            "article": {
-              "title": "ट्विन टावर से पेंटागन तक... 9/11 के 25 साल, 3000 बलिदानियों को नमन; न्यूयॉर्क में जुटे अमेरिका के शीर्ष नेता",
-              "url": "https://www.jagran.com/world/america-from-the-twin-towers-to-the-pentagon-25-years-since-911-paying-tribute-to-the-3000-who-made-the-ultimate-sacrifice-40370450.html",
-              "source_id": "jagran.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:35.776053+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7897287607192993,
-            "article": {
-              "title": "'A day that changed the world': 25 years on, Australia remembers 9/11",
-              "url": "https://www.sbs.com.au/news/article/a-day-that-changed-the-world-australia-remembers-9-11/1h84dapnd",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:23:54.030292+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7827746868133545,
-            "article": {
-              "title": "11-S, UN RECUERDO IMBORRABLE: A 25 años del ataque contra el World Trade Center de Nueva York",
-              "url": "https://elcomercio.pe/mundo/11s-11-de-septiembre-25-anos-estados-unidos-nueva-york-world-trade-center-osama-bin-laden-especial-especdis-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:23:26.808534+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.775297224521637,
-            "article": {
-              "title": "Donald Trump, 25 ans après le 11-Septembre : « Nous n’oublierons jamais, c’est pour ça que nous nous battons aujourd’hui »",
-              "url": "https://www.lesoir.be/770421/article/2026-09-11/donald-trump-25-ans-apres-le-11-septembre-nous-noublierons-jamais-cest-pour-ca",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:22:27.413775+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7727071046829224,
-            "article": {
-              "title": "25 Jahre 9/11: Trump verteidigt bei Gedenkfeier Iran-Krieg",
-              "url": "https://www.diepresse.com/41254646/25-jahre-911-trump-verteidigt-bei-gedenkfeier-iran-krieg",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:39.343047+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7710657119750977,
-            "article": {
-              "title": "Globe journalists share their 9/11 experiences from New York and beyond, 25 years later",
-              "url": "https://www.theglobeandmail.com/world/article-september-11-attacks-globe-journalist-reflections-25-year-anniversary/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:23:51.323933+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7705345153808594,
-            "article": {
-              "title": "25 años del 11-S",
-              "url": "https://www.rtve.es/noticias/20260911/asi-fue-11-septiembre-cronologia-atentados-nueva-york/17218661.shtml",
-              "source_id": "rtve.es",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:22:32.124448+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7674847841262817,
-            "article": {
-              "title": "25 years after 9/11: Has the world become a better place?",
-              "url": "https://www.chinadaily.com.cn/a/202609/11/WS6aa342d4e4b06d4aa055d6e9.html",
-              "source_id": "chinadaily.com.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:09.475967+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7660272121429443,
-            "article": {
-              "title": "9/11: British families pay tributes on 25th anniversary of ‘one of America’s darkest hours’",
-              "url": "https://www.channel4.com/news/9-11-british-families-pay-tributes-on-25th-anniversary-of-one-of-americas-darkest-hours",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:15.668117+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7620856165885925,
-            "article": {
-              "title": "الذكرى الـ25 لهجمات 11 أيلول... ترامب: لهذا نقاتل اليوم",
-              "url": "https://www.annahar.com/international/united-states/346506/الذكرى-الـ25-لهجمات-11-أيلول-ترامب-لهذا-نقاتل-اليوم",
-              "source_id": "annahar.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:24:48.108836+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7596247792243958,
-            "article": {
-              "title": "September 11: 25 years on Remembrance events honor victims of 9/11 as Trump and Hegseth use ceremony to defend Iran war",
-              "url": "https://www.theguardian.com/us-news/2026/sep/11/september-11-commemorations",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:13.773730+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7593507766723633,
-            "article": {
-              "title": "Your guide to the 25th anniversary events happening at the 9/11 memorial sites",
-              "url": "https://www.pbs.org/newshour/nation/how-to-watch-9-11-memorial-events-as-u-s-marks-25th-anniversary",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:04.830784+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7527173757553101,
-            "article": {
-              "title": "25 years after 9/11: The terrorists behind the attacks and where they are now",
-              "url": "https://www.hindustantimes.com/world-news/25-years-after-9-11-al-qaeda-terrorists-behind-the-attacks-where-they-are-now-osama-bin-laden-khalid-sheikh-mohammed-101789067927987.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:38.196942+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7462900876998901,
-            "article": {
-              "title": "國際 911恐攻25週年 川普：美國永遠不會忘記",
-              "url": "https://www.cna.com.tw/news/aopl/202609110335.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:28:52.963935+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7429136037826538,
-            "article": {
-              "title": "A 25 años del 11 de septiembre: el día en que cambió el mundo",
-              "url": "https://www.latercera.com/mundo/noticia/a-25-anos-del-11-de-septiembre-el-dia-en-que-cambio-el-mundo/",
-              "source_id": "latercera.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:23:28.169842+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.742149829864502,
-            "article": {
-              "title": "World 'We will never, ever forget': Trump commemorates 25th anniversary of 9/11 terrorist attacks",
-              "url": "https://timesofindia.indiatimes.com/world/us/we-will-never-ever-forget-trump-commemorates-25th-anniversary-of-9/11-terrorist-attacks/articleshow/134080822.cms",
-              "source_id": "timesofindia.indiatimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:33.265664+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7420854568481445,
-            "article": {
-              "title": "美國悼念911恐襲25周年 近3000人罹難陰影持續",
-              "url": "https://www.singtaousa.com/2026/09/11/news/usa/news-911-25th-anniversary-remembrance/",
-              "source_id": "singtaousa.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:23.636777+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7396463751792908,
-            "article": {
-              "title": "25 years after 9/11, al Qaeda remains a threat – even as Washington looks away",
-              "url": "https://www.france24.com/en/americas/20260911-25-years-after-9-11-al-qaeda-remains-threat-washington-looks-away-counter-terrorism",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:22:18.486353+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7308059334754944,
-            "article": {
-              "title": "Interview 25 Jahre nach dem 11. September \"Ich werde jeden Tag an den Anschlag erinnert\"",
-              "url": "https://www.tagesschau.de/ausland/amerika/usa-11-september-jahrestag-interview-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:28.188295+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7306485176086426,
-            "article": {
-              "title": "Gedenken zum 11. September in den USA: Ein ganzes Land trauert",
-              "url": "https://www.tagesschau.de/ausland/amerika/new-york-gedenken-102.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:28.188295+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7280774712562561,
-            "article": {
-              "title": "Nueva York, 25 años después del 11S: 1.099 víctimas sin identificar y decenas de miles de enfermos",
-              "url": "https://www.rtve.es/noticias/20260911/25-anos-11s-1099-victimas-identificar-miles-enfermos/17220825.shtml",
-              "source_id": "rtve.es",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:22:32.124448+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7254488468170166,
-            "article": {
-              "title": "“Nunca olvidar”: así recordó Nueva York los atentados a las Torres Gemelas tras 25 años",
-              "url": "https://www.elespectador.com/mundo/america/nunca-olvidar-asi-recordo-nueva-york-los-atentados-a-las-torres-gemelas-tras-25-anos/",
-              "source_id": "elespectador.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:23:29.599495+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7198730707168579,
-            "article": {
-              "title": "25 years on, father of Japanese 9/11 victim continues to grieve",
-              "url": "https://www.japantimes.co.jp/news/2026/09/11/japan/911-victim-father/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:28:28.749712+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.714569091796875,
-            "article": {
-              "title": "Nueva York recuerda el 11S un cuarto de siglo después con reto de mantener viva la memoria",
-              "url": "https://www.14ymedio.com/internacional/nueva-york-recuerda-11s-cuarto_1_1130692.html",
-              "source_id": "14ymedio.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:22:41.562594+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7143164873123169,
-            "article": {
-              "title": "25 jaar na de aanslagen van 9/11 zet Trump het mes in terreurbestrijding",
-              "url": "https://nos.nl/artikel/2630244-25-jaar-na-de-aanslagen-van-9-11-zet-trump-het-mes-in-terreurbestrijding",
-              "source_id": "nos.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:20.085239+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.714267373085022,
-            "article": {
-              "title": "25 lat po atakach z 11 września największym zagrożeniem dla Ameryki jest ona sama",
-              "url": "https://wyborcza.pl/7,75399,33014373,25-lat-po-atakach-z-11-wrzesnia-najwiekszym-zagrozeniem-dla.html",
-              "source_id": "wyborcza.pl",
+              "title": "Drone attacks shut down key Saudi oil pipeline (SATELLITE PHOTOS)",
+              "url": "https://www.rt.com/news/645534-saudi-oil-pipeline-drones/",
+              "source_id": "rt.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:24:56.323628+00:00"
+              "scraped_at_utc": "2026-09-12T11:20:42.459885+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7119038105010986,
+            "sim_to_centroid": 0.8653481006622314,
             "article": {
-              "title": "Trump utiliza o ato de 25 anos do 11 de Setembro para defender guerra no Irã",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/09/trump-usa-ato-de-25-anos-do-11-de-setembro-para-defender-guerra-no-ira.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:23:18.364213+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.711530864238739,
-            "article": {
-              "title": "Wonden na 25 jaar nog vers: '9/11 is geschiedenis waar we nog middenin zitten'",
-              "url": "https://nos.nl/artikel/2630625-wonden-na-25-jaar-nog-vers-9-11-is-geschiedenis-waar-we-nog-middenin-zitten",
-              "source_id": "nos.nl",
+              "title": "Saudi Arabia Saudi Arabia shuts down oil pipeline, blaming drones from Iraq",
+              "url": "https://www.theguardian.com/world/2026/sep/12/saudi-arabia-shuts-down-oil-pipeline-blaming-drones-from-iraq",
+              "source_id": "theguardian.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:20.085239+00:00"
+              "scraped_at_utc": "2026-09-12T11:17:26.230585+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7097773551940918,
+            "sim_to_centroid": 0.8590548038482666,
             "article": {
-              "title": "Con Mamdani y los expresidentes, pero sin Trump: Nueva York conmemora los 25 años del 11-S",
-              "url": "https://www.emol.com/noticias/Internacional/2026/09/11/1211244/nueva-york-ceremonia-11s.html",
-              "source_id": "emol.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:23:15.752394+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6994612812995911,
-            "article": {
-              "title": "EU's economy chief speaks to Euronews as 9/11 attacks mark 25 years",
-              "url": "https://www.euronews.com/my-europe/2026/09/11/europe-today-eus-economy-chief-dombrovskis-on-euronews-as-911-attacks-mark-25-years",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:17.013961+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.696654736995697,
-            "article": {
-              "title": "The lasting psychological impact of 9/11 on America",
-              "url": "https://www.pbs.org/newshour/show/the-lasting-psychological-impact-of-9-11-on-america",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:04.830784+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6877007484436035,
-            "article": {
-              "title": "Carney honours 9/11 victims, says ‘our grief has not faded’",
-              "url": "https://www.theglobeandmail.com/politics/article-carney-911-25th-anniversary/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:23:51.323933+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6852949857711792,
-            "article": {
-              "title": "Former U.S. President Bush remembers 9/11 through exhibit of his art",
-              "url": "https://www.japantimes.co.jp/news/2026/09/11/world/george-bush-us-911-art/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:28:28.749712+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6836990118026733,
-            "article": {
-              "title": "9・11テロから25年 「米国はテロに軍事で応じる過ちを犯した」",
-              "url": "https://www.asahi.com/articles/ASV982CGNV98UHBI00RM.html?iref=comtop_ThemeLeftS_02",
-              "source_id": "asahi.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:28:30.561666+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6831539869308472,
-            "article": {
-              "title": "Unforgettable photos of 9/11 attacks",
-              "url": "https://www.usatoday.com/picture-gallery/news/nation/2026/09/06/iconic-photos-capture-the-tragedy-of-september-11/91484167007/",
-              "source_id": "usatoday.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:26:58.509413+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6816533803939819,
-            "article": {
-              "title": "After 25 years, memory has melded with beauty in New York’s cityscape",
-              "url": "https://www.theglobeandmail.com/world/article-25-years-since-911-new-york-cityscape/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:23:51.323933+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6702456474304199,
-            "article": {
-              "title": "أمريكا تصدر عملة تذكارية من فئة نصف دولار إحياء للذكرى 25 لهجمات 11 سبتمبر",
-              "url": "https://www.youm7.com/story/2026/9/11/أمريكا-تصدر-عملة-تذكارية-من-فئة-نصف-دولار-إحياء-للذكرى/7543319",
-              "source_id": "youm7.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:24:46.099138+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 79.03268425055224,
-        "size": 22,
-        "n_sources": 17,
-        "n_continents": 7,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "Oceania",
-          "South Asia"
-        ],
-        "coherence": 0.818147599697113,
-        "title": "Yemen’s Houthis seize strategic island at the southern entrance to the Red Sea",
-        "central_article": {
-          "title": "Yemen’s Houthis seize strategic island at the southern entrance to the Red Sea",
-          "url": "https://www.thehindu.com/news/international/yemens-houthis-reach-strategic-island-at-mouth-of-vital-shipping-lane/article71455868.ece",
-          "source_id": "thehindu.com",
-          "continent": "South Asia",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-11T21:27:36.982514+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8919271230697632,
-            "article": {
-              "title": "Yemen’s Houthis seize strategic island at the southern entrance to the Red Sea",
-              "url": "https://www.thehindu.com/news/international/yemens-houthis-reach-strategic-island-at-mouth-of-vital-shipping-lane/article71455868.ece",
-              "source_id": "thehindu.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:36.982514+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8716915249824524,
-            "article": {
-              "title": "Houthis seize entire Red Sea coast of Yemen",
-              "url": "https://www.france24.com/en/middle-east/20260911-middle-east-live-trump-says-he-has-no-regrets-about-launching-war-on-iran",
+              "title": "Middle East live: Saudi Arabia shuts down critical oil pipeline after attacks",
+              "url": "https://www.france24.com/en/middle-east/20260912-live-saudi-arabia-oil-pipeline-shut-down-after-drone-attack-launched-from-iraq",
               "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:22:18.486353+00:00"
+              "scraped_at_utc": "2026-09-12T11:18:21.048344+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.86667799949646,
+            "sim_to_centroid": 0.8512962460517883,
             "article": {
-              "title": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
-              "url": "https://www.bbc.com/news/articles/c23x72yx2rvo",
-              "source_id": "bbc.com",
+              "title": "Saoedische oliepijpleiding dicht na droneaanval",
+              "url": "https://fd.nl/economie/1612105/saoedische-oliepijpleiding-dicht-na-droneaanval",
+              "source_id": "fd.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:09.316845+00:00"
+              "scraped_at_utc": "2026-09-12T11:17:37.610315+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8623936176300049,
+            "sim_to_centroid": 0.850553035736084,
             "article": {
-              "title": "Houthis Seize a Key Red Sea Island Amid Widening Clashes in the Mideast",
-              "url": "https://www.nytimes.com/2026/09/11/world/middleeast/yemen-houthis-bab-al-mandab.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:26:34.184321+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8519721031188965,
-            "article": {
-              "title": "Houthis seize Yemen's Red Sea coast in lightning offensive",
-              "url": "https://www.newarab.com/news/houthis-seize-yemens-red-sea-coast-lightning-offensive",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:24:41.817519+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8509858846664429,
-            "article": {
-              "title": "Yemen: Iran-backed Houthi rebels seize control of Red Sea island",
-              "url": "https://www.channel4.com/news/yemen-iran-backed-houthi-rebels-seize-control-of-red-sea-island",
-              "source_id": "channel4.com",
+              "title": "Saoedi-Arabië sluit belangrijke pijplijn na aanvallen met drones",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5650894/saoedi-arabie-sluit-belangrijke-pijplijn-na-aanvallen-met-drones",
+              "source_id": "rtl.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:15.668117+00:00"
+              "scraped_at_utc": "2026-09-12T11:17:35.662442+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8386985063552856,
+            "sim_to_centroid": 0.8500394225120544,
             "article": {
-              "title": "Iran-backed Houthis seize Red Sea port, putting another key trade route at risk",
-              "url": "https://www.politico.eu/article/houthi-yemen-red-sea-seize-port-us-iran-war-second-shipping-route-risk/",
-              "source_id": "politico.eu",
-              "continent": "Europe North",
+              "title": "Saudi Arabia shuts down pipeline as Houthis seize island, opening new front in Iran war",
+              "url": "https://www.channelnewsasia.com/world/saudi-arabia-yemen-houthi-rebels-bab-el-mandeb-strait-iran-war-6379486",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:18.935881+00:00"
+              "scraped_at_utc": "2026-09-12T11:23:48.116033+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.837064266204834,
+            "sim_to_centroid": 0.8429007530212402,
             "article": {
-              "title": "9 , Houthis control key shipping route after gains along Yemen’s Red Sea coast",
-              "url": "https://www.aljazeera.com/news/2026/9/11/houthis-take-control-of-yemens-red-sea-coast-key-shipping-route",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
+              "title": "Saudis shut down oil pipeline as Houthis tighten grip on Red Sea shipping",
+              "url": "https://kathmandupost.com/world/2026/09/12/saudis-shut-down-oil-pipeline-as-houthis-tighten-grip-on-red-sea-shipping",
+              "source_id": "kathmandupost.com",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:24:06.191132+00:00"
+              "scraped_at_utc": "2026-09-12T11:23:13.852677+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8355463743209839,
+            "sim_to_centroid": 0.8260247707366943,
             "article": {
-              "title": "Houthis seize Yemen’s Red Sea coast after Trump rebuffs help plea",
+              "title": "L’Arabie saoudite ferme le pipeline qui lui sert à contourner le détroit d’Ormuz après des frappes de drones en provenance d’Irak",
+              "url": "https://www.lemonde.fr/international/article/2026/09/12/l-arabie-saoudite-ferme-le-pipeline-qui-lui-sert-a-contourner-le-detroit-d-ormuz-apres-des-frappes-de-drones-en-provenance-d-irak_6771330_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:18:16.232573+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8172348737716675,
+            "article": {
+              "title": "Saudis shut key pipeline as Houthis seize Yemen’s Red Sea coast",
               "url": "https://www.thetimes.com/world/middle-east/article/yemen-houthi-red-sea-saudi-arabia-pzk275s3f",
               "source_id": "thetimes.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:12.279745+00:00"
+              "scraped_at_utc": "2026-09-12T11:17:24.950396+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8318795561790466,
+            "sim_to_centroid": 0.8086503744125366,
             "article": {
-              "title": "Can the Houthis close the Red Sea after seizing the Yemen coast?",
-              "url": "https://www.aljazeera.com/news/2026/9/11/can-the-houthis-close-the-red-sea-after-seizing-the-yemen-coast",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
+              "title": "Saudi Arabia halts East-West oil pipeline operations after attack",
+              "url": "https://www.azernews.az/region/263766.html",
+              "source_id": "azernews.az",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:24:06.191132+00:00"
+              "scraped_at_utc": "2026-09-12T11:21:17.884179+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8297573328018188,
-            "article": {
-              "title": "Yemen’s Houthis reach strategic island at mouth of vital shipping lane",
-              "url": "https://kathmandupost.com/world/2026/09/11/yemen-s-houthis-reach-strategic-island-at-mouth-of-vital-shipping-lane",
-              "source_id": "kathmandupost.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:51.188372+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8273597955703735,
-            "article": {
-              "title": "Houthis seize key island in Bab el-Mandeb, take control of the strait",
-              "url": "https://www.euronews.com/2026/09/11/houthis-seize-yemeni-island-in-bab-el-mandeb-taking-control-of-the-strait",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:17.013961+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8233528137207031,
-            "article": {
-              "title": "Yemen’s Houthis Reach Strategic Island in Key Shipping Route",
-              "url": "https://time.com/article/2026/09/11/yemen-houthi-red-sea-bab-el-mandeb-shipping-iran-war/",
-              "source_id": "time.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:02.326984+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7981976270675659,
-            "article": {
-              "title": "Yemen's Houthis take over vital Bab al-Mandeb strait",
-              "url": "https://www.newarab.com/news/yemens-houthis-take-over-vital-bab-al-mandeb-strait",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:24:41.817519+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7981716394424438,
+            "sim_to_centroid": 0.7989046573638916,
             "article": {
               "title": "Crucial Saudi oil pipeline ‘on fire’ as Houthis capture island near key shipping route",
               "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-houthis-red-sea-yemen-oil-b3048368.html",
               "source_id": "independent.co.uk",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:10.463964+00:00"
+              "scraped_at_utc": "2026-09-12T11:17:23.514748+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7948426604270935,
+            "sim_to_centroid": 0.7915093302726746,
             "article": {
-              "title": "Iran-backed Houthis seize near control of vital Bab el-Mandeb shipping lane",
-              "url": "https://www.france24.com/en/middle-east/20260911-iran-backed-houthis-seize-near-control-of-vital-bab-el-mandeb-shipping-lane",
-              "source_id": "france24.com",
-              "continent": "Europe South",
+              "title": "Funke Mediengruppe Live Iran-Newsblog Nach Drohnenangriff: Saudi-Arabien dreht Pipeline ab – mit Folgen für den Ölpreis",
+              "url": "https://www.abendblatt.de/politik/article412829332/iran-krieg-news-aktuell-usa-huthi-jemen-meerenge-bab-al-mandab.html",
+              "source_id": "abendblatt.de",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:22:18.486353+00:00"
+              "scraped_at_utc": "2026-09-12T11:17:51.500624+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7941440343856812,
+            "sim_to_centroid": 0.7626056671142578,
             "article": {
-              "title": "Houthi rebels seize strategic port city in Yemen, escalating US-Iran crisis",
-              "url": "https://www.sbs.com.au/news/article/houthi-rebels-seize-strategic-port-city-in-yemen-escalating-regional-crisis/zutk1v233",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
+              "title": "ड्रोन हमले के बाद सऊदी ने तेल पाइपलाइन बंद की: होर्मुज बंद होने के बाद इसी से रोजाना 50 लाख बैरल तेल भेज रहा था Play video",
+              "url": "https://www.bhaskar.com/g/international/news/saudi-arabia-drone-attack-oil-pipeline-closure-hormuz-update-139005568.html",
+              "source_id": "bhaskar.com",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:23:54.030292+00:00"
+              "scraped_at_utc": "2026-09-12T11:22:58.230278+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7810753583908081,
+            "sim_to_centroid": 0.7610482573509216,
             "article": {
-              "title": "Houthis claim control of strategic Bab al-Mandeb Strait (VIDEOS)",
-              "url": "https://www.rt.com/news/645399-yemen-houthis-port-city/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:25:24.997226+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7626956701278687,
-            "article": {
-              "title": "Houthi advance in Yemen is about more than just the Red Sea",
-              "url": "https://www.aljazeera.com/news/2026/9/11/houthi-advance-in-yemen-is-about-more-than-just-the-red-sea",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:24:06.191132+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7586343288421631,
-            "article": {
-              "title": "Au Yémen, les houthistes ont pris le contrôle de tout le littoral de la mer Rouge, selon une source gouvernementale",
-              "url": "https://www.lemonde.fr/international/article/2026/09/11/au-yemen-les-houthistes-ont-pris-le-controle-de-tout-le-littoral-donnant-sur-la-mer-rouge-selon-une-source-gouvernementale_6770571_3211.html",
-              "source_id": "lemonde.fr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:22:13.314535+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.750973105430603,
-            "article": {
-              "title": "Gli Houthi conquistano la costa yemenita del Mar Rosso: l’asse di Teheran ora domina due stretti |",
-              "url": "https://www.repubblica.it/esteri/2026/09/11/news/yemen_houthi_bab_el_mandeb_mar_rosso_trump-425579852/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:22:34.862858+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7412052154541016,
-            "article": {
-              "title": "Iran arms, advice helped Yemen's Houthis seize key Red Sea city",
-              "url": "https://www.newarab.com/news/iran-arms-advice-helped-yemens-houthis-seize-key-red-sea-city",
+              "title": "Houthi's capture Red Sea coast as key Saudi oil pipeline shut",
+              "url": "https://www.newarab.com/news/houthis-capture-red-sea-coast-key-saudi-oil-pipeline-shut",
               "source_id": "newarab.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:24:41.817519+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 45.419145245312464,
-        "size": 10,
-        "n_sources": 9,
-        "n_continents": 7,
-        "continents": [
-          "China",
-          "East Asia",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "South Asia"
-        ],
-        "coherence": 0.8345597982406616,
-        "title": "Saudi Arabia closes East-West oil pipeline following attacks",
-        "central_article": {
-          "title": "Saudi Arabia closes East-West oil pipeline following attacks",
-          "url": "https://www.thenationalnews.com/news/2026/09/11/saudi-arabia-closes-east-west-oil-pipeline-following-attacks/",
-          "source_id": "thenationalnews.com",
-          "continent": "Middle East",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-11T21:24:08.493298+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9199677109718323,
-            "article": {
-              "title": "Saudi Arabia closes East-West oil pipeline following attacks",
-              "url": "https://www.thenationalnews.com/news/2026/09/11/saudi-arabia-closes-east-west-oil-pipeline-following-attacks/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:24:08.493298+00:00"
+              "scraped_at_utc": "2026-09-12T11:20:04.439666+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.893027663230896,
+            "sim_to_centroid": 0.7460517287254333,
             "article": {
-              "title": "Saudi pipeline that bypasses Hormuz shut after attacks",
-              "url": "https://www.scmp.com/news/world/middle-east/article/3367268/saudi-pipeline-bypasses-hormuz-shut-after-attacks?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:06.093925+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.893027663230896,
-            "article": {
-              "title": "Saudi pipeline that bypasses Hormuz shut after attacks",
-              "url": "https://www.scmp.com/news/world/middle-east/article/3367268/saudi-pipeline-bypasses-hormuz-shut-after-attacks?module=latest&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:06.093925+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8801381587982178,
-            "article": {
-              "title": "Saudi Arabia closes East-West oil pipeline after attacks in Riyadh, Madinah",
-              "url": "https://www.hindustantimes.com/world-news/saudi-arabia-closes-east-west-oil-pipeline-after-attacks-in-riyadh-madinah-precautionary-measure-101789157559307.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:38.196942+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.840628445148468,
-            "article": {
-              "title": "Arabia Saudí cierra un oleoducto fundamental para evitar el estrecho de Ormuz tras sufrir varios ataques",
-              "url": "https://www.rtve.es/noticias/20260911/arabia-saudi-cierra-oleoducto-ormuz-ataques/17222273.shtml",
-              "source_id": "rtve.es",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:22:32.124448+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.832236647605896,
-            "article": {
-              "title": "Suudi Arabistan: Doğu-Batı boru hattı saldırıların ardından tedbiren kapatıldı",
-              "url": "https://www.milliyet.com.tr/dunya/suudi-arabistan-dogu-bati-boru-hatti-saldirilarin-ardindan-tedbiren-kapatildi-7658523",
-              "source_id": "milliyet.com.tr",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:24:39.363492+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7877599596977234,
-            "article": {
-              "title": "L’Arabie saoudite ferme l’oléoduc Est-Ouest, voie de contournement au blocage du détroit d’Ormuz, après des attaques houthistes",
-              "url": "https://www.lemonde.fr/international/article/2026/09/11/l-arabie-saoudite-ferme-l-oleoduc-est-ouest-voie-de-contournement-au-blocage-du-detroit-d-ormuz-apres-des-attaques-houthistes_6770637_3210.html",
-              "source_id": "lemonde.fr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:22:13.314535+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7768367528915405,
-            "article": {
-              "title": "Oil pipeline hit by drones launched from Iraq, says Saudi Arabia",
-              "url": "https://www.straitstimes.com/world/middle-east/oil-pipeline-hit-by-drones-launched-from-iraq-says-saudi-arabia?ref=latest-headlines",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:28:48.090573+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7644435167312622,
-            "article": {
-              "title": "Just nu: Saudiarabien stänger oljeledning",
-              "url": "https://www.dn.se/direkt/mellanostern/2026-09-11/saudiarabien-stanger-oljeledning/",
-              "source_id": "dn.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:54.657118+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7575320601463318,
-            "article": {
-              "title": "Energy Markets Are Rattled After Saudi Pipeline Attacks",
-              "url": "https://www.nytimes.com/2026/09/11/business/diesel-fuel-prices-oil-iran-war.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:26:34.184321+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 42.15331737788654,
-        "size": 8,
-        "n_sources": 8,
-        "n_continents": 7,
-        "continents": [
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Middle East",
-          "Oceania",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.8431923389434814,
-        "title": "Nepal flood reconstruction bill to be $4.78 billion: Foreign ministry",
-        "central_article": {
-          "title": "Nepal flood reconstruction bill to be $4.78 billion: Foreign ministry",
-          "url": "https://www.thedailystar.net/news/environment/natural-disaster/news/nepal-flood-reconstruction-bill-be-478-billion-foreign-ministry-4270376",
-          "source_id": "thedailystar.net",
-          "continent": "South Asia",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-11T21:27:40.760731+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9119622111320496,
-            "article": {
-              "title": "Nepal flood reconstruction bill to be $4.78 billion: Foreign ministry",
-              "url": "https://www.thedailystar.net/news/environment/natural-disaster/news/nepal-flood-reconstruction-bill-be-478-billion-foreign-ministry-4270376",
-              "source_id": "thedailystar.net",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:40.760731+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9046927094459534,
-            "article": {
-              "title": "Nepalo užsienio reikalų ministerija: atstatymui po potvynių prireiks 4,78 mlrd. dolerių",
-              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3049444/nepalo-uzsienio-reikalu-ministerija-atstatymui-po-potvyniu-prireiks-4-78-mlrd-doleriu",
-              "source_id": "lrt.lt",
+              "title": "Dróntámadás érte Szaúd-Arábia legfontosabb olajvezetékét, amit ideiglenesen le is zártak Feltételezések szerint Irakból érkezhetett a világpiaci energiaárakat is befolyásoló légicsapás iráni támogatású milíciáktól. A csapással egy időben a húszik Vörös-tengeri támadásai is fellángoltak.",
+              "url": "https://nepszava.hu/3332712_szaud-arabia-olajvezetek-legicsapas-leallitas-energiaarak-irak-iran-kozel-keleti-konfliktus",
+              "source_id": "nepszava.hu",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:25:34.774352+00:00"
+              "scraped_at_utc": "2026-09-12T11:20:25.219731+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8840764760971069,
+            "sim_to_centroid": 0.7386665344238281,
             "article": {
-              "title": "Nepal estima em R$ 24,4 bilhões custo da reconstrução após enchentes que deixaram mais de 1.400 mortos",
-              "url": "https://oglobo.globo.com/mundo/noticia/2026/09/11/nepal-estima-em-r-244-bilhoes-custo-da-reconstrucao-apos-enchentes-que-deixaram-mais-de-1400-mortos.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:23:21.919478+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8718708157539368,
-            "article": {
-              "title": "Nepal flood reconstruction bill to be $6.06bn: Foreign ministry",
-              "url": "https://www.straitstimes.com/asia/se-asia/nepal-flood-reconstruction-bill-to-be-6-06bn-foreign-ministry?ref=asia",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:28:48.090573+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8562456965446472,
-            "article": {
-              "title": "Nepal estimates Rs2.34 billion to rebuild flood-hit education sector",
-              "url": "https://kathmandupost.com/national/2026/09/11/nepal-estimates-rs2-34-billion-to-rebuild-flood-hit-education-sector",
-              "source_id": "kathmandupost.com",
+              "title": "লোহিত সাগরে হুতিদের নিয়ন্ত্রণ জোরদার: ইস্ট–ওয়েস্ট পাইপলাইন বন্ধের ঘোষণা সৌদি আরবের",
+              "url": "https://www.prothomalo.com/world/middle-east/pd81ce50l3",
+              "source_id": "prothomalo.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:51.188372+00:00"
+              "scraped_at_utc": "2026-09-12T11:23:04.993906+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8063452839851379,
+            "sim_to_centroid": 0.7316590547561646,
             "article": {
-              "title": "النيبال تقدر كلفة إعادة الإعمار بعد الفيضانات بـ4.78 مليارات دولار",
-              "url": "https://www.omandaily.om/article/1210332",
-              "source_id": "omandaily.om",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:24:53.558895+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7978988289833069,
-            "article": {
-              "title": "Krävs minst 46 miljarder för att bygga upp Nepal",
-              "url": "https://www.dn.se/direkt/2026-09-11/kravs-minst-46-miljarder-for-att-bygga-upp-nepal/",
-              "source_id": "dn.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:54.657118+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7124468088150024,
-            "article": {
-              "title": "Nepal continues looking for survivors in hydropower tunnels two weeks after deadly floods",
-              "url": "https://www.sbs.com.au/news/article/nepal-continues-looking-for-survivors-in-hydropower-tunnels-two-weeks-after-deadly-floods/xmvu27fdh",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:23:54.030292+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 39.94474900372253,
-        "size": 11,
-        "n_sources": 11,
-        "n_continents": 5,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "Oceania"
-        ],
-        "coherence": 0.8360328078269958,
-        "title": "Norway's Princess Astrid dies aged 94, two days after King's funeral",
-        "central_article": {
-          "title": "Norway's Princess Astrid dies aged 94, two days after King's funeral",
-          "url": "https://www.abc.net.au/news/2026-09-11/norway-princess-astrid-dies-aged-94/107145428",
-          "source_id": "abc.net.au",
-          "continent": "Oceania",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-11T21:23:52.561958+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.906196117401123,
-            "article": {
-              "title": "Norway's Princess Astrid dies aged 94, two days after King's funeral",
-              "url": "https://www.abc.net.au/news/2026-09-11/norway-princess-astrid-dies-aged-94/107145428",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:23:52.561958+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8917081356048584,
-            "article": {
-              "title": "Royalty Noorse prinses Astrid (94) overleden, 2 dagen na begrafenis van haar broer koning Harald",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/09/11/noorse-prinses-astrid-zus-van-koning-harald-overleden/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:22:22.089998+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8831971883773804,
-            "article": {
-              "title": "Prințesa Astrid a Norvegiei a murit la două zile după înmormântarea regelui Harald",
-              "url": "https://hotnews.ro/printesa-astrid-a-norvegiei-a-murit-la-doua-zile-dupa-inmormantarea-regelui-harald-2347001",
-              "source_id": "hotnews.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:24:59.303400+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8655312061309814,
-            "article": {
-              "title": "Prinzessin Astrid stirbt nur zwei Tage nach dem Begräbnis ihres Bruders König Harald",
-              "url": "https://www.diepresse.com/41254093/prinzessin-astrid-stirbt-nur-zwei-tage-nach-dem-begraebnis-ihres-bruders-koenig-harald",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:39.343047+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8578489422798157,
-            "article": {
-              "title": "Norway's Princess Astrid dies at age 94",
-              "url": "https://www.jpost.com/international/article-908387",
-              "source_id": "jpost.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:24:09.776482+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8534075617790222,
-            "article": {
-              "title": "Schwester von Harald Prinzessin Astrid von Norwegen ist tot",
-              "url": "https://www.spiegel.de/panorama/norwegen-prinzessin-astrid-ist-tot-a-3295aa78-3437-4a9f-b9c8-5df978eecd31",
-              "source_id": "spiegel.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:31.331820+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8330048322677612,
-            "article": {
-              "title": "Addio alla principessa Astrid di Norvegia: due giorni fa era al funerale solenne del fratello Harald V. Aveva 94 anni",
-              "url": "https://www.corriere.it/esteri/26_settembre_11/astrid-norvegia-morta-harald-funerale-a3dafd9e-f19c-4fdb-9a33-c56202409xlk.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:22:36.660662+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7946386337280273,
-            "article": {
-              "title": "وفاة الأميرة أستريد شقيقة ملك النرويج بعد يومين من جنازة شقيقها",
-              "url": "https://www.youm7.com/story/2026/9/11/وفاة-الأميرة-أستريد-شقيقة-ملك-النرويج-بعد-يومين-من-جنازة/7543363",
-              "source_id": "youm7.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:24:46.099138+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7942570447921753,
-            "article": {
-              "title": "Újra gyászol a norvég király család: meghalt Asztrid hercegnő",
-              "url": "https://telex.hu/kulfold/2026/09/11/asztrid-norveg-hercegno-halalhir",
+              "title": "Irakból dróntámadás érte azt a szaúdi olajvezetéket, amivel ki lehet kerülni a Hormuzi-szorost",
+              "url": "https://telex.hu/kulfold/2026/09/12/kozel-kelet-szaud-arabia-olaj-vezetek-drontamadas",
               "source_id": "telex.hu",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:24:57.728364+00:00"
+              "scraped_at_utc": "2026-09-12T11:20:17.321759+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7632134556770325,
+            "sim_to_centroid": 0.7207655906677246,
             "article": {
-              "title": "PRINSESSE ASTRID ER DØD: 14 dager uten lillebror",
-              "url": "https://www.dagbladet.no/kjendis/kong-haakons-ord-til-prinsesse-astrid/85141712",
-              "source_id": "dagbladet.no",
+              "title": "Saudi-Arabien unter Druck: Was das für den Ölpreis bedeutet",
+              "url": "https://www.zdfheute.de/politik/ausland/saudi-arabien-pipeline-oelexporte-100.html",
+              "source_id": "zdfheute.de",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:59.859032+00:00"
+              "scraped_at_utc": "2026-09-12T11:17:49.738573+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7533576488494873,
+            "sim_to_centroid": 0.7185503244400024,
             "article": {
-              "title": "Norge Prinsesse Astrid 1932 - 2026 To kongelige dødsfall på to uker. Hvem skal ta over alle oppgavene?",
-              "url": "https://www.aftenposten.no/norge/i/ln02xk/to-kongelige-doedsfall-paa-to-uker-faa-aa-dele-oppgavene-paa-naa",
-              "source_id": "aftenposten.no",
-              "continent": "Europe North",
+              "title": "サウジ、石油パイプライン操業を停止 エネルギー供給に影響か 9/12",
+              "url": "https://mainichi.jp/articles/20260912/k00/00m/030/111000c",
+              "source_id": "mainichi.jp",
+              "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:56.334013+00:00"
+              "scraped_at_utc": "2026-09-12T11:23:53.367549+00:00"
             }
           }
         ]
       },
       {
-        "score": 33.61986908199653,
-        "size": 15,
-        "n_sources": 12,
-        "n_continents": 5,
+        "score": 80.99943343859785,
+        "size": 25,
+        "n_sources": 20,
+        "n_continents": 7,
         "continents": [
           "Africa",
           "China",
           "East Asia",
           "Europe East",
+          "Europe South",
+          "Middle East",
           "South Asia"
         ],
-        "coherence": 0.7841545343399048,
-        "title": "Putin arrives in India for BRICS summit",
+        "coherence": 0.7905599474906921,
+        "title": "Xi attends BRICS summit in New Delhi",
         "central_article": {
-          "title": "Putin arrives in India for BRICS summit",
-          "url": "https://pajhwok.com/2026/09/11/putin-arrives-in-india-for-brics-summit/",
-          "source_id": "pajhwok.com",
-          "continent": "South Asia",
+          "title": "Xi attends BRICS summit in New Delhi",
+          "url": "https://www.chinadaily.com.cn/a/202609/12/WS6aa515e8e4b06d4aa055db89.html",
+          "source_id": "chinadaily.com.cn",
+          "continent": "China",
           "published_at": null,
-          "scraped_at_utc": "2026-09-11T21:27:56.791271+00:00"
+          "scraped_at_utc": "2026-09-12T11:22:33.050300+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9120780825614929,
+            "sim_to_centroid": 0.9305533170700073,
             "article": {
-              "title": "Putin arrives in India for BRICS summit",
-              "url": "https://pajhwok.com/2026/09/11/putin-arrives-in-india-for-brics-summit/",
-              "source_id": "pajhwok.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:56.791271+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9037978053092957,
-            "article": {
-              "title": "Putin arrives in India for BRICS summit (VIDEO)",
-              "url": "https://www.rt.com/news/645413-putin-india-modi-brics/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:25:24.997226+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8195352554321289,
-            "article": {
-              "title": "President Sisi arrives in New Delhi for 18th BRICS Summit",
-              "url": "https://www.egyptindependent.com/president-sisi-arrives-in-new-delhi-for-18th-brics-summit/",
-              "source_id": "egyptindependent.com",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:26:29.378291+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.813244104385376,
-            "article": {
-              "title": "Vladimir Putin's visit to India BRICS achievements and West’s attempts to regain leadership: Putin’s statements",
-              "url": "https://tass.com/politics/2186265",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:25:29.150033+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7959359884262085,
-            "article": {
-              "title": "Xi to attend BRICS summit in New Delhi",
-              "url": "https://www.chinadaily.com.cn/a/202609/11/WS6aa33b9de4b06d4aa055d6cd.html",
+              "title": "Xi attends BRICS summit in New Delhi",
+              "url": "https://www.chinadaily.com.cn/a/202609/12/WS6aa515e8e4b06d4aa055db89.html",
               "source_id": "chinadaily.com.cn",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:09.475967+00:00"
+              "scraped_at_utc": "2026-09-12T11:22:33.050300+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7878181338310242,
+            "sim_to_centroid": 0.9086726903915405,
             "article": {
-              "title": "Xi to attend New Delhi summit to boost greater BRICS cooperation",
-              "url": "https://en.people.cn/n3/2026/0911/c90000-20498312.html",
+              "title": "Xi lands in New Delhi for BRICS summit",
+              "url": "https://en.people.cn/n3/2026/0912/c90000-20498922.html",
               "source_id": "en.people.cn",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:07.922882+00:00"
+              "scraped_at_utc": "2026-09-12T11:22:31.652131+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7834389209747314,
+            "sim_to_centroid": 0.9086726903915405,
             "article": {
-              "title": "End Ukraine war, says Modi as he meets Putin during bilateral ahead of BRICS summit",
-              "url": "https://www.thehindu.com/news/national/pm-modi-russia-putin-hold-high-stakes-talks-ahead-of-brics-summit/article71456100.ece",
+              "title": "Xi lands in New Delhi for BRICS summit",
+              "url": "https://www.chinadaily.com.cn/a/202609/12/WS6aa4ed27e4b06d4aa055db60.html",
+              "source_id": "chinadaily.com.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:22:33.050300+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9086726903915405,
+            "article": {
+              "title": "Xi lands in New Delhi for BRICS summit",
+              "url": "https://english.news.cn/20260912/6991721dc7a54dcca3d34cf81d930eda/c.html",
+              "source_id": "english.news.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:22:35.125350+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8455978631973267,
+            "article": {
+              "title": "BRICS summit in New Delhi: From economic cooperation to global developments",
+              "url": "https://pajhwok.com/2026/09/12/brics-summit-in-new-delhi-from-economic-cooperation-to-global-developments-2/",
+              "source_id": "pajhwok.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:23:19.407418+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8426812291145325,
+            "article": {
+              "title": "Xi Jinping arrives in India for BRICS summit overshadowed by war",
+              "url": "https://www.channelnewsasia.com/asia/brics-china-xi-jinping-india-modi-war-6379866",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:23:48.116033+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8214713335037231,
+            "article": {
+              "title": "WORLD China's Xi arrives in New Delhi for BRICS summit: state media",
+              "url": "https://myrepublica.nagariknetwork.com/news/chinas-xi-arrives-in-new-delhi-for-brics-summit-state-media-84-65.html",
+              "source_id": "myrepublica.nagariknetwork.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:23:18.186095+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8214516043663025,
+            "article": {
+              "title": "BRICS meets in India: What’s on the agenda, why it matters",
+              "url": "https://www.aljazeera.com/news/2026/9/12/brics-meets-in-india-whats-on-the-agenda-why-it-matters",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:19:49.802556+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8210979700088501,
+            "article": {
+              "title": "Xi Jinping lands in India for Brics summit",
+              "url": "https://www.bangkokpost.com/world/3318480/xi-jinping-lands-in-india-for-brics-summit",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:24:05.726456+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8072486519813538,
+            "article": {
+              "title": "BRICS summit begins in India; Iran-UAE dynamic key to joint statement",
+              "url": "https://asia.nikkei.com/politics/international-relations/brics-summit-begins-in-india-iran-uae-dynamic-key-to-joint-statement",
+              "source_id": "asia.nikkei.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:23:25.317544+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7945054769515991,
+            "article": {
+              "title": "PM Modi, Putin and Xi hold hands at BRICS summit in a powerful show of unity",
+              "url": "https://www.hindustantimes.com/india-news/pm-modi-putin-and-xi-jinping-hold-hands-at-brics-summit-in-a-powerful-show-of-unity-india-china-russia-101789209526883.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:23:02.089551+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.793384313583374,
+            "article": {
+              "title": "BRICS leaders gather in India as wars and US tensions test unity",
+              "url": "https://www.france24.com/en/asia-pacific/20260912-brics-summit-set-to-be-dominated-by-wars-in-ukraine-and-iran",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:18:21.048344+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7697193622589111,
+            "article": {
+              "title": "BRICS Summit 2026 LIVE updates: BRICS nations adopt New Delhi declaration",
+              "url": "https://www.thehindu.com/news/national/brics-summit-india-world-leaders-in-new-delhi-key-agenda-live-updates-september-12-2026/article71459005.ece",
               "source_id": "thehindu.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:36.982514+00:00"
+              "scraped_at_utc": "2026-09-12T11:23:00.832827+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7729037404060364,
+            "sim_to_centroid": 0.7677435874938965,
             "article": {
-              "title": "Anwar arrives in New Delhi for BRICS summit",
-              "url": "https://www.thestar.com.my/news/nation/2026/09/11/anwar-arrives-in-new-delhi-for-brics-summit",
-              "source_id": "thestar.com.my",
-              "continent": "East Asia",
+              "title": "BRICS agrees on joint declaration before New Delhi summit, sources say",
+              "url": "https://www.thedailystar.net/news/world/news/brics-agrees-joint-declaration-new-delhi-summit-sources-say-4270871",
+              "source_id": "thedailystar.net",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:28:50.503155+00:00"
+              "scraped_at_utc": "2026-09-12T11:23:03.534580+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7690609693527222,
+            "sim_to_centroid": 0.7616991400718689,
             "article": {
-              "title": "习近平主席赴印度出席金砖国家领导人第十八次会晤前瞻",
-              "url": "https://politics.gmw.cn/2026-09/11/content_38995419.htm",
+              "title": "Business occupying space BRICS: What Africa can realistically expect from the New Delhi summit",
+              "url": "https://www.theafricareport.com/430472/brics-what-africa-can-realistically-expect-from-the-new-delhi-summit/",
+              "source_id": "theafricareport.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:21:34.557037+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7582648396492004,
+            "article": {
+              "title": "L’ombre de la guerre en Iran plane sur le sommet des BRICS à New Delhi",
+              "url": "https://www.lemonde.fr/international/article/2026/09/12/l-ombre-de-la-guerre-en-iran-plane-sur-le-sommet-des-brics-a-new-delhi_6770980_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:18:16.232573+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7503264546394348,
+            "article": {
+              "title": "President Sisi participates in closed-door session of BRICS leaders",
+              "url": "https://www.egyptindependent.com/president-sisi-participates-in-closed-door-session-of-brics-leaders/",
+              "source_id": "egyptindependent.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:21:55.202435+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.75021892786026,
+            "article": {
+              "title": "В Нью-Дели открылся XVIII саммит БРИКС Политика",
+              "url": "http://belta.by/politics/view/v-njju-deli-otkrylsja-xviii-sammit-briks-800707-2026/",
+              "source_id": "belta.by",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:21:27.266090+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7463588118553162,
+            "article": {
+              "title": "Xi says China will take over BRICS presidency next year",
+              "url": "https://english.news.cn/special/2026BRICS/index.html",
+              "source_id": "english.news.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:22:35.125350+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7415686249732971,
+            "article": {
+              "title": "How Delhi is managing 35 special aircraft, air traffic during the BRICS Summit",
+              "url": "https://www.thehindu.com/news/cities/Delhi/how-delhi-is-managing-35-special-aircraft-during-brics-summit/article71459091.ece",
+              "source_id": "thehindu.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:23:00.832827+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7343640923500061,
+            "article": {
+              "title": "Sheikh Khaled meets Narendra Modi as Brics summit begins",
+              "url": "https://www.thenationalnews.com/news/uae/2026/09/12/abu-dhabi-crown-prince-meets-indian-pm-in-new-delhi/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:19:51.185608+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7301172614097595,
+            "article": {
+              "title": "China to host 19th BRICS summit in 2027",
+              "url": "https://tass.com/world/2186591",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:20:59.867446+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7033809423446655,
+            "article": {
+              "title": "Xi says BRICS countries should firmly stand on right side of history",
+              "url": "https://english.news.cn/20260912/3274bd16b9f74b1eabcd28e4e3e68b9f/c.html",
+              "source_id": "english.news.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:22:35.125350+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.685632586479187,
+            "article": {
+              "title": "习近平抵达新德里 出席金砖国家领导人第十八次会晤",
+              "url": "https://politics.gmw.cn/2026-09/12/content_38997709.htm",
               "source_id": "gmw.cn",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:30.364747+00:00"
+              "scraped_at_utc": "2026-09-12T11:22:54.497297+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7690609693527222,
+            "sim_to_centroid": 0.6605923175811768,
             "article": {
-              "title": "习近平主席赴印度出席金砖国家领导人第十八次会晤前瞻",
-              "url": "https://www.stnn.cc/detail/6aa3ec0bb4b06b3f17232039.html",
-              "source_id": "stnn.cc",
+              "title": "From Bishkek to New Delhi, Xi advocates Global South cooperation",
+              "url": "https://english.news.cn/20260911/4d6642e6b91146c1b6c307ce8cb5876b/c.html",
+              "source_id": "english.news.cn",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:28.518540+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7620909214019775,
-            "article": {
-              "title": "Modi, Putin hold talks in New Delhi on trade, defence",
-              "url": "https://kathmandupost.com/world/2026/09/11/modi-putin-hold-talks-in-new-delhi-on-trade-defence",
-              "source_id": "kathmandupost.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:51.188372+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7581369876861572,
-            "article": {
-              "title": "Vladimir Putin's visit to India Dynamic domestic markets, rapid urbanization drive BRICS success",
-              "url": "https://tass.com/politics/2186195",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:25:29.150033+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7354933023452759,
-            "article": {
-              "title": "BRICS power parade: Modi, Putin, Pezeshkian, Ramaphosa strike a stunning frame",
-              "url": "https://www.hindustantimes.com/india-news/brics-power-parade-narendra-modi-vladimir-putin-masoud-pezeshkian-cyril-ramaphosa-strike-a-stunning-frame-101789135696687.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:38.196942+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6967369318008423,
-            "article": {
-              "title": "Vladimir Putin's visit to India Putin begins India visit with meeting PM Modi",
-              "url": "https://tass.com/politics/2186085",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:25:29.150033+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6829865574836731,
-            "article": {
-              "title": "Putin takes dig at 'so-called' G7, hails BRICS nations' 40% share of world GDP",
-              "url": "https://www.hindustantimes.com/india-news/putin-takes-dig-at-so-called-g7-hails-brics-countries-for-contributing-to-40-world-gdp-101789136061089.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:38.196942+00:00"
+              "scraped_at_utc": "2026-09-12T11:22:35.125350+00:00"
             }
           }
         ]
       },
       {
-        "score": 32.715391572497,
-        "size": 10,
-        "n_sources": 9,
+        "score": 78.36053770277275,
+        "size": 28,
+        "n_sources": 20,
+        "n_continents": 7,
+        "continents": [
+          "Africa",
+          "China",
+          "Europe North",
+          "Europe South",
+          "North America",
+          "Oceania",
+          "South America"
+        ],
+        "coherence": 0.7839356064796448,
+        "title": "US commemorates 25th anniversary of 9/11 attacks",
+        "central_article": {
+          "title": "US commemorates 25th anniversary of 9/11 attacks",
+          "url": "https://www.euronews.com/2026/09/11/us-commemorates-25th-anniversary-of-devastating-911-attacks-as-their-legacy-endures",
+          "source_id": "euronews.com",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-12T11:17:29.816249+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9024724364280701,
+            "article": {
+              "title": "US commemorates 25th anniversary of 9/11 attacks",
+              "url": "https://www.euronews.com/2026/09/11/us-commemorates-25th-anniversary-of-devastating-911-attacks-as-their-legacy-endures",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:17:29.816249+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9000973105430603,
+            "article": {
+              "title": "Americans remember the lives lost in the 9/11 attacks 25 years ago",
+              "url": "https://www.pbs.org/newshour/show/americans-remember-the-lives-lost-in-the-9-11-attacks-25-years-ago",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:22:28.855326+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8820923566818237,
+            "article": {
+              "title": "'Never, ever forget': America marks 25th anniversary of 9/11 attacks",
+              "url": "https://www.bbc.com/news/articles/clyjqvjzlwno",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:17:22.336937+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8805158734321594,
+            "article": {
+              "title": "US mourns on 25th anniversary of 9/11",
+              "url": "https://www.theguardian.com/us-news/gallery/2026/sep/11/911-25th-anniversary",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:17:26.230585+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8653386831283569,
+            "article": {
+              "title": "PHOTOS: Americans mark 25th anniversary of 9/11",
+              "url": "https://www.pbs.org/newshour/nation/photos-americans-mark-25th-anniversary-of-9-11",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:22:28.855326+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8594999313354492,
+            "article": {
+              "title": "A nation marks 25 years since 9/11. 'We will always remember you'",
+              "url": "https://www.usatoday.com/story/news/nation/2026/09/11/nation-mourns-september-11-25th-anniversary/91609275007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:22:23.799920+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8438540697097778,
+            "article": {
+              "title": "A divided America comes together to commemorate the 25th anniversary of 9/11",
+              "url": "https://www.theglobeandmail.com/world/us-politics/article-divided-america-commemorate-25th-anniversary-911/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:19:33.112985+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8317646980285645,
+            "article": {
+              "title": "25 Jahre nach den Anschlägen - 9/11 ist nicht vorbei",
+              "url": "https://www.tagesschau.de/kommentar/11-september-usa-afghanistan-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:17:39.634106+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8283980488777161,
+            "article": {
+              "title": "9/11: Remembering victims of attacks that changed the world – 25 years on",
+              "url": "https://www.channel4.com/news/9-11-remembering-victims-of-attacks-that-changed-the-world-25-years-on",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:17:28.135769+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8113603591918945,
+            "article": {
+              "title": "For the 25th Time, New York Marks the Shattering Loss of 9/11",
+              "url": "https://www.nytimes.com/2026/09/11/nyregion/9-11-anniversary-ceremony-nyc.html",
+              "source_id": "nytimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:21:59.746950+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7983157634735107,
+            "article": {
+              "title": "25 Years After 9/11, Americans Must Remember What Binds Us",
+              "url": "https://time.com/article/2026/09/11/25-years-after-9-11-americans-must-remember-what-binds-us/",
+              "source_id": "time.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:22:26.487373+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7977746725082397,
+            "article": {
+              "title": "Ook een nieuwe generatie herdenkt 25 jaar na 9/11 de slachtoffers, terwijl Trump koppeling maakt met zijn oorlog tegen Iran",
+              "url": "https://www.nrc.nl/nieuws/2026/09/11/ook-een-nieuwe-generatie-herdenkt-25-jaar-na-9-11-de-slachtoffers-terwijl-trump-koppeling-maakt-met-zijn-oorlog-tegen-iran-a4936466",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:17:34.021398+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7906373739242554,
+            "article": {
+              "title": "'A day that changed the world': 25 years on, Australia remembers 9/11",
+              "url": "https://www.sbs.com.au/news/article/a-day-that-changed-the-world-australia-remembers-9-11/1h84dapnd",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:19:37.105581+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7891992330551147,
+            "article": {
+              "title": "9/11: British families pay tributes on 25th anniversary of ‘one of America’s darkest hours’",
+              "url": "https://www.channel4.com/news/9-11-british-families-pay-tributes-on-25th-anniversary-of-one-of-americas-darkest-hours",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:17:28.135769+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7758470773696899,
+            "article": {
+              "title": "Globe journalists share their 9/11 experiences from New York and beyond, 25 years later",
+              "url": "https://www.theglobeandmail.com/world/article-september-11-attacks-globe-journalist-reflections-25-year-anniversary/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:19:33.112985+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7530702352523804,
+            "article": {
+              "title": "美國悼念911恐襲25周年 近3000人罹難陰影持續",
+              "url": "https://www.singtaousa.com/2026/09/11/news/usa/news-911-25th-anniversary-remembrance/",
+              "source_id": "singtaousa.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:22:46.950125+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7461796998977661,
+            "article": {
+              "title": "Un quart de siècle après, New York pleure ses morts victimes des attaques du 11 septembre",
+              "url": "https://www.rts.ch/info/monde/2026/article/11-septembre-new-york-commemore-les-25-ans-des-attentats-29354534.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:18:22.496611+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7404326796531677,
+            "article": {
+              "title": "25 años del 11-S",
+              "url": "https://www.rtve.es/noticias/20260911/asi-fue-11-septiembre-cronologia-atentados-nueva-york/17218661.shtml",
+              "source_id": "rtve.es",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:18:33.516595+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7358219623565674,
+            "article": {
+              "title": "EE.UU. recuerda el 11-S con sus expresidentes en Nueva York y Trump en el Pentágono",
+              "url": "https://elcomercio.pe/mundo/eeuu/estados-unidos-recuerda-el-11-s-con-sus-expresidentes-en-nueva-york-y-donald-trump-en-el-pentagono-apuesplan-ultimas-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:19:08.274771+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.727121889591217,
+            "article": {
+              "title": "September 11 Remembrance events honor victims of 9/11 as Trump and Hegseth use ceremony to defend Iran war",
+              "url": "https://www.theguardian.com/us-news/2026/sep/11/september-11-commemorations",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:17:26.230585+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7263737916946411,
+            "article": {
+              "title": "Ex-presidents attend 9/11 memorial as Trump speaks at Pentagon",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/9-11-ceremony-mamdani-giuliani-ground-zero-b3048638.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:17:23.514748+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.724696159362793,
+            "article": {
+              "title": "Carney pays tribute to 9/11 victims, says ‘our grief has not faded’",
+              "url": "https://www.theglobeandmail.com/politics/article-carney-911-25th-anniversary/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:19:33.112985+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7199230790138245,
+            "article": {
+              "title": "Wonden na 25 jaar nog vers: '9/11 is geschiedenis waar we nog middenin zitten'",
+              "url": "https://nos.nl/artikel/2630625-wonden-na-25-jaar-nog-vers-9-11-is-geschiedenis-waar-we-nog-middenin-zitten",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:17:32.408235+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7167893648147583,
+            "article": {
+              "title": "25 years after 9/11, Peter Obi calls for global peace, unity",
+              "url": "https://businessday.ng/news/article/25-years-after-9-11-peter-obi-calls-for-global-peace-unity/",
+              "source_id": "businessday.ng",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:21:46.142411+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7077200412750244,
+            "article": {
+              "title": "Gedenken zum 11. September Ein ganzes Land trauert",
+              "url": "https://www.tagesschau.de/ausland/amerika/new-york-gedenken-102.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:17:39.634106+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7048692107200623,
+            "article": {
+              "title": "Drones recriam Torres Gêmeas em Nova York em homenagem às vítimas do 11 de Setembro",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/09/drones-recriam-torres-gemeas-em-nova-york-em-homenagem-as-vitimas-do-11-de-setembro-veja-video.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:19:01.723649+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6976850032806396,
+            "article": {
+              "title": "EU's economy chief speaks to Euronews as 9/11 attacks mark 25 years",
+              "url": "https://www.euronews.com/my-europe/2026/09/11/europe-today-eus-economy-chief-dombrovskis-on-euronews-as-911-attacks-mark-25-years",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:17:29.816249+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6923469305038452,
+            "article": {
+              "title": "25 jaar na de aanslagen van 9/11 zet Trump het mes in terreurbestrijding",
+              "url": "https://nos.nl/artikel/2630244-25-jaar-na-de-aanslagen-van-9-11-zet-trump-het-mes-in-terreurbestrijding",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:17:32.408235+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 68.16745611331245,
+        "size": 15,
+        "n_sources": 15,
+        "n_continents": 6,
+        "continents": [
+          "China",
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "South Asia"
+        ],
+        "coherence": 0.8444315195083618,
+        "title": "Passenger train derails in France leaving at least 44 injured",
+        "central_article": {
+          "title": "Passenger train derails in France leaving at least 44 injured",
+          "url": "https://www.bbc.com/news/articles/c8d37dm8d8mo",
+          "source_id": "bbc.com",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-12T11:17:22.336937+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9131098389625549,
+            "article": {
+              "title": "Passenger train derails in France leaving at least 44 injured",
+              "url": "https://www.bbc.com/news/articles/c8d37dm8d8mo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:17:22.336937+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.912149965763092,
+            "article": {
+              "title": "法国列车脱轨致44人受伤 疑遭人为破坏",
+              "url": "https://www.xinhuanet.com/20260912/c6d1087696c84277b675d842a045652d/c.html",
+              "source_id": "xinhuanet.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:22:37.472667+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9084869623184204,
+            "article": {
+              "title": "Passenger train derails in France; 44 injured",
+              "url": "https://pajhwok.com/2026/09/12/passenger-train-derails-in-france-44-injured-2/",
+              "source_id": "pajhwok.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:23:19.407418+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8964519500732422,
+            "article": {
+              "title": "At least 44 people injured after train derails in northern France",
+              "url": "https://www.euronews.com/my-europe/2026/09/12/passenger-train-derails-in-northern-france-injuring-at-least-44-people-including-one-serio",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:17:29.816249+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8740097880363464,
+            "article": {
+              "title": "Franse politie denkt aan opzet bij ontsporing trein, 44 gewonden",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5650933/franse-politie-denkt-aan-opzet-bij-ontsporing-trein-44-gewonden",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:17:35.662442+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8613513708114624,
+            "article": {
+              "title": "Ipotesi sabotaggio per il treno deragliato in Francia: un pezzo di metallo sulle rotaie, 44 i feriti",
+              "url": "https://www.repubblica.it/esteri/2026/09/12/news/treno_deragliato_francia_polizia_indaga_per_sabotaggio-425580761/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:18:36.368912+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8559795022010803,
+            "article": {
+              "title": "Во Франции сошел с рельсов пассажирский поезд, десятки человек ранены. Власти подозревают диверсию",
+              "url": "https://meduza.io/news/2026/09/12/vo-frantsii-soshel-s-relsov-passazhirskiy-poezd-desyatki-chelovek-raneny-vlasti-podozrevayut-diversiyu",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:20:35.311339+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.851380467414856,
+            "article": {
+              "title": "France : déraillement d’un train régional en Normandie, 44 blessés, la piste de l’acte malveillant privilégiée",
+              "url": "https://www.rtbf.be/article/france-deraillement-d-un-train-regional-en-seine-maritime-44-blesses-dont-un-grave-11783969",
+              "source_id": "rtbf.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:18:26.401568+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8332464694976807,
+            "article": {
+              "title": "Ve Francii vykolejil vlak, desítky zraněných. Hlavní verzí je dle AFP cizí zavinění",
+              "url": "https://ct24.ceskatelevize.cz/clanek/svet/ve-francii-vykolejil-vlak-hlavni-verzi-pri-vysetrovani-je-podle-afp-cizi-zavineni-377510",
+              "source_id": "ct24.ceskatelevize.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:20:23.762156+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8292341232299805,
+            "article": {
+              "title": "Polizei und Rettungskräfte im Einsatz Zug in Frankreich entgleist – mehr als 40 Verletzte",
+              "url": "https://www.spiegel.de/ausland/frankreich-zugunglueck-in-der-normandie-mehr-als-40-verletzte-a-d1157a15-cb92-460d-a55a-da99569c6766",
+              "source_id": "spiegel.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:17:42.020092+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8150002360343933,
+            "article": {
+              "title": "French police suspect train derailment was sabotage",
+              "url": "https://www.bangkokpost.com/world/3318495/french-police-suspect-train-derailment-was-sabotage",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:24:05.726456+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8084980249404907,
+            "article": {
+              "title": "La police suspecte un acte malveillant après le déraillement d'un train en Normandie",
+              "url": "https://www.rts.ch/info/monde/2026/article/deraillement-en-normandie-44-blesses-un-acte-malveillant-suspecte-29355080.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:18:22.496611+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7856379151344299,
+            "article": {
+              "title": "French police suspect Normandy train derailment was result of sabotage",
+              "url": "https://www.france24.com/en/europe/20260912-french-police-investigate-suspected-sabotage-in-train-derailment",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:18:21.048344+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7794349193572998,
+            "article": {
+              "title": "Frankrijk Meer dan 40 gewonden nadat trein ontspoort in Frankrijk",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/09/11/trein-ongeluk-rouen-frankrijk/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:18:24.042798+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7424999475479126,
+            "article": {
+              "title": "Déraillement d’un TER reliant Rouen à Caen : 44 blessés dont une jeune femme dans un état grave",
+              "url": "https://www.lemonde.fr/economie/article/2026/09/11/deraillement-du-ter-rouen-caen-un-bilan-provisoire-d-environ-20-blesses-selon-le-ministre-des-transports_6770640_3234.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:18:16.232573+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 59.68264426516537,
+        "size": 16,
+        "n_sources": 14,
         "n_continents": 6,
         "continents": [
           "East Asia",
@@ -1531,457 +1113,985 @@
           "Middle East",
           "North America"
         ],
-        "coherence": 0.799772322177887,
-        "title": "Wie der 11. September die US-Außenpolitik verändert hat",
+        "coherence": 0.8316448926925659,
+        "title": "Trump says he would ‘love’ to see a united Ireland",
         "central_article": {
-          "title": "Wie der 11. September die US-Außenpolitik verändert hat",
-          "url": "https://www.tagesschau.de/ausland/amerika/usa-11-september-aussenpolitik-100.html",
-          "source_id": "tagesschau.de",
+          "title": "Trump says he would ‘love’ to see a united Ireland",
+          "url": "https://www.politico.eu/article/donald-trump-says-he-would-love-to-see-united-ireland/",
+          "source_id": "politico.eu",
           "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-09-11T21:21:28.188295+00:00"
+          "scraped_at_utc": "2026-09-12T11:17:31.253732+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8720359802246094,
+            "sim_to_centroid": 0.8980902433395386,
             "article": {
-              "title": "Wie der 11. September die US-Außenpolitik verändert hat",
-              "url": "https://www.tagesschau.de/ausland/amerika/usa-11-september-aussenpolitik-100.html",
-              "source_id": "tagesschau.de",
+              "title": "Trump says he would ‘love’ to see a united Ireland",
+              "url": "https://www.politico.eu/article/donald-trump-says-he-would-love-to-see-united-ireland/",
+              "source_id": "politico.eu",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:28.188295+00:00"
+              "scraped_at_utc": "2026-09-12T11:17:31.253732+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8343071937561035,
+            "sim_to_centroid": 0.8953437805175781,
             "article": {
-              "title": "Wie 9/11 den Wirtschafts-Alltag verändert hat",
-              "url": "https://www.zdfheute.de/wirtschaft/elfter-september-terror-anschlag-wirtschaft-luftfahrt-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:42.222703+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.829626202583313,
-            "article": {
-              "title": "How 9/11 Helped Shape Our Politics Today",
-              "url": "https://time.com/article/2026/09/11/september-11-america-europe-far-right-immigration-muslims-trump/",
-              "source_id": "time.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:02.326984+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8156707286834717,
-            "article": {
-              "title": "How 9/11 accelerated China's rise and the decline of US hegemony",
-              "url": "https://asia.nikkei.com/spotlight/comment/how-9-11-accelerated-china-s-rise-and-the-decline-of-us-hegemony",
-              "source_id": "asia.nikkei.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:28:04.591189+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.796459972858429,
-            "article": {
-              "title": "Nueve momentos clave tras el 11-S: así cambió el mundo tras los atentados",
-              "url": "https://www.lavanguardia.com/internacional/20260911/11631866/cronologia-11-s-como-atentados-cambiaron-mundo.html",
-              "source_id": "lavanguardia.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:22:29.218525+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.780646800994873,
-            "article": {
-              "title": "How September 11 accelerated the end of American hegemony ANALYSIS",
-              "url": "https://www.rt.com/news/645409-september-11-end-of-american-hegemony/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:25:24.997226+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7778993844985962,
-            "article": {
-              "title": "How 9/11 changed Japan’s approach to security forever",
-              "url": "https://www.japantimes.co.jp/news/2026/09/11/japan/politics/911-japan-security/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:28:28.749712+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.766144871711731,
-            "article": {
-              "title": "How the US post-9/11 overreaction built today's illiberal world",
-              "url": "https://www.newarab.com/opinion/how-us-post-911-overreaction-built-todays-illiberal-world",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:24:41.817519+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7636276483535767,
-            "article": {
-              "title": "Del mundo del 11S al mundo de 2026: cómo cambió la geopolítica",
-              "url": "https://www.rtve.es/noticias/20260911/11s-atentados-mundo-2026-geopolitica/17219463.shtml",
+              "title": "Trump sorprende con unas declaraciones en su visita a Irlanda: \"Me gustaría verla unificada\"",
+              "url": "https://www.rtve.es/noticias/20260912/donald-trump-visita-irlanda-reino-unido-malvinas/17222436.shtml",
               "source_id": "rtve.es",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:22:32.124448+00:00"
+              "scraped_at_utc": "2026-09-12T11:18:33.516595+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7613040208816528,
+            "sim_to_centroid": 0.8904415965080261,
             "article": {
-              "title": "Die Lehren vom 11. September",
-              "url": "https://www.zdfheute.de/politik/ausland/9-11-terror-new-york-lehren-100.html",
-              "source_id": "zdfheute.de",
+              "title": "Trump calls for a united Ireland as he arrives in Dublin",
+              "url": "https://www.thetimes.com/world/ireland-world/article/donald-trump-ireland-irish-open-m2h02t90m",
+              "source_id": "thetimes.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:42.222703+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 28.451018333847244,
-        "size": 8,
-        "n_sources": 8,
-        "n_continents": 5,
-        "continents": [
-          "China",
-          "Europe East",
-          "Europe North",
-          "North America",
-          "South America"
-        ],
-        "coherence": 0.8318608999252319,
-        "title": "CIA releases dozens of presidential daily briefs on bin Laden and al-Qaida before Sept. 11",
-        "central_article": {
-          "title": "CIA releases dozens of presidential daily briefs on bin Laden and al-Qaida before Sept. 11",
-          "url": "https://www.chicagotribune.com/2026/09/11/cia-releases-presidential-briefs-sept-11/",
-          "source_id": "chicagotribune.com",
-          "continent": "North America",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-11T21:27:00.782164+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8929119110107422,
-            "article": {
-              "title": "CIA releases dozens of presidential daily briefs on bin Laden and al-Qaida before Sept. 11",
-              "url": "https://www.chicagotribune.com/2026/09/11/cia-releases-presidential-briefs-sept-11/",
-              "source_id": "chicagotribune.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:00.782164+00:00"
+              "scraped_at_utc": "2026-09-12T11:17:24.950396+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8929119110107422,
+            "sim_to_centroid": 0.8793405294418335,
             "article": {
-              "title": "CIA releases dozens of presidential daily briefs on bin Laden and al-Qaida before Sept. 11",
-              "url": "https://www.pbs.org/newshour/politics/cia-releases-dozens-of-presidential-daily-briefs-on-bin-laden-and-al-qaida-before-sept-11",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:04.830784+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8585774898529053,
-            "article": {
-              "title": "CIA warned of threat of 'explosive airplane' years before 9/11, documents show",
-              "url": "https://www.bbc.com/news/articles/c17j94ew1lno",
-              "source_id": "bbc.com",
+              "title": "‘It is going to happen eventually’: Donald Trump says he would ‘love’ to see Ireland unified",
+              "url": "https://www.irishtimes.com/ireland/2026/09/12/donald-trump-in-ireland-follow-live-updates/",
+              "source_id": "irishtimes.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:09.316845+00:00"
+              "scraped_at_utc": "2026-09-12T11:19:48.613730+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8509402275085449,
+            "sim_to_centroid": 0.8678023815155029,
             "article": {
-              "title": "中情局公開911前情報文件 曾警告基地組織或以飛機襲美",
-              "url": "https://www.singtaousa.com/2026/09/11/news/usa/news-cia-911-intelligence-warning-al-qaeda/",
-              "source_id": "singtaousa.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:23.636777+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8494431972503662,
-            "article": {
-              "title": "Desclasifican archivos de la CIA con alertas sobre planes de Al Qaeda para atacar EE. UU. años antes del 11S",
-              "url": "https://www.eltiempo.com/mundo/eeuu-y-canada/desclasifican-archivos-de-la-cia-que-revelan-alertas-sobre-planes-de-al-qaeda-para-atacar-estados-unidos-con-aviones-anos-antes-del-11-de-septiembre-3585417",
-              "source_id": "eltiempo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:23:12.101277+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7811791896820068,
-            "article": {
-              "title": "Dokumenter viser advarsler om mulig trussel fra Bin Laden",
-              "url": "https://www.dr.dk/nyheder/udland/i-dag-markeres-25-aarsdagen-11-september?focusId=12423954",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:22:04.651440+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7779199481010437,
-            "article": {
-              "title": "C.I.A. Releases Intelligence Sent to White House Before Sept. 11",
-              "url": "https://www.nytimes.com/2026/09/11/us/politics/cia-sept-11-intelligence.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:26:34.184321+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7510031461715698,
-            "article": {
-              "title": "25 de ani de la atentatele Al-Qaida în SUA. Documente declasificate arată că CIA luase în calcul riscurile deturnării unor avioane",
-              "url": "https://hotnews.ro/25-de-ani-de-la-atentatele-al-qaida-in-sua-documente-declasificate-arata-ca-cia-luase-in-calcul-riscurile-deturnarii-unor-avioane-2347216",
-              "source_id": "hotnews.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:24:59.303400+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 27.80163509116856,
-        "size": 9,
-        "n_sources": 9,
-        "n_continents": 4,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East"
-        ],
-        "coherence": 0.8483151793479919,
-        "title": "Flera skadade när franskt tåg spårade ur",
-        "central_article": {
-          "title": "Flera skadade när franskt tåg spårade ur",
-          "url": "https://www.dn.se/direkt/2026-09-11/flera-skadade-nar-franskt-tag-sparade-ur/",
-          "source_id": "dn.se",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-11T21:21:54.657118+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8932286500930786,
-            "article": {
-              "title": "Flera skadade när franskt tåg spårade ur",
-              "url": "https://www.dn.se/direkt/2026-09-11/flera-skadade-nar-franskt-tag-sparade-ur/",
-              "source_id": "dn.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:54.657118+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.890691876411438,
-            "article": {
-              "title": "Zeci de răniți după ce un tren a deraiat în nordul Franței",
-              "url": "https://hotnews.ro/zeci-de-raniti-dupa-ce-un-tren-a-deraiat-in-nordul-frantei-2347227",
-              "source_id": "hotnews.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:24:59.303400+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8791871070861816,
-            "article": {
-              "title": "Un train déraille dans le nord de la France : au moins 44 blessés",
-              "url": "https://www.lesoir.be/770483/article/2026-09-11/un-train-deraille-dans-le-nord-de-la-france-au-moins-44-blesses",
-              "source_id": "lesoir.be",
+              "title": "Trump in visita a Dublino: “L’Irlanda tornerà a essere unita, prima o poi succederà”",
+              "url": "https://www.repubblica.it/esteri/2026/09/12/news/trump_irlanda_tornera_a_essere_unita_prima_o_poi_succedera-425581010/",
+              "source_id": "repubblica.it",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:22:27.413775+00:00"
+              "scraped_at_utc": "2026-09-12T11:18:36.368912+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.875158965587616,
+            "sim_to_centroid": 0.855090320110321,
             "article": {
-              "title": "Tog kører af sporet i Frankrig - cirka 20 er kommet til skade",
-              "url": "https://politiken.dk/rejser/art10980198/Tog-k%C3%B8rer-af-sporet-i-Frankrig-cirka-20-er-kommet-til-skade",
-              "source_id": "politiken.dk",
-              "continent": "Europe North",
+              "title": "Trump lands in Ireland for golf and diplomacy",
+              "url": "https://www.bangkokpost.com/world/3318488/trump-lands-in-ireland-for-golf-and-diplomacy",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:52.505009+00:00"
+              "scraped_at_utc": "2026-09-12T11:24:05.726456+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8718500137329102,
+            "sim_to_centroid": 0.8474379777908325,
             "article": {
-              "title": "Συναγερμός στη Γαλλία: Τρένο εκτροχιάστηκε – Τουλάχιστον 20 τραυματίες",
-              "url": "https://www.tovima.gr/2026/09/11/world/gallia-ektroxiastike-treno-sti-rouen-toulaxiston-20-traymaties/",
-              "source_id": "tovima.gr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:22:37.934846+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.843101441860199,
-            "article": {
-              "title": "Frankrijk Twintigtal gewonden nadat trein ontspoort in Frankrijk",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/09/11/trein-ongeluk-rouen-frankrijk/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:22:22.089998+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8033995628356934,
-            "article": {
-              "title": "France : déraillement d’un train régional en Seine-Maritime, 44 blessés, dont un grave",
-              "url": "https://www.rtbf.be/article/france-deraillement-d-un-train-regional-en-seine-maritime-44-blesses-dont-un-grave-11783969",
-              "source_id": "rtbf.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:22:25.395305+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7997658252716064,
-            "article": {
-              "title": "Yolcu treni raydan çıktı! Çok sayıda yaralı var",
-              "url": "https://www.milliyet.com.tr/dunya/fransada-yolcu-treni-raydan-cikti-cok-sayida-yarali-var-7658560",
-              "source_id": "milliyet.com.tr",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:24:39.363492+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7784533500671387,
-            "article": {
-              "title": "44 kvæstet efter togafsporing i Frankrig",
-              "url": "https://www.dr.dk/nyheder/seneste/20-kvaestet-ved-togafsporing-i-frankrig",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:22:04.651440+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 27.44522852495326,
-        "size": 6,
-        "n_sources": 6,
-        "n_continents": 5,
-        "continents": [
-          "China",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "South America"
-        ],
-        "coherence": 0.8821989893913269,
-        "title": "Brazil’s Flavio Bolsonaro under investigation over alleged corruption",
-        "central_article": {
-          "title": "Brazil’s Flavio Bolsonaro under investigation over alleged corruption",
-          "url": "https://www.scmp.com/news/world/americas/article/3367262/brazils-flavio-bolsonaro-under-investigation-over-alleged-corruption?module=top_story&pgtype=homepage",
-          "source_id": "scmp.com",
-          "continent": "China",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-11T21:27:06.093925+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.947571873664856,
-            "article": {
-              "title": "Brazil’s Flavio Bolsonaro under investigation over alleged corruption",
-              "url": "https://www.scmp.com/news/world/americas/article/3367262/brazils-flavio-bolsonaro-under-investigation-over-alleged-corruption?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:27:06.093925+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9315374493598938,
-            "article": {
-              "title": "Korrupció és pénzmosás gyanúja miatt nyomoznak Flávio Bolsonaro ellen",
-              "url": "https://telex.hu/kulfold/2026/09/11/flavio-bolsonaro-brazilia",
-              "source_id": "telex.hu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:24:57.728364+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.919937252998352,
-            "article": {
-              "title": "Flavio Bolsonaro probed for corruption as Brazil election tightens",
-              "url": "https://www.france24.com/en/americas/20260911-flavio-bolsonaro-probed-for-corruption-as-brazil-election-tightens",
+              "title": "Trump meets Ireland's leaders in Dublin before heading to his golf club",
+              "url": "https://www.france24.com/en/europe/20260912-trump-arrives-in-dublin-for-talks-with-ireland-s-leaders-before-attending-golf-tournament",
               "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:22:18.486353+00:00"
+              "scraped_at_utc": "2026-09-12T11:18:21.048344+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8598577976226807,
+            "sim_to_centroid": 0.8429901599884033,
             "article": {
-              "title": "Præsidentkandidat i Brasilien efterforskes for korruption",
-              "url": "https://www.dr.dk/nyheder/seneste/praesidentkandidat-i-brasilien-efterforskes-korruption",
-              "source_id": "dr.dk",
+              "title": "Trump: Enat Irland vore ”fantastiskt”",
+              "url": "https://www.dn.se/direkt/2026-09-12/trump-enat-irland-vore-fantastiskt/",
+              "source_id": "dn.se",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:22:04.651440+00:00"
+              "scraped_at_utc": "2026-09-12T11:18:00.724675+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8303505182266235,
+            "sim_to_centroid": 0.8285379409790039,
             "article": {
-              "title": "2 t Verden Bolsonaro etterforskes for korrupsjon i Brasil",
-              "url": "https://www.aftenposten.no/verden/i/j0Adyq/bolsonaro-etterforskes-for-korrupsjon-i-brasil",
+              "title": "Trump dorazil do Irska. Rychle si potřásl rukama s nejvyššími činiteli a šel na golf",
+              "url": "https://www.idnes.cz/zpravy/zahranicni/trump-usa-irsko-navsteva-gol-turnaj.A260912_121947_zahranicni_dtt",
+              "source_id": "idnes.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:20:21.591996+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8266639709472656,
+            "article": {
+              "title": "Trump spune că și-ar dori „foarte mult” reunificarea Irlandei: „Se va întâmpla în cele din urmă”",
+              "url": "https://www.g4media.ro/trump-spune-ca-si-ar-dori-foarte-mult-reunificarea-irlandei-se-va-intampla-in-cele-din-urma.html",
+              "source_id": "g4media.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:20:27.919025+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8191198110580444,
+            "article": {
+              "title": "Protester när Trump besöker Irland",
+              "url": "https://www.dn.se/direkt/2026-09-12/protester-nar-trump-besoker-irland/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:18:00.724675+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8150773048400879,
+            "article": {
+              "title": "Trump für Vereinigung des britischen Nordirland mit Republik Irland",
+              "url": "https://www.diepresse.com/41255444/trump-fuer-vereinigung-des-britischen-nordirland-mit-republik-irland",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:17:47.639196+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7714903354644775,
+            "article": {
+              "title": "7 , ‘Majority do not welcome him’: Trump heads to Ireland amid fury over Gaza",
+              "url": "https://www.aljazeera.com/news/2026/9/11/majority-do-not-welcome-him-trump-heads-to-ireland-amid-fury-over-gaza",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:19:49.802556+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7695522308349609,
+            "article": {
+              "title": "In an Irish Village, Trump’s Visit for a Golf Tournament Prompts Protests and Praise",
+              "url": "https://www.nytimes.com/2026/09/12/world/europe/trump-irish-open-ireland-doonbeg.html",
+              "source_id": "nytimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:21:59.746950+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7528345584869385,
+            "article": {
+              "title": "Ireland’s Trump plan: Get him in, get him out, hope for the best",
+              "url": "https://www.politico.eu/article/ireland-us-president-donald-trump-irish-open-golf/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:17:31.253732+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7465047836303711,
+            "article": {
+              "title": "Verden Irland Siste Trumps uttalelser om Irland sendte et gisp gjennom salen. – Jeg mener det ville være fantastisk",
+              "url": "https://www.aftenposten.no/verden/i/Ok7P4E/trump-sier-han-oensker-aa-se-et-forent-irland",
               "source_id": "aftenposten.no",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:21:56.334013+00:00"
+              "scraped_at_utc": "2026-09-12T11:18:02.332828+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 59.66927507337588,
+        "size": 13,
+        "n_sources": 13,
+        "n_continents": 5,
+        "continents": [
+          "East Asia",
+          "Europe East",
+          "Europe South",
+          "Middle East",
+          "Oceania"
+        ],
+        "coherence": 0.8828859925270081,
+        "title": "Zelensky willing to meet Putin at G20 in Miami",
+        "central_article": {
+          "title": "Zelensky willing to meet Putin at G20 in Miami",
+          "url": "https://www.bangkokpost.com/world/3318490/zelensky-willing-to-meet-putin-at-g20-in-miami",
+          "source_id": "bangkokpost.com",
+          "continent": "East Asia",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-12T11:24:05.726456+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9637818932533264,
+            "article": {
+              "title": "Zelensky willing to meet Putin at G20 in Miami",
+              "url": "https://www.bangkokpost.com/world/3318490/zelensky-willing-to-meet-putin-at-g20-in-miami",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:24:05.726456+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8039391040802002,
+            "sim_to_centroid": 0.9560324549674988,
             "article": {
-              "title": "Flávio Bolsonaro passa a ser investigado no caso 'Dark Horse'",
-              "url": "https://www.em.com.br/politica/2026/09/7498387-flavio-bolsonaro-vira-investigado-do-dark-horse-que-segue-sob-sigilo.html",
-              "source_id": "em.com.br",
-              "continent": "South America",
+              "title": "Zelenskyy willing to meet Putin at Miami G20 Summit",
+              "url": "https://www.abc.net.au/news/2026-09-12/zelenskyy-willing-to-meet-putin-at-g20/107146956",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-09-11T21:23:24.987656+00:00"
+              "scraped_at_utc": "2026-09-12T11:19:34.341592+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.952667236328125,
+            "article": {
+              "title": "Zelensky says he is ready to meet Putin at G20 summit in Miami.",
+              "url": "https://kyivindependent.com/zelensky-says-he-is-ready-to-meet-putin-at-g20-summit-in-miami/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:20:34.116572+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9397870302200317,
+            "article": {
+              "title": "Zelensky Ready to Meet Putin at Miami G20 if Russian Leader Attends",
+              "url": "https://www.kyivpost.com/post/84342",
+              "source_id": "kyivpost.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:20:32.694632+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9249880313873291,
+            "article": {
+              "title": "Zelensky signals readiness to meet Putin at G20 summit",
+              "url": "https://www.azernews.az/region/263770.html",
+              "source_id": "azernews.az",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:21:17.884179+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9234933853149414,
+            "article": {
+              "title": "Guerre en Ukraine : Volodymyr Zelensky se dit prêt à rencontrer Vladimir Poutine au G20 à Miami",
+              "url": "https://www.rtbf.be/article/guerre-en-ukraine-volodymyr-zelensky-se-dit-pret-a-rencontrer-vladimir-poutine-au-g20-a-miami-11784088",
+              "source_id": "rtbf.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:18:26.401568+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9162724018096924,
+            "article": {
+              "title": "Zelenski se declară pregătit să-l întâlnească pe Putin la summitul G20 din decembrie de la Miami",
+              "url": "https://www.g4media.ro/zelenski-se-declara-pregatit-sa-l-intalneasca-pe-putin-la-summitul-g20-din-decembrie-de-la-miami.html",
+              "source_id": "g4media.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:20:27.919025+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9010223746299744,
+            "article": {
+              "title": "Zelensky says willing to meet Putin at G-20 ‘to make decisions’",
+              "url": "https://www.straitstimes.com/world/europe/zelensky-says-willing-to-meet-putin-at-g-20-to-make-decisions?ref=latest-headlines",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:24:10.129592+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8597725629806519,
+            "article": {
+              "title": "Karas Ukrainoje. Zelenskis siūlo Putinui susitikti G20 susitikime Majamyje",
+              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3050002/karas-ukrainoje-zelenskis-siulo-putinui-susitikti-g20-susitikime-majamyje",
+              "source_id": "lrt.lt",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:21:05.659189+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8404248952865601,
+            "article": {
+              "title": "La diretta Zelensky propone di incontrare Putin al G20 di Miami a dicembre. Ma il Cremlino frena",
+              "url": "https://www.repubblica.it/esteri/2026/09/12/diretta/guerra_ucraina_russia_news_oggi-425580284/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:18:36.368912+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8323910236358643,
+            "article": {
+              "title": "Kiev propone di incontrare Putin al G20 di Miami",
+              "url": "https://www.corriere.it/esteri/diretta-live/26_settembre_12/ucraina-russia-news-guerra.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:18:38.121052+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7907088994979858,
+            "article": {
+              "title": "زيلينسكي يبدي استعداده للقاء بوتين خلال قمة مجموعة العشرين في ميامي",
+              "url": "https://www.annahar.com/international/europe/346630/زيلينسكي-يبدي-استعداده-للقا-بوتين-خلال-قمة-مجموعة-العشرين-في-ميامي",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:20:09.360385+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6761771440505981,
+            "article": {
+              "title": "The US's \"extremely frank\" conversations with Putin and Zelensky",
+              "url": "https://www.sbs.com.au/news/article/the-uss-extremely-frank-conversations-with-putin-and-zelensky/a9st08ynq",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:19:37.105581+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 56.574059304122194,
+        "size": 13,
+        "n_sources": 12,
+        "n_continents": 7,
+        "continents": [
+          "East Asia",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "Oceania",
+          "South Asia"
+        ],
+        "coherence": 0.8209467530250549,
+        "title": "Yemen: Iran-backed Houthi rebels seize control of Red Sea island",
+        "central_article": {
+          "title": "Yemen: Iran-backed Houthi rebels seize control of Red Sea island",
+          "url": "https://www.channel4.com/news/yemen-iran-backed-houthi-rebels-seize-control-of-red-sea-island",
+          "source_id": "channel4.com",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-12T11:17:28.135769+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.864824116230011,
+            "article": {
+              "title": "Yemen: Iran-backed Houthi rebels seize control of Red Sea island",
+              "url": "https://www.channel4.com/news/yemen-iran-backed-houthi-rebels-seize-control-of-red-sea-island",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:17:28.135769+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8554633855819702,
+            "article": {
+              "title": "Iran-backed Houthis seize island at entrance to Red Sea, threatening Saudi oil exports",
+              "url": "https://www.pbs.org/newshour/show/iran-backed-houthis-seize-island-at-entrance-to-red-sea-threatening-saudi-oil-exports",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:22:28.855326+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8532934188842773,
+            "article": {
+              "title": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
+              "url": "https://www.bbc.com/news/articles/c23x72yx2rvo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:17:22.336937+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8509364128112793,
+            "article": {
+              "title": "Houthis tighten grip on Yemen’s Red Sea coast: Reports",
+              "url": "https://pajhwok.com/2026/09/12/houthis-tighten-grip-on-yemens-red-sea-coast-reports/",
+              "source_id": "pajhwok.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:23:19.407418+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8413969278335571,
+            "article": {
+              "title": "Yemen Iran’s Houthi allies capture strategic island on vital oil shipping route",
+              "url": "https://www.theguardian.com/world/2026/sep/11/iran-houthi-allies-capture-strategic-island-bab-al-mandab-strait",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:17:26.230585+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8265707492828369,
+            "article": {
+              "title": "Yemen’s Houthis Reach Strategic Island in Key Shipping Route",
+              "url": "https://time.com/article/2026/09/11/yemen-houthi-red-sea-bab-el-mandeb-shipping-iran-war/",
+              "source_id": "time.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:22:26.487373+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8257458806037903,
+            "article": {
+              "title": "Houthis seize key island in Bab el-Mandeb, take control of the strait",
+              "url": "https://www.euronews.com/2026/09/12/houthis-seize-yemeni-island-in-bab-el-mandeb-taking-control-of-the-strait",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:17:29.816249+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8202159404754639,
+            "article": {
+              "title": "Iran-backed Houthis seize near control of vital Bab el-Mandeb shipping lane",
+              "url": "https://www.france24.com/en/middle-east/20260911-iran-backed-houthis-seize-near-control-of-vital-bab-el-mandeb-shipping-lane",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:18:21.048344+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.811363697052002,
+            "article": {
+              "title": "Can the Houthis close the Red Sea after seizing the Yemen coast?",
+              "url": "https://www.aljazeera.com/news/2026/9/11/can-the-houthis-close-the-red-sea-after-seizing-the-yemen-coast",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:19:49.802556+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8092303276062012,
+            "article": {
+              "title": "Yemen’s Houthis cement hold on vital shipping corridor linking Europe and Asia",
+              "url": "https://www.straitstimes.com/world/middle-east/yemens-houthis-cement-hold-on-vital-shipping-corridor-linking-europe-and-asia?ref=top-stories",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:24:10.129592+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8043479919433594,
+            "article": {
+              "title": "Houthi rebels seize strategic port city in Yemen, escalating US-Iran crisis",
+              "url": "https://www.sbs.com.au/news/article/houthi-rebels-seize-strategic-port-city-in-yemen-escalating-regional-crisis/zutk1v233",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:19:37.105581+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7597625255584717,
+            "article": {
+              "title": "Traffic in Bab Al Mandeb strait halves as Houthis seize control of key island",
+              "url": "https://www.thenationalnews.com/business/energy/2026/09/12/ship-traffic-in-bab-al-mandeb-strait-halves-as-houthis-seize-control-of-key-island/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:19:51.185608+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7491567134857178,
+            "article": {
+              "title": "'Everything has fallen': Iran-backed militants capture Red Sea gateway to blockade global shipping",
+              "url": "https://www.sbs.com.au/news/article/houthis-seize-yemen-red-sea-bab-al-mandab-oil-prices/pcten13zl",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:19:37.105581+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 45.0873327543681,
+        "size": 20,
+        "n_sources": 13,
+        "n_continents": 7,
+        "continents": [
+          "Africa",
+          "China",
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Middle East",
+          "South Asia"
+        ],
+        "coherence": 0.7595483660697937,
+        "title": "Commentary: BRICS opens up new possibilities for more dynamic Global South",
+        "central_article": {
+          "title": "Commentary: BRICS opens up new possibilities for more dynamic Global South",
+          "url": "https://en.people.cn/n3/2026/0912/c90000-20498820.html",
+          "source_id": "en.people.cn",
+          "continent": "China",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-12T11:22:31.652131+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8310554027557373,
+            "article": {
+              "title": "Commentary: BRICS opens up new possibilities for more dynamic Global South",
+              "url": "https://en.people.cn/n3/2026/0912/c90000-20498820.html",
+              "source_id": "en.people.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:22:31.652131+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8304321765899658,
+            "article": {
+              "title": "BRICS paves the way and the Global South has its say",
+              "url": "https://www.chinadaily.com.cn/a/202609/12/WS6aa4aea8e4b06d4aa055dabe.html",
+              "source_id": "chinadaily.com.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:22:33.050300+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8084526658058167,
+            "article": {
+              "title": "BRICS ties deliver tangible benefits",
+              "url": "https://www.chinadaily.com.cn/a/202609/12/WS6aa48e1be4b06d4aa055da84.html",
+              "source_id": "chinadaily.com.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:22:33.050300+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7935920357704163,
+            "article": {
+              "title": "Modi forges BRICS consensus in shadow of worsening Mid-East war",
+              "url": "https://www.straitstimes.com/asia/south-asia/xi-takes-centre-stage-at-modis-brics-summit-as-iran-war-deepens?ref=asia",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:24:10.129592+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7935920357704163,
+            "article": {
+              "title": "Modi forges BRICS consensus in shadow of worsening Mid-East war",
+              "url": "https://www.straitstimes.com/asia/south-asia/xi-takes-centre-stage-at-modis-brics-summit-as-iran-war-deepens?ref=top-stories",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:24:10.129592+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7894610166549683,
+            "article": {
+              "title": "BRICS nations urge smooth flow of global trade, supply chains, energy",
+              "url": "https://www.aljazeera.com/news/2026/9/12/brics-summit-opens-in-new-delhi-amid-wars-global-tensions-tariffs",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:19:49.802556+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7875205278396606,
+            "article": {
+              "title": "Jointly advancing high-quality development of greater BRICS cooperation",
+              "url": "https://en.people.cn/n3/2026/0911/c90000-20498655.html",
+              "source_id": "en.people.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:22:31.652131+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7840811610221863,
+            "article": {
+              "title": "BRICS: The gears of change keep grinding",
+              "url": "https://www.rt.com/news/645504-brics-payments-trade-energy/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:20:42.459885+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.781661868095398,
+            "article": {
+              "title": "BRICS' role in economic stability hailed amid intl shocks",
+              "url": "https://www.chinadaily.com.cn/a/202609/12/WS6aa44b3ae4b06d4aa055da70.html",
+              "source_id": "chinadaily.com.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:22:33.050300+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7786991596221924,
+            "article": {
+              "title": "More heft: On India and the 18th BRICS Summit",
+              "url": "https://www.thehindu.com/opinion/editorial/more-heft-on-india-and-the-18th-brics-summit/article71456976.ece",
+              "source_id": "thehindu.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:23:00.832827+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7775960564613342,
+            "article": {
+              "title": "BRICS-Gipfel im Zeichen globaler Ungewissheiten",
+              "url": "https://www.tagesschau.de/ausland/asien/brics-gipfel-indien-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:17:39.634106+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7665196061134338,
+            "article": {
+              "title": "BRICS empowers practical cooperation, youth innovation: South African expert",
+              "url": "https://english.news.cn/20260912/94dbb312d6804f9ab0e0f6f5ef8d8057/c.html",
+              "source_id": "english.news.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:22:35.125350+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7484764456748962,
+            "article": {
+              "title": "Reform of UN Security Council can no longer wait: PM Modi at BRICS summit",
+              "url": "https://www.hindustantimes.com/india-news/reform-of-un-security-council-can-no-longer-wait-pm-modi-at-brics-summit-101789206624618.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:23:02.089551+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7297316789627075,
+            "article": {
+              "title": "PM Modi BRICS 2026 LIVE",
+              "url": "https://www.bhaskar.com/international/news/brics-summit-new-delhi-modi-putin-jinping-meet-update-139004945.html",
+              "source_id": "bhaskar.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:22:58.230278+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7228662371635437,
+            "article": {
+              "title": "BRICS declaration flags unilateral tariffs, growing risks of nuclear danger",
+              "url": "https://www.hindustantimes.com/india-news/brics-summit-india-live-updates-modi-xi-jinping-putin-pezeshkian-china-russia-new-delhi-bharat-mandapam-police-traffic-101789179441620.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:23:02.089551+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7190930843353271,
+            "article": {
+              "title": "BRICS nations agree on final declaration of 18th summit",
+              "url": "https://tass.com/world/2186545",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:20:59.867446+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7180827856063843,
+            "article": {
+              "title": "BRICS 2026: India charts its own course between Russia and the West",
+              "url": "https://www.rt.com/news/645477-brics-2026-india-russia-west/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:20:42.459885+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7149078845977783,
+            "article": {
+              "title": "Vladimir Putin's visit to India BRICS achievements and West’s attempts to regain leadership: Putin’s statements",
+              "url": "https://tass.com/politics/2186265",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:20:59.867446+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.694621741771698,
+            "article": {
+              "title": "Brics : ce que l’Afrique peut réellement attendre du sommet de New Delhi",
+              "url": "https://www.jeuneafrique.com/1842232/economie-entreprises/brics-ce-que-lafrique-peut-reellement-attendre-du-sommet-de-new-delhi/",
+              "source_id": "jeuneafrique.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:21:37.957815+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6205239295959473,
+            "article": {
+              "title": "আল-জাজিরার এক্সপ্লেইনার ব্রিকস সম্মেলন শুরু: কোন নেতারা থাকছেন, এবারের বৈঠক কেন গুরুত্বপূর্ণ",
+              "url": "https://www.prothomalo.com/world/india/1ywebku46v",
+              "source_id": "prothomalo.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:23:04.993906+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 25.286815428978144,
+        "size": 7,
+        "n_sources": 7,
+        "n_continents": 4,
+        "continents": [
+          "China",
+          "Europe East",
+          "Europe South",
+          "Middle East"
+        ],
+        "coherence": 0.8796157240867615,
+        "title": "Bulgarie : une nouvelle explosion suivie d’incendies survient sur un site de munitions",
+        "central_article": {
+          "title": "Bulgarie : une nouvelle explosion suivie d’incendies survient sur un site de munitions",
+          "url": "https://www.rtbf.be/article/bulgarie-une-nouvelle-explosion-suivie-d-incendies-survient-sur-un-site-de-munitions-11784100",
+          "source_id": "rtbf.be",
+          "continent": "Europe South",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-12T11:18:26.401568+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.90958571434021,
+            "article": {
+              "title": "Bulgarie : une nouvelle explosion suivie d’incendies survient sur un site de munitions",
+              "url": "https://www.rtbf.be/article/bulgarie-une-nouvelle-explosion-suivie-d-incendies-survient-sur-un-site-de-munitions-11784100",
+              "source_id": "rtbf.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:18:26.401568+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9020887017250061,
+            "article": {
+              "title": "Bulgarijoje sprogo ir užsidegė amunicijos sandėlis",
+              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3050061/bulgarijoje-sprogo-ir-uzsidege-amunicijos-sandelis",
+              "source_id": "lrt.lt",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:21:05.659189+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9002962708473206,
+            "article": {
+              "title": "Explosion hits another weapons site in Bulgaria",
+              "url": "https://www.jpost.com/international/article-908409",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:19:52.485769+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8969236612319946,
+            "article": {
+              "title": "В Болгарии прогремел взрыв на складе боеприпасов оружейного завода",
+              "url": "https://ria.ru/20260912/bolgariya-2117236187.html",
+              "source_id": "ria.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:21:02.191476+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8588246703147888,
+            "article": {
+              "title": "Alertă în Bulgaria după o explozie la un depozit de armament: „Incendiul se propagă de la un depozit la altul”",
+              "url": "https://hotnews.ro/alerta-in-bulgaria-dupa-o-explozie-la-un-depozit-de-armament-incendiul-se-propaga-de-la-un-depozit-la-altul-2347334",
+              "source_id": "hotnews.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:20:19.361446+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8461555242538452,
+            "article": {
+              "title": "保加利亚一弹药存储设施爆炸起火",
+              "url": "https://www.xinhuanet.com/20260912/e290c565bcdf41beb0db11675b0655a7/c.html",
+              "source_id": "xinhuanet.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:22:37.472667+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8434354662895203,
+            "article": {
+              "title": "На складе военного завода «Емко» в Болгарии произошли взрывы и начался пожар",
+              "url": "https://www.kommersant.ru/doc/8953358?from=top_main_8",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:20:58.000347+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 25.078329009382376,
+        "size": 7,
+        "n_sources": 7,
+        "n_continents": 6,
+        "continents": [
+          "East Asia",
+          "Europe North",
+          "Middle East",
+          "North America",
+          "Oceania",
+          "South Asia"
+        ],
+        "coherence": 0.7968668937683105,
+        "title": "Why some experts increasingly fear AI will take over",
+        "central_article": {
+          "title": "Why some experts increasingly fear AI will take over",
+          "url": "https://www.bbc.com/news/articles/c74edv9887eo",
+          "source_id": "bbc.com",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-12T11:17:22.336937+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8758367300033569,
+            "article": {
+              "title": "Why some experts increasingly fear AI will take over",
+              "url": "https://www.bbc.com/news/articles/c74edv9887eo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:17:22.336937+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8097751140594482,
+            "article": {
+              "title": "Escaping the AI safety nightmare: What can governments do?",
+              "url": "https://www.politico.eu/article/escaping-the-ai-safety-nightmare-how-can-the-world-fix-ai-testing/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:17:31.253732+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8002100586891174,
+            "article": {
+              "title": "The man who warned that AI could ‘kill us all’ faces intense scrutiny",
+              "url": "https://www.smh.com.au/technology/the-27-year-old-who-warned-that-ai-could-kill-us-all-faces-intense-scrutiny-20260911-p60wfi.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:19:38.340270+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.793290376663208,
+            "article": {
+              "title": "Why It’s Tough for Tech Companies to Keep A.I. Out of Trouble",
+              "url": "https://www.nytimes.com/2026/09/12/technology/why-its-tough-for-tech-companies-to-keep-ai-out-of-trouble.html",
+              "source_id": "nytimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:21:59.746950+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7864816784858704,
+            "article": {
+              "title": "Congress Is Suddenly Waking Up to the AI Doomsday Threat",
+              "url": "https://www.hindustantimes.com/world-news/congress-is-suddenly-waking-up-to-the-ai-doomsday-threat-101789117943512.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:23:02.089551+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7606579065322876,
+            "article": {
+              "title": "Anxiety grows in Europe over ‘pervert’ AI glasses",
+              "url": "https://www.bangkokpost.com/world/3318484/anxiety-grows-in-europe-over-pervert-ai-glasses",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:24:05.726456+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7518166303634644,
+            "article": {
+              "title": "علماء رياضيات يحذرون: سباق الذكاء الاصطناعي يُهدّد مجالنا",
+              "url": "https://www.annahar.com/technology/artificial-intelligence/346561/علما-رياضيات-يحذرون-من-أن-سباق-الذكا-الاصطناعي-يهدد-مجالهم",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-12T11:20:09.360385+00:00"
             }
           }
         ]
       }
     ],
-    "created_at_utc": "2026-09-11T21:54:00Z"
+    "created_at_utc": "2026-09-12T11:47:57Z"
   }
 ]
