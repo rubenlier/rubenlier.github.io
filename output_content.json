@@ -1,1039 +1,753 @@
 [
   {
-    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1789424959",
-    "n_items": 2460,
-    "n_clusters": 2010,
+    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1789476076",
+    "n_items": 2431,
+    "n_clusters": 2032,
     "clusters": [
       {
-        "score": 130.97457675861403,
-        "size": 26,
-        "n_sources": 26,
-        "n_continents": 7,
+        "score": 82.77108367522598,
+        "size": 19,
+        "n_sources": 19,
+        "n_continents": 6,
         "continents": [
           "China",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "South America"
+        ],
+        "coherence": 0.8359760642051697,
+        "title": "Supreme Court blocks Trump's plan to restrict mail-in ballots",
+        "central_article": {
+          "title": "Supreme Court blocks Trump's plan to restrict mail-in ballots",
+          "url": "https://www.bbc.com/news/articles/c5yjpdy4gjlo",
+          "source_id": "bbc.com",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-15T12:13:24.468171+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9197572469711304,
+            "article": {
+              "title": "Supreme Court blocks Trump's plan to restrict mail-in ballots",
+              "url": "https://www.bbc.com/news/articles/c5yjpdy4gjlo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:13:24.468171+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9087554216384888,
+            "article": {
+              "title": "Supreme Court halts Trump’s proposed limits on mail ballots for this year’s elections",
+              "url": "https://www.latimes.com/politics/story/2026-09-14/supreme-court-halts-trumps-proposed-limits-on-mail-ballots-for-this-years-elections",
+              "source_id": "latimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:18:37.265813+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9053223133087158,
+            "article": {
+              "title": "US Supreme Court rejects Trump bid to restrict mail ballots as voting begins",
+              "url": "https://www.france24.com/en/americas/20260915-us-supreme-court-rejects-trump-bid-to-restrict-mail-ballots-as-voting-begins",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:14:28.321818+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8999850749969482,
+            "article": {
+              "title": "Supreme Court rejects Trump mail ballot restrictions ahead of midterms",
+              "url": "https://www.pbs.org/newshour/politics/supreme-court-rejects-trump-mail-ballot-restrictions-ahead-of-midterms",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:18:45.378724+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8951741456985474,
+            "article": {
+              "title": "Supreme Court stoppt Trumps Briefwahl-Beschränkungen",
+              "url": "https://www.zdfheute.de/politik/ausland/usa-supreme-court-trump-briefwahl-niederlage-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:13:55.643177+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8868634700775146,
+            "article": {
+              "title": "Der Supreme Court stoppt Trumps Pläne, die Briefwahl einzuschränken – zumindest in diesem Jahr",
+              "url": "https://www.nzz.ch/international/der-supreme-court-stoppt-trumps-plaene-die-briefwahl-einzuschraenken-zumindest-in-diesem-jahr-ld.10023791",
+              "source_id": "nzz.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:14:00.198489+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.880294919013977,
+            "article": {
+              "title": "US Supreme Court rejects Trump’s plans on postal ballots: Why it matters",
+              "url": "https://www.aljazeera.com/news/2026/9/15/us-supreme-court-rejects-trumps-plans-on-postal-ballots-why-it-matters",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:16:06.972787+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8778178095817566,
+            "article": {
+              "title": "Corte Suprema de EE. UU. frena plan de Trump para restringir el voto por correo",
+              "url": "https://www.elespectador.com/mundo/america/corte-suprema-de-ee-uu-frena-plan-de-trump-para-restringir-el-voto-por-correo/",
+              "source_id": "elespectador.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:15:26.697358+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8631607294082642,
+            "article": {
+              "title": "La Cour suprême refuse à Donald Trump de restreindre le vote par correspondance",
+              "url": "https://www.rts.ch/info/monde/2026/article/vote-par-correspondance-la-cour-supreme-desavoue-donald-trump-29357347.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:14:30.074028+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8585280776023865,
+            "article": {
+              "title": "Nuovo colpo della Corte Suprema a Trump: bocciate le restrizioni sul voto per posta in vista delle midterm",
+              "url": "https://www.repubblica.it/esteri/2026/09/15/news/usa_voto_per_posta_corte_suprema_boccia_ricorso_amministrazione_trump_per_introdurre_restrizioni-425585754/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:14:42.664141+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8549240231513977,
+            "article": {
+              "title": "Corte Suprema de Estados Unidos rechaza solicitud de Trump para restringir el voto por correo",
+              "url": "https://elcomercio.pe/mundo/eeuu/donald-trump-corte-suprema-de-estados-unidos-rechaza-solicitud-del-presidente-para-restringir-el-voto-por-correo-servicio-postal-ultimas-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:15:15.900793+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8453932404518127,
+            "article": {
+              "title": "Elections Supreme court rejects Trump’s mail ballot restrictions for midterm elections",
+              "url": "https://www.theguardian.com/us-news/2026/sep/14/supreme-court-rejects-mail-ballot-restrictions",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:13:29.112940+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.829301118850708,
+            "article": {
+              "title": "Hooggerechtshof blokkeert plan van Trump om briefstemmen te beperken",
+              "url": "https://fd.nl/politiek/1612279/hooggerechtshof-blokkeert-plan-van-trump-om-briefstemmen-te-beperken",
+              "source_id": "fd.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:13:42.107826+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.826384425163269,
+            "article": {
+              "title": "Supreme Court deals humiliating blow to Trump by throwing out mail ballot ban",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-supreme-court-mail-in-ballot-midterms-b3050387.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:13:26.131582+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7611620426177979,
+            "article": {
+              "title": "Supreme Court lifts a cloud over midterms, letting mail ballots flow as normal to voters",
+              "url": "https://www.chicagotribune.com/2026/09/15/supreme-court-midterms-mail-ballots-voters/",
+              "source_id": "chicagotribune.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:18:41.270905+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.760202944278717,
+            "article": {
+              "title": "Hooggerechtshof zet streep door Trumps ingreep in stemmen per post",
+              "url": "https://www.nrc.nl/nieuws/2026/09/15/hooggerechtshof-zet-streep-door-trumps-ingreep-in-stemmen-per-post-a4936638",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:13:36.719554+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7469270825386047,
+            "article": {
+              "title": "The Supreme Court Recognizes the Danger of Trump’s Election Plan",
+              "url": "https://www.theatlantic.com/ideas/2026/09/supreme-court-trump-election-plan/688626/",
+              "source_id": "theatlantic.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:18:44.137716+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.687947154045105,
+            "article": {
+              "title": "With Trump’s Plans Blocked, States Work to Restore Trust in Voting by Mail",
+              "url": "https://www.nytimes.com/2026/09/15/us/politics/mail-ballots-trump-supreme-court-trust.html",
+              "source_id": "nytimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:18:15.625717+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6756432056427002,
+            "article": {
+              "title": "US judge blocks Trump’s ‘absurd’ visa caps for students, journalists",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3367589/us-judge-blocks-trumps-absurd-visa-caps-students-journalists?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:18:46.616884+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 53.32388124309067,
+        "size": 13,
+        "n_sources": 13,
+        "n_continents": 6,
+        "continents": [
+          "East Asia",
+          "Europe East",
+          "Europe South",
+          "Middle East",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.8239350914955139,
+        "title": "US reveals it has weapons in space",
+        "central_article": {
+          "title": "US reveals it has weapons in space",
+          "url": "https://www.rt.com/news/645740-us-weapons-space-force/",
+          "source_id": "rt.com",
+          "continent": "Europe East",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-15T12:17:06.636211+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9254666566848755,
+            "article": {
+              "title": "US reveals it has weapons in space",
+              "url": "https://www.rt.com/news/645740-us-weapons-space-force/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:17:06.636211+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8783068656921387,
+            "article": {
+              "title": "US says it has deployed weapons in orbit to defend forces in space",
+              "url": "https://www.azernews.az/region/263908.html",
+              "source_id": "azernews.az",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:17:29.632977+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.876425564289093,
+            "article": {
+              "title": "Estados Unidos tiene armas desplegadas en el espacio, afirma la Fuerza Espacial",
+              "url": "https://elcomercio.pe/mundo/eeuu/estados-unidos-tiene-armas-desplegadas-en-el-espacio-afirma-la-fuerza-espacial-donald-trump-rusia-china-ultimas-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:15:15.900793+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8659083843231201,
+            "article": {
+              "title": "США впервые заявили о выводе на орбиту космического оружия",
+              "url": "https://meduza.io/news/2026/09/15/ssha-vpervye-zayavili-o-vyvode-na-orbitu-kosmicheskogo-oruzhiya",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:17:01.131458+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.857601523399353,
+            "article": {
+              "title": "Az Egyesült Államok először ismerte be, hogy fegyvereket telepítettek az űrbe",
+              "url": "https://telex.hu/kulfold/2026/09/15/egyesult-allamok-urfegyver",
+              "source_id": "telex.hu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:16:40.414480+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.855589747428894,
+            "article": {
+              "title": "امریکا کا پہلی بار خلائی مدار میں ہتھیار تعینات کرنے کا باضابطہ اعتراف",
+              "url": "https://www.nawaiwaqt.com.pk/15-Sep-2026/2028294",
+              "source_id": "nawaiwaqt.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:19:34.378259+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8358395099639893,
+            "article": {
+              "title": "Verenigde Staten Amerikaans leger bevestigt dat het wapens heeft in de ruimte",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/09/15/amerikaans-leger-bevestigt-dat-het-wapens-heeft-in-de-ruimte/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:14:31.577810+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8335655927658081,
+            "article": {
+              "title": "The final frontier: US reveals Space Force has 'on-orbit space control weapons' for first time",
+              "url": "https://www.jpost.com/defense-and-tech/article-908651",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:16:09.968332+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8039082288742065,
+            "article": {
+              "title": "Tarihi itiraf! 'Uzaya silah konuşlandırıldı'",
+              "url": "https://www.milliyet.com.tr/dunya/son-dakika-abdden-tarihi-itiraf-uzaya-silah-konuslandirildi-7660683",
+              "source_id": "milliyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:16:19.176547+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7551007270812988,
+            "article": {
+              "title": "মহাকাশে অস্ত্র মোতায়েন করেছে যুক্তরাষ্ট্র, এবার কি ‘স্টার ওয়ার্স’ শুরু করবে দেশটি",
+              "url": "https://www.prothomalo.com/world/usa/sjtr6vac2r",
+              "source_id": "prothomalo.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:19:22.236899+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7545444965362549,
+            "article": {
+              "title": "अमेरिका ने पहली बार माना- स्पेस में हथियार तैनात किए: कौन से वेपन, कब भेजे गए अभी सीक्रेट, अंतरिक्ष में युद्ध का खतरा बढ़ा Play video",
+              "url": "https://www.bhaskar.com/g/international/news/us-space-force-deploys-weapons-russia-china-threat-2026-139036119.html",
+              "source_id": "bhaskar.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:19:13.546239+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7349456548690796,
+            "article": {
+              "title": "China warns against space ‘battlefield’ after US says weapons deployed",
+              "url": "https://www.straitstimes.com/asia/east-asia/china-urges-us-to-stop-preparing-for-war-in-outer-space?ref=asia",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:20:30.628356+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7339539527893066,
+            "article": {
+              "title": "ترسانة السيطرة على الفضاء جاهزة.. ماذا قال وزير القوات الجوية الأمريكية؟",
+              "url": "https://www.youm7.com/story/2026/9/15/ترسانة-السيطرة-على-الفضاء-جاهزة-ماذا-قال-وزير-القوات-الجوية/7547463",
+              "source_id": "youm7.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:16:26.643636+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 47.73929174883496,
+        "size": 14,
+        "n_sources": 13,
+        "n_continents": 6,
+        "continents": [
           "Europe East",
           "Europe North",
           "Europe South",
           "Middle East",
-          "Oceania",
-          "South Asia"
+          "North America",
+          "South America"
         ],
-        "coherence": 0.8341993093490601,
-        "title": "Karas Ukrainoje. Trumpas: Ukraina ir Rusija sutiko nepult viena kitos energetikos objektų",
+        "coherence": 0.8018091917037964,
+        "title": "Trump claimt dat Rusland en Oekraïne stoppen met aanvallen op energiesector",
         "central_article": {
-          "title": "Karas Ukrainoje. Trumpas: Ukraina ir Rusija sutiko nepult viena kitos energetikos objektų",
-          "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3052003/karas-ukrainoje-trumpas-ukraina-ir-rusija-sutiko-nepult-viena-kitos-energetikos-objektu",
-          "source_id": "lrt.lt",
-          "continent": "Europe East",
+          "title": "Trump claimt dat Rusland en Oekraïne stoppen met aanvallen op energiesector",
+          "url": "https://fd.nl/politiek/1612240/trump-claimt-dat-rusland-en-oekraine-stoppen-met-aanvallen-op-energiesector",
+          "source_id": "fd.nl",
+          "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-09-14T22:10:52.145895+00:00"
+          "scraped_at_utc": "2026-09-15T12:13:42.107826+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9009933471679688,
+            "sim_to_centroid": 0.9005163311958313,
             "article": {
-              "title": "Karas Ukrainoje. Trumpas: Ukraina ir Rusija sutiko nepult viena kitos energetikos objektų",
-              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3052003/karas-ukrainoje-trumpas-ukraina-ir-rusija-sutiko-nepult-viena-kitos-energetikos-objektu",
-              "source_id": "lrt.lt",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:10:52.145895+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8920862674713135,
-            "article": {
-              "title": "Trump says Ukraine and Russia agreed to halt strikes on energy. Zelenskyy is not so sure.",
-              "url": "https://www.politico.eu/article/donald-trump-ukraine-russia-strikes-energy-volodymyr-zelenskyy/",
-              "source_id": "politico.eu",
+              "title": "Trump claimt dat Rusland en Oekraïne stoppen met aanvallen op energiesector",
+              "url": "https://fd.nl/politiek/1612240/trump-claimt-dat-rusland-en-oekraine-stoppen-met-aanvallen-op-energiesector",
+              "source_id": "fd.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:07:02.954838+00:00"
+              "scraped_at_utc": "2026-09-15T12:13:42.107826+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8912488222122192,
+            "sim_to_centroid": 0.8867285251617432,
             "article": {
               "title": "Trump: Oekraïne en Rusland stoppen met aanvallen op elkaars energiesector",
               "url": "https://www.nrc.nl/nieuws/2026/09/14/trump-oekraine-en-rusland-stoppen-met-aanvallen-op-elkaars-energiesector-a4936613",
               "source_id": "nrc.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:07:06.041737+00:00"
+              "scraped_at_utc": "2026-09-15T12:13:36.719554+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8876307606697083,
+            "sim_to_centroid": 0.8796563744544983,
             "article": {
-              "title": "Trump Claims Ukraine, Russia Agreed to Halt Energy Infrastructure Strikes",
-              "url": "https://www.kyivpost.com/post/84493",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:10:32.332500+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8867425918579102,
-            "article": {
-              "title": "Trump: Rusland en Oekraïne stoppen met aanvallen energievoorzieningen",
-              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5651708/oorlog-oekraine-vredesplan-vredesvoorstel-rusland-eu-trump-vs",
-              "source_id": "rtl.nl",
+              "title": "Rusland en Oekraïne vallen elkaars energie-infrastructuur aan, hoewel Trump had geclaimd dat ze daarmee zouden stoppen",
+              "url": "https://www.nrc.nl/nieuws/2026/09/15/rusland-en-oekraine-vallen-elkaars-energie-infrastructuur-aan-hoewel-trump-had-geclaimd-dat-ze-daarmee-zouden-stoppen-a4936646",
+              "source_id": "nrc.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:07:08.160550+00:00"
+              "scraped_at_utc": "2026-09-15T12:13:36.719554+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8856990337371826,
+            "sim_to_centroid": 0.8679944276809692,
             "article": {
-              "title": "Трамп: Россия и Украина согласились не атаковать энергообъекты друг друга",
-              "url": "https://www.kommersant.ru/doc/8954609?from=top_main_2",
-              "source_id": "kommersant.ru",
-              "continent": "Europe East",
+              "title": "Rusia y Ucrania continúan atacando infraestructuras energéticas tras el anuncio de tregua de Trump",
+              "url": "https://www.14ymedio.com/internacional/rusia-ucrania-continuan-atacando-infraestructuras_1_1130825.html",
+              "source_id": "14ymedio.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:10:43.781500+00:00"
+              "scraped_at_utc": "2026-09-15T12:14:50.143940+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8798811435699463,
-            "article": {
-              "title": "特朗普称俄乌同意互不攻击能源目标",
-              "url": "https://www.xinhuanet.com/20260915/92e65cfb95494c1f9b92c8415d0096da/c.html",
-              "source_id": "xinhuanet.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:12:35.486802+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8792372941970825,
-            "article": {
-              "title": "Трамп: Россия и Украина согласились не наносить удары по энергетике друг друга",
-              "url": "https://meduza.io/news/2026/09/14/tramp-rossiya-i-ukraina-soglasilis-ne-nanosit-udary-po-energetike-drug-druga",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:10:35.019357+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8711506724357605,
-            "article": {
-              "title": "Trump claims Ukraine, Russia agree to halt strikes on energy targets, Kyiv unaware of deal.",
-              "url": "https://kyivindependent.com/breaking-trump-claims-ukraine-russia-agree-to-halt-strikes-on-energy-targets/",
-              "source_id": "kyivindependent.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:10:33.908148+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.870229184627533,
+            "sim_to_centroid": 0.8605438470840454,
             "article": {
               "title": "Trump: Moskau und Kiew stoppen Angriffe auf Energieanlagen",
               "url": "https://www.zdfheute.de/politik/ausland/trump-energie-angriffe-ukraine-krieg-russland-100.html",
               "source_id": "zdfheute.de",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:07:29.345469+00:00"
+              "scraped_at_utc": "2026-09-15T12:13:55.643177+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8692366480827332,
+            "sim_to_centroid": 0.8022367358207703,
             "article": {
-              "title": "Trump: Kiew und Moskau wollen keine Energieanlagen mehr angreifen",
-              "url": "https://www.diepresse.com/41262987/trump-kiew-und-moskau-wollen-keine-energieanlagen-mehr-angreifen",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
+              "title": "Trump kündigte gestern den Energiefrieden zwischen Russland und der Ukraine an. Doch diese Nacht deutet auf das Gegenteil hin",
+              "url": "https://www.nzz.ch/international/trotz-trumps-ankuendigung-ist-ein-energiefriede-zwischen-russland-und-der-ukraine-in-weiter-ferne-ld.10023792",
+              "source_id": "nzz.ch",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:07:26.842106+00:00"
+              "scraped_at_utc": "2026-09-15T12:14:00.198489+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8562852144241333,
+            "sim_to_centroid": 0.8007809519767761,
             "article": {
-              "title": "Trump duyurdu: Rusya ile Ukrayna ‘enerji anlaşması’",
-              "url": "https://www.hurriyet.com.tr/dunya/trump-duyurdu-rusya-ile-ukrayna-enerji-anlasmasi-43306655",
-              "source_id": "hurriyet.com.tr",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:09:52.402740+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8527622818946838,
-            "article": {
-              "title": "Трамп сделал заявление о договоренности России и Украины по энергообъектам",
-              "url": "https://tengrinews.kz/world_news/tramp-sdelal-zayavlenie-dogovorennosti-rossii-ukrainyi-608495/",
-              "source_id": "tengrinews.kz",
+              "title": "Песков обвинил Украину в атаке на энергообъект в России после слов Трампа об энергетическом перемирии",
+              "url": "https://www.kommersant.ru/doc/8955206?from=top_main_2",
+              "source_id": "kommersant.ru",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:10:59.937491+00:00"
+              "scraped_at_utc": "2026-09-15T12:17:08.872601+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8382935523986816,
+            "sim_to_centroid": 0.7739103436470032,
             "article": {
               "title": "Трамп заявил, что Украина и Россия договорились не атаковать энергообъекты друг друга 14 сентября",
               "url": "https://novayagazeta.eu/articles/2026/09/14/ukraina-i-rossiia-dogovorilis-ne-atakovat-energoobekty-drug-druga-news",
               "source_id": "novayagazeta.eu",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:10:36.675466+00:00"
+              "scraped_at_utc": "2026-09-15T12:17:02.318049+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8382794260978699,
+            "sim_to_centroid": 0.7675614356994629,
             "article": {
-              "title": "Donald Trump affirme que l'Ukraine et la Russie ont accepté de ne pas frapper d'infrastructures énergétiques Guerre en Ukraine hier à",
-              "url": "https://www.rts.ch/info/monde/2026/article/guerre-en-ukraine-accord-sur-l-energie-annonce-par-trump-29357103.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:08:08.351243+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8276532292366028,
-            "article": {
-              "title": "14 sept Trump claimt dat Rusland en Oekraïne stoppen met aanvallen op energiesector",
-              "url": "https://fd.nl/politiek/1612240/trump-claimt-dat-rusland-en-oekraine-stoppen-met-aanvallen-op-energiesector",
-              "source_id": "fd.nl",
+              "title": "Ukraine war briefing No energy ceasefire until Russia stops, Zelenskyy confirms after Trump claim",
+              "url": "https://www.theguardian.com/world/2026/sep/15/ukraine-war-briefing-no-energy-ceasefire-until-russia-stops-zelenskyy-confirms-after-trump-claim",
+              "source_id": "theguardian.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:07:10.537536+00:00"
+              "scraped_at_utc": "2026-09-15T12:13:29.112940+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8175283074378967,
+            "sim_to_centroid": 0.7548993229866028,
             "article": {
-              "title": "Trump verkündet Einigung zwischen Ukraine und Russland",
-              "url": "https://www.welt.de/politik/ausland/article6aa81aaae453142c1f5217e2/ukraine-keine-angriffe-mehr-auf-energieanlagen-trump-verkuendet-angebliche-einigung-zwischen-kiew-und-moskau.html",
-              "source_id": "welt.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:07:18.272626+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.815621018409729,
-            "article": {
-              "title": "Trump annuncia la tregua degli obiettivi energetici tra Mosca e Kiev. Zelensky: “La rispettiamo” |",
-              "url": "https://www.repubblica.it/esteri/2026/09/14/news/trump_tregua_obiettivi_energetici_mosca_kiev-425584956/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:08:22.207046+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7978717684745789,
-            "article": {
-              "title": "Trump anunță un armistițiu în energie între Ucraina și Rusia. Kievul spune că nu știe despre acord",
-              "url": "https://hotnews.ro/trump-anunta-un-armistitiu-in-energie-intre-ucraina-si-rusia-kievul-spune-ca-nu-stie-despre-acord-2349022",
-              "source_id": "hotnews.ro",
+              "title": "Putin Resists Energy Truce Announced by Trump",
+              "url": "https://www.kyivpost.com/post/84540",
+              "source_id": "kyivpost.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:10:15.517752+00:00"
+              "scraped_at_utc": "2026-09-15T12:16:58.455277+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7940936088562012,
+            "sim_to_centroid": 0.7465875744819641,
             "article": {
-              "title": "Украина согласилась не бить по российским энергообъектам, заявил Трамп Вчера,",
-              "url": "https://ria.ru/20260914/tramp-2117644614.html",
-              "source_id": "ria.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:10:49.144480+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7867523431777954,
-            "article": {
-              "title": "Trump urges Zelensky to stop strikes on Russian oil infrastructure",
-              "url": "https://georgiatoday.ge/trump-urges-zelensky-to-stop-strikes-on-russian-oil-infrastructure/",
-              "source_id": "georgiatoday.ge",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:10:57.429541+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7821058034896851,
-            "article": {
-              "title": "Trump urges Zelenskyy to halt attacks on Russian diesel infrastructure",
-              "url": "https://pajhwok.com/2026/09/14/trump-urges-zelenskyy-to-halt-attacks-on-russian-diesel-infrastructure/",
-              "source_id": "pajhwok.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:13:17.190654+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7689739465713501,
-            "article": {
-              "title": "Trump szerint Ukrajna belement, hogy ne támadjanak orosz...",
-              "url": "https://telex.hu/kulfold/2026/09/14/donald-trump-orosz-ukran-haboru",
-              "source_id": "telex.hu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:10:14.134874+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7655363082885742,
-            "article": {
-              "title": "Trump calls on Zelenskyy to stop striking Russian diesel, says attacks are causing a shortage",
-              "url": "https://www.sbs.com.au/news/article/trump-zelenskyy-russian-diesel-ireland-visit/952iwmmei",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:09:29.382754+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7256776094436646,
-            "article": {
-              "title": "'Rusya ve Ukrayna enerjiyi hedef almayacak'",
-              "url": "https://www.milliyet.com.tr/dunya/trump-duyurdu-rusya-ve-ukrayna-enerji-altyapilarini-hedef-almayacak-7660278",
-              "source_id": "milliyet.com.tr",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:09:55.754627+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7076120376586914,
-            "article": {
-              "title": "Trump gives Ukraine condition for Patriot missile license",
-              "url": "https://www.rt.com/news/645716-trump-gives-ukraine-condition-patriot-missile-license/",
+              "title": "Trump issues Ukraine diesel deal claim",
+              "url": "https://www.rt.com/news/645721-trump-ukraine-russian-energy-strikes/",
               "source_id": "rt.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:10:41.428942+00:00"
+              "scraped_at_utc": "2026-09-15T12:17:06.636211+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7396993637084961,
+            "article": {
+              "title": "Trump diz a Putin que fim da guerra na Ucrânia pode restaurar relações entre EUA e Rússia",
+              "url": "https://www.estadao.com.br/internacional/trump-diz-a-putin-que-fim-da-guerra-na-ucrania-pode-restaurar-relacoes-entre-eua-e-russia-npr/",
+              "source_id": "estadao.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:15:12.861398+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.729084312915802,
+            "article": {
+              "title": "IN BRIEF: Russian Armed Forces strike Ukrainian military, energy, transport facilities",
+              "url": "https://tass.com/defense/2187759",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:17:10.868405+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7151285409927368,
+            "article": {
+              "title": "Zelenskyy says Ukraine will pause attacks if Russia spares infrastructure",
+              "url": "https://www.aljazeera.com/news/2026/9/15/zelenskyy-says-ukraine-will-pause-attacks-if-russia-spares-infrastructure",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:16:06.972787+00:00"
             }
           }
         ]
       },
       {
-        "score": 81.50947368645537,
-        "size": 17,
-        "n_sources": 15,
-        "n_continents": 9,
+        "score": 45.54785124781179,
+        "size": 12,
+        "n_sources": 12,
+        "n_continents": 6,
         "continents": [
           "China",
           "East Asia",
-          "Europe East",
           "Europe North",
           "Europe South",
-          "Middle East",
           "North America",
-          "Oceania",
-          "South Asia"
+          "Oceania"
         ],
-        "coherence": 0.7990888953208923,
-        "title": "Trump Says a Smart President Is All That’s Needed to Rein In A.I.",
+        "coherence": 0.8084194660186768,
+        "title": "Trump calls concerns over rogue AI a 'hoax' promoted by a ‘sick conspiracy’",
         "central_article": {
-          "title": "Trump Says a Smart President Is All That’s Needed to Rein In A.I.",
-          "url": "https://www.nytimes.com/2026/09/14/us/politics/trump-ai-regulation-anthropic-dario-amodei.html",
-          "source_id": "nytimes.com",
-          "continent": "North America",
+          "title": "Trump calls concerns over rogue AI a 'hoax' promoted by a ‘sick conspiracy’",
+          "url": "https://www.france24.com/en/technology/20260915-trump-calls-concerns-over-rogue-ai-a-hoax-promoted-by-a-sick-conspiracy",
+          "source_id": "france24.com",
+          "continent": "Europe South",
           "published_at": null,
-          "scraped_at_utc": "2026-09-14T22:11:54.616299+00:00"
+          "scraped_at_utc": "2026-09-15T12:14:28.321818+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8541630506515503,
+            "sim_to_centroid": 0.8642380833625793,
             "article": {
-              "title": "Trump Says a Smart President Is All That’s Needed to Rein In A.I.",
-              "url": "https://www.nytimes.com/2026/09/14/us/politics/trump-ai-regulation-anthropic-dario-amodei.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
+              "title": "Trump calls concerns over rogue AI a 'hoax' promoted by a ‘sick conspiracy’",
+              "url": "https://www.france24.com/en/technology/20260915-trump-calls-concerns-over-rogue-ai-a-hoax-promoted-by-a-sick-conspiracy",
+              "source_id": "france24.com",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:11:54.616299+00:00"
+              "scraped_at_utc": "2026-09-15T12:14:28.321818+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.853299617767334,
-            "article": {
-              "title": "‘Only control AI needs is high IQ President’: Trump after calls for new rules",
-              "url": "https://www.hindustantimes.com/world-news/only-control-ai-needs-is-high-iq-president-trump-after-calls-for-new-rules-terms-concerns-sick-conspiracy-101789402218356.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:12:59.210260+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8472687005996704,
-            "article": {
-              "title": "Trump condemns ‘sick conspiracy’ against AI, says he is only guardrail needed",
-              "url": "https://www.scmp.com/news/world/united-states-canada/article/3367503/trump-dismisses-ai-concerns-says-us-has-tools-keep-it-safe?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:12:26.011014+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8453611135482788,
-            "article": {
-              "title": "Trump says AI needs no new rules, just a 'high-IQ president'",
-              "url": "https://www.abc.net.au/news/2026-09-15/trump-says-a-high-iq-president-is-the-only-guardrail-ai-needs/107153326",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:09:27.800625+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8395216464996338,
-            "article": {
-              "title": "10 , Trump says calls for more control on AI are a ‘SICK conspiracy’",
-              "url": "https://www.aljazeera.com/news/2026/9/14/trump-says-calls-for-more-control-on-ai-are-a-sick-conspiracy",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:09:42.651394+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8388681411743164,
-            "article": {
-              "title": "Trump says only guardrails AI needs is ‘a strong and smart’ president",
-              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-ai-rant-conspiracy-guardrails-b3049920.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:06:53.487689+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8286870121955872,
+            "sim_to_centroid": 0.862593412399292,
             "article": {
               "title": "Trump downplays AI risk calling it a ‘sick conspiracy’",
               "url": "https://www.channel4.com/news/trump-downplays-ai-risk-calling-it-a-sick-conspiracy",
               "source_id": "channel4.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:07:00.025954+00:00"
+              "scraped_at_utc": "2026-09-15T12:13:30.646283+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.804000973701477,
+            "sim_to_centroid": 0.8532446622848511,
             "article": {
-              "title": "Trump blasts AI critics but may meet tech leaders amid calls for more regulation",
-              "url": "https://www.thenationalnews.com/news/us/2026/09/14/trump-ai-executives-meeting-johnson/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:09:44.148547+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8021605014801025,
-            "article": {
-              "title": "Trumpas prieš DI stabdymą: „Kas laimės dirbtinio intelekto srityje – tas laimės viską“",
-              "url": "https://www.lrt.lt/naujienos/mokslas-ir-it/11/3052528/trumpas-pries-di-stabdyma-kas-laimes-dirbtinio-intelekto-srityje-tas-laimes-viska",
-              "source_id": "lrt.lt",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:10:52.145895+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8005582690238953,
-            "article": {
-              "title": "Trump rejects 'hoax' warnings that AI could destroy humanity",
-              "url": "https://www.channelnewsasia.com/world/ai-slowdown-trump-sick-conspiracy-6384221",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:13:48.656038+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7955652475357056,
-            "article": {
-              "title": "'Hoax': Trump dismisses warnings that AI could destroy humanity",
+              "title": "'Hoax': Donald Trump dismisses warnings that AI could destroy humanity",
               "url": "https://www.sbs.com.au/news/article/trump-ai-hoax-humanity/korwu7bx2",
               "source_id": "sbs.com.au",
               "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:09:29.382754+00:00"
+              "scraped_at_utc": "2026-09-15T12:15:52.050868+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7811747789382935,
+            "sim_to_centroid": 0.8260499835014343,
             "article": {
-              "title": "Ask yourself why Trump wants to be the only guardrail against AI",
-              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-ai-guardrails-truth-social-anthropic-openai-b3050041.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:06:53.487689+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7671272158622742,
-            "article": {
-              "title": "Pro Artikel «Wer bei KI siegt, siegt»: Trump sieht in den Forderungen nach einer KI-Verlangsamung eine Verschwörung",
-              "url": "https://www.nzz.ch/technologie/wer-bei-ki-siegt-siegt-trump-hat-kein-interesse-daran-bei-ki-auf-die-bremse-zu-treten-ld.10023629",
-              "source_id": "nzz.ch",
+              "title": "Trump llama en directo a Jensen Huang (Nvidia): “Lo del peligro de la IA es un engaño”",
+              "url": "https://www.lavanguardia.com/vida/20260915/11635082/donald-trump-llama-directo-jensen-huang-nvidia-peligro-ia-engano.html",
+              "source_id": "lavanguardia.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:07:35.912910+00:00"
+              "scraped_at_utc": "2026-09-15T12:14:37.190982+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7631862163543701,
-            "article": {
-              "title": "Trump gegen stärkere Regulierung \"Wer bei KI gewinnt, gewinnt\"",
-              "url": "https://www.tagesschau.de/ausland/amerika/trump-reaktion-ai-kritik-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:07:12.690996+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7591438293457031,
+            "sim_to_centroid": 0.813281774520874,
             "article": {
               "title": "In a Surprise Onstage Call With Nvidia’s C.E.O., Trump Called A.I. Fears a ‘Hoax’",
               "url": "https://www.nytimes.com/2026/09/14/technology/trump-ai-safety-jensen-huang.html",
               "source_id": "nytimes.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:11:54.616299+00:00"
+              "scraped_at_utc": "2026-09-15T12:18:15.625717+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7196806073188782,
+            "sim_to_centroid": 0.8095853924751282,
             "article": {
-              "title": "Obama: «L'Ai va governata, può essere pericolosa». E Trump replica: «L'argine è un presidente intelligente come me»",
-              "url": "https://www.corriere.it/esteri/26_settembre_14/barack-obama-sull-intelligenza-artificiale-se-non-governata-puo-essere-pericolosa-88edd1c1-3dfc-40ef-90dc-df09179a6xlk.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:08:24.031811+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6847434639930725,
-            "article": {
-              "title": "Who Needs Regulation When Trump Is President?",
-              "url": "https://www.theatlantic.com/ideas/2026/09/trump-ai/688612/",
-              "source_id": "theatlantic.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:12:23.297836+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 54.91586616068594,
-        "size": 11,
-        "n_sources": 11,
-        "n_continents": 6,
-        "continents": [
-          "China",
-          "Europe North",
-          "Europe South",
-          "North America",
-          "Oceania",
-          "South Asia"
-        ],
-        "coherence": 0.863229513168335,
-        "title": "Bob Mackie, fashion designer for the stars, dies at 87",
-        "central_article": {
-          "title": "Bob Mackie, fashion designer for the stars, dies at 87",
-          "url": "https://www.france24.com/en/bob-mackie-fashion-designer-for-the-stars-dies-at-87",
-          "source_id": "france24.com",
-          "continent": "Europe South",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-14T22:08:06.660851+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9483258128166199,
-            "article": {
-              "title": "Bob Mackie, fashion designer for the stars, dies at 87",
-              "url": "https://www.france24.com/en/bob-mackie-fashion-designer-for-the-stars-dies-at-87",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:08:06.660851+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9226369261741638,
-            "article": {
-              "title": "Designer to the stars Bob Mackie dies at 87",
-              "url": "https://www.abc.net.au/news/2026-09-15/bob-mackie-designer-to-the-stars-dead-at-87/107153462",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:09:27.800625+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.915976881980896,
-            "article": {
-              "title": "Bob Mackie, designer to stars from Cher to Whoopi Goldberg and Pink, dies at 87",
-              "url": "https://www.scmp.com/news/world/united-states-canada/article/3367510/bob-mackie-who-dressed-stars-cher-whoopi-goldberg-and-pink-dies-87?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:12:26.011014+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9123375415802002,
-            "article": {
-              "title": "Bob Mackie dies at 87: All about the iconic costume designer",
-              "url": "https://www.hindustantimes.com/world-news/us-news/bob-mackie-dies-at-87-cause-of-death-wife-children-barbie-dolls-list-and-more-about-iconic-costume-designer-101789404356426.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:12:59.210260+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9118747711181641,
-            "article": {
-              "title": "Bob Mackie, iconic costume designer who dressed stars including Cher and Carol Burnett, dies at 87",
-              "url": "https://www.latimes.com/entertainment-arts/story/2026-09-14/bob-mackie-dead-iconic-designer-who-dressed-cher-beyonce-was-87",
-              "source_id": "latimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:12:16.202111+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8834270238876343,
-            "article": {
-              "title": "Hollywood-designeren Bob Mackie er død",
-              "url": "https://www.dr.dk/nyheder/kultur/hollywood-designeren-bob-mackie-er-doed",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:07:52.317492+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.874861478805542,
-            "article": {
-              "title": "Verenigde Staten Amerikaanse modeontwerper Bob Mackie (87) overleden, hij kleedde onder meer Cher en Beyoncé geleden",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/09/14/amerikaanse-modeontwerper-bob-mackie-overleden/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:08:10.085584+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8670241832733154,
-            "article": {
-              "title": "1 uur geleden • Buitenland Modeontwerper en 'glitterguru' Bob Mackie (87) overleden, kleedde Cher en Dolly Parton",
-              "url": "https://nos.nl/artikel/2631009-modeontwerper-en-glitterguru-bob-mackie-87-overleden-kleedde-cher-en-dolly-parton",
-              "source_id": "nos.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:07:04.228484+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7876662611961365,
-            "article": {
-              "title": "Entertainment Bob Mackie dies at 87 following deaths of Dolly Parton, Tim Curry, Gloria Steinem; celebs pay tribute",
-              "url": "https://timesofindia.indiatimes.com/entertainment/english/hollywood/news/bob-mackie-passes-away-at-87-following-deaths-of-dolly-parton-tim-curry-and-gloria-steinem-miley-cyrus-sabrina-carpenter-alyssa-milano-and-more-celebrities-pay-tribute-to-legendary-designer/articleshow/134246662.cms",
-              "source_id": "timesofindia.indiatimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:12:54.219742+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7473767399787903,
-            "article": {
-              "title": "Legendary fashion designer to the stars, dies aged 87",
-              "url": "https://www.smh.com.au/lifestyle/fashion/fashion-designer-to-the-stars-bob-mackie-dies-aged-87-20260915-p60xbr.html",
-              "source_id": "smh.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:09:30.757744+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7240166664123535,
-            "article": {
-              "title": "Photo gallery Costume designer Bob Mackie – a life in pictures",
-              "url": "https://www.theguardian.com/fashion/costume-and-culture/gallery/2026/sep/14/costume-designer-bob-mackie-a-life-in-pictures",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:06:56.312843+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 39.48016917204237,
-        "size": 8,
-        "n_sources": 8,
-        "n_continents": 5,
-        "continents": [
-          "China",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "South America"
-        ],
-        "coherence": 0.8973838090896606,
-        "title": "Un hombre en Reino Unido admite haber drogado y violado a su esposa durante 20 años",
-        "central_article": {
-          "title": "Un hombre en Reino Unido admite haber drogado y violado a su esposa durante 20 años",
-          "url": "https://www.elespectador.com/mundo/britanico-admite-haber-drogado-y-violado-a-su-esposa-durante-20-anos/",
-          "source_id": "elespectador.com",
-          "continent": "South America",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-14T22:09:04.344686+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9453366994857788,
-            "article": {
-              "title": "Un hombre en Reino Unido admite haber drogado y violado a su esposa durante 20 años",
-              "url": "https://www.elespectador.com/mundo/britanico-admite-haber-drogado-y-violado-a-su-esposa-durante-20-anos/",
-              "source_id": "elespectador.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:09:04.344686+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9397522211074829,
-            "article": {
-              "title": "Man admits drugging and raping wife for more than 20 years",
-              "url": "https://www.irishtimes.com/world/uk/2026/09/14/man-admits-drugging-and-raping-wife-for-more-than-20-years/",
-              "source_id": "irishtimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:09:41.411613+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9291725158691406,
-            "article": {
-              "title": "British man admits drugging and raping wife over more than 2 decades",
-              "url": "https://www.scmp.com/news/world/europe/article/3367506/british-man-admits-drugging-and-raping-wife-over-more-2-decades?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:12:26.011014+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9246028661727905,
-            "article": {
-              "title": "Betäubt und vergewaltigt: Mann in England gesteht 20 Jahre Missbrauch seiner Frau",
-              "url": "https://www.diepresse.com/41263214/betaeubt-und-vergewaltigt-mann-in-england-gesteht-20-jahre-missbrauch-seiner-frau",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:07:26.842106+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9231144189834595,
-            "article": {
-              "title": "Man pleads guilty to drugging and raping wife over 20 years",
-              "url": "https://www.channel4.com/news/man-pleads-guilty-to-drugging-and-raping-wife-over-20-years",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:07:00.025954+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8705973625183105,
-            "article": {
-              "title": "Priznal, da je več kot dve desetletji omamljal in posiljeval ženo",
-              "url": "https://www.delo.si/novice/svet/priznal-da-je-vec-kot-dve-desetletji-omamljal-in-posiljeval-zeno",
-              "source_id": "delo.si",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:10:30.389233+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8628109693527222,
-            "article": {
-              "title": "Egy brit férfi évtizedeken keresztül megerőszakolta a bedrogozott, eszméletlen feleségét",
-              "url": "https://telex.hu/kulfold/2026/09/14/nagy-britannia-nemi-eroszak-kabitoszer",
-              "source_id": "telex.hu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:10:14.134874+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7836832404136658,
-            "article": {
-              "title": "Un «caso Pelicot» scuote il Regno Unito, 60enne ammette: «Ho drogato e fatto abusare mia moglie da altri per vent'anni»",
-              "url": "https://www.corriere.it/esteri/26_settembre_14/droga-violenta-moglie-vent-anni-regno-unito-pelicot-64c9e456-a947-425d-bcec-01b67f850xlk.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:08:24.031811+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 38.5488710295968,
-        "size": 9,
-        "n_sources": 9,
-        "n_continents": 6,
-        "continents": [
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Oceania",
-          "South Asia"
-        ],
-        "coherence": 0.8325885534286499,
-        "title": "Left edges ahead in Swedish election thriller",
-        "central_article": {
-          "title": "Left edges ahead in Swedish election thriller",
-          "url": "https://www.politico.eu/article/left-edges-ahead-in-swedish-election-thriller/",
-          "source_id": "politico.eu",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-14T22:07:02.954838+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8957620859146118,
-            "article": {
-              "title": "Left edges ahead in Swedish election thriller",
-              "url": "https://www.politico.eu/article/left-edges-ahead-in-swedish-election-thriller/",
+              "title": "EU countries to discuss AI rules as Trump calls safety warnings a ‘hoax’",
+              "url": "https://www.politico.eu/article/eu-capitals-to-discuss-ai-incidents-global-cooperation/",
               "source_id": "politico.eu",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:07:02.954838+00:00"
+              "scraped_at_utc": "2026-09-15T12:13:33.729630+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8782549500465393,
+            "sim_to_centroid": 0.7971664667129517,
             "article": {
-              "title": "Opposition edges ahead in Swedish election",
-              "url": "https://www.rt.com/news/645682-sweden-election-andersson-kristersson/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:10:41.428942+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8739518523216248,
-            "article": {
-              "title": "Swedish left holds razor-thin election lead over radical right",
-              "url": "https://www.thetimes.com/world/europe/article/sweden-general-election-2026-results-polls-cbvgwp935",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:06:55.048713+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8543491959571838,
-            "article": {
-              "title": "Swedish election in dead heat as anti-immigration far right loses ground",
-              "url": "https://www.sbs.com.au/news/article/sweden-election-results-far-right/i66neprkx",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:09:29.382754+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8490341901779175,
-            "article": {
-              "title": "Sweden’s centre-left bloc leads close election against right-wing government",
-              "url": "https://kathmandupost.com/world/2026/09/14/sweden-s-centre-left-bloc-leads-close-election-against-right-wing-government",
-              "source_id": "kathmandupost.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:13:11.219651+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8361868858337402,
-            "article": {
-              "title": "Swedish election in dead heat as voters question liberal traditions",
-              "url": "https://www.japantimes.co.jp/news/2026/09/14/world/politics/swedish-election-liberal-traditions/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:13:49.990492+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7988767623901367,
-            "article": {
-              "title": "En Suède, l'extrême droite serait en recul, avantage à la gauche à l’issue de législatives ultra-serrées",
-              "url": "https://www.rtbf.be/article/en-suede-l-extreme-droite-en-recul-avantage-a-la-gauche-a-l-issue-de-legislatives-ultra-serrees-11784893",
-              "source_id": "rtbf.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:08:13.650840+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7645413875579834,
-            "article": {
-              "title": "Sweden faces ‘very messy’ politics after election, expert says",
-              "url": "https://www.euronews.com/my-europe/2026/09/14/sweden-faces-very-messy-political-situation-after-election-expert-says",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:07:01.599912+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7423397302627563,
-            "article": {
-              "title": "Ekspertene er forbløffet. Her er vinnerne, taperne og de store overraskelsene fra valget i Sverige.",
-              "url": "https://www.aftenposten.no/verden/i/pB2mQW/valget-i-sverige-her-er-vinnerne-og-taperne",
-              "source_id": "aftenposten.no",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:07:43.855474+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 37.527598568670655,
-        "size": 8,
-        "n_sources": 8,
-        "n_continents": 6,
-        "continents": [
-          "China",
-          "Europe East",
-          "Europe South",
-          "North America",
-          "Oceania",
-          "South America"
-        ],
-        "coherence": 0.8507751226425171,
-        "title": "Donald Trump Jr. admits Russian oligarch with Putin ties partially funded wedding celebration.",
-        "central_article": {
-          "title": "Donald Trump Jr. admits Russian oligarch with Putin ties partially funded wedding celebration.",
-          "url": "https://kyivindependent.com/donald-trump-jr-admits-russian-oligarch-with-putin-ties-partially-funded-wedding-celebration/",
-          "source_id": "kyivindependent.com",
-          "continent": "Europe East",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-14T22:10:33.908148+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9020369648933411,
-            "article": {
-              "title": "Donald Trump Jr. admits Russian oligarch with Putin ties partially funded wedding celebration.",
-              "url": "https://kyivindependent.com/donald-trump-jr-admits-russian-oligarch-with-putin-ties-partially-funded-wedding-celebration/",
-              "source_id": "kyivindependent.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:10:33.908148+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9011141061782837,
-            "article": {
-              "title": "Trump Jr’s Bahamas wedding weekend bankrolled by Russian oligarch, Putin ally",
-              "url": "https://www.smh.com.au/world/north-america/trump-jr-s-bahamas-wedding-weekend-bankrolled-by-russian-oligarch-putin-ally-20260915-p60xbs.html",
-              "source_id": "smh.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:09:30.757744+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8774136304855347,
-            "article": {
-              "title": "Fuerte descargo de la novia. Revelan que el casamiento del hijo de Trump fue financiado por un oligarca ruso cercano a Putin",
-              "url": "https://www.lanacion.com.ar/el-mundo/revelan-que-el-casamiento-del-hijo-de-trump-fue-financiado-por-un-oligarca-ruso-cercano-a-putin-nid14092026/",
-              "source_id": "lanacion.com.ar",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:08:39.813516+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.864633321762085,
-            "article": {
-              "title": "Russian Businessman Paid for Donald Trump Jr.’s Lavish Wedding After-Party",
-              "url": "https://www.nytimes.com/2026/09/14/us/politics/donald-trump-jr-wedding-russian-businessman.html",
-              "source_id": "nytimes.com",
+              "title": "Trump pushes back as AI leaders fuel calls to rein in rapidly advancing technology",
+              "url": "https://www.pbs.org/newshour/show/trump-pushes-back-as-ai-leaders-fuel-calls-to-rein-in-rapidly-advancing-technology",
+              "source_id": "pbs.org",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:11:54.616299+00:00"
+              "scraped_at_utc": "2026-09-15T12:18:45.378724+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8644903898239136,
+            "sim_to_centroid": 0.7942671775817871,
             "article": {
-              "title": "L'oligarca russo Kremlev (vicino a Putin) ha finanziato in segreto le nozze di Trump Jr.",
-              "url": "https://www.corriere.it/esteri/26_settembre_14/oligarca-russo-kremlev-putin-matrimonio-donald-trump-jr-afd1ec7f-f907-4c58-b29d-ba5b4cecaxlk.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
+              "title": "Barack Obama weighs in on AI dangers after Trump claims all is well",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/barack-obama-ai-trump-truth-social-intelligence-b3050298.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:08:24.031811+00:00"
+              "scraped_at_utc": "2026-09-15T12:13:26.131582+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8543306589126587,
+            "sim_to_centroid": 0.7720173597335815,
             "article": {
-              "title": "Trump Jnr’s wife says Russian oligarch paid for parties but not the actual wedding",
-              "url": "https://www.scmp.com/news/world/united-states-canada/article/3367508/trump-jnrs-wife-says-russian-oligarch-paid-nuptial-parties-not-actual-wedding?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
+              "title": "特朗普All-In峰會致電黃仁勳 斥AI威脅論為「騙局」",
+              "url": "https://www.singtaousa.com/2026/09/14/news/usa/trump-phones-nvidia-huang-all-in-calls-data-center-opposition-hoax/",
+              "source_id": "singtaousa.com",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:12:26.011014+00:00"
+              "scraped_at_utc": "2026-09-15T12:19:02.117959+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7916297912597656,
+            "sim_to_centroid": 0.7718180418014526,
             "article": {
-              "title": "L’accusa al tycoon: “Un oligarca russo pagò le nozze del figlio Don jr alle Bahamas”",
-              "url": "https://www.repubblica.it/esteri/2026/09/14/news/oligarca_russo_paga_nozze_trump_jr_bahamas-425585049/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
+              "title": "Why Trump will not yield to an AI slowdown",
+              "url": "https://www.straitstimes.com/world/united-states/why-trump-will-not-yield-to-an-ai-slowdown?ref=latest-headlines",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:08:22.207046+00:00"
+              "scraped_at_utc": "2026-09-15T12:20:30.628356+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7505524158477783,
+            "sim_to_centroid": 0.7691064476966858,
             "article": {
-              "title": "Глава Международной ассоциации бокса Умар Кремлев потратил сотни тысяч долларов на свадьбу Трампа-младшего на Багамах",
-              "url": "https://meduza.io/news/2026/09/14/glava-mezhdunarodnoy-assotsiatsii-boksa-umar-kremlev-potratil-sotni-tysyach-dollarov-na-svadbu-trampa-mladshego-na-bagamah",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
+              "title": "Trump: \"Kranke Verschwörung\" gegen KI",
+              "url": "https://www.zdfheute.de/politik/ausland/trump-ki-risiken-schwindel-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:10:35.019357+00:00"
+              "scraped_at_utc": "2026-09-15T12:13:55.643177+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7676641345024109,
+            "article": {
+              "title": "Trump’s See-No-Evil AI Policy",
+              "url": "https://www.theatlantic.com/politics/2026/09/trump-ai-policy-anthropic/688620/",
+              "source_id": "theatlantic.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:18:44.137716+00:00"
             }
           }
         ]
       },
       {
-        "score": 34.36877379441376,
+        "score": 42.48630567520462,
         "size": 10,
         "n_sources": 10,
         "n_continents": 5,
@@ -1044,472 +758,949 @@
           "Middle East",
           "North America"
         ],
-        "coherence": 0.8250250816345215,
-        "title": "EU countries seek greater Arctic presence",
+        "coherence": 0.8674317598342896,
+        "title": "Russischer Oligarch finanzierte Hochzeit von Trump-Sohn mit",
         "central_article": {
-          "title": "EU countries seek greater Arctic presence",
-          "url": "https://www.rt.com/news/645710-eu-arctic-role-russia/",
-          "source_id": "rt.com",
-          "continent": "Europe East",
+          "title": "Russischer Oligarch finanzierte Hochzeit von Trump-Sohn mit",
+          "url": "https://www.handelsblatt.com/politik/international/usa-russischer-oligarch-finanzierte-hochzeit-von-trump-sohn-mit/100254500.html",
+          "source_id": "handelsblatt.com",
+          "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-09-14T22:10:41.428942+00:00"
+          "scraped_at_utc": "2026-09-15T12:13:49.020345+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9088597297668457,
+            "sim_to_centroid": 0.9388574361801147,
             "article": {
-              "title": "EU countries seek greater Arctic presence",
-              "url": "https://www.rt.com/news/645710-eu-arctic-role-russia/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:10:41.428942+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8689852952957153,
-            "article": {
-              "title": "EU-ledere skal diskutere veje til at øge sikkerhed i Arktis",
-              "url": "https://knr.gl/da/nyheder/eu-ledere-skal-diskutere-veje-til-oege-sikkerhed-i-arktis",
-              "source_id": "knr.gl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:07:59.496418+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8624107837677002,
-            "article": {
-              "title": "Arktis-Gipfel: Die EU richtet ihren Blick Richtung Norden",
-              "url": "https://www.tagesschau.de/ausland/europa/eu-arktis-gipfel-abschluss-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:07:12.690996+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8601521849632263,
-            "article": {
-              "title": "12 European nations call on EU to expand Arctic presence",
-              "url": "https://www.euronews.com/my-europe/2026/09/14/12-european-nations-call-on-eu-to-expand-arctic-presence-amid-growing-threats",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:07:01.599912+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8545193672180176,
-            "article": {
-              "title": "Topmøde: EU-ledere skal diskutere sikkerhed i Arktis",
-              "url": "https://sermitsiaq.ag/samfund/eu-ledere-skal-diskutere-veje-til-at-oge-sikkerhed-i-arktis/2425098",
-              "source_id": "sermitsiaq.ag",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:07:57.202222+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8468906879425049,
-            "article": {
-              "title": "EU states to raise game as Arctic becomes strategic geopolitical frontier",
-              "url": "https://www.aljazeera.com/news/2026/9/14/eu-states-to-raise-game-as-arctic-becomes-strategic-geopolitical-frontier",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:09:42.651394+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8315190076828003,
-            "article": {
-              "title": "Europa ieško atsako į Rusijos agresiją: dėmesys krypsta ir į Arktį",
-              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3052505/europa-iesko-atsako-i-rusijos-agresija-demesys-krypsta-ir-i-arkti",
-              "source_id": "lrt.lt",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:10:52.145895+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8048444390296936,
-            "article": {
-              "title": "Gipfel am Polarkreis Europäer nehmen Kampf um Einfluss in der Arktis auf",
-              "url": "https://www.handelsblatt.com/politik/deutschland/gipfel-am-polarkreis-europaeer-nehmen-kampf-um-einfluss-in-der-arktis-auf/100254433.html",
+              "title": "Russischer Oligarch finanzierte Hochzeit von Trump-Sohn mit",
+              "url": "https://www.handelsblatt.com/politik/international/usa-russischer-oligarch-finanzierte-hochzeit-von-trump-sohn-mit/100254500.html",
               "source_id": "handelsblatt.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:07:16.565534+00:00"
+              "scraped_at_utc": "2026-09-15T12:13:49.020345+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7340874075889587,
+            "sim_to_centroid": 0.9323667883872986,
             "article": {
-              "title": "Groenlandia, 12 Paesi Ue: «Più presenza nell'Artico, da Mosca la minaccia più grande»",
-              "url": "https://www.corriere.it/esteri/26_settembre_14/groenlandia-12-paesi-ue-europa-russia-usa-c08af5de-2370-43b9-b5de-2f828167cxlk.shtml",
-              "source_id": "corriere.it",
+              "title": "Putin-tied Russian oligarch paid for Trump Jr.'s wedding celebrations",
+              "url": "https://www.pbs.org/newshour/show/putin-tied-russian-oligarch-paid-for-trump-jr-s-wedding-celebrations",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:18:45.378724+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9190037250518799,
+            "article": {
+              "title": "Der russische Oligarch, der die Hochzeit von Trump junior finanzierte",
+              "url": "https://www.diepresse.com/41263807/der-russische-oligarch-der-die-hochzeit-von-trump-junior-finanzierte",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:13:53.331696+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8992617726325989,
+            "article": {
+              "title": "Trump Jr. acknowledges Russian oligarch hosted wedding celebration",
+              "url": "https://georgiatoday.ge/trump-jr-acknowledges-russian-oligarch-hosted-wedding-celebration-nbc-news/",
+              "source_id": "georgiatoday.ge",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:17:23.244013+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8773618936538696,
+            "article": {
+              "title": "Sohn des US-Präsidenten Oligarch hat Hochzeit von Trump Jr. mitfinanziert",
+              "url": "https://www.tagesschau.de/ausland/amerika/usa-oligarch-trump-jr-hochzeitsfeier-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:13:44.116144+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.862087607383728,
+            "article": {
+              "title": "Who Is Umar Kremlev? The Russian Oligarch Who Partly Funded Trump Jr.’s Wedding Celebrations",
+              "url": "https://time.com/article/2026/09/14/umar-kremlev-russian-businessman-donald-trump-jr-wedding-celebrations/",
+              "source_id": "time.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:18:42.926391+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8528552651405334,
+            "article": {
+              "title": "Oligark tæt på Putin var med til at finansiere Trumps søns bryllupsfest: 'Dette burde være utænkeligt'",
+              "url": "https://www.dr.dk/nyheder/udland/oligark-taet-paa-putin-var-med-til-finansiere-trumps-soens-bryllupsfest-vores-kaere-ven-var-saa",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:14:15.288520+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8450101017951965,
+            "article": {
+              "title": "Verenigde Staten Russische zakenman met Kremlin-banden betaalt deel van trouwfeest Trump Jr.",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/09/15/trouwfeest-donald-trump-jr-deels-betaald-door-russische-zakenma/",
+              "source_id": "vrt.be",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:08:24.031811+00:00"
+              "scraped_at_utc": "2026-09-15T12:14:31.577810+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6779818534851074,
+            "sim_to_centroid": 0.7938006520271301,
             "article": {
-              "title": "‘Associate member’ of the EU? Why not, Canada?",
-              "url": "https://www.theglobeandmail.com/business/commentary/article-associate-member-of-the-eu-why-not-canada/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:09:26.073807+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 34.05478406796167,
-        "size": 7,
-        "n_sources": 7,
-        "n_continents": 6,
-        "continents": [
-          "China",
-          "Europe North",
-          "Middle East",
-          "North America",
-          "Oceania",
-          "South Asia"
-        ],
-        "coherence": 0.8580601811408997,
-        "title": "Prince Harry’s children moving to new school after just 2 days over security concerns",
-        "central_article": {
-          "title": "Prince Harry’s children moving to new school after just 2 days over security concerns",
-          "url": "https://www.scmp.com/news/world/europe/article/3367512/prince-harrys-children-moving-new-school-after-just-2-days-over-security-concerns?module=top_story&pgtype=homepage",
-          "source_id": "scmp.com",
-          "continent": "China",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-14T22:12:26.011014+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9512165784835815,
-            "article": {
-              "title": "Prince Harry’s children moving to new school after just 2 days over security concerns",
-              "url": "https://www.scmp.com/news/world/europe/article/3367512/prince-harrys-children-moving-new-school-after-just-2-days-over-security-concerns?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:12:26.011014+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9442232847213745,
-            "article": {
-              "title": "Prince Harry’s children move school after two days over security concerns",
-              "url": "https://www.smh.com.au/world/europe/prince-harry-s-children-move-school-after-two-days-over-security-concerns-20260915-p60xci.html",
-              "source_id": "smh.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:09:30.757744+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9076735377311707,
-            "article": {
-              "title": "Prince Harry's children changing schools due to security concerns",
-              "url": "https://www.abc.net.au/news/2026-09-15/prince-harrys-children-moving-school-over-security-fears/107153516",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:09:27.800625+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8637894988059998,
-            "article": {
-              "title": "ابنا الأمير هاري ينتقلان لمدرسة جديدة بعد يومين فقط لدواع أمنية",
-              "url": "https://www.annahar.com/lifestyle/arts/347460/ابنا-الأمير-هاري-ينتقلان-لمدرسة-جديدة-بعد-يومين-فقط-لدواع-أمنية",
-              "source_id": "annahar.com",
+              "title": "Trump'ın oğlunun düğününde 'Rus' sırrı!",
+              "url": "https://www.milliyet.com.tr/dunya/son-dakika-trumpin-oglunun-dugununde-rus-sirri-itiraf-geldi-comert-bir-hediyeydi-7660530",
+              "source_id": "milliyet.com.tr",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:10:04.024127+00:00"
+              "scraped_at_utc": "2026-09-15T12:16:19.176547+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8049004077911377,
+            "sim_to_centroid": 0.7537117600440979,
             "article": {
-              "title": "Why Harry and Meghan pulled their kids out of their new British school",
-              "url": "https://www.usatoday.com/story/entertainment/celebrities/2026/09/14/prince-harry-meghan-archie-lilibets-change-school-security/91764243007/",
-              "source_id": "usatoday.com",
-              "continent": "North America",
+              "title": "L’accusa al tycoon: “Un oligarca russo pagò le nozze del figlio Don jr alle Bahamas”",
+              "url": "https://www.repubblica.it/esteri/2026/09/14/news/oligarca_russo_paga_nozze_trump_jr_bahamas-425585049/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:12:19.181016+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7914381623268127,
-            "article": {
-              "title": "World Prince Harry-Meghan Markle pull Archie, Lilibet from UK school after two days over security concerns",
-              "url": "https://timesofindia.indiatimes.com/world/uk/prince-harry-and-meghan-markle-pull-archie-and-lilibet-out-of-uk-school-after-just-two-days-over-security-concerns-sussex-children-to-move-to-another-school-after-familys-return-to-britain/articleshow/134247738.cms",
-              "source_id": "timesofindia.indiatimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:12:54.219742+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7431799173355103,
-            "article": {
-              "title": "1 t Verden Barna bytter skole etter to dager",
-              "url": "https://www.aftenposten.no/verden/i/Ary9JE/prins-harrys-barn-bytter-skole-etter-to-dager",
-              "source_id": "aftenposten.no",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:07:43.855474+00:00"
+              "scraped_at_utc": "2026-09-15T12:14:42.664141+00:00"
             }
           }
         ]
       },
       {
-        "score": 33.407492880291336,
-        "size": 7,
-        "n_sources": 7,
-        "n_continents": 6,
-        "continents": [
-          "China",
-          "Europe East",
-          "Europe North",
-          "Middle East",
-          "North America",
-          "South America"
-        ],
-        "coherence": 0.8542221188545227,
-        "title": "Los líderes de Escocia, Irlanda del Norte y Gales se unen para reclamar su derecho de independencia de Reino Unido",
-        "central_article": {
-          "title": "Los líderes de Escocia, Irlanda del Norte y Gales se unen para reclamar su derecho de independencia de Reino Unido",
-          "url": "https://www.bbc.com/mundo/articles/cqzjz0pjedxro",
-          "source_id": "bbc.com",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-14T22:08:27.080065+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9090020656585693,
-            "article": {
-              "title": "Los líderes de Escocia, Irlanda del Norte y Gales se unen para reclamar su derecho de independencia de Reino Unido",
-              "url": "https://www.bbc.com/mundo/articles/cqzjz0pjedxro",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:08:27.080065+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8812860250473022,
-            "article": {
-              "title": "Главы правительств Шотландии, Уэльса и Северной Ирландии заключили соглашение. Они хотят независимости от Великобритании",
-              "url": "https://meduza.io/news/2026/09/14/glavy-pravitelstv-shotlandii-uelsa-i-severnoy-irlandii-zaklyuchili-soglashenie-oni-hotyat-nezavisimosti-ot-velikobritanii",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:10:35.019357+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8647059798240662,
-            "article": {
-              "title": "Líderes de governos de Escócia, País de Gales e Irlanda do Norte defendem o fim do Reino Unido",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/09/lideres-de-escocia-pais-de-gales-e-irlanda-do-norte-afirmam-direito-a-autodeterminacao.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:08:50.822652+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8602731227874756,
-            "article": {
-              "title": "7 , Leaders of Scotland, Wales, Northern Ireland unite for self-determination",
-              "url": "https://www.aljazeera.com/news/2026/9/14/leaders-of-scotland-wales-northern-ireland-unite-for-self-determination",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:09:42.651394+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8229596018791199,
-            "article": {
-              "title": "“苏格兰、威尔士和北爱尔兰的领袖 为了拆分英国而会面”",
-              "url": "https://www.sohu.com/a/1076001380_120094090?edtsign=36039220CBC7E9AF18209603C32AF6C57C4A9FEA&edtcode=gvDjAzeb57vl1864yXQv2w%3D%3D&scm=10001.663_14-200000.0.0-0-0-0-0.&_f=index_cpc_1_0",
-              "source_id": "news.sohu.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:12:46.531260+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.821355938911438,
-            "article": {
-              "title": "Leaders of Wales, Scotland, Northern Ireland sign memorandum on right to leave UK",
-              "url": "https://tass.com/world/2187397",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:10:46.183399+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8199719786643982,
-            "article": {
-              "title": "Desafío territorial al Reino Unido: Escocia, Gales e Irlanda del Norte reclaman su autodeterminación",
-              "url": "https://www.laestrella.com.pa/mundo/desafio-territorial-al-reino-unido-escocia-gales-e-irlanda-del-norte-reclaman-su-autodeterminacion-FG25678580",
-              "source_id": "laestrella.com.pa",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:08:38.074283+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 30.182928519544816,
-        "size": 10,
-        "n_sources": 8,
-        "n_continents": 6,
+        "score": 42.142589323650355,
+        "size": 11,
+        "n_sources": 11,
+        "n_continents": 5,
         "continents": [
           "East Asia",
           "Europe East",
           "Europe North",
           "Europe South",
-          "North America",
-          "Oceania"
+          "South America"
         ],
-        "coherence": 0.8072150945663452,
-        "title": "Investors weigh the potential cost of AI 'slowdown'",
+        "coherence": 0.8467451333999634,
+        "title": "NATO jets shoot down drone over Lithuania",
         "central_article": {
-          "title": "Investors weigh the potential cost of AI 'slowdown'",
-          "url": "https://www.france24.com/en/technology/20260914-investors-weigh-the-potential-cost-of-ai-slowdown",
-          "source_id": "france24.com",
-          "continent": "Europe South",
+          "title": "NATO jets shoot down drone over Lithuania",
+          "url": "https://www.bangkokpost.com/world/3320058/nato-jets-shoot-down-drone-over-lithuania",
+          "source_id": "bangkokpost.com",
+          "continent": "East Asia",
           "published_at": null,
-          "scraped_at_utc": "2026-09-14T22:08:06.660851+00:00"
+          "scraped_at_utc": "2026-09-15T12:20:26.062282+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8578600883483887,
+            "sim_to_centroid": 0.9235044717788696,
             "article": {
-              "title": "Investors weigh the potential cost of AI 'slowdown'",
-              "url": "https://www.france24.com/en/technology/20260914-investors-weigh-the-potential-cost-of-ai-slowdown",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:08:06.660851+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8455668687820435,
-            "article": {
-              "title": "Questions mount over what an AI 'slowdown' would look like",
-              "url": "https://www.bbc.com/news/articles/cwyzp47py48o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:06:52.155440+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8193575143814087,
-            "article": {
-              "title": "Wall Street opens lower as AI slowdown fears weigh",
-              "url": "https://www.azernews.az/region/263875.html",
-              "source_id": "azernews.az",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:11:04.024955+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8158758282661438,
-            "article": {
-              "title": "‘Trading chaos for reliability’: AI slowdown could mean stricter regulations and more testing, say experts",
-              "url": "https://www.channelnewsasia.com/singapore/ai-slowdown-regulations-testing-chatgpt-claude-xai-6383491",
-              "source_id": "channelnewsasia.com",
+              "title": "NATO jets shoot down drone over Lithuania",
+              "url": "https://www.bangkokpost.com/world/3320058/nato-jets-shoot-down-drone-over-lithuania",
+              "source_id": "bangkokpost.com",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:13:48.656038+00:00"
+              "scraped_at_utc": "2026-09-15T12:20:26.062282+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8049637079238892,
+            "sim_to_centroid": 0.9015730619430542,
+            "article": {
+              "title": "Nato-Kampfjets schießen Drohne über Litauen ab",
+              "url": "https://www.zdfheute.de/politik/ausland/drohne-litauen-kampfflugzeuge-nato-abschuss-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:13:55.643177+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8987585306167603,
+            "article": {
+              "title": "NATO jets shoot down drone over Lithuanian airspace after it flew in from Belarus.",
+              "url": "https://kyivindependent.com/nato-shoots-down-drone-over-lithuanian-airspace-that-flew-in-from-belarus/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:17:00.023959+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8906910419464111,
+            "article": {
+              "title": "Litauen NATO-Kampfjets schießen Drohne ab",
+              "url": "https://www.tagesschau.de/ausland/europa/drohne-litauen-102.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:13:44.116144+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8750853538513184,
+            "article": {
+              "title": "Cazas de la OTAN derriban un dron sobre Lituania",
+              "url": "https://elcomercio.pe/mundo/europa/cazas-de-la-otan-derriban-un-dron-sobre-lituania-rusia-ucrania-bielorrusia-gitanas-nauseda-ultimas-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:15:15.900793+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8514912724494934,
+            "article": {
+              "title": "Истребители НАТО впервые сбили дрон над Литвой",
+              "url": "https://meduza.io/news/2026/09/15/istrebiteli-nato-vpervye-sbili-dron-nad-litvoy",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:17:01.131458+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8349072337150574,
+            "article": {
+              "title": "Otan derruba drone que sobrevoava a Lituânia vindo da Bielorrússia",
+              "url": "https://oglobo.globo.com/mundo/noticia/2026/09/15/otan-derruba-drone-que-sobrevoava-a-lituania-vindo-da-bielorrussia.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:15:11.399909+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8101417422294617,
+            "article": {
+              "title": "NAVO haalt drone neer boven Litouwen, Russisch schip vuurt lichtkogels af op Deense helikopter in Oostzee",
+              "url": "https://www.nrc.nl/nieuws/2026/09/15/navo-haalt-drone-neer-boven-litouwen-russisch-schip-vuurt-lichtkogels-af-op-deense-helikopter-in-oostzee-a4936652",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:13:36.719554+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7973044514656067,
+            "article": {
+              "title": "Caccia italiani neutralizzano drone sopra la Lituania, razzi russi sfiorano aereo danese: il Baltico sull’orlo dell’incidente",
+              "url": "https://www.repubblica.it/esteri/2026/09/15/news/caccia_italiani_neutralizzano_drone_lituania_razzi_russi_sfiorano_aereo_danese_nato_baltico_orlo_incidente-425586381/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:14:42.664141+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7963287830352783,
+            "article": {
+              "title": "Ismeretlen drónt lőttek le Litvániában a NATO-vadászgépei Belarusz felől érkezett és nyugatra tartott. Sérültekről nincs információ.",
+              "url": "https://nepszava.hu/3332855_litvania-dron-vadaszgep-leloves-nato-legiero",
+              "source_id": "nepszava.hu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:16:50.248768+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.73441082239151,
+            "article": {
+              "title": "19 sek Liverapport Nato sköt ner drönare i Litauen Presidenten: Avgörande insats i takt med Rysslands upptrappning mot Ukraina",
+              "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=3e21504b5f3acdaa6ba8f9d1eb2c77f1",
+              "source_id": "svt.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:14:12.219712+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 41.15422012288555,
+        "size": 15,
+        "n_sources": 12,
+        "n_continents": 6,
+        "continents": [
+          "Africa",
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "South Asia"
+        ],
+        "coherence": 0.7881320714950562,
+        "title": "Why are there concerns AI could threaten humanity, and how real are they?",
+        "central_article": {
+          "title": "Why are there concerns AI could threaten humanity, and how real are they?",
+          "url": "https://www.bbc.com/news/articles/c790xvnzgnno",
+          "source_id": "bbc.com",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-15T12:13:24.468171+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8646253943443298,
             "article": {
               "title": "Why are there concerns AI could threaten humanity, and how real are they?",
               "url": "https://www.bbc.com/news/articles/c790xvnzgnno",
               "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:06:52.155440+00:00"
+              "scraped_at_utc": "2026-09-15T12:13:24.468171+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7942521572113037,
+            "sim_to_centroid": 0.8567070364952087,
+            "article": {
+              "title": "Waarom zijn de grote AI-bedrijven zo bang voor AI?",
+              "url": "https://fd.nl/economie/1612143/waarom-zijn-de-grote-ai-bedrijven-zo-bang-voor-ai",
+              "source_id": "fd.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:13:42.107826+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.845826268196106,
+            "article": {
+              "title": "Почему главы корпораций и политики испугались искусственного интеллекта",
+              "url": "https://www.kommersant.ru/doc/8954579?from=top_main_3",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:17:08.872601+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8132361769676208,
+            "article": {
+              "title": "Por qué preocupa que la IA pueda amenazar a la humanidad y qué tan real es ese temor",
+              "url": "https://www.bbc.com/mundo/articles/cqkg0dvwm99vo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:14:47.347855+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8129759430885315,
             "article": {
               "title": "What is AI, how does it work and why are some people concerned about it?",
               "url": "https://www.bbc.com/news/articles/c2l799gxjjpo",
               "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:06:52.155440+00:00"
+              "scraped_at_utc": "2026-09-15T12:13:24.468171+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7902253866195679,
+            "sim_to_centroid": 0.8004471063613892,
             "article": {
-              "title": "AI-oro gav småtrist veckostart på Wall Street",
-              "url": "https://www.dn.se/direkt/2026-09-14/ai-oro-gav-smatrist-veckostart-pa-wall-street/",
-              "source_id": "dn.se",
+              "title": "CNA Explains: Why AI leaders are calling for a slowdown – and what makes it so difficult",
+              "url": "https://www.channelnewsasia.com/world/ai-slowdown-dangers-cna-explains-6385551",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:20:07.372920+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.779612123966217,
+            "article": {
+              "title": "Frână pe AI? Bursele au scăzut după avertismentele liderilor din industrie, iar miza devine politică, avertizează un expert",
+              "url": "https://hotnews.ro/frana-pe-ai-bursele-au-scazut-dupa-avertismentele-liderilor-din-industrie-iar-miza-devine-politica-avertizeaza-un-expert-2349548",
+              "source_id": "hotnews.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:16:42.768312+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7756317853927612,
+            "article": {
+              "title": "تحذيرات الذكاء الاصطناعي تهز الأسواق.. ومئات المليارات تحت الاختبار",
+              "url": "https://www.hespress.com/%d8%aa%d8%ad%d8%b0%d9%8a%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9%d9%8a-%d8%aa%d9%87%d8%b2-%d8%a7%d9%84%d8%a3%d8%b3%d9%88%d8%a7%d9%82-1807351.html",
+              "source_id": "hespress.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:18:12.168618+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7652044892311096,
+            "article": {
+              "title": "Die Chefs der KI-Firmen stecken in einem Dilemma – und wir mit ihnen",
+              "url": "https://www.diepresse.com/41260759/die-chefs-der-ki-firmen-stecken-in-einem-dilemma-und-wir-mit-ihnen",
+              "source_id": "diepresse.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:07:41.959784+00:00"
+              "scraped_at_utc": "2026-09-15T12:13:53.331696+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7845237255096436,
+            "sim_to_centroid": 0.7631890773773193,
             "article": {
-              "title": "Talk of AI pause slams Nvidia, AMD and Intel as fears of doomsday scenarios spread",
-              "url": "https://www.latimes.com/business/story/2026-09-14/ai-shares-tumble-as-industry-leaders-call-for-slowdown",
-              "source_id": "latimes.com",
-              "continent": "North America",
+              "title": "El alarmante llamado del director de Anthropic para ralentizar el desarrollo de la inteligencia artificial",
+              "url": "https://www.bbc.com/mundo/articles/c86x7vnegvvo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:12:16.202111+00:00"
+              "scraped_at_utc": "2026-09-15T12:14:47.347855+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7802373170852661,
+            "sim_to_centroid": 0.7622629404067993,
             "article": {
-              "title": "Cyber chief's AI warning amid global slowdown push",
-              "url": "https://www.abc.net.au/news/2026-09-15/australia-needs-ai-warning-system-cyber-security-chief-says/107151268",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
+              "title": "AI Leaders Are Calling for a Slowdown, but Wall Street Keeps on Buying",
+              "url": "https://www.hindustantimes.com/world-news/ai-leaders-are-calling-for-a-slowdown-but-wall-street-keeps-on-buying-101789466702775.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:09:27.800625+00:00"
+              "scraped_at_utc": "2026-09-15T12:19:17.554802+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7792879939079285,
+            "sim_to_centroid": 0.7572615146636963,
             "article": {
-              "title": "Artificial intelligence AI CEOs say they need to slow the pace of development. But will they?",
-              "url": "https://www.theguardian.com/technology/2026/sep/14/ai-ceo-safety-slowdown",
+              "title": "Ali smo na robu neobvladljive umetne inteligence?",
+              "url": "https://www.delo.si/novice/znanoteh/ali-smo-na-robu-neobvladljive-umetne-inteligence",
+              "source_id": "delo.si",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:16:56.529420+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7520395517349243,
+            "article": {
+              "title": "No government is ready for AI's impact, warns Bill Gates",
+              "url": "https://www.thedailystar.net/news/technology/news/no-government-ready-ais-impact-warns-bill-gates-4273361",
+              "source_id": "thedailystar.net",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:19:20.625383+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7420992851257324,
+            "article": {
+              "title": "Why a decade of doomsday warnings failed to slow the AI race",
+              "url": "https://www.theguardian.com/technology/2026/sep/15/ai-doomsday-warnings",
               "source_id": "theguardian.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-14T22:06:56.312843+00:00"
+              "scraped_at_utc": "2026-09-15T12:13:29.112940+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7308616638183594,
+            "article": {
+              "title": "Pro Artikel KI könnte zu gefährlich werden für die Menschheit, fürchten die Chefs der Techfirmen. Doch lässt sich KI überhaupt regulieren?",
+              "url": "https://www.nzz.ch/pro/ki-koennte-zu-gefaehrlich-werden-fuer-die-menschheit-fuerchten-die-chefs-der-techfirmen-doch-laesst-sich-ki-ueberhaupt-regulieren-ld.10023691",
+              "source_id": "nzz.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:14:00.198489+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 40.8976098056929,
+        "size": 18,
+        "n_sources": 17,
+        "n_continents": 4,
+        "continents": [
+          "China",
+          "Europe East",
+          "Europe North",
+          "Europe South"
+        ],
+        "coherence": 0.798312783241272,
+        "title": "Russische Fregatte feuert Leuchtraketen auf dänischen Helikopter",
+        "central_article": {
+          "title": "Russische Fregatte feuert Leuchtraketen auf dänischen Helikopter",
+          "url": "https://www.tagesschau.de/ausland/europa/daenemark-leuchtkugeln-russische-fregatte-100.html",
+          "source_id": "tagesschau.de",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-15T12:13:44.116144+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8869736790657043,
+            "article": {
+              "title": "Russische Fregatte feuert Leuchtraketen auf dänischen Helikopter",
+              "url": "https://www.tagesschau.de/ausland/europa/daenemark-leuchtkugeln-russische-fregatte-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:13:44.116144+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8777477741241455,
+            "article": {
+              "title": "Denmark says Russian frigate fired flares at helicopter",
+              "url": "https://www.scmp.com/news/world/europe/article/3367621/denmark-says-russian-frigate-fired-flares-helicopter?module=latest&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:18:46.616884+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8760046362876892,
+            "article": {
+              "title": "Russian Frigate Fires Flares at Danish Military Helicopter in International Waters",
+              "url": "https://www.kyivpost.com/post/84541",
+              "source_id": "kyivpost.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:16:58.455277+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8556736707687378,
+            "article": {
+              "title": "Alarm in Denmark after Russian ship fires at military helicopter",
+              "url": "https://www.politico.eu/article/russian-frigate-fires/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:13:33.729630+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8252953886985779,
+            "article": {
+              "title": "Europe Russian warship fires flares at Danish helicopter as Nato jets shoot down drone over Lithuania",
+              "url": "https://www.theguardian.com/world/2026/sep/15/nato-jets-shoot-down-drone-violating-lithuania-airspace-kaunas",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:13:29.112940+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8228086829185486,
+            "article": {
+              "title": "La Première ministre danoise réagit au tir de fusées d’une frégate russe",
+              "url": "https://www.lesoir.be/770971/article/2026-09-15/la-premiere-ministre-danoise-reagit-au-tir-de-fusees-dune-fregate-russe",
+              "source_id": "lesoir.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:14:35.582834+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8225644826889038,
+            "article": {
+              "title": "Russisch oorlogsschip beschiet Deense helikopter met lichtkogels",
+              "url": "https://fd.nl/economie/1612281/russisch-oorlogsschip-beschiet-deense-helikopter-met-lichtkogels",
+              "source_id": "fd.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:13:42.107826+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7998470664024353,
+            "article": {
+              "title": "Un buque de guerra ruso dispara dos bengalas contra un helicóptero danés en el Báltico",
+              "url": "https://www.lavanguardia.com/internacional/20260915/11635421/buque-guerra-ruso-dispara-dos-bengalas-helicoptero-danes-baltico.html",
+              "source_id": "lavanguardia.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:14:37.190982+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7954643964767456,
+            "article": {
+              "title": "newsticker Krieg in der Ukraine Russland beschiesst dänischen Militärhelikopter mit Leuchtkörpern Die neuesten Einträge aus dem Liveticker: Dänische Regierungschefin: «Russland intensiviert hybriden Krieg» Russische Fregatte feuert Leuchtkörper auf Dänen-Helikopter Berichte: Ukraine greift weitere Ölraffinerie in Russland an",
+              "url": "https://www.srf.ch/news/international/ukraine/krieg-in-der-ukraine-russland-beschiesst-daenischen-militaerhelikopter-mit-leuchtkoerpern",
+              "source_id": "srf.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:14:01.641802+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7953733205795288,
+            "article": {
+              "title": "丹麦抗议俄舰向丹直升机发射照明弹",
+              "url": "https://www.xinhuanet.com/20260915/4a228ffb97b045f9a6d4cdb975589efa/c.html",
+              "source_id": "xinhuanet.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:18:53.394409+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7943911552429199,
+            "article": {
+              "title": "Une frégate russe tire deux fusées éclairantes en direction d'un hélicoptère militaire danois Incident en mer Baltique aujourd'hui à",
+              "url": "https://www.rts.ch/info/monde/2026/article/mer-baltique-une-fregate-russe-vise-un-helicoptere-danois-29357517.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:14:30.074028+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.773749589920044,
+            "article": {
+              "title": "Danish PM condemns Russian flare attack on helicopter as 'reckless'",
+              "url": "https://www.euronews.com/my-europe/2026/09/15/russia-summoned-by-denmark-after-warship-fires-flares-at-helicopter",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:13:32.343995+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7637442350387573,
+            "article": {
+              "title": "viser tilsyneladende dansk helikopter tæt på russisk skib for to uger siden",
+              "url": "https://www.dr.dk/nyheder/indland/live-russisk-fregat-affyrede-flares-mod-dansk-helikopter?focusId=12448283",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:14:15.288520+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7637442350387573,
+            "article": {
+              "title": "viser tilsyneladende dansk helikopter tæt på russisk skib for to uger siden",
+              "url": "https://www.dr.dk/nyheder/indland/live-russisk-fregat-affyrede-flares-mod-dansk-helikopter",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:14:15.288520+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7602415084838867,
+            "article": {
+              "title": "Jelzőrakétákat lőtt ki egy orosz hadihajó egy dán helikopter felé A történtek miatt bekérették Oroszország dániai nagykövetét is.",
+              "url": "https://nepszava.hu/3332867_jelzoraketa-dan-helikopter-orosz-hadihajo",
+              "source_id": "nepszava.hu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:16:50.248768+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7525218725204468,
+            "article": {
+              "title": "Ukraine war live: NATO downs drone over Lithuania, Russian frigate fires flares at Danish helicopter",
+              "url": "https://www.france24.com/en/europe/20260915-nato-fighter-jets-shoot-down-drone-over-lithuania-after-latest-incursion",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:14:28.321818+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7165102958679199,
+            "article": {
+              "title": "Посол РФ прокомментировал инцидент с датским вертолетом и российским фрегатом",
+              "url": "https://www.kommersant.ru/doc/8955221?from=top_main_6",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:17:08.872601+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6869746446609497,
+            "article": {
+              "title": "Russland hevder Danmark provoserte:",
+              "url": "https://www.dagbladet.no/nyheter/helt-uakseptabelt/85152953",
+              "source_id": "dagbladet.no",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:14:09.998174+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 39.515366859749484,
+        "size": 10,
+        "n_sources": 10,
+        "n_continents": 6,
+        "continents": [
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "South America"
+        ],
+        "coherence": 0.8164690136909485,
+        "title": "Horrorkomedie ‘Widow’s Bay’ grote winnaar van Emmy Awards",
+        "central_article": {
+          "title": "Horrorkomedie ‘Widow’s Bay’ grote winnaar van Emmy Awards",
+          "url": "https://www.nrc.nl/nieuws/2026/09/15/horrorkomedie-widows-bay-grote-winnaar-van-emmy-awards-a4936644",
+          "source_id": "nrc.nl",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-15T12:13:36.719554+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8803071975708008,
+            "article": {
+              "title": "Horrorkomedie ‘Widow’s Bay’ grote winnaar van Emmy Awards",
+              "url": "https://www.nrc.nl/nieuws/2026/09/15/horrorkomedie-widows-bay-grote-winnaar-van-emmy-awards-a4936644",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:13:36.719554+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8759590983390808,
+            "article": {
+              "title": "'Widow's Bay' et 'The Pitt' dominent les Emmy Awards",
+              "url": "https://www.rts.ch/info/culture/series/2026/article/emmy-awards-2026-widow-s-bay-et-the-pitt-triomphent-29357397.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:14:30.074028+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8631025552749634,
+            "article": {
+              "title": "‘Widow’s Bay’ breaks Emmys record with 14 wins including best comedy series",
+              "url": "https://www.chicagotribune.com/2026/09/14/emmy-awards-2026-the-pitt-widows-bay/",
+              "source_id": "chicagotribune.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:18:41.270905+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8573758602142334,
+            "article": {
+              "title": "Premios Emmy: \"Widow's Bay\" arrasa con los galardones y \"The Pitt\" vuelve a ganar en mejor serie dramática",
+              "url": "https://www.emol.com/noticias/Espectaculos/2026/09/15/1211480/premios-emmy-ganadores.html",
+              "source_id": "emol.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:15:05.634142+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8454850912094116,
+            "article": {
+              "title": "Widow’s Bay dominates Emmys as Matthew Rhys and Jean Smart land historic wins",
+              "url": "https://www.irishtimes.com/culture/tv-radio/2026/09/15/widows-bay-dominates-emmys-as-matthew-rhys-and-jean-smart-land-historic-wins/",
+              "source_id": "irishtimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:16:05.783836+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8195091485977173,
+            "article": {
+              "title": "Emmy Awards 2026 full winners list: Widow's Bay breaks record with 14 wins",
+              "url": "https://www.thenationalnews.com/arts-culture/film-tv/2026/09/15/emmy-awards-2026-full-winners-list-widows-bay-breaks-record-with-14-wins/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:16:08.400313+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.808323860168457,
+            "article": {
+              "title": "Premios Emmy 2026: estos son los ganadores de una gala en la que hizo historia la serie de comedia \"Widow's Bay\"",
+              "url": "https://www.bbc.com/mundo/articles/cmx2zex83g59o",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:14:47.347855+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7879867553710938,
+            "article": {
+              "title": "Πώς έφτασε το «Widow's Bay» να γίνει το φαινόμενο των Emmy",
+              "url": "https://www.tovima.gr/2026/09/15/culture/widows-bay-i-allokoti-komodia-tromou-pou-ekane-tin-anatropi-sta-emmy/",
+              "source_id": "tovima.gr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:14:46.145849+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7145354747772217,
+            "article": {
+              "title": "Horror dominiert Emmy Awards",
+              "url": "https://www.zdfheute.de/panorama/us-fernsehpreise-emmys-verleihung-widows-bay-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:13:55.643177+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7121054530143738,
+            "article": {
+              "title": "В Лос-Анджелесе вручили «Эмми». Большинство наград получил сериал «Бухта вдов»",
+              "url": "https://meduza.io/news/2026/09/15/v-los-andzhelese-vruchili-emmi-bolshinstvo-nagrad-poluchil-serial-buhta-vdov",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:17:01.131458+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 30.967645029112486,
+        "size": 9,
+        "n_sources": 8,
+        "n_continents": 5,
+        "continents": [
+          "East Asia",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "South America"
+        ],
+        "coherence": 0.8488126993179321,
+        "title": "Pentágono reconoce que hay “escasez” de municiones debido a la guerra con Irán",
+        "central_article": {
+          "title": "Pentágono reconoce que hay “escasez” de municiones debido a la guerra con Irán",
+          "url": "https://elcomercio.pe/mundo/eeuu/iran-pentagono-reconoce-que-hay-escasez-de-municiones-debido-a-la-guerra-con-teheran-donald-trump-departamento-de-defensa-ultimas-noticia/",
+          "source_id": "elcomercio.pe",
+          "continent": "South America",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-15T12:15:15.900793+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9165311455726624,
+            "article": {
+              "title": "Pentágono reconoce que hay “escasez” de municiones debido a la guerra con Irán",
+              "url": "https://elcomercio.pe/mundo/eeuu/iran-pentagono-reconoce-que-hay-escasez-de-municiones-debido-a-la-guerra-con-teheran-donald-trump-departamento-de-defensa-ultimas-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:15:15.900793+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9113649129867554,
+            "article": {
+              "title": "Pentagon admits Iran war caused US ammunition shortages",
+              "url": "https://www.newarab.com/news/pentagon-admits-iran-war-caused-us-ammunition-shortages",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:16:22.076922+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9107629060745239,
+            "article": {
+              "title": "Pentágono admite escassez de munição devido à guerra com o Irã",
+              "url": "https://oglobo.globo.com/mundo/noticia/2026/09/15/pentagono-admite-escassez-de-municao-devido-a-guerra-com-o-ira.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:15:11.399909+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8467832803726196,
+            "article": {
+              "title": "Iran war exposes US munitions shortfall, industrial bottlenecks, Pentagon report says",
+              "url": "https://www.france24.com/en/americas/20260915-iran-war-exposes-us-munitions-shortfall-industrial-bottlenecks-pentagon-report-says",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:14:28.321818+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.843645453453064,
+            "article": {
+              "title": "Guerre Le Pentagone reconnait une « pénurie » de munitions avec la guerre en Iran",
+              "url": "https://www.lorientlejour.com/article/1547552/le-pentagone-reconnait-une-penurie-de-munitions-avec-la-guerre-en-iran.html",
+              "source_id": "lorientlejour.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:16:14.609334+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8430905342102051,
+            "article": {
+              "title": "US defense chiefs warn of munitions shortfall over Iran war",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-iran-war-cost-munitions-missiles-b3050319.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:13:26.131582+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7967253923416138,
+            "article": {
+              "title": "五角大廈證實美軍彈藥短缺 對伊朗前4個月花費達1.06兆",
+              "url": "https://www.cna.com.tw/news/aopl/202609150285.aspx",
+              "source_id": "cna.com.tw",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:20:37.060251+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.786156415939331,
+            "article": {
+              "title": "US-Militär räumt erstmals selbst „Engpässe“ bei Munition ein",
+              "url": "https://www.diepresse.com/41264205/us-militaer-raeumt-erstmals-selbst-engpaesse-bei-munition-ein",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:13:53.331696+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7842541933059692,
+            "article": {
+              "title": "Iran war live: US facing weapons shortages as cost of war hits $33bn",
+              "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-oil-tanker-hormuz-b3050243.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-15T12:13:26.131582+00:00"
             }
           }
         ]
       }
     ],
-    "created_at_utc": "2026-09-14T22:41:29Z"
+    "created_at_utc": "2026-09-15T12:54:41Z"
   }
 ]
