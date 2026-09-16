@@ -1,1198 +1,1576 @@
 [
   {
-    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1789510356",
-    "n_items": 2465,
-    "n_clusters": 2088,
+    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1789562181",
+    "n_items": 2430,
+    "n_clusters": 1995,
     "clusters": [
       {
-        "score": 113.60523560561626,
+        "score": 128.03222471462027,
+        "size": 26,
+        "n_sources": 26,
+        "n_continents": 6,
+        "continents": [
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "Oceania"
+        ],
+        "coherence": 0.8604851961135864,
+        "title": "Former Kosovo President Hashim Thaci sentenced to 25 years for war crimes",
+        "central_article": {
+          "title": "Former Kosovo President Hashim Thaci sentenced to 25 years for war crimes",
+          "url": "https://www.aljazeera.com/news/2026/9/16/former-kosovo-president-hashim-thaci-convicted-of-war-crimes",
+          "source_id": "aljazeera.com",
+          "continent": "Middle East",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-16T12:13:36.554835+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9377212524414062,
+            "article": {
+              "title": "Former Kosovo President Hashim Thaci sentenced to 25 years for war crimes",
+              "url": "https://www.aljazeera.com/news/2026/9/16/former-kosovo-president-hashim-thaci-convicted-of-war-crimes",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:13:36.554835+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9341186285018921,
+            "article": {
+              "title": "L'ex-président du Kosovo Hashim Thaçi condamné à 25 ans de prison pour crimes de guerre",
+              "url": "https://www.rtbf.be/article/l-ex-president-du-kosovo-hashim-thaci-condamne-a-25-ans-de-prison-pour-crimes-de-guerre-11786004",
+              "source_id": "rtbf.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:12:02.911586+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.928521454334259,
+            "article": {
+              "title": "Kosovo's former president sentenced to 25 years for war crimes",
+              "url": "https://www.bbc.com/news/articles/cmd79z0pdzgjo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:10:52.334970+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9277048110961914,
+            "article": {
+              "title": "Hague court sentences Kosovo ex-president Thaçi to 25 years in prison for war crimes",
+              "url": "https://www.politico.eu/article/hashim-taci-kosovo-hague-court-sentences-ex-president-25-years/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:02.883819+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9248429536819458,
+            "article": {
+              "title": "Former Kosovo president Thaci sentenced to 25 years' prison for war crimes",
+              "url": "https://www.abc.net.au/news/2026-09-16/former-kosovo-president-sentenced-for-war-crimes/107161848",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:13:18.853651+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9189847707748413,
+            "article": {
+              "title": "Kosovos tidligere præsident idømt 25 års fængsel for krigsforbrydelser",
+              "url": "https://www.dr.dk/nyheder/seneste/kosovos-tidligere-praesident-idoemt-25-aars-faengsel-krigsforbrydelser",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:41.304943+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9112873077392578,
+            "article": {
+              "title": "Hashim Thaçi gets 25-year sentence for Kosovo war crimes",
+              "url": "https://www.azernews.az/region/263967.html",
+              "source_id": "azernews.az",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:14:58.535704+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.909891664981842,
+            "article": {
+              "title": "25 Jahre Haft für Kosovos Ex-Präsident Thaci wegen Kriegsverbrechen",
+              "url": "https://www.tagesschau.de/ausland/europa/verurteilung-thaci-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:11.537708+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8891521692276001,
+            "article": {
+              "title": "Бывшего президента Косова Хашима Тачи приговорили к 25 годам тюрьмы по обвинению в военных преступлениях",
+              "url": "https://meduza.io/news/2026/09/16/byvshego-prezidenta-kosova-hashima-tachi-prigovorili-k-25-godam-tyurmy-po-obvineniyu-v-voennyh-prestupleniyah",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:14:30.667887+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8843531608581543,
+            "article": {
+              "title": "Hashim Thaçi v Haagu obsojen na 25 let zapora zaradi vojnih zločinov",
+              "url": "https://www.delo.si/novice/svet/hashim-thaci-v-haagu-obsojen-na-25-let-zapora-zaradi-vojnih-zlocinov",
+              "source_id": "delo.si",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:14:26.196925+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8667663335800171,
+            "article": {
+              "title": "Europa Kosovaarse ex-president Thaçi veroordeeld tot 25 jaar cel voor oorlogsmisdaden geleden",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/09/16/kosovaarse-ex-president-veroordeeld-tot-25-jaar-cel-voor-oorlogs/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:12:00.347110+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8657196164131165,
+            "article": {
+              "title": "Hashim Thaçi, ancien président du Kosovo, condamné à vingt-cinq ans de prison pour crimes de guerre commis dans les années 1990",
+              "url": "https://www.lemonde.fr/international/article/2026/09/16/l-ancien-president-du-kosovo-condamne-a-vingt-cinq-ans-de-prison-pour-crimes-de-guerre_6775199_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:51.721692+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8651131391525269,
+            "article": {
+              "title": "Kosovaarse ex-president Thaci krijgt 25 jaar cel voor oorlogsmisdaden, rellen na vonnis",
+              "url": "https://nos.nl/artikel/2631232-kosovaarse-ex-president-thaci-krijgt-25-jaar-cel-voor-oorlogsmisdaden-rellen-na-vonnis",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:04.100203+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8581880331039429,
+            "article": {
+              "title": "Kosovský exprezident Thaçi dostal 25 let za válečné zločiny. Hanba, zuří Albánci",
+              "url": "https://www.idnes.cz/zpravy/zahranicni/kosovo-srbsko-bosna-valka-hashim-tha-i-haag-soud-trest-vezeni.A260916_120840_zahranicni_dtt",
+              "source_id": "idnes.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:14:15.843467+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8518233299255371,
+            "article": {
+              "title": "Special court for Kosovo sentences former president to 25 years in prison",
+              "url": "https://tass.com/world/2188401",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:14:40.848230+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8459911346435547,
+            "article": {
+              "title": "Kosovo's ex-President Thaçi convicted of war crimes at Hague court",
+              "url": "https://www.euronews.com/2026/09/16/kosovos-former-president-thaci-convicted-of-war-crimes-at-hague-court",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:01.687766+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8453025221824646,
+            "article": {
+              "title": "odkaz Thaçi dostal 25 let za válečné zločiny",
+              "url": "https://ct24.ceskatelevize.cz/clanek/svet/tribunal-pro-kosovo-ulozil-exprezidentu-thacimu-25-let-vezeni-za-valecne-zlociny-377671",
+              "source_id": "ct24.ceskatelevize.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:14:18.167908+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8450069427490234,
+            "article": {
+              "title": "Mundo Expresidente de Kosovo condenado a 25 años de cárcel por crímenes de guerra",
+              "url": "https://www.crhoy.com/mundo/expresidente-de-kosovo-condenado-a-25-anos-de-carcel-por-crimenes-de-guerra/",
+              "source_id": "crhoy.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:12:26.015307+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.836230993270874,
+            "article": {
+              "title": "Háborús bűnök miatt 25 év börtönre ítélték a volt koszovói...",
+              "url": "https://telex.hu/kulfold/2026/09/16/hashim-thaci-koszovo-elnok-haborus-bun-haga-itelet-25-ev-bortonbuntetes",
+              "source_id": "telex.hu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:14:11.122906+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8309009671211243,
+            "article": {
+              "title": "3 t Verden Kosovos ekspresident dømt til 25 års fengsel for krigsforbrytelser",
+              "url": "https://www.aftenposten.no/verden/i/5pK77K/kosovos-ekspresident-doemt-til-25-aars-fengsel-for-krigsforbrytelser",
+              "source_id": "aftenposten.no",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:34.260537+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8249111175537109,
+            "article": {
+              "title": "السجن 25 عاماً لرئيس كوسوفو السابق هاشم تاجي بتهمة ارتكاب جرائم حرب",
+              "url": "https://www.annahar.com/international/348095/السجن-25-عاما-لرئيس-كوسوفو-السابق-هاشم-تاجي-بتهمة-ارتكاب-جرائم-حرب",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:13:59.922946+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7985538244247437,
+            "article": {
+              "title": "Fostul președinte din Kosovo, condamnat pentru crime de război / Ce a decis tribunalul de la Haga",
+              "url": "https://hotnews.ro/fostul-presedinte-din-kosovo-condamnat-pentru-crime-de-razboi-ce-a-decis-tribunalul-de-la-haga-2350629",
+              "source_id": "hotnews.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:14:13.361160+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7858337759971619,
+            "article": {
+              "title": "الحكم على رئيس كوسوفو السابق هاشم تاتشي بالسجن 25 عاما بتهمة ارتكاب ...",
+              "url": "https://www.aljazeera.net/news/2026/9/16/عاجل-الحكم-على-رئيس-كوسوفو-السابق-هاشم",
+              "source_id": "aljazeera.net",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:13:41.070913+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7847456932067871,
+            "article": {
+              "title": "Eski Cumhurbaşkanı Thaçi'ye hapis cezası!",
+              "url": "https://www.milliyet.com.tr/dunya/son-dakika-laheyde-yargilaniyordu-eski-kosova-cumhurbaskani-thaciye-25-yil-hapis-cezasi-7661499",
+              "source_id": "milliyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:13:49.865833+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7810764908790588,
+            "article": {
+              "title": "Kosovos expresident fängslas för krigsbrott",
+              "url": "https://www.dn.se/direkt/2026-09-16/kosovos-expresident-fangslas-for-krigsbrott/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:32.737941+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7198728919029236,
+            "article": {
+              "title": "Hague Court Convicts Kosovo Liberation Army Leaders of War Crimes",
+              "url": "https://balkaninsight.com/2026/09/16/hague-court-convicts-kosovo-liberation-army-leaders-of-war-crimes/btj/",
+              "source_id": "balkaninsight.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:15:02.636461+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 106.65163148080768,
+        "size": 19,
+        "n_sources": 19,
+        "n_continents": 7,
+        "continents": [
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "North America",
+          "Oceania",
+          "South America"
+        ],
+        "coherence": 0.855843722820282,
+        "title": "EU opens door for Canada to become its first associate member",
+        "central_article": {
+          "title": "EU opens door for Canada to become its first associate member",
+          "url": "https://www.independent.co.uk/news/world/europe/canada-eu-associate-member-membership-b3051050.html",
+          "source_id": "independent.co.uk",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-16T12:10:53.858000+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9273159503936768,
+            "article": {
+              "title": "EU opens door for Canada to become its first associate member",
+              "url": "https://www.independent.co.uk/news/world/europe/canada-eu-associate-member-membership-b3051050.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:10:53.858000+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9265294075012207,
+            "article": {
+              "title": "EU opens door for Canada to become first associate member",
+              "url": "https://www.channelnewsasia.com/world/eu-canada-first-associate-member-6388506",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:17:42.835339+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9228734970092773,
+            "article": {
+              "title": "Canada invited to become EU’s first ‘associate member’",
+              "url": "https://georgiatoday.ge/canada-invited-to-become-eus-first-associate-member/",
+              "source_id": "georgiatoday.ge",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:14:51.271827+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9193538427352905,
+            "article": {
+              "title": "Canada invited to become first 'associate member' of the EU",
+              "url": "https://www.euronews.com/my-europe/2026/09/16/canada-to-become-first-associate-member-of-the-eu",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:01.687766+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9184447526931763,
+            "article": {
+              "title": "European Union invites Canada to become first ever ‘associate member’",
+              "url": "https://www.theguardian.com/world/2026/sep/16/von-der-leyen-mark-carney-canada-eu-first-associate-member",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:10:56.813710+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9162827134132385,
+            "article": {
+              "title": "EU chief opens door for Canada to become first associate member",
+              "url": "https://www.irishtimes.com/world/europe/2026/09/16/eu-opens-door-for-canada-to-become-first-associate-member-eu-commission-president-says/",
+              "source_id": "irishtimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:13:35.260062+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8937530517578125,
+            "article": {
+              "title": "EU chief calls for Canada to become bloc’s first associate member",
+              "url": "https://www.theglobeandmail.com/world/article-eu-chief-canada-first-associate-member-carney-von-der-leyen/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:13:17.257513+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8882408738136292,
+            "article": {
+              "title": "EU considers ‘associate member’ status for Canada",
+              "url": "https://www.bangkokpost.com/world/3320674/eu-considers-associate-member-status-for-canada",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:18:02.769109+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.88446444272995,
+            "article": {
+              "title": "EU Eyes ‘Associate Membership’ for Canada",
+              "url": "https://www.kyivpost.com/post/84643",
+              "source_id": "kyivpost.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:14:27.919791+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8762181997299194,
+            "article": {
+              "title": "EU chief backs plan for Canada to become 'associate member'",
+              "url": "https://www.bbc.com/news/articles/cjwyzrr9d3dko",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:10:52.334970+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8602597117424011,
+            "article": {
+              "title": "EU proposes landmark associate membership for Canada",
+              "url": "https://www.sbs.com.au/news/article/eu-proposes-landmark-associate-membership-for-canada/bb4lsyumz",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:13:21.681892+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8511028289794922,
+            "article": {
+              "title": "Von der Leyen ofrece a Canadá ser el primer \"miembro asociado\" de la Unión Europea",
+              "url": "https://www.emol.com/noticias/Internacional/2026/09/16/1211608/union-europea-canada.html",
+              "source_id": "emol.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:12:36.001929+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8149009943008423,
+            "article": {
+              "title": "Perdana, Kanada Diajak Gabung Uni Eropa Jadi “Anggota Istimewa” Global",
+              "url": "https://www.kompas.com/global/read/2026/09/16/182634770/perdana-kanada-diajak-gabung-uni-eropa-jadi-anggota-istimewa?source=headline",
+              "source_id": "kompas.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:18:14.831448+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7968129515647888,
+            "article": {
+              "title": "EU chief calls for creation of ‘European Security Council’, backs partnership with Canada",
+              "url": "https://www.france24.com/en/europe/20260916-live-eu-chief-ursula-von-der-leyen-gives-state-of-the-union-address",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:56.806020+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7931543588638306,
+            "article": {
+              "title": "E.U. Offers to Make Canada ‘Associate Member’ as U.S. Ties Weaken for Both",
+              "url": "https://www.nytimes.com/2026/09/16/world/europe/eu-canada-associate-member.html",
+              "source_id": "nytimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:15:46.849373+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7886212468147278,
+            "article": {
+              "title": "В ЕС предложили создать Совбез с участием Украины. Канаде хотят дать статус первого ассоциированного члена ЕС 16 сентября",
+              "url": "https://novayagazeta.eu/articles/2026/09/16/v-es-predlozhili-sozdat-sovbez-s-uchastiem-ukrainy-kanade-khotiat-dat-status-pervogo-assotsiirovannogo-chlena-es-news",
+              "source_id": "novayagazeta.eu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:14:32.220099+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7794196605682373,
+            "article": {
+              "title": "Von der Leyen: “Il Canada primo membro associato dell’Ue”. Sicurezza, energia e difesa al centro della nuova Europa",
+              "url": "https://www.repubblica.it/esteri/2026/09/16/news/von_der_leyen_discorso_stato_unione_ue-425587961/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:12:11.692728+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7684065103530884,
+            "article": {
+              "title": "EU capitals caught off guard as von der Leyen announces ‘associate membership’ for Canada",
+              "url": "https://www.politico.eu/article/eu-capitals-mark-carney-ursula-von-der-leyen-associate-membership-canada/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:02.883819+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7348752617835999,
+            "article": {
+              "title": "Gemeinsam gegen Trump: Könnte Kanada EU-Mitglied werden?",
+              "url": "https://www.zdfheute.de/politik/ausland/eu-kanada-mitglied-formen-zollstreit-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:23.816553+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 104.61598597874422,
         "size": 20,
         "n_sources": 19,
         "n_continents": 8,
         "continents": [
           "China",
-          "East Asia",
           "Europe East",
           "Europe North",
           "Europe South",
-          "Middle East",
-          "North America",
-          "South America"
-        ],
-        "coherence": 0.841769814491272,
-        "title": "Trump says Kennedy Center to close after judge bars name change",
-        "central_article": {
-          "title": "Trump says Kennedy Center to close after judge bars name change",
-          "url": "https://www.bangkokpost.com/world/3320484/trump-says-kennedy-center-to-close-after-judge-bars-name-change",
-          "source_id": "bangkokpost.com",
-          "continent": "East Asia",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-15T21:54:00.525337+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9404114484786987,
-            "article": {
-              "title": "Trump says Kennedy Center to close after judge bars name change",
-              "url": "https://www.bangkokpost.com/world/3320484/trump-says-kennedy-center-to-close-after-judge-bars-name-change",
-              "source_id": "bangkokpost.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:54:00.525337+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.924458384513855,
-            "article": {
-              "title": "Trump says Kennedy Centre to close after judge bars name change",
-              "url": "https://www.scmp.com/news/world/united-states-canada/article/3367643/kennedy-centre-board-votes-close-renovations-judge-blocks-trumps-name-again?module=latest&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:52:21.535167+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.924458384513855,
-            "article": {
-              "title": "Trump says Kennedy Centre to close after judge bars name change",
-              "url": "https://www.scmp.com/news/world/united-states-canada/article/3367643/kennedy-centre-board-votes-close-renovations-judge-blocks-trumps-name-again?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:52:21.535167+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9087368845939636,
-            "article": {
-              "title": "Trump says Kennedy Center to close as court rules his name must stay off building",
-              "url": "https://www.bbc.com/news/articles/c6y8zp3kv0x3o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:16.827700+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8976946473121643,
-            "article": {
-              "title": "Kennedy Center board votes to close after being told they can’t add Trump name as president vows to cancel repairs",
-              "url": "https://www.independent.co.uk/news/world/americas/us-politics/kennedy-center-trump-board-closing-b3050768.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:18.272279+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8815996050834656,
-            "article": {
-              "title": "Kennedy Center board votes to close venue immediately as judge again blocks addition of Trump’s name",
-              "url": "https://www.latimes.com/entertainment-arts/story/2026-09-15/kennedy-center-closing-board-vote-trump-name-blocked",
-              "source_id": "latimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:52:12.928543+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8749916553497314,
-            "article": {
-              "title": "Kennedy Center board votes to close for repairs after judge blocks Trump’s name from façade",
-              "url": "https://www.theglobeandmail.com/world/us-politics/article-kennedy-center-trump-name-building/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:49:36.150386+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8746194243431091,
-            "article": {
-              "title": "¿Qué pasa con el Kennedy Center? Trump anuncia su cierre tras no poder ponerle su nombre",
-              "url": "https://www.elespectador.com/mundo/america/cerrara-el-kennedy-center-trump/",
-              "source_id": "elespectador.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:49:14.399623+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8736585378646851,
-            "article": {
-              "title": "Il cda chiude il Kennedy center. E Trump minaccia: “Niente soldi se non c'è il mio nome”",
-              "url": "https://www.repubblica.it/esteri/2026/09/15/news/il_kennedy_center_chiude_minaccia_trump_ristrutturazione_solo_con_mio_nome-425587514/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:48:32.292314+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8622527122497559,
-            "article": {
-              "title": "Trump will Kennedy Center umgehend schließen",
-              "url": "https://www.diepresse.com/41266236/trump-will-kennedy-center-umgehend-schliessen",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:45.559083+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.860874354839325,
-            "article": {
-              "title": "Kennedy Center closes amid financial crisis and Trump name dispute",
-              "url": "https://www.aljazeera.com/news/2026/9/15/kennedy-center-closes-amid-financial-crisis-and-trump-name-dispute",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:49:53.965842+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8499971628189087,
-            "article": {
-              "title": "Kennedyho centrum bude okamžitě uzavřeno, oznámil Trump",
-              "url": "https://ct24.ceskatelevize.cz/clanek/svet/kennedyho-centrum-bude-okamzite-uzavreno-oznamil-trump-377653",
-              "source_id": "ct24.ceskatelevize.cz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:50:30.618481+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8452723026275635,
-            "article": {
-              "title": "Soud zakázal návrat jeho jména, tak se Trump pomstil: zavřel Kennedyho centrum",
-              "url": "https://www.idnes.cz/zpravy/zahranicni/trump-soud-kennedyho-centrum.A260915_194518_zahranicni_jhr",
-              "source_id": "idnes.cz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:50:28.474476+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8336157202720642,
-            "article": {
-              "title": "Trump menace de ne pas rouvrir le Kennedy Center si son nom n’y est pas apposé",
-              "url": "https://www.lesoir.be/771145/article/2026-09-15/trump-menace-de-ne-pas-rouvrir-le-kennedy-center-si-son-nom-ny-est-pas-appose",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:48:25.000944+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8306945562362671,
-            "article": {
-              "title": "Trump Fights Back After Judge Says Name Must Stay Off Kennedy Center",
-              "url": "https://www.nytimes.com/2026/09/15/arts/music/kennedy-center-trump-name-inscription-judge-ruling.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:51:51.387328+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7668443322181702,
-            "article": {
-              "title": "甘迺迪中心董事會投票決定關閉 涉財困及特朗普冠名爭議",
-              "url": "https://www.singtaousa.com/2026/09/15/news/usa/news-kennedy-center-closure-trump-naming-dispute/",
-              "source_id": "singtaousa.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:52:38.576475+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.765308141708374,
-            "article": {
-              "title": "Bestyrelse stemmer for at lukke Kennedy Center i to år",
-              "url": "https://www.dr.dk/nyheder/udland/bestyrelse-stemmer-lukke-kennedy-center-i-aar",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:48:05.831331+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7374602556228638,
-            "article": {
-              "title": "News Wrap: Kennedy Center warns of 'fiscal collapse' without Trump's name on building",
-              "url": "https://www.pbs.org/newshour/show/news-wrap-kennedy-center-warns-of-fiscal-collapse-without-trumps-name-on-building",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:52:20.321960+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7369582653045654,
-            "article": {
-              "title": "Rechter VS blokkeert naamsverandering Kennedy Center opnieuw",
-              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5652180/kennedy-center-trump-naamsverandering-rechter-rechtspraak",
-              "source_id": "rtl.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:32.135269+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6454886198043823,
-            "article": {
-              "title": "Trump lashes out at US Supreme Court justices after ballot ruling",
-              "url": "https://www.thestar.com.my/news/world/2026/09/15/trump-lashes-out-at-us-supreme-court-justices-after-ballot-ruling",
-              "source_id": "thestar.com.my",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:54:07.105904+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 86.25643785993255,
-        "size": 20,
-        "n_sources": 18,
-        "n_continents": 7,
-        "continents": [
-          "East Asia",
-          "Europe North",
-          "Europe South",
-          "Middle East",
           "North America",
           "Oceania",
-          "South America"
-        ],
-        "coherence": 0.8242085576057434,
-        "title": "More artists drop out of Ed Sheeran's tour in solidarity with rapper Macklemore",
-        "central_article": {
-          "title": "More artists drop out of Ed Sheeran's tour in solidarity with rapper Macklemore",
-          "url": "https://www.pbs.org/newshour/arts/more-artists-drop-out-of-ed-sheerans-tour-in-solidarity-with-rapper-macklemore",
-          "source_id": "pbs.org",
-          "continent": "North America",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-15T21:52:20.321960+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.895099401473999,
-            "article": {
-              "title": "More artists drop out of Ed Sheeran's tour in solidarity with rapper Macklemore",
-              "url": "https://www.pbs.org/newshour/arts/more-artists-drop-out-of-ed-sheerans-tour-in-solidarity-with-rapper-macklemore",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:52:20.321960+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8927429914474487,
-            "article": {
-              "title": "Nach Ausladung von Macklemore – mehrere Musiker sagen Auftritt bei Ed Sheeran-Tour ab",
-              "url": "https://www.welt.de/vermischtes/article6aa999249cfc210a32c4aa8d/vorprogramm-nach-ausladung-von-macklemore-mehrere-musiker-sagen-auftritt-bei-ed-sheeran-tour-ab.html",
-              "source_id": "welt.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:42.577428+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8772412538528442,
-            "article": {
-              "title": "Four supporting acts quit Ed Sheeran’s tour after Macklemore is dropped over Palestine comments",
-              "url": "https://www.independent.co.uk/arts-entertainment/music/news/ed-sheeran-tour-supporting-acts-macklemore-b3050790.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:18.272279+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8746227025985718,
-            "article": {
-              "title": "Ed Sheeran says dropping Macklemore from US tour was not his decision",
-              "url": "https://www.straitstimes.com/world/middle-east/ed-sheeran-says-dropping-macklemore-from-us-tour-was-not-his-decision?ref=latest-headlines",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:54:04.713656+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8745051026344299,
-            "article": {
-              "title": "Four more acts quit Ed Sheeran tour as singer says Macklemore decision 'was not mine'",
-              "url": "https://www.sbs.com.au/news/article/four-more-acts-quit-ed-sheeran-tour-as-singer-says-macklemore-decision-was-not-mine/dtv3b4upg",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:49:39.170942+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8714659214019775,
-            "article": {
-              "title": "US rapper Macklemore dropped from Ed Sheeran's tour after 'free Palestine' speech",
-              "url": "https://www.sbs.com.au/news/article/ed-sheeran-tour-drops-macklemore-for-free-palestine-speech/mkqdcfxbv",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:49:39.170942+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8686923980712891,
-            "article": {
-              "title": "« Ce n’est pas ma décision » : Ed Sheeran réagit à l’éviction de Macklemore de sa tournée",
-              "url": "https://www.lesoir.be/771137/article/2026-09-15/ce-nest-pas-ma-decision-ed-sheeran-reagit-leviction-de-macklemore-de-sa-tournee",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:48:25.000944+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8633493185043335,
-            "article": {
-              "title": "Ed Sheeran’s tour in trouble after opening acts drop out in solidarity with rapper Macklemore",
-              "url": "https://www.chicagotribune.com/2026/09/15/supporting-acts-quit-ed-sheerans-tour-macklemore/",
-              "source_id": "chicagotribune.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:52:16.599791+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8506687879562378,
-            "article": {
-              "title": "Lukas Graham trækker sig fra Ed Sheerans turné efter Macklemore-sag",
-              "url": "https://www.dr.dk/nyheder/kultur/lukas-graham-traekker-sig-fra-ed-sheerans-turne-efter-macklemore-sag",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:48:05.831331+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8347252607345581,
-            "article": {
-              "title": "Nach Macklemore-Absage: Ed Sheeran verweist auf Tourveranstalter",
-              "url": "https://www.diepresse.com/41266228/nach-macklemore-absage-ed-sheeran-verweist-auf-tourveranstalter",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:45.559083+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8255040049552917,
-            "article": {
-              "title": "États-Unis Le rappeur Macklemore écarté de la tournée d'Ed Sheeran après avoir appelé à « libérer la Palestine »",
-              "url": "https://www.lorientlejour.com/article/1547565/le-rappeur-macklemore-ecarte-de-la-tournee-ded-sheeran-apres-avoir-appele-a-liberer-la-palestine.html",
-              "source_id": "lorientlejour.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:50:01.641151+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8241336941719055,
-            "article": {
-              "title": "Il rapper Macklemore cacciato dal tour di Ed Sheeran negli Usa per le sue parole pro Palestina",
-              "url": "https://www.corriere.it/esteri/26_settembre_15/rapper-macklemore-tour-ed-sheeran-e5400759-0f8a-4d75-8218-f2a66873fxlk.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:48:34.046176+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7943956255912781,
-            "article": {
-              "title": "Muziek Ed Sheeran reageert op Macklemore-controverse: \"Concertorganisator zette hem uit de tour, niet ik\"",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/09/15/muziekfilosofe-marlies-de-munck-over-macklemore-en-ed-sheeran/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:48:21.062078+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7748489379882812,
-            "article": {
-              "title": "Ed Sheeran reagerer, efter opvarmningsnavn blev pillet ud af turné",
-              "url": "https://www.dr.dk/nyheder/udland/ed-sheeran-reagerer-efter-opvarmningsnavn-blev-pillet-ud-af-turne",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:48:05.831331+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7726424932479858,
-            "article": {
-              "title": "Net binnen • Buitenland Na exit Macklemore zit Ed Sheeran nu ook zonder band en supportacts",
-              "url": "https://nos.nl/artikel/2631184-na-exit-macklemore-zit-ed-sheeran-nu-ook-zonder-band-en-supportacts",
-              "source_id": "nos.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:28.307521+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7723078727722168,
-            "article": {
-              "title": "Lukas Graham trækker sig fra Ed Sheerans turné",
-              "url": "https://politiken.dk/kultur/musik/art10984464/Lukas-Graham-tr%C3%A6kker-sig-fra-Ed-Sheerans-turn%C3%A9",
-              "source_id": "politiken.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:55.054852+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7651453018188477,
-            "article": {
-              "title": "Finneas se baja como telonero de Ed Sheeran tras polémica con Macklemore: Estaba confirmado en Chile",
-              "url": "https://www.emol.com/noticias/Espectaculos/2026/09/15/1211584/finneas-gira-sheeran-polemica-macklemore.html",
-              "source_id": "emol.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:48:55.065996+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7602980136871338,
-            "article": {
-              "title": "'Find a moral compass': Ed Sheeran urged to cancel US tour",
-              "url": "https://www.newarab.com/news/find-moral-compass-ed-sheeran-urged-cancel-us-tour",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:50:09.565810+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7510603070259094,
-            "article": {
-              "title": "Sheeran: ”Inte mitt beslut att ta bort Macklemore”",
-              "url": "https://www.dn.se/direkt/2026-09-15/sheeran-inte-mitt-beslut-att-ta-bort-macklemore/",
-              "source_id": "dn.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:56.801550+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7407222390174866,
-            "article": {
-              "title": "Irish acts Aaron Rowe and Beoga quit Ed Sheeran’s US tour in protest over Palestine",
-              "url": "https://www.irishtimes.com/culture/music/2026/09/15/irish-acts-aaron-rowe-and-beoga-quit-ed-sheerans-us-tour-in-protest-over-palestine/",
-              "source_id": "irishtimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:49:52.844077+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 53.20990188084014,
-        "size": 15,
-        "n_sources": 14,
-        "n_continents": 6,
-        "continents": [
-          "East Asia",
-          "Europe North",
-          "Europe South",
-          "Middle East",
           "South America",
           "South Asia"
         ],
-        "coherence": 0.8086855411529541,
-        "title": "Les Etats-Unis reconnaissent pour la première fois avoir déployé des armes dans l’espace",
+        "coherence": 0.8252831697463989,
+        "title": "Three dead after NBC News helicopter crashes in Los Angeles while covering bus accident",
         "central_article": {
-          "title": "Les Etats-Unis reconnaissent pour la première fois avoir déployé des armes dans l’espace",
-          "url": "https://www.rts.ch/info/monde/2026/article/armes-dans-l-espace-les-etats-unis-confirment-leur-presence-29357839.html",
-          "source_id": "rts.ch",
-          "continent": "Europe South",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-15T21:48:19.541739+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9147847890853882,
-            "article": {
-              "title": "Les Etats-Unis reconnaissent pour la première fois avoir déployé des armes dans l’espace",
-              "url": "https://www.rts.ch/info/monde/2026/article/armes-dans-l-espace-les-etats-unis-confirment-leur-presence-29357839.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:48:19.541739+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.901553750038147,
-            "article": {
-              "title": "Gli Usa ammettono per la prima volta di avere armi nello spazio: «Pronte all'uso»",
-              "url": "https://www.corriere.it/esteri/26_settembre_15/gli-usa-ammettono-schierate-armi-nello-spazio-sono-pronte-all-uso-8b3e442c-fcde-469e-95d4-069b1ab1cxlk.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:48:34.046176+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8977400064468384,
-            "article": {
-              "title": "Οι ΗΠΑ παραδέχθηκαν ότι έχουν αναπτύξει όπλα στο διάστημα",
-              "url": "https://www.tovima.gr/2026/09/15/world/oi-ipa-paradexthikan-gia-proti-fora-oti-exoun-anaptyksei-opla-sto-diastima/",
-              "source_id": "tovima.gr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:48:35.438218+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8795050382614136,
-            "article": {
-              "title": "امریکا کا پہلی بار خلائی مدار میں ہتھیار تعینات کرنے کا باضابطہ اعتراف",
-              "url": "https://www.nawaiwaqt.com.pk/15-Sep-2026/2028294",
-              "source_id": "nawaiwaqt.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:53:08.723269+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8412175178527832,
-            "article": {
-              "title": "Un air de \"guerre froide\" dans l’espace : pourquoi les États-Unis reconnaissent-ils pour la première fois disposer d’armes en orbite ?",
-              "url": "https://www.rtbf.be/article/un-air-de-guerre-froide-dans-l-espace-pourquoi-les-etats-unis-reconnaissent-ils-pour-la-premiere-fois-disposer-d-armes-en-orbite-11785451",
-              "source_id": "rtbf.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:48:23.485362+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8411996364593506,
-            "article": {
-              "title": "Estados Unidos tiene armas desplegadas en el espacio, afirma la Fuerza Espacial",
-              "url": "https://elcomercio.pe/mundo/eeuu/estados-unidos-tiene-armas-desplegadas-en-el-espacio-afirma-la-fuerza-espacial-donald-trump-rusia-china-ultimas-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:49:04.040019+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8396685719490051,
-            "article": {
-              "title": "Verenigde Staten Amerikaans leger bevestigt dat het wapens heeft in de ruimte",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/09/15/amerikaans-leger-bevestigt-dat-het-wapens-heeft-in-de-ruimte/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:48:21.062078+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8125473260879517,
-            "article": {
-              "title": "Space wars: What 'weapons' does the US have in orbit?",
-              "url": "https://www.newarab.com/news/space-wars-what-weapons-does-us-have-orbit",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:50:09.565810+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8090001940727234,
-            "article": {
-              "title": "Qué se sabe del arma que EE.UU. dice que desplegó en el espacio",
-              "url": "https://www.bbc.com/mundo/articles/ckr507379gm8o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:48:36.664354+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7832881212234497,
-            "article": {
-              "title": "AS Akui Punya Senjata di Orbit, China-Rusia Langsung Lempar Peringatan Global",
-              "url": "https://internasional.kompas.com/read/2026/09/15/210000970/as-akui-punya-senjata-di-orbit-china-rusia-langsung-lempar-peringatan?source=headline",
-              "source_id": "kompas.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:54:11.496465+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7374536395072937,
-            "article": {
-              "title": "امریکی حکومتی نگراں ادارے کی ہتھیاروں کے ذخائر متاثر ہونے کی تصدیق",
-              "url": "https://jang.com.pk/news/1616053",
-              "source_id": "jang.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:53:06.673393+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7355889081954956,
-            "article": {
-              "title": "अमेरिका ने पहली बार माना- स्पेस में हथियार तैनात किए: कौन से वेपन, कब भेजे गए अभी सीक्रेट, अंतरिक्ष में युद्ध का खतरा बढ़ा Play video",
-              "url": "https://www.bhaskar.com/g/international/news/us-space-force-deploys-weapons-russia-china-threat-2026-139036119.html",
-              "source_id": "bhaskar.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:52:49.796172+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7204946279525757,
-            "article": {
-              "title": "Erstmals öffentlich Offizieller US-Bericht räumt Munitionsmangel wegen Irankriegs ein",
-              "url": "https://www.spiegel.de/ausland/usa-offizieller-us-bericht-raeumt-munitionsmangel-wegen-iran-kriegs-ein-a-def451d5-3da0-45b6-bf28-d819507d58e1",
-              "source_id": "spiegel.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:38.459457+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7141007781028748,
-            "article": {
-              "title": "امریکا کا ایران سے جنگ میں فوجی ہلاکتوں، زخمیوں اور تباہی کا اعتراف",
-              "url": "https://jang.com.pk/news/1560993",
-              "source_id": "jang.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:53:06.673393+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7021394968032837,
-            "article": {
-              "title": "US orbital weapons acknowledgement a \"landmark\" move, US Space Command official says",
-              "url": "https://www.channelnewsasia.com/world/us-orbital-weapons-space-air-force-6386981",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:53:40.896658+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 50.35610897887168,
-        "size": 19,
-        "n_sources": 15,
-        "n_continents": 6,
-        "continents": [
-          "China",
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "North America",
-          "South Asia"
-        ],
-        "coherence": 0.7838620543479919,
-        "title": "Why are AI leaders calling for a slowdown? The real reason for panic",
-        "central_article": {
-          "title": "Why are AI leaders calling for a slowdown? The real reason for panic",
-          "url": "https://www.independent.co.uk/tech/ai-slow-down-anthropic-openai-trump-artificial-intelligence-b3050287.html",
+          "title": "Three dead after NBC News helicopter crashes in Los Angeles while covering bus accident",
+          "url": "https://www.independent.co.uk/news/world/americas/la-helicopter-crash-chatsworth-los-angeles-latest-b3050911.html",
           "source_id": "independent.co.uk",
           "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-09-15T21:47:18.272279+00:00"
+          "scraped_at_utc": "2026-09-16T12:10:53.858000+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8790373802185059,
+            "sim_to_centroid": 0.9206377267837524,
             "article": {
-              "title": "Why are AI leaders calling for a slowdown? The real reason for panic",
-              "url": "https://www.independent.co.uk/tech/ai-slow-down-anthropic-openai-trump-artificial-intelligence-b3050287.html",
+              "title": "Three dead after NBC News helicopter crashes in Los Angeles while covering bus accident",
+              "url": "https://www.independent.co.uk/news/world/americas/la-helicopter-crash-chatsworth-los-angeles-latest-b3050911.html",
               "source_id": "independent.co.uk",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:18.272279+00:00"
+              "scraped_at_utc": "2026-09-16T12:10:53.858000+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8468372821807861,
+            "sim_to_centroid": 0.9105446338653564,
             "article": {
-              "title": "CNA Explains: Why AI leaders are calling for a slowdown – and what makes it so difficult",
-              "url": "https://www.channelnewsasia.com/world/ai-slowdown-dangers-cna-explains-6385551",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
+              "title": "NBC news helicopter crashes in LA while covering bus collision, killing three",
+              "url": "https://www.france24.com/en/americas/20260916-media-helicopter-crashes-in-la-while-covering-bus-collision-killing-three",
+              "source_id": "france24.com",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:53:40.896658+00:00"
+              "scraped_at_utc": "2026-09-16T12:11:56.806020+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8359886407852173,
+            "sim_to_centroid": 0.9065531492233276,
             "article": {
-              "title": "Why are there concerns AI could threaten humanity, and how real are they?",
-              "url": "https://www.bbc.com/news/articles/c790xvnzgnno",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:16.827700+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8314247131347656,
-            "article": {
-              "title": "Waarom zijn de grote AI-bedrijven zo bang voor AI?",
-              "url": "https://fd.nl/economie/1612143/waarom-zijn-de-grote-ai-bedrijven-zo-bang-voor-ai",
-              "source_id": "fd.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:34.149403+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8113868236541748,
-            "article": {
-              "title": "Trump pushes back as AI leaders fuel calls to rein in rapidly advancing technology",
-              "url": "https://www.pbs.org/newshour/show/trump-pushes-back-as-ai-leaders-fuel-calls-to-rein-in-rapidly-advancing-technology",
-              "source_id": "pbs.org",
+              "title": "News helicopter crashes in Los Angeles, killing at least 3",
+              "url": "https://www.usatoday.com/story/news/nation/2026/09/15/los-angeles-helicopter-crash-chatsworth/91786617007/",
+              "source_id": "usatoday.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:52:20.321960+00:00"
+              "scraped_at_utc": "2026-09-16T12:16:11.070082+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7973559498786926,
+            "sim_to_centroid": 0.8929533958435059,
             "article": {
-              "title": "HOW DANGEROUS is AI? And will Trump step in to protect us?",
-              "url": "https://www.channel4.com/news/how-dangerous-is-ai-and-will-trump-step-in-to-protect-us",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
+              "title": "3 people killed when NBC and Telemundo news helicopter crashes while covering LA bus collision",
+              "url": "https://www.chicagotribune.com/2026/09/16/nbc-telemundo-news-helicopter-crash/",
+              "source_id": "chicagotribune.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:24.264938+00:00"
+              "scraped_at_utc": "2026-09-16T12:16:12.240289+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7955771684646606,
+            "sim_to_centroid": 0.8848807215690613,
             "article": {
-              "title": "Почему главы корпораций и политики испугались искусственного интеллекта",
-              "url": "https://www.kommersant.ru/doc/8954579?from=spot_main",
-              "source_id": "kommersant.ru",
+              "title": "Fiery news helicopter crash kills three in Los Angeles (VIDEOS)",
+              "url": "https://www.rt.com/news/645787-news-helicopter-crashes-la/",
+              "source_id": "rt.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:50:51.264532+00:00"
+              "scraped_at_utc": "2026-09-16T12:14:36.601522+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7955466508865356,
+            "sim_to_centroid": 0.8821729421615601,
             "article": {
-              "title": "What is AI, how does it work and why are some people concerned about it?",
-              "url": "https://www.bbc.com/news/articles/c2l799gxjjpo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:16.827700+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.793167233467102,
-            "article": {
-              "title": "AI Leaders Are Calling for a Slowdown, but Wall Street Keeps on Buying",
-              "url": "https://www.hindustantimes.com/world-news/ai-leaders-are-calling-for-a-slowdown-but-wall-street-keeps-on-buying-101789466702775.html",
-              "source_id": "hindustantimes.com",
+              "title": "3 killed after NBC4 helicopter crashes in Los Angeles",
+              "url": "https://pajhwok.com/2026/09/16/3-killed-after-nbc4-helicopter-crashes-in-los-angeles/",
+              "source_id": "pajhwok.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:52:53.504754+00:00"
+              "scraped_at_utc": "2026-09-16T12:17:12.686889+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7741546630859375,
+            "sim_to_centroid": 0.8779158592224121,
             "article": {
-              "title": "Por qué preocupa que la IA pueda amenazar a la humanidad y qué tan real es ese temor",
-              "url": "https://www.bbc.com/mundo/articles/cqkg0dvwm99vo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
+              "title": "Al menos tres muertos: un helicóptero de NBC se estrella en Los Ángeles",
+              "url": "https://www.latercera.com/mundo/noticia/al-menos-tres-muertos-un-helicoptero-de-nbc-se-estrella-en-los-angeles/",
+              "source_id": "latercera.com",
+              "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:48:36.664354+00:00"
+              "scraped_at_utc": "2026-09-16T12:12:54.026118+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7731266021728516,
+            "sim_to_centroid": 0.8671000599861145,
             "article": {
-              "title": "AI末日或深層盤算 美企巨頭喊放慢理由與各界回應一次看",
-              "url": "https://www.cna.com.tw/news/aopl/202609150099.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
+              "title": "LA TV reporter and pilot among three dead in news helicopter crash",
+              "url": "https://www.abc.net.au/news/2026-09-16/helicopter-crashes-in-los-angeles-near-fatal-bus-crash/107159552",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:54:10.125048+00:00"
+              "scraped_at_utc": "2026-09-16T12:13:18.853651+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7687089443206787,
+            "sim_to_centroid": 0.8537107706069946,
             "article": {
-              "title": "El alarmante llamado del director de Anthropic para ralentizar el desarrollo de la inteligencia artificial",
-              "url": "https://www.bbc.com/mundo/articles/c86x7vnegvvo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
+              "title": "Helicóptero de noticias cae sobre un barrio de Los Ángeles y deja tres muertos",
+              "url": "https://www.elespectador.com/mundo/america/helicoptero-de-noticias-cae-sobre-un-barrio-de-los-angeles-y-deja-tres-muertos/",
+              "source_id": "elespectador.com",
+              "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:48:36.664354+00:00"
+              "scraped_at_utc": "2026-09-16T12:12:55.416439+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7676620483398438,
+            "sim_to_centroid": 0.842979907989502,
             "article": {
-              "title": "Americans loathe Trump’s job on AI and the numbers are getting worse",
-              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-ai-poll-anthropic-b3050138.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:18.272279+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7627047896385193,
-            "article": {
-              "title": "Sanders and Bannon call for AI limits, as public unease grows",
-              "url": "https://www.scmp.com/news/world/united-states-canada/article/3367642/sanders-and-bannon-call-ai-limits-public-unease-grows?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
+              "title": "NBC新聞直升機在通報洛杉磯公車事故時墜毀 造成3人死亡",
+              "url": "https://www.singtaousa.com/2026/09/15/news/usa/helicopter-crashes-and-bursts-into-flames-killing-at-least-3-people-near-an-la-bus-collision/",
+              "source_id": "singtaousa.com",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:52:21.535167+00:00"
+              "scraped_at_utc": "2026-09-16T12:16:35.839729+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7570174932479858,
+            "sim_to_centroid": 0.8216758966445923,
             "article": {
-              "title": "AI tech bros are self-serving and slimy. But we must heed them anyway and pause development",
-              "url": "https://www.theglobeandmail.com/business/commentary/article-ai-tech-bros-are-self-serving-and-slimy-but-we-must-heed-them-anyway/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
+              "title": "acidente aéreo Helicóptero de emissora de televisão que cobria acidente de trânsito cai em Los Angeles, nos Estados Unidos, deixando ao menos três mortos - Blake Fagan/AFP",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/09/tres-pessoas-morrem-em-acidente-com-helicoptero-de-tv-em-los-angeles.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:49:36.150386+00:00"
+              "scraped_at_utc": "2026-09-16T12:12:38.660641+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7416499853134155,
+            "sim_to_centroid": 0.8013837337493896,
             "article": {
-              "title": "Steve Bannon and Bernie Sanders Demand Tighter Controls on A.I.",
-              "url": "https://www.nytimes.com/2026/09/15/us/steve-bannon-bernie-sanders-ai.html",
+              "title": "News Helicopter Crash and Bus Accident in Los Angeles Leave at Least 5 Dead",
+              "url": "https://www.nytimes.com/2026/09/15/us/los-angeles-helicopter-crash.html",
               "source_id": "nytimes.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:51:51.387328+00:00"
+              "scraped_at_utc": "2026-09-16T12:15:46.849373+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7302523255348206,
+            "sim_to_centroid": 0.7940726280212402,
             "article": {
-              "title": "Technology Anthropic’s CEO calls for AI slowdown as Nvidia’s urges acceleration",
-              "url": "https://www.theguardian.com/technology/2026/sep/15/anthropic-nvidia-ceos-ai",
-              "source_id": "theguardian.com",
+              "title": "В Лос-Анджелесе разбился вертолет телеканала NBC4. На нем летели журналисты, которые вели прямой эфир о смертельном ДТП",
+              "url": "https://meduza.io/news/2026/09/16/v-los-andzhelese-razbilsya-vertolet-telekanala-nbc4-na-nem-leteli-zhurnalisty-kotorye-veli-pryamoy-efir-o-smertelnom-dtp",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:14:30.667887+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7906581163406372,
+            "article": {
+              "title": "TV-Hubschrauber filmt schweren Verkehrsunfall in Los Angeles und stürzt ab",
+              "url": "https://www.diepresse.com/41266307/tv-hubschrauber-filmt-schweren-verkehrsunfall-in-los-angeles-und-stuerzt-ab",
+              "source_id": "diepresse.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:22.529803+00:00"
+              "scraped_at_utc": "2026-09-16T12:11:21.701371+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.716209888458252,
+            "sim_to_centroid": 0.7651324272155762,
             "article": {
-              "title": "Talent shortage emerges as tech's biggest bottleneck in AI expansion boom",
-              "url": "https://asia.nikkei.com/business/technology/tech-asia/talent-shortage-emerges-as-tech-s-biggest-bottleneck-in-ai-expansion-boom",
-              "source_id": "asia.nikkei.com",
-              "continent": "East Asia",
+              "title": "अमेरिका में कवरेज के दौरान NBC चैनल का हेलिकॉप्टर क्रैश: NBC की पत्रकार, पायलट और जमीन पर एक व्यक्ति की मौत Play video",
+              "url": "https://www.bhaskar.com/g/international/news/nbc-news-helicopter-crash-los-angeles-accident-death-live-coverage-139045892.html",
+              "source_id": "bhaskar.com",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:53:17.868109+00:00"
+              "scraped_at_utc": "2026-09-16T12:16:47.837489+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7155710458755493,
+            "sim_to_centroid": 0.7625124454498291,
             "article": {
-              "title": "Saul Loeb/AFP VÄRLDEN | KOMMENTAR Karl Dalén: AI-hotet förde fienderna samman Trump vill öka tempot – Bannon och Sanders håller emot.",
-              "url": "https://www.dn.se/varlden/karl-dalen-darfor-vagrar-trump-lyssna-pa-varningarna-om-ai-hotet/",
-              "source_id": "dn.se",
-              "continent": "Europe North",
+              "title": "del momento cuando helicóptero de NBC Los Ángeles se estrelló durante una transmisión en directo en EE. UU.",
+              "url": "https://www.eltiempo.com/mundo/eeuu-y-canada/video-del-momento-exacto-en-el-que-helicoptero-de-nbc-los-angeles-se-estrello-durante-una-transmision-en-directo-en-ee-uu-grababan-accidente-de-bus-3586403",
+              "source_id": "eltiempo.com",
+              "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:56.801550+00:00"
+              "scraped_at_utc": "2026-09-16T12:12:31.397722+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7588843107223511,
+            "article": {
+              "title": "Három ember meghalt, amikor lezuhant egy tévécsatorna helikoptere Los Angelesben Éppen balesetről tudósítottak, amikor a tragédia történt.",
+              "url": "https://nepszava.hu/3332927_egyesult-allamok-los-angeles-helikopter-tragedia",
+              "source_id": "nepszava.hu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:14:19.713862+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7416244745254517,
+            "article": {
+              "title": "‘Our colleagues lost their lives’: NBC4 covers its own helicopter tragedy with grief, purpose",
+              "url": "https://www.latimes.com/california/story/2026-09-15/nbc4-reports-on-crash-of-its-own-news-helicopter-with-grief",
+              "source_id": "latimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:16:08.480116+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7223916053771973,
+            "article": {
+              "title": "Famosa reportera muere en trágico accidente de helicóptero mientras transmitía en vivo: este es el video",
+              "url": "https://www.semana.com/mundo/noticias-estados-unidos/articulo/famosa-reportera-muere-en-tragico-accidente-de-helicoptero-mientras-transmitia-en-vivo-este-es-el-video/202611/",
+              "source_id": "semana.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:12:32.857437+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7078761458396912,
+            "article": {
+              "title": "NBC4 helicopter crashes in Chatsworth, killing 3: ‘A deeply traumatic day’",
+              "url": "https://www.latimes.com/california/story/2026-09-15/2-reportedly-killed-in-crash-of-suv-metro-bus-that-leaves-numerous-people-injured",
+              "source_id": "latimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:16:08.480116+00:00"
             }
           }
         ]
       },
       {
-        "score": 47.11929909372587,
-        "size": 10,
-        "n_sources": 9,
-        "n_continents": 8,
+        "score": 92.39415800247544,
+        "size": 19,
+        "n_sources": 18,
+        "n_continents": 7,
+        "continents": [
+          "China",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.8379563689231873,
+        "title": "Dans la ville de Gaza, un immeuble endommagé par des attaques israéliennes s’effondre, au moins 20 morts et des dizaines de disparus",
+        "central_article": {
+          "title": "Dans la ville de Gaza, un immeuble endommagé par des attaques israéliennes s’effondre, au moins 20 morts et des dizaines de disparus",
+          "url": "https://www.lemonde.fr/international/article/2026/09/16/a-gaza-8-morts-et-plus-de-60-disparus-dans-l-effondrement-d-un-immeuble_6774960_3210.html",
+          "source_id": "lemonde.fr",
+          "continent": "Europe South",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-16T12:11:51.721692+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9277265071868896,
+            "article": {
+              "title": "Dans la ville de Gaza, un immeuble endommagé par des attaques israéliennes s’effondre, au moins 20 morts et des dizaines de disparus",
+              "url": "https://www.lemonde.fr/international/article/2026/09/16/a-gaza-8-morts-et-plus-de-60-disparus-dans-l-effondrement-d-un-immeuble_6774960_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:51.721692+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9122693538665771,
+            "article": {
+              "title": "Gaza : 20 morts et des dizaines de disparus dans l’effondrement d’un immeuble",
+              "url": "https://www.rtbf.be/article/gaza-20-morts-et-des-dizaines-de-disparus-dans-l-effondrement-d-un-immeuble-11786039",
+              "source_id": "rtbf.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:12:02.911586+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9049413204193115,
+            "article": {
+              "title": "20 dead, dozens missing after war-damaged building falls in Gaza",
+              "url": "https://www.newarab.com/news/20-dead-dozens-missing-after-war-damaged-building-falls-gaza",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:13:52.673056+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9039270877838135,
+            "article": {
+              "title": "Gaza: Minst 20 bekreftet døde i bygningskollaps",
+              "url": "https://www.dagbladet.no/studio/72720-nyhetsstudio/12453410-gaza-minst-20-bekreftet-døde-i-bygningskollaps",
+              "source_id": "dagbladet.no",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:36.803659+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8947850465774536,
+            "article": {
+              "title": "Gaza building collapse kills 20, traps dozens under rubble",
+              "url": "https://www.aljazeera.com/news/2026/9/16/gaza-residential-building-collapses-six-families-reportedly-trapped",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:13:36.554835+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8630580902099609,
+            "article": {
+              "title": "Crollato un palazzo a Gaza, 20 morti. “Almeno cento persone tra le macerie, 50 sono bambini” |",
+              "url": "https://www.repubblica.it/esteri/2026/09/16/news/gaza_crolla_un_palazzo_bambini_tra_le_macerie_striscia-425588255/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:12:11.692728+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8552627563476562,
+            "article": {
+              "title": "Gaza Au moins 20 morts et des dizaines de disparus dans l'effondrement d'un immeuble endommagé à Gaza-ville",
+              "url": "https://www.lorientlejour.com/article/1547676/au-moins-huit-morts-et-plus-de-60-disparus-dans-leffondrement-dun-immeuble-a-gaza-ville.html",
+              "source_id": "lorientlejour.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:13:45.058230+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8546425104141235,
+            "article": {
+              "title": "War-damaged Gaza building collapses killing 12 people seeking shelter inside",
+              "url": "https://kathmandupost.com/world/2026/09/16/war-damaged-gaza-building-collapses-killing-12-people-seeking-shelter-inside",
+              "source_id": "kathmandupost.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:17:06.646969+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8473500609397888,
+            "article": {
+              "title": "De nombreux morts et disparus à Gaza dans l'effondrement d'un immeuble Proche-Orient aujourd'hui à",
+              "url": "https://www.rts.ch/info/monde/2026/article/gaza-au-moins-20-morts-dans-l-effondrement-d-un-immeuble-29358764.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:58.798732+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8459837436676025,
+            "article": {
+              "title": "War-damaged Gaza building collapses killing 19 as perilous conditions persist during truce",
+              "url": "https://www.theglobeandmail.com/world/article-gaza-building-collapse-death-toll/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:13:17.257513+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8280287981033325,
+            "article": {
+              "title": "Building collapse in Gaza kills 19 as perilous conditions persist for Palestinians during truce",
+              "url": "https://www.chicagotribune.com/2026/09/16/building-collapse-gaza-palestinians-israel-hamas/",
+              "source_id": "chicagotribune.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:16:12.240289+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8271603584289551,
+            "article": {
+              "title": "Aumentan a 16 los muertos por derrumbe de un edificio en el que vivían decenas de desplazados en Gaza",
+              "url": "https://www.latercera.com/mundo/noticia/aumentan-a-16-los-muertos-por-derrumbe-de-un-edificio-en-el-que-vivian-decenas-de-desplazados-en-gaza/",
+              "source_id": "latercera.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:12:54.026118+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.82023024559021,
+            "article": {
+              "title": "Desabamento de prédio de seis andares deixa 12 mortos e ao menos 100 desaparecidos em Gaza",
+              "url": "https://oglobo.globo.com/mundo/noticia/2026/09/16/desabamento-de-predio-de-seis-andares-deixa-12-mortos-e-ao-menos-100-desaparecidos-em-gaza.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:12:42.170772+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8132114410400391,
+            "article": {
+              "title": "加沙城一战损建筑倒塌致至少20人死亡",
+              "url": "https://www.xinhuanet.com/20260916/d1ee6597e640436f918919353a7d3eff/c.html",
+              "source_id": "xinhuanet.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:16:25.277735+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7995772957801819,
+            "article": {
+              "title": "1 uur geleden • Buitenland Zeker 19 doden bij instorten van door oorlog beschadigd woongebouw in Gaza",
+              "url": "https://nos.nl/artikel/2631240-zeker-19-doden-bij-instorten-van-door-oorlog-beschadigd-woongebouw-in-gaza",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:04.100203+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7918716669082642,
+            "article": {
+              "title": "غزة.. 16 وفاة وعشرات الجرحى والمفقودين بانهيار عمارة سكنية بمدينة غزة",
+              "url": "https://www.aljazeera.net/news/liveblog/2026/9/16/غزة-مباشر-16-وفاة-وعشرات-الجرحى",
+              "source_id": "aljazeera.net",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:13:41.070913+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7717233896255493,
+            "article": {
+              "title": "Durch israelische Angriffe beschädigt Hamas meldet viele Tote und Verschüttete nach Gebäudeeinsturz in Gaza",
+              "url": "https://www.spiegel.de/ausland/gaza-stadt-hamas-meldet-viele-tote-und-verschuettete-nach-gebaeudeeinsturz-a-4113134d-84a9-407d-9334-1e28c1dd41eb",
+              "source_id": "spiegel.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:14.033826+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7428841590881348,
+            "article": {
+              "title": "গাজায় ইসরায়েলের হামলায় ক্ষতিগ্রস্ত ভবন ধসে শিশুসহ নিহত ১৪, ধ্বংসস্তূপে চাপা ৫০ শিশুসহ প্রায় ১০০",
+              "url": "https://www.prothomalo.com/world/middle-east/rk89pmyl87",
+              "source_id": "prothomalo.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:16:56.967577+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.716536819934845,
+            "article": {
+              "title": "انهيار مبنى في غزة.. ماذا نعرف عن الكارثة وأزمة المباني المتضررة؟",
+              "url": "https://www.aljazeera.net/news/2026/9/16/انهيار-مبنى-في-غزة-ماذا-نعرف-عن",
+              "source_id": "aljazeera.net",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:13:41.070913+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 70.9162202319972,
+        "size": 13,
+        "n_sources": 13,
+        "n_continents": 7,
+        "continents": [
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "North America",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.8501279354095459,
+        "title": "EU foreslår forbud mod sociale medier for børn under 13 år",
+        "central_article": {
+          "title": "EU foreslår forbud mod sociale medier for børn under 13 år",
+          "url": "https://www.dr.dk/nyheder/udland/eu/eu-foreslaar-forbud-mod-sociale-medier-boern-under-13-aar",
+          "source_id": "dr.dk",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-16T12:11:41.304943+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9400542974472046,
+            "article": {
+              "title": "EU foreslår forbud mod sociale medier for børn under 13 år",
+              "url": "https://www.dr.dk/nyheder/udland/eu/eu-foreslaar-forbud-mod-sociale-medier-boern-under-13-aar",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:41.304943+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9109213352203369,
+            "article": {
+              "title": "Bruselas plantea prohibir las redes sociales a los menores de 13 años y limitar sus cuentas hasta los 15",
+              "url": "https://www.rtve.es/noticias/20260916/bruselas-plantea-prohibir-redes-sociales-menores-13-anos-limitar-cuentas-hasta-15/17226830.shtml",
+              "source_id": "rtve.es",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:12:09.027079+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9101638793945312,
+            "article": {
+              "title": "Mundo UE propone prohibir las redes sociales a los menores de 13 años",
+              "url": "https://www.crhoy.com/mundo/ue-propone-prohibir-las-redes-sociales-a-los-menores-de-13-anos/",
+              "source_id": "crhoy.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:12:26.015307+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9038945436477661,
+            "article": {
+              "title": "EU moves toward restricting social media access for under-15s",
+              "url": "https://www.euronews.com/my-europe/2026/09/15/leak-eu-commission-to-pitch-social-media-restrictions-for-under-15s",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:01.687766+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8973174691200256,
+            "article": {
+              "title": "Brussel wil verbod op sociale media voor kind onder 13 jaar",
+              "url": "https://www.rtl.nl/nieuws/economie/artikel/5652350/brussel-wil-verbod-op-sociale-media-voor-kinderen-onder-13-jaar",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:07.401929+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8890074491500854,
+            "article": {
+              "title": "Brussel wil socialemediaverbod voor kinderen onder 13 jaar",
+              "url": "https://fd.nl/politiek/1612332/brussel-wil-socialemediaverbod-voor-kinderen-onder-13-jaar",
+              "source_id": "fd.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:09.438194+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8640637397766113,
+            "article": {
+              "title": "UE anuncia restrições às redes sociais para adolescentes e proibição para usuários menores de 13 anos",
+              "url": "https://oglobo.globo.com/economia/tecnologia/noticia/2026/09/16/ue-anuncia-restricoes-as-redes-sociais-para-adolescentes-e-proibicao-para-usuarios-menores-de-13-anos.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:12:42.170772+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8546773195266724,
+            "article": {
+              "title": "EU chief to unveil social media, gaming curbs for under-15s",
+              "url": "https://www.bangkokpost.com/world/3320564/eu-chief-to-unveil-social-media-gaming-curbs-for-under15s",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:18:02.769109+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8449230790138245,
+            "article": {
+              "title": "歐盟主席盟情咨文 提議禁13歲以下兒童使用社群媒體",
+              "url": "https://www.cna.com.tw/news/aopl/202609160304.aspx",
+              "source_id": "cna.com.tw",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:18:13.415868+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8328015804290771,
+            "article": {
+              "title": "EU、15歳未満のSNS利用を制限 一部AIも規制へ 子ども法案",
+              "url": "https://www.asahi.com/articles/ASV9J2TFPV9JUHBI011M.html?iref=comtop_Topnews2_01",
+              "source_id": "asahi.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:17:46.580368+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7541837692260742,
+            "article": {
+              "title": "EU-Social-Media-Verbot unter 13: Pröll will vorerst trotzdem national regeln",
+              "url": "https://www.diepresse.com/41267585/eu-social-media-verbot-unter-13-proell-will-vorerst-trotzdem-national-regeln",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:21.701371+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7471762895584106,
+            "article": {
+              "title": "WORLD Countries move to ban social media for children",
+              "url": "https://myrepublica.nagariknetwork.com/news/countries-move-to-ban-social-media-for-children-78-43.html",
+              "source_id": "myrepublica.nagariknetwork.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:17:11.344668+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7024787664413452,
+            "article": {
+              "title": "EU chce zpřísnit pravidla pro Airbnb a krátkodobé pronájmy kvůli bytové krizi",
+              "url": "https://ct24.ceskatelevize.cz/clanek/svet/eu-chce-zprisnit-pravidla-pro-airbnb-a-kratkodobe-pronajmy-kvuli-bytove-krizi-377417",
+              "source_id": "ct24.ceskatelevize.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:14:18.167908+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 59.90139243345228,
+        "size": 14,
+        "n_sources": 14,
+        "n_continents": 7,
         "continents": [
           "Africa",
-          "China",
-          "Europe East",
+          "East Asia",
           "Europe North",
           "Europe South",
           "Middle East",
           "South America",
           "South Asia"
         ],
-        "coherence": 0.8152033090591431,
-        "title": "Iran war exposes US munitions shortfall, industrial bottlenecks, Pentagon report says",
+        "coherence": 0.8015464544296265,
+        "title": "Saudi-led coalition says Houthi drone intercepted near Mecca",
         "central_article": {
-          "title": "Iran war exposes US munitions shortfall, industrial bottlenecks, Pentagon report says",
-          "url": "https://www.france24.com/en/americas/20260915-iran-war-exposes-us-munitions-shortfall-industrial-bottlenecks-pentagon-report-says",
-          "source_id": "france24.com",
-          "continent": "Europe South",
+          "title": "Saudi-led coalition says Houthi drone intercepted near Mecca",
+          "url": "https://pajhwok.com/2026/09/16/saudi-led-coalition-says-houthi-drone-intercepted-near-mecca/",
+          "source_id": "pajhwok.com",
+          "continent": "South Asia",
           "published_at": null,
-          "scraped_at_utc": "2026-09-15T21:48:18.042129+00:00"
+          "scraped_at_utc": "2026-09-16T12:17:12.686889+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8805978298187256,
+            "sim_to_centroid": 0.877595067024231,
             "article": {
-              "title": "Iran war exposes US munitions shortfall, industrial bottlenecks, Pentagon report says",
-              "url": "https://www.france24.com/en/americas/20260915-iran-war-exposes-us-munitions-shortfall-industrial-bottlenecks-pentagon-report-says",
+              "title": "Saudi-led coalition says Houthi drone intercepted near Mecca",
+              "url": "https://pajhwok.com/2026/09/16/saudi-led-coalition-says-houthi-drone-intercepted-near-mecca/",
+              "source_id": "pajhwok.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:17:12.686889+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8610696196556091,
+            "article": {
+              "title": "Saudi Arabia warns of ‘red line’ after Houthi drone intercepted close to holy city of Mecca",
+              "url": "https://www.theguardian.com/world/2026/sep/16/saudi-arabia-houthi-drone-shot-down-mecca-iran-middle-east",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:10:56.813710+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8509785532951355,
+            "article": {
+              "title": "Saudi says Houthis target Mecca, warn of 'red line'",
+              "url": "https://www.channelnewsasia.com/world/saudi-arabia-houthis-target-mecca-6388146",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:17:42.835339+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.849603533744812,
+            "article": {
+              "title": "Arabia Saudita acusa a los hutíes de haber lanzado un dron hacia la Meca",
+              "url": "https://www.latercera.com/mundo/noticia/arabia-saudita-acusa-a-los-huties-de-haber-lanzado-un-dron-hacia-la-meca/",
+              "source_id": "latercera.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:12:54.026118+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8341363668441772,
+            "article": {
+              "title": "Arabia Saudita acusa a los hutíes de Yemen de intentar atacar La Meca",
+              "url": "https://www.emol.com/noticias/Internacional/2026/09/16/1211605/arabia-saudita-yemen-dron.html",
+              "source_id": "emol.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:12:36.001929+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8044958710670471,
+            "article": {
+              "title": "L’Arabie saoudite accuse les houthistes d’avoir attaqué La Mecque depuis le Yémen",
+              "url": "https://www.lemonde.fr/international/article/2026/09/16/l-arabie-saoudite-accuse-les-houthistes-d-avoir-vise-la-mecque_6775183_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:51.721692+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7908531427383423,
+            "article": {
+              "title": "Saudi-led coalition says Houthi drone destroyed near Makkah",
+              "url": "https://www.thenationalnews.com/news/gulf/2026/09/16/saudi-led-coalition-says-houthi-drone-destroyed-near-makkah/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:13:38.212498+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7867832183837891,
+            "article": {
+              "title": "Middle East live: Arab League chief condemns alleged Houthi attack on Mecca",
+              "url": "https://www.france24.com/en/middle-east/20260916-middle-east-live-saudi-arabia-accuses-houthi-rebels-of-launching-a-drone-strike-on-mecca",
               "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:48:18.042129+00:00"
+              "scraped_at_utc": "2026-09-16T12:11:56.806020+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8669740557670593,
+            "sim_to_centroid": 0.7742583155632019,
             "article": {
-              "title": "Bericht zum Iran-Krieg: US-Armee leidet unter Munitionsknappheit",
-              "url": "https://www.tagesschau.de/ausland/amerika/usa-munition-knappheit-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:36.127990+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8650647401809692,
-            "article": {
-              "title": "Pentagon report reveals Iran war depleted US ammunition stockpile",
-              "url": "https://www.premiumtimesng.com/foreign/world-foreign/909897-pentagon-report-reveals-iran-war-depleted-us-ammunition-stockpile.html",
-              "source_id": "premiumtimesng.com",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:51:32.414907+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8162477016448975,
-            "article": {
-              "title": "US defense chiefs warn of munitions shortfall over Iran war",
-              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-iran-war-cost-munitions-missiles-b3050319.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:18.272279+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8043335676193237,
-            "article": {
-              "title": "Guerre Le Pentagone reconnait une « pénurie » de munitions avec la guerre en Iran",
-              "url": "https://www.lorientlejour.com/article/1547552/le-pentagone-reconnait-une-penurie-de-munitions-avec-la-guerre-en-iran.html",
-              "source_id": "lorientlejour.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:50:01.641151+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7959688901901245,
-            "article": {
-              "title": "US military facing weapons shortages after dozens of aircraft destroyed as cost of war hits $33B",
-              "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-oil-tanker-hormuz-b3050243.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:18.272279+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7947208285331726,
-            "article": {
-              "title": "美国防部伊战报告证实弹药库存短缺 \"史诗怒火\"行动成本超330亿美元",
-              "url": "https://international.caixin.com/2026-09-15/102485216.html",
-              "source_id": "caixin.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:52:34.365711+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7804388999938965,
-            "article": {
-              "title": "Defence $33.4bn war cost, $22.3bn on munitions: What US lost in 6 months of Iran war",
-              "url": "https://timesofindia.indiatimes.com/defence/international/33-4bn-war-cost-22-3bn-on-munitions-what-us-lost-in-6-months-of-iran-war/articleshow/134268852.cms",
-              "source_id": "timesofindia.indiatimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:52:47.737015+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7754946351051331,
-            "article": {
-              "title": "Пентагон раскрыл потери самолетов и беспилотников в войне с Ираном",
-              "url": "https://tengrinews.kz/world_news/pentagon-raskryil-poteri-samoletov-bespilotnikov-voyne-608595/",
-              "source_id": "tengrinews.kz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:51:06.034199+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7721925973892212,
-            "article": {
-              "title": "Relatório das Forças Armadas dos EUA confirma que guerra no Irã leva a escassez de munições Documento aponta haver rombo em estoques estratégicos e dificuldade para repor arsenais",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/09/forcas-armadas-dos-eua-confirmam-que-guerra-no-ira-leva-a-escassez-de-municoes.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:48:57.401096+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 39.158938819804554,
-        "size": 9,
-        "n_sources": 9,
-        "n_continents": 7,
-        "continents": [
-          "East Asia",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "Oceania",
-          "South Asia"
-        ],
-        "coherence": 0.8048987984657288,
-        "title": "Saudi Arabia warns it will respond 'firmly' to Houthi attacks, as oil prices surge",
-        "central_article": {
-          "title": "Saudi Arabia warns it will respond 'firmly' to Houthi attacks, as oil prices surge",
-          "url": "https://www.sbs.com.au/news/article/saudi-arabia-warns-it-will-respond-firmly-to-houthi-attacks-as-oil-prices-surge/w0pgd7wld",
-          "source_id": "sbs.com.au",
-          "continent": "Oceania",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-15T21:49:39.170942+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8514918088912964,
-            "article": {
-              "title": "Saudi Arabia warns it will respond 'firmly' to Houthi attacks, as oil prices surge",
-              "url": "https://www.sbs.com.au/news/article/saudi-arabia-warns-it-will-respond-firmly-to-houthi-attacks-as-oil-prices-surge/w0pgd7wld",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:49:39.170942+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8449469804763794,
-            "article": {
-              "title": "Saudi seeks Israel's help amid attacks by Iran-backed Houthis, reveals report",
-              "url": "https://www.hindustantimes.com/world-news/saudi-arabia-seeks-israel-help-amid-attacks-by-iran-backed-houthis-report-says-riyadh-sought-intelligence-assistance-101789478664199.html",
+              "title": "India 'deeply concerned' over alleged Houthi drone attack near Mecca",
+              "url": "https://www.hindustantimes.com/india-news/mecca-saudi-arabia-houthi-india-101789554210863.html",
               "source_id": "hindustantimes.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:52:53.504754+00:00"
+              "scraped_at_utc": "2026-09-16T12:16:52.069693+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8393750190734863,
+            "sim_to_centroid": 0.7723499536514282,
             "article": {
-              "title": "Middle East live: Saudi Arabia vows to hit back ‘firmly’ after Houthi attacks",
-              "url": "https://www.france24.com/en/middle-east/20260915-middle-east-live-houthi-attacks-wound-13-civilians-in-southern-saudi-arabia",
-              "source_id": "france24.com",
-              "continent": "Europe South",
+              "title": "Yemen's Houthis claim they shot down Saudi jet, deny targeting Mecca",
+              "url": "https://www.euronews.com/2026/09/16/yemens-houthis-claim-they-shot-down-saudi-fighter-jet-deny-targeting-mecca",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:48:18.042129+00:00"
+              "scraped_at_utc": "2026-09-16T12:11:01.687766+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8266831636428833,
+            "sim_to_centroid": 0.7720187306404114,
             "article": {
-              "title": "Houthis attack Saudi Arabia as Gulf-Iran talks are postponed",
-              "url": "https://www.japantimes.co.jp/news/2026/09/15/world/houthis-saudi-arabia-gulf-iran-talks/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:53:43.572004+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8125693798065186,
-            "article": {
-              "title": "Houthi gains in Yemen, attack on Saudi pipeline compound pressure on oil markets",
-              "url": "https://www.pbs.org/newshour/show/houthi-gains-in-yemen-attack-on-saudi-pipeline-compound-pressure-on-oil-markets",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:52:20.321960+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7980663776397705,
-            "article": {
-              "title": "Israel provided Saudi Arabia with intel. assistance as Houthi attacks on Riyadh's assets continue",
-              "url": "https://www.jpost.com/middle-east/article-908610",
+              "title": "Saudi Arabia increasingly threatened by Houthis' advance",
+              "url": "https://www.jpost.com/middle-east/article-908730",
               "source_id": "jpost.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:49:56.805947+00:00"
+              "scraped_at_utc": "2026-09-16T12:13:39.665843+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7710855007171631,
+            "sim_to_centroid": 0.7720179557800293,
             "article": {
-              "title": "Houthi strikes on Saudi Arabia injure 13 and drag kingdom back into war",
-              "url": "https://www.thetimes.com/world/middle-east/article/houthis-yemen-saudi-arabia-strait-attacks-5xr9q9h3r",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
+              "title": "La Mecca nel mirino degli Houthi. E Riad non dà garanzie sulle forniture di petrolio all’Europa",
+              "url": "https://www.repubblica.it/economia/2026/09/16/news/houthi_mecca_arabia_saudita_petrolio_europa-425587588/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:21.170195+00:00"
+              "scraped_at_utc": "2026-09-16T12:12:11.692728+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7587032318115234,
+            "sim_to_centroid": 0.7461826801300049,
+            "article": {
+              "title": "L’Arabie saoudite intercepte un drone au-dessus de La Mecque, une première",
+              "url": "https://www.tsa-algerie.com/larabie-saoudite-intercepte-un-drone-au-dessus-de-la-mecque-une-premiere/",
+              "source_id": "tsa-algerie.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:15:38.222643+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7293071746826172,
             "article": {
               "title": "Egypt, Saudi leaders meet as Houthis threaten Red Sea shipping",
               "url": "https://www.newarab.com/news/egypt-saudi-leaders-meet-houthis-threaten-red-sea-shipping",
               "source_id": "newarab.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:50:09.565810+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7411677837371826,
-            "article": {
-              "title": "Angriff auf Pipeline in Saudi-Arabien erhöht Wahrscheinlichkeit für starken Anstieg des Ölpreises",
-              "url": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/oelpreis-angriff-auf-pipeline-erhoeht-wahrscheinlichkeit-fuer-starken-anstieg/100254291.html",
-              "source_id": "handelsblatt.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:40.360437+00:00"
+              "scraped_at_utc": "2026-09-16T12:13:52.673056+00:00"
             }
           }
         ]
       },
       {
-        "score": 30.953048069958452,
-        "size": 8,
-        "n_sources": 8,
+        "score": 41.90752652603189,
+        "size": 14,
+        "n_sources": 11,
+        "n_continents": 6,
+        "continents": [
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "Oceania"
+        ],
+        "coherence": 0.8091621398925781,
+        "title": "All supporting acts withdraw from Ed Sheeran’s tour in solidarity with Macklemore",
+        "central_article": {
+          "title": "All supporting acts withdraw from Ed Sheeran’s tour in solidarity with Macklemore",
+          "url": "https://www.theguardian.com/us-news/2026/sep/15/ed-sheeran-macklemore-palestine-openers-finneas",
+          "source_id": "theguardian.com",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-16T12:10:56.813710+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8933440446853638,
+            "article": {
+              "title": "All supporting acts withdraw from Ed Sheeran’s tour in solidarity with Macklemore",
+              "url": "https://www.theguardian.com/us-news/2026/sep/15/ed-sheeran-macklemore-palestine-openers-finneas",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:10:56.813710+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8854285478591919,
+            "article": {
+              "title": "All supporting acts quit Ed Sheeran tour after Macklemore dropped",
+              "url": "https://www.independent.co.uk/arts-entertainment/music/news/ed-sheeran-macklemore-tour-support-acts-finneas-withdraws-b3050974.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:10:53.858000+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8671343922615051,
+            "article": {
+              "title": "Des artistes quittent la tournée d'Ed Sheeran pour protester contre l'éviction du rappeur Macklemore Musiques",
+              "url": "https://www.rts.ch/info/culture/musiques/2026/article/ed-sheeran-des-artistes-quittent-sa-tournee-pour-soutenir-macklemore-29358421.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:58.798732+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8570219278335571,
+            "article": {
+              "title": "Finneas y otros teloneros de Ed Sheeran abandonan la gira en apoyo al rapero Macklemore, excluido por hacer comentarios sobre Palestina",
+              "url": "https://www.bbc.com/mundo/articles/c617jx24xwe0o",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:12:16.909268+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8467144966125488,
+            "article": {
+              "title": "Four more acts quit Ed Sheeran tour as singer says Macklemore decision 'was not mine'",
+              "url": "https://www.sbs.com.au/news/article/four-more-acts-quit-ed-sheeran-tour-as-singer-says-macklemore-decision-was-not-mine/dtv3b4upg",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:13:21.681892+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8444875478744507,
+            "article": {
+              "title": "More artists drop out of Ed Sheeran's tour in solidarity with rapper Macklemore By Mark Kennedy, Associated Press",
+              "url": "https://www.pbs.org/newshour/arts/more-artists-drop-out-of-ed-sheerans-tour-in-solidarity-with-rapper-macklemore",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:16:16.425990+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8300741910934448,
+            "article": {
+              "title": "Supporting acts, band quit Ed Sheeran's tour over Palestine",
+              "url": "https://www.newarab.com/news/supporting-acts-band-quit-ed-sheerans-tour-over-palestine",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:13:52.673056+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8296675682067871,
+            "article": {
+              "title": "Ed Sheeran's tour in trouble after Pro-Palestine acts drop out",
+              "url": "https://www.france24.com/en/americas/20260916-ed-sheeran-s-tour-in-trouble-after-pro-palestine-acts-drop-out",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:56.806020+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7976760268211365,
+            "article": {
+              "title": "Music Ed Sheeran responds to backlash over removing Macklemore from tour after ‘Free Palestine’ comments",
+              "url": "https://www.theguardian.com/music/2026/sep/15/ed-sheeran-response-macklemore-free-palestine-comment",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:10:56.813710+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7833460569381714,
+            "article": {
+              "title": "'Find a moral compass': Ed Sheeran urged to cancel US tour",
+              "url": "https://www.newarab.com/news/find-moral-compass-ed-sheeran-urged-cancel-us-tour",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:13:52.673056+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7579624652862549,
+            "article": {
+              "title": "Kultur Ed Sheeran Artister dropper ham. Nå står han helt uten oppvarming og band for resten av turneen.",
+              "url": "https://www.aftenposten.no/kultur/i/y52BR2/macklemore-fjernet-fra-ed-sheerans-turne-naa-trekker-andre-artister-seg",
+              "source_id": "aftenposten.no",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:34.260537+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7275770306587219,
+            "article": {
+              "title": "СМИ: все артисты, открывающие тур Эда Ширана, отказались от выступлений",
+              "url": "https://ria.ru/20260916/tur-2117920300.html",
+              "source_id": "ria.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:14:43.062779+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7227088212966919,
+            "article": {
+              "title": "Unpacking the 12 days that threw Ed Sheeran's tour into chaos",
+              "url": "https://www.abc.net.au/news/2026-09-16/free-palestine-macklemore-and-ed-sheeran-tour-controversy/107157914",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:13:18.853651+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6851269602775574,
+            "article": {
+              "title": "Roger Waters dubs Ed Sheeran a ‘p****’ amid Macklemore controversy",
+              "url": "https://www.independent.co.uk/arts-entertainment/music/news/roger-waters-ed-sheeran-macklemore-tour-b3051053.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:10:53.858000+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 35.25236116140116,
+        "size": 13,
+        "n_sources": 11,
         "n_continents": 5,
         "continents": [
           "China",
@@ -1201,423 +1579,376 @@
           "Europe South",
           "Middle East"
         ],
-        "coherence": 0.8487184047698975,
-        "title": "Sabotage suspected as parts of Dutch rail network come to a standstill",
+        "coherence": 0.8110398650169373,
+        "title": "Russian drone attack on bus kills five in Ukraine's southeast",
         "central_article": {
-          "title": "Sabotage suspected as parts of Dutch rail network come to a standstill",
-          "url": "https://www.politico.eu/article/sabotage-suspected-as-parts-of-dutch-rail-network-come-to-a-standstill/",
-          "source_id": "politico.eu",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-15T21:47:26.950396+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9152668714523315,
-            "article": {
-              "title": "Sabotage suspected as parts of Dutch rail network come to a standstill",
-              "url": "https://www.politico.eu/article/sabotage-suspected-as-parts-of-dutch-rail-network-come-to-a-standstill/",
-              "source_id": "politico.eu",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:26.950396+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8796729445457458,
-            "article": {
-              "title": "Sabotage vermutet Zugverkehr in den Niederlanden über Stunden weitgehend lahmgelegt",
-              "url": "https://www.spiegel.de/panorama/niederlande-zugverkehr-weitgehend-lahmgelegt-sabotage-vermutet-a-d40b8911-12e9-4e46-80f7-d768335cfbb3",
-              "source_id": "spiegel.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:38.459457+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8789568543434143,
-            "article": {
-              "title": "Dutch rail network crippled by suspected sabotage",
-              "url": "https://www.scmp.com/news/world/europe/article/3367641/dutch-rail-network-crippled-suspected-sabotage?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:52:21.535167+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8536514043807983,
-            "article": {
-              "title": "В Нидерландах остановили движение поездов. Оператор предполагает диверсию",
-              "url": "https://meduza.io/news/2026/09/15/v-niderlandah-ostanovili-dvizhenie-poezdov-operator-predpolagaet-diversiyu",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:50:42.676850+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8506020307540894,
-            "article": {
-              "title": "في هولندا.. عمل تخريبي \"محتمل\" يتسبب بتعطل القطارات",
-              "url": "https://www.alsumaria.tv/news/international/576173/في-هولندا-عمل-تخريبي-محتمل-يتسبب-بتعطل-القطارات",
-              "source_id": "alsumaria.tv",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:51:49.737045+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8417856097221375,
-            "article": {
-              "title": "Gleise blockiert: Bahnverkehr in den Niederlanden gestört",
-              "url": "https://www.zdfheute.de/politik/ausland/niederlande-sabotage-zugverkehr-bahn-gleise-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:47.438198+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8182681798934937,
-            "article": {
-              "title": "Le réseau ferroviaire néerlandais paralysé plusieurs heures par des actes attribués à un sabotage Objets sur les voies aujourd'hui à",
-              "url": "https://www.rts.ch/info/monde/2026/article/pays-bas-le-reseau-ferroviaire-paralyse-par-des-sabotages-29358298.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:48:19.541739+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7515436410903931,
-            "article": {
-              "title": "Vermoedelijke nieuwe sabotageactie op het spoor tussen Apeldoorn en Deventer",
-              "url": "https://www.nrc.nl/nieuws/2026/09/15/vermoedelijke-nieuwe-sabotageactie-op-het-spoor-tussen-apeldoorn-en-deventer-a4936742",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:30.126216+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 24.45935384161956,
-        "size": 8,
-        "n_sources": 8,
-        "n_continents": 4,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "North America",
-          "South America"
-        ],
-        "coherence": 0.846255362033844,
-        "title": "Putin-tied Russian oligarch paid for Trump Jr.'s wedding celebrations",
-        "central_article": {
-          "title": "Putin-tied Russian oligarch paid for Trump Jr.'s wedding celebrations",
-          "url": "https://www.pbs.org/newshour/show/putin-tied-russian-oligarch-paid-for-trump-jr-s-wedding-celebrations",
-          "source_id": "pbs.org",
-          "continent": "North America",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-15T21:52:20.321960+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8941730260848999,
-            "article": {
-              "title": "Putin-tied Russian oligarch paid for Trump Jr.'s wedding celebrations",
-              "url": "https://www.pbs.org/newshour/show/putin-tied-russian-oligarch-paid-for-trump-jr-s-wedding-celebrations",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:52:20.321960+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8900282382965088,
-            "article": {
-              "title": "U.S. Democrats probe Russian oligarch’s financing of wedding parties for Donald Trump Jr.",
-              "url": "https://www.theglobeandmail.com/world/article-donald-trump-jr-wedding-parties-kremlev-putin/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:49:36.150386+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8847643136978149,
-            "article": {
-              "title": "Russischer Oligarch finanzierte Hochzeit von Trump-Sohn mit",
-              "url": "https://www.handelsblatt.com/politik/international/usa-russischer-oligarch-finanzierte-hochzeit-von-trump-sohn-mit/100254500.html",
-              "source_id": "handelsblatt.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:40.360437+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8797239065170288,
-            "article": {
-              "title": "Trump Jr. acknowledges Russian oligarch hosted wedding celebration",
-              "url": "https://georgiatoday.ge/trump-jr-acknowledges-russian-oligarch-hosted-wedding-celebration-nbc-news/",
-              "source_id": "georgiatoday.ge",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:51:03.835900+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8385472297668457,
-            "article": {
-              "title": "Quién es Umar Kremlev, el empresario ruso cercano a Putin que financió la boda de Donald Trump Jr.",
-              "url": "https://www.emol.com/noticias/Internacional/2026/09/15/1211583/umar-kremlev-ruso-boda-trumpjr.html",
-              "source_id": "emol.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:48:55.065996+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8254613876342773,
-            "article": {
-              "title": "Donald Trump Jr Top Democrat on House oversight panel investigating Trump Jr wedding party bankrolled by Russian oligarch",
-              "url": "https://www.theguardian.com/us-news/2026/sep/15/democrat-investigation-trump-jr-wedding-russian-oligarch",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:22.529803+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7977219820022583,
-            "article": {
-              "title": "Демократы в конгрессе начали расследование из-за того, что Умар Кремлев оплатил часть расходов на свадьбу сына Трампа",
-              "url": "https://meduza.io/news/2026/09/15/demokraty-v-kongresse-nachali-rassledovanie-iz-za-togo-chto-umar-kremlev-oplatil-chast-rashodov-na-svadbu-syna-trampa",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:50:42.676850+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7596225738525391,
-            "article": {
-              "title": "Empresário da Rússia associado ao Kremlin financiou festa após o casamento de filho de Trump Umar Kremlev alugou uma ilha particular nas Bahamas e fez espetáculo de fogo de artifício",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/09/empresario-russo-ligado-ao-kremlin-pagou-festa-pos-casamento-de-filho-de-trump.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:48:57.401096+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 23.402333381096224,
-        "size": 6,
-        "n_sources": 6,
-        "n_continents": 5,
-        "continents": [
-          "East Asia",
-          "Europe North",
-          "Europe South",
-          "North America",
-          "Oceania"
-        ],
-        "coherence": 0.8503276705741882,
-        "title": "Trump blasts Supreme Court over mail-in ballot ruling",
-        "central_article": {
-          "title": "Trump blasts Supreme Court over mail-in ballot ruling",
-          "url": "https://www.euronews.com/2026/09/15/trump-blasts-supreme-court-over-mail-in-ballot-ruling",
-          "source_id": "euronews.com",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-15T21:47:25.734588+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9315440654754639,
-            "article": {
-              "title": "Trump blasts Supreme Court over mail-in ballot ruling",
-              "url": "https://www.euronews.com/2026/09/15/trump-blasts-supreme-court-over-mail-in-ballot-ruling",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:25.734588+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8948322534561157,
-            "article": {
-              "title": "Trump decries ‘horrible’ Supreme Court mail-in ballot ruling",
-              "url": "https://www.bangkokpost.com/world/3320093/trump-decries-horrible-supreme-court-mailin-ballot-ruling",
-              "source_id": "bangkokpost.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:54:00.525337+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8534412384033203,
-            "article": {
-              "title": "‘Not the people I interviewed’: Trump lashes Supreme Court after election ruling",
-              "url": "https://www.smh.com.au/world/north-america/not-the-people-i-interviewed-trump-lashes-supreme-court-after-election-ruling-20260916-p60xor.html",
-              "source_id": "smh.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:49:40.469582+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8330720067024231,
-            "article": {
-              "title": "Illinois Democrats cheer Supreme Court mail-in voting order while President Trump lashes out at justices",
-              "url": "https://www.chicagotribune.com/2026/09/15/supreme-court-mail-in-ballot/",
-              "source_id": "chicagotribune.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:52:16.599791+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.804633617401123,
-            "article": {
-              "title": "Trump Attacks the Three Supreme Court Justices He Appointed",
-              "url": "https://www.nytimes.com/2026/09/15/us/politics/trump-supreme-court-mail-voting.html",
-              "source_id": "nytimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:51:51.387328+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7844425439834595,
-            "article": {
-              "title": "US Supreme Court rejects Trump bid to restrict mail ballots as voting begins",
-              "url": "https://www.france24.com/en/americas/20260915-us-supreme-court-rejects-trump-bid-to-restrict-mail-ballots-as-voting-begins",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:48:18.042129+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 20.812985772102493,
-        "size": 8,
-        "n_sources": 7,
-        "n_continents": 4,
-        "continents": [
-          "East Asia",
-          "Europe North",
-          "Europe South",
-          "North America"
-        ],
-        "coherence": 0.8406745195388794,
-        "title": "Trump calls concerns over rogue AI a 'hoax' promoted by a ‘sick conspiracy’",
-        "central_article": {
-          "title": "Trump calls concerns over rogue AI a 'hoax' promoted by a ‘sick conspiracy’",
-          "url": "https://www.france24.com/en/technology/20260915-trump-calls-concerns-over-rogue-ai-a-hoax-promoted-by-a-sick-conspiracy",
+          "title": "Russian drone attack on bus kills five in Ukraine's southeast",
+          "url": "https://www.france24.com/en/europe/20260916-russian-drone-attack-on-bus-kills-five-in-ukraine-s-southeast",
           "source_id": "france24.com",
           "continent": "Europe South",
           "published_at": null,
-          "scraped_at_utc": "2026-09-15T21:48:18.042129+00:00"
+          "scraped_at_utc": "2026-09-16T12:11:56.806020+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.883731484413147,
+            "sim_to_centroid": 0.912240743637085,
             "article": {
-              "title": "Trump calls concerns over rogue AI a 'hoax' promoted by a ‘sick conspiracy’",
-              "url": "https://www.france24.com/en/technology/20260915-trump-calls-concerns-over-rogue-ai-a-hoax-promoted-by-a-sick-conspiracy",
+              "title": "Russian drone attack on bus kills five in Ukraine's southeast",
+              "url": "https://www.france24.com/en/europe/20260916-russian-drone-attack-on-bus-kills-five-in-ukraine-s-southeast",
               "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:48:18.042129+00:00"
+              "scraped_at_utc": "2026-09-16T12:11:56.806020+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.875444769859314,
+            "sim_to_centroid": 0.9024253487586975,
             "article": {
-              "title": "Trump calls Nvidia CEO Jensen Huang to say AI fears are a ‘hoax’",
-              "url": "https://www.channelnewsasia.com/shorts/trump-calls-nvidia-ceo-jensen-huang-say-ai-fears-are-hoax-6386681",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:53:40.896658+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8674105405807495,
-            "article": {
-              "title": "Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards",
-              "url": "https://www.bbc.com/news/articles/cw980n0nd0qjo",
-              "source_id": "bbc.com",
+              "title": "Five killed in Russian drone strike on bus in southern Ukraine",
+              "url": "https://www.euronews.com/my-europe/2026/09/16/five-killed-in-russian-drone-strike-on-ukrainian-bus",
+              "source_id": "euronews.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:16.827700+00:00"
+              "scraped_at_utc": "2026-09-16T12:11:01.687766+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8621395230293274,
+            "sim_to_centroid": 0.8912447690963745,
             "article": {
-              "title": "Trump downplays AI risk calling it a ‘sick conspiracy’",
-              "url": "https://www.channel4.com/news/trump-downplays-ai-risk-calling-it-a-sick-conspiracy",
+              "title": "Russian attacks across Ukraine kill at least 9, injure 36 as drone strike on bus kills 5.",
+              "url": "https://kyivindependent.com/russian-attacks-across-ukraine-kill-at-least-9-injure-36-as-drone-strike-on-bus-kills-5/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:14:29.516246+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8673111200332642,
+            "article": {
+              "title": "At least five killed in Russian drone strike near Ukraine front line",
+              "url": "https://www.aljazeera.com/news/2026/9/16/at-least-five-killed-in-russian-drone-strike-near-ukraine-front-line",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:13:36.554835+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8341789245605469,
+            "article": {
+              "title": "俄乌继续互相发动无人机袭击 乌一巴士遭袭5人死亡",
+              "url": "https://www.xinhuanet.com/20260916/699ad8e19cd340cb94535d7dd1a49bbb/c.html",
+              "source_id": "xinhuanet.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:16:25.277735+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8086884617805481,
+            "article": {
+              "title": "2 uur geleden • Buitenland Vijf doden bij droneaanval op Oekraïense bus, energieaanvallen niet gestopt",
+              "url": "https://nos.nl/artikel/2631233-vijf-doden-bij-droneaanval-op-oekraiense-bus-energieaanvallen-niet-gestopt",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:04.100203+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7954361438751221,
+            "article": {
+              "title": "В Днепропетровской области российский беспилотник атаковал автобус. Погибли пять человек",
+              "url": "https://meduza.io/news/2026/09/16/v-dnepropetrovskoy-oblasti-rossiyskiy-bespilotnik-atakoval-avtobus-pogibli-pyat-chelovek",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:14:30.667887+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7900642156600952,
+            "article": {
+              "title": "Ruslands angreb på Ukraine",
+              "url": "https://politiken.dk/tag/main/Konflikten_om_Ukraine",
+              "source_id": "politiken.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:30.909976+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7751463651657104,
+            "article": {
+              "title": "Ukrayna'da sivilleri taşıyan otobüsü vurdu!",
+              "url": "https://www.milliyet.com.tr/dunya/son-dakika-rusya-ukraynada-sivilleri-tasiyan-otobusu-vurdu-can-kaybi-ve-yaralilar-var-7661399",
+              "source_id": "milliyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:13:49.865833+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7503916025161743,
+            "article": {
+              "title": "Ukraine hits Russian bomber in occupied Crimea, General Staff says.",
+              "url": "https://kyivindependent.com/ukraine-hits-russian-bomber-in-occupied-crimea-general-staff-says/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:14:29.516246+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7401676177978516,
+            "article": {
+              "title": "Russian general killed in occupied Donetsk Oblast, Ukraine's drone forces say.",
+              "url": "https://kyivindependent.com/russian-general-killed-in-occupied-donetsk-oblast-ukraines-drone-forces-say-2/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:14:29.516246+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7385701537132263,
+            "article": {
+              "title": "Les Gueran à réaction, ce nouveau type de drone russe qui sème la destruction en Ukraine",
+              "url": "https://www.lemonde.fr/international/article/2026/09/16/guerre-en-ukraine-moscou-mise-sur-les-drones-rapides-a-reaction_6775139_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:51.721692+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7376531362533569,
+            "article": {
+              "title": "General rus, lăudat de Putin, ucis de o dronă ucraineană care i-a lovit casa",
+              "url": "https://www.g4media.ro/general-rus-laudat-de-putin-ucis-de-o-drona-ucraineana-care-i-a-lovit-casa.html",
+              "source_id": "g4media.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:14:22.599016+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 23.586762005266916,
+        "size": 10,
+        "n_sources": 10,
+        "n_continents": 4,
+        "continents": [
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "South Asia"
+        ],
+        "coherence": 0.7943612337112427,
+        "title": "Waarom zijn de grote AI-bedrijven zo bang voor AI?",
+        "central_article": {
+          "title": "Waarom zijn de grote AI-bedrijven zo bang voor AI?",
+          "url": "https://fd.nl/economie/1612143/waarom-zijn-de-grote-ai-bedrijven-zo-bang-voor-ai",
+          "source_id": "fd.nl",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-16T12:11:09.438194+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8802061676979065,
+            "article": {
+              "title": "Waarom zijn de grote AI-bedrijven zo bang voor AI?",
+              "url": "https://fd.nl/economie/1612143/waarom-zijn-de-grote-ai-bedrijven-zo-bang-voor-ai",
+              "source_id": "fd.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:09.438194+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8269600868225098,
+            "article": {
+              "title": "Почему главы корпораций и политики испугались искусственного интеллекта",
+              "url": "https://www.kommersant.ru/doc/8954579?from=spot_main",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:14:38.785927+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8204616904258728,
+            "article": {
+              "title": "HOW DANGEROUS is AI? And will Trump step in to protect us?",
+              "url": "https://www.channel4.com/news/how-dangerous-is-ai-and-will-trump-step-in-to-protect-us",
               "source_id": "channel4.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:24.264938+00:00"
+              "scraped_at_utc": "2026-09-16T12:11:00.030737+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8374192714691162,
+            "sim_to_centroid": 0.8048529028892517,
             "article": {
-              "title": "Trump llama en directo a Jensen Huang (Nvidia): “Lo del peligro de la IA es un engaño”",
-              "url": "https://www.lavanguardia.com/vida/20260915/11635082/donald-trump-llama-directo-jensen-huang-nvidia-peligro-ia-engano.html",
-              "source_id": "lavanguardia.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:48:27.200298+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8347543478012085,
-            "article": {
-              "title": "EU countries to discuss AI rules as Trump calls safety warnings a ‘hoax’",
-              "url": "https://www.politico.eu/article/eu-capitals-to-discuss-ai-incidents-global-cooperation/",
-              "source_id": "politico.eu",
+              "title": "Por qué preocupa que la IA pueda amenazar a la humanidad y qué tan real es ese temor",
+              "url": "https://www.bbc.com/mundo/articles/cqkg0dvwm99vo",
+              "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:47:26.950396+00:00"
+              "scraped_at_utc": "2026-09-16T12:12:16.909268+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7839428782463074,
+            "sim_to_centroid": 0.7903489470481873,
             "article": {
-              "title": "What Trump’s Bizarre Posts Are Teaching Us About AI",
-              "url": "https://www.theatlantic.com/culture/2026/09/what-trumps-bizarre-posts-are-teaching-us-about-ai/688617/",
-              "source_id": "theatlantic.com",
-              "continent": "North America",
+              "title": "Allowing AI firms to collude to ‘pace the frontier’ is a dangerous proposition",
+              "url": "https://www.theguardian.com/technology/2026/sep/16/ai-companies-collude-antitrust-laws",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:52:19.163577+00:00"
+              "scraped_at_utc": "2026-09-16T12:10:56.813710+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7805534601211548,
+            "sim_to_centroid": 0.7815645933151245,
             "article": {
-              "title": "Trump’s See-No-Evil AI Policy",
-              "url": "https://www.theatlantic.com/politics/2026/09/trump-ai-policy-anthropic/688620/",
-              "source_id": "theatlantic.com",
-              "continent": "North America",
+              "title": "No government is ready for AI's impact, warns Bill Gates",
+              "url": "https://www.thedailystar.net/news/technology/news/no-government-ready-ais-impact-warns-bill-gates-4273361",
+              "source_id": "thedailystar.net",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-15T21:52:19.163577+00:00"
+              "scraped_at_utc": "2026-09-16T12:16:55.293801+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7808797359466553,
+            "article": {
+              "title": "AI Bikin \"Cyber Fraud\" Makin Canggih, Perusahaan Harus Waspada Money",
+              "url": "https://money.kompas.com/read/2026/09/16/184938926/ai-bikin-cyber-fraud-makin-canggih-perusahaan-harus-waspada?source=sorotan",
+              "source_id": "kompas.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:18:14.831448+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7605052590370178,
+            "article": {
+              "title": "World is 'right to be afraid' of Al companies' growing power: OpenAI CEO",
+              "url": "https://www.channelnewsasia.com/shorts/world-right-be-afraid-al-companies-growing-power-openai-ceo-6389116",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:17:42.835339+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7520139217376709,
+            "article": {
+              "title": "Danske virksomheder ansætter markant færre på grund af ai – og særligt to grupper er i farezonen",
+              "url": "https://politiken.dk/danmark/oekonomi/art10982219/Nu-ser-Nationalbanken-konsekvenserne-af-kunstig-intelligens-p%C3%A5-danske-arbejdspladser",
+              "source_id": "politiken.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:30.909976+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7458186745643616,
+            "article": {
+              "title": "Dansk ekspert har ingen tillid til selvregulering af AI-giganter",
+              "url": "https://www.dr.dk/nyheder/viden/teknologi/dansk-ekspert-har-ingen-tillid-til-selvregulering-af-ai-giganter",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:41.304943+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 18.254161886801228,
+        "size": 5,
+        "n_sources": 5,
+        "n_continents": 4,
+        "continents": [
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "South Asia"
+        ],
+        "coherence": 0.881732165813446,
+        "title": "At least 60 killed in Sudan gold mine collapse",
+        "central_article": {
+          "title": "At least 60 killed in Sudan gold mine collapse",
+          "url": "https://pajhwok.com/2026/09/16/at-least-60-killed-in-sudan-gold-mine-collapse/",
+          "source_id": "pajhwok.com",
+          "continent": "South Asia",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-16T12:17:12.686889+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9444132447242737,
+            "article": {
+              "title": "At least 60 killed in Sudan gold mine collapse",
+              "url": "https://pajhwok.com/2026/09/16/at-least-60-killed-in-sudan-gold-mine-collapse/",
+              "source_id": "pajhwok.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:17:12.686889+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9263463020324707,
+            "article": {
+              "title": "At least 60 killed in gold mine collapse in remote area of Sudan",
+              "url": "https://www.france24.com/en/africa/20260916-sudan-gold-mine-collapse-kills-at-least-67-people",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:56.806020+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9034291505813599,
+            "article": {
+              "title": "„Wir wissen nicht, wie viele noch drin sind“: Mindestens 60 Tote bei Einsturz von Goldmine im Sudan",
+              "url": "https://www.diepresse.com/41267201/wir-wissen-nicht-wie-viele-noch-drin-sind-mindestens-60-tote-bei-einsturz-von-goldmine-im-sudan",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:21.701371+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8516548871994019,
+            "article": {
+              "title": "Altın madeninde göçük! En az 60 kişi hayatını kaybetti",
+              "url": "https://www.milliyet.com.tr/dunya/son-dakika-sudanda-altin-madeninde-gocuk-en-az-60-kisi-hayatini-kaybetti-7661438",
+              "source_id": "milliyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:13:49.865833+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7828171849250793,
+            "article": {
+              "title": "Just nu Guldgruva kollapsade – minst 67 döda",
+              "url": "https://www.svt.se/nyheter/utrikes/minst-60-doda-i-sudanesisk-gruvkollaps",
+              "source_id": "svt.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-16T12:11:38.301957+00:00"
             }
           }
         ]
       }
     ],
-    "created_at_utc": "2026-09-15T22:22:01Z"
+    "created_at_utc": "2026-09-16T12:49:32Z"
   }
 ]
