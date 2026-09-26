@@ -1,1972 +1,1828 @@
 [
   {
-    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1790374697",
-    "n_items": 2454,
-    "n_clusters": 2002,
+    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1790424863",
+    "n_items": 2417,
+    "n_clusters": 2007,
     "clusters": [
       {
-        "score": 122.34056766414416,
-        "size": 44,
-        "n_sources": 28,
-        "n_continents": 8,
+        "score": 82.14514024127052,
+        "size": 19,
+        "n_sources": 17,
+        "n_continents": 7,
+        "continents": [
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Oceania",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.8258728384971619,
+        "title": "OpenAI AI agents targeted US government websites for data access",
+        "central_article": {
+          "title": "OpenAI AI agents targeted US government websites for data access",
+          "url": "https://www.azernews.az/region/264516.html",
+          "source_id": "azernews.az",
+          "continent": "Europe East",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-26T11:55:25.037971+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9067224264144897,
+            "article": {
+              "title": "OpenAI AI agents targeted US government websites for data access",
+              "url": "https://www.azernews.az/region/264516.html",
+              "source_id": "azernews.az",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:55:25.037971+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8900773525238037,
+            "article": {
+              "title": "ИИ-агенты OpenAI вмешались в работу сайтов американских госведомств, пишут СМИ",
+              "url": "https://ria.ru/20260926/nyt-2120419576.html",
+              "source_id": "ria.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:55:09.760014+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8893682956695557,
+            "article": {
+              "title": "OpenAI intentó acceder sin autorización a webs de agencias del Gobierno de EE.UU.",
+              "url": "https://www.lavanguardia.com/internacional/20260926/11644396/openai-intento-acceder-autorizacion-webs-agencias-gobierno-ee-uu.html",
+              "source_id": "lavanguardia.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:52:33.341318+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8822728395462036,
+            "article": {
+              "title": "OpenAI says agents leaked 53 ChatGPT images, accessed US government websites",
+              "url": "https://www.sbs.com.au/news/article/openai-says-agents-leaked-53-chatgpt-images-accessed-us-government-websites/j3ya0h5hq",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:53:41.333769+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8803589344024658,
+            "article": {
+              "title": "OpenAI says its bots broke into other governments’ websites",
+              "url": "https://www.smh.com.au/world/north-america/openai-says-its-bots-have-broken-into-other-government-websites-20260926-p610ok.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:53:42.873695+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8639485836029053,
+            "article": {
+              "title": "OpenAI accedió por su cuenta y sin autorización a portales oficiales del Gobierno de Estados Unidos",
+              "url": "https://www.rtve.es/noticias/20260926/openai-sin-autorizacion-a-portales-oficiales-gobierno-estados-unidos/17241698.shtml",
+              "source_id": "rtve.es",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:52:36.231342+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8610100150108337,
+            "article": {
+              "title": "OpenAI's models accessed US government websites: Report",
+              "url": "https://www.channelnewsasia.com/world/openai-access-us-government-websites-6412186",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:58:02.155319+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8499710559844971,
+            "article": {
+              "title": "Zeci de instituții din toată lumea, alertate de OpenAI că agenți de inteligență artificială s-au jucat cu site-urile lor",
+              "url": "https://hotnews.ro/zeci-de-institutii-din-toata-lumea-alertate-de-openai-ca-agentii-sai-s-au-jucat-cu-site-urile-lor-2358587",
+              "source_id": "hotnews.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:54:36.131089+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8382457494735718,
+            "article": {
+              "title": "OpenAI says its AI agents posted user images online in error",
+              "url": "https://www.channelnewsasia.com/world/openai-agents-post-user-images-online-error-6412516",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:58:02.155319+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8377962708473206,
+            "article": {
+              "title": "OpenAI bots meddled with multiple US government agency sites OpenAI said its bots accessed public data from a range of institutions during test exercises. 9 hrs ago Technology",
+              "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:51:20.013380+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8295990228652954,
+            "article": {
+              "title": "\"Acciones no previstas\". OpenAI informó que su inteligencia artificial intentó vulnerar sitios web del gobierno de EE.UU.",
+              "url": "https://www.lanacion.com.ar/estados-unidos/openai-informo-que-sus-sistemas-de-inteligencia-artificial-intentaron-vulnerar-sitios-web-del-nid26092026/",
+              "source_id": "lanacion.com.ar",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:52:57.913220+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8167340755462646,
+            "article": {
+              "title": "OpenAI dezvăluie un nou incident: Zeci de imagini trimise pe ChatGPT au fost postate online de agenții săi scăpați de sub control",
+              "url": "https://hotnews.ro/openai-dezvaluie-un-nou-incident-zeci-de-imagini-trimise-pe-chatgpt-au-fost-postate-online-de-agentii-sai-scapati-de-sub-control-2358745",
+              "source_id": "hotnews.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:54:36.131089+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8111836314201355,
+            "article": {
+              "title": "AI OpenAI says agents leaked 53 images from ChatGPT users in latest example of rogue activity",
+              "url": "https://www.theguardian.com/technology/2026/sep/25/openai-agents-leaked-53-images-chatgpt",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:51:24.171692+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8094448447227478,
+            "article": {
+              "title": "'Dozens' hacked by OpenAI agents globally",
+              "url": "https://www.abc.net.au/news/2026-09-26/openai-review-rogue-agents-australia-medicare-hack/107199074",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:53:39.812687+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7766619920730591,
+            "article": {
+              "title": "OpenAI сообщила об утечке изображений пользователей ChatGPT из-за действий своих ИИ-агентов 26 сентября",
+              "url": "https://novayagazeta.eu/articles/2026/09/26/openai-soobshchila-ob-utechke-izobrazhenii-polzovatelei-chatgpt-iz-za-deistvii-svoikh-ii-agentov-news",
+              "source_id": "novayagazeta.eu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:54:56.951284+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7503565549850464,
+            "article": {
+              "title": "Rogue AI accessed federal websites, posted user images online, ChatGPT says",
+              "url": "https://www.france24.com/en/technology/20260926-chatgpt-says-its-rogue-ai-agents-posted-users-images-online-entered-federal-website",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:52:24.708899+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7492403984069824,
+            "article": {
+              "title": "AI एजेंट की अमेरिकी सरकारी वेबसाइट्स से छेड़छाड़: डेटा एक्सेस कर इंटरनेट पर डाला; कंपनी बोली- सटीक जानकारी जुटाना मकसद था Play video",
+              "url": "https://www.bhaskar.com/g/business/news/ai-agents-hack-us-government-sites-data-breach-security-alert-139154096.html",
+              "source_id": "bhaskar.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:57:09.572026+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7403393983840942,
+            "article": {
+              "title": "IA da OpenAI hackeia governo da Austrália em caso inédito",
+              "url": "https://www.em.com.br/internacional/2026/09/7508592-ia-da-openai-hackeia-governo-da-australia-em-caso-inedito-no-mundo.html",
+              "source_id": "em.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:53:12.264812+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7082523107528687,
+            "article": {
+              "title": "OpenAI: “I nostri agenti di intelligenza artificiale hanno colpito decine di governi”. Thiel contro il Pontefice: “Idiota utile alla Cina”",
+              "url": "https://www.repubblica.it/esteri/2026/09/26/news/openai_colpiti_siti_governo_pubblicate_foto_utenti-425608601/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:52:39.111080+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 74.49459107222684,
+        "size": 20,
+        "n_sources": 18,
+        "n_continents": 6,
+        "continents": [
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "South Asia"
+        ],
+        "coherence": 0.8257190585136414,
+        "title": "Disaster zone declared across Bangkok as heavy rain triggers flooding",
+        "central_article": {
+          "title": "Disaster zone declared across Bangkok as heavy rain triggers flooding",
+          "url": "https://www.aljazeera.com/news/2026/9/26/disaster-zone-declared-across-bangkok-as-heavy-rain-triggers-flooding",
+          "source_id": "aljazeera.com",
+          "continent": "Middle East",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-26T11:53:58.459919+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9097342491149902,
+            "article": {
+              "title": "Disaster zone declared across Bangkok as heavy rain triggers flooding",
+              "url": "https://www.aljazeera.com/news/2026/9/26/disaster-zone-declared-across-bangkok-as-heavy-rain-triggers-flooding",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:53:58.459919+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9035962820053101,
+            "article": {
+              "title": "Bangkok déclare l'état de catastrophe dans toute la ville après des inondations",
+              "url": "https://www.rts.ch/info/monde/2026/article/bangkok-etat-de-catastrophe-declare-apres-des-inondations-29368001.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:52:26.072745+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8974733948707581,
+            "article": {
+              "title": "Thai capital Bangkok declared disaster zone amid flooding",
+              "url": "https://kathmandupost.com/world/2026/09/26/thai-capital-bangkok-declared-disaster-zone-amid-flooding",
+              "source_id": "kathmandupost.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:57:26.148580+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8851552605628967,
+            "article": {
+              "title": "Canals full, roads submerged as Bangkok declares flood disaster",
+              "url": "https://www.channelnewsasia.com/asia/bangkok-heavy-rain-canals-roads-flooding-disaster-6412356",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:58:02.155319+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8762290477752686,
+            "article": {
+              "title": "Thaïlande : Bangkok déclare l’état de catastrophe dans ses 50 districts, en proie à de graves inondations",
+              "url": "https://www.lemonde.fr/international/article/2026/09/26/thailande-bangkok-declare-l-etat-de-catastrophe-dans-ses-50-districts-en-proie-a-de-graves-inondations_6783097_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:52:19.854819+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8695541620254517,
+            "article": {
+              "title": "All 50 Bangkok districts declared disaster zones as flooding worsens; canals full and roads submerged",
+              "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/26/all-50-bangkok-districts-declared-disaster-zones-as-flooding-worsens-canals-full-and-roads-submerged",
+              "source_id": "thestar.com.my",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:58:28.374795+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8656615018844604,
+            "article": {
+              "title": "Bangkok declares flood disaster after massive 48-hour downpour",
+              "url": "https://www.france24.com/en/asia-pacific/20260926-bangkok-declares-flood-disaster-after-massive-48h-downpour",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:52:24.708899+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8632795810699463,
+            "article": {
+              "title": "В Бангкоке объявили режим бедствия из-за наводнения",
+              "url": "https://www.kommersant.ru/doc/8987694?from=spot_main",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:55:04.445613+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8259821534156799,
+            "article": {
+              "title": "Eastern Bangkok under water",
+              "url": "https://www.bangkokpost.com/thailand/general/3326513/eastern-bangkok-under-water",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:58:20.102696+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8207461833953857,
+            "article": {
+              "title": "Überschwemmungen in Thailand Behörden rufen Katastrophenfall in Bangkok aus",
+              "url": "https://www.tagesschau.de/ausland/asien/thailand-unwetter-regen-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:51:39.231626+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8147008419036865,
+            "article": {
+              "title": "53 sek Översvämningar i Bangkok – katastroftillstånd utlyst Över 150 millimeter regn har fallit senaste dygnet",
+              "url": "https://www.svt.se/nyheter/utrikes/oversvamningar-i-bangkok-katastroftillstand-utfardat",
+              "source_id": "svt.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:52:07.413938+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8034909963607788,
+            "article": {
+              "title": "1 uur geleden • Buitenland Grote delen van Bangkok overstroomd na aanhoudende zware regenval",
+              "url": "https://nos.nl/artikel/2632591-grote-delen-van-bangkok-overstroomd-na-aanhoudende-zware-regenval",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:51:30.999994+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7960557341575623,
+            "article": {
+              "title": "Katasztrófával sújtotta övezetnek nyilvánították Bangkok városát",
+              "url": "https://telex.hu/kulfold/2026/09/26/katasztrofaval-sujtotta-ovezetnek-nyilvanitottak-bangkok-varosat",
+              "source_id": "telex.hu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:54:34.638857+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7954463958740234,
+            "article": {
+              "title": "WIKUS DE WET Katastroftillstånd utlyst i Bangkok Kraftiga översvämningar: ”Vatten till midjan.”",
+              "url": "https://www.dn.se/direkt/2026-09-26/bangkok-oversvamning-i-hela-staden/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:52:00.750676+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7902035117149353,
+            "article": {
+              "title": "Thailand Banjir Parah, Mobil-mobil Tenggelam di Bangkok Global",
+              "url": "https://www.kompas.com/global/read/2026/09/26/171500270/thailand-banjir-parah-mobil-mobil-tenggelam-di-bangkok?source=sorotan",
+              "source_id": "kompas.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:58:33.792007+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7833848595619202,
+            "article": {
+              "title": "All 50 Bangkok districts declared disaster areas",
+              "url": "https://www.bangkokpost.com/thailand/general/3326549/all-50-bangkok-districts-declared-disaster-areas",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:58:20.102696+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7621270418167114,
+            "article": {
+              "title": "В Бангкоке ввели режим бедствия из-за ливней и наводнения В мире",
+              "url": "http://belta.by/world/view/v-bangkoke-vveli-rezhim-bedstvija-iz-za-livnej-i-navodnenija-802974-2026/",
+              "source_id": "belta.by",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:55:36.692183+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7553640604019165,
+            "article": {
+              "title": "Boende i Bangkok om översvämningarna: ”Chock” ”Känns ganska skrämmande”",
+              "url": "https://www.svt.se/nyheter/utrikes/boende-i-bangkok-om-oversvamningarna-chock",
+              "source_id": "svt.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:52:07.413938+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.75368332862854,
+            "article": {
+              "title": "Überschwemmungen in Thailand Bangkok: Hochwassersituation stabilisiert sich Mehrere Tage lang regnete es in der thailändischen Hauptstadt unablässig. Bangkoks Bauweise verschärfte das Problem.",
+              "url": "https://www.srf.ch/news/international/ueberschwemmungen-in-thailand-bangkok-hochwassersituation-stabilisiert-sich",
+              "source_id": "srf.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:51:56.902640+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7425123453140259,
+            "article": {
+              "title": "Bangkok experiences third day of heavy monsoon rains",
+              "url": "https://www.jpost.com/environment-and-climate-change/article-909765",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:54:01.156858+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 70.22947225085016,
+        "size": 17,
+        "n_sources": 15,
+        "n_continents": 7,
+        "continents": [
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "Oceania",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.8195615410804749,
+        "title": "Iran proposes deal with US to reopen Strait of Hormuz within a week",
+        "central_article": {
+          "title": "Iran proposes deal with US to reopen Strait of Hormuz within a week",
+          "url": "https://www.sbs.com.au/news/article/iran-proposes-deal-with-us-to-reopen-strait-of-hormuz-within-a-week/lu55w66er",
+          "source_id": "sbs.com.au",
+          "continent": "Oceania",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-26T11:53:41.333769+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9166582822799683,
+            "article": {
+              "title": "Iran proposes deal with US to reopen Strait of Hormuz within a week",
+              "url": "https://www.sbs.com.au/news/article/iran-proposes-deal-with-us-to-reopen-strait-of-hormuz-within-a-week/lu55w66er",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:53:41.333769+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9107446670532227,
+            "article": {
+              "title": "Tehran offers US seven-day plan to open Strait of Hormuz",
+              "url": "https://www.france24.com/en/middle-east/20260924-live-iran-s-president-says-us-must-choose-whether-to-end-war",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:52:24.708899+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9059089422225952,
+            "article": {
+              "title": "Iran offers deal to US to reopen Strait of Hormuz",
+              "url": "https://www.abc.net.au/news/2026-09-26/iran-offers-deal-to-us-to-reopen-strait-of-hormuz/107199816",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:53:39.812687+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9044322967529297,
+            "article": {
+              "title": "Iran legt VS plan voor om Straat van Hormuz binnen zeven dagen te heropenen",
+              "url": "https://www.nrc.nl/nieuws/2026/09/25/iran-legt-vs-plan-voor-om-straat-van-hormuz-binnen-zeven-dagen-te-heropenen-a4937594",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:51:32.781985+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8977171182632446,
+            "article": {
+              "title": "Irán ofrece a EE.UU. un acuerdo para reabrir el estrecho de Ormuz en 7 días",
+              "url": "https://www.bbc.com/mundo/articles/crx2zzgjledno",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:52:44.321983+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8785632848739624,
+            "article": {
+              "title": "Iran says Strait of Hormuz could reopen within seven days if US accepts deal",
+              "url": "https://www.politico.eu/article/iran-strait-of-hormuz-reopen-us-accepts-deal/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:51:29.749560+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.845856785774231,
+            "article": {
+              "title": "হরমুজ সাত দিনের মধ্যে খুলতে প্রস্তাব ইরানের, কী বলছে যুক্তরাষ্ট্র",
+              "url": "https://www.prothomalo.com/world/middle-east/glt0g0ue5g",
+              "source_id": "prothomalo.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:57:17.218620+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8201693296432495,
+            "article": {
+              "title": "Iran offers US deal to reopen Strait of Hormuz in seven days Asked about the Iranian proposal, a US official told the BBC \"constructive discussions\" were taking place through mediators. 7 hrs ago Middle East",
+              "url": "https://www.bbc.com/news/articles/cqgmrr9ekr7ko",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:51:20.013380+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8152807950973511,
+            "article": {
+              "title": "Trump reportedly rejects Iran’s seven-day plan to reopen Strait of Hormuz",
+              "url": "https://www.france24.com/en/middle-east/20260926-trump-reportedly-rejects-iran-s-7-day-plan-to-reopen-strait-of-hormuz",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:52:24.708899+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7871130108833313,
+            "article": {
+              "title": "Teheran propone una tregua in 7 giorni, Donald dice «no». Poi posta una mappa dove Hormuz diventa lo Stretto di Trump",
+              "url": "https://www.corriere.it/esteri/diretta-live/26_settembre_26/guerra-usa-iran-news-oggi-diretta.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:52:40.752969+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7840704917907715,
+            "article": {
+              "title": "Iran submits seven-day Hormuz plan; Yemen forces advance in Taiz",
+              "url": "https://www.newarab.com/news/iran-submits-seven-day-hormuz-plan-yemen-forces-advance-taiz",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:54:21.475727+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7780110239982605,
+            "article": {
+              "title": "États-Unis/Iran L'Iran propose un plan pour rouvrir le détroit d'Ormuz, refus de Trump selon le WSJ",
+              "url": "https://www.lorientlejour.com/article/1548728/donald-trump-refuse-loffre-iranienne-pour-rouvrir-le-detroit-dormuz.html",
+              "source_id": "lorientlejour.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:54:14.342021+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7583520412445068,
+            "article": {
+              "title": "Aseguran que Trump rechazó el plan que Irán presentó a EE.UU. para reabrir el estrecho de Ormuz",
+              "url": "https://www.emol.com/noticias/Internacional/2026/09/26/1212487/iran-eeuu-plan-reabrir-ormuz.html",
+              "source_id": "emol.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:53:02.792890+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7548811435699463,
+            "article": {
+              "title": "Иран назвал возможный срок открытия Ормузского пролива",
+              "url": "https://tengrinews.kz/world_news/iran-nazval-vozmojnyiy-srok-otkryitiya-ormuzskogo-proliva-609427/",
+              "source_id": "tengrinews.kz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:55:20.230182+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7479392886161804,
+            "article": {
+              "title": "Iran 'offers uranium compromise' as part of plan to break US deadlock",
+              "url": "https://www.thenationalnews.com/news/mena/2026/09/25/iran-offers-uranium-compromise-as-part-of-plan-to-break-us-deadlock-sources-say/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:53:59.759142+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7145189046859741,
+            "article": {
+              "title": "Iran proposes phased deal to end war",
+              "url": "https://www.euronews.com/2026/09/25/iran-proposes-plan-to-us-to-reopen-hormuz-in-seven-days-and-end-the-war",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:51:28.373408+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7123298048973083,
+            "article": {
+              "title": "Iran wartet auf US-Antwort Neuer Anlauf zur Öffnung der Straße von Hormus",
+              "url": "https://www.tagesschau.de/ausland/asien/iran-hormus-usa-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:51:39.231626+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 66.04954342296439,
+        "size": 15,
+        "n_sources": 15,
+        "n_continents": 6,
+        "continents": [
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "South Asia"
+        ],
+        "coherence": 0.8381190896034241,
+        "title": "Donald Trump refuse l’offre iranienne pour rouvrir le détroit d’Ormuz",
+        "central_article": {
+          "title": "Donald Trump refuse l’offre iranienne pour rouvrir le détroit d’Ormuz",
+          "url": "https://www.rtbf.be/article/donald-trump-refuse-l-offre-iranienne-pour-rouvrir-le-detroit-d-ormuz-11790913",
+          "source_id": "rtbf.be",
+          "continent": "Europe South",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-26T11:52:30.316082+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9108390808105469,
+            "article": {
+              "title": "Donald Trump refuse l’offre iranienne pour rouvrir le détroit d’Ormuz",
+              "url": "https://www.rtbf.be/article/donald-trump-refuse-l-offre-iranienne-pour-rouvrir-le-detroit-d-ormuz-11790913",
+              "source_id": "rtbf.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:52:30.316082+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9108390808105469,
+            "article": {
+              "title": "Donald Trump refuse l’offre iranienne pour rouvrir le détroit d’Ormuz",
+              "url": "https://www.lesoir.be/773189/article/2026-09-26/donald-trump-refuse-loffre-iranienne-pour-rouvrir-le-detroit-dormuz",
+              "source_id": "lesoir.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:52:31.779718+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8940874338150024,
+            "article": {
+              "title": "Le président américain Donald Trump refuse l'offre iranienne pour rouvrir Ormuz",
+              "url": "https://www.rts.ch/info/monde/2026/article/donald-trump-refuse-l-offre-de-l-iran-pour-rouvrir-ormuz-29367974.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:52:26.072745+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8721088767051697,
+            "article": {
+              "title": "Трамп отверг мирное предложение Ирана",
+              "url": "https://tengrinews.kz/world_news/tramp-otverg-mirnoe-predlojenie-irana-609433/",
+              "source_id": "tengrinews.kz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:55:20.230182+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8513873815536499,
+            "article": {
+              "title": "Trump lehnt iranischen Vorschlag zur Öffnung der Straße von Hormus ab",
+              "url": "https://www.welt.de/politik/ausland/article6ab73cd0a8b3f6fdb1edbadd/medienbericht-trump-lehnt-iranischen-vorschlag-zur-oeffnung-der-strasse-von-hormus-ab.html",
+              "source_id": "welt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:51:45.845324+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.850864589214325,
+            "article": {
+              "title": "Trump lehnt Irans Vorschlag zu Hormus offenbar ab",
+              "url": "https://www.zdfheute.de/politik/ausland/iran-usa-friedensvorschlag-hormus-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:51:50.994332+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8478442430496216,
+            "article": {
+              "title": "Trump rejects Iranian peace proposal, report says",
+              "url": "https://www.japantimes.co.jp/news/2026/09/26/world/politics/trump-rejects-iranian-peace-proposal/",
+              "source_id": "japantimes.co.jp",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:58:03.843474+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8375052213668823,
+            "article": {
+              "title": "Trump rejects Iran’s seven-day roadmap as Tehran seeks return to talks",
+              "url": "https://pajhwok.com/2026/09/26/trump-rejects-irans-seven-day-roadmap-as-tehran-seeks-return-to-talks/",
+              "source_id": "pajhwok.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:57:32.015019+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8363360166549683,
+            "article": {
+              "title": "Trump a respins oferta Iranului de redeschidere a Ormuz / Harta sfidătoare publicată online",
+              "url": "https://hotnews.ro/trump-a-respins-oferta-iranului-de-redeschidere-a-ormuz-harta-sfidatoare-publicata-online-2358564",
+              "source_id": "hotnews.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:54:36.131089+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8350887298583984,
+            "article": {
+              "title": "Trump ‘rejects’ Iran’s seven-day ceasefire proposal. What’s next?",
+              "url": "https://www.aljazeera.com/news/2026/9/26/trump-reportedly-rejects-irans-seven-day-ceasefire-proposal-whats-next",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:53:58.459919+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7999275922775269,
+            "article": {
+              "title": "Trump rejects Iranian proposal, expects war to continue after midterm elections",
+              "url": "https://www.jpost.com/middle-east/iran-news/article-909753",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:54:01.156858+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7987921833992004,
+            "article": {
+              "title": "Trump menda že zavrnil iranski predlog, ima pa novo ime za Hormuško ožino",
+              "url": "https://www.delo.si/novice/svet/trump-menda-zavrnil-iranski-predlog-ima-pa-ze-novo-ime-za-hormusko-ozino",
+              "source_id": "delo.si",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:54:50.791253+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7898199558258057,
+            "article": {
+              "title": "Le point à 13h : Trump refuse une offre iranienne pour rouvrir le détroit d'Ormuz ; l'armée israélienne se... Gabriel BLONDEL",
+              "url": "https://www.lorientlejour.com/article/1548732/le-point-a-13h-trump-refuse-une-offre-iranienne-pour-rouvrir-le-detroit-dormuz-larmee-israelienne-encercle-un-village-habite-au-liban-sud-occupe.html",
+              "source_id": "lorientlejour.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:54:14.342021+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7748788595199585,
+            "article": {
+              "title": "Trump erteilt Waffenruhe mit dem Iran offenbar eine Absage",
+              "url": "https://www.diepresse.com/41298285/trump-erteilt-waffenruhe-mit-dem-iran-offenbar-eine-absage",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:51:48.759960+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7614669799804688,
+            "article": {
+              "title": "Трамп отверг план Ирана о прекращении огня и ожидает возобновления бомбардировок после выборов в Конгресс 26 сентября",
+              "url": "https://novayagazeta.eu/articles/2026/09/26/tramp-otverg-plan-irana-o-prekrashchenii-ognia-i-ozhidaet-vozobnovleniia-bombardirovok-posle-vyborov-v-kongress-news",
+              "source_id": "novayagazeta.eu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:54:56.951284+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 50.51544513177532,
+        "size": 12,
+        "n_sources": 12,
+        "n_continents": 6,
         "continents": [
           "China",
           "East Asia",
           "Europe East",
           "Europe North",
-          "North America",
-          "Oceania",
-          "South America",
-          "South Asia"
+          "Europe South",
+          "Middle East"
         ],
-        "coherence": 0.7790325284004211,
-        "title": "Xi attends state dinner held by Trump",
+        "coherence": 0.8291226029396057,
+        "title": "US, China agree to establish 'communication channel' for AI incidents",
         "central_article": {
-          "title": "Xi attends state dinner held by Trump",
-          "url": "https://en.people.cn/n3/2026/0925/c90000-20503711.html",
-          "source_id": "en.people.cn",
-          "continent": "China",
+          "title": "US, China agree to establish 'communication channel' for AI incidents",
+          "url": "https://www.azernews.az/region/264506.html",
+          "source_id": "azernews.az",
+          "continent": "Europe East",
           "published_at": null,
-          "scraped_at_utc": "2026-09-25T21:56:06.310603+00:00"
+          "scraped_at_utc": "2026-09-26T11:55:25.037971+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8929300308227539,
+            "sim_to_centroid": 0.928015410900116,
             "article": {
-              "title": "Xi attends state dinner held by Trump",
-              "url": "https://en.people.cn/n3/2026/0925/c90000-20503711.html",
-              "source_id": "en.people.cn",
-              "continent": "China",
+              "title": "US, China agree to establish 'communication channel' for AI incidents",
+              "url": "https://www.azernews.az/region/264506.html",
+              "source_id": "azernews.az",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:06.310603+00:00"
+              "scraped_at_utc": "2026-09-26T11:55:25.037971+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8929300308227539,
+            "sim_to_centroid": 0.8899497985839844,
             "article": {
-              "title": "Xi attends state dinner held by Trump",
-              "url": "https://www.chinadaily.com.cn/a/202609/25/WS6ab5adcbe4b06d4aa05601ed.html",
-              "source_id": "chinadaily.com.cn",
-              "continent": "China",
+              "title": "China, US to open AI ‘communication channel’ after summit",
+              "url": "https://www.aljazeera.com/news/2026/9/26/china-us-to-open-ai-communication-channel-after-summit-white-house-says",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:08.077799+00:00"
+              "scraped_at_utc": "2026-09-26T11:53:58.459919+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8870363831520081,
+            "sim_to_centroid": 0.8854334354400635,
             "article": {
-              "title": "Xi attends welcoming ceremony held by Trump",
-              "url": "https://www.chinadaily.com.cn/a/202609/24/WS6ab52f72e4b06d4aa0560166.html",
-              "source_id": "chinadaily.com.cn",
-              "continent": "China",
+              "title": "China and U.S. to open AI ‘communication channel’ after summit",
+              "url": "https://www.japantimes.co.jp/news/2026/09/26/world/us-china-ai-communication-line/",
+              "source_id": "japantimes.co.jp",
+              "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:08.077799+00:00"
+              "scraped_at_utc": "2026-09-26T11:58:03.843474+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8796000480651855,
+            "sim_to_centroid": 0.8508625626564026,
             "article": {
-              "title": "Xi attends welcome ceremony held by Trump",
-              "url": "https://en.people.cn/n3/2026/0925/c90000-20503715.html",
-              "source_id": "en.people.cn",
-              "continent": "China",
+              "title": "USA und China richten Kommunikationskanal für KI-Zwischenfälle ein",
+              "url": "https://www.diepresse.com/41298288/usa-und-china-richten-kommunikationskanal-fuer-ki-zwischenfaelle-ein",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:06.310603+00:00"
+              "scraped_at_utc": "2026-09-26T11:51:48.759960+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.850633442401886,
+            "sim_to_centroid": 0.8485337495803833,
             "article": {
-              "title": "Xi holds small-group exchanges with Trump",
-              "url": "https://en.people.cn/n3/2026/0925/c90000-20503717.html",
-              "source_id": "en.people.cn",
-              "continent": "China",
+              "title": "USA och Kina öppnar direktlinje om AI-incidenter",
+              "url": "https://www.dn.se/direkt/2026-09-26/usa-och-kina-oppnar-direktlinje-om-ai-incidenter/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:06.310603+00:00"
+              "scraped_at_utc": "2026-09-26T11:52:00.750676+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.850633442401886,
+            "sim_to_centroid": 0.8274509310722351,
             "article": {
-              "title": "Xi holds small-group exchanges with Trump",
-              "url": "https://www.chinadaily.com.cn/a/202609/24/WS6ab546d1e4b06d4aa056018b.html",
-              "source_id": "chinadaily.com.cn",
-              "continent": "China",
+              "title": "IA : Washington et Pékin vont se doter d’un canal de communication spécifique aux incidents",
+              "url": "https://www.lemonde.fr/international/article/2026/09/26/ia-washington-et-pekin-vont-se-doter-d-un-canal-de-communication-dedie-aux-incidents_6783095_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:08.077799+00:00"
+              "scraped_at_utc": "2026-09-26T11:52:19.854819+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.830272912979126,
+            "sim_to_centroid": 0.8271303176879883,
             "article": {
-              "title": "What happened when Xi Jinping met Donald Trump?",
-              "url": "https://www.abc.net.au/news/2026-09-26/what-happened-when-xi-jinping-and-donald-trump-met/107185512",
+              "title": "中美达成八点成果共识 同意建立人工智能事件的沟通渠道",
+              "url": "https://international.caixin.com/2026-09-26/102488946.html",
+              "source_id": "caixin.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:56:53.037606+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8079211115837097,
+            "article": {
+              "title": "China, US agree to $30 billion tariff cut, AI dialogue",
+              "url": "https://www.jpost.com/international/article-909764",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:54:01.156858+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.792709231376648,
+            "article": {
+              "title": "Китай и США договорились об укреплении военных контактов в кризисных ситуациях",
+              "url": "https://www.kommersant.ru/doc/8987796?from=top_main_5",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:55:04.445613+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7874490022659302,
+            "article": {
+              "title": "米中首脳、関税引き下げ合意 4.7兆円規模 AI事故で相互通知も",
+              "url": "https://www.asahi.com/articles/ASV9V3J6KV9VULFA00FM.html?iref=comtop_7_04",
+              "source_id": "asahi.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:58:05.640766+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7745497226715088,
+            "article": {
+              "title": "Xi-Trump summit: China and US find common ground on AI, tariffs and fentanyl",
+              "url": "https://www.scmp.com/news/china/diplomacy/article/3368884/xi-trump-summit-china-and-us-open-super-intelligence-communications-channel?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:56:37.665519+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7294668555259705,
+            "article": {
+              "title": "China en VS beide op zoek naar de heilige graal van AI-heerschappij",
+              "url": "https://nos.nl/artikel/2632294-china-en-vs-beide-op-zoek-naar-de-heilige-graal-van-ai-heerschappij",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:51:30.999994+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 46.62736447771807,
+        "size": 12,
+        "n_sources": 12,
+        "n_continents": 5,
+        "continents": [
+          "China",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "South America"
+        ],
+        "coherence": 0.8495686054229736,
+        "title": "2 dead, 4 missing after explosion destroys building in Athens",
+        "central_article": {
+          "title": "2 dead, 4 missing after explosion destroys building in Athens",
+          "url": "https://www.scmp.com/news/world/europe/article/3368903/2-dead-4-missing-after-explosion-destroys-building-athens?module=top_story&pgtype=homepage",
+          "source_id": "scmp.com",
+          "continent": "China",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-26T11:56:37.665519+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9076340794563293,
+            "article": {
+              "title": "2 dead, 4 missing after explosion destroys building in Athens",
+              "url": "https://www.scmp.com/news/world/europe/article/3368903/2-dead-4-missing-after-explosion-destroys-building-athens?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:56:37.665519+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8863250017166138,
+            "article": {
+              "title": "Två döda efter explosionen i Aten",
+              "url": "https://www.dn.se/direkt/2026-09-26/tva-doda-efter-explosionen-i-aten/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:52:00.750676+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.884475827217102,
+            "article": {
+              "title": "Zeker twee doden na explosie woning in centrum Athene",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5655655/athene-explosie-centrum-doden",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:51:34.660801+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8732746839523315,
+            "article": {
+              "title": "Nach mutmasslicher Gasexplosion in Athen: zwei Tote geborgen",
+              "url": "https://www.nzz.ch/panorama/nach-mutmasslicher-gasexplosion-in-athen-zwei-tote-geborgen-ld.10025614",
+              "source_id": "nzz.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:51:54.666981+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8720627427101135,
+            "article": {
+              "title": "Explosão na Acrópolis de Atenas deixa pelo menos dois mortos; quatro estão desaparecidos",
+              "url": "https://oglobo.globo.com/mundo/noticia/2026/09/26/explosao-na-acropolis-de-atenas-deixa-pelo-menos-um-morto-cinco-estao-desaparecidos.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:53:09.293132+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8713916540145874,
+            "article": {
+              "title": "Zwei Todesopfer geborgen: Explosion in Haus nahe Akropolis in Athen",
+              "url": "https://www.diepresse.com/41298637/zwei-todesopfer-geborgen-explosion-in-haus-nahe-akropolis-in-athen",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:51:48.759960+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.859552264213562,
+            "article": {
+              "title": "Explozia din centrul Atenei a făcut patru morți. Doi oameni sunt încă dispăruți",
+              "url": "https://www.g4media.ro/explozia-din-centrul-atenei-a-facut-patru-morti-doi-oameni-sunt-inca-disparuti.html",
+              "source_id": "g4media.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:54:47.148325+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8396479487419128,
+            "article": {
+              "title": "Amerikansk ægtepar fundet dræbt efter gaseksplosion i Athen",
+              "url": "https://www.dr.dk/nyheder/udland/amerikaner-fundet-draebt-efter-gaseksplosion-i-athen",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:52:10.706613+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8352478742599487,
+            "article": {
+              "title": "Athénban összeomlott egy épület, már több halottat is találtak",
+              "url": "https://telex.hu/kulfold/2026/09/26/athenban-osszeomlott-egy-epulet-eddig-ket-halottat-talaltak",
+              "source_id": "telex.hu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:54:34.638857+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.824043869972229,
+            "article": {
+              "title": "Briton among four missing after house explosion in Athens",
+              "url": "https://www.thetimes.com/world/europe/article/athens-explosion-briton-missing-237nwm3hf",
+              "source_id": "thetimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:51:22.860214+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7923427820205688,
+            "article": {
+              "title": "Grèce : un deuxième corps retrouvé après l’effondrement d’un immeuble à Athènes",
+              "url": "https://www.lesoir.be/773222/article/2026-09-26/grece-un-deuxieme-corps-retrouve-apres-leffondrement-dun-immeuble-athenes",
+              "source_id": "lesoir.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:52:31.779718+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7488242983818054,
+            "article": {
+              "title": "Felrobban egy ház, legkevesebb négy ember meghalt, hárman megsérültek, két személyt eltűntként keresnek Athén turistanegyedében A görög főváros polgármestere szerint gázrobbanás okozhatta a tragédiát.",
+              "url": "https://nepszava.hu/3333667_athen-hazrobbanas-gazrobbanas-halalos-aldozat-turistak-eltuntek-gorogorszag",
+              "source_id": "nepszava.hu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:54:44.254776+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 34.65338658229129,
+        "size": 8,
+        "n_sources": 8,
+        "n_continents": 5,
+        "continents": [
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "North America",
+          "Oceania"
+        ],
+        "coherence": 0.8713032007217407,
+        "title": "White House bans CNN from Air Force One for Trump trip to Tennessee",
+        "central_article": {
+          "title": "White House bans CNN from Air Force One for Trump trip to Tennessee",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/cnn-ban-trump-air-force-one-b3056736.html",
+          "source_id": "independent.co.uk",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-26T11:51:21.307074+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9303240776062012,
+            "article": {
+              "title": "White House bans CNN from Air Force One for Trump trip to Tennessee",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/cnn-ban-trump-air-force-one-b3056736.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:51:21.307074+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8805676698684692,
+            "article": {
+              "title": "US-Präsident Trump schließt CNN von Reise aus",
+              "url": "https://www.tagesschau.de/ausland/amerika/trump-cnn-112.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:51:39.231626+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8727263808250427,
+            "article": {
+              "title": "Bílý dům nevpustí CNN na palubu Air Force One",
+              "url": "https://ct24.ceskatelevize.cz/clanek/svet/bily-dum-nevpusti-cnn-na-palubu-air-force-one-377980",
+              "source_id": "ct24.ceskatelevize.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:54:42.727634+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8707412481307983,
+            "article": {
+              "title": "CNN is left off Air Force One for Trump’s upcoming trip",
+              "url": "https://www.latimes.com/world-nation/story/2026-09-25/cnn-is-left-off-air-force-one-for-trumps-upcoming-trip",
+              "source_id": "latimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:56:28.442504+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8682811856269836,
+            "article": {
+              "title": "Witte Huis weert nieuwszender CNN uit Air Force One",
+              "url": "https://www.nrc.nl/nieuws/2026/09/26/witte-huis-weert-nieuwszender-cnn-uit-air-force-one-a4937595",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:51:32.781985+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8657403588294983,
+            "article": {
+              "title": "CNN barred from Trump trip after judge strikes down White House ban",
+              "url": "https://www.abc.net.au/news/2026-09-26/white-house-blocks-cnn-from-air-force-one-trip/107199678",
               "source_id": "abc.net.au",
               "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:53:25.218299+00:00"
+              "scraped_at_utc": "2026-09-26T11:53:39.812687+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8255972266197205,
+            "sim_to_centroid": 0.8524463772773743,
             "article": {
-              "title": "Trump and Xi hail great meeting, but has any progress been made?",
-              "url": "https://www.channel4.com/news/trump-and-xi-hail-great-meeting-but-has-any-progress-been-made",
-              "source_id": "channel4.com",
+              "title": "Einschränkung der Pressefreiheit Trump schließt US-Sender CNN von Reise nach Tennessee aus",
+              "url": "https://www.spiegel.de/ausland/donald-trump-cnn-von-trumps-reise-nach-tennessee-ausgeschlossen-a-944a98f6-dae4-4899-8a1d-20a843fde422",
+              "source_id": "spiegel.de",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:51:19.021480+00:00"
+              "scraped_at_utc": "2026-09-26T11:51:42.038359+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8227006793022156,
+            "sim_to_centroid": 0.8295984268188477,
             "article": {
-              "title": "Xi wraps up state visit to U.S.",
-              "url": "https://english.news.cn/special/202609xjp/index.html",
-              "source_id": "english.news.cn",
-              "continent": "China",
+              "title": "CNN removed from Trump press pool despite judge order to reinstate White House access",
+              "url": "https://www.france24.com/en/americas/20260926-cnn-removed-from-trump-press-pool-despite-judge-order-to-reinstate-white-house-access",
+              "source_id": "france24.com",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:12.306953+00:00"
+              "scraped_at_utc": "2026-09-26T11:52:24.708899+00:00"
             }
-          },
+          }
+        ]
+      },
+      {
+        "score": 30.157371872787735,
+        "size": 19,
+        "n_sources": 9,
+        "n_continents": 5,
+        "continents": [
+          "China",
+          "East Asia",
+          "Europe North",
+          "Oceania",
+          "South America"
+        ],
+        "coherence": 0.8199533820152283,
+        "title": "Xi wraps up state visit to U.S.",
+        "central_article": {
+          "title": "Xi wraps up state visit to U.S.",
+          "url": "https://english.news.cn/20260926/8ebe4e8384464a1bbf93d6352503482a/c.html",
+          "source_id": "english.news.cn",
+          "continent": "China",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-26T11:56:45.213437+00:00"
+        },
+        "members": [
           {
-            "sim_to_centroid": 0.8227006793022156,
+            "sim_to_centroid": 0.8958935737609863,
             "article": {
               "title": "Xi wraps up state visit to U.S.",
               "url": "https://english.news.cn/20260926/8ebe4e8384464a1bbf93d6352503482a/c.html",
               "source_id": "english.news.cn",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:12.306953+00:00"
+              "scraped_at_utc": "2026-09-26T11:56:45.213437+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8194465041160583,
+            "sim_to_centroid": 0.863231897354126,
             "article": {
-              "title": "Over tea, Trump, Xi speak of positive outcomes of their meeting",
-              "url": "https://www.channelnewsasia.com/shorts/over-tea-trump-xi-speak-positive-outcomes-their-meeting-6411701",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
+              "title": "Xi returns to Beijing after state visit to US",
+              "url": "https://www.chinadaily.com.cn/a/202609/26/WS6ab77a47e4b06d4aa0560576.html",
+              "source_id": "chinadaily.com.cn",
+              "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:57:27.363286+00:00"
+              "scraped_at_utc": "2026-09-26T11:56:41.739428+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8104238510131836,
+            "sim_to_centroid": 0.858153760433197,
             "article": {
-              "title": "Full text: Xi's remarks at state dinner held by Trump at the White House",
-              "url": "https://en.people.cn/n3/2026/0925/c90000-20503712.html",
+              "title": "Xi returns to Beijing after state visit to U.S.",
+              "url": "https://en.people.cn/n3/2026/0926/c90000-20503914.html",
               "source_id": "en.people.cn",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:06.310603+00:00"
+              "scraped_at_utc": "2026-09-26T11:56:40.017076+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8079968690872192,
+            "sim_to_centroid": 0.858153760433197,
             "article": {
-              "title": "Trump hails Xi meet as ‘very productive’; China seeks greater cooperation on AI",
-              "url": "https://www.hindustantimes.com/world-news/trump-hails-xi-meet-as-very-productive-china-president-urges-greater-cooperation-on-ai-101790346313948.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:41.927633+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8064850568771362,
-            "article": {
-              "title": "Reporters shout questions at Trump while he receives President Xi for tea",
-              "url": "https://www.channelnewsasia.com/shorts/reporters-shout-questions-trump-while-he-receives-president-xi-tea-6411546",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:57:27.363286+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7982431650161743,
-            "article": {
-              "title": "Trump once promised to feed Xi McDonald’s. He gave him a lavish state dinner and hearty serving of praise instead",
-              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-xi-state-dinner-ai-billionaires-b3056606.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:51:14.324102+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7972942590713501,
-            "article": {
-              "title": "Trump and Xi exchange warm words at state dinner but little progress on key issues",
-              "url": "https://www.bbc.com/news/articles/cxq63dqp93n1o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:51:12.883999+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7956360578536987,
-            "article": {
-              "title": "Trump Xi Jinping Meeting",
-              "url": "https://www.bhaskar.com/g/international/news/white-house-trump-jinping-meeting-ai-trade-security-talks-update-139137919.html",
-              "source_id": "bhaskar.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:37.653381+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.795574963092804,
-            "article": {
-              "title": "Xi ends Trump visit with vow to meet again in China this year – as it happened",
-              "url": "https://www.scmp.com/news/china/diplomacy/article/3368858/last-day-xis-us-visit-begins-trump-white-house-tea?module=breaking&pgtype=homepage",
-              "source_id": "scmp.com",
+              "title": "Xi returns to Beijing after state visit to U.S.",
+              "url": "https://english.news.cn/special/202609xjp/index.html",
+              "source_id": "english.news.cn",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:04.228337+00:00"
+              "scraped_at_utc": "2026-09-26T11:56:45.213437+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7864165306091309,
-            "article": {
-              "title": "Trump drøftede krigen i Iran med Xi",
-              "url": "https://sermitsiaq.ag/samfund/trump-droftede-krigen-i-iran-med-xi/2430046",
-              "source_id": "sermitsiaq.ag",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:52:02.701004+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7799869775772095,
+            "sim_to_centroid": 0.848702073097229,
             "article": {
               "title": "Chinese President Xi Jinping wraps up state visit to the US",
               "url": "https://www.channelnewsasia.com/shorts/chinese-president-xi-jinping-wraps-up-state-visit-us-6411816",
               "source_id": "channelnewsasia.com",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:57:27.363286+00:00"
+              "scraped_at_utc": "2026-09-26T11:58:02.155319+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7798551321029663,
+            "sim_to_centroid": 0.8449681401252747,
             "article": {
-              "title": "Trump embraces Xi as peer, alarms partners and critics",
-              "url": "https://timesofindia.indiatimes.com/world/us/trump-embraces-xi-as-peer-alarms-partners-and-critics/articleshow/134489947.cms",
-              "source_id": "timesofindia.indiatimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:36.354038+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7776405215263367,
-            "article": {
-              "title": "Peng Liyuan and Melania Trump renew acquaintance as Xi arrives in US",
-              "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/25/peng-liyuan-and-melania-trump-renew-acquaintance-as-xi-arrives-in-us",
-              "source_id": "thestar.com.my",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:57:52.850700+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7748485803604126,
-            "article": {
-              "title": "Trump gives Xi rare welcome at Joint Base Andrews",
-              "url": "https://pajhwok.com/2026/09/24/trump-gives-xi-rare-welcome-at-joint-base-andrews/",
-              "source_id": "pajhwok.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:58.248502+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7715088725090027,
-            "article": {
-              "title": "Xi expects to meet Trump twice more this year after touring U.S. archives on state visit",
-              "url": "https://www.theglobeandmail.com/world/article-trump-xi-summit-trade-taiwan-us-archives-tour/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:53:23.935347+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7677298784255981,
-            "article": {
-              "title": "Trump and Xi declare harmony, no confrontation, as US state visit ends",
-              "url": "https://www.euronews.com/2026/09/25/trump-and-xi-declare-harmony-no-confrontation-as-us-state-visit-ends",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:51:20.561090+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7673149108886719,
-            "article": {
-              "title": "Trump-Xi summit live: Xi departs Washington after three-day state visit",
-              "url": "https://asia.nikkei.com/spotlight/trump-xi-summit/trump-xi-summit-live-xi-departs-washington-after-three-day-state-visit",
-              "source_id": "asia.nikkei.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:57:04.257417+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.762676477432251,
-            "article": {
-              "title": "Trump says he and Xi compared history of US and China",
-              "url": "https://www.channelnewsasia.com/shorts/trump-says-he-and-xi-compared-history-us-and-china-6411791",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:57:27.363286+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7540358901023865,
-            "article": {
-              "title": "Full text: Xi's remarks at arrival ceremony at the White House",
-              "url": "https://en.people.cn/n3/2026/0925/c90000-20503600.html",
-              "source_id": "en.people.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:06.310603+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7522610425949097,
-            "article": {
-              "title": "US tech titans attend Trump-Xi dinner. Who wasn’t invited?",
-              "url": "https://www.rt.com/news/646222-trump-xi-dinner-tech-ai-giants/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:54:32.331088+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7497005462646484,
-            "article": {
-              "title": "Xi presses Trump to take the next step on Taiwan: oppose independence",
-              "url": "https://www.scmp.com/news/china/military/article/3368829/xi-presses-trump-take-next-step-taiwan-oppose-independence?module=breaking&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:04.228337+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7495273947715759,
-            "article": {
-              "title": "AI, trade, Iran and Taiwan top agenda at Trump-Xi summit",
-              "url": "https://www.pbs.org/newshour/show/ai-trade-iran-and-taiwan-top-agenda-at-trump-xi-summit",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:02.929780+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7492702007293701,
-            "article": {
-              "title": "Trump hadde middag for Xi med USAs rikeste. Inviterte dem til byggeplassen for ballsalen.",
-              "url": "https://www.aftenposten.no/verden/i/oErVKB/trump-holdt-statsmiddag-til-aere-for-xi-jinping",
-              "source_id": "aftenposten.no",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:51:51.212399+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.74404376745224,
-            "article": {
-              "title": "Why the Trump-Xi summit in Washington could be considered a win for Beijing",
-              "url": "https://www.straitstimes.com/asia/east-asia/why-the-trump-xi-summit-in-washington-could-be-considered-a-win-for-beijing?ref=asia",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:57:50.287936+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7434266209602356,
-            "article": {
-              "title": "Xi’s CEO-free delegation at Trump state dinner spotlights strains in US-China business ties",
-              "url": "https://www.channelnewsasia.com/world/trump-xi-state-dinner-guest-list-business-6410141",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:57:27.363286+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7398799657821655,
-            "article": {
-              "title": "A grand display for Xi reveals the limits of Trump’s summitry",
-              "url": "https://www.latimes.com/politics/story/2026-09-25/grand-display-for-xi-reveals-limits-of-trumps-summitry",
-              "source_id": "latimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:55:51.743785+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7353334426879883,
-            "article": {
-              "title": "Entre afagos e brindes com Trump, ajuda da China ao Irã foi prato indigesto da visita de Xi aos EUA",
-              "url": "https://oglobo.globo.com/mundo/noticia/2026/09/25/entre-afagos-e-brindes-com-trump-ajuda-da-china-ao-ira-foi-prato-indigesto-da-visita-de-xi-aos-eua.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:52:54.092019+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7301260232925415,
-            "article": {
-              "title": "Xi sends congratulatory letter to high-level dialogue marking 5th anniversary of GDI",
-              "url": "https://english.news.cn/20260926/cca9ceb22c77464ea1222f2cb26c5126/c.html",
-              "source_id": "english.news.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:12.306953+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7289228439331055,
-            "article": {
-              "title": "习近平夫妇在白宫参加国宴 特朗普吁重新唤起中美初次相遇的精神",
-              "url": "https://international.caixin.com/2026-09-25/102488708.html",
-              "source_id": "caixin.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:20.454447+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7241047620773315,
-            "article": {
-              "title": "Com elogios e 'piadas de tiozão', visita de Xi Jinping rende jantar, passeio na Casa Branca e risadas",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/09/com-elogios-e-piadas-de-tiozao-visita-de-xi-rende-cenas-inusitadas-com-trump.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:52:51.260259+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7226284742355347,
-            "article": {
-              "title": "Xi Jinping marks second Mid-Autumn Festival in US during state visit",
-              "url": "https://www.scmp.com/news/china/diplomacy/article/3368838/xi-jinping-marks-second-mid-autumn-festival-us-during-state-visit?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:04.228337+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.710600733757019,
-            "article": {
-              "title": "Xi sends letter to high-level dialogue marking 5th anniversary of GDI",
-              "url": "https://www.chinadaily.com.cn/a/202609/26/WS6ab6e094e4b06d4aa0560465.html",
+              "title": "Xi's key moments during his US visit",
+              "url": "https://www.chinadaily.com.cn/a/202609/26/WS6ab790dde4b06d4aa0560596.html",
               "source_id": "chinadaily.com.cn",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:08.077799+00:00"
+              "scraped_at_utc": "2026-09-26T11:56:41.739428+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7059651613235474,
+            "sim_to_centroid": 0.8409914374351501,
             "article": {
-              "title": "· 习近平和彭丽媛出席特朗普总统夫妇举行的欢迎国宴",
-              "url": "https://www.stnn.cc/detail/6ab5e9f6158f681db42a6573.html",
-              "source_id": "stnn.cc",
+              "title": "Xi attends state dinner held by Trump",
+              "url": "https://en.people.cn/n3/2026/0925/c90000-20503711.html",
+              "source_id": "en.people.cn",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:29.945658+00:00"
+              "scraped_at_utc": "2026-09-26T11:56:40.017076+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6986462473869324,
+            "sim_to_centroid": 0.8363152742385864,
             "article": {
-              "title": "Why did Xi and China’s first lady bring their own flasks to White House banquet?",
-              "url": "https://www.scmp.com/news/china/politics/article/3368835/why-did-xi-and-chinas-first-lady-bring-their-own-flasks-white-house-banquet?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
+              "title": "Xi holds small-group exchanges with Trump",
+              "url": "https://en.people.cn/n3/2026/0925/c90000-20503717.html",
+              "source_id": "en.people.cn",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:04.228337+00:00"
+              "scraped_at_utc": "2026-09-26T11:56:40.017076+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.5848445892333984,
+            "sim_to_centroid": 0.8284227848052979,
             "article": {
-              "title": "Melania Trump's unusual state dinner look makes statement",
-              "url": "https://www.usatoday.com/story/entertainment/style/2026/09/25/melania-trump-pants-china-state-dinner/91935235007/",
-              "source_id": "usatoday.com",
-              "continent": "North America",
+              "title": "Trump hosts Xi at White House",
+              "url": "https://www.chinadaily.com.cn/a/202609/26/WS6ab706ece4b06d4aa0560498.html",
+              "source_id": "chinadaily.com.cn",
+              "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:55:54.849272+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 69.90719336199079,
-        "size": 19,
-        "n_sources": 18,
-        "n_continents": 8,
-        "continents": [
-          "China",
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "North America",
-          "Oceania",
-          "South Asia"
-        ],
-        "coherence": 0.7554710507392883,
-        "title": "Through the lens: Trump-Xi summit",
-        "central_article": {
-          "title": "Through the lens: Trump-Xi summit",
-          "url": "https://asia.nikkei.com/photos/through-the-lens-trump-xi-summit",
-          "source_id": "asia.nikkei.com",
-          "continent": "East Asia",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-25T21:57:04.257417+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8014657497406006,
-            "article": {
-              "title": "Through the lens: Trump-Xi summit",
-              "url": "https://asia.nikkei.com/photos/through-the-lens-trump-xi-summit",
-              "source_id": "asia.nikkei.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:57:04.257417+00:00"
+              "scraped_at_utc": "2026-09-26T11:56:41.739428+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7950093746185303,
+            "sim_to_centroid": 0.8162079453468323,
             "article": {
-              "title": "Experts analyze what's at stake in the Trump-Xi summit",
-              "url": "https://www.pbs.org/newshour/show/experts-analyze-whats-at-stake-in-the-trump-xi-summit",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:02.929780+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7859516739845276,
-            "article": {
-              "title": "Explainer Diplomacy or ‘diplotainment’? Key takeaways from the Trump-Xi summit in Washington",
-              "url": "https://www.theguardian.com/us-news/2026/sep/25/key-takeaways-trump-xi-summit-whitehouse-china-ai-trade",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:51:17.422465+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7808156609535217,
-            "article": {
-              "title": "Trump-Xi meeting: Trade truce extended, key differences remain",
-              "url": "https://pajhwok.com/2026/09/25/trump-xi-meeting-trade-truce-extended-key-differences-remain/",
-              "source_id": "pajhwok.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:58.248502+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7789767980575562,
-            "article": {
-              "title": "ট্রাম্প-সি বৈঠকে অর্জন কম, তাতেও কেন খুশি চীন",
-              "url": "https://www.prothomalo.com/world/usa/c740xwwn46",
-              "source_id": "prothomalo.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:44.936102+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7745276093482971,
-            "article": {
-              "title": "Snap Insight: Though Trump-Xi summit achieves little, 2026 is a high point in US-China relations",
-              "url": "https://www.channelnewsasia.com/commentary/trump-xi-summit-washington-trade-snap-insight-6410591",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:57:27.363286+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7702925205230713,
-            "article": {
-              "title": "Funke Mediengruppe Die vier Lehren des Gipfels Trump trifft Xi: Noch ein Puzzleteil – dann wäre China zufrieden",
-              "url": "https://www.abendblatt.de/politik/article413250741/xi-trump-usa-china-treffen-gipfel-taiwan-melania-washington.html",
-              "source_id": "abendblatt.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:51:42.587715+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7677310705184937,
-            "article": {
-              "title": "Trump e Xi Jinping, dazi, terre rare, Ai: oltre alla coreografia, anche qualche intesa. E Taiwan si inquieta",
-              "url": "https://www.corriere.it/esteri/26_settembre_25/trump-xi-jinping-dazi-terre-rare-ai-taiwan-d4b8224b-5272-4033-9c89-f8f821f83xlk.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:52:28.087543+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7675127983093262,
-            "article": {
-              "title": "More than optics, Trump-Xi summit has a clear deliverable: Chan Heng Chee",
-              "url": "https://www.straitstimes.com/world/united-states/trump-xi-summit-has-a-clear-deliverable-says-singapores-former-us-ambassador-chan-heng-chee?ref=top-stories",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:57:50.287936+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7601990103721619,
-            "article": {
-              "title": "The ‘striking’ difference in how Trump and Xi used their invisible summit",
-              "url": "https://www.smh.com.au/world/north-america/the-striking-difference-in-how-trump-and-xi-used-their-invisible-summit-20260926-p610ng.html",
-              "source_id": "smh.com.au",
+              "title": "What happened when Xi Jinping met Donald Trump?",
+              "url": "https://www.abc.net.au/news/2026-09-26/what-happened-when-xi-jinping-and-donald-trump-met/107185512",
+              "source_id": "abc.net.au",
               "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:53:29.360553+00:00"
+              "scraped_at_utc": "2026-09-26T11:53:39.812687+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7530274987220764,
-            "article": {
-              "title": "Xi-Trump meeting was about 'managing rivalry', expert says",
-              "url": "https://www.euronews.com/2026/09/25/xi-trump-meeting-was-about-managing-rivalry-expert-says",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:51:20.561090+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7504900693893433,
-            "article": {
-              "title": "國際 川普：與習近平會晤富有成效 重大事情將發生",
-              "url": "https://www.cna.com.tw/news/aopl/202609250236.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:57:55.146213+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7500344514846802,
-            "article": {
-              "title": "习近平与特朗普在白宫会谈：中美应在良性竞争中彼此成就",
-              "url": "https://international.caixin.com/2026-09-25/102488642.html",
-              "source_id": "caixin.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:20.454447+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.744101881980896,
-            "article": {
-              "title": "О чём будут говорить Трамп и Си Цзиньпин во время переговоров в Белом доме",
-              "url": "https://mlyn.by/22092026/o-chyom-budut-govorit-tramp-i-si-czzinpin-vo-vremya-peregovorov-v-belom-dome-24-sentyabrya/",
-              "source_id": "mlyn.by",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:55:09.492100+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7348870038986206,
-            "article": {
-              "title": "習氏「あと2回会える」 茶会で異例の年４回提案、トランプ氏も意欲",
-              "url": "https://www.asahi.com/articles/ASV9T5FZQV9TUHBI042M.html?iref=comtop_7_06",
-              "source_id": "asahi.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:57:30.421875+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7264641523361206,
-            "article": {
-              "title": "چینی صدر کے ساتھ ملاقات دونوں ملکوں کیلئے فائدہ مند ثابت ہوئی، ...",
-              "url": "https://www.nawaiwaqt.com.pk/25-Sep-2026/2031229",
-              "source_id": "nawaiwaqt.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:55.599429+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.726175844669342,
-            "article": {
-              "title": "國際 川習白宮茶敘 川普稱關係取得進展、習預期今年底再會晤",
-              "url": "https://www.cna.com.tw/news/aopl/202609260002.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:57:55.146213+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7235175371170044,
-            "article": {
-              "title": "习近平和彭丽媛同美国总统特朗普夫妇茶叙 共同参观美国国家档案馆 中美同意共同构建\"基于尊重、公平、对等的建设性战略稳定关系\"",
-              "url": "https://news.gmw.cn/2026-09/26/content_39020842.htm",
-              "source_id": "gmw.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:33.524347+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6627687215805054,
-            "article": {
-              "title": "Lots of pomp but little progress as Trump and Xi end state visit to DC",
-              "url": "https://www.france24.com/en/americas/20260925-lots-of-pomp-but-no-progress-as-trump-and-xi-end-state-visit",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:52:11.246238+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 64.03260253020086,
-        "size": 22,
-        "n_sources": 18,
-        "n_continents": 7,
-        "continents": [
-          "China",
-          "East Asia",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "Oceania",
-          "South Asia"
-        ],
-        "coherence": 0.7646220922470093,
-        "title": "Donald Trump praises Xi Jinping as US visit wraps up, but little progress on key issues",
-        "central_article": {
-          "title": "Donald Trump praises Xi Jinping as US visit wraps up, but little progress on key issues",
-          "url": "https://www.sbs.com.au/news/article/xi-jinping-meets-with-donald-trump-during-visit-to-us/w6eqhf8rh",
-          "source_id": "sbs.com.au",
-          "continent": "Oceania",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-25T21:53:27.972030+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8152852058410645,
+            "sim_to_centroid": 0.8076379299163818,
             "article": {
               "title": "Donald Trump praises Xi Jinping as US visit wraps up, but little progress on key issues",
               "url": "https://www.sbs.com.au/news/article/xi-jinping-meets-with-donald-trump-during-visit-to-us/w6eqhf8rh",
               "source_id": "sbs.com.au",
               "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:53:27.972030+00:00"
+              "scraped_at_utc": "2026-09-26T11:53:41.333769+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8031582832336426,
+            "sim_to_centroid": 0.8038839101791382,
             "article": {
-              "title": "Trump and Xi hail a new dawn — but what of old grievances?",
-              "url": "https://www.thetimes.com/world/asia/article/president-trump-xi-jinping-meeting-summit-un-china-htlqxtbjx",
-              "source_id": "thetimes.com",
+              "title": "Trump and Xi declare harmony, no confrontation, as US state visit ends",
+              "url": "https://www.euronews.com/2026/09/25/trump-and-xi-declare-harmony-no-confrontation-as-us-state-visit-ends",
+              "source_id": "euronews.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:51:16.110527+00:00"
+              "scraped_at_utc": "2026-09-26T11:51:28.373408+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7961277961730957,
+            "sim_to_centroid": 0.798969030380249,
             "article": {
-              "title": "What Donald Trump’s meeting with Xi Jinping has—and hasn’t—achieved",
-              "url": "https://www.hindustantimes.com/world-news/what-donald-trump-s-meeting-with-xi-jinping-has-and-hasntachieved-101790319645119.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:41.927633+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.795600414276123,
-            "article": {
-              "title": "Xi-Trump summit provides new strategic guidance for China-U.S. ties",
-              "url": "https://english.news.cn/20260925/2bc5b67308cf449696d7f83224dc6f68/c.html",
+              "title": "China, U.S. reach consensus on eight outcomes in Xi's visit",
+              "url": "https://english.news.cn/20260926/fcbbf31255054c3d80a25e6a1f38923e/c.html",
               "source_id": "english.news.cn",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:12.306953+00:00"
+              "scraped_at_utc": "2026-09-26T11:56:45.213437+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.795600414276123,
+            "sim_to_centroid": 0.798748254776001,
             "article": {
-              "title": "Xi-Trump summit provides new strategic guidance for China-U.S. ties",
-              "url": "https://en.people.cn/n3/2026/0926/c90000-20503778.html",
-              "source_id": "en.people.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:06.310603+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7949628829956055,
-            "article": {
-              "title": "Trump welcomes China’s Xi with fanfare, but no breakthroughs emerge",
-              "url": "https://kathmandupost.com/world/2026/09/25/trump-welcomes-china-s-xi-with-fanfare-but-no-breakthroughs-emerge",
-              "source_id": "kathmandupost.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:52.478216+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7937716245651245,
-            "article": {
-              "title": "Warm words, limited deals: Trump-Xi summit puts focus on managing US-China rivalry",
-              "url": "https://www.channelnewsasia.com/east-asia/warm-words-limited-deals-trump-xi-summit-puts-focus-managing-us-china-rivalry-6410746",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:57:27.363286+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.78493332862854,
-            "article": {
-              "title": "Trump’s warm welcome for Xi met with caution and uncertainty in Taiwan",
-              "url": "https://www.scmp.com/news/china/politics/article/3368839/trumps-warm-welcome-xi-met-caution-and-uncertainty-taiwan?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:04.228337+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7825585603713989,
-            "article": {
-              "title": "Trump-Xi summit: Who got the better deal?",
-              "url": "https://www.channel4.com/news/trump-xi-summit-who-got-the-better-deal",
+              "title": "Trump and Xi hail great meeting, but has any progress been made?",
+              "url": "https://www.channel4.com/news/trump-and-xi-hail-great-meeting-but-has-any-progress-been-made",
               "source_id": "channel4.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:51:19.021480+00:00"
+              "scraped_at_utc": "2026-09-26T11:51:26.860967+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7803260087966919,
+            "sim_to_centroid": 0.7964091897010803,
             "article": {
-              "title": "De Dag: Trump en Xi, vriend en vijand",
-              "url": "https://nos.nl/artikel/2632325-podcast-de-dag-trump-en-xi-vriend-en-vijand",
-              "source_id": "nos.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:51:22.895515+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7794233560562134,
-            "article": {
-              "title": "Dat Trump respect heeft voor Xi komt China goed uit, maar concrete doorbraken leverde hun top niet op",
-              "url": "https://www.nrc.nl/nieuws/2026/09/25/de-vriendschap-tussen-xi-en-trump-zorgt-voor-stabiliteit-maar-voor-weinig-meer-dan-dat-a4937383",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:51:24.537423+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7694287896156311,
-            "article": {
-              "title": "Trump y Xi sellan su ‘entente cordiale’ tras tres días de gran pompa y escasa sustancia",
-              "url": "https://elpais.com/internacional/2026-09-25/trump-y-xi-sellan-su-entente-cordiale-tras-tres-dias-de-gran-pompa-y-escasa-sustancia.html",
-              "source_id": "elpais.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:52:19.409922+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.763131320476532,
-            "article": {
-              "title": "Xi calls for translating new vision of China-U.S. relationship into action",
-              "url": "https://en.people.cn/n3/2026/0925/c90000-20503620.html",
-              "source_id": "en.people.cn",
+              "title": "How Xi looks to history and culture to deepen China-U.S. understanding",
+              "url": "https://english.news.cn/20260926/b56791ad3b6d4b1783bfe3e29dc27003/c.html",
+              "source_id": "english.news.cn",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:06.310603+00:00"
+              "scraped_at_utc": "2026-09-26T11:56:45.213437+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.757645845413208,
+            "sim_to_centroid": 0.7950631380081177,
             "article": {
-              "title": "Xi says China, U.S. should be partners, not rivals",
-              "url": "https://en.people.cn/n3/2026/0924/c90000-20503271.html",
-              "source_id": "en.people.cn",
+              "title": "China, US reach consensus on eight outcomes in Xi's visit",
+              "url": "https://www.chinadaily.com.cn/a/202609/26/WS6ab77bc2e4b06d4aa0560579.html",
+              "source_id": "chinadaily.com.cn",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:06.310603+00:00"
+              "scraped_at_utc": "2026-09-26T11:56:41.739428+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7546193599700928,
+            "sim_to_centroid": 0.7780951261520386,
+            "article": {
+              "title": "Trump says he and Xi compared history of US and China",
+              "url": "https://www.channelnewsasia.com/shorts/trump-says-he-and-xi-compared-history-us-and-china-6411791",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:58:02.155319+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7548952102661133,
             "article": {
               "title": "Xi, Peng Liyuan visit US National Archives with Trump",
               "url": "https://www.chinadaily.com.cn/a/202609/25/WS6ab69a6be4b06d4aa0560446.html",
               "source_id": "chinadaily.com.cn",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:08.077799+00:00"
+              "scraped_at_utc": "2026-09-26T11:56:41.739428+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7490628957748413,
+            "sim_to_centroid": 0.7543708086013794,
             "article": {
-              "title": "Xi, Peng Liyuan visit U.S. National Archives with Trump and his wife",
-              "url": "https://english.news.cn/20260925/6a47192944214bb689359cb52a308fbc/c.html",
-              "source_id": "english.news.cn",
-              "continent": "China",
+              "title": "Trump despide a Xi con un té tras una cena de Estado con más de 130 invitados de la política y los negocios",
+              "url": "https://www.latercera.com/mundo/noticia/trump-despide-a-xi-con-un-te-tras-una-cena-de-estado-con-mas-de-130-invitados-de-la-politica-y-los-negocios/",
+              "source_id": "latercera.com",
+              "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:12.306953+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7470654845237732,
-            "article": {
-              "title": "Trump, Xi inspect founding documents of US democracy to close summit",
-              "url": "https://www.bangkokpost.com/world/3326093/trump-xi-inspect-founding-documents-of-us-democracy-to-close-summit",
-              "source_id": "bangkokpost.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:57:45.680808+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7461476922035217,
-            "article": {
-              "title": "Trump warns Xi over Chinese support for Iran, receives assurances, US envoy says",
-              "url": "https://www.jpost.com/international/article-909740",
-              "source_id": "jpost.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:53:44.879122+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7439883351325989,
-            "article": {
-              "title": "AI-altered photo posted by Trump shows Xi's US welcome with only Natalie Harp in background",
-              "url": "https://www.jpost.com/american-politics/article-909738",
-              "source_id": "jpost.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:53:44.879122+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7259619235992432,
-            "article": {
-              "title": "Xi builds friendship across the Pacific",
-              "url": "https://en.gmw.cn/2026-09/24/content_39018696.htm",
-              "source_id": "gmw.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:33.524347+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.697921633720398,
-            "article": {
-              "title": "特朗普：今年访华感受到中国人民的热情好客，希望以同样的热情款待各位",
-              "url": "https://www.stnn.cc/detail/6ab5e033158f681db42a62f7.html",
-              "source_id": "stnn.cc",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:29.945658+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6449666619300842,
-            "article": {
-              "title": "川普辦國宴迎習近平 黃仁勳馬斯克等科技與金融大佬齊聚",
-              "url": "https://www.cna.com.tw/news/aopl/202609253001.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:57:55.146213+00:00"
+              "scraped_at_utc": "2026-09-26T11:53:15.124760+00:00"
             }
           }
         ]
       },
       {
-        "score": 46.72057151374848,
-        "size": 14,
-        "n_sources": 13,
+        "score": 25.769174819595314,
+        "size": 12,
+        "n_sources": 10,
         "n_continents": 5,
         "continents": [
           "China",
-          "Europe East",
-          "Middle East",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.8339594602584839,
-        "title": "Irã propõe acordo para reabrir Estreito de Ormuz em sete dias se EUA aceitarem condições",
-        "central_article": {
-          "title": "Irã propõe acordo para reabrir Estreito de Ormuz em sete dias se EUA aceitarem condições",
-          "url": "https://oglobo.globo.com/mundo/noticia/2026/09/25/ira-propoe-acordo-para-reabrir-estreito-de-ormuz-em-sete-dias-se-eua-aceitarem-condicoes.ghtml",
-          "source_id": "oglobo.globo.com",
-          "continent": "South America",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-25T21:52:54.092019+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8920146226882935,
-            "article": {
-              "title": "Irã propõe acordo para reabrir Estreito de Ormuz em sete dias se EUA aceitarem condições",
-              "url": "https://oglobo.globo.com/mundo/noticia/2026/09/25/ira-propoe-acordo-para-reabrir-estreito-de-ormuz-em-sete-dias-se-eua-aceitarem-condicoes.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:52:54.092019+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.889474093914032,
-            "article": {
-              "title": "Teerã propõe plano de 7 dias aos EUA para abrir Hormuz e encerrar guerra",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/09/ira-propoe-plano-de-7-dias-aos-eua-para-abrir-hormuz-e-encerrar-guerra.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:52:51.260259+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8893511891365051,
-            "article": {
-              "title": "Iran challenges US to accept 7-day plan to reopen Hormuz",
-              "url": "https://www.newarab.com/news/iran-challenges-us-accept-7-day-plan-reopen-hormuz",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:53:58.604172+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8832313418388367,
-            "article": {
-              "title": "Iran suggests deal to reopen the Strait of Hormuz in seven days",
-              "url": "https://www.thehindu.com/news/international/iran-suggests-deal-to-reopen-the-strait-of-hormuz-in-seven-days/article71510004.ece",
-              "source_id": "thehindu.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:40.379924+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8667648434638977,
-            "article": {
-              "title": "Iran offers US plan to reopen Hormuz within",
-              "url": "https://www.scmp.com/news/world/middle-east/article/3368872/iran-offers-us-plan-reopen-hormuz-within-7-days?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:04.228337+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8645123243331909,
-            "article": {
-              "title": "İran’dan savaşı durdurma planı: ABD’ye 7 günlük şartlı teklif",
-              "url": "https://www.hurriyet.com.tr/dunya/irandan-savasi-durdurma-plani-abdye-7-gunluk-sartli-teklif-43319730",
-              "source_id": "hurriyet.com.tr",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:53:53.121268+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8639605045318604,
-            "article": {
-              "title": "7 , Iran pitches seven-day roadmap to end conflict with US",
-              "url": "https://www.aljazeera.com/news/2026/9/25/iran-pitches-seven-day-roadmap-to-end-conflict-with-us",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:53:42.092476+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.863911509513855,
-            "article": {
-              "title": "What’s in Iran’s seven-day plan to reopen the Strait of Hormuz?",
-              "url": "https://www.aljazeera.com/news/2026/9/25/whats-in-irans-seven-day-plan-to-reopen-the-strait-of-hormuz",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:53:42.092476+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8186421990394592,
-            "article": {
-              "title": "„La finalul celei de-a șaptea zi”. Planul prezentat de Iran prin intermediari Washingtonului, pentru strâmtoarea Ormuz",
-              "url": "https://hotnews.ro/iranul-a-prezentat-sua-un-plan-pentru-redeschiderea-stramtorii-ormuz-in-7-zile-anunta-abbas-araghchi-2358543",
-              "source_id": "hotnews.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:54:11.337823+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7981181740760803,
-            "article": {
-              "title": "যুক্তরাষ্ট্রের সঙ্গে যুদ্ধ বন্ধে ইরানের ৭ দিনের রূপরেখা",
-              "url": "https://www.prothomalo.com/world/middle-east/i8eyqpuua8",
-              "source_id": "prothomalo.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:44.936102+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7947831153869629,
-            "article": {
-              "title": "Иран передал США семидневный план по открытию Ормузского пролива Вчера,",
-              "url": "https://ria.ru/20260925/iran-2120370510.html",
-              "source_id": "ria.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:54:40.034333+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7641977667808533,
-            "article": {
-              "title": "مدتها 7 ايام.. عراقجي يطرح خطة لواشنطن يمكن من خلالها إعادة فتح هرمز",
-              "url": "https://www.alsumaria.tv/news/international/577081/مدتها-7-ايام-عراقجي-يطرح-خطة-لواشنطن-يمكن-من-خلالها-إعادة-فتح-هرمز",
-              "source_id": "alsumaria.tv",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:55:29.981071+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7548649311065674,
-            "article": {
-              "title": "Иран передал США семидневный план восстановления навигации через Ормузский пролив В мире",
-              "url": "http://belta.by/world/view/iran-peredal-ssha-semidnevnyj-plan-vosstanovlenija-navigatsii-cherez-ormuzskij-proliv-802929-2026/",
-              "source_id": "belta.by",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:55:03.632807+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7316060662269592,
-            "article": {
-              "title": "Iran offers uranium compromise as part of plan to break US deadlock, sources say",
-              "url": "https://www.thenationalnews.com/news/mena/2026/09/25/iran-offers-uranium-compromise-as-part-of-plan-to-break-us-deadlock-sources-say/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:53:43.560116+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 43.307549461487156,
-        "size": 11,
-        "n_sources": 11,
-        "n_continents": 6,
-        "continents": [
-          "Africa",
           "East Asia",
           "Europe East",
           "Europe North",
-          "North America",
-          "Oceania"
+          "North America"
         ],
-        "coherence": 0.8157344460487366,
-        "title": "Manchester City found guilty of breaking Premier League’s financial fair play rules",
+        "coherence": 0.7674311995506287,
+        "title": "Trump once promised to feed Xi a burger. He got a lavish state dinner",
         "central_article": {
-          "title": "Manchester City found guilty of breaking Premier League’s financial fair play rules",
-          "url": "https://www.irishtimes.com/sport/soccer/2026/09/25/manchester-city-found-guilty-of-almost-all-financial-rule-breaches-reports/",
-          "source_id": "irishtimes.com",
+          "title": "Trump once promised to feed Xi a burger. He got a lavish state dinner",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-xi-state-dinner-ai-billionaires-b3056606.html",
+          "source_id": "independent.co.uk",
           "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-09-25T21:53:40.732542+00:00"
+          "scraped_at_utc": "2026-09-26T11:51:21.307074+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9033045172691345,
+            "sim_to_centroid": 0.8100116848945618,
             "article": {
-              "title": "Manchester City found guilty of breaking Premier League’s financial fair play rules",
-              "url": "https://www.irishtimes.com/sport/soccer/2026/09/25/manchester-city-found-guilty-of-almost-all-financial-rule-breaches-reports/",
-              "source_id": "irishtimes.com",
+              "title": "Trump once promised to feed Xi a burger. He got a lavish state dinner",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-xi-state-dinner-ai-billionaires-b3056606.html",
+              "source_id": "independent.co.uk",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:53:40.732542+00:00"
+              "scraped_at_utc": "2026-09-26T11:51:21.307074+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9028986692428589,
+            "sim_to_centroid": 0.8070076704025269,
             "article": {
-              "title": "Elítélték a Manchester Cityt a Premier League pénzügyi szabályainak megsértése miatt",
-              "url": "https://telex.hu/gazdasag/2026/09/25/eliteltek-a-manchester-cityt-a-premier-league-penzugyi-szabalyainak-megsertese-miatt",
-              "source_id": "telex.hu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:54:09.898169+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8900419473648071,
-            "article": {
-              "title": "Declaran al Manchester City culpable de romper más de 100 reglas financieras del fútbol inglés: ¿cuál puede ser la sanción?",
-              "url": "https://www.bbc.com/mundo/articles/cmpd00l123eno",
-              "source_id": "bbc.com",
+              "title": "Trump drøftede krigen i Iran med Xi",
+              "url": "https://sermitsiaq.ag/samfund/trump-droftede-krigen-i-iran-med-xi/2430046",
+              "source_id": "sermitsiaq.ag",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:52:30.640459+00:00"
+              "scraped_at_utc": "2026-09-26T11:52:15.674260+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8719913959503174,
+            "sim_to_centroid": 0.8066524863243103,
             "article": {
-              "title": "Man City guilty of majority of 115 Premier League financial breaches, unconfirmed reports say",
-              "url": "https://www.channel4.com/news/man-city-guilty-of-majority-of-115-premier-league-financial-breaches-unconfirmed-reports-say",
+              "title": "Trump-Xi summit: Who got the better deal?",
+              "url": "https://www.channel4.com/news/trump-xi-summit-who-got-the-better-deal",
               "source_id": "channel4.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:51:19.021480+00:00"
+              "scraped_at_utc": "2026-09-26T11:51:26.860967+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8604357838630676,
+            "sim_to_centroid": 0.8052414655685425,
             "article": {
-              "title": "Man City Bersalah dalam Mayoritas Dakwaan Pelanggaran Finansial Bola",
-              "url": "https://bola.kompas.com/read/2026/09/25/23113968/man-city-bersalah-dalam-mayoritas-dakwaan-pelanggaran-finansial?source=sorotan",
-              "source_id": "kompas.com",
+              "title": "Why the Trump-Xi summit in Washington could be considered a win for Beijing",
+              "url": "https://www.straitstimes.com/asia/east-asia/why-the-trump-xi-summit-in-washington-could-be-considered-a-win-for-beijing?ref=asia",
+              "source_id": "straitstimes.com",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:57:56.457114+00:00"
+              "scraped_at_utc": "2026-09-26T11:58:24.612774+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8510351777076721,
+            "sim_to_centroid": 0.7957430481910706,
             "article": {
-              "title": "Man City found guilty of 114 financial charges in seismic EPL ruling",
-              "url": "https://www.smh.com.au/sport/soccer/manchester-city-found-guilty-of-114-financial-charges-in-seismic-epl-ruling-20260926-p610nd.html",
-              "source_id": "smh.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:53:29.360553+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8124526143074036,
-            "article": {
-              "title": "Medier: City kendes skyldig i brud på økonomiske regler",
-              "url": "https://politiken.dk/sport/fodbold/art10998468/City-kendes-skyldig-i-brud-p%C3%A5-%C3%B8konomiske-regler",
-              "source_id": "politiken.dk",
+              "title": "Trump and Xi hail a new dawn — but what of old grievances?",
+              "url": "https://www.thetimes.com/world/asia/article/president-trump-xi-jinping-meeting-summit-un-china-htlqxtbjx",
+              "source_id": "thetimes.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:51:47.451620+00:00"
+              "scraped_at_utc": "2026-09-26T11:51:22.860214+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7709068059921265,
+            "sim_to_centroid": 0.7807324528694153,
             "article": {
-              "title": "Soccer-Man City found guilty on all but one of 115 charges, reports say",
-              "url": "https://www.thestar.com.my/sport/football/2026/09/25/soccer-man-city-found-guilty-on-all-but-one-of-115-charges-reports-say",
-              "source_id": "thestar.com.my",
-              "continent": "East Asia",
+              "title": "Trump says talks with Xi produce progress on all issues",
+              "url": "https://tass.com/world/2193093",
+              "source_id": "tass.com",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:57:52.850700+00:00"
+              "scraped_at_utc": "2026-09-26T11:55:06.866280+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7161482572555542,
+            "sim_to_centroid": 0.7770645618438721,
             "article": {
-              "title": "Man City v Premier Leauge: How the legal teams lined up",
-              "url": "https://www.theguardian.com/football/2026/sep/25/manchester-city-v-premier-league-how-the-legal-teams-lined-up",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:51:17.422465+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7137690782546997,
-            "article": {
-              "title": "Explainer What the Ruling Against Manchester City Means for the Premier League",
-              "url": "https://www.bloomberg.com/news/articles/2026-09-25/manchester-city-found-guilty-what-115-charge-ruling-means-for-premier-league",
-              "source_id": "bloomberg.com",
+              "title": "A grand display for Xi reveals the limits of Trump’s summitry",
+              "url": "https://www.latimes.com/politics/story/2026-09-25/grand-display-for-xi-reveals-limits-of-trumps-summitry",
+              "source_id": "latimes.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:00.160338+00:00"
+              "scraped_at_utc": "2026-09-26T11:56:28.442504+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6800955533981323,
+            "sim_to_centroid": 0.7680478096008301,
             "article": {
-              "title": "Chelsea face FA sanction over fans’ misconduct",
-              "url": "https://businessday.ng/sports/article/chelsea-face-fa-sanction-over-fans-misconduct/",
-              "source_id": "businessday.ng",
-              "continent": "Africa",
+              "title": "Trump, Xi discuss Middle East war as Iran presses 7-day plan to end fighting",
+              "url": "https://www.straitstimes.com/world/united-states/trump-xi-discuss-middle-east-war-as-iran-presses-7-day-plan-to-end-fighting?ref=top-stories",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:55:18.495124+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 32.96220767771236,
-        "size": 10,
-        "n_sources": 10,
-        "n_continents": 5,
-        "continents": [
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "South America"
-        ],
-        "coherence": 0.8166677355766296,
-        "title": "Zelenskyy says Trump has decided to grant Ukraine Patriot licence",
-        "central_article": {
-          "title": "Zelenskyy says Trump has decided to grant Ukraine Patriot licence",
-          "url": "https://www.euronews.com/2026/09/25/trump-makes-final-decision-to-grant-ukraine-patriot-license-zelenskyy-says",
-          "source_id": "euronews.com",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-25T21:51:20.561090+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9049087762832642,
-            "article": {
-              "title": "Zelenskyy says Trump has decided to grant Ukraine Patriot licence",
-              "url": "https://www.euronews.com/2026/09/25/trump-makes-final-decision-to-grant-ukraine-patriot-license-zelenskyy-says",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:51:20.561090+00:00"
+              "scraped_at_utc": "2026-09-26T11:58:24.612774+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8944439888000488,
+            "sim_to_centroid": 0.7679237723350525,
             "article": {
-              "title": "Zelensky: Trump approved Patriot license transfer to Ukraine",
-              "url": "https://georgiatoday.ge/zelensky-trump-approved-patriot-license-transfer-to-ukraine/",
-              "source_id": "georgiatoday.ge",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:54:47.298743+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8776859045028687,
-            "article": {
-              "title": "Zelenski: Trump se je odločil, Ukrajini licence za rakete patriot",
-              "url": "https://www.delo.si/novice/svet/zelenski-trump-rakete-patriot",
-              "source_id": "delo.si",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:54:23.638460+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8697389364242554,
-            "article": {
-              "title": "Trump made ‘final decision’ to allow Ukraine to produce Patriot missiles, Zelensky says",
-              "url": "https://www.france24.com/en/europe/20260925-trump-made-final-decision-to-give-ukraine-patriot-licence-zelensky-says",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:52:11.246238+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8266298770904541,
-            "article": {
-              "title": "Trump arra kérte Zelenszkijt, hogy menjen Moszkvába Putyinnal tárgyalni",
-              "url": "https://telex.hu/kulfold/2026/09/25/trump-arra-kerte-zelenszkijt-hogy-menjen-moszkvaba-putyinnal-targyalni",
-              "source_id": "telex.hu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:54:09.898169+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8146315813064575,
-            "article": {
-              "title": "Trump defendeu viagem de Zelensky a Moscou para reunião com Putin, diz agência",
-              "url": "https://oglobo.globo.com/mundo/noticia/2026/09/25/trump-defendeu-viagem-de-zelensky-a-moscou-para-reuniao-com-putin-diz-agencia-ucraniano-rejeitou-a-ideia.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:52:54.092019+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8018263578414917,
-            "article": {
-              "title": "Karas Ukrainoje. Žiniasklaida: Trumpas paragino Zelenskį susitikti su Putinu Maskvoje",
-              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3063003/karas-ukrainoje-ziniasklaida-trumpas-paragino-zelenski-susitikti-su-putinu-maskvoje",
-              "source_id": "lrt.lt",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:54:43.005266+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.740111768245697,
-            "article": {
-              "title": "Kiev, i tre punti della road map Usa per la pace. E c’è l’ipotesi di un vertice a tre. Via libera di Trump sui Patriot",
-              "url": "https://www.repubblica.it/esteri/2026/09/25/news/ucraina_pace_road_map_usa_trump_putin_russia-425606952/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:52:26.371305+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7246482968330383,
-            "article": {
-              "title": "Regering-Trump koopt wapens voor Oekraïne",
-              "url": "https://fd.nl/politiek/1613321/regering-trump-koopt-wapens-voor-oekraine",
-              "source_id": "fd.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:51:28.185950+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7120513916015625,
-            "article": {
-              "title": "Ukraine sent two captured North Korean soldiers to South Korea, Zelenskyy says",
-              "url": "https://www.japantimes.co.jp/news/2026/09/25/world/politics/ukraine-north-korean-soldiers/",
+              "title": "Xi seizes Trump detente to seek lasting gains on trade and Taiwan",
+              "url": "https://www.japantimes.co.jp/news/2026/09/26/world/politics/xi-trump-us-china-focus/",
               "source_id": "japantimes.co.jp",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:57:28.849545+00:00"
+              "scraped_at_utc": "2026-09-26T11:58:03.843474+00:00"
             }
-          }
-        ]
-      },
-      {
-        "score": 32.63781645634092,
-        "size": 10,
-        "n_sources": 10,
-        "n_continents": 4,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "South America"
-        ],
-        "coherence": 0.8593184351921082,
-        "title": "Volkswagen-Konzern ruft Millionen Autos zurück",
-        "central_article": {
-          "title": "Volkswagen-Konzern ruft Millionen Autos zurück",
-          "url": "https://www.handelsblatt.com/unternehmen/industrie/volkswagen-vw-ruft-millionen-autos-zurueck-weitere-konzernmarken-betroffen/100257392.html",
-          "source_id": "handelsblatt.com",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-25T21:51:34.691723+00:00"
-        },
-        "members": [
+          },
           {
-            "sim_to_centroid": 0.92928147315979,
+            "sim_to_centroid": 0.7558895945549011,
             "article": {
-              "title": "Volkswagen-Konzern ruft Millionen Autos zurück",
-              "url": "https://www.handelsblatt.com/unternehmen/industrie/volkswagen-vw-ruft-millionen-autos-zurueck-weitere-konzernmarken-betroffen/100257392.html",
-              "source_id": "handelsblatt.com",
+              "title": "Trump’s red-carpet rollout for Xi was everything Republicans didn’t need right now",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-china-xi-meeting-republicans-midterms-b3056641.html",
+              "source_id": "independent.co.uk",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:51:34.691723+00:00"
+              "scraped_at_utc": "2026-09-26T11:51:21.307074+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9091757535934448,
+            "sim_to_centroid": 0.7235267162322998,
             "article": {
-              "title": "Volkswagen recalls millions of vehicles",
-              "url": "https://www.azernews.az/region/264485.html",
-              "source_id": "azernews.az",
-              "continent": "Europe East",
+              "title": "习近平夫妇在白宫参加国宴 特朗普吁重新唤起中美初次相遇的精神",
+              "url": "https://international.caixin.com/2026-09-25/102488708.html",
+              "source_id": "caixin.com",
+              "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:54:52.900210+00:00"
+              "scraped_at_utc": "2026-09-26T11:56:53.037606+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8758920431137085,
+            "sim_to_centroid": 0.6113326549530029,
             "article": {
-              "title": "Potenciális balesetveszély miatt összesen 2 millió Audit és Volkswagent hívnak vissza világszerte",
-              "url": "https://telex.hu/gazdasag/2026/09/25/volkswagen-konszern-audi-visszahivasi-akcio-kormanymu-autojavitas",
-              "source_id": "telex.hu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:54:09.898169+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8720401525497437,
-            "article": {
-              "title": "Lenkungsausfall droht: VW ruft zwei Millionen Autos zurück",
-              "url": "https://www.diepresse.com/41296153/lenkungsausfall-droht-vw-ruft-zwei-millionen-autos-zurueck",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:51:38.773042+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8609721660614014,
-            "article": {
-              "title": "Volkswagen y Audi retiran casi tres millones de vehículos en todo el mundo por un fallo técnico",
-              "url": "https://www.lavanguardia.com/economia/20260925/11644027/volkswagen-audi-retiran-tres-millones-vehiculos-mundo-fallo-tecnico.html",
-              "source_id": "lavanguardia.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:52:20.998912+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8593940734863281,
-            "article": {
-              "title": "VW, Audi, Seat müssen mehr als eine Million Autos zurückrufen",
-              "url": "https://www.tagesschau.de/wirtschaft/unternehmen/vw-lenkungsausfall-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:51:30.033036+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8573980927467346,
-            "article": {
-              "title": "Mobiliteit Volkswagen en Audi roepen meer dan 2,8 miljoen auto's terug wegens mogelijke stuurproblemen",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/09/25/vw-roept-meer-dan-2-1-miljoen-voertuigen-terug/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:52:14.265516+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8387002944946289,
-            "article": {
-              "title": "Volks e Audi fazem recall de 2,8 milhões de veículos em todo o mundo",
-              "url": "https://oglobo.globo.com/economia/noticia/2026/09/25/volks-e-audi-fazem-recall-de-28-milhoes-de-veiculos-em-todo-o-mundo.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:52:54.092019+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8300579786300659,
-            "article": {
-              "title": "Volkswagen na popravilo poklical 4 milijone avtomobilov",
-              "url": "https://www.delo.si/magazin/avtomobilno/volkswagen-bo-popravljal-4-milijone-avtomobilov",
-              "source_id": "delo.si",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:54:23.638460+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.760272741317749,
-            "article": {
-              "title": "66'000 Autos in der Schweiz VW-Rückruf: Diese Modelle sind betroffen – und das ist zu tun Der Autohersteller Volkswagen ruft weltweit Millionen von Fahrzeugen vorsorglich in die Garagen zurück.",
-              "url": "https://www.srf.ch/news/wirtschaft/66-000-autos-in-der-schweiz-vw-rueckruf-diese-modelle-sind-betroffen-und-das-ist-zu-tun",
-              "source_id": "srf.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:51:45.901797+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 30.707425809034216,
-        "size": 9,
-        "n_sources": 9,
-        "n_continents": 5,
-        "continents": [
-          "Africa",
-          "Europe North",
-          "Middle East",
-          "Oceania",
-          "South Asia"
-        ],
-        "coherence": 0.8235684037208557,
-        "title": "Netanyahu delivers fiery, defiant speech at UN General Assembly",
-        "central_article": {
-          "title": "Netanyahu delivers fiery, defiant speech at UN General Assembly",
-          "url": "https://www.euronews.com/2026/09/25/israeli-pm-netanyahu-delivers-fiery-defiant-speech-at-un-general-assembly",
-          "source_id": "euronews.com",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-25T21:51:20.561090+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8828825950622559,
-            "article": {
-              "title": "Netanyahu delivers fiery, defiant speech at UN General Assembly",
-              "url": "https://www.euronews.com/2026/09/25/israeli-pm-netanyahu-delivers-fiery-defiant-speech-at-un-general-assembly",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:51:20.561090+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8590874671936035,
-            "article": {
-              "title": "‘Moral cowards’: Netanyahu slams walkout during UN speech",
-              "url": "https://www.channel4.com/news/moral-cowards-netanyahu-slams-walkout-during-un-speech",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:51:19.021480+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8322338461875916,
-            "article": {
-              "title": "Benjamin Netanyahu UN Speech",
-              "url": "https://www.bhaskar.com/g/international/news/netanyahu-un-speech-boycott-protest-new-york-video-139138017.html",
-              "source_id": "bhaskar.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:56:37.653381+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8243889808654785,
-            "article": {
-              "title": "UN delegates walk out at Netanyahu defends Israeli military action",
-              "url": "https://www.africanews.com/2026/09/25/un-delegates-walk-out-at-netanyahu-defends-israeli-military-action/",
-              "source_id": "africanews.com",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:55:20.061431+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8180016279220581,
-            "article": {
-              "title": "'Opposite of genocide': Netanyahu's fiery UN address met with 77 walkouts",
-              "url": "https://www.sbs.com.au/news/article/netanyahu-united-nations-general-assembly-speech-2026-genocide-israel/q7yqo7jwt",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:53:27.972030+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8140345811843872,
-            "article": {
-              "title": "Benjamin Netanyahu's UN speech fails to land in Israel",
-              "url": "https://www.thenationalnews.com/news/mena/2026/09/25/benjamin-netanyahus-un-bombast-fails-to-land-in-israel/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:53:43.560116+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8082098960876465,
-            "article": {
-              "title": "En video: decenas de delegados abandonan la Asamblea General de la ONU durante la intervención de Netanyahu",
-              "url": "https://www.bbc.com/mundo/articles/cq8jdn3d9k7mo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:52:30.640459+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7902716398239136,
-            "article": {
-              "title": "Israeli shelling continues as Lebanon’s PM demands withdrawal in UN speech",
-              "url": "https://www.aljazeera.com/news/2026/9/25/israeli-shelling-continues-as-lebanons-pm-demands-withdrawal-in-un-speech",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:53:42.092476+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7830044627189636,
-            "article": {
-              "title": "'Greatest affront to human conscience': Iran slams Netanyahu’s UN speech",
-              "url": "https://www.presstv.ir/Detail/2026/09/25/777002/Iran-slams-Netanyahu-UN-speech-as-platform-to-justify-Israeli-aggression",
-              "source_id": "presstv.ir",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:53:50.324299+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 30.292022574096357,
-        "size": 9,
-        "n_sources": 9,
-        "n_continents": 4,
-        "continents": [
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South"
-        ],
-        "coherence": 0.8654730916023254,
-        "title": "Putin: Vi forbereder ikke konflikt med Europa",
-        "central_article": {
-          "title": "Putin: Vi forbereder ikke konflikt med Europa",
-          "url": "https://www.dr.dk/nyheder/seneste/putin-vi-forbereder-ikke-konflikt-med-europa",
-          "source_id": "dr.dk",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-25T21:51:58.544356+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9527506232261658,
-            "article": {
-              "title": "Putin: Vi forbereder ikke konflikt med Europa",
-              "url": "https://www.dr.dk/nyheder/seneste/putin-vi-forbereder-ikke-konflikt-med-europa",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:51:58.544356+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9389793872833252,
-            "article": {
-              "title": "Russia not preparing for conflict with Europe, Putin says",
-              "url": "https://www.bangkokpost.com/world/3326488/russia-not-preparing-for-conflict-with-europe-putin-says",
-              "source_id": "bangkokpost.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:57:45.680808+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9224194288253784,
-            "article": {
-              "title": "Putin: „Bereiten uns nicht auf Kampf mit Europa vor“",
-              "url": "https://www.diepresse.com/41298159/putin-bereiten-uns-nicht-auf-kampf-mit-europa-vor",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:51:38.773042+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9035746455192566,
-            "article": {
-              "title": "Just nu Putin: Förbereder inte konflikt med Europa",
-              "url": "https://www.svt.se/nyheter/utrikes/putin-forbereder-inte-konflikt-med-europa",
-              "source_id": "svt.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:51:55.510089+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9025757312774658,
-            "article": {
-              "title": "Poutine assure que la Russie « ne se prépare pas à des combats de quelque sorte que ce soit avec l’Europe »",
-              "url": "https://www.lesoir.be/773140/article/2026-09-25/poutine-assure-que-la-russie-ne-se-prepare-pas-des-combats-de-quelque-sorte-que",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:52:18.038841+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.900337815284729,
-            "article": {
-              "title": "Putin: »Jeg vil understrege, at vi ikke forbereder os på nogen form for fjendtligheder med Europa«",
-              "url": "https://politiken.dk/internationalt/art10679188/Rusland-forbereder-ingen-konflikt-med-Europa",
-              "source_id": "politiken.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:51:47.451620+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8253048658370972,
-            "article": {
-              "title": "國際 普丁：俄羅斯未準備與歐洲發生任何形式的衝突",
-              "url": "https://www.cna.com.tw/news/aopl/202609260008.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:57:55.146213+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.726310133934021,
-            "article": {
-              "title": "Vladimir Putin, noi declarații despre negocierile de încheiere a războiului din Ucraina. Amenințări adresate Kievului",
-              "url": "https://hotnews.ro/vladimir-putin-noi-declaratii-despre-negocierile-de-incheiere-a-razboiului-din-ucraina-amenintari-adresate-kievului-2358424",
-              "source_id": "hotnews.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:54:11.337823+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7170053124427795,
-            "article": {
-              "title": "Путин об ударах ВСУ во время выборов, переговорах США и КНР и конфликте с Европой",
-              "url": "https://www.kommersant.ru/doc/8987370?from=top_main_2",
-              "source_id": "kommersant.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:54:36.375012+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 29.728442018631487,
-        "size": 7,
-        "n_sources": 7,
-        "n_continents": 5,
-        "continents": [
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "Oceania"
-        ],
-        "coherence": 0.867351233959198,
-        "title": "Ed Sheeran's next US concerts cancelled due to storm warning",
-        "central_article": {
-          "title": "Ed Sheeran's next US concerts cancelled due to storm warning",
-          "url": "https://www.bbc.com/news/articles/ck7900wl7nxyo",
-          "source_id": "bbc.com",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-25T21:51:12.883999+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9038151502609253,
-            "article": {
-              "title": "Ed Sheeran's next US concerts cancelled due to storm warning",
-              "url": "https://www.bbc.com/news/articles/ck7900wl7nxyo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:51:12.883999+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8986295461654663,
-            "article": {
-              "title": "Deux concerts d’Ed Sheeran annulés aux Etats-Unis",
-              "url": "https://www.lesoir.be/773145/article/2026-09-25/deux-concerts-ded-sheeran-annules-aux-etats-unis",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:52:18.038841+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8691784739494324,
-            "article": {
-              "title": "6 , Ed Sheeran concerts at Robert Kraft stadiums cancelled over weather",
-              "url": "https://www.aljazeera.com/news/2026/9/25/ed-sheeran-concerts-at-robert-kraft-stadiums-cancelled-over-weather",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:53:42.092476+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8583622574806213,
-            "article": {
-              "title": "Ed Sheeran Ed Sheeran’s concerts in Massachusetts canceled due to severe weather",
-              "url": "https://www.theguardian.com/music/2026/sep/25/ed-sheeran-gillette-stadium-concert-canceled",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:51:17.422465+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8559834957122803,
-            "article": {
-              "title": "Ed Sheeran’s concerts at stadium owned by billionaire Robert Krafts cancelled",
-              "url": "https://www.smh.com.au/culture/music/ed-sheeran-concerts-cancelled-in-fresh-blow-to-tour-20260926-p610ns.html",
-              "source_id": "smh.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:53:29.360553+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8480846881866455,
-            "article": {
-              "title": "Ed Sheeran concerts canceled after Macklemore controversy",
-              "url": "https://www.usatoday.com/story/entertainment/music/2026/09/25/ed-sheeran-tour-gillette-stadium-shows-canceled/91936784007/",
+              "title": "Melania Trump's unusual state dinner look makes statement",
+              "url": "https://www.usatoday.com/story/entertainment/style/2026/09/25/melania-trump-pants-china-state-dinner/91935235007/",
               "source_id": "usatoday.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:55:54.849272+00:00"
+              "scraped_at_utc": "2026-09-26T11:56:31.146431+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 23.12181686153481,
+        "size": 8,
+        "n_sources": 8,
+        "n_continents": 4,
+        "continents": [
+          "Europe East",
+          "Europe North",
+          "Middle East",
+          "South Asia"
+        ],
+        "coherence": 0.8350081443786621,
+        "title": "مقتل 11 وإصابة 30 آخرين في انفجار بمدينة ديرا إسماعيل خان بشمال غرب باكستان",
+        "central_article": {
+          "title": "مقتل 11 وإصابة 30 آخرين في انفجار بمدينة ديرا إسماعيل خان بشمال غرب باكستان",
+          "url": "https://www.annahar.com/international/asia/351572/مقتل-11-وإصابة-30-خرين-في-انفجار-بمدينة-ديرا-إسماعيل-خان-بشمال-غرب-باكستان",
+          "source_id": "annahar.com",
+          "continent": "Middle East",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-26T11:54:26.060945+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8703880906105042,
+            "article": {
+              "title": "مقتل 11 وإصابة 30 آخرين في انفجار بمدينة ديرا إسماعيل خان بشمال غرب باكستان",
+              "url": "https://www.annahar.com/international/asia/351572/مقتل-11-وإصابة-30-خرين-في-انفجار-بمدينة-ديرا-إسماعيل-خان-بشمال-غرب-باكستان",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:54:26.060945+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8374050259590149,
+            "sim_to_centroid": 0.8697712421417236,
             "article": {
-              "title": "Oväder stoppar Sheerans omstridda Boston-konserter",
-              "url": "https://www.dn.se/direkt/2026-09-25/ovader-stoppar-sheerans-omstridda-boston-konserter/",
+              "title": "Blast in Pakistan's Dera Ismail Khan kills 11, injures several",
+              "url": "https://www.hindustantimes.com/world-news/pakistan-dera-ismail-khan-blast-deaths-injured-shehbaz-sharif-asim-munir-terrorist-taliban-101790421681563.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:57:13.257301+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8578144311904907,
+            "article": {
+              "title": "Elva döda efter explosion i Pakistan",
+              "url": "https://www.dn.se/direkt/2026-09-26/elva-doda-efter-explosion-i-pakistan/",
               "source_id": "dn.se",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-25T21:51:49.381099+00:00"
+              "scraped_at_utc": "2026-09-26T11:52:00.750676+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8501525521278381,
+            "article": {
+              "title": "قالت وسائل إعلام باكستانية، إن 11 شخصا قتلوا، وإصاب 30 آخرين في انفجار بمدينة ديرا إسماعيل خان شمال غرب باكستان.",
+              "url": "https://www.youm7.com/story/2026/9/26/مقتل-11-شخصا-وإصابة-30-في-انفجار-بمدينة-ديرا-إسماعيل/7558546",
+              "source_id": "youm7.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:54:24.174169+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8383786678314209,
+            "article": {
+              "title": "पाकिस्तान के डेरा इस्माइल खान में धमाका, 11 लोगों की मौत; 30 घायल",
+              "url": "https://www.jagran.com/world/pakistan-dera-ismail-khan-blast-kills-11-injures-30-in-pakistan-40386082.html",
+              "source_id": "jagran.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:57:10.852815+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8149444460868835,
+            "article": {
+              "title": "Just nu Elva döda efter explosion i Pakistan",
+              "url": "https://www.svt.se/nyheter/utrikes/elva-doda-efter-explosion-i-pakistan",
+              "source_id": "svt.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:52:07.413938+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8052886128425598,
+            "article": {
+              "title": "Blast in Pakistan’s Dera Ismail Khan kills at least seven people",
+              "url": "https://www.aljazeera.com/news/2026/9/26/blast-in-pakistans-dera-ismail-khan-kills-several-people",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:53:58.459919+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7733273506164551,
+            "article": {
+              "title": "Не менее 11 человек погибли, 30 пострадали при взрыве на северо-западе Пакистана В мире",
+              "url": "http://belta.by/world/view/ne-menee-11-chelovek-pogibli-30-postradali-pri-vzryve-na-severo-zapade-pakistana-802983-2026/",
+              "source_id": "belta.by",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-26T11:55:36.692183+00:00"
             }
           }
         ]
       }
     ],
-    "created_at_utc": "2026-09-25T22:29:52Z"
+    "created_at_utc": "2026-09-26T12:26:35Z"
   }
 ]
