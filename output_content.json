@@ -1,16 +1,587 @@
 [
   {
-    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1790459831",
-    "n_items": 2422,
-    "n_clusters": 1950,
+    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1790514166",
+    "n_items": 2432,
+    "n_clusters": 2005,
     "clusters": [
       {
-        "score": 288.78068532655,
-        "size": 44,
-        "n_sources": 40,
-        "n_continents": 10,
+        "score": 131.11609196813703,
+        "size": 28,
+        "n_sources": 27,
+        "n_continents": 7,
+        "continents": [
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "Oceania",
+          "South Asia"
+        ],
+        "coherence": 0.8268672227859497,
+        "title": "UK police make arrests, evacuate homes in ‘major incident’ near air base used by US forces",
+        "central_article": {
+          "title": "UK police make arrests, evacuate homes in ‘major incident’ near air base used by US forces",
+          "url": "https://www.france24.com/en/europe/20260927-uk-police-evacuate-homes-near-air-base-used-by-us-arrest-men-on-suspected-explosives-offenses",
+          "source_id": "france24.com",
+          "continent": "Europe South",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-27T12:31:15.040324+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9073541164398193,
+            "article": {
+              "title": "UK police make arrests, evacuate homes in ‘major incident’ near air base used by US forces",
+              "url": "https://www.france24.com/en/europe/20260927-uk-police-evacuate-homes-near-air-base-used-by-us-arrest-men-on-suspected-explosives-offenses",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:31:15.040324+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8903417587280273,
+            "article": {
+              "title": "UK police declare major incident at air base used by US",
+              "url": "https://www.abc.net.au/news/2026-09-27/uk-police-declare-major-incident-at-fairford-air-base/107201508",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:32:27.569912+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8825430870056152,
+            "article": {
+              "title": "Британская полиция заявила о крупном инциденте у базы ВВС, которую используют США",
+              "url": "https://ria.ru/20260927/britaniya-2120529712.html",
+              "source_id": "ria.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:33:41.186659+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.878486156463623,
+            "article": {
+              "title": "Au Royaume-Uni, la police évoque un « incident majeur » après l’arrestation de plusieurs personnes près d’une base de l’armée de l’air",
+              "url": "https://www.lemonde.fr/international/article/2026/09/27/au-royaume-uni-la-police-evoque-un-incident-majeur-apres-l-arrestation-de-plusieurs-personnes-pres-d-une-base-de-l-armee-de-l-air_6784099_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:31:10.490178+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8739799857139587,
+            "article": {
+              "title": "Men arrested in major incident at UK air base used by US",
+              "url": "https://www.smh.com.au/world/europe/men-arrested-in-major-incident-at-uk-air-base-used-by-us-20260927-p610wc.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:32:30.019426+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8739799857139587,
+            "article": {
+              "title": "Men arrested in major incident at UK air base used by US",
+              "url": "https://www.newarab.com/news/men-arrested-major-incident-uk-air-base-used-us",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:33:00.568459+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8733974695205688,
+            "article": {
+              "title": "Police evacuate homes near U.S. air base in England, detain men on suspected explosives offences",
+              "url": "https://www.thehindu.com/news/international/uk-london-fairford-air-base-bomb-threat/article71515604.ece",
+              "source_id": "thehindu.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:35:43.218095+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8629183769226074,
+            "article": {
+              "title": "”Incident” vid flygbas i Storbritannien",
+              "url": "https://www.dn.se/direkt/2026-09-27/incident-vid-flygbas-i-storbritannien/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:30:54.048420+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8509020805358887,
+            "article": {
+              "title": "Police declare 'major incident' near RAF base in UK",
+              "url": "https://www.euronews.com/2026/09/27/police-declare-major-incident-near-raf-base-in-uk-as-men-arrested-on-suspected-explosives-",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:30:26.947748+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8507804870605469,
+            "article": {
+              "title": "UK police evacuate homes near airbase used by US",
+              "url": "https://www.aljazeera.com/news/2026/9/27/uk-police-evacuate-homes-near-air-base-used-by-us",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:32:38.915906+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8480678200721741,
+            "article": {
+              "title": "UK Police Call In Bomb Disposal Team Near US-Used Air Base",
+              "url": "https://www.kyivpost.com/post/85510",
+              "source_id": "kyivpost.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:33:27.950918+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8332977294921875,
+            "article": {
+              "title": "UK police call in bomb disposal team near air force base",
+              "url": "https://www.bangkokpost.com/world/3327058/uk-police-call-in-bomb-disposal-team-near-air-force-base",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:36:49.643452+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8329543471336365,
+            "article": {
+              "title": "\"حدثُ أمنيٌ كبير\" يهزّ بريطانيا: إخلاء منازل واعتقالات قرب قاعدة عسكريّة أميركيّة",
+              "url": "https://www.annahar.com/international/351758/حدث-أمني-كبير-يهز-بريطانيا-إخلا-منازل-واعتقالات-قرب-قاعدة-عسكرية-أميركية",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:33:04.121755+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8277765512466431,
+            "article": {
+              "title": "اعتقالات وإجلاء سكان.. \"حادث كبير\" قرب قاعدة فيرفورد الأمريكية ببريطانيا",
+              "url": "https://www.aljazeera.net/news/2026/9/27/الشرطة-البريطانية-حادث-كبير-قرب-قاعدة",
+              "source_id": "aljazeera.net",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:32:42.930138+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8235613107681274,
+            "article": {
+              "title": "Ce que l’on sait de l’« incident majeur » près d’une base utilisée par l’US Air Force au Royaume-Uni (photos)",
+              "url": "https://www.lesoir.be/773322/article/2026-09-27/ce-que-lon-sait-de-l-incident-majeur-pres-dune-base-utilisee-par-lus-air-force",
+              "source_id": "lesoir.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:31:21.527712+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8182130455970764,
+            "article": {
+              "title": "Ermittlungen in Fairford Sprengstoffkommando bei Luftwaffenbasis im Einsatz – britische Polizei nimmt mehrere Personen fest",
+              "url": "https://www.spiegel.de/panorama/justiz/fairford-britische-polizei-nimmt-mehrere-personen-fest-sprengstoffkommando-im-einsatz-a-920d51e8-b396-450e-bc01-d37e6f473916",
+              "source_id": "spiegel.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:30:38.546183+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8175907135009766,
+            "article": {
+              "title": "Detenidos varios hombres con bombas junto a la base británica desde la que EE.UU. ataca a Irán",
+              "url": "https://www.lavanguardia.com/internacional/20260927/11644985/detenidos-hombres-explosivos-base-britanica-ee-uu-bombardea-iran.html",
+              "source_id": "lavanguardia.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:31:24.348437+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8106870055198669,
+            "article": {
+              "title": "Gran Bretagna, allarme esplosivi vicino a una base della RAF usata dagli Usa: «Diversi arresti». Indaga l'antiterrorismo",
+              "url": "https://www.corriere.it/esteri/26_settembre_27/gran-bretagna-allarme-esplosivi-vicino-a-una-base-raf-usa-7262b174-1271-4398-a8d5-ad5be3f46xlk.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:31:30.942285+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8094470500946045,
+            "article": {
+              "title": "برطانیہ: فیئر فورڈ ایئربیس کے علاقے سے کئی مشتبہ افراد گرفتار",
+              "url": "https://jang.com.pk/news/1619401",
+              "source_id": "jang.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:35:56.166768+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8081421852111816,
+            "article": {
+              "title": "Verenigd Koninkrijk Meerdere mensen opgepakt bij \"groot incident\" aan luchtmachtbasis in Verenigd Koninkrijk",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/09/27/incident-raf-fairford/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:31:17.910784+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8041467070579529,
+            "article": {
+              "title": "Men arrested for explosive offenses at UK airbase used for US strikes on Iran",
+              "url": "https://www.politico.eu/article/major-incident-uk-air-base-us-forces-raf-fairford/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:30:28.367048+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.80411696434021,
+            "article": {
+              "title": "Ben Birchall/AP Stor insats vid flygbas i Storbritannien Flera gripna efter ”incident” • Terrorpolis inkopplad.",
+              "url": "https://www.dn.se/varlden/stor-insats-vid-flygbas-i-storbritannien-terrorpolis-inkopplad/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:30:54.048420+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8008242845535278,
+            "article": {
+              "title": "JK kovos su terorizmu policija imasi tirti incidentą netoli oro pajėgų bazės",
+              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3065034/jk-kovos-su-terorizmu-policija-imasi-tirti-incidenta-netoli-oro-pajegu-bazes",
+              "source_id": "lrt.lt",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:33:44.138316+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7954949736595154,
+            "article": {
+              "title": "Incident vid flygbas i Storbritannien – antiterrorpolis utreder Flera personer gripa vid amerikansk flygbas",
+              "url": "https://www.svt.se/nyheter/utrikes/incident-vid-amerikansk-flygbas-i-storbritannien",
+              "source_id": "svt.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:31:00.233225+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.751010537147522,
+            "article": {
+              "title": "Militaire vliegbasis in Engeland ontruimd om dreiging explosieven",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5655746/groot-alarm-en-ontruimingen-bij-britse-vliegbasis-na-aanhoudingen",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:30:32.829591+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7458077073097229,
+            "article": {
+              "title": "İngiltere’deki ABD üssünde patlayıcı şüphesi! Evler boşaltıldı",
+              "url": "https://www.milliyet.com.tr/dunya/ingilteredeki-abd-ussunde-patlayici-suphesi-evler-bosaltildi-7668489",
+              "source_id": "milliyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:32:58.196350+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7433042526245117,
+            "article": {
+              "title": "Robbanószereket keresnek a brit Fairford katonai bázisnál, egy...",
+              "url": "https://telex.hu/kulfold/2026/09/27/raf-bazis-nagy-britannia-rendorseg-vizsgalat-robbanoszerek",
+              "source_id": "telex.hu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:33:11.859673+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7331546545028687,
+            "article": {
+              "title": "В Британии объявили эвакуацию в районе авиабазы Фэрфорд",
+              "url": "https://www.kommersant.ru/doc/8987979?from=top_main_8",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:33:37.302423+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 113.22024162944783,
+        "size": 19,
+        "n_sources": 18,
+        "n_continents": 8,
         "continents": [
           "China",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "Oceania",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.8519043326377869,
+        "title": "At least 27 dead after two mass shootings in South Africa",
+        "central_article": {
+          "title": "At least 27 dead after two mass shootings in South Africa",
+          "url": "https://www.thetimes.com/world/africa/article/south-africa-mass-shootings-people-dead-b66vqqm0f",
+          "source_id": "thetimes.com",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-27T12:30:22.785294+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9379950761795044,
+            "article": {
+              "title": "At least 27 dead after two mass shootings in South Africa",
+              "url": "https://www.thetimes.com/world/africa/article/south-africa-mass-shootings-people-dead-b66vqqm0f",
+              "source_id": "thetimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:30:22.785294+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9320977926254272,
+            "article": {
+              "title": "Dubbla masskjutningar i Sydafrika – 27 dödade",
+              "url": "https://www.dn.se/direkt/2026-09-27/dubbla-masskjutningar-i-sydafrika-27-dodade/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:30:54.048420+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9225696325302124,
+            "article": {
+              "title": "Minstens 27 doden na twee grote schietpartijen in Zuid-Afrika",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5655747/minstens-27-doden-na-twee-grote-schietpartijen-zuid-afrika",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:30:32.829591+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9139894247055054,
+            "article": {
+              "title": "Dos tiroteos en Sudáfrica dejan al menos 27 muertos y 26 heridos",
+              "url": "https://www.latercera.com/mundo/noticia/dos-tiroteos-en-sudafrica-dejan-al-menos-27-muertos-y-26-heridos/",
+              "source_id": "latercera.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:32:01.723379+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8895297050476074,
+            "article": {
+              "title": "Manhunt for gunmen who killed 27 in two shootings in South Africa",
+              "url": "https://www.abc.net.au/news/2026-09-27/south-africa-mass-shooting-in-tavern-manhunt-launched/107201488",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:32:27.569912+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8893047571182251,
+            "article": {
+              "title": "At least 27 people killed in two shootings in South African townships",
+              "url": "https://www.aljazeera.com/news/2026/9/27/several-killed-in-south-africa-shooting",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:32:38.915906+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.882775068283081,
+            "article": {
+              "title": "Fusillades en Afrique du Sud : au moins 27 morts dans deux bars au Cap et à Johannesburg",
+              "url": "https://www.lemonde.fr/international/article/2026/09/27/fusillades-en-afrique-du-sud-au-moins-27-morts-dans-deux-bars-au-cap-et-a-johannesburg_6783964_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:31:10.490178+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8520249128341675,
+            "article": {
+              "title": "Des dizaines de personnes meurent lors de deux fusillades en Afrique du Sud",
+              "url": "https://www.rts.ch/info/monde/2026/article/afrique-du-sud-17-morts-dans-une-fusillade-a-johannesburg-29368535.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:31:16.501923+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8519031405448914,
+            "article": {
+              "title": "В ЮАР не менее 27 человек погибли после двух нападений со стрельбой",
+              "url": "https://ria.ru/20260927/juar-2120518398.html",
+              "source_id": "ria.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:33:41.186659+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8472126722335815,
+            "article": {
+              "title": "27 Tote nach Schießereien in Bars bei Johannesburg und Kapstadt",
+              "url": "https://www.diepresse.com/41300336/27-tote-nach-schiessereien-in-bars-bei-johannesburg-und-kapstadt",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:30:44.100522+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8251267671585083,
+            "article": {
+              "title": "17 killed, 15 injured in shooting in South Africa",
+              "url": "https://pajhwok.com/2026/09/27/17-killed-15-injured-in-shooting-in-south-africa/",
+              "source_id": "pajhwok.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:36:00.439612+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8202495574951172,
+            "article": {
+              "title": "Bei Johannesburg und Kapstadt Schüsse in Townships – Südafrikas Polizei berichtet von 27 Toten in einer Nacht",
+              "url": "https://www.spiegel.de/panorama/justiz/suedafrika-schuesse-in-townships-polizei-berichtet-von-27-toten-in-einer-nacht-a-09e318dc-7ebc-41f7-aa79-7e99957f295e",
+              "source_id": "spiegel.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:30:38.546183+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8191536664962769,
+            "article": {
+              "title": "South African police probe mining feud shooting, 27 dead as elections near",
+              "url": "https://www.scmp.com/news/world/africa/article/3368959/south-african-police-probe-mining-feud-shooting-27-dead-elections-near?module=latest&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:35:15.424102+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8191536664962769,
+            "article": {
+              "title": "South African police probe mining feud shooting, 27 dead as elections near",
+              "url": "https://www.scmp.com/news/world/africa/article/3368959/south-african-police-probe-mining-feud-shooting-27-dead-elections-near?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:35:15.424102+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.816497802734375,
+            "article": {
+              "title": "Dubbla masskjutningar i Sydafrika – 27 dödade Gärningsmän öppnade eld mot besökare på en bar",
+              "url": "https://www.svt.se/nyheter/utrikes/dubbla-masskjutningar-i-sydafrika-27-dodade",
+              "source_id": "svt.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:31:00.233225+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8014229536056519,
+            "article": {
+              "title": "Südafrika: 17 Tote bei Schusswaffenangriff nahe Johannesburg",
+              "url": "https://www.tagesschau.de/ausland/afrika/suedafrika-schusswaffenangriff-johannesburg-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:30:36.509649+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7905809879302979,
+            "article": {
+              "title": "南非一酒吧发生枪击事件致17人死亡",
+              "url": "https://www.xinhuanet.com/20260927/6df99f03449c4486aa1dac1a08aa5e56/c.html",
+              "source_id": "xinhuanet.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:35:22.839101+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7900852560997009,
+            "article": {
+              "title": "Afrika Zeker 27 doden bij massaschietpartijen in Zuid-Afrika, klopjacht op daders levert niets op",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/09/27/schietpartijen-in-zuid-afrika/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:31:17.910784+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.784508228302002,
+            "article": {
+              "title": "Sør-Afrika: To masseskytinger: Jakter ti mistenkte",
+              "url": "https://www.dagbladet.no/nyheter/27-dode-etter-to-masseskytinger/85210546",
+              "source_id": "dagbladet.no",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:30:58.241069+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 111.37165060843304,
+        "size": 19,
+        "n_sources": 17,
+        "n_continents": 8,
+        "continents": [
           "East Asia",
           "Europe East",
           "Europe North",
@@ -18,2072 +589,1325 @@
           "Middle East",
           "North America",
           "Oceania",
-          "South America",
           "South Asia"
         ],
-        "coherence": 0.8348405957221985,
-        "title": "Trump rejects Iran proposal for deal to reopen Hormuz",
+        "coherence": 0.8600435853004456,
+        "title": "Trump says he rejects Iran’s proposal to reopen Hormuz",
         "central_article": {
-          "title": "Trump rejects Iran proposal for deal to reopen Hormuz",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3368917/trump-rejects-iran-proposal-deal-reopen-hormuz?module=top_story&pgtype=homepage",
-          "source_id": "scmp.com",
-          "continent": "China",
+          "title": "Trump says he rejects Iran’s proposal to reopen Hormuz",
+          "url": "https://www.newarab.com/news/trump-says-he-rejects-irans-proposal-reopen-hormuz",
+          "source_id": "newarab.com",
+          "continent": "Middle East",
           "published_at": null,
-          "scraped_at_utc": "2026-09-26T21:42:51.397894+00:00"
+          "scraped_at_utc": "2026-09-27T12:33:00.568459+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9464602470397949,
-            "article": {
-              "title": "Trump rejects Iran proposal for deal to reopen Hormuz",
-              "url": "https://www.scmp.com/news/world/middle-east/article/3368917/trump-rejects-iran-proposal-deal-reopen-hormuz?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:42:51.397894+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9464602470397949,
-            "article": {
-              "title": "Trump rejects Iran proposal for deal to reopen Hormuz",
-              "url": "https://www.thehindu.com/news/international/trump-rejects-iran-proposal-for-deal-to-reopen-hormuz/article71514089.ece",
-              "source_id": "thehindu.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:43:22.450014+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9411575794219971,
-            "article": {
-              "title": "Trump rejects Iranian proposal to open Hormuz and end fighting",
-              "url": "https://www.channelnewsasia.com/world/trump-rejects-iran-proposal-strait-hormuz-6412896",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:44:13.142880+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9345378875732422,
+            "sim_to_centroid": 0.9409325122833252,
             "article": {
               "title": "Trump says he rejects Iran’s proposal to reopen Hormuz",
               "url": "https://www.newarab.com/news/trump-says-he-rejects-irans-proposal-reopen-hormuz",
               "source_id": "newarab.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:40:15.006681+00:00"
+              "scraped_at_utc": "2026-09-27T12:33:00.568459+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9340635538101196,
-            "article": {
-              "title": "President Trump rejects Iran’s proposal to reopen the Strait of Hormuz",
-              "url": "https://www.chicagotribune.com/2026/09/26/trump-rejects-strait-of-hormuz-proposal/",
-              "source_id": "chicagotribune.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:42:47.126371+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9327999353408813,
+            "sim_to_centroid": 0.9401646852493286,
             "article": {
               "title": "Trump rejects Iranian proposal to open Strait of Hormuz, end fighting",
               "url": "https://www.theglobeandmail.com/world/article-trump-rejects-iranian-proposal-to-open-strait-of-hormuz-end-fighting/",
               "source_id": "theglobeandmail.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:39:40.516864+00:00"
+              "scraped_at_utc": "2026-09-27T12:32:26.336353+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.915585994720459,
+            "sim_to_centroid": 0.9293686747550964,
+            "article": {
+              "title": "Trump rejects Iranian plan to reopen Strait of Hormuz",
+              "url": "https://www.euronews.com/2026/09/26/trump-reportedly-rejects-iranian-plan-to-reopen-strait-of-hormuz",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:30:26.947748+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9258726835250854,
             "article": {
               "title": "Trump rejects Iran’s latest Strait of Hormuz deal offer",
               "url": "https://www.politico.eu/article/iran-strait-of-hormuz-reopen-us-accepts-deal/",
               "source_id": "politico.eu",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:16.728477+00:00"
+              "scraped_at_utc": "2026-09-27T12:30:28.367048+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9144322872161865,
+            "sim_to_centroid": 0.9190298318862915,
             "article": {
               "title": "Trump wijst voorstel van Iran voor het heropenen van de Straat van Hormuz af",
               "url": "https://www.nrc.nl/nieuws/2026/09/26/trump-wijst-voorstel-van-iran-voor-het-heropenen-van-de-straat-van-hormuz-af-a4937604",
               "source_id": "nrc.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:19.894818+00:00"
+              "scraped_at_utc": "2026-09-27T12:30:31.130259+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9088056683540344,
+            "sim_to_centroid": 0.9053230881690979,
             "article": {
-              "title": "Trump rejects Iran’s seven-day plan to reopen Strait of Hormuz",
-              "url": "https://www.france24.com/en/middle-east/20260926-trump-reportedly-rejects-iran-s-7-day-plan-to-reopen-strait-of-hormuz",
-              "source_id": "france24.com",
-              "continent": "Europe South",
+              "title": "Trump rejects Iran's Hormuz proposal; Tehran calls for diplomacy",
+              "url": "https://www.channelnewsasia.com/world/trump-rejects-iran-proposal-strait-hormuz-6412896",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:38:15.492006+00:00"
+              "scraped_at_utc": "2026-09-27T12:36:31.935885+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9056879878044128,
-            "article": {
-              "title": "Trump rechaza la oferta de Irán para reabrir el estrecho de Ormuz en 7 días",
-              "url": "https://www.bbc.com/mundo/articles/crx2zzgjledno",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:38:38.696468+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9012014865875244,
-            "article": {
-              "title": "Donald Trump rejette le plan de réouverture iranien du détroit d’Ormuz",
-              "url": "https://www.lemonde.fr/international/article/2026/09/26/donald-trump-rejette-le-plan-de-reouverture-iranien-du-detroit-d-ormuz_6783275_3210.html",
-              "source_id": "lemonde.fr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:38:09.610160+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8970043659210205,
+            "sim_to_centroid": 0.8983263373374939,
             "article": {
               "title": "Donald Trump elutasította Irán javaslatát a Hormuzi-szoros megnyitásáról",
               "url": "https://telex.hu/kulfold/2026/09/26/donald-trump-elutasitotta-iran-javaslatat-a-hormuzi-szoros-megnyitasarol",
               "source_id": "telex.hu",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:40:29.746999+00:00"
+              "scraped_at_utc": "2026-09-27T12:33:11.859673+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8927478790283203,
+            "sim_to_centroid": 0.8942288160324097,
             "article": {
               "title": "Trump rejects Iran deal to reopen Strait of Hormuz in seven days",
               "url": "https://www.bbc.com/news/articles/cqgmrr9ekr7ko",
               "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:06.901339+00:00"
+              "scraped_at_utc": "2026-09-27T12:30:18.394440+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8841029405593872,
+            "sim_to_centroid": 0.8939629197120667,
             "article": {
-              "title": "Donald Trump rechaza el plan de Irán de siete días para reabrir el estrecho de Ormuz",
-              "url": "https://www.rtve.es/noticias/20260926/donald-trump-rechaza-plan-iran-siete-dias-para-reabrir-estrecho-ormuz/17242127.shtml",
-              "source_id": "rtve.es",
-              "continent": "Europe South",
+              "title": "Trump rechaza la oferta de Irán para reabrir el estrecho de Ormuz en 7 días",
+              "url": "https://www.bbc.com/mundo/articles/crx2zzgjledno",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:38:30.296497+00:00"
+              "scraped_at_utc": "2026-09-27T12:31:33.757572+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.883781909942627,
+            "sim_to_centroid": 0.875522255897522,
             "article": {
-              "title": "Трамп отверг предложение Ирана по Ормузскому проливу",
-              "url": "https://www.kommersant.ru/doc/8987845?from=top_main_5",
-              "source_id": "kommersant.ru",
-              "continent": "Europe East",
+              "title": "2 , Trump rejects Iran’s seven-day roadmap to end war and reopen Hormuz",
+              "url": "https://www.aljazeera.com/news/2026/9/26/trump-rejects-irans-seven-day-roadmap-to-reopen-strait-of-hormuz",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:40:58.787148+00:00"
+              "scraped_at_utc": "2026-09-27T12:32:38.915906+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8757961988449097,
+            "sim_to_centroid": 0.8687200546264648,
             "article": {
               "title": "Iran/États-Unis Trump dit avoir rejeté la proposition de l'Iran pour rouvrir le détroit d'Ormuz",
               "url": "https://www.lorientlejour.com/article/1548728/donald-trump-refuse-loffre-iranienne-pour-rouvrir-le-detroit-dormuz.html",
               "source_id": "lorientlejour.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:40:07.246838+00:00"
+              "scraped_at_utc": "2026-09-27T12:32:53.687517+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8708550333976746,
-            "article": {
-              "title": "2 , Trump rejects Iran’s seven-day roadmap to reopen Strait of Hormuz",
-              "url": "https://www.aljazeera.com/news/2026/9/26/trump-rejects-irans-seven-day-roadmap-to-reopen-strait-of-hormuz",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:39:56.783124+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8573145866394043,
-            "article": {
-              "title": "Trump habría rechazado plan de Irán para reabrir el estrecho de Ormuz: WSJ",
-              "url": "https://www.elespectador.com/mundo/trump-habria-rechazado-plan-de-iran-para-reabrir-el-estrecho-de-ormuz-wsj/",
-              "source_id": "elespectador.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:39:17.881197+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8552715182304382,
+            "sim_to_centroid": 0.8678574562072754,
             "article": {
               "title": "Trump rejects Tehran’s proposal to reopen Strait of Hormuz with claim ‘we’re winning tremendously’",
               "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-netanyahu-un-israel-hormuz-oil-b3056135.html",
               "source_id": "independent.co.uk",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:08.261776+00:00"
+              "scraped_at_utc": "2026-09-27T12:30:19.894741+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8509227633476257,
-            "article": {
-              "title": "ترامب يرفض مقترح إيران لفتح مضيق هرمز",
-              "url": "https://www.omandaily.om/article/1211331",
-              "source_id": "omandaily.om",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:40:24.671555+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8459427952766418,
-            "article": {
-              "title": "USA rejects Iran proposal to reopen Strait of Hormuz",
-              "url": "https://www.azernews.az/region/264552.html",
-              "source_id": "azernews.az",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:41:37.151135+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8453295230865479,
-            "article": {
-              "title": "特朗普称拒绝伊朗重开霍尔木兹海峡的提议",
-              "url": "https://www.xinhuanet.com/20260926/75aa5ff2eb7d4db4979362a3b2594c57/c.html",
-              "source_id": "xinhuanet.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:42:59.516707+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8438607454299927,
-            "article": {
-              "title": "Cómo era la propuesta de Irán de reabrir Ormuz en siete días que fue rechazada por Trump",
-              "url": "https://www.emol.com/noticias/Internacional/2026/09/26/1212499/plan-iran-reapertura-ormuz-claves.html",
-              "source_id": "emol.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:39:00.185485+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8378167748451233,
+            "sim_to_centroid": 0.8444406986236572,
             "article": {
               "title": "Trump lehnt Irans Vorschlag zu Hormus offenbar ab",
               "url": "https://www.zdfheute.de/politik/ausland/iran-usa-friedensvorschlag-hormus-100.html",
               "source_id": "zdfheute.de",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:39.043931+00:00"
+              "scraped_at_utc": "2026-09-27T12:30:46.224751+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8336596488952637,
-            "article": {
-              "title": "Trump rejects Iran’s seven-day roadmap as Tehran seeks return to talks",
-              "url": "https://pajhwok.com/2026/09/26/trump-rejects-irans-seven-day-roadmap-as-tehran-seeks-return-to-talks/",
-              "source_id": "pajhwok.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:43:41.495312+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8278559446334839,
-            "article": {
-              "title": "Trump dice no alla proposta iraniana: “Non mi faccio condizionare”. E ribattezza col suo nome lo Stretto di Hormuz",
-              "url": "https://www.repubblica.it/esteri/2026/09/26/news/trump_dice_no_alla_proposta_iraniana_non_mi_faccio_condizionare-425609563/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:38:33.182524+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8246427774429321,
+            "sim_to_centroid": 0.8219349384307861,
             "article": {
               "title": "Трамп отверг мирное предложение Ирана без ядерных уступок",
               "url": "https://tengrinews.kz/world_news/tramp-otverg-mirnoe-predlojenie-irana-bez-yadernyih-ustupok-609466/",
               "source_id": "tengrinews.kz",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:41:32.268593+00:00"
+              "scraped_at_utc": "2026-09-27T12:33:50.872693+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8130400776863098,
-            "article": {
-              "title": "Mundo “Rechazo su propuesta”, dice Trump sobre plan iraní para abrir estrecho de Ormuz",
-              "url": "https://www.crhoy.com/mundo/rechazo-su-propuesta-dice-trump-sobre-plan-irani-para-abrir-estrecho-de-ormuz/",
-              "source_id": "crhoy.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:38:48.854524+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8128570318222046,
-            "article": {
-              "title": "Trump, İran’ın 7 günlük ateşkes teklifini reddetti... 'Kabul edilemez'",
-              "url": "https://www.cumhuriyet.com.tr/dunya/trump-iran-in-7-gunluk-ateskes-teklifini-reddetti-kabul-edilemez-2541283",
-              "source_id": "cumhuriyet.com.tr",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:40:10.703986+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8115602731704712,
-            "article": {
-              "title": "Blockierte Meerenge Trump lehnt Irans Hormus-Vorschlag ab",
-              "url": "https://www.tagesschau.de/ausland/asien/iran-krieg-hormus-trump-lehnt-vorschlag-ab-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:25.617486+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8066800832748413,
-            "article": {
-              "title": "Trump ‘rejects’ Iran’s seven-day ceasefire proposal. What’s next?",
-              "url": "https://www.aljazeera.com/news/2026/9/26/trump-reportedly-rejects-irans-seven-day-ceasefire-proposal-whats-next",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:39:56.783124+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8052196502685547,
-            "article": {
-              "title": "Trump rejects Iranian peace proposal, report says",
-              "url": "https://www.japantimes.co.jp/news/2026/09/26/world/politics/trump-rejects-iranian-peace-proposal/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:44:14.574050+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7888851761817932,
+            "sim_to_centroid": 0.7991476058959961,
             "article": {
               "title": "Donald Trump rejects Iranian peace offer, says US is 'winning tremendously'",
               "url": "https://www.sbs.com.au/news/article/donald-trump-rejects-iranian-peace-offer-says-us-is-winning-tremendously/dwd2cmgpp",
               "source_id": "sbs.com.au",
               "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:39:43.009628+00:00"
+              "scraped_at_utc": "2026-09-27T12:32:28.835152+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7708127498626709,
+            "sim_to_centroid": 0.792586088180542,
             "article": {
-              "title": "İran'ın teklifine Trump'tan ret: Bombalamaya yeniden başlayacak",
-              "url": "https://www.hurriyet.com.tr/dunya/iranin-teklifine-trumptan-ret-bombalamaya-yeniden-baslayacak-43320076",
-              "source_id": "hurriyet.com.tr",
-              "continent": "Middle East",
+              "title": "سعودی عرب پر حوثی حملے، ٹرمپ نے ایران کی 7 روز میں آبنائے ہرمز کھولنے کی تجویز مسترد کردی",
+              "url": "https://jang.com.pk/news/1619314",
+              "source_id": "jang.com.pk",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:40:09.080872+00:00"
+              "scraped_at_utc": "2026-09-27T12:35:56.166768+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.764732837677002,
-            "article": {
-              "title": "Verden Trump: Avviser Irans forslag for gjenåpning av Hormuzstredet",
-              "url": "https://www.aftenposten.no/verden/i/439q3o/trump-avviser-irans-forslag-for-gjenaapning-av-hormuzstredet",
-              "source_id": "aftenposten.no",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:50.799443+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7510157823562622,
+            "sim_to_centroid": 0.7646065950393677,
             "article": {
               "title": "Ticker Iran-Krieg: Trump lehnt iranisches Hormuz-Angebot ab +++ Saudiarabien meldet erneuten Luftangriff der Huthi-Miliz",
               "url": "https://www.nzz.ch/international/iran-krieg-huthis-melden-angriff-auf-riad-mit-ballistischen-raketen-teheran-will-zurueck-zu-rahmenabkommen-ld.10021246",
               "source_id": "nzz.ch",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:42.809242+00:00"
+              "scraped_at_utc": "2026-09-27T12:30:49.255773+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7356926798820496,
+            "sim_to_centroid": 0.7453863620758057,
             "article": {
               "title": "Le point à 19h : Trump rejette le plan iranien pour Ormuz ; le pape clôture sa messe géante à Paris Zeina ANTONIOS",
               "url": "https://www.lorientlejour.com/article/1548758/le-point-a-19h-trump-rejette-le-plan-iranien-pour-ormuz-le-pape-cloture-sa-messe-geante-a-paris.html",
               "source_id": "lorientlejour.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:40:07.246838+00:00"
+              "scraped_at_utc": "2026-09-27T12:32:53.687517+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7305544018745422,
+            "sim_to_centroid": 0.7134180665016174,
             "article": {
-              "title": "ইরানের প্রস্তাব প্রত্যাখ্যান করেছি...দারুণভাবে জিতছি: ট্রাম্প",
-              "url": "https://www.prothomalo.com/world/pe4m3uynym",
-              "source_id": "prothomalo.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:43:26.711951+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7237704992294312,
-            "article": {
-              "title": "Trump erteilt Waffenruhe mit dem Iran offenbar eine Absage",
-              "url": "https://www.diepresse.com/41298285/trump-erteilt-waffenruhe-mit-dem-iran-offenbar-eine-absage",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:36.567417+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7168349027633667,
-            "article": {
-              "title": "Teheran: 7 giorni di tregue. No di Donald che posta una mappa dove Hormuz diventa lo Stretto di Trump",
-              "url": "https://www.corriere.it/esteri/diretta-live/26_settembre_26/guerra-usa-iran-news-oggi-diretta.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:38:35.117632+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7145546674728394,
-            "article": {
-              "title": "トランプ氏、イラン新提案を「拒否」 中間選挙後に攻撃再開の報道も",
-              "url": "https://www.asahi.com/articles/ASV9V61R9V9VUHBI02YM.html?iref=comtop_7_03",
-              "source_id": "asahi.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:44:16.094394+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7073686122894287,
-            "article": {
-              "title": "إيران.. ترمب يرفض مقترح فتح هرمز وطهران تنتظر ردا نهائيا من الوسطاء",
-              "url": "https://www.aljazeera.net/news/liveblog/2026/9/27/إيران-مباشر-ترمب-يبرر-رفضه-مقترح-طهران",
-              "source_id": "aljazeera.net",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:40:01.236543+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7022596001625061,
-            "article": {
-              "title": "Donald Trump elutasította a Hormuzi-szoros megnyitásáról szóló iráni javaslatot Közben Tucker Carlson korábbi trumpista riporter arról beszélt, hogy amikor megpróbálta lebeszélni az elnököt az iráni háború megindításáról, ő azzal hárított, hogy végül úgyis mindannyian meghalunk.",
-              "url": "https://nepszava.hu/3333689_donald-trump-hormuzi-szoros-iran-tucker-carlson",
-              "source_id": "nepszava.hu",
+              "title": "Iranian demands ‘unacceptable’ – Trump (VIDEO)",
+              "url": "https://www.rt.com/news/646313-trump-rejects-iran-deal/",
+              "source_id": "rt.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:40:39.145482+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6690495014190674,
-            "article": {
-              "title": "Iran proposes deal with US to reopen Strait of Hormuz within a week",
-              "url": "https://www.sbs.com.au/news/article/iran-proposes-deal-with-us-to-reopen-strait-of-hormuz-within-a-week/lu55w66er",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:39:43.009628+00:00"
+              "scraped_at_utc": "2026-09-27T12:33:35.807740+00:00"
             }
           }
         ]
       },
       {
-        "score": 88.90307144715541,
+        "score": 71.44414916067574,
         "size": 21,
-        "n_sources": 17,
-        "n_continents": 8,
+        "n_sources": 15,
+        "n_continents": 7,
         "continents": [
           "China",
           "East Asia",
           "Europe East",
           "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "South America"
-        ],
-        "coherence": 0.8149783611297607,
-        "title": "Pope Leo XIV celebrates open-air Mass in front of 800,000 people in central Paris",
-        "central_article": {
-          "title": "Pope Leo XIV celebrates open-air Mass in front of 800,000 people in central Paris",
-          "url": "https://www.france24.com/en/france/20260926-pope-leo-xiv-celebrates-open-air-mass-in-front-of-800-000-people-in-central-paris",
-          "source_id": "france24.com",
-          "continent": "Europe South",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-26T21:38:15.492006+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9026501178741455,
-            "article": {
-              "title": "Pope Leo XIV celebrates open-air Mass in front of 800,000 people in central Paris",
-              "url": "https://www.france24.com/en/france/20260926-pope-leo-xiv-celebrates-open-air-mass-in-front-of-800-000-people-in-central-paris",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:38:15.492006+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9022431373596191,
-            "article": {
-              "title": "Pope Leo XIV draws huge crowds in Paris as 600,000 await Mass",
-              "url": "https://www.euronews.com/2026/09/26/pope-leo-xiv-draws-huge-crowds-in-paris-as-600000-await-mass",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:15.357895+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8927152156829834,
-            "article": {
-              "title": "An estimated 700,000 people attend Pope Leo XIV’s Mass in Paris square",
-              "url": "https://www.chicagotribune.com/2026/09/26/pope-leo-paris-mass/",
-              "source_id": "chicagotribune.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:42:47.126371+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8879549503326416,
-            "article": {
-              "title": "Pope Leo celebrates open-air Mass before 700,000 people in Paris",
-              "url": "https://www.irishtimes.com/world/europe/2026/09/26/pope-leo-celebrates-open-air-mass-before-700000-people-in-paris/",
-              "source_id": "irishtimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:39:55.527896+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8670253157615662,
-            "article": {
-              "title": "Pave Leo holdt messe for hundredtusinder i Paris",
-              "url": "https://politiken.dk/internationalt/art10998848/Pave-Leo-holdt-messe-for-hundredtusinder-i-Paris",
-              "source_id": "politiken.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:46.940608+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8620234727859497,
-            "article": {
-              "title": "Pope Leo draws 800,000 people for open-air Mass on iconic Paris square",
-              "url": "https://www.independent.co.uk/bulletin/news/pope-leo-paris-france-open-air-mass-b3056955.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:08.261776+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8618738651275635,
-            "article": {
-              "title": "Hundreds of thousands line Champs-Élysées in Paris for Pope Leo’s outdoor mass",
-              "url": "https://www.theglobeandmail.com/world/article-pope-encourages-catholics-in-france-to-persevere-as-paris-shuts-down/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:39:40.516864+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8570036888122559,
-            "article": {
-              "title": "'A once-in-a-lifetime event': Faithful and curious flock to Pope Leo XIV's Mass in Paris",
-              "url": "https://www.france24.com/en/france/20260926-a-once-in-a-lifetime-event-faithful-and-curious-flock-to-pope-leo-xiv-s-mass-in-paris",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:38:15.492006+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8488763570785522,
-            "article": {
-              "title": "Frankrijk Paus Leo XIV draagt in hartje Parijs mis op voor 800.000 gelovigen",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/09/26/paus-leo-frankrijk-parijs-mis/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:38:19.729682+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8370466232299805,
-            "article": {
-              "title": "На мессу папы римского Льва XIV в Париже пришли около 700 тыс. человек",
-              "url": "https://www.kommersant.ru/doc/8987867?from=spot_main",
-              "source_id": "kommersant.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:40:58.787148+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.81667560338974,
-            "article": {
-              "title": "Leo XIV. in Frankreich Rund 700.000 Menschen feiern Papstmesse in Paris",
-              "url": "https://www.spiegel.de/ausland/leo-xiv-in-frankreich-rund-700-000-menschen-feiern-papstmesse-in-paris-a-00083c2f-aa30-4a73-9c0d-c3480d3e3db5",
-              "source_id": "spiegel.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:28.551125+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7865968942642212,
-            "article": {
-              "title": "Pope Leo XIV prays for France at Lourdes pilgrimage site",
-              "url": "https://www.france24.com/en/europe/20260926-live-more-than-half-a-million-expected-at-pope-s-open-air-mass-in-paris",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:38:15.492006+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7848079204559326,
-            "article": {
-              "title": "Funke Mediengruppe Leo XIV. Papst predigt vor 800.000 Menschen in Paris – „Freude in Deutschland undenkbar“",
-              "url": "https://www.abendblatt.de/panorama/article413262636/papst-predigt-vor-800000-menschen-in-paris-freude-in-deutschland-undenkbar.html",
-              "source_id": "abendblatt.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:40.994442+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7823441028594971,
-            "article": {
-              "title": "‘I hope France wakes up’: Young Catholics flood the streets for Pope Leo's Paris visit",
-              "url": "https://www.france24.com/en/france/20260925-i-hope-france-wakes-up-young-catholics-flood-the-streets-for-pope-leo-s-paris-visit",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:38:15.492006+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7725536823272705,
-            "article": {
-              "title": "Pope celebrates giant Paris mass in landmark visit",
-              "url": "https://www.scmp.com/news/world/europe/article/3368916/pope-celebrates-giant-paris-mass-landmark-visit?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:42:51.397894+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7495083212852478,
-            "article": {
-              "title": "Léon XIV, en pape tranquille et rassembleur, fait le plein à Paris pour la messe de la Concorde",
-              "url": "https://www.lemonde.fr/international/article/2026/09/26/leon-xiv-en-pape-tranquille-et-rassembleur-fait-le-plein-a-paris-pour-la-messe-de-la-concorde_6783543_3210.html",
-              "source_id": "lemonde.fr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:38:09.610160+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7489451169967651,
-            "article": {
-              "title": "Papa Leone in Francia, alla messa in piazza a Parigi tutti (o quasi) gli aspiranti presidenti",
-              "url": "https://www.repubblica.it/esteri/2026/09/27/news/papa_leone_in_francia_alla_messa_in_piazza_a_parigi_tutti_aspiranti_presidenti-425609805/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:38:33.182524+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7420589327812195,
-            "article": {
-              "title": "León XIV, aclamado en los Campos Elíseos antes de celebrar su multitudinaria misa",
-              "url": "https://elcomercio.pe/mundo/europa/papa-leon-xiv-aclamado-en-los-campos-eliseos-antes-de-celebrar-su-multitudinaria-misa-en-paris-francia-iglesia-catolica-ultimas-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:39:12.897857+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7396208047866821,
-            "article": {
-              "title": "Pope Leo finishes first day of France tour with youth vigil at Paris stadium",
-              "url": "https://www.france24.com/en/europe/20260925-live-pope-france-first-state-visit-18-years",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:38:15.492006+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7362649440765381,
-            "article": {
-              "title": "國際 教宗巴黎主持大型露天彌撒 梵蒂岡：約70萬人參與",
-              "url": "https://www.cna.com.tw/news/aopl/202609260205.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:44:40.277785+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7357549667358398,
-            "article": {
-              "title": "البابا لاوون ينتقل إلى لورد بعد قداس مهيب في باريس حشد 800 ألف مشارك",
-              "url": "https://www.annahar.com/international/europe/351583/بالصور---حشود-تصل-إلى-600-ألف-شخص-في-باريس-لحضور-قداس-البابا-لاوون-الرابع-عشر",
-              "source_id": "annahar.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:40:19.610588+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 53.70215463156147,
-        "size": 14,
-        "n_sources": 14,
-        "n_continents": 6,
-        "continents": [
-          "China",
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "South America"
-        ],
-        "coherence": 0.8105272650718689,
-        "title": "Russia accuses Europe of seeking to thwart Ukraine talks",
-        "central_article": {
-          "title": "Russia accuses Europe of seeking to thwart Ukraine talks",
-          "url": "https://www.bangkokpost.com/world/3326643/russia-accuses-europe-of-seeking-to-thwart-ukraine-talks",
-          "source_id": "bangkokpost.com",
-          "continent": "East Asia",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-26T21:44:30.339533+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9026371836662292,
-            "article": {
-              "title": "Russia accuses Europe of seeking to thwart Ukraine talks",
-              "url": "https://www.bangkokpost.com/world/3326643/russia-accuses-europe-of-seeking-to-thwart-ukraine-talks",
-              "source_id": "bangkokpost.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:44:30.339533+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8706762790679932,
-            "article": {
-              "title": "Russische minister van Buitenlandse zaken beschuldigt Europa van het saboteren van vredesonderhandelingen in Oekraïne",
-              "url": "https://www.nrc.nl/nieuws/2026/09/26/russische-minister-van-buitenlandse-zaken-beschuldigt-europa-van-het-saboteren-van-vredesonderhandelingen-in-oekraine-a4937610",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:19.894818+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8649090528488159,
-            "article": {
-              "title": "Rusia invadatoare acuză Europa că zădărnicește negocierile de pace pentru Ucraina",
-              "url": "https://www.g4media.ro/rusia-invadatoare-acuza-europa-ca-zadarniceste-negocierile-de-pace-pentru-ucraina.html",
-              "source_id": "g4media.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:40:42.149136+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8604512810707092,
-            "article": {
-              "title": "A l’ONU, la Russie accuse l’Europe de s’opposer à la paix en Ukraine",
-              "url": "https://www.lesoir.be/773266/article/2026-09-26/lonu-la-russie-accuse-leurope-de-sopposer-la-paix-en-ukraine",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:38:24.501921+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.855297327041626,
-            "article": {
-              "title": "Lavrov: Evropa dela vse, da bi preprečila mirovne pogovore o Ukrajini",
-              "url": "https://www.delo.si/novice/svet/lavrov-evropa-dela-vse-da-bi-preprecila-mirovne-pogovore-o-ukrajini",
-              "source_id": "delo.si",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:40:46.088250+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8475438356399536,
-            "article": {
-              "title": "Lavrov taler i FN: Europa gør alt for at forhindre forhandlinger med Ukraine",
-              "url": "https://www.dr.dk/nyheder/udland/lavrov-taler-i-fn-europa-goer-alt-forhindre-forhandlinger-med-ukraine",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:59.220236+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8391752243041992,
-            "article": {
-              "title": "2 t Verden Russland anklager Europa for å blokkere Ukraina-samtaler",
-              "url": "https://www.aftenposten.no/verden/i/3pyPKe/russland-anklager-europa-for-aa-blokkere-ukraina-samtaler",
-              "source_id": "aftenposten.no",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:50.799443+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.808222770690918,
-            "article": {
-              "title": "Rússia condena invasão da Venezuela e acusa Europa de sabotar paz com Kiev",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/09/na-onu-russia-condena-acoes-dos-eua-na-venezuela-e-no-ira-e-acusa-europa-de-sabotar-paz-na-ucrania.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:39:03.581445+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7789035439491272,
-            "article": {
-              "title": "俄外长：西方为遏制俄罗斯而摧毁欧洲安全体系",
-              "url": "https://www.xinhuanet.com/20260927/b32814ee3dc7459fb9eccc8aa89ef7b1/c.html",
-              "source_id": "xinhuanet.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:42:59.516707+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7701989412307739,
-            "article": {
-              "title": "La diretta Lavrov all'Onu: “L’Europa ostacola la pace”. Trump: “Forse un accordo prima dell’inverno”",
-              "url": "https://www.repubblica.it/esteri/2026/09/26/diretta/guerra_ucraina_russia_news_oggi-425608381/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:38:33.182524+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7637993097305298,
-            "article": {
-              "title": "Ukrainian Presidential Press Office,NTB Russland anklager Europa for å blokkere Ukraina-samtaler Krigen i Ukraina Følg saken",
-              "url": "https://www.nrk.no/nyheter/krigen-i-ukraina-1.11480927",
-              "source_id": "nrk.no",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:57.443627+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7485464811325073,
-            "article": {
-              "title": "IN BRIEF: Lavrov comments on EU attempts to derail Ukraine settlement, threats to billions",
-              "url": "https://tass.com/politics/2193477",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:41:00.836759+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7244914770126343,
-            "article": {
-              "title": "Russia strikes Ukraine as Putin denies plans to attack Europe",
-              "url": "https://www.euronews.com/2026/09/26/at-least-six-people-killed-in-russian-strikes-on-ukraine-over-last-24-hours",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:15.357895+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7125293612480164,
-            "article": {
-              "title": "De Dag: hoe Rusland Europa saboteert met wegwerpspionnen",
-              "url": "https://nos.nl/artikel/2632556-podcast-de-dag-hoe-rusland-europa-saboteert-met-wegwerpspionnen",
-              "source_id": "nos.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:18.007582+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 47.90178103331859,
-        "size": 18,
-        "n_sources": 14,
-        "n_continents": 5,
-        "continents": [
-          "East Asia",
-          "Europe East",
-          "Europe North",
+          "Oceania",
           "South America",
           "South Asia"
         ],
-        "coherence": 0.8241314888000488,
-        "title": "Bangkok declara estado de desastre por inundaciones tras intensas lluvias",
+        "coherence": 0.822991132736206,
+        "title": "Bangkok floods force thousands into shelters",
         "central_article": {
-          "title": "Bangkok declara estado de desastre por inundaciones tras intensas lluvias",
-          "url": "https://www.elespectador.com/mundo/mas-paises/bangkok-declara-estado-de-desastre-por-inundaciones-tras-intensas-lluvias/",
-          "source_id": "elespectador.com",
-          "continent": "South America",
+          "title": "Bangkok floods force thousands into shelters",
+          "url": "https://www.channelnewsasia.com/asia/bangkok-floods-thousands-shelters-heavy-rain-6413256",
+          "source_id": "channelnewsasia.com",
+          "continent": "East Asia",
           "published_at": null,
-          "scraped_at_utc": "2026-09-26T21:39:17.881197+00:00"
+          "scraped_at_utc": "2026-09-27T12:36:31.935885+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9115360379219055,
+            "sim_to_centroid": 0.9167870283126831,
+            "article": {
+              "title": "Bangkok floods force thousands into shelters",
+              "url": "https://www.channelnewsasia.com/asia/bangkok-floods-thousands-shelters-heavy-rain-6413256",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:36:31.935885+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9167870283126831,
+            "article": {
+              "title": "Bangkok floods force thousands into shelters",
+              "url": "https://www.japantimes.co.jp/news/2026/09/27/asia-pacific/bangkok-floods-shelters/",
+              "source_id": "japantimes.co.jp",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:36:33.983804+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9167870283126831,
+            "article": {
+              "title": "Bangkok floods force thousands into shelters",
+              "url": "https://www.straitstimes.com/asia/se-asia/bangkok-floods-force-thousands-into-shelters?ref=top-stories",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:36:53.734122+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8896080255508423,
+            "article": {
+              "title": "Tusentals evakuerade i översvämmat Bangkok",
+              "url": "https://www.dn.se/direkt/2026-09-27/tusentals-evakuerade-i-oversvammat-bangkok/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:30:54.048420+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.872617244720459,
             "article": {
               "title": "Bangkok declara estado de desastre por inundaciones tras intensas lluvias",
               "url": "https://www.elespectador.com/mundo/mas-paises/bangkok-declara-estado-de-desastre-por-inundaciones-tras-intensas-lluvias/",
               "source_id": "elespectador.com",
               "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:39:17.881197+00:00"
+              "scraped_at_utc": "2026-09-27T12:32:04.550126+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9110903739929199,
+            "sim_to_centroid": 0.8657647371292114,
             "article": {
-              "title": "Bangkok declares disaster after homes flooded, roads submerged by heavy rain",
-              "url": "https://www.channelnewsasia.com/asia/bangkok-heavy-rain-canals-roads-flooding-disaster-6412356",
+              "title": "Bangkok declared disaster zone amid widespread flooding",
+              "url": "https://www.channelnewsasia.com/shorts/bangkok-declared-disaster-zone-amid-widespread-flooding-6413486",
               "source_id": "channelnewsasia.com",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:44:13.142880+00:00"
+              "scraped_at_utc": "2026-09-27T12:36:31.935885+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8919106721878052,
+            "sim_to_centroid": 0.855082631111145,
             "article": {
-              "title": "Bangkok roads submerged as flood disaster declared",
-              "url": "https://www.bbc.com/news/articles/ck1wxx8n2x3zo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
+              "title": "Heavy flooding continues in eastern Bangkok",
+              "url": "https://www.bangkokpost.com/thailand/general/3326980/heavy-flooding-continues-in-eastern-bangkok",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:06.901339+00:00"
+              "scraped_at_utc": "2026-09-27T12:36:49.643452+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8894287347793579,
+            "sim_to_centroid": 0.8528723120689392,
             "article": {
-              "title": "Thai capital Bangkok declared disaster zone amid flooding",
-              "url": "https://kathmandupost.com/world/2026/09/26/thai-capital-bangkok-declared-disaster-zone-amid-flooding",
+              "title": "Bangkok residents navigate streets by boat as floods reach disaster level",
+              "url": "https://www.channelnewsasia.com/shorts/bangkok-residents-navigate-streets-boat-floods-reach-disaster-level-6413516",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:36:31.935885+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8471908569335938,
+            "article": {
+              "title": "Flood disaster declared in Bangkok after more than 300mm falls in monsoon deluge",
+              "url": "https://www.sbs.com.au/news/article/flood-disaster-declared-in-bangkok-after-more-than-300mm-falls-in-monsoon-deluge/xagrqhufa",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:32:28.835152+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8363076448440552,
+            "article": {
+              "title": "Bangkok floodwaters recede after torrential rain as residents count losses",
+              "url": "https://kathmandupost.com/world/2026/09/27/bangkok-floodwaters-recede-after-torrential-rain-as-residents-count-losses",
               "source_id": "kathmandupost.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:43:35.338867+00:00"
+              "scraped_at_utc": "2026-09-27T12:35:54.945476+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8752692341804504,
+            "sim_to_centroid": 0.8363076448440552,
             "article": {
-              "title": "Dozens of Bangkok streets flooded amid non-stop rain",
-              "url": "https://www.bangkokpost.com/thailand/general/3326049/dozens-of-bangkok-streets-flooded-amid-nonstop-rain",
-              "source_id": "bangkokpost.com",
+              "title": "Bangkok floodwaters recede after torrential rain as residents count losses",
+              "url": "https://www.straitstimes.com/asia/bangkok-floodwaters-recede-after-torrential-rain-as-residents-count-losses?ref=latest-headlines",
+              "source_id": "straitstimes.com",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:44:30.339533+00:00"
+              "scraped_at_utc": "2026-09-27T12:36:53.734122+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8716803789138794,
+            "sim_to_centroid": 0.8322312235832214,
             "article": {
-              "title": "В Бангкоке объявили режим бедствия из-за наводнения",
-              "url": "https://www.kommersant.ru/doc/8987694?from=spot_main",
-              "source_id": "kommersant.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:40:58.787148+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.86147141456604,
-            "article": {
-              "title": "Fotos y videos | Decretan estado de desastre en Bangkok luego de lluvias de casi 300 mm. en dos días",
-              "url": "https://www.emol.com/noticias/Internacional/2026/09/26/1212501/tailandia-lluvias-estado-emergencia.html",
-              "source_id": "emol.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:39:00.185485+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8412940502166748,
-            "article": {
-              "title": "Eastern Bangkok under water",
-              "url": "https://www.bangkokpost.com/thailand/general/3326513/eastern-bangkok-under-water",
-              "source_id": "bangkokpost.com",
+              "title": "Thousands sleep in schools as floods hit 52,000 homes in Bangkok",
+              "url": "https://e.vnexpress.net/news/news/environment/thousands-sleep-in-schools-as-floods-hit-52-000-homes-in-bangkok-5125344.html",
+              "source_id": "e.vnexpress.net",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:44:30.339533+00:00"
+              "scraped_at_utc": "2026-09-27T12:36:52.538356+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8352873921394348,
-            "article": {
-              "title": "Floods Disrupt Bangkok Life: torrential rain turns capital into disaster zone; more storms forecast",
-              "url": "https://timesofindia.indiatimes.com/world/rest-of-world/bangkok-under-water-torrential-rain-floods-roads-forcing-hundreds-to-evacuate-videos-emerge/articleshow/134502186.cms",
-              "source_id": "timesofindia.indiatimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:43:18.687033+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8162908554077148,
-            "article": {
-              "title": "30 Zentimeter Regen innerhalb von zwei Tagen Land unter in Bangkok",
-              "url": "https://www.spiegel.de/ausland/thailand-katastrophenfall-in-allen-50-bezirken-nach-starkregen-a-5d8384bd-00bb-4d53-a4b5-6691f560d249",
-              "source_id": "spiegel.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:28.551125+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7950224876403809,
+            "sim_to_centroid": 0.7908833622932434,
             "article": {
               "title": "At least two killed as floods swamp Thailand (VIDEOS)",
               "url": "https://www.rt.com/news/646307-two-killed-floods-thailand/",
               "source_id": "rt.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:40:56.833630+00:00"
+              "scraped_at_utc": "2026-09-27T12:33:35.807740+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7948302626609802,
+            "sim_to_centroid": 0.7837729454040527,
             "article": {
-              "title": "53 sek Översvämningar i Bangkok – katastroftillstånd utlyst Över 150 millimeter regn har fallit senaste dygnet",
-              "url": "https://www.svt.se/nyheter/utrikes/oversvamningar-i-bangkok-katastroftillstand-utfardat",
-              "source_id": "svt.se",
+              "title": "國際 曼谷暴雨成災 數千民眾被迫入住避難所",
+              "url": "https://www.cna.com.tw/news/aopl/202609270126.aspx",
+              "source_id": "cna.com.tw",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:36:59.467026+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.777214765548706,
+            "article": {
+              "title": "Bangkok flood warnings ‘came too late’ Thais say, worst flood in 15 years",
+              "url": "https://www.scmp.com/news/asia/southeast-asia/article/3368955/bangkok-flood-warnings-came-too-late-thais-say-worst-flood-15-years?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:35:15.424102+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7762866020202637,
+            "article": {
+              "title": "Thousands stranded, Lat Krabang evacuates flooded residents",
+              "url": "https://www.bangkokpost.com/thailand/general/3327015/thousands-stranded-lat-krabang-evacuates-flooded-residents",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:36:49.643452+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7755566835403442,
+            "article": {
+              "title": "Bangkok roads submerged as flood disaster declared Authorities said the heavy rains have subsided but the flooding is not yet over.",
+              "url": "https://www.bbc.com/news/articles/ck1wxx8n2x3zo",
+              "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:55.951917+00:00"
+              "scraped_at_utc": "2026-09-27T12:30:18.394440+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7898968458175659,
+            "sim_to_centroid": 0.7608190774917603,
             "article": {
-              "title": "Empty shelves, snaking queues as Bangkok braces for prolonged flooding",
-              "url": "https://www.channelnewsasia.com/shorts/empty-shelves-snaking-queues-bangkok-braces-prolonged-flooding-6412901",
+              "title": "From Bangkok to New York, floods, storms spark emergency declarations",
+              "url": "https://www.smh.com.au/world/asia/from-bangkok-to-new-york-floods-storms-spark-emergency-declarations-20260927-p610t9.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:32:30.019426+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7317966818809509,
+            "article": {
+              "title": "Main road to Bangkok’s Don Mueang Airport still flooded",
+              "url": "https://www.channelnewsasia.com/shorts/main-road-bangkoks-don-mueang-airport-still-flooded-6413536",
               "source_id": "channelnewsasia.com",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:44:13.142880+00:00"
+              "scraped_at_utc": "2026-09-27T12:36:31.935885+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7833690643310547,
+            "sim_to_centroid": 0.7266086339950562,
             "article": {
-              "title": "Überschwemmungen in Thailand Behörden rufen Katastrophenfall in Bangkok aus",
-              "url": "https://www.tagesschau.de/ausland/asien/thailand-unwetter-regen-100.html",
-              "source_id": "tagesschau.de",
+              "title": "35 sek Boende i Bangkok om översvämningarna: ”Chock” ”Känns ganska skrämmande”",
+              "url": "https://www.svt.se/nyheter/utrikes/boende-i-bangkok-om-oversvamningarna-chock",
+              "source_id": "svt.se",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:25.617486+00:00"
+              "scraped_at_utc": "2026-09-27T12:31:00.233225+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7714048624038696,
-            "article": {
-              "title": "Malaysians urged to exercise caution amid Bangkok flooding",
-              "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/26/malaysians-urged-to-exercise-caution-amid-bangkok-flooding",
-              "source_id": "thestar.com.my",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:44:37.137071+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.743043839931488,
+            "sim_to_centroid": 0.7215307950973511,
             "article": {
               "title": "All 50 Bangkok districts declared disaster areas",
               "url": "https://www.bangkokpost.com/thailand/general/3326549/all-50-bangkok-districts-declared-disaster-areas",
               "source_id": "bangkokpost.com",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:44:30.339533+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7360286712646484,
-            "article": {
-              "title": "بنکاک میں شدید بارش سے سیلاب صورتحال، متعدد افراد کی محفوظ مقامات پر منتقلی",
-              "url": "https://www.nawaiwaqt.com.pk/26-Sep-2026/2031467",
-              "source_id": "nawaiwaqt.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:43:38.865046+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.715510904788971,
-            "article": {
-              "title": "Flash floods hit parts of Klang Valley",
-              "url": "https://www.thestar.com.my/news/nation/2026/09/26/flash-floods-hit-parts-of-klang-valley",
-              "source_id": "thestar.com.my",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:44:37.137071+00:00"
+              "scraped_at_utc": "2026-09-27T12:36:49.643452+00:00"
             }
           }
         ]
       },
       {
-        "score": 43.992576625015644,
+        "score": 31.550679230256385,
         "size": 10,
-        "n_sources": 10,
-        "n_continents": 6,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "North America",
-          "Oceania",
-          "South Asia"
-        ],
-        "coherence": 0.8379352688789368,
-        "title": "Trump dál bojuje s novináři. Stanici CNN nepustí na palubu Air Force One",
-        "central_article": {
-          "title": "Trump dál bojuje s novináři. Stanici CNN nepustí na palubu Air Force One",
-          "url": "https://www.idnes.cz/zpravy/zahranicni/usa-donald-trump-air-force-one-letadlo-cnn-bily-dum.A260926_124836_zahranicni_kha",
-          "source_id": "idnes.cz",
-          "continent": "Europe East",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-26T21:40:34.742774+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9008523225784302,
-            "article": {
-              "title": "Trump dál bojuje s novináři. Stanici CNN nepustí na palubu Air Force One",
-              "url": "https://www.idnes.cz/zpravy/zahranicni/usa-donald-trump-air-force-one-letadlo-cnn-bily-dum.A260926_124836_zahranicni_kha",
-              "source_id": "idnes.cz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:40:34.742774+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8939687013626099,
-            "article": {
-              "title": "CNN White House blocks CNN from Air Force One in latest escalation with news media",
-              "url": "https://www.theguardian.com/us-news/2026/sep/25/white-house-cnn-air-force-one",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:11.037230+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8650244474411011,
-            "article": {
-              "title": "Witte Huis weert nieuwszender CNN uit Air Force One",
-              "url": "https://www.nrc.nl/nieuws/2026/09/26/witte-huis-weert-nieuwszender-cnn-uit-air-force-one-a4937595",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:19.894818+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8574052453041077,
-            "article": {
-              "title": "ट्रंप के विमान 'एयर फोर्स वन' में CNN न्यूज को एंट्री नहीं, मिडिया पाबंदी से फिर बढ़ेगा विवाद",
-              "url": "https://www.jagran.com/world/america-cnn-denied-entry-to-trump-plane-air-force-one-40386510.html",
-              "source_id": "jagran.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:43:21.204533+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8391947150230408,
-            "article": {
-              "title": "Verenigde Staten Na verboden toegang tot Witte Huis: CNN mag niet meevliegen met Air Force One",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/09/26/na-verbod-op-toegang-tot-witte-huis-cnn-mag-niet-meevliegen-met/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:38:19.729682+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.827643632888794,
-            "article": {
-              "title": "CNN removed from Trump press pool despite judge order to reinstate White House access",
-              "url": "https://www.france24.com/en/americas/20260926-cnn-removed-from-trump-press-pool-despite-judge-order-to-reinstate-white-house-access",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:38:15.492006+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8212175369262695,
-            "article": {
-              "title": "CNN barred from Trump trip after judge strikes down White House ban",
-              "url": "https://www.abc.net.au/news/2026-09-26/white-house-blocks-cnn-from-air-force-one-trip/107199678",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:39:41.764785+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8124051690101624,
-            "article": {
-              "title": "Ausschluss von Reise Trumps Streit mit CNN geht weiter",
-              "url": "https://www.tagesschau.de/ausland/amerika/trump-cnn-112.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:25.617486+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7872594594955444,
-            "article": {
-              "title": "CNN says it was left off Air Force One for Trump's Saturday trip to a college football game By Sarah Rankin, Hallie Golden, Associated Press",
-              "url": "https://www.pbs.org/newshour/politics/cnn-says-it-was-left-off-air-force-one-for-trumps-saturday-trip-to-a-college-football-game",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:42:50.177178+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7743806838989258,
-            "article": {
-              "title": "leestijd In zijn kruistocht tegen kritische media ondergraaft Donald Trump zijn zichtbaarheid Een week geleden weerde de Amerikaanse president CNN, MS NOW en Politico uit het Witte Huis. Een rechter stak er een stokje voor, maar de strijd tussen Trump en de pers lijkt nog lang niet voorbij.",
-              "url": "https://fd.nl/politiek/1613158/in-zijn-kruistocht-tegen-kritische-media-ondergraaft-donald-trump-zijn-zichtbaarheid",
-              "source_id": "fd.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:23.255237+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 43.19704944837314,
-        "size": 16,
-        "n_sources": 14,
-        "n_continents": 6,
-        "continents": [
-          "China",
-          "East Asia",
-          "Europe North",
-          "North America",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.7669910788536072,
-        "title": "Trump-Xi summit: Who got the better deal?",
-        "central_article": {
-          "title": "Trump-Xi summit: Who got the better deal?",
-          "url": "https://www.channel4.com/news/trump-xi-summit-who-got-the-better-deal",
-          "source_id": "channel4.com",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-26T21:37:13.875159+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8234460949897766,
-            "article": {
-              "title": "Trump-Xi summit: Who got the better deal?",
-              "url": "https://www.channel4.com/news/trump-xi-summit-who-got-the-better-deal",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:13.875159+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8200478553771973,
-            "article": {
-              "title": "Why the Trump-Xi summit in Washington could be considered a win for Beijing",
-              "url": "https://www.straitstimes.com/asia/east-asia/why-the-trump-xi-summit-in-washington-could-be-considered-a-win-for-beijing?ref=asia",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:44:34.578330+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8193414211273193,
-            "article": {
-              "title": "Xi-Trump summit provides new strategic guidance for China-U.S. ties",
-              "url": "https://en.people.cn/n3/2026/0926/c90000-20503778.html",
-              "source_id": "en.people.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:42:53.125310+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7961204648017883,
-            "article": {
-              "title": "Through the lens: Trump-Xi summit",
-              "url": "https://asia.nikkei.com/photos/through-the-lens-trump-xi-summit",
-              "source_id": "asia.nikkei.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:43:49.393912+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7946873903274536,
-            "article": {
-              "title": "Trump drøftede krigen i Iran med Xi",
-              "url": "https://sermitsiaq.ag/samfund/trump-droftede-krigen-i-iran-med-xi/2430046",
-              "source_id": "sermitsiaq.ag",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:38:05.021105+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.780299186706543,
-            "article": {
-              "title": "Trump-Xi meeting: Trade truce extended, key differences remain",
-              "url": "https://pajhwok.com/2026/09/25/trump-xi-meeting-trade-truce-extended-key-differences-remain/",
-              "source_id": "pajhwok.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:43:41.495312+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7791526317596436,
-            "article": {
-              "title": "Xi-Trump meeting was about 'managing rivalry', expert says",
-              "url": "https://www.euronews.com/2026/09/25/xi-trump-meeting-was-about-managing-rivalry-expert-says",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:15.357895+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7683049440383911,
-            "article": {
-              "title": "Xi-Trump summit injects fresh confidence into global stability, development, say experts",
-              "url": "https://english.news.cn/20260926/3802fea47b584200ae895baa18143182/c.html",
-              "source_id": "english.news.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:42:56.810628+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7605460286140442,
-            "article": {
-              "title": "Xi seizes Trump detente to seek lasting gains on trade and Taiwan",
-              "url": "https://www.japantimes.co.jp/news/2026/09/26/world/politics/xi-trump-us-china-focus/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:44:14.574050+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7553665637969971,
-            "article": {
-              "title": "Takeaways from Trump-Xi summit: Lots of pomp and even more punting on tensions in US-China relations （2026/9/26）",
-              "url": "https://mainichi.jp/english/articles/20260926/p2g/00m/0in/004000c",
-              "source_id": "mainichi.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:44:19.237669+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7409436106681824,
-            "article": {
-              "title": "Xi sends congratulatory letter to high-level dialogue marking 5th anniversary of GDI",
-              "url": "https://english.news.cn/20260926/cca9ceb22c77464ea1222f2cb26c5126/c.html",
-              "source_id": "english.news.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:42:56.810628+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7409436106681824,
-            "article": {
-              "title": "Xi sends congratulatory letter to high-level dialogue marking 5th anniversary of GDI",
-              "url": "https://en.people.cn/n3/2026/0926/c90000-20503812.html",
-              "source_id": "en.people.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:42:53.125310+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7379542589187622,
-            "article": {
-              "title": "Trump, Takaichi reaffirm US-Japan ties in phone call after Xi state visit",
-              "url": "https://www.scmp.com/news/china/diplomacy/article/3368878/will-trump-xi-wartime-ally-nostalgia-prompt-japanese-rethink-china-ties?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:42:51.397894+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7225766181945801,
-            "article": {
-              "title": "Trump despide a Xi con un té tras una cena de Estado con más de 130 invitados de la política y los negocios",
-              "url": "https://www.latercera.com/mundo/noticia/trump-despide-a-xi-con-un-te-tras-una-cena-de-estado-con-mas-de-130-invitados-de-la-politica-y-los-negocios/",
-              "source_id": "latercera.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:39:14.830352+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7182214856147766,
-            "article": {
-              "title": "习近平与特朗普在白宫会谈：中美应在良性竞争中彼此成就",
-              "url": "https://international.caixin.com/2026-09-25/102488642.html",
-              "source_id": "caixin.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:43:04.071936+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7139049768447876,
-            "article": {
-              "title": "Brooks and Capehart on Trump's warm welcome for China's Xi Jinping",
-              "url": "https://www.pbs.org/newshour/show/brooks-and-capehart-on-trumps-warm-welcome-for-chinas-xi-jinping",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:42:50.177178+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 42.81579105537006,
-        "size": 9,
         "n_sources": 9,
-        "n_continents": 6,
+        "n_continents": 5,
         "continents": [
-          "China",
           "East Asia",
           "Europe East",
           "Europe North",
           "Middle East",
-          "Oceania"
+          "South Asia"
         ],
-        "coherence": 0.8535845875740051,
-        "title": "China, US agree to US$30bil tariff cut, AI dialogue during Xi visit, Beijing says",
+        "coherence": 0.8289865255355835,
+        "title": "Floods and landslides kill at least 56 people in India, 12 in Nepal",
         "central_article": {
-          "title": "China, US agree to US$30bil tariff cut, AI dialogue during Xi visit, Beijing says",
-          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/26/china-us-agree-to-us30bil-tariff-cut-ai-dialogue-during-xi-visit-beijing-says",
-          "source_id": "thestar.com.my",
-          "continent": "East Asia",
+          "title": "Floods and landslides kill at least 56 people in India, 12 in Nepal",
+          "url": "https://www.aljazeera.com/news/2026/9/27/floods-and-landslides-kill-at-least-56-people-in-india-12-in-nepal",
+          "source_id": "aljazeera.com",
+          "continent": "Middle East",
           "published_at": null,
-          "scraped_at_utc": "2026-09-26T21:44:37.137071+00:00"
+          "scraped_at_utc": "2026-09-27T12:32:38.915906+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9187024235725403,
+            "sim_to_centroid": 0.9244351387023926,
             "article": {
-              "title": "China, US agree to US$30bil tariff cut, AI dialogue during Xi visit, Beijing says",
-              "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/26/china-us-agree-to-us30bil-tariff-cut-ai-dialogue-during-xi-visit-beijing-says",
-              "source_id": "thestar.com.my",
-              "continent": "East Asia",
+              "title": "Floods and landslides kill at least 56 people in India, 12 in Nepal",
+              "url": "https://www.aljazeera.com/news/2026/9/27/floods-and-landslides-kill-at-least-56-people-in-india-12-in-nepal",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:44:37.137071+00:00"
+              "scraped_at_utc": "2026-09-27T12:32:38.915906+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9083616137504578,
+            "sim_to_centroid": 0.9149661064147949,
             "article": {
-              "title": "China, US agree to AI dialogue, tariff cuts on $30 billion in goods during Xi visit",
-              "url": "https://www.channelnewsasia.com/world/china-us-ai-tariff-cuts-xi-6413066",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
+              "title": "Per potvynius Indijoje žuvo 56 žmonės, Nepale – 12",
+              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3065052/per-potvynius-indijoje-zuvo-56-zmones-nepale-12",
+              "source_id": "lrt.lt",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:44:13.142880+00:00"
+              "scraped_at_utc": "2026-09-27T12:33:44.138316+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9057348370552063,
+            "sim_to_centroid": 0.8465018272399902,
             "article": {
-              "title": "Kína és az Egyesült Államok 30 milliárd dolláros kölcsönös vámcsökkentésről egyezett meg",
-              "url": "https://telex.hu/gazdasag/2026/09/26/kina-egyesult-allamok-usa-vammegallapodas",
+              "title": "Floods and landslides kill 12 across Nepal",
+              "url": "https://kathmandupost.com/national/2026/09/27/floods-and-landslides-kill-12-across-nepal",
+              "source_id": "kathmandupost.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:35:54.945476+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8374401330947876,
+            "article": {
+              "title": "Floods, landslides kill 19 in India, Nepal",
+              "url": "https://pajhwok.com/2026/09/27/floods-landslides-kill-19-in-india-nepal/",
+              "source_id": "pajhwok.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:36:00.439612+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8130120635032654,
+            "article": {
+              "title": "Сильные дожди в Индии привели к гибели 56 человек В мире",
+              "url": "http://belta.by/world/view/silnye-dozhdi-v-indii-priveli-k-gibeli-56-chelovek-803059-2026/",
+              "source_id": "belta.by",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:34:05.343996+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8108801245689392,
+            "article": {
+              "title": "國際 豪雨成災印度56死 尼泊爾14死11失蹤",
+              "url": "https://www.cna.com.tw/news/aopl/202609270170.aspx",
+              "source_id": "cna.com.tw",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:36:59.467026+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7986049652099609,
+            "article": {
+              "title": "প্রবল বৃষ্টিতে উত্তরপ্রদেশে ভয়াবহ পরিস্থিতি, মৃত ৫৬, জলের তলায় বসতবাড়ি, ফসলের জমি",
+              "url": "https://eisamay.com/nation/uttar-pradesh-flood-situation-56-persons-died-several-house-affected/200548090.cms",
+              "source_id": "eisamay.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:35:48.396256+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.787972092628479,
+            "article": {
+              "title": ". geleden • Buitenland Tientallen doden door zwaar noodweer in India en Nepal",
+              "url": "https://nos.nl/artikel/2632727-tientallen-doden-door-zwaar-noodweer-in-india-en-nepal",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:30:29.561075+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7843371629714966,
+            "article": {
+              "title": "Relentless rain triggers floods, landslides across Nepal",
+              "url": "https://kathmandupost.com/national/2026/09/27/relentless-rain-triggers-floods-landslides-across-nepal",
+              "source_id": "kathmandupost.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:35:54.945476+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7717163562774658,
+            "article": {
+              "title": "UP rain fury: 56 dead in three days, flood-like situation in several districts",
+              "url": "https://www.hindustantimes.com/india-news/up-rain-fury-56-dead-in-three-days-flood-like-situation-in-several-districts-101790508738356.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:35:44.403358+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 29.69780341959097,
+        "size": 11,
+        "n_sources": 11,
+        "n_continents": 3,
+        "continents": [
+          "Europe East",
+          "Europe North",
+          "Europe South"
+        ],
+        "coherence": 0.8789131045341492,
+        "title": "OpenAI pausiert KI-Training nach neuem Zwischenfall",
+        "central_article": {
+          "title": "OpenAI pausiert KI-Training nach neuem Zwischenfall",
+          "url": "https://www.zdfheute.de/wirtschaft/unternehmen/openai-ki-training-zwischenfall-100.html",
+          "source_id": "zdfheute.de",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-27T12:30:46.224751+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9317736625671387,
+            "article": {
+              "title": "OpenAI pausiert KI-Training nach neuem Zwischenfall",
+              "url": "https://www.zdfheute.de/wirtschaft/unternehmen/openai-ki-training-zwischenfall-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:30:46.224751+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9116321802139282,
+            "article": {
+              "title": "Neuer Zwischenfall mit KI, OpenAI setzt Training aus",
+              "url": "https://www.diepresse.com/41300099/neuer-zwischenfall-mit-ki-openai-setzt-training-aus",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:30:44.100522+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9090741872787476,
+            "article": {
+              "title": "OpenAI pauses training of advanced AI models over safety concerns",
+              "url": "https://tass.com/society/2193521",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:33:39.101884+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8869783878326416,
+            "article": {
+              "title": "OpenAI legt training van krachtigste AI stil na weer nieuwe uitbraak",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5655733/openai-pauzeert-werk-met-krachtige-ai-na-een-nieuw-incident",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:30:32.829591+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8852916955947876,
+            "article": {
+              "title": "OpenAI OpenAI halts training of latest models as reports mount of AI agents going rogue",
+              "url": "https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:30:23.968231+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8808443546295166,
+            "article": {
+              "title": "Künstliche Intelligenz OpenAI pausiert Training nach Zwischenfall",
+              "url": "https://www.tagesschau.de/wirtschaft/unternehmen/openai-ki-entwicklung-102.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:30:36.509649+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8722045421600342,
+            "article": {
+              "title": "Open AI: Pausar träning av nya modeller",
+              "url": "https://www.dn.se/direkt/2026-09-27/open-ai-pausar-traning-av-nya-modeller/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:30:54.048420+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8668273687362671,
+            "article": {
+              "title": "Axios: OpenAI приостановила обучение передовых моделей ИИ",
+              "url": "https://www.kommersant.ru/doc/8987901?from=top_main_9",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:33:37.302423+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.852482795715332,
+            "article": {
+              "title": "Bekymrende hændelser får OpenAI til at bremse AI-agenter",
+              "url": "https://www.dr.dk/nyheder/viden/teknologi/bekymrende-haendelser-faar-openai-til-bremse-sine-nyeste-ai-agenter",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:31:03.255894+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8507872819900513,
+            "article": {
+              "title": "OpenAI suspend des travaux après qu'un de ses modèles d'IA a contourné des restrictions",
+              "url": "https://www.rtbf.be/article/openai-suspend-des-travaux-apres-qu-un-de-ses-modeles-d-ia-a-contourne-des-restrictions-11791165",
+              "source_id": "rtbf.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:31:20.087352+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8201480507850647,
+            "article": {
+              "title": "Marile companii de AI investighează zeci de mii de incidente cu agenți „rebeli” / OpenAI a oprit antrenarea modelelor de top",
+              "url": "https://hotnews.ro/marile-companii-de-ai-investigheaza-zeci-de-mii-de-incidente-cu-agenti-rebeli-problema-e-cu-cateva-ordine-de-marime-mai-grava-decat-se-stia-2359128",
+              "source_id": "hotnews.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:33:13.324556+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 21.133455523009264,
+        "size": 7,
+        "n_sources": 7,
+        "n_continents": 4,
+        "continents": [
+          "China",
+          "East Asia",
+          "Europe East",
+          "Europe North"
+        ],
+        "coherence": 0.8437305688858032,
+        "title": "German, Russian foreign ministers meet for 1st time since full-scale war against Ukraine.",
+        "central_article": {
+          "title": "German, Russian foreign ministers meet for 1st time since full-scale war against Ukraine.",
+          "url": "https://kyivindependent.com/german-russian-foreign-ministers-meet-for-1st-time-since-full-scale-war-against-ukraine/",
+          "source_id": "kyivindependent.com",
+          "continent": "Europe East",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-27T12:33:29.314547+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8974261283874512,
+            "article": {
+              "title": "German, Russian foreign ministers meet for 1st time since full-scale war against Ukraine.",
+              "url": "https://kyivindependent.com/german-russian-foreign-ministers-meet-for-1st-time-since-full-scale-war-against-ukraine/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:33:29.314547+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8606458902359009,
+            "article": {
+              "title": "Ukrajna lerohanása óta először tárgyalt német kollégájával az orosz külügyminiszter",
+              "url": "https://telex.hu/kulfold/2026/09/27/orosz-es-nemet-kulugyminiszter-targyalas-ensz",
               "source_id": "telex.hu",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:40:29.746999+00:00"
+              "scraped_at_utc": "2026-09-27T12:33:11.859673+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8764294981956482,
+            "sim_to_centroid": 0.8597712516784668,
             "article": {
-              "title": "اتفاق صيني أميركي على خفض رسوم سلع بقيمة 30 مليار دولار",
-              "url": "https://www.annahar.com/economy/351682/اتفاق-صيني-أميركي-على-خفض-رسوم-سلع-بقيمة-30-مليار-دولار",
-              "source_id": "annahar.com",
-              "continent": "Middle East",
+              "title": "俄德外长乌克兰危机后首次会面 会见简短气氛紧张",
+              "url": "https://www.xinhuanet.com/20260927/43220ea19b544ebb9d7a77ee3b45c541/c.html",
+              "source_id": "xinhuanet.com",
+              "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:40:19.610588+00:00"
+              "scraped_at_utc": "2026-09-27T12:35:22.839101+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8675594329833984,
+            "sim_to_centroid": 0.8440736532211304,
             "article": {
-              "title": "China, US agree to AI dialogue, $42b in tariff cuts during state visit",
-              "url": "https://www.abc.net.au/news/2026-09-27/president-donald-trump-xi-jinping-washington-summit-tariffs-ai/107200436",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
+              "title": "· 俄德外长乌克兰危机后首次会面，会见简短气氛紧张",
+              "url": "https://www.stnn.cc/detail/6ab89395158f681db438f729.html",
+              "source_id": "stnn.cc",
+              "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:39:41.764785+00:00"
+              "scraped_at_utc": "2026-09-27T12:35:35.419468+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8426194190979004,
+            "sim_to_centroid": 0.840302586555481,
             "article": {
-              "title": "Økonomi USA og Kina enige om tollkutt verdt 30 milliarder dollar",
-              "url": "https://www.aftenposten.no/okonomi/i/9pRGV9/usa-og-kina-enige-om-tollkutt-verdt-30-milliarder-dollar",
-              "source_id": "aftenposten.no",
+              "title": "At U.N., Russia’s and Germany’s top diplomats hold first talks since 2022",
+              "url": "https://www.japantimes.co.jp/news/2026/09/27/world/politics/russia-germany-top-diplomats-talks/",
+              "source_id": "japantimes.co.jp",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:36:33.983804+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8295242190361023,
+            "article": {
+              "title": "Russia’s top diplomat holds meeting with his German counterpart on sidelines of UNGA",
+              "url": "https://tass.com/politics/2193323",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:33:39.101884+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7743706703186035,
+            "article": {
+              "title": "56 sek Liverapport Tysklands och Rysslands utrikesministrar möttes Läs senaste nytt om kriget i Ukraina",
+              "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=c6d32ac7e4d07cb534c1028521fa75bc",
+              "source_id": "svt.se",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:50.799443+00:00"
+              "scraped_at_utc": "2026-09-27T12:31:00.233225+00:00"
             }
-          },
+          }
+        ]
+      },
+      {
+        "score": 19.45518451684315,
+        "size": 10,
+        "n_sources": 7,
+        "n_continents": 4,
+        "continents": [
+          "China",
+          "Middle East",
+          "North America",
+          "Oceania"
+        ],
+        "coherence": 0.8271818161010742,
+        "title": "China and the United States reach eight deliverables and understandings",
+        "central_article": {
+          "title": "China and the United States reach eight deliverables and understandings",
+          "url": "https://en.people.cn/n3/2026/0927/c90000-20503946.html",
+          "source_id": "en.people.cn",
+          "continent": "China",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-27T12:35:17.207901+00:00"
+        },
+        "members": [
           {
-            "sim_to_centroid": 0.8317227959632874,
+            "sim_to_centroid": 0.8854570388793945,
             "article": {
-              "title": "China dan AS Sepakat Pangkas Tarif Timbal Balik Senilai Rp 537 Triliun Money",
-              "url": "https://money.kompas.com/read/2026/09/26/205430726/china-dan-as-sepakat-pangkas-tarif-timbal-balik-senilai-rp-537-triliun?source=sorotan",
-              "source_id": "kompas.com",
-              "continent": "East Asia",
+              "title": "China and the United States reach eight deliverables and understandings",
+              "url": "https://en.people.cn/n3/2026/0927/c90000-20503946.html",
+              "source_id": "en.people.cn",
+              "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:44:42.143781+00:00"
+              "scraped_at_utc": "2026-09-27T12:35:17.207901+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7867680788040161,
-            "article": {
-              "title": "米中首脳、関税引き下げ合意 4.7兆円規模 AI事故で相互通知も",
-              "url": "https://www.asahi.com/articles/ASV9V3J6KV9VULFA00FM.html?iref=comtop_Topnews2_03",
-              "source_id": "asahi.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:44:16.094394+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7443633079528809,
+            "sim_to_centroid": 0.8854570388793945,
             "article": {
               "title": "China and the United States reach eight deliverables and understandings",
               "url": "https://english.news.cn/special/202609xjp/index.html",
               "source_id": "english.news.cn",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:42:56.810628+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 41.905172054057196,
-        "size": 10,
-        "n_sources": 10,
-        "n_continents": 5,
-        "continents": [
-          "China",
-          "Europe North",
-          "Europe South",
-          "North America",
-          "South America"
-        ],
-        "coherence": 0.8646772503852844,
-        "title": "6 dead after explosion destroys building in Athens",
-        "central_article": {
-          "title": "6 dead after explosion destroys building in Athens",
-          "url": "https://www.scmp.com/news/world/europe/article/3368903/2-dead-4-missing-after-explosion-destroys-building-athens?module=top_story&pgtype=homepage",
-          "source_id": "scmp.com",
-          "continent": "China",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-26T21:42:51.397894+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9311761856079102,
-            "article": {
-              "title": "6 dead after explosion destroys building in Athens",
-              "url": "https://www.scmp.com/news/world/europe/article/3368903/2-dead-4-missing-after-explosion-destroys-building-athens?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:42:51.397894+00:00"
+              "scraped_at_utc": "2026-09-27T12:35:20.625703+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.927128791809082,
-            "article": {
-              "title": "Six dead after explosion causes building to collapse in central Athens",
-              "url": "https://www.euronews.com/2026/09/26/six-dead-after-explosion-causes-building-to-collapse-in-central-athens",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:15.357895+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.881759524345398,
-            "article": {
-              "title": "British man among six dead after house explosion in Athens",
-              "url": "https://www.thetimes.com/world/europe/article/athens-explosion-briton-missing-237nwm3hf",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:09.677266+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.877385139465332,
-            "article": {
-              "title": "British national among six dead in building explosion close to Acropolis in Athens",
-              "url": "https://www.bbc.com/news/articles/c6p3kk78l4l1o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:06.901339+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8647556900978088,
-            "article": {
-              "title": "Explosão na Acrópolis de Atenas deixa pelo menos seis mortos",
-              "url": "https://oglobo.globo.com/mundo/noticia/2026/09/26/explosao-na-acropolis-de-atenas-deixa-pelo-menos-um-morto-cinco-estao-desaparecidos.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:39:07.256863+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.860679566860199,
-            "article": {
-              "title": "Bodies of 6 people, including 4 Americans, recovered from collapsed building in Athens",
-              "url": "https://www.pbs.org/newshour/world/bodies-of-6-people-including-4-americans-recovered-from-collapsed-building-in-athens",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:42:50.177178+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8561697006225586,
-            "article": {
-              "title": "Europa 6 doden, onder wie 4 Amerikaanse toeristen, na zware explosie in gebouw in Athene",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/09/26/athene-explosie-6-doden/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:38:19.729682+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.856037974357605,
-            "article": {
-              "title": "Seis muertos tras derrumbe de edificio en pleno centro histórico de Atenas",
-              "url": "https://www.elespectador.com/mundo/europa/seis-muertos-tras-derrumbe-de-edificio-en-pleno-centro-historico-de-atenas/",
-              "source_id": "elespectador.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:39:17.881197+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8227858543395996,
-            "article": {
-              "title": "Zes lichamen gevonden na explosie Athene, geen vermisten meer",
-              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5655655/athene-explosie-centrum-doden",
-              "source_id": "rtl.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:21.111720+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7688944339752197,
-            "article": {
-              "title": "Nach mutmasslicher Gasexplosion in Athen: zwei Tote geborgen",
-              "url": "https://www.nzz.ch/panorama/nach-mutmasslicher-gasexplosion-in-athen-zwei-tote-geborgen-ld.10025614",
-              "source_id": "nzz.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:42.809242+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 38.89152324028097,
-        "size": 9,
-        "n_sources": 9,
-        "n_continents": 6,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Oceania",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.8343584537506104,
-        "title": "OpenAI says agents leaked 53 ChatGPT images, accessed US government websites",
-        "central_article": {
-          "title": "OpenAI says agents leaked 53 ChatGPT images, accessed US government websites",
-          "url": "https://www.sbs.com.au/news/article/openai-says-agents-leaked-53-chatgpt-images-accessed-us-government-websites/j3ya0h5hq",
-          "source_id": "sbs.com.au",
-          "continent": "Oceania",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-26T21:39:43.009628+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8865388035774231,
-            "article": {
-              "title": "OpenAI says agents leaked 53 ChatGPT images, accessed US government websites",
-              "url": "https://www.sbs.com.au/news/article/openai-says-agents-leaked-53-chatgpt-images-accessed-us-government-websites/j3ya0h5hq",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:39:43.009628+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8664981126785278,
-            "article": {
-              "title": "Reportan que agentes de OpenAI intentaron acceder sin autorización a webs de agencias del Gobierno de EE.UU.",
-              "url": "https://www.emol.com/noticias/Internacional/2026/09/26/1212496/eeuu-gobierno-openai-inteligencia-artificial.html",
-              "source_id": "emol.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:39:00.185485+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8389582633972168,
-            "article": {
-              "title": "WORLD OpenAI says its AI agents posted user images online in error",
-              "url": "https://myrepublica.nagariknetwork.com/news/openai-says-its-ai-agents-posted-user-images-online-in-error-96-85.html",
-              "source_id": "myrepublica.nagariknetwork.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:43:40.052705+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8360596299171448,
-            "article": {
-              "title": "ओपनएआई के एआई एजेंटों ने अमेरिकी सरकारी वेबसाइटों में लगाई सेंध, कंपनी ने ने जांच शुरू की",
-              "url": "https://www.jagran.com/world/america-openai-ai-agents-breach-us-government-websites-40386508.html",
-              "source_id": "jagran.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:43:21.204533+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8335268497467041,
-            "article": {
-              "title": "OpenAI warns US government may be compromised by bots",
-              "url": "https://www.channel4.com/news/openai-warns-us-government-may-be-compromised-by-bots",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:13.875159+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8304518461227417,
-            "article": {
-              "title": "OpenAI admits another rogue agent incident",
-              "url": "https://www.rt.com/news/646269-openai-53-chatgpt-user-images/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:40:56.833630+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8210130929946899,
-            "article": {
-              "title": "KI-Agenten von Open AI leaken Dutzende Bilder von Chat-GPT-Nutzern",
-              "url": "https://www.nzz.ch/technologie/ki-agenten-von-open-ai-leaken-dutzende-bilder-von-chat-gpt-nutzern-ld.10025610",
-              "source_id": "nzz.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:42.809242+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8009072542190552,
-            "article": {
-              "title": "Sistema de inteligência artificial sai do controle e interfere em sites do governo dos EUA",
-              "url": "https://oglobo.globo.com/mundo/noticia/2026/09/26/sistema-de-inteligencia-artificial-sai-do-controle-e-interfere-em-sites-do-governo-dos-eua.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:39:07.256863+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7952721118927002,
-            "article": {
-              "title": "Rogue AI accessed federal websites, posted user images online, ChatGPT says",
-              "url": "https://www.france24.com/en/technology/20260926-chatgpt-says-its-rogue-ai-agents-posted-users-images-online-entered-federal-website",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:38:15.492006+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 34.459886624878926,
-        "size": 14,
-        "n_sources": 10,
-        "n_continents": 6,
-        "continents": [
-          "China",
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "North America"
-        ],
-        "coherence": 0.7890902757644653,
-        "title": "Xi holds small-group exchanges with Trump",
-        "central_article": {
-          "title": "Xi holds small-group exchanges with Trump",
-          "url": "https://en.people.cn/n3/2026/0925/c90000-20503717.html",
-          "source_id": "en.people.cn",
-          "continent": "China",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-26T21:42:53.125310+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8232200145721436,
-            "article": {
-              "title": "Xi holds small-group exchanges with Trump",
-              "url": "https://en.people.cn/n3/2026/0925/c90000-20503717.html",
-              "source_id": "en.people.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:42:53.125310+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8225477933883667,
+            "sim_to_centroid": 0.8739280700683594,
             "article": {
               "title": "China, US reach consensus on eight outcomes in Xi's visit",
               "url": "https://www.chinadaily.com.cn/a/202609/26/WS6ab77bc2e4b06d4aa0560579.html",
               "source_id": "chinadaily.com.cn",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:42:54.775820+00:00"
+              "scraped_at_utc": "2026-09-27T12:35:18.753023+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8103193044662476,
+            "sim_to_centroid": 0.8335354924201965,
             "article": {
-              "title": "Over tea, Trump, Xi speak of positive outcomes of their meeting",
-              "url": "https://www.channelnewsasia.com/shorts/over-tea-trump-xi-speak-positive-outcomes-their-meeting-6411701",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:44:13.142880+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8089097738265991,
-            "article": {
-              "title": "Chinese President Xi Jinping wraps up state visit to the US",
-              "url": "https://www.channelnewsasia.com/shorts/chinese-president-xi-jinping-wraps-up-state-visit-us-6411816",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:44:13.142880+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.807661235332489,
-            "article": {
-              "title": "Xi's key moments during his US visit",
-              "url": "https://www.chinadaily.com.cn/a/202609/26/WS6ab790dde4b06d4aa0560596.html",
-              "source_id": "chinadaily.com.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:42:54.775820+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8033120632171631,
-            "article": {
-              "title": "Xi returns to Beijing after state visit to US",
-              "url": "https://www.chinadaily.com.cn/a/202609/26/WS6ab77a47e4b06d4aa0560576.html",
-              "source_id": "chinadaily.com.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:42:54.775820+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7972497940063477,
-            "article": {
-              "title": "Xi returns to Beijing after state visit to U.S.",
-              "url": "https://en.people.cn/n3/2026/0926/c90000-20503914.html",
+              "title": "China, U.S. agree on constructive strategic stability based on respect, fairness and reciprocity",
+              "url": "https://en.people.cn/n3/2026/0926/c90000-20503782.html",
               "source_id": "en.people.cn",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:42:53.125310+00:00"
+              "scraped_at_utc": "2026-09-27T12:35:17.207901+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7872496247291565,
+            "sim_to_centroid": 0.8335354924201965,
             "article": {
-              "title": "Trump says talks with Xi produce progress on all issues",
-              "url": "https://tass.com/world/2193093",
-              "source_id": "tass.com",
-              "continent": "Europe East",
+              "title": "China, U.S. agree on constructive strategic stability based on respect, fairness and reciprocity",
+              "url": "http://en.people.cn/n3/2026/0926/c90000-20503782.html",
+              "source_id": "en.people.cn",
+              "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:41:00.836759+00:00"
+              "scraped_at_utc": "2026-09-27T12:35:17.207901+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7731650471687317,
-            "article": {
-              "title": "Ticker Xi Jinping besucht die USA: Trump will bei KI nicht mit China zusammenspannen +++ Chinas Panda-Diplomatie ist zurück",
-              "url": "https://www.nzz.ch/international/xi-jinping-bei-trump-der-staatsbesuch-in-den-usa-im-liveticker-ld.10025033",
-              "source_id": "nzz.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:42.809242+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.771756649017334,
+            "sim_to_centroid": 0.8296180963516235,
             "article": {
               "title": "中美达成八点成果共识 同意建立人工智能事件的沟通渠道",
               "url": "https://international.caixin.com/2026-09-26/102488946.html",
               "source_id": "caixin.com",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:43:04.071936+00:00"
+              "scraped_at_utc": "2026-09-27T12:35:26.516328+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7691621780395508,
+            "sim_to_centroid": 0.8191868662834167,
             "article": {
-              "title": "China and U.S. to open AI ‘communication channel’ after summit",
-              "url": "https://www.japantimes.co.jp/news/2026/09/26/world/us-china-ai-communication-line/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
+              "title": "China and US agree to tariff cuts on $30 billion in goods and AI dialogue",
+              "url": "https://www.thenationalnews.com/business/economy/2026/09/27/china-and-us-agree-to-tariff-cuts-on-30-billion-in-goods-and-ai-dialogue/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:44:14.574050+00:00"
+              "scraped_at_utc": "2026-09-27T12:32:40.457596+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7678483724594116,
+            "sim_to_centroid": 0.7989877462387085,
             "article": {
               "title": "China and U.S. agree to establish AI safety channel and continue trade and military talks By Huizhong Wu, Associated Press",
               "url": "https://www.pbs.org/newshour/world/china-and-u-s-agree-to-establish-ai-safety-channel-and-continue-trade-and-military-talks",
               "source_id": "pbs.org",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:42:50.177178+00:00"
+              "scraped_at_utc": "2026-09-27T12:35:14.270086+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7551543712615967,
+            "sim_to_centroid": 0.7897733449935913,
             "article": {
-              "title": "Pomp, tariffs and AI: 5 things to know about the Trump-Xi summit",
-              "url": "https://asia.nikkei.com/spotlight/trump-xi-summit/pomp-tariffs-and-ai-5-things-to-know-about-the-trump-xi-summit",
-              "source_id": "asia.nikkei.com",
-              "continent": "East Asia",
+              "title": "US and China agree on 'super intelligence' label for AI, cut tariffs by $42 billion",
+              "url": "https://www.sbs.com.au/news/article/us-and-china-agree-on-super-intelligence-label-for-ai-cut-tariffs-by-42-billion/qx5y4pg5i",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:43:49.393912+00:00"
+              "scraped_at_utc": "2026-09-27T12:32:28.835152+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7497084140777588,
+            "sim_to_centroid": 0.7223391532897949,
             "article": {
-              "title": "VS en China komen met 'communicatiekanaal' voor AI-incidenten",
-              "url": "https://www.rtl.nl/nieuws/economie/artikel/5655667/vs-en-china-komen-met-communicatiekanaal-voor-ai-incidenten",
-              "source_id": "rtl.nl",
+              "title": "Xi's key moments during his US visit",
+              "url": "https://www.chinadaily.com.cn/a/202609/26/WS6ab790dde4b06d4aa0560596.html",
+              "source_id": "chinadaily.com.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:35:18.753023+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 18.277607718053133,
+        "size": 5,
+        "n_sources": 5,
+        "n_continents": 4,
+        "continents": [
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Oceania"
+        ],
+        "coherence": 0.8819888830184937,
+        "title": "Zehntausende demonstrieren nach Zwangsräumung bei 87-Jähriger in Madrid",
+        "central_article": {
+          "title": "Zehntausende demonstrieren nach Zwangsräumung bei 87-Jähriger in Madrid",
+          "url": "https://www.tagesschau.de/ausland/europa/demonstration-mieten-madrid-100.html",
+          "source_id": "tagesschau.de",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-27T12:30:36.509649+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.941148042678833,
+            "article": {
+              "title": "Zehntausende demonstrieren nach Zwangsräumung bei 87-Jähriger in Madrid",
+              "url": "https://www.tagesschau.de/ausland/europa/demonstration-mieten-madrid-100.html",
+              "source_id": "tagesschau.de",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-26T21:37:21.111720+00:00"
+              "scraped_at_utc": "2026-09-27T12:30:36.509649+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.919296383857727,
+            "article": {
+              "title": "Spanien Zehntausende protestieren in Madrid gegen Zwangsräumung von 87-Jähriger",
+              "url": "https://www.spiegel.de/ausland/spanien-zehntausende-protestieren-in-madrid-gegen-zwangsraeumung-von-87-jaehriger-maricarmen-abascal-a-054ee7f8-5efd-4063-b5a9-851187ed72e4",
+              "source_id": "spiegel.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:30:38.546183+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9042906761169434,
+            "article": {
+              "title": "Thousands rally against Spain's housing crisis after 87yo's eviction",
+              "url": "https://www.abc.net.au/news/2026-09-27/spain-housing-protest/107200740",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:32:27.569912+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.845425009727478,
+            "article": {
+              "title": "A Madrid, des centaines de personnes ont campé toute la nuit pour soutenir une octogénaire expulsée de chez elle",
+              "url": "https://www.lemonde.fr/international/article/2026/09/27/crise-du-logement-en-espagne-des-centaines-de-personnes-campent-a-madrid-pour-soutenir-une-octogenaire-expulsee-de-chez-elle_6783545_3211.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:31:10.490178+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7997839450836182,
+            "article": {
+              "title": "Thousands march in Madrid over Ceuta migration crisis",
+              "url": "https://www.azernews.az/region/264555.html",
+              "source_id": "azernews.az",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:33:54.509132+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 17.985076265599474,
+        "size": 20,
+        "n_sources": 11,
+        "n_continents": 3,
+        "continents": [
+          "Europe East",
+          "Europe North",
+          "Europe South"
+        ],
+        "coherence": 0.7786069512367249,
+        "title": "Pope Leo XIV prays for France at Lourdes pilgrimage site",
+        "central_article": {
+          "title": "Pope Leo XIV prays for France at Lourdes pilgrimage site",
+          "url": "https://www.france24.com/en/europe/20260926-live-more-than-half-a-million-expected-at-pope-s-open-air-mass-in-paris",
+          "source_id": "france24.com",
+          "continent": "Europe South",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-27T12:31:15.040324+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8873672485351562,
+            "article": {
+              "title": "Pope Leo XIV prays for France at Lourdes pilgrimage site",
+              "url": "https://www.france24.com/en/europe/20260926-live-more-than-half-a-million-expected-at-pope-s-open-air-mass-in-paris",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:31:15.040324+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.877640426158905,
+            "article": {
+              "title": "Watch live: Pope Leo XIV in Lourdes as visit to France continues",
+              "url": "https://www.euronews.com/2026/09/27/watch-live-pope-leo-xiv-in-lourdes-as-visit-to-france-continues",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:30:26.947748+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8317753076553345,
+            "article": {
+              "title": "Pope Leo arrives in Lourdes for second leg of France Visit",
+              "url": "https://www.euronews.com/2026/09/26/pope-leo-arrives-in-lourdes-for-second-leg-of-france-visit-after-historic-paris-crowds",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:30:26.947748+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8026321530342102,
+            "article": {
+              "title": "'A once-in-a-lifetime event': Faithful and curious flock to Pope Leo XIV's Mass in Paris",
+              "url": "https://www.france24.com/en/france/20260926-a-once-in-a-lifetime-event-faithful-and-curious-flock-to-pope-leo-xiv-s-mass-in-paris",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:31:15.040324+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8017162084579468,
+            "article": {
+              "title": "Pope Leo to meet clergy sexual abuse victims in Lourdes",
+              "url": "https://www.france24.com/en/france/20260926-pope-visits-lourdes-after-giant-paris-mass-to-meet-clergy-abuse-victims",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:31:15.040324+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8014483451843262,
+            "article": {
+              "title": "Pope Leo XIV urges Church to face failings before meeting French abuse survivors",
+              "url": "https://www.france24.com/en/france/20260927-live-pope-leo-xiv-to-hold-open-air-mass-in-lourdes-pilgrimage-site",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:31:15.040324+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7961996793746948,
+            "article": {
+              "title": "Pope Leo XIV’s visit to France: What you need to know",
+              "url": "https://www.france24.com/en/europe/20260925-pope-leo-xiv-s-visit-to-france-what-you-need-to-know",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:31:15.040324+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7908809185028076,
+            "article": {
+              "title": "Pope Leo XIV celebrates open-air Mass in front of 800,000 people in central Paris",
+              "url": "https://www.france24.com/en/france/20260926-pope-leo-xiv-celebrates-open-air-mass-in-front-of-800-000-people-in-central-paris",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:31:15.040324+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7716069221496582,
+            "article": {
+              "title": "A Lourdes, Léon XIV exhorte à poursuivre la lutte contre le \"fléau\" des violences sexuelles Visite du pape en France aujourd'hui à",
+              "url": "https://www.rts.ch/info/monde/2026/article/leon-xiv-a-lourdes-le-pape-appelle-a-lutter-contre-les-abus-29368739.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:31:16.501923+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7623840570449829,
+            "article": {
+              "title": "DISCOURS – Léon XIV à Lourdes : l’allocution du pape devant les évêques de France 27 sept.",
+              "url": "https://www.la-croix.com/religion/discours-leon-xiv-a-lourdes-l-allocution-du-pape-devant-les-eveques-de-france-20260927",
+              "source_id": "la-croix.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:31:13.604077+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.760387122631073,
+            "article": {
+              "title": "На мессу папы римского Льва XIV в Париже пришли около 700 тыс. человек",
+              "url": "https://www.kommersant.ru/doc/8987867?from=spot_main",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:33:37.302423+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7555906772613525,
+            "article": {
+              "title": "Papst feiert Messe mit 150.000 Menschen in Lourdes",
+              "url": "https://www.diepresse.com/41300719/papst-feiert-messe-mit-150000-menschen-in-lourdes",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:30:44.100522+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7527450919151306,
+            "article": {
+              "title": "‘I hope France wakes up’: Young Catholics flood the streets for Pope Leo's Paris visit",
+              "url": "https://www.france24.com/en/france/20260925-i-hope-france-wakes-up-young-catholics-flood-the-streets-for-pope-leo-s-paris-visit",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:31:15.040324+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7509927749633789,
+            "article": {
+              "title": "Leone XIV a Lourdes: «La Chiesa riconosca i propri errori, gli abusi sono un flagello». Nel pomeriggio l'incontro con alcune vittime |",
+              "url": "https://www.corriere.it/esteri/26_settembre_27/papa-leone-lourdes-chiesa-errori-abusi-incontro-vittime-4b60f67a-d570-4a07-9cff-a7c51040dxlk.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:31:30.942285+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7497658133506775,
+            "article": {
+              "title": "Funke Mediengruppe Leo XIV. Papst predigt vor 800.000 Menschen in Paris – „Freude in Deutschland undenkbar“",
+              "url": "https://www.abendblatt.de/panorama/article413262636/papst-predigt-vor-800000-menschen-in-paris-freude-in-deutschland-undenkbar.html",
+              "source_id": "abendblatt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:30:47.733565+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7491493225097656,
+            "article": {
+              "title": "Il Papa a Lourdes tra i malati. E questa sera riceve le vittime degli abusi dei preti: “Piaga dolorosa”",
+              "url": "https://www.repubblica.it/esteri/2026/09/27/news/papa_a_lourdes_tra_i_malati_vittime_degli_abusi_dei_preti-425610422/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:31:29.299912+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7355567812919617,
+            "article": {
+              "title": "Pope Leo calls for dialogue as France’s populist forces eye power",
+              "url": "https://www.politico.eu/article/pope-leo-urges-urgent-dialogue-in-warning-to-populist-forces-in-france/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:30:28.367048+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7329909801483154,
+            "article": {
+              "title": "DISCOURS – Pape à Lourdes : le texte intégral de l’homélie de la messe de Léon XIV",
+              "url": "https://www.la-croix.com/religion/discours-pape-a-lourdes-le-texte-integral-de-l-homelie-de-la-messe-de-leon-xiv-20260927",
+              "source_id": "la-croix.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:31:13.604077+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7314605712890625,
+            "article": {
+              "title": "DISCOURS – Léon XIV à Lourdes : retrouvez la prière du pape à la grotte des apparitions de Marie 26 sept.",
+              "url": "https://www.la-croix.com/religion/discours-leon-xiv-a-lourdes-retrouvez-la-priere-du-pape-a-la-grotte-des-apparitions-de-marie-20260926",
+              "source_id": "la-croix.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:31:13.604077+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7298490405082703,
+            "article": {
+              "title": "Frankrijk maakt zich op voor komst 'rockster' paus Leo XIV",
+              "url": "https://nos.nl/artikel/2632422-frankrijk-maakt-zich-op-voor-komst-rockster-paus-leo-xiv",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-27T12:30:29.561075+00:00"
             }
           }
         ]
       }
     ],
-    "created_at_utc": "2026-09-26T22:09:36Z"
+    "created_at_utc": "2026-09-27T13:15:23Z"
   }
 ]
