@@ -1,304 +1,763 @@
 [
   {
-    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1790722593",
-    "n_items": 2384,
-    "n_clusters": 1975,
+    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1790775908",
+    "n_items": 2421,
+    "n_clusters": 2032,
     "clusters": [
       {
-        "score": 145.54244540468792,
-        "size": 24,
-        "n_sources": 24,
-        "n_continents": 8,
+        "score": 212.62622564901227,
+        "size": 46,
+        "n_sources": 41,
+        "n_continents": 9,
         "continents": [
-          "Africa",
-          "China",
           "East Asia",
           "Europe East",
           "Europe North",
           "Europe South",
           "Middle East",
-          "South America"
+          "North America",
+          "Oceania",
+          "South America",
+          "South Asia"
         ],
-        "coherence": 0.8445944786071777,
-        "title": "Ministerpräsidentin ernannt Erstmals eine Frau an Marokkos Regierungsspitze",
+        "coherence": 0.7897478342056274,
+        "title": "Israel-bound passenger plane makes emergency landing in Saudi Arabia after reported fight between pilots",
         "central_article": {
-          "title": "Ministerpräsidentin ernannt Erstmals eine Frau an Marokkos Regierungsspitze",
-          "url": "https://www.tagesschau.de/ausland/afrika/marokko-frau-regierungschefin-100.html",
-          "source_id": "tagesschau.de",
+          "title": "Israel-bound passenger plane makes emergency landing in Saudi Arabia after reported fight between pilots",
+          "url": "https://www.theguardian.com/world/2026/sep/30/israel-bound-passenger-plane-emergency-landing-saudi-arabia-pilots-feud",
+          "source_id": "theguardian.com",
           "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-09-29T22:41:19.211979+00:00"
+          "scraped_at_utc": "2026-09-30T13:02:54.753051+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9043076038360596,
+            "sim_to_centroid": 0.8767401576042175,
             "article": {
-              "title": "Ministerpräsidentin ernannt Erstmals eine Frau an Marokkos Regierungsspitze",
-              "url": "https://www.tagesschau.de/ausland/afrika/marokko-frau-regierungschefin-100.html",
-              "source_id": "tagesschau.de",
+              "title": "Israel-bound passenger plane makes emergency landing in Saudi Arabia after reported fight between pilots",
+              "url": "https://www.theguardian.com/world/2026/sep/30/israel-bound-passenger-plane-emergency-landing-saudi-arabia-pilots-feud",
+              "source_id": "theguardian.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:19.211979+00:00"
+              "scraped_at_utc": "2026-09-30T13:02:54.753051+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8934239149093628,
+            "sim_to_centroid": 0.8604329824447632,
             "article": {
-              "title": "Le Maroc désigne une femme à la tête de son gouvernement, une première",
-              "url": "https://www.rts.ch/info/monde/2026/article/elections-au-maroc-une-femme-nommee-cheffe-du-gouvernement-29371454.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
+              "title": "Israel-bound flight diverted to Saudi Arabia after brawl between pilots, Israeli official says",
+              "url": "https://kathmandupost.com/world/2026/09/30/israel-bound-flight-diverted-to-saudi-arabia-after-brawl-between-pilots-israeli-official-says",
+              "source_id": "kathmandupost.com",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:42:01.836801+00:00"
+              "scraped_at_utc": "2026-09-30T13:09:18.654190+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8930963277816772,
+            "sim_to_centroid": 0.8556505441665649,
             "article": {
-              "title": "Marokko krijgt voor het eerst vrouwelijke regeringsleider",
-              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5656199/marokko-krijgt-voor-het-eerst-vrouwelijke-regeringsleider",
-              "source_id": "rtl.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:15.291137+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8907521963119507,
-            "article": {
-              "title": "Morocco’s king appoints El Mansouri as first woman prime minister",
-              "url": "https://www.scmp.com/news/world/africa/article/3369259/moroccos-king-appoints-el-mansouri-first-woman-prime-minister?module=latest&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:45:59.359854+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8864688873291016,
-            "article": {
-              "title": "Morocco's king appoints Marrakesh mayor El Mansouri as first woman prime minister",
-              "url": "https://www.france24.com/en/africa/20260929-morocco-king-appoints-first-woman-prime-minister-el-mansouri-after-parliamentary-vote",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:42:00.156832+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8857470750808716,
-            "article": {
-              "title": "В Марокко впервые в истории страны на пост премьер-министра назначена женщина",
-              "url": "https://tengrinews.kz/world_news/marokko-vpervyie-istorii-stranyi-post-premer-ministra-609713/",
-              "source_id": "tengrinews.kz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:44:36.162812+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8814108371734619,
-            "article": {
-              "title": "Fatima Ezzahra El Mansouri wordt de eerste vrouwelijke premier van Marokko",
-              "url": "https://www.nrc.nl/nieuws/2026/09/29/fatima-ezzahra-el-mansouri-wordt-de-eerste-vrouwelijke-premier-van-marokko-a4937832",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:13.577189+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8782234787940979,
-            "article": {
-              "title": "Premieră în Maroc. Regele a numit o femeie în funcția de prim-ministru",
-              "url": "https://www.g4media.ro/premiera-in-maroc-regele-a-numit-o-femeie-in-functia-de-prim-ministru.html",
-              "source_id": "g4media.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:44:04.960644+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8651511669158936,
-            "article": {
-              "title": "Afrika Fatima Zahra El Mansouri wordt als eerste vrouw premier van Marokko",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/09/29/minister-fatima-zahra-mansouri-wordt-eerste-vrouwelijke-premier/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:42:03.419395+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8647097945213318,
-            "article": {
-              "title": "Marokkos König ernennt die erste Premierministerin",
-              "url": "https://www.diepresse.com/41310352/marokkos-koenig-ernennt-die-erste-premierministerin",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:28.024760+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8642739057540894,
-            "article": {
-              "title": "‘Truly historic’: Morocco’s king appoints first woman prime minister",
-              "url": "https://www.aljazeera.com/news/2026/9/29/truly-historic-moroccos-king-appoints-first-woman-prime-minister",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:43:22.668452+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8622267246246338,
-            "article": {
-              "title": "Morocco's king appoints first woman PM following election",
-              "url": "https://www.newarab.com/news/moroccos-king-appoints-first-woman-pm-following-election",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:43:39.572891+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.862223744392395,
-            "article": {
-              "title": "Au Maroc, le roi nomme pour la première fois une femme, Fatima Ezzahra El-Mansouri, à la tête du gouvernement",
-              "url": "https://www.lemonde.fr/international/article/2026/09/29/au-maroc-le-roi-nomme-pour-la-premiere-fois-une-femme-fatima-ezzahra-el-mansouri-a-la-tete-du-gouvernement_6785652_3210.html",
-              "source_id": "lemonde.fr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:55.302894+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8589838743209839,
-            "article": {
-              "title": "Maroko ima prvo premierko v zgodovini",
-              "url": "https://www.delo.si/novice/svet/fatima-zahra-el-mansouri-imenovana-za-prvo-marosko-premierko",
-              "source_id": "delo.si",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:44:11.432679+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8308009505271912,
-            "article": {
-              "title": "El Mansouri set to be Morocco's first female PM",
-              "url": "https://www.thenationalnews.com/news/mena/2026/09/29/moroccos-fatima-ezzahra-el-mansouri-set-to-be-first-female-pm/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:43:24.154752+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8254315853118896,
-            "article": {
-              "title": "Marocco, El Mansouri prima premier donna del Paese: «Lavoreremo per un esecutivo all'altezza delle aspettative del re e del popolo»",
-              "url": "https://www.corriere.it/esteri/26_settembre_29/marocco-fatima-ezzahra-el-mansouri-prima-premier-donna-del-paese-9a40d504-11fb-4aed-af76-da9024739xlk.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:42:14.307882+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8189297914505005,
-            "article": {
-              "title": "Mohamed VI nombra jefa de gobierno de Marruecos a Fátima Zahra el Mansouri, primera mujer en el cargo",
-              "url": "https://www.latercera.com/mundo/noticia/mohamed-vi-nombra-jefa-de-gobierno-de-marruecos-a-fatima-zahra-el-mansouri-primera-mujer-en-el-cargo/",
-              "source_id": "latercera.com",
+              "title": "Avión de FlyDubai que iba a Israel es desviado tras presunta pelea entre pilotos en la que uno fue apuñalado",
+              "url": "https://elcomercio.pe/mundo/oriente-medio/flydubai-vuelo-de-dubai-a-tel-aviv-es-desviado-a-arabia-saudita-tras-supuesto-apunalamiento-entre-pilotos-israel-noticia/",
+              "source_id": "elcomercio.pe",
               "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:42:44.721484+00:00"
+              "scraped_at_utc": "2026-09-30T13:04:55.431310+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8182708024978638,
+            "sim_to_centroid": 0.8533827662467957,
             "article": {
-              "title": "Fatima Ezzahra El Mansouri, première femme chargée de former un gouvernement au Maroc",
-              "url": "https://ledesk.ma/2026/09/29/fatima-ezzahra-el-mansouri-premiere-femme-chargee-de-former-un-gouvernement-au-maroc/",
-              "source_id": "ledesk.ma",
-              "continent": "Africa",
+              "title": "Israel-bound flight diverts to Saudi Arabia after suspected cockpit attack",
+              "url": "https://www.theglobeandmail.com/world/article-israel-bound-flight-diverts-to-saudi-arabia-after-suspected-cockpit/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:45:11.474668+00:00"
+              "scraped_at_utc": "2026-09-30T13:05:21.910758+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8175058364868164,
+            "sim_to_centroid": 0.8531532287597656,
             "article": {
-              "title": "Pirmoji moteris, eisianti Maroko premjerės pareigas, žada sugrąžinti viltį jaunimui",
-              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3067517/pirmoji-moteris-eisianti-maroko-premjeres-pareigas-zada-sugrazinti-vilti-jaunimui",
-              "source_id": "lrt.lt",
-              "continent": "Europe East",
+              "title": "Israel-bound flydubai plane rerouted, pilots wounded in reported fight",
+              "url": "https://www.thehindu.com/news/international/israel-bound-commercial-plane-from-dubai-diverted-to-saudi-arabia-after-distress-call/article71527429.ece",
+              "source_id": "thehindu.com",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:44:29.516273+00:00"
+              "scraped_at_utc": "2026-09-30T13:09:04.034742+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8072779178619385,
+            "sim_to_centroid": 0.8527818918228149,
             "article": {
-              "title": "Se abre una nueva era en Marruecos: Rey encarga por primera vez a una mujer ser jefa de Gobierno",
-              "url": "https://www.emol.com/noticias/Internacional/2026/09/29/1212759/marruecos-mujer-jefa-gobierno.html",
+              "title": "Plane bound for Israel lands in Saudi Arabia after pilots fight",
+              "url": "https://www.euronews.com/2026/09/30/flydubai-plane-traveling-to-israel-diverted-to-saudi-arabia-after-alleged-dispute-between-",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:02:58.632778+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8385951519012451,
+            "article": {
+              "title": "Desv�an vuelo que iba a Israel tras disputa entre pilotos",
+              "url": "https://www.reforma.com/desvian-vuelo-que-iba-a-israel-tras-disputa-entre-pilotos/ar3285364?v=2",
+              "source_id": "reforma.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:04:24.017636+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8335738778114319,
+            "article": {
+              "title": "A fight between pilots forces a flight to Tel Aviv to make an emergency landing, officials say",
+              "url": "https://www.latimes.com/world-nation/story/2026-09-30/fight-between-pilots-forces-flight-to-tel-aviv-to-make-emergency-landing",
+              "source_id": "latimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:08:21.313214+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8303172588348389,
+            "article": {
+              "title": "Altercado entre pilotos obliga a desviar avión que viajaba desde Dubái hacia Tel Aviv: Reportan apuñalamiento",
+              "url": "https://www.emol.com/noticias/Internacional/2026/09/30/1212795/avion-piloto-israel-dubai.html",
               "source_id": "emol.com",
               "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:42:34.099024+00:00"
+              "scraped_at_utc": "2026-09-30T13:04:44.489593+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8070840239524841,
+            "sim_to_centroid": 0.8277677297592163,
             "article": {
-              "title": "Mohamed VI nombra a Fatima Ezzahra El Mansouri jefa de Gobierno, primera mujer en ocupar el cargo",
-              "url": "https://www.rtve.es/noticias/20260929/mohammed-vi-nombra-fatima-ezzahra-mansouri-jefa-gobierno/17246325.shtml",
-              "source_id": "rtve.es",
+              "title": "Flight to Israel makes emergency landing in Saudi Arabia",
+              "url": "https://www.hindustantimes.com/world-news/flight-to-israel-makes-emergency-landing-in-saudi-arabia-101790756889018.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:09:05.518775+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8201719522476196,
+            "article": {
+              "title": "Israel says pilot tried to hijack flydubai flight to Tel Aviv that diverted, landed in Saudi Arabia",
+              "url": "https://www.jpost.com/international/article-910155",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:05:47.963824+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8166424632072449,
+            "article": {
+              "title": "\"Todos los pasajeros gritaban\": un avión rumbo a Israel es desviado tras una presunta pelea entre pilotos en la que uno fue apuñalado",
+              "url": "https://www.bbc.com/mundo/articles/cvkgw565d2g4o",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:04:22.720399+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8133385181427002,
+            "article": {
+              "title": "Passagerer bryder ind i cockpit på fly mod Israel: Pilot angiveligt stukket ned",
+              "url": "https://politiken.dk/internationalt/art10501159/Passagerer-bryder-ind-i-cockpit-p%C3%A5-fly-mod-Israel-Pilot-angiveligt-stukket-ned",
+              "source_id": "politiken.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:03:34.828429+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8128372430801392,
+            "article": {
+              "title": "Israel-bound plane rerouted after cockpit fight",
+              "url": "https://www.bangkokpost.com/world/3328999/israelbound-plane-rerouted-after-cockpit-fight",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:10:14.375423+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8033573031425476,
+            "article": {
+              "title": "Israel-bound jet plummets 17,000 feet, lands in Saudi Arabia after apparent pilot fight",
+              "url": "https://www.usatoday.com/story/news/world/2026/09/30/flydubai-jet-israel-lands-in-saudi-arabia/92018098007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:08:23.809876+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8023194670677185,
+            "article": {
+              "title": "'The plane suddenly plunged': Israeli passengers recount chaos aboard flydubai flight",
+              "url": "https://www.jpost.com/israel-news/article-910169",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:05:47.963824+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8011369705200195,
+            "article": {
+              "title": "Pilots on UAE-Israel flight hospitalised after cockpit brawl forces emergency landing",
+              "url": "https://www.france24.com/en/middle-east/20260930-israel-bound-flight-diverted-to-saudi-arabia-after-brawl-between-pilots",
+              "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:42:09.969591+00:00"
+              "scraped_at_utc": "2026-09-30T13:04:02.869424+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7980492115020752,
+            "sim_to_centroid": 0.8006414175033569,
             "article": {
-              "title": "Fatima Ezzahra El Mansouri se torna a 1ª mulher no cargo de primeira-ministra do Marrocos Ela está encarregada de formar novo governo",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/09/marrocos-nomeia-fatima-ezzahra-el-mansouri-como-a-1a-mulher-primeira-ministra.shtml",
-              "source_id": "folha.uol.com.br",
+              "title": "Vliegtuig op weg naar Israël maakt duikvlucht na gevecht in cockpit",
+              "url": "https://nos.nl/artikel/2633097-vliegtuig-op-weg-naar-israel-maakt-duikvlucht-na-gevecht-in-cockpit",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:03:00.949757+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7954174280166626,
+            "article": {
+              "title": "Vliegtuig richting Israël maakt noodlanding: 'Piloot wilde toestel laten neerstorten'",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5656307/steekincident-cockpit-passagiersvlucht-noodlanding-saoedi-arabie",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:03:04.783146+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7953506708145142,
+            "article": {
+              "title": "دبئی سے اسرائیل جانیوالی پرواز کے کاک پٹ میں کیا صورتحال پیش آئی؟ تفصیلات سامنے آگئیں",
+              "url": "https://www.nawaiwaqt.com.pk/30-Sep-2026/2032564",
+              "source_id": "nawaiwaqt.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:09:22.009979+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7939932346343994,
+            "article": {
+              "title": "Flydubai flight to Israel diverted to Saudi Arabia after emergency alert",
+              "url": "https://www.aljazeera.com/news/2026/9/30/flydubai-flight-to-israel-diverted-to-saudi-arabia-after-emergency-alert",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:05:45.103687+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7894586324691772,
+            "article": {
+              "title": "Hijack alert on flight to Israel ‘triggered by fighting pilots’",
+              "url": "https://www.thetimes.com/world/middle-east/article/flydubai-flight-fz1073-hijacking-scare-tel-aviv-israel-fdmp2rpmm",
+              "source_id": "thetimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:02:53.367914+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7866174578666687,
+            "article": {
+              "title": "Avión aterriza en Arabia Saudita tras supuesta riña entre pilotos: ambos están heridos",
+              "url": "https://www.elespectador.com/mundo/america/aterrizaje-de-emergencia-por-pelea-entre-pilotos/",
+              "source_id": "elespectador.com",
               "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:42:36.122305+00:00"
+              "scraped_at_utc": "2026-09-30T13:04:59.992311+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7712516784667969,
+            "sim_to_centroid": 0.783825159072876,
             "article": {
-              "title": "Először neveztek ki nőt miniszterelnöknek Marokkóban Fatima ez-Zahra el-Manszúrit az ország uralkodója kérte fel kormányalakításra, miután az általa vezetett balközép Hitelesség és Modernitás Pártja (PAM) nyert a szeptember 23-i választáson.",
-              "url": "https://nepszava.hu/3333860_marokko-noi-miniszterelnok-vi-mohammed-kinevezes",
+              "title": "Notlandung in Saudi-Arabien Piloten prügeln sich offenbar auf Linienflug von Dubai nach Tel Aviv",
+              "url": "https://www.spiegel.de/panorama/israel-saudi-arabien-piloten-pruegeln-sich-auf-linienflug-von-dubai-nach-tel-aviv-a-9f066d62-2af4-47f5-b836-11ee10761229",
+              "source_id": "spiegel.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:03:11.888641+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7823455929756165,
+            "article": {
+              "title": "Horor na letu do Izraele. Pilot chtěl havarovat, cestující ho pomohli přemoct",
+              "url": "https://www.idnes.cz/zpravy/zahranicni/horor-na-letu-do-izraele-pilot-chtel-havarovat-cestujici-ho-pomohli-premoct.A260930_103434_zahranicni_onbu",
+              "source_id": "idnes.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:06:28.323969+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7819527387619019,
+            "article": {
+              "title": "Kényszerleszállást hajtott végre a FlyDubai Tel-Avivba tartó járata, dulakodás volt a pilótafülkében Izrael és Szaúd-Arábia vadászgépeket riasztott, miután felmerült a gépeltérítés gyanúja. A Dubajból Tel-Avivba tartó repülőgépen több mint 160 utas tartózkodott, a hivatalos közlés szerint jelenleg már mindenki biztonságban van, viszont ők próbálták hatástalanítani a támadót.",
+              "url": "https://nepszava.hu/3333894_kenyszerleszallas-flydubai-tel-aviv-gepelterites",
               "source_id": "nepszava.hu",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:44:02.144654+00:00"
+              "scraped_at_utc": "2026-09-30T13:06:33.199848+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6846650838851929,
+            "sim_to_centroid": 0.779786229133606,
             "article": {
-              "title": "國際 摩洛哥首位女總理掌權 矢言讓年輕人重拾希望",
-              "url": "https://www.cna.com.tw/news/aopl/202609300004.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
+              "title": "Israel investiga si uno de los pilotos de un avión que iba a Tel Aviv trató de tomar el control para estrellarlo",
+              "url": "https://elpais.com/internacional/2026-09-30/un-avion-que-volaba-a-tel-aviv-aterriza-en-arabia-saudi-tras-una-alerta-de-emergencia-por-un-incidente-entre-los-pilotos.html",
+              "source_id": "elpais.com",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:47:46.318852+00:00"
+              "scraped_at_utc": "2026-09-30T13:04:10.902723+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7783709764480591,
+            "article": {
+              "title": "Dubai-Tel Aviv flight diverts to Saudi Arabia after hijack scare",
+              "url": "https://www.newarab.com/news/dubai-tel-aviv-flight-diverts-saudi-arabia-after-hijack-scare",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:06:03.167151+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7757645845413208,
+            "article": {
+              "title": "Pilot attackiert Kollegen im Cockpit – Israel prüft Terrorverdacht und 9/11-Szenario",
+              "url": "https://www.welt.de/politik/ausland/article6abcb1cb19ba57204ed89957/flydubai-pilot-attackiert-kollegen-im-cockpit-flugzeug-sackt-5000-meter-in-die-tiefe-ab.html",
+              "source_id": "welt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:03:15.744774+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7756274938583374,
+            "article": {
+              "title": "Israeli officials suspect flydubai pilot of attempted 'terror attack'",
+              "url": "https://www.abc.net.au/news/2026-09-30/dubai-to-tel-aviv-flight-signals-emergency/107213638",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:05:23.189208+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7723976969718933,
+            "article": {
+              "title": "Fly fra Dubai til Tel Aviv omdirigeret efter nødsignal",
+              "url": "https://www.dr.dk/nyheder/udland/fly-fra-dubai-til-tel-aviv-omdirigeret-efter-noedsignal",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:03:47.008207+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7722471356391907,
+            "article": {
+              "title": "Az utasok szerint késsel támadt a Dubajból Tel-Avivba tartó repülőgép pilótája kollégájára",
+              "url": "https://telex.hu/kulfold/2026/09/30/veszjelzes-dubaj-tel-aviv-repulogep-kenyszerleszallas-pilotak-verekedes",
+              "source_id": "telex.hu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:06:22.585014+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7721163630485535,
+            "article": {
+              "title": "Moyen-Orient Itinéraire, bagarre entre les pilotes : ce que l'on sait sur l'incident du vol entre Dubaï et Tel-Aviv",
+              "url": "https://www.lorientlejour.com/article/1549137/apres-la-crainte-dun-detournement-un-vol-dubai-tel-aviv-ayant-emis-des-signaux-dalerte-atterrit-en-arabie-saoudite.html",
+              "source_id": "lorientlejour.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:05:55.804946+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7700149416923523,
+            "article": {
+              "title": "Copilot wollte Flydubai-Maschine mit Kurs auf Tel Aviv zum Absturz bringen",
+              "url": "https://www.diepresse.com/41310975/copilot-wollte-flydubai-maschine-mit-kurs-auf-tel-aviv-zum-absturz-bringen",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:03:23.370511+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7674515247344971,
+            "article": {
+              "title": "Another Dubai-Tel Aviv passenger flight ordered to turn back",
+              "url": "https://www.azernews.az/region/264753.html",
+              "source_id": "azernews.az",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:07:14.791968+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7665730714797974,
+            "article": {
+              "title": "Fly med kurs mod Tel Aviv omdirigeret efter nødsignal",
+              "url": "https://www.dr.dk/nyheder/udland/fly-fra-dubai-til-tel-aviv-omdirigeret-efter-noedsignal?focusId=12546450",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:03:47.008207+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7574824094772339,
+            "article": {
+              "title": "Hijack alert as ‘co-pilot attacked pilot with knife’ on Israel flight",
+              "url": "https://www.thetimes.com/world/middle-east/article/israel-flight-fz1073-pilots-dubai-hijack-latest-news-80k9zhr8z",
+              "source_id": "thetimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:02:53.367914+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.757453203201294,
+            "article": {
+              "title": "Un avion reliant Dubaï et Tel-Aviv dérouté vers l’Arabie saoudite, les autorités israéliennes n’excluent pas l’hypothèse « terroriste »",
+              "url": "https://www.lemonde.fr/international/article/2026/09/30/un-avion-qui-reliait-dubai-et-tel-aviv-a-ete-deroute-vers-l-arabie-saoudite-les-autorites-israeliennes-n-excluent-aucune-hypothese-y-compris-terroriste_6786055_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:03:57.522467+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7526967525482178,
+            "article": {
+              "title": "Watch: Screams, chaos onboard Flydubai flight after pilots' cockpit fight",
+              "url": "https://timesofindia.indiatimes.com/world/middle-east/watch-screams-chaos-onboard-as-flydubai-flight-takes-15000-ft-mid-air-roller-coaster-ride/articleshow/134590325.cms",
+              "source_id": "timesofindia.indiatimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:09:00.204814+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.742104172706604,
+            "article": {
+              "title": "Flydubai-Flieger muss nach Gewaltvorfall im Cockpit notlanden",
+              "url": "https://www.zdfheute.de/panorama/flug-dubai-tel-aviv-notlandung-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:03:25.791622+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7420952916145325,
+            "article": {
+              "title": "Ministro de Israel diz que houve tentativa de ação terrorista em voo desviado à Arábia Saudita",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/09/ministro-de-israel-diz-que-houve-tentativa-de-ataque-terrorista-em-voo-desviado-a-arabia-saudita.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:04:47.780256+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7332858443260193,
+            "article": {
+              "title": "دبئی سے اسرائیل کی 1 اور پرواز واپس دبئی اُتار لی گئی",
+              "url": "https://jang.com.pk/news/1620326",
+              "source_id": "jang.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:09:20.034257+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7301880717277527,
+            "article": {
+              "title": "\"Les grité que corrieran\". Los testimonios de pasajeros del vuelo a Israel que aterrizó de emergencia",
+              "url": "https://www.lanacion.com.ar/el-mundo/los-testimonios-de-pasajeros-del-vuelo-de-flydubai-que-aterrizo-de-emergencia-por-un-incidente-entre-nid30092026/",
+              "source_id": "lanacion.com.ar",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:04:36.677247+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7248944044113159,
+            "article": {
+              "title": "Flydubai plane makes emergency landing in Saudi Arabia",
+              "url": "https://pajhwok.com/2026/09/30/flydubai-plane-makes-emergency-landing-in-saudi-arabia/",
+              "source_id": "pajhwok.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:09:24.714962+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.714225172996521,
+            "article": {
+              "title": "What happens if pilots clash mid-flight? Emirati law explained after flydubai plane incident",
+              "url": "https://www.jpost.com/international/article-910166",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:05:47.963824+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6818259358406067,
+            "article": {
+              "title": "Pilots in civilian clothes stepped in to land flydubai plane safely in Saudi: Report",
+              "url": "https://www.hindustantimes.com/world-news/second-team-of-pilots-in-civilian-clothes-stepped-in-to-save-flydubai-plane-helped-land-safely-in-saudi-report-101790766722372.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:09:05.518775+00:00"
             }
           }
         ]
       },
       {
-        "score": 61.19097684432109,
-        "size": 16,
+        "score": 76.36636995952331,
+        "size": 17,
+        "n_sources": 17,
+        "n_continents": 9,
+        "continents": [
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "Oceania",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.7610208988189697,
+        "title": "Flydubai pilots taken to hospital after cockpit stabbing on Tel Aviv flight",
+        "central_article": {
+          "title": "Flydubai pilots taken to hospital after cockpit stabbing on Tel Aviv flight",
+          "url": "https://www.thenationalnews.com/news/gulf/2026/09/30/flydubai-flight-to-tel-aviv-diverted-to-saudi-arabia-after-incident-on-board/",
+          "source_id": "thenationalnews.com",
+          "continent": "Middle East",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-30T13:05:46.585513+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8135454654693604,
+            "article": {
+              "title": "Flydubai pilots taken to hospital after cockpit stabbing on Tel Aviv flight",
+              "url": "https://www.thenationalnews.com/news/gulf/2026/09/30/flydubai-flight-to-tel-aviv-diverted-to-saudi-arabia-after-incident-on-board/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:05:46.585513+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8059087991714478,
+            "article": {
+              "title": "Liudininkai: iš Dubajaus į Izraelį skridusiame lėktuve antrasis pilotas užpuolė kapitoną",
+              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3068120/liudininkai-is-dubajaus-i-izraeli-skridusiame-lektuve-antrasis-pilotas-uzpuole-kapitona",
+              "source_id": "lrt.lt",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:07:02.885879+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.798804759979248,
+            "article": {
+              "title": "‘We saw blood, someone stabbed pilot’: Passengers recall flydubai flight horror",
+              "url": "https://www.hindustantimes.com/world-news/heard-screams-saw-blood-someone-stabbed-pilot-passengers-recall-flydubai-flight-horror-hijack-saudi-dubai-israel-101790759439000.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:09:05.518775+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7895157933235168,
+            "article": {
+              "title": "‘Blood in the cockpit’: Pilot stabbing on flight to Tel Aviv sparks hijack fears",
+              "url": "https://www.smh.com.au/world/middle-east/netanyahu-holds-consultations-over-diverted-flydubai-flight-from-uae-israeli-sources-say-20260930-p611ud.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:05:25.777489+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7838437557220459,
+            "article": {
+              "title": "Появились первые фото последствий драки пилотов самолета Flydubai",
+              "url": "https://ria.ru/20260930/flydubai-2121158451.html",
+              "source_id": "ria.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:06:59.485872+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7810689210891724,
+            "article": {
+              "title": "Izraelski mediji: Obstaja sum, da naj bi pilot poskušal letalo strmoglaviti",
+              "url": "https://www.delo.si/novice/svet/nasilen-spopad-pilotov-na-letu-flydubai",
+              "source_id": "delo.si",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:06:40.592692+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7720261216163635,
+            "article": {
+              "title": "Борт FlyDubai чуть не потерпел крушение из-за драки пилотов: что известно",
+              "url": "https://www.kommersant.ru/doc/8990296?from=top_main_2",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:06:54.974558+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7707589864730835,
+            "article": {
+              "title": "Israel investiga esfaqueamento em voo como terrorismo; copiloto pode ter tentado derrubar avião",
+              "url": "https://oglobo.globo.com/mundo/noticia/2026/09/30/incidente-em-voo-entre-dubai-e-tel-aviv-e-investigado-como-ato-terrorista-apos-confirmacao-de-esfaqueamento-de-piloto.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:04:50.539126+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7672402858734131,
+            "article": {
+              "title": "Copilota tenta di dirottare il volo Dubai-Tel Aviv. Gli israeliani: “Voleva un attentato in stile 11 settembre”",
+              "url": "https://www.repubblica.it/esteri/2026/09/30/news/volo_dubai_tel_aviv_lite_piloti_russo_ucraino-425616323/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:04:18.046130+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7607676386833191,
+            "article": {
+              "title": "Mundo Piloto en vuelo entre Dubái e Israel apuñaló al otro, según la mamá de una pasajera",
+              "url": "https://www.crhoy.com/mundo/piloto-en-vuelo-entre-dubai-e-israel-apunalo-al-otro-segun-la-mama-de-una-pasajera/",
+              "source_id": "crhoy.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:04:30.645452+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7605140209197998,
+            "article": {
+              "title": "World Flydubai Mid-Air Emergency Detailed: Investigators probe cockpit fight",
+              "url": "https://timesofindia.indiatimes.com/world/middle-east/pilot-stabbed-chaos-in-cockpit-sudden-plunge-how-disaster-was-averted-on-flydubai-flight-explained-in-10-points/articleshow/134592893.cms",
+              "source_id": "timesofindia.indiatimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:09:00.204814+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7581886053085327,
+            "article": {
+              "title": "La rissa nella cabina, la discesa quasi in picchiata e la coda rotta: cosa è successo sull'aereo Flydubai",
+              "url": "https://www.corriere.it/esteri/26_settembre_30/emergenza-volo-dubai-tel-aviv-8afd384e-0f44-4201-8644-5a568d5b3xlk.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:04:19.810993+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7449936866760254,
+            "article": {
+              "title": "İsrail basını duyurdu! 'Dubai'den Tel Aviv'e gelen uçak kaçırılmış olabilir'",
+              "url": "https://www.milliyet.com.tr/dunya/son-dakika-israil-basini-duyurdu-dubaiden-tel-avive-gelen-ucak-kacirilmis-olabilir-7670217",
+              "source_id": "milliyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:06:00.781216+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7301650047302246,
+            "article": {
+              "title": "AP Uppgifter: Pilot ska ha försökt krascha flygplan Vittne: Piloten knivhuggen • Israel utreder misstänkt terrordåd.",
+              "url": "https://www.dn.se/varlden/israel-utreder-misstankt-terrorattentat-pilot-ska-ha-forsokt-krascha-flygplan/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:03:36.708794+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7245651483535767,
+            "article": {
+              "title": "國際 杜拜航空駕駛艙喋血 兩機師均傷班機墜4千米平安轉降",
+              "url": "https://www.cna.com.tw/news/aopl/202609300335.aspx",
+              "source_id": "cna.com.tw",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:10:26.500762+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6968873739242554,
+            "article": {
+              "title": "دبئی واپس موڑی گئی پرواز پھر اسرائیل کی جانب موڑ دی گئی: فلائٹ ڈیٹا",
+              "url": "https://jang.com.pk/news/1620329",
+              "source_id": "jang.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:09:20.034257+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6785603761672974,
+            "article": {
+              "title": "Mudança de rota ocorreu após sinais de confronto físico entre os pilotos",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/09/voo-com-destino-a-israel-e-desviado-apos-briga-entre-pilotos.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:04:47.780256+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 59.94773467754659,
+        "size": 13,
         "n_sources": 13,
         "n_continents": 7,
         "continents": [
@@ -306,1191 +765,1112 @@
           "Europe East",
           "Europe North",
           "Europe South",
-          "Middle East",
           "Oceania",
+          "South America",
           "South Asia"
         ],
-        "coherence": 0.8206280469894409,
-        "title": "Burnham promises a ‘new path’ for Britain as he address Labour Conference",
+        "coherence": 0.8165227174758911,
+        "title": "Trump: grote techbedrijven sluiten akkoord om zelf toezicht te houden op ontwikkeling AI",
         "central_article": {
-          "title": "Burnham promises a ‘new path’ for Britain as he address Labour Conference",
-          "url": "https://www.channel4.com/news/burnham-promises-a-new-path-for-britain-as-he-address-labour-conference",
-          "source_id": "channel4.com",
+          "title": "Trump: grote techbedrijven sluiten akkoord om zelf toezicht te houden op ontwikkeling AI",
+          "url": "https://www.nrc.nl/nieuws/2026/09/30/trump-grote-techbedrijven-sluiten-akkoord-om-zelf-toezicht-te-houden-op-ontwikkeling-ai-a4937853",
+          "source_id": "nrc.nl",
           "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-09-29T22:41:08.131613+00:00"
+          "scraped_at_utc": "2026-09-30T13:03:02.862237+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8834033608436584,
+            "sim_to_centroid": 0.9127479791641235,
             "article": {
-              "title": "Burnham promises a ‘new path’ for Britain as he address Labour Conference",
-              "url": "https://www.channel4.com/news/burnham-promises-a-new-path-for-britain-as-he-address-labour-conference",
-              "source_id": "channel4.com",
+              "title": "Trump: grote techbedrijven sluiten akkoord om zelf toezicht te houden op ontwikkeling AI",
+              "url": "https://www.nrc.nl/nieuws/2026/09/30/trump-grote-techbedrijven-sluiten-akkoord-om-zelf-toezicht-te-houden-op-ontwikkeling-ai-a4937853",
+              "source_id": "nrc.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:08.131613+00:00"
+              "scraped_at_utc": "2026-09-30T13:03:02.862237+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8733540773391724,
+            "sim_to_centroid": 0.8719637393951416,
             "article": {
-              "title": "Burnham sets out 'new path' for Britain, vows to seek consensus on ties with EU",
-              "url": "https://www.france24.com/en/europe/20260929-burnham-sets-out-new-path-for-britain-vows-to-seek-consensus-on-ties-with-eu",
-              "source_id": "france24.com",
-              "continent": "Europe South",
+              "title": "Трамп и главы крупнейших технологических компаний подписали соглашение о контроле за искусственным интеллектом",
+              "url": "https://meduza.io/news/2026/09/30/tramp-i-glavy-krupneyshih-tehnologicheskih-kompaniy-podpisali-soglashenie-o-kontrole-za-iskusstvennym-intellektom",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:42:00.156832+00:00"
+              "scraped_at_utc": "2026-09-30T13:06:45.277698+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8608924150466919,
+            "sim_to_centroid": 0.86468905210495,
             "article": {
-              "title": "Andy Burnham flags changes to Brexit in his biggest speech since becoming UK PM",
-              "url": "https://www.abc.net.au/news/2026-09-30/key-takeaways-from-uk-pm-andy-burnham-labour-conference-speech/107205962",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:43:09.145166+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8527545928955078,
-            "article": {
-              "title": "PM Burnham vows big shake-up for UK in high-risk political speech",
-              "url": "https://www.scmp.com/news/world/europe/article/3369256/pm-burnham-vows-big-shake-uk-high-risk-political-speech?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:45:59.359854+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.847097635269165,
-            "article": {
-              "title": "Burnham kündigt auf Labour-Parteitag Reformen an",
-              "url": "https://www.tagesschau.de/ausland/europa/burnham-parteitag-labour-102.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:19.211979+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8442964553833008,
-            "article": {
-              "title": "Burnham onthult zijn pro-Europese ambities – maar wil wachten tot na de verkiezingen",
-              "url": "https://fd.nl/politiek/1613535/burnham-onthult-zijn-pro-europese-ambities-maar-wil-wachten-tot-na-de-verkiezingen",
-              "source_id": "fd.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:17.282387+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8388117551803589,
-            "article": {
-              "title": "‘New path’: UK’s Burnham promises huge expansion of public services",
-              "url": "https://www.aljazeera.com/news/2026/9/29/new-path-uks-burnham-promises-huge-expansion-of-public-services",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:43:22.668452+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8335899114608765,
-            "article": {
-              "title": "Burnham questions Brexit, says Britain should consider options for EU ties",
-              "url": "https://www.thehindu.com/news/international/burnham-questions-brexit-says-britain-should-consider-options-for-eu-ties/article71525224.ece",
-              "source_id": "thehindu.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:46:30.187685+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8264106512069702,
-            "article": {
-              "title": "Andy Burnham keeps his options open on Brexit",
-              "url": "https://www.politico.eu/article/andy-burnham-brexit-review-uk-eu-relationship-options/",
-              "source_id": "politico.eu",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:10.872015+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8115048408508301,
-            "article": {
-              "title": "UK PM Burnham to lay out 'options' for EU relations later this year",
-              "url": "https://www.euronews.com/2026/09/29/uk-pm-burnham-to-lay-out-options-for-eu-relations-later-this-year",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:09.673520+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8030277490615845,
-            "article": {
-              "title": "British PM Andy Burnham raises prospect of UK rejoining European Union after next election",
-              "url": "https://www.irishtimes.com/world/uk/2026/09/29/uk-prime-minister-raises-prospect-of-uk-rejoining-eu-after-next-election/",
-              "source_id": "irishtimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:43:21.496307+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.801909327507019,
-            "article": {
-              "title": "What do voters think of Burnham’s ’hope again’ speech?",
-              "url": "https://www.channel4.com/news/what-do-voters-think-of-burnhams-hope-again-speech",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:08.131613+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7956444621086121,
-            "article": {
-              "title": "Was Burnham’s conference speech a radical change or ‘electoral suicide’?",
-              "url": "https://www.channel4.com/news/was-burnhams-conference-speech-a-radical-change-or-electoral-suicide",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:08.131613+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7901211977005005,
-            "article": {
-              "title": "UK prime minister Andy Burnham rises to his big moment with emotional conference speech",
-              "url": "https://www.irishtimes.com/world/uk/2026/09/29/uk-prime-minister-andy-burnham-rises-to-his-big-moment-with-emotional-conference-speech/",
-              "source_id": "irishtimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:43:21.496307+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7627677917480469,
-            "article": {
-              "title": "UPDATES Escalation watch: Burnham speaks after ‘terror plotters’ given bail in UK",
-              "url": "https://www.rt.com/news/646370-uk-fairford-escalation-rhetoric-russia/",
+              "title": "Trump and US tech giants sign pact to stop AI from going rogue (VIDEOS)",
+              "url": "https://www.rt.com/news/646452-tech-pact-ai-controls/",
               "source_id": "rt.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:44:20.906478+00:00"
+              "scraped_at_utc": "2026-09-30T13:06:52.705148+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7044626474380493,
+            "sim_to_centroid": 0.8643856644630432,
             "article": {
-              "title": "Woman abducted to Libya as a child says Burnham 'gets things done'",
-              "url": "https://www.thenationalnews.com/news/uk/2026/09/29/woman-abducted-as-a-child-by-her-libyan-father-tells-labour-conference-burnham-gets-things-done/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:43:24.154752+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 54.80961712067748,
-        "size": 12,
-        "n_sources": 12,
-        "n_continents": 6,
-        "continents": [
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "Oceania",
-          "South America"
-        ],
-        "coherence": 0.8454399108886719,
-        "title": "Trump och AI-jättar överens om självreglering",
-        "central_article": {
-          "title": "Trump och AI-jättar överens om självreglering",
-          "url": "https://www.dn.se/direkt/2026-09-29/trump-och-ai-jattar-overens-om-sjalvreglering/",
-          "source_id": "dn.se",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-29T22:41:39.116356+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9222038388252258,
-            "article": {
-              "title": "Trump och AI-jättar överens om självreglering",
-              "url": "https://www.dn.se/direkt/2026-09-29/trump-och-ai-jattar-overens-om-sjalvreglering/",
-              "source_id": "dn.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:39.116356+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9204232692718506,
-            "article": {
-              "title": "Líderes de tecnologia fecham pacto de autorregulação da IA, anuncia Trump",
-              "url": "https://oglobo.globo.com/economia/tecnologia/noticia/2026/09/29/lideres-de-tecnologia-assinam-pacto-de-autorregulacao-da-ia-anuncia-trump.ghtml",
-              "source_id": "oglobo.globo.com",
+              "title": "Trump y gigantes tecnológicos sellan acuerdo voluntario para controlar la IA: \"Es casi como una Constitución\"",
+              "url": "https://www.emol.com/noticias/Economia/2026/09/30/1212793/trump-ia-gigantes-tecnologicos.html",
+              "source_id": "emol.com",
               "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:42:38.700744+00:00"
+              "scraped_at_utc": "2026-09-30T13:04:44.489593+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8821384310722351,
+            "sim_to_centroid": 0.851783812046051,
             "article": {
-              "title": "Trump says AI giants have agreed to 'police themselves'",
-              "url": "https://www.abc.net.au/news/2026-09-30/artificial-intelligence-execs-meet-donald-trump-at-white-house/107209762",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:43:09.145166+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8793249130249023,
-            "article": {
-              "title": "Trump, AI executives sign ‘morally binding’ agreement to self-regulate technology",
-              "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-vows-to-never-limit-ai-development-as-leading-executives-call/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:43:07.929747+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8564138412475586,
-            "article": {
-              "title": "Donald Trump plaide pour \"l’auto-régulation\" de l’IA : les grands patrons adoptent un code de bonne conduite",
-              "url": "https://www.rtbf.be/article/donald-trump-plaide-pour-l-auto-regulation-en-recevant-les-grands-patrons-de-l-ia-11792481",
-              "source_id": "rtbf.be",
+              "title": "AI companies sign voluntary accord on safety with Trump",
+              "url": "https://www.france24.com/en/technology/20260929-trump-says-ai-companies-sign-voluntary-accord-on-safety-controls",
+              "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:42:05.711123+00:00"
+              "scraped_at_utc": "2026-09-30T13:04:02.869424+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8473051190376282,
+            "sim_to_centroid": 0.8405759930610657,
+            "article": {
+              "title": "Donald Trump: KI-Branche soll sich selbst kontrollieren",
+              "url": "https://www.zdfheute.de/politik/ausland/trump-kuenstliche-intelligenz-firmen-kontrolle-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:03:25.791622+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8377053737640381,
+            "article": {
+              "title": "Trump defiende la “autorregulación” para la IA junto a los grandes magnates tecnológicos",
+              "url": "https://elcomercio.pe/mundo/eeuu/donald-trump-defiende-la-autorregulacion-para-la-inteligencia-artificial-junto-a-los-grandes-magnates-tecnologicos-ia-estados-unidos-ultimas-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:04:55.431310+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8162965774536133,
             "article": {
               "title": "'Grading each other's homework': AI industry CEOs bow to Trump-led push for self-regulation",
               "url": "https://www.sbs.com.au/news/article/ai-industry-ceos-bow-to-trump-led-push-for-self-regulation/j9rdp2hr4",
               "source_id": "sbs.com.au",
               "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:43:10.448678+00:00"
+              "scraped_at_utc": "2026-09-30T13:05:24.614919+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8341421484947205,
+            "sim_to_centroid": 0.8035355806350708,
             "article": {
-              "title": "Firman gigantes de la IA acuerdo para autorregulaci�n",
-              "url": "https://www.reforma.com/firman-gigantes-de-la-ia-acuerdo-para-autorregulacion/ar3284939?v=5",
-              "source_id": "reforma.com",
-              "continent": "North America",
+              "title": "图集｜特朗普在白宫签署AI自律协议 拒绝为人工智能立法",
+              "url": "https://photos.caixin.com/2026-09-30/102490051.html",
+              "source_id": "caixin.com",
+              "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:42:18.169731+00:00"
+              "scraped_at_utc": "2026-09-30T13:08:45.705750+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.831595778465271,
+            "sim_to_centroid": 0.7854614853858948,
             "article": {
-              "title": "Trump vil lade AI-branchen styre sig selv i stedet for at indføre regler",
-              "url": "https://www.dr.dk/nyheder/udland/trump-vil-lade-ai-branchen-styre-sig-selv-i-stedet-indfoere-regler",
-              "source_id": "dr.dk",
+              "title": "Die neuesten Entwicklungen Sicherheit von KI: KI-Firmen sollen sich laut Donald Trump selbst beaufsichtigen",
+              "url": "https://www.nzz.ch/panorama/geraet-die-ki-ausser-kontrolle-die-wichtigsten-fragen-und-antworten-zur-debatte-um-die-sicherheit-der-kuenstlichen-intelligenz-ld.10023872",
+              "source_id": "nzz.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:03:30.586518+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7385357618331909,
+            "article": {
+              "title": "Les patrons de l'IA promettent de s'autoréguler et adoptent un code de bonne conduite",
+              "url": "https://www.rts.ch/info/sciences-tech/2026/article/ia-les-patrons-de-la-tech-promettent-de-s-autoreguler-29371632.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:04:04.814018+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7142931222915649,
+            "article": {
+              "title": "EU to Trump: We will keep pushing for global AI safety rules",
+              "url": "https://www.politico.eu/article/eu-to-trump-we-will-keep-pushing-for-global-ai-safety-rules/",
+              "source_id": "politico.eu",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:48.106429+00:00"
+              "scraped_at_utc": "2026-09-30T13:02:59.809342+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.831595778465271,
+            "sim_to_centroid": 0.7128219604492188,
             "article": {
-              "title": "Trump vil lade AI-branchen styre sig selv i stedet for at indføre regler",
-              "url": "https://politiken.dk/internationalt/art11002712/Trump-vil-lade-AI-branchen-styre-sig-selv-i-stedet-for-at-indf%C3%B8re-regler",
-              "source_id": "politiken.dk",
-              "continent": "Europe North",
+              "title": "Donald Trump AI Namechange",
+              "url": "https://www.bhaskar.com/g/international/news/trump-usa-ai-super-intelligence-executive-order-tech-news-139195877.html",
+              "source_id": "bhaskar.com",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:37.211597+00:00"
+              "scraped_at_utc": "2026-09-30T13:09:01.355461+00:00"
             }
-          },
+          }
+        ]
+      },
+      {
+        "score": 56.74510899029696,
+        "size": 14,
+        "n_sources": 13,
+        "n_continents": 7,
+        "continents": [
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "South Asia"
+        ],
+        "coherence": 0.8055419921875,
+        "title": "After 23 years, US forces are finally withdrawing from Iraq. But what does that mean for its future?",
+        "central_article": {
+          "title": "After 23 years, US forces are finally withdrawing from Iraq. But what does that mean for its future?",
+          "url": "https://www.independent.co.uk/news/world/middle-east/iraq-us-troop-withdrawal-trump-biden-hussein-b3058771.html",
+          "source_id": "independent.co.uk",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-30T13:02:51.885567+00:00"
+        },
+        "members": [
           {
-            "sim_to_centroid": 0.8285242915153503,
+            "sim_to_centroid": 0.8908975720405579,
             "article": {
-              "title": "Los líderes de la IA prometen autorregularse tras reunión con Trump",
-              "url": "https://www.laestrella.com.pa/mundo/america/los-lideres-de-la-ia-prometen-autorregularse-tras-reunion-con-trump-GM26087441",
-              "source_id": "laestrella.com.pa",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:42:27.613106+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7593262195587158,
-            "article": {
-              "title": "Trump rolls out AI takeover of American government",
-              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-america-website-ai-takeover-b3058367.html",
+              "title": "After 23 years, US forces are finally withdrawing from Iraq. But what does that mean for its future?",
+              "url": "https://www.independent.co.uk/news/world/middle-east/iraq-us-troop-withdrawal-trump-biden-hussein-b3058771.html",
               "source_id": "independent.co.uk",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:03.491265+00:00"
+              "scraped_at_utc": "2026-09-30T13:02:51.885567+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7522851228713989,
+            "sim_to_centroid": 0.8648068904876709,
             "article": {
-              "title": "ترامب: وقعت وثيقة ذكاء اصطناعي مع كبار مسؤولي قطاع التكنولوجيا",
-              "url": "https://www.annahar.com/international/united-states/352685/ترامب-عقدت-اجتماعا-مثمرا-للغاية-مع-قادة-الذكا-الاصطناعي",
-              "source_id": "annahar.com",
+              "title": "IRAQ US completes military withdrawal from Iraq after 23 years of occupation",
+              "url": "https://www.presstv.ir/Detail/2026/09/30/777321/US-completes-military-withdrawal-from-Iraq-after-23-years-of-occupation",
+              "source_id": "presstv.ir",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:43:47.352900+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 42.49581111885259,
-        "size": 11,
-        "n_sources": 10,
-        "n_continents": 6,
-        "continents": [
-          "China",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "North America",
-          "Oceania"
-        ],
-        "coherence": 0.8310121893882751,
-        "title": "Mystery over UK airbase scare as police find 'quantity of petrol' but no explosives",
-        "central_article": {
-          "title": "Mystery over UK airbase scare as police find 'quantity of petrol' but no explosives",
-          "url": "https://www.france24.com/en/europe/20260929-mystery-over-uk-airbase-scare-as-police-find-quantity-of-petrol-but-no-explosives",
-          "source_id": "france24.com",
-          "continent": "Europe South",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-29T22:42:00.156832+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9231574535369873,
-            "article": {
-              "title": "Mystery over UK airbase scare as police find 'quantity of petrol' but no explosives",
-              "url": "https://www.france24.com/en/europe/20260929-mystery-over-uk-airbase-scare-as-police-find-quantity-of-petrol-but-no-explosives",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:42:00.156832+00:00"
+              "scraped_at_utc": "2026-09-30T13:05:54.522659+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.914069652557373,
+            "sim_to_centroid": 0.8557028770446777,
             "article": {
-              "title": "Mystery over UK airbase scare as police find petrol, not explosives",
-              "url": "https://www.scmp.com/news/world/europe/article/3369251/mystery-over-uk-airbase-scare-police-find-petrol-not-explosives?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:45:59.359854+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9126845598220825,
-            "article": {
-              "title": "Petrol but no explosives found in suspect vehicles near UK air base",
-              "url": "https://www.abc.net.au/news/2026-09-30/no-explosives-found-raf-fairford/107209846",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:43:09.145166+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8979692459106445,
-            "article": {
-              "title": "UK airbase mystery deepens as police find petrol, not explosives",
-              "url": "https://www.sbs.com.au/news/article/uk-airbase-mystery-deepens-as-police-find-petrol-not-explosives/1yi6vaka1",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:43:10.448678+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.839137077331543,
-            "article": {
-              "title": "Britisk politi har ikke fundet sprængstoffer i efterforskning af mulig terrorplan mod flybase",
-              "url": "https://www.dr.dk/nyheder/udland/britisk-politi-har-ikke-fundet-spraengstoffer-i-efterforskning-af-mulig-terrorplan-mod-flybase",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:48.106429+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8213905096054077,
-            "article": {
-              "title": "No explosives found after arrests near a U.S.-run military base, British police say",
-              "url": "https://www.theglobeandmail.com/world/article-uk-raf-fairford-base-suspects-freed-on-bail/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:43:07.929747+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8212981224060059,
-            "article": {
-              "title": "Poliţia britanică afirmă că nu au fost găsite dispozitive explozive în urma verificărilor de la baza aeriană Fairford",
-              "url": "https://www.g4media.ro/politia-britanica-afirma-ca-nu-au-fost-gasite-dispozitive-explozive-in-urma-verificarilor-de-la-baza-aeriana-fairford.html",
-              "source_id": "g4media.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:44:04.960644+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.789455771446228,
-            "article": {
-              "title": "'Quantity of petrol' but no explosives found in three vehicles near RAF Fairford",
-              "url": "https://www.bbc.com/news/articles/cqn8m342rgk9o",
+              "title": "EE.UU. se retira completamente de Irak tras 20 años de presencia militar: cómo deja el país y qué ocurrirá ahora",
+              "url": "https://www.bbc.com/mundo/articles/cmjw5j22nnz3o",
               "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:02.039973+00:00"
+              "scraped_at_utc": "2026-09-30T13:04:22.720399+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7492125034332275,
+            "sim_to_centroid": 0.832495927810669,
             "article": {
-              "title": "UK air base ‘terror plot’ foiled when one of the suspects phoned police: report",
-              "url": "https://www.smh.com.au/world/europe/uk-air-base-terror-plot-foiled-when-one-of-the-suspects-phoned-police-report-20260930-p611l2.html",
-              "source_id": "smh.com.au",
-              "continent": "Oceania",
+              "title": "U.S. forces exit Iraq, emboldening Iran’s proxies and Islamic State",
+              "url": "https://www.japantimes.co.jp/news/2026/09/30/world/us-forces-iraq-iran-islamic-state/",
+              "source_id": "japantimes.co.jp",
+              "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:43:11.816069+00:00"
+              "scraped_at_utc": "2026-09-30T13:09:57.804173+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7413731813430786,
+            "sim_to_centroid": 0.8198723793029785,
             "article": {
-              "title": "Aanslag of misverstand? Verwarring over incident bij Britse luchtmachtbasis",
-              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5656169/verwarring-over-incident-bij-britse-luchtmachtbasis",
-              "source_id": "rtl.nl",
+              "title": "The US military says its withdrawal of troops from Iraq is complete",
+              "url": "https://www.chicagotribune.com/2026/09/30/us-military-troops-iraq/",
+              "source_id": "chicagotribune.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:08:26.258761+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8134353756904602,
+            "article": {
+              "title": "23 years after invasion, U.S. leaves Iraq; Iran stays",
+              "url": "https://www.thehindu.com/news/international/23-years-after-invasion-us-leaves-iraq-stays-in-iran/article71527593.ece",
+              "source_id": "thehindu.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:09:04.034742+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8003906011581421,
+            "article": {
+              "title": "US-Truppen ziehen ab Im Irak beginnt eine neue Ära",
+              "url": "https://www.tagesschau.de/ausland/asien/irak-usa-truppenabzug-100.html",
+              "source_id": "tagesschau.de",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:15.291137+00:00"
+              "scraped_at_utc": "2026-09-30T13:03:09.257702+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7313858270645142,
+            "sim_to_centroid": 0.7978795766830444,
             "article": {
-              "title": "Three vans, masked men and a late-night tip-off: What happened outside a UK airbase?",
-              "url": "https://www.sbs.com.au/news/article/three-vans-masked-men-and-a-late-night-tip-off-what-happened-outside-a-uk-airbase/488ulbny8",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
+              "title": "Iraq’s long, dark night ends: 23 years of American lies, occupation, abuse end in humiliating ouster",
+              "url": "https://www.presstv.ir/Detail/2026/09/30/777325/iraq-long-dark-night-ends-23-years-us-lies-occupation-abuse-end-humiliating-withdrawal",
+              "source_id": "presstv.ir",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:43:10.448678+00:00"
+              "scraped_at_utc": "2026-09-30T13:05:54.522659+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7883391380310059,
+            "article": {
+              "title": "How does Iraq’s security change after US forces withdraw?",
+              "url": "https://www.aljazeera.com/news/2026/9/30/how-does-iraqs-security-change-after-us-forces-withdraw",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:05:45.103687+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7810770273208618,
+            "article": {
+              "title": "بعد عقدين.. أمريكا تنسحب من العراق والزيدي: مرحلة جديدة بدأت",
+              "url": "https://www.aljazeera.net/news/2026/9/30/بعد-عقدين-من-الزمن-أمريكا-تنسحب-من",
+              "source_id": "aljazeera.net",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:05:49.294550+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7800952196121216,
+            "article": {
+              "title": "US forces leave Iraq, raising fears of Iran-backed militias amid power vacuum",
+              "url": "https://www.france24.com/en/middle-east/20260930-us-forces-leave-iraq-raising-fears-of-iran-backed-militias-amid-power-vacuum",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:04:02.869424+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7701524496078491,
+            "article": {
+              "title": "الجيش الأميركي يعلن إتمام انسحابه من العراق",
+              "url": "https://www.annahar.com/arab-world/352814/الجيش-الأميركي-يعلن-إتمام-انسحابه-من-العراق",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:06:07.618558+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7438797950744629,
+            "article": {
+              "title": "США и союзники завершили операцию \"Непоколебимая решимость\" в Ираке",
+              "url": "https://ria.ru/20260930/irak-2121147335.html",
+              "source_id": "ria.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:06:59.485872+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7385632991790771,
+            "article": {
+              "title": "Pro Artikel Die letzten amerikanischen Soldaten ziehen aus dem Irak ab – sie hinterlassen Leid, Hass und Sehnsucht",
+              "url": "https://www.nzz.ch/international/irak-die-letzten-amerikanischen-soldaten-ziehen-ab-eine-reportage-ld.10024438",
+              "source_id": "nzz.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:03:30.586518+00:00"
             }
           }
         ]
       },
       {
-        "score": 34.62590060527585,
-        "size": 10,
-        "n_sources": 10,
+        "score": 48.53520684238507,
+        "size": 18,
+        "n_sources": 15,
         "n_continents": 5,
         "continents": [
-          "Africa",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Oceania"
-        ],
-        "coherence": 0.826515793800354,
-        "title": "Manchester City found guilty in Premier League's biggest scandal",
-        "central_article": {
-          "title": "Manchester City found guilty in Premier League's biggest scandal",
-          "url": "https://www.abc.net.au/news/2026-09-30/manchester-city-guilty-premier-league-financial-charges/107209870",
-          "source_id": "abc.net.au",
-          "continent": "Oceania",
-          "published_at": null,
-          "scraped_at_utc": "2026-09-29T22:43:09.145166+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8965870141983032,
-            "article": {
-              "title": "Manchester City found guilty in Premier League's biggest scandal",
-              "url": "https://www.abc.net.au/news/2026-09-30/manchester-city-guilty-premier-league-financial-charges/107209870",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:43:09.145166+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8840948939323425,
-            "article": {
-              "title": "Schandaal in Engelse voetbal: Manchester City schuldig aan boekhoudfraude",
-              "url": "https://www.rtl.nl/nieuws/sport/artikel/5656204/groot-schandaal-engelse-voetbal-manchester-city-overtrad-negen-jaar",
-              "source_id": "rtl.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:15.291137+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8801331520080566,
-            "article": {
-              "title": "Manchester City reconnu \"coupable\" de \"graves\" infractions financières par la Premier League",
-              "url": "https://www.rtbf.be/article/manchester-city-reconnu-coupable-de-graves-infractions-financieres-par-la-premier-league-11792420",
-              "source_id": "rtbf.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:42:05.711123+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8621077537536621,
-            "article": {
-              "title": "Man City guilty of all charges related to Premier League’s financial rules",
-              "url": "https://www.channel4.com/news/man-city-guilty-of-all-charges-related-to-premier-leagues-financial-rules",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:08.131613+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8348532319068909,
-            "article": {
-              "title": "Manchester City Club guilty over charges after £900m of ‘sham’ contracts",
-              "url": "https://www.theguardian.com/football/2026/sep/29/manchester-city-found-guilty-all-premier-league-charges-rule-breaches",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:06.178031+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8200504779815674,
-            "article": {
-              "title": "Najhujši finančni škandal: Manchester Cityju grozi celo izključitev",
-              "url": "https://www.delo.si/sport/nogomet/najhujsi-financni-skandal-manchester-cityju-grozi-celo-izkljucitev",
-              "source_id": "delo.si",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:44:11.432679+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8179564476013184,
-            "article": {
-              "title": "Minden vádpontban elmarasztalták a Manchester Cityt A Manchester Cityt valamennyi vádpontban vétkesnek találta a Premier League pénzügyi szabályainak megsértését vizsgáló független bizottság. A klub kilenc idényen keresztül sérthette meg súlyosan a liga előírásait, a szankciókról azonban még nem született döntés.",
-              "url": "https://nepszava.hu/3333857_minden-vadpontban-elmarasztaltak-a-manchester-cityt",
-              "source_id": "nepszava.hu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:44:02.144654+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7911691665649414,
-            "article": {
-              "title": "Massive Sanktionen drohen Premier League bestätigt: ManCity ist schuldig in über 100 Fällen Was vor ein paar Tagen nicht klar war, ist nun spruchreif: Manchester City ist schuldig in fast allen Anklagepunkten.",
-              "url": "https://www.srf.ch/sport/fussball/internationale-ligen/massive-sanktionen-drohen-premier-league-bestaetigt-mancity-ist-schuldig-in-ueber-100-faellen",
-              "source_id": "srf.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:35.585442+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7650753259658813,
-            "article": {
-              "title": "Man City’s £830m ‘sham’ contracts, disguised funding scheme exposed",
-              "url": "https://businessday.ng/sports/article/man-citys-830m-sham-contracts-disguised-funding-scheme-exposed/",
-              "source_id": "businessday.ng",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:45:04.711059+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7131302356719971,
-            "article": {
-              "title": "Journalist: Der er tale om den klart største sag om økonomisk svindel i fodboldens historie",
-              "url": "https://politiken.dk/sport/fodbold/art11002634/Manchester-City-er-skyldig",
-              "source_id": "politiken.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:37.211597+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 33.03070706058785,
-        "size": 9,
-        "n_sources": 9,
-        "n_continents": 5,
-        "continents": [
-          "Europe East",
+          "East Asia",
           "Europe North",
           "Europe South",
           "Middle East",
           "South Asia"
         ],
-        "coherence": 0.8381550312042236,
-        "title": "Russian nuclear-capable bomber plane crashes, killing six people",
+        "coherence": 0.8129602670669556,
+        "title": "UK’s Burnham says he’ll consider push to rejoin EU",
         "central_article": {
-          "title": "Russian nuclear-capable bomber plane crashes, killing six people",
-          "url": "https://www.aljazeera.com/news/2026/9/29/russian-nuclear-capable-bomber-plane-crashes-killing-six-people",
-          "source_id": "aljazeera.com",
-          "continent": "Middle East",
+          "title": "UK’s Burnham says he’ll consider push to rejoin EU",
+          "url": "https://www.politico.eu/article/andy-burnham-reconsider-push-rejoin-eu/",
+          "source_id": "politico.eu",
+          "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-09-29T22:43:22.668452+00:00"
+          "scraped_at_utc": "2026-09-30T13:02:59.809342+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9251587986946106,
+            "sim_to_centroid": 0.8972191214561462,
             "article": {
-              "title": "Russian nuclear-capable bomber plane crashes, killing six people",
-              "url": "https://www.aljazeera.com/news/2026/9/29/russian-nuclear-capable-bomber-plane-crashes-killing-six-people",
-              "source_id": "aljazeera.com",
+              "title": "UK’s Burnham says he’ll consider push to rejoin EU",
+              "url": "https://www.politico.eu/article/andy-burnham-reconsider-push-rejoin-eu/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:02:59.809342+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8942421078681946,
+            "article": {
+              "title": "Burnham: Britse terugkeer in EU is optie",
+              "url": "https://fd.nl/politiek/1613573/burnham-britse-terugkeer-in-eu-is-optie",
+              "source_id": "fd.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:03:07.213932+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8740851879119873,
+            "article": {
+              "title": "Burnham says Britain could rejoin the EU after next election",
+              "url": "https://www.japantimes.co.jp/news/2026/09/30/world/burnham-britain-eu-rejoin/",
+              "source_id": "japantimes.co.jp",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:09:57.804173+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8646312952041626,
+            "article": {
+              "title": "Andy Burnham opens post-Brexit door for UK and EU",
+              "url": "https://www.thenationalnews.com/news/uk/2026/09/29/andy-burnham-opens-post-brexit-door-for-uk-and-eu/",
+              "source_id": "thenationalnews.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:43:22.668452+00:00"
+              "scraped_at_utc": "2026-09-30T13:05:46.585513+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9054692983627319,
+            "sim_to_centroid": 0.8544678092002869,
             "article": {
-              "title": "Nuclear-capable Russian bomber plane crashes during training flight, 6 killed",
-              "url": "https://www.hindustantimes.com/world-news/nuclear-capable-russian-bomber-tu-95-plane-crashes-during-training-flight-in-amur-6-killed-101790699214702.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
+              "title": "Labour-Parteitag Burnham schließt Rückkehr Großbritanniens in die EU nicht aus",
+              "url": "https://www.spiegel.de/ausland/grossbritannien-andy-burnham-schliesst-rueckkehr-in-eu-nicht-aus-a-a506d778-4a5a-45c8-9f28-2ad4272ae68f",
+              "source_id": "spiegel.de",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:46:31.389589+00:00"
+              "scraped_at_utc": "2026-09-30T13:03:11.888641+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8856098651885986,
+            "sim_to_centroid": 0.8498959541320801,
             "article": {
-              "title": "Rusya'da bombardıman uçağı düştü: 6 ölü, 1 yaralı",
-              "url": "https://www.hurriyet.com.tr/gundem/rusyada-bombardiman-ucagi-dustu-6-olu-1-yarali-43323913",
+              "title": "İngiltere'de Brexit itirafı: Başbakan Burnham'dan AB'ye dönüş sinyali",
+              "url": "https://www.hurriyet.com.tr/dunya/ingilterede-brexit-itirafi-basbakan-burnhamdan-abye-donus-sinyali-43324806",
               "source_id": "hurriyet.com.tr",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:43:34.285401+00:00"
+              "scraped_at_utc": "2026-09-30T13:05:57.710758+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8673726916313171,
+            "sim_to_centroid": 0.844826340675354,
             "article": {
-              "title": "Precipita bombardiere russo, 6 morti",
-              "url": "https://www.repubblica.it/esteri/2026/09/29/diretta/guerra_ucraina_russia_news_oggi-425613908/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:42:12.708964+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8656957149505615,
-            "article": {
-              "title": "Russian nuclear-capable Tu-95 crashes in Far East, killing six crew",
-              "url": "https://www.euronews.com/2026/09/29/russian-nuclear-capable-tu-95-crashes-in-far-east-killing-six-crew-members",
+              "title": "UK's Burnham floats going ‘all the way’ and rejoining the EU",
+              "url": "https://www.euronews.com/2026/09/30/uks-burnham-floats-going-all-the-way-and-rejoining-the-eu",
               "source_id": "euronews.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:09.673520+00:00"
+              "scraped_at_utc": "2026-09-30T13:02:58.632778+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8340827822685242,
+            "sim_to_centroid": 0.8384059071540833,
             "article": {
-              "title": "WATCH: Six Tu-95 Crew Members Reported Dead in Russia’s Amur Region Plane Crash",
-              "url": "https://www.kyivpost.com/post/85680",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
+              "title": "Zehn Jahre nach dem Brexit Premierminister Burnham wirbt für eine Rückkehr Großbritanniens nach Europa",
+              "url": "https://www.handelsblatt.com/politik/international/grossbritannien-premier-burnham-wirbt-fuer-eine-rueckkehr-nach-europa/100256109.html",
+              "source_id": "handelsblatt.com",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:44:12.896953+00:00"
+              "scraped_at_utc": "2026-09-30T13:03:14.196536+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.792243480682373,
+            "sim_to_centroid": 0.8260048627853394,
             "article": {
-              "title": "Шесть человек погибли при крушении военного самолета Ту-95 в Амурской области",
-              "url": "https://www.kommersant.ru/doc/8989710?from=top_main_5",
-              "source_id": "kommersant.ru",
-              "continent": "Europe East",
+              "title": "Burnham onthult zijn pro-Europese ambities – maar wil wachten tot na de verkiezingen",
+              "url": "https://fd.nl/politiek/1613535/burnham-onthult-zijn-pro-europese-ambities-maar-wil-wachten-tot-na-de-verkiezingen",
+              "source_id": "fd.nl",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:44:22.458891+00:00"
+              "scraped_at_utc": "2026-09-30T13:03:07.213932+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7573522329330444,
+            "sim_to_centroid": 0.8206436038017273,
             "article": {
-              "title": "Strmoglavil ruski strateški bombnik, umrla skoraj vsa posadka",
-              "url": "https://www.delo.si/novice/svet/strmoglavil-ruski-strateski-bombnik-umrla-skoraj-vsa-posadka",
-              "source_id": "delo.si",
-              "continent": "Europe East",
+              "title": "Burnham: «Dalla Brexit più danni che benefici: mi piacerebbe vedere la Gran Bretagna rientrare nella Ue»",
+              "url": "https://www.corriere.it/esteri/26_settembre_30/burnham-riapre-il-dossier-brexit-e-non-esclude-il-rientro-del-regno-unito-nell-unione-europea-50644060-5574-40ca-8572-159a5982axlk.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:44:11.432679+00:00"
+              "scraped_at_utc": "2026-09-30T13:04:19.810993+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7104103565216064,
+            "sim_to_centroid": 0.8063172101974487,
             "article": {
-              "title": "3 children injured as Russia strikes Sumy school with glide bombs.",
-              "url": "https://kyivindependent.com/3-children-injured-as-russia-strikes-sumy-school-with-glide-bombs/",
-              "source_id": "kyivindependent.com",
-              "continent": "Europe East",
+              "title": "Burnham promises a ‘new path’ for Britain as he address Labour Conference",
+              "url": "https://www.channel4.com/news/burnham-promises-a-new-path-for-britain-as-he-address-labour-conference",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:44:14.351537+00:00"
+              "scraped_at_utc": "2026-09-30T13:02:57.302191+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7952753305435181,
+            "article": {
+              "title": "Au congrès du Labour, Andy Burnham défend un réengagement de l'Etat",
+              "url": "https://www.rts.ch/info/monde/2026/article/royaume-uni-andy-burnham-defend-le-reengagement-de-l-etat-29371647.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:04:04.814018+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7732773423194885,
+            "article": {
+              "title": "What do voters think of Burnham’s ’hope again’ speech?",
+              "url": "https://www.channel4.com/news/what-do-voters-think-of-burnhams-hope-again-speech",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:02:57.302191+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7708808183670044,
+            "article": {
+              "title": "25 sek Andy Burnham: ”Vill se Storbritannien återinträda i EU” ”Brexit har gjort större skada än nytta”",
+              "url": "https://www.svt.se/nyheter/utrikes/andy-burnham-vill-se-storbritannien-aterintrada-i-eu",
+              "source_id": "svt.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:03:43.577116+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7548285722732544,
+            "article": {
+              "title": "Andy Burnham gets bold at last",
+              "url": "https://www.hindustantimes.com/world-news/andy-burnham-gets-bold-at-last-101790756422095.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:09:05.518775+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7367788553237915,
+            "article": {
+              "title": "Was Burnham’s conference speech a radical change or ‘electoral suicide’?",
+              "url": "https://www.channel4.com/news/was-burnhams-conference-speech-a-radical-change-or-electoral-suicide",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:02:57.302191+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7171135544776917,
+            "article": {
+              "title": "Britisk premierminister lufter idéen om at vende tilbage til EU",
+              "url": "https://www.dr.dk/nyheder/seneste/britisk-premierminister-lufter-ideen-om-vende-tilbage-til-eu",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:03:47.008207+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7143914699554443,
+            "article": {
+              "title": "The Brexit debate is back. Could Britain rejoin the EU?",
+              "url": "https://www.irishtimes.com/world/uk/2026/09/30/the-brexit-debate-is-back-could-britain-rejoin-the-eu/",
+              "source_id": "irishtimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:05:43.924496+00:00"
             }
           }
         ]
       },
       {
-        "score": 31.81331284756016,
-        "size": 7,
-        "n_sources": 7,
-        "n_continents": 5,
+        "score": 39.62956212951802,
+        "size": 11,
+        "n_sources": 11,
+        "n_continents": 6,
         "continents": [
+          "Europe East",
           "Europe North",
           "Europe South",
           "Middle East",
           "North America",
           "South America"
         ],
-        "coherence": 0.8809073567390442,
-        "title": "US supreme court allows Trump officials to resume deportations to third countries",
+        "coherence": 0.7979841232299805,
+        "title": "Russland droht NATO mit Atomwaffeneinsatz",
         "central_article": {
-          "title": "US supreme court allows Trump officials to resume deportations to third countries",
-          "url": "https://www.theguardian.com/us-news/2026/sep/29/trump-immigration-deport-migrants-third-country",
-          "source_id": "theguardian.com",
+          "title": "Russland droht NATO mit Atomwaffeneinsatz",
+          "url": "https://www.diepresse.com/41312235/russland-droht-nato-mit-atomwaffeneinsatz",
+          "source_id": "diepresse.com",
           "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-09-29T22:41:06.178031+00:00"
+          "scraped_at_utc": "2026-09-30T13:03:23.370511+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9370779991149902,
+            "sim_to_centroid": 0.8847349286079407,
             "article": {
-              "title": "US supreme court allows Trump officials to resume deportations to third countries",
-              "url": "https://www.theguardian.com/us-news/2026/sep/29/trump-immigration-deport-migrants-third-country",
-              "source_id": "theguardian.com",
+              "title": "Russland droht NATO mit Atomwaffeneinsatz",
+              "url": "https://www.diepresse.com/41312235/russland-droht-nato-mit-atomwaffeneinsatz",
+              "source_id": "diepresse.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:06.178031+00:00"
+              "scraped_at_utc": "2026-09-30T13:03:23.370511+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9351483583450317,
+            "sim_to_centroid": 0.8786371946334839,
             "article": {
-              "title": "US Supreme Court allows Trump to continue third-country deportations",
-              "url": "https://www.aljazeera.com/news/2026/9/29/us-supreme-court-allows-trump-to-continue-third-country-deportations",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
+              "title": "Russia issues new nuclear threat over Kaliningrad as tensions with NATO rise.",
+              "url": "https://kyivindependent.com/russia-issues-new-nuclear-threat-over-kaliningrad-as-tensions-with-nato-rise/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:43:22.668452+00:00"
+              "scraped_at_utc": "2026-09-30T13:06:44.166237+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9316452741622925,
+            "sim_to_centroid": 0.8334710597991943,
             "article": {
-              "title": "Corte Suprema permite a Trump reactivar las deportaciones a terceros países",
-              "url": "https://elcomercio.pe/mundo/eeuu/corte-suprema-de-estados-unidos-permite-a-donald-trump-reactivar-las-deportaciones-a-terceros-paises-migrantes-guinea-ecuatorial-ultimas-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
+              "title": "Reacția Kremlinului după ce s-a aflat că a amenințat NATO cu folosirea armelor nucleare",
+              "url": "https://hotnews.ro/reactia-kremlinului-dupa-ce-s-a-aflat-ca-a-amenintat-nato-cu-folosirea-armelor-nucleare-2362554",
+              "source_id": "hotnews.ro",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:42:43.225229+00:00"
+              "scraped_at_utc": "2026-09-30T13:06:25.471457+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8704005479812622,
+            "sim_to_centroid": 0.8123482465744019,
             "article": {
-              "title": "Supreme Court lets quick deportations to third countries resume for now while it weighs Trump policy",
-              "url": "https://www.chicagotribune.com/2026/09/29/supreme-court-deportations-third-countries/",
-              "source_id": "chicagotribune.com",
-              "continent": "North America",
+              "title": "Russian Embassy warns Moscow ready to use nuclear weapons to defend Kaliningrad",
+              "url": "https://tass.com/politics/2194757",
+              "source_id": "tass.com",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:45:55.484712+00:00"
+              "scraped_at_utc": "2026-09-30T13:06:57.137929+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8697494268417358,
+            "sim_to_centroid": 0.7898204922676086,
             "article": {
-              "title": "Højesteret lader Trump genoptage deportationer til tredjelande",
-              "url": "https://politiken.dk/internationalt/art11002713/H%C3%B8jesteret-lader-Trump-genoptage-deportationer-til-tredjelande",
-              "source_id": "politiken.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:37.211597+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.831360936164856,
-            "article": {
-              "title": "Suprema Corte autoriza Donald Trump a deportar para países terceiros os imigrantes dos EUA Medida fortalece estratégia de expulsões em massa; críticos alertam para risco de tortura",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/09/suprema-corte-autoriza-trump-a-deportar-imigrantes-para-paises-terceiros.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:42:36.122305+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7909688949584961,
-            "article": {
-              "title": "Die neuesten Entwicklungen Trumps zweite Amtszeit: Supreme Court erlaubt Abschiebungen in Drittländer vorerst",
-              "url": "https://www.nzz.ch/international/trumps-zweite-amtszeit-supreme-court-erlaubt-abschiebungen-in-drittlaender-vorerst-ld.1856621",
+              "title": "Ticker vor 3 Stunden Krieg in der Ukraine: Russland droht Nato mit Atomwaffeneinsatz bei Blockade Kaliningrads",
+              "url": "https://www.nzz.ch/international/krieg-in-der-ukraine-tote-nach-russischen-gleitbombenangriffen-in-sumi-selenski-meldet-abwehr-ballistischer-raketen-ld.10021245",
               "source_id": "nzz.ch",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:33.862637+00:00"
+              "scraped_at_utc": "2026-09-30T13:03:30.586518+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.789467990398407,
+            "article": {
+              "title": "روسيا تبلغ حلف الأطلسي بأنها مستعدة للخيار النووي بسبب كالينينغراد",
+              "url": "https://www.annahar.com/international/world/352858/روسيا-تبلغ-حلف-الأطلسي-بأنها-مستعدة-للخيار-النووي-بسبب-كالينينغراد",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:06:07.618558+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7778737545013428,
+            "article": {
+              "title": "Rússia faz rara ameaça nuclear explícita contra países europeus Kremlin reage a fala de chanceler polonês, que sugeriu exercícios perto de Kaliningrado",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/09/russia-faz-rara-ameaca-nuclear-explicita-contra-a-europa.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:04:47.780256+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7671239376068115,
+            "article": {
+              "title": "UPDATES Escalation watch: Russia issues warning as UK and EU ramp up war rhetoric",
+              "url": "https://www.rt.com/news/646370-uk-fairford-escalation-rhetoric-russia/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:06:52.705148+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7594796419143677,
+            "article": {
+              "title": "Россия пригрозила НАТО ядерным ударом в случае попытки блокады Калининградской области",
+              "url": "https://meduza.io/news/2026/09/30/posolstvo-rossii-v-irlandii-prigrozilo-yadernym-udarom-v-sluchae-popytki-blokady-kaliningradskoy-oblasti",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:06:45.277698+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7459903955459595,
+            "article": {
+              "title": "Poland braces for potential confrontation as Russia tests NATO defenses",
+              "url": "https://www.pbs.org/newshour/show/poland-braces-for-potential-confrontation-as-russia-tests-nato-defenses",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:08:29.426348+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7388777732849121,
+            "article": {
+              "title": "Песков: Россия напоминает Европе о возможности применения ядерного оружия",
+              "url": "https://www.kommersant.ru/doc/8990435?from=top_main_4",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:06:54.974558+00:00"
             }
           }
         ]
       },
       {
-        "score": 25.0,
-        "size": 5,
-        "n_sources": 5,
+        "score": 30.768240313061487,
+        "size": 9,
+        "n_sources": 8,
+        "n_continents": 5,
+        "continents": [
+          "Africa",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America"
+        ],
+        "coherence": 0.8475207090377808,
+        "title": "Fatima Ezzahra El Mansouri wordt de eerste vrouwelijke premier van Marokko",
+        "central_article": {
+          "title": "Fatima Ezzahra El Mansouri wordt de eerste vrouwelijke premier van Marokko",
+          "url": "https://www.nrc.nl/nieuws/2026/09/29/fatima-ezzahra-el-mansouri-wordt-de-eerste-vrouwelijke-premier-van-marokko-a4937832",
+          "source_id": "nrc.nl",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-09-30T13:03:02.862237+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9329558610916138,
+            "article": {
+              "title": "Fatima Ezzahra El Mansouri wordt de eerste vrouwelijke premier van Marokko",
+              "url": "https://www.nrc.nl/nieuws/2026/09/29/fatima-ezzahra-el-mansouri-wordt-de-eerste-vrouwelijke-premier-van-marokko-a4937832",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:03:02.862237+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.901888370513916,
+            "article": {
+              "title": "Profile Who is Fatima Ezzahra El Mansouri, Morocco's first female prime minister?",
+              "url": "https://www.thenationalnews.com/news/mena/2026/09/30/who-is-fatima-ezzahra-el-mansouri-the-politician-set-to-become-moroccos-first-female-prime-minister/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:05:46.585513+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8949266672134399,
+            "article": {
+              "title": "Fatima Ezzahra El Mansouri, première femme chargée de former un gouvernement au Maroc",
+              "url": "https://ledesk.ma/2026/09/29/fatima-ezzahra-el-mansouri-premiere-femme-chargee-de-former-un-gouvernement-au-maroc/",
+              "source_id": "ledesk.ma",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:07:54.506336+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8893394470214844,
+            "article": {
+              "title": "Morocco's king appoints Fatima Zahra Mansouri as country's 1st woman prime minister",
+              "url": "https://www.pbs.org/newshour/world/moroccos-king-appoints-fatima-zahra-mansouri-as-countrys-1st-woman-prime-minister",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:08:29.426348+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8668832778930664,
+            "article": {
+              "title": "Fatima Zahra El Mansouri, la primera mujer elegida primera ministra de Marruecos",
+              "url": "https://www.bbc.com/mundo/articles/cw14d3vv2egjo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:04:22.720399+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8450093269348145,
+            "article": {
+              "title": "Marocco, El Mansouri prima premier donna del Paese: «Lavoreremo per un esecutivo all'altezza»",
+              "url": "https://www.corriere.it/esteri/26_settembre_29/marocco-fatima-ezzahra-el-mansouri-prima-premier-donna-del-paese-9a40d504-11fb-4aed-af76-da9024739xlk.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:04:19.810993+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8281581401824951,
+            "article": {
+              "title": "Morocco appoints first female prime minister",
+              "url": "https://www.premiumtimesng.com/foreign/913504-morocco-appoints-first-female-prime-minister.html",
+              "source_id": "premiumtimesng.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:07:42.405640+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7474464774131775,
+            "article": {
+              "title": "A World Cup and Ceuta crisis to tackle for Morocco’s first female PM",
+              "url": "https://www.thetimes.com/world/africa/article/fatima-ezzahra-el-mansouri-morocco-pm-world-cup-3jx5mf8ch",
+              "source_id": "thetimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:02:53.367914+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7210789918899536,
+            "article": {
+              "title": "Fatima Ezzahra El Mansouri, une dame de fer aux pieds d’argile",
+              "url": "https://ledesk.ma/grandangle/fatima-ezzahra-el-mansouri-une-dame-de-fer-aux-pieds-dargile/",
+              "source_id": "ledesk.ma",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:07:54.506336+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 29.570195147995122,
+        "size": 7,
+        "n_sources": 7,
         "n_continents": 5,
         "continents": [
           "Europe East",
           "Europe North",
-          "Oceania",
-          "South America",
+          "Europe South",
+          "North America",
           "South Asia"
         ],
-        "coherence": 0.9000073671340942,
-        "title": "Anthropic warns investors its AI could pose ‘existential risks to humanity’",
+        "coherence": 0.8662837743759155,
+        "title": "US Supreme Court lets Trump resume deporting migrants to countries not their own",
         "central_article": {
-          "title": "Anthropic warns investors its AI could pose ‘existential risks to humanity’",
-          "url": "https://www.smh.com.au/business/companies/anthropic-warns-investors-its-ai-could-pose-existential-risks-to-humanity-20260930-p611jo.html",
-          "source_id": "smh.com.au",
-          "continent": "Oceania",
+          "title": "US Supreme Court lets Trump resume deporting migrants to countries not their own",
+          "url": "https://kathmandupost.com/world/2026/09/30/us-supreme-court-lets-trump-resume-deporting-migrants-to-countries-not-their-own",
+          "source_id": "kathmandupost.com",
+          "continent": "South Asia",
           "published_at": null,
-          "scraped_at_utc": "2026-09-29T22:43:11.816069+00:00"
+          "scraped_at_utc": "2026-09-30T13:09:18.654190+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9513558745384216,
+            "sim_to_centroid": 0.9085195064544678,
             "article": {
-              "title": "Anthropic warns investors its AI could pose ‘existential risks to humanity’",
-              "url": "https://www.smh.com.au/business/companies/anthropic-warns-investors-its-ai-could-pose-existential-risks-to-humanity-20260930-p611jo.html",
-              "source_id": "smh.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:43:11.816069+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9075757265090942,
-            "article": {
-              "title": "‘মানব সভ্যতার জন্য মারাত্মক বিপদ’, IPO নথিতেও সতর্কবার্তা দিলো Anthropic",
-              "url": "https://eisamay.com/business/business-news/anthropic-ipo-filing-warns-ai-poses-serious-risk-to-human-civilisation/200548872.cms",
-              "source_id": "eisamay.com",
+              "title": "US Supreme Court lets Trump resume deporting migrants to countries not their own",
+              "url": "https://kathmandupost.com/world/2026/09/30/us-supreme-court-lets-trump-resume-deporting-migrants-to-countries-not-their-own",
+              "source_id": "kathmandupost.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:46:35.498547+00:00"
+              "scraped_at_utc": "2026-09-30T13:09:18.654190+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9066765904426575,
+            "sim_to_centroid": 0.8859018087387085,
             "article": {
-              "title": "Anthropic alerta sobre 'risco existencial' à humanidade com IA em prospecto para ser listada em Bolsa, revela FT",
-              "url": "https://oglobo.globo.com/economia/tecnologia/noticia/2026/09/29/anthropic-alerta-sobre-risco-existencial-a-humanidade-com-ia-em-prospecto-para-ser-listada-em-bolsa-revela-ft.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:42:38.700744+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8792517185211182,
-            "article": {
-              "title": "Künstliche Intelligenz Anthropic-Börsenprospekt weist hohe Verluste aus und warnt vor „existenziellen Risiken für Menschheit“",
-              "url": "https://www.handelsblatt.com/technik/ki/ki-anthropic-boersenprospekt-weist-wohl-hohe-verluste-aus/100258107.html",
-              "source_id": "handelsblatt.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:23.686877+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.855176568031311,
-            "article": {
-              "title": "AI giant promises investors ‘existential risk to humanity’",
-              "url": "https://www.rt.com/news/646417-anthropic-ai-existential-risk/",
-              "source_id": "rt.com",
+              "title": "Верховный суд США разрешил Трампу временно возобновить депортацию мигрантов",
+              "url": "https://meduza.io/news/2026/09/30/verhovnyy-sud-ssha-razreshil-trampu-vremenno-vozobnovit-deportatsiyu-migrantov",
+              "source_id": "meduza.io",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:44:20.906478+00:00"
+              "scraped_at_utc": "2026-09-30T13:06:45.277698+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8800408840179443,
+            "article": {
+              "title": "Верховный суд США разрешил Трампу возобновить депортации мигрантов в третьи страны 30 сентября",
+              "url": "https://novayagazeta.eu/articles/2026/09/30/verkhovnyi-sud-ssha-razreshil-trampu-vozobnovit-deportatsii-migrantov-v-treti-strany-news",
+              "source_id": "novayagazeta.eu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:06:46.915663+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8684706687927246,
+            "article": {
+              "title": "News Wrap: Supreme Court allows Trump's deportations to third countries, for now",
+              "url": "https://www.pbs.org/newshour/show/news-wrap-supreme-court-allows-trumps-deportations-to-third-countries-for-now",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:08:29.426348+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8547368049621582,
+            "article": {
+              "title": "US supreme court US supreme court allows Trump officials to resume deportations to third countries",
+              "url": "https://www.theguardian.com/us-news/2026/sep/29/trump-immigration-deport-migrants-third-country",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:02:54.753051+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8543389439582825,
+            "article": {
+              "title": "US Supreme Court lifts restrictions on third-country deportations",
+              "url": "https://www.france24.com/en/americas/20260929-us-supreme-court-lifts-restrictions-on-third-country-deportations",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:04:02.869424+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8119782209396362,
+            "article": {
+              "title": "Hooggerechtshof VS geeft voorlopig groen licht voor uitzetten migranten naar derde landen",
+              "url": "https://www.nrc.nl/nieuws/2026/09/30/hooggerechtshof-vs-geeft-voorlopig-groen-licht-voor-uitzetten-migranten-naar-derde-landen-a4937852",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:03:02.862237+00:00"
             }
           }
         ]
       },
       {
-        "score": 22.044078852477355,
-        "size": 9,
-        "n_sources": 8,
+        "score": 17.162683483981457,
+        "size": 6,
+        "n_sources": 5,
         "n_continents": 4,
         "continents": [
-          "East Asia",
+          "Europe East",
           "Europe North",
           "Europe South",
           "Middle East"
         ],
-        "coherence": 0.8254616260528564,
-        "title": "More than 400 detained as France student protests escalate",
+        "coherence": 0.8694010376930237,
+        "title": "Several people killed as Russia launches new round of strikes on Kyiv",
         "central_article": {
-          "title": "More than 400 detained as France student protests escalate",
-          "url": "https://www.bbc.com/news/articles/c862epne7glyo",
-          "source_id": "bbc.com",
-          "continent": "Europe North",
+          "title": "Several people killed as Russia launches new round of strikes on Kyiv",
+          "url": "https://www.france24.com/en/europe/20260930-live-several-people-killed-as-russia-launches-new-round-of-strikes-on-kyiv",
+          "source_id": "france24.com",
+          "continent": "Europe South",
           "published_at": null,
-          "scraped_at_utc": "2026-09-29T22:41:02.039973+00:00"
+          "scraped_at_utc": "2026-09-30T13:04:02.869424+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8721001744270325,
+            "sim_to_centroid": 0.8961087465286255,
             "article": {
-              "title": "More than 400 detained as France student protests escalate",
-              "url": "https://www.bbc.com/news/articles/c862epne7glyo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:02.039973+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8670798540115356,
-            "article": {
-              "title": "Pupils arrested after school protests spread across France",
-              "url": "https://www.thetimes.com/world/europe/article/france-school-blockades-arrests-npw2wz3mh",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:04.904590+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8628572225570679,
-            "article": {
-              "title": "French police clash with teens blockading schools as unions stage day of protests",
-              "url": "https://www.france24.com/en/france/20260929-french-police-clash-with-teens-blockading-schools-as-union-stage-day-of-protests",
+              "title": "Several people killed as Russia launches new round of strikes on Kyiv",
+              "url": "https://www.france24.com/en/europe/20260930-live-several-people-killed-as-russia-launches-new-round-of-strikes-on-kyiv",
               "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:42:00.156832+00:00"
+              "scraped_at_utc": "2026-09-30T13:04:02.869424+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8470796346664429,
+            "sim_to_centroid": 0.8861651420593262,
             "article": {
-              "title": "440 Festnahmen und 31 Verletzte bei Schülerprotesten in Frankreich",
-              "url": "https://www.diepresse.com/41310275/440-festnahmen-und-31-verletzte-bei-schuelerprotesten-in-frankreich",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
+              "title": "Russia strikes Kyiv energy infrastructure, kills 3, injures 6 in overnight attack on Ukraine's capital.",
+              "url": "https://kyivindependent.com/russian-ballistic-missiles-rock-kyiv-disrupt-electricity-as-multi-day-russian-attacks-on-capital-continue/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:28.024760+00:00"
+              "scraped_at_utc": "2026-09-30T13:06:44.166237+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8343530893325806,
+            "sim_to_centroid": 0.8782396912574768,
             "article": {
-              "title": "Schüler und Beamte protestieren gegen Sparkurs in Frankreich",
-              "url": "https://www.tagesschau.de/ausland/frankreich-proteste-schueler-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
+              "title": "Russian attacks kill at least 6, injure 34 across Ukraine as Kyiv faces another overnight missile, drone attack.",
+              "url": "https://kyivindependent.com/russian-attacks-kill-at-least-6-injure-34-across-ukraine-as-kyiv-faces-another-overnight-missile-drone-attack/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:19.211979+00:00"
+              "scraped_at_utc": "2026-09-30T13:06:44.166237+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8160382509231567,
+            "sim_to_centroid": 0.8605459928512573,
             "article": {
-              "title": "Frankrijk 440 mensen opgepakt tijdens scholierenprotest in Frankrijk",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/09/29/440-mensen-opgepakt-tijdens-scholierenprotest-in-frankrijk/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:42:03.419395+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7791698575019836,
-            "article": {
-              "title": "Fransa'da sokaklar karıştı! Halk ayaklandı: Grev başladı",
-              "url": "https://www.hurriyet.com.tr/dunya/fransada-sokaklar-karisti-halk-ayaklandi-grev-basladi-43323676",
-              "source_id": "hurriyet.com.tr",
+              "title": "Russian attacks on Kyiv region kill four people, target power grid",
+              "url": "https://www.aljazeera.com/news/2026/9/30/russian-attacks-on-ukraines-kyiv-region-kill-four-target-power-grid",
+              "source_id": "aljazeera.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:43:34.285401+00:00"
+              "scraped_at_utc": "2026-09-30T13:05:45.103687+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7787823677062988,
+            "sim_to_centroid": 0.8542866706848145,
             "article": {
-              "title": "國際 法國高中生抗議資源短缺課時過長 封鎖學校與警爆衝突",
-              "url": "https://www.cna.com.tw/news/aopl/202609290344.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
+              "title": "Russian drone hits Kyiv science academy as deadly strikes sweep Ukraine",
+              "url": "https://georgiatoday.ge/russian-drone-hits-kyiv-science-academy-as-deadly-strikes-sweep-ukraine/",
+              "source_id": "georgiatoday.ge",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:47:46.318852+00:00"
+              "scraped_at_utc": "2026-09-30T13:07:07.705330+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7716940641403198,
+            "sim_to_centroid": 0.8410599231719971,
             "article": {
-              "title": "French student protests fuel political clash ahead of 2027 presidential vote",
-              "url": "https://www.france24.com/en/france/20260928-french-student-protests-political-clash-presidential-vote",
-              "source_id": "france24.com",
-              "continent": "Europe South",
+              "title": "Intensifying Russian strikes on civilian targets across Ukraine",
+              "url": "https://www.channel4.com/news/intensifying-russian-strikes-on-civilian-targets-across-ukraine",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:42:00.156832+00:00"
+              "scraped_at_utc": "2026-09-30T13:02:57.302191+00:00"
             }
           }
         ]
       },
       {
-        "score": 19.19964587660893,
-        "size": 9,
-        "n_sources": 8,
+        "score": 14.388406728536328,
+        "size": 5,
+        "n_sources": 5,
         "n_continents": 3,
         "continents": [
-          "Europe East",
           "Europe North",
-          "Europe South"
+          "Europe South",
+          "North America"
         ],
-        "coherence": 0.8553676009178162,
-        "title": "Estland beschuldigt Rusland van brandstichting bij defensiebedrijf",
+        "coherence": 0.8916745185852051,
+        "title": "L’Américaine Christa Pike devrait être la première femme exécutée dans l’Etat du Tennessee depuis 200 ans",
         "central_article": {
-          "title": "Estland beschuldigt Rusland van brandstichting bij defensiebedrijf",
-          "url": "https://fd.nl/politiek/1613700/estland-beschuldigt-rusland-van-brandstichting-bij-defensiebedrijf",
-          "source_id": "fd.nl",
-          "continent": "Europe North",
+          "title": "L’Américaine Christa Pike devrait être la première femme exécutée dans l’Etat du Tennessee depuis 200 ans",
+          "url": "https://www.lemonde.fr/international/article/2026/09/30/l-americaine-christa-pike-devrait-etre-la-premiere-femme-executee-dans-l-etat-du-tennessee-depuis-200-ans_6785927_3210.html",
+          "source_id": "lemonde.fr",
+          "continent": "Europe South",
           "published_at": null,
-          "scraped_at_utc": "2026-09-29T22:41:17.282387+00:00"
+          "scraped_at_utc": "2026-09-30T13:03:57.522467+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9274255633354187,
+            "sim_to_centroid": 0.9405245780944824,
             "article": {
-              "title": "Estland beschuldigt Rusland van brandstichting bij defensiebedrijf",
-              "url": "https://fd.nl/politiek/1613700/estland-beschuldigt-rusland-van-brandstichting-bij-defensiebedrijf",
-              "source_id": "fd.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:17.282387+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9109798669815063,
-            "article": {
-              "title": "Estland wijst Rusland aan als dader van brandstichting bij bedrijf voor defensietechnologie",
-              "url": "https://www.nrc.nl/nieuws/2026/09/29/estland-wijst-rusland-aan-als-dader-van-brandstichting-bij-bedrijf-voor-defensietechnologie-a4937819",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:13.577189+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8968983888626099,
-            "article": {
-              "title": "Estonia blames Russia for arson at defence company supplying Ukraine",
-              "url": "https://www.bbc.com/news/articles/c6m27l4er4jxo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:02.039973+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8707278966903687,
-            "article": {
-              "title": "Estonia: Russia responsible for arson attack on defense contractor Milrem",
-              "url": "https://news.err.ee/1610151220/estonia-russia-responsible-for-arson-attack-on-defense-contractor-milrem",
-              "source_id": "news.err.ee",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:44:28.175957+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8626782894134521,
-            "article": {
-              "title": "Эстония обвинила спецслужбы России в поджоге здания оборонной компании Milrem Robotics в Таллинне",
-              "url": "https://meduza.io/news/2026/09/29/estoniya-obvinila-spetssluzhby-rossii-v-podzhoge-zdaniya-oboronnoy-kompanii-milrem-robotics-v-talline",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:44:15.432418+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8584266901016235,
-            "article": {
-              "title": "Rusland Estland beschuldigt Rusland van brandstichting bij defensiebedrijf dat drones levert aan Oekraïne",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/09/29/estland-sabotage-hybride-oorlog-rusland/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:42:03.419395+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8269987106323242,
-            "article": {
-              "title": "Эстония обвинила российские спецслужбы в поджоге здания Milrem Robotics 29 сентября",
-              "url": "https://novayagazeta.eu/articles/2026/09/29/estoniia-obvinila-rossiiskie-spetssluzhby-v-podzhoge-zdaniia-milrem-robotics-news",
-              "source_id": "novayagazeta.eu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:44:17.112739+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.812343955039978,
-            "article": {
-              "title": "L’Estonie accuse la Russie d’avoir commandité un « acte de sabotage » sur l’une de ses entreprises de drones",
-              "url": "https://www.lemonde.fr/international/article/2026/09/29/l-estonie-accuse-la-russie-d-avoir-commandite-un-acte-de-sabotage-sur-l-une-de-ses-entreprises-de-drones_6785650_3210.html",
+              "title": "L’Américaine Christa Pike devrait être la première femme exécutée dans l’Etat du Tennessee depuis 200 ans",
+              "url": "https://www.lemonde.fr/international/article/2026/09/30/l-americaine-christa-pike-devrait-etre-la-premiere-femme-executee-dans-l-etat-du-tennessee-depuis-200-ans_6785927_3210.html",
               "source_id": "lemonde.fr",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:41:55.302894+00:00"
+              "scraped_at_utc": "2026-09-30T13:03:57.522467+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7318289279937744,
+            "sim_to_centroid": 0.937279999256134,
             "article": {
-              "title": "russia's war in ukraine: latest from estonia",
-              "url": "https://news.err.ee/k/ukraine-latest",
-              "source_id": "news.err.ee",
-              "continent": "Europe East",
+              "title": "Quién es y qué crimen cometió Christa Pike, la primera mujer que será ejecutada en Tennessee en 200 años",
+              "url": "https://www.bbc.com/mundo/articles/c8wyz94xepz4o",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-09-29T22:44:28.175957+00:00"
+              "scraped_at_utc": "2026-09-30T13:04:22.720399+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9270724654197693,
+            "article": {
+              "title": "Il caso di Christa Pike, che oggi sarà giustiziata: è la prima condanna a morte di una donna in Tennessee negli ultimi 2 secoli",
+              "url": "https://www.corriere.it/esteri/26_settembre_30/christa-pike-condanna-morte-5c15e215-fe5e-462c-b089-c4f72df4exlk.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:04:19.810993+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8513480424880981,
+            "article": {
+              "title": "Mundo Christa Pike: Estado de EE. UU. ejecutará a una mujer por primera vez en 200 años",
+              "url": "https://www.crhoy.com/mundo/christa-pike-estado-de-ee-uu-ejecutara-a-una-mujer-por-primera-vez-en-200-anos/",
+              "source_id": "crhoy.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:04:30.645452+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8021476864814758,
+            "article": {
+              "title": "Christa Pike weigert laatste maaltijd voor executie in Tennessee",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5656305/christa-pike-weigert-laatste-maaltijd-voor-executie-tennessee",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-09-30T13:03:04.783146+00:00"
             }
           }
         ]
       }
     ],
-    "created_at_utc": "2026-09-29T23:09:32Z"
+    "created_at_utc": "2026-09-30T13:56:40Z"
   }
 ]
