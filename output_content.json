@@ -1,437 +1,1423 @@
 [
   {
-    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1791416069",
-    "n_items": 2415,
-    "n_clusters": 1998,
+    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1791470132",
+    "n_items": 2390,
+    "n_clusters": 2011,
     "clusters": [
       {
-        "score": 161.54986595730125,
-        "size": 35,
-        "n_sources": 33,
-        "n_continents": 7,
+        "score": 351.4391168333661,
+        "size": 47,
+        "n_sources": 44,
+        "n_continents": 10,
         "continents": [
           "China",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "Oceania",
-          "South America"
-        ],
-        "coherence": 0.8284792304039001,
-        "title": "Evicted 87-year-old woman Maricarmen, heart of Spain housing protests, is dead",
-        "central_article": {
-          "title": "Evicted 87-year-old woman Maricarmen, heart of Spain housing protests, is dead",
-          "url": "https://www.scmp.com/news/world/europe/article/3370103/evicted-87-year-old-woman-maricarmen-heart-spains-housing-protests-has-died?module=top_story&pgtype=homepage",
-          "source_id": "scmp.com",
-          "continent": "China",
-          "published_at": null,
-          "scraped_at_utc": "2026-10-07T23:26:10.488062+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9204702377319336,
-            "article": {
-              "title": "Evicted 87-year-old woman Maricarmen, heart of Spain housing protests, is dead",
-              "url": "https://www.scmp.com/news/world/europe/article/3370103/evicted-87-year-old-woman-maricarmen-heart-spains-housing-protests-has-died?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:26:10.488062+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9151756763458252,
-            "article": {
-              "title": "Espagne : Maricarmen, la retraitée à l’origine de la mobilisation sur le logement, est morte",
-              "url": "https://www.lesoir.be/775503/article/2026-10-07/espagne-maricarmen-la-retraitee-lorigine-de-la-mobilisation-sur-le-logement-est",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:31.042003+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.913590133190155,
-            "article": {
-              "title": "Muere Maricarmen Abascal, la anciana de 87 años cuyo desahucio provocó una ola de protestas en España por la crisis de la vivienda",
-              "url": "https://www.bbc.com/mundo/articles/c5djvg3nvj7yo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:44.606681+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.908100962638855,
-            "article": {
-              "title": "Evicted pensioner Maricarmen Abascal, heart of Spain's housing protests, dies",
-              "url": "https://www.france24.com/en/europe/20261007-evicted-pensioner-maricarmen-abascal-heart-of-spain-housing-protests-has-died",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:22.597367+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9010055661201477,
-            "article": {
-              "title": "Murió Maricarmen, la mujer de 87 años desahuciada en Madrid, España, que avivó las protestas",
-              "url": "https://www.eltiempo.com/mundo/europa/muere-maricarmen-la-mujer-de-87-anos-desahuciada-en-madrid-que-avivo-las-protestas-3591979",
-              "source_id": "eltiempo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:22:05.314897+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8956996202468872,
-            "article": {
-              "title": "Maricarmen dies at 87 after eviction sparked Spain housing protests",
-              "url": "https://www.aljazeera.com/news/2026/10/7/spanish-unions-call-general-strike-over-housing-before-snap-election",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:23:08.436154+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8870066404342651,
-            "article": {
-              "title": "Umrla je Maricarmen Abascal, katere prisilna izselitev je zanetila proteste",
-              "url": "https://www.delo.si/novice/svet/umrla-maricarmen-abascal-ki-je-po-prisilni-izselitvi-zanetila-mnozicne-proteste",
-              "source_id": "delo.si",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:24:15.124441+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8848413825035095,
-            "article": {
-              "title": "В Испании умерла 87-летняя Марикармен Абаскаль, выселение которой из квартиры вызвало массовые протесты",
-              "url": "https://meduza.io/news/2026/10/07/v-ispanii-umerla-87-letnyaya-marikarmen-abaskal-vyselenie-kotoroy-iz-kvartiry-vyzvalo-massovye-protesty",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:24:19.954409+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8824756145477295,
-            "article": {
-              "title": "Spagna, morta Maricarmen Abascal, la donna sfrattata che innescò la protesta per il diritto alla casa",
-              "url": "https://www.corriere.it/esteri/26_ottobre_07/spagna-morta-maricarmen-abascal-la-donna-che-innesco-la-protesta-per-la-casa-af8ac4e0-e217-4fb8-89d0-3a6a53294xlk.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:41.835474+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8757374286651611,
-            "article": {
-              "title": "Maricarmen a murit. Femeia a cărei evacuare din casă a declanșat proteste în toată Spania s-a stins în spital",
-              "url": "https://hotnews.ro/maricarmen-femeia-devenita-simbol-al-crizei-locuintelor-din-spania-a-murit-2370052",
-              "source_id": "hotnews.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:24:01.368311+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8691164255142212,
-            "article": {
-              "title": "Muere Maricarmen, la mujer que encendió la lucha contra los desahucios en España",
-              "url": "https://elpais.com/espana/2026-10-07/muere-maricarmen-la-mujer-que-encendio-la-lucha-contra-los-desahucios-en-espana.html",
-              "source_id": "elpais.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:32.448348+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8620174527168274,
-            "article": {
-              "title": "Boegbeeld van Spaanse woningprotesten Maricarmen Abascal (87) overleden",
-              "url": "https://nos.nl/artikel/2634066-boegbeeld-van-spaanse-woningprotesten-maricarmen-abascal-87-overleden",
-              "source_id": "nos.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:24.878327+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8574986457824707,
-            "article": {
-              "title": "Maricarmen, gezicht van wooncrisis Spanje, overleden op 87-jarige leeftijd",
-              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5657732/spanje-wooncrisis-maricarmen-overleden",
-              "source_id": "rtl.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:28.931548+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8557990193367004,
-            "article": {
-              "title": "Die 87-jährige Spanierin Maricarmen Abascal stirbt zwei Wochen nach Zwangsräumung",
-              "url": "https://www.nzz.ch/international/87-jaehrige-spanierin-maricarmen-abascal-stirbt-zwei-wochen-nach-zwangsraeumung-ld.10027615",
-              "source_id": "nzz.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:49.301708+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8554665446281433,
-            "article": {
-              "title": "Europa Maricarmen Abascal (87) overleden, hét symbool van de woningcrisis in Spanje",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/10/07/maricarmen-spanje-overleden/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:26.328665+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8493114709854126,
-            "article": {
-              "title": "Muere Maricarmen, símbolo de las reivindicaciones por la vivienda tras su desahucio en Madrid",
-              "url": "https://www.rtve.es/noticias/20261007/muere-maricarmen-simbolo-vivienda-desahuciada-casa-madrid/17257871.shtml",
-              "source_id": "rtve.es",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:36.740772+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8410950899124146,
-            "article": {
-              "title": "Evinden tahliyesi İspanya'yı ayağa kaldırmıştı: Maricarmen hayatını kaybetti",
-              "url": "https://www.cumhuriyet.com.tr/dunya/evinden-tahliyesi-ispanya-yi-ayaga-kaldirmisti-maricarmen-hayatini-kaybetti-2544690",
-              "source_id": "cumhuriyet.com.tr",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:23:41.224434+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8374058604240417,
-            "article": {
-              "title": "Morre Maricarmen, mulher que virou símbolo na Espanha após ser despejada",
-              "url": "https://oglobo.globo.com/mundo/noticia/2026/10/07/morre-maricarmen-mulher-que-virou-simbolo-da-crise-habitacional-na-espanha-apos-ser-despejada.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:22:16.734244+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8342217206954956,
-            "article": {
-              "title": "Zwangsgeräumte Spanierin Maricarmen ist gestorben",
-              "url": "https://www.zdfheute.de/politik/ausland/maricarmen-spanien-zwangsraeumung-tot-miete-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:45.443028+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8217334747314453,
-            "article": {
-              "title": "Ihre Delogierung löste Neuwahlen aus: Spanierin Maricarmen ist gestorben",
-              "url": "https://www.diepresse.com/41335811/ihre-delogierung-loeste-neuwahlen-aus-spanierin-maricarmen-ist-gestorben",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:42.860569+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8166172504425049,
-            "article": {
-              "title": "È morta Maricarmen, simbolo della protesta per il diritto alla casa. Aveva 87 anni |",
-              "url": "https://www.repubblica.it/esteri/2026/10/07/news/spagna_maricarmen_morta_sfratto_simbolo_lotta_casa-425632884/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:39.902728+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8120415806770325,
-            "article": {
-              "title": "Crise du logement en Espagne : l’octogénaire expulsée à l’origine du mouvement de protestation est morte",
-              "url": "https://www.lemonde.fr/international/article/2026/10/07/crise-du-logement-en-espagne-l-octogenaire-expulsee-a-l-origine-du-mouvement-de-protestation-est-morte_6789653_3210.html",
-              "source_id": "lemonde.fr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:16.040675+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8103548288345337,
-            "article": {
-              "title": "Espagne : la retraitée expulsée à l'origine du mouvement de protestation sur le logement est décédée",
-              "url": "https://www.rtbf.be/article/espagne-la-retraitee-expulsee-a-l-origine-du-mouvement-de-protestation-sur-le-logement-est-morte-11796671",
-              "source_id": "rtbf.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:29.129960+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8066826462745667,
-            "article": {
-              "title": "Muere Maricarmen, símbolo de la lucha antidesahucios",
-              "url": "https://www.lavanguardia.com/vida/20261007/11653690/muere-maricarmen-hospital-permanecia-ingresada-87-anos.html",
-              "source_id": "lavanguardia.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:34.102727+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7993296980857849,
-            "article": {
-              "title": "Morre Maricarmen Abascal, 87, que foi despejada na Espanha Retirada de idosa da moradia gerou protestos por todo o país e proposta de mudança na lei",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/10/morre-maricarmen-abascal-idosa-de-87-anos-que-foi-despejada-na-espanha.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:22:13.663831+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7896468639373779,
-            "article": {
-              "title": "Evicted octogenarian who sparked Spain's housing protests dies",
-              "url": "https://www.sbs.com.au/news/article/maricarmen-abascal-who-sparked-spains-housing-protests-has-died/6xgod4okk",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:22:54.453314+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.788251519203186,
-            "article": {
-              "title": "Muere la mujer cuyo desalojo desató las movilizaciones por la vivienda en España",
-              "url": "https://elcomercio.pe/mundo/espana/muere-maricarmen-abascal-la-mujer-de-87-anos-cuyo-desalojo-desato-las-movilizaciones-por-la-vivienda-en-espana-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:22:25.404293+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7873128652572632,
-            "article": {
-              "title": "Spanish pensioner whose eviction sparked protests dies",
-              "url": "https://www.abc.net.au/news/2026-10-08/spanish-pensioner-whose-eviction-sparked-protests-dies/107241352",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:22:53.156406+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.781965970993042,
-            "article": {
-              "title": "Pensionara din Spania care a fost evacuată din locuință a murit / Situația ei a provocat ample proteste privind prețurile la locuințe",
-              "url": "https://www.g4media.ro/pensionara-din-spania-care-a-fost-evacuata-din-locuinta-a-murit-situatia-ei-a-provocat-ample-proteste-privind-preturile-la-locuinte.html",
-              "source_id": "g4media.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:24:11.432356+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7529453635215759,
-            "article": {
-              "title": "Maricarmen Abascal (87), het gezicht van de gekte op de woningmarkt, bracht Spanje op de been",
-              "url": "https://www.nrc.nl/nieuws/2026/10/07/maricarmen-abascal-87-het-gezicht-van-de-gekte-op-de-woningmarkt-bracht-spanje-op-de-been-a4938473",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:26.875636+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.752440333366394,
-            "article": {
-              "title": "Den 87-årige kvinde blev ansigtet på Spaniens store krise. Nu er hun død",
-              "url": "https://politiken.dk/internationalt/art11013564/Den-87-%C3%A5rige-kvinde-blev-ansigtet-p%C3%A5-Spaniens-store-krise.-Nu-er-hun-d%C3%B8d",
-              "source_id": "politiken.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:53.759819+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7517199516296387,
-            "article": {
-              "title": "Maricarmen Abascal är död",
-              "url": "https://www.dn.se/direkt/2026-10-07/maricarmen-abascal-ar-dod/",
-              "source_id": "dn.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:55.698750+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7127619981765747,
-            "article": {
-              "title": "В Испании умерла женщина, чье выселение из квартиры вызвало волну протестов Вчера,",
-              "url": "https://ria.ru/20261007/ispaniya-2123045603.html",
-              "source_id": "ria.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:24:35.482735+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6939399242401123,
-            "article": {
-              "title": "Fernando Sanchez/TT Maricarmen Abascal, 87, är död Vräkningen slutade med spanskt nyval.",
-              "url": "https://www.dn.se/varlden/maricarmen-abascal-ar-dod-vrakningen-utloste-nyval/",
-              "source_id": "dn.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:55.698750+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6729907989501953,
-            "article": {
-              "title": "Maricarmen Abascal, el rostro del clamor social por la vivienda que desencadenó un adelanto electoral",
-              "url": "https://www.rtve.es/noticias/20261007/maricarmen-abascal-rostro-vivienda-adelanto-elecciones/17257879.shtml",
-              "source_id": "rtve.es",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:36.740772+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 95.75892526875373,
-        "size": 25,
-        "n_sources": 19,
-        "n_continents": 8,
-        "continents": [
-          "Africa",
+          "East Asia",
           "Europe East",
           "Europe North",
           "Europe South",
           "Middle East",
           "North America",
           "Oceania",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.8550523519515991,
+        "title": "Anne Carson, autora canadiense, gana el Premio Nobel de Literatura",
+        "central_article": {
+          "title": "Anne Carson, autora canadiense, gana el Premio Nobel de Literatura",
+          "url": "https://www.nacion.com/viva/anne-carson-autora-canadiense-gana-el-premio-nobel/X626KYHTABDVTCTXRBCUD7BQNI/story/",
+          "source_id": "nacion.com",
+          "continent": "North America",
+          "published_at": null,
+          "scraped_at_utc": "2026-10-08T14:06:24.902415+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9398751258850098,
+            "article": {
+              "title": "Anne Carson, autora canadiense, gana el Premio Nobel de Literatura",
+              "url": "https://www.nacion.com/viva/anne-carson-autora-canadiense-gana-el-premio-nobel/X626KYHTABDVTCTXRBCUD7BQNI/story/",
+              "source_id": "nacion.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:24.902415+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.939388632774353,
+            "article": {
+              "title": "Canadian poet and essayist Anne Carson wins Nobel Prize in literature",
+              "url": "https://www.chicagotribune.com/2026/10/08/nobel-prize-literature/",
+              "source_id": "chicagotribune.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:10:33.134772+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.939388632774353,
+            "article": {
+              "title": "Canadian poet and essayist Anne Carson wins Nobel Prize in literature",
+              "url": "https://www.koreaherald.com/article/10897567",
+              "source_id": "koreaherald.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:12:35.405887+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9383324384689331,
+            "article": {
+              "title": "Anne Carson aus Kanada gewinnt Nobelpreis für Literatur",
+              "url": "https://www.zdfheute.de/panorama/nobelpreis-literatur-anne-carson-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:05:18.561825+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9332665205001831,
+            "article": {
+              "title": "Canada's Anne Carson wins Nobel literature prize",
+              "url": "https://www.bangkokpost.com/world/3333633/canadas-anne-carson-wins-nobel-literature-prize",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:12:42.847384+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9299523234367371,
+            "article": {
+              "title": "Canadian poet and writer Anne Carson wins 2026 Nobel Prize in Literature",
+              "url": "https://www.abc.net.au/news/2026-10-08/canadian-writer-anne-carson-wins-2026-nobel-prize-in-literature/107245306",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:07:22.795213+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9252302646636963,
+            "article": {
+              "title": "Canadian poet Anne Carson wins 2026 Nobel Prize in Literature",
+              "url": "https://www.euronews.com/2026/10/08/canadian-poet-anne-carson-wins-2026-nobel-prize-in-literature",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:04:52.957998+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9249269962310791,
+            "article": {
+              "title": "Literaturnobelpreis geht an Kanadierin Anne Carson",
+              "url": "https://www.tagesschau.de/kultur/literatur-nobelpreis-116.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:05:03.555963+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9208085536956787,
+            "article": {
+              "title": "Canadian Anne Carson wins 2026 Nobel Prize in Literature",
+              "url": "https://www.aljazeera.com/news/2026/10/8/canadian-anne-carson-wins-2026-nobel-prize-in-literature",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:07:38.369982+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9178191423416138,
+            "article": {
+              "title": "Anne Carson gana el Nobel de Literatura",
+              "url": "https://www.lavanguardia.com/cultura/20261008/11653921/premio-nobel-literatura-anne-carson.html",
+              "source_id": "lavanguardia.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:09.384173+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9173322916030884,
+            "article": {
+              "title": "Anne Carson gana el Premio Nobel de Literatura",
+              "url": "https://elpais.com/cultura/2026-10-08/premio-nobel-de-literatura.html",
+              "source_id": "elpais.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:07.947180+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9132886528968811,
+            "article": {
+              "title": "Gana Anne Carson el Nobel de Literatura",
+              "url": "https://www.reforma.com/gana-anne-carson-el-nobel-de-literatura/ar3290621?v=5",
+              "source_id": "reforma.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:21.915994+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9113837480545044,
+            "article": {
+              "title": "Nobel Prize in Literature awarded to Canada’s Anne Carson",
+              "url": "https://www.france24.com/en/europe/20261008-nobel-prize-in-literature-awarded-to-canada-anne-carson",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:05:58.708013+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.905512273311615,
+            "article": {
+              "title": "Anne Carson wins Nobel Prize in Literature 2026",
+              "url": "https://www.irishtimes.com/culture/books/2026/10/08/anne-carson-wins-nobel-prize-in-literature-2026/",
+              "source_id": "irishtimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:07:37.044803+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9054348468780518,
+            "article": {
+              "title": "Anne Carson wins Nobel prize in literature 2026",
+              "url": "https://www.theguardian.com/books/2026/oct/08/wins-the-nobel-prize-in-literature-2026",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:04:49.023433+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9041855931282043,
+            "article": {
+              "title": "La canadiense Anne Carson, Premio Nobel de Literatura 2026",
+              "url": "https://www.14ymedio.com/internacional/canadiense-anne-carson-premio-nobel_1_1131683.html",
+              "source_id": "14ymedio.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:23.466698+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.900327205657959,
+            "article": {
+              "title": "Otorgan el Premio Nobel de Literatura a la poeta canadiense, Anne Carson",
+              "url": "https://www.semana.com/mundo/articulo/otorgan-el-premio-nobel-de-literatura-a-la-poeta-canadiense-anne-carson/202655/",
+              "source_id": "semana.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:37.662866+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8995958566665649,
+            "article": {
+              "title": "\"Por su audaz e inventiva obra\": Canadiense Anne Carson gana el Premio Nobel de Literatura 2026",
+              "url": "https://www.emol.com/noticias/Espectaculos/2026/10/08/1213579/anne-carson-nobel-literatura-2026.html",
+              "source_id": "emol.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:45.126288+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8960869312286377,
+            "article": {
+              "title": "2026-ųjų Nobelio literatūros premija paskirta kanadiečių rašytojai Anne Carson",
+              "url": "https://www.lrt.lt/naujienos/kultura/12/3076135/2026-uju-nobelio-literaturos-premija-paskirta-kanadieciu-rasytojai-anne-carson",
+              "source_id": "lrt.lt",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:09:10.550564+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.895693302154541,
+            "article": {
+              "title": "‘Bold and inventive’: Canada’s Anne Carson wins Nobel Prize in Literature",
+              "url": "https://www.scmp.com/news/world/united-states-canada/article/3370205/canadas-anne-carson-wins-2026-nobel-prize-literature?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:10:38.109248+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8861099481582642,
+            "article": {
+              "title": "Le prix Nobel de littérature 2026 est attribué à l'autrice Anne Carson",
+              "url": "https://www.rtbf.be/article/le-prix-nobel-de-litterature-2026-est-attribue-a-l-autrice-anne-carson-11796313",
+              "source_id": "rtbf.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:04.959833+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8826096057891846,
+            "article": {
+              "title": "Нобелевскую премию по литературе получила канадская писательница Энн Карсон",
+              "url": "https://www.kommersant.ru/doc/9009095",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:09:02.050125+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8826096057891846,
+            "article": {
+              "title": "Нобелевскую премию по литературе получила канадская писательница Энн Карсон",
+              "url": "https://ria.ru/20261008/premiya-2123191368.html",
+              "source_id": "ria.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:09:06.581633+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8777095675468445,
+            "article": {
+              "title": "Nobelova nagrada za literaturo v roke Anne Carson",
+              "url": "https://www.delo.si/kultura/knjiga/komu-bo-pripadla-nobelova-nagrada-za-literaturo",
+              "source_id": "delo.si",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:08:49.861653+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8769581913948059,
+            "article": {
+              "title": "Quién es Anne Carson, la poeta canadiense que obtuvo el Nobel de Literatura 2026 \"por su obra audaz e inventiva\"",
+              "url": "https://www.bbc.com/mundo/articles/ckm23l8gpvr2o",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:20.636472+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8768273591995239,
+            "article": {
+              "title": "Лауреатом Нобелевской премии по литературе стала канадская писательница Энн Карсон",
+              "url": "https://meduza.io/news/2026/10/08/laureatom-nobelevskoy-premii-po-literature-stala-kanadskaya-pisatelnitsa-enn-karson",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:08:54.859651+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.87649005651474,
+            "article": {
+              "title": "La canadiense Anne Carson, Premio Nobel de Literatura 2026. ( Toni Albir | EFE )",
+              "url": "https://www.laestrella.com.pa/mundo/anne-carson-premio-nobel-de-literatura-2026-biografia-principales-obras-y-trayectoria-GG26318916",
+              "source_id": "laestrella.com.pa",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:32.875906+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8700165152549744,
+            "article": {
+              "title": "Anne Carson, Premio Nobel de Literatura 2026",
+              "url": "https://www.rtve.es/noticias/20261008/premio-nobel-literatura-2026-directo-cronica/17258339.shtml",
+              "source_id": "rtve.es",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:12.050756+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8545418977737427,
+            "article": {
+              "title": "Nobelprijzen Canadese Anne Carson (76) krijgt Nobelprijs voor literatuur voor haar \"speelse dialoog met de klassieke traditie\"",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/10/08/anne-carson-nobel-prijs-literatuur-2026/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:02.246327+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8485910892486572,
+            "article": {
+              "title": "Tiene 76 años. El Premio Nobel de Literatura 2026 fue para la escritora canadiense Anne Carson",
+              "url": "https://www.lanacion.com.ar/cultura/el-premio-nobel-de-literatura-2026-fue-para-la-autora-canadiense-anne-carson-nid08102026/",
+              "source_id": "lanacion.com.ar",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:34.882578+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8460264801979065,
+            "article": {
+              "title": "Нобелевскую премию по литературе 2026 года получила Энн Карсон",
+              "url": "https://tengrinews.kz/world_news/nobelevskuyu-premiyu-literature-2026-goda-poluchila-enn-610398/",
+              "source_id": "tengrinews.kz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:09:17.859505+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8384214043617249,
+            "article": {
+              "title": "Nobelpreis 2026 Der Literaturnobelpreis geht an Anne Carson Die kanadische Schriftstellerin Anne Carson wird für ihr «kühnes und erfinderisches Werk» ausgezeichnet.",
+              "url": "https://www.srf.ch/kultur/literatur/nobelpreis-2026-der-literaturnobelpreis-geht-an-anne-carson",
+              "source_id": "srf.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:05:25.213860+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8331191539764404,
+            "article": {
+              "title": "Kanadierin Anne Carson erhält Literaturnobelpreis: Ein oft kryptisches Werk, betörend schön",
+              "url": "https://www.diepresse.com/41336539/kanadierin-anne-carson-erhaelt-literaturnobelpreis-ein-oft-kryptisches-werk-betoerend-schoen",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:05:16.101769+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8328357934951782,
+            "article": {
+              "title": "Premiul Nobel pentru Literatură a fost câștigat în 2026 de Anne Carson, unul dintre marii favoriți",
+              "url": "https://hotnews.ro/premiul-nobel-pentru-literatura-a-fost-castigat-in-2026-de-anne-carson-2370549",
+              "source_id": "hotnews.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:08:35.781804+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8304443955421448,
+            "article": {
+              "title": "Nobelprijzen \"Ze wordt geroemd voor haar gedurfde en vernieuwende stijl\": Anne Carson wint Nobelprijs Literatuur",
+              "url": "https://www.vrt.be/vrtnws/nl/kijk/2026/10/08/joris-vergeyle-zo-wordt-geroemd-voor-haar-gedurfde-en-vernieuw/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:02.246327+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8077856302261353,
+            "article": {
+              "title": "Anne Carson, la introvertida poeta que por años evadió las entrevistas y acaba de ganar el Nobel de Literatura 2026",
+              "url": "https://www.eltiempo.com/cultura/musica-y-libros/anne-carson-la-introvertida-y-reservada-poeta-que-por-anos-evadio-las-entrevistas-y-acaba-de-ganar-el-nobel-de-literatura-3592149",
+              "source_id": "eltiempo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:36.249641+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7937246561050415,
+            "article": {
+              "title": "Новости Культура Лауреатом Нобелевской премии по литературе стала канадская писательница Энн Карсон 8 октября",
+              "url": "https://novayagazeta.eu/articles/2026/10/08/laureatom-nobelevskoi-premii-po-literature-stala-kanadskaia-pisatelnitsa-enn-karson-news",
+              "source_id": "novayagazeta.eu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:08:56.109250+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.787382185459137,
+            "article": {
+              "title": "ノーベル文学賞が決まる カナダの詩人アン・カーソンさん",
+              "url": "https://www.asahi.com/articles/ASVB81QR6VB8UCVL00HM.html?iref=comtop_7_05",
+              "source_id": "asahi.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:12:28.108458+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7750118374824524,
+            "article": {
+              "title": "Nobelprijs voor Canadese dichter en hoogleraar klassieke talen Anne Carson Carson vertaalde veel klassieke Griekse literatuur",
+              "url": "https://nos.nl/artikel/2634134-nobelprijs-voor-canadese-dichter-en-hoogleraar-klassieke-talen-anne-carson",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:04:55.605950+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7608761787414551,
+            "article": {
+              "title": "कनाडा की ऐन कार्सन को साहित्य का नोबेल, लेखन की अनूठी शैली ने दिलाया सर्वोच्च सम्मान",
+              "url": "https://www.jagran.com/world/other-anne-carson-announced-as-2026-nobel-literature-laureate-40398503.html",
+              "source_id": "jagran.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:11:14.425822+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7484704852104187,
+            "article": {
+              "title": "Pontus Lundahl/TT Anne Carson: ”Galet, de är alla galna” Kanadensiska poeten är årets Nobelpristagare.",
+              "url": "https://www.dn.se/kultur/nu-presenteras-nobelpriset-i-litteratur-2026/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:05:29.169260+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7453227043151855,
+            "article": {
+              "title": "সাহিত্যে নোবেল ২০২৬ ভাষার চেনা ছক ভেঙেছেন অ্যান কারসন",
+              "url": "https://www.prothomalo.com/onnoalo/others/3vl00n6682",
+              "source_id": "prothomalo.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:11:37.738459+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7248966693878174,
+            "article": {
+              "title": "Biblioteca imprescindible. Cinco libros para conocer a Anne Carson, la ganadora del Premio Nobel de Literatura Por Daniel Gigena",
+              "url": "https://www.lanacion.com.ar/cultura/cinco-libros-para-conocer-a-anne-carson-la-ganadora-del-premio-nobel-de-literatura-nid08102026/",
+              "source_id": "lanacion.com.ar",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:34.882578+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7232036590576172,
+            "article": {
+              "title": "与古典传统展开妙趣横生的对话，加拿大诗人安妮·卡森获诺贝尔文学奖",
+              "url": "https://www.caixin.com/2026-10-08/102491265.html",
+              "source_id": "caixin.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:10:52.840977+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7084174156188965,
+            "article": {
+              "title": "加拿大作家卡森摘諾貝爾文學獎 作品大膽具獨創性",
+              "url": "https://www.cna.com.tw/news/aopl/202610080338.aspx",
+              "source_id": "cna.com.tw",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:12:53.112454+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6738466620445251,
+            "article": {
+              "title": "• Fem snabba fakta om poeten Anne Carson",
+              "url": "https://www.dn.se/kultur/fem-snabba-fakta-om-anne-carson/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:05:29.169260+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6673805713653564,
+            "article": {
+              "title": "Nobel Edebiyat Ödülü sahibini buldu",
+              "url": "https://www.hurriyet.com.tr/gundem/nobel-edebiyat-odulu-sahibini-buldu-43334040",
+              "source_id": "hurriyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:08:09.075360+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 166.7993993227138,
+        "size": 34,
+        "n_sources": 32,
+        "n_continents": 8,
+        "continents": [
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "Oceania",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.8143228888511658,
+        "title": "Russian attack on buses in Ukraine’s Kramatorsk kills at least 30 people",
+        "central_article": {
+          "title": "Russian attack on buses in Ukraine’s Kramatorsk kills at least 30 people",
+          "url": "https://www.aljazeera.com/news/2026/10/8/russia-attack-in-ukraines-kramatorsk-kills-12",
+          "source_id": "aljazeera.com",
+          "continent": "Middle East",
+          "published_at": null,
+          "scraped_at_utc": "2026-10-08T14:07:38.369982+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9278990030288696,
+            "article": {
+              "title": "Russian attack on buses in Ukraine’s Kramatorsk kills at least 30 people",
+              "url": "https://www.aljazeera.com/news/2026/10/8/russia-attack-in-ukraines-kramatorsk-kills-12",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:07:38.369982+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9037550687789917,
+            "article": {
+              "title": "Mindestens 30 Tote bei russischen Angriffen auf Busse in der Ukraine",
+              "url": "https://www.tagesschau.de/ausland/europa/ukraine-bus-kramatorsk-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:05:03.555963+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.894074022769928,
+            "article": {
+              "title": "Zeker dertig doden bij Russische aanval op bus bij Oekraïense stad Kramatorsk",
+              "url": "https://www.nrc.nl/nieuws/2026/10/08/zeker-dertig-doden-bij-russische-aanval-op-bus-bij-oekrainse-stad-kramatorsk-a4938526",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:04:57.373712+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.893741250038147,
+            "article": {
+              "title": "Ataque ruso contra dos autobuses deja 30 muertos en Kramatorsk, Ucrania",
+              "url": "https://www.elespectador.com/mundo/europa/ataque-ruso-contra-dos-autobuses-deja-30-muertos-en-kramatorsk-ucrania/",
+              "source_id": "elespectador.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:59.283310+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8919839859008789,
+            "article": {
+              "title": "More than 30 killed in Russian strike on buses in Ukraine's Kramatorsk as Kyiv targets data centre",
+              "url": "https://www.france24.com/en/europe/20261008-russian-strike-buses-kills-at-least-12-ukraine-kramatorsk-kyiv-targets-data-centre",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:05:58.708013+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8766089677810669,
+            "article": {
+              "title": "Russian attack on bus stop kills at least 33 in Ukraine, officials say",
+              "url": "https://www.abc.net.au/news/2026-10-08/ukraine-russia-bus-stop-strike-attack-bomb/107245320",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:07:22.795213+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8685678243637085,
+            "article": {
+              "title": "Bombardeo ruso contra dos buses deja al menos 30 muertos en el este de Ucrania",
+              "url": "https://www.emol.com/noticias/Internacional/2026/10/08/1213597/bombardeo-ruso-buses-ucrania-muertos.html",
+              "source_id": "emol.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:45.126288+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8639569878578186,
+            "article": {
+              "title": "At least 33 dead after Russian glide bomb strikes Kramatorsk buses.",
+              "url": "https://kyivindependent.com/at-least-12-dead-after-russian-glide-bomb-strikes-kramatorsk-bus-stop/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:08:53.426168+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8593165874481201,
+            "article": {
+              "title": "Al menos 33 muertos en un ataque ruso con bomba planeadora contra un bus de pasajeros en Ucrania",
+              "url": "https://www.lavanguardia.com/internacional/20261008/11654097/una-bomba-planeadora-rusa-causa-12-muertos-al-alcanzar-un-autobus-en-kramatorsk.html",
+              "source_id": "lavanguardia.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:09.384173+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8473490476608276,
+            "article": {
+              "title": "Ukraina: Dödssiffran stiger – minst 33 dödade i bussattack Rysk blodig attack i Kramatorsk • Flera skadade",
+              "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=69247817f0b314b0c29e3cdde5d94b4e",
+              "source_id": "svt.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:05:35.263428+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8449409008026123,
+            "article": {
+              "title": "Une bombe russe contre deux bus fait au moins 30 morts dans la ville ukrainienne de Kramatorsk Guerre en Ukraine aujourd'hui à",
+              "url": "https://www.rts.ch/info/monde/2026/article/guerre-en-ukraine-30-morts-dans-une-frappe-a-kramatorsk-29379987.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:00.464634+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8429228067398071,
+            "article": {
+              "title": "At least 30 killed after Russian strike hits two buses in Donetsk",
+              "url": "https://www.euronews.com/2026/10/08/at-least-12-killed-and-19-injured-after-russian-strike-hits-buses-in-donetsk",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:04:52.957998+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8388517498970032,
+            "article": {
+              "title": "Russia Kills 30 in Kramatorsk Bus Strike as Donetsk Orders Public Transport Halt",
+              "url": "https://www.kyivpost.com/post/86445",
+              "source_id": "kyivpost.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:08:51.809690+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8259260058403015,
+            "article": {
+              "title": "Russische glijbom raakt passagiersbussen in Oekraïne, meer dan dertig doden",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5657815/zeker-30-doden-bij-aanval-op-bus-oekraine",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:04:59.274717+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8225022554397583,
+            "article": {
+              "title": "Raid russo a Kramatorsk su due bus, oltre 30 morti. “Volevano uccidere civili” |",
+              "url": "https://www.repubblica.it/esteri/2026/10/08/news/raid_russo_kramatorsk_morti_strage_guerra_russia_ucraina-425634442/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:15.034969+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8140158653259277,
+            "article": {
+              "title": "Guerra da Ucrânia Ônibus incendiado após ataque aéreo contra a cidade de Kramatorsk, na Ucrânia; ao menos 33 morreram e outros 14 ficam feridos - National Police of Ukraine/via Reuters",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/10/ataque-russo-contra-onibus-mata-12-na-ucrania-dizem-autoridades.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:47.763081+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8138737678527832,
+            "article": {
+              "title": "Zahl der Opfer nach Angriffen auf Busse in der Ukraine auf 33 gestiegen",
+              "url": "https://www.diepresse.com/41338487/zahl-der-opfer-nach-angriffen-auf-busse-in-der-ukraine-auf-33-gestiegen",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:05:16.101769+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8091063499450684,
+            "article": {
+              "title": "Angriff auf Kramatorsk Viele Opfer bei russischer Attacke auf ukrainischen Bus",
+              "url": "https://www.spiegel.de/ausland/ukraine-krieg-bus-bei-angriff-getroffen-ukraine-meldet-zwoelf-tote-a-5f12af1b-7296-4a52-b439-e828cfcd2a5e",
+              "source_id": "spiegel.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:05:06.429492+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8087543249130249,
+            "article": {
+              "title": "В Краматорске в результате российского удара сгорели два автобуса. Погибли 33 человека",
+              "url": "https://meduza.io/news/2026/10/08/v-kramatorske-v-rezultate-rossiyskogo-udara-sgoreli-dva-avtobusa-pogibli-33-cheloveka",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:08:54.859651+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7983226776123047,
+            "article": {
+              "title": "Russian strikes on Ukraine leave 30 dead as blackouts worsen in Kyiv",
+              "url": "https://www.theglobeandmail.com/world/article-russian-strikes-on-ukraine/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:07:21.142444+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7920660376548767,
+            "article": {
+              "title": "At least 32 dead in Russia's 'most vile' strikes on Ukraine",
+              "url": "https://www.sbs.com.au/news/article/russian-strikes-on-ukraine-kill-at-least-25-in-a-major-attack/vye3uk52v",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:07:25.336879+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7890117168426514,
+            "article": {
+              "title": "Zeker dertig doden bij Russische aanvallen op Oekraïense stad bij frontlinie",
+              "url": "https://nos.nl/artikel/2634129-zeker-dertig-doden-bij-russische-aanvallen-op-oekraiense-stad-bij-frontlinie",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:04:55.605950+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7870596647262573,
+            "article": {
+              "title": "Russian strikes kill at least 10, injure 45 across Ukraine over past day.",
+              "url": "https://kyivindependent.com/russian-strikes-kill-at-least-10-injure-45-across-ukraine-over-past-day/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:08:53.426168+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7843958139419556,
+            "article": {
+              "title": "Новости Война в Украине Россия сбросила авиабомбу на остановку общественного транспорта в Краматорске. Больше 30 человек погибли, 18 пострадали Новая газета Европа 8 октября",
+              "url": "https://novayagazeta.eu/articles/2026/10/08/rossiia-sbrosila-aviabombu-na-kramatorsk-minimum-12-chelovek-pogibli-news",
+              "source_id": "novayagazeta.eu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:08:56.109250+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7809309363365173,
+            "article": {
+              "title": "At least 32 killed in Ukraine, Zelenskiy condemns one of Russia’s most ‘vile strikes’",
+              "url": "https://kathmandupost.com/world/2026/10/08/at-least-32-killed-in-ukraine-zelenskiy-condemns-one-of-russia-s-most-vile-strikes",
+              "source_id": "kathmandupost.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:11:46.977867+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7803657054901123,
+            "article": {
+              "title": "Funke Mediengruppe Live Ukraine-Newsblog Russen-Drohnen sprengen Bus in der Ukraine – 30 Menschen tot",
+              "url": "https://www.abendblatt.de/politik/article412317251/ukraine-krieg-russland-news-aktuell-putin-kiew-angriff-oeltanker-schwarzes-meer.html",
+              "source_id": "abendblatt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:05:20.561648+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7733919024467468,
+            "article": {
+              "title": "‘Targets of terror’: Russia kills 30 in single strike in Donbas",
+              "url": "https://www.politico.eu/article/russia-kills-30-civilians-single-strike-donbas-ukraine/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:04:54.382521+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7628921270370483,
+            "article": {
+              "title": "Sofiia Gatilova / REUTERS,NTB Guvernør: 30 drept i russisk bussangrep i Ukraina Krigen i Ukraina Følg saken",
+              "url": "https://www.nrk.no/nyheter/krigen-i-ukraina-1.11480927",
+              "source_id": "nrk.no",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:05:36.703950+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7604727745056152,
+            "article": {
+              "title": "Russian Bomb Kills 33 at Bus Stop in Kramatorsk Another 18 people were wounded in one of the largest single attacks this year.",
+              "url": "https://www.themoscowtimes.com/2026/10/08/russian-bomb-kills-33-in-street-in-kramatorsk-a93921",
+              "source_id": "themoscowtimes.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:08:57.614906+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7575923204421997,
+            "article": {
+              "title": "Russian bomb kills 33 civilians in Ukraine, as Rubio warns of ‘dangerous’ stalemate",
+              "url": "https://www.smh.com.au/world/europe/russian-bomb-kills-33-in-street-in-east-ukraine-stronghold-20261008-p6142b.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:07:26.725255+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7563107013702393,
+            "article": {
+              "title": "Russian bomb kills 33 in street in east Ukraine stronghold",
+              "url": "https://www.newarab.com/news/russian-bomb-kills-33-street-east-ukraine-stronghold",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:08:14.978816+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7412614822387695,
+            "article": {
+              "title": "Al menos 12 muertos y 13 heridos por una bomba aérea rusa sobre Kramatorsk",
+              "url": "https://www.14ymedio.com/internacional/12-muertos-13-heridos-bomba_1_1131676.html",
+              "source_id": "14ymedio.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:23.466698+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6924360990524292,
+            "article": {
+              "title": "Последствия удара по рейсовым автобусам в Краматорске. Фотографии Осторожно: это страшные кадры",
+              "url": "https://meduza.io/feature/2026/10/08/posledstviya-udara-po-reysovym-avtobusam-v-kramatorske-fotografii",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:08:54.859651+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6823198795318604,
+            "article": {
+              "title": "Kramatorsk, Ukraina Kramatorsk, Ukraina Verden Krigen i Ukraina De tok bussen til jobben. Så angrep russerne.",
+              "url": "https://www.aftenposten.no/verden/i/9kkvnp/krigen-i-ukraina-33-drept-i-russisk-angrep-mot-kramatorsk",
+              "source_id": "aftenposten.no",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:05:30.656888+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 54.39499921178075,
+        "size": 14,
+        "n_sources": 13,
+        "n_continents": 7,
+        "continents": [
+          "Africa",
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Oceania",
           "South America"
         ],
-        "coherence": 0.807590663433075,
+        "coherence": 0.7970825433731079,
+        "title": "Evicted pensioner Maricarmen, symbol of Spain's housing crisis, dies at 87",
+        "central_article": {
+          "title": "Evicted pensioner Maricarmen, symbol of Spain's housing crisis, dies at 87",
+          "url": "https://www.france24.com/en/tv-shows/press-review/20261008-evicted-pensioner-maricarmen-symbol-of-spain-s-housing-crisis-dies-at-87",
+          "source_id": "france24.com",
+          "continent": "Europe South",
+          "published_at": null,
+          "scraped_at_utc": "2026-10-08T14:05:58.708013+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9228005409240723,
+            "article": {
+              "title": "Evicted pensioner Maricarmen, symbol of Spain's housing crisis, dies at 87",
+              "url": "https://www.france24.com/en/tv-shows/press-review/20261008-evicted-pensioner-maricarmen-symbol-of-spain-s-housing-crisis-dies-at-87",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:05:58.708013+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9134546518325806,
+            "article": {
+              "title": "In Spagna muore Maricarmen, la donna sfrattata a 87 anni che innescò la protesta per il diritto alla casa",
+              "url": "https://www.corriere.it/esteri/26_ottobre_07/spagna-morta-maricarmen-abascal-la-donna-che-innesco-la-protesta-per-la-casa-af8ac4e0-e217-4fb8-89d0-3a6a53294xlk.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:17.220780+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8755537271499634,
+            "article": {
+              "title": "Muere Maricarmen Abascal, la anciana de 87 años cuyo desalojo provocó una ola de protestas en España por la crisis de la vivienda",
+              "url": "https://www.bbc.com/mundo/articles/c5djvg3nvj7yo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:20.636472+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8684064149856567,
+            "article": {
+              "title": "87-year-old Maricarmen dies in hospital after infamous eviction ordeal",
+              "url": "https://www.euronews.com/2026/10/08/maricarmen-the-87-year-old-woman-whose-eviction-triggered-major-protests-has-died-in-hospi",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:04:52.957998+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8579484224319458,
+            "article": {
+              "title": "Maricarmen, devenue le visage des locataires expulsés en Espagne, meurt à 87 ans Monde",
+              "url": "https://www.rts.ch/info/monde/2026/article/espagne-deces-de-maricarmen-symbole-de-la-crise-du-logement-29379422.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:00.464634+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7954599261283875,
+            "article": {
+              "title": "وفاة ماريكارمن .. من \"شقة العمر\" إلى قلب أحد أكبر الأزمات في إسبانيا",
+              "url": "https://www.hespress.com/%d9%88%d9%81%d8%a7%d8%a9-%d9%85%d8%a7%d8%b1%d9%8a%d9%83%d8%a7%d8%b1%d9%85%d9%86-%d9%85%d9%86-%d8%b4%d9%82%d8%a9-%d8%a7%d9%84%d8%b9%d9%85%d8%b1-%d8%a5%d9%84%d9%89-%d9%82%d9%84%d8%a8-%d8%a3%d8%ad-1819534.html",
+              "source_id": "hespress.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:10:01.207059+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7803329229354858,
+            "article": {
+              "title": "Elderly Spanish housing protest icon dies after forced eviction",
+              "url": "https://www.rt.com/news/646926-elderly-spanish-housing-protest-icon-dies/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:09:00.295905+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7697076201438904,
+            "article": {
+              "title": "Las imágenes que inmortalizan a Maricarmen como el icono de la lucha por el derecho a la vivienda",
+              "url": "https://www.rtve.es/noticias/20261008/maricarmen-abascal-fotos-lucha-vivienda/17258044.shtml",
+              "source_id": "rtve.es",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:12.050756+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.766916811466217,
+            "article": {
+              "title": "Spanish woman whose eviction sparked mass housing protests dies weeks later",
+              "url": "https://www.japantimes.co.jp/news/2026/10/08/world/society/spanish-woman-eviction-protests-dead/",
+              "source_id": "japantimes.co.jp",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:12:25.909600+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7646434903144836,
+            "article": {
+              "title": "Evicted octogenarian who sparked Spain's housing protests dies",
+              "url": "https://www.sbs.com.au/news/article/maricarmen-abascal-who-sparked-spains-housing-protests-has-died/6xgod4okk",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:07:25.336879+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7259014844894409,
+            "article": {
+              "title": "El Sindicato de Inquilinas convoca una marcha y un minuto de silencio por Maricarmen",
+              "url": "https://www.rtve.es/noticias/20261008/muerte-maricarmen-ultima-hora-directo-hoy-video-cronica/17257990.shtml",
+              "source_id": "rtve.es",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:12.050756+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7174870371818542,
+            "article": {
+              "title": "\"Lo que le pasó desgasta a cualquiera\": Indignación y pena en el campamento de Madrid tras muerte de Maricarmen",
+              "url": "https://www.emol.com/noticias/Internacional/2026/10/08/1213581/indignacion-campamento-madrid-muerte-maricarmen.html",
+              "source_id": "emol.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:45.126288+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7024776935577393,
+            "article": {
+              "title": "Cómo la lucha para evitar el desahucio debilitó a Maricarmen",
+              "url": "https://elpais.com/espana/madrid/2026-10-08/como-la-lucha-para-evitar-el-desahucio-debilito-a-maricarmen-estoy-pagando-los-siete-anos-de-juicios-por-mi-casa.html",
+              "source_id": "elpais.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:07.947180+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6980654001235962,
+            "article": {
+              "title": "Del 'New York Times' a la BBC: la prensa internacional se hace eco de la muerte de Maricarmen",
+              "url": "https://www.lavanguardia.com/politica/20261008/11653956/punto-inflexion-agenda-politica-espanola-prensa-internacional-eco-muerte-maricarmen.html",
+              "source_id": "lavanguardia.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:09.384173+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 42.245433845633265,
+        "size": 11,
+        "n_sources": 11,
+        "n_continents": 6,
+        "continents": [
+          "Africa",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "South Asia"
+        ],
+        "coherence": 0.8107683062553406,
+        "title": "Explosions heard in Saudi capital Riyadh after Houthis' deadly attacks on airports",
+        "central_article": {
+          "title": "Explosions heard in Saudi capital Riyadh after Houthis' deadly attacks on airports",
+          "url": "https://www.france24.com/en/middle-east/20261008-saudi-arabia-strikes-deadly-houthi-attacks-airports",
+          "source_id": "france24.com",
+          "continent": "Europe South",
+          "published_at": null,
+          "scraped_at_utc": "2026-10-08T14:05:58.708013+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8975590467453003,
+            "article": {
+              "title": "Explosions heard in Saudi capital Riyadh after Houthis' deadly attacks on airports",
+              "url": "https://www.france24.com/en/middle-east/20261008-saudi-arabia-strikes-deadly-houthi-attacks-airports",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:05:58.708013+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8526220321655273,
+            "article": {
+              "title": "Houthi Attacks on Saudi Airports Kill 3 Amid Escalating War in Yemen",
+              "url": "https://time.com/article/2026/10/08/saudi-arabia-yemen-houthi-rebels-airport-attacks-war/",
+              "source_id": "time.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:10:34.934216+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8260139226913452,
+            "article": {
+              "title": "Houthis ramp up missile attacks on Riyadh as Saudi-backed war in Yemen widens",
+              "url": "https://www.jpost.com/middle-east/article-911068",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:07:42.187192+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8238871097564697,
+            "article": {
+              "title": "Attacks on Saudi airports kill three people, as fighting escalates in Yemen",
+              "url": "https://kathmandupost.com/world/2026/10/08/attacks-on-saudi-airports-kill-three-people-as-fighting-escalates-in-yemen",
+              "source_id": "kathmandupost.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:11:46.977867+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8187288641929626,
+            "article": {
+              "title": "Air India Express, Akasa cancel Riyadh flights after Houthi attack on airport",
+              "url": "https://www.hindustantimes.com/india-news/air-india-cancels-flights-to-and-from-riyadh-till-october-10-after-houthis-claim-they-struck-airport-101791464267704.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:11:16.982962+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8178740739822388,
+            "article": {
+              "title": "Houthis claim missile strikes on Riyadh as explosions heard in capital",
+              "url": "https://www.euronews.com/2026/10/08/houthis-claim-missile-strike-on-riyadh-airport-as-explosions-heard-in-saudi-capital",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:04:52.957998+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8125301599502563,
+            "article": {
+              "title": "Houthi Airport attacks leave 3 dead and dozens wounded, including two Egyptians",
+              "url": "https://www.egyptindependent.com/houthi-airport-attacks-leave-3-dead-and-dozens-wounded-including-two-egyptians/",
+              "source_id": "egyptindependent.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:09:59.962720+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8010627627372742,
+            "article": {
+              "title": "Air India Delhi-Riyadh flight returns after Houthi attack on Saudi airport",
+              "url": "https://timesofindia.indiatimes.com/india/air-india-delhi-riyadh-flight-returns-after-houthi-attack-on-saudi-airport/articleshow/134791563.cms",
+              "source_id": "timesofindia.indiatimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:11:11.033557+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7911396026611328,
+            "article": {
+              "title": "I media: «Missile lanciato dagli Houthi colpisce aereo in sosta all'aereoporto di Riad. Voli a rischio»",
+              "url": "https://www.corriere.it/esteri/diretta-live/26_ottobre_08/iran-usa-news-diretta.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:17.220780+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7857014536857605,
+            "article": {
+              "title": "UAE states support for Saudi Arabia after Houthi airport attacks",
+              "url": "https://www.thenationalnews.com/news/mena/2026/10/08/uae-states-support-for-saudi-arabia-after-houthi-airport-attacks/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:07:40.786489+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6913326382637024,
+            "article": {
+              "title": "اليمن.. دوي انفجارات بمحيط مطار الحديدة وسقوط شظايا اعتراضية بالرياض",
+              "url": "https://www.aljazeera.net/news/liveblog/2026/10/8/اليمن-مباشر-القوات-الحكومية-تسيطر-على-2",
+              "source_id": "aljazeera.net",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:07:43.676042+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 36.0,
+        "size": 9,
+        "n_sources": 9,
+        "n_continents": 4,
+        "continents": [
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Oceania"
+        ],
+        "coherence": 0.92440265417099,
+        "title": "South Korea recalls ambassador to Ukraine amid diplomatic dispute",
+        "central_article": {
+          "title": "South Korea recalls ambassador to Ukraine amid diplomatic dispute",
+          "url": "https://www.azernews.az/region/265188.html",
+          "source_id": "azernews.az",
+          "continent": "Europe East",
+          "published_at": null,
+          "scraped_at_utc": "2026-10-08T14:09:21.872896+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9650710821151733,
+            "article": {
+              "title": "South Korea recalls ambassador to Ukraine amid diplomatic dispute",
+              "url": "https://www.azernews.az/region/265188.html",
+              "source_id": "azernews.az",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:09:21.872896+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.962859034538269,
+            "article": {
+              "title": "South Korea recalls ambassador from Ukraine",
+              "url": "https://tass.com/world/2199273",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:09:04.102792+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9595577716827393,
+            "article": {
+              "title": "South Korea recalls ambassador as row with Ukraine escalates",
+              "url": "https://www.abc.net.au/news/2026-10-09/south-korea-recalls-ambassador-to-ukraine/107245422",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:07:22.795213+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9497358798980713,
+            "article": {
+              "title": "South Korea to recall ambassador from Ukraine amid deepening row",
+              "url": "https://www.japantimes.co.jp/news/2026/10/08/asia-pacific/politics/south-korea-ukraine-envoy-recall/",
+              "source_id": "japantimes.co.jp",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:12:25.909600+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9452285766601562,
+            "article": {
+              "title": "South Korea recalls ambassador to Ukraine in North Korean prisoner row",
+              "url": "https://www.euronews.com/2026/10/08/south-korea-recalls-ambassador-to-ukraine-in-north-korean-prisoner-of-war-row",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:04:52.957998+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9217386841773987,
+            "article": {
+              "title": "South Korea recalls Ukraine ambassador in prisoner of war row",
+              "url": "https://www.politico.eu/article/south-korea-recalls-ambassador-from-ukraine-amid-prisoner-of-war-scandal/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:04:54.382521+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9211120009422302,
+            "article": {
+              "title": "South Korea Recalls Ambassador From Ukraine Amid Diplomatic Rift Over North Korean POWs",
+              "url": "https://www.kyivpost.com/post/86444",
+              "source_id": "kyivpost.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:08:51.809690+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8540114760398865,
+            "article": {
+              "title": "Zuid-Korea haalt ambassadeur uit Oekraïne terug na rel om bekendmaking overdracht Noord-Koreaanse militairen",
+              "url": "https://www.nrc.nl/nieuws/2026/10/08/zuid-korea-haalt-ambassadeur-uit-oekraine-terug-na-rel-om-bekendmaking-overdracht-noord-koreaanse-militairen-a4938512",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:04:57.373712+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8403092622756958,
+            "article": {
+              "title": "Южная Корея отозвала посла с Украины",
+              "url": "https://ria.ru/20261008/koreya-2123126659.html",
+              "source_id": "ria.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:09:06.581633+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 34.70123508777482,
+        "size": 10,
+        "n_sources": 9,
+        "n_continents": 6,
+        "continents": [
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "Oceania"
+        ],
+        "coherence": 0.8115582466125488,
         "title": "Israel marks anniversary of October 7 attacks with grief and anger",
         "central_article": {
           "title": "Israel marks anniversary of October 7 attacks with grief and anger",
@@ -439,1696 +1425,583 @@
           "source_id": "thetimes.com",
           "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-10-07T23:20:17.627557+00:00"
+          "scraped_at_utc": "2026-10-08T14:04:47.609021+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9032703042030334,
+            "sim_to_centroid": 0.8547840714454651,
             "article": {
               "title": "Israel marks anniversary of October 7 attacks with grief and anger",
               "url": "https://www.thetimes.com/world/middle-east/israel-hamas-war/article/israel-october-7-anniversary-state-inquiry-hnp9bltch",
               "source_id": "thetimes.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:17.627557+00:00"
+              "scraped_at_utc": "2026-10-08T14:04:47.609021+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8993760347366333,
+            "sim_to_centroid": 0.83155757188797,
             "article": {
-              "title": "Israelis mourn on the anniversary of the Oct. 7 attack",
-              "url": "https://www.theglobeandmail.com/world/article-israelis-mourn-on-the-anniversary-of-the-oct-7-attack-as-palestinians/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:22:51.881072+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8970345258712769,
-            "article": {
-              "title": "Israel marks third anniversary of October 7 attack",
-              "url": "https://www.abc.net.au/news/2026-10-07/october-7-israel-palestine-third-anniversary-memorial/107240588",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:22:53.156406+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8784477710723877,
-            "article": {
-              "title": "Israelis mourn 7 October attack victims three years after deadly Hamas raid",
-              "url": "https://www.bbc.com/news/articles/cwkgj0g30m5jo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:15.593863+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8663227558135986,
-            "article": {
-              "title": "Israel marks three years since October 7 attack ahead of elections",
-              "url": "https://www.france24.com/en/middle-east/20261007-israel-three-years-october-7-attack-elections",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:22.597367+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8638758659362793,
-            "article": {
-              "title": "Israel remembers October 7 attack with crucial election looms for Netanyahu",
+              "title": "Israel remembers October 7 attack as crucial election looms for Netanyahu",
               "url": "https://www.channel4.com/news/israel-remembers-october-7-attack-with-crucial-election-looms-for-netanyahu",
               "source_id": "channel4.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:21.012742+00:00"
+              "scraped_at_utc": "2026-10-08T14:04:51.161028+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8454849123954773,
+            "sim_to_centroid": 0.8306900262832642,
             "article": {
-              "title": "Israel pauses to mourn the 1,200 victims of 7 October attacks",
-              "url": "https://www.euronews.com/2026/10/07/israel-pauses-in-moment-of-silence-to-remember-those-killed-on-7-october",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:22.494939+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8449622392654419,
-            "article": {
-              "title": "Trois ans après le 7-Octobre, les traumatismes et les aveuglements d’Israël",
-              "url": "https://www.lemonde.fr/international/article/2026/10/07/en-israel-trois-ans-apres-le-7-octobre-les-traumatismes-et-les-aveuglements-d-un-pays_6789465_3210.html",
-              "source_id": "lemonde.fr",
+              "title": "No longer the same Israel? October 7 and the future of the Jewish State",
+              "url": "https://www.france24.com/en/tv-shows/the-debate/20261007-no-longer-the-same-israel-october-7th-and-the-future-of-the-jewish-state",
+              "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:16.040675+00:00"
+              "scraped_at_utc": "2026-10-08T14:05:58.708013+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8196717500686646,
-            "article": {
-              "title": "WATCH: Families of Oct. 7 massacre victims mark three years since attack with Tel Aviv ceremony",
-              "url": "https://www.jpost.com/israel-news/article-910963",
-              "source_id": "jpost.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:23:11.387413+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8105140328407288,
-            "article": {
-              "title": "Trois ans après le 7 octobre et à l’approche d’élections cruciales : \"Deux Israël s’affrontent\"",
-              "url": "https://www.rtbf.be/article/trois-ans-apres-le-7-octobre-et-a-l-approche-d-elections-cruciales-deux-israel-s-affrontent-11796277",
-              "source_id": "rtbf.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:29.129960+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8086642026901245,
-            "article": {
-              "title": "Fear and a far-right lurch: How October 7 reshaped Israel",
-              "url": "https://www.aljazeera.com/news/2026/10/7/fear-and-a-far-right-lurch-how-october-7-reshaped-israel",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:23:08.436154+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8076674342155457,
-            "article": {
-              "title": "Commemorations for victims of the 7 October Hamas attacks",
-              "url": "https://www.theguardian.com/world/gallery/2026/oct/07/commemorations-for-the-7-october-hamas-attacks-in-pictures",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:18.895456+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8048300743103027,
-            "article": {
-              "title": "Israelis demand 7 October inquiry in anniversary protests",
-              "url": "https://www.newarab.com/news/israelis-demand-7-october-inquiry-anniversary-protests",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:23:45.592103+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8006322383880615,
-            "article": {
-              "title": "Israel ‘All I want to do is cry’: trauma of 7 October survivors three years after the attacks",
-              "url": "https://www.theguardian.com/world/2026/oct/06/trauma-of-7-october-israel-survivors-three-years-hamas-after-attacks",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:18.895456+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7977847456932068,
-            "article": {
-              "title": "Commémoration 7-Octobre : hommage teinté de tensions politiques avant les élections en Israël",
-              "url": "https://www.lorientlejour.com/article/1549951/avant-les-elections-israel-rend-hommage-aux-victimes-de-lattaque-du-7-octobre.html",
-              "source_id": "lorientlejour.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:23:37.811411+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7950892448425293,
-            "article": {
-              "title": "Three years after October 7, much of Gaza is in ruins",
-              "url": "https://www.abc.net.au/news/2026-10-08/three-years-on-gaza-failed-peace-plan-road-to-recovery/107207532",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:22:53.156406+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7945793867111206,
-            "article": {
-              "title": "How Oct. 7 Changed Israel",
-              "url": "https://time.com/article/2026/10/07/how-oct-7-changed-israel/",
-              "source_id": "time.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:26:07.728171+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7734556198120117,
+            "sim_to_centroid": 0.8225739598274231,
             "article": {
               "title": "October 7 and the forever war it unleashed, from Gaza to Yemen",
               "url": "https://www.newarab.com/opinion/october-7-and-forever-war-it-unleashed-gaza-yemen",
               "source_id": "newarab.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:23:45.592103+00:00"
+              "scraped_at_utc": "2026-10-08T14:08:14.978816+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7653152942657471,
+            "sim_to_centroid": 0.8118042945861816,
             "article": {
-              "title": "'I chose life': Survivors and supporters mark third anniversary of October 7 attacks",
-              "url": "https://www.sbs.com.au/news/article/survivors-and-supporters-mark-third-anniversary-of-october-7-attacks/yciddd6iu",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
+              "title": "Oct. 7 survivor channels trauma into movement for new generation of Israeli leaders",
+              "url": "https://www.pbs.org/newshour/show/oct-7-survivor-channels-trauma-into-movement-for-new-generation-of-israeli-leaders",
+              "source_id": "pbs.org",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:22:54.453314+00:00"
+              "scraped_at_utc": "2026-10-08T14:10:36.768916+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7649492025375366,
+            "sim_to_centroid": 0.8070288300514221,
+            "article": {
+              "title": "Los israelíes que exigen que se rindan cuentas por los errores del 7 de octubre, tres años después de los ataques de Hamás",
+              "url": "https://www.bbc.com/mundo/articles/cq3djxvd14zyo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:06:20.636472+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.802131175994873,
+            "article": {
+              "title": "The October 7 survivors divided on who should rule Israel FEATURE",
+              "url": "https://www.rt.com/news/646824-october-7-israel-elections/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:09:00.295905+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.801773190498352,
+            "article": {
+              "title": "October 7 redrew the map of the Middle East, opening new faultlines",
+              "url": "https://www.aljazeera.com/news/2026/10/8/how-october-7-redrew-the-map-of-the-middle-east",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:07:38.369982+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8014397621154785,
             "article": {
               "title": "I was taken hostage by Hamas on October 7. I feel as though I’m still there",
               "url": "https://www.thetimes.com/world/middle-east/article/october-7-attacks-hamas-hostage-mia-schem-kpx8rbsst",
               "source_id": "thetimes.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:17.627557+00:00"
+              "scraped_at_utc": "2026-10-08T14:04:47.609021+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7643309235572815,
+            "sim_to_centroid": 0.7517992258071899,
             "article": {
-              "title": "October 7 blame game grips Israel ahead of election – RT reports (VIDEO) Exclusive",
-              "url": "https://www.rt.com/news/646885-october-seven-blame-game-israel/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
+              "title": "'I chose life': Survivors and supporters mark third anniversary of October 7 attacks",
+              "url": "https://www.sbs.com.au/news/article/survivors-and-supporters-mark-third-anniversary-of-october-7-attacks/yciddd6iu",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:24:26.861036+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7404025793075562,
-            "article": {
-              "title": "Israel conmemora, dividido y en plena campaña electoral el tercer aniversario del ataque de Hamas",
-              "url": "https://www.latercera.com/mundo/noticia/israel-conmemora-dividido-y-en-plena-campana-electoral-el-tercer-aniversario-del-ataque-de-hamas/",
-              "source_id": "latercera.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:22:27.368818+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.724966824054718,
-            "article": {
-              "title": "Mamdani: Suffering did not begin, end on October 7, continued throughout Israel's 'Gaza genocide'",
-              "url": "https://www.jpost.com/international/article-910939",
-              "source_id": "jpost.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:23:11.387413+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7122355699539185,
-            "article": {
-              "title": "Our achievements ‘don’t erase failure of October 7’, admits Israeli army Chief of Staff",
-              "url": "https://www.egyptindependent.com/our-achievements-dont-erase-failure-of-october-7-admits-israeli-army-chief-of-staff/",
-              "source_id": "egyptindependent.com",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:25:32.625287+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7059040069580078,
-            "article": {
-              "title": "Trump speaks with Netanyahu in solidarity of October 7, as world leaders share condolences",
-              "url": "https://www.jpost.com/international/article-910892",
-              "source_id": "jpost.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:23:11.387413+00:00"
+              "scraped_at_utc": "2026-10-08T14:07:25.336879+00:00"
             }
           }
         ]
       },
       {
-        "score": 94.37231848705133,
-        "size": 24,
-        "n_sources": 21,
-        "n_continents": 7,
+        "score": 32.16032299329206,
+        "size": 9,
+        "n_sources": 8,
+        "n_continents": 5,
         "continents": [
-          "East Asia",
-          "Europe East",
           "Europe North",
           "Europe South",
           "North America",
           "Oceania",
-          "South America"
+          "South Asia"
         ],
-        "coherence": 0.8113630414009094,
-        "title": "Christa Pike woke 'angry and confused' after surviving botched execution",
+        "coherence": 0.8563708066940308,
+        "title": "Christa Pike 'angry and confused' after failed execution, lawyers say",
         "central_article": {
-          "title": "Christa Pike woke 'angry and confused' after surviving botched execution",
-          "url": "https://www.abc.net.au/news/2026-10-08/evidence-from-christa-pike-botched-execution-must-be-preserved/107241090",
-          "source_id": "abc.net.au",
-          "continent": "Oceania",
+          "title": "Christa Pike 'angry and confused' after failed execution, lawyers say",
+          "url": "https://www.bbc.com/news/articles/c617kdle01k9o",
+          "source_id": "bbc.com",
+          "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-10-07T23:22:53.156406+00:00"
+          "scraped_at_utc": "2026-10-08T14:04:44.662545+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8978358507156372,
-            "article": {
-              "title": "Christa Pike woke 'angry and confused' after surviving botched execution",
-              "url": "https://www.abc.net.au/news/2026-10-08/evidence-from-christa-pike-botched-execution-must-be-preserved/107241090",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:22:53.156406+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.886968195438385,
+            "sim_to_centroid": 0.9280988574028015,
             "article": {
               "title": "Christa Pike 'angry and confused' after failed execution, lawyers say",
               "url": "https://www.bbc.com/news/articles/c617kdle01k9o",
               "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:15.593863+00:00"
+              "scraped_at_utc": "2026-10-08T14:04:44.662545+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8825894594192505,
+            "sim_to_centroid": 0.9261268377304077,
             "article": {
-              "title": "Lawyers reveal Christa Pike’s first words after she woke from botched execution",
-              "url": "https://www.smh.com.au/world/north-america/lawyers-reveal-christa-pike-s-first-words-after-she-woke-from-botched-execution-20261008-p613pl.html",
-              "source_id": "smh.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:22:55.723503+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8740206956863403,
-            "article": {
-              "title": "Lawyer shares Christa Pike's first words after botched execution",
-              "url": "https://www.usatoday.com/story/news/crime/2026/10/07/christa-pike-condition-update-legal-team-seeks-access/92132894007/",
-              "source_id": "usatoday.com",
+              "title": "Christa Pike ‘angry and confused’ after surviving Tennessee’s failed execution attempt, lawyer says",
+              "url": "https://www.theglobeandmail.com/world/article-christa-pike-angry-confused-tennessee-execution/",
+              "source_id": "theglobeandmail.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:26:02.358421+00:00"
+              "scraped_at_utc": "2026-10-08T14:07:21.142444+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8713220357894897,
+            "sim_to_centroid": 0.9012248516082764,
+            "article": {
+              "title": "‘Angry and confused’ Christa Pike is walking for first time after botched execution, lawyer says",
+              "url": "https://www.independent.co.uk/news/world/americas/crime/christa-pike-execution-recovery-lethal-injection-b3063260.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:04:46.190110+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.890618622303009,
+            "article": {
+              "title": "Tennessee Christa Pike ‘angry, confused’ and unable to move arms after failed execution, lawyers say",
+              "url": "https://www.theguardian.com/us-news/2026/oct/07/christa-pike-botched-execution-evidence-judge",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:04:49.023433+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8748164176940918,
             "article": {
               "title": "\"Está enojada y confundida\": por qué Christa Pike sobrevivió a su ejecución, según su defensa (y qué ocurrirá ahora)",
               "url": "https://www.bbc.com/mundo/articles/cmrlynleyze7o",
               "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:44.606681+00:00"
+              "scraped_at_utc": "2026-10-08T14:06:20.636472+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8611342906951904,
+            "sim_to_centroid": 0.8698133230209351,
             "article": {
-              "title": "US death row inmate Christa Pike awake and speaking after failed execution, lawyers say",
-              "url": "https://www.bbc.com/news/articles/c8kgezxn54qko",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:15.593863+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8598214983940125,
-            "article": {
-              "title": "News Wrap: Lawyer says Christa Pike 'angry and confused' following botched execution",
-              "url": "https://www.pbs.org/newshour/show/news-wrap-lawyer-says-christa-pike-angry-and-confused-following-botched-execution",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:26:09.281918+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8542705774307251,
-            "article": {
-              "title": "Christa Pike conscious after surviving Tennessee execution attempt",
-              "url": "https://www.sbs.com.au/news/article/christa-pike-conscious-after-surviving-tennessee-execution-attempt/xvyedg79q",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:22:54.453314+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8435717821121216,
-            "article": {
-              "title": "Christa Pike, qui a survécu à son exécution aux Etats-Unis, a repris connaissance et se dit « en colère et désorientée »",
-              "url": "https://www.lemonde.fr/international/article/2026/10/07/christa-pike-qui-a-survecu-a-son-execution-aux-etats-unis-a-repris-connaissance-et-se-dit-en-colere-et-desorientee_6789651_3210.html",
+              "title": "Christa Pike, qui a survécu à son exécution aux Etats-Unis, a recommencé à marcher mais reste « quelque peu confuse », selon son avocat",
+              "url": "https://www.lemonde.fr/international/article/2026/10/08/christa-pike-qui-a-survecu-a-son-execution-aux-etats-unis-a-recommence-a-marcher-mais-reste-quelque-peu-confuse-selon-son-avocat_6790229_3210.html",
               "source_id": "lemonde.fr",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:16.040675+00:00"
+              "scraped_at_utc": "2026-10-08T14:05:52.364025+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8303185105323792,
+            "sim_to_centroid": 0.8069239854812622,
             "article": {
-              "title": "Christa Pike ‘angry and confused’ about Tennessee’s failed execution effort, lawyers say",
-              "url": "https://www.straitstimes.com/world/united-states/christa-pike-angry-and-confused-about-tennessees-failed-execution-effort-lawyers-say?ref=top-stories",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
+              "title": "'Angry and confused': New details emerge about Christa Pike's condition",
+              "url": "https://www.sbs.com.au/news/article/christa-pike-awake-speaking-what-happens-now/r06zj5982",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:27:50.847576+00:00"
+              "scraped_at_utc": "2026-10-08T14:07:25.336879+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8295847177505493,
-            "article": {
-              "title": "Christa Pike se encuentra consciente y hablando, según sus abogados",
-              "url": "https://elcomercio.pe/mundo/eeuu/christa-pike-se-encuentra-consciente-y-hablando-segun-sus-abogados-tennessee-estados-unidos-colleen-slemmer-inyeccion-letal-ultimas-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:22:25.404293+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8009458184242249,
-            "article": {
-              "title": "Primeiras palavras de Christa Pike após injeção letal fracassada são divulgadas",
-              "url": "https://oglobo.globo.com/mundo/noticia/2026/10/07/primeiras-palavras-de-christa-pike-apos-injecao-letal-fracassada-sao-divulgadas.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:22:16.734244+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7948560118675232,
-            "article": {
-              "title": "Pike är ”arg och förvirrad” efter avrättningsförsöket",
-              "url": "https://www.dn.se/direkt/2026-10-07/pike-ar-arg-och-forvirrad-efter-avrattningsforsoket/",
-              "source_id": "dn.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:55.698750+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7928747534751892,
-            "article": {
-              "title": "Efter misslyckade avrättningen: Christa Pike vaken och talbar Fastkedjad i sin sjukhussäng • ”Prognosen oklar”",
-              "url": "https://www.svt.se/nyheter/utrikes/efter-misslyckade-avrattningen-christa-pike-ar-vaken",
-              "source_id": "svt.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:02.625365+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7919431328773499,
-            "article": {
-              "title": "What happened in the failed execution of Christa Pike - and how did she survive?",
-              "url": "https://www.bbc.com/news/articles/ckge4eql4q7eo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:15.593863+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7839245200157166,
-            "article": {
-              "title": "Exécution ratée aux Etats-Unis : Christa Pike a failli être débranchée avant son réveil",
-              "url": "https://www.lesoir.be/775512/article/2026-10-07/execution-ratee-aux-etats-unis-christa-pike-failli-etre-debranchee-avant-son",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:31.042003+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7818549871444702,
-            "article": {
-              "title": "Amerykański prawnik: Władze wiedziały, że Christa Pike może przeżyć egzekucję",
-              "url": "https://wyborcza.pl/7,75399,33059132,prawnik-z-usa-wladze-wiedzialy-ze-christa-pike-moze-przezyc.html",
-              "source_id": "wyborcza.pl",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:23:59.382233+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7814733982086182,
+            "sim_to_centroid": 0.7650514245033264,
             "article": {
               "title": "Nach gescheiterter Hinrichtung Anwälte sprechen über Pikes Gesundheitszustand",
               "url": "https://www.tagesschau.de/ausland/amerika/pike-hinrichtung-100.html",
               "source_id": "tagesschau.de",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:33.753802+00:00"
+              "scraped_at_utc": "2026-10-08T14:05:03.555963+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.780113935470581,
+            "sim_to_centroid": 0.7446630597114563,
             "article": {
-              "title": "Popravená Pikeová se probrala. Může být popravena znovu, nebo je z toho venku?",
-              "url": "https://www.idnes.cz/zpravy/zahranicni/poprava-tennessee-usa-vrazda-christa-pikeova-trest.A261007_185723_zahranicni_jans?zdroj=nejnovejsi",
-              "source_id": "idnes.cz",
-              "continent": "Europe East",
+              "title": "Judge Orders Officials to Save Evidence in Christa Pike’s Failed Execution",
+              "url": "https://www.hindustantimes.com/world-news/judge-orders-officials-to-save-evidence-in-christa-pike-s-failed-execution-101791431029912.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:24:04.311397+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7531650066375732,
-            "article": {
-              "title": "Wird Christa Pike ein zweites Mal hingerichtet?",
-              "url": "https://www.diepresse.com/41333139/wird-christa-pike-ein-zweites-mal-hingerichtet",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:42.860569+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7476814985275269,
-            "article": {
-              "title": "Christa Pike dopo il risveglio in ospedale “è arrabbiata” e rischia ancora il boia",
-              "url": "https://www.repubblica.it/esteri/2026/10/06/news/christa_pike_cosciente_parla_condanna_morte_tennessee_sopravvissuta_usa-425630676/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:39.902728+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7426810264587402,
-            "article": {
-              "title": "Verden Christa Pike «sint og forvirret» etter mislykket henrettelse",
-              "url": "https://www.aftenposten.no/verden/i/OgkO4w/christa-pike-er-sint-og-forvirret-etter-mislykket-henrettelse",
-              "source_id": "aftenposten.no",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:57.601310+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7211922407150269,
-            "article": {
-              "title": "„Wo bin ich und wer seid ihr?“ – Anwälte teilen Details zu Christa Pikes Gesundheitszustand",
-              "url": "https://www.welt.de/vermischtes/kriminalitaet/article6ac69598680a65c2883c3e9a/nach-versuchter-hinrichtung-wo-bin-ich-und-wer-seid-ihr-anwaelte-teilen-details-zu-christa-pikes-gesundheitszustand.html",
-              "source_id": "welt.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:39.533621+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7085696458816528,
-            "article": {
-              "title": "Mulher está 'nervosa e confusa' após sobreviver a execução, diz advogado",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/10/christa-pike-esta-nervosa-e-confusa-apos-sobreviver-a-execucao-diz-advogado.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:22:13.663831+00:00"
+              "scraped_at_utc": "2026-10-08T14:11:16.982962+00:00"
             }
           }
         ]
       },
       {
-        "score": 50.23523919840288,
-        "size": 15,
-        "n_sources": 13,
-        "n_continents": 6,
+        "score": 28.60127928083975,
+        "size": 9,
+        "n_sources": 9,
+        "n_continents": 4,
         "continents": [
-          "Africa",
           "East Asia",
-          "Middle East",
+          "Europe North",
           "North America",
-          "Oceania",
-          "South Asia"
+          "Oceania"
         ],
-        "coherence": 0.8120015859603882,
-        "title": "Three killed in Houthi attacks on Saudi airports",
+        "coherence": 0.8539865016937256,
+        "title": "Police search warrants for former prince Andrew were unlawful, judge rules",
         "central_article": {
-          "title": "Three killed in Houthi attacks on Saudi airports",
-          "url": "https://www.thenationalnews.com/news/gulf/2026/10/07/houthis-claim-dawn-drone-and-missile-strikes-on-saudi-and-yemeni-airports/",
-          "source_id": "thenationalnews.com",
-          "continent": "Middle East",
+          "title": "Police search warrants for former prince Andrew were unlawful, judge rules",
+          "url": "https://www.smh.com.au/world/europe/police-search-warrants-for-former-prince-andrew-were-unlawful-judge-rules-20261009-p6142k.html",
+          "source_id": "smh.com.au",
+          "continent": "Oceania",
           "published_at": null,
-          "scraped_at_utc": "2026-10-07T23:23:09.984162+00:00"
+          "scraped_at_utc": "2026-10-08T14:07:26.725255+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9115068912506104,
+            "sim_to_centroid": 0.9146108031272888,
             "article": {
-              "title": "Three killed in Houthi attacks on Saudi airports",
-              "url": "https://www.thenationalnews.com/news/gulf/2026/10/07/houthis-claim-dawn-drone-and-missile-strikes-on-saudi-and-yemeni-airports/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
+              "title": "Police search warrants for former prince Andrew were unlawful, judge rules",
+              "url": "https://www.smh.com.au/world/europe/police-search-warrants-for-former-prince-andrew-were-unlawful-judge-rules-20261009-p6142k.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:23:09.984162+00:00"
+              "scraped_at_utc": "2026-10-08T14:07:26.725255+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9113268852233887,
+            "sim_to_centroid": 0.895858883857727,
             "article": {
-              "title": "Three killed, 36 injured in Houthi attacks on Saudi airports, Riyadh says",
-              "url": "https://www.aljazeera.com/news/2026/10/7/saudi-arabia-says-three-foreign-nationals-killed-in-attacks-on-airports",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:23:08.436154+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9036412239074707,
-            "article": {
-              "title": "Houthi Attacks Kill Three at Saudi Airports, Including in Riyadh",
-              "url": "https://www.bloomberg.com/news/articles/2026-10-07/houthis-kill-three-in-attacks-on-two-airports-in-saudi-arabia",
-              "source_id": "bloomberg.com",
+              "title": "Search warrants used to seize property from former Prince Andrew were unlawful, judge says",
+              "url": "https://www.theglobeandmail.com/world/article-former-prince-andrew-police-search-warrants-challenge/",
+              "source_id": "theglobeandmail.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:26:06.350309+00:00"
+              "scraped_at_utc": "2026-10-08T14:07:21.142444+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8872735500335693,
+            "sim_to_centroid": 0.8879320025444031,
             "article": {
-              "title": "Saudi Arabia says three dead at airports after Houthis claim attacks",
-              "url": "https://www.straitstimes.com/world/middle-east/saudi-arabia-says-three-dead-at-airports-after-houthis-claim-attacks?ref=top-stories",
+              "title": "Ex-prince Andrew search warrants quashed after police accept legal error",
+              "url": "https://www.straitstimes.com/world/europe/ex-prince-andrew-search-warrants-quashed-after-police-accept-legal-error?ref=latest-headlines",
               "source_id": "straitstimes.com",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:27:50.847576+00:00"
+              "scraped_at_utc": "2026-10-08T14:12:47.231801+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.85743248462677,
+            "sim_to_centroid": 0.8879320025444031,
             "article": {
-              "title": "سعودی عرب کے دو ہوائی اڈوں پر حملے، 3 افراد ہلاک",
-              "url": "https://jang.com.pk/news/1622438",
-              "source_id": "jang.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:26:54.276732+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8338278532028198,
-            "article": {
-              "title": "সৌদি আরবে দুটি বিমানবন্দরে হামলা, নারীসহ ৩ বিদেশি নিহত, আহত ৩৬",
-              "url": "https://www.prothomalo.com/world/middle-east/30hg821elw",
-              "source_id": "prothomalo.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:26:44.400279+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8184424042701721,
-            "article": {
-              "title": "Suudi Arabistan açıkladı… Abha ve Riyad'daki havalimanlarına saldırılarda 3 kişi öldü, 36 kişi yaralandı",
-              "url": "https://www.hurriyet.com.tr/dunya/suudi-arabistan-acikladi-abha-ve-riyaddaki-havalimanlarina-saldirilarda-3-kisi-oldu-36-kisi-yaralandi-43333326",
-              "source_id": "hurriyet.com.tr",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:23:39.614555+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8174829483032227,
-            "article": {
-              "title": "Saudi airports attacked as Yemen's west coast battle intensifies",
-              "url": "https://www.thenationalnews.com/news/gulf/2026/10/06/saudi-airports-attacked-as-yemens-west-coast-battle-intensifies/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:23:09.984162+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7986717224121094,
-            "article": {
-              "title": "Suudi Arabistan'da havalimanlarına füze yağmuru: Can kayıpları var",
-              "url": "https://www.milliyet.com.tr/dunya/husiler-durmuyor-suudi-arabistanda-havalimanlarina-fuze-yagmuru-can-kayiplari-var-7675219",
-              "source_id": "milliyet.com.tr",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:23:43.033349+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7767290472984314,
-            "article": {
-              "title": "サウジ2空港で少なくとも3人死亡、36人負傷 フーシ派が攻撃 10/8",
-              "url": "https://mainichi.jp/articles/20261008/k00/00m/030/011000c",
-              "source_id": "mainichi.jp",
+              "title": "Ex-prince Andrew search warrants quashed after police accept legal error",
+              "url": "https://www.thestar.com.my/news/world/2026/10/08/ex-prince-andrew-search-warrants-quashed-after-police-accept-legal-error",
+              "source_id": "thestar.com.my",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:27:36.588541+00:00"
+              "scraped_at_utc": "2026-10-08T14:12:49.807853+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7533622980117798,
+            "sim_to_centroid": 0.8811854124069214,
             "article": {
-              "title": "Houthis attack Aden airport as fighting intensifies in Yemen",
-              "url": "https://kathmandupost.com/world/2026/10/07/houthis-attack-aden-airport-as-fighting-intensifies-in-yemen",
-              "source_id": "kathmandupost.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:26:52.818449+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7516096830368042,
-            "article": {
-              "title": "Une Algérienne tuée dans une attaque houthie contre l’aéroport d’Abha en Arabie saoudite",
-              "url": "https://www.tsa-algerie.com/une-algerienne-tuee-dans-une-attaque-houthie-contre-laeroport-dabha-en-arabie-saoudite/",
-              "source_id": "tsa-algerie.com",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:25:28.739634+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7408641576766968,
-            "article": {
-              "title": "السعودية: 3 قتلى وعشرات الإصابات باستهداف مطارين... و\"التحالف\" يدمر 82 هدفاً للحوثيين",
-              "url": "https://www.annahar.com/arab-world/arabian-gulf/355043/الهيئة-العامة-السعودية-للطيران-المدني-اعتداان-استهدفا-مرافق-مطاري-أبها-والملك-خالد-الدوليين",
-              "source_id": "annahar.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:23:50.483483+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7103642225265503,
-            "article": {
-              "title": "Latest: Houthi attacks on Taiz kill six, Yemeni minister says",
-              "url": "https://www.thenationalnews.com/news/mena/2026/10/06/live-iran-war-yemen-houthis-latest/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:23:09.984162+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7074885368347168,
-            "article": {
-              "title": "New Houthi attacks pull Saudi Arabia further into expanding Iran conflict",
-              "url": "https://www.sbs.com.au/news/article/houthi-saudi-arabia-iran-conflict-071026/7ej0ifr6c",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:22:54.453314+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 49.98203028245341,
-        "size": 9,
-        "n_sources": 9,
-        "n_continents": 8,
-        "continents": [
-          "Africa",
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "South America"
-        ],
-        "coherence": 0.8269994854927063,
-        "title": "Emotions as Argentina's Lionel Messi plays his last game for his country",
-        "central_article": {
-          "title": "Emotions as Argentina's Lionel Messi plays his last game for his country",
-          "url": "https://www.africanews.com/2026/10/07/emotions-as-argentinas-lionel-messi-plays-his-last-game-for-his-country/",
-          "source_id": "africanews.com",
-          "continent": "Africa",
-          "published_at": null,
-          "scraped_at_utc": "2026-10-07T23:25:24.938040+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.877814769744873,
-            "article": {
-              "title": "Emotions as Argentina's Lionel Messi plays his last game for his country",
-              "url": "https://www.africanews.com/2026/10/07/emotions-as-argentinas-lionel-messi-plays-his-last-game-for-his-country/",
-              "source_id": "africanews.com",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:25:24.938040+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8523411750793457,
-            "article": {
-              "title": "'Not coming anymore is going to hurt a lot': Messi signs off with Argentina",
-              "url": "https://www.thenationalnews.com/sport/football/2026/10/07/not-coming-anymore-is-going-to-hurt-a-lot-messis-emotional-message-to-argentina-on-farewell-appearance/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:23:09.984162+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8449933528900146,
-            "article": {
-              "title": "Argentinië neemt afscheid van Lionel Messi, die er na vier verloren finales toch in slaagde in de voetsporen van Maradona te treden",
-              "url": "https://www.nrc.nl/nieuws/2026/10/07/argentinie-neemt-afscheid-van-lionel-messi-die-er-na-vier-verloren-finales-toch-in-slaagde-in-de-voetsporen-van-maradona-te-treden-a4938355",
-              "source_id": "nrc.nl",
+              "title": "Police accept Andrew search warrants were unlawful, court hears",
+              "url": "https://www.bbc.com/news/articles/cr1exlvpzylvo",
+              "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:26.875636+00:00"
+              "scraped_at_utc": "2026-10-08T14:04:44.662545+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8443078994750977,
+            "sim_to_centroid": 0.8643409013748169,
             "article": {
-              "title": "Lionel Messi Pensiun dari Timnas Argentina, Cristiano Ronaldo Sampaikan Pesan Haru Bola",
-              "url": "https://bola.kompas.com/read/2026/10/08/04581248/lionel-messi-pensiun-dari-timnas-argentina-cristiano-ronaldo-sampaikan-pesan?source=headline",
-              "source_id": "kompas.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:27:58.801603+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8342832326889038,
-            "article": {
-              "title": "Con una mención especial a Maradona. El posteo de despedida de Messi tras su último partido con la selección argentina",
-              "url": "https://www.lanacion.com.ar/deportes/futbol/el-posteo-de-despedida-de-messi-tras-su-ultimo-partido-con-la-seleccion-argentina-nid07102026/",
-              "source_id": "lanacion.com.ar",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:22:04.057712+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8126376867294312,
-            "article": {
-              "title": "Лионель Месси попрощался со сборной Аргентины голом и двумя передачами",
-              "url": "https://www.kommersant.ru/doc/9008278",
-              "source_id": "kommersant.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:24:30.810306+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8042405247688293,
-            "article": {
-              "title": "El ya exseleccionado de Argentina, Lionel Messi. ( LUIS ROBAYO / AFP )",
-              "url": "https://www.laestrella.com.pa/deportes/futbol/messi-dice-adios-a-la-seleccion-argentina-y-la-emotiva-reaccion-de-cristiano-ronaldo-IH26303759",
-              "source_id": "laestrella.com.pa",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:22:02.185174+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7967754602432251,
-            "article": {
-              "title": "Lionel Messi, un adieu en 500 millions de « clics »",
-              "url": "https://www.lesoir.be/775488/article/2026-10-07/lionel-messi-un-adieu-en-500-millions-de-clics",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:31.042003+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7756016850471497,
-            "article": {
-              "title": "Leo Messi odchodzi na własnych zasadach. Wielu mistrzów sobie z tym nie poradziło",
-              "url": "https://www.rp.pl/plus-minus/art45265241-leo-messi-odchodzi-na-wlasnych-zasadach-wielu-mistrzow-sobie-z-tym-nie-poradzilo",
-              "source_id": "rp.pl",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:24:12.729810+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 45.8749237435654,
-        "size": 14,
-        "n_sources": 12,
-        "n_continents": 7,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "Oceania",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.779020369052887,
-        "title": "Russian strikes on Ukraine kill at least 25 in a major attack that Kyiv saw coming",
-        "central_article": {
-          "title": "Russian strikes on Ukraine kill at least 25 in a major attack that Kyiv saw coming",
-          "url": "https://www.sbs.com.au/news/article/russian-strikes-on-ukraine-kill-at-least-25-in-a-major-attack/vye3uk52v",
-          "source_id": "sbs.com.au",
-          "continent": "Oceania",
-          "published_at": null,
-          "scraped_at_utc": "2026-10-07T23:22:54.453314+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8364576101303101,
-            "article": {
-              "title": "Russian strikes on Ukraine kill at least 25 in a major attack that Kyiv saw coming",
-              "url": "https://www.sbs.com.au/news/article/russian-strikes-on-ukraine-kill-at-least-25-in-a-major-attack/vye3uk52v",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:22:54.453314+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8137511014938354,
-            "article": {
-              "title": "Ukraine war latest: Russian attack on Pryluky kills at least 20, including 5 children.",
-              "url": "https://kyivindependent.com/ukraine-war-latest-russian-attack-on-pryluky-kills-at-least-20-including-5-children/",
-              "source_id": "kyivindependent.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:24:18.856453+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.807071328163147,
-            "article": {
-              "title": "مقتل 28 شخصاً في ضربات روسية على أوكرانيا",
-              "url": "https://www.annahar.com/international/europe/355077/مقتل-28-شخصا-في-ضربات-روسية-على-أوكرانيا",
-              "source_id": "annahar.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:23:50.483483+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8031013011932373,
-            "article": {
-              "title": "Ruslands angreb på Ukraine",
-              "url": "https://politiken.dk/tag/main/Konflikten_om_Ukraine",
-              "source_id": "politiken.dk",
+              "title": "Erkender, at ransagningskendelser mod tidligere prins Andrew var ulovlige",
+              "url": "https://www.dr.dk/nyheder/seneste/erkender-ransagningskendelser-mod-tidligere-prins-andrew-var-ulovlige",
+              "source_id": "dr.dk",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:53.759819+00:00"
+              "scraped_at_utc": "2026-10-08T14:05:38.403722+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.797615110874176,
+            "sim_to_centroid": 0.7987917065620422,
             "article": {
-              "title": "Zelensky: “In un giorno 28 morti, tra cui 5 bimbi. Regalo di compleanno per Putin” |",
-              "url": "https://www.repubblica.it/esteri/2026/10/07/diretta/guerra_ucraina_russia_news_oggi-425630701/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:39.902728+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7940076589584351,
-            "article": {
-              "title": "‘War Is His Nature’: Zelensky Says Putin’s Birthday ‘Gift’ Killed 28 Ukrainians",
-              "url": "https://www.kyivpost.com/post/86390",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:24:17.193966+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.792544424533844,
-            "article": {
-              "title": "यूक्रेन पर कहर बनकर बरसा रूस: मिसाइल हमलों से दहल उठे कई शहर; 24 की मौत, 60 घायल",
-              "url": "https://www.jagran.com/world/other-24-killed-60-injured-in-russian-missile-attacks-on-ukrainian-cities-40397840.html",
-              "source_id": "jagran.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:26:39.586311+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7740795016288757,
-            "article": {
-              "title": "Russia hits another Kyiv apartment building after day of deadly strikes, injuring 4.",
-              "url": "https://kyivindependent.com/russia-hits-another-kyiv-apartment-building-injuring-4/",
-              "source_id": "kyivindependent.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:24:18.856453+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7632300853729248,
-            "article": {
-              "title": "2 Killed in Fresh Russian Attack on Kyiv After Deadly Overnight Barrage",
-              "url": "https://www.kyivpost.com/post/86394",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:24:17.193966+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7575811147689819,
-            "article": {
-              "title": "Liverapport Dödssiffran stiger efter ryska attackerna 24 döda och 134 skadade efter senaste attacken",
-              "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=f13cd035e3d7bd1d0ac7f5bcd642606e",
+              "title": "Just nu Ex-prins Andrew får rätt mot polisen om husrannsakningar",
+              "url": "https://www.svt.se/nyheter/utrikes/ex-prinsen-far-ratt-mot-polisen-om-husrannsakningar",
               "source_id": "svt.se",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:02.625365+00:00"
+              "scraped_at_utc": "2026-10-08T14:05:35.263428+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7528512477874756,
+            "sim_to_centroid": 0.7861548662185669,
             "article": {
-              "title": "Deadly strike on Ukraine homes ‘was birthday gift for Putin’",
-              "url": "https://www.thetimes.com/world/russia-ukraine-war/article/black-sea-oil-tanker-burns-ukrainian-drone-strike-5jzff0ct6",
-              "source_id": "thetimes.com",
+              "title": "Police raids on Andrew Mountbatten-Windsor’s royal properties were unlawful",
+              "url": "https://www.independent.co.uk/news/uk/home-news/andrew-mountbatten-windsor-arrest-raids-thames-valley-police-b3063382.html",
+              "source_id": "independent.co.uk",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:17.627557+00:00"
+              "scraped_at_utc": "2026-10-08T14:04:46.190110+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7497862577438354,
+            "sim_to_centroid": 0.7690721154212952,
             "article": {
-              "title": "Mega-ataque da Rússia mata ao menos 28 pessoas na Ucrânia e agrava a crise energética no país Petroleiro explode no balneário predileto de Putin, e Kremlin critica teste francês de míssil",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/10/russia-faz-mega-ataque-com-misseis-e-mata-19-na-ucrania.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
+              "title": "Verden Britisk politi: Ransakingen av tidligere prins Andrews bolig i strid med loven",
+              "url": "https://www.aftenposten.no/verden/i/mKKBbO/britisk-politi-erkjenner-ransakingen-av-tidligere-prins-andrews-boliger-var-ulovlig",
+              "source_id": "aftenposten.no",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:22:13.663831+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.749488353729248,
-            "article": {
-              "title": "Karas Ukrainoje. Rusijos ataka Prylukuose nusinešė 19 gyvybių, tarp aukų – 5 vaikai",
-              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3075002/karas-ukrainoje-rusijos-ataka-prylukuose-nusinese-19-gyvybiu-tarp-auku-5-vaikai",
-              "source_id": "lrt.lt",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:24:39.875857+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.714719295501709,
-            "article": {
-              "title": "Military operation in Ukraine Ukrainian drone attack kills father of 13 children, 15-year-old daughter in Kherson Region",
-              "url": "https://tass.com/politics/2198957",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:24:32.987836+00:00"
+              "scraped_at_utc": "2026-10-08T14:05:30.656888+00:00"
             }
           }
         ]
       },
       {
-        "score": 41.375521560978456,
-        "size": 13,
-        "n_sources": 11,
-        "n_continents": 7,
+        "score": 25.125926008316622,
+        "size": 8,
+        "n_sources": 7,
+        "n_continents": 5,
         "continents": [
           "Africa",
-          "China",
-          "East Asia",
           "Europe East",
           "Europe North",
           "Europe South",
-          "Middle East"
+          "North America"
         ],
-        "coherence": 0.7757768034934998,
-        "title": "图集｜法国超1020所学校爆发高中生骚乱 抗议教育资源不足",
+        "coherence": 0.8337104320526123,
+        "title": "Why French students are leading massive protests across the country",
         "central_article": {
-          "title": "图集｜法国超1020所学校爆发高中生骚乱 抗议教育资源不足",
-          "url": "https://photos.caixin.com/2026-10-04/102490692.html",
-          "source_id": "caixin.com",
-          "continent": "China",
+          "title": "Why French students are leading massive protests across the country",
+          "url": "https://www.pbs.org/newshour/show/why-french-students-are-leading-massive-protests-across-the-country",
+          "source_id": "pbs.org",
+          "continent": "North America",
           "published_at": null,
-          "scraped_at_utc": "2026-10-07T23:26:22.475425+00:00"
+          "scraped_at_utc": "2026-10-08T14:10:36.768916+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8562455177307129,
-            "article": {
-              "title": "图集｜法国超1020所学校爆发高中生骚乱 抗议教育资源不足",
-              "url": "https://photos.caixin.com/2026-10-04/102490692.html",
-              "source_id": "caixin.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:26:22.475425+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8307082653045654,
-            "article": {
-              "title": "French school protests draw over 250,000 as violence flares",
-              "url": "https://www.japantimes.co.jp/news/2026/10/07/world/france-student-protests/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:27:32.509079+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8230127096176147,
-            "article": {
-              "title": "Opnieuw grote protesten én geweld in Frankrijk, wat zit erachter?",
-              "url": "https://nos.nl/artikel/2633917-opnieuw-grote-protesten-en-geweld-in-frankrijk-wat-zit-erachter",
-              "source_id": "nos.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:24.878327+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8041921854019165,
-            "article": {
-              "title": "全法國學生動員示威提翻新校舍等10訴求 教師家長聲援",
-              "url": "https://www.cna.com.tw/news/aopl/202610070013.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:27:56.167560+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7926515340805054,
-            "article": {
-              "title": "France’s student protests expose an uncomfortable question for Amnesty and RSF",
-              "url": "https://www.azernews.az/nation/265129.html",
-              "source_id": "azernews.az",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:24:51.358905+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.776418924331665,
-            "article": {
-              "title": "'We're fed up': Paris students rise up in a movement that shows no sign of slowing",
-              "url": "https://www.france24.com/en/france/20261006-we-re-fed-up-paris-students-rise-up-in-a-movement-that-shows-no-sign-of-slowing",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:22.597367+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.774385929107666,
-            "article": {
-              "title": "أفراد من الشرطة الفرنسية ينضمون للمظاهرات.. ما حقيقة الفيديو المتداول؟",
-              "url": "https://www.aljazeera.net/news/2026/10/8/أفراد-من-الشرطة-الفرنسية-ينظمون",
-              "source_id": "aljazeera.net",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:23:12.803385+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7733175754547119,
-            "article": {
-              "title": "من الضواحي إلى قلب فرنسا... احتجاجات الثانويات تكشف فجوة التعليم",
-              "url": "https://www.annahar.com/international/europe/354925/احتجاجات-الثانويات-في-فرنسا-تعيد-المساواة-في-التعليم-إلى-الواجهة",
-              "source_id": "annahar.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:23:50.483483+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7668771147727966,
-            "article": {
-              "title": "France’s schools in revolt and more from around the world By Daily Maverick Photo Team",
-              "url": "https://www.dailymaverick.co.za/article/2026-10-07-frances-schools-in-revolt-and-more-from-around-the-world/?dm_source=blocks-list-item&dm_medium=card-link&dm_campaign=inform&dm_position=18",
-              "source_id": "dailymaverick.co.za",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:25:20.219594+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7334119081497192,
-            "article": {
-              "title": "Over 100 arrested in Belgium student protests over education costs",
-              "url": "https://www.aljazeera.com/news/2026/10/7/over-100-arrested-in-belgium-student-protests-over-education-costs",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:23:08.436154+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7331901788711548,
-            "article": {
-              "title": "國際 逾25萬人響應、6500人被捕 法國學潮重點一次看",
-              "url": "https://www.cna.com.tw/news/aopl/202610080013.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:27:56.167560+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7132225036621094,
-            "article": {
-              "title": "Trump blames Islam and mass migration for France protests",
-              "url": "https://www.egyptindependent.com/trump-blames-islam-and-mass-migration-for-france-protests/",
-              "source_id": "egyptindependent.com",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:25:32.625287+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7074631452560425,
-            "article": {
-              "title": "France summons Iranian ambassador over 'disinformation' on student protests",
-              "url": "https://www.france24.com/en/france/20261007-france-summons-iranian-ambassador-over-disinformation-on-student-protests",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:22.597367+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 34.42261053895436,
-        "size": 13,
-        "n_sources": 10,
-        "n_continents": 5,
-        "continents": [
-          "China",
-          "Europe North",
-          "Europe South",
-          "North America",
-          "South America"
-        ],
-        "coherence": 0.8253381252288818,
-        "title": "French police suspend use of stun grenades at student protests",
-        "central_article": {
-          "title": "French police suspend use of stun grenades at student protests",
-          "url": "https://www.euronews.com/2026/10/07/france-suspends-police-stun-grenades-at-student-protests-after-teenager-loses-hand",
-          "source_id": "euronews.com",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-10-07T23:20:22.494939+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8791573643684387,
-            "article": {
-              "title": "French police suspend use of stun grenades at student protests",
-              "url": "https://www.euronews.com/2026/10/07/france-suspends-police-stun-grenades-at-student-protests-after-teenager-loses-hand",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:22.494939+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8679720163345337,
-            "article": {
-              "title": "France halts use of stun grenades in policing of student protests",
-              "url": "https://www.scmp.com/news/world/europe/article/3370096/france-halts-use-stun-grenades-policing-student-protests?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:26:10.488062+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8660886287689209,
-            "article": {
-              "title": "France suspends the use of stun grenades after student protester loses hand",
-              "url": "https://www.france24.com/en/france/20261007-france-suspends-the-use-of-stun-grenades-after-student-protester-loses-hand",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:22.597367+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8647255897521973,
+            "sim_to_centroid": 0.8961936235427856,
             "article": {
               "title": "Why French students are leading massive protests across the country",
               "url": "https://www.pbs.org/newshour/show/why-french-students-are-leading-massive-protests-across-the-country",
               "source_id": "pbs.org",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:26:09.281918+00:00"
+              "scraped_at_utc": "2026-10-08T14:10:36.768916+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8436845541000366,
+            "sim_to_centroid": 0.8806244730949402,
             "article": {
-              "title": "Francia suspende el uso de granadas aturdidoras en protestas estudiantiles",
-              "url": "https://elcomercio.pe/mundo/europa/francia-suspende-el-uso-de-granadas-aturdidoras-en-protestas-estudiantiles-paris-emmanuel-macron-ultimas-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:22:25.404293+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8382488489151001,
-            "article": {
-              "title": "French students lead massive protests against education policies",
-              "url": "https://www.pbs.org/newshour/show/french-students-lead-massive-protests-demanding-more-education-funding",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:26:09.281918+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8296991586685181,
-            "article": {
-              "title": "法国千所学校学生抗议酿成骚乱 数千人遭拘400警察负伤",
-              "url": "https://international.caixin.com/2026-10-04/102490675.html",
-              "source_id": "caixin.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:26:22.475425+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8257565498352051,
-            "article": {
-              "title": "What France's student protesters want – and what the government is offering",
-              "url": "https://www.france24.com/en/france/20261007-what-france-s-student-protesters-want-%E2%80%93-and-what-the-government-is-offering",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:22.597367+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8154119253158569,
-            "article": {
-              "title": "Photos Show Scenes of Unrest as French Student Protests Go Nationwide",
-              "url": "https://time.com/article/2026/10/06/france-student-protest-in-photos/",
-              "source_id": "time.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:26:07.728171+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8093482851982117,
-            "article": {
-              "title": "France schools protests: more than 6,000 arrested since start of demonstrations",
-              "url": "https://www.france24.com/en/france-schools-protests-more-than-6-100-arrested-since-start-of-demonstrations",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:22.597367+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8016579151153564,
-            "article": {
-              "title": "Protestos estudantis na França chegam a dia mais grave e põem governo Macron em alerta",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/10/protestos-de-estudantes-na-franca-chegam-a-dia-mais-grave-e-poem-governo-de-emmanuel-macron-em-alerta.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:22:13.663831+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7690423727035522,
-            "article": {
-              "title": "Flitsgranaat verboden bij Franse protesten nadat jongen hand verliest",
-              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5657666/flitsgranaat-verboden-bij-franse-protesten-nadat-jongen-hand",
-              "source_id": "rtl.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:28.931548+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7186030745506287,
-            "article": {
-              "title": "Thibault Camus / AP,NTB Frankrike forbyr politiet å bruke sjokkgranater mot skoledemonstranter Frankrike Følg saken",
-              "url": "https://www.nrk.no/nyheter/frankrike-1.14612682",
-              "source_id": "nrk.no",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:04.361312+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 32.28116600642431,
-        "size": 10,
-        "n_sources": 10,
-        "n_continents": 5,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "North America",
-          "Oceania"
-        ],
-        "coherence": 0.8124921917915344,
-        "title": "WHO seeks clarity on second pneumonia case in Russia amid plague fears",
-        "central_article": {
-          "title": "WHO seeks clarity on second pneumonia case in Russia amid plague fears",
-          "url": "https://www.politico.eu/article/world-health-organization-who-information-pneumonia-russia-plague/",
-          "source_id": "politico.eu",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-10-07T23:20:23.708653+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8891075849533081,
-            "article": {
-              "title": "WHO seeks clarity on second pneumonia case in Russia amid plague fears",
-              "url": "https://www.politico.eu/article/world-health-organization-who-information-pneumonia-russia-plague/",
-              "source_id": "politico.eu",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:23.708653+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8737508654594421,
-            "article": {
-              "title": "UN health agency wants more details from Russia on suspected pneumonic plague case",
-              "url": "https://www.france24.com/en/un-health-agency-wants-more-details-from-russia-on-suspected-pneumonic-plague-case",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:22.597367+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8482373356819153,
-            "article": {
-              "title": "WHO seeks clarification from Russia over suspected plague reports in Irkutsk",
-              "url": "https://georgiatoday.ge/who-seeks-clarification-from-russia-over-suspected-plague-reports-in-irkutsk/",
-              "source_id": "georgiatoday.ge",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:24:45.070092+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8163414597511292,
-            "article": {
-              "title": "Russia dismisses transparency calls amid reports of second plague case",
-              "url": "https://www.euronews.com/2026/10/07/russia-dismisses-transparency-calls-amid-reports-of-second-siberia-plague-case",
+              "title": "Fresh day of student protests across France as rally planned in Paris",
+              "url": "https://www.euronews.com/2026/10/08/fresh-day-of-student-protests-across-france-as-rally-planned-in-paris",
               "source_id": "euronews.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:22.494939+00:00"
+              "scraped_at_utc": "2026-10-08T14:04:52.957998+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8105746507644653,
+            "sim_to_centroid": 0.8632011413574219,
             "article": {
-              "title": "WHO Urges Russian Transparency After Second ‘Plague Worker’ Falls Ill",
-              "url": "https://www.kyivpost.com/post/86387",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
+              "title": "فرنسا تئن تحت احتجاجات التلاميذ.. إصابات وتحقيقات في تدخلات الشرطة",
+              "url": "https://www.hespress.com/%d9%81%d8%b1%d9%86%d8%b3%d8%a7-%d8%aa%d8%a6%d9%86-%d8%aa%d8%ad%d8%aa-%d8%a7%d8%ad%d8%aa%d8%ac%d8%a7%d8%ac%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d9%84%d8%a7%d9%85%d9%8a%d8%b0-%d8%a5%d8%b5%d8%a7%d8%a8%d8%a7-1819519.html",
+              "source_id": "hespress.com",
+              "continent": "Africa",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:24:17.193966+00:00"
+              "scraped_at_utc": "2026-10-08T14:10:01.207059+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.79779452085495,
+            "sim_to_centroid": 0.814845860004425,
             "article": {
-              "title": "Russia's mysterious plague lab death may have exposed a global health blindspot",
-              "url": "https://www.sbs.com.au/news/article/russia-plague-lab-technician-death-siberia-quarantine/mr7nwtpm0",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:22:54.453314+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7967689037322998,
-            "article": {
-              "title": "What we know so far about a Russian lab worker's death and pneumonic plague",
-              "url": "https://www.pbs.org/newshour/world/what-to-know-about-a-russian-lab-workers-death-and-speculation-about-pneumonic-plague",
-              "source_id": "pbs.org",
+              "title": "Student Protesters in France are Holding Signs Referencing May 1968. Here’s Why It’s Significant",
+              "url": "https://time.com/article/2026/10/07/student-protests-france-signs-may-1968-strikes-police-clashes/",
+              "source_id": "time.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:26:09.281918+00:00"
+              "scraped_at_utc": "2026-10-08T14:10:34.934216+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.785028338432312,
+            "sim_to_centroid": 0.8131177425384521,
             "article": {
-              "title": "Russia denies a plague outbreak. Its history of coverups is less reassuring",
-              "url": "https://www.thetimes.com/world/europe/article/russian-cover-ups-pneumonic-plague-chernobyl-anthrax-cnhlrpl0d",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
+              "title": "Police fire tear gas at student protesters in Paris ahead of afternoon marches nationwide",
+              "url": "https://www.france24.com/en/france/20261008-live-students-fourth-round-protests-education-funding-france",
+              "source_id": "france24.com",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:17.627557+00:00"
+              "scraped_at_utc": "2026-10-08T14:05:58.708013+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7778818607330322,
+            "sim_to_centroid": 0.8130429983139038,
             "article": {
-              "title": "Trump to speak to Putin about plague lab worker's death in Russia",
-              "url": "https://www.bbc.com/news/articles/cqgm0vrl3xp7o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
+              "title": "France’s student protests expose an uncomfortable question for Amnesty and RSF",
+              "url": "https://www.azernews.az/nation/265129.html",
+              "source_id": "azernews.az",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:15.593863+00:00"
+              "scraped_at_utc": "2026-10-08T14:09:21.872896+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7294365167617798,
+            "sim_to_centroid": 0.813022255897522,
             "article": {
-              "title": "bedt Russland om mer informasjon",
-              "url": "https://www.nrk.no/nyheter/who-ber-om-informasjon-fra-russland-etter-melding-om-ny-lab-ansatt-med-lungebetennelse-1.18047851",
-              "source_id": "nrk.no",
+              "title": "French interior ministry estimates 250,000 join student protests; organisers claim 450,000",
+              "url": "https://www.france24.com/en/france/20261006-french-interior-ministry-estimates-250-000-join-student-protests-organisers-claim-450-000",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:05:58.708013+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7756350040435791,
+            "article": {
+              "title": "Skolprotesterna i Frankrike fortsätter – minister ska möta elever Efter dagar av massiva protester i flera franska städer",
+              "url": "https://www.svt.se/nyheter/utrikes/skolprotesterna-i-frankrike-fortsatter-minister-ska-mota-elever",
+              "source_id": "svt.se",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:04.361312+00:00"
+              "scraped_at_utc": "2026-10-08T14:05:35.263428+00:00"
             }
           }
         ]
       },
       {
-        "score": 25.138943738878105,
-        "size": 11,
-        "n_sources": 8,
-        "n_continents": 5,
+        "score": 21.253841962237004,
+        "size": 7,
+        "n_sources": 7,
+        "n_continents": 4,
         "continents": [
+          "East Asia",
           "Europe East",
           "Europe North",
-          "Europe South",
-          "Middle East",
-          "South America"
+          "Europe South"
         ],
-        "coherence": 0.8071077466011047,
-        "title": "Putin e gli auguri di compleanno dai leader amici. In programma anche una telefonata con Trump",
+        "coherence": 0.8448666334152222,
+        "title": "Italien: Meloni bringt Wahlrechtsreform im Parlament durch",
         "central_article": {
-          "title": "Putin e gli auguri di compleanno dai leader amici. In programma anche una telefonata con Trump",
-          "url": "https://www.corriere.it/esteri/26_ottobre_07/putin-compleanno-auguri-zelensky-02379d1d-54f3-4d99-93a8-eebebea42xlk.shtml",
-          "source_id": "corriere.it",
-          "continent": "Europe South",
+          "title": "Italien: Meloni bringt Wahlrechtsreform im Parlament durch",
+          "url": "https://www.diepresse.com/41337405/italien-meloni-bringt-wahlrechtsreform-im-parlament-durch",
+          "source_id": "diepresse.com",
+          "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-10-07T23:21:41.835474+00:00"
+          "scraped_at_utc": "2026-10-08T14:05:16.101769+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8962997198104858,
+            "sim_to_centroid": 0.9142987728118896,
             "article": {
-              "title": "Putin e gli auguri di compleanno dai leader amici. In programma anche una telefonata con Trump",
-              "url": "https://www.corriere.it/esteri/26_ottobre_07/putin-compleanno-auguri-zelensky-02379d1d-54f3-4d99-93a8-eebebea42xlk.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:21:41.835474+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.869837760925293,
-            "article": {
-              "title": "World leaders congratulate Putin on his birthday",
-              "url": "https://tass.com/politics/2198761",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:24:32.987836+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8487099409103394,
-            "article": {
-              "title": "Kremlin briefing covers Putin's birthday, probability of talks with Trump",
-              "url": "https://tass.com/politics/2198813",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:24:32.987836+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8423425555229187,
-            "article": {
-              "title": "Trump says call with Putin set up, mentions Russian president’s birthday",
-              "url": "https://tass.com/world/2198987",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:24:32.987836+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8210012912750244,
-            "article": {
-              "title": "Putin cumple 74 años felicitado por mandatarios y con reunión de consejo de seguridad ruso",
-              "url": "https://elcomercio.pe/mundo/europa/vladimir-putin-cumple-74-anos-felicitado-por-mandatarios-y-con-reunion-de-consejo-de-seguridad-ruso-rusia-ultimas-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:22:25.404293+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7909711599349976,
-            "article": {
-              "title": "Cumhurbaşkanı Erdoğan, Putin ile telefonda görüştü",
-              "url": "https://www.hurriyet.com.tr/gundem/cumhurbaskani-erdogan-putin-ile-telefonda-gorustu-43332787",
-              "source_id": "hurriyet.com.tr",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:23:39.614555+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7714542746543884,
-            "article": {
-              "title": "Путин провел переговоры с иностранными лидерами в день рождения Вчера,",
-              "url": "https://ria.ru/20261007/razgovor-2122861943.html",
-              "source_id": "ria.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:24:35.482735+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7653437852859497,
-            "article": {
-              "title": "Cumhurbaşkanı Erdoğan, Rusya Devlet Başkanı Putin ile görüştü",
-              "url": "https://www.milliyet.com.tr/gundem/son-dakika-cumhurbaskani-erdogan-putin-ile-gorustu-7674956",
-              "source_id": "milliyet.com.tr",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:23:43.033349+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7616488933563232,
-            "article": {
-              "title": "Russia slams Ukraine with missiles, drones on Putin's 74th birthday, at least 28 dead including 5 children.",
-              "url": "https://kyivindependent.com/russia-slams-kyiv-in-mass-missile-drone-attack-on-putins-74th-birthday/",
-              "source_id": "kyivindependent.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:24:18.856453+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7577473521232605,
-            "article": {
-              "title": "Amid the rubble of a Ukrainian apartment building, locals have one wish for Putin’s birthday",
-              "url": "https://kyivindependent.com/amid-the-rubble-of-a-ukrainian-apartment-building-locals-have-one-wish-for-putins-birthday/",
-              "source_id": "kyivindependent.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:24:18.856453+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7528287768363953,
-            "article": {
-              "title": "Großangriff an Putins Geburtstag: Viele Tote in der Ukraine",
-              "url": "https://www.zdfheute.de/politik/ausland/ukraine-krieg-russland-tote-putin-geburtstag-100.html",
-              "source_id": "zdfheute.de",
+              "title": "Italien: Meloni bringt Wahlrechtsreform im Parlament durch",
+              "url": "https://www.diepresse.com/41337405/italien-meloni-bringt-wahlrechtsreform-im-parlament-durch",
+              "source_id": "diepresse.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-07T23:20:45.443028+00:00"
+              "scraped_at_utc": "2026-10-08T14:05:16.101769+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.88356614112854,
+            "article": {
+              "title": "En Italie, Giorgia Meloni fait adopter sa très décriée réforme de la loi électorale",
+              "url": "https://www.lemonde.fr/international/article/2026/10/08/en-italie-giorgia-meloni-fait-adopter-sa-tres-decriee-reforme-de-la-loi-electorale_6790223_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:05:52.364025+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8798737525939941,
+            "article": {
+              "title": "Italiens Parlament billigt umstrittene Wahlrechtsreform von Meloni",
+              "url": "https://www.tagesschau.de/ausland/europa/meloni-wahlrechtsreform-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:05:03.555963+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.874939501285553,
+            "article": {
+              "title": "Meloni setzt umstrittenes neues Wahlrecht durch – Kritiker sehen Gesetz für ihren Machterhalt",
+              "url": "https://www.welt.de/politik/ausland/article6ac7812c6e0a564ee52e92c9/italien-meloni-setzt-umstrittenes-neues-wahlrecht-durch-kritiker-sehen-gesetz-fuer-ihren-machterhalt.html",
+              "source_id": "welt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:05:11.410743+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.804896354675293,
+            "article": {
+              "title": "Italian opposition accuses Meloni of rewriting election rules to stay in power",
+              "url": "https://www.rt.com/news/646932-meloni-election-rules/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:09:00.295905+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7808765172958374,
+            "article": {
+              "title": "Si je Giorgia Meloni z volilno reformo naredila medvedjo uslugo?",
+              "url": "https://www.delo.si/novice/svet/si-je-giorgia-meloni-z-volilno-reformo-naredila-medvedjo-uslugo",
+              "source_id": "delo.si",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:08:49.861653+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7756152749061584,
+            "article": {
+              "title": "國際 義大利眾院通過新選制法案 梅洛尼重大政治勝利",
+              "url": "https://www.cna.com.tw/news/aopl/202610080365.aspx",
+              "source_id": "cna.com.tw",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-08T14:12:53.112454+00:00"
             }
           }
         ]
       }
     ],
-    "created_at_utc": "2026-10-07T23:45:08Z"
+    "created_at_utc": "2026-10-08T14:45:30Z"
   }
 ]
