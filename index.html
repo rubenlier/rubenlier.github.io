@@ -107,23 +107,68 @@
         .paper-date { color: #777; }
         .papers-empty { color: #777; font-size: 1rem !important; }
 
-        /* Talks map (desktop only) */
-        .map-container { position: relative; width: 100%; margin-top: 20px; }
+        /* Talks map: zoom presets keep the global overview and unclutter dense regions. */
+        .talk-map-toolbar {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: -5px 0 12px;
+        }
+        .talk-map-btn {
+            border: 1px solid #d8d8d8;
+            border-radius: 999px;
+            padding: 7px 13px;
+            background: #fff;
+            color: #333;
+            font: inherit;
+            font-size: 0.92rem;
+            cursor: pointer;
+            transition: background 0.15s ease, border-color 0.15s ease;
+        }
+        .talk-map-btn:hover { background: #f2f2f2; }
+        .talk-map-btn.active {
+            background: #333;
+            color: #fff;
+            border-color: #333;
+        }
+        .talk-map-btn:focus-visible { outline: 2px solid #1a73e8; outline-offset: 2px; }
+        .map-container {
+            position: relative;
+            width: 100%;
+            margin-top: 0;
+            overflow: hidden;
+            border: 1px solid #e5e5e5;
+            border-radius: 9px;
+            background: #d2e4f0;
+        }
+        .map-stage {
+            position: relative;
+            width: 100%;
+            transform-origin: top left;
+            transition: transform 0.55s cubic-bezier(.22,.61,.36,1);
+            --flag-inverse-scale: 1;
+        }
         .world-map { width: 100%; display: block; }
         .flag-emoji {
             position: absolute;
-            cursor: default;
-            transform: translate(-50%, -50%);
+            z-index: 1;
+            cursor: help;
+            transform: scale(var(--flag-inverse-scale)) translate(-50%, -50%);
+            transform-origin: top left;
             font-size: clamp(14px, 2.2vw, 22px);
             line-height: 1;
         }
+        /* Flags shrink relative to the zoomed image, remaining readable and separated. */
+        .flag-emoji:hover, .flag-emoji:focus-visible { z-index: 5; }
+        .flag-emoji:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
         .flag-emoji::after {
             content: attr(data-tooltip);
             position: absolute;
             left: 50%;
             bottom: 120%;
             transform: translateX(-50%);
-            background: rgba(0, 0, 0, 0.8);
+            background: rgba(0, 0, 0, 0.85);
             color: #fff;
             padding: 4px 8px;
             border-radius: 4px;
@@ -133,7 +178,10 @@
             pointer-events: none;
             transition: opacity 0.15s ease-in-out;
         }
-        .flag-emoji:hover::after { opacity: 1; }
+        .flag-emoji:hover::after, .flag-emoji:focus-visible::after { opacity: 1; }
+        @media (prefers-reduced-motion: reduce) {
+            .map-stage { transition: none; }
+        }
 
         /* Global News */
         .news-updated {
@@ -514,27 +562,34 @@
             talks: `
                 <h1>Talks</h1>
                 <p>
-                    Hover over a flag to see when and where I gave the talk.
+                    Hover over a flag to see when and where I gave the talk. Choose a region to zoom in.
                 </p>
+                <div class="talk-map-toolbar" role="group" aria-label="Zoom to map region">
+                    <button type="button" class="talk-map-btn active" data-talk-map-view="world" aria-pressed="true">World</button>
+                    <button type="button" class="talk-map-btn" data-talk-map-view="europe" aria-pressed="false">Europe</button>
+                    <button type="button" class="talk-map-btn" data-talk-map-view="pnw" aria-pressed="false">Pacific Northwest</button>
+                </div>
                 <div class="map-container">
+                  <div class="map-stage" id="talk-map-stage">
                     <img class="world-map" src="equirel.jpg" alt="World Map" />
 
-                    <!-- Flags: formula used: 100*{(90 - y)/180 - 0.052, (180 + x)/360 - 0.01} -->
-                    <div class="flag-emoji" style="top: 18.70%; left: 51.40%;" data-tooltip="Odd Viscoelasticity Workshop (DIEP) – 1 April 2022">🚩</div>
-                    <div class="flag-emoji" style="top: 20.00%; left: 51.40%;" data-tooltip="NWO Physics – 23 Feb 2025">🚩</div>
-                    <div class="flag-emoji" style="top: 19.20%; left: 52.80%;" data-tooltip="Max Planck Institute for Dynamics and Self-Organization – 17 Sep 2024">🚩</div>
-                    <div class="flag-emoji" style="top: 19.40%; left: 53.80%;" data-tooltip="Max Planck Institute for the Physics of Complex Systems – 21 Sep 2024">🚩</div>
-                    <div class="flag-emoji" style="top: 19.40%; left: 54.70%;" data-tooltip="Wrocław University of Science and Technology – 24 Jan 2024">🚩</div>
-                    <div class="flag-emoji" style="top: 14.80%; left: 55.00%;" data-tooltip="Hydrodynamics at all scales (Nordita) – 8 Sep 2023">🚩</div>
+                    <!-- Flags are placed on the equirectangular map using latitude/longitude: top = (90 - latitude)/180 * 100%; left = (longitude + 180)/360 * 100%. Nearby Amsterdam/Veldhoven flags are slightly staggered for legibility. -->
+                    <div class="flag-emoji" style="top: 20.75%; left: 51.20%;" data-tooltip="Odd Viscoelasticity Workshop (DIEP) – 1 April 2022">🚩</div>
+                    <div class="flag-emoji" style="top: 21.86%; left: 51.47%;" data-tooltip="NWO Physics – 23 Feb 2025">🚩</div>
+                    <div class="flag-emoji" style="top: 21.38%; left: 52.76%;" data-tooltip="Max Planck Institute for Dynamics and Self-Organization – 17 Sep 2024">🚩</div>
+                    <div class="flag-emoji" style="top: 21.65%; left: 53.82%;" data-tooltip="Max Planck Institute for the Physics of Complex Systems – 21 Sep 2024">🚩</div>
+                    <div class="flag-emoji" style="top: 21.61%; left: 54.73%;" data-tooltip="Wrocław University of Science and Technology – 24 Jan 2024">🚩</div>
+                    <div class="flag-emoji" style="top: 17.04%; left: 55.02%;" data-tooltip="Hydrodynamics at all scales (Nordita) – 8 Sep 2023">🚩</div>
                     <div class="flag-emoji" style="top: 21.30%; left: 16.00%;" data-tooltip="University of Washington – 22 Nov 2024">🚩</div>
                     <div class="flag-emoji" style="top: 20.90%; left: 14.70%;" data-tooltip="University of Victoria – 26 Nov 2024">🚩</div>
                     <div class="flag-emoji" style="top: 20.40%; left: 15.80%;" data-tooltip="University of British Columbia – 15 Nov 2024">🚩</div>
                     <div class="flag-emoji" style="top: 29.00%; left: 17.20%;" data-tooltip="APS Global Physics Summit (Anaheim) – 17 March 2025">🚩</div>
                     <div class="flag-emoji" style="top: 26.00%; left: 18.80%;" data-tooltip="APS Global Physics Summit (Denver) – 17 March 2026">🚩</div>
-                    <div class="flag-emoji" style="top: 21.10%; left: 50.55%;" data-tooltip="Institut Curie – 15 May 2025">🚩</div>
-                    <div class="flag-emoji" style="top: 18.00%; left: 51.00%;" data-tooltip="DIEP Seminar (Amsterdam) – 11 Sep 2025">🚩</div>
-                    <div class="flag-emoji" style="top: 24.00%; left: 53.00%;" data-tooltip="Università di Genova – 29 Oct 2025">🚩</div>
-                    <div class="flag-emoji" style="top: 29.50%; left: 61.00%;" data-tooltip="Tel Aviv University – 1 Dec 2025">🚩</div>
+                    <div class="flag-emoji" style="top: 22.86%; left: 50.65%;" data-tooltip="Institut Curie – 15 May 2025">🚩</div>
+                    <div class="flag-emoji" style="top: 20.90%; left: 51.75%;" data-tooltip="DIEP Seminar (Amsterdam) – 11 Sep 2025">🚩</div>
+                    <div class="flag-emoji" style="top: 25.33%; left: 52.49%;" data-tooltip="Università di Genova – 29 Oct 2025">🚩</div>
+                    <div class="flag-emoji" style="top: 32.17%; left: 59.66%;" data-tooltip="Tel Aviv University – 1 Dec 2025">🚩</div>
+                  </div>
                 </div>
             `,
 
@@ -1086,6 +1141,43 @@ renderRegionLegend(REGION_ORDER);
         }
 
 
+        function initTalksMap() {
+            const stage = document.getElementById('talk-map-stage');
+            const buttons = [...document.querySelectorAll('[data-talk-map-view]')];
+            if (!stage) return;
+
+            // Positions use the same percentage coordinates as the original flags.
+            // Increasing zoom enlarges distances *between* flags, while each flag
+            // is counter-scaled to remain normal size on the screen.
+            const views = {
+                world:  { x: 50,   y: 50, zoom: 1 },
+                europe: { x: 53,   y: 21, zoom: 4.6 },
+                pnw:    { x: 15.7, y: 21, zoom: 5.0 }
+            };
+
+            function setView(name) {
+                const view = views[name];
+                if (!view) return;
+                const { x, y, zoom } = view;
+                stage.style.transform = `translate(${50 - zoom * x}%, ${50 - zoom * y}%) scale(${zoom})`;
+                stage.style.setProperty('--flag-inverse-scale', String(1 / zoom));
+                for (const btn of buttons) {
+                    const active = btn.dataset.talkMapView === name;
+                    btn.classList.toggle('active', active);
+                    btn.setAttribute('aria-pressed', String(active));
+                }
+            }
+
+            for (const btn of buttons) {
+                btn.addEventListener('click', () => setView(btn.dataset.talkMapView));
+            }
+            for (const flag of stage.querySelectorAll('.flag-emoji')) {
+                flag.tabIndex = 0;
+                flag.setAttribute('aria-label', flag.dataset.tooltip || 'Talk location');
+            }
+            setView('world');
+        }
+
         function loadPage(page) {
             if (page === 'talks' && isMobileLayout()) {
                 page = 'home';
@@ -1116,7 +1208,9 @@ renderRegionLegend(REGION_ORDER);
             if (navbar) navbar.style.display = 'flex';
             setActiveLink(page);
 
-            if (page === 'preprints') {
+            if (page === 'talks') {
+                initTalksMap();
+            } else if (page === 'preprints') {
                 loadPreprintsSnippet();
             } else if (page === 'worldnews') {
                 loadWorldNews();
