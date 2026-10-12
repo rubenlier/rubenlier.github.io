@@ -154,7 +154,7 @@
             position: absolute;
             z-index: 1;
             cursor: help;
-            transform: scale(var(--flag-inverse-scale)) translate(-50%, -50%);
+            transform: scale(var(--flag-inverse-scale)) translate(calc(-50% + var(--flag-dx, 0px)), calc(-50% + var(--flag-dy, 0px)));
             transform-origin: top left;
             font-size: clamp(14px, 2.2vw, 22px);
             line-height: 1;
@@ -573,18 +573,18 @@
                   <div class="map-stage" id="talk-map-stage">
                     <img class="world-map" src="equirel.jpg" alt="World Map" />
 
-                    <!-- Flags are placed on the equirectangular map using latitude/longitude: top = (90 - latitude)/180 * 100%; left = (longitude + 180)/360 * 100%. Nearby Amsterdam/Veldhoven flags are slightly staggered for legibility. -->
+                    <!-- Flags are placed on the equirectangular map using latitude/longitude: top = (90 - latitude)/180 * 100%; left = (longitude + 180)/360 * 100%. Nearby Amsterdam/Veldhoven flags are slightly staggered for legibility. In the PNW close flags get a visual offset only while zoomed. -->
                     <div class="flag-emoji" style="top: 20.75%; left: 51.20%;" data-tooltip="Odd Viscoelasticity Workshop (DIEP) – 1 April 2022">🚩</div>
                     <div class="flag-emoji" style="top: 21.86%; left: 51.47%;" data-tooltip="NWO Physics – 23 Feb 2025">🚩</div>
                     <div class="flag-emoji" style="top: 21.38%; left: 52.76%;" data-tooltip="Max Planck Institute for Dynamics and Self-Organization – 17 Sep 2024">🚩</div>
                     <div class="flag-emoji" style="top: 21.65%; left: 53.82%;" data-tooltip="Max Planck Institute for the Physics of Complex Systems – 21 Sep 2024">🚩</div>
                     <div class="flag-emoji" style="top: 21.61%; left: 54.73%;" data-tooltip="Wrocław University of Science and Technology – 24 Jan 2024">🚩</div>
                     <div class="flag-emoji" style="top: 17.04%; left: 55.02%;" data-tooltip="Hydrodynamics at all scales (Nordita) – 8 Sep 2023">🚩</div>
-                    <div class="flag-emoji" style="top: 21.30%; left: 16.00%;" data-tooltip="University of Washington – 22 Nov 2024">🚩</div>
-                    <div class="flag-emoji" style="top: 20.90%; left: 14.70%;" data-tooltip="University of Victoria – 26 Nov 2024">🚩</div>
-                    <div class="flag-emoji" style="top: 20.40%; left: 15.80%;" data-tooltip="University of British Columbia – 15 Nov 2024">🚩</div>
-                    <div class="flag-emoji" style="top: 29.00%; left: 17.20%;" data-tooltip="APS Global Physics Summit (Anaheim) – 17 March 2025">🚩</div>
-                    <div class="flag-emoji" style="top: 26.00%; left: 18.80%;" data-tooltip="APS Global Physics Summit (Denver) – 17 March 2026">🚩</div>
+                    <div class="flag-emoji" style="top: 23.55%; left: 16.02%;" data-tooltip="University of Washington – 22 Nov 2024">🚩</div>
+                    <div class="flag-emoji" style="top: 23.08%; left: 15.75%;" data-pnw-dx="-14px" data-pnw-dy="8px" data-tooltip="University of Victoria – 26 Nov 2024">🚩</div>
+                    <div class="flag-emoji" style="top: 22.63%; left: 15.76%;" data-pnw-dx="12px" data-pnw-dy="-7px" data-tooltip="University of British Columbia – 15 Nov 2024">🚩</div>
+                    <div class="flag-emoji" style="top: 31.20%; left: 17.25%;" data-tooltip="APS Global Physics Summit (Anaheim) – 17 March 2025">🚩</div>
+                    <div class="flag-emoji" style="top: 27.92%; left: 20.83%;" data-tooltip="APS Global Physics Summit (Denver) – 17 March 2026">🚩</div>
                     <div class="flag-emoji" style="top: 22.86%; left: 50.65%;" data-tooltip="Institut Curie – 15 May 2025">🚩</div>
                     <div class="flag-emoji" style="top: 20.90%; left: 51.75%;" data-tooltip="DIEP Seminar (Amsterdam) – 11 Sep 2025">🚩</div>
                     <div class="flag-emoji" style="top: 25.33%; left: 52.49%;" data-tooltip="Università di Genova – 29 Oct 2025">🚩</div>
@@ -1152,7 +1152,7 @@ renderRegionLegend(REGION_ORDER);
             const views = {
                 world:  { x: 50,   y: 50, zoom: 1 },
                 europe: { x: 53,   y: 21, zoom: 4.6 },
-                pnw:    { x: 15.7, y: 21, zoom: 5.0 }
+                pnw:    { x: 16.7, y: 23.2, zoom: 5.0 }
             };
 
             function setView(name) {
@@ -1161,6 +1161,13 @@ renderRegionLegend(REGION_ORDER);
                 const { x, y, zoom } = view;
                 stage.style.transform = `translate(${50 - zoom * x}%, ${50 - zoom * y}%) scale(${zoom})`;
                 stage.style.setProperty('--flag-inverse-scale', String(1 / zoom));
+                // UBC and UVic are close in reality. Only in the regional view,
+                // separate their emoji slightly so both remain hoverable;
+                // their underlying latitude/longitude positions are exact.
+                for (const flag of stage.querySelectorAll('.flag-emoji')) {
+                    flag.style.setProperty('--flag-dx', name === 'pnw' ? (flag.dataset.pnwDx || '0px') : '0px');
+                    flag.style.setProperty('--flag-dy', name === 'pnw' ? (flag.dataset.pnwDy || '0px') : '0px');
+                }
                 for (const btn of buttons) {
                     const active = btn.dataset.talkMapView === name;
                     btn.classList.toggle('active', active);
