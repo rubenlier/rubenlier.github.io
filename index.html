@@ -567,13 +567,13 @@
                 <div class="talk-map-toolbar" role="group" aria-label="Zoom to map region">
                     <button type="button" class="talk-map-btn active" data-talk-map-view="world" aria-pressed="true">World</button>
                     <button type="button" class="talk-map-btn" data-talk-map-view="europe" aria-pressed="false">Europe</button>
-                    <button type="button" class="talk-map-btn" data-talk-map-view="pnw" aria-pressed="false">Pacific West</button>
+                    <button type="button" class="talk-map-btn" data-talk-map-view="northamerica" aria-pressed="false">North America</button>
                 </div>
                 <div class="map-container">
                   <div class="map-stage" id="talk-map-stage">
                     <img class="world-map" src="equirel.jpg" alt="World Map" />
 
-                    <!-- Flags are placed on the equirectangular map using latitude/longitude: top = (90 - latitude)/180 * 100%; left = (longitude + 180)/360 * 100%. Nearby Amsterdam/Veldhoven flags are slightly staggered for legibility. In the PNW close flags get a visual offset only while zoomed. -->
+                    <!-- Flags are placed on the equirectangular map using latitude/longitude: top = (90 - latitude)/180 * 100%; left = (longitude + 180)/360 * 100%. Nearby Amsterdam/Veldhoven flags are slightly staggered for legibility. Nearby Vancouver and Victoria flags get a small visual offset in the North America view. -->
                     <div class="flag-emoji" style="top: 20.75%; left: 51.20%;" data-tooltip="Odd Viscoelasticity Workshop (DIEP) – 1 April 2022">🚩</div>
                     <div class="flag-emoji" style="top: 21.86%; left: 51.47%;" data-tooltip="NWO Physics – 23 Feb 2025">🚩</div>
                     <div class="flag-emoji" style="top: 21.38%; left: 52.76%;" data-tooltip="Max Planck Institute for Dynamics and Self-Organization – 17 Sep 2024">🚩</div>
@@ -1152,7 +1152,7 @@ renderRegionLegend(REGION_ORDER);
             const views = {
                 world:  { x: 50,   y: 50, zoom: 1 },
                 europe: { x: 53,   y: 21, zoom: 4.6 },
-                pnw:    { x: 16.7, y: 23.2, zoom: 5.0 }
+                northamerica: { x: 22.5, y: 26.0, zoom: 4.5 }
             };
 
             function setView(name) {
@@ -1165,8 +1165,8 @@ renderRegionLegend(REGION_ORDER);
                 // separate their emoji slightly so both remain hoverable;
                 // their underlying latitude/longitude positions are exact.
                 for (const flag of stage.querySelectorAll('.flag-emoji')) {
-                    flag.style.setProperty('--flag-dx', name === 'pnw' ? (flag.dataset.pnwDx || '0px') : '0px');
-                    flag.style.setProperty('--flag-dy', name === 'pnw' ? (flag.dataset.pnwDy || '0px') : '0px');
+                    flag.style.setProperty('--flag-dx', name === 'northamerica' ? (flag.dataset.pnwDx || '0px') : '0px');
+                    flag.style.setProperty('--flag-dy', name === 'northamerica' ? (flag.dataset.pnwDy || '0px') : '0px');
                 }
                 for (const btn of buttons) {
                     const active = btn.dataset.talkMapView === name;
