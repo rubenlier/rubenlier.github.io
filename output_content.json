@@ -1,14 +1,632 @@
 [
   {
-    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1792450425",
-    "n_items": 2544,
-    "n_clusters": 2046,
+    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1792500229",
+    "n_items": 2535,
+    "n_clusters": 2093,
     "clusters": [
       {
-        "score": 288.37324990957075,
-        "size": 67,
-        "n_sources": 53,
-        "n_continents": 10,
+        "score": 143.44066677671967,
+        "size": 26,
+        "n_sources": 26,
+        "n_continents": 8,
+        "continents": [
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "Oceania",
+          "South America"
+        ],
+        "coherence": 0.825676679611206,
+        "title": "Alberta votes to remain part of Canada",
+        "central_article": {
+          "title": "Alberta votes to remain part of Canada",
+          "url": "https://www.bangkokpost.com/world/3340403/alberta-votes-to-remain-part-of-canada",
+          "source_id": "bangkokpost.com",
+          "continent": "East Asia",
+          "published_at": null,
+          "scraped_at_utc": "2026-10-20T12:25:06.637299+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9067373275756836,
+            "article": {
+              "title": "Alberta votes to remain part of Canada",
+              "url": "https://www.bangkokpost.com/world/3340403/alberta-votes-to-remain-part-of-canada",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:25:06.637299+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8901931047439575,
+            "article": {
+              "title": "Alberta voters reject move to separate from Canada",
+              "url": "https://www.abc.net.au/news/2026-10-20/alberta-votes-to-remain-part-of-canada/107289816",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:20:24.177712+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8788067102432251,
+            "article": {
+              "title": "Alberta voters reject separation from Canada, early results show",
+              "url": "https://www.aljazeera.com/news/2026/10/20/alberta-voters-reject-separation-from-canada-early-results-show",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:20:41.377631+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8718868494033813,
+            "article": {
+              "title": "Alberta rejects independence and votes to remain in Canada, CBC projects",
+              "url": "https://www.independent.co.uk/news/world/americas/alberta-referendum-results-canada-independence-b3069628.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:09.010518+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.866051435470581,
+            "article": {
+              "title": "Alberta votes to remain part of Canada in historic referendum",
+              "url": "https://www.thetimes.com/world/canada-world/article/alberta-referendum-results-voters-want-to-remain-part-of-canada-7mjx79n86",
+              "source_id": "thetimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:10.500632+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8634306192398071,
+            "article": {
+              "title": "Au Canada, la province de l’Alberta vote contre son indépendance",
+              "url": "https://www.lemonde.fr/international/article/2026/10/20/au-canada-la-province-de-l-alberta-vote-contre-son-independance_6797891_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:19:05.604595+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8608080148696899,
+            "article": {
+              "title": "Жители провинции Альберта на референдуме решили остаться в составе Канады",
+              "url": "https://meduza.io/news/2026/10/20/zhiteli-provintsii-alberta-na-referendume-reshili-ostatsya-v-sostave-kanady",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:21:30.287574+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8584262728691101,
+            "article": {
+              "title": "Alberta voters reject plan for referendum to leave Canada",
+              "url": "https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:11.763202+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8582754135131836,
+            "article": {
+              "title": "Provincia de Alberta rechaza en referéndum independizarse de Canadá",
+              "url": "https://www.emol.com/noticias/Internacional/2026/10/20/1214628/alberta-rechaza-independencia-canada.html",
+              "source_id": "emol.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:19:48.003388+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8577895164489746,
+            "article": {
+              "title": "Gegen Unabhängigkeitsreferendum Alberta will kanadisch bleiben",
+              "url": "https://www.tagesschau.de/ausland/amerika/alberta-kanada-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:25.683230+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8556630611419678,
+            "article": {
+              "title": "Kiezers in Alberta verwerpen referendum over afscheiding met ruime meerderheid",
+              "url": "https://www.nrc.nl/nieuws/2026/10/20/kiezers-in-alberta-verwerpen-referendum-over-afscheiding-met-ruime-meerderheid-a4939336",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:19.756831+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.851028323173523,
+            "article": {
+              "title": "Provincie Alberta verwerpt afsplitsing van Canada",
+              "url": "https://fd.nl/politiek/1616168/provincie-alberta-verwerpt-afsplitsing-van-canada",
+              "source_id": "fd.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:23.546796+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8436039686203003,
+            "article": {
+              "title": "Alberta vota por seguir formando parte de Canadá, según resultados preliminares del referendo independentista",
+              "url": "https://www.bbc.com/mundo/articles/c65yngpp7zxlo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:19:29.263620+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8433009386062622,
+            "article": {
+              "title": "Alberta says 'yes' to Canada, rejects separation drive",
+              "url": "https://www.sbs.com.au/news/article/alberta-says-yes-to-canada-rejects-separation-drive/w3aj8y3aj",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:20:25.677047+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8325350284576416,
+            "article": {
+              "title": "Alberta votes to remain part of Canada in victory for PM Carney",
+              "url": "https://www.france24.com/en/americas/20261019-alberta-votes-to-remain-part-of-canada-in-victory-for-pm-carney",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:19:10.210098+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8288403749465942,
+            "article": {
+              "title": "Alberta vota por seguir formando parte de Canadá, una victoria para el primer ministro Carney",
+              "url": "https://www.latercera.com/mundo/noticia/alberta-vota-por-seguir-formando-parte-de-canada-una-victoria-para-el-primer-ministro-carney/",
+              "source_id": "latercera.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:19:58.543875+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8262792229652405,
+            "article": {
+              "title": "Bericht: Mehrheit in Alberta gegen Abspaltung von Kanada",
+              "url": "https://www.zdfheute.de/politik/ausland/kanada-alberta-mehrheit-gegen-losloesung-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:36.699586+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8160755634307861,
+            "article": {
+              "title": "Жители Альберты решили не отделяться от Канады",
+              "url": "https://www.kommersant.ru/doc/9042702",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:21:39.707089+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8097026944160461,
+            "article": {
+              "title": "Die Provinz Alberta hat darüber abgestimmt, ob sie Teil Kanadas bleiben will. Das Ergebnis ist wohl deutlich",
+              "url": "https://www.nzz.ch/international/die-provinz-alberta-hat-darueber-abgestimmt-ob-sie-teil-kanadas-bleiben-will-das-ergebnis-ist-deutlich-ld.10038934",
+              "source_id": "nzz.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:40.041189+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8024353981018066,
+            "article": {
+              "title": "Província canadense de Alberta rejeita separação em referendo e continuará como parte do país Resultado parcial da votação apresenta 76% de apoio para a região se manter no Canadá",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/10/provincia-de-alberta-rejeita-separacao-e-vota-por-permanencia-no-canada.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:19:50.351606+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7953537702560425,
+            "article": {
+              "title": "Au Canada, l'Alberta vote très largement contre l'organisation d'un référendum d'indépendance",
+              "url": "https://www.rts.ch/info/monde/2026/article/alberta-76-5-de-non-a-un-referendum-d-independance-29390941.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:19:11.855774+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7672961950302124,
+            "article": {
+              "title": "‘Albertans chose Canada’: Voters reject move towards independence in victory for Carney",
+              "url": "https://www.smh.com.au/world/north-america/albertans-chose-canada-voters-reject-move-towards-independence-in-victory-for-carney-20261020-p6177o.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:20:27.122984+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7665034532546997,
+            "article": {
+              "title": "Alberta rechaza separarse de Canadá: golpe a los separatistas que coqueteaban con Trump",
+              "url": "https://www.elespectador.com/mundo/america/alberta-separacion-de-canada-trump/",
+              "source_id": "elespectador.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:20:00.993099+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7451058626174927,
+            "article": {
+              "title": "Inwoners Alberta stemmen tegen afscheiding van Canada De uitkomst van het referendum is een opsteker voor de Canadese premier Carney.",
+              "url": "https://nos.nl/artikel/2635910-inwoners-alberta-stemmen-tegen-afscheiding-van-canada",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:18.055530+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6878474950790405,
+            "article": {
+              "title": "Oil-rich Canadian province makes decision on secession referendum",
+              "url": "https://www.rt.com/news/647423-alberta-vote-reject-independence-canada/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:21:37.541691+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6836167573928833,
+            "article": {
+              "title": "Alberta remains, and so does its frustration on equalization and energy policy",
+              "url": "https://www.theglobeandmail.com/business/commentary/article-alberta-referendum-remain-equalization-energy-policy/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:20:22.843941+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 108.00621106910756,
+        "size": 25,
+        "n_sources": 20,
+        "n_continents": 9,
+        "continents": [
+          "Africa",
+          "China",
+          "East Asia",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "Oceania",
+          "South America"
+        ],
+        "coherence": 0.7978463768959045,
+        "title": "French authorities impose curfews after weekend of riots",
+        "central_article": {
+          "title": "French authorities impose curfews after weekend of riots",
+          "url": "https://www.theglobeandmail.com/world/article-france-protests-weekend-violence-oct-19/",
+          "source_id": "theglobeandmail.com",
+          "continent": "North America",
+          "published_at": null,
+          "scraped_at_utc": "2026-10-20T12:20:22.843941+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9063495397567749,
+            "article": {
+              "title": "French authorities impose curfews after weekend of riots",
+              "url": "https://www.theglobeandmail.com/world/article-france-protests-weekend-violence-oct-19/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:20:22.843941+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.900499701499939,
+            "article": {
+              "title": "France to impose new curfews as authorities seek to restore order after riots",
+              "url": "https://www.sbs.com.au/news/article/france-to-impose-new-curfews-as-authorities-seek-to-restore-order-after-riots/4pkni8mrz",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:20:25.677047+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8979440927505493,
+            "article": {
+              "title": "French authorities impose curfews after weekend rioting",
+              "url": "https://www.pbs.org/newshour/show/french-authorities-impose-curfews-after-weekend-rioting",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:23:15.114321+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8833939433097839,
+            "article": {
+              "title": "France to impose more curfews as government seeks to regain control after riots and looting",
+              "url": "https://www.france24.com/en/europe/20261020-live-curfews-come-into-effect-around-france-to-combat-looting",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:19:10.210098+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8669369220733643,
+            "article": {
+              "title": "Multiple French cities announce curfew after violent weekend protests: report",
+              "url": "https://en.people.cn/n3/2026/1020/c90000-20510114.html",
+              "source_id": "en.people.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:23:18.004250+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8402947783470154,
+            "article": {
+              "title": "Partial curfew imposed in French cities after protests",
+              "url": "https://www.channel4.com/news/partial-curfew-imposed-in-french-cities-after-protests",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:14.198887+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8327300548553467,
+            "article": {
+              "title": "France Imposes Partial Curfews After Police 'Lost Control' of Protests",
+              "url": "https://time.com/article/2026/10/19/how-protests-in-france-europe-spiraled-out-of-control/",
+              "source_id": "time.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:23:13.426949+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8325672149658203,
+            "article": {
+              "title": "French PM orders ‘localized’ curfews in response to looting and unrest",
+              "url": "https://www.politico.eu/article/france-sebastien-lecornu-partial-curfews-riots-protests/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:16.916971+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8231334686279297,
+            "article": {
+              "title": "France faces reckoning with public order policing after violent protest weekend",
+              "url": "https://www.france24.com/en/france/20261019-france-faces-reckoning-public-order-policing-after-violent-protest-weekend",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:19:10.210098+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8228025436401367,
+            "article": {
+              "title": "France PM promises more curfews as authorities seek to regain control",
+              "url": "https://www.aljazeera.com/news/2026/10/20/france-to-impose-new-curfews-where-required-after-calm-night",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:20:41.377631+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8107398748397827,
+            "article": {
+              "title": "Louvre closed and curfews imposed as France cracks down after protest violence",
+              "url": "https://www.sbs.com.au/news/article/lourve-closed-curfews-imposed-france-protests/cddsmj0n7",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:20:25.677047+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8092013597488403,
+            "article": {
+              "title": "France calm under night curfews as groups announce new weekend protests",
+              "url": "https://www.theglobeandmail.com/world/article-france-protests-curfews-government/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:20:22.843941+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8080579042434692,
+            "article": {
+              "title": "El gobierno de Francia decreta toques de queda y condena a los \"ladrones\" y \"delincuentes\" detrás de los violentos disturbios",
+              "url": "https://www.bbc.com/mundo/articles/cv1j3zdrygw7o",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:19:29.263620+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7952046394348145,
+            "article": {
+              "title": "France to impose new curfews where 'situation requires it', PM says",
+              "url": "https://www.euronews.com/2026/10/20/france-to-impose-new-curfews-where-situation-requires-it-pm-lecornu-says",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:15.686030+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7787598371505737,
+            "article": {
+              "title": "Francia impone toques de queda por disturbios: ¿qué dicen los analistas?",
+              "url": "https://elcomercio.pe/mundo/europa/francia-impone-toques-de-queda-por-los-disturbios-como-empezaron-las-protestas-y-por-que-escalaron-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:19:57.171336+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7656270265579224,
+            "article": {
+              "title": "Toques de queda en París y otras ciudades para frenar la violencia",
+              "url": "https://www.lavanguardia.com/internacional/20261020/11663056/francia-ensaya-toque-queda.html",
+              "source_id": "lavanguardia.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:19:19.186472+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7611125707626343,
+            "article": {
+              "title": "France holds crisis talks after unrest",
+              "url": "https://www.chinadaily.com.cn/a/202610/20/WS6ad69bc0e4b06d4aa0563a20.html",
+              "source_id": "chinadaily.com.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:23:19.488688+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7523537874221802,
+            "article": {
+              "title": "Frankreich: Neue Ausgangssperren, \"wo es die Lage erfordert\"",
+              "url": "https://www.zdfheute.de/politik/ausland/frankreich-proteste-ausgangssperren-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:36.699586+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7445759773254395,
+            "article": {
+              "title": "فرنسا تواجه أزمة سياسية متصاعدة وسط توجه لتمديد حظر التجول",
+              "url": "https://www.hespress.com/%d9%81%d8%b1%d9%86%d8%b3%d8%a7-%d8%aa%d9%88%d8%a7%d8%ac%d9%87-%d8%a3%d8%b2%d9%85%d8%a9-%d8%b3%d9%8a%d8%a7%d8%b3%d9%8a%d8%a9-%d9%85%d8%aa%d8%b5%d8%a7%d8%b9%d8%af%d8%a9-%d9%88%d8%b3%d8%b7-%d8%aa%d9%88-1825967.html",
+              "source_id": "hespress.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:22:41.270119+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7428522706031799,
+            "article": {
+              "title": "France France imposes partial curfews in several cities, including parts of Paris",
+              "url": "https://www.theguardian.com/world/2026/oct/19/french-police-lost-control-during-riots-concedes-interior-minister",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:11.763202+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7418038845062256,
+            "article": {
+              "title": "France presses resale platforms to remove 'stolen' goods after unrest",
+              "url": "https://www.euronews.com/2026/10/20/france-presses-resale-platforms-to-remove-stolen-goods-after-unrest",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:15.686030+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7325385808944702,
+            "article": {
+              "title": "Frankreich verlängert örtliche Ausgangssperren - nach ruhiger Nacht",
+              "url": "https://www.tagesschau.de/ausland/europa/frankreich-ausgangssperren-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:25.683230+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7215250730514526,
+            "article": {
+              "title": "Macron vows looters will ‘pay’ in France after protests turn violent",
+              "url": "https://www.politico.eu/article/emmanuel-macron-transparency-france-protest-unrest/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:16.916971+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.70416259765625,
+            "article": {
+              "title": "Frankrigs premierminister klar til at indføre udgangsforbud",
+              "url": "https://sermitsiaq.ag/samfund/frankrigs-premierminister-klar-til-at-indfore-udgangsforbud/2438294",
+              "source_id": "sermitsiaq.ag",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:19:00.882014+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6709924936294556,
+            "article": {
+              "title": "Italy's Meloni to boost police arrest powers in response to weekend riots",
+              "url": "https://www.straitstimes.com/world/europe/italys-meloni-to-boost-police-arrest-powers-in-response-to-weekend-riots?ref=latest-headlines",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:25:10.996971+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 68.57540069424918,
+        "size": 14,
+        "n_sources": 12,
+        "n_continents": 9,
         "continents": [
           "China",
           "East Asia",
@@ -17,765 +635,709 @@
           "Europe South",
           "Middle East",
           "North America",
-          "Oceania",
           "South America",
           "South Asia"
         ],
-        "coherence": 0.778275728225708,
-        "title": "France imposes curfews in parts of Paris, other cities after weekend of riots",
+        "coherence": 0.8091605305671692,
+        "title": "Anger at rising fuel prices bolsters Europe's far right as unrest sweeps France",
         "central_article": {
-          "title": "France imposes curfews in parts of Paris, other cities after weekend of riots",
-          "url": "https://www.thedailystar.net/news/world/news/france-imposes-curfews-parts-paris-other-cities-after-weekend-riots-4302596",
-          "source_id": "thedailystar.net",
-          "continent": "South Asia",
+          "title": "Anger at rising fuel prices bolsters Europe's far right as unrest sweeps France",
+          "url": "https://www.france24.com/en/france/20261020-anger-at-rising-fuel-prices-bolsters-europe-s-far-right-as-unrest-sweeps-france",
+          "source_id": "france24.com",
+          "continent": "Europe South",
           "published_at": null,
-          "scraped_at_utc": "2026-10-19T22:44:51.664651+00:00"
+          "scraped_at_utc": "2026-10-20T12:19:10.210098+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9057344198226929,
+            "sim_to_centroid": 0.9102641344070435,
             "article": {
-              "title": "France imposes curfews in parts of Paris, other cities after weekend of riots",
-              "url": "https://www.thedailystar.net/news/world/news/france-imposes-curfews-parts-paris-other-cities-after-weekend-riots-4302596",
-              "source_id": "thedailystar.net",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:44:51.664651+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8968209624290466,
-            "article": {
-              "title": "French authorities impose curfews after weekend of riots",
-              "url": "https://www.theglobeandmail.com/world/article-france-protests-weekend-violence-oct-19/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:41:30.561252+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8913838863372803,
-            "article": {
-              "title": "Multiple French cities announce curfew after violent weekend protests: report",
-              "url": "https://english.news.cn/20261020/b8423ecde6974c32850eb60a65e7b640/c.html",
-              "source_id": "english.news.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:44:21.888931+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8827233910560608,
-            "article": {
-              "title": "France announces curfews in aftermath of violent protests",
-              "url": "https://www.aljazeera.com/news/2026/10/19/frances-macron-declines-ministers-resignation-after-violent-protests",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:41:49.461928+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.872242271900177,
-            "article": {
-              "title": "French cities under curfew after two nights of rioting",
-              "url": "https://www.thetimes.com/world/europe/article/curfews-paris-lyon-lille-france-riots-macron-j99rxqg02",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:12.159950+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8691526651382446,
-            "article": {
-              "title": "France announces curfews as government grapples with unrest",
-              "url": "https://www.channelnewsasia.com/europe/france-protest-curfews-emergency-state-6472211",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:45:40.650596+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8691526651382446,
-            "article": {
-              "title": "France announces curfews as government grapples with unrest",
-              "url": "https://www.straitstimes.com/world/europe/france-announces-first-curfews-as-government-grapples-with-unrest?ref=top-stories",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:46:01.756234+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8678494691848755,
-            "article": {
-              "title": "France announces partial curfews after weekend of violence",
-              "url": "https://www.euronews.com/2026/10/19/french-pm-lecornu-calls-for-regional-authorities-to-impose-partial-curfews",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:16.316911+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8671677708625793,
-            "article": {
-              "title": "France imposes curfews as riots spiral",
-              "url": "https://www.rt.com/news/647388-france-riots-violence-curfews/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:42:42.148834+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8628758788108826,
-            "article": {
-              "title": "Curfew imposed in parts of central Paris and other cities after rioting across France",
-              "url": "https://www.bbc.com/news/articles/cx30ez03djyqo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:10.492452+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8598808646202087,
-            "article": {
-              "title": "Partial curfew imposed in French cities after protests",
-              "url": "https://www.channel4.com/news/partial-curfew-imposed-in-french-cities-after-protests",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:14.843037+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8553445339202881,
-            "article": {
-              "title": "Francia ordena toques de queda parciales en algunas ciudades ante los disturbios",
-              "url": "https://www.rtve.es/noticias/20261019/protestas-estudiantes-francia-disturbios/17272494.shtml",
-              "source_id": "rtve.es",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:27.817658+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8295904397964478,
-            "article": {
-              "title": "В некоторых городах Франции из-за беспорядков ввели комендантский час",
-              "url": "https://meduza.io/news/2026/10/19/v-nekotoryh-gorodah-frantsii-iz-za-besporyadkov-vvedut-komendantskiy-chas",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:42:34.403199+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8267515897750854,
-            "article": {
-              "title": "France imposes local curfews in cities to prevent further looting",
-              "url": "https://www.irishtimes.com/world/europe/2026/10/19/france-imposes-local-curfews-in-cities-to-prevent-further-looting/",
-              "source_id": "irishtimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:41:48.178391+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.825151801109314,
-            "article": {
-              "title": "فرنسا تفرض حظر تجول في مدن عدة وتقيّد المظاهرات في باريس",
-              "url": "https://www.aljazeera.net/news/2026/10/19/عاجل-رئيس-وزراء-فرنسا-قد-نعلن-حالة",
-              "source_id": "aljazeera.net",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:41:53.820814+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8249224424362183,
-            "article": {
-              "title": "French towns and cities to be placed under curfew to quell riots",
-              "url": "https://www.thetimes.com/world/europe/article/france-protests-paris-flames-anarchy-macron-7sq2gmwdm",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:12.159950+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8239873051643372,
-            "article": {
-              "title": "France Imposes Partial Curfews After Police 'Lost Control' of Protests",
-              "url": "https://time.com/article/2026/10/19/how-protests-in-france-europe-spiraled-out-of-control/",
-              "source_id": "time.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:44:13.264961+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8235934972763062,
-            "article": {
-              "title": "Protestoların ardından: Fransa'da sokağa çıkma yasağı ilan edildi!",
-              "url": "https://www.cumhuriyet.com.tr/siyaset/son-dakika-protestolarin-ardindan-fransa-da-sokaga-cikma-yasagi-ilan-edildi-2548321",
-              "source_id": "cumhuriyet.com.tr",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:42:01.720359+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8198443651199341,
-            "article": {
-              "title": "Why protests are spreading across Europe, as France imposes first curfews",
-              "url": "https://www.abc.net.au/news/2026-10-20/europe-protests-explained-as-demonstrations-grow/107285508",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:41:31.840406+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8197328448295593,
-            "article": {
-              "title": "Francia implanta toques de queda parciales en París y otras grandes ciudades para frenar los disturbios",
-              "url": "https://elpais.com/internacional/2026-10-19/macron-rechaza-la-dimision-del-ministro-del-interior-tras-los-disturbios-del-fin-de-semana.html",
-              "source_id": "elpais.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:21.158044+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.819401204586029,
-            "article": {
-              "title": "France faces reckoning with public order policing after violent protest weekend",
-              "url": "https://www.france24.com/en/france/20261019-france-faces-reckoning-public-order-policing-after-violent-protest-weekend",
+              "title": "Anger at rising fuel prices bolsters Europe's far right as unrest sweeps France",
+              "url": "https://www.france24.com/en/france/20261020-anger-at-rising-fuel-prices-bolsters-europe-s-far-right-as-unrest-sweeps-france",
               "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:12.616497+00:00"
+              "scraped_at_utc": "2026-10-20T12:19:10.210098+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8181238174438477,
+            "sim_to_centroid": 0.8951265811920166,
             "article": {
-              "title": "Francia decreta los primeros toques de queda lunes y martes en varias ciudades tras disturbios",
-              "url": "https://elcomercio.pe/mundo/europa/francia-anuncia-toques-de-queda-tras-los-disturbios-y-saqueos-del-fin-de-semana-protestas-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:41:04.529433+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.816765308380127,
-            "article": {
-              "title": "Nach gewaltsamen Ausschreitungen Frankreichs Premier kündigt Ausgangssperren an",
-              "url": "https://www.tagesschau.de/ausland/europa/frankreich-proteste-ausschreitungen-ausgangssperren-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:26.215275+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8135136365890503,
-            "article": {
-              "title": "Avondklok in meerdere Franse steden, waaronder Parijs en Lyon, na weekend vol rellen",
-              "url": "https://nos.nl/artikel/2635867-avondklok-in-meerdere-franse-steden-waaronder-parijs-en-lyon-na-weekend-vol-rellen",
-              "source_id": "nos.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:18.826069+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8111672401428223,
-            "article": {
-              "title": "法国多城实施局部宵禁防止骚乱重演",
-              "url": "https://www.xinhuanet.com/20261020/1d40c941682043448724c71bd02e3135/c.html",
-              "source_id": "xinhuanet.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:44:24.258927+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8086899518966675,
-            "article": {
-              "title": "Ausgangssperren in französischen Städten verhängt",
-              "url": "https://www.zdfheute.de/politik/ausland/frankreich-proteste-ausgangssperren-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:38.184703+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8063603639602661,
-            "article": {
-              "title": "Toques de queda parciales en París y otras ciudades para frenar los disturbios",
-              "url": "https://www.lavanguardia.com/internacional/20261019/11662471/macron-rechaza-dimision-ministro-interior-fiasco-disturbios.html",
-              "source_id": "lavanguardia.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:25.111421+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8043130040168762,
-            "article": {
-              "title": "French PM orders ‘localized’ curfews in response to looting and unrest",
-              "url": "https://www.politico.eu/article/france-sebastien-lecornu-partial-curfews-riots-protests/",
-              "source_id": "politico.eu",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:17.682380+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8020327091217041,
-            "article": {
-              "title": "France issues curfew for parts of central Paris",
-              "url": "https://www.france24.com/en/france/20261019-live-french-pm-lecornu-calls-for-partial-curfews-in-cities-hit-by-riots-and-looting",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:12.616497+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7984902858734131,
-            "article": {
-              "title": "El gobierno de Francia decreta toques de queda y condena a los \"ladrones\" y \"delincuentes\" detrás de los violentos disturbios",
-              "url": "https://www.bbc.com/mundo/articles/cv1j3zdrygw7o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:35.404661+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7915279269218445,
-            "article": {
-              "title": "France expected to declare state of emergency after violent protests",
-              "url": "https://www.channel4.com/news/france-expected-to-declare-state-of-emergency-after-violent-protests",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:14.843037+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7905875444412231,
-            "article": {
-              "title": "فرانس میں پرتشدد مظاہروں اور لوٹ مار کے بعد جزوی کرفیو نافذ کرنے ...",
-              "url": "https://www.nawaiwaqt.com.pk/19-Oct-2026/2037964",
-              "source_id": "nawaiwaqt.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:45:06.604705+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.787659764289856,
-            "article": {
-              "title": "„A fost ca o adevărată tornadă”. Ce se întâmplă acum în Franța, după un weekend plin de violențe. Deciziile anunțate",
-              "url": "https://hotnews.ro/a-fost-ca-o-adevarata-tornada-ce-s-a-intamplat-in-franta-dupa-revoltele-violente-care-au-zguduit-tara-deciziile-anuntate-2380624",
-              "source_id": "hotnews.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:42:18.034707+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.779831051826477,
-            "article": {
-              "title": "Francia, scatta il coprifuoco a Parigi e in altre grandi città",
-              "url": "https://www.repubblica.it/esteri/2026/10/20/news/francia_proteste_coprifuoco_studenti_gilet_gialli-425658982/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:30.623597+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7783167362213135,
-            "article": {
-              "title": "الرئيس الفرنسي يقر بـ\"إخفاقات\" بمواجهة شغب التظاهرات.. وفرض حظر تجول في مناطق عدة",
-              "url": "https://www.omandaily.om/article/1213039",
-              "source_id": "omandaily.om",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:42:14.213593+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7697038650512695,
-            "article": {
-              "title": "國際 法國示威演變成暴力衝突 北部城市局部宵禁",
-              "url": "https://www.cna.com.tw/news/aopl/202610200002.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:46:08.436160+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7597084641456604,
-            "article": {
-              "title": "ইউরোপজুড়ে বিক্ষোভ, ব্যয় বৃদ্ধির প্রতিবাদ উত্তাল ফ্রান্স, কয়েকটি শহরে কারফিউ জারি",
-              "url": "https://www.prothomalo.com/world/europe/8nb3n8zdwd",
-              "source_id": "prothomalo.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:44:53.153851+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7572709321975708,
-            "article": {
-              "title": "PM calls for curfews in France as govt grapples with unrest PM calls for curfews in France as govt grapples with unrest",
-              "url": "https://myrepublica.nagariknetwork.com/news/pm-calls-for-curfews-in-france-as-govt-grapples-with-unrest-13-12.html",
-              "source_id": "myrepublica.nagariknetwork.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:45:07.812656+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.75356125831604,
-            "article": {
-              "title": "De premiers couvre-feux localisés annoncés à Paris, à Nice, à Lyon et à Lille, à la suite des violences du week-end",
-              "url": "https://www.lemonde.fr/politique/article/2026/10/19/de-premiers-couvre-feux-localises-annonces-a-paris-nice-et-lille-apres-les-violences-du-week-end_6797576_823448.html",
-              "source_id": "lemonde.fr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:06.975222+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7513006925582886,
-            "article": {
-              "title": "Le gouvernement français annonce plusieurs couvre-feu dès lundi soir après les violences du week-end Mobilisation en France hier à",
-              "url": "https://www.rts.ch/info/monde/2026/article/violences-en-france-macron-refuse-la-demission-de-laurent-nunez-29389818.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:14.190646+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7412217855453491,
-            "article": {
-              "title": "فرانس میں ہنگامے، سوشل میڈیا پر دلچسپ مناظر وائرل",
-              "url": "https://jang.com.pk/news/1625875",
-              "source_id": "jang.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:45:04.689647+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7399091720581055,
-            "article": {
-              "title": "Students blockade Louvre as France rolls out local curfews",
-              "url": "https://www.smh.com.au/world/europe/students-blockade-louvre-as-france-rolls-out-local-curfews-20261020-p616wy.html",
-              "source_id": "smh.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:41:34.678109+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7370325326919556,
-            "article": {
-              "title": "Des couvre-feux partiels dans plusieurs villes de France après un week-end de violence",
-              "url": "https://www.lesoir.be/777653/article/2026-10-19/des-couvre-feux-partiels-dans-plusieurs-villes-de-france-apres-un-week-end-de",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:19.582564+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.736906886100769,
-            "article": {
-              "title": "Francija uvaja policijsko uro in razmišlja o izrednih razmerah",
-              "url": "https://www.delo.si/novice/svet/francija-uvaja-policijsko-uro-in-razmislja-o-izrednih-razmerah",
-              "source_id": "delo.si",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:42:30.322563+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7357100248336792,
-            "article": {
-              "title": "French retailers reel after weekend of riots, looting",
-              "url": "https://www.france24.com/en/tv-shows/business/20261019-french-retailers-reel-after-weekend-of-riots-looting",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:12.616497+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7346199154853821,
-            "article": {
-              "title": "France to boost police presence on weekend",
-              "url": "https://www.azernews.az/region/265840.html",
-              "source_id": "azernews.az",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:43:03.640752+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7310877442359924,
-            "article": {
-              "title": "Frankreich verhängt Ausgangssperren in Teilen von Paris, Nizza und Lille",
-              "url": "https://www.diepresse.com/41374511/frankreich-verhaengt-ausgangssperren-in-teilen-von-paris-nizza-und-lille",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:35.912032+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7266190648078918,
-            "article": {
-              "title": "Disturbios en Francia ponen a Macron contra las cuerdas a pocos meses de las elecciones",
-              "url": "https://www.elespectador.com/mundo/disturbios-en-francia-ponen-a-macron-contra-las-cuerdas-a-pocos-meses-de-las-elecciones/",
-              "source_id": "elespectador.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:41:08.700825+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7234578132629395,
-            "article": {
-              "title": "Macron urges calm as France counts cost of worst unrest in years",
-              "url": "https://kathmandupost.com/world/2026/10/19/macron-urges-calm-as-france-counts-cost-of-worst-unrest-in-years",
+              "title": "As France erupts, Europe’s far right gains from fuel-price anger ahead of elections",
+              "url": "https://kathmandupost.com/world/2026/10/20/as-france-erupts-europe-s-far-right-gains-from-fuel-price-anger-ahead-of-elections",
               "source_id": "kathmandupost.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:45:02.082880+00:00"
+              "scraped_at_utc": "2026-10-20T12:24:07.034975+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7216334939002991,
+            "sim_to_centroid": 0.8951265811920166,
             "article": {
-              "title": "Сожжённые здания и разграбленные бутики: Франция подсчитывает ущерб после беспорядков",
-              "url": "https://tengrinews.kz/world_news/sojjnnyie-zdaniya-razgrablennyie-butiki-frantsiya-611136/",
-              "source_id": "tengrinews.kz",
-              "continent": "Europe East",
+              "title": "As France erupts, Europe’s far right gains from fuel-price anger ahead of elections",
+              "url": "https://www.japantimes.co.jp/news/2026/10/20/world/politics/europe-far-right-preelection-gains/",
+              "source_id": "japantimes.co.jp",
+              "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:42:58.434503+00:00"
+              "scraped_at_utc": "2026-10-20T12:24:47.511414+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7213745713233948,
+            "sim_to_centroid": 0.8411887288093567,
             "article": {
-              "title": "Школьный протест во Франции перерос в уличный бунт – кто стоит за беспорядками?",
-              "url": "https://mlyn.by/19102026/ot-shkolnogo-protesta-k-ulichnomu-buntu-kto-raskachivaet-francziyu/",
-              "source_id": "mlyn.by",
-              "continent": "Europe East",
+              "title": "From France to Albania, social unrest is setting Europe’s streets ablaze",
+              "url": "https://www.thehindu.com/news/international/from-france-to-albania-social-unrest-is-setting-europes-streets-ablaze/article71603162.ece",
+              "source_id": "thehindu.com",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:43:20.558715+00:00"
+              "scraped_at_utc": "2026-10-20T12:23:48.220245+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7206227779388428,
+            "sim_to_centroid": 0.8305062651634216,
             "article": {
-              "title": "'It's like we had a war': Almost 2,400 arrested as Macron vows response to France unrest",
-              "url": "https://www.sbs.com.au/news/article/almost-2400-arrested-macron-france-unrest/l51gcezko",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
+              "title": "From France to Albania, how social unrest is fueling protests across Europe",
+              "url": "https://www.pbs.org/newshour/world/from-france-to-albania-how-social-unrest-is-fueling-protests-across-europe",
+              "source_id": "pbs.org",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:41:33.285835+00:00"
+              "scraped_at_utc": "2026-10-20T12:23:15.114321+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7198286652565002,
+            "sim_to_centroid": 0.8162041902542114,
             "article": {
-              "title": "Hundreds arrested in Paris as rioters defy Macron (VIDEOS)",
-              "url": "https://www.rt.com/news/647380-paris-arrests-macron-protests/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
+              "title": "Extrema direita na França capitaliza onda de violência para impulsionar campanha eleitoral",
+              "url": "https://oglobo.globo.com/mundo/noticia/2026/10/20/analise-extrema-direita-na-franca-capitaliza-onda-de-violencia-para-impulsionar-campanha-eleitoral.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:42:42.148834+00:00"
+              "scraped_at_utc": "2026-10-20T12:19:52.769206+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7171626687049866,
+            "sim_to_centroid": 0.8078423142433167,
             "article": {
-              "title": "Macron vows looters will ‘pay’ in France after protests turn violent",
-              "url": "https://www.politico.eu/article/emmanuel-macron-transparency-france-protest-unrest/",
-              "source_id": "politico.eu",
+              "title": "社会动荡背后：法国为何“燃烧”？",
+              "url": "https://www.sohu.com/a/1090201038_120952561?scm=10001.691_14-200000.0.0-0-0-0-0.",
+              "source_id": "news.sohu.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:23:33.835057+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7973185181617737,
+            "article": {
+              "title": "Hoe rechts Frankrijk profiteert van rellen",
+              "url": "https://fd.nl/economie/1616057/hoe-rechts-frankrijk-profiteert-van-rellen",
+              "source_id": "fd.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:17.682380+00:00"
+              "scraped_at_utc": "2026-10-20T12:18:23.546796+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.712615966796875,
+            "sim_to_centroid": 0.7897202372550964,
             "article": {
-              "title": "Funke Mediengruppe Live News im Blog Proteste in Frankreich eskalieren: Premierminister kündigt lokale Ausgangssperren an",
-              "url": "https://www.abendblatt.de/politik/article413442635/frankreich-paris-proteste-gewalt-krawallen-macron-rede.html",
-              "source_id": "abendblatt.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:39.967679+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7103196978569031,
-            "article": {
-              "title": "فرض حالة الطوارئ مطروح... حظر تجول بأحياء في باريس و4 مدن شمالي فرنسا",
-              "url": "https://www.annahar.com/international/europe/358450/حظر-تجول-في-بعض-أحيا-باريس-من-الساعة-11-مسا-الاثنين-حتى-السادسة-صباح-الثلاثا",
+              "title": "أوروبا تعيد تشكيل سياستها وعسكرها... لماذا انفجرت التظاهرات الآن؟",
+              "url": "https://www.annahar.com/international/europe/358619/أوروبا",
               "source_id": "annahar.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:42:10.502900+00:00"
+              "scraped_at_utc": "2026-10-20T12:21:02.822268+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7096890807151794,
+            "sim_to_centroid": 0.784111738204956,
             "article": {
-              "title": "A Paris, récit d’un week-end de manifestations et de violences",
-              "url": "https://www.lesoir.be/777771/article/2026-10-19/paris-recit-dun-week-end-de-manifestations-et-de-violences",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:19.582564+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7078733444213867,
-            "article": {
-              "title": "法国巴黎部分地区19日晚禁止集会或实施宵禁",
-              "url": "https://www.xinhuanet.com/20261020/0d6cdf07bd88416bb27f8af2a299decd/c.html",
-              "source_id": "xinhuanet.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:44:24.258927+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7058815956115723,
-            "article": {
-              "title": "«Am Samstag haben wir die Kontrolle verloren» – Frankreichs Regierungschef Lecornu kündigt am Montag Ausgangssperren an",
-              "url": "https://www.nzz.ch/international/proteste-in-frankreich-eskalieren-regierung-plant-ausgangssperren-ld.10038248",
-              "source_id": "nzz.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:41.615296+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7008365392684937,
-            "article": {
-              "title": "France riots: Presidential hopeful Attal pitches social media blackout",
-              "url": "https://www.politico.eu/article/france-gabriel-attal-social-media-blackout-riot/",
-              "source_id": "politico.eu",
+              "title": "„Frankreich brennt”: Trump will die Unruhen für Wahlkampf nützen",
+              "url": "https://www.diepresse.com/41374861/frankreich-brennt-trump-will-die-unruhen-fuer-wahlkampf-nuetzen",
+              "source_id": "diepresse.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:17.682380+00:00"
+              "scraped_at_utc": "2026-10-20T12:18:34.512328+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7005693316459656,
+            "sim_to_centroid": 0.7723766565322876,
             "article": {
-              "title": "'Shame', 'anger', 'chaos': Papers react to polarising riots in France",
-              "url": "https://www.france24.com/en/tv-shows/press-review/20261019-shame-anger-chaos-papers-react-to-polarising-riots-in-france",
-              "source_id": "france24.com",
-              "continent": "Europe South",
+              "title": "Gniew i frustracja młodych Europejczyków podpalają Zachód",
+              "url": "https://www.rp.pl/swiat/art45258151-rzecz-w-tym-gniew-i-frustracja-mlodych-europejczykow-podpalaja-zachod",
+              "source_id": "rp.pl",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:12.616497+00:00"
+              "scraped_at_utc": "2026-10-20T12:21:23.364616+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6924623250961304,
+            "sim_to_centroid": 0.7422201633453369,
             "article": {
-              "title": "Verden Frankrike varsler portforbud. Enkelte byer innfører forbud mot å gå ut allerede fra i kveld.",
-              "url": "https://www.aftenposten.no/verden/i/31KX9v/frankrike-innfoerer-portforbud-flere-steder",
-              "source_id": "aftenposten.no",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:48.185672+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6885965466499329,
-            "article": {
-              "title": "Macron increasingly isolated amid unrest across France",
-              "url": "https://www.euronews.com/2026/10/19/macron-increasingly-isolated-amid-unrest-across-france",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:16.316911+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6881545782089233,
-            "article": {
-              "title": "Manifestations en France : les premiers couvre-feux sont entrés en vigueur lundi soir dans plusieurs villes de France",
-              "url": "https://www.rtbf.be/article/manifestations-en-france-les-premiers-couvre-feux-sont-entres-en-vigueur-lundi-soir-dans-plusieurs-villes-de-france-11802355",
-              "source_id": "rtbf.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:17.934859+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6872000694274902,
-            "article": {
-              "title": "Arrests in France protests exceed 2,000 interior minister says",
-              "url": "https://georgiatoday.ge/arrests-in-france-protests-exceed-2000-interior-minister-says/",
+              "title": "Protests spread across Europe over living costs and public services",
+              "url": "https://georgiatoday.ge/protests-spread-across-europe-over-living-costs-and-public-services/",
               "source_id": "georgiatoday.ge",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:42:56.230894+00:00"
+              "scraped_at_utc": "2026-10-20T12:21:52.050380+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6843355298042297,
+            "sim_to_centroid": 0.728431224822998,
             "article": {
-              "title": "Après un week-end chaotique, Emmanuel Macron et le gouvernement s’en remettent aux préfets",
-              "url": "https://www.lemonde.fr/politique/article/2026/10/19/mobilisation-du-17-octobre-apres-un-week-end-chaotique-emmanuel-macron-et-le-gouvernement-s-en-remettent-aux-prefets_6797553_823448.html",
-              "source_id": "lemonde.fr",
+              "title": "Geweld drijft rente op Franse staatsleningen op",
+              "url": "https://fd.nl/economie/1616123/franse-rellen-jagen-rente-op-staatsobligaties-omhoog",
+              "source_id": "fd.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:23.546796+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7178105711936951,
+            "article": {
+              "title": "Macron secures diesel deals on Gulf visit as fuel prices stoke unrest in France",
+              "url": "https://www.france24.com/en/middle-east/20261020-macron-secures-diesel-deals-on-gulf-visit-as-fuel-prices-stoke-unrest-in-france",
+              "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:06.975222+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6365249156951904,
-            "article": {
-              "title": "Mauritius lifts curfew imposed amid wave of violent protests",
-              "url": "https://www.aljazeera.com/news/2026/10/19/mauritius-lifts-curfew-imposed-amid-wave-of-violent-protests",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:41:49.461928+00:00"
+              "scraped_at_utc": "2026-10-20T12:19:10.210098+00:00"
             }
           }
         ]
       },
       {
-        "score": 99.1099254624045,
-        "size": 19,
-        "n_sources": 19,
-        "n_continents": 8,
+        "score": 67.62473122451532,
+        "size": 14,
+        "n_sources": 13,
+        "n_continents": 6,
+        "continents": [
+          "China",
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Middle East",
+          "South Asia"
+        ],
+        "coherence": 0.8714529871940613,
+        "title": "UK to deploy fighter jets to help protect Saudi Arabia from Houthi attacks",
+        "central_article": {
+          "title": "UK to deploy fighter jets to help protect Saudi Arabia from Houthi attacks",
+          "url": "https://www.dawn.com/news/2038537/uk-to-deploy-fighter-jets-to-help-protect-saudi-arabia-from-houthi-attacks",
+          "source_id": "dawn.com",
+          "continent": "South Asia",
+          "published_at": null,
+          "scraped_at_utc": "2026-10-20T12:24:08.325701+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9461947679519653,
+            "article": {
+              "title": "UK to deploy fighter jets to help protect Saudi Arabia from Houthi attacks",
+              "url": "https://www.dawn.com/news/2038537/uk-to-deploy-fighter-jets-to-help-protect-saudi-arabia-from-houthi-attacks",
+              "source_id": "dawn.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:24:08.325701+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9335885047912598,
+            "article": {
+              "title": "UK to fly RAF missions defending Saudi Arabia against Houthi attacks",
+              "url": "https://www.thenationalnews.com/news/mena/2026/10/20/live-saudi-uk-raf-jets/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:20:42.854523+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9335885047912598,
+            "article": {
+              "title": "UK to fly RAF missions defending Saudi Arabia against Houthi attacks",
+              "url": "https://www.jpost.com/middle-east/article-912283",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:20:44.186298+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9318872690200806,
+            "article": {
+              "title": "UK to fly RAF missions defending Saudi against Houthi attacks",
+              "url": "https://www.newarab.com/news/uk-fly-raf-missions-defending-saudi-against-houthi-attacks",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:20:57.289592+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9299982786178589,
+            "article": {
+              "title": "UK to deploy Typhoon jets to help defend Saudi Arabia from Houthi attacks",
+              "url": "https://www.aljazeera.com/news/2026/10/20/uk-to-deploy-raf-fighter-jets-to-defend-saudi-arabia-from-houthi-attacks",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:20:41.377631+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9053767919540405,
+            "article": {
+              "title": "‘Defensive role’: UK to deploy fighter planes to help ally Saudi Arabia",
+              "url": "https://www.scmp.com/news/world/middle-east/article/3371539/uk-deploy-fighter-planes-help-saudi-arabias-defence-against-houthis?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:23:16.338462+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9053767919540405,
+            "article": {
+              "title": "‘Defensive role’: UK to deploy fighter planes to help ally Saudi Arabia",
+              "url": "https://www.scmp.com/news/world/middle-east/article/3371539/uk-deploy-fighter-planes-help-saudi-arabias-defence-against-houthis?module=latest&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:23:16.338462+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8633164167404175,
+            "article": {
+              "title": "Storbritannien sender kampfly til Saudi-Arabien",
+              "url": "https://www.dr.dk/nyheder/seneste/storbritannien-sender-kampfly-til-saudi-arabien",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:54.066201+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8574172258377075,
+            "article": {
+              "title": "Britain sends Typhoon jets to shield Saudi skies from Houthi drones, missiles",
+              "url": "https://www.straitstimes.com/world/middle-east/britain-says-it-will-carry-out-defensive-air-missions-over-saudi-arabia?ref=latest-headlines",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:25:10.996971+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8526990413665771,
+            "article": {
+              "title": "Marea Britanie trimite avioane Typhoon în Arabia Saudită pentru a contracara atacurile rebelilor Houthi",
+              "url": "https://www.g4media.ro/marea-britanie-trimite-avioane-typhoon-in-arabia-saudita-pentru-a-contracara-atacurile-rebelilor-houthi.html",
+              "source_id": "g4media.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:21:21.896543+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8382906913757324,
+            "article": {
+              "title": "برطانیہ کا سعودی عرب کیلئے دفاعی مشن شروع کرنے کا فیصلہ، لڑاکا طیارے تعینات کرے گا",
+              "url": "https://jang.com.pk/news/1626195",
+              "source_id": "jang.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:24:09.514629+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8012692332267761,
+            "article": {
+              "title": "1 t Verden Storbritannia sender kampfly til Saudi-Arabia for å forsvare mot angrep fra houthiene",
+              "url": "https://www.aftenposten.no/verden/i/ylprjg/britene-varsler-kampflystoette-til-saudi-arabia-som-forsvar-mot-houthiene",
+              "source_id": "aftenposten.no",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:46.658941+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7882363796234131,
+            "article": {
+              "title": "بريطانيا تعتزم تنفيذ مهام دفاعية ضد هجمات الحوثيين على السعودية",
+              "url": "https://www.annahar.com/international/europe/358653/بلومبرغ-نقلا-عن-مسؤولين-بريطانيين-سلاح-الجو-الملكي-يعتزم-تنفيذ-مهام-دفاعية-لحماية-السعودية-من-هجمات-الحوثيين",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:21:02.822268+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7131013870239258,
+            "article": {
+              "title": "مصر کا سعودی عرب کے دفاع کے لیے فوجی مدد کا اعلان",
+              "url": "https://www.nawaiwaqt.com.pk/19-Oct-2026/2037933",
+              "source_id": "nawaiwaqt.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:24:11.716924+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 43.46220087082879,
+        "size": 16,
+        "n_sources": 14,
+        "n_continents": 5,
+        "continents": [
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "North America",
+          "South Asia"
+        ],
+        "coherence": 0.804679274559021,
+        "title": "Trump envoy Witkoff to meet Zelenskyy in Oslo before planned Putin talks in Moscow",
+        "central_article": {
+          "title": "Trump envoy Witkoff to meet Zelenskyy in Oslo before planned Putin talks in Moscow",
+          "url": "https://www.euronews.com/2026/10/20/trump-envoy-witkoff-to-meet-zelenskyy-in-oslo-before-planned-putin-talks-in-moscow",
+          "source_id": "euronews.com",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-10-20T12:18:15.686030+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8884304761886597,
+            "article": {
+              "title": "Trump envoy Witkoff to meet Zelenskyy in Oslo before planned Putin talks in Moscow",
+              "url": "https://www.euronews.com/2026/10/20/trump-envoy-witkoff-to-meet-zelenskyy-in-oslo-before-planned-putin-talks-in-moscow",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:15.686030+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8860457539558411,
+            "article": {
+              "title": "Witkoff hopes to visit Russia after meeting Zelensky in Oslo",
+              "url": "https://tass.com/world/2204425",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:21:41.625228+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8588417768478394,
+            "article": {
+              "title": "Witkoff to Meet Zelensky, European Leaders in Oslo Before Moscow Trip",
+              "url": "https://www.kyivpost.com/post/87601",
+              "source_id": "kyivpost.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:21:27.515398+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8540441393852234,
+            "article": {
+              "title": "Zelenskyj og Witkoff er landet i Norge",
+              "url": "https://www.dr.dk/nyheder/udland/live-krigen-i-ukraine",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:54.066201+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8540441393852234,
+            "article": {
+              "title": "Zelenskyj og Witkoff er landet i Norge",
+              "url": "https://www.dr.dk/nyheder/udland/live-krigen-i-ukraine?focusId=12672894",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:54.066201+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8514636754989624,
+            "article": {
+              "title": "Zelensky e Witkoff a Oslo per i negoziati. Nyt: «Trump vuole un accordo dal presidente ucraino»",
+              "url": "https://www.corriere.it/esteri/diretta-live/26_ottobre_20/guerra-ucraina-russia-notizie.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:19:26.103698+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8162096738815308,
+            "article": {
+              "title": "Selenskyj trifft sich mit US-Gesandtem Witkoff zu Gesprächen in Oslo",
+              "url": "https://www.tagesschau.de/ausland/europa/ukraine-treffen-witkoff-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:25.683230+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7999507188796997,
+            "article": {
+              "title": "Уиткофф и Зеленский встречаются в Осло. По данным Reuters, после этого спецпосланник Трампа полетит в Россию",
+              "url": "https://meduza.io/news/2026/10/20/reuters-uitkoff-v-blizhayshee-vremya-planiruet-vstretitsya-s-zelenskim-i-putinym",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:21:30.287574+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7925751805305481,
+            "article": {
+              "title": "Selenskyj und Witkoff in Oslo: Treffen soll die Wogen glätten",
+              "url": "https://www.zdfheute.de/politik/ausland/usa-trump-ukraine-selenskyj-witkoff-kritik-hilfe-oslo-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:36.699586+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7894837260246277,
+            "article": {
+              "title": "Zelensky arrives in Norway for talks with Trump envoy as US-Ukraine tensions deepen.",
+              "url": "https://kyivindependent.com/witkoff-plans-ukraine-peace-talks-in-norway-putin-meeting-in-russia/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:21:28.952176+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.758737325668335,
+            "article": {
+              "title": "Zelenskyj bad Norge og Finland om et møde",
+              "url": "https://www.dr.dk/nyheder/udland/live-krigen-i-ukraine?focusId=12672997",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:54.066201+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7560971975326538,
+            "article": {
+              "title": "Zelensky scrambles to mobilize more help from U.S. and Europe during visit to Norway",
+              "url": "https://www.theglobeandmail.com/world/article-russia-ukraine-zelensky-seeks-help-in-norway/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:20:22.843941+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7540675401687622,
+            "article": {
+              "title": "US officials to visit Norway, Russia for Ukraine peace talks",
+              "url": "https://pajhwok.com/2026/10/20/us-officials-to-visit-norway-russia-for-ukraine-peace-talks/",
+              "source_id": "pajhwok.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:24:14.338645+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7538416981697083,
+            "article": {
+              "title": "Zelensky spreekt met Rubio over vertraging Patriots-levering, gesprekken in Oslo",
+              "url": "https://nos.nl/artikel/2635919-zelensky-spreekt-met-rubio-over-vertraging-patriots-levering-gesprekken-in-oslo",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:18.055530+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.746588945388794,
+            "article": {
+              "title": "СМИ: Уиткофф после встречи с делегациями Киева и ЕС в Осло поедет в Москву",
+              "url": "https://ria.ru/20261020/uitkoff-2125523222.html",
+              "source_id": "ria.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:21:44.321576+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7144467830657959,
+            "article": {
+              "title": "Reuters: Уиткофф приедет в Россию для обсуждения сделки с Украиной и дела Хаббарда",
+              "url": "https://www.kommersant.ru/doc/9042557",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:21:39.707089+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 40.90910734963871,
+        "size": 11,
+        "n_sources": 10,
+        "n_continents": 6,
+        "continents": [
+          "Africa",
+          "China",
+          "East Asia",
+          "Europe North",
+          "Europe South",
+          "Oceania"
+        ],
+        "coherence": 0.8234016299247742,
+        "title": "Kenyan cult leader convicted of starving 190 children to death",
+        "central_article": {
+          "title": "Kenyan cult leader convicted of starving 190 children to death",
+          "url": "https://www.smh.com.au/world/africa/kenyan-cult-leader-convicted-of-starving-190-children-to-death-20261020-p616y8.html",
+          "source_id": "smh.com.au",
+          "continent": "Oceania",
+          "published_at": null,
+          "scraped_at_utc": "2026-10-20T12:20:27.122984+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9298639297485352,
+            "article": {
+              "title": "Kenyan cult leader convicted of starving 190 children to death",
+              "url": "https://www.smh.com.au/world/africa/kenyan-cult-leader-convicted-of-starving-190-children-to-death-20261020-p616y8.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:20:27.122984+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8645259737968445,
+            "article": {
+              "title": "Cult leader found guilty after 190 children starved to death in bid to 'meet Jesus'",
+              "url": "https://www.rnz.co.nz/news/world/2040927/kenyan-cult-leader-found-guilty-over-190-children-starved-to-death-in-the-hope-of-meeting-jesus",
+              "source_id": "rnz.co.nz",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:20:33.545114+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8590978384017944,
+            "article": {
+              "title": "Cult leader found guilty of murder in Kenya mass starvation case",
+              "url": "https://www.channel4.com/news/cult-leader-found-guilty-of-murder-in-kenya-mass-starvation-case",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:14.198887+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8541256785392761,
+            "article": {
+              "title": "El líder de una secta condenado por ordenar a sus seguidores dejar morir de hambre a casi 200 niños",
+              "url": "https://www.bbc.com/mundo/articles/c98rzyr2nze1o",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:19:29.263620+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8433107733726501,
+            "article": {
+              "title": "Kenya, predicatore condannato per omicidio: ha costretto oltre 190 bimbi (poi morti) a digiuni estremi «per salvarsi l'anima»",
+              "url": "https://www.corriere.it/esteri/26_ottobre_20/kenya-il-capo-di-una-setta-condannato-per-omicidio-ha-costretto-oltre-190-bambini-e-decine-di-adulti-a-digiuni-estremi-per-737b0f8e-0f47-48dc-9b41-5b93710a9xlk.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:19:26.103698+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8361712694168091,
+            "article": {
+              "title": "Se laisser mourir de faim pour « rencontrer Jésus » : au Kenya, le gourou Paul Mackenzie reconnu coupable du meutre de 190 enfants",
+              "url": "https://www.lemonde.fr/international/article/2026/10/20/se-laisser-mourir-de-faim-pour-rencontrer-jesus-au-kenya-le-gourou-paul-mackenzie-reconnu-coupable-du-meutre-de-190-enfants_6797910_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:19:05.604595+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8296999931335449,
+            "article": {
+              "title": "Doomsday preacher convicted of starving 190 children to death",
+              "url": "https://www.thetimes.com/world/africa/article/paul-mackenzie-kenya-convicted-murder-190-children-lq883p25d",
+              "source_id": "thetimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:10.500632+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8055833578109741,
+            "article": {
+              "title": "Pemimpin Sekte Kiamat di Kenya Divonis Bersalah atas Pembunuhan 191 Orang, Mayoritas Anak-anak Tren",
+              "url": "https://www.kompas.com/tren/read/2026/10/20/183400365/pemimpin-sekte-kiamat-di-kenya-divonis-bersalah-atas-pembunuhan-191-orang?source=sorotan",
+              "source_id": "kompas.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:25:19.380794+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7714691758155823,
+            "article": {
+              "title": "Kenya cult leader's children still being starved weeks before trial, son says",
+              "url": "https://www.bbc.com/news/articles/c6d7q2rxqxgxo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:07.658249+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.761988639831543,
+            "article": {
+              "title": "Massacre de Shakaloha au Kenya : Paul Mackenzie jugé coupable du meurtre de 191 personnes",
+              "url": "https://www.jeuneafrique.com/1853844/politique/massacre-de-shakaloha-au-kenya-paul-mackenzie-juge-coupable-du-meurtre-de-191-personnes/",
+              "source_id": "jeuneafrique.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:22:23.389815+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7015810012817383,
+            "article": {
+              "title": "谋杀罪名成立 肯尼亚邪教头目将被判刑",
+              "url": "https://www.xinhuanet.com/20261020/ba15703294964aa4a5cfbe056070328e/c.html",
+              "source_id": "xinhuanet.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:23:23.671486+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 31.283807105510817,
+        "size": 8,
+        "n_sources": 8,
+        "n_continents": 7,
         "continents": [
           "China",
           "East Asia",
@@ -783,10 +1345,122 @@
           "Europe North",
           "Europe South",
           "Middle East",
-          "Oceania",
+          "South America"
+        ],
+        "coherence": 0.7835497856140137,
+        "title": "En mapas y cifras: Europa protesta por la vivienda, la educación y el costo de vida",
+        "central_article": {
+          "title": "En mapas y cifras: Europa protesta por la vivienda, la educación y el costo de vida",
+          "url": "https://www.elespectador.com/mundo/europa/europa-protesta-por-la-vivienda-el-costo-de-vida-y-los-recortes-sociales/",
+          "source_id": "elespectador.com",
+          "continent": "South America",
+          "published_at": null,
+          "scraped_at_utc": "2026-10-20T12:20:00.993099+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8647490739822388,
+            "article": {
+              "title": "En mapas y cifras: Europa protesta por la vivienda, la educación y el costo de vida",
+              "url": "https://www.elespectador.com/mundo/europa/europa-protesta-por-la-vivienda-el-costo-de-vida-y-los-recortes-sociales/",
+              "source_id": "elespectador.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:20:00.993099+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8043848276138306,
+            "article": {
+              "title": "Ցույցեր՝ Եվրոպայում․ ի՞նչ են պահանջում ցուցարարները",
+              "url": "https://civilnet.am/hy/stories/974",
+              "source_id": "civilnet.am",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:22:02.326378+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8028026223182678,
+            "article": {
+              "title": "Erklärt Warum derzeit so viele Menschen in europäischen Ländern auf die Strasse gehen",
+              "url": "https://www.nzz.ch/international/proteste-in-europa-warum-so-viele-menschen-derzeit-auf-die-strasse-gehen-ld.10038128",
+              "source_id": "nzz.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:40.041189+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.800479531288147,
+            "article": {
+              "title": "Von Frankreich bis Albanien Wo in Europa gerade protestiert wird",
+              "url": "https://www.tagesschau.de/ausland/europa/proteste-europa-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:25.683230+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7647534608840942,
+            "article": {
+              "title": "歐洲暴力示威潮蔓延 生活成本飆、援烏資源排擠民生積累民怨",
+              "url": "https://www.cna.com.tw/news/aopl/202610200045.aspx",
+              "source_id": "cna.com.tw",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:25:17.706840+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7587790489196777,
+            "article": {
+              "title": "Datacentra vyvolávají v Evropě odpor. Obyvatelé se obávají dopadů na životní prostředí",
+              "url": "https://ct24.ceskatelevize.cz/clanek/svet/datacentra-vyvolavaji-v-evrope-odpor-obyvatele-se-obavaji-dopadu-na-zivotni-prostredi-378715",
+              "source_id": "ct24.ceskatelevize.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:21:17.509708+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7428631782531738,
+            "article": {
+              "title": "The economics behind the French student protests",
+              "url": "https://www.presstv.ir/Detail/2026/10/20/778764/The-economics-behind-the-French-student-protests",
+              "source_id": "presstv.ir",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:20:49.418868+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7295865416526794,
+            "article": {
+              "title": "西班牙近50城爆发大规模抗议 住房危机积重难返首相解散国会",
+              "url": "https://photos.caixin.com/2026-10-11/102492239.html",
+              "source_id": "caixin.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:23:27.680714+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 29.442819695395226,
+        "size": 7,
+        "n_sources": 7,
+        "n_continents": 5,
+        "continents": [
+          "China",
+          "East Asia",
+          "Europe East",
+          "Europe North",
           "South Asia"
         ],
-        "coherence": 0.8144698143005371,
+        "coherence": 0.865420401096344,
         "title": "Trump says he is open to trilateral summit with Putin and Xi",
         "central_article": {
           "title": "Trump says he is open to trilateral summit with Putin and Xi",
@@ -794,1275 +1468,303 @@
           "source_id": "politico.eu",
           "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-10-19T22:39:17.682380+00:00"
+          "scraped_at_utc": "2026-10-20T12:18:16.916971+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.892795979976654,
+            "sim_to_centroid": 0.9407119154930115,
             "article": {
               "title": "Trump says he is open to trilateral summit with Putin and Xi",
               "url": "https://www.politico.eu/article/trump-says-he-is-open-to-trilateral-summit-with-putin-and-xi/",
               "source_id": "politico.eu",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:17.682380+00:00"
+              "scraped_at_utc": "2026-10-20T12:18:16.916971+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8927223682403564,
+            "sim_to_centroid": 0.9321993589401245,
             "article": {
-              "title": "Trump er åben for at mødes med Xi og Putin",
-              "url": "https://www.dr.dk/nyheder/seneste/trump-er-aaben-moedes-med-xi-og-putin",
-              "source_id": "dr.dk",
+              "title": "Trump offen für Gipfel mit Putin und Xi",
+              "url": "https://www.zdfheute.de/politik/ausland/trump-gipfel-putin-xi-ukraine-krieg-russland-100.html",
+              "source_id": "zdfheute.de",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:55.508101+00:00"
+              "scraped_at_utc": "2026-10-20T12:18:36.699586+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8780750632286072,
+            "sim_to_centroid": 0.9009387493133545,
             "article": {
-              "title": "Putin proposes Ukraine summit with Trump and Xi, WSJ reports",
-              "url": "https://georgiatoday.ge/putin-proposes-ukraine-summit-with-trump-and-xi-wsj-reports/",
-              "source_id": "georgiatoday.ge",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:42:56.230894+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8778008222579956,
-            "article": {
-              "title": "Putin proposes summit with Trump, Xi on Ukraine peace deal",
-              "url": "https://pajhwok.com/2026/10/19/putin-proposes-summit-with-trump-xi-on-ukraine-peace-deal/",
-              "source_id": "pajhwok.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:45:09.143623+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8667171597480774,
-            "article": {
-              "title": "Trump says he’s open to meeting Xi and Putin in China for nuclear talks",
-              "url": "https://www.scmp.com/news/us/article/3371428/trump-says-hes-open-xi-putin-meeting-china-nuclear-talks?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:44:15.861843+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8639160990715027,
-            "article": {
-              "title": "Putin Floats a Summit With Trump and Xi to Decide Ukraine’s Fate",
-              "url": "https://www.hindustantimes.com/world-news/putin-floats-a-summit-with-trump-and-xi-to-decide-ukraine-s-fate-101792404263445.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:44:50.172215+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8622303009033203,
-            "article": {
-              "title": "Putin schlägt Trump und Xi offenbar Ukraine-Gipfel vor – Rubio bestätigt Gespräche darüber",
-              "url": "https://www.handelsblatt.com/politik/international/ukraine-krieg-putin-schlaegt-trump-und-xi-offenbar-ukraine-gipfel-vor/100263162.html",
-              "source_id": "handelsblatt.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:30.490752+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8292824029922485,
-            "article": {
-              "title": "Trump zeigt sich offen für Dreiergipfel mit Putin und Xi – und fordert Ablösung Selenskyjs",
-              "url": "https://www.welt.de/politik/ausland/article6ad678a3199dc15f1abd9d4a/ukraine-krieg-trump-zeigt-sich-offen-fuer-dreiergipfel-mit-putin-und-xi-und-fordert-abloesung-selenskyjs.html",
-              "source_id": "welt.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:32.615785+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8231533765792847,
-            "article": {
-              "title": "Trump open to Putin, Xi trilateral summit but would focus on nuclear arms",
-              "url": "https://www.straitstimes.com/world/united-states/trump-says-he-is-open-to-joining-trilateral-meeting-with-xi-putin?ref=top-stories",
-              "source_id": "straitstimes.com",
+              "title": "Trump open to trilateral summit with Putin and Xi but wants denuclearization focus",
+              "url": "https://www.japantimes.co.jp/news/2026/10/20/world/trump-open-xi-putin-meet/",
+              "source_id": "japantimes.co.jp",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:46:01.756234+00:00"
+              "scraped_at_utc": "2026-10-20T12:24:47.511414+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8228427171707153,
-            "article": {
-              "title": "Трамп высказался о переговорах с Путиным и допустил встречу с Си Цзиньпином",
-              "url": "https://tengrinews.kz/world_news/tramp-vyiskazalsya-peregovorah-putinyim-dopustil-vstrechu-si-611206/",
-              "source_id": "tengrinews.kz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:42:58.434503+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.813995361328125,
-            "article": {
-              "title": "ترامب يبدي استعداده للقاء بوتين وشي في الصين",
-              "url": "https://www.annahar.com/international/united-states/358468/ترامب-نتفاوض-مع-روسيا-بشأن-إيران-وأوكرانيا-والرهائن-والديزل",
-              "source_id": "annahar.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:42:10.502900+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8115576505661011,
+            "sim_to_centroid": 0.847743034362793,
             "article": {
               "title": "Трамп заявил, что готов провести встречу с Путиным и Си Цзиньпином. Но обсуждать он хочет не войну России с Украиной, а ядерное оружие",
               "url": "https://meduza.io/news/2026/10/19/tramp-zayavil-chto-gotov-provesti-vstrechu-s-putinym-i-si-tszinpinom-no-obsuzhdat-on-hochet-ne-voynu-rossii-s-ukrainoy-a-yadernoe-oruzhie",
               "source_id": "meduza.io",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:42:34.403199+00:00"
+              "scraped_at_utc": "2026-10-20T12:21:30.287574+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.808957576751709,
+            "sim_to_centroid": 0.8391602635383606,
             "article": {
-              "title": "WORLD Putin proposes three-way summit with Trump and Xi to negotiate Ukraine conflict: Report",
-              "url": "https://myrepublica.nagariknetwork.com/news/putin-proposes-three-way-summit-with-trump-and-xi-to-negotiate-ukraine-conf-14-89.html",
+              "title": "WORLD Trump says ready to meet with Putin and Xi in China",
+              "url": "https://myrepublica.nagariknetwork.com/news/trump-says-ready-to-meet-with-putin-and-xi-in-china-62-10.html",
               "source_id": "myrepublica.nagariknetwork.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:45:07.812656+00:00"
+              "scraped_at_utc": "2026-10-20T12:24:12.852749+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8009732961654663,
+            "sim_to_centroid": 0.8040603399276733,
             "article": {
-              "title": "Funke Mediengruppe Trump aufgeschlossen Ukraine vor dem Ausverkauf? Putin lockt Trump und Xi zum Dreiergipfel",
-              "url": "https://www.abendblatt.de/politik/article413450074/ukraine-vor-dem-ausverkauf-putin-lockt-trump-und-xi-zum-dreiergipfel.html",
-              "source_id": "abendblatt.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:39.967679+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7814438939094543,
-            "article": {
-              "title": "Possibility of Putin-Trump-Xi summit on Ukraine raises eyebrows in Asia",
-              "url": "https://www.japantimes.co.jp/news/2026/10/19/asia-pacific/politics/trump-xi-putin-summit-ukraine-taiwan-japan/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:45:42.030752+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7420914173126221,
-            "article": {
-              "title": "Strage russa al parco giochi a Kharkiv. Trump apre a Putin: “Negozio con lui su Ucraina e Iran”",
-              "url": "https://www.repubblica.it/esteri/2026/10/19/news/trump_negozio_con_putin_su_ucraina_e_iran-425659136/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:30.623597+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.72803795337677,
-            "article": {
-              "title": "華爾街日報：普京邀特朗普習近平深圳APEC共商烏克蘭",
-              "url": "https://www.singtaousa.com/2026/10/19/news/world/putin-proposes-trump-xi-summit/",
-              "source_id": "singtaousa.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:44:34.184316+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7101538181304932,
-            "article": {
-              "title": "Putin has a special hold over Trump. There are many theories",
-              "url": "https://www.smh.com.au/world/north-america/donald-trump-is-not-only-coddling-vladimir-putin-he-is-becoming-vladimir-putin-20261020-p616rh.html",
-              "source_id": "smh.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:41:34.678109+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6681780815124512,
-            "article": {
-              "title": "Ukraine-Krieg: Für Putin läuft es wieder",
-              "url": "https://www.zdfheute.de/politik/ausland/russland-gespraeche-ukraine-krieg-putin-trump-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:38.184703+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 76.1776507123757,
-        "size": 11,
-        "n_sources": 11,
-        "n_continents": 7,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "North America",
-          "Oceania",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.8978525400161743,
-        "title": "Efter 43 år – Christiane Amanpour lämnar CNN",
-        "central_article": {
-          "title": "Efter 43 år – Christiane Amanpour lämnar CNN",
-          "url": "https://www.dn.se/direkt/2026-10-19/efter-43-ar-christiane-amanpour-lamnar-cnn/",
-          "source_id": "dn.se",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-10-19T22:39:46.518783+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9680371284484863,
-            "article": {
-              "title": "Efter 43 år – Christiane Amanpour lämnar CNN",
-              "url": "https://www.dn.se/direkt/2026-10-19/efter-43-ar-christiane-amanpour-lamnar-cnn/",
-              "source_id": "dn.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:46.518783+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9551312923431396,
-            "article": {
-              "title": "CNN anchor Christiane Amanpour to leave after 43 years",
-              "url": "https://www.smh.com.au/business/companies/cnn-anchor-christiane-amanpour-to-leave-after-43-years-20261020-p616wp.html",
-              "source_id": "smh.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:41:34.678109+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9550087451934814,
-            "article": {
-              "title": "CNN anchor Christiane Amanpour to leave network after 43 years",
-              "url": "https://www.bbc.com/news/articles/c83vqzkrr9zeo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:10.492452+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.953555703163147,
-            "article": {
-              "title": "Christiane Amanpour anuncia que deja la CNN después de 43 años como referente del periodismo internacional",
-              "url": "https://elpais.com/us/2026-10-19/christiane-amanpour-anuncia-que-deja-la-cnn-despues-de-43-anos-como-referencia-del-periodismo-internacional.html",
-              "source_id": "elpais.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:21.158044+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9511611461639404,
-            "article": {
-              "title": "Christiane Amanpour, referente del periodismo internacional, se despide de CNN tras 43 años en la señal",
-              "url": "https://www.emol.com/noticias/Espectaculos/2026/10/19/1214586/christiane-amanpour-dejara-cnn-2027.html",
-              "source_id": "emol.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:54.876596+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8834062814712524,
-            "article": {
-              "title": "La giornalista Amanpour lascia la Cnn dopo 43 anni",
-              "url": "https://www.repubblica.it/esteri/2026/10/19/news/amanpour_lascia_la_cnn_dopo_43_anni-425658755/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:30.623597+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.882715106010437,
-            "article": {
-              "title": "Christiane Amanpour exiting CNN amid TV shakeup",
-              "url": "https://www.usatoday.com/story/entertainment/tv-streaming/2026/10/19/cnn-christiane-amanpour-leaving/92330198007/",
-              "source_id": "usatoday.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:44:09.187227+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8629170060157776,
-            "article": {
-              "title": "Bekannte Journalistin Nach 43 Jahren: Christiane Amanpour verlässt CNN Eine Ära endet: Christiane Amanpour beendet ihre Karriere bei CNN im Juni 2027.",
-              "url": "https://www.srf.ch/news/international/bekannte-journalistin-nach-43-jahren-christiane-amanpour-verlaesst-cnn",
-              "source_id": "srf.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:42.948574+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8512715101242065,
-            "article": {
-              "title": "Christiane Amanpour to leave CNN after four decades as Ellison era begins",
-              "url": "https://www.dawn.com/news/2038334/christiane-amanpour-to-leave-cnn-after-four-decades-as-ellison-era-begins",
-              "source_id": "dawn.com",
+              "title": "Putin Floats a Summit With Trump and Xi to Decide Ukraine’s Fate",
+              "url": "https://www.hindustantimes.com/world-news/putin-floats-a-summit-with-trump-and-xi-to-decide-ukraine-s-fate-101792404263445.html",
+              "source_id": "hindustantimes.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:45:03.375632+00:00"
+              "scraped_at_utc": "2026-10-20T12:23:49.561348+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8123655319213867,
+            "sim_to_centroid": 0.7931288480758667,
             "article": {
-              "title": "Fin de una era. Una de las máximas figuras de CNN anuncia su salida tras 43 años en medio de un cambio histórico",
-              "url": "https://www.lanacion.com.ar/estados-unidos/christiane-amanpour-anuncia-su-salida-de-cnn-tras-43-anos-en-medio-de-un-cambio-historico-en-la-nid19102026/",
-              "source_id": "lanacion.com.ar",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:50.095482+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8008080720901489,
-            "article": {
-              "title": "Cea mai cunoscută vedetă CNN părăsește postul după 43 de ani. „Fiți întotdeauna sinceri, nu neutri”",
-              "url": "https://hotnews.ro/o-vedeta-cnn-paraseste-postul-dupa-43-de-ani-fiti-intotdeauna-sinceri-nu-neutri-2380552",
-              "source_id": "hotnews.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:42:18.034707+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 53.53305258725565,
-        "size": 11,
-        "n_sources": 11,
-        "n_continents": 6,
-        "continents": [
-          "China",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Oceania",
-          "South Asia"
-        ],
-        "coherence": 0.8581289052963257,
-        "title": "Musk verspricht jedem US-Kind eine SpaceX-Aktie",
-        "central_article": {
-          "title": "Musk verspricht jedem US-Kind eine SpaceX-Aktie",
-          "url": "https://www.spiegel.de/wirtschaft/elon-musk-verspricht-jedem-us-kind-eine-spacex-aktie-a-953bf991-f366-474f-a8f2-c4f49abcd2aa",
-          "source_id": "spiegel.de",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-10-19T22:39:28.521346+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9246177673339844,
-            "article": {
-              "title": "Musk verspricht jedem US-Kind eine SpaceX-Aktie",
-              "url": "https://www.spiegel.de/wirtschaft/elon-musk-verspricht-jedem-us-kind-eine-spacex-aktie-a-953bf991-f366-474f-a8f2-c4f49abcd2aa",
-              "source_id": "spiegel.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:28.521346+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9161944389343262,
-            "article": {
-              "title": "Elon Musk says he will give a SpaceX share to ‘every kid in America’",
-              "url": "https://www.rnz.co.nz/news/world/2035726/elon-musk-says-he-will-give-a-spacex-share-to-every-kid-in-america",
-              "source_id": "rnz.co.nz",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:41:40.459235+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9144402146339417,
-            "article": {
-              "title": "马斯克：明年向美国每一名儿童赠送一股SpaceX股票",
-              "url": "https://www.stnn.cc/detail/6ad5d3ef8f9d2b19ddb5af02.html",
-              "source_id": "stnn.cc",
+              "title": "特朗普称对中美俄举行三方会谈持积极态度 外交部回应",
+              "url": "https://www.sohu.com/a/1090181062_260616?edtsign=0AEEC9BE359594B32F3208B5DBF7E0D070FFD0EF&edtcode=2PBU%2BTiMwCHq%2FwmFSXvzFA%3D%3D&scm=10001.663_14-200000.0.0-0-0-0-0.&_f=index_cpc_1_0",
+              "source_id": "news.sohu.com",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:44:38.866649+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9135104417800903,
-            "article": {
-              "title": "Маск заявил, что подарит по одной акции SpaceX каждому ребенку в США",
-              "url": "https://meduza.io/news/2026/10/19/mask-zayavil-chto-podarit-po-odnoy-aktsii-spacex-kazhdomu-rebenku-v-ssha",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:42:34.403199+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9075461030006409,
-            "article": {
-              "title": "Musk pledges SpaceX shares worth more than $10bn to US children",
-              "url": "https://www.euronews.com/2026/10/19/musk-pledges-spacex-shares-to-every-us-child-in-potential-107bn-giveaway",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:16.316911+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9055628776550293,
-            "article": {
-              "title": "Musk promette un’azione SpaceX a ogni bambino americano con una donazione di 11 miliardi di dollari",
-              "url": "https://www.corriere.it/economia/finanza/26_ottobre_19/musk-promette-un-azione-spacex-a-ogni-bambino-americano-con-una-donazione-di-11-miliardi-di-dollari-67760d31-0f90-443a-8039-535bbfaa3xlk.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:32.310866+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8446029424667358,
-            "article": {
-              "title": "আমেরিকার প্রতিটি শিশুকে SpaceX-এর শেয়ার উপহার দেবেন ইলন মাস্ক",
-              "url": "https://eisamay.com/business/business-news/elon-musk-spacex-shares-giveaway-every-us-child-2027-anthropic/200556999.cms",
-              "source_id": "eisamay.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:44:54.498700+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8430265188217163,
-            "article": {
-              "title": "Verenigde Staten \"Het eerste van vele\": Musk wil elk kind in VS 1 aandeel van SpaceX schenken",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/10/19/musk-wil-elk-kind-in-vs-aandeel-spacex-geven/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:15.767915+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8147091269493103,
-            "article": {
-              "title": "मस्क अमेरिका के हर बच्चे को स्पेसएक्स का शेयर देंगे: देश में 7.2 करोड़ बच्चे, बांटे जाने वाले शेयर्स का मूल्य ₹1 लाख करोड़ Play video",
-              "url": "https://www.bhaskar.com/g/business/news/elon-musk-spacex-share-gift-usa-kids-announcement-news-139419516.html",
-              "source_id": "bhaskar.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:44:46.222351+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7611643075942993,
-            "article": {
-              "title": "Anthropic出5%股权设公益基金 马斯克分100亿美元股权给美国儿童",
-              "url": "https://www.caixin.com/2026-10-19/102494959.html",
-              "source_id": "caixin.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:44:29.397371+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6940433979034424,
-            "article": {
-              "title": "Obljuba, ki bo Elona Muska stala 9,5 milijarde evrov",
-              "url": "https://www.delo.si/novice/svet/obljuba-ki-bo-elona-muska-stala-95-milijarde-evrov",
-              "source_id": "delo.si",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:42:30.322563+00:00"
+              "scraped_at_utc": "2026-10-20T12:23:33.835057+00:00"
             }
           }
         ]
       },
       {
-        "score": 45.70860130328431,
-        "size": 10,
-        "n_sources": 10,
-        "n_continents": 6,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "South America"
-        ],
-        "coherence": 0.8455883860588074,
-        "title": "Florida issues arrest warrant for Cuban leader Raul Castro",
-        "central_article": {
-          "title": "Florida issues arrest warrant for Cuban leader Raul Castro",
-          "url": "https://www.aljazeera.com/news/2026/10/19/florida-issues-arrest-warrant-for-cuban-leader-raul-castro",
-          "source_id": "aljazeera.com",
-          "continent": "Middle East",
-          "published_at": null,
-          "scraped_at_utc": "2026-10-19T22:41:49.461928+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9215710163116455,
-            "article": {
-              "title": "Florida issues arrest warrant for Cuban leader Raul Castro",
-              "url": "https://www.aljazeera.com/news/2026/10/19/florida-issues-arrest-warrant-for-cuban-leader-raul-castro",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:41:49.461928+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.91010582447052,
-            "article": {
-              "title": "Florida erlässt Haftbefehl gegen Raúl Castro",
-              "url": "https://www.diepresse.com/41374476/florida-erlaesst-haftbefehl-gegen-raul-castro",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:35.912032+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8935748934745789,
-            "article": {
-              "title": "Florida court issues arrest warrant for former Cuban leader Raul Castro — TV",
-              "url": "https://tass.com/world/2204275",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:42:46.608263+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.888819694519043,
-            "article": {
-              "title": "Florida hace oficial la orden de arresto contra Raúl Castro",
-              "url": "https://www.14ymedio.com/cuba/migracion/florida-oficial-orden-arresto-raul_1_1132152.html",
-              "source_id": "14ymedio.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:38.531507+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8853472471237183,
-            "article": {
-              "title": "US state issues arrest warrant for Raul Castro",
-              "url": "https://www.rt.com/news/647408-us-state-issues-arrest-warrant/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:42:42.148834+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8622390031814575,
-            "article": {
-              "title": "В США выдали ордер на арест бывшего лидера Кубы Рауля Кастро",
-              "url": "https://www.kommersant.ru/doc/9042259",
-              "source_id": "kommersant.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:42:44.959190+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8117001056671143,
-            "article": {
-              "title": "Un juez estadounidense ordena el arresto de Raúl Castro por el ataque a las avionetas de Hermanos al Rescate en 1996",
-              "url": "https://www.rtve.es/noticias/20261019/juez-estadounidense-arresto-raul-castro-avionetas-hermanos-rescate/17273661.shtml",
-              "source_id": "rtve.es",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:27.817658+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7937683463096619,
-            "article": {
-              "title": "В США выдали ордер на арест брата Фиделя Кастро",
-              "url": "https://tengrinews.kz/world_news/v-ssha-vyidali-order-na-arest-brata-fidelya-kastro-611198/",
-              "source_id": "tengrinews.kz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:42:58.434503+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7581870555877686,
-            "article": {
-              "title": "Flórida apresenta mandado de prisão contra Raúl Castro por derrubada de aviões em 1996 Acusação ocorre após indiciamento na esfera federal do ex-líder de Cuba, irmão de Fidel",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/10/florida-emite-mandado-de-prisao-contra-raul-castro-por-derrubada-de-avioes-em-1996.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:57.507841+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7305712699890137,
-            "article": {
-              "title": "\"Patético circo miamense\": Cuba reacciona ante orden de arresto contra Raúl Castro",
-              "url": "https://www.emol.com/noticias/Internacional/2026/10/19/1214576/cuba-reacciona-orden-arresto-castro.html",
-              "source_id": "emol.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:54.876596+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 45.415138823434575,
-        "size": 12,
-        "n_sources": 12,
-        "n_continents": 6,
-        "continents": [
-          "China",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "North America",
-          "Oceania"
-        ],
-        "coherence": 0.8078358769416809,
-        "title": "From France to Albania, how social unrest is fueling protests across Europe",
-        "central_article": {
-          "title": "From France to Albania, how social unrest is fueling protests across Europe",
-          "url": "https://www.pbs.org/newshour/world/from-france-to-albania-how-social-unrest-is-fueling-protests-across-europe",
-          "source_id": "pbs.org",
-          "continent": "North America",
-          "published_at": null,
-          "scraped_at_utc": "2026-10-19T22:44:14.656035+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8847281336784363,
-            "article": {
-              "title": "From France to Albania, how social unrest is fueling protests across Europe",
-              "url": "https://www.pbs.org/newshour/world/from-france-to-albania-how-social-unrest-is-fueling-protests-across-europe",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:44:14.656035+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8708313703536987,
-            "article": {
-              "title": "Explainer Why are people protesting across Europe?",
-              "url": "https://www.theguardian.com/world/2026/oct/18/europe-protests-france-spain-portugal-2026-explainer",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:13.467723+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8281135559082031,
-            "article": {
-              "title": "Social unrest sets Europe’s streets ablaze",
-              "url": "https://www.theglobeandmail.com/world/article-europe-albania-paris-protests-unrest/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:41:30.561252+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8237627744674683,
-            "article": {
-              "title": "法国西班牙抗议潮外溢至欧洲多国 主因为年轻人生活成本高企",
-              "url": "https://international.caixin.com/2026-10-19/102495010.html",
-              "source_id": "caixin.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:44:29.397371+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8223826885223389,
-            "article": {
-              "title": "Europa Protest breidt uit naar andere landen: ook demonstraties in Italië en Portugal",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/10/19/protesten-in-italie-en-portugal/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:15.767915+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8220881223678589,
-            "article": {
-              "title": "Von Frankreich bis Albanien Wo in Europa gerade protestiert wird",
-              "url": "https://www.tagesschau.de/ausland/europa/proteste-europa-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:26.215275+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8184096813201904,
-            "article": {
-              "title": "Массовые протесты и беспорядки — уже в пяти странах Европы. Кто, где и почему протестует? Объясняем в пяти абзацах",
-              "url": "https://meduza.io/feature/2026/10/19/massovye-protesty-i-besporyadki-uzhe-v-pyati-stranah-evropy-kto-gde-i-pochemu-protestuet",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:42:34.403199+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7988036274909973,
-            "article": {
-              "title": "Erklärt Warum derzeit so viele Menschen in europäischen Ländern auf die Strasse gehen",
-              "url": "https://www.nzz.ch/international/proteste-in-europa-warum-so-viele-menschen-derzeit-auf-die-strasse-gehen-ld.10038128",
-              "source_id": "nzz.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:41.615296+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7858920097351074,
-            "article": {
-              "title": "Spreading unrest in Europe borders on chaos",
-              "url": "https://tass.com/politics/2204065",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:42:46.608263+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7799589037895203,
-            "article": {
-              "title": "Las protestas estudiantiles de Francia se contagian a Italia",
-              "url": "https://www.rtve.es/noticias/20261019/protestas-estudiantiles-francia-se-contagian-a-italia/17273310.shtml",
-              "source_id": "rtve.es",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:27.817658+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7540796995162964,
-            "article": {
-              "title": "It began as a local protest. Then it tapped into anger simmering across France",
-              "url": "https://www.sbs.com.au/news/article/what-is-happening-paris-france-protests/bogrd719s",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:41:33.285835+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7049798965454102,
-            "article": {
-              "title": "Frankreich zeigt, was dem ganzen Westen droht",
-              "url": "https://www.welt.de/debatte/plus6ad5e2b1199dc15f1abd914d/krawalle-frankreich-zeigt-was-dem-ganzen-westen-droht.html",
-              "source_id": "welt.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:32.615785+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 41.97752696924505,
-        "size": 10,
-        "n_sources": 10,
-        "n_continents": 6,
-        "continents": [
-          "Africa",
-          "China",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "South Asia"
-        ],
-        "coherence": 0.8285579681396484,
-        "title": "Kenyan cult leader found guilty of murder of 191 children, 1 adult",
-        "central_article": {
-          "title": "Kenyan cult leader found guilty of murder of 191 children, 1 adult",
-          "url": "https://www.scmp.com/news/world/africa/article/3371417/kenyan-starvation-cult-leader-found-guilty-murder-191-children-1-adult?module=top_story&pgtype=homepage",
-          "source_id": "scmp.com",
-          "continent": "China",
-          "published_at": null,
-          "scraped_at_utc": "2026-10-19T22:44:15.861843+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.922604501247406,
-            "article": {
-              "title": "Kenyan cult leader found guilty of murder of 191 children, 1 adult",
-              "url": "https://www.scmp.com/news/world/africa/article/3371417/kenyan-starvation-cult-leader-found-guilty-murder-191-children-1-adult?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:44:15.861843+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9048792123794556,
-            "article": {
-              "title": "Лидера кенийской секты признали виновным в убийстве 190 детей",
-              "url": "https://meduza.io/news/2026/10/19/lidera-keniyskoy-sekty-priznali-vinovnym-v-ubiystve-190-detey",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:42:34.403199+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9046628475189209,
-            "article": {
-              "title": "Kenya : le gourou d’une secte mortifère jugé coupable des meurtres de 190 enfants et un adulte",
-              "url": "https://www.lesoir.be/777833/article/2026-10-19/kenya-le-gourou-dune-secte-mortifere-juge-coupable-des-meurtres-de-190-enfants",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:19.582564+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8905181884765625,
-            "article": {
-              "title": "Keniaanse sekteleider schuldig bevonden aan hongerdood 190 kinderen",
-              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5659837/sekteleider-krijgt-straf-voor-doden-kinderen",
-              "source_id": "rtl.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:22.330698+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8425001502037048,
-            "article": {
-              "title": "Cult leader found guilty of murder in Kenya mass starvation case",
-              "url": "https://www.channel4.com/news/cult-leader-found-guilty-of-murder-in-kenya-mass-starvation-case",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:14.843037+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8205451965332031,
-            "article": {
-              "title": "El líder de una secta condenado por ordenar a sus seguidores dejar morir de hambre a casi 200 niños",
-              "url": "https://www.bbc.com/mundo/articles/c98rzyr2nze1o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:35.404661+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7820014953613281,
-            "article": {
-              "title": "400 से अधिक अनुयायियों की मौत से जुड़ा मामला, केन्याई पंथ के नेता 191 हत्याओं के दोषी",
-              "url": "https://www.jagran.com/world/other-case-linked-to-the-deaths-of-over-400-followers-kenya-cult-leader-convicted-of-191-murders-40410502.html",
-              "source_id": "jagran.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:44:47.728066+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.773719310760498,
-            "article": {
-              "title": "Massacre de Shakaloha au Kenya : Paul Mackenzie jugé coupable du meurtre de 191 personnes",
-              "url": "https://www.jeuneafrique.com/1853844/politique/massacre-de-shakaloha-au-kenya-paul-mackenzie-juge-coupable-du-meurtre-de-191-personnes/",
-              "source_id": "jeuneafrique.com",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:43:24.467506+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7250289916992188,
-            "article": {
-              "title": "dømt for 190 barnedrap: Gjorde skrekkfunn i skogen",
-              "url": "https://www.dagbladet.no/nyheter/sultkult-domt-for-190-barnedrap/85308672",
-              "source_id": "dagbladet.no",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:50.634951+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7191194295883179,
-            "article": {
-              "title": "Kenya cult deaths: Court set to rule in preacher's murder trial",
-              "url": "https://www.africanews.com/2026/10/19/kenya-cult-deaths-court-set-to-rule-in-preachers-murder-trial/",
-              "source_id": "africanews.com",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:43:31.835704+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 34.473645673769845,
-        "size": 7,
-        "n_sources": 7,
-        "n_continents": 6,
-        "continents": [
-          "Africa",
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "South America"
-        ],
-        "coherence": 0.8605051040649414,
-        "title": "Cristiano Ronaldo hit with 30-day ban for Portugal camp walkout",
-        "central_article": {
-          "title": "Cristiano Ronaldo hit with 30-day ban for Portugal camp walkout",
-          "url": "https://businessday.ng/sports/article/cristiano-ronaldo-hit-with-30-day-ban-for-portugal-camp-walkout/",
-          "source_id": "businessday.ng",
-          "continent": "Africa",
-          "published_at": null,
-          "scraped_at_utc": "2026-10-19T22:43:30.319259+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8820240497589111,
-            "article": {
-              "title": "Cristiano Ronaldo hit with 30-day ban for Portugal camp walkout",
-              "url": "https://businessday.ng/sports/article/cristiano-ronaldo-hit-with-30-day-ban-for-portugal-camp-walkout/",
-              "source_id": "businessday.ng",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:43:30.319259+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8667944669723511,
-            "article": {
-              "title": "Portugal oficializó el castigo a Cristiano Ronaldo: sanción por abandonar la concentración",
-              "url": "https://www.semana.com/deportes/articulo/portugal-oficializo-el-castigo-a-cristiano-ronaldo-sancion-por-abandonar-la-concentracion/202651/",
-              "source_id": "semana.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:52.899574+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8643876314163208,
-            "article": {
-              "title": "Ronaldo har fået sin straf efter drama i København",
-              "url": "https://politiken.dk/sport/fodbold/art11027707/Ronaldo-har-f%C3%A5et-sin-straf-efter-drama-i-K%C3%B8benhavn",
-              "source_id": "politiken.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:44.811121+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.858313798904419,
-            "article": {
-              "title": "Buntut Tinggalkan Skuad Timnas Portugal, Ronaldo Disanksi Skorsing 30 Hari oleh FPF Bola",
-              "url": "https://bola.kompas.com/read/2026/10/20/05045778/buntut-tinggalkan-skuad-timnas-portugal-ronaldo-disanksi-skorsing-30-hari-oleh?source=sorotan",
-              "source_id": "kompas.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:46:09.763609+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8568385243415833,
-            "article": {
-              "title": "Amende minime et suspension sans impact : Cristiano Ronaldo sanctionné pour le geste par la fédération portugaise",
-              "url": "https://www.rtbf.be/article/cristiano-ronaldo-suspendu-30-jours-et-mis-a-l-amende-apres-son-depart-du-rassemblement-portugais-11802762",
-              "source_id": "rtbf.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:17.934859+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8516685962677002,
-            "article": {
-              "title": "Криштиану Роналду наказали за внезапный отъезд из сборной — дисквалификацией на 30 дней и штрафом на 255 евро",
-              "url": "https://meduza.io/news/2026/10/19/krishtianu-ronaldu-nakazali-za-vnezapnyy-ot-ezd-iz-sbornoy-diskvalifikatsiey-na-30-dney-i-shtrafom-na-255-evro",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:42:34.403199+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8435088992118835,
-            "article": {
-              "title": "Ronaldo izvedel za svojo kazen",
-              "url": "https://www.delo.si/sport/nogomet/ronaldo-izvedel-za-svojo-kazen",
-              "source_id": "delo.si",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:42:30.322563+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 30.89958165817652,
+        "score": 26.808957565229576,
         "size": 8,
         "n_sources": 8,
         "n_continents": 5,
         "continents": [
           "East Asia",
+          "Europe East",
           "Europe North",
-          "Europe South",
-          "North America",
-          "Oceania"
+          "Middle East",
+          "South America"
         ],
-        "coherence": 0.8483726382255554,
-        "title": "Japan launches first mission to collect samples from Martian moon",
+        "coherence": 0.8199713230133057,
+        "title": "North Korea releases Kim photos to counter death rumours",
         "central_article": {
-          "title": "Japan launches first mission to collect samples from Martian moon",
-          "url": "https://www.abc.net.au/news/2026-10-20/japan-launches-mission-to-collect-mars-moon-samples/107283312",
-          "source_id": "abc.net.au",
-          "continent": "Oceania",
+          "title": "North Korea releases Kim photos to counter death rumours",
+          "url": "https://www.bangkokpost.com/world/3340364/north-korea-releases-kim-photos-to-counter-death-rumours",
+          "source_id": "bangkokpost.com",
+          "continent": "East Asia",
           "published_at": null,
-          "scraped_at_utc": "2026-10-19T22:41:31.840406+00:00"
+          "scraped_at_utc": "2026-10-20T12:25:06.637299+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.902016818523407,
+            "sim_to_centroid": 0.8771926164627075,
             "article": {
-              "title": "Japan launches first mission to collect samples from Martian moon",
-              "url": "https://www.abc.net.au/news/2026-10-20/japan-launches-mission-to-collect-mars-moon-samples/107283312",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:41:31.840406+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.894538402557373,
-            "article": {
-              "title": "Japan to launch world-first mission to moon of Mars",
-              "url": "https://www.channelnewsasia.com/world/japan-mars-moon-mission-phobos-launch-rocket-space-6472976",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:45:40.650596+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8932079076766968,
-            "article": {
-              "title": "Japan launches rocket for potential world first Mars moon mission",
-              "url": "https://www.bangkokpost.com/world/3340223/japan-launches-rocket-for-potential-world-first-mars-moon-mission",
+              "title": "North Korea releases Kim photos to counter death rumours",
+              "url": "https://www.bangkokpost.com/world/3340364/north-korea-releases-kim-photos-to-counter-death-rumours",
               "source_id": "bangkokpost.com",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:45:57.395089+00:00"
+              "scraped_at_utc": "2026-10-20T12:25:06.637299+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8892080783843994,
+            "sim_to_centroid": 0.8767966628074646,
             "article": {
-              "title": "Japan launches probe in historic bid to collect sample from Mars moon",
-              "url": "https://www.japantimes.co.jp/news/2026/10/20/japan/science-health/japan-mars-moon-probe-launch/",
-              "source_id": "japantimes.co.jp",
+              "title": "Corea del Norte difunde imágenes de Kim Jong-un para desmentir rumores sobre supuesta muerte",
+              "url": "https://www.eltiempo.com/mundo/asia/corea-del-norte-difunde-imagenes-de-kim-jong-un-para-desmentir-rumores-sobre-supuesta-muerte-del-lider-lo-que-se-sabe-sobre-su-estado-de-salud-3594826",
+              "source_id": "eltiempo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:19:44.510307+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8172082901000977,
+            "article": {
+              "title": "Kuzey Kore lideri Kim Jong-un'un öldüğü iddia edilmişti: Yanıt gecikmedi",
+              "url": "https://www.hurriyet.com.tr/dunya/kuzey-kore-lideri-kim-jong-unun-oldugu-iddia-edilmisti-yanit-gecikmedi-43348188",
+              "source_id": "hurriyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:20:52.663390+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8127152323722839,
+            "article": {
+              "title": "Circulan rumores de que Kim Jong-un habría sufrido un derrame cerebral, según The Sun. Corea del Norte publica fotos que lo desmentirían",
+              "url": "https://www.semana.com/mundo/articulo/circulan-rumores-de-que-kim-jong-un-habria-sufrido-un-derrame-cerebral-segun-the-sun-corea-del-norte-publica-fotos-que-lo-desmentirian/202651/",
+              "source_id": "semana.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:19:45.903908+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8049858808517456,
+            "article": {
+              "title": "1 Kim Jong Un Dirumorkan Meninggal akibat Pendarahan Otak, Korea Utara Rilis Foto Terbaru Tren",
+              "url": "https://www.kompas.com/tren/read/2026/10/20/160100565/kim-jong-un-dirumorkan-meninggal-akibat-pendarahan-otak-korea-utara-rilis?source=terpopuler",
+              "source_id": "kompas.com",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:45:42.030752+00:00"
+              "scraped_at_utc": "2026-10-20T12:25:19.380794+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8298463821411133,
+            "sim_to_centroid": 0.7990438938140869,
             "article": {
-              "title": "Japan launches spacecraft to Mars' moon in mission to bring back soil samples By Marcia Dunn, Associated Press",
-              "url": "https://www.pbs.org/newshour/science/japan-launches-spacecraft-to-mars-moon-in-mission-to-bring-back-soil-samples",
-              "source_id": "pbs.org",
-              "continent": "North America",
+              "title": "Западные таблоиды написали, что Ким Чен Ын в коме. КНДР ответила публикацией его фотографий с семьей на выставке одежды",
+              "url": "https://meduza.io/news/2026/10/20/zapadnye-tabloidy-napisali-chto-kim-chen-yn-v-kome-kndr-otvetila-publikatsiey-ego-fotografiy-s-semiey-na-vystavke-odezhdy",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:44:14.656035+00:00"
+              "scraped_at_utc": "2026-10-20T12:21:30.287574+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8140074610710144,
+            "sim_to_centroid": 0.7863757610321045,
             "article": {
-              "title": "Ruimtevaart Japan lanceert ruimtemissie die bodemstalen van 'aardappelmaan' van Mars naar aarde moet brengen",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/10/19/japan-ruimtemissie-phobos-manen-van-mars/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
+              "title": "KLDR vyvrací spekulace o kómatu či smrti Kima. Ukázala ho, jak si prohlíží oblečení",
+              "url": "https://www.idnes.cz/zpravy/zahranicni/kldr-vyvraci-spekulace-o-komatu-ci-smrti-kima-ukazala-ho-jak-si-prohlizi-obleceni.A261020_134631_zahranicni_dtt",
+              "source_id": "idnes.cz",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:15.767915+00:00"
+              "scraped_at_utc": "2026-10-20T12:21:14.694515+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7962287664413452,
+            "sim_to_centroid": 0.7854523658752441,
             "article": {
-              "title": "Le Japon lance une fusée en mission pour percer le mystère des origines de la vie sur Terre (photos)",
-              "url": "https://www.lesoir.be/777826/article/2026-10-19/le-japon-lance-une-fusee-en-mission-pour-percer-le-mystere-des-origines-de-la",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:19.582564+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7679272890090942,
-            "article": {
-              "title": "Japanse sonde onderweg naar Phobos, een van de manen van Mars",
-              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5659968/japanse-sonde-onderweg-naar-phobos-een-van-de-manen-van-mars",
-              "source_id": "rtl.nl",
+              "title": "A Chinese dissident falsely claims Kim Jong Un is dead - why is this rumour back?",
+              "url": "https://www.bbc.com/news/articles/cmvg6qv1jdydo",
+              "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:22.330698+00:00"
+              "scraped_at_utc": "2026-10-20T12:18:07.658249+00:00"
             }
           }
         ]
       },
       {
-        "score": 29.70348570849401,
-        "size": 8,
-        "n_sources": 8,
-        "n_continents": 5,
+        "score": 22.432154043955546,
+        "size": 7,
+        "n_sources": 7,
+        "n_continents": 4,
         "continents": [
           "Europe East",
           "Europe North",
           "Europe South",
-          "Middle East",
           "South America"
         ],
-        "coherence": 0.8404769897460938,
-        "title": "Cuatro muertos por la dana Adam, que deja lluvias históricas, inundaciones y cientos de rescates en la Comunidad Valenciana",
+        "coherence": 0.8556581735610962,
+        "title": "Italy to deploy 500 troops to Milan after days of protests and looting",
         "central_article": {
-          "title": "Cuatro muertos por la dana Adam, que deja lluvias históricas, inundaciones y cientos de rescates en la Comunidad Valenciana",
-          "url": "https://www.rtve.es/noticias/20261019/adam-azota-levante-baleares-600-litros-metro-cuadrado-inundaciones-graves-rescates-masivos/17272527.shtml",
-          "source_id": "rtve.es",
-          "continent": "Europe South",
+          "title": "Italy to deploy 500 troops to Milan after days of protests and looting",
+          "url": "https://www.theguardian.com/world/2026/oct/20/milan-luxury-shops-close-italy-to-deploy-troops-youth-protests-europe",
+          "source_id": "theguardian.com",
+          "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-10-19T22:40:27.817658+00:00"
+          "scraped_at_utc": "2026-10-20T12:18:11.763202+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8789424896240234,
+            "sim_to_centroid": 0.9058893918991089,
             "article": {
-              "title": "Cuatro muertos por la dana Adam, que deja lluvias históricas, inundaciones y cientos de rescates en la Comunidad Valenciana",
-              "url": "https://www.rtve.es/noticias/20261019/adam-azota-levante-baleares-600-litros-metro-cuadrado-inundaciones-graves-rescates-masivos/17272527.shtml",
-              "source_id": "rtve.es",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:27.817658+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8510826230049133,
-            "article": {
-              "title": "Inundaciones en España. Cuatro muertos, ciudades aisladas y más de 800.000 confinados por el avance de la tormenta Adam",
-              "url": "https://www.lanacion.com.ar/el-mundo/espana-bajo-el-agua-tres-muertos-ciudades-aisladas-y-mas-de-800000-confinados-por-inundaciones-nid19102026/",
-              "source_id": "lanacion.com.ar",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:50.095482+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8504164218902588,
-            "article": {
-              "title": "Spain floods kill four as torrential rain inundates eastern regions",
-              "url": "https://www.france24.com/en/europe/20261019-spain-floods-kill-four-as-torrential-rain-inundates-eastern-regions",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:12.616497+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8488321304321289,
-            "article": {
-              "title": "La dana ‘Adam’ deja cuatro muertos, tres en Valencia y uno en Andalucía",
-              "url": "https://www.lavanguardia.com/local/valencia/20261020/11662975/dana-adam-deja-cuatro-muertos-tres-valencia-andalucia.html",
-              "source_id": "lavanguardia.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:25.111421+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8440732955932617,
-            "article": {
-              "title": "Cuatro muertos por la dana que deja inundaciones en Valencia y Alicante",
-              "url": "https://elpais.com/espana/comunidad-valenciana/2026-10-19/maxima-alerta-en-gandia-y-denia-por-las-lluvias-torrenciales-y-las-inundaciones-que-activa-a-la-ume.html",
-              "source_id": "elpais.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:40:21.158044+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8363183736801147,
-            "article": {
-              "title": "الفيضانات تقتل أربعة في شرق إسبانيا وأمطار قياسية في فالنسيا",
-              "url": "https://www.annahar.com/international/europe/358467/الفيضانات-تقتل-أربعة-في-شرق-إسبانيا-وأمطار-قياسية-في-فالنسيا",
-              "source_id": "annahar.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:42:10.502900+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.835349440574646,
-            "article": {
-              "title": "Huda neurja na vzhodu Španije terjale štiri življenja",
-              "url": "https://www.delo.si/novice/svet/huda-neurja-na-vzhodu-spanije-terjale-stiri-zivljenja",
-              "source_id": "delo.si",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:42:30.322563+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7788011431694031,
-            "article": {
-              "title": "Funke Mediengruppe Aktuelle Lage Sturmtief „Adam“ flutet Spanien – mindestens vier Tote durch Unwetter",
-              "url": "https://www.abendblatt.de/panorama/article413449382/mallorca-bereitet-sich-auf-sturm-vor-was-urlauber-wissen-muessen.html",
-              "source_id": "abendblatt.de",
+              "title": "Italy to deploy 500 troops to Milan after days of protests and looting",
+              "url": "https://www.theguardian.com/world/2026/oct/20/milan-luxury-shops-close-italy-to-deploy-troops-youth-protests-europe",
+              "source_id": "theguardian.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-19T22:39:39.967679+00:00"
+              "scraped_at_utc": "2026-10-20T12:18:11.763202+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8975327014923096,
+            "article": {
+              "title": "L’Italie va envoyer 500 soldats à Milan après des pillages et des affrontements",
+              "url": "https://www.rtbf.be/article/l-italie-va-envoyer-500-soldats-a-milan-apres-des-affrontements-11803025",
+              "source_id": "rtbf.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:19:15.955559+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8953403830528259,
+            "article": {
+              "title": "Milan luxury stores close early as Italy plans to deploy 500 troops after unrest",
+              "url": "https://georgiatoday.ge/milan-luxury-stores-close-early-as-italy-plans-to-deploy-500-troops-after-unrest/",
+              "source_id": "georgiatoday.ge",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:21:52.050380+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8651310205459595,
+            "article": {
+              "title": "Tiendas de lujo de Milán cierran por temor a nuevos saqueos, mientras el gobierno prepara despliegue de 500 soldados",
+              "url": "https://www.latercera.com/mundo/noticia/tiendas-de-lujo-de-milan-cierran-por-temor-a-nuevos-saqueos-mientras-el-gobierno-prepara-despliegue-de-500-soldados/",
+              "source_id": "latercera.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:19:58.543875+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8481510877609253,
+            "article": {
+              "title": "Italy deploys troops to ‘defend Milan’ from looting",
+              "url": "https://www.rt.com/news/647412-italy-troops-milan-protests/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:21:37.541691+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8169711828231812,
+            "article": {
+              "title": "Meloni schickt 500 Soldaten nach Mailand – und warnt vor „Mistgabel“-Aufstand in Europa",
+              "url": "https://www.welt.de/politik/ausland/article6ad738082352c608d83cf25e/krawalle-in-italien-meloni-schickt-500-soldaten-nach-mailand-und-warnt-vor-mistgabel-aufstand-in-europa.html",
+              "source_id": "welt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:18:31.383238+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7605913877487183,
+            "article": {
+              "title": "Il governo invia altri 500 soldati con potere di polizia a Milano. Fermo preventivo per i minori |",
+              "url": "https://www.repubblica.it/politica/2026/10/20/news/governo_invia_altri_500_soldati_potere_polizia_milano_fermo_preventivo_minori-425659276/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-20T12:19:24.321197+00:00"
             }
           }
         ]
       }
     ],
-    "created_at_utc": "2026-10-19T23:04:45Z"
+    "created_at_utc": "2026-10-20T12:54:16Z"
   }
 ]
