@@ -1,13 +1,920 @@
 [
   {
-    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1792587377",
-    "n_items": 2515,
-    "n_clusters": 2053,
+    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1792621133",
+    "n_items": 2501,
+    "n_clusters": 2072,
     "clusters": [
       {
-        "score": 80.01548086491843,
-        "size": 36,
-        "n_sources": 25,
+        "score": 133.0722388794255,
+        "size": 27,
+        "n_sources": 26,
+        "n_continents": 9,
+        "continents": [
+          "China",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "Oceania",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.7871142029762268,
+        "title": "Websites go dark worldwide as AI exposes critical security flaws",
+        "central_article": {
+          "title": "Websites go dark worldwide as AI exposes critical security flaws",
+          "url": "https://www.thedailystar.net/news/technology/news/websites-go-dark-worldwide-ai-exposes-critical-security-flaws-4304441",
+          "source_id": "thedailystar.net",
+          "continent": "South Asia",
+          "published_at": null,
+          "scraped_at_utc": "2026-10-21T22:06:38.046898+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8650944232940674,
+            "article": {
+              "title": "Websites go dark worldwide as AI exposes critical security flaws",
+              "url": "https://www.thedailystar.net/news/technology/news/websites-go-dark-worldwide-ai-exposes-critical-security-flaws-4304441",
+              "source_id": "thedailystar.net",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:06:38.046898+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8522243499755859,
+            "article": {
+              "title": "Weltweite gravierende Sicherheitslücke entdeckt – mehrere Bundesländer schalten Websites ab",
+              "url": "https://www.welt.de/vermischtes/article6ad8d3342c40700de0800de6/gravierende-sicherheitsluecke-entdeckt-mehrere-bundeslaender-schalten-websites-ab.html",
+              "source_id": "welt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:33.236726+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8484266996383667,
+            "article": {
+              "title": "Sitios web de todo el mundo quedan desactivados tras detectarse una falla de seguridad crítica en internet",
+              "url": "https://www.bbc.com/mundo/articles/cq3djnk48ly8o",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:01:37.416082+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.837509036064148,
+            "article": {
+              "title": "Government websites scramble to protect systems after AI discovers critical flaw",
+              "url": "https://www.theglobeandmail.com/world/article-government-websites-php-programming-language-vulnerabilities/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:02:32.841462+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8370318412780762,
+            "article": {
+              "title": "Alerta mundial por fallas de seguridad en PHP obliga a desconectar sitios web de gobiernos europeos",
+              "url": "https://www.latercera.com/tecnologia/noticia/alerta-mundial-fallas-seguridad-php-wordpress/",
+              "source_id": "latercera.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:02:09.248232+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8330413699150085,
+            "article": {
+              "title": "Programmiersprache PHP Sicherheitslücke bedroht weltweit Webseiten",
+              "url": "https://www.tagesschau.de/wirtschaft/technologie/it-sicherheit-php-luecke-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:26.077670+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8209148645401001,
+            "article": {
+              "title": "Government websites go dark after AI-discovered flaw sparks security scramble",
+              "url": "https://www.dawn.com/news/2038808/government-websites-go-dark-after-ai-discovered-flaw-sparks-security-scramble",
+              "source_id": "dawn.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:06:51.433019+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8157660961151123,
+            "article": {
+              "title": "В языке программирования PHP обнаружили две критические уязвимости. Из-за этого европейские правительства начали отключать свои сайты",
+              "url": "https://meduza.io/news/2026/10/21/v-yazyke-programmirovaniya-php-obnaruzhili-dve-kriticheskie-uyazvimosti-iz-za-etogo-evropeyskie-pravitelstva-nachali-otklyuchat-svoi-sayty",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:03:54.189324+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8143540620803833,
+            "article": {
+              "title": "Sicherheitslücken in Programmiersprache bedrohen weltweit Millionen Webseiten",
+              "url": "https://www.diepresse.com/41380037/sicherheitsluecken-in-programmiersprache-bedrohen-weltweit-millionen-webseiten",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:36.985775+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.812613844871521,
+            "article": {
+              "title": "O vulnerabilitate descoperită de IA pune în pericol până la 70% din site-urile web din întreaga lume",
+              "url": "https://www.g4media.ro/o-vulnerabilitate-descoperita-de-ia-pune-in-pericol-pana-la-70-din-site-urile-web-din-intreaga-lume.html",
+              "source_id": "g4media.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:03:45.754936+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8006631135940552,
+            "article": {
+              "title": "AI發現重大安全漏洞 全球七成網站面臨黑客攻擊風險",
+              "url": "https://www.singtaousa.com/2026/10/21/news/usa/news-php2shell-ai-security-vulnerability-global-websites-cyberattack/",
+              "source_id": "singtaousa.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:06:17.165229+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7992652654647827,
+            "article": {
+              "title": "Une faille informatique mondiale : de nombreux sites inaccessibles, dont la police, afin de corriger la vulnérabilité de sécurité",
+              "url": "https://www.rtbf.be/article/une-faille-informatique-mondiale-un-correctif-visant-a-mettre-fin-a-la-vulnerabilite-dans-php-a-ete-publie-11803667",
+              "source_id": "rtbf.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:01:23.812254+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7900593280792236,
+            "article": {
+              "title": "Dünyada PHP alarmı! Siber güvenlik açığı harekete geçirdi: Hollanda tüm devlet sitelerini kapattı",
+              "url": "https://www.milliyet.com.tr/dunya/dunyada-php-alarmi-siber-guvenlik-acigi-harekete-gecirdi-hollanda-tum-devlet-sitelerini-kapatti-7684801",
+              "source_id": "milliyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:03:19.018369+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7887769937515259,
+            "article": {
+              "title": "Vent de panique sur internet après la découverte de failles dans le langage PHP",
+              "url": "https://www.rts.ch/info/sciences-tech/2026/article/cybersecurite-deux-failles-majeures-decouvertes-dans-php-29392652.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:01:18.477533+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7880688309669495,
+            "article": {
+              "title": "Gravierende Sicherheitslücke bedroht weltweit Webseiten – Experte: „Wir sehen erste Angriffe“",
+              "url": "https://www.handelsblatt.com/technik/it-internet/php-webskriptsprache-gravierende-sicherheitsluecke-bedroht-weltweit-webseiten/100263968.html",
+              "source_id": "handelsblatt.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:31.178940+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7873398661613464,
+            "article": {
+              "title": "Сайты властей и СМИ по всему миру отключили из-за критических уязвимостей в PHP. Разработчики уже выпустили исправления 21 октября",
+              "url": "https://novayagazeta.eu/articles/2026/10/21/saity-vlastei-i-smi-po-vsemu-miru-otkliuchili-iz-za-kriticheskikh-uiazvimostei-v-php-razrabotchiki-uzhe-vypustili-ispravleniia-news",
+              "source_id": "novayagazeta.eu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:03:55.445276+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7841317057609558,
+            "article": {
+              "title": "Norske nettsider stenges etter sikkerhetshull: –⁠ Så alvorlig som det kan bli",
+              "url": "https://www.aftenposten.no/verden/i/8GklJW/norske-nettsider-stenges-etter-sikkerhetshull-saa-alvorlig-som-det-kan-bli",
+              "source_id": "aftenposten.no",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:50.444414+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7819288372993469,
+            "article": {
+              "title": "Belangrijke sites nog offline door veiligheidslek",
+              "url": "https://www.rtl.nl/nieuws/binnenland/artikel/5660358/belangrijke-sites-meld-misdaad-anoniem-en-113-nog-offline-door",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:21.633844+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7762894630432129,
+            "article": {
+              "title": "‘Critical vulnerabilities’ found in computer code supporting up to 70% of internet",
+              "url": "https://www.irishtimes.com/business/2026/10/21/critical-vulnerabilities-found-in-computer-code-supporting-up-to-70-of-internet/",
+              "source_id": "irishtimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:02:54.619652+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7754239439964294,
+            "article": {
+              "title": "Govts in Europe take down sites, US urges fix after AI discovers flaw in programming language",
+              "url": "https://www.hindustantimes.com/world-news/govts-in-europe-take-down-sites-us-urges-fix-after-ai-discovers-flaw-in-programming-language-php-101792600541310.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:06:35.276951+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7624577283859253,
+            "article": {
+              "title": "Australian cybersecurity website hit in global flaw",
+              "url": "https://www.smh.com.au/technology/australian-cybersecurity-website-hit-in-global-flaw-20261022-p617ok.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:02:37.455232+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7608965635299683,
+            "article": {
+              "title": "Deux failles critiques dans une brique logicielle font trembler le web mondial",
+              "url": "https://www.lesoir.be/778298/article/2026-10-21/deux-failles-critiques-dans-une-brique-logicielle-font-trembler-le-web-mondial",
+              "source_id": "lesoir.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:01:25.385897+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.754949688911438,
+            "article": {
+              "title": "Warning for NZ as websites go dark around world in security scare",
+              "url": "https://www.rnz.co.nz/news/politics/2075189/warning-for-nz-as-websites-go-dark-around-world-in-security-scare",
+              "source_id": "rnz.co.nz",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:02:45.363668+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7455997467041016,
+            "article": {
+              "title": "Dansk Industri advarer om alvorlige sikkerhedshuller på hjemmesider",
+              "url": "https://www.dr.dk/nyheder/indland/dansk-industri-advarer-om-alvorlige-sikkerhedshuller-paa-hjemmesider",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:58.876101+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7399553060531616,
+            "article": {
+              "title": "Kapløb mod tiden: Ved en fejl kom historien om sikkerhedshullet bag 70 procent af verdens hjemmesider ud, før redningen var klar",
+              "url": "https://politiken.dk/danmark/art11030642/Kapl%C3%B8b-mod-tiden-Sikkerhedsbrister-afsl%C3%B8ret-i-systemet-der-bruges-til-70-procent-af-alle-hjemmesider",
+              "source_id": "politiken.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:46.874865+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7132617831230164,
+            "article": {
+              "title": "DMI's hjemmeside er ude af drift",
+              "url": "https://www.dr.dk/nyheder/seneste/dmi-s-hjemmeside-er-ude-af-drift",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:58.876101+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.5660392045974731,
+            "article": {
+              "title": "Hoe AI de rijksbegroting in het donkerrood dreigt te duwen",
+              "url": "https://fd.nl/economie/1615976/hoe-ai-de-rijksbegroting-in-het-donkerrood-dreigt-te-duwen",
+              "source_id": "fd.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:24.002904+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 118.3593667574246,
+        "size": 29,
+        "n_sources": 28,
+        "n_continents": 6,
+        "continents": [
+          "China",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "North America",
+          "South America"
+        ],
+        "coherence": 0.8299522995948792,
+        "title": "El Papa León XIV no necesitará tratamiento adicional tras la cirugía de cáncer de pulmón",
+        "central_article": {
+          "title": "El Papa León XIV no necesitará tratamiento adicional tras la cirugía de cáncer de pulmón",
+          "url": "https://www.latercera.com/mundo/noticia/el-papa-leon-xiv-no-necesitara-tratamiento-adicional-tras-la-cirugia-de-cancer-de-pulmon/",
+          "source_id": "latercera.com",
+          "continent": "South America",
+          "published_at": null,
+          "scraped_at_utc": "2026-10-21T22:02:09.248232+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9249299764633179,
+            "article": {
+              "title": "El Papa León XIV no necesitará tratamiento adicional tras la cirugía de cáncer de pulmón",
+              "url": "https://www.latercera.com/mundo/noticia/el-papa-leon-xiv-no-necesitara-tratamiento-adicional-tras-la-cirugia-de-cancer-de-pulmon/",
+              "source_id": "latercera.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:02:09.248232+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9226956367492676,
+            "article": {
+              "title": "El papa León XIV no necesitará más terapia tras su operación de cáncer de pulmón",
+              "url": "https://www.lavanguardia.com/internacional/20261021/11664915/papa-leon-xiv-necesitara-mas-terapia-operacion.html",
+              "source_id": "lavanguardia.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:01:26.946235+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9177295565605164,
+            "article": {
+              "title": "El papa León XIV no necesitará tratamiento tras su cirugía por cáncer de pulmón",
+              "url": "https://www.elespectador.com/mundo/europa/papa-leon-xiv-cirugia-cancer-de-pulmon/",
+              "source_id": "elespectador.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:02:10.835450+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9174725413322449,
+            "article": {
+              "title": "Pope Leo doesn’t need further treatment for lung cancer, doctors say",
+              "url": "https://www.scmp.com/news/world/europe/article/3371691/pope-leo-doesnt-need-further-treatment-lung-cancer-doctors-say?module=latest&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:05:59.839507+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9174725413322449,
+            "article": {
+              "title": "Pope Leo doesn’t need further treatment for lung cancer, doctors say",
+              "url": "https://www.scmp.com/news/world/europe/article/3371691/pope-leo-doesnt-need-further-treatment-lung-cancer-doctors-say?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:05:59.839507+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9075253009796143,
+            "article": {
+              "title": "Pope Leo XIV needs no further lung cancer treatment, Vatican says",
+              "url": "https://www.france24.com/en/europe/20261021-pope-leo-doctors-treatment-lung-cancer",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:01:16.580356+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9072903394699097,
+            "article": {
+              "title": "Papa Leão XIV não precisará de outros tratamentos após cirurgia de câncer, afirmam médicos",
+              "url": "https://oglobo.globo.com/mundo/noticia/2026/10/21/papa-leao-xiv-nao-precisara-de-outros-tratamentos-apos-cirurgia-de-cancer-afirmam-medicos.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:02:03.456810+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9056981801986694,
+            "article": {
+              "title": "Pope Leo’s doctors say tests show he needs no further treatment for lung cancer",
+              "url": "https://www.chicagotribune.com/2026/10/21/pope-leo-treatment-lung-cancer/",
+              "source_id": "chicagotribune.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:05:55.026469+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9033026695251465,
+            "article": {
+              "title": "El papa León XIV no necesitará más tratamientos tras la cirugía en la que le extirparon un tumor canceroso",
+              "url": "https://www.bbc.com/mundo/articles/cq99z3145317o",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:01:37.416082+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8977489471435547,
+            "article": {
+              "title": "Papst Leo braucht nach Lungenkrebs-OP keine weitere Behandlung",
+              "url": "https://www.tagesschau.de/ausland/europa/papst-leo-lungenkrebs-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:26.077670+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8915634155273438,
+            "article": {
+              "title": "El papa no necesitará más tratamiento tras la operación por el cáncer de pulmón",
+              "url": "https://www.rtve.es/noticias/20261021/papa-no-necesitara-mas-tratamiento-tras-operacion-cancer-pulmon/17277613.shtml",
+              "source_id": "rtve.es",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:01:29.689309+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8859940767288208,
+            "article": {
+              "title": "Papst Leo braucht nach Tumorentfernung keine weitere Behandlung",
+              "url": "https://www.diepresse.com/41381359/papst-leo-braucht-nach-tumorentfernung-keine-weitere-behandlung",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:36.985775+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8538144826889038,
+            "article": {
+              "title": "Le pape Léon XIV exempté de traitement après son opération du poumon",
+              "url": "https://www.rts.ch/info/monde/2026/article/pape-leon-xiv-aucun-traitement-requis-apres-son-operation-29392949.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:01:18.477533+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8510549068450928,
+            "article": {
+              "title": "Pope Leo's tests show he needs no further treatment for lung cancer, his doctors say By Associated Press",
+              "url": "https://www.pbs.org/newshour/politics/pope-leos-tests-show-he-needs-no-further-treatment-for-lung-cancer-his-doctors-say",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:05:58.529042+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8370051383972168,
+            "article": {
+              "title": "Medikai: popiežiui po vėžinio darinio plaučiuose operacijos tolesnio gydymo neprireiks",
+              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3089480/medikai-popieziui-po-vezinio-darinio-plauciuose-operacijos-tolesnio-gydymo-neprireiks",
+              "source_id": "lrt.lt",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:04:13.477109+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8190280199050903,
+            "article": {
+              "title": "Paus Leo XIV Longkanker van Leo XIV is niet uitgezaaid, paus heeft geen verdere behandeling nodig",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/10/21/paus-kanker-niet-uitgezaaid/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:01:20.419775+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7904801964759827,
+            "article": {
+              "title": "Pri papežu potrdili pljučnega raka, dodatno zdravljenje ni potrebno",
+              "url": "https://www.delo.si/novice/svet/pri-papezu-potrdili-pljucnega-raka-dodatno-zdravljenje-ni-potrebno",
+              "source_id": "delo.si",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:03:49.393721+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7888981103897095,
+            "article": {
+              "title": "3 t Verden Pave Leo trenger ikke ytterligere behandling etter kreftoperasjonen, opplyser legen hans",
+              "url": "https://www.aftenposten.no/verden/i/p1ky4X/paven-friskmeldt-etter-lungekreftoperasjon",
+              "source_id": "aftenposten.no",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:50.444414+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7771044373512268,
+            "article": {
+              "title": "Adenokarzinom entfernt Krebs hat bei Papst Leo XIV. nicht gestreut Papst Leo kann vorerst aufatmen: Mit der Operation seiner Lunge ist der Krebs erfolgreich bekämpft worden.",
+              "url": "https://www.srf.ch/news/international/adenokarzinom-entfernt-krebs-hat-bei-papst-leo-xiv-nicht-gestreut",
+              "source_id": "srf.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:44.860800+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7762496471405029,
+            "article": {
+              "title": "Tumor paus niet uitgezaaid, geen verdere behandeling nodig",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5660363/kanker-tumor-paus-niet-uitgezaaid",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:21.633844+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7758557200431824,
+            "article": {
+              "title": "Der Lungenkrebs bei Papst Leo XIV. hat nicht gestreut",
+              "url": "https://www.nzz.ch/international/der-lungenkrebs-bei-papst-leo-xiv-hat-nicht-gestreut-ld.10040826",
+              "source_id": "nzz.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:42.989668+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7735633850097656,
+            "article": {
+              "title": "Beskedet: Ingen ny behandling för påven",
+              "url": "https://www.dn.se/direkt/2026-10-21/beskedet-ingen-ny-behandling-for-paven/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:48.847025+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7644909620285034,
+            "article": {
+              "title": "Vatikan: Krebs bei Papst Leo hat nicht gestreut",
+              "url": "https://www.zdfheute.de/panorama/papst-leo-krebs-erkrankung-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:39.217899+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.759114146232605,
+            "article": {
+              "title": "Médicos que operaron al papa León XIV dan importante noticia sobre el futuro de su tratamiento contra el cáncer",
+              "url": "https://www.semana.com/mundo/articulo/medicos-que-operaron-al-papa-dan-importante-noticia-sobre-el-futuro-de-su-tratamiento-contra-el-cancer/202609/",
+              "source_id": "semana.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:01:54.483669+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.752835750579834,
+            "article": {
+              "title": "Câncer do papa era localizado, e novos tratamentos não serão necessários, diz boletim médico Leão 14 fez hoje sua 1ª audiência após cirurgia no pulmão e foi ovacionado no papamóvel",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/10/cancer-do-papa-era-localizado-e-novas-terapias-nao-sao-necessarias-diz-boletim-medico.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:01:59.595201+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7296626567840576,
+            "article": {
+              "title": "Pope’s surgeons say they cut out all cancer",
+              "url": "https://www.thetimes.com/world/europe/article/pope-leo-general-audience-cancer-surgery-bsr5bz08k",
+              "source_id": "thetimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:07.988663+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7185766100883484,
+            "article": {
+              "title": "¿Está curado de cáncer el papa León XIV? Esto dice experto tras conocerse el nuevo parte médico",
+              "url": "https://www.eltiempo.com/salud/esta-curado-de-cancer-el-papa-leon-xiv-esto-dice-experto-tras-conocerse-el-nuevo-parte-medico-aun-no-se-puede-hablar-de-curacion-definitiva-3595290",
+              "source_id": "eltiempo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:01:52.975271+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7072702050209045,
+            "article": {
+              "title": "Santé du pape : Léon XIV est sorti de l’hôpital ce samedi 17 oct. Analyse",
+              "url": "https://www.la-croix.com/religion/sante-du-pape-leon-xiv-sortira-de-l-hopital-ce-samedi-20261017",
+              "source_id": "la-croix.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:01:15.208156+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6941870450973511,
+            "article": {
+              "title": "La salud del papa León XIV",
+              "url": "https://plazapublica.com.gt/opinion/opinion/la-salud-del-papa-leon-xiv-consideraciones/",
+              "source_id": "plazapublica.com.gt",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:01:44.717594+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 112.0110947961648,
+        "size": 19,
+        "n_sources": 19,
+        "n_continents": 7,
+        "continents": [
+          "China",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "South America"
+        ],
+        "coherence": 0.8656497597694397,
+        "title": "Meta é condenada a pagar US$ 25 bi por enganar usuários sobre privacidade no caso Cambridge Analytica",
+        "central_article": {
+          "title": "Meta é condenada a pagar US$ 25 bi por enganar usuários sobre privacidade no caso Cambridge Analytica",
+          "url": "https://oglobo.globo.com/economia/tecnologia/noticia/2026/10/21/meta-e-condenada-a-pagar-us-25-bilhoes-por-enganar-usuarios-sobre-privacidade.ghtml",
+          "source_id": "oglobo.globo.com",
+          "continent": "South America",
+          "published_at": null,
+          "scraped_at_utc": "2026-10-21T22:02:03.456810+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9251576066017151,
+            "article": {
+              "title": "Meta é condenada a pagar US$ 25 bi por enganar usuários sobre privacidade no caso Cambridge Analytica",
+              "url": "https://oglobo.globo.com/economia/tecnologia/noticia/2026/10/21/meta-e-condenada-a-pagar-us-25-bilhoes-por-enganar-usuarios-sobre-privacidade.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:02:03.456810+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9165176153182983,
+            "article": {
+              "title": "Meta condamné à verser 25 milliards de dollars au Nouveau-Mexique après le scandale Cambridge Analytica",
+              "url": "https://www.lemonde.fr/international/article/2026/10/21/meta-condamne-a-verser-25-milliards-de-dollars-au-nouveau-mexique-apres-le-scandale-cambridge-analytica_6798305_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:01:11.156207+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9145631790161133,
+            "article": {
+              "title": "Meta fined $25 billion in New Mexico over Cambridge Analytica scandal",
+              "url": "https://www.france24.com/en/technology/20261021-meta-fined-25-billion-new-mexico-cambridge-analytica-scandal",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:01:16.580356+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9100052118301392,
+            "article": {
+              "title": "Affaire Cambridge Analytica : Meta condamné à payer 25 milliards de dollars au Nouveau-Mexique",
+              "url": "https://www.lesoir.be/778314/article/2026-10-21/affaire-cambridge-analytica-meta-condamne-payer-25-milliards-de-dollars-au",
+              "source_id": "lesoir.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:01:25.385897+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9071465730667114,
+            "article": {
+              "title": "Meta hit with $25-billion penalty for misleading consumers in New Mexico over Cambridge Analytica case",
+              "url": "https://www.theglobeandmail.com/business/article-meta-25-billion-penalty-misleading-consumers-new-mexico-cambridge/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:02:32.841462+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9005011320114136,
+            "article": {
+              "title": "Meta, condenada a pagar 25.000 millones de dólares por engañar sobre la privacidad de los datos",
+              "url": "https://www.rtve.es/noticias/20261021/meta-condenada-enganar-privacidad-datos/17277547.shtml",
+              "source_id": "rtve.es",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:01:29.689309+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8975159525871277,
+            "article": {
+              "title": "Družba Meta obsojena na 25 milijard dolarjev kazni",
+              "url": "https://www.delo.si/novice/svet/druzba-meta-obsojena-na-25-milijard-dolarjev-kazni",
+              "source_id": "delo.si",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:03:49.393721+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8925907611846924,
+            "article": {
+              "title": "Megaboete van 25 miljard dollar voor Meta om misleiding gebruikers",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5660354/megaboete-van-25-miljard-dollar-voor-meta-voor-misleiding",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:21.633844+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8903005123138428,
+            "article": {
+              "title": "Meta, maxi multa da 25 miliardi in New Mexico per il caso Cambridge Analytica: «Ha ingannato gl utenti sulla privacy»",
+              "url": "https://www.corriere.it/economia/aziende/26_ottobre_21/meta-new-mexico-multa-25-miliardi-dollari-c85e12a2-b077-455d-9904-628267178xlk.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:01:34.567513+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.888551652431488,
+            "article": {
+              "title": "Meta hit with $25-billion penalty for misleading Facebook users about data privacy",
+              "url": "https://www.latimes.com/business/story/2026-10-21/meta-hit-with-25-billion-penalty-for-misleading-users-about-privacy",
+              "source_id": "latimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:05:49.341275+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8761707544326782,
+            "article": {
+              "title": "Meta döms – ska betala nära 250 miljarder",
+              "url": "https://www.dn.se/direkt/2026-10-21/meta-doms-ska-betala-nara-250-miljarder/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:48.847025+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8741847276687622,
+            "article": {
+              "title": "Meta to pay New Mexico a historic US$25 billion in Cambridge Analytica case",
+              "url": "https://www.scmp.com/news/world/united-states-canada/article/3371689/meta-pay-new-mexico-historic-us25-billion-cambridge-analytica-case?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:05:59.839507+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8606042861938477,
+            "article": {
+              "title": "Meta遭新墨西哥州判賠250億 欺瞞用戶隱私與審查政策",
+              "url": "https://www.singtaousa.com/2026/10/21/news/usa/news-meta-new-mexico-facebook-privacy-verdict/",
+              "source_id": "singtaousa.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:06:17.165229+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8585625290870667,
+            "article": {
+              "title": "Media & Televisie Meta moet boete van 25 miljard dollar betalen in privacyzaak Cambridge Analytica",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/10/21/meta-boete-cambridge-analytica/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:01:20.419775+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8341373205184937,
+            "article": {
+              "title": "Datenschutzskandal: Facebook-Konzern Meta soll Milliardenstrafe zahlen",
+              "url": "https://www.tagesschau.de/ausland/meta-cambrigde-skandal-milliardenstrafe-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:26.077670+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.820899486541748,
+            "article": {
+              "title": "محكمة أمريكية تفرض غرامة بقيمة 25 مليار دولار على \"ميتا\"",
+              "url": "https://www.alsumaria.tv/news/international/579460/محكمة-أمريكية-تفرض-غرامة-بقيمة-25-مليار-دولار-على-ميتا",
+              "source_id": "alsumaria.tv",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:05:27.246494+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8198976516723633,
+            "article": {
+              "title": "Cambridge-Analytica-Skandal: Meta soll Milliarden zahlen",
+              "url": "https://www.zdfheute.de/wirtschaft/unternehmen/meta-strafe-cambridge-analytika-usa-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:39.217899+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7321021556854248,
+            "article": {
+              "title": "25.000.000.000 de dolari: Compania lui Mark Zuckerberg, cea mai mare amendă de până acum",
+              "url": "https://hotnews.ro/meta-a-fost-amendata-cu-25-de-miliarde-de-dolari-pentru-minciuni-privind-confidentialitatea-datelor-utilizatorilor-2382974",
+              "source_id": "hotnews.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:03:36.463720+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7279365062713623,
+            "article": {
+              "title": "Meta sektað um rúmlega 3.000 milljarða",
+              "url": "https://www.mbl.is/frettir/erlent/2026/10/21/meta_sektad_um_rumlega_3_000_milljarda/",
+              "source_id": "mbl.is",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:01:02.807137+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 76.29566554494676,
+        "size": 23,
+        "n_sources": 20,
         "n_continents": 6,
         "continents": [
           "East Asia",
@@ -15,1795 +922,1069 @@
           "Europe North",
           "Europe South",
           "Middle East",
-          "South Asia"
+          "Oceania"
         ],
-        "coherence": 0.7743169665336609,
-        "title": "Trump envoy Witkoff meets Russia’s Putin for Ukraine war talks",
+        "coherence": 0.809424877166748,
+        "title": "Putin agrees to resume three-way peace talks with Ukraine and US",
         "central_article": {
-          "title": "Trump envoy Witkoff meets Russia’s Putin for Ukraine war talks",
-          "url": "https://www.aljazeera.com/news/2026/10/21/witkoff-in-russia-for-putin-meeting-after-positive-talks-with-zelenskyy",
-          "source_id": "aljazeera.com",
-          "continent": "Middle East",
+          "title": "Putin agrees to resume three-way peace talks with Ukraine and US",
+          "url": "https://www.abc.net.au/news/2026-10-22/putin-agrees-to-resume-three-way-talks-on-ukraine-war/107294994",
+          "source_id": "abc.net.au",
+          "continent": "Oceania",
           "published_at": null,
-          "scraped_at_utc": "2026-10-21T12:31:09.289739+00:00"
+          "scraped_at_utc": "2026-10-21T22:02:34.483412+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.900767982006073,
+            "sim_to_centroid": 0.8848230838775635,
             "article": {
-              "title": "Trump envoy Witkoff meets Russia’s Putin for Ukraine war talks",
-              "url": "https://www.aljazeera.com/news/2026/10/21/witkoff-in-russia-for-putin-meeting-after-positive-talks-with-zelenskyy",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
+              "title": "Putin agrees to resume three-way peace talks with Ukraine and US",
+              "url": "https://www.abc.net.au/news/2026-10-22/putin-agrees-to-resume-three-way-talks-on-ukraine-war/107294994",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:31:09.289739+00:00"
+              "scraped_at_utc": "2026-10-21T22:02:34.483412+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8782451152801514,
+            "sim_to_centroid": 0.8820762634277344,
             "article": {
-              "title": "U.S. envoy Witkoff to meet Putin as Trump presses Ukraine to settle",
-              "url": "https://www.japantimes.co.jp/news/2026/10/21/world/witkoff-putin-trump-russia-ukraine/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:35:33.313052+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8602426052093506,
-            "article": {
-              "title": "Putin intends to discuss with Witkoff potential meeting with Trump in China",
-              "url": "https://tass.com/politics/2205267",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:32:15.349640+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8562831878662109,
-            "article": {
-              "title": "Ukraine crisis Putin begins meeting with US special envoy Steve Witkoff",
-              "url": "https://tass.com/politics/2205171",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:32:15.349640+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8526067733764648,
-            "article": {
-              "title": "Ukraine crisis Putin to receive US special envoy Witkoff today",
-              "url": "https://tass.com/politics/2205085",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:32:15.349640+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8516412973403931,
-            "article": {
-              "title": "Under møde med USA: Putin takker Trump og Steve Witkoff",
-              "url": "https://www.dr.dk/nyheder/udland/live-krigen-i-ukraine?focusId=12679596",
-              "source_id": "dr.dk",
+              "title": "Putin agrees to resume talks on Ukraine war with Kyiv and Washington",
+              "url": "https://www.irishtimes.com/world/europe/2026/10/21/us-envoy-steve-witkoff-arrives-in-st-petersburg-for-talks-on-ukraine-with-vladimir-putin/",
+              "source_id": "irishtimes.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:29:08.779973+00:00"
+              "scraped_at_utc": "2026-10-21T22:02:54.619652+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8426163196563721,
+            "sim_to_centroid": 0.86910080909729,
             "article": {
-              "title": "Karas Ukrainoje. Putinas per derybas su Witkoffu pasiūlė susitikti su Trumpu Kinijoje",
-              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3089005/karas-ukrainoje-putinas-per-derybas-su-witkoffu-pasiule-susitikti-su-trumpu-kinijoje",
-              "source_id": "lrt.lt",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:32:23.065495+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8329460620880127,
-            "article": {
-              "title": "Witkoff ankommer til Rusland før møde med Putin om Ukraine",
-              "url": "https://sermitsiaq.ag/samfund/witkoff-ankommer-til-rusland-for-mode-med-putin-om-ukraine/2438837",
-              "source_id": "sermitsiaq.ag",
+              "title": "Rusia dice estar dispuesta a reanudar las conversaciones con Ucrania y EE.UU. para poner fin a la guerra",
+              "url": "https://www.bbc.com/mundo/articles/c6wyrp0kyynwo",
+              "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:29:16.300194+00:00"
+              "scraped_at_utc": "2026-10-21T22:01:37.416082+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8301970958709717,
+            "sim_to_centroid": 0.8680809736251831,
             "article": {
-              "title": "Nach Gesprächen in Oslo US-Vermittler Witkoff berät mit Putin über Ukraine",
-              "url": "https://www.tagesschau.de/ausland/europa/ukraine-russland-usa-verhandlungen-104.html",
-              "source_id": "tagesschau.de",
+              "title": "Kremlin bereid om vredesgesprekken met Oekraïne en VS te hervatten",
+              "url": "https://fd.nl/politiek/1616352/witkoff-vraagt-poetin-om-hervatting-gesprekken-met-oekraine",
+              "source_id": "fd.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:36.984645+00:00"
+              "scraped_at_utc": "2026-10-21T22:00:24.002904+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8188729286193848,
+            "sim_to_centroid": 0.859797477722168,
             "article": {
-              "title": "Vladimir Putin, la discuțiile cu trimisul lui Trump, Steve Witkoff: O întrevedere cu președintele SUA ar putea avea loc în China",
-              "url": "https://www.g4media.ro/vladimir-putin-la-discutiile-cu-trimisul-lui-trump-steve-witkoff-o-intrevedere-cu-presedintele-sua-ar-putea-avea-loc-in-china.html",
-              "source_id": "g4media.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:31:52.245092+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.80254065990448,
-            "article": {
-              "title": "Ο «ειρηνοποιός» Γουίτκοφ συναντά τον Πούτιν: Γιατί είναι σημαντική η πρόταση για Ουκρανία",
-              "url": "https://www.tovima.gr/2026/10/21/world/o-eirinopoios-gouitkof-synanta-ton-poutin-giati-einai-simantiki-i-protasi-gia-oukrania/",
-              "source_id": "tovima.gr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:29:45.660516+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7888390421867371,
-            "article": {
-              "title": "Trump Envoy Witkoff Calls Putin a ‘Humanist’ Amid Deadly Russian Attacks on Ukraine",
-              "url": "https://www.kyivpost.com/post/87749",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:32:02.343869+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7877838611602783,
-            "article": {
-              "title": "Witkoff tři hodiny jednal s Putinem. Máme základní návrh na ukončení války, prohlásil",
-              "url": "https://www.idnes.cz/zpravy/zahranicni/steve-witkoff-petrohrad-mirova-jednani-vladimir-putin.A261021_123241_zahranicni_onbu",
-              "source_id": "idnes.cz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:31:45.221862+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7835626602172852,
-            "article": {
-              "title": "Путин и Уиткофф обсудили украинский конфликт, сотрудничество Москвы и Вашингтона и ситуацию вокруг Ирана",
-              "url": "https://ria.ru/20261021/putin-2125852948.html",
-              "source_id": "ria.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:32:18.753191+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7825336456298828,
-            "article": {
-              "title": "Witkoff bei Putin: Russland kündigt erste Diesellieferung in die USA und Freilassung eines Amerikaners an",
-              "url": "https://www.diepresse.com/41379203/witkoff-bei-putin-russland-kuendigt-erste-diesellieferung-in-die-usa-und-freilassung-eines-amerikaners-an",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:47.478523+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7795586585998535,
-            "article": {
-              "title": "Witkoff dit avoir apporté à Poutine « des idées » pour un « accord de paix » en Ukraine",
-              "url": "https://www.lesoir.be/778196/article/2026-10-21/witkoff-dit-avoir-apporte-poutine-des-idees-pour-un-accord-de-paix-en-ukraine",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:29:34.198201+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7761270999908447,
-            "article": {
-              "title": "U. S. Trump envoy Witkoff arrives in Russia , 21 October",
-              "url": "https://armenpress.am/en/article/1263375",
-              "source_id": "armenpress.am",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:32:37.549715+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7745237946510315,
-            "article": {
-              "title": "Europe US envoy Witkoff to meet Putin after talks with Zelenskiy , 21 October",
-              "url": "https://armenpress.am/en/article/1263365",
-              "source_id": "armenpress.am",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:32:37.549715+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7728545665740967,
-            "article": {
-              "title": "Ukraine-Krieg: Putin schlägt Treffen mit Trump und Xi vor",
-              "url": "https://www.tagesschau.de/ausland/europa/ukraine-russland-usa-verhandlungen-106.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:36.984645+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7708838582038879,
-            "article": {
-              "title": "Witkoff to Putin: ‘You are a humanitarian … I salute that’",
-              "url": "https://www.politico.eu/article/us-special-envoy-witkoff-to-putin-you-are-a-humanitarian-i-salute-that/",
-              "source_id": "politico.eu",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:29.002721+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.770817756652832,
-            "article": {
-              "title": "Συνάντηση Πούτιν - Γουίτκοφ με «δώρο» την αποφυλάκιση Αμερικανού",
-              "url": "https://www.tovima.gr/2026/10/21/world/synantisi-poutin-gouitkof-me-doro-tin-apofylakisi-amerikanou/",
-              "source_id": "tovima.gr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:29:45.660516+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7677915096282959,
-            "article": {
-              "title": "Vladimir Poutine et l'émissaire américain Steve Witkoff se rencontrent à Saint-Pétersbourg Guerre en Ukraine aujourd'hui à",
-              "url": "https://www.rts.ch/info/monde/2026/article/guerre-en-ukraine-poutine-rencontre-l-emissaire-americain-29392234.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:29:28.100931+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7622150182723999,
-            "article": {
-              "title": "Putin-Witkoff talks to focus on Ukraine, Kremlin aide says",
-              "url": "https://tass.com/politics/2205133",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:32:15.349640+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.757021963596344,
-            "article": {
-              "title": "US to offer Putin face-to-face talks with Zelenskyy and Trump",
-              "url": "https://www.politico.eu/article/volodymyr-zelenskyy-vladimir-putin-donald-trump-peace-talks/",
-              "source_id": "politico.eu",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:29.002721+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7563374042510986,
-            "article": {
-              "title": "Переговоры Владимира Путина и Стивена Уиткоффа. Главное",
-              "url": "https://www.kommersant.ru/doc/9043577",
-              "source_id": "kommersant.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:32:13.292194+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7401349544525146,
-            "article": {
-              "title": "US envoy to meet Putin after 'positive' talks with Zelensky",
-              "url": "https://www.dawn.com/news/2038756/us-envoy-to-meet-putin-after-positive-talks-with-zelensky",
-              "source_id": "dawn.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:34:53.917166+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7363298535346985,
-            "article": {
-              "title": "newsticker Krieg in der Ukraine Putin spricht mit Trump-Gesandtem Witkoff über Ukraine-Krieg Die neuesten Einträge aus dem Liveticker: Moskau meldet Festnahme von deutschem Ex-Soldat – Söldner? EU verlangt von SpaceX volle Starlink-Dienste für Ukraine Trump lobt Freilassung von US-Amerikaner durch Putin",
-              "url": "https://www.srf.ch/news/international/ukraine/krieg-in-der-ukraine-putin-spricht-mit-trump-gesandtem-witkoff-ueber-ukraine-krieg",
-              "source_id": "srf.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:55.490698+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7337407469749451,
-            "article": {
-              "title": "خلال لقائه ويتكوف.. بوتين يبدي استعداده للمساعدة في حل أزمة إيران",
-              "url": "https://www.aljazeera.net/news/2026/10/21/زيلينسكي-يجري-محادثات-بالنرويج-ويعلن",
-              "source_id": "aljazeera.net",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:31:14.559550+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7199709415435791,
-            "article": {
-              "title": "محادثات روسية ـ أميركية في سان بطرسبورغ: خطوات نحو إنهاء الحرب في أوكرانيا",
-              "url": "https://www.annahar.com/international/europe/358964/محادثات-روسية-ـ-أميركية-في-سان-بطرسبورغ-خطوات-نحو-إنها-الحرب-في-أوكرانيا",
-              "source_id": "annahar.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:31:33.551099+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7088743448257446,
-            "article": {
-              "title": "Putin-Witkoff meeting wraps up, Kremlin tells TASS",
-              "url": "https://tass.com/politics/2205443",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:32:15.349640+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7070819735527039,
-            "article": {
-              "title": "Witkoff en route to St. Petersburg, Rubio says",
-              "url": "https://tass.com/world/2205013",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:32:15.349640+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7060147523880005,
-            "article": {
-              "title": "Witkoffas: Rusija paleido dėl kaltinimų kariavus Ukrainoje kalintą amerikietį",
-              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3089201/witkoffas-rusija-paleido-del-kaltinimu-kariavus-ukrainoje-kalinta-amerikieti",
-              "source_id": "lrt.lt",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:32:23.065495+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6919366121292114,
-            "article": {
-              "title": "Putin se abre a una cumbre con Trump y Xi sobre Ucrania pero deja en el aire la presencia de Zelenski",
+              "title": "Putin se abre a una cumbre trilateral con Trump y Xi y a retomar las negociaciones de paz con Ucrania",
               "url": "https://www.rtve.es/noticias/20261021/putin-trump-xi-cumbre-china-guerra-ucrania-zelenski-reunion-witkoff/17276378.shtml",
               "source_id": "rtve.es",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:29:38.646954+00:00"
+              "scraped_at_utc": "2026-10-21T22:01:29.689309+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6729050874710083,
+            "sim_to_centroid": 0.8594709634780884,
             "article": {
-              "title": "米特使、プーチン氏と会談 米国人元教師の解放と軽油供給再開に謝意",
-              "url": "https://www.asahi.com/articles/ASVBP3R1BVBPUHBI01NM.html?iref=comtop_Topnews2_01",
+              "title": "Krieg gegen die Ukraine: Putin stimmt Wiederaufnahme von Gesprächen zu",
+              "url": "https://www.tagesschau.de/ausland/europa/russland-ukraine-krieg-putin-gespraeche-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:26.077670+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.856514573097229,
+            "article": {
+              "title": "Russia ready for 3-way talks on Ukraine war, Kremlin says",
+              "url": "https://www.politico.eu/article/russia-ready-talks-end-ukraine-war/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:16.185190+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8561809659004211,
+            "article": {
+              "title": "Ukraine and Russia both say ready to resume trilateral talks with US",
+              "url": "https://www.france24.com/en/europe/20261021-zelensky-proposes-freezing-front-with-russia-first-step-peace-talks",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:01:16.580356+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8492693305015564,
+            "article": {
+              "title": "Ukraine war latest: Zelensky supports resuming trilateral peace talks with US, Russia after Putin claims Kremlin readiness.",
+              "url": "https://kyivindependent.com/ukraine-war-latest-russia-ready-to-resume-trilateral-peace-talks-with-us-ukraine/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:03:53.019577+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.837827205657959,
+            "article": {
+              "title": "Zelensky supports resuming trilateral peace talks with US, Russia after Putin claims Kremlin readiness.",
+              "url": "https://kyivindependent.com/kremlin-ready-to-resume-trilateral-peace-talks-with-us-ukraine-putin-claims/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:03:53.019577+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8317593932151794,
+            "article": {
+              "title": "Putin ‘Ready’ for Three-Way Ukraine Talks in November, Kremlin Says",
+              "url": "https://www.kyivpost.com/post/87775",
+              "source_id": "kyivpost.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:03:51.353451+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8034915328025818,
+            "article": {
+              "title": "Putin says Russia ready to resume trilateral talks in November — aide",
+              "url": "https://tass.com/politics/2205585",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:04:07.382112+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7946729063987732,
+            "article": {
+              "title": "Mosca apre a tavolo con Kiev e Usa. Il Cremlino: ci avviamo alla fine del conflitto",
+              "url": "https://www.corriere.it/esteri/diretta-live/26_ottobre_21/guerra-ucraina-russia-le-notizie-in-diretta-zelensky-dopo-l-incontro-con-witkoff-a-oslo-abbiamo-idee-chiare-su-come-raggiungere.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:01:34.567513+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7876473665237427,
+            "article": {
+              "title": "Kremlin wil gesprekken met Oekraïne en VS half november hervatten",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5660322/kremlin-wil-half-november-gesprekken-met-oekraine-en-vs-hervatten",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:21.633844+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7861019372940063,
+            "article": {
+              "title": "محادثات مرتقبة بين روسيا وأميركا وأوكرانيا... وترامب: إنهاء الحرب صار أقرب من أي وقت مضى",
+              "url": "https://www.annahar.com/international/europe/359061/جولة-ويتكوف-تعيد-المسار-الديبلوماسي-إلى-الواجهة-زيلينسكي-يطرح-تجميد-خطوط-المواجهة-مع-روسيا",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:03:26.527834+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7818374633789062,
+            "article": {
+              "title": "Ο Πούτιν είπε «ναι» σε τριμερείς συνομιλίες με ΗΠΑ και Κίεβο - Όλο το παρασκήνιο",
+              "url": "https://www.tovima.gr/2026/10/21/world/o-poutin-symfonise-se-trimereis-synomilies-ipa-rosias-kai-oukranias/",
+              "source_id": "tovima.gr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:01:36.156939+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7803056836128235,
+            "article": {
+              "title": "Rusya'dan müzakereler yeşil ışık: Üçlü görüşmeye başlayabiliriz",
+              "url": "https://www.hurriyet.com.tr/dunya/rusyadan-muzakereler-yesil-isik-uclu-gorusmeye-baslayabiliriz-43350258",
+              "source_id": "hurriyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:03:15.519443+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.776309609413147,
+            "article": {
+              "title": "プーチン氏、ウクライナ情勢めぐる3カ国協議 「11月再開の用意」",
+              "url": "https://www.asahi.com/articles/ASVBP574PVBPUHBI02QM.html?iref=comtop_Topnews2_03",
               "source_id": "asahi.com",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:35:35.561388+00:00"
+              "scraped_at_utc": "2026-10-21T22:07:34.800146+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6718183755874634,
+            "sim_to_centroid": 0.766770601272583,
             "article": {
-              "title": "Putinova strategie se vyplácí. Trumpa má v kapse, už i Evropa zvažuje ústupky Premium",
-              "url": "https://www.idnes.cz/zpravy/zahranicni/putin-evropa-kallasova-trump-usa-jednani-ukrajina-valka-plyn-energie.A261021_120825_zahranicni_jhr?zdroj=otvirak",
-              "source_id": "idnes.cz",
-              "continent": "Europe East",
+              "title": "Putin'den yeşil ışık! Savaşta sona geliniyor",
+              "url": "https://www.milliyet.com.tr/dunya/putinden-yesil-isik-rusya-ukrayna-savasinda-sona-geliniyor-7684770",
+              "source_id": "milliyet.com.tr",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:31:45.221862+00:00"
+              "scraped_at_utc": "2026-10-21T22:03:19.018369+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6287912130355835,
+            "sim_to_centroid": 0.7353803515434265,
             "article": {
-              "title": "Moskvas stadsdomstol/Reuters Putin släppte 74-årig amerikan fri Amerikanska sändebudet efter mötet: ”Gläds åt avtalet.”",
-              "url": "https://www.dn.se/varlden/putin-slappte-74-arig-amerikan-fri/",
-              "source_id": "dn.se",
+              "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+              "url": "https://www.bbc.com/news/articles/cq3djn5nxx12o",
+              "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:59.491514+00:00"
+              "scraped_at_utc": "2026-10-21T22:00:04.673593+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7307422161102295,
+            "article": {
+              "title": "Talking to Putin: Europe seeks a negotiator-in-chief for Ukraine",
+              "url": "https://www.politico.eu/article/talking-to-vladimir-putin-europe-seeks-a-negotiator-in-chief-for-ukraine/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:16.185190+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.709847092628479,
+            "article": {
+              "title": "Putin promete negocios a EE.UU. para seguir castigando a una Ucrania cada día más aislada",
+              "url": "https://www.lavanguardia.com/internacional/20261021/11664787/putin-promete-negocios-dialogo-ee-uu-seguir-castigando-ucrania-dia-mas-aislada.html",
+              "source_id": "lavanguardia.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:01:26.946235+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7087631225585938,
+            "article": {
+              "title": "EU member to relaunch economic consultations with Moscow",
+              "url": "https://www.rt.com/news/647496-slovakia-russia-economic-meeting/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:04:02.143867+00:00"
             }
           }
         ]
       },
       {
-        "score": 75.51532373097331,
-        "size": 23,
-        "n_sources": 22,
-        "n_continents": 5,
+        "score": 68.74863038906057,
+        "size": 15,
+        "n_sources": 14,
+        "n_continents": 8,
         "continents": [
+          "China",
+          "East Asia",
           "Europe East",
           "Europe North",
           "Europe South",
+          "Middle East",
           "North America",
           "Oceania"
         ],
-        "coherence": 0.8247710466384888,
-        "title": "Russia releases US prisoner Stephen Hubbard during Witkoff visit.",
+        "coherence": 0.8023915886878967,
+        "title": "U.S. envoy calls Putin a ‘humanitarian’ as Russia frees jailed American",
         "central_article": {
-          "title": "Russia releases US prisoner Stephen Hubbard during Witkoff visit.",
-          "url": "https://kyivindependent.com/russia-releases-us-prisoner-stephen-hubbard-during-witkoff-visit/",
-          "source_id": "kyivindependent.com",
-          "continent": "Europe East",
+          "title": "U.S. envoy calls Putin a ‘humanitarian’ as Russia frees jailed American",
+          "url": "https://www.theglobeandmail.com/world/article-putin-witkoff-meet-for-ukraine-talks-stephen-hubbard-released/",
+          "source_id": "theglobeandmail.com",
+          "continent": "North America",
           "published_at": null,
-          "scraped_at_utc": "2026-10-21T12:32:04.204845+00:00"
+          "scraped_at_utc": "2026-10-21T22:02:32.841462+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9072200655937195,
+            "sim_to_centroid": 0.8966876864433289,
             "article": {
-              "title": "Russia releases US prisoner Stephen Hubbard during Witkoff visit.",
-              "url": "https://kyivindependent.com/russia-releases-us-prisoner-stephen-hubbard-during-witkoff-visit/",
-              "source_id": "kyivindependent.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:32:04.204845+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9067306518554688,
-            "article": {
-              "title": "US citizen Stephen Hubbard freed by Russia as Trump envoy meets Putin",
-              "url": "https://www.bbc.com/news/articles/c6m24l9v3745o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:17.927338+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8930517435073853,
-            "article": {
-              "title": "Russia releases detained American Stephen Hubbard during a visit by Trump administration envoy",
-              "url": "https://www.chicagotribune.com/2026/10/21/russia-american-stephen-hubbard/",
-              "source_id": "chicagotribune.com",
+              "title": "U.S. envoy calls Putin a ‘humanitarian’ as Russia frees jailed American",
+              "url": "https://www.theglobeandmail.com/world/article-putin-witkoff-meet-for-ukraine-talks-stephen-hubbard-released/",
+              "source_id": "theglobeandmail.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:33:59.526012+00:00"
+              "scraped_at_utc": "2026-10-21T22:02:32.841462+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8930517435073853,
+            "sim_to_centroid": 0.8938693404197693,
             "article": {
-              "title": "Russia releases detained American Stephen Hubbard during a visit by Trump administration envoy",
-              "url": "https://www.latimes.com/world-nation/story/2026-10-21/russia-releases-detained-american-stephen-hubbard",
-              "source_id": "latimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:33:54.077608+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8866521120071411,
-            "article": {
-              "title": "Russia frees American Stephen Hubbard during US envoy's visit",
-              "url": "https://www.euronews.com/2026/10/21/russia-frees-detained-american-stephen-hubbard-during-us-envoys-visit",
-              "source_id": "euronews.com",
+              "title": "Trump envoy thanks ‘humanitarian’ Putin after US teacher’s release",
+              "url": "https://www.thetimes.com/world/russia-ukraine-war/article/ukraine-trump-nothing-but-grief-oslo-witkoff-ballistic-missiles-btl3m3z9k",
+              "source_id": "thetimes.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:27.587602+00:00"
+              "scraped_at_utc": "2026-10-21T22:00:07.988663+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.867638885974884,
+            "sim_to_centroid": 0.8781139254570007,
             "article": {
-              "title": "Russia releases detained American Stephen Hubbard, Trump says",
-              "url": "https://www.usatoday.com/story/news/politics/2026/10/21/stephen-hubbard-released-russia-trump-putin/92358716007/",
-              "source_id": "usatoday.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:33:56.905122+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.866610050201416,
-            "article": {
-              "title": "Russland lässt inhaftierten US-Bürger Stephen Hubbard frei",
-              "url": "https://www.tagesschau.de/ausland/hubbard-freilassung-usa-russland-100.html",
-              "source_id": "tagesschau.de",
+              "title": "Trump weighs in after his envoy calls Putin a ‘humanitarian’",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-putin-humanitarian-witkoff-comment-b3071013.html",
+              "source_id": "independent.co.uk",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:36.984645+00:00"
+              "scraped_at_utc": "2026-10-21T22:00:06.178674+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8580792546272278,
+            "sim_to_centroid": 0.8665189146995544,
             "article": {
-              "title": "Putin releases imprisoned US citizen during meeting with Witkoff",
-              "url": "https://www.abc.net.au/news/2026-10-21/russia-releases-us-citizen-stephen-hubbard-in-custody-since-2022/107294224",
-              "source_id": "abc.net.au",
+              "title": "‘You are a humanitarian,’ US envoy tells Putin after deal to secure teacher’s release",
+              "url": "https://www.smh.com.au/world/north-america/you-are-a-humanitarian-us-envoy-tells-putin-after-deal-to-secure-teacher-s-release-20261022-p617ms.html",
+              "source_id": "smh.com.au",
               "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:30:49.719121+00:00"
+              "scraped_at_utc": "2026-10-21T22:02:37.455232+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8541460037231445,
+            "sim_to_centroid": 0.857236385345459,
+            "article": {
+              "title": "Putin the ‘humanitarian’? Trump envoy praises Russian president during St Petersburg visit",
+              "url": "https://www.channel4.com/news/putin-the-humanitarian-trump-envoy-praises-russian-president-during-st-petersburg-visit",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:12.415824+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8393298387527466,
             "article": {
               "title": "Russia Releases Imprisoned American Man as Trump Envoy Meets With Putin",
               "url": "https://time.com/article/2026/10/21/russia-releases-imprisoned-american-stephen-hubbard-trump-putin-witkoff-deal/",
               "source_id": "time.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:34:01.459860+00:00"
+              "scraped_at_utc": "2026-10-21T22:05:56.821762+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8426801562309265,
+            "sim_to_centroid": 0.7893646359443665,
             "article": {
-              "title": "Putin und Witkoff sprechen: Russland lässt US-Bürger frei",
-              "url": "https://www.zdfheute.de/politik/ausland/usa-witkoff-ukraine-krieg-russland-verhandlungen-unterhaendler-100.html",
-              "source_id": "zdfheute.de",
+              "title": "Putin announces release of US citizen Stephen Hubbard during Witkoff meeting",
+              "url": "https://www.france24.com/en/europe/20261021-us-envoy-witkoff-to-meet-putin-in-russia-after-positive-talks-with-zelensky",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:01:16.580356+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7892113924026489,
+            "article": {
+              "title": "Russia signals readiness to resume trilateral talks as Putin meets with US envoy",
+              "url": "https://tass.com/politics/2205855",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:04:07.382112+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7883010506629944,
+            "article": {
+              "title": "Witkoff to Putin: ‘You are a humanitarian … I salute that’",
+              "url": "https://www.politico.eu/article/us-special-envoy-witkoff-to-putin-you-are-a-humanitarian-i-salute-that/",
+              "source_id": "politico.eu",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:49.832959+00:00"
+              "scraped_at_utc": "2026-10-21T22:00:16.185190+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.842473566532135,
+            "sim_to_centroid": 0.7864582538604736,
             "article": {
-              "title": "Putin hosts Trump envoy Witkoff for Ukraine talks, frees U.S. citizen held in Russia",
-              "url": "https://www.theglobeandmail.com/world/article-putin-witkoff-meet-for-ukraine-talks-stephen-hubbard-released/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
+              "title": "US envoy describes meeting with Putin as constructive",
+              "url": "https://tass.com/world/2205807",
+              "source_id": "tass.com",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:30:47.955839+00:00"
+              "scraped_at_utc": "2026-10-21T22:04:07.382112+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8395367860794067,
+            "sim_to_centroid": 0.7815537452697754,
+            "article": {
+              "title": "U.S. envoy Witkoff to meet Putin as Trump presses Ukraine to settle",
+              "url": "https://www.japantimes.co.jp/news/2026/10/21/world/witkoff-putin-trump-russia-ukraine/",
+              "source_id": "japantimes.co.jp",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:07:32.788578+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7524616122245789,
+            "article": {
+              "title": "Trump faces fresh questions over ties to ‘humanitarian’ Putin",
+              "url": "https://www.scmp.com/news/world/united-states-canada/article/3371687/trump-faces-fresh-questions-over-ties-humanitarian-putin?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:05:59.839507+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.727497935295105,
+            "article": {
+              "title": "مبعوث ترامب: المحادثات مع بوتين كانت \"بنّاءة\"",
+              "url": "https://www.annahar.com/international/359154/مبعوث-ترامب-المحادثات-مع-بوتين-كانت-بناة",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:03:26.527834+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6984309554100037,
+            "article": {
+              "title": "‘You are a humanitarian also, sir’: the US feeds Putin with lies as Ukraine’s children take cover and die",
+              "url": "https://www.theguardian.com/world/2026/oct/21/you-are-a-humanitarian-also-sir-us-putin-lies-ukraine-children-take-cover-and-die-witkoff",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:09.393330+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6908379793167114,
             "article": {
               "title": "VS-gezant Witkoff: Amerikaanse leraar Stephen Hubbard wordt vrijgelaten uit Russisch strafkamp",
               "url": "https://www.nrc.nl/nieuws/2026/10/21/vs-gezant-witkoff-amerikaanse-leraar-stephen-hubbard-wordt-vrijgelaten-uit-russisch-strafkamp-a4939446",
               "source_id": "nrc.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:32.062287+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8275904655456543,
-            "article": {
-              "title": "Russia releases US citizen accused of fighting for Ukraine, Putin says during Witkoff meeting",
-              "url": "https://www.france24.com/en/europe/20261021-us-envoy-witkoff-to-meet-putin-in-russia-after-positive-talks-with-zelensky",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:29:26.278639+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8217437863349915,
-            "article": {
-              "title": "Putin spricht mit Witkoff über Ukraine-Krieg – und lässt US-Bürger frei",
-              "url": "https://www.welt.de/politik/ausland/article6ad882a8438656aeb2fad5f7/putin-spricht-mit-witkoff-ueber-ukraine-krieg-und-laesst-us-buerger-frei.html",
-              "source_id": "welt.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:43.958691+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7918201684951782,
-            "article": {
-              "title": "Stephen Hubbard er blevet løsladt efter fire år i Rusland",
-              "url": "https://www.dr.dk/nyheder/seneste/stephen-hubbard-er-blevet-loesladt-efter-fire-aar-i-rusland",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:29:08.779973+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7894822955131531,
-            "article": {
-              "title": "Mosca libera un cittadino americano: dal ponte delle spie a Hubbard, la politica degli scambi tra Russia e Usa",
-              "url": "https://www.repubblica.it/esteri/2026/10/21/news/stephen_hubbard_scambi_prigionieri_russia_usa-425662513/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:29:41.533710+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7788941860198975,
-            "article": {
-              "title": "Trump envoy thanks ‘humanitarian’ Putin after release of retired teacher",
-              "url": "https://www.thetimes.com/world/russia-ukraine-war/article/ukraine-trump-nothing-but-grief-oslo-witkoff-ballistic-missiles-btl3m3z9k",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:21.855475+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7773011922836304,
-            "article": {
-              "title": "Putin Orders US Teacher’s Release as Witkoff Arrives for Talks",
-              "url": "https://www.kyivpost.com/post/87747",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:32:02.343869+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7770373225212097,
-            "article": {
-              "title": "Oorlog Rusland-Oekraïne Rusland laat Amerikaanse oud-leraar Stephen Hubbard vrij",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/10/21/portret-stephen-hubbard/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:29:29.820494+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7647614479064941,
-            "article": {
-              "title": "Insegnante e veterano Usa: chi è Stephen Hubbard, il 74enne rilasciato da Mosca. Trump: «Liberato senza nulla in cambio»",
-              "url": "https://www.corriere.it/esteri/26_ottobre_21/stephen-hubbard-chi-e-il-74enne-insegnate-e-veterano-statunitense-liberato-dalla-russia-81974848-14c4-49d7-8f16-7fbe8dd2cxlk.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:29:43.474000+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7488721609115601,
-            "article": {
-              "title": "Putin says Russia has freed US citizen, 74, jailed since 2022",
-              "url": "https://www.independent.co.uk/news/world/europe/russia-stephen-hubbard-release-jail-putin-b3070591.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:19.350792+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7286661863327026,
-            "article": {
-              "title": "1 t Verden Amerikaner løslatt i Russland",
-              "url": "https://www.aftenposten.no/verden/i/oKml90/nyhetsstudio-zelenskyj-moeter-usa-i-oslo?pinnedEntry=124906",
-              "source_id": "aftenposten.no",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:29:01.201831+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7056919932365417,
-            "article": {
-              "title": "Trump envoy meets Putin in Russia, urges trilateral negotiations.",
-              "url": "https://kyivindependent.com/us-envoy-steve-witkoff-lands-in-st-petersburg-for-russia-peace-talks-2/",
-              "source_id": "kyivindependent.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:32:04.204845+00:00"
+              "scraped_at_utc": "2026-10-21T22:00:19.470630+00:00"
             }
           }
         ]
       },
       {
-        "score": 60.3671326710587,
-        "size": 14,
-        "n_sources": 13,
-        "n_continents": 6,
-        "continents": [
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "North America",
-          "South Asia"
-        ],
-        "coherence": 0.848747193813324,
-        "title": "Musk gave the order to slow down Ukraine’s Starlink, WSJ reports",
-        "central_article": {
-          "title": "Musk gave the order to slow down Ukraine’s Starlink, WSJ reports",
-          "url": "https://www.japantimes.co.jp/news/2026/10/21/world/elon-musk-ukraine-starlink/",
-          "source_id": "japantimes.co.jp",
-          "continent": "East Asia",
-          "published_at": null,
-          "scraped_at_utc": "2026-10-21T12:35:33.313052+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9343046545982361,
-            "article": {
-              "title": "Musk gave the order to slow down Ukraine’s Starlink, WSJ reports",
-              "url": "https://www.japantimes.co.jp/news/2026/10/21/world/elon-musk-ukraine-starlink/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:35:33.313052+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9332593679428101,
-            "article": {
-              "title": "Musk reportedly ordered slowdown of Starlink military service used by Ukraine",
-              "url": "https://www.azernews.az/region/265932.html",
-              "source_id": "azernews.az",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:32:39.564933+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9135732650756836,
-            "article": {
-              "title": "Musk ordenó limitar el servicio de Starlink en Ucrania, según el WSJ",
-              "url": "https://www.14ymedio.com/internacional/musk-ordeno-limitar-servicio-starlink_1_1132208.html",
-              "source_id": "14ymedio.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:29:50.336259+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9061149954795837,
-            "article": {
-              "title": "Wall Street Journal: Musk gaf opdracht Starlink voor Oekraïne te vertragen",
-              "url": "https://www.nrc.nl/nieuws/2026/10/21/wall-street-journal-musk-gaf-opdracht-starlink-voor-oekraine-te-vertragen-a4939415",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:32.062287+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9053622484207153,
-            "article": {
-              "title": "Musk ordnete laut Medienberichten Drosselung von Starlink für Ukraine an",
-              "url": "https://www.tagesschau.de/ausland/europa/musk-spacelink-drosselung-ukraine-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:36.984645+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8935322761535645,
-            "article": {
-              "title": "Musk Ordered Starlink Slowdown That Blindsided Ukraine",
-              "url": "https://www.hindustantimes.com/world-news/musk-ordered-starlink-slowdown-that-blindsided-ukraine-101792559130092.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:34:39.431319+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8913416266441345,
-            "article": {
-              "title": "Bericht: Musk selbst befahl Starlink-Drosselung in Ukraine",
-              "url": "https://www.diepresse.com/41378854/bericht-musk-selbst-befahl-starlink-drosselung-in-ukraine",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:47.478523+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8852584362030029,
-            "article": {
-              "title": "Elon Musk aurait ordonné de ralentir le réseau Starshield en Ukraine",
-              "url": "https://www.rts.ch/info/monde/2026/article/ukraine-elon-musk-aurait-ordonne-de-ralentir-starshield-29392037.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:29:28.100931+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8243827819824219,
-            "article": {
-              "title": "WORLD Musk ordered reduction in Starshield services for Ukraine: report",
-              "url": "https://www.myrepublica.nagariknetwork.com/news/musk-ordered-reduction-in-starshield-services-for-ukraine-report-24-77.html",
-              "source_id": "myrepublica.nagariknetwork.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:34:58.417903+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7806416153907776,
-            "article": {
-              "title": "The Wall Street Journal: ограничить работу Starshield для Украины приказал Маск. По данным некоторых источников, он обсуждал это с Трампом",
-              "url": "https://meduza.io/news/2026/10/20/the-wall-street-journal-ogranichit-rabotu-starshield-dlya-ukrainy-prikazal-mask-po-dannym-nekotoryh-istochnikov-on-obsuzhdal-eto-s-trampom",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:32:05.577064+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.780029296875,
-            "article": {
-              "title": "‘Musk zat achter Starlink-vertraging op Oekraïens grondgebied’",
-              "url": "https://fd.nl/politiek/1616218/musk-zat-achter-starlink-vertraging-op-oekraiens-grondgebied",
-              "source_id": "fd.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:34.670575+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7730786800384521,
-            "article": {
-              "title": "Новости Война в Украине WSJ: Маск распорядился ограничить Starlink для Украины. Рубио заявил, что решение принимал не Белый дом 21 октября",
-              "url": "https://novayagazeta.eu/articles/2026/10/21/wsj-mask-rasporiadilsia-ogranichit-starlink-dlia-ukrainy-rubio-zaiavil-chto-reshenie-prinimal-ne-belyi-dom-news",
-              "source_id": "novayagazeta.eu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:32:07.351082+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7656106948852539,
-            "article": {
-              "title": "Rubio: Musk Sets Ukraine’s Starlink Access, Not White House",
-              "url": "https://www.kyivpost.com/post/87742",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:32:02.343869+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6959707140922546,
-            "article": {
-              "title": "Ukrainian Drone Maker Wild Hornets Rethinks Reliance on Starlink",
-              "url": "https://www.kyivpost.com/post/87732",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:32:02.343869+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 54.80429595287023,
-        "size": 10,
-        "n_sources": 10,
+        "score": 67.74315925090745,
+        "size": 12,
+        "n_sources": 12,
         "n_continents": 7,
         "continents": [
-          "East Asia",
+          "Africa",
+          "China",
           "Europe East",
           "Europe North",
           "Europe South",
           "Middle East",
-          "North America",
-          "Oceania"
+          "North America"
         ],
-        "coherence": 0.8510546684265137,
-        "title": "Elon Musk confirms he is considering merging Tesla and SpaceX",
+        "coherence": 0.8569813370704651,
+        "title": "Macron slams ‘stupid’ comments after Trump pins French riots on immigration",
         "central_article": {
-          "title": "Elon Musk confirms he is considering merging Tesla and SpaceX",
-          "url": "https://www.bbc.com/news/articles/cmlyl09xjke4o",
-          "source_id": "bbc.com",
+          "title": "Macron slams ‘stupid’ comments after Trump pins French riots on immigration",
+          "url": "https://www.politico.eu/article/macron-slams-unacceptable-and-stupid-comments-after-trump-pins-french-riots-on-immigration/",
+          "source_id": "politico.eu",
           "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-10-21T12:28:17.927338+00:00"
+          "scraped_at_utc": "2026-10-21T22:00:16.185190+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9002419710159302,
-            "article": {
-              "title": "Elon Musk confirms he is considering merging Tesla and SpaceX",
-              "url": "https://www.bbc.com/news/articles/cmlyl09xjke4o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:17.927338+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8980716466903687,
-            "article": {
-              "title": "Elon Musk has hinted at a SpaceX-Tesla mega merger. Could it really happen?",
-              "url": "https://www.sbs.com.au/news/article/spacex-tesla-merger-elon-musk/cdmssm35e",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:30:51.237766+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8845654726028442,
-            "article": {
-              "title": "Why Elon Musk Wants to Merge SpaceX and Tesla",
-              "url": "https://time.com/article/2026/10/21/elon-musk-spacex-tesla-merger-tech-business/",
-              "source_id": "time.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:34:01.459860+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8657259941101074,
-            "article": {
-              "title": "Tesla-SpaceX? Musk conferma, fusione allo studio: ecco cosa cambierebbe per il suo impero da 3.500 miliardi",
-              "url": "https://www.corriere.it/economia/finanza/26_ottobre_21/tesla-spacex-musk-conferma-fusione-allo-studio-ecco-cosa-cambierebbe-per-il-suo-impero-9a37d035-a977-4ed4-bbf4-7685fc025xlk.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:29:43.474000+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8641513586044312,
-            "article": {
-              "title": "SpaceX mit Milliardenplus - Musk: Fusion mit Tesla gute Idee",
-              "url": "https://www.zdfheute.de/wirtschaft/unternehmen/spacex-umsatz-tesla-zusammenschluss-musk-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:49.832959+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8632454872131348,
-            "article": {
-              "title": "What a merger of SpaceX and Tesla would mean",
-              "url": "https://www.thenationalnews.com/business/markets/2026/10/21/what-a-merger-of-spacex-and-tesla-would-mean/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:31:11.670779+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8409479856491089,
-            "article": {
-              "title": "SpaceX特斯拉評估合併 若成真市值將逾3兆美元、全球第5大",
-              "url": "https://www.cna.com.tw/news/aopl/202610210041.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:36:01.613151+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8351903557777405,
-            "article": {
-              "title": "Илон Маск задумал мегаслияние SpaceX и Tesla: реакция мировых СМИ",
-              "url": "https://www.kommersant.ru/doc/9043650",
-              "source_id": "kommersant.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:32:13.292194+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8064634799957275,
-            "article": {
-              "title": "SpaceX meldet Milliardengewinn – Tesla-Übernahme rückt näher",
-              "url": "https://www.handelsblatt.com/technik/it-internet/spacex-musk-konzern-meldet-milliardengewinn-tesla-uebernahme-rueckt-naeher/100262899.html",
-              "source_id": "handelsblatt.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:42.051190+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7519428730010986,
-            "article": {
-              "title": "Funke Mediengruppe Mit noch mehr Macht Der größte Deal aller Zeiten? Elon Musk plant die Billionen-Fusion",
-              "url": "https://www.abendblatt.de/wirtschaft/article413467503/der-groesste-deal-aller-zeiten-elon-musk-plant-die-billionen-fusion.html",
-              "source_id": "abendblatt.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:51.657794+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 51.31957603027307,
-        "size": 14,
-        "n_sources": 12,
-        "n_continents": 6,
-        "continents": [
-          "Africa",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "North America",
-          "South Asia"
-        ],
-        "coherence": 0.832281231880188,
-        "title": "Nigeria records first Ebola case as outbreak spreads across Africa",
-        "central_article": {
-          "title": "Nigeria records first Ebola case as outbreak spreads across Africa",
-          "url": "https://www.france24.com/en/africa/20261020-nigeria-records-first-ebola-case-as-outbreak-spreads-across-africa",
-          "source_id": "france24.com",
-          "continent": "Europe South",
-          "published_at": null,
-          "scraped_at_utc": "2026-10-21T12:29:26.278639+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8994107246398926,
-            "article": {
-              "title": "Nigeria records first Ebola case as outbreak spreads across Africa",
-              "url": "https://www.france24.com/en/africa/20261020-nigeria-records-first-ebola-case-as-outbreak-spreads-across-africa",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:29:26.278639+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8884856700897217,
-            "article": {
-              "title": "Nigeria confirms Ebola case linked to East Africa",
-              "url": "https://www.bbc.com/news/articles/cm2l4xw7xpjgo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:17.927338+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8807235956192017,
-            "article": {
-              "title": "Nigeria confirms Ebola case, as Congo outbreak spreads",
-              "url": "https://www.politico.eu/article/nigeria-confirms-ebola-case-drc-congo-outbreak-spreads/",
-              "source_id": "politico.eu",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:29.002721+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8768256902694702,
-            "article": {
-              "title": "Nigeria confirms its first Ebola case is Bundibugyo strain",
-              "url": "https://www.dawn.com/news/2038763/nigeria-confirms-its-first-ebola-case-is-bundibugyo-strain",
-              "source_id": "dawn.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:34:53.917166+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8701156973838806,
-            "article": {
-              "title": "Bundibugyo-Variante Nigeria bestätigt ersten Ebola-Fall",
-              "url": "https://www.tagesschau.de/ausland/ebola-nigeria-102.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:36.984645+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8624597787857056,
-            "article": {
-              "title": "Nigeria confirms Ebola case in its capital as woman who arrived from Uganda tests positive",
-              "url": "https://www.pbs.org/newshour/world/nigeria-confirms-ebola-case-in-its-capital-as-woman-who-arrived-from-uganda-tests-positive",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:34:03.485305+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8384377360343933,
-            "article": {
-              "title": "Mundo Nigeria confirma que su primer caso de ébola es de la cepa Bundibugyo",
-              "url": "https://www.crhoy.com/mundo/nigeria-confirma-que-su-primer-caso-de-ebola-es-de-la-cepa-bundibugyo/",
-              "source_id": "crhoy.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:29:57.174853+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8244894742965698,
-            "article": {
-              "title": "Nigeria’s first Ebola case in over a decade spurs desperate appeal for help",
-              "url": "https://businessday.ng/news/article/nigerias-first-ebola-case-in-over-a-decade-spurs-desperate-appeal-for-help/",
-              "source_id": "businessday.ng",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:33:15.644974+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8117852807044983,
-            "article": {
-              "title": "03 Businesses panic as Nigeria reports first Ebola case",
-              "url": "https://businessday.ng/health/article/businesses-panic-as-nigeria-reports-first-ebola-case/",
-              "source_id": "businessday.ng",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:33:15.644974+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8116190433502197,
-            "article": {
-              "title": "V Nigeriji potrdili prvi primer ebole po letu 2014",
-              "url": "https://www.delo.si/novice/svet/v-nigeriji-potrdili-prvi-primer-ebole-po-letu-2014",
-              "source_id": "delo.si",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:32:00.268282+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7926915884017944,
-            "article": {
-              "title": "Nigeria records first Ebola case as outbreak spreads Nigeria records first Ebola case as outbreak spreads",
-              "url": "https://www.myrepublica.nagariknetwork.com/news/nigeria-records-first-ebola-case-as-outbreak-spreads-66-82.html",
-              "source_id": "myrepublica.nagariknetwork.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:34:58.417903+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7917652130126953,
-            "article": {
-              "title": "World Nigeria confirms Ebola case in patient who arrived from Uganda , 21 October",
-              "url": "https://armenpress.am/en/article/1263379",
-              "source_id": "armenpress.am",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:32:37.549715+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7611159086227417,
-            "article": {
-              "title": "Uganda denies active Ebola cases after Nigeria confirms imported case",
-              "url": "https://businessday.ng/news/article/uganda-denies-active-ebola-cases-after-nigeria-confirms-imported-case/",
-              "source_id": "businessday.ng",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:33:15.644974+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7420113682746887,
-            "article": {
-              "title": "How we are responding to new Ebola case in Abuja",
-              "url": "https://www.premiumtimesng.com/health/health-news/918724-how-we-are-responding-to-new-ebola-case-in-abuja-minister.html",
-              "source_id": "premiumtimesng.com",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:33:06.900953+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 49.737134379486086,
-        "size": 9,
-        "n_sources": 9,
-        "n_continents": 7,
-        "continents": [
-          "China",
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.8527234196662903,
-        "title": "Macron takes veiled shot at Trump over ‘stupid’ France riot remarks",
-        "central_article": {
-          "title": "Macron takes veiled shot at Trump over ‘stupid’ France riot remarks",
-          "url": "https://www.scmp.com/news/world/europe/article/3371667/macron-takes-veiled-shot-trump-netanyahu-over-stupid-france-riot-remarks?module=top_story&pgtype=homepage",
-          "source_id": "scmp.com",
-          "continent": "China",
-          "published_at": null,
-          "scraped_at_utc": "2026-10-21T12:34:04.780657+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9112487435340881,
-            "article": {
-              "title": "Macron takes veiled shot at Trump over ‘stupid’ France riot remarks",
-              "url": "https://www.scmp.com/news/world/europe/article/3371667/macron-takes-veiled-shot-trump-netanyahu-over-stupid-france-riot-remarks?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:34:04.780657+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9021445512771606,
-            "article": {
-              "title": "Macron decries ‘stupid’ comments on France riots",
-              "url": "https://www.bangkokpost.com/world/3341088/macron-decries-stupid-comments-on-france-riots",
-              "source_id": "bangkokpost.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:35:51.198020+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8996919393539429,
+            "sim_to_centroid": 0.9293656945228577,
             "article": {
               "title": "Macron slams ‘stupid’ comments after Trump pins French riots on immigration",
               "url": "https://www.politico.eu/article/macron-slams-unacceptable-and-stupid-comments-after-trump-pins-french-riots-on-immigration/",
               "source_id": "politico.eu",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:29.002721+00:00"
+              "scraped_at_utc": "2026-10-21T22:00:16.185190+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8817572593688965,
+            "sim_to_centroid": 0.920175313949585,
             "article": {
-              "title": "Macron denuncia comentarios \"estúpidos\" de dirigentes internacionales sobre disturbios en Francia",
-              "url": "https://www.emol.com/noticias/Internacional/2026/10/21/1214734/macron-denuncia-comentarios-estupidos-francia.html",
-              "source_id": "emol.com",
-              "continent": "South America",
+              "title": "'Stupid': Macron criticizes Trump for blaming French riots on migrants",
+              "url": "https://www.usatoday.com/story/news/world/2026/10/21/macron-trump-france-protests-migrants/92369999007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:30:11.288889+00:00"
+              "scraped_at_utc": "2026-10-21T22:05:52.085514+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.880534291267395,
+            "sim_to_centroid": 0.9062590599060059,
+            "article": {
+              "title": "It is ‘stupid’ of Trump to blame immigration for riots, suggests Macron",
+              "url": "https://www.thetimes.com/world/europe/article/macron-attacks-trump-netanyahu-riots-migrants-dlmcrt852",
+              "source_id": "thetimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:07.988663+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9056746363639832,
+            "article": {
+              "title": "Macron takes veiled shot at Trump over ‘stupid’ France riot remarks",
+              "url": "https://www.scmp.com/news/world/europe/article/3371667/macron-takes-veiled-shot-trump-netanyahu-over-stupid-france-riot-remarks?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:05:59.839507+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8827517032623291,
+            "article": {
+              "title": "Macron kritisiert Trump nach Äußerungen zu Unruhen in Frankreich",
+              "url": "https://www.tagesschau.de/ausland/europa/macron-rede-112.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:26.077670+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8799879550933838,
+            "article": {
+              "title": "France Macron accuses Trump and other foreign leaders of ‘stupid comments’ about France unrest",
+              "url": "https://www.theguardian.com/world/2026/oct/21/macron-trump-foreign-leaders-stupid-comments-france-unrest",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:09.393330+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8643072843551636,
+            "article": {
+              "title": "Макрон раскритиковал Трампа за “глупые комментарии“ о беспорядках во Франции",
+              "url": "https://tengrinews.kz/world_news/makron-raskritikoval-trampa-glupyie-kommentarii-besporyadkah-611400/",
+              "source_id": "tengrinews.kz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:04:20.867979+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8513519763946533,
             "article": {
               "title": "Macron says world leaders have made 'stupid' comments on France riots based on fake AI videos",
               "url": "https://www.france24.com/en/france/20261021-macron-says-world-leaders-have-made-stupid-comments-on-france-riots-based-on-fake-ai-videos",
               "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:29:26.278639+00:00"
+              "scraped_at_utc": "2026-10-21T22:01:16.580356+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8693343997001648,
+            "sim_to_centroid": 0.8322296142578125,
             "article": {
-              "title": "Macron takes aim at Trump for using France riots for election gain",
-              "url": "https://www.dawn.com/news/2038773/macron-takes-aim-at-trump-for-using-france-riots-for-election-gain",
-              "source_id": "dawn.com",
-              "continent": "South Asia",
+              "title": "France's Macron calls for order, says foreign criticism of unrest 'stupid'",
+              "url": "https://www.jpost.com/international/article-912444",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:34:53.917166+00:00"
+              "scraped_at_utc": "2026-10-21T22:02:58.727669+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8118270635604858,
+            "sim_to_centroid": 0.8175303339958191,
             "article": {
-              "title": "Macron kritiserer ledere fra andre lande",
-              "url": "https://www.dr.dk/nyheder/udland/live-flere-end-hundredtusind-paa-gaden-i-frankrig-studerende-vil-have-bedre-forhold",
-              "source_id": "dr.dk",
+              "title": "Macron accuses foreign leaders of exploiting French riots",
+              "url": "https://www.bbc.com/news/articles/ckjrw044ggxgo",
+              "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:29:08.779973+00:00"
+              "scraped_at_utc": "2026-10-21T22:00:04.673593+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7861626148223877,
+            "sim_to_centroid": 0.7523407936096191,
             "article": {
-              "title": "„Je to kampaň.“ Macron se ohradil proti kritice Francie ze strany světových lídrů",
-              "url": "https://www.idnes.cz/zpravy/zahranicni/macron-komentare-svetovych-lidru-trump-netanjahu.A261021_131552_zahranicni_onbu",
-              "source_id": "idnes.cz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:31:45.221862+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7318103909492493,
-            "article": {
-              "title": "特朗普为共和党助选 拿法国骚乱“说事”",
-              "url": "https://www.xinhuanet.com/20261021/1c8b7ba157b84fa49f76e439ddecdbf5/c.html",
-              "source_id": "xinhuanet.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:34:13.543397+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 39.13623657197864,
-        "size": 11,
-        "n_sources": 11,
-        "n_continents": 4,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "South America"
-        ],
-        "coherence": 0.8765718340873718,
-        "title": "EU vyšetřuje Booking.com kvůli postupu při řešení případů podvodů",
-        "central_article": {
-          "title": "EU vyšetřuje Booking.com kvůli postupu při řešení případů podvodů",
-          "url": "https://ct24.ceskatelevize.cz/clanek/svet/eu-vysetruje-bookingcom-kvuli-postupu-pri-reseni-pripadu-podvodu-378864",
-          "source_id": "ct24.ceskatelevize.cz",
-          "continent": "Europe East",
-          "published_at": null,
-          "scraped_at_utc": "2026-10-21T12:31:47.724874+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9222877025604248,
-            "article": {
-              "title": "EU vyšetřuje Booking.com kvůli postupu při řešení případů podvodů",
-              "url": "https://ct24.ceskatelevize.cz/clanek/svet/eu-vysetruje-bookingcom-kvuli-postupu-pri-reseni-pripadu-podvodu-378864",
-              "source_id": "ct24.ceskatelevize.cz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:31:47.724874+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.91785728931427,
-            "article": {
-              "title": "Nicht genug gegen Betrüger getan? EU ermittelt gegen Booking.com",
-              "url": "https://www.diepresse.com/41379469/nicht-genug-gegen-betrueger-getan-eu-ermittelt-gegen-bookingcom",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:47.478523+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9114545583724976,
-            "article": {
-              "title": "UE abre investigação sobre o Booking.com; entenda",
-              "url": "https://www.estadao.com.br/economia/ue-abre-investigacao-sobre-a-bookingcom-devido-a-riscos-de-fraude-online-npr/",
-              "source_id": "estadao.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:30:18.885375+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8910340070724487,
-            "article": {
-              "title": "Booking, la Commissione Ue apre un’indagine: sospetti su truffe e annunci sponsorizzati",
-              "url": "https://www.corriere.it/economia/aziende/26_ottobre_21/booking-la-commissione-ue-apre-un-indagine-sospetti-su-truffe-e-annunci-sponsorizzati-120637bd-0d06-4770-b588-1db36a7aaxlk.shtml",
+              "title": "Macron a Trump: «Da lui commenti inaccettabili e stupidi. Usa i nostri problemi per le sue campagne». E Le Pen vola nei sondaggi",
+              "url": "https://www.corriere.it/esteri/26_ottobre_21/proteste-in-francia-macron-risponde-a-trump-usa-i-nostri-problemi-per-le-sue-campagne-elettorali-e-le-pen-vola-nei-sondaggi-305171fe-267c-4900-be84-d24ff8ec7xlk.shtml",
               "source_id": "corriere.it",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:29:43.474000+00:00"
+              "scraped_at_utc": "2026-10-21T22:01:34.567513+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8892813920974731,
+            "sim_to_centroid": 0.7418017387390137,
             "article": {
-              "title": "Bruselas investiga a Booking por no combatir los anuncios fraudulentos",
-              "url": "https://www.lavanguardia.com/economia/20261021/11664493/bruselas-investiga-booking-combatir-anuncios-fraudulentos.html",
-              "source_id": "lavanguardia.com",
-              "continent": "Europe South",
+              "title": "France's unrest: Why are immigrants being blamed for the violence?",
+              "url": "https://www.africanews.com/2026/10/19/frances-unrest-why-are-immigrants-being-blamed-for-the-violence/",
+              "source_id": "africanews.com",
+              "continent": "Africa",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:29:35.966523+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8774844408035278,
-            "article": {
-              "title": "Brussel start onderzoek naar Booking.com vanwege reisscams",
-              "url": "https://fd.nl/economie/1616341/brussel-start-onderzoek-naar-booking-com-vanwege-reisscams",
-              "source_id": "fd.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:34.670575+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8588395118713379,
-            "article": {
-              "title": "L'Ue apre un'indagine su Booking per le truffe. “Aumentate del 500% in tre anni, non fa abbastanza”",
-              "url": "https://www.repubblica.it/economia/2026/10/21/news/bookingcom_indagine_formale_ue_per_violazione_norme_dei_servizi_digitali-425662430/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:29:41.533710+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8547155261039734,
-            "article": {
-              "title": "1 uur geleden • Buitenland EU-onderzoek naar Booking.com vanwege nepadvertenties en phishing",
-              "url": "https://nos.nl/artikel/2636069-eu-onderzoek-naar-booking-com-vanwege-nepadvertenties-en-phishing",
-              "source_id": "nos.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:30.212730+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8459898233413696,
-            "article": {
-              "title": "Booking.com under investigation over fraudulent listings concerns",
-              "url": "https://www.irishtimes.com/ireland/2026/10/21/bookingcom-under-investigation-over-fraudulent-listings-concerns/",
-              "source_id": "irishtimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:31:08.001069+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8382309675216675,
-            "article": {
-              "title": "Europese Unie Europese Commissie opent onderzoek: doet Booking.com genoeg tegen fraude?",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/10/21/europese-commissie-opent-onderzoek-naar-booking-com/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:29:29.820494+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8351147174835205,
-            "article": {
-              "title": "Booking visé par une enquête de l’UE : « Les Européens doivent pouvoir réserver leurs vacances sans craindre d’être arnaqués »",
-              "url": "https://www.lemonde.fr/economie/article/2026/10/21/booking-visee-par-une-enquete-de-l-ue-les-europeens-doivent-pouvoir-reserver-leurs-vacances-sans-craindre-d-etre-arnaques_6798241_3234.html",
-              "source_id": "lemonde.fr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:29:20.948884+00:00"
+              "scraped_at_utc": "2026-10-21T22:05:13.256424+00:00"
             }
           }
         ]
       },
       {
-        "score": 35.98343102579893,
-        "size": 8,
-        "n_sources": 8,
-        "n_continents": 7,
-        "continents": [
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Middle East",
-          "North America",
-          "Oceania",
-          "South Asia"
-        ],
-        "coherence": 0.8115413784980774,
-        "title": "France vows major security operation involving military this weekend",
-        "central_article": {
-          "title": "France vows major security operation involving military this weekend",
-          "url": "https://www.euronews.com/2026/10/20/france-vows-massive-security-operation-involving-military-forces-for-expected-weekend-prot",
-          "source_id": "euronews.com",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-10-21T12:28:27.587602+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8696739673614502,
-            "article": {
-              "title": "France vows major security operation involving military this weekend",
-              "url": "https://www.euronews.com/2026/10/20/france-vows-massive-security-operation-involving-military-forces-for-expected-weekend-prot",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:27.587602+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8522483110427856,
-            "article": {
-              "title": "France to deploy ‘massive’ force against riots",
-              "url": "https://www.rt.com/news/647461-france-sentinelle-troops-riots/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:32:11.039750+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8397437334060669,
-            "article": {
-              "title": "France to impose new curfews as authorities seek to restore order after riots",
-              "url": "https://www.sbs.com.au/news/article/france-to-impose-new-curfews-as-authorities-seek-to-restore-order-after-riots/4pkni8mrz",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:30:51.237766+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8324843645095825,
-            "article": {
-              "title": "French government to deploy troops and admits to failures over weekend unrest",
-              "url": "https://www.japantimes.co.jp/news/2026/10/21/world/politics/france-troops-unrest/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:35:33.313052+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8108025789260864,
-            "article": {
-              "title": "Fransa'da 'büyük operasyon' hazırlığı: Askerlere talimat verildi",
-              "url": "https://www.hurriyet.com.tr/dunya/fransada-buyuk-operasyon-hazirligi-askerlere-talimat-verildi-43349405",
-              "source_id": "hurriyet.com.tr",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:31:22.453816+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7949599623680115,
-            "article": {
-              "title": "French government faces fresh test as Yellow Vests plan Paris march on Saturday",
-              "url": "https://www.theglobeandmail.com/world/article-france-protests-weekend-riots-yellow-vests/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:30:47.955839+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7798314094543457,
-            "article": {
-              "title": "ماكرون يتعهد بمنع تكرار أعمال الشغب... والسترات الصفراء تحشد صفوفها في باريس",
-              "url": "https://www.annahar.com/international/europe/359039/فرنسا",
-              "source_id": "annahar.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:31:33.551099+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7125865817070007,
-            "article": {
-              "title": "مصر کا سعودی عرب کے دفاع کے لیے فوجی مدد کا اعلان",
-              "url": "https://www.nawaiwaqt.com.pk/19-Oct-2026/2037933",
-              "source_id": "nawaiwaqt.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:34:57.210480+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 24.560078072786503,
-        "size": 9,
+        "score": 42.5722199139321,
+        "size": 10,
         "n_sources": 9,
         "n_continents": 6,
         "continents": [
-          "China",
-          "Europe East",
+          "East Asia",
           "Europe North",
           "Europe South",
+          "Middle East",
           "North America",
-          "South America"
+          "Oceania"
         ],
-        "coherence": 0.7424276471138,
-        "title": "Liverapport Witkoff uppmanade till nya fredssamtal USA:s sändebud träffade Putin för nionde gången",
+        "coherence": 0.8524435758590698,
+        "title": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
         "central_article": {
-          "title": "Liverapport Witkoff uppmanade till nya fredssamtal USA:s sändebud träffade Putin för nionde gången",
-          "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=22305024a7dde2f5ac2d844be94025af",
-          "source_id": "svt.se",
+          "title": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
+          "url": "https://www.bbc.com/news/articles/cr93z1e87e0do",
+          "source_id": "bbc.com",
           "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-10-21T12:29:05.789200+00:00"
+          "scraped_at_utc": "2026-10-21T22:00:04.673593+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.7967624068260193,
+            "sim_to_centroid": 0.9193001985549927,
             "article": {
-              "title": "Liverapport Witkoff uppmanade till nya fredssamtal USA:s sändebud träffade Putin för nionde gången",
-              "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=22305024a7dde2f5ac2d844be94025af",
-              "source_id": "svt.se",
+              "title": "Why is Elon Musk plotting a mega-merger of SpaceX and Tesla?",
+              "url": "https://www.bbc.com/news/articles/cr93z1e87e0do",
+              "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:29:05.789200+00:00"
+              "scraped_at_utc": "2026-10-21T22:00:04.673593+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7505862712860107,
+            "sim_to_centroid": 0.9036390781402588,
             "article": {
-              "title": "Witkoff da Putin. Il Cremlino: “Valuteremo sue proposte ma molto dipende da Kiev”",
-              "url": "https://www.repubblica.it/esteri/2026/10/21/diretta/guerra_ucraina_russia_news_oggi-425661492/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
+              "title": "Elon Musk has hinted at a SpaceX-Tesla mega merger. Could it really happen?",
+              "url": "https://www.sbs.com.au/news/article/spacex-tesla-merger-elon-musk/cdmssm35e",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:29:41.533710+00:00"
+              "scraped_at_utc": "2026-10-21T22:02:36.059544+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7499637603759766,
+            "sim_to_centroid": 0.9022340774536133,
             "article": {
-              "title": "Спецпредставитель президента США Стив Уиткофф прибыл в Санкт-Петербург. Планируется, что он встретится с Владимиром Путиным 21 октября",
-              "url": "https://novayagazeta.eu/articles/2026/10/21/spetspredstavitel-prezidenta-ssha-stiv-uitkoff-pribyl-v-sankt-peterburg-planiruetsia-chto-on-vstretitsia-s-vladimirom-putinym-news",
-              "source_id": "novayagazeta.eu",
-              "continent": "Europe East",
+              "title": "Elon Musk confirms he is considering merging Tesla and SpaceX",
+              "url": "https://www.bbc.com/news/articles/cmlyl09xjke4o",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:32:07.351082+00:00"
+              "scraped_at_utc": "2026-10-21T22:00:04.673593+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7488974928855896,
+            "sim_to_centroid": 0.8990879058837891,
             "article": {
-              "title": "美特使在俄乌之间穿梭 泽连斯基提议实施美俄乌首脑三方谈判",
-              "url": "https://international.caixin.com/2026-10-21/102495794.html",
-              "source_id": "caixin.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:34:18.919806+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.735408365726471,
-            "article": {
-              "title": "Zelenskyy seeks to mend ties with Trump ahead of Witkoff-Putin meeting",
-              "url": "https://www.pbs.org/newshour/show/zelenskyy-seeks-to-mend-ties-with-trump-ahead-of-witkoff-putin-meeting",
-              "source_id": "pbs.org",
+              "title": "Why Elon Musk Wants to Merge SpaceX and Tesla",
+              "url": "https://time.com/article/2026/10/21/elon-musk-spacex-tesla-merger-tech-business/",
+              "source_id": "time.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:34:03.485305+00:00"
+              "scraped_at_utc": "2026-10-21T22:05:56.821762+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7334086894989014,
+            "sim_to_centroid": 0.8646820783615112,
             "article": {
-              "title": "Enviado especial de Estados Unidos pide a Putin retomar los contactos con Ucrania",
-              "url": "https://www.latercera.com/mundo/noticia/enviado-especial-de-estados-unidos-pide-a-putin-retomar-los-contactos-con-ucrania/",
-              "source_id": "latercera.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:30:23.376801+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7277023196220398,
-            "article": {
-              "title": "Verden Krigen i Ukraina Akkurat nå Møtet mellom Putin og Witkoff er over",
-              "url": "https://www.aftenposten.no/verden/i/oKml90/nyhetsstudio-zelenskyj-moeter-usa-i-oslo?pinnedEntry=124907",
-              "source_id": "aftenposten.no",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:29:01.201831+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7209324836730957,
-            "article": {
-              "title": "Gasolio, Ucraina, Iran: ecco di cosa hanno discusso Witkoff e Putin oggi a San Pietroburgo |",
-              "url": "https://www.corriere.it/esteri/26_ottobre_21/gasolio-ucraina-iran-di-cosa-hanno-parlato-witkoff-e-putin-oggi-a-san-pietroburgo-8a4e6c30-ecdc-4072-8eee-3fe69dba4xlk.shtml",
+              "title": "Tesla-SpaceX? Musk conferma, fusione allo studio: ecco cosa cambierebbe per il suo impero da 3.500 miliardi",
+              "url": "https://www.corriere.it/economia/finanza/26_ottobre_21/tesla-spacex-musk-conferma-fusione-allo-studio-ecco-cosa-cambierebbe-per-il-suo-impero-9a37d035-a977-4ed4-bbf4-7685fc025xlk.shtml",
               "source_id": "corriere.it",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:29:43.474000+00:00"
+              "scraped_at_utc": "2026-10-21T22:01:34.567513+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7181870341300964,
+            "sim_to_centroid": 0.8626282215118408,
             "article": {
-              "title": "С чем Стив Уиткофф прилетел к Владимиру Путину",
-              "url": "https://www.kommersant.ru/doc/9043633",
-              "source_id": "kommersant.ru",
-              "continent": "Europe East",
+              "title": "What a merger of SpaceX and Tesla would mean",
+              "url": "https://www.thenationalnews.com/business/markets/2026/10/21/what-a-merger-of-spacex-and-tesla-would-mean/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:32:13.292194+00:00"
+              "scraped_at_utc": "2026-10-21T22:02:57.336276+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8340345621109009,
+            "article": {
+              "title": "SpaceX特斯拉評估合併 若成真市值將逾3兆美元、全球第5大",
+              "url": "https://www.cna.com.tw/news/aopl/202610210041.aspx",
+              "source_id": "cna.com.tw",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:07:58.774854+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7931542992591858,
+            "article": {
+              "title": "Teslas vinst rasar – när Musk planerar jättefusion Bilförsäljningen backar • Samtidigt planeras sammanslagning med SpaceX.",
+              "url": "https://www.dn.se/ekonomi/teslas-vinst-rasar-musk-planerar-gigantisk-fusion/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:48.847025+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7897588014602661,
+            "article": {
+              "title": "SpaceX meldet Milliardengewinn – Tesla-Übernahme rückt näher",
+              "url": "https://www.handelsblatt.com/technik/it-internet/spacex-musk-konzern-meldet-milliardengewinn-tesla-uebernahme-rueckt-naeher/100262899.html",
+              "source_id": "handelsblatt.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:31.178940+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7559162974357605,
+            "article": {
+              "title": "Funke Mediengruppe Mit noch mehr Macht Der größte Deal aller Zeiten? Elon Musk plant die Billionen-Fusion",
+              "url": "https://www.abendblatt.de/wirtschaft/article413467503/der-groesste-deal-aller-zeiten-elon-musk-plant-die-billionen-fusion.html",
+              "source_id": "abendblatt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:40.953188+00:00"
             }
           }
         ]
       },
       {
-        "score": 17.759986873581838,
-        "size": 6,
-        "n_sources": 5,
+        "score": 30.31225347213486,
+        "size": 8,
+        "n_sources": 8,
         "n_continents": 5,
         "continents": [
           "East Asia",
           "Europe East",
           "Europe North",
           "Europe South",
-          "South Asia"
+          "Middle East"
         ],
-        "coherence": 0.8316144347190857,
-        "title": "Ordinary day, extraordinary times: Kyiv under Russian attack",
+        "coherence": 0.8445345163345337,
+        "title": "Karas Ukrainoje. Trumpas: prie karo pabaigos galbūt esame arčiau nei bet kada",
         "central_article": {
-          "title": "Ordinary day, extraordinary times: Kyiv under Russian attack",
-          "url": "https://www.japantimes.co.jp/news/2026/10/21/world/kyiv-under-russia-attack/",
-          "source_id": "japantimes.co.jp",
-          "continent": "East Asia",
+          "title": "Karas Ukrainoje. Trumpas: prie karo pabaigos galbūt esame arčiau nei bet kada",
+          "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3089005/karas-ukrainoje-trumpas-prie-karo-pabaigos-galbut-esame-arciau-nei-bet-kada",
+          "source_id": "lrt.lt",
+          "continent": "Europe East",
           "published_at": null,
-          "scraped_at_utc": "2026-10-21T12:35:33.313052+00:00"
+          "scraped_at_utc": "2026-10-21T22:04:13.477109+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8851494789123535,
+            "sim_to_centroid": 0.9249222278594971,
             "article": {
-              "title": "Ordinary day, extraordinary times: Kyiv under Russian attack",
-              "url": "https://www.japantimes.co.jp/news/2026/10/21/world/kyiv-under-russia-attack/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:35:33.313052+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8682988882064819,
-            "article": {
-              "title": "Ordinary day, xtraordinary times: Kyiv under Russian attack Ordinary day, xtraordinary times: Kyiv under Russian attack",
-              "url": "https://www.myrepublica.nagariknetwork.com/news/ordinary-day-xtraordinary-times-kyiv-under-russian-attack-34-81.html",
-              "source_id": "myrepublica.nagariknetwork.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:34:58.417903+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8412500619888306,
-            "article": {
-              "title": "'Everything was in ruins' — At least 2 killed, 2 injured in Russian drone attack on Kyiv.",
-              "url": "https://kyivindependent.com/at-least-2-killed-2-injured-in-russian-drone-attack-on-kyiv/",
-              "source_id": "kyivindependent.com",
+              "title": "Karas Ukrainoje. Trumpas: prie karo pabaigos galbūt esame arčiau nei bet kada",
+              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3089005/karas-ukrainoje-trumpas-prie-karo-pabaigos-galbut-esame-arciau-nei-bet-kada",
+              "source_id": "lrt.lt",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:32:04.204845+00:00"
+              "scraped_at_utc": "2026-10-21T22:04:13.477109+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8361555933952332,
+            "sim_to_centroid": 0.9050120711326599,
             "article": {
-              "title": "Russian attacks kill at least 9, wound 45 across Ukraine, as yet another deadly drone attack strikes Kyiv.",
-              "url": "https://kyivindependent.com/russian-attacks-kill-at-least-9-wound-45-across-ukraine-as-yet-another-deadly-drone-attack-strikes-kyiv/",
-              "source_id": "kyivindependent.com",
+              "title": "ترامب: صرنا أقرب من أي وقت مضى من إنهاء الحرب في أوكرانيا",
+              "url": "https://www.annahar.com/international/359176/ترامب-صرنا-أقرب-من-أي-وقت-مضى-من-إنها-الحرب-في-أوكرانيا",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:03:26.527834+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.896697998046875,
+            "article": {
+              "title": "Ukraine crisis Conflict in Ukraine now closer to ending than ever before, Trump says",
+              "url": "https://tass.com/world/2205845",
+              "source_id": "tass.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:32:04.204845+00:00"
+              "scraped_at_utc": "2026-10-21T22:04:07.382112+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8097884058952332,
+            "sim_to_centroid": 0.8798493146896362,
             "article": {
-              "title": "Ruslands angreb på Ukraine",
-              "url": "https://politiken.dk/tag/main/Konflikten_om_Ukraine",
-              "source_id": "politiken.dk",
-              "continent": "Europe North",
+              "title": "ترامب يتحدث عن قرب التوصل لاتفاق بشأن أوكرانيا",
+              "url": "https://www.alsumaria.tv/news/international/579457/ترامب-يتحدث-عن-قرب-التوصل-لاتفاق-بشأن-أوكرانيا",
+              "source_id": "alsumaria.tv",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:57.409922+00:00"
+              "scraped_at_utc": "2026-10-21T22:05:27.246494+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7490441799163818,
+            "sim_to_centroid": 0.8517289161682129,
             "article": {
-              "title": "Pro Artikel Es wird ein harter Winter in Kiew. Wie Alexandra, Wadim und Karina sich auf die Kälte und russische Angriffe vorbereiten",
-              "url": "https://www.nzz.ch/international/kiew-vor-dem-winter-sorgen-um-energieversorgung-und-sicherheit-ld.10026309",
-              "source_id": "nzz.ch",
+              "title": "Конфликт на Украине находится ближе к завершению, чем когда-либо, заявил Трамп Вчера,",
+              "url": "https://ria.ru/20261021/tramp-2126080131.html",
+              "source_id": "ria.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:04:09.626506+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.798666775226593,
+            "article": {
+              "title": "Il Cremlino: “Stiamo andando verso la fine della guerra”. Trump: “Mai così vicini”. E difende Witkoff che loda Putin |",
+              "url": "https://www.repubblica.it/esteri/2026/10/21/diretta/guerra_ucraina_russia_news_oggi-425661492/",
+              "source_id": "repubblica.it",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-10-21T12:28:53.572621+00:00"
+              "scraped_at_utc": "2026-10-21T22:01:32.458816+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7911686897277832,
+            "article": {
+              "title": "國際 川普：俄烏戰爭距終戰可能已到最近時刻",
+              "url": "https://www.cna.com.tw/news/aopl/202610220009.aspx",
+              "source_id": "cna.com.tw",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:07:58.774854+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7082303166389465,
+            "article": {
+              "title": "'Time to make a deal,' Trump tells Zelenskyy",
+              "url": "https://www.euronews.com/2026/10/20/time-to-make-a-deal-trump-tells-zelenskyy-as-he-complains-us-has-got-nothing-back-from-ukr",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:13.942381+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 23.675563519239613,
+        "size": 6,
+        "n_sources": 6,
+        "n_continents": 5,
+        "continents": [
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Oceania",
+          "South America"
+        ],
+        "coherence": 0.8526492118835449,
+        "title": "French authorities ban protests in several cities and parts of Paris",
+        "central_article": {
+          "title": "French authorities ban protests in several cities and parts of Paris",
+          "url": "https://www.france24.com/en/europe/20261021-live-french-pm-lecornu-to-meet-with-unions-ahead-of-new-protests",
+          "source_id": "france24.com",
+          "continent": "Europe South",
+          "published_at": null,
+          "scraped_at_utc": "2026-10-21T22:01:16.580356+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9121010899543762,
+            "article": {
+              "title": "French authorities ban protests in several cities and parts of Paris",
+              "url": "https://www.france24.com/en/europe/20261021-live-french-pm-lecornu-to-meet-with-unions-ahead-of-new-protests",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:01:16.580356+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.908935546875,
+            "article": {
+              "title": "Paris protest ban imposed as France braces for new demonstrations",
+              "url": "https://www.sbs.com.au/news/article/paris-protest-ban-imposed-france-braces-new-demonstrations/03dbup0np",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:02:36.059544+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9068200588226318,
+            "article": {
+              "title": "Demonstrationer förbjuds i delar av Paris",
+              "url": "https://www.dn.se/direkt/2026-10-21/demonstrationer-forbjuds-i-delar-av-paris/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:48.847025+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8122994303703308,
+            "article": {
+              "title": "THIBAUD MORITZ / AFP,NTB Forbyr demonstrasjoner i deler av Paris Frankrike Følg saken",
+              "url": "https://www.nrk.no/nyheter/frankrike-1.14612682",
+              "source_id": "nrk.no",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:57.004117+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7963005304336548,
+            "article": {
+              "title": "França decreta toque de recolher em Paris pelo 3º dia consecutivo e espera nova onda de violência",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/10/paris-tem-toque-de-recolher-decretado-pelo-terceiro-dia.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:01:59.595201+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7794387340545654,
+            "article": {
+              "title": "„Raginame laikytis ramybės“ – sukrėsti prancūzai ruošiasi dar vienam protestų savaitgaliui",
+              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3089413/raginame-laikytis-ramybes-sukresti-prancuzai-ruosiasi-dar-vienam-protestu-savaitgaliui",
+              "source_id": "lrt.lt",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:04:13.477109+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 22.990839581920927,
+        "size": 7,
+        "n_sources": 7,
+        "n_continents": 5,
+        "continents": [
+          "Europe North",
+          "Europe South",
+          "North America",
+          "Oceania",
+          "South America"
+        ],
+        "coherence": 0.815949559211731,
+        "title": "Trump’s approval rating hits a new low as midterm elections near",
+        "central_article": {
+          "title": "Trump’s approval rating hits a new low as midterm elections near",
+          "url": "https://www.rnz.co.nz/news/world/2071727/trump-s-approval-rating-hits-a-new-low-as-midterms-enter-final-stretch-cnn-poll",
+          "source_id": "rnz.co.nz",
+          "continent": "Oceania",
+          "published_at": null,
+          "scraped_at_utc": "2026-10-21T22:02:45.363668+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9151551127433777,
+            "article": {
+              "title": "Trump’s approval rating hits a new low as midterm elections near",
+              "url": "https://www.rnz.co.nz/news/world/2071727/trump-s-approval-rating-hits-a-new-low-as-midterms-enter-final-stretch-cnn-poll",
+              "source_id": "rnz.co.nz",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:02:45.363668+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8854726552963257,
+            "article": {
+              "title": "Trump polling continues to reach new lows just two weeks ahead of midterms",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-polls-midterm-elections-republicans-b3071021.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:00:06.178674+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8447452187538147,
+            "article": {
+              "title": "Aprovação de Trump atinge novo mínimo duas semanas antes das eleições de meio de mandato nos EUA, aponta pesquisa",
+              "url": "https://oglobo.globo.com/mundo/noticia/2026/10/21/aprovacao-de-trump-atinge-novo-minimo-duas-semanas-antes-das-eleicoes-de-meio-de-mandato-nos-eua-aponta-pesquisa.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:02:03.456810+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7921926379203796,
+            "article": {
+              "title": "Elecciones de medio término: ¿está Donald Trump a punto de perder el control del Congreso?",
+              "url": "https://elcomercio.pe/mundo/eeuu/elecciones-de-medio-termino-esta-donald-trump-a-punto-de-perder-el-control-del-congreso-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:02:07.917031+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7634627819061279,
+            "article": {
+              "title": "Tamara Keith and Carrie Dann on Trump's approval rating hitting a record low",
+              "url": "https://www.pbs.org/newshour/show/tamara-keith-and-carrie-dann-on-trumps-approval-rating-hitting-a-record-low",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:05:58.529042+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7612802982330322,
+            "article": {
+              "title": "As midterms near, bipartisan furor grows over Trump targeting Ukraine",
+              "url": "https://www.latimes.com/politics/story/2026-10-21/as-midterms-near-bipartisan-furor-grows-over-trump-targeting-ukraine",
+              "source_id": "latimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:05:49.341275+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7493385076522827,
+            "article": {
+              "title": "Νέο ιστορικό χαμηλό για Τραμπ: Πώς ακρίβεια, βενζίνη και πόλεμος στο Ιράν του ροκανίζουν την καρέκλα",
+              "url": "https://www.tovima.gr/2026/10/21/world/ipa-neo-xamilo-gia-dimotikotita-tramp-prin-tis-endiameses-ekloges-dimoskopisi-nyt/",
+              "source_id": "tovima.gr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-21T22:01:36.156939+00:00"
             }
           }
         ]
       }
     ],
-    "created_at_utc": "2026-10-21T13:07:30Z"
+    "created_at_utc": "2026-10-21T22:30:05Z"
   }
 ]
