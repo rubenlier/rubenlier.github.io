@@ -1,320 +1,686 @@
 [
   {
-    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1792707508",
-    "n_items": 2508,
-    "n_clusters": 2089,
+    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1792759069",
+    "n_items": 2500,
+    "n_clusters": 2043,
     "clusters": [
       {
-        "score": 149.1712092119397,
-        "size": 25,
-        "n_sources": 24,
-        "n_continents": 9,
+        "score": 140.33489558928065,
+        "size": 30,
+        "n_sources": 29,
+        "n_continents": 7,
         "continents": [
-          "China",
-          "East Asia",
           "Europe East",
           "Europe North",
           "Europe South",
           "Middle East",
-          "North America",
+          "Oceania",
           "South America",
           "South Asia"
         ],
-        "coherence": 0.8259632587432861,
-        "title": "16 killed, 32 hurt after magnitude 7 earthquake strikes China’s Tibet",
+        "coherence": 0.8261651396751404,
+        "title": "Un hombre mata a una persona y deja heridas a otras cuatro en un tiroteo a las afueras de París",
         "central_article": {
-          "title": "16 killed, 32 hurt after magnitude 7 earthquake strikes China’s Tibet",
-          "url": "https://www.scmp.com/news/china/article/3371831/casualties-reported-after-70-quake-strikes-chinas-tibet?module=top_story&pgtype=homepage",
-          "source_id": "scmp.com",
-          "continent": "China",
+          "title": "Un hombre mata a una persona y deja heridas a otras cuatro en un tiroteo a las afueras de París",
+          "url": "https://www.rtve.es/noticias/20261023/francia-tiroteo-periferia-paris/17280198.shtml",
+          "source_id": "rtve.es",
+          "continent": "Europe South",
           "published_at": null,
-          "scraped_at_utc": "2026-10-22T22:01:57.023020+00:00"
+          "scraped_at_utc": "2026-10-23T12:12:53.336717+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9350538849830627,
+            "sim_to_centroid": 0.9219182729721069,
             "article": {
-              "title": "16 killed, 32 hurt after magnitude 7 earthquake strikes China’s Tibet",
-              "url": "https://www.scmp.com/news/china/article/3371831/casualties-reported-after-70-quake-strikes-chinas-tibet?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
+              "title": "Un hombre mata a una persona y deja heridas a otras cuatro en un tiroteo a las afueras de París",
+              "url": "https://www.rtve.es/noticias/20261023/francia-tiroteo-periferia-paris/17280198.shtml",
+              "source_id": "rtve.es",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:01:57.023020+00:00"
+              "scraped_at_utc": "2026-10-23T12:12:53.336717+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9291988611221313,
+            "sim_to_centroid": 0.8964007496833801,
             "article": {
-              "title": "A 7.0 earthquake hits Tibet, killing 16 and injuring 32",
-              "url": "https://www.latimes.com/world-nation/story/2026-10-22/7-0-earthquake-hits-chinas-tibet-killing-16-injuring-32",
-              "source_id": "latimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:01:46.430700+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9234963059425354,
-            "article": {
-              "title": "Terremoto de magnitud 7 sacude el Tíbet chino y deja al menos 16 muertos y 32 heridos",
-              "url": "https://elcomercio.pe/mundo/asia/terremoto-en-china-de-magnitud-7-sacude-el-tibet-a-solo-10-kilometros-de-profundidad-en-el-epicentro-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:58:26.859461+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9207302331924438,
-            "article": {
-              "title": "Terremoto de magnitude 7 deixa 16 mortos e 32 feridos no Tibete",
-              "url": "https://oglobo.globo.com/mundo/noticia/2026/10/22/terremoto-de-magnitude-7-deixa-16-mortos-e-32-feridos-no-tibete-na-china.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:58:22.204661+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9199171662330627,
-            "article": {
-              "title": "Magnitude 7 earthquake kills 16 people in China’s Tibet, Xinhua reports",
-              "url": "https://www.aljazeera.com/news/2026/10/22/magnitude-7-earthquake-kills-16-people-in-chinas-tibet-xinhua-reports",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:59:08.432867+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9064686298370361,
-            "article": {
-              "title": "Terremoto de magnitud 7 deja al menos 16 muertos en la región china de Tíbet",
-              "url": "https://www.laestrella.com.pa/mundo/terremoto-de-magnitud-7-deja-al-menos-16-muertos-en-la-region-china-de-tibet-OA26732408",
-              "source_id": "laestrella.com.pa",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:58:08.685728+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8700119256973267,
-            "article": {
-              "title": "7-magnitude earthquake strikes China’s Tibet",
-              "url": "https://www.straitstimes.com/asia/east-asia/7-magnitude-earthquake-strikes-chinas-tibet?ref=top-stories",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:04:09.123660+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8687944412231445,
-            "article": {
-              "title": "odkaz Tibet zasáhlo zemětřesení o síle sedmi stupňů. Zemřelo nejméně šestnáct lidí",
-              "url": "https://ct24.ceskatelevize.cz/clanek/svet/tibet-zasahlo-zemetreseni-o-sile-sedmi-stupnu-zemrelo-nejmene-sestnact-lidi-378927",
-              "source_id": "ct24.ceskatelevize.cz",
+              "title": "Streljanje na obrobju Pariza: en mrtev, več ranjenih",
+              "url": "https://www.delo.si/novice/svet/streljanje-na-obrobju-pariza-en-mrtev-vec-ranjenih",
+              "source_id": "delo.si",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:59:47.473941+00:00"
+              "scraped_at_utc": "2026-10-23T12:14:56.760663+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8655846118927002,
+            "sim_to_centroid": 0.895956814289093,
             "article": {
-              "title": "16 døde efter kraftigt jordskælv i Tibet",
-              "url": "https://www.dr.dk/nyheder/seneste/16-doede-efter-kraftigt-jordskaelv-i-tibet",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:15.619121+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8654285073280334,
-            "article": {
-              "title": "Terremoto de magnitud 7 en China deja 16 muertos y 32 heridos",
-              "url": "https://www.nacion.com/el-mundo/terremoto-de-magnitud-7-deja-victimas-en-la-region/VRSZU6H2GRDA5K5QGD2ZNDVREM/story/",
-              "source_id": "nacion.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:59.954840+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8484092950820923,
-            "article": {
-              "title": "Terremoto de magnitude 7 mata 16 pessoas e fere pelo menos 32 na região do Tibete, na China Sismo atual é o mais forte no país desde 2024",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/10/terremoto-de-magnitude-7-atinge-regiao-do-tibete-na-china.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:58:18.470326+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8243486285209656,
-            "article": {
-              "title": "Flera döda i Tibet efter jordskalv",
-              "url": "https://www.dn.se/direkt/2026-10-22/flera-doda-i-tibet-efter-jordskalv/",
-              "source_id": "dn.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:05.862073+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8164336085319519,
-            "article": {
-              "title": "Terremoto de magnitud 7,0 sacude la región del Tíbet en China: Reportan fallecidos",
-              "url": "https://www.emol.com/noticias/Internacional/2026/10/22/1214915/terremoto-tibet-china-muertos.html",
+              "title": "Tiroteo en afueras de París deja un muerto y cuatro heridos: Se investiga como terrorismo",
+              "url": "https://www.emol.com/noticias/Internacional/2026/10/23/1214965/francia-tiroteo-muertos-heridos.html",
               "source_id": "emol.com",
               "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:58:15.511204+00:00"
+              "scraped_at_utc": "2026-10-23T12:13:18.779493+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8120200037956238,
+            "sim_to_centroid": 0.8959071636199951,
             "article": {
-              "title": "Earthquake of magnitude 7.0 strikes Tibet",
-              "url": "https://www.hindustantimes.com/world-news/earthquake-magnitude-strikes-tibet-nepal-flood-tragedy-casualties-epicenter-updates-101792680813317.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
+              "title": "Reportan tiroteos a las afueras de París, en Francia, que dejan al menos un muerto y cuatro heridos",
+              "url": "https://www.eltiempo.com/mundo/europa/reportan-tiroteos-a-las-afueras-de-paris-en-francia-que-dejan-al-menos-un-muerto-y-cuatro-heridos-investigan-presunto-ataque-terrorista-3595717",
+              "source_id": "eltiempo.com",
+              "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:02:54.655831+00:00"
+              "scraped_at_utc": "2026-10-23T12:13:15.543757+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.808810830116272,
+            "sim_to_centroid": 0.8951201438903809,
             "article": {
-              "title": "Starkes Erdbeben erschüttert Tibet",
-              "url": "https://www.diepresse.com/41384735/starkes-erdbeben-erschuettert-tibet",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
+              "title": "One dead and four injured after gunman opens fire on Paris suburb",
+              "url": "https://www.abc.net.au/news/2026-10-23/france-investigating-possible-terror-link-paris-shooting/107303752",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:56:53.225545+00:00"
+              "scraped_at_utc": "2026-10-23T12:13:53.981805+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8079409599304199,
+            "sim_to_centroid": 0.8930295705795288,
             "article": {
-              "title": "Tibet earthquake LIVE | At least sixteen dead, 32 injured after 7.0 quake strikes Tibet: China's state media",
-              "url": "https://www.thehindu.com/news/international/70-magnitude-earthquake-hit-chinas-tibet-region-on-october-22-killing-many/article71613335.ece",
-              "source_id": "thehindu.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:02:53.271600+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8002164959907532,
-            "article": {
-              "title": "Strong earthquake strikes China’s remote Tibet region",
-              "url": "https://www.france24.com/en/asia-pacific/20261022-many-dead-massive-earthquake-strikes-china-s-remote-tibet-region-magnitude-seven",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:33.640467+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7921791076660156,
-            "article": {
-              "title": "1 t Verden Minst 16 døde i kraftig jordskjelv i Tibet",
-              "url": "https://www.aftenposten.no/verden/i/Vg83zW/minst-16-doede-i-kraftig-jordskjelv-i-tibet",
-              "source_id": "aftenposten.no",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:07.504765+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7754862308502197,
-            "article": {
-              "title": "तिब्बत में आया विनाशकारी भूकंप, अब तक 16 लोगों की मौत और 32 घायल; बचाव अभियान जारी",
-              "url": "https://www.jagran.com/world/china-7-magnitude-earthquake-in-tibet-two-injured-40413497.html",
-              "source_id": "jagran.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:02:51.998748+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7478010654449463,
-            "article": {
-              "title": "Mapping the 7.0-magnitude quake in Tibet",
-              "url": "https://www.straitstimes.com/asia/east-asia/mapping-the-7-0-magnitude-quake-in-tibet?ref=latest-headlines",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:04:09.123660+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7416739463806152,
-            "article": {
-              "title": "16 قتيلاً بزلزال في التيبت... وانهيار أكثر من 300 منزل (فيديو)",
-              "url": "https://www.annahar.com/international/asia/359490/زلزال-بقوة-7-درجات-يضرب-التيبت-وقوع-ضحايا-وانهيار-منازل",
+              "title": "مسلح يقتل شخصاً ويصيب 4 بإحدى ضواحي باريس",
+              "url": "https://www.annahar.com/international/europe/359663/الشرطة-الفرنسية-مسلح-يقتل-شخصا-ويصيب-4-بإحدى-ضواحي-باريس",
               "source_id": "annahar.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:59:31.646117+00:00"
+              "scraped_at_utc": "2026-10-23T12:14:33.558508+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7369272708892822,
+            "sim_to_centroid": 0.878945529460907,
             "article": {
-              "title": "中國西藏那曲7級地震增至16死32傷 逾339間房屋倒塌",
-              "url": "https://www.singtaousa.com/2026/10/22/news/china/china-earthquake-tibet/",
-              "source_id": "singtaousa.com",
-              "continent": "China",
+              "title": "Homem mata uma pessoa e fere outras quatro após abrir fogo em cidade próxima a Paris, diz polícia",
+              "url": "https://oglobo.globo.com/mundo/noticia/2026/10/23/homem-mata-uma-pessoa-e-fere-outras-quatro-apos-abrir-fogo-em-cidade-proxima-a-paris-diz-policia.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:02:16.613039+00:00"
+              "scraped_at_utc": "2026-10-23T12:13:23.484183+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7177139520645142,
+            "sim_to_centroid": 0.8764888048171997,
             "article": {
-              "title": "西藏巴青县7.0级地震已造成16人遇难 32人受伤",
-              "url": "https://www.sohu.com/a/1091409010_267106?edtsign=F021D8E8998F8AB76B910928B35B123770365D92&edtcode=fSrzohnxwKkB2fNOcL7jkA%3D%3D&scm=10001.663_14-200000.0.0-0-0-0-0.&_f=index_cpc_1_0",
-              "source_id": "news.sohu.com",
-              "continent": "China",
+              "title": "Man schiet om zich heen in voorstad Parijs, dode en vier gewonden",
+              "url": "https://nos.nl/artikel/2636311-man-schiet-om-zich-heen-in-voorstad-parijs-dode-en-vier-gewonden",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:02:19.380102+00:00"
+              "scraped_at_utc": "2026-10-23T12:11:49.742322+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7131634950637817,
+            "sim_to_centroid": 0.8691939115524292,
             "article": {
-              "title": "Серия землетрясений в Китае: магнитуда сильнейшего составила 7,1",
-              "url": "https://tengrinews.kz/world_news/seriya-zemletryaseniy-kitae-magnituda-silneyshego-sostavila-611482/",
-              "source_id": "tengrinews.kz",
+              "title": "Un mort și patru răniți într-un schimb de focuri într-o suburbie a Parisului / Suspectul a fost arestat",
+              "url": "https://www.g4media.ro/un-mort-si-patru-raniti-intr-un-schimb-de-focuri-intr-o-suburbie-a-parisului-suspectul-a-fost-arestat.html",
+              "source_id": "g4media.ro",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:00:27.129727+00:00"
+              "scraped_at_utc": "2026-10-23T12:14:53.106982+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7012724876403809,
+            "sim_to_centroid": 0.8667885065078735,
             "article": {
-              "title": "В Китае при землетрясении погибли не менее 16 человек Вчера,",
-              "url": "https://ria.ru/20261022/kitay-2126388229.html",
+              "title": "One killed, four injured in Paris shooting as France braces for another round of violent protests",
+              "url": "https://www.jpost.com/international/article-912650",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:14:12.177223+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8584514856338501,
+            "article": {
+              "title": "Skjutning utanför Paris – en död",
+              "url": "https://www.dn.se/direkt/2026-10-23/skjutning-utanfor-paris-en-dod/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:12:16.852857+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8563539981842041,
+            "article": {
+              "title": "One killed, four injured in drive-by shooting in Paris suburb",
+              "url": "https://www.france24.com/en/france/20261023-french-prosecutors-investigate-paris-shooting-as-suspected-terror-attack",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:12:40.970553+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8555279970169067,
+            "article": {
+              "title": "Prancūzija tiria galimą teroristinį išpuolį: vyras nušovė žmogų, dar 4 sužeidė",
+              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3091235/prancuzija-tiria-galima-teroristini-ispuoli-vyras-nusove-zmogu-dar-4-suzeide",
+              "source_id": "lrt.lt",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:15:17.528799+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8333736658096313,
+            "article": {
+              "title": "বিক্ষোভের আগেরদিন প্যারিসের অদূরে গুলিতে একজন নিহত ও আহত ৪",
+              "url": "https://www.prothomalo.com/world/europe/usuha7u6g8",
+              "source_id": "prothomalo.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:17:25.900494+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8297403454780579,
+            "article": {
+              "title": "Fransa'da dehşet! 1 can kaybı, 4 yaralı",
+              "url": "https://www.hurriyet.com.tr/dunya/fransada-silahli-saldirgan-dehseti-katliam-cikarmak-istiyordu-43352309",
+              "source_id": "hurriyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:14:21.206736+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8237195014953613,
+            "article": {
+              "title": "Мужчина открыл стрельбу по людям в пригороде Парижа",
+              "url": "https://ria.ru/20261023/parizh-2126508874.html",
               "source_id": "ria.ru",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:00:15.055920+00:00"
+              "scraped_at_utc": "2026-10-23T12:15:14.660872+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8141623139381409,
+            "article": {
+              "title": "पेरिस में हमलावर ने राह चलते लोगों पर गोलियां चलाई: 1 की मौत, 4 घायल, संदिग्ध गिरफ्तार; इस साल मास शूटिंग का 11वां मामला",
+              "url": "https://www.bhaskar.com/g/international/news/paris-shooting-attack-suspect-arrested-france-news-139465510.html",
+              "source_id": "bhaskar.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:17:18.461040+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8119944334030151,
+            "article": {
+              "title": "Frankrijk Man schiet in het wilde weg in Trappes bij Parijs: 1 dode en 4 gewonden, schutter opgepakt",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/10/23/schietpartij-in-trappes-bij-parijs-een-dode-en-vier-gewonden0/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:12:44.130616+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8087663650512695,
+            "article": {
+              "title": "Ein Toter bei Schüssen nahe Paris – Anti-Terror-Staatsanwaltschaft übernimmt Ermittlungen",
+              "url": "https://www.welt.de/politik/ausland/article6adb3d27400ffbb8e251b6a4/frankreich-ein-toter-bei-schuessen-nahe-paris-anti-terror-staatsanwaltschaft-uebernimmt-ermittlungen.html",
+              "source_id": "welt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:12:03.579418+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8050693273544312,
+            "article": {
+              "title": "Un atentado de móvil racista causa un muerto y cuatro heridos cerca de París",
+              "url": "https://www.lavanguardia.com/internacional/20261023/11666365/muerto-cuatro-heridos-disparar-hombre-vehiculo-cerca-paris.html",
+              "source_id": "lavanguardia.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:12:50.548192+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.787751317024231,
+            "article": {
+              "title": "Raffiche di mitra in strada alla periferia di Parigi: un morto. Arrestato un 38enne. Si indaga sul movente",
+              "url": "https://www.corriere.it/esteri/26_ottobre_23/francia-parigi-raffiche-mitra-periferia-c135d2dc-e7dd-435e-8cc5-865de5cf9xlk.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:12:57.523536+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.776747465133667,
+            "article": {
+              "title": "NÅ: Mistenker terror utenfor Paris",
+              "url": "https://www.dagbladet.no/studio/72720-nyhetsstudio/12691501-en-drept-og-fire-såret-i-skyting-utenfor-paris-antiterror-etterforskere-ser-på-saken",
+              "source_id": "dagbladet.no",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:12:20.810222+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.776699423789978,
+            "article": {
+              "title": "Just nu: Skjutning utanför Paris – misstänkt terror",
+              "url": "https://www.dn.se/varlden/skjutning-utanfor-paris-misstanks-vara-terrordad/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:12:16.852857+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7760021686553955,
+            "article": {
+              "title": "« Il avait envie de faire un carnage » : un mort et quatre blessés suite à des tirs en France",
+              "url": "https://www.lesoir.be/778685/article/2026-10-23/il-avait-envie-de-faire-un-carnage-un-mort-et-quatre-blesses-suite-des-tirs-en",
+              "source_id": "lesoir.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:12:47.796308+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7756907939910889,
+            "article": {
+              "title": "tiros na frança Policiais examinam local onde homem abriu fogo de dentro de seu carro, matando uma pessoa e ferindo outras quatro em Trappes, subúrbio de Paris - Dimitar Dilkoff/AFP",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/10/homem-mata-1-pessoa-e-fere-outras-4-apos-abrir-fogo-nos-arredores-de-paris.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:13:21.363212+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7590594291687012,
+            "article": {
+              "title": "Terrorverdacht nach Schüssen aus Auto bei Paris",
+              "url": "https://www.diepresse.com/41386576/terrorverdacht-nach-schuessen-aus-auto-bei-paris",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:12:06.418119+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7586020827293396,
+            "article": {
+              "title": "Autóból lövöldözött egy támadó Párizs agglomerációjában, egy...",
+              "url": "https://telex.hu/kulfold/2026/10/23/autobol-lovoldoztek-jarokelokre-parizs-agglomeraciojaban-egy-ember-meghalt-tobben-megserultek",
+              "source_id": "telex.hu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:14:42.400599+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7538260221481323,
+            "article": {
+              "title": "Just nu En död i skjutning utanför Paris – utreds som terrorbrott Fyra skadade • Man öppnade eld i staden Trappes",
+              "url": "https://www.svt.se/nyheter/utrikes/skjutning-utanfor-paris-en-dod",
+              "source_id": "svt.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:12:22.314665+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7177587747573853,
+            "article": {
+              "title": "Man schiet om zich heen bij Parijs, kind (12) acht keer geraakt",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5660664/man-opent-vuur-vanuit-auto-wilde-mogelijk-bloedbad-aanrichten",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:11:53.261918+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7159078121185303,
+            "article": {
+              "title": "French prosecutors open hate crime probe after deadly drive-by shooting",
+              "url": "https://www.politico.eu/article/french-prosecutors-open-hate-crime-probe-after-deadly-drive-by-shooting-trappes-paris/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:11:48.565304+00:00"
             }
           }
         ]
       },
       {
-        "score": 91.0,
-        "size": 13,
-        "n_sources": 13,
-        "n_continents": 7,
+        "score": 114.26663238980404,
+        "size": 26,
+        "n_sources": 24,
+        "n_continents": 8,
         "continents": [
           "China",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "Oceania",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.796207845211029,
+        "title": "Netanyahu orders army to prepare for full West Bank closure after attack",
+        "central_article": {
+          "title": "Netanyahu orders army to prepare for full West Bank closure after attack",
+          "url": "https://www.france24.com/en/middle-east/20261023-netanyahu-orders-army-to-prepare-for-full-west-bank-closure-after-attack",
+          "source_id": "france24.com",
+          "continent": "Europe South",
+          "published_at": null,
+          "scraped_at_utc": "2026-10-23T12:12:40.970553+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9110549092292786,
+            "article": {
+              "title": "Netanyahu orders army to prepare for full West Bank closure after attack",
+              "url": "https://www.france24.com/en/middle-east/20261023-netanyahu-orders-army-to-prepare-for-full-west-bank-closure-after-attack",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:12:40.970553+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8788250684738159,
+            "article": {
+              "title": "Netanyahu orders Hebron sealed off, full West Bank closure after Hamas terror attack",
+              "url": "https://www.jpost.com/israel-news/defense-news/article-912642",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:14:12.177223+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8769357800483704,
+            "article": {
+              "title": "Netanyahu orders West Bank closure after attack on Israelis ends in gun battle",
+              "url": "https://www.scmp.com/news/world/middle-east/article/3371912/netanyahu-orders-west-bank-closure-after-deadly-checkpoint-shoot-out?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:16:41.211367+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8722138404846191,
+            "article": {
+              "title": "Netanyahu orders West Bank lockdown after Hebron checkpoint shooting",
+              "url": "https://www.thenationalnews.com/news/mena/2026/10/23/netanyahu-orders-west-bank-lockdown-after-hebron-checkpoint-shooting/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:14:10.810993+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8699257373809814,
+            "article": {
+              "title": "Netanyahu ordena fechamento total da Cisjordânia após ataque a tiros deixar 5 feridos na região",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/10/netanyahu-ordena-fechamento-total-da-cisjordania-apos-ataque-a-tiros.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:13:21.363212+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8628416061401367,
+            "article": {
+              "title": "Netanyahu ordena \"cierre total\" de Cisjordania tras ataque armado",
+              "url": "https://www.elespectador.com/mundo/mas-paises/netanyahu-ordena-cierre-total-de-cisjordania-tras-ataque-armado/",
+              "source_id": "elespectador.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:13:30.653197+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8461149334907532,
+            "article": {
+              "title": "Netanyahu orders West Bank closure as attack wounds Israelis before election",
+              "url": "https://www.thehindu.com/news/international/netanyahu-orders-west-bank-closure-as-attack-wounds-israelis-before-election/article71615850.ece",
+              "source_id": "thehindu.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:17:20.815094+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8223481178283691,
+            "article": {
+              "title": "Israel orders closure of occupied West Bank after two suspected attackers killed",
+              "url": "https://www.sbs.com.au/news/article/netanyahu-orders-occupied-west-bank-closure/dlaq5dlui",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:13:55.695549+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8190248012542725,
+            "article": {
+              "title": "Israel tells military to prepare for West Bank closure after gunmen killed in attack",
+              "url": "https://www.abc.net.au/news/2026-10-23/israel-west-bank-closure/107303622",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:13:53.981805+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8161911964416504,
+            "article": {
+              "title": "Premier de Israel ordena 'fechamento total' da Cisjordânia após ataque a tiros com cinco feridos; atiradores foram mortos",
+              "url": "https://oglobo.globo.com/mundo/noticia/2026/10/23/premier-de-israel-ordena-fechamento-total-da-cisjordania-apos-ataque-a-tiros-com-cinco-feridos-atiradores-foram-mortos.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:13:23.484183+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8136648535728455,
+            "article": {
+              "title": "Israeli army ordered to brace for West Bank closure after shooting",
+              "url": "https://www.independent.co.uk/bulletin/news/west-bank-middle-east-israel-hebron-netanyahu-b3072136.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:11:41.877886+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8104074001312256,
+            "article": {
+              "title": "Israeli government orders army to prepare for full closure of West Bank",
+              "url": "https://www.irishtimes.com/world/middle-east/2026/10/23/israel-orders-army-to-prepare-for-full-closure-of-west-bank/",
+              "source_id": "irishtimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:14:07.944181+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8012053370475769,
+            "article": {
+              "title": "Netanyahu sluit bezette Westelijke Jordaanoever af na schietpartij bij controlepost nabij Hebron",
+              "url": "https://www.nrc.nl/nieuws/2026/10/23/netanyahu-sluit-bezette-westelijke-jordaanoever-af-na-schietpartij-bij-controlepost-nabij-hebron-a4939603",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:11:51.403471+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7929372787475586,
+            "article": {
+              "title": "Israël gaat Westelijke Jordaanoever volledig afsluiten na aanval in Palestijns gebied",
+              "url": "https://nos.nl/artikel/2636301-israel-gaat-westelijke-jordaanoever-volledig-afsluiten-na-aanval-in-palestijns-gebied",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:11:49.742322+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7791277170181274,
+            "article": {
+              "title": "Nach Angriff in Hebron: Israel bereitet Abriegelung des Westjordanlands vor",
+              "url": "https://www.tagesschau.de/ausland/asien/westjordanland-abriegelung-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:11:57.413237+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7788699865341187,
+            "article": {
+              "title": "Netanyahu anuncia una operación militar a gran escala en Cisjordania con la evacuación forzosa de palestinos",
+              "url": "https://www.rtve.es/noticias/20261023/netanyahu-cierre-cisjordania/17279917.shtml",
+              "source_id": "rtve.es",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:12:53.336717+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.768284261226654,
+            "article": {
+              "title": "Israel bereitet nach Anschlag „vollständige Abriegelung“ des Westjordanlands vor",
+              "url": "https://www.welt.de/politik/ausland/article6adb107a9fbb7e8e310dce8c/israel-bereitet-nach-angriff-vollstaendige-abriegelung-des-westjordanlands-vor.html",
+              "source_id": "welt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:12:03.579418+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7574092149734497,
+            "article": {
+              "title": "Netanyahu vows to hunt Hamas terrorists as ministers demand major West Bank military operation",
+              "url": "https://www.jpost.com/israel-news/defense-news/article-912648",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:14:12.177223+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7536954879760742,
+            "article": {
+              "title": "نتنياهو يأمر بإغلاق الضفة عقب هجوم الخليل... وسموتريتش يوجّه بهدم مجموعة من المباني",
+              "url": "https://www.annahar.com/international/israeli-issues/359559/الجيش-الإسرائيلي-إصابة-شخصين-في-عملية-إطلاق-نار-قرب-الخليل-جنوبي-الضفة",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:14:33.558508+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7533585429191589,
+            "article": {
+              "title": "Mutare-fulger a lui Benjamin Netanyahu, care ordonă armatei să izoleze complet Cisiordania",
+              "url": "https://hotnews.ro/mutare-fulger-a-lui-benjamin-netanyahu-care-ordona-armatei-sa-izoleze-complet-cisiordania-2384532",
+              "source_id": "hotnews.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:14:44.281503+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7493000626564026,
+            "article": {
+              "title": "Öt izraeli megsebesült egy lövöldözésben, Netanjahu elrendelte...",
+              "url": "https://telex.hu/kulfold/2026/10/23/ot-izraeli-megsebesult-egy-lovoldozesben-netanjahu-elrendelte-ciszjordania-lezarasat",
+              "source_id": "telex.hu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:14:42.400599+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7451958656311035,
+            "article": {
+              "title": "Benjamin Netanyahu ordonne le \"bouclage\" de la Cisjordanie après une attaque à Hébron Territoires palestiniens aujourd'hui à",
+              "url": "https://www.rts.ch/info/monde/2026/article/cisjordanie-netanyahu-ordonne-le-bouclage-apres-une-attaque-29394369.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:12:42.614987+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7395968437194824,
+            "article": {
+              "title": "10 , Israel preparing full lockdown of occupied West Bank after Hebron gunfight",
+              "url": "https://www.aljazeera.com/news/2026/10/23/israel-arrests-36-palestinians-in-the-west-bank-attacks-on-farmers-ramp-up",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:14:09.337109+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.721099853515625,
+            "article": {
+              "title": "La diretta Giordania, sette uomini uccisi in una chiesa: due ricercati. Netanyahu ordina il blocco totale della Cisgiordania",
+              "url": "https://www.repubblica.it/esteri/2026/10/23/diretta/guerra_iran_usa_israele_news_oggi-425668616/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:12:55.853141+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6955054998397827,
+            "article": {
+              "title": "Hebron shooting: 2 Palestinians killed, 6 Israelis wounded",
+              "url": "https://www.newarab.com/news/hebron-shooting-2-palestinians-killed-6-israelis-wounded",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:14:25.626833+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6662697196006775,
+            "article": {
+              "title": "Fueled by a life's mission, Netanyahu asks Israelis for more time to 'finish the job' against Iran",
+              "url": "https://www.jpost.com/israel-election-2026/article-912495",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:14:12.177223+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 63.4050509241665,
+        "size": 13,
+        "n_sources": 13,
+        "n_continents": 6,
+        "continents": [
           "Europe East",
           "Europe North",
           "Europe South",
@@ -322,888 +688,951 @@
           "Oceania",
           "South America"
         ],
-        "coherence": 0.9050511121749878,
-        "title": "Muere a los 93 años Tom Skerritt, actor de Alien y Top Gun",
+        "coherence": 0.85856693983078,
+        "title": "Meghan Markle ‘deeply distressed’ over allegation her father had child abuse images",
         "central_article": {
-          "title": "Muere a los 93 años Tom Skerritt, actor de Alien y Top Gun",
-          "url": "https://www.latercera.com/culto/noticia/muere-a-los-93-anos-tom-skerritt-actor-de-alien-y-top-gun/",
-          "source_id": "latercera.com",
-          "continent": "South America",
+          "title": "Meghan Markle ‘deeply distressed’ over allegation her father had child abuse images",
+          "url": "https://www.irishtimes.com/life-style/people/2026/10/23/meghan-markle-deeply-distressed-over-allegation-her-father-had-child-abuse-images/",
+          "source_id": "irishtimes.com",
+          "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-10-22T21:58:28.301519+00:00"
+          "scraped_at_utc": "2026-10-23T12:14:07.944181+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9718118906021118,
+            "sim_to_centroid": 0.9262673854827881,
             "article": {
-              "title": "Muere a los 93 años Tom Skerritt, actor de Alien y Top Gun",
-              "url": "https://www.latercera.com/culto/noticia/muere-a-los-93-anos-tom-skerritt-actor-de-alien-y-top-gun/",
-              "source_id": "latercera.com",
-              "continent": "South America",
+              "title": "Meghan Markle ‘deeply distressed’ over allegation her father had child abuse images",
+              "url": "https://www.irishtimes.com/life-style/people/2026/10/23/meghan-markle-deeply-distressed-over-allegation-her-father-had-child-abuse-images/",
+              "source_id": "irishtimes.com",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:58:28.301519+00:00"
+              "scraped_at_utc": "2026-10-23T12:14:07.944181+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.971767783164978,
+            "sim_to_centroid": 0.9104655981063843,
             "article": {
-              "title": "US actor Tom Skerritt, who starred in Top Gun and Alien, dies aged 93",
-              "url": "https://www.abc.net.au/news/2026-10-23/us-actor-tom-skerritt-top-gun-alien-dies-93/107299410",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
+              "title": "Meghan Markle, “profundamente consternada” por las acusaciones de posesión de pornografía infantil contra su padre",
+              "url": "https://elpais.com/gente/2026-10-23/meghan-markle-profundamente-consternada-por-las-acusaciones-de-posesion-de-pornografia-infantil-contra-su-padre.html",
+              "source_id": "elpais.com",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:58:52.096759+00:00"
+              "scraped_at_utc": "2026-10-23T12:12:49.146025+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9694796800613403,
+            "sim_to_centroid": 0.9036363363265991,
             "article": {
-              "title": "Tom Skerritt, star of Alien and Top Gun, dies at 93",
-              "url": "https://www.scmp.com/news/world/united-states-canada/article/3371834/tom-skerritt-star-alien-and-top-gun-dies-93?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
+              "title": "Meghan Markle « profondément bouleversée » par les accusations de détention d’images pédopornographiques visant son père",
+              "url": "https://www.lesoir.be/778677/article/2026-10-23/meghan-markle-profondement-bouleversee-par-les-accusations-de-detention-dimages",
+              "source_id": "lesoir.be",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:01:57.023020+00:00"
+              "scraped_at_utc": "2026-10-23T12:12:47.796308+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9404802322387695,
+            "sim_to_centroid": 0.8999311923980713,
             "article": {
-              "title": "Tom Skerritt, Emmy-winning actor known for ‘Picket Fences,’ ‘Alien’ and ‘Top Gun,’ dies at 93",
-              "url": "https://www.latimes.com/entertainment-arts/story/2026-10-22/tom-skerritt-dead-alien-top-gun-picket-fences-emmy-winner",
-              "source_id": "latimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:01:46.430700+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.92923504114151,
-            "article": {
-              "title": "Actorul Tom Skerritt, cunoscut din „Top Gun”, „Mash” și „Alien”, a murit",
-              "url": "https://hotnews.ro/actorul-tom-skerritt-cunoscut-din-top-gun-si-alien-al-optulea-pasager-a-murit-la-93-de-ani-2383923",
-              "source_id": "hotnews.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:59:42.182159+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9209659099578857,
-            "article": {
-              "title": "Top Gun star Tom Skerritt dies aged 93",
-              "url": "https://www.independent.co.uk/arts-entertainment/films/news/tom-skerritt-dead-top-gun-picket-fences-b3071792.html",
+              "title": "Meghan ‘deeply distressed’ by indecent image allegations against father Thomas Markle",
+              "url": "https://www.independent.co.uk/news/uk/home-news/meghan-markle-father-thomas-allegations-statement-b3072076.html",
               "source_id": "independent.co.uk",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:56:23.398351+00:00"
+              "scraped_at_utc": "2026-10-23T12:11:41.877886+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9204614162445068,
+            "sim_to_centroid": 0.8837693929672241,
             "article": {
-              "title": "Bekannt aus „Top Gun“ – Preisgekrönter Schauspieler Tom Skerritt stirbt mit 93 Jahren",
-              "url": "https://www.welt.de/kultur/article6ada637f7d7d59c2a19eec10/bekannt-aus-top-gun-preisgekroenter-schauspieler-tom-skerritt-stirbt-mit-93-jahren.html",
-              "source_id": "welt.de",
+              "title": "Meghan Markle reagerer på efterforskning af sin far for besiddelse af overgrebsbilleder",
+              "url": "https://www.dr.dk/nyheder/udland/meghan-markle-reagerer-paa-efterforskning-af-sin-far-besiddelse-af-overgrebsbilleder",
+              "source_id": "dr.dk",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:56:49.828521+00:00"
+              "scraped_at_utc": "2026-10-23T12:12:25.521898+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9087744951248169,
+            "sim_to_centroid": 0.8678209781646729,
             "article": {
-              "title": "Emmy-winning US actor Tom Skerritt, known for ‘Top Gun’ and ‘Picket Fences’, dies at 93",
-              "url": "https://www.france24.com/en/culture/20261022-emmy-winning-us-actor-tom-skerritt-top-gun-and-picket-fences-dies-93",
-              "source_id": "france24.com",
-              "continent": "Europe South",
+              "title": "Meghan Markle spune că este „profund tulburată” de acuzațiile grave aduse tatălui ei și că avea suspiciuni de ani de zile",
+              "url": "https://hotnews.ro/meghan-markle-spune-ca-este-profund-tulburata-de-acuzatiile-grave-aduse-tatalui-ei-si-ca-avea-suspiciuni-de-ani-de-zile-2384458",
+              "source_id": "hotnews.ro",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:33.640467+00:00"
+              "scraped_at_utc": "2026-10-23T12:14:44.281503+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9067395925521851,
+            "sim_to_centroid": 0.863171398639679,
             "article": {
-              "title": "Films & Series Acteur Tom Skerritt (93), bekend van 'Top gun' en 'Alien', overleden",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/10/22/tom-skerritt-overleden-93/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:37.467757+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8840363025665283,
-            "article": {
-              "title": "Actor Tom Skerritt dead at 93",
-              "url": "https://www.usatoday.com/story/entertainment/movies/2026/10/22/tom-skerritt-dead-alien-top-gun-mash/91358207007/",
+              "title": "Duchess Meghan speaks out over 'disturbing allegations' about father",
+              "url": "https://www.usatoday.com/story/entertainment/royals/2026/10/23/meghan-speaks-out-about-dad-thomas-sex-abuse-images-claim/92393102007/",
               "source_id": "usatoday.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:01:49.331478+00:00"
+              "scraped_at_utc": "2026-10-23T12:16:34.149130+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8814238905906677,
+            "sim_to_centroid": 0.8562315702438354,
             "article": {
-              "title": "”Alien”-skådespelaren Tom Skerritt död",
-              "url": "https://www.dn.se/direkt/2026-10-22/alien-skadespelaren-tom-skerritt-dod/",
-              "source_id": "dn.se",
-              "continent": "Europe North",
+              "title": "Meghan Markle says she learned of 'disturbing' allegations about father in 2018",
+              "url": "https://www.abc.net.au/news/2026-10-23/meghan-markle-father-abuse-allegations/107303754",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:05.862073+00:00"
+              "scraped_at_utc": "2026-10-23T12:13:53.981805+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7821828126907349,
+            "sim_to_centroid": 0.8465268611907959,
             "article": {
-              "title": "Muere querido actor de ‘Alien’ y ‘Top Gun’",
-              "url": "https://www.nacion.com/viva/muere-querido-actor-de-alien-y-top-gun/VSWTMMVE4FFT7OSFZAVOWVO3PQ/story/",
-              "source_id": "nacion.com",
-              "continent": "North America",
+              "title": "Megan Markle teigia esanti „labai sukrėsta“ dėl jos tėvui mestų kaltinimų",
+              "url": "https://www.lrt.lt/naujienos/laisvalaikis/13/3091260/megan-markle-teigia-esanti-labai-sukresta-del-jos-tevui-mestu-kaltinimu",
+              "source_id": "lrt.lt",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:59.954840+00:00"
+              "scraped_at_utc": "2026-10-23T12:15:17.528799+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7783047556877136,
+            "sim_to_centroid": 0.8412840962409973,
             "article": {
-              "title": "Πέθανε ο Τομ Σκέριτ: «Έφυγε» στα 93 του ο εμβληματικός ηθοποιός των «Alien», «Top Gun» και «MAS*H»",
-              "url": "https://www.tovima.gr/2026/10/22/culture/tom-skerit-pethane-o-vraveymenos-me-emmy-ithopoios-i-kariera-oi-roloi-stathmoi/",
-              "source_id": "tovima.gr",
-              "continent": "Europe South",
+              "title": "El comunicado de la duquesa. Investigan al padre de Meghan Markle por tenencia de material de abuso sexual infantil",
+              "url": "https://www.lanacion.com.ar/el-mundo/investigan-al-padre-de-meghan-markle-por-tenencia-de-material-de-abuso-sexual-infantil-nid23102026/",
+              "source_id": "lanacion.com.ar",
+              "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:54.126780+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 87.52995403971208,
-        "size": 13,
-        "n_sources": 13,
-        "n_continents": 8,
-        "continents": [
-          "Africa",
-          "China",
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "North America",
-          "South America"
-        ],
-        "coherence": 0.8655180335044861,
-        "title": "France reports first human case of Shamonda virus as patient dies",
-        "central_article": {
-          "title": "France reports first human case of Shamonda virus as patient dies",
-          "url": "https://www.premiumtimesng.com/health/health-news/919422-france-reports-first-human-case-of-shamonda-virus-as-patient-dies.html",
-          "source_id": "premiumtimesng.com",
-          "continent": "Africa",
-          "published_at": null,
-          "scraped_at_utc": "2026-10-22T22:01:01.385773+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.94431471824646,
-            "article": {
-              "title": "France reports first human case of Shamonda virus as patient dies",
-              "url": "https://www.premiumtimesng.com/health/health-news/919422-france-reports-first-human-case-of-shamonda-virus-as-patient-dies.html",
-              "source_id": "premiumtimesng.com",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:01:01.385773+00:00"
+              "scraped_at_utc": "2026-10-23T12:13:14.241063+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.929949164390564,
+            "sim_to_centroid": 0.8193283677101135,
             "article": {
-              "title": "Muere en Francia un hombre por el virus de Shamonda, el primer caso conocido en humanos",
-              "url": "https://www.lavanguardia.com/vida/20261022/11665337/muere-francia-persona-virus-shamonda-creia-transmisible-humano.html",
+              "title": "Meghan Markle sabía desde 2018 que su padre consumía pornografía infantil",
+              "url": "https://www.lavanguardia.com/gente/20261023/11666395/meghan-markle-responde-acusaciones-posesion-imagenes-abusos-sexuales-menores-padre.html",
               "source_id": "lavanguardia.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:43.889663+00:00"
+              "scraped_at_utc": "2026-10-23T12:12:50.548192+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9030283689498901,
+            "sim_to_centroid": 0.7965641021728516,
             "article": {
-              "title": "First known human case of Shamonda virus confirmed in France",
-              "url": "https://www.politico.eu/article/first-known-human-case-of-shamonda-virus-reported-in-france/",
-              "source_id": "politico.eu",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:56:32.909186+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8900139331817627,
-            "article": {
-              "title": "France reports first human case of livestock virus Shamonda in patient who later died By Associated Press",
-              "url": "https://www.pbs.org/newshour/world/france-reports-first-human-case-of-livestock-virus-shamonda-in-patient-who-later-died",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:01:55.681939+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8892965316772461,
-            "article": {
-              "title": "Frankrijk Eerste menselijke besmetting van het Shamonda-virus: patiënt in Frankrijk overleden",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/10/22/shamonda-virus-eerste-besmetting-bij-de-mens/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:37.467757+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8704018592834473,
-            "article": {
-              "title": "Mundo Virus Shamonda: ¿qué se sabe del primer caso humano detectado en Francia?",
-              "url": "https://www.crhoy.com/mundo/virus-shamonda-que-se-sabe-del-primer-caso-humano-detectado-en-francia/",
+              "title": "Entretenimiento Meghan Markle alejó a sus hijos de su padre, señalado por imágenes de abuso a menores",
+              "url": "https://www.crhoy.com/entretenimiento/meghan-markle-alejo-a-sus-hijos-de-su-padre-senalado-por-imagenes-de-abuso-a-menores/",
               "source_id": "crhoy.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:58:05.041034+00:00"
+              "scraped_at_utc": "2026-10-23T12:13:08.567142+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8700994849205017,
+            "sim_to_centroid": 0.7463729381561279,
             "article": {
-              "title": "Francia: reportan muerte de hombre afectado por el virus shamonda",
-              "url": "https://elcomercio.pe/mundo/europa/muere-en-francia-una-persona-con-el-virus-shamonda-que-se-creia-no-tranmisible-al-hombre-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
+              "title": "World News Meghan’s dad under investigation over child abuse material",
+              "url": "https://thewest.com.au/news/world/meghan-markles-father-investigated-after-son-reports-alleged-child-abuse-material-to-police-c-23060502",
+              "source_id": "thewest.com.au",
+              "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:58:26.859461+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8699954748153687,
-            "article": {
-              "title": "法國報告首例人類感染牲畜病毒沙蒙達的病例 該患者已離世",
-              "url": "https://www.singtaousa.com/2026/10/22/news/world/france-shamonda-virus-human-case/",
-              "source_id": "singtaousa.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:02:16.613039+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.867158055305481,
-            "article": {
-              "title": "Sich ausbreitende Seuche Patient gestorben – Frankreich meldet erstmals Shamonda-Virus bei einem Menschen",
-              "url": "https://www.spiegel.de/wissenschaft/patient-gestorben-frankreich-meldet-erstmals-shamonda-virus-bei-einem-menschen-a-547eaaa0-7ddb-4604-b48b-9fecf8fbe246",
-              "source_id": "spiegel.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:56:45.636855+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8605028986930847,
-            "article": {
-              "title": "Le virus Shamonda détecté pour la première fois chez un humain, un patient immunodéprimé mort en France",
-              "url": "https://www.lemonde.fr/planete/article/2026/10/22/le-virus-shamonda-detecte-pour-la-premiere-fois-chez-un-humain-un-patient-immunodeprime-mort-en-france_6798613_3244.html",
-              "source_id": "lemonde.fr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:28.047994+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8556531667709351,
-            "article": {
-              "title": "法国报告全球首例人类感染沙蒙达病毒病例",
-              "url": "https://www.xinhuanet.com/20261022/6e88c5d51f5746d2ac0349361dfe2668/c.html",
-              "source_id": "xinhuanet.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:02:07.355335+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7511329650878906,
-            "article": {
-              "title": "Livestock virus claims first human victim in France",
-              "url": "https://www.rt.com/news/647529-shamonda-first-human-case/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:00:08.698168+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.750188410282135,
-            "article": {
-              "title": "國際 法國通報沙門達病毒傳人首例 患者已逝尚無公衛風險",
-              "url": "https://www.cna.com.tw/news/aopl/202610220436.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:04:15.277755+00:00"
+              "scraped_at_utc": "2026-10-23T12:14:00.097207+00:00"
             }
           }
         ]
       },
       {
-        "score": 71.96143909978443,
-        "size": 12,
-        "n_sources": 12,
-        "n_continents": 7,
+        "score": 62.29462852814933,
+        "size": 19,
+        "n_sources": 14,
+        "n_continents": 8,
         "continents": [
-          "China",
+          "Africa",
           "East Asia",
+          "Europe East",
           "Europe North",
           "Europe South",
           "Middle East",
           "North America",
           "Oceania"
         ],
-        "coherence": 0.8690627217292786,
-        "title": "Trump ordered to appear for deposition in defamation lawsuit against BBC",
+        "coherence": 0.7826752662658691,
+        "title": "France tightens security in anticipation of weekend protests",
         "central_article": {
-          "title": "Trump ordered to appear for deposition in defamation lawsuit against BBC",
-          "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-deposition-defamation-lawsuit-bbc/",
-          "source_id": "theglobeandmail.com",
-          "continent": "North America",
+          "title": "France tightens security in anticipation of weekend protests",
+          "url": "https://www.aljazeera.com/news/2026/10/23/france-tightens-security-in-anticipation-of-weekend-protests",
+          "source_id": "aljazeera.com",
+          "continent": "Middle East",
           "published_at": null,
-          "scraped_at_utc": "2026-10-22T21:58:50.559780+00:00"
+          "scraped_at_utc": "2026-10-23T12:14:09.337109+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9157756567001343,
+            "sim_to_centroid": 0.8783786296844482,
             "article": {
-              "title": "Trump ordered to appear for deposition in defamation lawsuit against BBC",
-              "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-deposition-defamation-lawsuit-bbc/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:58:50.559780+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.913438081741333,
-            "article": {
-              "title": "Judge orders Trump to sit for deposition in BBC lawsuit",
-              "url": "https://www.sbs.com.au/news/article/judge-orders-trump-to-sit-for-deposition-in-bbc-lawsuit/0m2xzjpj1",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:58:53.683663+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9102872014045715,
-            "article": {
-              "title": "Trump ordered to sit for deposition in BBC defamation lawsuit",
-              "url": "https://www.aljazeera.com/news/2026/10/22/trump-ordered-to-sit-for-deposition-in-bbc-defamation-lawsuit",
+              "title": "France tightens security in anticipation of weekend protests",
+              "url": "https://www.aljazeera.com/news/2026/10/23/france-tightens-security-in-anticipation-of-weekend-protests",
               "source_id": "aljazeera.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:59:08.432867+00:00"
+              "scraped_at_utc": "2026-10-23T12:14:09.337109+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8929455280303955,
+            "sim_to_centroid": 0.8729243278503418,
             "article": {
-              "title": "Judge gives Trump deadline to sit for deposition in BBC defamation suit",
-              "url": "https://www.scmp.com/news/world/united-states-canada/article/3371829/judge-gives-trump-deadline-sit-deposition-bbc-defamation-suit?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:01:57.023020+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.888761043548584,
-            "article": {
-              "title": "Jueza ordena a Trump declarar en juicio contra la BBC el 11 de diciembre",
-              "url": "https://www.nacion.com/el-mundo/jueza-ordena-a-trump-declarar-en-juicio-contra-la/F7EOF7V2UVE6JEFXBS5ACCAOKE/story/",
-              "source_id": "nacion.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:59.954840+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8706183433532715,
-            "article": {
-              "title": "Judge orders Trump to sit for a deposition in his defamation lawsuit against the BBC by Dec. 11 By David Fischer, Associated Press",
-              "url": "https://www.pbs.org/newshour/politics/judge-orders-trump-to-sit-for-a-deposition-in-his-defamation-lawsuit-against-the-bbc-by-dec-11",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:01:55.681939+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8614729642868042,
-            "article": {
-              "title": "La justicia le ordena a Trump responder preguntas bajo juramento en su demanda contra la BBC",
-              "url": "https://www.bbc.com/mundo/articles/c51kd0dm8m23o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:55.630779+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8588356971740723,
-            "article": {
-              "title": "BBC: Trump muss bei Milliardenklage im Dezember aussagen",
-              "url": "https://www.diepresse.com/41384963/bbc-trump-muss-bei-milliardenklage-im-dezember-aussagen",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:56:53.225545+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8441581726074219,
-            "article": {
-              "title": "Domare kräver Trumps vittnesmål i BBC-stämning",
-              "url": "https://www.dn.se/direkt/2026-10-22/domare-kraver-trumps-vittnesmal-i-bbc-stamning/",
-              "source_id": "dn.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:05.862073+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8292646408081055,
-            "article": {
-              "title": "特朗普百億告BBC誹謗 法官下令12月11日前錄口供 否則或被撤訴",
-              "url": "https://www.singtaousa.com/2026/10/22/news/usa/trump-bbc-media-defamation/",
-              "source_id": "singtaousa.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:02:16.613039+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8228783011436462,
-            "article": {
-              "title": "Donald Trump dovrà deporre sotto giuramento per la causa contro la Bbc entro l'11 dicembre",
-              "url": "https://www.corriere.it/esteri/26_ottobre_22/donald-trum-deporre-sotto-giuramento-causa-contro-bbc-413c48cf-a6a5-439c-8d9d-fcb220225xlk.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:51.987914+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.820317268371582,
-            "article": {
-              "title": "國際 川普告BBC誹謗求償百億美元 法官限期12/11前宣誓作證",
-              "url": "https://www.cna.com.tw/news/aopl/202610230008.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:04:15.277755+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 59.87181896201799,
-        "size": 16,
-        "n_sources": 14,
-        "n_continents": 7,
-        "continents": [
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "Oceania",
-          "South Asia"
-        ],
-        "coherence": 0.8014476895332336,
-        "title": "Putin agrees 'in principle' to revive trilateral talks with US and Ukraine",
-        "central_article": {
-          "title": "Putin agrees 'in principle' to revive trilateral talks with US and Ukraine",
-          "url": "https://www.sbs.com.au/news/article/putin-agrees-trilateral-peace-talks-us-ukraine/dn9iw71wg",
-          "source_id": "sbs.com.au",
-          "continent": "Oceania",
-          "published_at": null,
-          "scraped_at_utc": "2026-10-22T21:58:53.683663+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.876772940158844,
-            "article": {
-              "title": "Putin agrees 'in principle' to revive trilateral talks with US and Ukraine",
-              "url": "https://www.sbs.com.au/news/article/putin-agrees-trilateral-peace-talks-us-ukraine/dn9iw71wg",
+              "title": "More police to be deployed this weekend as French authorities attempt protest ban",
+              "url": "https://www.sbs.com.au/news/article/french-authorities-seek-to-ban-or-curb-fresh-protests/s84lf5s7y",
               "source_id": "sbs.com.au",
               "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:58:53.683663+00:00"
+              "scraped_at_utc": "2026-10-23T12:13:55.695549+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8740781545639038,
+            "sim_to_centroid": 0.8461774587631226,
             "article": {
-              "title": "Putin agrees to resume 3-way peace talks with Ukraine and US",
-              "url": "https://kathmandupost.com/world/2026/10/22/putin-agrees-to-resume-3-way-peace-talks-with-ukraine-and-us",
-              "source_id": "kathmandupost.com",
-              "continent": "South Asia",
+              "title": "France braces for new protests as Macron seeks to restore order",
+              "url": "https://www.bangkokpost.com/world/3342339/france-braces-for-new-protests-as-macron-seeks-to-restore-order",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:03:09.901496+00:00"
+              "scraped_at_utc": "2026-10-23T12:18:28.332925+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8615304827690125,
+            "sim_to_centroid": 0.832502007484436,
             "article": {
-              "title": "Putin agrees to resume trilateral Ukraine peace talks next month",
-              "url": "https://pajhwok.com/2026/10/22/putin-agrees-to-resume-trilateral-ukraine-peace-talks-next-month/",
-              "source_id": "pajhwok.com",
-              "continent": "South Asia",
+              "title": "France bans or curbs protests in bid to prevent new weekend unrest",
+              "url": "https://www.france24.com/en/france/20261022-france-bans-or-curbs-protests-in-bid-to-prevent-new-wave-of-unrest",
+              "source_id": "france24.com",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:03:17.438055+00:00"
+              "scraped_at_utc": "2026-10-23T12:12:40.970553+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8591823577880859,
+            "sim_to_centroid": 0.825059175491333,
             "article": {
-              "title": "Russia ready to resume trilateral talks on Ukraine",
-              "url": "https://tass.com/politics/2206531",
-              "source_id": "tass.com",
+              "title": "France will deploy 70,000 security forces for Saturday protests, says interior minister",
+              "url": "https://www.france24.com/en/europe/20261023-macron-meets-with-student-representatives-and-law-enforcement-ahead-of-new-protests",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:12:40.970553+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.809410572052002,
+            "article": {
+              "title": "Ve Francii se chystají další nepokoje. Nasadíme 70 tisíc policistů, řekl ministr",
+              "url": "https://www.idnes.cz/zpravy/zahranicni/francie-protesty-ministr-vnitra-laurent-nunez-bezpecnostni-opatreni-policie.A261023_133535_zahranicni_aya",
+              "source_id": "idnes.cz",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:00:12.674930+00:00"
+              "scraped_at_utc": "2026-10-23T12:14:46.651872+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8105930089950562,
+            "sim_to_centroid": 0.8030267953872681,
             "article": {
-              "title": "بوتين: مستعدون لاستئناف المحادثات الثلاثية مع أوكرانيا وأميركا بشروط",
-              "url": "https://www.annahar.com/international/world/359501/بوتين-مستعدون-لاستئناف-المحادثات-الثلاثية-مع-أوكرانيا-وأميركا-بشروط",
-              "source_id": "annahar.com",
+              "title": "newsticker Unruhen in Frankreich Frankreich rüstet sich mit 70'000 Kräften für Protest-Wochenende Die neuesten Einträge aus dem Liveticker: Innenminister: 70'000 Sicherheitskräfte aufgeboten Frankreich rüstet sich für neues Protest-Wochenende Gestern, Macron empfängt Schülervertreter",
+              "url": "https://www.srf.ch/news/international/unruhen-in-frankreich-frankreich-ruestet-sich-mit-70-000-kraeften-fuer-protest-wochenende",
+              "source_id": "srf.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:12:13.397494+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7855945825576782,
+            "article": {
+              "title": "French Interior Minister holds presser on security arrangements ahead of protests",
+              "url": "https://www.france24.com/en/replay-french-interior-minister-holds-presser-on-security-arrangements-ahead-of-protests",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:12:40.970553+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7827147245407104,
+            "article": {
+              "title": "Macron to meet student groups: Where are France’s protests heading?",
+              "url": "https://www.aljazeera.com/news/2026/10/23/we-want-promises-backed-by-results",
+              "source_id": "aljazeera.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:59:31.646117+00:00"
+              "scraped_at_utc": "2026-10-23T12:14:09.337109+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8069558143615723,
+            "sim_to_centroid": 0.7724298238754272,
             "article": {
-              "title": "2 t Verden Putin sier Russland er klar til å forhandle om endelig Ukraina-avtale",
-              "url": "https://www.aftenposten.no/verden/i/MArB3o/putin-sier-russland-er-klar-til-aa-forhandle-om-endelig-ukraina-avtale-ikke-en-kort-vaapenhvile",
+              "title": "Macron kondigt landelijk demonstratieverbod aan, rechter laat protestmars van studenten in Parijs alsnog doorgaan",
+              "url": "https://www.nrc.nl/nieuws/2026/10/22/macron-kondingt-landelijk-demonstratieverbod-aan-rechter-laat-protestmars-van-studenten-in-parijs-alsnog-doorgaan-a4939554",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:11:51.403471+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7701369524002075,
+            "article": {
+              "title": "1 t Verden Stor sikkerhetsstyrke mobiliseres foran lørdagens demonstrasjoner i Frankrike – 70.000 skal settes inn",
+              "url": "https://www.aftenposten.no/verden/i/Vgvv9V/massive-sikkerhetsstyrker-settes-inn-under-loerdagens-demonstrasjoner-i-frankrike",
               "source_id": "aftenposten.no",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:07.504765+00:00"
+              "scraped_at_utc": "2026-10-23T12:12:18.208815+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7881780862808228,
+            "sim_to_centroid": 0.7589385509490967,
             "article": {
-              "title": "Putin says talks must focus on security for Russia, Ukraine and Europe overall",
-              "url": "https://www.straitstimes.com/world/europe/putin-says-talks-must-focus-on-security-for-russia-ukraine-and-europe-overall?ref=latest-headlines",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:04:09.123660+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7881184816360474,
-            "article": {
-              "title": "Путин: Россия готова искать развязки ситуации на Украине",
-              "url": "https://www.kommersant.ru/doc/9045237",
-              "source_id": "kommersant.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:00:10.562665+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7837967276573181,
-            "article": {
-              "title": "Pro Artikel Russland will wieder mit der Ukraine verhandeln – ein Dreiergipfel mit Trump und Xi wird immer wahrscheinlicher",
-              "url": "https://www.nzz.ch/international/putin-will-einen-dreiergipfel-mit-trump-und-xi-ld.10040005",
-              "source_id": "nzz.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:56:59.782908+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7834101319313049,
-            "article": {
-              "title": "Russia, Ukraine can make agreement",
-              "url": "https://tass.com/politics/2206551",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:00:12.674930+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.780364990234375,
-            "article": {
-              "title": "22.10.26 Путин заявил о готовности России возобновить трехсторонние переговоры по Украине В мире",
-              "url": "http://belta.by/world/view/putin-zajavil-o-gotovnosti-rossii-vozobnovit-trehstoronnie-peregovory-po-ukraine-807320-2026/",
-              "source_id": "belta.by",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:00:48.853972+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7758316993713379,
-            "article": {
-              "title": "Putin gotowy do rozmów z Ukrainą. Polacy nie chcą dłużej pracować",
-              "url": "https://www.rp.pl/biznes/art45376561-putin-gotowy-do-rozmow-z-ukraina-polacy-nie-chca-dluzej-pracowac",
-              "source_id": "rp.pl",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:59:53.595245+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7649245858192444,
-            "article": {
-              "title": "Talking to Putin: Europe seeks a negotiator-in-chief for Ukraine",
-              "url": "https://www.politico.eu/article/talking-to-vladimir-putin-europe-seeks-a-negotiator-in-chief-for-ukraine/",
-              "source_id": "politico.eu",
+              "title": "THIBAUD MORITZ / AFP,NTB Massivt politioppbud skal sørge for ro i Frankrike Frankrike Følg saken",
+              "url": "https://www.nrk.no/nyheter/frankrike-1.14612682",
+              "source_id": "nrk.no",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:56:32.909186+00:00"
+              "scraped_at_utc": "2026-10-23T12:12:24.002788+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.758171796798706,
+            "sim_to_centroid": 0.749909520149231,
             "article": {
-              "title": "Путин сделал заявление по Украине после встречи с представителем Трампа",
-              "url": "https://tengrinews.kz/world_news/putin-sdelal-zayavlenie-ukraine-vstrechi-predstavitelem-611485/",
-              "source_id": "tengrinews.kz",
-              "continent": "Europe East",
+              "title": "استعدادا للغد.. إغلاق شركات ومعارض كبرى في فرنسا",
+              "url": "https://www.alsumaria.tv/news/international/579554/استعدادا-للغد-إغلاق-شركات-ومعارض-كبرى-في-فرنسا",
+              "source_id": "alsumaria.tv",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:00:27.129727+00:00"
+              "scraped_at_utc": "2026-10-23T12:16:09.689778+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7567715048789978,
+            "sim_to_centroid": 0.7410889863967896,
             "article": {
-              "title": "IN BRIEF: Kremlin spokesman comments on Putin-Witkoff meeting, trilateral talks on Ukraine",
-              "url": "https://tass.com/politics/2206281",
-              "source_id": "tass.com",
-              "continent": "Europe East",
+              "title": "Demonstraties verboden in delen van Parijs en andere steden, Macron haalt uit naar ‘domme opmerkingen’ van andere regeringsleiders",
+              "url": "https://www.nrc.nl/nieuws/2026/10/22/demonstraties-verboden-in-delen-van-parijs-en-andere-steden-macron-haalt-uit-naar-domme-opmerkingen-van-andere-regeringsleiders-a4939525",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:00:12.674930+00:00"
+              "scraped_at_utc": "2026-10-23T12:11:51.403471+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7544817924499512,
+            "sim_to_centroid": 0.7410228848457336,
             "article": {
-              "title": "\"Можем договориться\". Путин назвал цель России на трехсторонних переговорах по Украине Вчера,",
-              "url": "https://ria.ru/20261022/putin-2126373952.html",
-              "source_id": "ria.ru",
-              "continent": "Europe East",
+              "title": "Authorities in Lyon and Marseille ban all protests Saturday",
+              "url": "https://www.france24.com/en/europe/20261022-live-paris-bans-protests-after-violent-unrest-as-macron-takes-swipe-at-trump",
+              "source_id": "france24.com",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:00:15.055920+00:00"
+              "scraped_at_utc": "2026-10-23T12:12:40.970553+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7344418168067932,
+            "article": {
+              "title": "Politieke flanken spinnen garen bij onrust in Frankrijk: 'Geweld polariseert'",
+              "url": "https://nos.nl/artikel/2636249-politieke-flanken-spinnen-garen-bij-onrust-in-frankrijk-geweld-polariseert",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:11:49.742322+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7296473979949951,
+            "article": {
+              "title": "French unrest Exclusive: Emmanuel Macron cancels planned visits to Nigeria and Senegal",
+              "url": "https://www.theafricareport.com/434399/exclusive-emmanuel-macron-cancels-planned-visits-to-nigeria-and-senegal/",
+              "source_id": "theafricareport.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:15:44.278505+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7239336967468262,
+            "article": {
+              "title": "Orchestra provides a selection of protest songs for French demonstrations",
+              "url": "https://www.theglobeandmail.com/world/article-orchestra-french-demonstrations-paris-protests/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:13:52.615174+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7134914398193359,
+            "article": {
+              "title": "Les interdictions de manifester et les couvre-feux se multiplient partout en France, au risque de malmener l’Etat de droit",
+              "url": "https://www.lemonde.fr/politique/article/2026/10/23/les-interdictions-de-manifester-pleuvent-sur-toute-la-france-au-risque-de-malmener-l-etat-de-droit_6798944_823448.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:12:36.224280+00:00"
             }
           }
         ]
       },
       {
-        "score": 58.77806635699475,
-        "size": 14,
-        "n_sources": 14,
+        "score": 62.25044313239319,
+        "size": 17,
+        "n_sources": 16,
         "n_continents": 6,
         "continents": [
+          "China",
           "East Asia",
           "Europe East",
           "Europe North",
           "Europe South",
-          "Middle East",
-          "South Asia"
+          "Middle East"
         ],
-        "coherence": 0.8285903930664062,
-        "title": "Trump i-a cerut lui Musk să ridice restricțiile asupra utilizării Starlink în Ucraina",
+        "coherence": 0.8133634924888611,
+        "title": "Starlink still restricted for Ukraine despite Trump saying Musk lifted speed limits",
         "central_article": {
-          "title": "Trump i-a cerut lui Musk să ridice restricțiile asupra utilizării Starlink în Ucraina",
-          "url": "https://www.g4media.ro/trump-i-a-cerut-lui-musk-sa-ridice-restrictiile-asupra-utilizarii-starlink-in-ucraina.html",
-          "source_id": "g4media.ro",
-          "continent": "Europe East",
+          "title": "Starlink still restricted for Ukraine despite Trump saying Musk lifted speed limits",
+          "url": "https://www.politico.eu/article/starlink-still-restricted-for-ukraine-donald-trump-elon-musk-lifted-speed-limits/",
+          "source_id": "politico.eu",
+          "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-10-22T21:59:52.142024+00:00"
+          "scraped_at_utc": "2026-10-23T12:11:48.565304+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9353490471839905,
+            "sim_to_centroid": 0.9013309478759766,
             "article": {
-              "title": "Trump i-a cerut lui Musk să ridice restricțiile asupra utilizării Starlink în Ucraina",
-              "url": "https://www.g4media.ro/trump-i-a-cerut-lui-musk-sa-ridice-restrictiile-asupra-utilizarii-starlink-in-ucraina.html",
-              "source_id": "g4media.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:59:52.142024+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9326716065406799,
-            "article": {
-              "title": "‘Trump vraagt Musk om beperkingen op Starlink in Oekraïne op te heffen’",
-              "url": "https://fd.nl/politiek/1616417/trump-vraagt-musk-om-beperkingen-op-starlink-in-oekraine-op-te-heffen",
-              "source_id": "fd.nl",
+              "title": "Starlink still restricted for Ukraine despite Trump saying Musk lifted speed limits",
+              "url": "https://www.politico.eu/article/starlink-still-restricted-for-ukraine-donald-trump-elon-musk-lifted-speed-limits/",
+              "source_id": "politico.eu",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:56:40.331868+00:00"
+              "scraped_at_utc": "2026-10-23T12:11:48.565304+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9313151836395264,
+            "sim_to_centroid": 0.8945668935775757,
             "article": {
-              "title": "Trump zou Musk hebben gevraagd Starlink-beperking Oekraïne op te heffen",
-              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5660577/starlink-oekraine-beperking",
-              "source_id": "rtl.nl",
+              "title": "Ukraine says Starlink still restricted after Trump says limits lifted",
+              "url": "https://www.bbc.com/news/articles/cq74pjpmx0e8o",
+              "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:56:38.033418+00:00"
+              "scraped_at_utc": "2026-10-23T12:11:40.522347+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9211238026618958,
+            "sim_to_centroid": 0.8822134733200073,
             "article": {
-              "title": "Karas Ukrainoje. WSJ: Trumpas paprašė Musko panaikinti „Starlink“ apribojimus Ukrainoje",
-              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3089436/karas-ukrainoje-wsj-trumpas-paprase-musko-panaikinti-starlink-apribojimus-ukrainoje",
-              "source_id": "lrt.lt",
+              "title": "Скорость Starlink в Украине по-прежнему ограничена. Трамп утверждал, что ограничения сняты",
+              "url": "https://meduza.io/news/2026/10/23/skorost-starlink-v-ukraine-po-prezhnemu-ogranichena-tramp-govoril-chto-ogranicheniya-snyaty",
+              "source_id": "meduza.io",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:00:19.034432+00:00"
+              "scraped_at_utc": "2026-10-23T12:15:00.876279+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8822121620178223,
+            "sim_to_centroid": 0.8795832991600037,
+            "article": {
+              "title": "Ukraine says Starlink restrictions remain despite Trump claim",
+              "url": "https://www.irishtimes.com/world/us/2026/10/23/ukraine-says-starlink-still-restricted-after-trump-says-limits-lifted/",
+              "source_id": "irishtimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:14:07.944181+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8495289087295532,
+            "article": {
+              "title": "Trump szerint Musk visszaállította a hozzáférést az ukrán Starlink hálózathoz",
+              "url": "https://telex.hu/kulfold/2026/10/23/trump-szerint-musk-visszaallitotta-a-hozzaferest-az-ukran-starlink-halozathoz",
+              "source_id": "telex.hu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:14:42.400599+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8419508934020996,
+            "article": {
+              "title": "Trump says Musk restored Ukraine's Starlink access, Zelenskyy disagrees",
+              "url": "https://www.channelnewsasia.com/shorts/trump-says-musk-restored-ukraines-starlink-access-zelenskyy-disagrees-6486196",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:18:11.726939+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.834827184677124,
+            "article": {
+              "title": "Trump says Musk restored Ukraine’s Starlink access amid Russia war",
+              "url": "https://www.aljazeera.com/news/2026/10/23/trump-says-musk-restored-ukraines-starlink-access-amid-russia-war",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:14:09.337109+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8155775666236877,
+            "article": {
+              "title": "„Fälle von Signalverlust“: Ukraine meldet weiterhin Einschränkungen bei Starshield",
+              "url": "https://www.diepresse.com/41386465/faelle-von-signalverlust-ukraine-meldet-weiterhin-einschraenkungen-bei-starshield",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:12:06.418119+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8103097677230835,
+            "article": {
+              "title": "‘Trump vroeg Musk inperking van het Starshield-satellietinternet in Oekraïne op te heffen’",
+              "url": "https://www.nrc.nl/nieuws/2026/10/23/trump-vroeg-musk-inperking-van-het-starshield-satellietinternet-in-oekraine-op-te-heffen-a4939594",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:11:51.403471+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7956605553627014,
+            "article": {
+              "title": "Funke Mediengruppe Live Ukraine-News Ukraine meldet weiterhin Probleme mit Starshield – trotz Trumps Anruf bei Musk",
+              "url": "https://www.abendblatt.de/politik/article412317251/ukraine-news-krieg-russland-aktuell-kiew-starlink-starshield-musk-trump.html",
+              "source_id": "abendblatt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:12:10.258822+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7887738943099976,
+            "article": {
+              "title": "2 t Verden Medier: Starlink er fortsatt begrenset i Ukraina",
+              "url": "https://www.aftenposten.no/verden/i/d7e26q/ukraina-fortsatt-problemer-med-starlink-etter-trumps-oppheving",
+              "source_id": "aftenposten.no",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:12:18.208815+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7837998867034912,
             "article": {
               "title": "WSJ: Трамп позвонил Маску и попросил снять ограничения Starlink для Украины",
               "url": "https://meduza.io/news/2026/10/22/wsj-tramp-pozvonil-masku-i-poprosil-snyat-ogranicheniya-starlink-dlya-ukrainy",
               "source_id": "meduza.io",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:00:00.855669+00:00"
+              "scraped_at_utc": "2026-10-23T12:15:00.876279+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8673622608184814,
+            "sim_to_centroid": 0.7718602418899536,
             "article": {
-              "title": "La diretta “Telefonata di Trump a Musk per revocare i limiti a Starlink in Ucraina“",
-              "url": "https://www.repubblica.it/esteri/2026/10/22/diretta/guerra_ucraina_russia_news_oggi-425665195/",
-              "source_id": "repubblica.it",
+              "title": "特朗普：馬斯克已恢復烏克蘭星鏈服務 澤連斯基：速度仍未完全恢復",
+              "url": "https://www.singtaousa.com/2026/10/22/news/world/trump-says-musk-has-restored-ukraines-internet-access/",
+              "source_id": "singtaousa.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:16:56.593526+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7574261426925659,
+            "article": {
+              "title": "US offers mixed messages on limits to Ukraine's Starshield system",
+              "url": "https://www.france24.com/en/europe/20261023-us-offers-mixed-messages-on-limits-to-ukraine-s-starshield-system",
+              "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:49.991730+00:00"
+              "scraped_at_utc": "2026-10-23T12:12:40.970553+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8510863184928894,
-            "article": {
-              "title": "Verden Krigen i Ukraina WSJ: Trump skal ha bedt Musk oppheve Starlink-begrensninger",
-              "url": "https://www.aftenposten.no/verden/i/31bXmv/trump-har-ringt-musk-og-bedt-ham-oppheve-starlink-begrensning-ifoelge-wsjs-kilder",
-              "source_id": "aftenposten.no",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:07.504765+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8174805641174316,
-            "article": {
-              "title": "'यूक्रेन के लिए स्टारलिंक की पाबंदियां हटाओ', नाराज ट्रंप ने एलन मस्क को दिया सीधा अल्टीमेटम",
-              "url": "https://www.jagran.com/world/america-trump-told-elon-musk-lift-the-starlink-restrictions-for-ukraine-40413502.html",
-              "source_id": "jagran.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:02:51.998748+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7675535678863525,
+            "sim_to_centroid": 0.7566826939582825,
             "article": {
               "title": "\"ستارلينك\" يعود الى العمل في أوكرانيا بعد مكالمة ترامب وماسك",
               "url": "https://www.alsumaria.tv/news/international/579529/ستارلينك-يعود-الى-العمل-في-أوكرانيا-بعد-مكالمة-ترامب-وماسك",
               "source_id": "alsumaria.tv",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:01:24.189779+00:00"
+              "scraped_at_utc": "2026-10-23T12:16:09.689778+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7621002197265625,
+            "sim_to_centroid": 0.7449502944946289,
             "article": {
-              "title": "Kyiv denies reports that Trump, Musk have restored Starlink speeds in Ukraine.",
-              "url": "https://kyivindependent.com/kyiv-denies-reports-that-trump-musk-have-restored-starlink-speeds-in-ukraine/",
-              "source_id": "kyivindependent.com",
+              "title": "Ukraine Still Recording Starshield Connectivity Losses at 161 Kph, Defense Ministry Source Says",
+              "url": "https://www.kyivpost.com/post/87981",
+              "source_id": "kyivpost.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:59:59.636573+00:00"
+              "scraped_at_utc": "2026-10-23T12:14:58.261300+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7519110441207886,
+            "sim_to_centroid": 0.7181353569030762,
             "article": {
-              "title": "Hat Elon Musk den Starlink-Ausfall bei der ukrainischen Armee befohlen? Er handelte wohl kaum eigenmächtig",
-              "url": "https://www.nzz.ch/international/starlink-ausfall-wollte-elon-musk-der-ukraine-schaden-ld.10040477",
-              "source_id": "nzz.ch",
-              "continent": "Europe South",
+              "title": "乌媒称乌军使用“星盾”卫星通信系统仍被限速",
+              "url": "https://www.xinhuanet.com/20261023/7bf80b3f262042d991d393f0707b6c2c/c.html",
+              "source_id": "xinhuanet.com",
+              "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:56:59.782908+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7427332997322083,
-            "article": {
-              "title": "Трамп: доступ Украины к Starshield восстановлен",
-              "url": "https://www.kommersant.ru/doc/9045267",
-              "source_id": "kommersant.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:00:10.562665+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7189602851867676,
-            "article": {
-              "title": "國際 華爾街日報：川普促馬斯克解除烏克蘭星鏈限制",
-              "url": "https://www.cna.com.tw/news/aopl/202610230011.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:04:15.277755+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7184070348739624,
-            "article": {
-              "title": "Il Nobel Krugman contro Musk: «Toglietegli Starlink». L’accusa sull’Ucraina e il precedente di Roosevelt",
-              "url": "https://www.corriere.it/economia/finanza/26_ottobre_22/il-premio-nobel-krugman-contro-musk-bisogna-togliergli-starlink-l-accusa-sull-ucraina-e-il-precedente-di-roosevelt-d381da0d-d9b1-4ea0-9103-9ce3b8dd2xlk.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:51.987914+00:00"
+              "scraped_at_utc": "2026-10-23T12:16:48.809938+00:00"
             }
           }
         ]
       },
       {
-        "score": 49.18058715835002,
-        "size": 24,
-        "n_sources": 17,
+        "score": 56.71346635208823,
+        "size": 13,
+        "n_sources": 12,
+        "n_continents": 6,
+        "continents": [
+          "China",
+          "East Asia",
+          "Europe North",
+          "Middle East",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.8522691130638123,
+        "title": "Earthquake of magnitude 7 strikes China’s Tibet, killing 16",
+        "central_article": {
+          "title": "Earthquake of magnitude 7 strikes China’s Tibet, killing 16",
+          "url": "https://kathmandupost.com/world/2026/10/23/earthquake-of-magnitude-7-strikes-china-s-tibet-killing-16",
+          "source_id": "kathmandupost.com",
+          "continent": "South Asia",
+          "published_at": null,
+          "scraped_at_utc": "2026-10-23T12:17:35.002450+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9189896583557129,
+            "article": {
+              "title": "Earthquake of magnitude 7 strikes China’s Tibet, killing 16",
+              "url": "https://kathmandupost.com/world/2026/10/23/earthquake-of-magnitude-7-strikes-china-s-tibet-killing-16",
+              "source_id": "kathmandupost.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:17:35.002450+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9124365448951721,
+            "article": {
+              "title": "16 killed, 32 injured in magnitude-7 earthquake in China’s Tibet",
+              "url": "https://pajhwok.com/2026/10/23/16-killed-32-injured-in-magnitude-7-earthquake-in-chinas-tibet/",
+              "source_id": "pajhwok.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:17:41.885387+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8905229568481445,
+            "article": {
+              "title": "At least 16 people killed as earthquake rocks China's Tibet region",
+              "url": "https://www.euronews.com/2026/10/23/magnitude-7-earthquake-strikes-tibet-killing-at-least-16-people-and-destroying-hundreds-of",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:11:47.276659+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8876572847366333,
+            "article": {
+              "title": "چین میں 7.0 شدت کا زلزلہ، 16 افراد ہلاک اور متعدد زخمی ہوگئے",
+              "url": "https://www.nawaiwaqt.com.pk/23-Oct-2026/2038951",
+              "source_id": "nawaiwaqt.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:17:39.380770+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8801138997077942,
+            "article": {
+              "title": "Terremoto de magnitud 7 sacude el Tíbet chino y deja al menos 16 muertos y 46 heridos",
+              "url": "https://elcomercio.pe/mundo/asia/terremoto-en-china-de-magnitud-7-sacude-el-tibet-a-solo-10-kilometros-de-profundidad-en-el-epicentro-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:13:27.674291+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8793333172798157,
+            "article": {
+              "title": "Powerful earthquake in Tibet kills at least 16 people",
+              "url": "https://www.aljazeera.com/news/2026/10/22/magnitude-7-earthquake-kills-16-people-in-chinas-tibet-xinhua-reports",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:14:09.337109+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8768750429153442,
+            "article": {
+              "title": "China orders ‘all-out’ rescue after Tibet quake kills 16",
+              "url": "https://www.japantimes.co.jp/news/2026/10/23/asia-pacific/tibet-magnitude-7-quake/",
+              "source_id": "japantimes.co.jp",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:18:13.512639+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8768435120582581,
+            "article": {
+              "title": "China orders 'all-out' rescue after Tibet quake kills 16",
+              "url": "https://www.dawn.com/news/2039229/china-orders-all-out-rescue-after-tibet-quake-kills-16",
+              "source_id": "dawn.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:17:36.314476+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.84686279296875,
+            "article": {
+              "title": "16 killed, 76 injured after 7.0-magnitude quake hits Xizang",
+              "url": "https://www.chinadaily.com.cn/a/202610/23/WS6adb1d0be4b06d4aa05647bf.html",
+              "source_id": "chinadaily.com.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:16:44.517435+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8140649199485779,
+            "article": {
+              "title": "چین میں زلزلے سے سینکڑوں مکان منہدم، 16 افراد ہلاک، پاکستان کی مدد کی پیشکش",
+              "url": "https://www.nawaiwaqt.com.pk/23-Oct-2026/2038936",
+              "source_id": "nawaiwaqt.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:17:39.380770+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7694993019104004,
+            "article": {
+              "title": "Xi orders all-out rescue efforts after 7.0-magnitude earthquake in Xizang",
+              "url": "https://english.news.cn/20261023/ab0e365dfca54ec8afccc3b9291ea425/c.html",
+              "source_id": "english.news.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:16:46.655280+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7694993019104004,
+            "article": {
+              "title": "Xi orders all-out rescue efforts after 7.0-magnitude earthquake in Xizang",
+              "url": "https://en.people.cn/n3/2026/1023/c90000-20511671.html",
+              "source_id": "en.people.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:16:43.110979+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.75680011510849,
+            "article": {
+              "title": "中國西藏那曲7級地震增至16死32傷 逾339間房屋倒塌",
+              "url": "https://www.singtaousa.com/2026/10/22/news/china/china-earthquake-tibet/",
+              "source_id": "singtaousa.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:16:56.593526+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 48.41467104531908,
+        "size": 12,
+        "n_sources": 12,
+        "n_continents": 5,
+        "continents": [
+          "China",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "North America"
+        ],
+        "coherence": 0.8570916652679443,
+        "title": "First tanker with Russian diesel under Trump deal heads to US, Reuters reports.",
+        "central_article": {
+          "title": "First tanker with Russian diesel under Trump deal heads to US, Reuters reports.",
+          "url": "https://kyivindependent.com/first-tanker-with-russian-diesel-under-trump-deal-heads-to-us-reuters-reports/",
+          "source_id": "kyivindependent.com",
+          "continent": "Europe East",
+          "published_at": null,
+          "scraped_at_utc": "2026-10-23T12:14:59.646340+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9079455137252808,
+            "article": {
+              "title": "First tanker with Russian diesel under Trump deal heads to US, Reuters reports.",
+              "url": "https://kyivindependent.com/first-tanker-with-russian-diesel-under-trump-deal-heads-to-us-reuters-reports/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:14:59.646340+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9046423435211182,
+            "article": {
+              "title": "Tanker carrying Russian diesel heads to US after Trump-Putin deal",
+              "url": "https://georgiatoday.ge/tanker-carrying-russian-diesel-heads-to-us-after-trump-putin-deal/",
+              "source_id": "georgiatoday.ge",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:15:20.657533+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9015712141990662,
+            "article": {
+              "title": "Erster russischer Diesel-Tanker ist auf dem Weg in die USA",
+              "url": "https://www.diepresse.com/41386050/erster-russischer-diesel-tanker-ist-auf-dem-weg-in-die-usa",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:12:06.418119+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8976566791534424,
+            "article": {
+              "title": "Russian Diesel Tanker Heads to New York After Trump-Putin Deal",
+              "url": "https://www.kyivpost.com/post/87980",
+              "source_id": "kyivpost.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:14:58.261300+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8803852796554565,
+            "article": {
+              "title": "Skib med russisk diesel sætter kurs mod New York",
+              "url": "https://sermitsiaq.ag/samfund/skib-med-russisk-diesel-saetter-kurs-mod-new-york/2439540",
+              "source_id": "sermitsiaq.ag",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:12:32.061561+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8799009323120117,
+            "article": {
+              "title": "Russian tanker heads for New York with 40,000 tons of diesel after Trump-Putin deal",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/russian-diesel-tanker-trump-new-york-b3072005.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:11:41.877886+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8512881994247437,
+            "article": {
+              "title": "Just nu Rysk diesel på väg mot USA",
+              "url": "https://www.svt.se/nyheter/utrikes/direktrapport-forsamrat-sakerhetslage?inlagg=6ea9cc79d02a1e192ca32b9ec9c2a509",
+              "source_id": "svt.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:12:22.314665+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8404445648193359,
+            "article": {
+              "title": "一艘装载俄罗斯柴油的油轮启程前往美国",
+              "url": "https://www.xinhuanet.com/20261023/3e204183645141e79f0e9b6652a3c9d7/c.html",
+              "source_id": "xinhuanet.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:16:48.809938+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8162810802459717,
+            "article": {
+              "title": "Rusia envía el primer petrolero con diésel a Estados Unidos, según un medio independiente",
+              "url": "https://www.14ymedio.com/internacional/rusia-envia-primer-petrolero-diesel_1_1132301.html",
+              "source_id": "14ymedio.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:13:03.182945+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8149678111076355,
+            "article": {
+              "title": "Первый танкер с российским дизелем отправился в США. Судном управляет компания греческого миллиардера 23 октября",
+              "url": "https://novayagazeta.eu/articles/2026/10/23/pervyi-tanker-s-rossiiskim-dizelem-otpravilsia-v-ssha-sudnom-upravliaet-kompaniia-grecheskogo-milliardera-news",
+              "source_id": "novayagazeta.eu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:15:02.088177+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8095995187759399,
+            "article": {
+              "title": "Un pétrolier transport du gazole russe navigue vers New York, une première depuis l’accord entre la Russie et les Etats-Unis",
+              "url": "https://www.lemonde.fr/international/article/2026/10/23/un-petrolier-transport-du-gazole-russe-navigue-vers-new-york-une-premiere-depuis-l-accord-entre-la-russie-et-les-etats-unis_6799069_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:12:36.224280+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7804164886474609,
+            "article": {
+              "title": "В Кремле подтвердили отправку в США первого танкера с дизелем В мире",
+              "url": "http://belta.by/world/view/v-kremle-podtverdili-otpravku-v-ssha-pervogo-tankera-s-dizelem-807426-2026/",
+              "source_id": "belta.by",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:15:39.173785+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 26.66966884217008,
+        "size": 12,
+        "n_sources": 8,
         "n_continents": 5,
         "continents": [
           "East Asia",
+          "Europe East",
           "Europe North",
           "Europe South",
-          "North America",
           "South Asia"
         ],
-        "coherence": 0.790569543838501,
+        "coherence": 0.8189294934272766,
         "title": "¿Qué es PHP y por qué generó una falla de seguridad en internet que desató una alerta global?",
         "central_article": {
           "title": "¿Qué es PHP y por qué generó una falla de seguridad en internet que desató una alerta global?",
@@ -1211,660 +1640,348 @@
           "source_id": "bbc.com",
           "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-10-22T21:57:55.630779+00:00"
+          "scraped_at_utc": "2026-10-23T12:13:00.141414+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8789864778518677,
+            "sim_to_centroid": 0.8997880220413208,
             "article": {
               "title": "¿Qué es PHP y por qué generó una falla de seguridad en internet que desató una alerta global?",
               "url": "https://www.bbc.com/mundo/articles/cmly0k9y9p1vo",
               "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:55.630779+00:00"
+              "scraped_at_utc": "2026-10-23T12:13:00.141414+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8693804740905762,
+            "sim_to_centroid": 0.8834354877471924,
             "article": {
-              "title": "What is PHP, and why are security flaws putting European government websites at risk?",
-              "url": "https://kathmandupost.com/world/2026/10/22/what-is-php-and-why-are-security-flaws-putting-european-government-websites-at-risk",
+              "title": "What is PHP and why did it spark a global cyber-security scramble?",
+              "url": "https://www.bbc.com/news/articles/c3qjnwye0ep5o",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:11:40.522347+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8404306173324585,
+            "article": {
+              "title": "Hacking attempts surge as firms race to patch PHP flaws",
+              "url": "https://kathmandupost.com/world/2026/10/23/hacking-attempts-surge-as-firms-race-to-patch-php-flaws",
               "source_id": "kathmandupost.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:03:09.901496+00:00"
+              "scraped_at_utc": "2026-10-23T12:17:35.002450+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8369364738464355,
+            "sim_to_centroid": 0.8364785313606262,
             "article": {
-              "title": "Especialista explica cómo protegerse ante falla en sistema PHP que amenazaría a 70% de sitios web del mundo",
-              "url": "https://www.nacion.com/revista-dominical/especialista-explica-como-protegerse-ante-falla-en/W5XXPFV6BBFEJIESQTAD5SNAW4/story/",
-              "source_id": "nacion.com",
-              "continent": "North America",
+              "title": "Banks and government agencies take websites offline over PHP security flaws",
+              "url": "https://kathmandupost.com/money/2026/10/23/banks-and-government-agencies-take-websites-offline-over-php-security-flaws",
+              "source_id": "kathmandupost.com",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:59.954840+00:00"
+              "scraped_at_utc": "2026-10-23T12:17:35.002450+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8290102481842041,
-            "article": {
-              "title": "PHP-Bedrohung: Was über die Sicherheitslücke bekannt ist",
-              "url": "https://www.tagesschau.de/wirtschaft/digitales/php-panne-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:56:42.611465+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8150906562805176,
-            "article": {
-              "title": "PHPの脆弱性公開から半日で「攻撃」数百万件 公開前から試行も",
-              "url": "https://www.asahi.com/articles/ASVBQ3515VBQUTIL01TM.html?iref=comtop_7_01",
-              "source_id": "asahi.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:03:51.894736+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8140532374382019,
-            "article": {
-              "title": "Millionen von Hackerangriffen: So kam es zum Fiasko um die PHP-Sicherheitslücke",
-              "url": "https://www.nzz.ch/technologie/millionen-von-hacker-angriffen-so-kam-es-zum-fiasko-um-die-php-sicherheitsluecke-ld.10041370",
-              "source_id": "nzz.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:56:59.782908+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8120184540748596,
+            "sim_to_centroid": 0.8249253034591675,
             "article": {
               "title": "Análisis: \"La vulnerabilidad de PHP es el equivalente cibernético de una bomba sin explotar\"",
               "url": "https://www.bbc.com/mundo/articles/ck30evyvlprqo",
               "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:55.630779+00:00"
+              "scraped_at_utc": "2026-10-23T12:13:00.141414+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8066663146018982,
+            "sim_to_centroid": 0.8239690065383911,
             "article": {
-              "title": "Failles PHP : que faire pour préserver votre site ?",
-              "url": "https://www.rtbf.be/article/failles-php-que-faire-pour-preserver-votre-site-11804254",
-              "source_id": "rtbf.be",
+              "title": "Millionen von Hackerangriffen: So kam es zum Fiasko um die PHP-Sicherheitslücke",
+              "url": "https://www.nzz.ch/technologie/millionen-von-hacker-angriffen-so-kam-es-zum-fiasko-um-die-php-sicherheitsluecke-ld.10041370",
+              "source_id": "nzz.ch",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:40.405283+00:00"
+              "scraped_at_utc": "2026-10-23T12:12:11.918919+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.805797815322876,
-            "article": {
-              "title": "PHP脆弱性、10年以上気付かず放置 最先端AIが発見",
-              "url": "https://www.asahi.com/articles/ASVBP6RLSVBPSFVU2GQM.html?iref=comtop_ThemeLeftS_03",
-              "source_id": "asahi.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:03:51.894736+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8052275776863098,
-            "article": {
-              "title": "De Dag: de kwetsbaarheid van PHP, 'de onderbroek' van het internet",
-              "url": "https://nos.nl/artikel/2636214-podcast-de-dag-de-kwetsbaarheid-van-php-de-onderbroek-van-het-internet",
-              "source_id": "nos.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:56:34.118324+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8042025566101074,
-            "article": {
-              "title": "Vent de panique sur internet après la découverte de failles dans le langage PHP Sciences-Tech.",
-              "url": "https://www.rts.ch/info/sciences-tech/2026/article/cybersecurite-deux-failles-majeures-decouvertes-dans-php-29392652.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:35.602573+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.802085280418396,
-            "article": {
-              "title": "プログラミング言語「PHP」に重大な脆弱性 各国でサイト休止",
-              "url": "https://www.asahi.com/articles/ASVBP4CXWVBPUTIL02TM.html?iref=comtop_ThemeLeftS_01",
-              "source_id": "asahi.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:03:51.894736+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7960914969444275,
-            "article": {
-              "title": "Welche wirtschaftlichen Folgen die PHP-Sicherheitslücke haben könnte",
-              "url": "https://www.tagesschau.de/wirtschaft/digitales/interview-php-sicherheitsluecke-folgen-unternehmen-verbraucher-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:56:42.611465+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7919020652770996,
+            "sim_to_centroid": 0.8054550886154175,
             "article": {
               "title": "How bad is the PHP AI hack? – experts explain",
               "url": "https://www.channel4.com/news/how-bad-is-the-php-ai-hack-experts-explain",
               "source_id": "channel4.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:56:29.854422+00:00"
+              "scraped_at_utc": "2026-10-23T12:11:45.838410+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7860649824142456,
+            "sim_to_centroid": 0.8046656847000122,
             "article": {
-              "title": "Die PHP-Sicherheitslücke ist alt – die KI hat sie wieder entdeckt",
-              "url": "https://www.diepresse.com/41383717/die-php-sicherheitsluecke-ist-alt-die-ki-hat-sie-wieder-entdeckt",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
+              "title": "Vent de panique sur internet après la découverte de failles dans le langage PHP Sciences-Tech.",
+              "url": "https://www.rts.ch/info/sciences-tech/2026/article/cybersecurite-deux-failles-majeures-decouvertes-dans-php-29392652.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:56:53.225545+00:00"
+              "scraped_at_utc": "2026-10-23T12:12:42.614987+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7824608087539673,
+            "sim_to_centroid": 0.7976986169815063,
             "article": {
-              "title": "Singapore organisations urged to patch critical PHP flaws immediately amid cyberattack threat",
-              "url": "https://www.channelnewsasia.com/singapore/php-vulnerabilities-csa-singapore-firms-cybersecurity-6482006",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
+              "title": "Мир пытается решить проблемы ПО PHP: реакция мировых СМИ",
+              "url": "https://www.kommersant.ru/doc/9045547",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:03:47.897356+00:00"
+              "scraped_at_utc": "2026-10-23T12:15:10.591311+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7713186740875244,
+            "sim_to_centroid": 0.7886273860931396,
             "article": {
-              "title": "PHP flaw: Why European websites went dark and what it means for you",
-              "url": "https://www.euronews.com/2026/10/22/php-security-flaw-why-websites-across-europe-went-dark-and-what-it-means-for-you",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
+              "title": "ФСБ велела отключить сайты критической инфраструктуры России из-за уязвимостей в языке программирования PHP",
+              "url": "https://meduza.io/news/2026/10/23/fsb-velela-otklyuchit-sayty-kriticheskoy-infrastruktury-rossii-iz-za-uyazvimostey-v-yazyke-programmirovaniya-php",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:56:31.497282+00:00"
+              "scraped_at_utc": "2026-10-23T12:15:00.876279+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7641697525978088,
-            "article": {
-              "title": "Rush is on to patch software vulnerability that could impact 70% of websites worldwide",
-              "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/22/rush-is-on-to-patch-software-vulnerability-that-could-impact-70-of-websites-worldwide",
-              "source_id": "thestar.com.my",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:04:11.781977+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7565518021583557,
+            "sim_to_centroid": 0.7882475852966309,
             "article": {
               "title": "Zoe Kleinman: PHP is the cyber equivalent of an unexploded bomb",
               "url": "https://www.bbc.com/news/articles/cw98z6qlyvg3o",
               "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:56:21.810543+00:00"
+              "scraped_at_utc": "2026-10-23T12:11:40.522347+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.741666316986084,
+            "sim_to_centroid": 0.7334326505661011,
             "article": {
-              "title": "政府サイト一部停止、ウィキペディアも影響 PHP対応追われる各国",
-              "url": "https://www.asahi.com/articles/ASVBQ2WF8VBQUHBI00MM.html?iref=comtop_ThemeLeftS_02",
+              "title": "【まとめてわかる】PHPとは？何が起きた？影響は？悪用されると…",
+              "url": "https://www.asahi.com/articles/ASVBQ2JPXVBQULLI00LM.html?iref=comtop_ThemeLeftS_03",
               "source_id": "asahi.com",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:03:51.894736+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7386029958724976,
-            "article": {
-              "title": "Thailand races to protect data after PHP alert",
-              "url": "https://www.bangkokpost.com/thailand/general/3341629/thailand-races-to-protect-data-after-php-alert",
-              "source_id": "bangkokpost.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:04:05.034442+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7353752851486206,
-            "article": {
-              "title": "পিএইচপির ত্রুটি ঠিক করতে বিশ্বজুড়ে দৌড়ঝাঁপ, লাখ লাখ হ্যাকিংয়ের চেষ্টা",
-              "url": "https://www.prothomalo.com/world/vt0owxi65w",
-              "source_id": "prothomalo.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:02:57.739040+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.731029212474823,
-            "article": {
-              "title": "Sitios web de todo el mundo quedan desactivados tras detectarse una falla de seguridad crítica en internet",
-              "url": "https://www.bbc.com/mundo/articles/cq3djnk48ly8o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:55.630779+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6989801526069641,
-            "article": {
-              "title": "‘Vertrouw me maar, bro.’ Een uiterst vaag bericht op een forum voor techneuten luidde de PHP-onrust in",
-              "url": "https://www.nrc.nl/nieuws/2026/10/22/bij-php-viel-het-lek-niet-meer-in-stilte-te-dichten-a4939542",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:56:35.950171+00:00"
+              "scraped_at_utc": "2026-10-23T12:18:15.240559+00:00"
             }
           }
         ]
       },
       {
-        "score": 36.72648609121256,
-        "size": 12,
-        "n_sources": 11,
+        "score": 25.972601459805535,
+        "size": 7,
+        "n_sources": 7,
         "n_continents": 5,
         "continents": [
           "Europe East",
           "Europe North",
           "Europe South",
-          "Oceania",
+          "Middle East",
           "South America"
         ],
-        "coherence": 0.8192330002784729,
-        "title": "France bans or curbs protests in bid to prevent new weekend unrest",
+        "coherence": 0.8403388261795044,
+        "title": "Serbia’s snap election: Can student-led protests end Vucic’s grip on power?",
         "central_article": {
-          "title": "France bans or curbs protests in bid to prevent new weekend unrest",
-          "url": "https://www.france24.com/en/france/20261022-france-bans-or-curbs-protests-in-bid-to-prevent-new-wave-of-unrest",
-          "source_id": "france24.com",
-          "continent": "Europe South",
+          "title": "Serbia’s snap election: Can student-led protests end Vucic’s grip on power?",
+          "url": "https://www.aljazeera.com/news/2026/10/23/serbias-snap-election-whats-at-stake-and-can-students-unseat-vucic",
+          "source_id": "aljazeera.com",
+          "continent": "Middle East",
           "published_at": null,
-          "scraped_at_utc": "2026-10-22T21:57:33.640467+00:00"
+          "scraped_at_utc": "2026-10-23T12:14:09.337109+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8757497072219849,
+            "sim_to_centroid": 0.8867787718772888,
             "article": {
-              "title": "France bans or curbs protests in bid to prevent new weekend unrest",
-              "url": "https://www.france24.com/en/france/20261022-france-bans-or-curbs-protests-in-bid-to-prevent-new-wave-of-unrest",
-              "source_id": "france24.com",
-              "continent": "Europe South",
+              "title": "Serbia’s snap election: Can student-led protests end Vucic’s grip on power?",
+              "url": "https://www.aljazeera.com/news/2026/10/23/serbias-snap-election-whats-at-stake-and-can-students-unseat-vucic",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:33.640467+00:00"
+              "scraped_at_utc": "2026-10-23T12:14:09.337109+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.861518383026123,
+            "sim_to_centroid": 0.8814426064491272,
             "article": {
-              "title": "France bans ‘illegitimate’ protests this weekend after riots",
-              "url": "https://www.thetimes.com/world/europe/article/france-braces-for-indefinite-strikes-as-unions-join-protesters-vpgk8g307",
-              "source_id": "thetimes.com",
+              "title": "Protesterende studenten tegenover Vučić bij verkiezingen Servië",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5660455/verkiezingen-servie-vucic-studentenlijst-protesten",
+              "source_id": "rtl.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:56:25.378281+00:00"
+              "scraped_at_utc": "2026-10-23T12:11:53.261918+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8476266860961914,
+            "sim_to_centroid": 0.87565016746521,
             "article": {
-              "title": "More police to be deployed this weekend as French authorities attempt protest ban",
-              "url": "https://www.sbs.com.au/news/article/french-authorities-seek-to-ban-or-curb-fresh-protests/s84lf5s7y",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:58:53.683663+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8448808193206787,
-            "article": {
-              "title": "Macron tells local authorities to ban non-union protests on Saturday",
-              "url": "https://www.politico.eu/article/emmanuel-macron-france-non-union-protests-banned-saturday/",
+              "title": "Serbia’s protesting students mount serious challenge to Vučić’s power",
+              "url": "https://www.politico.eu/article/serbia-student-protests-challenge-aleksandar-vucic-power-poll/",
               "source_id": "politico.eu",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:56:32.909186+00:00"
+              "scraped_at_utc": "2026-10-23T12:11:48.565304+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8417494893074036,
+            "sim_to_centroid": 0.8615717887878418,
             "article": {
-              "title": "Macron anuncia restricciones a manifestaciones en Francia y convoca un Consejo de Defensa",
-              "url": "https://www.rtve.es/noticias/20261022/macron-anuncia-restricciones-manifestaciones-francia-convoca-consejo-defensa/17279043.shtml",
-              "source_id": "rtve.es",
-              "continent": "Europe South",
+              "title": "Studentenbewegung: Zehntausende protestieren vor Neuwahl in Serbien",
+              "url": "https://www.tagesschau.de/ausland/europa/serbien-proteste-158.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:47.010330+00:00"
+              "scraped_at_utc": "2026-10-23T12:11:57.413237+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8402361273765564,
+            "sim_to_centroid": 0.8506506681442261,
             "article": {
-              "title": "Macron veta protesto 'ilegítimo', e lojas se preparam em meio a temor de nova onda de violência",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/10/macron-proibe-protestos-ilegitimos-e-lojas-se-preparam-em-meio-a-temor-de-nova-onda-de-violencia.shtml",
-              "source_id": "folha.uol.com.br",
+              "title": "'Sérvia ou a Máfia': fortalecido nas ruas, movimento estudantil ameaça poder de Vučić nas eleições sérvias",
+              "url": "https://oglobo.globo.com/mundo/noticia/2026/10/23/servia-ou-a-mafia-fortalecido-nas-ruas-movimento-estudantil-ameaca-poder-de-vucic-nas-eleicoes-servias.ghtml",
+              "source_id": "oglobo.globo.com",
               "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:58:18.470326+00:00"
+              "scraped_at_utc": "2026-10-23T12:13:23.484183+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8343483209609985,
+            "sim_to_centroid": 0.7713761329650879,
             "article": {
-              "title": "Macron kondigt landelijk demonstratieverbod aan, rechter laat protestmars van studenten in Parijs alsnog doorgaan",
-              "url": "https://www.nrc.nl/nieuws/2026/10/22/macron-kondingt-landelijk-demonstratieverbod-aan-rechter-laat-protestmars-van-studenten-in-parijs-alsnog-doorgaan-a4939554",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:56:35.950171+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8227621912956238,
-            "article": {
-              "title": "Emmanuel Macron tente de rétablir l’autorité en interdisant les manifestations",
-              "url": "https://www.lesoir.be/778544/article/2026-10-22/emmanuel-macron-tente-de-retablir-lautorite-en-interdisant-les-manifestations",
-              "source_id": "lesoir.be",
+              "title": "Serbia al voto: la lista «Gli studenti vincono» (senza programma né candidato premier) promette di rottamare Vucic",
+              "url": "https://www.corriere.it/esteri/26_ottobre_23/serbia-voto-lista-studenti-vucic-a4c522cd-e1fc-4dd6-9ab5-8c3529860xlk.shtml",
+              "source_id": "corriere.it",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:42.081909+00:00"
+              "scraped_at_utc": "2026-10-23T12:12:57.523536+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8093582391738892,
+            "sim_to_centroid": 0.7549021244049072,
             "article": {
-              "title": "Demonstraties verboden in delen van Parijs en andere steden, Macron haalt uit naar ‘domme opmerkingen’ van andere regeringsleiders",
-              "url": "https://www.nrc.nl/nieuws/2026/10/22/demonstraties-verboden-in-delen-van-parijs-en-andere-steden-macron-haalt-uit-naar-domme-opmerkingen-van-andere-regeringsleiders-a4939525",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:56:35.950171+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7974720001220703,
-            "article": {
-              "title": "Francia prohíbe todas las manifestaciones no sindicales",
-              "url": "https://www.lavanguardia.com/internacional/20261022/11665562/francia-prohibe-todas-manifestaciones-sindicales.html",
-              "source_id": "lavanguardia.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:43.889663+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7487981915473938,
-            "article": {
-              "title": "Emmanuel Macron restreint les manifestations en France avant un nouveau samedi de mobilisation Colère sociale aujourd'hui à",
-              "url": "https://www.rts.ch/info/monde/2026/article/manifestations-en-france-emmanuel-macron-serre-la-vis-29393512.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:35.602573+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7062963843345642,
-            "article": {
-              "title": "French police to sue state over riots",
-              "url": "https://www.rt.com/news/647528-france-police-sue-government/",
-              "source_id": "rt.com",
+              "title": "Multiple Arrests Across Serbia Ahead of Crucial Elections",
+              "url": "https://balkaninsight.com/2026/10/21/multiple-arrests-across-serbia-ahead-of-crucial-elections/bi/",
+              "source_id": "balkaninsight.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:00:08.698168+00:00"
+              "scraped_at_utc": "2026-10-23T12:15:33.902895+00:00"
             }
           }
         ]
       },
       {
-        "score": 34.77534052034584,
-        "size": 10,
-        "n_sources": 9,
-        "n_continents": 6,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "South Asia"
-        ],
-        "coherence": 0.8119848966598511,
-        "title": "США и Израиль собираются возобновить удары по Ирану после американских выборов",
-        "central_article": {
-          "title": "США и Израиль собираются возобновить удары по Ирану после американских выборов",
-          "url": "https://meduza.io/news/2026/10/22/ssha-i-izrail-sobirayutsya-vozobnovit-udary-po-iranu-posle-amerikanskih-vyborov",
-          "source_id": "meduza.io",
-          "continent": "Europe East",
-          "published_at": null,
-          "scraped_at_utc": "2026-10-22T22:00:00.855669+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8924523591995239,
-            "article": {
-              "title": "США и Израиль собираются возобновить удары по Ирану после американских выборов",
-              "url": "https://meduza.io/news/2026/10/22/ssha-i-izrail-sobirayutsya-vozobnovit-udary-po-iranu-posle-amerikanskih-vyborov",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:00:00.855669+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8598449230194092,
-            "article": {
-              "title": "Will the Iran war resume before the US and Israeli elections?",
-              "url": "https://www.thenationalnews.com/news/us/2026/10/22/will-the-iran-war-resume-before-the-us-and-israeli-elections/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:59:10.057450+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8387575745582581,
-            "article": {
-              "title": "Despite election fears, US and Israel agree: let’s attack Iran again",
-              "url": "https://www.thetimes.com/world/middle-east/article/trump-netanyahu-iran-israel-election-war-jptfzlbgj",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:56:25.378281+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8324794769287109,
-            "article": {
-              "title": "Are fresh US-Israeli strikes on Iran in the pipeline?",
-              "url": "https://www.france24.com/en/tv-shows/press-review/20261022-are-fresh-us-israeli-strikes-on-iran-in-the-pipeline",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:33.640467+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8236746788024902,
-            "article": {
-              "title": "U.S. Reportedly Considering Major Strikes on Iran After Midterms",
-              "url": "https://time.com/article/2026/10/22/us-israel-iran-war-strikes-midterms/",
-              "source_id": "time.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:01:53.787243+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8070253133773804,
-            "article": {
-              "title": "मिड-टर्म इलेक्शन के बाद ईरान पर फिर हमला करेंगे अमेरिका-इजरायल, तेहरान ने दी फादर ऑफ ऑल बॉम्ब्स की धमकी",
-              "url": "https://www.jagran.com/world/middle-east-us-and-israel-will-attack-iran-again-after-the-mid-term-elections-tehran-warns-40413470.html",
-              "source_id": "jagran.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:02:51.998748+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7844949960708618,
-            "article": {
-              "title": "নিউইয়র্ক টাইমসের প্রতিবেদন যুক্তরাষ্ট্রে মধ্যবর্তী নির্বাচনের পর আবার ইরানে বড় হামলার ছক",
-              "url": "https://www.prothomalo.com/world/middle-east/a6qzup6q1s",
-              "source_id": "prothomalo.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:02:57.739040+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7770061492919922,
-            "article": {
-              "title": "Can Netanyahu bomb Iran as a caretaker PM? How US and Israeli elections could affect war",
-              "url": "https://www.thenationalnews.com/news/mena/2026/10/22/can-netanyahu-bomb-iran-as-a-caretaker-pm-how-us-and-israeli-elections-could-affect-war/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:59:10.057450+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7691556215286255,
-            "article": {
-              "title": "US midterms: Where key candidates stand on Israel, Gaza and Iran",
-              "url": "https://www.newarab.com/analysis/us-midterms-where-key-candidates-stand-israel-gaza-and-iran",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:59:25.841024+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7349576950073242,
-            "article": {
-              "title": "Wie kiest Israël als volgende premier?",
-              "url": "https://fd.nl/economie/1616200/wie-kiest-israel-als-volgende-premier",
-              "source_id": "fd.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:56:40.331868+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 28.257046898381777,
-        "size": 6,
-        "n_sources": 6,
+        "score": 24.78633470515573,
+        "size": 7,
+        "n_sources": 7,
         "n_continents": 5,
         "continents": [
+          "China",
+          "East Asia",
+          "Europe East",
           "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "South America"
+          "Europe South"
         ],
-        "coherence": 0.8880290985107422,
-        "title": "Trump accuses LeBron James of disrespecting US during national anthem",
+        "coherence": 0.830988883972168,
+        "title": "Crises du logement, de l’éducation et du coût de la vie : les mouvements de contestation s’intensifient en Europe",
         "central_article": {
-          "title": "Trump accuses LeBron James of disrespecting US during national anthem",
-          "url": "https://www.usatoday.com/story/news/politics/2026/10/22/trump-lebron-james-apology-naitonal-anthem/92381357007/",
-          "source_id": "usatoday.com",
-          "continent": "North America",
+          "title": "Crises du logement, de l’éducation et du coût de la vie : les mouvements de contestation s’intensifient en Europe",
+          "url": "https://www.lemonde.fr/international/article/2026/10/23/crise-du-logement-de-l-education-et-du-cout-de-la-vie-les-mouvements-de-contestation-s-intensifient-en-europe_6799045_3210.html",
+          "source_id": "lemonde.fr",
+          "continent": "Europe South",
           "published_at": null,
-          "scraped_at_utc": "2026-10-22T22:01:49.331478+00:00"
+          "scraped_at_utc": "2026-10-23T12:12:36.224280+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9345355033874512,
+            "sim_to_centroid": 0.8882743120193481,
             "article": {
-              "title": "Trump accuses LeBron James of disrespecting US during national anthem",
-              "url": "https://www.usatoday.com/story/news/politics/2026/10/22/trump-lebron-james-apology-naitonal-anthem/92381357007/",
-              "source_id": "usatoday.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T22:01:49.331478+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9324220418930054,
-            "article": {
-              "title": "\"Una vergüenza total\": Trump arremete contra LeBron James por su actitud durante de himno de EE.UU.",
-              "url": "https://www.emol.com/noticias/Internacional/2026/10/22/1214925/trump-critica-lebron-himno-eeuu.html",
-              "source_id": "emol.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:58:15.511204+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9242817163467407,
-            "article": {
-              "title": "\"Een complete schande\": Amerikaans president Donald Trump haalt uit naar LeBron James na beweging tijdens volkslied",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/10/22/hij-toont-geen-respect-voor-ons-land-amerikaans-president-don/",
-              "source_id": "vrt.be",
+              "title": "Crises du logement, de l’éducation et du coût de la vie : les mouvements de contestation s’intensifient en Europe",
+              "url": "https://www.lemonde.fr/international/article/2026/10/23/crise-du-logement-de-l-education-et-du-cout-de-la-vie-les-mouvements-de-contestation-s-intensifient-en-europe_6799045_3210.html",
+              "source_id": "lemonde.fr",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:37.467757+00:00"
+              "scraped_at_utc": "2026-10-23T12:12:36.224280+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9220985174179077,
+            "sim_to_centroid": 0.8867604732513428,
             "article": {
-              "title": "Trump says LeBron James showed disrespect during US national anthem",
-              "url": "https://www.jpost.com/international/article-912623",
-              "source_id": "jpost.com",
-              "continent": "Middle East",
+              "title": "Europe faces risk of widespread unrest amid rising living costs",
+              "url": "https://www.azernews.az/region/266058.html",
+              "source_id": "azernews.az",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:59:11.545826+00:00"
+              "scraped_at_utc": "2026-10-23T12:15:28.851110+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8822553753852844,
+            "sim_to_centroid": 0.878205418586731,
             "article": {
-              "title": "Özür bekliyor Trump'tan LeBron James'e 'milli marş' tepkisi",
-              "url": "https://www.cumhuriyet.com.tr/dunya/abd-baskani-trump-tan-lebron-james-e-milli-mars-tepkisi-ozur-bekliyor-2549420",
-              "source_id": "cumhuriyet.com.tr",
-              "continent": "Middle East",
+              "title": "Europe gripped by cost-of-living turmoil",
+              "url": "https://www.chinadaily.com.cn/a/202610/23/WS6ada6a5de4b06d4aa0564491.html",
+              "source_id": "chinadaily.com.cn",
+              "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:59:22.314819+00:00"
+              "scraped_at_utc": "2026-10-23T12:16:44.517435+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7325809597969055,
+            "sim_to_centroid": 0.7991306781768799,
             "article": {
-              "title": "Frank Franklin II/AP Trumps utspel – sågar stjärnan: ”Total skam” USA:s president ger sig åter på basketlegendaren.",
-              "url": "https://www.dn.se/sport/trump-sagar-superstjarnan-total-skam/",
-              "source_id": "dn.se",
+              "title": "歐洲暴力示威潮蔓延 生活成本飆、援烏資源排擠民生積累民怨",
+              "url": "https://www.cna.com.tw/news/aopl/202610200045.aspx",
+              "source_id": "cna.com.tw",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:18:37.949560+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7970938086509705,
+            "article": {
+              "title": "Napříč Evropou přibývá demonstrací, za nimiž stojí nespokojená mládež a boj proti drahotě",
+              "url": "https://ct24.ceskatelevize.cz/clanek/svet/napric-evropou-pribyva-demonstraci-za-nimiz-stoji-nespokojena-mladez-a-boj-proti-drahote-378912",
+              "source_id": "ct24.ceskatelevize.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:14:48.801309+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7915531396865845,
+            "article": {
+              "title": "Europe’s dangerous winter of discontent",
+              "url": "https://www.politico.eu/article/a-dangerous-winter-of-revolt-is-coming-for-europe/",
+              "source_id": "politico.eu",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-22T21:57:05.862073+00:00"
+              "scraped_at_utc": "2026-10-23T12:11:48.565304+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7759040594100952,
+            "article": {
+              "title": "В преддверии выборов в Испании, Франции, Греции и Италии Европу сотрясает множество кризисов - СМИ В мире",
+              "url": "http://belta.by/world/view/v-preddverii-vyborov-v-ispanii-frantsii-gretsii-i-italii-evropu-sotrjasaet-mnozhestvo-krizisov-smi-807430-2026/",
+              "source_id": "belta.by",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-23T12:15:39.173785+00:00"
             }
           }
         ]
       }
     ],
-    "created_at_utc": "2026-10-22T22:30:01Z"
+    "created_at_utc": "2026-10-23T12:49:39Z"
   }
 ]
