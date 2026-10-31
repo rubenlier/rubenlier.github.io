@@ -1,28 +1,318 @@
 [
   {
-    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1793453964",
-    "n_items": 2492,
-    "n_clusters": 2076,
+    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1793485678",
+    "n_items": 2471,
+    "n_clusters": 2036,
     "clusters": [
       {
-        "score": 155.25888094148172,
+        "score": 117.41858509399337,
         "size": 24,
-        "n_sources": 21,
-        "n_continents": 11,
+        "n_sources": 23,
+        "n_continents": 8,
+        "continents": [
+          "China",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.8101618885993958,
+        "title": "Tension and clashes as hundreds of thousands protest again in France",
+        "central_article": {
+          "title": "Tension and clashes as hundreds of thousands protest again in France",
+          "url": "https://www.aljazeera.com/news/2026/10/31/tension-and-clashes-as-hundreds-of-thousands-protest-again-in-france",
+          "source_id": "aljazeera.com",
+          "continent": "Middle East",
+          "published_at": null,
+          "scraped_at_utc": "2026-10-31T21:58:01.855166+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8647276163101196,
+            "article": {
+              "title": "Tension and clashes as hundreds of thousands protest again in France",
+              "url": "https://www.aljazeera.com/news/2026/10/31/tension-and-clashes-as-hundreds-of-thousands-protest-again-in-france",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:58:01.855166+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8614296317100525,
+            "article": {
+              "title": "Frankreich: 320.000 Menschen bei Protesten auf der Straße",
+              "url": "https://www.zdfheute.de/politik/ausland/frankreich-proteste-gegen-hohe-kosten-grossstaedte-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:55:50.618680+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8555935621261597,
+            "article": {
+              "title": "Thousands turn up for France protests amid tight security",
+              "url": "https://www.thedailystar.net/news/world/europe/news/thousands-turn-france-protests-amid-tight-security-4312106",
+              "source_id": "thedailystar.net",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T22:01:11.855706+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8555370569229126,
+            "article": {
+              "title": "Quase meio milhão de pessoas se unem em protestos na França hoje, dizem organizadores; veja",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/10/quase-meio-milhao-de-pessoas-protestam-na-franca-neste-sabado-segundo-organizadores.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:57:10.186983+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8534964323043823,
+            "article": {
+              "title": "Víkendových protestů ve Francii se zúčastnilo 320 tisíc lidí. Demonstruje se i v Německu",
+              "url": "https://www.idnes.cz/zpravy/zahranicni/francie-protesty-tisice-zatykani-skolstvi-policie.A261031_161840_zahranicni_votr",
+              "source_id": "idnes.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:58:37.840970+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8498479723930359,
+            "article": {
+              "title": "320.000 demonstrieren bei Protesttag in Frankreich",
+              "url": "https://www.diepresse.com/41408218/320000-demonstrieren-bei-protesttag-in-frankreich",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:55:48.204919+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.849761962890625,
+            "article": {
+              "title": "Hundreds of thousands of protesters march across France for third week in a row",
+              "url": "https://www.politico.eu/article/france-youth-protests-cost-of-living-spread-europe/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:55:25.277245+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8461554050445557,
+            "article": {
+              "title": "Erneut Proteste und Zusammenstöße in Frankreich",
+              "url": "https://www.tagesschau.de/ausland/frankreich-proteste-242.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:55:35.271137+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8321605920791626,
+            "article": {
+              "title": "Sob forte esquema de segurança, protestos na França reúnem 320 mil pessoas, diz governo",
+              "url": "https://oglobo.globo.com/mundo/noticia/2026/10/31/franca-mobiliza-esquema-de-seguranca-diante-de-protestos-previstos-para-este-sabado.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:57:14.873905+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8278692960739136,
+            "article": {
+              "title": "Some 320,000 demonstrators take part in largely peaceful protests across France",
+              "url": "https://www.france24.com/en/france/20261031-some-320-000-demonstrators-take-part-in-largely-peaceful-protests-across-france",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:56:26.475041+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8260392546653748,
+            "article": {
+              "title": "نصف مليون متظاهر في فرنسا والغضب يتوسع نحو عشرات المدن الأوروبية",
+              "url": "https://www.aljazeera.net/news/2026/10/31/عاجل-مراسل-الجزيرة-مواجهات-بين-الشرطة-2",
+              "source_id": "aljazeera.net",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:58:05.835548+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8164781332015991,
+            "article": {
+              "title": "Proteste 320.000 bei Protesten in Frankreich",
+              "url": "https://www.handelsblatt.com/politik/international/proteste-320.000-bei-protesten-in-frankreich-weniger-demonstranten-als-in-vorwochen/100266355.html",
+              "source_id": "handelsblatt.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:55:39.823404+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.798469066619873,
+            "article": {
+              "title": "Clashes break out at France’s Halloween protests, as thousands take to streets",
+              "url": "https://www.scmp.com/news/world/europe/article/3372854/clashes-break-out-frances-halloween-protests-hundreds-thousands-take-streets?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T22:00:39.021928+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7983241081237793,
+            "article": {
+              "title": "Protestan en Francia por tercer fin de semana seguido",
+              "url": "https://www.reforma.com/protestan-en-francia-por-tercer-fin-de-semana-seguido/ar3305662?v=5",
+              "source_id": "reforma.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:56:47.115445+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7934123277664185,
+            "article": {
+              "title": "الشرطة الفرنسية تستخدم القوة لتفريق متظاهرين في باريس",
+              "url": "https://www.alsumaria.tv/news/international/580243/الشرطة-الفرنسية-تستخدم-القوة-لتفريق-متظاهرين-في-باريس",
+              "source_id": "alsumaria.tv",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T22:00:07.580432+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7925121784210205,
+            "article": {
+              "title": "newsticker Unruhen in Frankreich 320'000 demonstrieren in Frankreich +++ über 500 Festnahmen Die neuesten Einträge aus dem Liveticker: Paris: Langsame Auflösung an der Porte de Charenton Randalierer in mehreren französischen Städten gestoppt Über 500 Festnahmen bei Demonstrationen in Frankreich",
+              "url": "https://www.srf.ch/news/international/unruhen-in-frankreich-320-000-demonstrieren-in-frankreich-ueber-500-festnahmen",
+              "source_id": "srf.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:55:55.409660+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7763146162033081,
+            "article": {
+              "title": "France deploys 70,000 police officers ahead of nationwide protests",
+              "url": "https://pajhwok.com/2026/10/31/france-deploys-70000-police-officers-ahead-of-nationwide-protests/",
+              "source_id": "pajhwok.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T22:01:27.123745+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7749469876289368,
+            "article": {
+              "title": "France erupts in anger: Oct 17 protests, police violence and growing calls for govt. accountability",
+              "url": "https://www.presstv.ir/Detail/2026/10/20/778763/france-erupts-anger-oct17-protests-police-violence-growing-calls-govt-accountability",
+              "source_id": "presstv.ir",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:58:11.608908+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7722389698028564,
+            "article": {
+              "title": "احتجاجات فرنسا: وزير الداخلية يتحدّث عن \"عنف غير مسبوق\"... والشرطة تعتقل المئات",
+              "url": "https://www.annahar.com/international/europe/362203/الداخلية-الفرنسية-320-ألف-مشارك-بالتظاهرات-في-أنحا-البلاد",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:58:25.844056+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7716976404190063,
+            "article": {
+              "title": "Stora demonstrationer i Europa",
+              "url": "https://www.svt.se/nyheter/om/studentprotester-i-frankrike",
+              "source_id": "svt.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:56:06.714677+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7654476165771484,
+            "article": {
+              "title": "70 000 poliser kallades in i Frankrike Stora demonstrationer väntas även i Tyskland och Portugal",
+              "url": "https://www.svt.se/nyheter/utrikes/rustar-for-nya-protester-70-000-poliser-kallas-in",
+              "source_id": "svt.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:56:06.714677+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7635247111320496,
+            "article": {
+              "title": "Frankrijk Opnieuw honderdduizenden demonstranten de straat op in Frankrijk, ook in Duitsland groot protest van jongeren",
+              "url": "https://www.nrc.nl/nieuws/2026/10/31/opnieuw-honderdduizenden-demonstranten-de-straat-op-in-frankrijk-ook-in-duitsland-groot-protest-van-jongeren-a4940209",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:55:28.358049+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7567123770713806,
+            "article": {
+              "title": "Acte III de la colère sociale en France : des centaines de milliers de manifestants contre la vie chère, 422 arrestations",
+              "url": "https://www.rtbf.be/article/acte-iii-de-la-colere-sociale-en-france-des-centaines-de-milliers-de-manifestants-contre-la-vie-chere-422-arrestations-11808550",
+              "source_id": "rtbf.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:56:32.807432+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7411879301071167,
+            "article": {
+              "title": "Al menos 296 detenidos en Francia en el tercer sábado de protesta nacional",
+              "url": "https://elcomercio.pe/mundo/europa/protestas-en-francia-al-menos-296-detenidos-en-el-tercer-sabado-de-manifestaciones-a-nivel-nacional-emmanuel-macron-paris-marsella-ultimas-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:57:19.465745+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 88.07346701301418,
+        "size": 20,
+        "n_sources": 15,
+        "n_continents": 9,
         "continents": [
           "Africa",
           "China",
           "East Asia",
           "Europe East",
           "Europe North",
-          "Europe South",
           "Middle East",
           "North America",
-          "Oceania",
           "South America",
           "South Asia"
         ],
-        "coherence": 0.8205352425575256,
+        "coherence": 0.8145793080329895,
         "title": "Binance: Crypto exchange hacked for $6.3bn in world record ‘heist’",
         "central_article": {
           "title": "Binance: Crypto exchange hacked for $6.3bn in world record ‘heist’",
@@ -30,1905 +320,1494 @@
           "source_id": "channel4.com",
           "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-10-31T13:07:12.838472+00:00"
+          "scraped_at_utc": "2026-10-31T21:55:22.426338+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9031249284744263,
+            "sim_to_centroid": 0.9118056297302246,
             "article": {
               "title": "Binance: Crypto exchange hacked for $6.3bn in world record ‘heist’",
               "url": "https://www.channel4.com/news/binance-crypto-exchange-hacked-for-6-3bn-in-world-record-heist",
               "source_id": "channel4.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:12.838472+00:00"
+              "scraped_at_utc": "2026-10-31T21:55:22.426338+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.887614369392395,
+            "sim_to_centroid": 0.8942815661430359,
             "article": {
-              "title": "Hackers steal $6.3 bln from crypto giant Binance",
-              "url": "https://www.thedailystar.net/news/technology/news/hackers-steal-63-bln-crypto-giant-binance-4311391",
-              "source_id": "thedailystar.net",
-              "continent": "South Asia",
+              "title": "Binance covers 90 per cent of assets stolen in $6.3 billion hack",
+              "url": "https://www.thenationalnews.com/business/2026/10/31/binance-covers-90-per-cent-of-assets-stolen-in-security-incident/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:13:11.080840+00:00"
+              "scraped_at_utc": "2026-10-31T21:58:03.271058+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8844265937805176,
+            "sim_to_centroid": 0.865355372428894,
             "article": {
-              "title": "Binance hit by 6.3 billion dollar crypto theft",
-              "url": "https://www.france24.com/en/binance-hit-by-6-3-billion-dollar-crypto-theft",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:08:20.286154+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8700738549232483,
-            "article": {
-              "title": "Explainer How big a deal is the $6.3bn Binance crypto heist, who did it, and are investments safe?",
-              "url": "https://www.theguardian.com/business/2026/oct/30/crypto-heist-binance-who-did-it-are-investments-safe",
-              "source_id": "theguardian.com",
+              "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+              "url": "https://www.bbc.com/news/articles/cwe8lp7zy07zo",
+              "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:10.266631+00:00"
+              "scraped_at_utc": "2026-10-31T21:55:16.750596+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8604666590690613,
+            "sim_to_centroid": 0.8631398677825928,
             "article": {
               "title": "Un hackeo a la empresa Binance afecta a US$6.300 millones en activos digitales, el mayor robo de criptomonedas conocido",
               "url": "https://www.bbc.com/mundo/articles/cvze42lk562ko",
               "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:08:39.741663+00:00"
+              "scraped_at_utc": "2026-10-31T21:56:45.862481+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8583716154098511,
-            "article": {
-              "title": "How the Binance hack happened and who was behind it",
-              "url": "https://www.euronews.com/2026/10/30/how-the-binance-hack-happened-and-who-was-behind-it",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:14.202882+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8468749523162842,
+            "sim_to_centroid": 0.8629698753356934,
             "article": {
               "title": "‘Your assets are safe’: Binance co-CEO on US$6.3 billion hack",
               "url": "https://www.channelnewsasia.com/shorts/your-assets-are-safe-binance-co-ceo-us63-billion-hack-6509336",
               "source_id": "channelnewsasia.com",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:13:58.144558+00:00"
+              "scraped_at_utc": "2026-10-31T22:01:57.633834+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8463184237480164,
+            "sim_to_centroid": 0.8557191491127014,
             "article": {
-              "title": "Binance: UK cyber security expert analyses motives behind $6.3bn crypto hack",
-              "url": "https://www.channel4.com/news/binance-uk-cyber-security-expert-analyses-motives-behind-6-3bn-crypto-hack",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
+              "title": "Binance says has covered 90% of US$6.3 billion hack losses",
+              "url": "https://www.channelnewsasia.com/business/binance-says-has-covered-90-us63-billion-hack-losses-6510271",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:12.838472+00:00"
+              "scraped_at_utc": "2026-10-31T22:01:57.633834+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8334531784057617,
+            "sim_to_centroid": 0.8532119989395142,
+            "article": {
+              "title": "Cryptocurrency exchange Binance says it has covered 90% of losses from $6.3 billion hack so far",
+              "url": "https://www.hindustantimes.com/business/cryptocurrency-exchange-binance-says-90-of-stolen-assets-replenished-101793465902467.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T22:01:10.421831+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8493653535842896,
             "article": {
               "title": "Economy Hackers steal $6.3 billion from Binance in world's biggest crypto heist , 30 October",
               "url": "https://armenpress.am/en/article/1264310",
               "source_id": "armenpress.am",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:11:18.578536+00:00"
+              "scraped_at_utc": "2026-10-31T21:59:20.888418+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8334439992904663,
+            "sim_to_centroid": 0.8410059213638306,
             "article": {
-              "title": "Comment des milliards de dollars de cryptomonnaies ont-ils pu être volés ? Comprendre le piratage de Binance en 5 questions",
-              "url": "https://www.rtbf.be/article/comment-des-milliards-de-dollars-de-cryptomonnaies-ont-ils-pu-etre-voles-comprendre-le-piratage-de-binance-en-5-questions-11808562",
-              "source_id": "rtbf.be",
-              "continent": "Europe South",
+              "title": "Binance replenishes 90% of assets stolen in record hack",
+              "url": "https://www.theglobeandmail.com/business/article-binance-replenishes-assets-stolen-security-incident/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:08:25.893290+00:00"
+              "scraped_at_utc": "2026-10-31T21:57:45.074638+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8327241539955139,
+            "sim_to_centroid": 0.8403558731079102,
+            "article": {
+              "title": "Binance: UK cyber security expert analyses motives behind $6.3bn crypto hack",
+              "url": "https://www.channel4.com/news/binance-uk-cyber-security-expert-analyses-motives-behind-6-3bn-crypto-hack",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:55:22.426338+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8394221067428589,
             "article": {
               "title": "Binance suspends withdrawals and freezes funds after $6.3bn hack",
               "url": "https://asia.nikkei.com/spotlight/cryptocurrencies/binance-suspends-withdrawals-and-freezes-funds-after-6.3bn-hack",
               "source_id": "asia.nikkei.com",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:13:34.689707+00:00"
+              "scraped_at_utc": "2026-10-31T22:01:34.717971+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8241798877716064,
+            "sim_to_centroid": 0.8256278038024902,
+            "article": {
+              "title": "El mayor de la historia. El nuevo comunicado de Binance tras el robo de más de US$6000 millones",
+              "url": "https://www.lanacion.com.ar/tecnologia/el-nuevo-comunicado-de-binance-tras-el-robo-de-mas-de-us6000-millones-nid31102026/",
+              "source_id": "lanacion.com.ar",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:57:02.263788+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7932344675064087,
             "article": {
               "title": "Who could be behind the Binance hack and what we know so far",
               "url": "https://www.bbc.com/news/articles/cm5yn8eqg3npo",
               "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:06.063141+00:00"
+              "scraped_at_utc": "2026-10-31T21:55:16.750596+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8211575746536255,
-            "article": {
-              "title": "Binance seeks to shore up confidence after record US$6.3 billion heist; Trump weighs in",
-              "url": "https://www.straitstimes.com/world/united-states/binance-seeks-to-shore-up-confidence-after-record-us6-3-billion-heist-trump-weighs-in?ref=top-stories",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:14:19.668003+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8185856342315674,
-            "article": {
-              "title": "Binance bajo la lupa: qué revela el ataque sobre la seguridad del ecosistema cripto",
-              "url": "https://www.elespectador.com/economia/binance-bajo-la-lupa-que-revela-el-ataque-sobre-la-seguridad-del-ecosistema-cripto/",
-              "source_id": "elespectador.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:09:11.076838+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8159152269363403,
-            "article": {
-              "title": "Por qué se sospecha que Corea del Norte pueda estar detrás del robo de US$6.300 millones a Binance",
-              "url": "https://www.bbc.com/mundo/articles/c3ewepn4e08do",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:08:39.741663+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8157516717910767,
-            "article": {
-              "title": "Binance heist raises regulatory and investment questions",
-              "url": "https://www.thenationalnews.com/business/markets/2026/10/31/how-the-binance-heist-raises-regulatory-and-investment-questions/",
-              "source_id": "thenationalnews.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:09:55.483000+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8142919540405273,
+            "sim_to_centroid": 0.7859110236167908,
             "article": {
               "title": "$6 billion cryptocurrency heist puts investors on edge",
               "url": "https://www.pbs.org/newshour/show/6-billion-cryptocurrency-heist-puts-investors-on-edge",
               "source_id": "pbs.org",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:12:31.107508+00:00"
+              "scraped_at_utc": "2026-10-31T22:00:37.808722+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7954658269882202,
+            "sim_to_centroid": 0.7762651443481445,
             "article": {
-              "title": "De China a Abu Dabi y con fundador indultado por Trump: Binance, el gigante cripto golpeado por histórico hackeo",
-              "url": "https://www.emol.com/noticias/Economia/2026/10/30/1215679/binance-perdidas-hackeo-criptomonedas-china.html",
-              "source_id": "emol.com",
+              "title": "Binance repõe 90% das criptomoedas roubadas e promete retomar saques em breve",
+              "url": "https://oglobo.globo.com/economia/noticia/2026/10/31/binance-repoe-90percent-das-criptomoedas-roubadas-e-promete-retomar-saques-em-breve.ghtml",
+              "source_id": "oglobo.globo.com",
               "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:08:57.310268+00:00"
+              "scraped_at_utc": "2026-10-31T21:57:14.873905+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7673450708389282,
-            "article": {
-              "title": "'A complex attack': What we know about the largest crypto heist in history",
-              "url": "https://www.sbs.com.au/news/article/what-we-know-about-the-largest-crypto-heist-in-history/l50lrzla1",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:09:36.890841+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7649582028388977,
-            "article": {
-              "title": "JUST ONE LAPTOP Binance hack is history’s biggest crypto heist and another warning sign By Lindsey Schutters",
-              "url": "https://www.dailymaverick.co.za/article/2026-10-30-binance-hack-is-historys-biggest-crypto-heist-and-another-warning-sign/?dm_source=blocks-grid-square&dm_medium=card-link&dm_campaign=inform&dm_position=11",
-              "source_id": "dailymaverick.co.za",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:11:43.909099+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7602432370185852,
-            "article": {
-              "title": "Crypto exchanges call for quick moves to bolster defences after Binance heist",
-              "url": "https://www.dawn.com/news/2041192/crypto-exchanges-call-for-quick-moves-to-bolster-defences-after-binance-heist",
-              "source_id": "dawn.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:13:23.220108+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7506451606750488,
-            "article": {
-              "title": "Binance hack prompts Thai scrutiny",
-              "url": "https://www.bangkokpost.com/business/general/3345716/binance-hack-prompts-thai-scrutiny",
-              "source_id": "bangkokpost.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:14:15.207515+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7441225051879883,
+            "sim_to_centroid": 0.7599307894706726,
             "article": {
               "title": "币安63亿美元被盗：黑客绕过审批控制 边转移资产边销毁痕迹",
               "url": "https://www.sohu.com/a/1095325726_260616?edtsign=3012949019ABA4A7A090E001EA217BE83E7A1523&edtcode=CitMVYgZ0mxhhD7gmalryA%3D%3D&scm=10001.663_14-200000.0.0-0-0-0-0.&_f=index_cpc_1_0",
               "source_id": "news.sohu.com",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:12:53.873802+00:00"
+              "scraped_at_utc": "2026-10-31T22:00:57.888815+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.743293046951294,
+            "sim_to_centroid": 0.7577648162841797,
+            "article": {
+              "title": "JUST ONE LAPTOP Binance hack is history’s biggest crypto heist and another warning sign By Lindsey Schutters",
+              "url": "https://www.dailymaverick.co.za/article/2026-10-30-binance-hack-is-historys-biggest-crypto-heist-and-another-warning-sign/?dm_source=blocks-grid-square&dm_medium=card-link&dm_campaign=inform&dm_position=11",
+              "source_id": "dailymaverick.co.za",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:59:49.449017+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7317095994949341,
+            "article": {
+              "title": "Especialistas explicam fator humano em desvio recorde de R$ 34 bi na Binance",
+              "url": "https://oglobo.globo.com/economia/noticia/2026/10/30/roubo-do-seculo-especialistas-afastam-uso-de-ia-e-explicam-fator-humano-em-desvio-recorde-de-r-34-bi-na-binance.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:57:14.873905+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7186694145202637,
             "article": {
               "title": "Questions- Réponses Piratage de Binance : comment des milliards de dollars de cryptomonnaies ont-ils pu être volés ?",
               "url": "https://www.lorientlejour.com/article/1552800/piratage-de-binance-comment-des-milliards-de-dollars-de-cryptomonnaies-ont-ils-pu-etre-voles.html",
               "source_id": "lorientlejour.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:10:05.776202+00:00"
+              "scraped_at_utc": "2026-10-31T21:58:13.016975+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6658404469490051,
+            "article": {
+              "title": "Wat leren we van de grootste cryptoroof ooit? 'Hou je mond over wat je bezit'",
+              "url": "https://nos.nl/artikel/2637333-wat-leren-we-van-de-grootste-cryptoroof-ooit-hou-je-mond-over-wat-je-bezit",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:55:26.390712+00:00"
             }
           }
         ]
       },
       {
-        "score": 92.70077897763667,
-        "size": 18,
-        "n_sources": 18,
+        "score": 87.76513705225275,
+        "size": 20,
+        "n_sources": 20,
         "n_continents": 7,
         "continents": [
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "North America",
-          "Oceania",
-          "South America"
-        ],
-        "coherence": 0.8386189937591553,
-        "title": "US approves Patriot missiles sale to Ukraine",
-        "central_article": {
-          "title": "US approves Patriot missiles sale to Ukraine",
-          "url": "https://www.rt.com/news/648172-us-ukraine-patriot-zelensky/",
-          "source_id": "rt.com",
-          "continent": "Europe East",
-          "published_at": null,
-          "scraped_at_utc": "2026-10-31T13:10:58.117124+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9343506097793579,
-            "article": {
-              "title": "US approves Patriot missiles sale to Ukraine",
-              "url": "https://www.rt.com/news/648172-us-ukraine-patriot-zelensky/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:10:58.117124+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9340292811393738,
-            "article": {
-              "title": "US approves sale of 500 Patriot missiles to Ukraine for $2.1 bln",
-              "url": "https://tass.com/world/2211295",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:11:02.564654+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9207330942153931,
-            "article": {
-              "title": "Washington approuve la vente de 500 missiles Patriot à l'Ukraine",
-              "url": "https://www.rts.ch/info/monde/2026/article/ukraine-washington-approuve-la-vente-de-500-missiles-patriot-29401212.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:08:22.050027+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9139587879180908,
-            "article": {
-              "title": "EE. UU. aprueba la venta de 500 misiles Patriot a Ucrania por más de USD 2.000 millones",
-              "url": "https://www.elespectador.com/mundo/europa/ee-uu-aprueba-la-venta-de-500-misiles-patriot-a-ucrania-por-mas-de-usd-2-000-millones/",
-              "source_id": "elespectador.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:09:11.076838+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9109813570976257,
-            "article": {
-              "title": "EUA aprovam venda de 500 mísseis Patriot para a Ucrânia",
-              "url": "https://oglobo.globo.com/mundo/noticia/2026/10/31/eua-aprovam-venda-de-500-patriot-para-a-ucrania.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:09:03.602766+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8940283060073853,
-            "article": {
-              "title": "US approves $3 billion Patriot missile sale to Ukraine",
-              "url": "https://www.abc.net.au/news/2026-10-31/ukraine-war-patriot-missiles-sale-approved-by-us-congress/107331652",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:09:35.293276+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8935045003890991,
-            "article": {
-              "title": "Trump administration approves potential Patriot missiles sale to Ukraine",
-              "url": "https://www.japantimes.co.jp/news/2026/10/31/world/ukraine-patriot-missile-sale-approve/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:13:59.514060+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.870805025100708,
-            "article": {
-              "title": "Госдепартамент одобрил продажу Украине 500 ракет для Patriot",
-              "url": "https://meduza.io/news/2026/10/30/gosdepartament-odobril-prodazhu-ukraine-500-raket-dlya-patriot",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:10:50.968535+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8625555038452148,
-            "article": {
-              "title": "VS keuren verkoop Patriot-raketten ter waarde van $2,1 mrd aan Oekraïne goed",
-              "url": "https://fd.nl/politiek/1617661/vs-keuren-verkoop-patriot-raketten-ter-waarde-van-2-1-mrd-aan-oekraine-goed",
-              "source_id": "fd.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:22.091168+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8625401854515076,
-            "article": {
-              "title": "U.S. approves a proposed $2.1-billion sale of Patriot interceptors to Ukraine after alleged holdup",
-              "url": "https://www.latimes.com/world-nation/story/2026-10-30/u-s-approves-proposed-2-1-billion-sale-of-patriot-interceptors-to-ukraine-after-alleged-holdup",
-              "source_id": "latimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:12:22.895978+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8544222116470337,
-            "article": {
-              "title": "US approves $2.1 billion Patriot missile sale to Ukraine as NATO commander dismisses delivery concerns.",
-              "url": "https://kyivindependent.com/us-approves-2-1-billion-patriot-missile-sale-to-ukraine-as-nato-commander-dismisses-delivery-concerns/",
-              "source_id": "kyivindependent.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:10:49.858094+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8540723323822021,
-            "article": {
-              "title": "США одобрили продажу Украине 500 ракет для Patriot, однако поставки могут начаться лишь через несколько лет 31 октября",
-              "url": "https://novayagazeta.eu/articles/2026/10/31/ssha-odobrili-prodazhu-ukraine-500-raket-dlia-patriot-odnako-postavki-mogut-nachatsia-lish-cherez-neskolko-let-news",
-              "source_id": "novayagazeta.eu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:10:52.630679+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.783130943775177,
-            "article": {
-              "title": "USA liefern Patriot-Raketen an Kiew",
-              "url": "https://www.zdfheute.de/politik/ausland/usa-patriot-lieferung-ukraine-krieg-russland-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:36.511225+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7806490063667297,
-            "article": {
-              "title": "Newly Approved $2.1B Patriot Missile Sale Faces Post-2030 Delivery",
-              "url": "https://www.kyivpost.com/post/88741",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:10:48.434974+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.730640709400177,
-            "article": {
-              "title": "Журналист раскрыл, когда начнутся поставки 500 ракет для Patriot Украине",
-              "url": "https://ria.ru/20261031/patriot--2128297511.html",
-              "source_id": "ria.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:11:05.188216+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7057560086250305,
-            "article": {
-              "title": "美批准售烏21億美元愛國者飛彈 交貨恐等到2030年代初期",
-              "url": "https://www.cna.com.tw/news/aopl/202610310118.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:14:26.000201+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6987036466598511,
-            "article": {
-              "title": "Funke Mediengruppe Mogelpackung 500 Patriot-Raketen für die Ukraine: Trumps Zusage hat einen bitteren Haken",
-              "url": "https://www.abendblatt.de/politik/article413553103/500-patriot-raketen-fuer-die-ukraine-trumps-zusage-hat-einen-bitteren-haken.html",
-              "source_id": "abendblatt.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:38.242924+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6902795433998108,
-            "article": {
-              "title": "Kiev: «Bene l'ok Usa ai Patriot, ma servono ora»",
-              "url": "https://www.corriere.it/esteri/diretta-live/26_ottobre_31/guerra-ucraina-russia-le-notizie-in-diretta.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:08:37.299474+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 87.43056736829412,
-        "size": 22,
-        "n_sources": 19,
-        "n_continents": 7,
-        "continents": [
-          "China",
           "East Asia",
           "Europe East",
           "Europe North",
           "Europe South",
           "Middle East",
-          "South America"
+          "South America",
+          "South Asia"
         ],
-        "coherence": 0.8160991668701172,
-        "title": "Polish president holds emergency meeting with Supreme Court chief amid court crisis",
+        "coherence": 0.8066043853759766,
+        "title": "Germans join Europe's wave of 'Gen Z' protests",
         "central_article": {
-          "title": "Polish president holds emergency meeting with Supreme Court chief amid court crisis",
-          "url": "https://tass.com/world/2211299",
-          "source_id": "tass.com",
-          "continent": "Europe East",
+          "title": "Germans join Europe's wave of 'Gen Z' protests",
+          "url": "https://www.bangkokpost.com/world/3346090/germans-join-europes-wave-of-gen-z-protests",
+          "source_id": "bangkokpost.com",
+          "continent": "East Asia",
           "published_at": null,
-          "scraped_at_utc": "2026-10-31T13:11:02.564654+00:00"
+          "scraped_at_utc": "2026-10-31T22:02:13.455265+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9012726545333862,
+            "sim_to_centroid": 0.9050302505493164,
+            "article": {
+              "title": "Germans join Europe's wave of 'Gen Z' protests",
+              "url": "https://www.bangkokpost.com/world/3346090/germans-join-europes-wave-of-gen-z-protests",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T22:02:13.455265+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8941775560379028,
+            "article": {
+              "title": "Germans join Europe's wave of 'Gen Z' protests; police fire water cannon on demonstrators",
+              "url": "https://www.dawn.com/news/2041157/germans-join-europes-wave-of-gen-z-protests-police-fire-water-cannon-on-demonstrators",
+              "source_id": "dawn.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T22:01:23.858555+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8741497993469238,
+            "article": {
+              "title": "Thousands rally in Berlin as Gen Z protests in more than 30 German cities",
+              "url": "https://www.aljazeera.com/news/2026/10/31/thousands-rally-in-berlin-as-gen-z-plans-protests-in-30-german-cities",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:58:01.855166+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8650702238082886,
+            "article": {
+              "title": "Police, protesters clash in Germany after ‘Gen Z’ demonstrations",
+              "url": "https://www.straitstimes.com/world/europe/police-protesters-clash-in-germany-after-gen-z-demonstrations?ref=latest-headlines",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T22:02:17.082497+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.860642671585083,
+            "article": {
+              "title": "'Gen Z' demonstrations across Germany demand more education funding",
+              "url": "https://www.france24.com/en/europe/20261031-german-police-protesters-clash-after-gen-z-demos",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:56:26.475041+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8601462841033936,
+            "article": {
+              "title": "Протесты «поколения Z» в городах Германии переросли в беспорядки",
+              "url": "https://www.kommersant.ru/doc/9078341",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:59:02.762698+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8554815053939819,
+            "article": {
+              "title": "„Gen Z regelt“: In Deutschland protestiert die Jugend",
+              "url": "https://www.diepresse.com/41407426/gen-z-regelt-in-deutschland-protestiert-die-jugend",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:55:48.204919+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.852656364440918,
+            "article": {
+              "title": "From teargas in Paris to gen Z in Germany: protests across Europe",
+              "url": "https://www.theguardian.com/world/gallery/2026/oct/31/from-teargas-in-paris-to-gen-z-in-germany-europe-across-protests-in-pictures",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:55:21.064416+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8392448425292969,
+            "article": {
+              "title": "German Gen Z takes to streets over cost of living (VIDEOS)",
+              "url": "https://www.rt.com/news/648183-german-gen-z-takes-to-streets/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:59:00.597237+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8270999193191528,
+            "article": {
+              "title": "Protestos da geração Z chegam à Alemanha, com fantasia e desalento",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/10/protestos-da-geracao-z-chegam-a-alemanha-com-fantasia-e-desalento.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:57:10.186983+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8082031011581421,
+            "article": {
+              "title": "Gen Z protests reach Germany as over 160,000 expected at Halloween rallies",
+              "url": "https://kathmandupost.com/world/2026/10/31/gen-z-protests-reach-germany-as-over-160-000-expected-at-halloween-rallies",
+              "source_id": "kathmandupost.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T22:01:22.598662+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7945374846458435,
+            "article": {
+              "title": "Gen-Z-Proteste erreichen Deutschland: Die Jugend ist wütend auf Friedrich Merz",
+              "url": "https://www.nzz.ch/deutschland/politik/gen-z-proteste-erreichen-deutschland-die-jugend-ist-wuetend-auf-friedrich-merz-ld.10050289",
+              "source_id": "nzz.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:55:53.959642+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7897100448608398,
+            "article": {
+              "title": "Youth protests begin in over 30 German cities as authorities warn of possible unrest",
+              "url": "https://tass.com/world/2211363",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:59:04.910558+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7715116143226624,
+            "article": {
+              "title": "28 sek Liverapport ”Gen Z-demonstrationer” i Tyskland Tiotusentals unga demonstrerade i över 30 tyska städer",
+              "url": "https://www.svt.se/nyheter/utrikes/protesterna-i-europa?inlagg=90a1c624ce1095923d6431ff3a7c37e2",
+              "source_id": "svt.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:56:06.714677+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7557706832885742,
+            "article": {
+              "title": "Worum es der \"Gen Z\" bei den Kundgebungen geht",
+              "url": "https://www.zdfheute.de/politik/gen-z-proteste-politik-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:55:50.618680+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7489771246910095,
+            "article": {
+              "title": "Napříč Evropou přibývá demonstrací, za nimiž stojí nespokojená mládež a boj proti drahotě",
+              "url": "https://ct24.ceskatelevize.cz/clanek/svet/napric-evropou-pribyva-demonstraci-za-nimiz-stoji-nespokojena-mladez-a-boj-proti-drahote-378912",
+              "source_id": "ct24.ceskatelevize.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:58:40.858114+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7476297616958618,
+            "article": {
+              "title": "\"GenZ\"-Proteste Tausende demonstrieren für soziale Gerechtigkeit",
+              "url": "https://www.tagesschau.de/inland/gesellschaft/gen-z-proteste-114.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:55:35.271137+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7060801982879639,
+            "article": {
+              "title": "2 t Verden Protestbølgen tiltar i Europa",
+              "url": "https://www.aftenposten.no/verden/i/aOAdPA/protestboelgen-tiltar-i-europa",
+              "source_id": "aftenposten.no",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:56:01.375700+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7011046409606934,
+            "article": {
+              "title": "國際 德國Z世代34城示威 法蘭克福警方水砲驅散",
+              "url": "https://www.cna.com.tw/news/aopl/202611010006.aspx",
+              "source_id": "cna.com.tw",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T22:02:21.791739+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6748635768890381,
+            "article": {
+              "title": "V Franciji novi spopadi protestnikov s policijo, V Nemčiji policija uporabila solzivec",
+              "url": "https://www.delo.si/novice/svet/spanci-nemci-in-francozi-se-ne-dajo-pripravlja-se-nov-val-protestov",
+              "source_id": "delo.si",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:58:49.137338+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 66.36195379157058,
+        "size": 22,
+        "n_sources": 18,
+        "n_continents": 6,
+        "continents": [
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.8025985360145569,
+        "title": "Poland political crisis: Constitutional court in chaos",
+        "central_article": {
+          "title": "Poland political crisis: Constitutional court in chaos",
+          "url": "https://www.euronews.com/2026/10/31/poland-political-crisis-constitutional-court-in-chaos-as-nawrocki-accuses-government-of-st",
+          "source_id": "euronews.com",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-10-31T21:55:23.801879+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8944957256317139,
+            "article": {
+              "title": "Poland political crisis: Constitutional court in chaos",
+              "url": "https://www.euronews.com/2026/10/31/poland-political-crisis-constitutional-court-in-chaos-as-nawrocki-accuses-government-of-st",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:55:23.801879+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8587098121643066,
             "article": {
               "title": "Polish president holds emergency meeting with Supreme Court chief amid court crisis",
               "url": "https://tass.com/world/2211299",
               "source_id": "tass.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:11:02.564654+00:00"
+              "scraped_at_utc": "2026-10-31T21:59:04.910558+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8575551509857178,
-            "article": {
-              "title": "Machtkampf eskaliert: Polnischer Präsident dringt in Verfassungsgericht ein",
-              "url": "https://www.diepresse.com/41407367/machtkampf-eskaliert-polnischer-praesident-dringt-in-verfassungsgericht-ein",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:34.321260+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8554678559303284,
-            "article": {
-              "title": "Polish president storms into besieged court amid constitutional crisis (VIDEOS): As it happened",
-              "url": "https://www.rt.com/news/648157-coup-poland-court/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:10:58.117124+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8540471792221069,
-            "article": {
-              "title": "波兰总统要求人员撤离宪法法院 呼吁磋商解决争端",
-              "url": "https://www.xinhuanet.com/20261031/da66296a2af0470689b79fa132886351/c.html",
-              "source_id": "xinhuanet.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:12:40.734783+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8509501218795776,
-            "article": {
-              "title": "Президент Польши встретился с лидерами парламентских фракций на фоне кризиса вокруг Конституционного суда",
-              "url": "https://ria.ru/20261031/polsha-2128332747.html",
-              "source_id": "ria.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:11:05.188216+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8412858843803406,
-            "article": {
-              "title": "Polish president heads to Constitutional Court amid protest outside",
-              "url": "https://tass.com/world/2211301",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:11:02.564654+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8368496894836426,
-            "article": {
-              "title": "Pologne : le président convoque les partis pour trouver une issue à la crise politique",
-              "url": "https://www.rtbf.be/article/pologne-le-president-convoque-les-partis-pour-trouver-une-issue-a-la-crise-politique-11808565",
-              "source_id": "rtbf.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:08:25.893290+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.83444744348526,
+            "sim_to_centroid": 0.8401308059692383,
             "article": {
               "title": "Polonia, il presidente irrompe nella Corte costituzionale e accusa Tusk. Il premier: «Ripristinare lo stato di diritto». Cosa c'è dietro",
               "url": "https://www.corriere.it/esteri/26_ottobre_31/polonia-presidente-nawrocki-tusk-e71733a4-eca0-4a7f-a9e7-c9e1462e1xlk.shtml",
               "source_id": "corriere.it",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:08:37.299474+00:00"
+              "scraped_at_utc": "2026-10-31T21:56:43.259436+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8280249834060669,
+            "sim_to_centroid": 0.8374961614608765,
             "article": {
-              "title": "Poland in Constitutional Standoff as Court Heads Suspended",
-              "url": "https://www.kyivpost.com/post/88734",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:10:48.434974+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8203892707824707,
-            "article": {
-              "title": "Protests outside Poland’s constitutional court: What’s the crisis about?",
-              "url": "https://www.aljazeera.com/news/2026/10/31/protests-outside-polands-constitutional-court-whats-the-crisis-about",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:09:53.253996+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8175531625747681,
-            "article": {
-              "title": "En Pologne, le Tribunal constitutionnel au cœur d'un bras de fer politique",
-              "url": "https://www.rts.ch/info/monde/2026/article/pologne-le-tribunal-constitutionnel-au-c-ur-d-une-crise-29401283.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:08:22.050027+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8093451261520386,
-            "article": {
-              "title": "Polish president convenes consultations with parliamentary parties",
-              "url": "https://tass.com/world/2211317",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:11:02.564654+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8061376810073853,
-            "article": {
-              "title": "La suspensión del presidente del Tribunal Constitucional de Polonia desata una crisis institucional",
-              "url": "https://elpais.com/internacional/2026-10-30/el-presidente-de-polonia-regresa-a-su-pais-en-pleno-vuelo-a-senegal-por-una-crisis-en-el-tribunal-constitucional.html",
-              "source_id": "elpais.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:08:28.616012+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8036397695541382,
-            "article": {
-              "title": "Crise en Pologne : le président accusé d’avoir bousculé des juges",
-              "url": "https://www.lesoir.be/780138/article/2026-10-31/crise-en-pologne-le-president-accuse-davoir-bouscule-des-juges",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:08:27.307255+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8032437562942505,
-            "article": {
-              "title": "Europa Premier en president in Polen lijnrecht tegenover elkaar na crisis over schorsing voorzitter Grondwettelijk hof",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/10/30/politieke-crisis-in-polen-voorzitter-grondwettelijk-hof-geschor/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:08:23.725753+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7988205552101135,
-            "article": {
-              "title": "Президент Польши созвал срочное совещание с участием всех политических сил",
-              "url": "https://ria.ru/20261031/polsha-2128267363.html",
-              "source_id": "ria.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:11:05.188216+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7910986542701721,
-            "article": {
-              "title": "Polish president Nawrocki pushes his way into top court amid rule-of-law tussle",
-              "url": "https://www.politico.eu/article/poland-president-karol-nawrocki-rule-of-law-crisis/",
-              "source_id": "politico.eu",
+              "title": "Der Kampf um das polnische Verfassungsgericht eskaliert",
+              "url": "https://www.tagesschau.de/ausland/europa/polen-eskalation-verfassungsgericht-100.html",
+              "source_id": "tagesschau.de",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:15.372864+00:00"
+              "scraped_at_utc": "2026-10-31T21:55:35.271137+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7870367169380188,
-            "article": {
-              "title": "Polish president cuts short foreign trip as constitutional crisis escalates in Warsaw",
-              "url": "https://kyivindependent.com/protests-erupt-in-poland-over-composition/",
-              "source_id": "kyivindependent.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:10:49.858094+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7867536544799805,
-            "article": {
-              "title": "Polônia convoca reuniões após crise no Tribunal Constitucional e acusação de golpe Polícia cerca prédio após suspensão de presidente da corte em meio a disputa",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/10/presidente-da-polonia-convoca-reunioes-apos-crise-no-tribunal-constitucional-e-acusacao-de-golpe.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:08:59.507660+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7857620716094971,
-            "article": {
-              "title": "Escaladare dramatică a războiului pe justiție în Polonia. Karol Nawrocki a convocat o ședință de urgență cu partidele parlamentare",
-              "url": "https://hotnews.ro/escaladare-dramatica-a-razboiului-pe-justitie-in-polonia-karol-nawrocki-a-convocat-o-sedinta-de-urgenta-cu-partidele-parlamentare-2391299",
-              "source_id": "hotnews.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:10:32.251439+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7761203050613403,
-            "article": {
-              "title": "Poland's president accuses Tusk of forced takeover of country's top court",
-              "url": "https://www.straitstimes.com/world/europe/polands-president-accuses-tusk-of-forced-takeover-of-countrys-top-court?ref=latest-headlines",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:14:19.668003+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7083780765533447,
-            "article": {
-              "title": "Вице-спикер Сейма Польши призвал президента и премьер-министра к диалогу по КС В мире",
-              "url": "http://belta.by/world/view/vitse-spiker-sejma-polshi-prizval-prezidenta-i-premjer-ministra-k-dialogu-po-ks-808702-2026/",
-              "source_id": "belta.by",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:11:31.485250+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 60.24878769313674,
-        "size": 11,
-        "n_sources": 10,
-        "n_continents": 7,
-        "continents": [
-          "China",
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "North America",
-          "Oceania",
-          "South Asia"
-        ],
-        "coherence": 0.8699974417686462,
-        "title": "UK PM ‘open’ to issuing apology for slavery, but not reparations",
-        "central_article": {
-          "title": "UK PM ‘open’ to issuing apology for slavery, but not reparations",
-          "url": "https://www.scmp.com/news/world/europe/article/3372842/uk-pm-burnham-open-slavery-apology-not-reparations?module=latest&pgtype=homepage",
-          "source_id": "scmp.com",
-          "continent": "China",
-          "published_at": null,
-          "scraped_at_utc": "2026-10-31T13:12:32.303337+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9551975727081299,
-            "article": {
-              "title": "UK PM ‘open’ to issuing apology for slavery, but not reparations",
-              "url": "https://www.scmp.com/news/world/europe/article/3372842/uk-pm-burnham-open-slavery-apology-not-reparations?module=latest&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:12:32.303337+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9551975727081299,
-            "article": {
-              "title": "UK PM ‘open’ to issuing apology for slavery, but not reparations",
-              "url": "https://www.scmp.com/news/world/europe/article/3372842/uk-pm-burnham-open-slavery-apology-not-reparations?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:12:32.303337+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9403966665267944,
-            "article": {
-              "title": "UK PM 'open' to slavery apology but not reparations",
-              "url": "https://www.dawn.com/news/2041183/uk-pm-open-to-slavery-apology-but-not-reparations",
-              "source_id": "dawn.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:13:23.220108+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9228188991546631,
-            "article": {
-              "title": "British PM ‘open’ to slavery apology, rules out reparations",
-              "url": "https://www.bangkokpost.com/world/3346050/british-pm-open-to-slavery-apology-rules-out-reparations",
-              "source_id": "bangkokpost.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:14:15.207515+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8887279629707336,
-            "article": {
-              "title": "Britisk premierminister klar til at undskylde for slaveri - men afviser erstatning",
-              "url": "https://www.dr.dk/nyheder/seneste/britisk-premierminister-klar-til-undskylde-slaveri-men-afviser-erstatning",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:54.041171+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.857053816318512,
-            "article": {
-              "title": "Burnham ‘open’ to formal apology for Britain’s role in slavery, but rules out reparations",
-              "url": "https://www.theglobeandmail.com/world/article-burnham-open-to-formal-apology-for-britains-role-in-slavery-but-rules/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:09:32.940977+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8421915769577026,
-            "article": {
-              "title": "JK premjeras teigia esąs „atviras“ atsiprašymui už vergiją, bet ne reparacijoms",
-              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3099069/jk-premjeras-teigia-esas-atviras-atsiprasymui-uz-vergija-bet-ne-reparacijoms",
-              "source_id": "lrt.lt",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:11:08.684666+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8375539183616638,
-            "article": {
-              "title": "Britain open to apologising for slavery, says Andy Burnham",
-              "url": "https://www.thehindu.com/news/international/britain-open-to-apologising-for-slavery-says-andy-burnham/article71649276.ece",
-              "source_id": "thehindu.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:13:07.054382+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8085256814956665,
-            "article": {
-              "title": "Verenigd Koninkrijk Premier Burnham (VK): mogelijk wel excuses voor slavernij, maar geen herstelbetalingen Premier Burnham staat ervoor open om excuses aan te bieden voor het Britse slavernijverleden, maar noemt herstelbetalingen in een open brief in The Guardian ”niet het juiste antwoord”. Zijn brief wordt gematigd positief ontvangen.",
-              "url": "https://www.nrc.nl/nieuws/2026/10/31/premier-burnham-vk-mogelijk-wel-excuses-voor-slavernij-maar-geen-herstelbetalingen-a4940199",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:18.258758+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7924672365188599,
-            "article": {
-              "title": "Burnham ‘open’ to formal apology for Britain’s slave trade",
-              "url": "https://www.politico.eu/article/andy-burnham-open-to-formal-apology-for-britain-slave-trade/",
-              "source_id": "politico.eu",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:15.372864+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7698407173156738,
-            "article": {
-              "title": "King Charles has expressed sorrow for slavery. Why won't he apologise?",
-              "url": "https://www.sbs.com.au/news/article/king-charles-has-expressed-sorrow-for-slavery-why-wont-he-apologise/qze7q4m49",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:09:36.890841+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 52.27950968024479,
-        "size": 14,
-        "n_sources": 14,
-        "n_continents": 6,
-        "continents": [
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Middle East",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.8051575422286987,
-        "title": "Iran's supreme leader warns US, Israel of 'unrestricted geographical response' to new attacks",
-        "central_article": {
-          "title": "Iran's supreme leader warns US, Israel of 'unrestricted geographical response' to new attacks",
-          "url": "https://www.dawn.com/news/2041187/irans-supreme-leader-warns-us-israel-of-unrestricted-geographical-response-to-new-attacks",
-          "source_id": "dawn.com",
-          "continent": "South Asia",
-          "published_at": null,
-          "scraped_at_utc": "2026-10-31T13:13:23.220108+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9039473533630371,
-            "article": {
-              "title": "Iran's supreme leader warns US, Israel of 'unrestricted geographical response' to new attacks",
-              "url": "https://www.dawn.com/news/2041187/irans-supreme-leader-warns-us-israel-of-unrestricted-geographical-response-to-new-attacks",
-              "source_id": "dawn.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:13:23.220108+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8845012784004211,
-            "article": {
-              "title": "Iran's supreme leader warns the US and Israel against new attacks",
-              "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/31/iran039s-supreme-leader-warns-the-us-and-israel-against-new-attacks",
-              "source_id": "thestar.com.my",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:14:22.440339+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8617478013038635,
-            "article": {
-              "title": "Irano lyderis įspėja dėl „geografiškai neapriboto atsako“ į bet kokį išpuolį",
-              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3099065/irano-lyderis-ispeja-del-geografiskai-neapriboto-atsako-i-bet-koki-ispuoli",
-              "source_id": "lrt.lt",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:11:08.684666+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8469407558441162,
-            "article": {
-              "title": "Iran's Khamenei warns US and Israel against fresh attacks",
-              "url": "https://www.hindustantimes.com/world-news/irans-khamenei-warns-us-and-israel-against-fresh-attacks-orders-unrestricted-military-response-to-threats-101793449824927.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:13:08.351678+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8416075110435486,
-            "article": {
-              "title": "Iran advarer om kraftfuldt svar ved nye angreb fra USA",
-              "url": "https://www.dr.dk/nyheder/udland/iran-advarer-om-kraftfuldt-svar-ved-nye-angreb-fra-usa",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:54.041171+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8338501453399658,
-            "article": {
-              "title": "Æðsti leiðtogi Írans varar við nýjum árásum",
-              "url": "https://www.mbl.is/frettir/erlent/2026/10/31/aedsti_leidtogi_irans_varar_vid_nyjum_arasum/",
-              "source_id": "mbl.is",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:57.340360+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8118866682052612,
-            "article": {
-              "title": "Iran's Khamenei orders unrestricted response to threats",
-              "url": "https://www.newarab.com/news/irans-khamenei-orders-unrestricted-response-threats",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:10:16.209438+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7773749232292175,
-            "article": {
-              "title": "Khamenei: IRGC will have 'immediate, unrestricted response' to any US, Israeli threats",
-              "url": "https://www.jpost.com/middle-east/iran-news/article-913390",
-              "source_id": "jpost.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:09:56.911162+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7702684998512268,
-            "article": {
-              "title": "لائیو ایرانی سپریم لیڈر کا دشمن کی کسی بھی دھمکی کا فوری اور بھرپور جواب دینے کا حکم",
-              "url": "https://jang.com.pk/news/1560993",
-              "source_id": "jang.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:13:24.437516+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7658608555793762,
-            "article": {
-              "title": "Iran warns of unfettered retaliation if attacked as mediators try for peace",
-              "url": "https://www.aljazeera.com/news/2026/10/31/iran-warns-of-unfettered-retaliation-if-attacked-as-mediators-try-for-peace",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:09:53.253996+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7575668692588806,
-            "article": {
-              "title": "Iran declares a new calculus of retaliation as US-Israeli war machine risks repeating past failures",
-              "url": "https://www.presstv.ir/Detail/2026/10/26/779203/Iran-declares-a-new-calculus-of-retaliation-as-US-Israeli-war-machine-risks-repeating-past-failures",
-              "source_id": "presstv.ir",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:10:04.497647+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7470059394836426,
-            "article": {
-              "title": "Hamaney'den 'sınırsız karşılık' talimatı İran'dan ABD ve İsrail'e sert uyarı",
-              "url": "https://www.cumhuriyet.com.tr/dunya/iran-dan-abd-ve-israil-e-sert-uyari-hamaney-den-sinirsiz-karsilik-talimati-2551967",
-              "source_id": "cumhuriyet.com.tr",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:10:09.949981+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7397763133049011,
-            "article": {
-              "title": "المرشد الإيراني يأمر برد \"فوري ودون قيود جغرافية\" على التهديدات",
-              "url": "https://www.aljazeera.net/news/2026/10/31/عاجل-موقع-المرشد-الإيراني-المرشد",
-              "source_id": "aljazeera.net",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:09:58.300303+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7298704385757446,
-            "article": {
-              "title": "Irán advierte un “golpe devastador” ante posibles nuevos ataques y critica a Alemania por su apoyo a Israel",
-              "url": "https://www.latercera.com/mundo/noticia/iran-advierte-un-golpe-devastador-ante-posibles-nuevos-ataques-y-critica-a-alemania-por-su-apoyo-a-israel/",
-              "source_id": "latercera.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:09:09.752280+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 46.472554131324905,
-        "size": 16,
-        "n_sources": 16,
-        "n_continents": 5,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.7913670539855957,
-        "title": "Despliegan a la policía en Polonia ante un enfrentamiento entre el primer ministro y la oposición por el control del Tribunal Constitucional",
-        "central_article": {
-          "title": "Despliegan a la policía en Polonia ante un enfrentamiento entre el primer ministro y la oposición por el control del Tribunal Constitucional",
-          "url": "https://www.bbc.com/mundo/articles/c893z6er7xreo",
-          "source_id": "bbc.com",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-10-31T13:08:39.741663+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8665314316749573,
+            "sim_to_centroid": 0.8272601962089539,
             "article": {
               "title": "Despliegan a la policía en Polonia ante un enfrentamiento entre el primer ministro y la oposición por el control del Tribunal Constitucional",
               "url": "https://www.bbc.com/mundo/articles/c893z6er7xreo",
               "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:08:39.741663+00:00"
+              "scraped_at_utc": "2026-10-31T21:56:45.862481+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8606621623039246,
+            "sim_to_centroid": 0.8206940293312073,
             "article": {
-              "title": "Crisis en Polonia: Policía rodea Corte Constitucional en medio de pugna por remoción de su presidente",
-              "url": "https://www.emol.com/noticias/Nacional/2026/10/30/1215705/crisis-en-polonia.html",
-              "source_id": "emol.com",
+              "title": "Presidente da Polônia convoca consultas de emergência após crise no Tribunal Constitucional",
+              "url": "https://oglobo.globo.com/mundo/noticia/2026/10/31/presidente-da-polonia-convoca-consultas-de-emergencia-apos-crise-no-tribunal-constitucional.ghtml",
+              "source_id": "oglobo.globo.com",
               "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:08:57.310268+00:00"
+              "scraped_at_utc": "2026-10-31T21:57:14.873905+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8456490635871887,
+            "sim_to_centroid": 0.819849967956543,
             "article": {
-              "title": "Polen: Tumult und Protest vor dem Verfassungsgericht",
-              "url": "https://www.tagesschau.de/ausland/europa/polen-verfassungsgericht-streit-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:24.185772+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8236446976661682,
-            "article": {
-              "title": "Polonia, sospeso il presidente della Corte Costituzionale. I nazionalisti contro il governo centrista di Tusk |",
-              "url": "https://www.repubblica.it/esteri/2026/10/31/news/polonia_sospeso_presidente_corte_costituzionale_manifestanti_in_strada_tensioni-425689008/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:08:35.493420+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8209267854690552,
-            "article": {
-              "title": "Судебный кризис и попытка госпереворота: что происходит в Польше. Главное",
-              "url": "https://www.kommersant.ru/doc/9078106",
-              "source_id": "kommersant.ru",
+              "title": "Polish president heads to Constitutional Court amid protest outside",
+              "url": "https://tass.com/world/2211301",
+              "source_id": "tass.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:11:00.550764+00:00"
+              "scraped_at_utc": "2026-10-31T21:59:04.910558+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8201717734336853,
+            "sim_to_centroid": 0.8178203105926514,
             "article": {
-              "title": "Poolse rechtsstaat De strijd tussen de Poolse premier Tusk en het radicaal-rechtse PiS escaleert bij het Constitutioneel Hof, waar demonstranten het hek proberen open te slijpen Al jarenlang strijden de Poolse premier Donald Tusk en de voormalige nationaal-conservatieve regeringspartij PiS om de macht in het Constitutioneel Hof. Toen de voorzitter en vicevoorzitter vrijdagavond werden geschorst, probeerde een groep PiS-aanhangers het Hof binnen te dringen.",
-              "url": "https://www.nrc.nl/nieuws/2026/10/31/de-strijd-tussen-de-poolse-premier-tusk-en-het-radicaal-rechtse-pis-escaleert-bij-het-constitutioneel-hof-waar-demonstranten-het-hek-proberen-open-te-slijpen-a4940202",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
+              "title": "La Pologne secouée par une grave crise politique",
+              "url": "https://www.lesoir.be/780176/article/2026-10-31/la-pologne-secouee-par-une-grave-crise-politique",
+              "source_id": "lesoir.be",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:18.258758+00:00"
+              "scraped_at_utc": "2026-10-31T21:56:34.248776+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7966927289962769,
+            "sim_to_centroid": 0.8094317317008972,
             "article": {
               "title": "Chaos bij het Poolse Constitutioneel Hof na schorsing rechter",
               "url": "https://fd.nl/politiek/1617662/chaos-bij-het-poolse-constitutioneel-hof-na-schorsing-rechter",
               "source_id": "fd.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:22.091168+00:00"
+              "scraped_at_utc": "2026-10-31T21:55:32.976933+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7886940240859985,
+            "sim_to_centroid": 0.8066327571868896,
             "article": {
-              "title": "Machtkampf um Polens Verfassungsgericht eskaliert – „Das Vaterland ist in Not!“, mahnt Lech Walesa",
-              "url": "https://www.welt.de/politik/ausland/article6ae59f7e4db6c62483ec2f05/warschau-machtkampf-um-polens-verfassungsgericht-eskaliert-das-vaterland-ist-in-not-mahnt-lech-walesa.html",
-              "source_id": "welt.de",
+              "title": "Caos institucional en Polonia: Las claves del conflicto en torno al Tribunal Constitucional que divide al país",
+              "url": "https://www.emol.com/noticias/Internacional/2026/10/31/1215763/polonia-crisis-institucional-claves.html",
+              "source_id": "emol.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:57:07.120664+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8017829060554504,
+            "article": {
+              "title": "Polonia, sospeso il presidente della Corte Costituzionale. I nazionalisti contro il governo centrista di Tusk",
+              "url": "https://www.repubblica.it/esteri/2026/10/31/news/polonia_sospeso_presidente_corte_costituzionale_manifestanti_in_strada_tensioni-425689008/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:56:41.312074+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8007552623748779,
+            "article": {
+              "title": "Polens Justizstreit weitet sich zur Staatskrise aus",
+              "url": "https://www.diepresse.com/41407367/polens-justizstreit-weitet-sich-zur-staatskrise-aus",
+              "source_id": "diepresse.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:30.859656+00:00"
+              "scraped_at_utc": "2026-10-31T21:55:48.204919+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7834062576293945,
+            "sim_to_centroid": 0.7999324202537537,
             "article": {
-              "title": "तख्तापलट बनाम कानून का शासन... पोलैंड में प्रधानमंत्री और राष्ट्रपति के बीच टकराव की क्या है वजह?",
-              "url": "https://www.jagran.com/world/other-poland-chief-justice-controversy-why-pm-donald-tusk-and-president-rivalry-on-judicial-reform-40422716.html",
-              "source_id": "jagran.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:13:05.894739+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7742336988449097,
-            "article": {
-              "title": "Wojtek Radwanski/AFP Tumultartade protester i Polen Domare avstängd • Konflikt mellan Tusk och Nawrocki.",
-              "url": "https://www.dn.se/varlden/tumultartade-protester-och-politisk-maktstrid-i-polen-statskupp/",
-              "source_id": "dn.se",
+              "title": "Poland crisis explained: a dispute over legitimacy and the courts",
+              "url": "https://www.euronews.com/2026/10/31/polands-constitutional-tribunal-crisis-explained-a-decade-long-dispute-over-legitimacy-of-",
+              "source_id": "euronews.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:45.317566+00:00"
+              "scraped_at_utc": "2026-10-31T21:55:23.801879+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7714456915855408,
+            "sim_to_centroid": 0.7960885167121887,
             "article": {
-              "title": "पोलैंड में PM टस्क पर तख्तापलट का आरोप: कोर्ट के 2 जज निलंबित, देशभर में प्रदर्शन; राष्ट्रपति का विमान बीच रास्ते से लौटा Play video",
-              "url": "https://www.bhaskar.com/g/international/news/poland-protest-donald-tusk-constitutional-tribunal-controversy-139546199.html",
-              "source_id": "bhaskar.com",
-              "continent": "South Asia",
+              "title": "En Pologne, le président du Tribunal constitutionnel écarté, la police déployée à Varsovie",
+              "url": "https://www.lemonde.fr/international/article/2026/10/30/en-pologne-le-president-du-tribunal-constitutionnel-ecarte-la-police-deployee-a-varsovie_6803134_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:13:04.433966+00:00"
+              "scraped_at_utc": "2026-10-31T21:56:21.849461+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7689977288246155,
-            "article": {
-              "title": "Tumult i Polen – sågade upp grinden till domstol Protester efter att chefsdomare stängts av • Presidenten avbröt resa",
-              "url": "https://www.svt.se/nyheter/utrikes/protester-efter-att-polsk-chefsdomare-stangts-av",
-              "source_id": "svt.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:51.036528+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7684695720672607,
+            "sim_to_centroid": 0.7912710905075073,
             "article": {
               "title": "Tusk-Nawrocki battle escalates as chief judge is ousted from Poland’s top court",
               "url": "https://www.politico.eu/article/tusk-nawrocki-battle-escalates-chief-judge-ousted-from-polands-top-court/",
               "source_id": "politico.eu",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:15.372864+00:00"
+              "scraped_at_utc": "2026-10-31T21:55:25.277245+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7511491775512695,
+            "sim_to_centroid": 0.7893988490104675,
             "article": {
-              "title": "Eskalation in Warschau Machtkampf um Polens Verfassungsgericht – das steckt dahinter Der Konflikt zwischen der Regierung und dem rechtskonservativen Lager spitzt sich zu. Die Übersicht.",
-              "url": "https://www.srf.ch/news/international/eskalation-in-warschau-machtkampf-um-polens-verfassungsgericht-das-steckt-dahinter",
-              "source_id": "srf.ch",
+              "title": "Polish president Nawrocki pushes his way into top court amid rule-of-law tussle",
+              "url": "https://www.politico.eu/article/poland-president-karol-nawrocki-rule-of-law-crisis/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:55:25.277245+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7853226065635681,
+            "article": {
+              "title": "En Pologne, le président reçoit les partis pour sortir d'une crise institutionnelle majeure Tribunal constitutionnel aujourd'hui à",
+              "url": "https://www.rts.ch/info/monde/2026/article/pologne-le-president-recoit-les-partis-face-a-la-crise-29401501.html",
+              "source_id": "rts.ch",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:41.880327+00:00"
+              "scraped_at_utc": "2026-10-31T21:56:28.281622+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7220773696899414,
+            "sim_to_centroid": 0.7720615863800049,
             "article": {
-              "title": "В Польше заявили о попытке государственного переворота",
-              "url": "https://tengrinews.kz/world_news/v-polshe-zayavili-o-popyitke-gosudarstvennogo-perevorota-612038/",
-              "source_id": "tengrinews.kz",
-              "continent": "Europe East",
+              "title": "तख्तापलट बनाम कानून का शासन... पोलैंड में प्रधानमंत्री और राष्ट्रपति के बीच टकराव की क्या है वजह?",
+              "url": "https://www.jagran.com/world/other-poland-chief-justice-controversy-why-pm-donald-tusk-and-president-rivalry-on-judicial-reform-40422716.html",
+              "source_id": "jagran.com",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:11:14.950052+00:00"
+              "scraped_at_utc": "2026-10-31T22:01:07.788295+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6991211771965027,
+            "sim_to_centroid": 0.7648739814758301,
             "article": {
-              "title": "В Варшаве во время протестов у Конституционного суда задержали мужчину в балаклаве с оружием В мире",
-              "url": "http://belta.by/world/view/v-varshave-vo-vremja-protestov-u-konstitutsionnogo-suda-zaderzhali-muzhchinu-v-balaklave-s-oruzhiem-808706-2026/",
-              "source_id": "belta.by",
+              "title": "國際 波蘭憲政危機引發群眾示威 總統召開緊急政治諮商",
+              "url": "https://www.cna.com.tw/news/aopl/202610310208.aspx",
+              "source_id": "cna.com.tw",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T22:02:21.791739+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7518308162689209,
+            "article": {
+              "title": "Poland’s Nawrocki Convenes Crisis Talks Over Constitutional Court",
+              "url": "https://www.kyivpost.com/post/88761",
+              "source_id": "kyivpost.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:11:31.485250+00:00"
+              "scraped_at_utc": "2026-10-31T21:58:50.838466+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7374593019485474,
+            "article": {
+              "title": "Polonia: Tusk justifica la intervención en el Constitucional y atribuye la crisis al PiS y a “bots rusos”",
+              "url": "https://www.latercera.com/mundo/noticia/polonia-tusk-justifica-la-intervencion-en-el-constitucional-y-atribuye-la-crisis-al-pis-y-a-bots-rusos/",
+              "source_id": "latercera.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:57:20.778931+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7338672876358032,
+            "article": {
+              "title": "波蘭總理總統鬥法 憲法法院法官罷黜院長重點一次看",
+              "url": "https://www.cna.com.tw/news/aopl/202610310105.aspx",
+              "source_id": "cna.com.tw",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T22:02:21.791739+00:00"
             }
           }
         ]
       },
       {
-        "score": 40.82689205626561,
-        "size": 15,
-        "n_sources": 13,
+        "score": 45.67553503567264,
+        "size": 12,
+        "n_sources": 11,
+        "n_continents": 7,
+        "continents": [
+          "China",
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "Oceania"
+        ],
+        "coherence": 0.7955514788627625,
+        "title": "Iran's supreme leader warns the US and Israel against new attacks",
+        "central_article": {
+          "title": "Iran's supreme leader warns the US and Israel against new attacks",
+          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/31/iran039s-supreme-leader-warns-the-us-and-israel-against-new-attacks",
+          "source_id": "thestar.com.my",
+          "continent": "East Asia",
+          "published_at": null,
+          "scraped_at_utc": "2026-10-31T22:02:19.362621+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8883776664733887,
+            "article": {
+              "title": "Iran's supreme leader warns the US and Israel against new attacks",
+              "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/31/iran039s-supreme-leader-warns-the-us-and-israel-against-new-attacks",
+              "source_id": "thestar.com.my",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T22:02:19.362621+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8754603862762451,
+            "article": {
+              "title": "Iran's Khamenei warns US and Israel against new attacks",
+              "url": "https://www.france24.com/en/middle-east/20261031-iran-s-khamenei-warns-us-and-israel-against-new-attacks",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:56:26.475041+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8549027442932129,
+            "article": {
+              "title": "Iran’s supreme leader warns US, Israel against war",
+              "url": "https://www.scmp.com/news/world/middle-east/article/3372847/irans-supreme-leader-warns-us-israel-against-war?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T22:00:39.021928+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8499094247817993,
+            "article": {
+              "title": "Iran advarer om kraftfuldt svar ved nye angreb fra USA",
+              "url": "https://sermitsiaq.ag/samfund/iran-advarer-om-kraftfuldt-svar-ved-nye-angreb-fra-usa/2442288",
+              "source_id": "sermitsiaq.ag",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:56:17.441243+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7910383939743042,
+            "article": {
+              "title": "Minaccia Usa all’Iran, Khamenei avvisa: “La risposta a un attacco sarà immediata”",
+              "url": "https://www.repubblica.it/esteri/2026/11/01/news/khamenei_usa_attacco_minaccia_risposta_lettera_vance_rezeai-425690593/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:56:41.312074+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7873048782348633,
+            "article": {
+              "title": "Iran declares a new calculus of retaliation as US-Israeli war machine risks repeating past failures",
+              "url": "https://www.presstv.ir/Detail/2026/10/26/779203/Iran-declares-a-new-calculus-of-retaliation-as-US-Israeli-war-machine-risks-repeating-past-failures",
+              "source_id": "presstv.ir",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:58:11.608908+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7780231237411499,
+            "article": {
+              "title": "Iran warns of unfettered retaliation if attacked as mediators try for peace",
+              "url": "https://www.aljazeera.com/news/2026/10/31/iran-warns-of-unfettered-retaliation-if-attacked-as-mediators-try-for-peace",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:58:01.855166+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7773383855819702,
+            "article": {
+              "title": "Iranian military ordered to counter any attack swiftly and without restraint",
+              "url": "https://www.abc.net.au/news/2026-10-31/attacks-on-iran-should-be-met-without-restraint-khamenei-orders/107332392",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:57:46.555486+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7766678929328918,
+            "article": {
+              "title": "Iran relentlessly enhancing combat readiness amid war remarks from US",
+              "url": "https://www.azernews.az/region/266574.html",
+              "source_id": "azernews.az",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:59:22.515588+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7444971799850464,
+            "article": {
+              "title": "Hamaney'den 'sınırsız karşılık' talimatı İran'dan ABD ve İsrail'e sert uyarı",
+              "url": "https://www.cumhuriyet.com.tr/dunya/iran-dan-abd-ve-israil-e-sert-uyari-hamaney-den-sinirsiz-karsilik-talimati-2551967",
+              "source_id": "cumhuriyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:58:16.709722+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7264086008071899,
+            "article": {
+              "title": "Khamenei: All US, Israeli assets must be within military reach",
+              "url": "https://www.azernews.az/region/266577.html",
+              "source_id": "azernews.az",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:59:22.515588+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6966890096664429,
+            "article": {
+              "title": "Mideast leaders call for calm as fears mount of renewed war",
+              "url": "https://www.newarab.com/news/mideast-leaders-call-calm-fears-mount-renewed-war",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:58:20.372176+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 43.33552857700041,
+        "size": 13,
+        "n_sources": 12,
         "n_continents": 5,
         "continents": [
           "East Asia",
           "Europe East",
           "Europe North",
           "Europe South",
-          "Middle East"
+          "South Asia"
         ],
-        "coherence": 0.8069907426834106,
-        "title": "Hundreds from Russian-occupied Oleshky land in Belarus en route to Ukraine",
+        "coherence": 0.834925651550293,
+        "title": "USA warnen vor geplantem Anschlag in Moskau",
         "central_article": {
-          "title": "Hundreds from Russian-occupied Oleshky land in Belarus en route to Ukraine",
-          "url": "https://www.aljazeera.com/news/2026/10/31/hundreds-from-russian-occupied-oleshky-land-in-belarus-en-route-to-ukraine",
-          "source_id": "aljazeera.com",
-          "continent": "Middle East",
+          "title": "USA warnen vor geplantem Anschlag in Moskau",
+          "url": "https://www.diepresse.com/41408111/usa-warnen-vor-geplantem-anschlag-in-moskau",
+          "source_id": "diepresse.com",
+          "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-10-31T13:09:53.253996+00:00"
+          "scraped_at_utc": "2026-10-31T21:55:48.204919+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8788143396377563,
+            "sim_to_centroid": 0.9105417728424072,
             "article": {
-              "title": "Hundreds from Russian-occupied Oleshky land in Belarus en route to Ukraine",
-              "url": "https://www.aljazeera.com/news/2026/10/31/hundreds-from-russian-occupied-oleshky-land-in-belarus-en-route-to-ukraine",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
+              "title": "USA warnen vor geplantem Anschlag in Moskau",
+              "url": "https://www.diepresse.com/41408111/usa-warnen-vor-geplantem-anschlag-in-moskau",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:09:53.253996+00:00"
+              "scraped_at_utc": "2026-10-31T21:55:48.204919+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8711606860160828,
+            "sim_to_centroid": 0.8928261995315552,
             "article": {
-              "title": "Evacuees from occupied Oleshky en route to Ukrainian-controlled territory after 4 planes land in Belarus.",
-              "url": "https://kyivindependent.com/oleshky-evacuation-begins-but-volunteer-claims-russia-already-moved-people-outside-of-agreed-terms/",
-              "source_id": "kyivindependent.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:10:49.858094+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8674182891845703,
-            "article": {
-              "title": "Oleshky residents reach Ukrainian-controlled territory after escaping Russian occupation.",
-              "url": "https://kyivindependent.com/oleshky-residents-reach-ukrainian-controlled-territory-after-escaping-russian-occupation/",
-              "source_id": "kyivindependent.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:10:49.858094+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.860313892364502,
-            "article": {
-              "title": "Residents leave Russian-occupied Oleshky in evacuation operation",
-              "url": "https://www.france24.com/en/europe/20261030-residents-leave-russian-occupied-oleshky-in-evacuation-operation",
-              "source_id": "france24.com",
+              "title": "Rusland Amerikaanse ambassade waarschuwt voor aanslag in Moskou: \"Geloofwaardige dreiging van incident met veel slachtoffers\"",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/10/31/amerikaanse-ambassade-in-moskou-waarschuwt-voor-aanslag/",
+              "source_id": "vrt.be",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:08:20.286154+00:00"
+              "scraped_at_utc": "2026-10-31T21:56:29.942040+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8274965286254883,
+            "sim_to_centroid": 0.890107274055481,
             "article": {
-              "title": "4 Planes With Oleshky Evacuees Land in Belarus En Route to Kyiv",
-              "url": "https://www.kyivpost.com/post/88742",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
+              "title": "A Moscou, l’ambassade américaine prévient la Russie de la « menace crédible » d’une attaque sur un musée",
+              "url": "https://www.lemonde.fr/international/article/2026/10/31/a-moscou-l-ambassade-americaine-previent-la-russie-de-la-menace-credible-d-une-attaque-sur-un-musee_6803724_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:10:48.434974+00:00"
+              "scraped_at_utc": "2026-10-31T21:56:21.849461+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8172301054000854,
+            "sim_to_centroid": 0.8683280944824219,
             "article": {
-              "title": "Ukrainische Flüchtlinge aus Oleschky treffen in Belarus ein",
-              "url": "https://www.zdfheute.de/politik/ausland/oleschky-evakuierte-belarus-ukraine-krieg-russland-100.html",
-              "source_id": "zdfheute.de",
+              "title": "Amerikaanse ambassade waarschuwt voor mogelijke terreuraanslag Moskou",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5662227/amerikaanse-ambassade-waarschuwde-russen-voor-grote",
+              "source_id": "rtl.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:36.511225+00:00"
+              "scraped_at_utc": "2026-10-31T21:55:30.347406+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.812686562538147,
+            "sim_to_centroid": 0.8517670631408691,
             "article": {
-              "title": "Evacuees from Russian-occupied city due in Ukraine",
-              "url": "https://www.bangkokpost.com/world/3346064/evacuees-from-russianoccupied-city-due-in-ukraine",
-              "source_id": "bangkokpost.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:14:15.207515+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.807715892791748,
-            "article": {
-              "title": "Oleshky: First evacuations from Russian-occupied Ukrainian city after Melania Trump-brokered ceasefire",
-              "url": "https://www.channel4.com/news/oleshky-first-evacuations-from-russian-occupied-ukrainian-city-after-melania-trump-brokered-ceasefire",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:12.838472+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8073358535766602,
-            "article": {
-              "title": "Hundreds evacuated from Russian-occupied Oleshky during rare humanitarian ceasefire",
-              "url": "https://georgiatoday.ge/hundreds-evacuated-from-russian-occupied-oleshky-during-rare-humanitarian-ceasefire/",
-              "source_id": "georgiatoday.ge",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:11:11.951563+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7921934127807617,
-            "article": {
-              "title": "Evakuierungsaktion im ukrainischen Oleschky abgeschlossen",
-              "url": "https://www.tagesschau.de/ausland/europa/ukraine-evakuierung-oleschky-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:24.185772+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7894302010536194,
-            "article": {
-              "title": "وسط هدنة إنسانية... إجلاء سكان أوليشكي الأوكرانية إلى بيلاروسيا",
-              "url": "https://www.annahar.com/international/europe/362139/وسط-هدنة-إنسانية-إجلا-سكان-أوليشكي-الأوكرانية-إلى-بيلاروسيا",
-              "source_id": "annahar.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:10:22.653139+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7885138988494873,
-            "article": {
-              "title": "2 uur geleden • Buitenland Drie vliegtuigen met Oekraïners uit Olesjky aangekomen in Belarus",
-              "url": "https://nos.nl/artikel/2637420-drie-vliegtuigen-met-oekrainers-uit-olesjky-aangekomen-in-belarus",
-              "source_id": "nos.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:16.501118+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7635480761528015,
-            "article": {
-              "title": "Civilians evacuated from Alyoshki arrive at temporary accommodation center in Crimea",
-              "url": "https://tass.com/politics/2211161",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:11:02.564654+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7288581132888794,
-            "article": {
-              "title": "Ukrainians fled west for safety. Now Russian drones are following them",
-              "url": "https://kyivindependent.com/ukrainians-fled-west-for-safety-now-russian-drones-are-following-them/",
+              "title": "US warns Russia of 'mass-casualty event' threat at historic palace outside Moscow.",
+              "url": "https://kyivindependent.com/us-warns-russia-of-mass-casualty-event-threat-at-historic-palace-outside-moscow/",
               "source_id": "kyivindependent.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:10:49.858094+00:00"
+              "scraped_at_utc": "2026-10-31T21:58:52.445623+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6921453475952148,
+            "sim_to_centroid": 0.8512099981307983,
             "article": {
-              "title": "Новости Война в Украине Жители оккупированных Олешек, решившие выехать в Украину, вылетели из Анапы в Беларусь — Минобороны РФ 31 октября",
-              "url": "https://novayagazeta.eu/articles/2026/10/31/zhiteli-okkupirovannykh-oleshek-reshivshie-vyekhat-v-ukrainu-vyleteli-iz-anapy-v-belarus-minoborony-rf-news",
+              "title": "Bandaríkin vara við árás í Moskvu",
+              "url": "https://www.mbl.is/frettir/erlent/2026/10/31/bandarikin_vara_vid_aras_i_moskvu/",
+              "source_id": "mbl.is",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:56:13.235938+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8458267450332642,
+            "article": {
+              "title": "US Embassy warns Russia of 'mass-casualty event' threat at historic Moscow palace",
+              "url": "https://www.hindustantimes.com/world-news/us-news/us-embassy-warns-russia-of-mass-casualty-event-threat-at-historic-moscow-palace-101793463832999.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T22:01:10.421831+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8293517827987671,
+            "article": {
+              "title": "Les Etats-Unis avertissent la Russie d'une \"menace crédible\" d'attentat imminent à Moscou Mise en garde aujourd'hui à",
+              "url": "https://www.rts.ch/info/monde/2026/article/moscou-les-etats-unis-avertissent-d-une-menace-d-attentat-29401494.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:56:28.281622+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.823100209236145,
+            "article": {
+              "title": "Washington avverte Mosca: possibile attacco terroristico al Museo Tsaritsyno |",
+              "url": "https://www.repubblica.it/esteri/2026/10/31/news/usa_avverte_russia_possibile_attacco_terroristico_museo_tsaritsyno_g20_lavrov_rubio-425690322/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:56:41.312074+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8191503286361694,
+            "article": {
+              "title": "國際 美使館示警莫斯科恐發生攻擊事件 俄採取行動因應",
+              "url": "https://www.cna.com.tw/news/aopl/202611010005.aspx",
+              "source_id": "cna.com.tw",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T22:02:21.791739+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7733820676803589,
+            "article": {
+              "title": "Hryðjuverkaárás sögð í undirbúningi í Moskvu",
+              "url": "https://www.mbl.is/frettir/erlent/2026/10/31/hrydjuverkaaras_sogd_i_undirbuningi_i_moskvu/",
+              "source_id": "mbl.is",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:56:13.235938+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7506946325302124,
+            "article": {
+              "title": "Gli Usa: «Credibile la minaccia di un attentato a Mosca». Rubio: «Non so se una pace negoziata in Ucraina sia raggiungibile»",
+              "url": "https://www.corriere.it/esteri/diretta-live/26_ottobre_31/guerra-ucraina-russia-le-notizie-in-diretta.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:56:43.259436+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7477469444274902,
+            "article": {
+              "title": "Новости Россия без цензуры Посольство США предупредило о вероятном теракте сегодня в московском парке Царицыно ФСБ подтвердила информацию. «Обычно паникеров пристреливают», — заявили в музее-заповеднике 31 октября",
+              "url": "https://novayagazeta.eu/articles/2026/10/31/posolstvo-ssha-predupredilo-o-veroiatnom-segodnia-terakte-v-moskovskom-parke-tsaritsyno-news",
               "source_id": "novayagazeta.eu",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:10:52.630679+00:00"
+              "scraped_at_utc": "2026-10-31T21:58:55.033377+00:00"
             }
           }
         ]
       },
       {
-        "score": 36.980642156528376,
-        "size": 13,
-        "n_sources": 13,
+        "score": 29.365686520143257,
+        "size": 8,
+        "n_sources": 8,
         "n_continents": 5,
         "continents": [
+          "China",
+          "Europe East",
           "Europe North",
           "Europe South",
-          "Middle East",
-          "South America",
-          "South Asia"
+          "North America"
         ],
-        "coherence": 0.787201464176178,
-        "title": "França mobiliza esquema de segurança diante de protestos previstos para este sábado",
+        "coherence": 0.8381894826889038,
+        "title": "Judge dismisses Trump suit against Wall Street Journal over Epstein birthday letter",
         "central_article": {
-          "title": "França mobiliza esquema de segurança diante de protestos previstos para este sábado",
-          "url": "https://oglobo.globo.com/mundo/noticia/2026/10/31/franca-mobiliza-esquema-de-seguranca-diante-de-protestos-previstos-para-este-sabado.ghtml",
-          "source_id": "oglobo.globo.com",
-          "continent": "South America",
+          "title": "Judge dismisses Trump suit against Wall Street Journal over Epstein birthday letter",
+          "url": "https://www.pbs.org/newshour/politics/judge-dismisses-trump-suit-against-wall-street-journal-over-epstein-birthday-letter",
+          "source_id": "pbs.org",
+          "continent": "North America",
           "published_at": null,
-          "scraped_at_utc": "2026-10-31T13:09:03.602766+00:00"
+          "scraped_at_utc": "2026-10-31T22:00:37.808722+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8909010887145996,
+            "sim_to_centroid": 0.9115843772888184,
             "article": {
-              "title": "França mobiliza esquema de segurança diante de protestos previstos para este sábado",
-              "url": "https://oglobo.globo.com/mundo/noticia/2026/10/31/franca-mobiliza-esquema-de-seguranca-diante-de-protestos-previstos-para-este-sabado.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
+              "title": "Judge dismisses Trump suit against Wall Street Journal over Epstein birthday letter",
+              "url": "https://www.pbs.org/newshour/politics/judge-dismisses-trump-suit-against-wall-street-journal-over-epstein-birthday-letter",
+              "source_id": "pbs.org",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:09:03.602766+00:00"
+              "scraped_at_utc": "2026-10-31T22:00:37.808722+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8734076023101807,
+            "sim_to_centroid": 0.9068267941474915,
             "article": {
-              "title": "Francia refuerza su seguridad ante otro sábado de manifestaciones de alto riesgo",
-              "url": "https://elcomercio.pe/mundo/europa/protestas-en-francia-el-gobierno-de-emmanuel-macron-refuerza-su-seguridad-ante-otro-sabado-de-manifestaciones-de-alto-riesgo-paris-lyon-marsella-ultimas-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
+              "title": "Judge ends Trump bid to sue Wall Street Journal over Epstein reporting",
+              "url": "https://www.usatoday.com/story/news/nation/2026/10/31/judge-ends-trump-bid-to-sue-wall-street-journal-over-epstein-reporting/92538266007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:09:08.316394+00:00"
+              "scraped_at_utc": "2026-10-31T22:00:31.859452+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.868484377861023,
+            "sim_to_centroid": 0.8987058997154236,
             "article": {
-              "title": "France braces for protests: 70,000 police, curfews and Halloween fears",
-              "url": "https://www.euronews.com/2026/10/31/france-to-deploy-70000-security-personnel-as-it-prepares-for-halloween-protests",
-              "source_id": "euronews.com",
+              "title": "Judge throws out Trump suit against WSJ over Epstein birthday letter",
+              "url": "https://www.scmp.com/news/world/united-states-canada/article/3372857/judge-throws-out-trump-lawsuit-against-wall-street-journal-over-epstein-birthday-letter?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T22:00:39.021928+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8888288140296936,
+            "article": {
+              "title": "Dommer afviser Trumps søgsmål mod avis for Epstein-artikel",
+              "url": "https://politiken.dk/kultur/medier/art11043714/Dommer-afviser-Trumps-s%C3%B8gsm%C3%A5l-mod-avis-for-Epstein-artikel",
+              "source_id": "politiken.dk",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:14.202882+00:00"
+              "scraped_at_utc": "2026-10-31T21:55:57.533941+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8185257911682129,
+            "sim_to_centroid": 0.8077540993690491,
             "article": {
-              "title": "Ny dag av protester väntar i Frankrike",
-              "url": "https://www.dn.se/direkt/2026-10-31/ny-dag-av-protester-vantar-i-frankrike/",
-              "source_id": "dn.se",
+              "title": "Judge permanently tosses Trump defamation lawsuit over Epstein story",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-epstein-wall-street-journal-defamation-lawsuit-b3076941.html",
+              "source_id": "independent.co.uk",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:45.317566+00:00"
+              "scraped_at_utc": "2026-10-31T21:55:18.128178+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8077743053436279,
+            "sim_to_centroid": 0.7886338829994202,
             "article": {
-              "title": "Germany and France brace for protests on Halloween weekend",
-              "url": "https://www.aljazeera.com/news/2026/10/31/germany-and-france-brace-for-protests-on-halloween-weekend",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:09:53.253996+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8050832748413086,
-            "article": {
-              "title": "WORLD Fears of violence as France braces for Halloween protests",
-              "url": "https://myrepublica.nagariknetwork.com/news/fears-of-violence-as-france-braces-for-halloween-protests-53-13.html",
-              "source_id": "myrepublica.nagariknetwork.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:13:26.637537+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7823919057846069,
-            "article": {
-              "title": "França reforça segurança para novos protestos no Halloween e teme ação de mascarados Autoridades acionam 70 mil militares e dizem haver alto risco de mais depredações no país",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/10/franca-reforca-seguranca-para-novos-protestos-no-halloween-e-teme-acao-de-mascarados.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:08:59.507660+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7801053524017334,
-            "article": {
-              "title": "France deploys 70,000 police officers ahead of nationwide protests 31 Oct 2026",
-              "url": "https://pajhwok.com/2026/10/31/france-deploys-70000-police-officers-ahead-of-nationwide-protests/",
-              "source_id": "pajhwok.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:13:27.925554+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7769254446029663,
-            "article": {
-              "title": "Third weekend of protests in France",
-              "url": "https://www.france24.com/en/third-weekend-of-protests-in-france",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:08:20.286154+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7402315139770508,
-            "article": {
-              "title": "Frankrijk maakt zich op voor nieuwe, maar weinig zinvolle protesten",
-              "url": "https://fd.nl/economie/1617628/frankrijk-maakt-zich-op-voor-nieuwe-maar-weinig-zinvolle-protesten",
-              "source_id": "fd.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:22.091168+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7172831296920776,
-            "article": {
-              "title": "Dispositif de sécurité « exceptionnel » et ton alarmiste : la crainte de nouveaux pillages en France ce samedi",
-              "url": "https://www.lesoir.be/780129/article/2026-10-31/dispositif-de-securite-exceptionnel-et-ton-alarmiste-la-crainte-de-nouveaux",
+              "title": "Affaire Epstein : revers judiciaire pour Donald Trump",
+              "url": "https://www.lesoir.be/780193/article/2026-10-31/affaire-epstein-revers-judiciaire-pour-donald-trump",
               "source_id": "lesoir.be",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:08:27.307255+00:00"
+              "scraped_at_utc": "2026-10-31T21:56:34.248776+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6985288858413696,
+            "sim_to_centroid": 0.7767099142074585,
             "article": {
-              "title": "Barcelona se prepara para evitar otra noche de vandalismo y pillaje",
-              "url": "https://www.lavanguardia.com/local/barcelona/20261031/11672482/barcelona-prepara-evitar-noche-vandalismo-pillaje.html",
-              "source_id": "lavanguardia.com",
-              "continent": "Europe South",
+              "title": "Trumps miljardstämning mot tidning avfärdas igen",
+              "url": "https://www.dn.se/direkt/2026-10-31/trumps-miljardstamning-mot-tidning-avfardas-igen/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:08:30.202489+00:00"
+              "scraped_at_utc": "2026-10-31T21:55:59.583124+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6739757061004639,
+            "sim_to_centroid": 0.7264717817306519,
             "article": {
-              "title": "France : sécurité maximale et parcours modifiés pour la manifestation sur la vie chère",
-              "url": "https://www.rtbf.be/article/france-securite-maximale-et-parcours-modifies-pour-la-manifestation-sur-la-vie-chere-11808550",
-              "source_id": "rtbf.be",
-              "continent": "Europe South",
+              "title": "Související Chtěl miliardy dolarů odškodného, soud ale Trumpovu žalobu na známý deník zamítl",
+              "url": "https://ct24.ceskatelevize.cz/clanek/svet/soudce-zamitl-trumpovu-zalobu-proti-deniku-kvuli-clanku-o-vazbach-na-epsteina-372336",
+              "source_id": "ct24.ceskatelevize.cz",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:08:25.893290+00:00"
+              "scraped_at_utc": "2026-10-31T21:58:40.858114+00:00"
             }
           }
         ]
       },
       {
-        "score": 25.852513244275514,
-        "size": 9,
+        "score": 25.911690941203872,
+        "size": 8,
         "n_sources": 7,
         "n_continents": 6,
         "continents": [
           "Africa",
-          "East Asia",
           "Europe East",
           "Europe North",
           "Europe South",
-          "Middle East"
+          "Middle East",
+          "South Asia"
         ],
-        "coherence": 0.8029476404190063,
-        "title": "Netanyahu edges ahead — but is facing weeks of election wrangling",
+        "coherence": 0.8034049272537231,
+        "title": "Israel heading for fresh election as opponents dig in",
         "central_article": {
-          "title": "Netanyahu edges ahead — but is facing weeks of election wrangling",
-          "url": "https://www.thetimes.com/world/middle-east/article/israel-elections-netanyahu-likud-ft57svjtd",
+          "title": "Israel heading for fresh election as opponents dig in",
+          "url": "https://www.thetimes.com/world/middle-east/article/netanyahu-israel-election-eisenkot-arab-bbmst0q23",
           "source_id": "thetimes.com",
           "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-10-31T13:07:08.940535+00:00"
+          "scraped_at_utc": "2026-10-31T21:55:19.767503+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8688888549804688,
-            "article": {
-              "title": "Netanyahu edges ahead — but is facing weeks of election wrangling",
-              "url": "https://www.thetimes.com/world/middle-east/article/israel-elections-netanyahu-likud-ft57svjtd",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:08.940535+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8596891164779663,
-            "article": {
-              "title": "Netanyahu survived Israel's election - but a political reckoning may only be beginning",
-              "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-913272",
-              "source_id": "jpost.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:09:56.911162+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8139758110046387,
-            "article": {
-              "title": "Netanyahu faces stalemate as Arab parties make gains October 29, 2026",
-              "url": "https://www.asahi.com/ajw/articles/17003235",
-              "source_id": "asahi.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:14:09.845056+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8093974590301514,
+            "sim_to_centroid": 0.8740423321723938,
             "article": {
               "title": "Israel heading for fresh election as opponents dig in",
               "url": "https://www.thetimes.com/world/middle-east/article/netanyahu-israel-election-eisenkot-arab-bbmst0q23",
               "source_id": "thetimes.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:08.940535+00:00"
+              "scraped_at_utc": "2026-10-31T21:55:19.767503+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8014249801635742,
+            "sim_to_centroid": 0.8146238327026367,
             "article": {
-              "title": "Netanyahu survives the election, but Eisenkot holds the key to replacing him",
-              "url": "https://www.jpost.com/israel-election-2026/article-913382",
-              "source_id": "jpost.com",
+              "title": "عشية انتخابات أميركا... إسرائيل بين حرب مؤجلة وحكومة بلا أفق",
+              "url": "https://www.annahar.com/international/israeli-issues/362238/عشية-انتخابات-أميركا-إسرائيل-بين-حرب-مؤجلة-وحكومة-بلا-أفق",
+              "source_id": "annahar.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:09:56.911162+00:00"
+              "scraped_at_utc": "2026-10-31T21:58:25.844056+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7876174449920654,
+            "sim_to_centroid": 0.8098027110099792,
+            "article": {
+              "title": "Israeli Election: Stalemate in the Knesset?",
+              "url": "https://www.kyivpost.com/post/88745",
+              "source_id": "kyivpost.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:58:50.838466+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7956404685974121,
             "article": {
               "title": "An Arab political earthquake reshapes Israeli elections",
               "url": "https://www.egyptindependent.com/an-arab-political-earthquake-reshapes-israeli-elections/",
               "source_id": "egyptindependent.com",
               "continent": "Africa",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:11:56.422655+00:00"
+              "scraped_at_utc": "2026-10-31T22:00:02.759768+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7840144634246826,
+            "sim_to_centroid": 0.7922016382217407,
             "article": {
-              "title": "Netanyahu’s Israel deadlocked: Were the elections ‘stolen by the Arabs’?",
-              "url": "https://www.rt.com/news/647968-israel-election-arab-coalition/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:10:58.117124+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.771162211894989,
-            "article": {
-              "title": "Israeli Election Special: Winners, losers, and indecision",
-              "url": "https://www.newarab.com/podcast/israeli-election-special-winners-losers-and-indecision",
-              "source_id": "newarab.com",
+              "title": "Netanyahu survived Israel's election - but a political reckoning may only be beginning",
+              "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-913272",
+              "source_id": "jpost.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:10:16.209438+00:00"
+              "scraped_at_utc": "2026-10-31T21:58:04.612859+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7303583025932312,
+            "sim_to_centroid": 0.7877411842346191,
             "article": {
-              "title": "Le camp de Benyamin Netanyahu vainqueur mais sans majorité, selon les résultats définitifs Monde",
-              "url": "https://www.rts.ch/info/monde/2026/article/elections-en-israel-netanyahou-en-tete-mais-sans-majorite-29400265.html",
-              "source_id": "rts.ch",
+              "title": "L’opposizione pensa al blitz: cambiare la legge elettorale per fermare Netanyahu",
+              "url": "https://www.repubblica.it/esteri/2026/10/31/news/israele_opposizione_riforma_legge_elettorale_per_fermare_netanyahu-425689897/",
+              "source_id": "repubblica.it",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:08:22.050027+00:00"
+              "scraped_at_utc": "2026-10-31T21:56:41.312074+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7857497334480286,
+            "article": {
+              "title": "Israel prepares for possible Iran escalation as US delays military action until after midterms",
+              "url": "https://www.jpost.com/israel-news/defense-news/article-913395",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:58:04.612859+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7674374580383301,
+            "article": {
+              "title": "इजरायल में सरकार गठन पर खींचतान जारी: नेतन्याहू विरोधियों की मांग, विपक्षी दल मिलकर बनाएं सरकार",
+              "url": "https://www.jagran.com/world/middle-east-netanyahu-opponents-demand-that-opposition-parties-join-forces-to-form-a-government-40423445.html",
+              "source_id": "jagran.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T22:01:07.788295+00:00"
             }
           }
         ]
       },
       {
-        "score": 24.71863607063689,
-        "size": 9,
-        "n_sources": 9,
+        "score": 24.0,
+        "size": 6,
+        "n_sources": 6,
         "n_continents": 4,
         "continents": [
-          "Europe East",
           "Europe North",
           "Europe South",
-          "South America"
+          "South America",
+          "South Asia"
         ],
-        "coherence": 0.8248077034950256,
-        "title": "Geen traditionele groepsfoto bij G20-bijeenkomst vanwege Rusland",
+        "coherence": 0.9053252339363098,
+        "title": "Burnham ‘open’ to apologising over UK role in slave trade",
         "central_article": {
-          "title": "Geen traditionele groepsfoto bij G20-bijeenkomst vanwege Rusland",
-          "url": "https://www.nrc.nl/nieuws/2025/08/19/oekraineblog-19-aug-a4903434",
-          "source_id": "nrc.nl",
+          "title": "Burnham ‘open’ to apologising over UK role in slave trade",
+          "url": "https://www.channel4.com/news/burnham-open-to-apologising-over-uk-role-in-slave-trade",
+          "source_id": "channel4.com",
           "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-10-31T13:07:18.258758+00:00"
+          "scraped_at_utc": "2026-10-31T21:55:22.426338+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9113451838493347,
+            "sim_to_centroid": 0.944309413433075,
             "article": {
-              "title": "Geen traditionele groepsfoto bij G20-bijeenkomst vanwege Rusland",
-              "url": "https://www.nrc.nl/nieuws/2025/08/19/oekraineblog-19-aug-a4903434",
-              "source_id": "nrc.nl",
+              "title": "Burnham ‘open’ to apologising over UK role in slave trade",
+              "url": "https://www.channel4.com/news/burnham-open-to-apologising-over-uk-role-in-slave-trade",
+              "source_id": "channel4.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:18.258758+00:00"
+              "scraped_at_utc": "2026-10-31T21:55:22.426338+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8923907279968262,
+            "sim_to_centroid": 0.9404715299606323,
             "article": {
-              "title": "Gemeinsames Foto von G-20-Treffen wegen Streit über Russland abgesagt",
-              "url": "https://www.diepresse.com/41407003/gemeinsames-foto-von-g-20-treffen-wegen-streit-ueber-russland-abgesagt",
-              "source_id": "diepresse.com",
+              "title": "Burnham ‘open’ to formal apology for Britain’s slave trade",
+              "url": "https://www.politico.eu/article/andy-burnham-open-to-formal-apology-for-britain-slave-trade/",
+              "source_id": "politico.eu",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:34.321260+00:00"
+              "scraped_at_utc": "2026-10-31T21:55:25.277245+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8892126083374023,
+            "sim_to_centroid": 0.9339911937713623,
             "article": {
-              "title": "Se cancela la tradicional foto del G20 tras tensiones por la presencia rusa en el evento",
-              "url": "https://www.latercera.com/mundo/noticia/se-cancela-la-tradicional-foto-del-g20-tras-tensiones-por-la-presencia-rusa-en-el-evento/",
-              "source_id": "latercera.com",
-              "continent": "South America",
+              "title": "Britain open to apologising for slavery, says U.K. PM Andy Burnham",
+              "url": "https://www.thehindu.com/news/international/britain-open-to-apologising-for-slavery-says-andy-burnham/article71649276.ece",
+              "source_id": "thehindu.com",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:09:09.752280+00:00"
+              "scraped_at_utc": "2026-10-31T22:01:09.201198+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8618456125259399,
+            "sim_to_centroid": 0.9042934775352478,
             "article": {
-              "title": "Rusland G20-leden willen niet poseren met Russisch minister Lavrov, dus geen 'familiefoto'",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/10/31/geen-familiefoto-g20-protest-tegen-russisch-minister-lavrov/",
-              "source_id": "vrt.be",
+              "title": "Burnham positiv till ursäkt för slavhandeln",
+              "url": "https://www.dn.se/direkt/2026-10-31/burnham-positiv-till-ursakt-for-slavhandeln/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:55:59.583124+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8944499492645264,
+            "article": {
+              "title": "UK PM Burnham says 'open' to slavery apology but rules out financial reparations",
+              "url": "https://www.france24.com/en/europe/20261031-burnham-says-uk-open-to-slavery-apology-but-rules-out-financial-reparations",
+              "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:08:23.725753+00:00"
+              "scraped_at_utc": "2026-10-31T21:56:26.475041+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8107905983924866,
+            "sim_to_centroid": 0.8144355416297913,
             "article": {
-              "title": "На саммите глав МИД «большой двадцатки» отменили традиционное фотографирование — из-за присутствия Сергея Лаврова",
-              "url": "https://meduza.io/news/2026/10/30/na-sammite-glav-mid-bolshoy-dvadtsatki-otmenili-traditsionnoe-fotografirovanie-iz-za-prisutstviya-sergeya-lavrova",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:10:50.968535+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8014042377471924,
-            "article": {
-              "title": "Nektet å posere med Russland",
-              "url": "https://www.dagbladet.no/nyheter/familiebilde-avlyst-etter-protester/85362822",
-              "source_id": "dagbladet.no",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:49.595872+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7644800543785095,
-            "article": {
-              "title": "Nægtede 'familiefoto' med Lavrov: 'Vi omgås ikke russerne på den måde'",
-              "url": "https://www.dr.dk/nyheder/udland/naegtede-familiefoto-med-lavrov-vi-omgaas-ikke-russerne-paa-den-maade",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:54.041171+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7479673624038696,
-            "article": {
-              "title": "Sem foto oficial e sem comunicado conjunto: reunião de ministros do G-20 termina em impasse",
-              "url": "https://www.estadao.com.br/internacional/reuniao-ministros-g20-termina-impasse/",
-              "source_id": "estadao.com.br",
+              "title": "Primer Ministro británico dice estar abierto a ofrecer disculpas oficiales por rol de Reino Unido en la esclavitud",
+              "url": "https://www.emol.com/noticias/Internacional/2026/10/31/1215747/reino-unido-disculpas-esclavitud.html",
+              "source_id": "emol.com",
               "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:09:05.172847+00:00"
+              "scraped_at_utc": "2026-10-31T21:57:07.120664+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 21.68223054018597,
+        "size": 7,
+        "n_sources": 7,
+        "n_continents": 6,
+        "continents": [
+          "Africa",
+          "Europe East",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "Oceania"
+        ],
+        "coherence": 0.767764687538147,
+        "title": "Fransa’da hayat pahalılığı ve eğitim protestoları: Gözaltı sayısı 296’ya yükseldi",
+        "central_article": {
+          "title": "Fransa’da hayat pahalılığı ve eğitim protestoları: Gözaltı sayısı 296’ya yükseldi",
+          "url": "https://www.cumhuriyet.com.tr/dunya/fransa-da-hayat-pahaliligi-ve-egitim-protestolari-gozalti-sayisi-296-ya-yukseldi-2552071",
+          "source_id": "cumhuriyet.com.tr",
+          "continent": "Middle East",
+          "published_at": null,
+          "scraped_at_utc": "2026-10-31T21:58:16.709722+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8117275238037109,
+            "article": {
+              "title": "Fransa’da hayat pahalılığı ve eğitim protestoları: Gözaltı sayısı 296’ya yükseldi",
+              "url": "https://www.cumhuriyet.com.tr/dunya/fransa-da-hayat-pahaliligi-ve-egitim-protestolari-gozalti-sayisi-296-ya-yukseldi-2552071",
+              "source_id": "cumhuriyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:58:16.709722+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7438329458236694,
+            "sim_to_centroid": 0.7872664332389832,
             "article": {
-              "title": "G20-Außenministertreffen in Atlanta Russland bleibt auf Distanz",
-              "url": "https://www.tagesschau.de/ausland/amerika/g20-aussenminister-102.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
+              "title": "Protestas en Francia pierden fuerza, pero dejan 422 detenidos por enfrentamientos",
+              "url": "https://www.laestrella.com.pa/mundo/protestas-en-francia-pierden-fuerza-pero-dejan-422-detenidos-por-enfrentamientos-LK26974681",
+              "source_id": "laestrella.com.pa",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-10-31T13:07:24.185772+00:00"
+              "scraped_at_utc": "2026-10-31T21:57:00.462466+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7807682752609253,
+            "article": {
+              "title": "Choques entre alborotadores y la policía en varias ciudades francesas",
+              "url": "https://www.lavanguardia.com/internacional/20261031/11672743/protesta-prohibe-centro-paris-llevada-periferia.html",
+              "source_id": "lavanguardia.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:56:36.105373+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7593258023262024,
+            "article": {
+              "title": "31.10.26 Во Франции в ходе протестов задержали более 500 человек В мире",
+              "url": "http://belta.by/world/view/vo-frantsii-v-hode-protestov-zaderzhali-bolee-500-chelovek-808759-2026/",
+              "source_id": "belta.by",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:59:35.505609+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7520138621330261,
+            "article": {
+              "title": "France's unrest: Why are immigrants being blamed for the violence?",
+              "url": "https://www.africanews.com/2026/10/19/frances-unrest-why-are-immigrants-being-blamed-for-the-violence/",
+              "source_id": "africanews.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:59:53.953003+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7500735521316528,
+            "article": {
+              "title": "France’s broken schools spark revolt against inequality",
+              "url": "https://newsroom.co.nz/2026/10/30/frances-broken-schools-spark-revolt-against-inequality/",
+              "source_id": "newsroom.co.nz",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:57:55.022255+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7331774234771729,
+            "article": {
+              "title": "Κύμα διαδηλώσεων και επεισόδια σε Γαλλία, Γερμανία, Αλβανία και Πορτογαλία 10 λεπτά πριν",
+              "url": "https://www.tovima.gr/2026/10/31/world/kyma-diadiloseon-kai-epeisodia-se-gallia-germania-alvania-kai-portogalia/",
+              "source_id": "tovima.gr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-10-31T21:56:44.682888+00:00"
             }
           }
         ]
       }
     ],
-    "created_at_utc": "2026-10-31T13:49:13Z"
+    "created_at_utc": "2026-10-31T22:34:44Z"
   }
 ]
