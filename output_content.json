@@ -1,371 +1,795 @@
 [
   {
-    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1793542591",
-    "n_items": 2451,
-    "n_clusters": 2051,
+    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1793573215",
+    "n_items": 2506,
+    "n_clusters": 2054,
     "clusters": [
       {
-        "score": 140.15676331883972,
-        "size": 30,
-        "n_sources": 25,
-        "n_continents": 8,
+        "score": 270.18700501196764,
+        "size": 39,
+        "n_sources": 39,
+        "n_continents": 10,
         "continents": [
+          "China",
           "East Asia",
           "Europe East",
           "Europe North",
           "Europe South",
           "Middle East",
+          "North America",
           "Oceania",
           "South America",
           "South Asia"
         ],
-        "coherence": 0.8288888335227966,
-        "title": "FBI says North Korea behind $6 billion crypto theft from Binance",
+        "coherence": 0.8265935182571411,
+        "title": "Al menos nueve personas mueren al estrellarse un avión privado en Florida",
         "central_article": {
-          "title": "FBI says North Korea behind $6 billion crypto theft from Binance",
-          "url": "https://www.bangkokpost.com/world/3346474/fbi-says-north-korea-behind-6-billion-crypto-theft-from-binance",
-          "source_id": "bangkokpost.com",
-          "continent": "East Asia",
+          "title": "Al menos nueve personas mueren al estrellarse un avión privado en Florida",
+          "url": "https://elpais.com/us/2026-11-01/personas-mueren-al-estrellarse-un-jet-privado-en-florida.html",
+          "source_id": "elpais.com",
+          "continent": "Europe South",
           "published_at": null,
-          "scraped_at_utc": "2026-11-01T13:57:42.413626+00:00"
+          "scraped_at_utc": "2026-11-01T22:29:01.287029+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9059079885482788,
+            "sim_to_centroid": 0.9346006512641907,
             "article": {
-              "title": "FBI says North Korea behind $6 billion crypto theft from Binance",
-              "url": "https://www.bangkokpost.com/world/3346474/fbi-says-north-korea-behind-6-billion-crypto-theft-from-binance",
-              "source_id": "bangkokpost.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:57:42.413626+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9021211266517639,
-            "article": {
-              "title": "FBI blames North Korea for $6.3 billion Binance crypto hack",
-              "url": "https://www.euronews.com/2026/11/01/fbi-blames-north-korea-for-63-billion-binance-crypto-hack",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:50:53.675756+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.897255539894104,
-            "article": {
-              "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
-              "url": "https://www.bbc.com/news/articles/cwe8lp7zy07zo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:50:46.420135+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8967105746269226,
-            "article": {
-              "title": "FBI bestätigt: Nordkorea steckt hinter milliardenschwerem Krypto-Diebstahl bei Binance",
-              "url": "https://www.nzz.ch/wirtschaft/fbi-bestaetigt-nordkorea-steckt-hinter-milliardenschwerem-krypto-diebstahl-bei-binance-ld.10050756",
-              "source_id": "nzz.ch",
+              "title": "Al menos nueve personas mueren al estrellarse un avión privado en Florida",
+              "url": "https://elpais.com/us/2026-11-01/personas-mueren-al-estrellarse-un-jet-privado-en-florida.html",
+              "source_id": "elpais.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:51:20.351907+00:00"
+              "scraped_at_utc": "2026-11-01T22:29:01.287029+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8953606486320496,
+            "sim_to_centroid": 0.9254951477050781,
             "article": {
-              "title": "Le FBI accuse la Corée du Nord d'avoir dérobé six milliards de cryptomonnaies à Binance",
-              "url": "https://www.rts.ch/info/monde/2026/article/binance-6-3-milliards-voles-le-fbi-accuse-la-coree-du-nord-29401730.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:51:58.685709+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8881573677062988,
-            "article": {
-              "title": "FBI accuses North Korea of Binance hack",
-              "url": "https://www.abc.net.au/news/2026-11-01/fbi-blames-north-korea-binance-cryptocurrency-exchange-hack/107333446",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:53:10.729765+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8865978717803955,
-            "article": {
-              "title": "Noord-Korea zit achter miljardendiefstal bij Binance, zegt FBI",
-              "url": "https://fd.nl/politiek/1617666/noord-korea-zit-achter-miljardendiefstal-bij-binance-zegt-fbi",
-              "source_id": "fd.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:51:02.700366+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8853840231895447,
-            "article": {
-              "title": "FBI acusa a Corea del Norte de robar US$6.000 millones en criptomonedas a Binance",
-              "url": "https://www.emol.com/noticias/Internacional/2026/10/31/1215777/fbi-corea-norte-robar-binance.html",
+              "title": "Estados Unidos: Jet privado se estrella en Florida y sus nueve ocupantes fallecen",
+              "url": "https://www.emol.com/noticias/Internacional/2026/11/01/1215826/accidente-jet-florida-nueve-muertos.html",
               "source_id": "emol.com",
               "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:52:37.111837+00:00"
+              "scraped_at_utc": "2026-11-01T22:29:35.381384+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8822890520095825,
+            "sim_to_centroid": 0.8926271200180054,
             "article": {
-              "title": "FBI accuses North Korea of hacking Binance crypto exchange",
-              "url": "https://tass.com/economy/2211451",
-              "source_id": "tass.com",
+              "title": "Se estrella avi�n en el sur de Florida; reportan 9 muertos",
+              "url": "https://www.reforma.com/se-estrella-avion-en-el-sur-de-florida-reportan-9-muertos/ar3306210?v=4",
+              "source_id": "reforma.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:29:15.897840+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8901441097259521,
+            "article": {
+              "title": "Na Floridě se do obytné čtvrti zřítilo soukromé letadlo. Zemřelo devět lidí",
+              "url": "https://www.idnes.cz/zpravy/zahranicni/na-floride-se-zritilo-do-obytne-ctvrti-soukrome-letadlo-s-deviti-lidmi-na-palube.A261101_220556_zahranicni_hock",
+              "source_id": "idnes.cz",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:54:29.917635+00:00"
+              "scraped_at_utc": "2026-11-01T22:31:33.502126+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8714234828948975,
+            "sim_to_centroid": 0.8883489966392517,
             "article": {
-              "title": "Binance resumes Bitcoin, Ether withdrawals after $6.3 billion crypto hack linked to North Korea",
-              "url": "https://www.hindustantimes.com/world-news/binance-resumes-bitcoin-ether-withdrawals-after-6-3-billion-crypto-hack-linked-to-north-korea-101793528880849.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
+              "title": "ABD'nin Florida kentinde özel jet şehrin ortasına düştü: 9 ölü",
+              "url": "https://www.milliyet.com.tr/dunya/son-dakika-abdnin-florida-kentinde-ozel-jet-sehrin-ortasina-dustu-7692234",
+              "source_id": "milliyet.com.tr",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:56:38.160310+00:00"
+              "scraped_at_utc": "2026-11-01T22:30:46.330848+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.864223837852478,
+            "sim_to_centroid": 0.8824660181999207,
             "article": {
-              "title": "Binance resumes crypto withdrawals after major hack blamed on North Korea",
-              "url": "https://www.france24.com/en/business/20261101-binance-says-resuming-withdrawals-after-major-hack",
-              "source_id": "france24.com",
+              "title": "Ni personer er døde efter flystyrt i Florida",
+              "url": "https://www.dr.dk/nyheder/udland/ni-personer-er-doede-efter-flystyrt-i-florida",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:28:32.203808+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8795621991157532,
+            "article": {
+              "title": "Conmoción en Florida. Un avión privado se estrelló en un barrio de Palm Beach y murieron sus nueve ocupantes",
+              "url": "https://www.lanacion.com.ar/estados-unidos/un-avion-privado-se-estrello-en-un-barrio-de-palm-beach-y-murieron-sus-nueve-ocupantes-nid01112026/",
+              "source_id": "lanacion.com.ar",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:29:29.782354+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.878309965133667,
+            "article": {
+              "title": "Mueren nueve personas al estrellarse una avioneta en Florida",
+              "url": "https://www.rtve.es/noticias/20261101/mueren-nueve-personas-estrellarse-avioneta-florida/17295848.shtml",
+              "source_id": "rtve.es",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:51:56.984215+00:00"
+              "scraped_at_utc": "2026-11-01T22:29:05.528657+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8532687425613403,
+            "sim_to_centroid": 0.8712629079818726,
             "article": {
-              "title": "ФБР обвинило хакеров из Северной Кореи во взломе криптобиржи Binance",
-              "url": "https://meduza.io/news/2026/11/01/fbr-obvinilo-hakerov-iz-severnoy-korei-vo-vzlome-kriptobirzhi-binance",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
+              "title": "Accidente de pequeño avión en el sur de Florida deja nueve muertos",
+              "url": "https://www.nacion.com/el-mundo/accidente-de-pequeno-avion-en-el-sur-de-florida/MBWDPRIKOZFYPFL4CMZ76BJZKI/story/",
+              "source_id": "nacion.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:54:19.424781+00:00"
+              "scraped_at_utc": "2026-11-01T22:29:19.184316+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8499911427497864,
+            "sim_to_centroid": 0.8703102469444275,
             "article": {
-              "title": "Hackers steal $6.3 bln from crypto giant Binance",
-              "url": "https://www.thedailystar.net/news/technology/news/hackers-steal-63-bln-crypto-giant-binance-4311391",
-              "source_id": "thedailystar.net",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:56:40.664084+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8460823893547058,
-            "article": {
-              "title": "Binance: Crypto exchange hacked for $6.3bn in world record ‘heist’",
-              "url": "https://www.channel4.com/news/binance-crypto-exchange-hacked-for-6-3bn-in-world-record-heist",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:50:52.327461+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8460637331008911,
-            "article": {
-              "title": "FTB: 6 mlrd. dolerių vertės kriptovaliutų vagystę iš „Binance“ įvykdė Šiaurės Korėja",
-              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3100064/ftb-6-mlrd-doleriu-vertes-kriptovaliutu-vagyste-is-binance-ivykde-siaures-koreja",
-              "source_id": "lrt.lt",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:54:35.367544+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8271690011024475,
-            "article": {
-              "title": "Spektakulärer Kriminalfall FBI prangert Nordkorea für Milliardenraub bei Binance an",
-              "url": "https://www.spiegel.de/netzwelt/binance-fbi-macht-nordkorea-fuer-milliardenraub-bei-kryptoboerse-verantwortlich-a-cf2eebce-131e-418f-9510-ce17afcdac74",
-              "source_id": "spiegel.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:51:07.968100+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8226504325866699,
-            "article": {
-              "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
-              "url": "https://www.bbc.com/news/articles/ck9dz3v7z7v3o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:50:46.420135+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.808958888053894,
-            "article": {
-              "title": "Binance resumes bitcoin, ether withdrawals after covering bulk of stolen $6.3 billion",
-              "url": "https://www.channelnewsasia.com/business/binance-covers-90-cent-losses-6510271",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:57:26.387495+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8015173673629761,
-            "article": {
-              "title": "Binance says resuming withdrawals after major hack",
-              "url": "https://www.bangkokpost.com/world/3346516/binance-says-resuming-withdrawals-after-major-hack",
-              "source_id": "bangkokpost.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:57:42.413626+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7981797456741333,
-            "article": {
-              "title": "Technologie & Wetenschap Amerikaanse FBI beschuldigt Noord-Korea van cyberaanval op cryptoplatform Binance",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/11/01/binance-fbi-noord-korea/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:52:00.347388+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7967304587364197,
-            "article": {
-              "title": "Binance’s US$6b crypto heist: Five things to know about North Korea’s TraderTraitor hackers",
-              "url": "https://www.straitstimes.com/world/five-things-to-know-about-north-koreas-tradertraitor-hackers?ref=top-stories",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:57:44.578958+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7967303395271301,
-            "article": {
-              "title": "Binance’s US$6b crypto heist: Five things to know about North Korea’s TraderTraitor hackers",
-              "url": "https://www.channelnewsasia.com/east-asia/north-korea-tradertraitor-hackers-pyongyang-binance-crypto-heist-6510661",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:57:26.387495+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7946680784225464,
-            "article": {
-              "title": "Binance nimmt nach Milliarden-Krypto-Raub Auszahlungen wieder auf",
-              "url": "https://www.diepresse.com/41409227/binance-nimmt-nach-milliarden-krypto-raub-auszahlungen-wieder-auf",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:51:14.660512+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7902004718780518,
-            "article": {
-              "title": "Binance to resume withdrawals after covering bulk of stolen $6.3bn",
-              "url": "https://www.dawn.com/news/2041364/binance-to-resume-withdrawals-after-covering-bulk-of-stolen-63bn",
-              "source_id": "dawn.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:56:53.216706+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7865767478942871,
-            "article": {
-              "title": "Binance: UK cyber security expert analyses motives behind $6.3bn crypto hack",
-              "url": "https://www.channel4.com/news/binance-uk-cyber-security-expert-analyses-motives-behind-6-3bn-crypto-hack",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:50:52.327461+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7847591638565063,
-            "article": {
-              "title": "Binance zegt meeste gestolen geld weer terug te hebben na megahack",
-              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5662292/fbi-zegt-dat-noord-korea-inderdaad-achter-hack-binance-zat",
-              "source_id": "rtl.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:51:00.262769+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7793829441070557,
-            "article": {
-              "title": "Economy Hackers steal $6.3 billion from Binance in world's biggest crypto heist , 30 October",
-              "url": "https://armenpress.am/en/article/1264310",
-              "source_id": "armenpress.am",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:54:45.306242+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7469498515129089,
-            "article": {
-              "title": "Umstrittene Kryptobörse Binance ersetzt nach Cyberangriff 90 Prozent der Beute",
-              "url": "https://www.spiegel.de/netzwelt/binance-ersetzt-nach-cyberangriff-90-prozent-der-beute-a-0cf808d6-3479-455b-84ce-0125de82c71d",
-              "source_id": "spiegel.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:51:07.968100+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6960321664810181,
-            "article": {
-              "title": "اتهام FBI لكوريا الشمالية بسرقة باينانس... وترامب يشكك!",
-              "url": "https://www.annahar.com/technology/362312/اتهام-fbi-لكوريا-الشمالية-بسرقة-باينانس-وترامب-يشكك",
+              "title": "9 قتلى بتحطم طائرة صغيرة في فلوريدا (فيديو)",
+              "url": "https://www.annahar.com/international/united-states/362472/9-قتلى-بتحطم-طائرة-صغيرة-في-فلوريدا",
               "source_id": "annahar.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:53:52.636844+00:00"
+              "scraped_at_utc": "2026-11-01T22:31:11.562251+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6653225421905518,
+            "sim_to_centroid": 0.8675128221511841,
             "article": {
-              "title": "52 sek FBI pekar ut Nordkorea efter historisk kryptokupp Kryptobörsen täcker 90 procent av förlusterna med egna medel",
-              "url": "https://www.svt.se/nyheter/utrikes/binance-tacker-90-procent-av-forlusterna-efter-jattehack",
+              "title": "Negen doden bij crash privéjet in woonwijk Florida, naast drukke weg",
+              "url": "https://www.rtl.nl/nieuws/artikel/5662394/negen-doden-bij-crash-privejet-woonwijk-florida-ontploft-verenigde-staten",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:27:55.814574+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8595219850540161,
+            "article": {
+              "title": "FAA: Plane crashes in Palm Beach, Florida after rapid dive, killing nine passengers",
+              "url": "https://www.jpost.com/international/article-913515",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:30:34.323621+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8577492833137512,
+            "article": {
+              "title": "Le crash d’un petit avion privé en Floride fait neuf morts, selon le ministre des transports américain",
+              "url": "https://www.lemonde.fr/international/article/2026/11/01/le-crash-d-un-petit-avion-prive-en-floride-fait-neuf-morts-selon-le-ministre-des-transports_6804672_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:28:45.755631+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8500908613204956,
+            "article": {
+              "title": "Moment business jet crashes in Florida, killing all 9 people on board",
+              "url": "https://www.hindustantimes.com/world-news/us-news/moment-learjet-60-business-jet-crashes-in-florida-killing-all-9-people-on-board-101793566985661.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:34:07.389148+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8500048518180847,
+            "article": {
+              "title": "Investigan accidente aéreo en condado de Palm Beach: nueve personas fallecieron",
+              "url": "https://www.latercera.com/mundo/noticia/investigan-accidente-aereo-en-condado-de-palm-beach-nueve-personas-involucradas/",
+              "source_id": "latercera.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:29:47.974784+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8492889404296875,
+            "article": {
+              "title": "Tragedia en West Palm Beach: avión privado se estrella con nueve personas a bordo",
+              "url": "https://www.laestrella.com.pa/mundo/america/tragedia-en-west-palm-beach-avion-privado-se-estrella-con-nueve-personas-a-bordo-CE26995564",
+              "source_id": "laestrella.com.pa",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:29:27.557647+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8338321447372437,
+            "article": {
+              "title": "Τραγωδία στη Φλόριντα: Συντριβή ιδιωτικού αεροσκάφους με τουλάχιστον εννέα νεκρούς 18 λεπτά πριν",
+              "url": "https://www.tovima.gr/2026/11/02/world/tragodia-sti-florinta-syntrivi-idiotikou-aeroskafous-me-toulaxiston-ennea-nekrous/",
+              "source_id": "tovima.gr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:29:12.117231+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8334937691688538,
+            "article": {
+              "title": "All 9 people aboard a jet that crashed in Florida have died, transportation secretary says",
+              "url": "https://www.chicagotribune.com/2026/11/01/business-jet-crash-florida-west-palm-beach/",
+              "source_id": "chicagotribune.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:33:26.605034+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8334937691688538,
+            "article": {
+              "title": "All 9 people aboard a jet that crashed in Florida have died, transportation secretary says",
+              "url": "https://www.pbs.org/newshour/nation/all-9-people-aboard-a-jet-that-crashed-in-florida-have-died-transportation-secretary-says",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:33:29.951450+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8325607180595398,
+            "article": {
+              "title": "Etats-Unis : au moins neuf morts dans le crash d’un avion privé dans un quartier résidentiel",
+              "url": "https://www.lesoir.be/780319/article/2026-11-01/etats-unis-au-moins-neuf-morts-dans-le-crash-dun-avion-prive-dans-un-quartier",
+              "source_id": "lesoir.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:28:59.782246+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8224008083343506,
+            "article": {
+              "title": "9 dead after plane crashes near Trump’s Florida home, erupting in a fireball",
+              "url": "https://www.scmp.com/news/world/united-states-canada/article/3372912/private-jet-carrying-9-crashes-florida-roadside-erupting-massive-fireball?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:33:31.172614+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8222929239273071,
+            "article": {
+              "title": "Verenigde Staten 9 doden nadat privévliegtuig neerstort vlakbij woonwijk in Florida geleden",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/11/01/negen-doden-bij-crash-vliegtuigje-in-florida/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:28:55.361608+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8213158845901489,
+            "article": {
+              "title": "2 t Verden Privatjet med ni personer styrtet i Florida",
+              "url": "https://www.aftenposten.no/verden/i/w31AqM/privatjet-med-ni-personer-styrtet-i-florida",
+              "source_id": "aftenposten.no",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:28:24.203474+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8180272579193115,
+            "article": {
+              "title": "美国佛州发生坠毁机事故 机上9人全部死亡",
+              "url": "https://www.xinhuanet.com/20261102/c2c54166ccc249249982b47ade545af2/c.html",
+              "source_id": "xinhuanet.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:33:39.017492+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8126667737960815,
+            "article": {
+              "title": "Vídeo mostra queda de avião que deixou ao menos nove mortos em estrada da Flórida",
+              "url": "https://oglobo.globo.com/mundo/noticia/2026/11/01/aviao-cai-em-estrada-na-florida-e-deixa-ao-menos-nove-mortos-video-mostra-momento-da-queda.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:29:40.482152+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8074761629104614,
+            "article": {
+              "title": "Plane carrying 9 people crashes in Palm Beach County and erupts in massive fireball",
+              "url": "https://www.independent.co.uk/news/world/americas/plane-crash-palm-beach-county-learjet-60-florida-b3077202.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:27:41.818108+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7963582873344421,
+            "article": {
+              "title": "Privatjet stürzt in Wohngebiet ab und explodiert, alle 9 Insassen tot",
+              "url": "https://www.welt.de/vermischtes/article6ae7b7215e7018b4bea95317/florida-privatjet-stuerzt-in-wohngebiet-ab-und-explodiert-alle-9-insassen-tot.html",
+              "source_id": "welt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:28:06.505300+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7912728190422058,
+            "article": {
+              "title": "تحطم طائرة رجال أعمال ومقتل من فيها في ولاية فلوريدا",
+              "url": "https://www.alsumaria.tv/news/international/580323/تحطم-طائرة-رجال-أعمال-ومقتل-من-فيها-في-ولاية-فلوريدا",
+              "source_id": "alsumaria.tv",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:33:00.352870+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7908787727355957,
+            "article": {
+              "title": "Flystyrt i Florida: Alle om bord omkom",
+              "url": "https://www.dagbladet.no/nyheter/fly-har-styrtet-flere-dode/85366785",
+              "source_id": "dagbladet.no",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:28:27.091062+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7893679738044739,
+            "article": {
+              "title": "Soukromé letadlo se zřítilo do obytné čtvrti na Floridě",
+              "url": "https://ct24.ceskatelevize.cz/clanek/svet/soukrome-letadlo-se-zritilo-do-obytne-ctvrti-na-floride-379208",
+              "source_id": "ct24.ceskatelevize.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:31:35.780254+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7864322066307068,
+            "article": {
+              "title": "Nine dead after 'horrific' plane crash in US neighbourhood",
+              "url": "https://www.sbs.com.au/news/article/nine-dead-after-horrific-plane-crash-in-us-neighbourhood/y5ovzmmt7",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:30:16.719157+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7813252210617065,
+            "article": {
+              "title": "queda de avião Acidente de jatinho mata 9 pessoas no condado de Palm Beach, no sul da Flórida, o mesmo em que Donald Trump tem resort - Saul Martinez/AFP",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/11/acidente-de-jatinho-mata-9-pessoas-no-sul-da-florida.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:29:37.552144+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7760405540466309,
+            "article": {
+              "title": "22 sek Privatjet har störtat i Florida – alla nio ombord döda Flyget var på väg till Bahamas",
+              "url": "https://www.svt.se/nyheter/utrikes/privatjet-har-stortat-i-florida",
               "source_id": "svt.se",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:51:35.121293+00:00"
+              "scraped_at_utc": "2026-11-01T22:28:28.934291+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7756683826446533,
+            "article": {
+              "title": "國際 佛州小飛機墜毀 機上9人全數罹難",
+              "url": "https://www.cna.com.tw/news/aopl/202611020006.aspx",
+              "source_id": "cna.com.tw",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:35:24.972131+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7684100270271301,
+            "article": {
+              "title": "Massive fireball: Business jet crashes in Florida",
+              "url": "https://www.smh.com.au/world/north-america/business-jet-crashes-in-florida-20261102-p61agt.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:30:18.150124+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7631462812423706,
+            "article": {
+              "title": "Plane crashes in Palm Beach County, Florida, federal officials investigating",
+              "url": "https://www.usatoday.com/story/news/nation/2026/11/01/florida-plane-crash-learjet-palm-beach/92552816007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:33:25.366919+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.722963273525238,
+            "article": {
+              "title": "ABD'de korkunç anlar: Özel jet şehrin ortasına düştü",
+              "url": "https://www.cumhuriyet.com.tr/dunya/abd-de-korkunc-anlar-ozel-jet-sehrin-ortasina-dustu-2552348",
+              "source_id": "cumhuriyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:30:44.442219+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7056497931480408,
+            "article": {
+              "title": "Reportan accidente de avión en Florida, EE. UU.: se estrelló contra carretera en Palm Beach y causó explosión",
+              "url": "https://www.eltiempo.com/mundo/eeuu-y-canada/atencion-accidente-de-avioneta-en-florida-estados-unidos-video-registra-momento-exacto-en-el-que-se-estrello-contra-la-carretera-3597848",
+              "source_id": "eltiempo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:29:31.114396+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7047790288925171,
+            "article": {
+              "title": "Nove pessoas morrem após queda de avião em bairro residencial de Palm Beach Learjet havia decolado do Texas e seguia para as Bahamas",
+              "url": "https://www.estadao.com.br/internacional/nove-pessoas-morrem-apos-queda-de-aviao-em-bairro-residencial-de-palm-beach-na-florida/",
+              "source_id": "estadao.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:29:42.198148+00:00"
             }
           }
         ]
       },
       {
-        "score": 98.88923497876243,
-        "size": 20,
-        "n_sources": 20,
+        "score": 95.91837036566015,
+        "size": 27,
+        "n_sources": 25,
+        "n_continents": 6,
+        "continents": [
+          "China",
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East"
+        ],
+        "coherence": 0.8105724453926086,
+        "title": "Bulgarien hat gewählt: Präsidentin Jotowa laut Prognosen vorne",
+        "central_article": {
+          "title": "Bulgarien hat gewählt: Präsidentin Jotowa laut Prognosen vorne",
+          "url": "https://www.diepresse.com/41410084/bulgarien-hat-gewaehlt-praesidentin-jotowa-laut-prognosen-vorne",
+          "source_id": "diepresse.com",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-11-01T22:28:10.887841+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.896662712097168,
+            "article": {
+              "title": "Bulgarien hat gewählt: Präsidentin Jotowa laut Prognosen vorne",
+              "url": "https://www.diepresse.com/41410084/bulgarien-hat-gewaehlt-praesidentin-jotowa-laut-prognosen-vorne",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:28:10.887841+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8940123319625854,
+            "article": {
+              "title": "Présidentielle en Bulgarie : Iliana Iotova remporte l’élection, selon plusieurs sondages à la sortie des urnes",
+              "url": "https://www.lemonde.fr/international/article/2026/11/01/presidentielle-en-bulgarie-iliana-iotova-remporte-l-election-selon-plusieurs-sondages-a-la-sortie-des-urnes_6804603_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:28:45.755631+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8762185573577881,
+            "article": {
+              "title": "Iliana Iotova leads Bulgarian presidential election",
+              "url": "https://tass.com/world/2211601",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:31:59.097621+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8753098845481873,
+            "article": {
+              "title": "Europa Voor het eerst een vrouwelijke president in Bulgarije? Volgens exitpolls wint Iliana Yotova verkiezingen",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/11/01/bulgaarse-president-iliana-jotova-herkozen/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:28:55.361608+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8725858926773071,
+            "article": {
+              "title": "Bulgarian acting president Iliana Iotova wins run-off election, exit polls show",
+              "url": "https://www.scmp.com/news/world/europe/article/3372909/bulgarian-acting-president-iliana-iotova-wins-run-election-exit-polls-show?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:33:31.172614+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8719661235809326,
+            "article": {
+              "title": "Bulgariens amtierende Präsidentin Jotowa liegt bei Stichwahl vorn",
+              "url": "https://www.tagesschau.de/ausland/europa/stichwahl-bulgarien-102.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:28:00.290557+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8675722479820251,
+            "article": {
+              "title": "Bulgaria’s acting President Iotova leads in run-off exit polls",
+              "url": "https://www.aljazeera.com/news/2026/11/1/bulgarian-president-yotova-leads-runoff-exit-polls-show",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:30:31.149076+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.865684449672699,
+            "article": {
+              "title": "Bulgarije Pro-Russische kandidaat wint Bulgaarse presidentsverkiezingen De uitslag is nog niet officieel, maar alle exitpolls wijzen op een overwinning voor Iliana Jotova in de tweede ronde van presidentsverkiezingen in Bulgarije. Bulgaren konden kiezen tussen een pro-Russische en een pro-Europese kandidaat.",
+              "url": "https://www.nrc.nl/nieuws/2026/11/01/pro-russische-kandidaat-wint-bulgaarse-presidentsverkiezingen-a4940235",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:27:53.903579+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.864225447177887,
+            "article": {
+              "title": "Bulgarien: Präsidentin Jotowa gewinnt Stichwahl",
+              "url": "https://www.zdfheute.de/politik/ausland/bulgarien-wahl-jotowa-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:28:13.169296+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8463590145111084,
+            "article": {
+              "title": "Rezultate exit-poll Bulgaria: Candidata pro-rusă Iliana Iotova indicată drept favorită în alegerile prezidențiale",
+              "url": "https://hotnews.ro/rezultate-exit-poll-bulgaria-candidata-pro-rusa-iliana-iotova-a-castigat-alegerile-prezidentiale-2392053",
+              "source_id": "hotnews.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:31:20.155087+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8338776230812073,
+            "article": {
+              "title": "EU- und Nato-Land Russlandfreundliche Präsidentin Jotowa liegt bei Stichwahl in Bulgarien vorn",
+              "url": "https://www.spiegel.de/ausland/bulgarien-iliana-jotowa-nach-prognosen-vorn-a-e70269f7-9feb-4274-8d45-7436ee034b30",
+              "source_id": "spiegel.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:28:02.919558+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.823192834854126,
+            "article": {
+              "title": "odkaz V prezidentských volbách v Bulharsku zvítězila Jotovová, vyplývá z průzkumů",
+              "url": "https://ct24.ceskatelevize.cz/clanek/svet/bulhari-ve-druhem-kole-prezidentskych-voleb-rozhoduji-o-hlave-statu-379192",
+              "source_id": "ct24.ceskatelevize.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:31:35.780254+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8077960014343262,
+            "article": {
+              "title": "Bulgarie : Iliana Iotova, partisane du dialogue avec Moscou, remporterait la présidentielle",
+              "url": "https://www.rtbf.be/article/bulgarie-iliana-iotova-partisane-du-dialogue-avec-moscou-remporterait-la-presidentielle-11809011",
+              "source_id": "rtbf.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:28:58.156482+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8056437969207764,
+            "article": {
+              "title": "«Präsidentin des Friedens» Ilijana Jotowa gewinnt Stichwahl in Bulgarien Bei der ersten Wahlrunde hatte Staatschefin Jotowa einen knappen Vorsprung. Nun konnte sie sich klar behaupten.",
+              "url": "https://www.srf.ch/news/international/praesidentin-des-friedens-ilijana-jotowa-gewinnt-stichwahl-in-bulgarien",
+              "source_id": "srf.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:28:18.853316+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8023363947868347,
+            "article": {
+              "title": "Bulgaristan’da yeni Cumhurbaşkanı Yotova oldu",
+              "url": "https://www.hurriyet.com.tr/dunya/bulgaristanda-sandik-cikis-sonuclarina-gore-cumhurbaskani-yotova-43362783",
+              "source_id": "hurriyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:30:42.947707+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7827869057655334,
+            "article": {
+              "title": "إيليانا إيوتوفا المؤيدة للحوار مع موسكو تفوز بانتخابات رئاسة بلغاريا",
+              "url": "https://www.annahar.com/annahar-pedia/362465/إيليانا-إيوتوفا-المؤيدة-للحوار-مع-موسكو-تفوز-بانتخابات-رئاسة-بلغاريا",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:31:11.562251+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7783575057983398,
+            "article": {
+              "title": "01.11.26 На президентских выборах в Болгарии лидирует Йотова - экзитпол В мире",
+              "url": "http://belta.by/world/view/na-prezidentskih-vyborah-v-bolgarii-lidiruet-jotova-ekzitpol-808844-2026/",
+              "source_id": "belta.by",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:32:28.979070+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7741501331329346,
+            "article": {
+              "title": "01.11.26 Йотова побеждает на выборах президента Болгарии В мире",
+              "url": "http://belta.by/world/view/jotova-pobezhdaet-na-vyborah-prezidenta-808848-2026/",
+              "source_id": "belta.by",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:32:28.979070+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7736183404922485,
+            "article": {
+              "title": ". geleden • Buitenland Bulgarije krijgt met Jotova pro-Russische president, steun voor premier Radev",
+              "url": "https://nos.nl/artikel/2637672-bulgarije-krijgt-met-jotova-pro-russische-president-steun-voor-premier-radev",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:27:52.084848+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7722465395927429,
+            "article": {
+              "title": "Bulgarians head to the polls in tense presidential runoff",
+              "url": "https://www.euronews.com/2026/11/01/bulgarians-head-to-the-polls-in-tense-presidential-runoff",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:27:49.320934+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7682327032089233,
+            "article": {
+              "title": "Bulgaria’s Presidential Race Heads to Runoff as Russia Divides the Two Candidates",
+              "url": "https://balkaninsight.com/2026/10/30/bulgarias-presidential-race-heads-to-runoff-as-russia-divides-the-two-candidates/bi/",
+              "source_id": "balkaninsight.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:32:22.718333+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7609726190567017,
+            "article": {
+              "title": "出口民调：保现总统约托娃在总统选举二轮投票中领先",
+              "url": "https://www.xinhuanet.com/20261102/9253a846664c4c809cefbc2472ff44d3/c.html",
+              "source_id": "xinhuanet.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:33:39.017492+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7553073167800903,
+            "article": {
+              "title": "Bulgaria’s presidential election heads to runoff on November 1",
+              "url": "https://georgiatoday.ge/bulgarias-presidential-election-heads-to-runoff-on-november-1/",
+              "source_id": "georgiatoday.ge",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:32:08.554725+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7337263822555542,
+            "article": {
+              "title": "國際 保加利亞總統決選出口民調：代理總統約托娃勝出",
+              "url": "https://www.cna.com.tw/news/aopl/202611020004.aspx",
+              "source_id": "cna.com.tw",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:35:24.972131+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.733135998249054,
+            "article": {
+              "title": "Bulgaristan’da resmi olmayan ilk sonuçlar... Cumhurbaşkanlığı seçimini kim kazandı?",
+              "url": "https://www.cumhuriyet.com.tr/siyaset/bulgaristan-da-resmi-olmayan-ilk-sonuclar-cumhurbaskanligi-secimini-kim-kazandi-2552312",
+              "source_id": "cumhuriyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:30:44.442219+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.729516863822937,
+            "article": {
+              "title": "Βουλγαρία: Ιστορική νίκη για την Γιότοβα στις προεδρικές εκλογές 23 λεπτά πριν",
+              "url": "https://www.tovima.gr/2026/11/02/world/voulgaria-istoriki-niki-gia-tin-giotova-stis-proedrikes-ekloges/",
+              "source_id": "tovima.gr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:29:12.117231+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7199614644050598,
+            "article": {
+              "title": "Ilijana Jotowa vs. Andrej Gjurow Mehr Moskau oder Europa? Stichwahl entscheidet über Bulgariens Kurs",
+              "url": "https://www.spiegel.de/ausland/bulgarien-praesidentenstichwahl-zwischen-russlandnaher-amtsinhaberin-und-proeuropaeischem-herausforderer-a-b9f9ca98-55da-49be-8513-7696ff1e4b56",
+              "source_id": "spiegel.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:28:02.919558+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 82.12190628134596,
+        "size": 14,
+        "n_sources": 14,
         "n_continents": 9,
         "continents": [
           "China",
@@ -378,1194 +802,1260 @@
           "South America",
           "South Asia"
         ],
-        "coherence": 0.7802087068557739,
-        "title": "German rioters loot shops as ‘Gen Z’ protests turn ugly",
+        "coherence": 0.8143845796585083,
+        "title": "Germany 'Gen Z' protests turn violent as shops looted",
         "central_article": {
-          "title": "German rioters loot shops as ‘Gen Z’ protests turn ugly",
-          "url": "https://www.channelnewsasia.com/world/germany-gen-z-looting-protests-violent-europe-6510521",
-          "source_id": "channelnewsasia.com",
-          "continent": "East Asia",
+          "title": "Germany 'Gen Z' protests turn violent as shops looted",
+          "url": "https://www.euronews.com/2026/11/01/germany-gen-z-protests-turn-violent-as-shops-looted",
+          "source_id": "euronews.com",
+          "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-11-01T13:57:26.387495+00:00"
+          "scraped_at_utc": "2026-11-01T22:27:49.320934+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.855157732963562,
+            "sim_to_centroid": 0.9141048192977905,
             "article": {
-              "title": "German rioters loot shops as ‘Gen Z’ protests turn ugly",
-              "url": "https://www.channelnewsasia.com/world/germany-gen-z-looting-protests-violent-europe-6510521",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
+              "title": "Germany 'Gen Z' protests turn violent as shops looted",
+              "url": "https://www.euronews.com/2026/11/01/germany-gen-z-protests-turn-violent-as-shops-looted",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:57:26.387495+00:00"
+              "scraped_at_utc": "2026-11-01T22:27:49.320934+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8409541845321655,
+            "sim_to_centroid": 0.8847801089286804,
             "article": {
-              "title": "Violentas protestas se extienden por Europa: disturbios, saqueos y choques con la Policía en Alemania y Suiza",
-              "url": "https://www.semana.com/mundo/articulo/violentas-protestas-se-extienden-por-europa-disturbios-saqueos-y-choques-con-la-policia-en-alemania-y-suiza/202639/",
-              "source_id": "semana.com",
-              "continent": "South America",
+              "title": "WATCH Rioters ransack shops as Gen Z protests rock Germany",
+              "url": "https://www.rt.com/news/648190-germany-frankfurt-gen-z-riots/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:52:34.545403+00:00"
+              "scraped_at_utc": "2026-11-01T22:31:55.007218+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8331195712089539,
+            "sim_to_centroid": 0.8520562648773193,
             "article": {
-              "title": "Shops looted as German cost of living protests turn violent",
+              "title": "Shops looted as German cost-of-living protests turn violent",
               "url": "https://www.bbc.com/news/articles/cqj34gnd3n30o",
               "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:50:46.420135+00:00"
+              "scraped_at_utc": "2026-11-01T22:27:40.403431+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8283638954162598,
+            "sim_to_centroid": 0.8424192667007446,
             "article": {
-              "title": "Η οργή της Gen Z ξεχειλίζει στους δρόμους της Ευρώπης – Μολότοφ, λεηλασίες και συλλήψεις",
-              "url": "https://www.tovima.gr/2026/11/01/world/eyropi-i-orgi-tis-gen-z-stous-dromous-epeisodia-leilasies-kai-syllipseis/",
-              "source_id": "tovima.gr",
+              "title": "Alemania sufre los primeros actos vandálicos en la ola de protestas europeas",
+              "url": "https://elpais.com/internacional/2026-11-01/alemania-sufre-los-primeros-actos-vandalicos-en-la-ola-de-protestas-europeas.html",
+              "source_id": "elpais.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:52:15.722739+00:00"
+              "scraped_at_utc": "2026-11-01T22:29:01.287029+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8283392786979675,
+            "sim_to_centroid": 0.8298394680023193,
             "article": {
-              "title": "From teargas in Paris to gen Z in Germany: protests across Europe",
-              "url": "https://www.theguardian.com/world/gallery/2026/oct/31/from-teargas-in-paris-to-gen-z-in-germany-europe-across-protests-in-pictures",
-              "source_id": "theguardian.com",
+              "title": "Europe protests: Unrest spreads to Germany, Portugal and Switzerland",
+              "url": "https://www.channel4.com/news/europe-protests-unrest-spreads-to-germany-portugal-and-switzerland",
+              "source_id": "channel4.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:50:50.427520+00:00"
+              "scraped_at_utc": "2026-11-01T22:27:47.532754+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8199959993362427,
+            "sim_to_centroid": 0.8267868757247925,
             "article": {
-              "title": "Protestos da geração Z levam centenas de milhares às ruas na França e na Alemanha",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/10/protestos-da-geracao-z-chegam-a-alemanha-com-fantasia-e-desalento.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
+              "title": "Protesters loot shops, 100 officers injured as riots spread to Germany",
+              "url": "https://www.abc.net.au/news/2026-11-02/protests-europe-germany-frankfurt/107334774",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:52:39.533421+00:00"
+              "scraped_at_utc": "2026-11-01T22:30:14.859927+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.80450439453125,
-            "article": {
-              "title": "图集｜德国史上最大规模青年示威蔓延34城 多地现暴力事件",
-              "url": "https://photos.caixin.com/2026-11-01/102499648.html",
-              "source_id": "caixin.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:56:20.259451+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8038271069526672,
+            "sim_to_centroid": 0.8162274956703186,
             "article": {
               "title": "Germany Gen Z : Gen Z protests held in 34 German cities; stores looted in Frankfurt",
               "url": "https://pajhwok.com/2026/11/01/gen-z-protests-held-in-34-german-cities-stores-looted-in-frankfurt/",
               "source_id": "pajhwok.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:56:56.525647+00:00"
+              "scraped_at_utc": "2026-11-01T22:34:25.845283+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7896061539649963,
+            "sim_to_centroid": 0.8123878240585327,
             "article": {
-              "title": "Youth protests begin in over 30 German cities as authorities warn of possible unrest",
-              "url": "https://tass.com/world/2211363",
-              "source_id": "tass.com",
-              "continent": "Europe East",
+              "title": "Germany blames migrants and leftists as ‘Gen Z’ protests turn violent",
+              "url": "https://www.smh.com.au/world/europe/germany-vows-tough-response-as-gen-z-protests-turn-violent-20261102-p61afz.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:54:29.917635+00:00"
+              "scraped_at_utc": "2026-11-01T22:30:18.150124+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7803487777709961,
+            "sim_to_centroid": 0.8116062879562378,
             "article": {
-              "title": "Violence after Germany’s Gen Z demos slammed by politicians",
-              "url": "https://www.straitstimes.com/world/europe/violence-after-germanys-gen-z-demos-slammed-by-politicians?ref=latest-headlines",
-              "source_id": "straitstimes.com",
+              "title": "图集｜德国史上最大规模青年示威蔓延34城 多地现暴力事件",
+              "url": "https://photos.caixin.com/2026-11-01/102499648.html",
+              "source_id": "caixin.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:33:45.550311+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8097831010818481,
+            "article": {
+              "title": "Protestos da geração Z levam centenas de milhares às ruas na França e na Alemanha",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/10/protestos-da-geracao-z-chegam-a-alemanha-com-fantasia-e-desalento.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:29:37.552144+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8024833798408508,
+            "article": {
+              "title": "CNA Explains: Why are violent Gen Z protests breaking out across Europe?",
+              "url": "https://www.channelnewsasia.com/world/europe-youth-protests-france-germany-explainer-violence-looting-6510966",
+              "source_id": "channelnewsasia.com",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:57:44.578958+00:00"
+              "scraped_at_utc": "2026-11-01T22:34:55.943700+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7750636339187622,
+            "sim_to_centroid": 0.7878109216690063,
             "article": {
               "title": "Scholierenprotest Duitsland loopt uit op rellen in grote steden",
               "url": "https://fd.nl/politiek/1617723/scholierenprotest-duitsland-loopt-uit-op-rellen-in-grote-steden",
               "source_id": "fd.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:51:02.700366+00:00"
+              "scraped_at_utc": "2026-11-01T22:27:58.164985+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7703762054443359,
-            "article": {
-              "title": "Protesti po Evropi prerasli v nasilje, več sto aretacij in poškodovanih",
-              "url": "https://www.delo.si/novice/svet/protesti-po-evropi-prerasli-v-nasilje-vec-sto-aretacij-in-poskodovanih",
-              "source_id": "delo.si",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:54:15.111018+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7664616107940674,
-            "article": {
-              "title": "'Gen Z' demonstrations across Germany demand more education funding",
-              "url": "https://www.france24.com/en/europe/20261031-german-police-protesters-clash-after-gen-z-demos",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:51:56.984215+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7595356702804565,
-            "article": {
-              "title": "Violence erupts at French demonstrations over cost of living and inequality",
-              "url": "https://www.sbs.com.au/news/article/violence-erupts-at-french-demonstrations-over-cost-of-living-and-inequality/f1iyulwtc",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:53:12.240423+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7534365653991699,
-            "article": {
-              "title": "Gen Z-protest Rellen in Duitsland na afloop jongerenprotesten, belangrijke winkelstraat in Frankfurt afgesloten na plunderingen",
-              "url": "https://www.nrc.nl/nieuws/2026/11/01/rellen-in-duitsland-na-afloop-jongerenprotesten-belangrijke-winkelstraat-in-frankfurt-afgesloten-na-plunderingen-a4940225",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:50:58.069103+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7415529489517212,
-            "article": {
-              "title": "Israeli, US flags burned in Lyon as economic protests turn violent in European cities",
-              "url": "https://www.jpost.com/international/article-913429",
-              "source_id": "jpost.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:53:30.435917+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7316901683807373,
+            "sim_to_centroid": 0.7197414636611938,
             "article": {
               "title": "В Цюрихе и Базеле прошли леворадикальные протесты. Их участники поджигали мусорные контейнеры и били витрины магазинов",
               "url": "https://meduza.io/news/2026/11/01/v-tsyurihe-i-bazele-proshli-levoradikalnye-protesty-ih-uchastniki-podzhigali-musornye-konteynery-i-bili-vitriny-magazinov",
               "source_id": "meduza.io",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:54:19.424781+00:00"
+              "scraped_at_utc": "2026-11-01T22:31:47.824604+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7227476835250854,
-            "article": {
-              "title": "В Цюрихе вспыхнули беспорядки левых радикалов",
-              "url": "https://ria.ru/20261101/tsjurih-2128399660.html",
-              "source_id": "ria.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:54:32.361847+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7040020227432251,
-            "article": {
-              "title": "Tyska protester urartade – vapenaffär plundrades ”Förödande kombination” pekas ut",
-              "url": "https://www.svt.se/nyheter/utrikes/tyska-protester-urartade-vapenaffar-plundrades",
-              "source_id": "svt.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:51:35.121293+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6950902342796326,
+            "sim_to_centroid": 0.6913561820983887,
             "article": {
               "title": "Sokaklar savaş alanına döndü!",
               "url": "https://www.milliyet.com.tr/dunya/son-dakika-almanyada-sokaklar-savas-alanina-dondu-yagma-ve-kaos-bir-arada-7691977",
               "source_id": "milliyet.com.tr",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:53:46.089921+00:00"
+              "scraped_at_utc": "2026-11-01T22:30:46.330848+00:00"
             }
           }
         ]
       },
       {
-        "score": 36.287949941270966,
-        "size": 11,
-        "n_sources": 9,
-        "n_continents": 5,
+        "score": 81.39862620255549,
+        "size": 18,
+        "n_sources": 15,
+        "n_continents": 8,
         "continents": [
           "East Asia",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "South Asia"
-        ],
-        "coherence": 0.856964647769928,
-        "title": "Thousands join Indian opposition protest demanding poll chief's resignation",
-        "central_article": {
-          "title": "Thousands join Indian opposition protest demanding poll chief's resignation",
-          "url": "https://asia.nikkei.com/politics/thousands-join-indian-opposition-protest-demanding-poll-chief-s-resignation",
-          "source_id": "asia.nikkei.com",
-          "continent": "East Asia",
-          "published_at": null,
-          "scraped_at_utc": "2026-11-01T13:57:03.086863+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9315894842147827,
-            "article": {
-              "title": "Thousands join Indian opposition protest demanding poll chief's resignation",
-              "url": "https://asia.nikkei.com/politics/thousands-join-indian-opposition-protest-demanding-poll-chief-s-resignation",
-              "source_id": "asia.nikkei.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:57:03.086863+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.931266188621521,
-            "article": {
-              "title": "Thousands join Indian opposition protest demanding poll chief’s resignation",
-              "url": "https://kathmandupost.com/world/2026/11/01/thousands-join-indian-opposition-protest-demanding-poll-chief-s-resignation",
-              "source_id": "kathmandupost.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:56:51.987963+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.931266188621521,
-            "article": {
-              "title": "Thousands join Indian opposition protest demanding poll chief’s resignation",
-              "url": "https://www.channelnewsasia.com/asia/thousands-join-indian-opposition-protest-demanding-poll-chiefs-resignation-6510591",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:57:26.387495+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.920120120048523,
-            "article": {
-              "title": "Thousands join Delhi opposition rally demanding poll chief’s resignation",
-              "url": "https://www.channelnewsasia.com/shorts/thousands-join-delhi-opposition-rally-demanding-poll-chiefs-resignation-6510971",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:57:26.387495+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8684760928153992,
-            "article": {
-              "title": "Indian opposition parties stage mega rally seeking election chief’s resignation",
-              "url": "https://www.france24.com/en/asia-pacific/20261101-india-tightens-security-as-opposition-holds-mega-rally-demanding-election-chief-s-resignation",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:51:56.984215+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.862674355506897,
-            "article": {
-              "title": "Thousands rally in New Delhi to demand India’s election chief resign",
-              "url": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:53:27.288288+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8502613306045532,
-            "article": {
-              "title": "Thousands protest in India's capital against voter roll revision",
-              "url": "https://www.bangkokpost.com/world/3346525/thousands-protest-in-indias-capital-against-voter-roll-revision",
-              "source_id": "bangkokpost.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:57:42.413626+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8502613306045532,
-            "article": {
-              "title": "Thousands protest in India's capital against voter roll revision",
-              "url": "https://www.dawn.com/news/2041368/thousands-protest-in-indias-capital-against-voter-roll-revision",
-              "source_id": "dawn.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:56:53.216706+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7684272527694702,
-            "article": {
-              "title": "Indian authorities tighten security ahead of big opposition march in Delhi",
-              "url": "https://www.straitstimes.com/asia/south-asia/indian-authorities-tighten-security-ahead-of-big-opposition-march-in-delhi?ref=top-stories",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:57:44.578958+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7684272527694702,
-            "article": {
-              "title": "Indian authorities tighten security ahead of big opposition march in Delhi",
-              "url": "https://kathmandupost.com/world/2026/11/01/indian-authorities-tighten-security-ahead-of-big-opposition-march-in-delhi",
-              "source_id": "kathmandupost.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:56:51.987963+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7438414692878723,
-            "article": {
-              "title": "1 t Verden Protestene mot Modi-regjeringen fortsetter – tusenvis krever valgsjefens avgang",
-              "url": "https://www.aftenposten.no/verden/i/2V2RKx/protestene-mot-modi-regjeringen-fortsetter-tusenvis-krever-valgsjefens-avgang",
-              "source_id": "aftenposten.no",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:51:28.104924+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 30.15159778764955,
-        "size": 9,
-        "n_sources": 9,
-        "n_continents": 4,
-        "continents": [
-          "China",
           "Europe East",
           "Europe North",
-          "South America"
+          "Europe South",
+          "North America",
+          "Oceania",
+          "South America",
+          "South Asia"
         ],
-        "coherence": 0.8645437955856323,
-        "title": "Trump asegura que Flávio Bolsonaro puede permanecer \"el tiempo que quiera\" en EE.UU.",
+        "coherence": 0.8223733305931091,
+        "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
         "central_article": {
-          "title": "Trump asegura que Flávio Bolsonaro puede permanecer \"el tiempo que quiera\" en EE.UU.",
-          "url": "https://www.bbc.com/mundo/articles/cqg7x42xg9m8o",
+          "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+          "url": "https://www.bbc.com/news/articles/cwe8lp7zy07zo",
           "source_id": "bbc.com",
           "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-11-01T13:52:16.902435+00:00"
+          "scraped_at_utc": "2026-11-01T22:27:40.403431+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9237809181213379,
+            "sim_to_centroid": 0.892358124256134,
             "article": {
-              "title": "Trump asegura que Flávio Bolsonaro puede permanecer \"el tiempo que quiera\" en EE.UU.",
-              "url": "https://www.bbc.com/mundo/articles/cqg7x42xg9m8o",
+              "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+              "url": "https://www.bbc.com/news/articles/cwe8lp7zy07zo",
               "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:52:16.902435+00:00"
+              "scraped_at_utc": "2026-11-01T22:27:40.403431+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9033886790275574,
+            "sim_to_centroid": 0.8815951943397522,
             "article": {
-              "title": "Flávio Bolsonaro pode ficar 'quanto tempo quiser' nos EUA, diz Trump",
-              "url": "https://oglobo.globo.com/politica/noticia/2026/11/01/flavio-bolsonaro-pode-ficar-quanto-tempo-quiser-nos-eua-diz-trump.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
+              "title": "Binance resumes crypto withdrawals after major hack blamed on North Korea",
+              "url": "https://www.france24.com/en/business/20261101-binance-says-resuming-withdrawals-after-major-hack",
+              "source_id": "france24.com",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:52:42.300526+00:00"
+              "scraped_at_utc": "2026-11-01T22:28:51.819917+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9008235335350037,
+            "sim_to_centroid": 0.8720501065254211,
             "article": {
-              "title": "Bolsonaro mag van Trump in de VS blijven ‘zolang hij wil’",
-              "url": "https://fd.nl/politiek/1617667/bolsonaro-mag-van-trump-in-de-vs-blijven-zolang-hij-wil",
-              "source_id": "fd.nl",
-              "continent": "Europe North",
+              "title": "Hackers steal $6.3 bln from crypto giant Binance",
+              "url": "https://www.thedailystar.net/news/technology/news/hackers-steal-63-bln-crypto-giant-binance-4311391",
+              "source_id": "thedailystar.net",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:51:02.700366+00:00"
+              "scraped_at_utc": "2026-11-01T22:34:10.443516+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8972350358963013,
+            "sim_to_centroid": 0.8712888360023499,
             "article": {
-              "title": "Trump welcomes Flavio Bolsonaro after losing Brazil elections: 'Stay here as long as he ​wants'",
-              "url": "https://www.independent.co.uk/news/world/americas/trump-flavio-bolsonaro-america-brazil-b3077031.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
+              "title": "Binance sees spike in withdrawals after $6.3-billion heist",
+              "url": "https://www.theglobeandmail.com/business/article-binance-heist-withdrawals-north-korea/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:50:47.718785+00:00"
+              "scraped_at_utc": "2026-11-01T22:30:13.178419+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8879903554916382,
+            "sim_to_centroid": 0.8617184162139893,
             "article": {
-              "title": "Donald Trump, după ce Bolsonaro a fugit în SUA la capătul alegerilor pierdute din Brazilia: „Poate rămâne aici cât dorește”",
-              "url": "https://www.g4media.ro/donald-trump-dupa-ce-bolsonaro-a-fugit-in-sua-la-capatul-alegerilor-pierdute-din-brazilia-poate-ramane-aici-cat-doreste.html",
-              "source_id": "g4media.ro",
-              "continent": "Europe East",
+              "title": "Binance says resuming withdrawals after major hack",
+              "url": "https://www.bangkokpost.com/world/3346516/binance-says-resuming-withdrawals-after-major-hack",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:54:11.369842+00:00"
+              "scraped_at_utc": "2026-11-01T22:35:14.189719+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.878694474697113,
+            "sim_to_centroid": 0.8518393635749817,
             "article": {
-              "title": "Trump diz não ter planos de encontrar Flávio Bolsonaro, mas que ele pode ficar o quanto quiser",
-              "url": "https://www.estadao.com.br/politica/eleicoes/trump-diz-nao-ter-planos-de-encontrar-flavio-bolsonaro-mas-que-ele-pode-ficar-o-tempo-que-quiser/",
-              "source_id": "estadao.com.br",
-              "continent": "South America",
+              "title": "FBI says North Korea behind $6 billion crypto theft from Binance",
+              "url": "https://www.bangkokpost.com/world/3346474/fbi-says-north-korea-behind-6-billion-crypto-theft-from-binance",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:52:43.710430+00:00"
+              "scraped_at_utc": "2026-11-01T22:35:14.189719+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8311417102813721,
+            "sim_to_centroid": 0.8432048559188843,
             "article": {
-              "title": "Brasilianischer Politiker Trump verspricht Bolsonaro unbegrenztes Bleiberecht (aber treffen will er ihn nicht)",
-              "url": "https://www.spiegel.de/ausland/brasilien-donald-trump-gewaehrt-flavio-bolsonaro-unbegrenztes-bleiberecht-a-a214a183-4ca3-4ede-b2d1-02f92fb03bbe",
-              "source_id": "spiegel.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:51:07.968100+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7878917455673218,
-            "article": {
-              "title": "特朗普：不打算与败选后逃往美国的小博索纳罗举行会面，不过他可以“想在美国待多久就待多久”",
-              "url": "https://www.stnn.cc/detail/6ae697a08f9d2b19dd172ed0.html",
-              "source_id": "stnn.cc",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:56:29.160906+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7699477672576904,
-            "article": {
-              "title": "„So lange er will“: Humanitäre Sondergenehmigung für Bolsonaro in den USA",
-              "url": "https://www.diepresse.com/41409338/so-lange-er-will-humanitaere-sondergenehmigung-fuer-bolsonaro-in-den-usa",
+              "title": "Binance nimmt nach Milliarden-Krypto-Raub Auszahlungen wieder auf",
+              "url": "https://www.diepresse.com/41409227/binance-nimmt-nach-milliarden-krypto-raub-auszahlungen-wieder-auf",
               "source_id": "diepresse.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:51:14.660512+00:00"
+              "scraped_at_utc": "2026-11-01T22:28:10.887841+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8368056416511536,
+            "article": {
+              "title": "Noord-Korea zit achter miljardendiefstal bij Binance, zegt FBI",
+              "url": "https://fd.nl/politiek/1617666/noord-korea-zit-achter-miljardendiefstal-bij-binance-zegt-fbi",
+              "source_id": "fd.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:27:58.164985+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.821940541267395,
+            "article": {
+              "title": "Binance partially resumes withdrawals following hack — statement",
+              "url": "https://tass.com/economy/2211531",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:31:59.097621+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8212772607803345,
+            "article": {
+              "title": "FBI accuses North Korea of hacking Binance crypto exchange",
+              "url": "https://tass.com/economy/2211451",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:31:59.097621+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.818551242351532,
+            "article": {
+              "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
+              "url": "https://www.bbc.com/news/articles/ck9dz3v7z7v3o",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:27:40.403431+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8164966106414795,
+            "article": {
+              "title": "Business Premium Binance covers $6b of $6.3b stolen in record hack",
+              "url": "https://thewest.com.au/business/fbi-blames-north-korea-for-stolen-billions-from-binance-c-23099783",
+              "source_id": "thewest.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:30:21.149998+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8141348958015442,
+            "article": {
+              "title": "ФБР обвинило хакеров из Северной Кореи во взломе криптобиржи Binance",
+              "url": "https://meduza.io/news/2026/11/01/fbr-obvinilo-hakerov-iz-severnoy-korei-vo-vzlome-kriptobirzhi-binance",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:31:47.824604+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8074398636817932,
+            "article": {
+              "title": "Economy Hackers steal $6.3 billion from Binance in world's biggest crypto heist , 30 October",
+              "url": "https://armenpress.am/en/article/1264310",
+              "source_id": "armenpress.am",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:32:14.199737+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7613942623138428,
+            "article": {
+              "title": "$6 billion cryptocurrency heist puts investors on edge",
+              "url": "https://www.pbs.org/newshour/show/6-billion-cryptocurrency-heist-puts-investors-on-edge",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:33:29.951450+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7539196014404297,
+            "article": {
+              "title": "Binance gradually restores cryptocurrency withdrawal",
+              "url": "https://www.azernews.az/business/266606.html",
+              "source_id": "azernews.az",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:32:16.700966+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7392227649688721,
+            "article": {
+              "title": "Especialistas explicam fator humano em desvio recorde de R$ 34 bi na Binance",
+              "url": "https://oglobo.globo.com/economia/noticia/2026/10/30/roubo-do-seculo-especialistas-afastam-uso-de-ia-e-explicam-fator-humano-em-desvio-recorde-de-r-34-bi-na-binance.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:29:40.482152+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7374828457832336,
+            "article": {
+              "title": "Die Lehren aus dem spektakulären Binance-Hack: Bitcoin und Co. kauft man am besten bei einer Bank oder einem Vermögensverwalter",
+              "url": "https://www.nzz.ch/wirtschaft/die-lehren-aus-dem-spektakulaeren-binance-hack-bitcoin-und-co-kauft-man-am-besten-bei-einer-bank-oder-einem-vermoegensverwalter-ld.10049371",
+              "source_id": "nzz.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:28:16.777737+00:00"
             }
           }
         ]
       },
       {
-        "score": 29.58928059407541,
-        "size": 7,
-        "n_sources": 7,
-        "n_continents": 5,
+        "score": 54.97043744754645,
+        "size": 13,
+        "n_sources": 12,
+        "n_continents": 6,
         "continents": [
+          "Europe East",
           "Europe North",
           "Europe South",
           "North America",
           "Oceania",
           "South America"
         ],
-        "coherence": 0.8664128184318542,
-        "title": "Judge dismisses Trump suit against Wall Street Journal over Epstein birthday letter",
+        "coherence": 0.8460258841514587,
+        "title": "Antonelli jongste wereldkampioen Formule 1, Verstappen wint Grand Prix van Mexico",
         "central_article": {
-          "title": "Judge dismisses Trump suit against Wall Street Journal over Epstein birthday letter",
-          "url": "https://www.pbs.org/newshour/politics/judge-dismisses-trump-suit-against-wall-street-journal-over-epstein-birthday-letter",
-          "source_id": "pbs.org",
-          "continent": "North America",
+          "title": "Antonelli jongste wereldkampioen Formule 1, Verstappen wint Grand Prix van Mexico",
+          "url": "https://nos.nl/artikel/2637675-antonelli-jongste-wereldkampioen-formule-1-verstappen-wint-grand-prix-van-mexico",
+          "source_id": "nos.nl",
+          "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-11-01T13:56:08.062394+00:00"
+          "scraped_at_utc": "2026-11-01T22:27:52.084848+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9370354413986206,
+            "sim_to_centroid": 0.9126921892166138,
             "article": {
-              "title": "Judge dismisses Trump suit against Wall Street Journal over Epstein birthday letter",
-              "url": "https://www.pbs.org/newshour/politics/judge-dismisses-trump-suit-against-wall-street-journal-over-epstein-birthday-letter",
-              "source_id": "pbs.org",
-              "continent": "North America",
+              "title": "Antonelli jongste wereldkampioen Formule 1, Verstappen wint Grand Prix van Mexico",
+              "url": "https://nos.nl/artikel/2637675-antonelli-jongste-wereldkampioen-formule-1-verstappen-wint-grand-prix-van-mexico",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:56:08.062394+00:00"
+              "scraped_at_utc": "2026-11-01T22:27:52.084848+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9076748490333557,
+            "sim_to_centroid": 0.9110845327377319,
             "article": {
-              "title": "Judge dismisses Trump lawsuit against Wall Street Journal over Epstein cartoon",
-              "url": "https://www.abc.net.au/news/2026-11-01/judge-dismisses-trump-lawsuit-against-wsj-over-epstein-cartoon/107333268",
+              "title": "Antonelli se corona en el GP de México como el piloto más joven en ganar el Mundial de F1",
+              "url": "https://elpais.com/deportes/formula-1/2026-11-02/gp-de-mexico-en-directo-la-carrera-de-f1-en-vivo.html",
+              "source_id": "elpais.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:29:01.287029+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8923234939575195,
+            "article": {
+              "title": "F1 Mexique : victoire de Max Verstappen, Kimi Antonelli devient le plus jeune champion du monde de l’Histoire",
+              "url": "https://www.rtbf.be/article/f1-mexique-victoire-de-max-verstappen-kimi-antonelli-devient-le-plus-jeune-champion-du-monde-de-l-histoire-11809030",
+              "source_id": "rtbf.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:28:58.156482+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8908294439315796,
+            "article": {
+              "title": "Antonelli crowned F1 champ, Verstappen wins in Mexico after horror crash stops race",
+              "url": "https://www.abc.net.au/news/2026-11-02/f1-live-mexico-city-grand-prix-oscar-piastri-kimi-antonelli/106998720",
               "source_id": "abc.net.au",
               "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:53:10.729765+00:00"
+              "scraped_at_utc": "2026-11-01T22:30:14.859927+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8951482772827148,
+            "sim_to_centroid": 0.8886693716049194,
             "article": {
-              "title": "Judge dismisses Trump's defamation lawsuit over Epstein birthday letter report",
-              "url": "https://www.sbs.com.au/news/article/judge-dismisses-trump-defamation-lawsuit-epstein-birthday-letter-report/houoy4aww",
-              "source_id": "sbs.com.au",
+              "title": "Mladík Antonelli slaví. V Mexiku zpečetil snovou sezonu a je mistrem světa F1",
+              "url": "https://www.idnes.cz/sport/formule/velka-cena-mexika-formule-1-online-prenos.A261101_100234_formule_hrj",
+              "source_id": "idnes.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:31:33.502126+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8500058650970459,
+            "article": {
+              "title": "Antonelli, el campe�n m�s joven de la F�rmula 1",
+              "url": "https://www.reforma.com/antonelli-el-campeon-mas-joven-de-la-formula-1/ar3306217",
+              "source_id": "reforma.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:29:15.897840+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8413170576095581,
+            "article": {
+              "title": "Una huella imborrable: Kimi Antonelli hace historia y se convierte en el campeón más joven de la historia de la Fórmula 1",
+              "url": "https://www.latercera.com/el-deportivo/noticia/una-huella-imborrable-kimi-antonelli-hace-historia-y-se-convierte-en-el-campeon-mas-joven-de-la-historia-de-la-formula-1/",
+              "source_id": "latercera.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:29:47.974784+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8243457078933716,
+            "article": {
+              "title": "Kimi Antonelli jedzie w Meksyku po mistrzostwo świata i miejsce w historii",
+              "url": "https://sport.rp.pl/formula-1/art45426001-formula-1-kimi-antonelli-jedzie-w-meksyku-po-mistrzostwo-swiata-i-miejsce-w-historii",
+              "source_id": "rp.pl",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:31:41.170958+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8226958513259888,
+            "article": {
+              "title": "Gana Verstappen el GP de CDMX; se corona Antonelli",
+              "url": "https://www.reforma.com/gana-verstappen-en-cdmx-se-corona-antonelli/ar3306219",
+              "source_id": "reforma.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:29:15.897840+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8097344636917114,
+            "article": {
+              "title": "vivo Gran Premio de México. Kimi Antonelli se consagró campeón a los 20 años y Colapinto terminó en el octavo puesto",
+              "url": "https://www.lanacion.com.ar/deportes/automovilismo/franco-colapinto-en-el-gran-premio-de-mexico-en-vivo-nid01112026/",
+              "source_id": "lanacion.com.ar",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:29:29.782354+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7987582683563232,
+            "article": {
+              "title": "Italija ima prvaka, Kimi Antonelli je spisal zgodovino",
+              "url": "https://www.delo.si/sport/drugi-sporti/mehika-antonelli-hamilton-russell-prvak-italija-formula-1-zmaga",
+              "source_id": "delo.si",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:31:43.415296+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7846355438232422,
+            "article": {
+              "title": "Hamilton and Verstappen collide as Antonelli bids for championship",
+              "url": "https://www.smh.com.au/sport/motorsport/mexican-f1-gp-live-kimi-antonelli-set-to-clinch-championship-ocon-denies-violence-allegations-20261102-p61adv.html",
+              "source_id": "smh.com.au",
               "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:53:12.240423+00:00"
+              "scraped_at_utc": "2026-11-01T22:30:18.150124+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8473043441772461,
+            "sim_to_centroid": 0.7712448835372925,
             "article": {
-              "title": "Justiça dos EUA rejeita ação de US$ 10 bi de Trump contra jornal americano por carta a Epstein",
-              "url": "https://www.estadao.com.br/internacional/justica-dos-eua-rejeita-acao-de-us-10-bi-de-trump-contra-jornal-americano-por-carta-a-epstein/",
-              "source_id": "estadao.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:52:43.710430+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8433578014373779,
-            "article": {
-              "title": "Judge dismisses Trump's lawsuit against Wall Street Journal over Epstein birthday book Trump had sued the media outlet after it published a letter to Epstein purportedly written and signed by the president as part of a birthday book. 13 hrs ago US & Canada",
-              "url": "https://www.bbc.com/news/articles/cwr5yj2lj9myo",
-              "source_id": "bbc.com",
+              "title": "Formula One Hamilton storms to his first Ferrari pole at Mexican GP with Antonelli fourth",
+              "url": "https://www.theguardian.com/sport/2026/oct/31/lewis-hamilton-storms-to-first-ferrari-pole-at-f1-mexican-grand-prix-with-antonelli-fifth",
+              "source_id": "theguardian.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:50:46.420135+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8208301067352295,
-            "article": {
-              "title": "Juiz rejeita ação de Trump contra Wall Street Journal sobre suposta carta para Epstein Reportagem mostrou mensagem obscena que teria sido enviada ao criminoso sexual",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/10/juiz-rejeita-acao-de-trump-contra-wall-street-journal-sobre-suposta-carta-para-epstein.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:52:39.533421+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8135392665863037,
-            "article": {
-              "title": "Zaak-Epstein Rechter verwerpt Trumps klacht over schunnige tekening voor Epstein: \"Een wanhoopspoging\"",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/11/01/rechter-verwerpt-klacht-van-trump-over-verjaardagskaartje-aan-ep/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:52:00.347388+00:00"
+              "scraped_at_utc": "2026-11-01T22:27:44.850236+00:00"
             }
           }
         ]
       },
       {
-        "score": 28.127051928361617,
-        "size": 9,
-        "n_sources": 8,
-        "n_continents": 5,
+        "score": 52.16927729453035,
+        "size": 18,
+        "n_sources": 15,
+        "n_continents": 7,
         "continents": [
-          "Europe East",
+          "East Asia",
           "Europe North",
           "Europe South",
-          "South America",
-          "South Asia"
+          "Middle East",
+          "North America",
+          "Oceania",
+          "South America"
         ],
-        "coherence": 0.829570472240448,
-        "title": "Poland political crisis: Constitutional court in chaos",
+        "coherence": 0.7601066827774048,
+        "title": "4 , What polls say as Trump makes his final push before US midterms",
         "central_article": {
-          "title": "Poland political crisis: Constitutional court in chaos",
-          "url": "https://www.euronews.com/2026/10/31/poland-political-crisis-constitutional-court-in-chaos-as-nawrocki-accuses-government-of-st",
-          "source_id": "euronews.com",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-11-01T13:50:53.675756+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9098462462425232,
-            "article": {
-              "title": "Poland political crisis: Constitutional court in chaos",
-              "url": "https://www.euronews.com/2026/10/31/poland-political-crisis-constitutional-court-in-chaos-as-nawrocki-accuses-government-of-st",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:50:53.675756+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8502503633499146,
-            "article": {
-              "title": "Poland crisis explained: a dispute over legitimacy and the courts",
-              "url": "https://www.euronews.com/2026/10/31/polands-constitutional-tribunal-crisis-explained-a-decade-long-dispute-over-legitimacy-of-",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:50:53.675756+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8426337838172913,
-            "article": {
-              "title": "Polish president storms into besieged court amid constitutional crisis (VIDEOS): As it happened",
-              "url": "https://www.rt.com/news/648157-coup-poland-court/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:54:26.308921+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8390796780586243,
-            "article": {
-              "title": "В Польше разразился конституционный кризис: реакция мировых СМИ",
-              "url": "https://www.kommersant.ru/doc/9078444",
-              "source_id": "kommersant.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:54:27.772397+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8285370469093323,
-            "article": {
-              "title": "Poland rocked by Constitutional showdown",
-              "url": "https://www.france24.com/en/poland-rocked-by-constitutional-showdown",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:51:56.984215+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8266949653625488,
-            "article": {
-              "title": "Caos institucional en Polonia: Las claves del conflicto en torno al Tribunal Constitucional que divide al país",
-              "url": "https://www.emol.com/noticias/Internacional/2026/10/31/1215763/polonia-crisis-institucional-claves.html",
-              "source_id": "emol.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:52:37.111837+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8163490295410156,
-            "article": {
-              "title": "El presidente de Polonia convoca consultas de emergencia por la crisis institucional",
-              "url": "https://elcomercio.pe/mundo/europa/polonia-el-presidente-karol-nawrocki-convoca-consultas-de-emergencia-por-la-crisis-institucional-tribunal-constitucional-bogdan-swieczkowski-ultimas-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:52:46.399843+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7846873998641968,
-            "article": {
-              "title": "तख्तापलट बनाम कानून का शासन... पोलैंड में प्रधानमंत्री और राष्ट्रपति के बीच टकराव की क्या है वजह?",
-              "url": "https://www.jagran.com/world/other-poland-chief-justice-controversy-why-pm-donald-tusk-and-president-rivalry-on-judicial-reform-40422716.html",
-              "source_id": "jagran.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:56:35.750133+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7680554389953613,
-            "article": {
-              "title": "EU Commission backs Poland government over constitutional court crisis.",
-              "url": "https://kyivindependent.com/eu-commission-backs-poland-government-over-constitutional-court-crisis/",
-              "source_id": "kyivindependent.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:54:18.290394+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 25.457083098778888,
-        "size": 8,
-        "n_sources": 8,
-        "n_continents": 4,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East"
-        ],
-        "coherence": 0.8542516231536865,
-        "title": "Bulgarians vote in presidential run-off amid Black Sea tensions",
-        "central_article": {
-          "title": "Bulgarians vote in presidential run-off amid Black Sea tensions",
-          "url": "https://www.aljazeera.com/news/2026/11/1/bulgarians-vote-in-presidential-run-off-amid-black-sea-tensions",
+          "title": "4 , What polls say as Trump makes his final push before US midterms",
+          "url": "https://www.aljazeera.com/news/2026/11/1/us-midterms-2-days-to-go-what-polls-say-as-trump-el-sayed-hit-the-trail",
           "source_id": "aljazeera.com",
           "continent": "Middle East",
           "published_at": null,
-          "scraped_at_utc": "2026-11-01T13:53:27.288288+00:00"
+          "scraped_at_utc": "2026-11-01T22:30:31.149076+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9187688827514648,
+            "sim_to_centroid": 0.8320471048355103,
             "article": {
-              "title": "Bulgarians vote in presidential run-off amid Black Sea tensions",
-              "url": "https://www.aljazeera.com/news/2026/11/1/bulgarians-vote-in-presidential-run-off-amid-black-sea-tensions",
+              "title": "4 , What polls say as Trump makes his final push before US midterms",
+              "url": "https://www.aljazeera.com/news/2026/11/1/us-midterms-2-days-to-go-what-polls-say-as-trump-el-sayed-hit-the-trail",
               "source_id": "aljazeera.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:53:27.288288+00:00"
+              "scraped_at_utc": "2026-11-01T22:30:31.149076+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9155274033546448,
+            "sim_to_centroid": 0.8280248045921326,
             "article": {
-              "title": "Bulgarians vote in presidential runoff amid security tensions in the Black Sea",
-              "url": "https://www.france24.com/en/europe/20261101-bulgarians-vote-in-presidential-runoff-amid-security-tensions-in-the-black-sea",
-              "source_id": "france24.com",
+              "title": "Candidates make final midterm stops as early voting surges",
+              "url": "https://www.pbs.org/newshour/show/candidates-make-final-midterm-stops-as-early-voting-surges",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:33:29.951450+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7951979637145996,
+            "article": {
+              "title": "Trump heads to farm states as US prepares for midterms",
+              "url": "https://www.irishtimes.com/world/us/2026/11/01/trump-heads-to-farm-states-as-us-prepares-for-midterms/",
+              "source_id": "irishtimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:30:29.802079+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7852954268455505,
+            "article": {
+              "title": "Trump campaigns in Kansas and Iowa ahead of crucial midterm elections",
+              "url": "https://www.channel4.com/news/trump-campaigns-in-kansas-and-iowa-ahead-of-crucial-midterm-elections",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:27:47.532754+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.772047758102417,
+            "article": {
+              "title": "Las ‘midterms’ más reñidas: las elecciones que definirán el futuro de Trump",
+              "url": "https://elcomercio.pe/mundo/eeuu/las-midterms-mas-renidas-las-elecciones-que-definiran-el-futuro-de-trump-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:29:46.190570+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7713392376899719,
+            "article": {
+              "title": "Trump gushes over Haley Stevens’ flip, spars with hecklers at penultimate midterms rally",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-midterms-tele-rally-mar-a-lago-updates-b3076820.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:27:41.818108+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7671954035758972,
+            "article": {
+              "title": "Amerika kiest Amerika maakt zich op voor de 'midterms': wat zijn dat precies? En zijn ze belangrijk?",
+              "url": "https://www.vrt.be/vrtnws/nl/2018/09/11/de-amerikanen-maken-zich-op-voor-de-midterms-maar-wat-is-dat/",
+              "source_id": "vrt.be",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:51:56.984215+00:00"
+              "scraped_at_utc": "2026-11-01T22:28:55.361608+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8711732029914856,
+            "sim_to_centroid": 0.7637808322906494,
             "article": {
-              "title": "Bulgarians Vote in Tight Presidential Runoff Dominating Black Sea",
-              "url": "https://www.kyivpost.com/post/88802",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
+              "title": "Trump yells ‘shut up’ at protester just minutes into midterm rally",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-rally-protester-midterm-elections-b3076813.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:54:16.729429+00:00"
+              "scraped_at_utc": "2026-11-01T22:27:41.818108+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8699822425842285,
+            "sim_to_centroid": 0.7592031359672546,
             "article": {
-              "title": "Bulgaria’s Presidential Race Heads to Runoff as Russia Divides the Two Candidates",
-              "url": "https://balkaninsight.com/2026/10/30/bulgarias-presidential-race-heads-to-runoff-as-russia-divides-the-two-candidates/bi/",
-              "source_id": "balkaninsight.com",
-              "continent": "Europe East",
+              "title": "Mehr zu den Midterms",
+              "url": "https://www.srf.ch/news/midterms-wahlen-in-den-usa",
+              "source_id": "srf.ch",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:54:53.354135+00:00"
+              "scraped_at_utc": "2026-11-01T22:28:18.853316+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8514363169670105,
+            "sim_to_centroid": 0.7557876706123352,
             "article": {
-              "title": "En Bulgarie, le second tour de l’élection présidentielle est ouvert, duel serré en vue sur fond de tensions avec la Russie",
-              "url": "https://www.lemonde.fr/international/article/2026/11/01/en-bulgarie-le-second-tour-de-l-election-presidentielle-s-ouvre-dimanche-avec-un-duel-serre-sur-fond-de-tensions-avec-la-russie_6804128_3210.html",
+              "title": "Democrats 'nauseously optimistic' for midterm gains as Trump faces voter backlash",
+              "url": "https://www.sbs.com.au/news/article/democrats-nauseously-optimistic-for-midterm-gains-as-trump-faces-voter-backlash/lac4x54tx",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:30:16.719157+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7536555528640747,
+            "article": {
+              "title": "Voting Affordability top of mind for voters in final sprint to midterms",
+              "url": "https://www.theguardian.com/us-news/2026/nov/01/affordability-voters-final-sprint-midterms",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:27:44.850236+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7446284890174866,
+            "article": {
+              "title": "Trump y republicanos se movilizan para evitar una victoria demócrata en las legislativas",
+              "url": "https://elcomercio.pe/mundo/eeuu/donald-trump-y-republicanos-se-movilizan-para-evitar-una-victoria-democrata-en-las-legislativas-estados-unidos-ultimas-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:29:46.190570+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7427082061767578,
+            "article": {
+              "title": "World watches U.S. midterms with Trumpism already waning globally",
+              "url": "https://www.japantimes.co.jp/news/2026/11/01/world/politics/world-us-midterms-trumpism/",
+              "source_id": "japantimes.co.jp",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:34:57.465768+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7303904294967651,
+            "article": {
+              "title": "ترامب يختتم رسالته الانتخابية من أمام نصب لينكولن قبل معركة الكونغرس",
+              "url": "https://www.annahar.com/international/united-states/362476/ترامب-يختتم-رسالته-الانتخابية-من-أمام-نصب-لينكولن-قبل-معركة-الكونغرس",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:31:11.562251+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7258639335632324,
+            "article": {
+              "title": "Elections de mi-mandat : Donald Trump rattrapé par son bilan",
+              "url": "https://www.lemonde.fr/idees/article/2026/10/31/elections-de-mi-mandat-donald-trump-rattrape-par-son-bilan_6803488_3232.html",
               "source_id": "lemonde.fr",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:51:51.368659+00:00"
+              "scraped_at_utc": "2026-11-01T22:28:45.755631+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.81833416223526,
+            "sim_to_centroid": 0.7241896390914917,
             "article": {
-              "title": "Alegeri prezidențiale în Bulgaria. O luptă strânsă între „președinta păcii” și candidatul pro-occidental",
-              "url": "https://hotnews.ro/alegeri-prezidentiale-in-bulgaria-o-lupta-stransa-intre-presedinta-pacii-si-candidatul-pro-occidental-in-cea-mai-saraca-tara-din-ue-2391718",
-              "source_id": "hotnews.ro",
-              "continent": "Europe East",
+              "title": "Ex US spy chiefs say Trump 'willing to go beyond limits' at midterms",
+              "url": "https://www.abc.net.au/news/2026-11-02/trump-could-interfere-in-us-midterm-elections-warn-ex-spy-chiefs/107283800",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:54:01.592628+00:00"
+              "scraped_at_utc": "2026-11-01T22:30:14.859927+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8003371357917786,
+            "sim_to_centroid": 0.7233860492706299,
             "article": {
-              "title": "Krieg oder Frieden? Stichwahl entscheidet über Staatsoberhaupt in Bulgarien",
-              "url": "https://www.diepresse.com/41409025/krieg-oder-frieden-stichwahl-entscheidet-ueber-staatsoberhaupt-in-bulgarien",
-              "source_id": "diepresse.com",
+              "title": "In the last stretch of school board races, a push to get out the vote",
+              "url": "https://www.chicagotribune.com/2026/11/01/chicago-school-board-candidates-push-vote/",
+              "source_id": "chicagotribune.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:33:26.605034+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7071791887283325,
+            "article": {
+              "title": "Epstein files Ads accusing Republican candidates of protecting Epstein fill airwaves in final midterm push",
+              "url": "https://www.theguardian.com/us-news/2026/oct/31/political-ads-midterms-epstein-republican-candidate",
+              "source_id": "theguardian.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:51:14.660512+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7884536981582642,
-            "article": {
-              "title": "В Болгарии проходит второй тур президентских выборов 1 ноября",
-              "url": "https://novayagazeta.eu/articles/2026/11/01/v-bolgarii-prokhodit-vtoroi-tur-prezidentskikh-vyborov-news",
-              "source_id": "novayagazeta.eu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:54:21.082433+00:00"
+              "scraped_at_utc": "2026-11-01T22:27:44.850236+00:00"
             }
           }
         ]
       },
       {
-        "score": 23.806796351002973,
-        "size": 13,
-        "n_sources": 11,
-        "n_continents": 4,
+        "score": 39.553824047576555,
+        "size": 10,
+        "n_sources": 10,
+        "n_continents": 6,
+        "continents": [
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "Oceania",
+          "South Asia"
+        ],
+        "coherence": 0.8166635632514954,
+        "title": "Trump says he may become 'Mr Veto' if Democrats win the midterms",
+        "central_article": {
+          "title": "Trump says he may become 'Mr Veto' if Democrats win the midterms",
+          "url": "https://www.hindustantimes.com/world-news/us-news/trump-says-he-may-become-mr-veto-if-democrats-win-the-midterms-im-not-going-to-let-them-ruin-it-101793556074892.html",
+          "source_id": "hindustantimes.com",
+          "continent": "South Asia",
+          "published_at": null,
+          "scraped_at_utc": "2026-11-01T22:34:07.389148+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9118225574493408,
+            "article": {
+              "title": "Trump says he may become 'Mr Veto' if Democrats win the midterms",
+              "url": "https://www.hindustantimes.com/world-news/us-news/trump-says-he-may-become-mr-veto-if-democrats-win-the-midterms-im-not-going-to-let-them-ruin-it-101793556074892.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:34:07.389148+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8936924934387207,
+            "article": {
+              "title": "La strategia di Trump se perderà il Congresso alle elezioni di Midterm: “Diventerò Mr. Veto”",
+              "url": "https://www.repubblica.it/esteri/2026/11/01/news/se_trump_perde_le_elezioni_diventero_mr_veto-425692335/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:29:08.243379+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8614336252212524,
+            "article": {
+              "title": "Trump makes plans for Democrat win in midterms",
+              "url": "https://www.rnz.co.nz/news/world/2292280/trump-white-house-maps-path-to-govern-without-congress-if-democrats-win",
+              "source_id": "rnz.co.nz",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:30:22.782985+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8342587947845459,
+            "article": {
+              "title": "Trump: «Se perdo le Midterm diventerò Mister Veto». Il comizio finale al Lincoln Memorial",
+              "url": "https://www.corriere.it/esteri/26_novembre_01/trump-mister-veto-comizio-finale-lincoln-memorial-e430ed8c-7747-4152-abe4-2fb56d5fdxlk.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:29:10.024744+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8219520449638367,
+            "article": {
+              "title": "Дональд Трамп пообещал стать «мистером Вето» в случае победы демократов",
+              "url": "https://www.kommersant.ru/doc/9078620",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:31:57.180638+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7943205833435059,
+            "article": {
+              "title": "„Domnul Veto”. Cum se pregătește Casa Albă, de luni de zile, pentru scenariul în care republicanii lui Trump pierd alegerile",
+              "url": "https://hotnews.ro/domnul-veto-casa-alba-pregateste-de-luni-de-zile-un-plan-b-pentru-scenariul-in-care-republicanii-lui-trump-pierd-alegerile-2392089",
+              "source_id": "hotnews.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:31:20.155087+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.793612003326416,
+            "article": {
+              "title": "Donald Trump makes final midterm campaign push",
+              "url": "https://www.thenationalnews.com/news/us/2026/11/01/donald-trump-makes-final-midterm-campaign-push/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:30:32.791690+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7763292789459229,
+            "article": {
+              "title": "Trump's Republicans scramble to stop Democratic midterms wave",
+              "url": "https://www.newarab.com/news/trumps-republicans-scramble-stop-democratic-midterms-wave",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:30:47.980134+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7738714814186096,
+            "article": {
+              "title": "Trump May Consider Major Iran Strike if Republicans Lose Midterms",
+              "url": "https://www.kyivpost.com/post/88788",
+              "source_id": "kyivpost.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:31:45.198214+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7053430080413818,
+            "article": {
+              "title": "Klar tale: - Blir «Mr. Veto»",
+              "url": "https://www.dagbladet.no/nyheter/trump-med-klar-tale-blir-mr-veto/85366712",
+              "source_id": "dagbladet.no",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:28:27.091062+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 31.50298034337993,
+        "size": 8,
+        "n_sources": 8,
+        "n_continents": 6,
         "continents": [
           "East Asia",
           "Europe East",
           "Europe North",
-          "Europe South"
+          "Europe South",
+          "Middle East",
+          "North America"
         ],
-        "coherence": 0.7771562933921814,
-        "title": "Youth-led protests sweep across France, Germany and Italy",
+        "coherence": 0.8157762289047241,
+        "title": "Growing wave of youth-led protests sweeps Europe",
         "central_article": {
-          "title": "Youth-led protests sweep across France, Germany and Italy",
-          "url": "https://www.channelnewsasia.com/shorts/youth-led-protests-sweep-across-france-germany-and-italy-6510746",
-          "source_id": "channelnewsasia.com",
-          "continent": "East Asia",
+          "title": "Growing wave of youth-led protests sweeps Europe",
+          "url": "https://www.theglobeandmail.com/world/article-scattered-riots-hit-germany-and-france-braces-for-more-protest-action/",
+          "source_id": "theglobeandmail.com",
+          "continent": "North America",
           "published_at": null,
-          "scraped_at_utc": "2026-11-01T13:57:26.387495+00:00"
+          "scraped_at_utc": "2026-11-01T22:30:13.178419+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8489156365394592,
+            "sim_to_centroid": 0.9034836292266846,
+            "article": {
+              "title": "Growing wave of youth-led protests sweeps Europe",
+              "url": "https://www.theglobeandmail.com/world/article-scattered-riots-hit-germany-and-france-braces-for-more-protest-action/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:30:13.178419+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8900296688079834,
             "article": {
               "title": "Youth-led protests sweep across France, Germany and Italy",
               "url": "https://www.channelnewsasia.com/shorts/youth-led-protests-sweep-across-france-germany-and-italy-6510746",
               "source_id": "channelnewsasia.com",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:57:26.387495+00:00"
+              "scraped_at_utc": "2026-11-01T22:34:55.943700+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8377270698547363,
+            "sim_to_centroid": 0.8575863838195801,
             "article": {
               "title": "Napříč Evropou přibývá demonstrací, za nimiž stojí nespokojená mládež a boj proti drahotě",
               "url": "https://ct24.ceskatelevize.cz/clanek/svet/napric-evropou-pribyva-demonstraci-za-nimiz-stoji-nespokojena-mladez-a-boj-proti-drahote-378912",
               "source_id": "ct24.ceskatelevize.cz",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:54:07.037079+00:00"
+              "scraped_at_utc": "2026-11-01T22:31:35.780254+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8329532742500305,
+            "sim_to_centroid": 0.7919402122497559,
             "article": {
-              "title": "Stora demonstrationer i Europa",
-              "url": "https://www.svt.se/nyheter/om/studentprotester-i-frankrike",
-              "source_id": "svt.se",
+              "title": "Kein Ende der Jugendrevolte in Frankreich",
+              "url": "https://www.diepresse.com/41409321/kein-ende-der-jugendrevolte-in-frankreich",
+              "source_id": "diepresse.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:51:35.121293+00:00"
+              "scraped_at_utc": "2026-11-01T22:28:10.887841+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.818738579750061,
-            "article": {
-              "title": "Frankrijk Opnieuw honderdduizenden demonstranten de straat op in Frankrijk, ook in Duitsland groot protest van jongeren",
-              "url": "https://www.nrc.nl/nieuws/2026/10/31/opnieuw-honderdduizenden-demonstranten-de-straat-op-in-frankrijk-ook-in-duitsland-groot-protest-van-jongeren-a4940209",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:50:58.069103+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8052736520767212,
-            "article": {
-              "title": "Οι δρόμοι ξαναγεμίζουν με διαδηλωτές – «Τρίτη πράξη» στη Γαλλία, πρεμιέρα στη Γερμανία αύριο",
-              "url": "https://www.tovima.gr/2026/10/30/world/oi-dromoi-ksanagemizoun-me-diadilotes-triti-praksi-sti-gallia-premiera-sti-germania-ayrio/",
-              "source_id": "tovima.gr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:52:15.722739+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7986080646514893,
-            "article": {
-              "title": "Κύμα διαδηλώσεων και επεισόδια σε Γαλλία, Γερμανία, Αλβανία και Πορτογαλία",
-              "url": "https://www.tovima.gr/2026/10/31/world/kyma-diadiloseon-kai-epeisodia-se-gallia-germania-alvania-kai-portogalia/",
-              "source_id": "tovima.gr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:52:15.722739+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7849174737930298,
-            "article": {
-              "title": "Сюжеты Европа В Европе — новая волна протестов Во Франции, Германии, Италии и других странах прошли массовые антиправительственные демонстрации Новая газета Европа 1 ноября",
-              "url": "https://novayagazeta.eu/articles/2026/11/01/v-evrope-novaia-volna-protestov-news",
-              "source_id": "novayagazeta.eu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:54:21.082433+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7725648880004883,
-            "article": {
-              "title": "Die wütende Jugend geht auf die Straße – das war der Protesttag",
-              "url": "https://www.spiegel.de/panorama/gen-z-regelt-so-laufen-die-gen-z-regelt-demos-in-ganz-deutschland-ab-a-1158e142-e5c5-4290-91f2-772daf524f2c",
-              "source_id": "spiegel.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:51:07.968100+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7621487379074097,
-            "article": {
-              "title": "Hundreds of thousands of protesters march across France for third week in a row",
-              "url": "https://www.politico.eu/article/france-youth-protests-cost-of-living-spread-europe/",
-              "source_id": "politico.eu",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:50:54.982677+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7469274401664734,
-            "article": {
-              "title": "\"La pérdida de capacidad del Estado de bienestar en Europa es la clave para entender las protestas lideradas por los jóvenes\"",
-              "url": "https://www.bbc.com/mundo/articles/c3pwgp7jde1wo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:52:16.902435+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7321113348007202,
-            "article": {
-              "title": "\"On en a marre\": à Zurich et à Bâle, la colère des jeunes gronde aussi",
-              "url": "https://www.rts.ch/info/regions/autres-cantons/2026/article/zurich-et-bale-heurts-avec-la-police-lors-de-manifestations-29401737.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:51:58.685709+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7312226295471191,
-            "article": {
-              "title": "Η οργή της «Γενιάς Ζ» σαρώνει την Ευρώπη - Τι πυροδοτεί την έκρηξη",
-              "url": "https://www.tovima.gr/2026/10/31/world/i-orgi-tis-genias-z-saronei-tin-eyropi-ti-pyrodotei-tin-ekriksi/",
-              "source_id": "tovima.gr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:52:15.722739+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6309228539466858,
-            "article": {
-              "title": "Krawalle und Plünderungen überschatten \"Gen Z regelt\"-Demos",
-              "url": "https://www.zdfheute.de/politik/deutschland/gen-z-proteste-pluenderungen-gewalt-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:51:17.008644+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 19.60128299711417,
-        "size": 5,
-        "n_sources": 5,
-        "n_continents": 4,
-        "continents": [
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "South Asia"
-        ],
-        "coherence": 0.8959725499153137,
-        "title": "North Korea tests missile-mounted cluster bomb warheads in military push",
-        "central_article": {
-          "title": "North Korea tests missile-mounted cluster bomb warheads in military push",
-          "url": "https://www.independent.co.uk/asia/east-asia/north-korea-cluster-bomb-warhead-test-b3077022.html",
-          "source_id": "independent.co.uk",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-11-01T13:50:47.718785+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9406356811523438,
-            "article": {
-              "title": "North Korea tests missile-mounted cluster bomb warheads in military push",
-              "url": "https://www.independent.co.uk/asia/east-asia/north-korea-cluster-bomb-warhead-test-b3077022.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:50:47.718785+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9267185926437378,
-            "article": {
-              "title": "North Korea tests cluster bomb warheads for tactical ballistic missiles",
-              "url": "https://www.azernews.az/region/266594.html",
-              "source_id": "azernews.az",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:54:47.003098+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9158626794815063,
-            "article": {
-              "title": "North Korea fires off cluster bomb warheads in latest ‘major’ weapons test",
-              "url": "https://www.japantimes.co.jp/news/2026/11/01/asia-pacific/north-korea-cluster-bomb-warhead/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:57:27.767641+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9076153635978699,
-            "article": {
-              "title": "North Korea tests cluster-bomb warheads: KCNA",
-              "url": "https://www.dawn.com/news/2041366/north-korea-tests-cluster-bomb-warheads-kcna",
-              "source_id": "dawn.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:56:53.216706+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7890306711196899,
-            "article": {
-              "title": "North Korea held test to assess weapon system yield",
-              "url": "https://tass.com/world/2211447",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:54:29.917635+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 18.76664501595485,
-        "size": 7,
-        "n_sources": 7,
-        "n_continents": 4,
-        "continents": [
-          "China",
-          "Europe East",
-          "Europe North",
-          "Middle East"
-        ],
-        "coherence": 0.8199753165245056,
-        "title": "Policemen set alight by petrol bomb in latest French riots",
-        "central_article": {
-          "title": "Policemen set alight by petrol bomb in latest French riots",
-          "url": "https://www.thetimes.com/world/europe/article/france-riots-police-struck-molotov-cocktail-as-protests-erupt-gp27tldbv",
-          "source_id": "thetimes.com",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-11-01T13:50:49.017816+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8704098463058472,
-            "article": {
-              "title": "Policemen set alight by petrol bomb in latest French riots",
-              "url": "https://www.thetimes.com/world/europe/article/france-riots-police-struck-molotov-cocktail-as-protests-erupt-gp27tldbv",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:50:49.017816+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8676976561546326,
-            "article": {
-              "title": "French police officers set ablaze amid unrest (VIDEOS)",
-              "url": "https://www.rt.com/news/648188-france-police-molotov-cocktails-fire/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:54:26.308921+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8239049315452576,
-            "article": {
-              "title": "فيديو لاحتراق شرطي في باريس بالمولوتوف... \"محاولة قتل\" وغضب فرنسي!",
-              "url": "https://www.annahar.com/international/europe/362305/فيديو-لاحتراق-شرطي-في-باريس-بالمولوتوف-محاولة-قتل-وغضب-فرنسي",
-              "source_id": "annahar.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:53:52.636844+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8162494897842407,
-            "article": {
-              "title": "Paryžiuje į pareigūnus mestas Molotovo kokteilis, tiriamas pasikėsinimas nužudyti",
-              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3100066/paryziuje-i-pareigunus-mestas-molotovo-kokteilis-tiriamas-pasikesinimas-nuzudyti",
-              "source_id": "lrt.lt",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:54:35.367544+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8110232353210449,
-            "article": {
-              "title": "Erneut Proteste und Zusammenstöße in Frankreich",
-              "url": "https://www.tagesschau.de/ausland/frankreich-proteste-242.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:51:05.170120+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7804309725761414,
+            "sim_to_centroid": 0.7827432155609131,
             "article": {
               "title": "France erupts in anger: Oct 17 protests, police violence and growing calls for govt. accountability",
               "url": "https://www.presstv.ir/Detail/2026/10/20/778763/france-erupts-anger-oct17-protests-police-violence-growing-calls-govt-accountability",
               "source_id": "presstv.ir",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:53:38.277444+00:00"
+              "scraped_at_utc": "2026-11-01T22:30:39.634313+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7701109647750854,
+            "sim_to_centroid": 0.7782444953918457,
             "article": {
-              "title": "巴黎检方就宪兵遭投燃烧瓶立案调查",
-              "url": "https://www.xinhuanet.com/20261101/520925b4e462415eb63531ab96a52998/c.html",
-              "source_id": "xinhuanet.com",
+              "title": "\"La pérdida de capacidad del Estado de bienestar en Europa es la clave para entender las protestas lideradas por los jóvenes\"",
+              "url": "https://www.bbc.com/mundo/articles/c3pwgp7jde1wo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:29:13.364621+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7746616005897522,
+            "article": {
+              "title": "Hundreds of thousands of protesters march across France for third week in a row",
+              "url": "https://www.politico.eu/article/france-youth-protests-cost-of-living-spread-europe/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:27:50.879164+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.747520923614502,
+            "article": {
+              "title": "\"On en a marre\": à Zurich et à Bâle, la colère des jeunes gronde aussi",
+              "url": "https://www.rts.ch/info/regions/autres-cantons/2026/article/zurich-et-bale-heurts-avec-la-police-lors-de-manifestations-29401737.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:28:53.764452+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 30.568832964452167,
+        "size": 7,
+        "n_sources": 6,
+        "n_continents": 6,
+        "continents": [
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "North America",
+          "South America"
+        ],
+        "coherence": 0.8672924041748047,
+        "title": "Heidi Klum dresses as giant severed hand for Halloween",
+        "central_article": {
+          "title": "Heidi Klum dresses as giant severed hand for Halloween",
+          "url": "https://www.channelnewsasia.com/shorts/heidi-klum-dresses-giant-severed-hand-halloween-6510806",
+          "source_id": "channelnewsasia.com",
+          "continent": "East Asia",
+          "published_at": null,
+          "scraped_at_utc": "2026-11-01T22:34:55.943700+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.905126690864563,
+            "article": {
+              "title": "Heidi Klum dresses as giant severed hand for Halloween",
+              "url": "https://www.channelnewsasia.com/shorts/heidi-klum-dresses-giant-severed-hand-halloween-6510806",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:34:55.943700+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9044512510299683,
+            "article": {
+              "title": "Heidi Klum se disfraza de su propia mano para Halloween",
+              "url": "https://elpais.com/us/entretenimiento/2026-11-01/heidi-klum-se-disfraza-de-su-propia-mano-para-halloween.html",
+              "source_id": "elpais.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:29:01.287029+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8934649229049683,
+            "article": {
+              "title": "Heidi Klum hands fans her scariest Halloween costume yet: Photos of her look",
+              "url": "https://www.usatoday.com/picture-gallery/entertainment/celebrities/2026/10/31/heidi-klum-halloween-2026-costume-party-red-carpet-photos/92545029007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:33:25.366919+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8854942917823792,
+            "article": {
+              "title": "Heidi Klum unveils this year's scary Halloween costume",
+              "url": "https://www.usatoday.com/story/entertainment/celebrities/2026/10/31/heidi-klum-halloween-costume/92517677007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:33:25.366919+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.866818368434906,
+            "article": {
+              "title": "Nechutné i geniální. Heidi Klumová šokovala fanoušky halloweenským kostýmem",
+              "url": "https://www.idnes.cz/zpravy/revue/spolecnost/modelka-heidi-klum-prevleky-kostym-halloween-tom-kaulitz.A261028_113345_lidicky_zar/foto",
+              "source_id": "idnes.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:31:33.502126+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8399724960327148,
+            "article": {
+              "title": "Fotos: El impactante disfraz de mano de Heidi Klum para Halloween que tomó más de cinco horas de transformación",
+              "url": "https://www.emol.com/noticias/Espectaculos/2026/11/01/1215799/heidi-klum-disfraz-mano-halloween.html",
+              "source_id": "emol.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:29:35.381384+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7757189273834229,
+            "article": {
+              "title": "From Maya as Sir Mo Farah to Heidi as her own left hand: The best Halloween looks",
+              "url": "https://www.bbc.com/news/articles/ck1exyj525d9o",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:27:40.403431+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 27.433312626192976,
+        "size": 8,
+        "n_sources": 7,
+        "n_continents": 5,
+        "continents": [
+          "China",
+          "East Asia",
+          "Europe North",
+          "Europe South",
+          "Middle East"
+        ],
+        "coherence": 0.851282000541687,
+        "title": "Longest truce of Ukraine war ends in Kherson",
+        "central_article": {
+          "title": "Longest truce of Ukraine war ends in Kherson",
+          "url": "https://www.straitstimes.com/world/longest-truce-of-ukraine-war-ends-in-kherson?ref=top-stories",
+          "source_id": "straitstimes.com",
+          "continent": "East Asia",
+          "published_at": null,
+          "scraped_at_utc": "2026-11-01T22:35:18.461650+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.921260416507721,
+            "article": {
+              "title": "Longest truce of Ukraine war ends in Kherson",
+              "url": "https://www.straitstimes.com/world/longest-truce-of-ukraine-war-ends-in-kherson?ref=top-stories",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:35:18.461650+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9138113260269165,
+            "article": {
+              "title": "Longest truce of Ukraine war, in Kherson region, set to end",
+              "url": "https://www.scmp.com/news/world/russia-central-asia/article/3372908/longest-truce-ukraine-war-kherson-region-set-end?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-11-01T13:56:15.492717+00:00"
+              "scraped_at_utc": "2026-11-01T22:33:31.172614+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8755397796630859,
+            "article": {
+              "title": "Ceasefire in Ukraine's Kherson region ends after Russia refuses extension",
+              "url": "https://www.france24.com/en/europe/20261101-localised-ceasefire-in-ukraine-s-kherson-region-set-to-end",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:28:51.819917+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8456027507781982,
+            "article": {
+              "title": "Hidtil længste våbenhvile i Ukraine-krigen er slut",
+              "url": "https://www.dr.dk/nyheder/udland/live-krigen-i-ukraine",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:28:32.203808+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8456027507781982,
+            "article": {
+              "title": "Hidtil længste våbenhvile i Ukraine-krigen er slut",
+              "url": "https://www.dr.dk/nyheder/udland/live-krigen-i-ukraine?focusId=12757621",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:28:32.203808+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8114727735519409,
+            "article": {
+              "title": "Kherson braces for return of war as localised Russia-Ukraine truce ends",
+              "url": "https://www.aljazeera.com/news/2026/11/1/ukraine-evacuates-civilians-in-kherson-region-as-localised-ceasefire-ends",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:30:31.149076+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.808179497718811,
+            "article": {
+              "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
+              "url": "https://www.bbc.com/news/articles/c64g1y90p71eo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:27:40.403431+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7887865304946899,
+            "article": {
+              "title": "Kherson truce lets Ukrainian family ‘close chapter’ on old life",
+              "url": "https://www.japantimes.co.jp/news/2026/11/01/world/kherson-truce-ukrainian-families/",
+              "source_id": "japantimes.co.jp",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-01T22:34:57.465768+00:00"
             }
           }
         ]
       }
     ],
-    "created_at_utc": "2026-11-01T14:27:02Z"
+    "created_at_utc": "2026-11-01T22:56:23Z"
   }
 ]
