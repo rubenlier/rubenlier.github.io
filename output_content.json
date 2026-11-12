@@ -1,1988 +1,2145 @@
 [
   {
-    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1794410049",
-    "n_items": 2500,
-    "n_clusters": 2078,
+    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1794447064",
+    "n_items": 2490,
+    "n_clusters": 2030,
     "clusters": [
       {
-        "score": 120.32210741391854,
-        "size": 25,
-        "n_sources": 23,
-        "n_continents": 7,
+        "score": 175.17419840218164,
+        "size": 48,
+        "n_sources": 33,
+        "n_continents": 9,
         "continents": [
           "China",
           "East Asia",
           "Europe North",
           "Europe South",
           "Middle East",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.8417536020278931,
-        "title": "意大利300多所学校收到炸弹威胁邮件",
-        "central_article": {
-          "title": "意大利300多所学校收到炸弹威胁邮件",
-          "url": "https://www.xinhuanet.com/20261111/f7544990fa62413bb522061c668c4285/c.html",
-          "source_id": "xinhuanet.com",
-          "continent": "China",
-          "published_at": null,
-          "scraped_at_utc": "2026-11-11T14:50:52.726779+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9053901433944702,
-            "article": {
-              "title": "意大利300多所学校收到炸弹威胁邮件",
-              "url": "https://www.xinhuanet.com/20261111/f7544990fa62413bb522061c668c4285/c.html",
-              "source_id": "xinhuanet.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:50:52.726779+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8977525234222412,
-            "article": {
-              "title": "Tusindvis af skoler i Italien har modtaget mail med falsk bombetrussel",
-              "url": "https://politiken.dk/internationalt/art11055995/Tusindvis-af-skoler-i-Italien-har-modtaget-mail-med-falsk-bombetrussel",
-              "source_id": "politiken.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:45.081635+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8895390033721924,
-            "article": {
-              "title": "At least 300 schools evacuated in Italy after email bomb alerts",
-              "url": "https://www.aljazeera.com/news/2026/11/11/at-least-300-italian-schools-evacuated-after-email-bomb-alerts",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:47:50.755149+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8840924501419067,
-            "article": {
-              "title": "Bombendrohungen an Hunderten Schulen in Europa",
-              "url": "https://www.diepresse.com/41442028/bombendrohungen-an-hunderten-schulen-in-italien",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:34.761906+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8840548992156982,
-            "article": {
-              "title": "इटली में 6 हजार से ज्यादा स्कूलों को बम से उड़ाने की धमकी, ब्रिटेन और आयरलैंड तक पहुंची धमकी भरी ईमेल",
-              "url": "https://www.jagran.com/world/other-over-6000-schools-in-italy-receive-bomb-threats-emails-also-reach-britain-and-ireland-40433726.html",
-              "source_id": "jagran.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:51:15.779330+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8834409713745117,
-            "article": {
-              "title": "Wave of hoax bomb threats sent to schools in UK, Ireland and Italy",
-              "url": "https://www.france24.com/en/europe/20261111-hundreds-of-schools-in-italy-evacuated-after-receiving-bomb-threats",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:46:13.227367+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8784189224243164,
-            "article": {
-              "title": "Schools in Italy, Ireland and UK evacuated after hoax bomb threats",
-              "url": "https://www.euronews.com/2026/11/11/at-least-300-schools-in-italy-evacuated-after-emailed-bomb-threats",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:09.153291+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8727933168411255,
-            "article": {
-              "title": "Honderden scholen in Europa krijgen bommeldingen, leerlingen geëvacueerd",
-              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5664513/honderden-scholen-europa-krijgen-bommeldingen-duizenden",
-              "source_id": "rtl.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:15.656363+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8718593120574951,
-            "article": {
-              "title": "Alerte à la bombe dans 6.000 écoles en Italie, le Royaume-Uni et l’Irlande également touchés",
-              "url": "https://www.lesoir.be/782189/article/2026-11-11/alerte-la-bombe-dans-6000-ecoles-en-italie-le-royaume-uni-et-lirlande-egalement",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:46:20.705157+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8615473508834839,
-            "article": {
-              "title": "Verden 300 skoler i Italia rammet av bombetrusler",
-              "url": "https://www.aftenposten.no/verden/i/pM67mE/tusenvis-av-skoler-rammet-av-bombetrusler-i-europa",
-              "source_id": "aftenposten.no",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:48.761687+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.861081600189209,
-            "article": {
-              "title": "Hoax bomb alerts sent to schools in Italy, UK, Ireland in latest disruption",
-              "url": "https://www.dawn.com/news/2043808/hoax-bomb-alerts-sent-to-schools-in-italy-uk-ireland-in-latest-disruption",
-              "source_id": "dawn.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:51:33.569685+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8534400463104248,
-            "article": {
-              "title": "Europa 6.300 scholen in Italië krijgen valse bommelding, ook e-mails naar scholen in VK en Ierland geleden",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/11/11/bommeldingen-scholen-europa/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:46:16.832897+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8463660478591919,
-            "article": {
-              "title": "300 Schulen in Italien wegen Bombendrohungen evakuiert",
-              "url": "https://www.nzz.ch/panorama/300-schulen-in-italien-evakuiert-wegen-identischer-bombendrohungen-ld.10060751",
-              "source_id": "nzz.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:41.207082+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8447830080986023,
-            "article": {
-              "title": "Birçok ülkedeki okullarda bomba ihbarı!",
-              "url": "https://www.milliyet.com.tr/dunya/italyada-kirmizi-alarm-100-okulda-bomba-ihbari-yapildi-7698761",
-              "source_id": "milliyet.com.tr",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:48:05.809077+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8410615921020508,
-            "article": {
-              "title": "Evacúan cientos de colegios en Italia por amenazas de bomba dirigidas a Giorgia Meloni",
-              "url": "https://www.semana.com/mundo/articulo/evacuan-cientos-de-colegios-en-italia-por-amenazas-de-bomba-dirigidas-a-giorgia-meloni/202655/",
-              "source_id": "semana.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:46:53.678342+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8388565182685852,
-            "article": {
-              "title": "Cyberangriff Hunderte Bombendrohungen gegen Schulen in Italien",
-              "url": "https://www.handelsblatt.com/politik/international/italien-hunderte-schulen-nach-bombendrohungen-evakuiert/100269146.html",
-              "source_id": "handelsblatt.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:25.195194+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.829880952835083,
-            "article": {
-              "title": "Bommeldingen Honderden scholen in Europa doelwit van bommeldingen, volgens de politie gaat het om nepberichten Honderden scholen in Italië, het Verenigd Koninkrijk en Ierland kregen per mail een bommelding. Volgens de politie zijn de berichten nep, maar ontwrichtend is het wel.",
-              "url": "https://www.nrc.nl/nieuws/2026/11/11/honderden-scholen-in-europa-doelwit-van-bommeldingen-volgens-de-politie-gaat-het-om-nepberichten-a4941097",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:13.632199+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8255822658538818,
-            "article": {
-              "title": "Just nu Hundratals italienska skolor evakuerade – tusentals bombhotades",
-              "url": "https://www.svt.se/nyheter/utrikes/300-skolor-i-italien-evakuerade-efter-bombhot",
-              "source_id": "svt.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:52.548462+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8230705857276917,
-            "article": {
-              "title": "إنذارات القنابل تصل المدارس... استنفار في بريطانيا وإيطاليا",
-              "url": "https://www.annahar.com/international/europe/365541/إعلام-إيطالي-السلطات-تعمل-على-إخلا-مدارس-في-عدة-مناطق-بعد-إنذارات-بوجود-قنابل",
-              "source_id": "annahar.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:48:29.791989+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8205757141113281,
-            "article": {
-              "title": "Avrupa'da bomba alarmı! Yüzlerce okul tahliye edildi",
-              "url": "https://www.hurriyet.com.tr/dunya/avrupada-bomba-alarmi-yuzlerce-okul-tahliye-edildi-43374289",
-              "source_id": "hurriyet.com.tr",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:48:02.370367+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8050132393836975,
-            "article": {
-              "title": "英国北爱尔兰地区超过300所学校收到威胁邮件",
-              "url": "https://www.xinhuanet.com/20261111/280a93fa17e6474da447f25c129a862d/c.html",
-              "source_id": "xinhuanet.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:50:52.726779+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7990909814834595,
-            "article": {
-              "title": "Bedrohliche Mails eingegangen Bombendrohungen an Hunderten Schulen in Italien Die Drohungen gingen per E-Mail ein. Wer dahintersteckt, ist unklar. Nordirland und Schottland melden ähnliche Vorfälle.",
-              "url": "https://www.srf.ch/news/international/bedrohliche-mails-eingegangen-bombendrohungen-an-hunderten-schulen-in-italien",
-              "source_id": "srf.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:43.207615+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7906795740127563,
-            "article": {
-              "title": "Europa em alerta Centenas de escolas na Itália, na Irlanda do Norte e na Escócia recebem ameaças de bomba, mas nenhum artefato é encontrado; alunos são retirados - Francesco Fotia/Reuters",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/11/centenas-de-escolas-na-italia-irlanda-do-norte-e-escocia-recebem-ameacas-de-bomba-alunos-sao-retirados.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:46:58.955960+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7508715391159058,
-            "article": {
-              "title": "國際 義大利300間學校收炸彈恐嚇信 大葉大學校友帳號疑遭盜用",
-              "url": "https://www.cna.com.tw/news/aopl/202611110331.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:52:38.982350+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6845982670783997,
-            "article": {
-              "title": "Rome-bound plane diverted to French airbase as dozens European flights hit by bomb hoaxes",
-              "url": "https://www.france24.com/en/europe/20261105-dublin-rome-flight-diverted-to-france-over-bomb-threat",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:46:13.227367+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 117.73992291389408,
-        "size": 30,
-        "n_sources": 25,
-        "n_continents": 8,
-        "continents": [
-          "China",
-          "East Asia",
-          "Europe North",
-          "Europe South",
           "North America",
           "Oceania",
           "South America",
           "South Asia"
         ],
-        "coherence": 0.7940321564674377,
-        "title": "Nvidia's Jensen Huang faces scrutiny over alleged affair with Chinese spy",
+        "coherence": 0.7944097518920898,
+        "title": "Nvidia preparing to remove CEO Jensen Huang amid affair probe: Report",
         "central_article": {
-          "title": "Nvidia's Jensen Huang faces scrutiny over alleged affair with Chinese spy",
-          "url": "https://www.pbs.org/newshour/show/nvidias-jensen-huang-faces-scrutiny-over-alleged-affair-with-chinese-spy",
-          "source_id": "pbs.org",
-          "continent": "North America",
+          "title": "Nvidia preparing to remove CEO Jensen Huang amid affair probe: Report",
+          "url": "https://www.hindustantimes.com/world-news/us-news/nvidia-preparing-to-remove-ceo-jensen-huang-amid-affair-probe-report-101794437363835.html",
+          "source_id": "hindustantimes.com",
+          "continent": "South Asia",
           "published_at": null,
-          "scraped_at_utc": "2026-11-11T14:50:41.732699+00:00"
+          "scraped_at_utc": "2026-11-12T01:08:37.583230+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9017518758773804,
+            "sim_to_centroid": 0.9282535314559937,
             "article": {
-              "title": "Nvidia's Jensen Huang faces scrutiny over alleged affair with Chinese spy",
-              "url": "https://www.pbs.org/newshour/show/nvidias-jensen-huang-faces-scrutiny-over-alleged-affair-with-chinese-spy",
-              "source_id": "pbs.org",
+              "title": "Nvidia preparing to remove CEO Jensen Huang amid affair probe: Report",
+              "url": "https://www.hindustantimes.com/world-news/us-news/nvidia-preparing-to-remove-ceo-jensen-huang-amid-affair-probe-report-101794437363835.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:08:37.583230+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9255576133728027,
+            "article": {
+              "title": "Nvidia prepares to fire CEO Jensen Huang, amid reports of second affair",
+              "url": "https://www.rnz.co.nz/news/business/2553062/nvidia-reportedly-preparing-to-fire-ceo-jensen-huang-amid-of-second-affair",
+              "source_id": "rnz.co.nz",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:05:27.989284+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9108142852783203,
+            "article": {
+              "title": "Nvidia moves to oust spy-tainted CEO Jensen Huang after word of affair with subordinate: report",
+              "url": "https://www.independent.co.uk/news/world/americas/nvidia-jensen-huang-ceo-affair-b3083502.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:07.933755+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9053599238395691,
+            "article": {
+              "title": "Nvidia is preparing to oust CEO Jensen Huang: Report",
+              "url": "https://www.channelnewsasia.com/world/nvidia-jensen-huang-oust-ceo-6544031",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:09:26.639181+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8990152478218079,
+            "article": {
+              "title": "Nvidia ‘preparing to oust’ Jensen Huang, allegation of second affair emerges",
+              "url": "https://www.smh.com.au/business/companies/nvidia-preparing-to-oust-jensen-huang-report-20261112-p61diy.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:05:25.247767+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8891840577125549,
+            "article": {
+              "title": "Nvidia bereitet nach Affären die Entlassung von Firmenchef Huang vor",
+              "url": "https://www.welt.de/wirtschaft/article6af5001450175c81de7a23ca/spionagefall-nvidia-bereitet-nach-affaeren-die-entlassung-von-firmenchef-huang-vor-aktie-verliert.html",
+              "source_id": "welt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:30.168624+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8875173330307007,
+            "article": {
+              "title": "Nvidia CEO Jensen Huang allegedly had second affair, board to meet",
+              "url": "https://www.abc.net.au/news/2026-11-12/asx-markets-business-news-live-updates-thursday-12-november/107374826",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:05:22.717221+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8732832670211792,
+            "article": {
+              "title": "Uppgifter: Nvidias styrelse väntas avsätta Jensen Huang",
+              "url": "https://www.dn.se/direkt/2026-11-11/uppgifter-nvidias-styrelse-vantas-avsatta-jensen-huang/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:43.333505+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8594448566436768,
+            "article": {
+              "title": "Nvidia board meets to decide CEO Jensen Huang’s future, sources say",
+              "url": "https://www.theglobeandmail.com/world/article-nvidia-ceo-jensen-huang-alice-spy/",
+              "source_id": "theglobeandmail.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:50:41.732699+00:00"
+              "scraped_at_utc": "2026-11-12T01:05:21.372326+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8631419539451599,
+            "sim_to_centroid": 0.8594071269035339,
             "article": {
-              "title": "Nvidia CEO Jensen Huang’s affair: everything you need to know",
-              "url": "https://www.scmp.com/news/article/3374047/nvidia-ceo-jensen-huangs-affair-everything-you-need-know?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
+              "title": "Afirman que Nvidia prepara destituci�n de su CEO",
+              "url": "https://www.reforma.com/afirman-que-nvidia-prepara-destitucion-de-su-ceo/ar3312938?v=6",
+              "source_id": "reforma.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:50:42.999157+00:00"
+              "scraped_at_utc": "2026-11-12T01:04:26.548651+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8620871305465698,
+            "sim_to_centroid": 0.8544463515281677,
+            "article": {
+              "title": "Acciones de Nvidia se desploman tras reporte de que el directorio prepara la salida de Jensen Huang",
+              "url": "https://www.latercera.com/pulso/noticia/acciones-de-nvidia-se-desploman-tras-reporte-de-que-su-directorio-prepara-la-salida-de-jensen-huang/",
+              "source_id": "latercera.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:04:58.156441+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8520013093948364,
+            "article": {
+              "title": "Infidelidades y secretos. Nvidia se dispone a echar a su CEO tras el escándalo por presunto espionaje",
+              "url": "https://www.lanacion.com.ar/el-mundo/la-junta-directiva-de-nvidia-busca-destituir-a-su-director-tras-dos-infidelidades-una-de-ellas-fue-nid11112026/",
+              "source_id": "lanacion.com.ar",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:04:38.430592+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8458014130592346,
+            "article": {
+              "title": "Nvidia shares drop as Jensen Huang affair raises China spy concerns",
+              "url": "https://asia.nikkei.com/business/markets/nvidia-shares-drop-as-jensen-huang-affair-raises-china-spy-concerns",
+              "source_id": "asia.nikkei.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:09:03.568825+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8453060388565063,
+            "article": {
+              "title": "Jensen Huang suma otro escándalo: habría tenido una relación con una subordinada en Nvidia",
+              "url": "https://www.latercera.com/tecnologia/noticia/jensen-huang-suma-otro-escandalo-subordinada-nvidia/",
+              "source_id": "latercera.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:04:58.156441+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8434884548187256,
+            "article": {
+              "title": "Nvidia, riunione straordinaria del consiglio: sul tavolo il licenziamento del ceo Jensen Huang",
+              "url": "https://www.corriere.it/economia/finanza/26_novembre_12/nvidia-riunione-straordinaria-del-consiglio-sul-tavolo-il-licenziamento-del-ceo-jensen-huang-8204aad0-e79d-4d2e-a7e3-3ae51551exlk.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:04:22.724668+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8371062278747559,
+            "article": {
+              "title": "Nvidia board meets to decide CEO Huang’s future, source says",
+              "url": "https://www.straitstimes.com/world/nvidia-is-preparing-to-oust-ceo-jensen-huang-wsj-reports?ref=top-stories",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:09:49.319025+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.835624098777771,
+            "article": {
+              "title": "Nvidia CEO Huang had relationship with executive who reported to him: Report",
+              "url": "https://www.channelnewsasia.com/business/nvidia-ceo-jensen-huang-relationship-executive-kimberly-powell-6544021",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:09:26.639181+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8346965312957764,
+            "article": {
+              "title": "Conselho da Nvidia se prepara para afastar Huang após escândalo; ações caem 9% no pós-mercado",
+              "url": "https://oglobo.globo.com/economia/noticia/2026/11/11/conselho-da-nvidia-se-prepara-para-afastar-huang-apos-escandalo-diz-jornal-e-acoes-caem-9percent-no-pos-mercado.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:04:47.395761+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8346295356750488,
             "article": {
               "title": "Nvidia faces deepening scrutiny over China chip ties, CEO affair",
               "url": "https://kathmandupost.com/world/2026/11/11/nvidia-faces-deepening-scrutiny-over-china-chip-ties-ceo-affair",
               "source_id": "kathmandupost.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:51:32.326842+00:00"
+              "scraped_at_utc": "2026-11-12T01:08:51.452225+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8620871305465698,
+            "sim_to_centroid": 0.8209772109985352,
             "article": {
-              "title": "Nvidia faces deepening scrutiny over China chip ties, CEO affair",
-              "url": "https://www.channelnewsasia.com/world/jensen-huang-nvidia-affair-scrutiny-china-alice-6539171",
-              "source_id": "channelnewsasia.com",
+              "title": "Nvidia, cda caccia Huang. Litigi e urla tra i ministri. Ripercussioni su Trump",
+              "url": "https://www.repubblica.it/esteri/2026/11/12/news/scandalo_nvidia_casa_bianca_litigi_urla_tra_ministri_rischia_anche_trump-425716688/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:04:20.977563+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8186131715774536,
+            "article": {
+              "title": "Nvidia shares plunge almost 10% on report board may oust Jensen Huang",
+              "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/nvidia-shares-plunge-almost-10-on-report-board-may-oust-jensen-huang",
+              "source_id": "asia.nikkei.com",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:52:09.621002+00:00"
+              "scraped_at_utc": "2026-11-12T01:09:03.568825+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.860936164855957,
+            "sim_to_centroid": 0.8154909610748291,
             "article": {
-              "title": "Can Nvidia’s boss survive a Chinese-spy controversy?",
-              "url": "https://www.hindustantimes.com/world-news/can-nvidia-s-boss-survive-a-chinese-spy-controversy-101794378047733.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:51:18.321345+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8600214123725891,
-            "article": {
-              "title": "Nvidia boss admits to affair with suspected Chinese spy",
-              "url": "https://www.channel4.com/news/nvidia-boss-admits-to-affair-with-suspected-chinese-spy",
-              "source_id": "channel4.com",
+              "title": "Nvidia CEO's affair will cause ripples across US and beyond",
+              "url": "https://www.bbc.com/news/articles/cj3vqv3nee72o",
+              "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:07.657094+00:00"
+              "scraped_at_utc": "2026-11-12T01:03:06.617882+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8560729026794434,
+            "sim_to_centroid": 0.8134244680404663,
             "article": {
               "title": "Por qué la infidelidad del jefe de Nvidia con una supuesta espía china tendrá repercusiones en EE.UU. y más allá",
               "url": "https://www.bbc.com/mundo/articles/c6p9g97x540jo",
               "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:46:34.661216+00:00"
+              "scraped_at_utc": "2026-11-12T01:04:25.308787+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8387784957885742,
+            "sim_to_centroid": 0.808082103729248,
             "article": {
-              "title": "Why Nvidia CEO Jensen Huang's ties to Trump are back in the spotlight",
-              "url": "https://www.sbs.com.au/news/article/why-nvidia-ceo-jensen-huangs-ties-to-trump-are-back-in-the-spotlight/6xo12k489",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:47:36.592512+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8380619883537292,
-            "article": {
-              "title": "Nvidia Nvidia and Jensen Huang sued in US over affair with alleged Chinese spy",
-              "url": "https://www.theguardian.com/technology/2026/nov/10/nvidia-jensen-huang-sued-donald-trump-fbi",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:04.979690+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8253324627876282,
-            "article": {
-              "title": "Ποιοι φοβούνται το σκάνδαλο της Nvidia με την Κινέζα κατάσκοπο Άλις Χουάνγκ;",
-              "url": "https://www.tovima.gr/2026/11/09/explainers/nvidia-poioi-fovountai-to-skandalo-ti-simainei-gia-ai-kai-agores/",
-              "source_id": "tovima.gr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:46:33.412811+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8174084424972534,
-            "article": {
-              "title": "WORLD Nvidia CEO affair revives push for tougher US line on China",
-              "url": "https://myrepublica.nagariknetwork.com/news/nvidia-ceo-affair-revives-push-for-tougher-us-line-on-china-40-31.html",
-              "source_id": "myrepublica.nagariknetwork.com",
+              "title": "Can Nvidia’s boss survive a Chinese-spy controversy?",
+              "url": "https://www.hindustantimes.com/world-news/can-nvidia-s-boss-survive-a-chinese-spy-controversy-101794378047733.html",
+              "source_id": "hindustantimes.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:51:36.978073+00:00"
+              "scraped_at_utc": "2026-11-12T01:08:37.583230+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8160857558250427,
+            "sim_to_centroid": 0.8066594004631042,
             "article": {
-              "title": "How Nvidia CEO Jensen Huang’s extramarital affair could cause collateral damage in Washington",
-              "url": "https://www.chicagotribune.com/2026/11/11/nvidia-ceo-jensen-huang-affair-collateral-damage/",
-              "source_id": "chicagotribune.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:50:38.178659+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8091104030609131,
-            "article": {
-              "title": "Nvidia investors may make peace with Jensen Huang affair sooner than you think",
-              "url": "https://www.theglobeandmail.com/business/commentary/article-nvidia-ceo-jensen-alice-huang/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:47:32.479679+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8053402900695801,
-            "article": {
-              "title": "Affaire van Nvidia-topman met ‘Chinese spion’ treft hele (AI-)wereld",
-              "url": "https://fd.nl/economie/1618485/affaire-van-nvidia-topman-met-chinese-spion-treft-hele-ai-wereld",
-              "source_id": "fd.nl",
+              "title": "Nvidia and CEO sued following suspected Chinese spy scandal",
+              "url": "https://www.independent.co.uk/news/world/americas/nvidia-jensen-huang-chinese-spy-b3082250.html",
+              "source_id": "independent.co.uk",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:17.953575+00:00"
+              "scraped_at_utc": "2026-11-12T01:03:07.933755+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.80519700050354,
+            "sim_to_centroid": 0.7918037176132202,
+            "article": {
+              "title": "Alexander Mahmoud Källor: Nvidia väntas avsätta Jensen Huang Aktien rasar • Uppgifter om ny otrohet.",
+              "url": "https://www.dn.se/varlden/uppgifter-nvidias-styrelse-vantas-avsatta-jensen-huang/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:43.333505+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7841120958328247,
+            "article": {
+              "title": "Jensen Huang said to have had relationship with Nvidia executive Kimberly Powell, who reports to him",
+              "url": "https://www.straitstimes.com/world/united-states/nvidia-ceo-jensen-huang-had-an-affair-with-health-executive-at-firm-says-new-york-times?ref=top-stories",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:09:49.319025+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7754989862442017,
+            "article": {
+              "title": "Nvidia handed downgrade on Jensen Huang and AI uncertainty",
+              "url": "https://www.thenationalnews.com/future/technology/2026/11/11/nvidia-downgrade-jensen-huang/",
+              "source_id": "thenationalnews.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:05:40.628294+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7732707858085632,
             "article": {
               "title": "Druk neemt toe na spionageschandaal, kan de chipgigant zonder 'Mister Nvidia'?",
               "url": "https://nos.nl/artikel/2638935-druk-neemt-toe-na-spionageschandaal-kan-de-chipgigant-zonder-mister-nvidia",
               "source_id": "nos.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:11.696797+00:00"
+              "scraped_at_utc": "2026-11-12T01:03:16.373382+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7927333116531372,
+            "sim_to_centroid": 0.7712448835372925,
             "article": {
-              "title": "Nvidia CEO Jensen Huang hired crisis PR firm a year before admitting affair",
-              "url": "https://e.vnexpress.net/news/tech/personalities/nvidia-ceo-jensen-huang-hired-crisis-pr-firm-a-year-before-admitting-affair-5142796.html",
-              "source_id": "e.vnexpress.net",
-              "continent": "East Asia",
+              "title": "Une nouvelle affaire extraconjugale du patron de Nvidia révélée par le « New York Times »",
+              "url": "https://www.lesoir.be/782240/article/2026-11-11/une-nouvelle-affaire-extraconjugale-du-patron-de-nvidia-revelee-par-le-new-york",
+              "source_id": "lesoir.be",
+              "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:52:31.609401+00:00"
+              "scraped_at_utc": "2026-11-12T01:04:13.982309+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.782622218132019,
+            "sim_to_centroid": 0.7545328140258789,
             "article": {
-              "title": "कौन है वो 'चीनी जासूस', जिसपर दिल हार बैठे Nvidia CEO? चिप के सौदागर की पूरी कहानी",
-              "url": "https://www.jagran.com/world/america-who-is-the-chinese-spy-with-whom-the-nvidia-ceo-jensen-huang-had-an-affair-landing-himself-in-trouble-40432654.html",
-              "source_id": "jagran.com",
-              "continent": "South Asia",
+              "title": "Nvidia skakas av vd:ns otrohet – nu utreder bolaget spioneri SVT:s ekonomikommentator: ”Påverkar fler än närmast berörda aktieägare”",
+              "url": "https://www.svt.se/nyheter/utrikes/nvidias-vd-otrogen-bolaget-inleder-spionutredning",
+              "source_id": "svt.se",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:51:15.779330+00:00"
+              "scraped_at_utc": "2026-11-12T01:03:48.468554+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7686294913291931,
+            "sim_to_centroid": 0.7523396015167236,
             "article": {
-              "title": "Has Nvidia affair scandal and price plunge made the shares a bargain?",
-              "url": "https://www.independent.co.uk/money/nvidia-share-price-investing-isa-b3083080.html",
+              "title": "Report reveals Trump was ‘warned’ about Nvidia CEO’s affair months ago",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/nvidia-scandal-trump-rubio-lutnick-b3083425.html",
               "source_id": "independent.co.uk",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:01.971989+00:00"
+              "scraped_at_utc": "2026-11-12T01:03:07.933755+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7679734230041504,
+            "sim_to_centroid": 0.7501635551452637,
             "article": {
               "title": "Pro Artikel Nvidia-Affäre: Jensen Huang kämpfte für lockerere Chipexporte nach China – doch nun drohen schärfere Kontrollen",
               "url": "https://www.nzz.ch/wirtschaft/nvidia-affaere-jensen-huang-kaempfte-fuer-lockerere-chipexporte-nach-china-doch-nun-drohen-schaerfere-kontrollen-ld.10059482",
               "source_id": "nzz.ch",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:41.207082+00:00"
+              "scraped_at_utc": "2026-11-12T01:03:38.115665+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7643325328826904,
+            "sim_to_centroid": 0.7451342940330505,
+            "article": {
+              "title": "Affaire van Nvidia-topman met ‘Chinese spion’ treft hele (AI-)wereld",
+              "url": "https://fd.nl/economie/1618485/affaire-van-nvidia-topman-met-chinese-spion-treft-hele-ai-wereld",
+              "source_id": "fd.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:22.130743+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7368396520614624,
             "article": {
               "title": "Een zwarte leren jas en AI-visionair: wie is Nvidia-topman Jensen Huang?",
               "url": "https://nos.nl/artikel/2638777-een-zwarte-leren-jas-en-ai-visionair-wie-is-nvidia-topman-jensen-huang",
               "source_id": "nos.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:11.696797+00:00"
+              "scraped_at_utc": "2026-11-12T01:03:16.373382+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7575427293777466,
+            "sim_to_centroid": 0.7277461290359497,
             "article": {
-              "title": "Νέα δικαστική περιπέτεια για τη Nvidia - Αγωγή μετόχων κατά του Χουάνγκ",
-              "url": "https://www.tovima.gr/2026/11/10/world/nvidia-agogi-ponokefalos-gia-ton-xouangk-ti-ypostirizoun-oi-metoxoi-voutia-sti-metoxi/",
-              "source_id": "tovima.gr",
-              "continent": "Europe South",
+              "title": "Just nu Källor: Nvidia planerar att avsätta vd:n Ny otrohetsskandal enligt källor till NYT • Kan komma att ersättas snarast",
+              "url": "https://www.svt.se/nyheter/utrikes/kallor-jensen-huang-otrogen-med-anstalld",
+              "source_id": "svt.se",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:46:33.412811+00:00"
+              "scraped_at_utc": "2026-11-12T01:03:48.468554+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7527026534080505,
+            "sim_to_centroid": 0.7244720458984375,
+            "article": {
+              "title": "Da área financeira de Xangai à Nvidia: veja trajetória da suposta espiã",
+              "url": "https://www.estadao.com.br/economia/a-mulher-no-centro-do-escandalo-de-espionagem-da-nvidia/",
+              "source_id": "estadao.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:04:53.672762+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.719202995300293,
+            "article": {
+              "title": "Nvidia emerges as early test of Democrats' tougher China tech policy",
+              "url": "https://asia.nikkei.com/politics/u.s.-midterm-elections/nvidia-emerges-as-early-test-of-democrats-tougher-china-tech-policy",
+              "source_id": "asia.nikkei.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:09:03.568825+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7186616063117981,
+            "article": {
+              "title": "Mundo CEO de Nvidia también habría tenido amorío con una subalterna",
+              "url": "https://www.crhoy.com/mundo/ceo-de-nvidia-tambien-habria-tenido-amorio-con-una-subalterna/",
+              "source_id": "crhoy.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:04:33.081271+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7185401320457458,
+            "article": {
+              "title": "\"إنفيديا\" تستعد لإطاحة رئيسها التنفيذي جنسن هوانغ",
+              "url": "https://www.annahar.com/technology/365728/إنفيديا-تستعد-لإطاحة-رئيسها-التنفيذي-جنسن-هوانغ",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:06:00.206739+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7111029624938965,
             "article": {
               "title": "Nvidia Scandal Tests the Resilience of the Global AI Boom",
               "url": "https://www.hindustantimes.com/world-news/nvidia-scandal-tests-the-resilience-of-the-global-ai-boom-101794378869718.html",
               "source_id": "hindustantimes.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:51:18.321345+00:00"
+              "scraped_at_utc": "2026-11-12T01:08:37.583230+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7492330074310303,
+            "sim_to_centroid": 0.706530749797821,
             "article": {
-              "title": "Jensen Huangs Geliebte schleuste 240.000 Nvidia-Chips nach China",
-              "url": "https://www.diepresse.com/41441016/jensen-huangs-geliebte-schleuste-240000-nvidia-chips-nach-china",
-              "source_id": "diepresse.com",
+              "title": "还有一段婚外情？英伟达董事会今天或罢免黄仁勋 (图)",
+              "url": "https://www.sohu.com/a/1100393191_115479?edtsign=FA60E77DB3432CA753F1F0E327378705A64CA2AB&edtcode=fSrzohnxwKkB2fNOcL7jkA%3D%3D&scm=10001.663_14-200000.0.0-0-0-0-0.&_f=index_cpc_1_0",
+              "source_id": "news.sohu.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:08:25.147040+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7028521299362183,
+            "article": {
+              "title": "How deep are Nvidia-linked executive Alice Huang’s Hong Kong business ties?",
+              "url": "https://www.scmp.com/news/hong-kong/politics/article/3374122/just-how-deep-do-alice-huangs-hong-kong-business-links-run-amid-nvidia-affair?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:08:04.989618+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7007404565811157,
+            "article": {
+              "title": "有新婚外情？董事会准备罢免黄仁勋，英伟达股价盘后跌超9%",
+              "url": "https://www.stnn.cc/detail/6af507a28f9d2b19dd6b8e48.html",
+              "source_id": "stnn.cc",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:08:27.978680+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6806958913803101,
+            "article": {
+              "title": "エヌビディア取締役会、フアンCEOの解任検討 別の不倫も？ 米紙",
+              "url": "https://www.asahi.com/articles/ASVCC7X3DVCCUHBI00DM.html?iref=comtop_7_03",
+              "source_id": "asahi.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:09:29.945126+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6704278588294983,
+            "article": {
+              "title": "Who is Jensen Huang? From Silicon Valley superstar to spy scandal",
+              "url": "https://www.independent.co.uk/tech/nvidia-ceo-jensen-huang-who-affair-wife-chinese-spy-b3082143.html",
+              "source_id": "independent.co.uk",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:34.761906+00:00"
+              "scraped_at_utc": "2026-11-12T01:03:07.933755+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.747124433517456,
+            "sim_to_centroid": 0.662896990776062,
             "article": {
-              "title": "Nvidia hires Wachtell Lipton for Jensen Huang investigation",
-              "url": "https://www.politico.eu/article/nvidia-hires-wachtell-lipton-for-jensen-huang-investigation/",
-              "source_id": "politico.eu",
-              "continent": "Europe North",
+              "title": "Revelan que Huang tuvo otra relaci�n con empleada",
+              "url": "https://www.reforma.com/afirman-que-ceo-de-nvidia-tuvo-otra-relacion-con-empleada/ar3312911?v=6",
+              "source_id": "reforma.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:10.480317+00:00"
+              "scraped_at_utc": "2026-11-12T01:04:26.548651+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7346359491348267,
+            "sim_to_centroid": 0.6486712098121643,
             "article": {
-              "title": "TechScape Nvidia shaken by scandal amid wider political new order for big tech",
-              "url": "https://www.theguardian.com/global/2026/nov/10/nvidias-silicon-valley-political-power",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
+              "title": "breaking Business Premium breaking Board prepares to oust CEO after claims of second affair",
+              "url": "https://thewest.com.au/business/claims-nvidias-jensen-huang-had-a-second-affair-with-staffer-kimberly-powell-as-board-prepare-to-oust-him-c-23151687",
+              "source_id": "thewest.com.au",
+              "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:04.979690+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7340094447135925,
-            "article": {
-              "title": "Huang-Affäre Nvidia verliert binnen einer Woche rund eine Billion Dollar an Börsenwert",
-              "url": "https://www.handelsblatt.com/finanzen/maerkte/nvidia-aktie-chipkonzern-verliert-in-einer-woche-knapp-eine-billion-dollar-boersenwert/100268874.html",
-              "source_id": "handelsblatt.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:25.195194+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7225083112716675,
-            "article": {
-              "title": "Το μυστικό briefing στο Air Force One που «καίει» τον Τραμπ για την Nvidia",
-              "url": "https://www.tovima.gr/2026/11/11/world/nvidia-to-mystiko-briefing-sto-air-force-one-kaiei-ton-tramp-osa-gnorize-telika/",
-              "source_id": "tovima.gr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:46:33.412811+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7181377410888672,
-            "article": {
-              "title": "Taiwan confirma que chinesa ligada a suspeita de espionagem contra CEO da Nvidia entrou na ilha",
-              "url": "https://oglobo.globo.com/economia/noticia/2026/11/11/taiwan-confirma-que-chinesa-ligada-a-suspeita-de-espionagem-envolvendo-ceo-da-nvidia-entrou-na-ilha-com-passaporte-de-hong-kong.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:47:02.100459+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7158599495887756,
-            "article": {
-              "title": "Joon H. Kim, el exfiscal que encabezará la investigación sobre Nvidia",
-              "url": "https://www.latercera.com/mundo/noticia/joon-h-kim-el-exfiscal-que-encabezara-la-investigacion-sobre-nvidia/",
-              "source_id": "latercera.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:47:08.139424+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6915088891983032,
-            "article": {
-              "title": "Reacties China Analyse Dat een Chinese spion Nvidia-topman Huang heeft verleid, is ‘onwaar’ en tegelijk ‘ongelofelijk knap’, vinden ze in China De manier waarop de affaire naar buiten kwam, laat volgens de Chinese autoriteiten zien dat het om een politieke manoeuvre van Washington gaat. Als de vrouw inderdaad een spion is, is dat tegelijkertijd „onwaar” en „ongelofelijk knap” van de Chinese diensten.",
-              "url": "https://www.nrc.nl/nieuws/2026/11/11/dat-een-chinese-spion-nvidia-topman-huang-heeft-verleid-is-onwaar-en-tegelijk-razend-knap-vinden-ze-in-china-a4941076",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:13.632199+00:00"
+              "scraped_at_utc": "2026-11-12T01:05:26.727623+00:00"
             }
           }
         ]
       },
       {
-        "score": 92.20643182299742,
-        "size": 31,
-        "n_sources": 23,
-        "n_continents": 7,
+        "score": 140.6540006758195,
+        "size": 25,
+        "n_sources": 24,
+        "n_continents": 8,
+        "continents": [
+          "China",
+          "East Asia",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "Oceania",
+          "South America"
+        ],
+        "coherence": 0.8377615213394165,
+        "title": "Democrat Scott Colom wins historic Senate race in Mississippi",
+        "central_article": {
+          "title": "Democrat Scott Colom wins historic Senate race in Mississippi",
+          "url": "https://www.france24.com/en/americas/20261111-democrat-scott-colom-wins-historic-senate-race-in-mississippi",
+          "source_id": "france24.com",
+          "continent": "Europe South",
+          "published_at": null,
+          "scraped_at_utc": "2026-11-12T01:04:07.280712+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9357737302780151,
+            "article": {
+              "title": "Democrat Scott Colom wins historic Senate race in Mississippi",
+              "url": "https://www.france24.com/en/americas/20261111-democrat-scott-colom-wins-historic-senate-race-in-mississippi",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:04:07.280712+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9212231040000916,
+            "article": {
+              "title": "Scott Colom wins Senate election in Mississippi",
+              "url": "https://www.pbs.org/newshour/politics/scott-colom-wins-senate-election-in-mississippi",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:08:03.780220+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9173871278762817,
+            "article": {
+              "title": "Democrat Scott Colom Wins Mississippi Senate Race",
+              "url": "https://time.com/article/2026/11/11/mississippi-senate-race-scott-colom-cindy-hyde-smith-2026-midterm-elections/",
+              "source_id": "time.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:08:00.890602+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9145783185958862,
+            "article": {
+              "title": "Democrat Scott Colom wins closely watched US Senate race in Mississippi",
+              "url": "https://www.aljazeera.com/news/2026/11/11/democrat-scott-colom-wins-closely-watched-us-senate-race-in-mississippi",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:05:39.233687+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9010235071182251,
+            "article": {
+              "title": "Mississippi elects Democrat Scott Colom as state’s first Black US senator since Reconstruction",
+              "url": "https://www.chicagotribune.com/2026/11/11/mississippi-democrat-scott-colom-us-senator/",
+              "source_id": "chicagotribune.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:07:59.391788+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8952190279960632,
+            "article": {
+              "title": "Democrat Scott Colom elected as Mississippi’s first Black senator since Reconstruction",
+              "url": "https://www.latimes.com/politics/story/2026-11-11/democrat-scott-colom-elected-as-mississippis-first-black-senator-since-reconstruction",
+              "source_id": "latimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:07:53.351088+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8866258859634399,
+            "article": {
+              "title": "Democrat Colom defeats incumbent Republican in Mississippi Senate race",
+              "url": "https://www.theglobeandmail.com/world/us-politics/article-democrat-scott-colom-mississippi-senate/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:05:21.372326+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8821967840194702,
+            "article": {
+              "title": "Democrat Colom defeats Hyde-Smith in Mississippi to win historic Senate seat",
+              "url": "https://www.scmp.com/news/world/united-states-canada/article/3374129/democrat-colom-defeats-hyde-smith-mississippi-win-historic-senate-seat?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:08:04.989618+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8821967840194702,
+            "article": {
+              "title": "Democrat Colom defeats Hyde-Smith in Mississippi to win historic Senate seat",
+              "url": "https://www.scmp.com/news/world/united-states-canada/article/3374129/democrat-colom-defeats-hyde-smith-mississippi-win-historic-senate-seat?module=latest&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:08:04.989618+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8812318444252014,
+            "article": {
+              "title": "Elezioni Usa, il dem Scott Colom conquista il seggio al Senato in Mississippi, è il primo afroamericano dopo 145 anni.",
+              "url": "https://www.corriere.it/esteri/elezioni-usa/midterm-2026/26_novembre_12/elezioni-usa-il-dem-scott-colom-conquista-il-seggio-al-senato-in-mississippi-e-il-primo-afroamericano-dopo-145-anni-ecco-chi-e-29330fd3-b628-4785-900e-abd343e7exlk.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:04:22.724668+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8620313405990601,
+            "article": {
+              "title": "Colom to become Mississippi's first Black senator since Reconstruction",
+              "url": "https://www.usatoday.com/story/news/politics/elections/2026/11/11/scott-colom-mississippi-first-black-senator-reconstruction/92643008007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:07:55.866910+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8512451648712158,
+            "article": {
+              "title": "La histórica victoria de Scott Colom, el primer senador negro del conservador estado de Misisipi en más de 140 años",
+              "url": "https://www.bbc.com/mundo/articles/cqvg243per3xo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:04:25.308787+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.828217625617981,
+            "article": {
+              "title": "Amerikaanse politiek Democraat Scott Colom wint senaatsrace Mississippi en wordt daarmee de eerste zwarte senator uit de staat sinds 1874 De overwinning van de 43-jarige openbaar aanklager Scott Colom is opmerkelijk, aangezien Mississippi bij de presidentsverkiezingen van 2024 nog met bijna 23 procentpunt verschil voor Donald Trump koos.",
+              "url": "https://www.nrc.nl/nieuws/2025/09/19/amerikaanse-politiek-19-september-a4906609",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:18.701172+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8235204219818115,
+            "article": {
+              "title": "Democrata vence disputa pelo Senado e se torna primeiro senador negro pelo Mississippi desde 1870",
+              "url": "https://oglobo.globo.com/mundo/noticia/2026/11/11/democrata-scott-colom-vence-disputa-pelo-senado-e-se-torna-primeiro-senador-negro-pelo-mississippi-desde-1870.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:04:47.395761+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8139678239822388,
+            "article": {
+              "title": "Mississippi elects its first Black senator in 150 years giving Democrats a 55-seat majority",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/scott-colom-mississippi-senate-election-midterms-b3083509.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:07.933755+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8127323389053345,
+            "article": {
+              "title": "Mississippi elege Scott Colom, primeiro senador negro pelo estado dos EUA em 150 anos Resultado encerra domínio republicano em um reduto conservador e sinaliza mudanças",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/11/mississippi-elege-democrata-scott-colom-primeiro-senador-negro-pelo-estado-dos-eua-em-150-anos.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:04:45.227145+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8044770956039429,
+            "article": {
+              "title": "newsticker Midterms 2026 Demokrat Scott Colom gewinnt Senatssitz in Mississippi Die neuesten Einträge aus dem Liveticker: Erstmals seit 1982: Demokrat holt Senatssitz in Mississippi Gestern, Impeachment von Hegseth im Repräsentantenhaus gescheitert 10.11.2026, Republikaner wählen Jim Jordan zum neuen Minderheitsführer",
+              "url": "https://www.srf.ch/news/international/usa/midterms-2026-demokrat-scott-colom-gewinnt-senatssitz-in-mississippi",
+              "source_id": "srf.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:39.517577+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8028285503387451,
+            "article": {
+              "title": "History made as black Democrat wins Senate race in deep red Mississippi",
+              "url": "https://www.smh.com.au/world/north-america/history-made-as-black-democrat-wins-senate-race-in-deep-red-mississippi-20261112-p61dg0.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:05:25.247767+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.793779194355011,
+            "article": {
+              "title": "Valgsejren udbygges i det amerikanske Senat: Mississippi går til Demokraterne",
+              "url": "https://www.dr.dk/nyheder/udland/valgsejren-udbygges-i-det-amerikanske-senat-mississippi-gaar-til-demokraterne",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:51.521610+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7807577252388,
+            "article": {
+              "title": "Colom hafði betur í Mississippi",
+              "url": "https://www.mbl.is/frettir/erlent/2026/11/11/colom_hafdi_betur_i_mississippi/",
+              "source_id": "mbl.is",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:54.668738+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7762404680252075,
+            "article": {
+              "title": "Nog bijzonderder dan Texas: Mississippi kiest Democraat als senator",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5664650/mississippi-democraat-senator-scott-colom-gewonnen-bijzonder",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:20.376029+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7506953477859497,
+            "article": {
+              "title": "Mississippi How Scott Colom won deep-red state with little help from Democrats",
+              "url": "https://www.theguardian.com/us-news/2026/nov/11/scott-colom-mississippi-democrat-senate-midterms",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:10.642830+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7457318305969238,
+            "article": {
+              "title": "Demócratas logran una victoria histórica en Misisipi y amplían mayoría en Senado",
+              "url": "https://elcomercio.pe/mundo/eeuu/democratas-logran-una-victoria-historica-en-misisipi-y-amplian-mayoria-en-senado-de-estados-unidos-donald-trump-ultimas-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:04:56.456367+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7418893575668335,
+            "article": {
+              "title": "ST Live: Nvidia CEO Jensen Huang’s fate, Democrat Scott Colom wins Mississippi Senate race",
+              "url": "https://www.straitstimes.com/singapore/st-live-news-as-it-happens8?ref=top-stories",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:09:49.319025+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7384690046310425,
+            "article": {
+              "title": "• Demokrat vinner senatsvalet i Mississippi",
+              "url": "https://www.dn.se/direkt/2026-11-11/demokrat-vinner-senatsvalet-i-mississippi/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:43.333505+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 88.86735044762082,
+        "size": 14,
+        "n_sources": 14,
+        "n_continents": 8,
+        "continents": [
+          "East Asia",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "Oceania",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.8537291884422302,
+        "title": "People trapped in wreckage as New York building collapse kills one",
+        "central_article": {
+          "title": "People trapped in wreckage as New York building collapse kills one",
+          "url": "https://www.abc.net.au/news/2026-11-12/new-york-brooklyn-building-collapse-rescue/107376940",
+          "source_id": "abc.net.au",
+          "continent": "Oceania",
+          "published_at": null,
+          "scraped_at_utc": "2026-11-12T01:05:22.717221+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.902897298336029,
+            "article": {
+              "title": "People trapped in wreckage as New York building collapse kills one",
+              "url": "https://www.abc.net.au/news/2026-11-12/new-york-brooklyn-building-collapse-rescue/107376940",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:05:22.717221+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8905283212661743,
+            "article": {
+              "title": "People trapped in rubble as building collapses in New York",
+              "url": "https://www.rnz.co.nz/news/world/2552899/building-collapses-in-brooklyn-new-york-one-death-others-trapped-under-rubble",
+              "source_id": "rnz.co.nz",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:05:27.989284+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8886587023735046,
+            "article": {
+              "title": "One dead, many injured after 3-story building collapses in NYC",
+              "url": "https://www.usatoday.com/story/news/nation/2026/11/11/3-story-building-partially-collapses-in-brooklyn-reports-of-people-trapped/92732934007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:07:55.866910+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8869935274124146,
+            "article": {
+              "title": "New York City building collapse leaves people trapped in rubble",
+              "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-flatbush-nyc-b3083495.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:07.933755+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.877814531326294,
+            "article": {
+              "title": "New York: Bygning kollapset",
+              "url": "https://www.dagbladet.no/nyheter/new-york-bygning-kollapset/85410544",
+              "source_id": "dagbladet.no",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:46.848816+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8676534295082092,
+            "article": {
+              "title": "Byggnad kollapsad i New York",
+              "url": "https://www.dn.se/direkt/2026-11-12/byggnad-kollapsad-i-new-york/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:43.333505+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8675680756568909,
+            "article": {
+              "title": "Brooklyn, crolla palazzina di tre piani: un morto e diversi feriti",
+              "url": "https://www.repubblica.it/esteri/2026/11/12/news/brooklyn_new_york_collo_palazzo_feriti-425716858/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:04:20.977563+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8596911430358887,
+            "article": {
+              "title": "Emergencia en Nueva York por el colapso de una vivienda junto a una construcción deja un muerto y 10 heridos",
+              "url": "https://www.eltiempo.com/mundo/eeuu-y-canada/emergencia-en-nueva-york-por-el-colapso-de-una-vivienda-junto-a-una-construccion-buscan-a-trabajadores-que-estarian-desaparecidos-entre-los-escombros-3600319",
+              "source_id": "eltiempo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:04:39.820440+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8462175726890564,
+            "article": {
+              "title": "Firefighters dig through rubble after NYC building collapse kills 1 and traps people in wreckage",
+              "url": "https://www.chicagotribune.com/2026/11/11/new-york-city-building-collapse-2/",
+              "source_id": "chicagotribune.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:07:59.391788+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8339263200759888,
+            "article": {
+              "title": "國際 紐約3層樓建築倒塌 至少1死12傷",
+              "url": "https://www.cna.com.tw/news/aopl/202611120024.aspx",
+              "source_id": "cna.com.tw",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:09:55.399225+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8321577906608582,
+            "article": {
+              "title": "One dead, 12 injured in partial building collapse in Brooklyn",
+              "url": "https://www.jpost.com/international/article-914634",
+              "source_id": "jpost.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:05:41.865331+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8136348724365234,
+            "article": {
+              "title": "no bairro do brooklyn Desabamento de prédio em Nova York mata uma pessoa e fere pelo menos outras dez; socorristas trabalham em meio a escombros - Angelina Katsanis/Reuters",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/11/desabamento-de-predio-em-nova-york-mata-1-pessoa-e-fere-ao-menos-outras-10.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:04:45.227145+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7972476482391357,
+            "article": {
+              "title": "अमेरिका: ब्रुकलिन में तीन मंजिला इमारत ढही, एक की मौत और 10 घायल; बचाव अभियान जारी",
+              "url": "https://www.jagran.com/world/america-building-collapse-in-brooklyn-kills-at-least-one-injures-10-40434024.html",
+              "source_id": "jagran.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:08:35.153631+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7872188091278076,
+            "article": {
+              "title": "Prédio de três andares desaba em Nova York e deixa ao menos um morto e dez feridos Construção desabou na região central do Brooklyn",
+              "url": "https://www.estadao.com.br/internacional/desabamento-predio-ny-npr/",
+              "source_id": "estadao.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:04:53.672762+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 84.94959239169657,
+        "size": 19,
+        "n_sources": 19,
+        "n_continents": 6,
+        "continents": [
+          "China",
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East"
+        ],
+        "coherence": 0.84117192029953,
+        "title": "Russischer Botschafter in den USA überraschend gestorben",
+        "central_article": {
+          "title": "Russischer Botschafter in den USA überraschend gestorben",
+          "url": "https://www.diepresse.com/41443487/russischer-botschafter-in-den-usa-ueberraschend-gestorben",
+          "source_id": "diepresse.com",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-11-12T01:03:32.989942+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9131786823272705,
+            "article": {
+              "title": "Russischer Botschafter in den USA überraschend gestorben",
+              "url": "https://www.diepresse.com/41443487/russischer-botschafter-in-den-usa-ueberraschend-gestorben",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:32.989942+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9106771945953369,
+            "article": {
+              "title": "Russlands US-Botschafter in Moskau plötzlich verstorben",
+              "url": "https://www.welt.de/politik/ausland/article6af4f2ccc45061d752ba6f0b/erfahrener-diplomat-russlands-us-botschafter-in-moskau-ploetzlich-verstorben.html",
+              "source_id": "welt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:30.168624+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9055254459381104,
+            "article": {
+              "title": "Russischer Botschafter in den USA gestorben",
+              "url": "https://www.nzz.ch/international/russischer-botschafter-in-den-usa-gestorben-ld.10061155",
+              "source_id": "nzz.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:38.115665+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9016630053520203,
+            "article": {
+              "title": "Russian ambassador to US dies",
+              "url": "https://www.rt.com/news/648717-russian-ambassador-us-dies/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:06:30.615106+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8747470378875732,
+            "article": {
+              "title": "Russian ambassador to the US dies, Russia's foreign ministry announced",
+              "url": "https://www.euronews.com/2026/11/11/russian-ambassador-to-the-us-dies-russias-foreign-ministry-announced",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:13.705309+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.873366117477417,
+            "article": {
+              "title": "L’ambassadeur russe aux Etats-Unis est mort « soudainement » à 66 ans",
+              "url": "https://www.lesoir.be/782209/article/2026-11-11/lambassadeur-russe-aux-etats-unis-est-mort-soudainement-66-ans",
+              "source_id": "lesoir.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:04:13.982309+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8539692163467407,
+            "article": {
+              "title": "\"وفاة مفاجئة\" لسفير روسيا في واشنطن",
+              "url": "https://www.aljazeera.net/news/2026/11/11/%d9%88%d9%81%d8%a7%d8%a9-%d9%85%d9%81%d8%a7%d8%ac%d8%a6%d8%a9-%d9%84%d8%b3%d9%81%d9%8a%d8%b1-%d8%b1%d9%88%d8%b3%d9%8a%d8%a7-%d9%81%d9%8a-%d9%88%d8%a7%d8%b4%d9%86%d8%b7%d9%86",
+              "source_id": "aljazeera.net",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:05:43.182595+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8485506176948547,
+            "article": {
+              "title": "Alexandre Dartchiev, l’ambassadeur de Russie aux Etats-Unis, est mort « soudainement » à 66 ans",
+              "url": "https://www.lemonde.fr/international/article/2026/11/11/alexandre-dartchiev-l-ambassadeur-russe-aux-etats-unis-est-mort-soudainement-a-66-ans_6809012_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:04:02.113019+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8352183103561401,
+            "article": {
+              "title": "Rusya'nın Washington Büyükelçisi Aleksandr Darçiyev hayatını kaybetti",
+              "url": "https://www.milliyet.com.tr/dunya/rusyanin-washington-buyukelcisi-aleksandr-darciyev-hayatini-kaybetti-7699014",
+              "source_id": "milliyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:05:52.417318+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.83387690782547,
+            "article": {
+              "title": "Dubes Rusia untuk AS Meninggal Mendadak, Penyebab Masih Misterius Global",
+              "url": "https://www.kompas.com/global/read/2026/11/12/065557370/dubes-rusia-untuk-as-meninggal-mendadak-penyebab-masih-misterius?source=headline",
+              "source_id": "kompas.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:09:56.647567+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.83113694190979,
+            "article": {
+              "title": "Умер посол России в США Александр Дарчиев",
+              "url": "https://www.kommersant.ru/doc/9094981",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:06:32.692520+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.83113694190979,
+            "article": {
+              "title": "Умер посол России в США Александр Дарчиев",
+              "url": "https://meduza.io/news/2026/11/11/umer-posol-rossii-v-ssha-aleksandr-darchiev",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:06:24.648655+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8287854194641113,
+            "article": {
+              "title": "俄外交部：駐美大使達爾奇耶夫「突然離世」終年66歲",
+              "url": "https://www.singtaousa.com/2026/11/11/news/usa/russian-ambassador-to-us-dies-suddenly-foreign-ministry-says/",
+              "source_id": "singtaousa.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:08:22.351706+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8162104487419128,
+            "article": {
+              "title": "俄外交部发言人：俄驻美大使因慢性疾病离世",
+              "url": "https://www.xinhuanet.com/20261112/98ecb90548524fac8a63694e56235611/c.html",
+              "source_id": "xinhuanet.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:08:13.802159+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8070998191833496,
+            "article": {
+              "title": "Rusland Russische ambassadeur in VS Aleksandr Dartsjiev onverwacht overleden wo 11 nov.",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/11/11/rusland-verenigde-staten-ambassadeur-dartsjiev-overleden/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:04:10.537273+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7998464703559875,
+            "article": {
+              "title": "Morto all'improvviso l'ambasciatore del Cremlino negli Usa Darchiev: Putin gli aveva affidato il rilancio del dialogo con Trump",
+              "url": "https://www.corriere.it/esteri/26_novembre_11/morto-darchiev-l-ambasciatore-del-cremlino-negli-stati-uniti-cd5aca03-6a4f-4c18-9459-8ad6f1ba5xlk.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:04:22.724668+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7855535745620728,
+            "article": {
+              "title": "Умер посол России в США Дарчиев Вчера,",
+              "url": "https://ria.ru/20261111/darchiev-2130963172.html",
+              "source_id": "ria.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:06:36.968397+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7706523537635803,
+            "article": {
+              "title": "俄罗斯驻美大使“突然逝世” 其到任曾被视为俄美关系回暖标志",
+              "url": "https://www.sohu.com/a/1100329857_115479?edtsign=BEE9A43F94AA4F47E129B2B364FB3B4E46FBB3DF&edtcode=fSrzohnxwKkB2fNOcL7jkA%3D%3D&scm=10001.663_14-200000.0.0-0-0-0-0.&_f=index_cpc_1_0",
+              "source_id": "news.sohu.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:08:25.147040+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7610714435577393,
+            "article": {
+              "title": "Funke Mediengruppe Botschafter seit 2025 Russischer Botschafter in den USA „plötzlich“ tot",
+              "url": "https://www.abendblatt.de/politik/article413654924/russischer-botschafter-in-den-usa-ist-tot-ursache-bislang-unbekannt.html",
+              "source_id": "abendblatt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:36.651586+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 65.74647650013642,
+        "size": 17,
+        "n_sources": 17,
+        "n_continents": 5,
         "continents": [
           "China",
           "Europe East",
           "Europe North",
           "Europe South",
-          "Middle East",
-          "North America",
-          "South Asia"
+          "Middle East"
         ],
-        "coherence": 0.7885251045227051,
-        "title": "Russia, Ukraine agree to major prisoner swap after U.S.-brokered talks in Abu Dhabi",
+        "coherence": 0.848630964756012,
+        "title": "Bomb threats hit hundreds of schools in Italy, Ireland and UK",
         "central_article": {
-          "title": "Russia, Ukraine agree to major prisoner swap after U.S.-brokered talks in Abu Dhabi",
-          "url": "https://www.thehindu.com/news/international/russia-ukraine-agree-to-prisoner-swap-at-us-brokered-talks/article71689267.ece",
-          "source_id": "thehindu.com",
-          "continent": "South Asia",
+          "title": "Bomb threats hit hundreds of schools in Italy, Ireland and UK",
+          "url": "https://www.politico.eu/article/bomb-threats-disrupting-hundreds-schools-italy-ireland-uk/",
+          "source_id": "politico.eu",
+          "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-11-11T14:51:17.003327+00:00"
+          "scraped_at_utc": "2026-11-12T01:03:15.187129+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9145772457122803,
+            "sim_to_centroid": 0.9318175315856934,
             "article": {
-              "title": "Russia, Ukraine agree to major prisoner swap after U.S.-brokered talks in Abu Dhabi",
-              "url": "https://www.thehindu.com/news/international/russia-ukraine-agree-to-prisoner-swap-at-us-brokered-talks/article71689267.ece",
-              "source_id": "thehindu.com",
-              "continent": "South Asia",
+              "title": "Bomb threats hit hundreds of schools in Italy, Ireland and UK",
+              "url": "https://www.politico.eu/article/bomb-threats-disrupting-hundreds-schools-italy-ireland-uk/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:51:17.003327+00:00"
+              "scraped_at_utc": "2026-11-12T01:03:15.187129+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9128404855728149,
+            "sim_to_centroid": 0.9057108163833618,
+            "article": {
+              "title": "Wave of hoax bomb threats sent to schools in UK, Ireland and Italy",
+              "url": "https://www.france24.com/en/europe/20261111-hundreds-of-schools-in-italy-evacuated-after-receiving-bomb-threats",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:04:07.280712+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8876224756240845,
+            "article": {
+              "title": "Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax",
+              "url": "https://www.bbc.com/news/articles/cwz0k79pr8z2o",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:06.617882+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8839391469955444,
+            "article": {
+              "title": "Les écoles italiennes, irlandaises et écossaises visées par des alertes à la bombe",
+              "url": "https://www.lemonde.fr/international/article/2026/11/11/les-ecoles-italiennes-irlandaises-et-ecossaises-visees-par-des-alertes-a-la-bombe_6809033_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:04:02.113019+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8807801008224487,
+            "article": {
+              "title": "Más de 6.000 colegios de Italia se ven afectados por una nueva oleada de amenazas falsas de bomba",
+              "url": "https://www.rtve.es/noticias/20261111/oleada-amenazas-bomba-provoca-evacuaciones-cientos-colegios-italia/17309358.shtml",
+              "source_id": "rtve.es",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:04:17.922666+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8794983625411987,
+            "article": {
+              "title": "Bombendrohungen in mehr als 6000 italienischen Schulen",
+              "url": "https://www.nzz.ch/panorama/300-schulen-in-italien-evakuiert-wegen-identischer-bombendrohungen-ld.10060751",
+              "source_id": "nzz.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:38.115665+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.858605146408081,
+            "article": {
+              "title": "Birçok ülkedeki okullarda bomba ihbarı!",
+              "url": "https://www.milliyet.com.tr/dunya/italyada-kirmizi-alarm-100-okulda-bomba-ihbari-yapildi-7698761",
+              "source_id": "milliyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:05:52.417318+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8575063943862915,
+            "article": {
+              "title": "Тысячи школ в Италии, Великобритании и Ирландии получили сообщения с угрозами взрыва 11 ноября",
+              "url": "https://novayagazeta.eu/articles/2026/11/11/tysiachi-shkol-v-italii-velikobritanii-i-irlandii-poluchili-soobshcheniia-s-ugrozami-vzryva-news",
+              "source_id": "novayagazeta.eu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:06:26.123868+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8538451194763184,
+            "article": {
+              "title": "Une vague massive d’alertes à la bombe et de menaces en Italie, au Royaume-Uni et en Irlande",
+              "url": "https://www.lesoir.be/782220/article/2026-11-11/une-vague-massive-dalertes-la-bombe-et-de-menaces-en-italie-au-royaume-uni-et-en",
+              "source_id": "lesoir.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:04:13.982309+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8523606061935425,
+            "article": {
+              "title": "İtalya’da 6 binden fazla okula bomba tehdidi: Okullar tahliye edildi",
+              "url": "https://www.cumhuriyet.com.tr/turkiye/italya-da-6-binden-fazla-okula-bomba-tehdidi-okullar-tahliye-edildi-2555484",
+              "source_id": "cumhuriyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:05:50.620270+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8281116485595703,
+            "article": {
+              "title": "Avrupa'da bomba alarmı! Yüzlerce okul tahliye edildi",
+              "url": "https://www.hurriyet.com.tr/dunya/avrupada-bomba-alarmi-yuzlerce-okul-tahliye-edildi-43374289",
+              "source_id": "hurriyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:05:49.192620+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8264926671981812,
+            "article": {
+              "title": "Bombendrohungen an Tausenden Schulen in Europa wohl falsch",
+              "url": "https://www.zdfheute.de/politik/ausland/bomben-drohung-italien-nordirland-schottland-100.html",
+              "source_id": "zdfheute.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:34.878170+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8251854181289673,
+            "article": {
+              "title": "英国和爱尔兰超千所学校收到威胁邮件 警方认定不可信",
+              "url": "https://www.xinhuanet.com/20261112/56a2230def8247259d8536fef0de7735/c.html",
+              "source_id": "xinhuanet.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:08:13.802159+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8181988000869751,
+            "article": {
+              "title": "Europa 6.300 scholen in Italië krijgen valse bommelding, ook e-mails naar scholen in VK en Ierland wo 11 nov.",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/11/11/bommeldingen-scholen-europa/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:04:10.537273+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8173633217811584,
+            "article": {
+              "title": "Italy's Meloni calls emergency meeting after bomb threats target hundreds of schools",
+              "url": "https://www.azernews.az/region/267245.html",
+              "source_id": "azernews.az",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:06:50.099965+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8104240894317627,
+            "article": {
+              "title": "Wohl falscher Alarm Hunderte Schulen in Italien nach Bombendrohungen evakuiert",
+              "url": "https://www.spiegel.de/panorama/italien-hunderte-schulen-nach-bombendrohungen-evakuiert-giorgia-meloni-gibt-entwarnung-a-433e0b93-6d27-4a12-ac2d-541340193af3",
+              "source_id": "spiegel.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:26.396382+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.709264874458313,
+            "article": {
+              "title": "“إرهاب البنسات العشرة” يجتاح مدارس ومطارات أوروبا ويستنفر أجهزتها الأمنية",
+              "url": "https://www.aljazeera.net/news/2026/11/11/%d8%b9%d8%a7%d8%ac%d9%84-%d8%b1%d9%88%d9%8a%d8%aa%d8%b1%d8%b2-%d8%b9%d9%86-%d9%88%d8%b2%d9%8a%d8%b1-%d8%a7%d9%84%d8%aa%d8%b9%d9%84%d9%8a%d9%85-%d8%a7%d9%84%d8%a5%d9%8a%d8%b7%d8%a7%d9%84%d9%8a",
+              "source_id": "aljazeera.net",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:05:43.182595+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 58.57246394595247,
+        "size": 12,
+        "n_sources": 11,
+        "n_continents": 8,
+        "continents": [
+          "China",
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "Oceania"
+        ],
+        "coherence": 0.8185855746269226,
+        "title": "Russia and Ukraine agree to major prisoner swap as peace talks end",
+        "central_article": {
+          "title": "Russia and Ukraine agree to major prisoner swap as peace talks end",
+          "url": "https://www.france24.com/en/europe/20261111-russia-and-ukraine-agree-to-major-prisoner-swap-as-peace-talks-end",
+          "source_id": "france24.com",
+          "continent": "Europe South",
+          "published_at": null,
+          "scraped_at_utc": "2026-11-12T01:04:07.280712+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9093728065490723,
+            "article": {
+              "title": "Russia and Ukraine agree to major prisoner swap as peace talks end",
+              "url": "https://www.france24.com/en/europe/20261111-russia-and-ukraine-agree-to-major-prisoner-swap-as-peace-talks-end",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:04:07.280712+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8858658075332642,
+            "article": {
+              "title": "Russia and Ukraine agree to prisoner swap as U.S. says lack of trust holds back talks",
+              "url": "https://www.japantimes.co.jp/news/2026/11/12/world/politics/russia-ukraine-prisoner-swap-us-talks/",
+              "source_id": "japantimes.co.jp",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:09:28.016255+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8793203830718994,
+            "article": {
+              "title": "Russland und Ukraine vereinbaren Gefangenenaustausch",
+              "url": "https://www.tagesschau.de/ausland/asien/ukraine-russland-verhandlungen-abu-dhabi-104.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:24.113823+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8730552196502686,
+            "article": {
+              "title": "Russia and Ukraine agree to a large prisoner exchange as talks end with no major breakthrough",
+              "url": "https://www.pbs.org/newshour/world/russia-and-ukraine-agree-to-a-large-prisoner-exchange-as-talks-end-with-no-major-breakthrough",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:08:03.780220+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.866400420665741,
             "article": {
               "title": "Russia and Ukraine agree to large-scale prisoner exchange in Abu Dhabi talks",
               "url": "https://www.thenationalnews.com/news/mena/2026/11/11/uae-optimistic-russia-ukraine-talks-will-achieve-positive-breakthrough/",
               "source_id": "thenationalnews.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:47:52.362456+00:00"
+              "scraped_at_utc": "2026-11-12T01:05:40.628294+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8926675319671631,
+            "sim_to_centroid": 0.8563498854637146,
             "article": {
-              "title": "Talks on Ukraine in Abu Dhabi Russia, Ukraine agree on large-scale prisoner exchange — chief negotiator",
-              "url": "https://tass.com/politics/2216133",
-              "source_id": "tass.com",
-              "continent": "Europe East",
+              "title": "Russia and Ukraine agree to large prisoners of war swap, Trump's envoy says",
+              "url": "https://www.sbs.com.au/news/article/russia-and-ukraine-peace-negotiations-prisoners-of-war-swap/y4n7y8gfx",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:49:09.936895+00:00"
+              "scraped_at_utc": "2026-11-12T01:05:24.008191+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8869767189025879,
+            "sim_to_centroid": 0.8273673057556152,
             "article": {
-              "title": "Russia-Ukraine talks in Abu Dhabi end with prisoner exchange agreement",
-              "url": "https://www.aljazeera.com/news/2026/11/11/russia-ukraine-talks-in-abu-dhabi-end-with-prisoner-exchange-agreement",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:47:50.755149+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8418980836868286,
-            "article": {
-              "title": "Talks on Ukraine in Abu Dhabi Large-scale prisoner swap, security: chief Russian negotiator speaks after Abu Dhabi",
-              "url": "https://tass.com/politics/2216361",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:49:09.936895+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8315844535827637,
-            "article": {
-              "title": "Accordo tra Kiev e Mosca ad Abu Dhabi per il più grande scambio di prigionieri di sempre",
-              "url": "https://www.repubblica.it/esteri/2026/11/11/diretta/guerra_ucraina_russia_news_oggi-425714480/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:46:29.382683+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8267408013343811,
-            "article": {
-              "title": "Talks on Ukraine in Abu Dhabi Prisoner exchange to be one of outcomes of talks in Abu Dhabi, source confirms to TASS",
-              "url": "https://tass.com/politics/2216043",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:49:09.936895+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.823651909828186,
-            "article": {
-              "title": "Wat te verwachten van de vredesgesprekken Rusland-Oekraïne in Abu Dhabi?",
-              "url": "https://nos.nl/artikel/2638772-wat-te-verwachten-van-de-vredesgesprekken-rusland-oekraine-in-abu-dhabi",
-              "source_id": "nos.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:11.696797+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8230477571487427,
-            "article": {
-              "title": "Talks on Ukraine in Abu Dhabi Russia, Ukraine may exchange POWs in next two-three weeks — general Zorin",
-              "url": "https://tass.com/politics/2216219",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:49:09.936895+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8208230137825012,
-            "article": {
-              "title": "Second day of Russia-Ukraine-US talks concludes in Abu Dhabi",
-              "url": "https://www.rt.com/news/648693-russia-ukraine-us-talks-second-day/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:49:04.634677+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8178465962409973,
-            "article": {
-              "title": "Trilateral talks between US, Ukraine, Russia kick off in Abu Dhabi to end war",
-              "url": "https://pajhwok.com/2026/11/10/trilateral-talks-between-us-ukraine-russia-kick-off-in-abu-dhabi-to-end-war/",
-              "source_id": "pajhwok.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:51:38.308998+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8141279220581055,
-            "article": {
-              "title": "Abu Dhabi talks signal a major shift in the Ukraine peace process ANALYSIS",
-              "url": "https://www.rt.com/news/648671-abu-dhabi-talks-signal-shift/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:49:04.634677+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8054800033569336,
-            "article": {
-              "title": "Talks on Ukraine in Abu Dhabi IN BRIEF: Second day of talks between Russia, US, Ukraine ends in Abu Dhabi: what we know",
-              "url": "https://tass.com/politics/2216129",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:49:09.936895+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8030635118484497,
-            "article": {
-              "title": "Ukraine, Russia, US conclude 1st day of peace talks in Abu Dhabi, discuss 'humanitarian, de-escalation steps'.",
-              "url": "https://kyivindependent.com/ukraine-russia-us-resume-trilateral-peace-talks-in-abu-dhabi-after-9-month-pause/",
+              "title": "Ukraine war latest: 'Large-scale' prisoner exchange agreed as 2nd day of Abu Dhabi talks concludes, Umerov says",
+              "url": "https://kyivindependent.com/ukraine-war-latest-large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/",
               "source_id": "kyivindependent.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:48:56.360651+00:00"
+              "scraped_at_utc": "2026-11-12T01:06:23.386673+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7986235618591309,
+            "sim_to_centroid": 0.7869826555252075,
             "article": {
-              "title": "Россия и Украина готовят масштабный обмен пленными – что известно после переговоров в Абу-Даби",
-              "url": "https://mlyn.by/11112026/rossiya-i-ukraina-gotovyat-masshtabnyj-obmen-plennymi-chto-izvestno-posle-peregovorov-v-abu-dabi/",
-              "source_id": "mlyn.by",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:49:44.700423+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7923406958580017,
-            "article": {
-              "title": "Russia, Ukraine and US start second day of Abu Dhabi peace talks",
-              "url": "https://kathmandupost.com/world/2026/11/11/russia-ukraine-and-us-start-second-day-of-abu-dhabi-peace-talks",
-              "source_id": "kathmandupost.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:51:32.326842+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7888511419296265,
-            "article": {
-              "title": "Talks on Ukraine in Abu Dhabi Talks between Russia, US, and Ukraine in Abu Dhabi end",
-              "url": "https://tass.com/politics/2216047",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:49:09.936895+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7808328866958618,
-            "article": {
-              "title": "Russland und Ukraine einigen sich auf Gefangenenaustausch",
-              "url": "https://www.zdfheute.de/politik/ausland/gefangenenaustausch-gespraeche-ukraine-krieg-russland-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:36.997294+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7808129787445068,
-            "article": {
-              "title": "Ukraine und Russland einigen sich auf großen Gefangenenaustausch",
-              "url": "https://www.diepresse.com/41442126/ukraine-und-russland-einigen-sich-auf-grossen-gefangenenaustausch",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:34.761906+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7722932696342468,
-            "article": {
-              "title": "Talks on Ukraine in Abu Dhabi Parties move closer to peace following talks in Abu Dhabi",
-              "url": "https://tass.com/politics/2216381",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:49:09.936895+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7605047225952148,
-            "article": {
-              "title": "‘Constructive’ Abu Dhabi talks underway amid fresh strikes in Kyiv",
-              "url": "https://www.channel4.com/news/constructive-abu-dhabi-talks-underway-amid-fresh-strikes-in-kyiv",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:07.657094+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7591124773025513,
-            "article": {
-              "title": "Abu Dhabi peace talks end with prisoner exchange agreement",
-              "url": "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:09.153291+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.755186140537262,
-            "article": {
-              "title": "Итоги переговоров в Абу-Даби: обмен пленными, безопасность Европы, визит Уиткоффа в Москву",
-              "url": "https://www.kommersant.ru/doc/9094609",
-              "source_id": "kommersant.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:49:08.141510+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7440920472145081,
-            "article": {
-              "title": "俄美乌三方会谈结束 俄乌就大规模换俘达成一致",
-              "url": "https://www.xinhuanet.com/20261111/58171de26b014ac5adfc2c83c8bf0702/c.html",
-              "source_id": "xinhuanet.com",
+              "title": "阿布扎比会谈结束 俄乌宣告达成换俘协议 普京今日会见美特使",
+              "url": "https://www.sohu.com/a/1100382812_362042?edtsign=9000EABBC73162C173CA0C030DFBE2163F69FD8A&edtcode=fSrzohnxwKkB2fNOcL7jkA%3D%3D&scm=10001.663_14-200000.0.0-0-0-0-0.&_f=index_cpc_1_0",
+              "source_id": "news.sohu.com",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:50:52.726779+00:00"
+              "scraped_at_utc": "2026-11-12T01:08:25.147040+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7195978164672852,
+            "sim_to_centroid": 0.7747986316680908,
             "article": {
-              "title": "Ukraine Talks in Abu Dhabi: Europe Sidelined",
-              "url": "https://www.kyivpost.com/post/89813",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
+              "title": "俄美乌会谈达成换俘协议，仍存重大分歧；泽连斯基称已抵达都柏林，将与美方代表会晤",
+              "url": "https://www.stnn.cc/detail/6af5033b8f9d2b19dd6b8ca3.html",
+              "source_id": "stnn.cc",
+              "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:48:54.831454+00:00"
+              "scraped_at_utc": "2026-11-12T01:08:27.978680+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7160842418670654,
+            "sim_to_centroid": 0.7256982922554016,
             "article": {
-              "title": "Kremlin spokesman addresses Abu Dhabi talks and relations with Europe",
-              "url": "https://tass.com/politics/2216071",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:49:09.936895+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7086020708084106,
-            "article": {
-              "title": "V Abú Zabí skončila jednání o Ukrajině. Kushner s Witkoffem pojedou za Putinem",
-              "url": "https://www.idnes.cz/zpravy/zahranicni/v-abu-zabi-pokracuji-mirove-hovory-mezi-zastupci-ukrajiny-ruska-a-usa.A261111_102038_zahranicni_onbu",
-              "source_id": "idnes.cz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:48:42.921847+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7011182308197021,
-            "article": {
-              "title": "Rusia y Ucrania acuerdan un canje masivo de prisioneros mientras Kiev ataca un puerto ruso",
-              "url": "https://www.14ymedio.com/internacional/rusia-ucrania-acuerdan-canje-masivo_1_1133073.html",
-              "source_id": "14ymedio.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:46:37.902065+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.700016975402832,
-            "article": {
-              "title": "Abu Dhabi talks among most difficult since 2022, Ukraine’s Arakhamia says",
-              "url": "https://georgiatoday.ge/abu-dhabi-talks-among-most-difficult-since-2022-ukraines-arakhamia-says/",
-              "source_id": "georgiatoday.ge",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:49:18.761220+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6985238790512085,
-            "article": {
-              "title": "3 t Verden Russland og Ukraina enige om stor fangeutveksling",
-              "url": "https://www.aftenposten.no/verden/i/R1xvAW/russland-og-ukraina-enige-om-stor-fangeutveksling",
-              "source_id": "aftenposten.no",
+              "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+              "url": "https://www.bbc.com/news/articles/ck792we7zrz4o",
+              "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:48.761687+00:00"
+              "scraped_at_utc": "2026-11-12T01:03:06.617882+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6523597836494446,
+            "sim_to_centroid": 0.7254822254180908,
             "article": {
-              "title": "Enige om stor fangeutveksling",
-              "url": "https://www.dagbladet.no/nyheter/russland-og-ukraina-enige-om-stor-fangeutveksling/85403372",
-              "source_id": "dagbladet.no",
+              "title": "Ukraine captures first Indonesian prisoner of war as Russia steps up foreign recruitment.",
+              "url": "https://kyivindependent.com/ukraine-captures-first-indonesian-prisoner-of-war-as-russia-steps-up-foreign-recruitment/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:06:23.386673+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.712333619594574,
+            "article": {
+              "title": "Funke Mediengruppe Aber Gefangenenaustausch Ukraine-Frieden in weiter Ferne: Russland will erst Europas Sicherheit neu ordnen",
+              "url": "https://www.abendblatt.de/politik/article413651416/ukraine-frieden-in-weiter-ferne-russland-will-erst-europas-sicherheit-neu-ordnen.html",
+              "source_id": "abendblatt.de",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:50.947844+00:00"
+              "scraped_at_utc": "2026-11-12T01:03:36.651586+00:00"
             }
           }
         ]
       },
       {
-        "score": 69.46148864234283,
-        "size": 17,
-        "n_sources": 17,
-        "n_continents": 6,
+        "score": 48.139119788520254,
+        "size": 12,
+        "n_sources": 12,
+        "n_continents": 5,
         "continents": [
-          "East Asia",
-          "Europe East",
+          "China",
           "Europe North",
-          "Europe South",
+          "Middle East",
           "North America",
-          "South America"
+          "Oceania"
         ],
-        "coherence": 0.82315993309021,
-        "title": "Workers across Spain stage first general strike in 14 years over nation’s housing crisis",
+        "coherence": 0.855950117111206,
+        "title": "Hegseth, staff reprimanded by guard for laughing near Tomb of the Unknown Soldier",
         "central_article": {
-          "title": "Workers across Spain stage first general strike in 14 years over nation’s housing crisis",
-          "url": "https://www.theglobeandmail.com/world/article-spain-general-strike-housing-crisis/",
+          "title": "Hegseth, staff reprimanded by guard for laughing near Tomb of the Unknown Soldier",
+          "url": "https://www.theglobeandmail.com/world/article-hegseth-tomb-of-the-unknown-soldier-veterans-day/",
           "source_id": "theglobeandmail.com",
           "continent": "North America",
           "published_at": null,
-          "scraped_at_utc": "2026-11-11T14:47:32.479679+00:00"
+          "scraped_at_utc": "2026-11-12T01:05:21.372326+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8974586725234985,
+            "sim_to_centroid": 0.9212822914123535,
             "article": {
-              "title": "Workers across Spain stage first general strike in 14 years over nation’s housing crisis",
-              "url": "https://www.theglobeandmail.com/world/article-spain-general-strike-housing-crisis/",
+              "title": "Hegseth, staff reprimanded by guard for laughing near Tomb of the Unknown Soldier",
+              "url": "https://www.theglobeandmail.com/world/article-hegseth-tomb-of-the-unknown-soldier-veterans-day/",
               "source_id": "theglobeandmail.com",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:47:32.479679+00:00"
+              "scraped_at_utc": "2026-11-12T01:05:21.372326+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.89643394947052,
+            "sim_to_centroid": 0.9203368425369263,
             "article": {
-              "title": "General strike over housing hits Spain ahead of election",
-              "url": "https://www.bangkokpost.com/world/3352906/general-strike-over-housing-hits-spain-ahead-of-election",
-              "source_id": "bangkokpost.com",
-              "continent": "East Asia",
+              "title": "Hegseth and staff reprimanded by guard at Tomb of the Unknown Soldier",
+              "url": "https://www.latimes.com/world-nation/story/2026-11-11/hegseth-staff-reprimanded-by-guard-at-tomb-of-unknown-soldier",
+              "source_id": "latimes.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:52:28.729157+00:00"
+              "scraped_at_utc": "2026-11-12T01:07:53.351088+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8691166639328003,
+            "sim_to_centroid": 0.9076571464538574,
+            "article": {
+              "title": "Hegseth entourage reprimanded by guard at Tomb of the Unknown Soldier",
+              "url": "https://www.aljazeera.com/news/2026/11/12/hegseth-entourage-reprimanded-by-guard-at-tomb-of-the-unknown-soldier",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:05:39.233687+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8959446549415588,
+            "article": {
+              "title": "Hegseth’s group reprimanded for laughing during Veterans Day honoring at Tomb of the Unknown Soldier",
+              "url": "https://www.independent.co.uk/news/world/americas/us-politics/hegseth-yelled-at-veterans-day-tomb-unknown-solider-b3083433.html",
+              "source_id": "independent.co.uk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:07.933755+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8940167427062988,
+            "article": {
+              "title": "Hegseth and team reprimanded by Army guard at solemn war memorial",
+              "url": "https://www.bbc.com/news/articles/cmvg2r3dq7xno",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:06.617882+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8746839761734009,
+            "article": {
+              "title": "Hegseth and staff scolded by guard after laughter heard at sacred tomb",
+              "url": "https://www.scmp.com/news/world/united-states-canada/article/3374128/hegseth-and-staff-scolded-guard-after-laughter-heard-tomb-unknown-soldier?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:08:04.989618+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8540499210357666,
+            "article": {
+              "title": "‘Silence!’ Guard yells at Hegseth’s group for laughing near Tomb of the Unknown Soldier",
+              "url": "https://www.smh.com.au/world/north-america/silence-guard-yells-at-hegseth-s-group-for-laughing-near-tomb-of-the-unknown-soldier-20261112-p61dj3.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:05:25.247767+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8301969766616821,
+            "article": {
+              "title": "Hegseth hyschades vid militärgrav",
+              "url": "https://www.dn.se/direkt/2026-11-11/hegseth-hyschades-vid-militargrav/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:43.333505+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8297039270401001,
+            "article": {
+              "title": "Lautes Lachen am Denkmal – Soldat rügt Gruppe um Hegseth",
+              "url": "https://www.welt.de/politik/ausland/article6af50541c45061d752ba6f71/veteranentag-lautes-lachen-am-denkmal-soldat-ruegt-gruppe-um-hegseth.html",
+              "source_id": "welt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:30.168624+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8165299296379089,
+            "article": {
+              "title": "3 t Verden Hegseth fikk kjeft av soldat ved minnegrav",
+              "url": "https://www.aftenposten.no/verden/i/0vEeG6/hegseth-fikk-kjeft-av-soldat-ved-minnegrav",
+              "source_id": "aftenposten.no",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:44.947434+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7868514060974121,
+            "article": {
+              "title": "A soldier scolded Hegseth on Veterans Day. That says it all Rex Huppke",
+              "url": "https://www.usatoday.com/story/opinion/columnist/2026/11/11/hegseth-tomb-unknown-soldier-arlington-veterans-day/92733454007/",
+              "source_id": "usatoday.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:07:55.866910+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7401473522186279,
+            "article": {
+              "title": "Hegseth irettesat efter foto-shoot på veterankirkegård",
+              "url": "https://politiken.dk/internationalt/int_usa/art11056547/Hegseth-irettesat-efter-foto-shoot-p%C3%A5-veterankirkeg%C3%A5rd",
+              "source_id": "politiken.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:41.599288+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 32.23597261029887,
+        "size": 7,
+        "n_sources": 7,
+        "n_continents": 6,
+        "continents": [
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "Oceania",
+          "South Asia"
+        ],
+        "coherence": 0.8470826745033264,
+        "title": "Millions stage first general strike in Spain in 14 years amid anger over housing",
+        "central_article": {
+          "title": "Millions stage first general strike in Spain in 14 years amid anger over housing",
+          "url": "https://www.sbs.com.au/news/article/spain-general-strike-over-housing/vb8u82c30",
+          "source_id": "sbs.com.au",
+          "continent": "Oceania",
+          "published_at": null,
+          "scraped_at_utc": "2026-11-12T01:05:24.008191+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8739186525344849,
+            "article": {
+              "title": "Millions stage first general strike in Spain in 14 years amid anger over housing",
+              "url": "https://www.sbs.com.au/news/article/spain-general-strike-over-housing/vb8u82c30",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:05:24.008191+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8736720085144043,
+            "article": {
+              "title": "Millions of Spaniards demand housing reform during nationwide strike",
+              "url": "https://www.theglobeandmail.com/world/article-spain-nationwide-strike-housing-reform-protest/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:05:21.372326+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8699085712432861,
+            "article": {
+              "title": "Over 100.000 demonstrerer mod spanske boligpriser",
+              "url": "https://politiken.dk/internationalt/art11056520/Over-100.000-demonstrerer-mod-spanske-boligpriser",
+              "source_id": "politiken.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:41.599288+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8617626428604126,
             "article": {
               "title": "L'Espagne en grève pour défendre l'accès au logement et le pouvoir d'achat",
               "url": "https://www.rts.ch/info/monde/2026/article/espagne-greve-generale-pour-le-logement-avant-les-legislatives-29412560.html",
               "source_id": "rts.ch",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:46:15.236096+00:00"
+              "scraped_at_utc": "2026-11-12T01:04:08.733629+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8606986403465271,
+            "sim_to_centroid": 0.8245360851287842,
             "article": {
-              "title": "Spain’s general strike puts housing crisis at centre of upcoming elections",
-              "url": "https://www.france24.com/en/europe/20261111-spain-general-strike-puts-housing-crisis-centre-upcoming-elections",
-              "source_id": "france24.com",
-              "continent": "Europe South",
+              "title": "आवास संकट से स्पेन में भड़का गुस्सा, पुलिस और प्रदर्शनकारियों के बीच झड़प; कई जगह फूंके वाहन",
+              "url": "https://www.jagran.com/world/other-a-strike-took-place-in-spain-on-wednesday-ahead-of-the-general-election-40433981.html",
+              "source_id": "jagran.com",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:46:13.227367+00:00"
+              "scraped_at_utc": "2026-11-12T01:08:35.153631+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8496453166007996,
+            "sim_to_centroid": 0.8230118751525879,
             "article": {
-              "title": "España arranca huelga general por crisis de vivienda y costo de vida poco antes de elecciones",
-              "url": "https://www.nacion.com/el-mundo/espana-arranca-huelga-general-por-crisis-de/PZIXRAWDPBGWNK4NO2A6X65JI4/story/",
-              "source_id": "nacion.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:46:39.259890+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8429137468338013,
-            "article": {
-              "title": "Massale staking in Spanje voor meer loon, meer huizen en veiliger ov",
-              "url": "https://www.rtl.nl/nieuws/artikel/5664493/algemene-staking-spanje-hoger-besteedbaar-inkomen-wooncrisis-demonstraties",
-              "source_id": "rtl.nl",
+              "title": "Verden 120.000 demonstrerte mot spanske boligpriser",
+              "url": "https://www.aftenposten.no/verden/i/kMaA7Q/120000-demonstrerte-mot-spanske-boligpriser",
+              "source_id": "aftenposten.no",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:15.656363+00:00"
+              "scraped_at_utc": "2026-11-12T01:03:44.947434+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8345046043395996,
+            "sim_to_centroid": 0.8027688264846802,
             "article": {
-              "title": "'O tempo dos políticos acabou': Espanha tem 1ª greve geral em 14 anos, a poucas semanas das eleições",
-              "url": "https://oglobo.globo.com/mundo/noticia/2026/11/11/o-tempo-dos-politicos-acabou-espanha-tem-primeira-greve-geral-em-14-anos-a-poucos-dias-das-eleicoes.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:47:02.100459+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.83213210105896,
-            "article": {
-              "title": "Van trabajadores a huelga en Espa�a por crisis de vivienda",
-              "url": "https://www.reforma.com/van-trabajadores-a-huelga-en-espana-por-crisis-de-vivienda/ar3312495",
-              "source_id": "reforma.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:46:35.925831+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8267515897750854,
-            "article": {
-              "title": "Spagna, oggi il primo sciopero generale in 14 anni (a 18 giorni dalle elezioni). Ma non è contro il governo",
-              "url": "https://www.corriere.it/esteri/26_novembre_11/in-spagna-due-settimane-prima-delle-elezioni-e-in-corso-il-primo-sciopero-generale-in-14-anni-ma-non-e-contro-il-governo-381b1593-f41b-4ce1-93c3-a47e6a8c3xlk.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:46:31.222881+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8262284994125366,
-            "article": {
-              "title": "Europa Onvrede over wooncrisis en lage lonen houdt aan: eerste algemene staking in Spanje in 14 jaar",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/11/11/spanje-algemene-staking-wooncrisis/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:46:16.832897+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8179342746734619,
-            "article": {
-              "title": "Španělsko ochromila generální stávka, po celé zemi se čekají demonstrace",
-              "url": "https://ct24.ceskatelevize.cz/clanek/svet/spanelsko-ochromila-generalni-stavka-po-cele-zemi-se-cekaji-demonstrace-379512",
-              "source_id": "ct24.ceskatelevize.cz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:48:45.326426+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7913156747817993,
-            "article": {
-              "title": "Espagne : journée de grève générale ce mercredi 11 novembre, à trois semaines d'élections anticipées",
-              "url": "https://www.rtbf.be/article/espagne-journee-de-greve-nationale-ce-mercredi-11-novembre-a-trois-semaines-d-elections-anticipees-11813542",
-              "source_id": "rtbf.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:46:19.080895+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7862013578414917,
-            "article": {
-              "title": "Wohnungsnot Streikende legen in Spanien Häfen und Autowerke lahm",
-              "url": "https://www.spiegel.de/wirtschaft/spanien-streikende-legen-haefen-und-autowerke-lahm-a-e0bf7fb0-dd5b-424e-b8af-e23c2b451ccf",
-              "source_id": "spiegel.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:22.870961+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7826564908027649,
-            "article": {
-              "title": "3 claves de la primera huelga general en España en 14 años (y la paradoja de que el gobierno la defienda y la oposición la critique)",
-              "url": "https://www.bbc.com/mundo/articles/cmlyly7jwq24o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:46:34.661216+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7769266963005066,
-            "article": {
-              "title": "Blazes, blockades and pepper spray as Spain goes on strike",
-              "url": "https://www.thetimes.com/world/europe/article/spain-general-strike-police-protesters-8vrs9v8xq",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:03.587781+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7592530250549316,
-            "article": {
-              "title": "Spanish election: How bad is the housing crisis?",
-              "url": "https://www.politico.eu/article/spain-housing-crisis-election-rising-house-prices-rents/",
-              "source_id": "politico.eu",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:10.480317+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7435483932495117,
-            "article": {
-              "title": "La huelga general del 11N: un termómetro de las elecciones en España",
-              "url": "https://www.elespectador.com/mundo/europa/la-huelga-general-del-11n-elecciones-en-espana/",
-              "source_id": "elespectador.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:47:10.633663+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 64.87484117940957,
-        "size": 23,
-        "n_sources": 17,
-        "n_continents": 6,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "Oceania"
-        ],
-        "coherence": 0.8094974160194397,
-        "title": "House Republicans block Hegseth impeachment bid, handing Trump a win",
-        "central_article": {
-          "title": "House Republicans block Hegseth impeachment bid, handing Trump a win",
-          "url": "https://www.france24.com/en/americas/20261110-live-pentagon-chief-pete-hegseth-calls-move-to-impeach-him-a-farce",
-          "source_id": "france24.com",
-          "continent": "Europe South",
-          "published_at": null,
-          "scraped_at_utc": "2026-11-11T14:46:13.227367+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9034050703048706,
-            "article": {
-              "title": "House Republicans block Hegseth impeachment bid, handing Trump a win",
-              "url": "https://www.france24.com/en/americas/20261110-live-pentagon-chief-pete-hegseth-calls-move-to-impeach-him-a-farce",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:46:13.227367+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8975249528884888,
-            "article": {
-              "title": "House Republicans block Hegseth impeachment bid",
-              "url": "https://www.rt.com/news/648697-us-house-blocks-hegseth-impeachment-bid/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:49:04.634677+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8692620992660522,
-            "article": {
-              "title": "House Blocks Hegseth Impeachment, but Democrats Could Revive Effort",
-              "url": "https://time.com/article/2026/11/10/hegseth-impeachment-procedural-vote-house/",
-              "source_id": "time.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:50:40.026127+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8661603927612305,
-            "article": {
-              "title": "House votes down bid to impeach Hegseth, but it’s clear Democrats will be gunning for him",
-              "url": "https://www.theglobeandmail.com/world/us-politics/article-hegseth-impeachment-vote-democrats-will-be-gunning-for-him/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:47:32.479679+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8623695373535156,
-            "article": {
-              "title": "États-Unis : les députés républicains bloquent la procédure de destitution contre Pete Hegseth",
-              "url": "https://www.rtbf.be/article/etats-unis-les-deputes-republicains-bloquent-la-procedure-de-destitution-contre-pete-hegseth-11813927",
-              "source_id": "rtbf.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:46:19.080895+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8581538200378418,
-            "article": {
-              "title": "Did Democrats save Hegseth from impeachment?",
-              "url": "https://www.aljazeera.com/news/2026/11/11/did-democrats-save-pete-hegseth-from-impeachment",
+              "title": "‘I pay $500 for 5 square metres’: Spain’s protesters, in their own words",
+              "url": "https://www.aljazeera.com/news/2026/11/11/i-pay-500-for-5-square-metres-spains-protesters-in-their-own-words",
               "source_id": "aljazeera.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:47:50.755149+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.845427393913269,
-            "article": {
-              "title": "Republikeinen blokkeren afzettingsprocedure tegen Hegseth",
-              "url": "https://fd.nl/politiek/1618740/republikeinen-blokkeren-afzettingsprocedure-tegen-hegseth",
-              "source_id": "fd.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:17.953575+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.828283965587616,
-            "article": {
-              "title": "Des Républicains en rangs serrés sauvent Pete Hegseth d’une tentative de destitution",
-              "url": "https://www.lesoir.be/782137/article/2026-11-11/des-republicains-en-rangs-serres-sauvent-pete-hegseth-dune-tentative-de",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:46:20.705157+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8230608701705933,
-            "article": {
-              "title": "Trump gets a much-needed victory with Hegseth’s impeachment stymied",
-              "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-pete-hegseth-house-impeachment-vote-b3082981.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:01.971989+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8177217841148376,
-            "article": {
-              "title": "Republican-led US House derails impeachment push Pete Hegseth labelled a 'farce'",
-              "url": "https://www.sbs.com.au/news/article/pete-hegseth-dissmisses-impeachment-push-as-farce/cj0xpuc4a",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:47:36.592512+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.803878903388977,
-            "article": {
-              "title": "U. S. Pete Hegseth impeachment effort blocked by House Republicans , 11 November",
-              "url": "https://armenpress.am/en/article/1265327",
-              "source_id": "armenpress.am",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:49:24.395220+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8004128932952881,
-            "article": {
-              "title": "La Camera salva Hegseth: bocciata la procedura di impeachment. Trump festeggia: “Tentativo miseramente fallito”",
-              "url": "https://www.repubblica.it/esteri/2026/11/11/news/usa_hegseth_camera_blocca_richiesta_impeachment-425714472/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:46:29.382683+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.797452449798584,
-            "article": {
-              "title": "Democrats lash out at no-show colleagues after Pete Hegseth survives impeachment push",
-              "url": "https://www.independent.co.uk/news/world/americas/us-politics/pete-hegseth-impeachment-vote-democrats-b3083064.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:01.971989+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7948195934295654,
-            "article": {
-              "title": "Pete Hegseth House Republicans block effort to impeach Pentagon chief Pete Hegseth",
-              "url": "https://www.theguardian.com/us-news/2026/nov/10/pete-hegseth-impeachment-effort",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:04.979690+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7910130023956299,
-            "article": {
-              "title": "Hegseth faces impeachment push as Congress returns to Washington",
-              "url": "https://www.pbs.org/newshour/show/hegseth-faces-impeachment-push-as-congress-returns-to-washington",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:50:41.732699+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7889200448989868,
-            "article": {
-              "title": "Hegseth fights for his political life with appeal to Trump",
-              "url": "https://www.bbc.com/news/articles/cwm232mnv11do",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:00.523596+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7875489592552185,
-            "article": {
-              "title": "House rejects Hegseth impeachment as GOP selects Jordan and Thune as leaders",
-              "url": "https://www.pbs.org/newshour/show/house-rejects-hegseth-impeachment-as-gop-selects-jordan-and-thune-as-leaders",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:50:41.732699+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7774943113327026,
-            "article": {
-              "title": "US-Repräsentantenhaus Amtsenthebungsverfahren gegen Hegseth abgelehnt",
-              "url": "https://www.tagesschau.de/ausland/amerika/hegseth-amtsenthebungsverfahren-gestoppt-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:20.317765+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7745504379272461,
-            "article": {
-              "title": "In the Hegseth impeachment effort, Democrats meet Republicans with retribution of their own",
-              "url": "https://www.theglobeandmail.com/world/us-politics/article-hegseth-impeachment-democrats-republicans-retribution/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:47:32.479679+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7732276916503906,
-            "article": {
-              "title": "Trump takes victory lap after House GOP shelves Pete Hegseth impeachment articles",
-              "url": "https://www.independent.co.uk/news/world/americas/us-politics/hegseth-impeachment-vote-news-house-b3082802.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:01.971989+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7353441715240479,
-            "article": {
-              "title": "Pete Hegseth Hegseth calls Republican’s bid to impeach him a ‘stunt’ by critics of Trump",
-              "url": "https://www.theguardian.com/us-news/2026/nov/10/pete-hegseth-impeachment-massie",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:04.979690+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7152999639511108,
-            "article": {
-              "title": "Will Trump SACRIFICE Hegseth to save himself after the Iran war?",
-              "url": "https://www.channel4.com/news/will-trump-sacrifice-hegseth-to-save-himself-after-the-iran-war",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:07.657094+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7071079015731812,
-            "article": {
-              "title": "Hegseth Could Still Be the Third Cabinet Secretary to be Impeached. What Happened to the Others?",
-              "url": "https://time.com/article/2026/11/10/hegseth-could-be-the-third-cabinet-secretary-to-be-impeached/",
-              "source_id": "time.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:50:40.026127+00:00"
+              "scraped_at_utc": "2026-11-12T01:05:39.233687+00:00"
             }
           }
         ]
       },
       {
-        "score": 19.44704871503926,
-        "size": 5,
-        "n_sources": 5,
-        "n_continents": 4,
-        "continents": [
-          "East Asia",
-          "Europe North",
-          "North America",
-          "South Asia"
-        ],
-        "coherence": 0.8943926095962524,
-        "title": "Three dead and at least three critically injured after minivan ploughs into pedestrians in Los Angeles",
-        "central_article": {
-          "title": "Three dead and at least three critically injured after minivan ploughs into pedestrians in Los Angeles",
-          "url": "https://www.independent.co.uk/bulletin/news/los-angeles-metro-minivan-crash-b3082917.html",
-          "source_id": "independent.co.uk",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-11-11T14:45:01.971989+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9241730570793152,
-            "article": {
-              "title": "Three dead and at least three critically injured after minivan ploughs into pedestrians in Los Angeles",
-              "url": "https://www.independent.co.uk/bulletin/news/los-angeles-metro-minivan-crash-b3082917.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:01.971989+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9154978394508362,
-            "article": {
-              "title": "Minivan crashes into people outside Los Angeles metro station, killing 3",
-              "url": "https://www.chicagotribune.com/2026/11/11/los-angeles-metro-station-crash/",
-              "source_id": "chicagotribune.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:50:38.178659+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9033000469207764,
-            "article": {
-              "title": "SUV strikes pedestrians in Los Angeles, killing at least three",
-              "url": "https://www.thestar.com.my/news/world/2026/11/11/suv-strikes-pedestrians-in-los-angeles-killing-at-least-three",
-              "source_id": "thestar.com.my",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:52:35.580733+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8934472799301147,
-            "article": {
-              "title": "Los Angeles incident : 3 killed as vehicle plows into pedestrians in Los Angeles",
-              "url": "https://pajhwok.com/2026/11/11/3-killed-as-vehicle-plows-into-pedestrians-in-los-angeles/",
-              "source_id": "pajhwok.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:51:38.308998+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8355448246002197,
-            "article": {
-              "title": "Three dead, others injured in crash near North Hollywood Metro station",
-              "url": "https://www.latimes.com/california/story/2026-11-10/three-dead-in-crash-near-north-hollywood-metro-station",
-              "source_id": "latimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:50:32.936236+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 15.900403100144128,
+        "score": 32.090320000008134,
         "size": 9,
-        "n_sources": 7,
-        "n_continents": 3,
+        "n_sources": 9,
+        "n_continents": 5,
         "continents": [
-          "Europe North",
-          "Europe South",
-          "Oceania"
-        ],
-        "coherence": 0.8443644046783447,
-        "title": "UK comedian David Walliams accused of grooming and sexual harassment",
-        "central_article": {
-          "title": "UK comedian David Walliams accused of grooming and sexual harassment",
-          "url": "https://www.france24.com/en/tv-shows/press-review/20261111-uk-comedian-david-walliams-accused-of-grooming-and-sexual-harassment",
-          "source_id": "france24.com",
-          "continent": "Europe South",
-          "published_at": null,
-          "scraped_at_utc": "2026-11-11T14:46:13.227367+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8983293175697327,
-            "article": {
-              "title": "UK comedian David Walliams accused of grooming and sexual harassment",
-              "url": "https://www.france24.com/en/tv-shows/press-review/20261111-uk-comedian-david-walliams-accused-of-grooming-and-sexual-harassment",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:46:13.227367+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8958814740180969,
-            "article": {
-              "title": "How grooming claims against David Walliams came to light",
-              "url": "https://www.rnz.co.nz/life/people/celebrity/how-grooming-claims-against-david-walliams-came-to-light",
-              "source_id": "rnz.co.nz",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:47:42.854382+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8815720677375793,
-            "article": {
-              "title": "Explained What is David Walliams accused of and what has he said in response?",
-              "url": "https://www.theguardian.com/tv-and-radio/2026/nov/11/what-is-david-walliams-accused-of",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:04.979690+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8805098533630371,
-            "article": {
-              "title": "David Walliams accused of preying on teenagers and young women for sex",
-              "url": "https://www.channel4.com/news/david-walliams-accused-of-preying-on-teenagers-and-young-women-for-sex",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:07.657094+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8715084791183472,
-            "article": {
-              "title": "Missbrauchsvorwürfe gegen „Little Britain“-Star David Walliams",
-              "url": "https://www.diepresse.com/41441061/missbrauchsvorwuerfe-gegen-little-britain-star-david-walliams",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:34.761906+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8094760775566101,
-            "article": {
-              "title": "David Walliams named after failed bid to block publication of grooming allegations",
-              "url": "https://www.sbs.com.au/news/article/david-walliams-named-block-grooming-allegations/hif1ncy84",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:47:36.592512+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8033267855644226,
-            "article": {
-              "title": "UK ‘It wasn’t long until he asked me if I’d ever had sex before’: David Walliams accused of preying on young women for sex",
-              "url": "https://www.theguardian.com/tv-and-radio/ng-interactive/2026/nov/10/david-walliams-accused-sex-grooming-allegations-young-women",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:04.979690+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7848445773124695,
-            "article": {
-              "title": "Explained What are the key legal issues surrounding the David Walliams case?",
-              "url": "https://www.theguardian.com/media/2026/nov/10/david-walliams-allegations-high-court-case-key-legal-issues",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:04.979690+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7738310098648071,
-            "article": {
-              "title": "Irish booksellers remove David Walliams books from shelves after published accusations",
-              "url": "https://www.irishtimes.com/culture/books/2026/11/11/irish-booksellers-remove-david-walliams-books-from-shelves-after-published-accusations/",
-              "source_id": "irishtimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:47:49.531964+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 14.679883215952927,
-        "size": 8,
-        "n_sources": 7,
-        "n_continents": 4,
-        "continents": [
+          "China",
           "Europe East",
           "Europe North",
           "Europe South",
           "South Asia"
         ],
-        "coherence": 0.7708547115325928,
-        "title": "Trump's envoys to travel to Moscow as Abu Dhabi talks end without breakthrough.",
+        "coherence": 0.8323783874511719,
+        "title": "Trilateral talks between US, Ukraine, Russia kick off in Abu Dhabi to end war",
         "central_article": {
-          "title": "Trump's envoys to travel to Moscow as Abu Dhabi talks end without breakthrough.",
-          "url": "https://kyivindependent.com/2nd-day-of-trilateral-peace-talks-begins-between-ukraine-russia-us-in-abu-dhabi/",
-          "source_id": "kyivindependent.com",
-          "continent": "Europe East",
+          "title": "Trilateral talks between US, Ukraine, Russia kick off in Abu Dhabi to end war",
+          "url": "https://pajhwok.com/2026/11/10/trilateral-talks-between-us-ukraine-russia-kick-off-in-abu-dhabi-to-end-war/",
+          "source_id": "pajhwok.com",
+          "continent": "South Asia",
           "published_at": null,
-          "scraped_at_utc": "2026-11-11T14:48:56.360651+00:00"
+          "scraped_at_utc": "2026-11-12T01:08:56.843968+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.790972888469696,
+            "sim_to_centroid": 0.8821375370025635,
             "article": {
-              "title": "Trump's envoys to travel to Moscow as Abu Dhabi talks end without breakthrough.",
-              "url": "https://kyivindependent.com/2nd-day-of-trilateral-peace-talks-begins-between-ukraine-russia-us-in-abu-dhabi/",
-              "source_id": "kyivindependent.com",
-              "continent": "Europe East",
+              "title": "Trilateral talks between US, Ukraine, Russia kick off in Abu Dhabi to end war",
+              "url": "https://pajhwok.com/2026/11/10/trilateral-talks-between-us-ukraine-russia-kick-off-in-abu-dhabi-to-end-war/",
+              "source_id": "pajhwok.com",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:48:56.360651+00:00"
+              "scraped_at_utc": "2026-11-12T01:08:56.843968+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7886324524879456,
+            "sim_to_centroid": 0.8723355531692505,
             "article": {
-              "title": "В Абу-Даби завершился второй день переговоров России, Украины и США 11 ноября",
-              "url": "https://novayagazeta.eu/articles/2026/11/11/v-abu-dabi-nachalsia-vtoroi-den-peregovorov-rossii-ukrainy-i-ssha-news",
-              "source_id": "novayagazeta.eu",
-              "continent": "Europe East",
+              "title": "Wat te verwachten van de vredesgesprekken Rusland-Oekraïne in Abu Dhabi?",
+              "url": "https://nos.nl/artikel/2638772-wat-te-verwachten-van-de-vredesgesprekken-rusland-oekraine-in-abu-dhabi",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:48:59.301594+00:00"
+              "scraped_at_utc": "2026-11-12T01:03:16.373382+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7806879878044128,
+            "sim_to_centroid": 0.8632147908210754,
             "article": {
-              "title": "US envoys to meet Putin in Moscow, Zelensky in Dublin after Abu Dhabi talks",
-              "url": "https://www.france24.com/en/europe/20261111-live-ukraine-russia-hold-second-day-of-us-mediated-talks-in-abu-dhabi",
-              "source_id": "france24.com",
+              "title": "Russia, Ukraine and US start second day of Abu Dhabi peace talks",
+              "url": "https://kathmandupost.com/world/2026/11/11/russia-ukraine-and-us-start-second-day-of-abu-dhabi-peace-talks",
+              "source_id": "kathmandupost.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:08:51.452225+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8502929210662842,
+            "article": {
+              "title": "Russland und die Ukraine verhandeln in Abu Dhabi – die Schweiz ist mit ihrem bestvernetzten Diplomaten dabei",
+              "url": "https://www.nzz.ch/schweiz/bern-ist-bei-den-ukraine-gespraechen-in-abu-dhabi-praesent-schweizer-spitzendiplomat-war-wiederholt-in-russland-ld.10060520",
+              "source_id": "nzz.ch",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:46:13.227367+00:00"
+              "scraped_at_utc": "2026-11-12T01:03:38.115665+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7756669521331787,
+            "sim_to_centroid": 0.8464795351028442,
+            "article": {
+              "title": "Explainer: What to know about Russia-U.S.-Ukraine trilateral talks in Abu Dhabi",
+              "url": "https://english.news.cn/20261112/1d11e3d6968d4aed97e264a84e79d639/c.html",
+              "source_id": "english.news.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:08:11.817439+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8433331251144409,
+            "article": {
+              "title": "US envoys to meet Putin, Zelensky after Russia-Ukraine war talks in Abu Dhabi",
+              "url": "https://www.dawn.com/news/2043838/us-envoys-to-meet-putin-zelensky-after-russia-ukraine-war-talks-in-abu-dhabi",
+              "source_id": "dawn.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:08:52.606511+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8174053430557251,
+            "article": {
+              "title": "Fyodor Lukyanov: Abu Dhabi talks signal a major shift in the Ukraine peace process ANALYSIS",
+              "url": "https://www.rt.com/news/648671-abu-dhabi-talks-signal-shift/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:06:30.615106+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7585751414299011,
+            "article": {
+              "title": "Negoziati di Abu Dhabi, Kiev ci crede: “Progressi significativi”",
+              "url": "https://www.repubblica.it/esteri/2026/11/11/news/negoziati_di_abu_dhabi_ucraina_russia_progressi_significativi-425715943/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:04:20.977563+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7576311826705933,
             "article": {
               "title": "Ukraine peace talks continue in UAE after 'constructive' first day",
               "url": "https://www.euronews.com/2026/11/11/europe-today-ukraine-peace-talks-continue-in-abu-dhabi-after-constructive-first-day",
               "source_id": "euronews.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:09.153291+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7691984176635742,
-            "article": {
-              "title": "Talks on Ukraine in Abu Dhabi What we know about Day 2 of Abu Dhabi talks between Russia, US and Ukraine",
-              "url": "https://tass.com/politics/2216061",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:49:09.936895+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7611699104309082,
-            "article": {
-              "title": "‘Constructive’ Abu Dhabi talks resume, but a ceasefire is nowhere near",
-              "url": "https://www.euronews.com/2026/11/11/constructive-abu-dhabi-talks-resume-but-a-ceasefire-is-nowhere-near",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:09.153291+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7536349892616272,
-            "article": {
-              "title": "Expert: Russia using Abu Dhabi meeting to test boundaries",
-              "url": "https://news.err.ee/1610192272/expert-russia-using-abu-dhabi-meeting-to-test-boundaries",
-              "source_id": "news.err.ee",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:49:13.898046+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7468739748001099,
-            "article": {
-              "title": "Trilateral US-Russia-Ukraine talks to begin in UAE today 10 Nov 2026",
-              "url": "https://pajhwok.com/2026/11/10/trilateral-us-russia-ukraine-talks-to-begin-in-uae-today/",
-              "source_id": "pajhwok.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:51:38.308998+00:00"
+              "scraped_at_utc": "2026-11-12T01:03:13.705309+00:00"
             }
           }
         ]
       },
       {
-        "score": 11.282449314622417,
-        "size": 5,
-        "n_sources": 5,
-        "n_continents": 3,
-        "continents": [
-          "East Asia",
-          "Europe East",
-          "Europe North"
-        ],
-        "coherence": 0.8430396318435669,
-        "title": "US evacuates military aircraft from UK base following credible Iranian threat – report",
-        "central_article": {
-          "title": "US evacuates military aircraft from UK base following credible Iranian threat – report",
-          "url": "https://georgiatoday.ge/us-evacuates-military-aircraft-from-uk-base-following-credible-iranian-threat-report/",
-          "source_id": "georgiatoday.ge",
-          "continent": "Europe East",
-          "published_at": null,
-          "scraped_at_utc": "2026-11-11T14:49:18.761220+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8932487964630127,
-            "article": {
-              "title": "US evacuates military aircraft from UK base following credible Iranian threat – report",
-              "url": "https://georgiatoday.ge/us-evacuates-military-aircraft-from-uk-base-following-credible-iranian-threat-report/",
-              "source_id": "georgiatoday.ge",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:49:18.761220+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8899916410446167,
-            "article": {
-              "title": "US Air Force planes leave UK airbase amid claims of Iran-linked threat",
-              "url": "https://www.channel4.com/news/us-air-force-planes-leave-uk-airbase-amid-claims-of-iran-linked-threat",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:07.657094+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.853236973285675,
-            "article": {
-              "title": "New York US prosecutors charge Iranian operative allegedly responsible for UK air force base attack",
-              "url": "https://www.theguardian.com/us-news/2026/nov/10/prosecutors-charge-iranian-operative-uk-air-force-attack",
-              "source_id": "theguardian.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:04.979690+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.811578094959259,
-            "article": {
-              "title": "U.S. charges three ‘Iranian operatives’ over U.K. air base plot",
-              "url": "https://www.japantimes.co.jp/news/2026/11/11/world/crime-legal/us-iran-operatives-uk-airbase-plot/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:52:11.380418+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7671421766281128,
-            "article": {
-              "title": "US Treasury chief hides at military base following Iran ‘threats’ – media",
-              "url": "https://www.rt.com/news/648709-us-bessent-military-base-iran-threats/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:49:04.634677+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 10.702584797375458,
-        "size": 4,
-        "n_sources": 4,
-        "n_continents": 3,
+        "score": 26.06238281641387,
+        "size": 7,
+        "n_sources": 7,
+        "n_continents": 5,
         "continents": [
           "Europe East",
           "Europe North",
-          "North America"
+          "Europe South",
+          "North America",
+          "Oceania"
         ],
-        "coherence": 0.8771157264709473,
-        "title": "Meghan Markle’s father Thomas cut off his ankle monitor, DOJ says",
+        "coherence": 0.8410289883613586,
+        "title": "House Republicans block Hegseth impeachment bid",
         "central_article": {
-          "title": "Meghan Markle’s father Thomas cut off his ankle monitor, DOJ says",
-          "url": "https://www.independent.co.uk/news/world/americas/crime/thomas-markle-cut-off-ankle-monitor-doj-b3082722.html",
-          "source_id": "independent.co.uk",
-          "continent": "Europe North",
+          "title": "House Republicans block Hegseth impeachment bid",
+          "url": "https://www.rt.com/news/648697-us-house-blocks-hegseth-impeachment-bid/",
+          "source_id": "rt.com",
+          "continent": "Europe East",
           "published_at": null,
-          "scraped_at_utc": "2026-11-11T14:45:01.971989+00:00"
+          "scraped_at_utc": "2026-11-12T01:06:30.615106+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9137821197509766,
+            "sim_to_centroid": 0.909561812877655,
             "article": {
-              "title": "Meghan Markle’s father Thomas cut off his ankle monitor, DOJ says",
-              "url": "https://www.independent.co.uk/news/world/americas/crime/thomas-markle-cut-off-ankle-monitor-doj-b3082722.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:01.971989+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8700950145721436,
-            "article": {
-              "title": "Thomas Markle, father of Meghan, cut off his ankle monitor while awaiting hearing, DOJ says By Associated Press",
-              "url": "https://www.pbs.org/newshour/nation/thomas-markle-father-of-meghan-cut-off-his-ankle-monitor-while-awaiting-hearing-doj-says",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:50:41.732699+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8687213659286499,
-            "article": {
-              "title": "Отца Меган Маркл перевели из-под домашнего ареста в тюрьму. Он срезал электронный браслет с ноги",
-              "url": "https://meduza.io/news/2026/11/11/ottsa-megan-markl-pereveli-iz-pod-domashnego-aresta-v-tyurmu-on-srezal-elektronnyy-braslet-s-nogi",
-              "source_id": "meduza.io",
+              "title": "House Republicans block Hegseth impeachment bid",
+              "url": "https://www.rt.com/news/648697-us-house-blocks-hegseth-impeachment-bid/",
+              "source_id": "rt.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:48:57.694351+00:00"
+              "scraped_at_utc": "2026-11-12T01:06:30.615106+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.855864405632019,
+            "sim_to_centroid": 0.8733203411102295,
             "article": {
-              "title": "Elektronische Fußfessel entfernt Vater von Meghan Markle muss ins Gefängnis",
-              "url": "https://www.spiegel.de/panorama/usa-vater-von-meghan-markle-muss-ins-gefaengnis-a-ba23b3f6-55fd-4b1a-947e-abc8d419bea5",
-              "source_id": "spiegel.de",
+              "title": "Republikeinen blokkeren afzettingsprocedure tegen Hegseth",
+              "url": "https://fd.nl/politiek/1618740/republikeinen-blokkeren-afzettingsprocedure-tegen-hegseth",
+              "source_id": "fd.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-11T14:45:22.870961+00:00"
+              "scraped_at_utc": "2026-11-12T01:03:22.130743+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8530939221382141,
+            "article": {
+              "title": "Republican-led US House derails impeachment push Pete Hegseth labelled a 'farce'",
+              "url": "https://www.sbs.com.au/news/article/pete-hegseth-dissmisses-impeachment-push-as-farce/cj0xpuc4a",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:05:24.008191+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8449220657348633,
+            "article": {
+              "title": "House votes down bid to impeach Hegseth, but it’s clear Democrats will be gunning for him",
+              "url": "https://www.theglobeandmail.com/world/us-politics/article-hegseth-impeachment-vote-democrats-will-be-gunning-for-him/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:05:21.372326+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8052554726600647,
+            "article": {
+              "title": "Pete Hegseth Democrats lambast absent peers after Republicans block Hegseth impeachment attempt",
+              "url": "https://www.theguardian.com/us-news/2026/nov/11/democrats-hegseth-impeachment-vote",
+              "source_id": "theguardian.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:10.642830+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8035131692886353,
+            "article": {
+              "title": "La procédure de destitution de Pete Hegseth, renvoyée par les républicains au Congrès Monde",
+              "url": "https://www.rts.ch/info/monde/2026/article/pete-hegseth-la-procedure-de-destitution-ecartee-au-congres-29412442.html",
+              "source_id": "rts.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:04:08.733629+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7975358963012695,
+            "article": {
+              "title": "Funke Mediengruppe Atempause im Kongress Hegseth vorerst gerettet: Republikaner stoppen Amtsenthebung von Trumps Minister",
+              "url": "https://www.abendblatt.de/politik/article413645133/hegseth-vorerst-gerettet-republikaner-stoppen-amtsenthebung-von-trumps-minister.html",
+              "source_id": "abendblatt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-12T01:03:36.651586+00:00"
             }
           }
         ]
       }
     ],
-    "created_at_utc": "2026-11-11T15:27:07Z"
+    "created_at_utc": "2026-11-12T01:42:23Z"
   }
 ]
