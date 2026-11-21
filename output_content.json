@@ -1,404 +1,342 @@
 [
   {
-    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1795274580",
-    "n_items": 2489,
-    "n_clusters": 2061,
+    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1795304817",
+    "n_items": 2488,
+    "n_clusters": 2050,
     "clusters": [
       {
-        "score": 100.32007269278087,
-        "size": 33,
-        "n_sources": 28,
-        "n_continents": 6,
+        "score": 133.66303712842875,
+        "size": 27,
+        "n_sources": 25,
+        "n_continents": 9,
         "continents": [
           "China",
           "East Asia",
-          "Europe East",
           "Europe North",
           "Europe South",
-          "Middle East"
+          "Middle East",
+          "North America",
+          "Oceania",
+          "South America",
+          "South Asia"
         ],
-        "coherence": 0.7968803644180298,
-        "title": "Finland Detects Drone Attack on Russian Cargo Ship in Baltic",
+        "coherence": 0.795844316482544,
+        "title": "Mexico captures FBI’s most-wanted cartel boss ‘El Chapo Isidro’",
         "central_article": {
-          "title": "Finland Detects Drone Attack on Russian Cargo Ship in Baltic",
-          "url": "https://www.kyivpost.com/post/90814",
-          "source_id": "kyivpost.com",
-          "continent": "Europe East",
+          "title": "Mexico captures FBI’s most-wanted cartel boss ‘El Chapo Isidro’",
+          "url": "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence",
+          "source_id": "euronews.com",
+          "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-11-21T15:01:00.194107+00:00"
+          "scraped_at_utc": "2026-11-21T23:36:21.379133+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8908567428588867,
+            "sim_to_centroid": 0.9036914706230164,
             "article": {
-              "title": "Finland Detects Drone Attack on Russian Cargo Ship in Baltic",
-              "url": "https://www.kyivpost.com/post/90814",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
+              "title": "Mexico captures FBI’s most-wanted cartel boss ‘El Chapo Isidro’",
+              "url": "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:01:00.194107+00:00"
+              "scraped_at_utc": "2026-11-21T23:36:21.379133+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8873908519744873,
+            "sim_to_centroid": 0.8793343901634216,
             "article": {
-              "title": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
-              "url": "https://www.france24.com/en/europe/20261121-drone-attack-sets-russian-cargo-ship-ablaze-in-gulf-of-finland",
+              "title": "Mexico captures top drug lord 'El Chapo Isidro,' latest in string of arrests",
+              "url": "https://www.thestar.com.my/news/world/2026/11/21/mexico-captures-top-drug-lord-el-chapo-isidro-latest-in-string-of-captures",
+              "source_id": "thestar.com.my",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:42:50.226592+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8626980185508728,
+            "article": {
+              "title": "Mexico captures drug cartel boss ‘El Chapo Isidro’ after deadly firefight",
+              "url": "https://www.france24.com/en/americas/20261121-mexico-captures-drug-cartel-boss-el-chapo-isidro-after-deadly-firefight",
               "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:58:21.215081+00:00"
+              "scraped_at_utc": "2026-11-21T23:37:13.611734+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8864450454711914,
+            "sim_to_centroid": 0.8512102365493774,
             "article": {
-              "title": "Rescue efforts under way as drones hit Russian ship off Finland coast",
-              "url": "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland",
-              "source_id": "aljazeera.com",
+              "title": "Mexico captures drug kingpin on FBI's most wanted list",
+              "url": "https://www.rnz.co.nz/news/world/2728545/mexico-captures-drug-kingpin-on-fbi-s-most-wanted-list",
+              "source_id": "rnz.co.nz",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:38:37.873778+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8438605070114136,
+            "article": {
+              "title": "En medio de balaceras México captura al \"Chapo Isidro\", narcotraficante entre los 10 más buscados por el FBI",
+              "url": "https://www.emol.com/noticias/Internacional/2026/11/21/1217777/captura-chapo-isidro-mexico-fbi.html",
+              "source_id": "emol.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:37:56.378688+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8405478000640869,
+            "article": {
+              "title": "Mexican military captures alleged drug cartel leader on FBI's most wanted list",
+              "url": "https://www.sbs.com.au/news/article/mexican-military-captures-cartel-leader-on-fbis-most-wanted-list/7einl4hbo",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:38:31.880838+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.83597731590271,
+            "article": {
+              "title": "Cómo atraparon al \"Chapo Isidro\", uno de los 10 narcotraficantes de México más buscados por el FBI",
+              "url": "https://www.bbc.com/mundo/articles/c9p83kyykr73o",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:37:32.580882+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8325072526931763,
+            "article": {
+              "title": "FBI most wanted 'El Chapo Isidro' captured in US-Mexican raid, dozen killed in operation",
+              "url": "https://www.jpost.com/international/article-915658",
+              "source_id": "jpost.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:59:59.093042+00:00"
+              "scraped_at_utc": "2026-11-21T23:38:48.612437+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8845536112785339,
+            "sim_to_centroid": 0.8285892009735107,
             "article": {
-              "title": "Russisk fragtskib angrebet med droner i Den Finske Bugt",
-              "url": "https://www.dr.dk/nyheder/udland/rusland-melder-om-droneangreb-paa-fragtskib-i-den-finske-bugt",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:58:04.838431+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.882880687713623,
-            "article": {
-              "title": "Une \"attaque de drone\" contre un cargo russe détectée dans le golfe de Finlande",
-              "url": "https://www.rtbf.be/article/une-attaque-de-drone-contre-un-cargo-russe-detectee-dans-le-golfe-de-finlande-11818998",
-              "source_id": "rtbf.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:58:27.033687+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8767698407173157,
-            "article": {
-              "title": "Un cargo russe en feu dérive dans le golfe de Finlande après une attaque de drone",
-              "url": "https://www.lesoir.be/784100/article/2026-11-21/un-cargo-russe-en-feu-derive-dans-le-golfe-de-finlande-apres-une-attaque-de",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:58:28.669213+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8747008442878723,
-            "article": {
-              "title": "O navă rusească a fost lovită de drone, Finlanda spune că arde în apele sale teritoriale",
-              "url": "https://hotnews.ro/o-nava-ruseasca-a-fost-lovita-de-drone-finlanda-spune-ca-arde-in-apele-sale-teritoriale-2410519",
-              "source_id": "hotnews.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:00:33.267215+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8743095397949219,
-            "article": {
-              "title": "Russian ship damaged by drone attack in Gulf of Finland, Helsinki and Moscow say",
-              "url": "https://www.politico.eu/article/russian-ship-damaged-drone-attack-gulf-finland-helsinki-moscow-say/",
-              "source_id": "politico.eu",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:57:24.288530+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8733895421028137,
-            "article": {
-              "title": "Navă rusească în flăcări după ce a fost atacată de drone în Golful Finlandei",
-              "url": "https://www.g4media.ro/nava-ruseasca-in-flacari-dupa-ce-a-fost-atacata-de-drone-in-golful-finlandei.html",
-              "source_id": "g4media.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:00:43.140637+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8605250120162964,
-            "article": {
-              "title": "Drohnenangriff auf russischen Frachter – Schiff treibt in finnisches Gewässer",
-              "url": "https://www.welt.de/politik/deutschland/article6b01906c45d8681e4fca3d5d/ostsee-drohnenangriff-auf-russischen-frachter-schiff-treibt-in-finnisches-gewaesser.html",
-              "source_id": "welt.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:57:39.584368+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8442822098731995,
-            "article": {
-              "title": "Drone attack detected on Russian cargo ship in Baltic",
-              "url": "https://www.bangkokpost.com/world/3358894/drone-attack-detected-on-russian-cargo-ship-in-baltic",
-              "source_id": "bangkokpost.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:04:19.662339+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8192273378372192,
-            "article": {
-              "title": "Suomijos įlankoje užsidegė Rusijos krovininis laivas, Maskva kalba apie dronų smūgį",
-              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3121072/suomijos-ilankoje-uzsidege-rusijos-krovininis-laivas-maskva-kalba-apie-dronu-smugi",
-              "source_id": "lrt.lt",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:01:22.807311+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8082531690597534,
-            "article": {
-              "title": "Finnischer Meerbusen Drohnenangriff auf russischen Frachter in der Ostsee",
-              "url": "https://www.tagesschau.de/ausland/europa/finnland-ostsee-drohnenangriff-russland-frachter-100.html",
+              "title": "Großeinsatz des Militärs Mexiko nimmt einen der meistgesuchten Drogenbosse fest",
+              "url": "https://www.tagesschau.de/ausland/amerika/mexiko-drogenkartell-chef-festnahme-100.html",
               "source_id": "tagesschau.de",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:57:33.954505+00:00"
+              "scraped_at_utc": "2026-11-21T23:36:30.842820+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8082083463668823,
+            "sim_to_centroid": 0.827452540397644,
             "article": {
-              "title": "Updated LIVE Russian cargo ship on fire in Gulf of Finland after reported drone strike Updated",
-              "url": "https://news.err.ee/1610202715/russian-cargo-ship-catches-fire-in-gulf-of-finland-moscow-claims-drone-hit",
-              "source_id": "news.err.ee",
-              "continent": "Europe East",
+              "title": "11 killed in wave of violence after Mexico captures top drug lord ‘El Chapo Isidro’",
+              "url": "https://www.theglobeandmail.com/world/article-mexico-el-chapo-isidro-drug-lord-cartel-fbi-most-wanted-list-sinaloa/",
+              "source_id": "theglobeandmail.com",
+              "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:01:20.958061+00:00"
+              "scraped_at_utc": "2026-11-21T23:38:29.159010+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7944064140319824,
+            "sim_to_centroid": 0.8241704702377319,
             "article": {
-              "title": "فنلندا ترصد هجوماً بمسيّرة على سفينة روسية في البلطيق",
-              "url": "https://www.annahar.com/international/368627/فنلندا-ترصد-هجوما-بمسيرة-على-سفينة-روسية-في-البلطيق",
-              "source_id": "annahar.com",
-              "continent": "Middle East",
+              "title": "Mexico captures drug kingpin on FBI’s most wanted list in deadly firefight",
+              "url": "https://www.scmp.com/news/world/americas/article/3375342/mexico-captures-drug-kingpin-fbis-most-wanted-list?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:00:20.910938+00:00"
+              "scraped_at_utc": "2026-11-21T23:41:06.781970+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7920576930046082,
+            "sim_to_centroid": 0.8193648457527161,
             "article": {
-              "title": "Nave russa diretta a Kaliningrad attaccata con droni nel Golfo di Finlandia. Velivolo senza pilota, allarme a Sigonella",
-              "url": "https://www.corriere.it/esteri/diretta-live/26_novembre_21/guerra-ucraina-russia-notizie.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
+              "title": "Captura de El Chapo Isidro, um dos 10 fugitivos mais procurados pelo FBI, gera onda de violência no México",
+              "url": "https://www.estadao.com.br/internacional/captura-de-lider-de-cartel-no-mexico-desencadeia-onda-de-violencia-no-estado-de-sinaloa/",
+              "source_id": "estadao.com.br",
+              "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:58:37.326332+00:00"
+              "scraped_at_utc": "2026-11-21T23:38:02.059918+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7766178846359253,
+            "sim_to_centroid": 0.8109027147293091,
             "article": {
-              "title": ". geleden • Buitenland Russisch vrachtschip geraakt door drones in Finse Golf",
-              "url": "https://nos.nl/artikel/2640430-russisch-vrachtschip-geraakt-door-drones-in-finse-golf",
-              "source_id": "nos.nl",
+              "title": "Mexicos militær anholder narkoboss der er blandt FBI's ti mest eftersøgte",
+              "url": "https://www.dr.dk/nyheder/udland/mexicos-militaer-anholder-narkoboss-der-er-blandt-fbi-s-ti-mest-eftersoegte",
+              "source_id": "dr.dk",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:57:25.389394+00:00"
+              "scraped_at_utc": "2026-11-21T23:36:57.530788+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7737568616867065,
+            "sim_to_centroid": 0.7939099073410034,
             "article": {
-              "title": "Ryskt fraktfartyg i brand i Finska viken",
-              "url": "https://www.dn.se/direkt/2026-11-21/ryskt-fraktfartyg-i-brand-i-finska-viken/",
+              "title": "Un des dix criminels les plus recherchés par le FBI arrêté par le Mexique",
+              "url": "https://www.lesoir.be/784153/article/2026-11-21/un-des-dix-criminels-les-plus-recherches-par-le-fbi-arrete-par-le-mexique",
+              "source_id": "lesoir.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:37:20.667108+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7928259372711182,
+            "article": {
+              "title": "Flera döda när knarkboss greps i Mexiko",
+              "url": "https://www.dn.se/direkt/2026-11-21/flera-doda-nar-knarkboss-greps-i-mexiko/",
               "source_id": "dn.se",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:57:55.466045+00:00"
+              "scraped_at_utc": "2026-11-21T23:36:49.681957+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.773665726184845,
+            "sim_to_centroid": 0.7918565273284912,
             "article": {
-              "title": "Ticker : Krieg in der Ukraine: Drohnen greifen Schiff im Finnischen Meerbusen an",
-              "url": "https://www.nzz.ch/international/krieg-in-der-ukraine-zugverkehr-ueber-krim-bruecke-nach-erneutem-angriff-eingestellt-ld.10021245",
+              "title": "Chapo Isidro: México confirma captura del narcotraficante en Sinaloa y desata enfrentamientos",
+              "url": "https://elcomercio.pe/mundo/mexico/chapo-isidro-mexico-confirma-captura-de-narcotraficante-entre-los-10-mas-buscados-por-el-fbi-cartel-de-sinaloa-faustro-isidro-meza-ultimas-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:38:04.929003+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7783591747283936,
+            "article": {
+              "title": "Mutmasslicher Drogenboss in Mexiko gefasst",
+              "url": "https://www.nzz.ch/panorama/mutmasslicher-drogenboss-in-mexiko-gefasst-ld.10070934",
               "source_id": "nzz.ch",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:57:49.501117+00:00"
+              "scraped_at_utc": "2026-11-21T23:36:44.513594+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7687190771102905,
+            "sim_to_centroid": 0.7717328071594238,
             "article": {
-              "title": "В Финском заливе дроны атаковали судно, следовавшее в Калининград 21 ноября",
-              "url": "https://novayagazeta.eu/articles/2026/11/21/v-finskom-zalive-drony-atakovali-sudno-sledovavshee-v-kaliningrad-news",
-              "source_id": "novayagazeta.eu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:01:05.151464+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7655285596847534,
-            "article": {
-              "title": "В Финском заливе украинские беспилотники атаковали грузовое судно. На нем в 2025-м вывозили российскую военную технику из Сирии",
-              "url": "https://meduza.io/news/2026/11/21/gubernator-lenoblasti-soobschil-chto-v-finskom-zalive-ukrainskie-bespilotniki-atakovali-gruzovoe-sudno-sledovavshee-v-kaliningrad",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:01:02.993939+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7643929719924927,
-            "article": {
-              "title": "К атакованному в Финском заливе сухогрузу подошло российское спасательное судно",
-              "url": "https://ria.ru/20261121/sudno-2133144270.html",
-              "source_id": "ria.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:01:19.160170+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7643929719924927,
-            "article": {
-              "title": "К атакованному в Финском заливе сухогрузу подошло российское спасательное судно",
-              "url": "https://www.kommersant.ru/doc/9127154",
-              "source_id": "kommersant.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:01:13.566331+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7548947334289551,
-            "article": {
-              "title": "Po útoku na loď ve Finském zálivu hlásí Helsinky možné narušení vzdušného prostoru",
-              "url": "https://ct24.ceskatelevize.cz/clanek/svet/po-utoku-na-lod-ve-finskem-zalivu-hlasi-helsinky-mozne-naruseni-vzdusneho-prostoru-379818",
-              "source_id": "ct24.ceskatelevize.cz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:00:38.697372+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7468591928482056,
-            "article": {
-              "title": "Įtariama, kad Rusijos sraigtasparnis pažeidė Suomijos oro erdvę",
-              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3121111/itariama-kad-rusijos-sraigtasparnis-pazeide-suomijos-oro-erdve",
-              "source_id": "lrt.lt",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:01:22.807311+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7413049936294556,
-            "article": {
-              "title": "Russisk helikopter mistænkes for at krænke finsk luftrum",
-              "url": "https://www.dr.dk/nyheder/udland/live-krigen-i-ukraine?focusId=12886050",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:58:04.838431+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7392017841339111,
-            "article": {
-              "title": "Finlands grænsevagt: Ukraine stod bag droneangreb",
-              "url": "https://www.dr.dk/nyheder/udland/live-krigen-i-ukraine",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:58:04.838431+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7359544038772583,
-            "article": {
-              "title": "Angrebet fragtskib har forbindelser til Ruslands militær",
-              "url": "https://www.dr.dk/nyheder/udland/live-krigen-i-ukraine?focusId=12886111",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:58:04.838431+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7306113839149475,
-            "article": {
-              "title": "Finsk grænsevagt udpeger Ukraine som ansvarlig for droneangreb",
-              "url": "https://www.dr.dk/nyheder/udland/live-krigen-i-ukraine?focusId=12886354",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:58:04.838431+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7165772914886475,
-            "article": {
-              "title": "Raid di Mosca su Kryvyi Rih: due morti. Nave russa diretta a Kaliningrad colpita nel Golfo di Finlandia",
-              "url": "https://www.repubblica.it/esteri/2026/11/21/diretta/guerra_ucraina_russia_news_oggi-425739343/",
+              "title": "Catturato El Chapo Isidro, imperatore della droga. Guerriglia nella roccaforte del fentanyl in Messico",
+              "url": "https://www.repubblica.it/esteri/2026/11/21/news/messico_narcos_arrestato_el_chapo_isidro_scontri_armati-425740170/",
               "source_id": "repubblica.it",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:58:35.536296+00:00"
+              "scraped_at_utc": "2026-11-21T23:37:27.764103+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7152541875839233,
+            "sim_to_centroid": 0.7627610564231873,
             "article": {
-              "title": "Ruslands angreb på Ukraine",
-              "url": "https://politiken.dk/tag/main/Konflikten_om_Ukraine",
-              "source_id": "politiken.dk",
-              "continent": "Europe North",
+              "title": "Mexico reportedly arrests one of FBI’s 10 most wanted fugitives 21 Nov 2026",
+              "url": "https://pajhwok.com/2026/11/21/mexico-reportedly-arrests-one-of-fbis-10-most-wanted-fugitives/",
+              "source_id": "pajhwok.com",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:57:53.350278+00:00"
+              "scraped_at_utc": "2026-11-21T23:41:55.048281+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6952955722808838,
+            "sim_to_centroid": 0.7618895769119263,
             "article": {
-              "title": "Ukraine fights back with new AI-powered drones as Russia steps up attacks",
-              "url": "https://www.channel4.com/news/ukraine-fights-back-with-new-ai-powered-drones-as-russia-steps-up-attacks",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
+              "title": "Exército do México captura um dos principais traficantes do país, Fausto Isidro Meza Flores",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/11/exercito-do-mexico-captura-um-dos-principais-traficantes-do-pais-diz-governo.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:57:21.823403+00:00"
+              "scraped_at_utc": "2026-11-21T23:37:58.303739+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6757688522338867,
+            "sim_to_centroid": 0.7608193159103394,
             "article": {
-              "title": "一艘油轮驶出霍尔木兹海峡时遭袭",
-              "url": "https://www.xinhuanet.com/20261121/e6e4d89197b2478ab7fc1ea2910b6be9/c.html",
+              "title": "“Fue algo extraordinario sacarlo”. Cómo fue la detención del “Chapo Isidro” en México: 11 muertos, 8 detenidos y una noche de violencia",
+              "url": "https://www.lanacion.com.ar/el-mundo/como-fue-la-detencion-del-chapo-isidro-en-mexico-11-muertos-8-detenidos-y-una-noche-de-violencia-nid21112026/",
+              "source_id": "lanacion.com.ar",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:37:48.795140+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7576391696929932,
+            "article": {
+              "title": "墨西哥抓获大毒枭“矮子伊西德罗”",
+              "url": "https://www.xinhuanet.com/20261122/c6c933e3431d44429cb78dadd85e10f4/c.html",
               "source_id": "xinhuanet.com",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:02:56.972631+00:00"
+              "scraped_at_utc": "2026-11-21T23:41:15.953025+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.743579626083374,
+            "article": {
+              "title": "Detenido El Chapo Isidro en un operativo que desata el terror en Sinaloa",
+              "url": "https://elpais.com/mexico/2026-11-21/detenido-el-chapo-isidro-en-un-operativo-que-desata-el-terror-en-sinaloa.html",
+              "source_id": "elpais.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:37:33.897107+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7343264818191528,
+            "article": {
+              "title": "Cartel leader captured in northern Mexico in gun battle that left 11 dead",
+              "url": "https://www.latimes.com/world-nation/story/2026-11-21/mexico-detains-top-cartel-boss-el-chapo-isidro-one-of-fbis-10-most-wanted-fugitives",
+              "source_id": "latimes.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:40:57.812550+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7202913165092468,
+            "article": {
+              "title": "Captura de El Chapo Isidro en México deja 4 militares y 7 criminales muertos",
+              "url": "https://elcomercio.pe/mundo/mexico/el-chapo-isidro-cuatro-militares-mexicanos-y-siete-criminales-murieron-durante-el-operativo-en-sinaloa-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:38:04.929003+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6989035606384277,
+            "article": {
+              "title": "منشیات کی دنیا کا ڈان ایل چاپو ایسیڈرو ڈرامائی آپریشن میں گرفتار",
+              "url": "https://jang.com.pk/news/1635484",
+              "source_id": "jang.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:41:52.023289+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6585947871208191,
+            "article": {
+              "title": "Quem é El Chapo Isidro, aliado de facção que disputa cartel de Sinaloa",
+              "url": "https://www.estadao.com.br/internacional/quem-e-chapo-isidro-narcotraficante-mexicano-preso-pelo-fbi/",
+              "source_id": "estadao.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:38:02.059918+00:00"
             }
           }
         ]
       },
       {
-        "score": 76.38132163385455,
-        "size": 15,
-        "n_sources": 15,
-        "n_continents": 7,
+        "score": 116.64177883071315,
+        "size": 23,
+        "n_sources": 22,
+        "n_continents": 8,
         "continents": [
+          "China",
           "East Asia",
           "Europe East",
           "Europe North",
@@ -407,192 +345,281 @@
           "Oceania",
           "South America"
         ],
-        "coherence": 0.8363555669784546,
-        "title": "Alerta en Estados Unidos: hackers atacan al FBI y al Departamento de Agricultura",
+        "coherence": 0.8177247047424316,
+        "title": "Russian cargo ship struck by drones in Gulf of Finland",
         "central_article": {
-          "title": "Alerta en Estados Unidos: hackers atacan al FBI y al Departamento de Agricultura",
-          "url": "https://www.semana.com/mundo/noticias-estados-unidos/articulo/alerta-en-estados-unidos-hackers-atacan-al-fbi-y-al-departamento-de-agricultura/202647/",
-          "source_id": "semana.com",
-          "continent": "South America",
+          "title": "Russian cargo ship struck by drones in Gulf of Finland",
+          "url": "https://www.euronews.com/2026/11/21/russian-cargo-ship-struck-by-drone-in-gulf-of-finland-finnish-authorities-say",
+          "source_id": "euronews.com",
+          "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-11-21T14:59:06.095255+00:00"
+          "scraped_at_utc": "2026-11-21T23:36:21.379133+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8863842487335205,
+            "sim_to_centroid": 0.9093693494796753,
             "article": {
-              "title": "Alerta en Estados Unidos: hackers atacan al FBI y al Departamento de Agricultura",
-              "url": "https://www.semana.com/mundo/noticias-estados-unidos/articulo/alerta-en-estados-unidos-hackers-atacan-al-fbi-y-al-departamento-de-agricultura/202647/",
-              "source_id": "semana.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:59:06.095255+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8832030296325684,
-            "article": {
-              "title": "The FBI was hacked again, this time the breach targeted its crime database",
-              "url": "https://www.rnz.co.nz/news/world/2722874/the-fbi-was-hacked-again-this-time-the-breach-targeted-its-crime-database",
-              "source_id": "rnz.co.nz",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:59:51.006458+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8753745555877686,
-            "article": {
-              "title": "Más ciberataques en EE.UU.: Ahora afectaron al FBI y Departamento de Agricultura",
-              "url": "https://www.emol.com/noticias/Internacional/2026/11/21/1217766/ciberataques-eeuu-fbi-agricultura.html",
-              "source_id": "emol.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:59:08.400804+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8723443150520325,
-            "article": {
-              "title": "Újabb kibertámadás érte az FBI-t, ezúttal a bűnügyi adatbázist törték fel a hekkerek",
-              "url": "https://telex.hu/kulfold/2026/11/21/fbi-bunugyi-adatbazis-kibertamadas",
-              "source_id": "telex.hu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:00:31.046608+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8680427670478821,
-            "article": {
-              "title": "U.S. Agriculture Department and FBI breached by hackers, reports say",
-              "url": "https://www.japantimes.co.jp/news/2026/11/21/world/crime-legal/us-fbi-usda-cyberattacks/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:04:06.432333+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8589297533035278,
-            "article": {
-              "title": "Base de dados sobre crimes do FBI é invadida por hackers, dizem tevês americanas",
-              "url": "https://oglobo.globo.com/mundo/noticia/2026/11/21/base-de-dados-sobre-crimes-do-fbi-e-invadida-por-hackers-dizem-teves-americanas.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:59:14.882142+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8543984293937683,
-            "article": {
-              "title": "اختراقات سيبرانية تضرب \"إف بي آي\" ووزارة الزراعة الأمريكية",
-              "url": "https://www.aljazeera.net/news/2026/11/21/%d8%a7%d8%ae%d8%aa%d8%b1%d8%a7%d9%82%d8%a7%d8%aa-%d8%b3%d9%8a%d8%a8%d8%b1%d8%a7%d9%86%d9%8a%d8%a9-%d8%aa%d8%b6%d8%b1%d8%a8-%d8%a5%d9%81-%d8%a8%d9%8a-%d8%a2%d9%8a",
-              "source_id": "aljazeera.net",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:00:03.139146+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8481690287590027,
-            "article": {
-              "title": "Offenbar Hackerangriffe auf FBI und US-Agrarministerium",
-              "url": "https://www.tagesschau.de/ausland/amerika/usa-hackerangriffe-100.html",
-              "source_id": "tagesschau.de",
+              "title": "Russian cargo ship struck by drones in Gulf of Finland",
+              "url": "https://www.euronews.com/2026/11/21/russian-cargo-ship-struck-by-drone-in-gulf-of-finland-finnish-authorities-say",
+              "source_id": "euronews.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:57:33.954505+00:00"
+              "scraped_at_utc": "2026-11-21T23:36:21.379133+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8333600163459778,
+            "sim_to_centroid": 0.9057350158691406,
             "article": {
-              "title": "US Agriculture Department and FBI hit by cyberattacks, media report",
-              "url": "https://www.france24.com/en/americas/20261121-us-agriculture-department-fbi-hit-by-cyberattacks-media-report",
+              "title": "'War is spilling over': Russian cargo ship struck by drones off the coast of Finland",
+              "url": "https://www.sbs.com.au/news/article/russian-cargo-ship-struck-by-drone-off-the-coast-of-finland/ewmq17sol",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:38:31.880838+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8934201598167419,
+            "article": {
+              "title": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
+              "url": "https://www.france24.com/en/europe/20261121-drone-attack-sets-russian-cargo-ship-ablaze-in-gulf-of-finland",
               "source_id": "france24.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:58:21.215081+00:00"
+              "scraped_at_utc": "2026-11-21T23:37:13.611734+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8303480744361877,
+            "sim_to_centroid": 0.8854336738586426,
             "article": {
-              "title": "Хакеры опять взломали ФБР. Они получили доступ к национальной базе данных о преступлениях",
-              "url": "https://meduza.io/news/2026/11/21/hakery-opyat-vzlomali-fbr-oni-poluchili-dostup-k-natsionalnoy-baze-dannyh-o-prestupleniyah",
+              "title": "Finland Detects Drone Attack on Russian Cargo Ship in Baltic",
+              "url": "https://www.kyivpost.com/post/90814",
+              "source_id": "kyivpost.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:39:29.118590+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8634178638458252,
+            "article": {
+              "title": "Russian ship damaged by drone attack in Gulf of Finland, Helsinki and Moscow say",
+              "url": "https://www.politico.eu/article/russian-ship-damaged-drone-attack-gulf-finland-helsinki-moscow-say/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:36:22.606563+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.858896017074585,
+            "article": {
+              "title": "Un ataque de drones contra un carguero ruso en el mar Báltico acerca el conflicto a Finlandia",
+              "url": "https://www.lavanguardia.com/internacional/20261121/11689834/drones-ucranianos-atacan-carguero-ruso-golfo-finlandia.html",
+              "source_id": "lavanguardia.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:37:22.448257+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8587954640388489,
+            "article": {
+              "title": "Nave cargo russa diretta a Kaliningrad attaccata con droni nel Golfo di Finlandia",
+              "url": "https://www.corriere.it/esteri/diretta-live/26_novembre_21/guerra-ucraina-russia-notizie.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:37:29.903542+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8570277690887451,
+            "article": {
+              "title": "Se incendia un carguero ruso alcanzado por drones ucranianos en el golfo de Finlandia",
+              "url": "https://elcomercio.pe/mundo/europa/guerra-rusia-ucrania-se-incendia-un-carguero-ruso-alcanzado-por-drones-ucranianos-en-el-golfo-de-finlandia-kaliningrado-vladimir-putin-volodymyr-zelensky-ultimas-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:38:04.929003+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8536390662193298,
+            "article": {
+              "title": "Finnland meldet Drohnenangriff auf russischen Frachter in der Ostsee",
+              "url": "https://www.tagesschau.de/ausland/europa/finnland-ostsee-drohnenangriff-russland-frachter-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:36:30.842820+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8524925708770752,
+            "article": {
+              "title": "Lande melder om droneangreb på russisk fragtskib i Østersøen",
+              "url": "https://sermitsiaq.ag/samfund/lande-melder-om-droneangreb-pa-russisk-fragtskib-i-ostersoen/2450768",
+              "source_id": "sermitsiaq.ag",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:37:04.715055+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8522212505340576,
+            "article": {
+              "title": "Updated LIVE Russian cargo ship on fire in Gulf of Finland after reported drone strike Updated",
+              "url": "https://news.err.ee/1610202715/russian-cargo-ship-catches-fire-in-gulf-of-finland-moscow-claims-drone-hit",
+              "source_id": "news.err.ee",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:39:45.885965+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8418076038360596,
+            "article": {
+              "title": "Russian military-linked cargo ship could sink after drone strike in Gulf of Finland, Finnish official warns.",
+              "url": "https://kyivindependent.com/russian-military-linked-cargo-ship-catches-fire-after-reported-drone-strike-in-gulf-of-finland/",
+              "source_id": "kyivindependent.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:39:30.518574+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8265342116355896,
+            "article": {
+              "title": "Hélicoptère russe en Finlande et attaque de drone contre un cargo en mer Baltique : ce que l’on sait",
+              "url": "https://www.lesoir.be/784100/article/2026-11-21/helicoptere-russe-en-finlande-et-attaque-de-drone-contre-un-cargo-en-mer",
+              "source_id": "lesoir.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:37:20.667108+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7973096966743469,
+            "article": {
+              "title": "+++ Ukraine-Krieg +++ Russisches Frachtschiff nach Drohnenangriff vor Finnland in Brand Live-Blog",
+              "url": "https://www.handelsblatt.com/politik/international/ukraine-russisches-frachtschiff-nach-drohnenangriff-vor-finnland-in-brand/27982126.html",
+              "source_id": "handelsblatt.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:36:34.653857+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7933475971221924,
+            "article": {
+              "title": "Crew evacuated amid battle to put out fire on Russian ship hit by drones",
+              "url": "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:38:45.824150+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7888568043708801,
+            "article": {
+              "title": "芬兰称俄罗斯一货船在芬兰湾遭袭起火 俄方发文证实",
+              "url": "https://www.xinhuanet.com/20261121/f4ef04c1364c4351a4c6ed855f5e52c1/c.html",
+              "source_id": "xinhuanet.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:41:15.953025+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7586617469787598,
+            "article": {
+              "title": "В Финском заливе украинские беспилотники атаковали грузовое судно. На нем в 2025-м вывозили российскую военную технику из Сирии",
+              "url": "https://meduza.io/news/2026/11/21/gubernator-lenoblasti-soobschil-chto-v-finskom-zalive-ukrainskie-bespilotniki-atakovali-gruzovoe-sudno-sledovavshee-v-kaliningrad",
               "source_id": "meduza.io",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:01:02.993939+00:00"
+              "scraped_at_utc": "2026-11-21T23:39:31.667817+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8266762495040894,
+            "sim_to_centroid": 0.7582635879516602,
             "article": {
-              "title": "FBI criminal database hacked – media",
-              "url": "https://www.rt.com/news/649189-fbi-criminal-database-hacked/",
-              "source_id": "rt.com",
+              "title": "La diretta Nave russa colpita nel Golfo di Finlandia. “La guerra si espande”",
+              "url": "https://www.repubblica.it/esteri/2026/11/21/diretta/guerra_ucraina_russia_news_oggi-425739343/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:37:27.764103+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7464612722396851,
+            "article": {
+              "title": "newsticker Krieg in der Ukraine Russischer Frachter nahe Finnland von Drohnen getroffen Die neuesten Einträge aus dem Liveticker: Gestern, Ukrainische Drohnen werden in Grossbritannien gebaut Gestern, Rutte sichert Polen nach Drohnenabstürzen Nato-Unterstützung zu Gestern, Finnland: Russischer Hubschrauber soll Luftraum verletzt haben",
+              "url": "https://www.srf.ch/news/international/ukraine/krieg-in-der-ukraine-russischer-frachter-nahe-finnland-von-drohnen-getroffen",
+              "source_id": "srf.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:36:46.257661+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7413787245750427,
+            "article": {
+              "title": "Explosions reported near Russian Baltic Fleet base in Kaliningrad Oblast amid drone alerts.",
+              "url": "https://kyivindependent.com/explosions-reported-near-russian-baltic-fleet-base-in-kaliningrad-oblast-amid-drone-alerts/",
+              "source_id": "kyivindependent.com",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:01:10.073272+00:00"
+              "scraped_at_utc": "2026-11-21T23:39:30.518574+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8094388842582703,
+            "sim_to_centroid": 0.7242516279220581,
             "article": {
-              "title": "CNN: хакеры взломали криминальную базу данных ФБР",
-              "url": "https://www.kommersant.ru/doc/9127111",
-              "source_id": "kommersant.ru",
-              "continent": "Europe East",
+              "title": "Ruslands angreb på Ukraine",
+              "url": "https://politiken.dk/tag/main/Konflikten_om_Ukraine",
+              "source_id": "politiken.dk",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:01:13.566331+00:00"
+              "scraped_at_utc": "2026-11-21T23:36:47.961970+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7809735536575317,
+            "sim_to_centroid": 0.722275972366333,
             "article": {
-              "title": "هجمات سيبرانية وأعطال تضرب أميركا... من FBI إلى \"إنفيديا\" والسدود",
-              "url": "https://www.annahar.com/technology/368544/هجمات-سيبرانية-وأعطال-تضرب-أميركا-من-fbi-إلى-إنفيديا-والسدود",
-              "source_id": "annahar.com",
-              "continent": "Middle East",
+              "title": "國際 烏無人機襲俄貨輪引發火災 俄直升機疑侵入芬蘭領空",
+              "url": "https://www.cna.com.tw/news/aopl/202611220006.aspx",
+              "source_id": "cna.com.tw",
+              "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:00:20.910938+00:00"
+              "scraped_at_utc": "2026-11-21T23:42:53.438982+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7635992169380188,
+            "sim_to_centroid": 0.718071699142456,
             "article": {
-              "title": "FBI probes breach of national criminal information system",
-              "url": "https://www.azernews.az/region/267842.html",
-              "source_id": "azernews.az",
-              "continent": "Europe East",
+              "title": "Ukraine fights back with new AI-powered drones as Russia steps up attacks",
+              "url": "https://www.channel4.com/news/ukraine-fights-back-with-new-ai-powered-drones-as-russia-steps-up-attacks",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:01:33.880472+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7540920972824097,
-            "article": {
-              "title": "Bir siber saldırı daha: Kritik sisteme sızdılar",
-              "url": "https://www.milliyet.com.tr/dunya/son-dakika-fbi-alarma-gecti-abdde-bir-siber-saldiri-daha-kritik-sisteme-sizdilar-7704931",
-              "source_id": "milliyet.com.tr",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:00:14.255929+00:00"
+              "scraped_at_utc": "2026-11-21T23:36:19.810614+00:00"
             }
           }
         ]
       },
       {
-        "score": 71.61905875978246,
-        "size": 12,
-        "n_sources": 11,
-        "n_continents": 8,
+        "score": 98.43159937983411,
+        "size": 19,
+        "n_sources": 18,
+        "n_continents": 9,
         "continents": [
-          "China",
+          "Africa",
           "East Asia",
+          "Europe North",
           "Europe South",
           "Middle East",
           "North America",
@@ -600,1226 +627,1077 @@
           "South America",
           "South Asia"
         ],
-        "coherence": 0.8588048815727234,
-        "title": "Mexico captures drug kingpin on FBI’s most wanted list",
+        "coherence": 0.8003531098365784,
+        "title": "COP31 climate talks in deadlock over new deal",
         "central_article": {
-          "title": "Mexico captures drug kingpin on FBI’s most wanted list",
-          "url": "https://www.scmp.com/news/world/americas/article/3375342/mexico-captures-drug-kingpin-fbis-most-wanted-list?module=latest&pgtype=homepage",
-          "source_id": "scmp.com",
-          "continent": "China",
+          "title": "COP31 climate talks in deadlock over new deal",
+          "url": "https://www.channel4.com/news/cop31-climate-talks-in-deadlock-over-new-deal",
+          "source_id": "channel4.com",
+          "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-11-21T15:02:50.666926+00:00"
+          "scraped_at_utc": "2026-11-21T23:36:19.810614+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9405183792114258,
+            "sim_to_centroid": 0.8678240776062012,
             "article": {
-              "title": "Mexico captures drug kingpin on FBI’s most wanted list",
-              "url": "https://www.scmp.com/news/world/americas/article/3375342/mexico-captures-drug-kingpin-fbis-most-wanted-list?module=latest&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:02:50.666926+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9405183792114258,
-            "article": {
-              "title": "Mexico captures drug kingpin on FBI’s most wanted list",
-              "url": "https://www.scmp.com/news/world/americas/article/3375342/mexico-captures-drug-kingpin-fbis-most-wanted-list?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:02:50.666926+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9405183792114258,
-            "article": {
-              "title": "Mexico captures drug kingpin on FBI’s most wanted list",
-              "url": "https://www.thedailystar.net/news/world/news/mexico-captures-drug-kingpin-fbis-most-wanted-list-4329606",
-              "source_id": "thedailystar.net",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:03:18.789808+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9115362167358398,
-            "article": {
-              "title": "Mexico's military captures drug kingpin on FBI's most wanted list",
-              "url": "https://www.abc.net.au/news/2026-11-22/drug-lord-chapo-isidro-captured-by-mexican-military/107413284",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:59:44.872720+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8917882442474365,
-            "article": {
-              "title": "Mundo México captura uno de los narcotraficantes más buscados por el FBI",
-              "url": "https://www.crhoy.com/mundo/mexico-captura-uno-de-los-narcotraficantes-mas-buscados-por-el-fbi/",
-              "source_id": "crhoy.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:58:51.859562+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8604828119277954,
-            "article": {
-              "title": "Mexico captures top drug lord \"El Chapo Isidro,\" latest in string of captures",
-              "url": "https://www.straitstimes.com/world/mexico-captures-top-drug-lord-el-chapo-isidro-latest-in-string-of-captures?ref=latest-headlines",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:04:23.219004+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8504015207290649,
-            "article": {
-              "title": "Meksiko Tangkap Chapo Isidro, Salah Satu Bos Kartel Narkoba Paling Dicari FBI Global",
-              "url": "https://www.kompas.com/global/read/2026/11/21/210000970/meksiko-tangkap-chapo-isidro-salah-satu-bos-kartel-narkoba-paling-dicari?source=headline",
-              "source_id": "kompas.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:04:29.122799+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8204065561294556,
-            "article": {
-              "title": "Mexico reportedly arrests one of FBI’s 10 most wanted fugitives 21 Nov 2026",
-              "url": "https://pajhwok.com/2026/11/21/mexico-reportedly-arrests-one-of-fbis-10-most-wanted-fugitives/",
-              "source_id": "pajhwok.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:03:34.067914+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8086146712303162,
-            "article": {
-              "title": "Mutmasslicher Drogenboss in Mexiko gefasst",
-              "url": "https://www.nzz.ch/panorama/mutmasslicher-drogenboss-in-mexiko-gefasst-ld.10070934",
-              "source_id": "nzz.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:57:49.501117+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7959628701210022,
-            "article": {
-              "title": "Pánico, tiros y fuego. México capturó a uno de los narcos más buscados por el FBI y se desató caos en una ciudad",
-              "url": "https://www.lanacion.com.ar/el-mundo/mexico-capturo-a-uno-de-los-narcos-mas-buscados-por-el-fbi-y-se-desato-caos-en-sinaloa-nid21112026/",
-              "source_id": "lanacion.com.ar",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:59:03.591134+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7841343283653259,
-            "article": {
-              "title": "FBI'ın en çok aradığı 10 kişiden biriydi 'El Chapo Isidro' yakalandı",
-              "url": "https://www.cumhuriyet.com.tr/dunya/fbi-in-en-cok-arananlar-listesindeydi-meksikali-kartel-elebasi-el-chapo-isidro-yakalandi-2558131",
-              "source_id": "cumhuriyet.com.tr",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:00:12.301356+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7607751488685608,
-            "article": {
-              "title": "Chapo Isidro: México confirma captura del narcotraficante en Sinaloa",
-              "url": "https://elcomercio.pe/mundo/mexico/chapo-isidro-mexico-confirma-captura-de-narcotraficante-entre-los-10-mas-buscados-por-el-fbi-cartel-de-sinaloa-faustro-isidro-meza-ultimas-noticia/",
-              "source_id": "elcomercio.pe",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:59:19.211495+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 55.708890927492334,
-        "size": 13,
-        "n_sources": 13,
-        "n_continents": 6,
-        "continents": [
-          "China",
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.832686185836792,
-        "title": "EU proposes tax on Big Tech to boost budget",
-        "central_article": {
-          "title": "EU proposes tax on Big Tech to boost budget",
-          "url": "https://www.dawn.com/news/2046129/eu-proposes-tax-on-big-tech-to-boost-budget",
-          "source_id": "dawn.com",
-          "continent": "South Asia",
-          "published_at": null,
-          "scraped_at_utc": "2026-11-21T15:03:29.787281+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9366190433502197,
-            "article": {
-              "title": "EU proposes tax on Big Tech to boost budget",
-              "url": "https://www.dawn.com/news/2046129/eu-proposes-tax-on-big-tech-to-boost-budget",
-              "source_id": "dawn.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:03:29.787281+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.933710515499115,
-            "article": {
-              "title": "EU proposes tax on Big Tech to pad budget",
-              "url": "https://www.bangkokpost.com/business/general/3358890/eu-proposes-tax-on-big-tech-to-pad-budget",
-              "source_id": "bangkokpost.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:04:19.662339+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9171898365020752,
-            "article": {
-              "title": "União Europeia quer taxar big techs para financiar orçamento",
-              "url": "https://oglobo.globo.com/economia/negocios/noticia/2026/11/21/uniao-europeia-quer-taxar-big-techs-para-financiar-orcamento.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:59:14.882142+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.909980297088623,
-            "article": {
-              "title": "EU eyes tax on Big Tech to boost budget",
-              "url": "https://www.scmp.com/news/world/europe/article/3375333/eu-eyes-tax-big-tech-boost-budget?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:02:50.666926+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8959330320358276,
-            "article": {
-              "title": "Siekdama papildyti biudžetą, ES siūlo apmokestinti didžiąsias technologijų bendroves",
-              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3121087/siekdama-papildyti-biudzeta-es-siulo-apmokestinti-didziasias-technologiju-bendroves",
-              "source_id": "lrt.lt",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:01:22.807311+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8517776727676392,
-            "article": {
-              "title": "UE propõe imposto de 3% sobre faturamento das big techs para financiar orçamento até 2034",
-              "url": "https://www.estadao.com.br/economia/ue-propoe-imposto-de-3-sobre-faturamento-das-big-techs/",
-              "source_id": "estadao.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:59:16.356117+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8373935222625732,
-            "article": {
-              "title": "EU budget: Costa pitches more cuts, Big Tech tax to break deadlock",
-              "url": "https://www.euronews.com/2026/11/21/eu-budget-costa-pitches-more-cuts-big-tech-tax-to-break-deadlock",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:57:23.065862+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7930929660797119,
-            "article": {
-              "title": "António Costa revives EU digital tax proposal in bid to reach agreement on budget",
-              "url": "https://www.irishtimes.com/ireland/2026/11/21/antonio-costa-revives-eu-digital-tax-proposal-in-bid-to-reach-agreement-on-budget/",
-              "source_id": "irishtimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:59:57.937926+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7797574996948242,
-            "article": {
-              "title": "Begrotingsstrijd EU-president: Europa moet Big Tech-bedrijven gaan belasten De Europese begrotingsdiscussie zit in een patstelling. EU-president António Costa geeft deels gehoor aan de wens om de begroting te laten krimpen, maar zijn grootste troef is het plan om extra inkomsten op te halen door techbedrijven te belasten.",
-              "url": "https://www.nrc.nl/nieuws/2026/11/21/eu-president-europa-moet-big-tech-bedrijven-gaan-belasten-a4941983",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:57:27.356084+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7773000001907349,
-            "article": {
-              "title": "Streit um EU-Budget: Costa kürzt und schlägt Digitalsteuer vor",
-              "url": "https://www.diepresse.com/41476688/streit-um-eu-budget-costa-kuerzt-nach-kritik-von-nettozahlern",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:57:43.357114+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7468187212944031,
-            "article": {
-              "title": "國際 歐盟提案擬課稅科技巨擘 鎖定境內年營收至少5000萬歐元業者",
-              "url": "https://www.cna.com.tw/news/aopl/202611210220.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:04:27.937173+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7283168435096741,
-            "article": {
-              "title": "Nyt forslag til EU-budget kræver fortsat, at lande betaler mere til EU",
-              "url": "https://www.dr.dk/nyheder/udland/nyt-forslag-til-eu-budget-kraever-fortsat-lande-betaler-mere-til-eu",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:58:04.838431+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7170303463935852,
-            "article": {
-              "title": "ЕС хочет урезать расходы на науку и защиту граждан, сохранив финансирование Украины",
-              "url": "https://ria.ru/20261121/es-2133133030.html",
-              "source_id": "ria.ru",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:01:19.160170+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 51.94227553862418,
-        "size": 11,
-        "n_sources": 11,
-        "n_continents": 8,
-        "continents": [
-          "Africa",
-          "China",
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America"
-        ],
-        "coherence": 0.7945592403411865,
-        "title": "Trump hails ‘fantastic relationship’ with Putin and Xi",
-        "central_article": {
-          "title": "Trump hails ‘fantastic relationship’ with Putin and Xi",
-          "url": "https://www.rt.com/news/649181-trump-comments-putin-xi-summit/",
-          "source_id": "rt.com",
-          "continent": "Europe East",
-          "published_at": null,
-          "scraped_at_utc": "2026-11-21T15:01:10.073272+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8889104723930359,
-            "article": {
-              "title": "Trump hails ‘fantastic relationship’ with Putin and Xi",
-              "url": "https://www.rt.com/news/649181-trump-comments-putin-xi-summit/",
-              "source_id": "rt.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:01:10.073272+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.847055971622467,
-            "article": {
-              "title": "For Xi and Putin, the Trump trilateral was a win for a new world order",
-              "url": "https://www.egyptindependent.com/for-xi-and-putin-the-trump-trilateral-was-a-win-for-a-new-world-order/",
-              "source_id": "egyptindependent.com",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:02:16.923749+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8324861526489258,
-            "article": {
-              "title": "Trump defends 'fantastic' ties with Xi, Putin after backlash",
-              "url": "https://www.newarab.com/news/trump-defends-fantastic-ties-xi-putin-after-backlash",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:00:15.778872+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7899314165115356,
-            "article": {
-              "title": "Trump-Putin relations vitally important for entire world",
-              "url": "https://tass.com/politics/2222759",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:01:16.699257+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7887927293777466,
-            "article": {
-              "title": "Putin, Trump i Xi Jinping. Każdy gra w swoją grę",
-              "url": "https://www.rp.pl/swiat/art45501891-rzecz-w-tym-putin-trump-i-xi-jinping-kazdy-gra-w-swoja-gre",
-              "source_id": "rp.pl",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:00:44.494378+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7825231552124023,
-            "article": {
-              "title": "As Trump courts Xi and Putin, middle powers make their own moves",
-              "url": "https://www.japantimes.co.jp/news/2026/11/21/japan/politics/trump-xi-putin-middle-powers-analysis/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:04:06.432333+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7764739990234375,
-            "article": {
-              "title": "Inside the historic summit between Trump, Xi and Putin",
-              "url": "https://www.pbs.org/newshour/show/inside-the-historic-summit-between-trump-xi-and-putin",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:02:49.491608+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.775213360786438,
-            "article": {
-              "title": "Trump: Meeting with Xi very productive; trilateral summit momentous",
-              "url": "https://www.chinadaily.com.cn/a/202611/21/WS6b01058be4b03ebf8519dd49.html",
-              "source_id": "chinadaily.com.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:02:53.857904+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7675526142120361,
-            "article": {
-              "title": "Rubio: ‘Goede relatie Trump-Poetin maakt wereld veiliger’",
-              "url": "https://fd.nl/politiek/1620314/rubio-goede-relatie-trump-poetin-maakt-wereld-veiliger",
-              "source_id": "fd.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:57:31.665785+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.758999228477478,
-            "article": {
-              "title": "Ticker : Die USA nach den Midterms: Aussenminister Rubio verteidigt Trumps Treffen mit Xi und Putin",
-              "url": "https://www.nzz.ch/international/us-innenpolitik-die-neuesten-meldungen-im-ticker-ld.10056111",
-              "source_id": "nzz.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:57:49.501117+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7322121858596802,
-            "article": {
-              "title": "Trump: Putin ‘would love to’ end war in Ukraine",
-              "url": "https://www.channel4.com/news/trump-putin-would-love-to-end-war-in-ukraine",
+              "title": "COP31 climate talks in deadlock over new deal",
+              "url": "https://www.channel4.com/news/cop31-climate-talks-in-deadlock-over-new-deal",
               "source_id": "channel4.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:57:21.823403+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 44.041157194711474,
-        "size": 8,
-        "n_sources": 8,
-        "n_continents": 7,
-        "continents": [
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Middle East",
-          "North America",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.8519545793533325,
-        "title": "Zelensky says Putin a 'killer' after Trump calls him his 'friend'",
-        "central_article": {
-          "title": "Zelensky says Putin a 'killer' after Trump calls him his 'friend'",
-          "url": "https://www.thedailystar.net/news/world/news/zelensky-says-putin-killer-after-trump-calls-him-his-friend-4329626",
-          "source_id": "thedailystar.net",
-          "continent": "South Asia",
-          "published_at": null,
-          "scraped_at_utc": "2026-11-21T15:03:18.789808+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9346761107444763,
-            "article": {
-              "title": "Zelensky says Putin a 'killer' after Trump calls him his 'friend'",
-              "url": "https://www.thedailystar.net/news/world/news/zelensky-says-putin-killer-after-trump-calls-him-his-friend-4329626",
-              "source_id": "thedailystar.net",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:03:18.789808+00:00"
+              "scraped_at_utc": "2026-11-21T23:36:19.810614+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.9279290437698364,
-            "article": {
-              "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
-              "url": "https://www.bbc.com/news/articles/cxnv4zvmdy0jo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:57:16.289622+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9278968572616577,
-            "article": {
-              "title": "Zelenskyy brands Putin a 'killer' after Trump calls him his 'friend'",
-              "url": "https://www.euronews.com/2026/11/21/putin-a-killer-zelenskyy-says-after-trump-calls-russian-leader-his-friend",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:57:23.065862+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8365199565887451,
-            "article": {
-              "title": "WATCH: After calling Putin his friend, Trump 'can't speak to' whether Putin is a friend to America",
-              "url": "https://www.pbs.org/newshour/politics/trump-defends-calling-putin-a-friend-saying-they-have-a-very-good-personal-relationship",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:02:49.491608+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.832475483417511,
-            "article": {
-              "title": "Trump označil Putina za svého přítele. Šéf polské diplomacie vyjádřil znepokojení",
-              "url": "https://ct24.ceskatelevize.cz/clanek/svet/trump-oznacil-putina-za-sveho-pritele-sef-polske-diplomacie-vyjadril-znepokojeni-379765",
-              "source_id": "ct24.ceskatelevize.cz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:00:38.697372+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8156756162643433,
-            "article": {
-              "title": "Não posso falar pelos EUA, diz Trump ao responder se Putin é amigo do país",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/11/nao-posso-falar-pelos-eua-diz-trump-ao-responder-se-putin-e-amigo-do-pais.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:59:11.352434+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8076863288879395,
-            "article": {
-              "title": "زيلينسكي يصف بوتين بالقاتل ردا على وصف ترمب له بالصديق",
-              "url": "https://www.aljazeera.net/news/2026/11/21/%d8%b2%d9%8a%d9%84%d9%8a%d9%86%d8%b3%d9%83%d9%8a-%d8%a8%d9%88%d8%aa%d9%8a%d9%86-%d9%82%d8%a7%d8%aa%d9%84-%d8%a8%d8%a7%d9%84%d9%86%d8%b3%d8%a8%d8%a9-%d9%84%d9%86%d8%a7",
-              "source_id": "aljazeera.net",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:00:03.139146+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7327773571014404,
-            "article": {
-              "title": "Trump told European leaders they were spending a lot on Ukraine, Zelenskiy says",
-              "url": "https://www.straitstimes.com/world/europe/trump-told-european-leaders-they-were-spending-a-lot-on-ukraine-zelenskiy-says?ref=latest-headlines",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:04:23.219004+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 36.94192968638539,
-        "size": 12,
-        "n_sources": 8,
-        "n_continents": 7,
-        "continents": [
-          "Africa",
-          "East Asia",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "Oceania"
-        ],
-        "coherence": 0.8167991042137146,
-        "title": "ICJ Rules Myanmar Committed Genocide Against Rohingya",
-        "central_article": {
-          "title": "ICJ Rules Myanmar Committed Genocide Against Rohingya",
-          "url": "https://www.irrawaddy.com/news/burma/icj-rules-myanmar-committed-genocide-against-rohingya.html",
-          "source_id": "irrawaddy.com",
-          "continent": "East Asia",
-          "published_at": null,
-          "scraped_at_utc": "2026-11-21T15:04:31.700755+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8800992965698242,
-            "article": {
-              "title": "ICJ Rules Myanmar Committed Genocide Against Rohingya",
-              "url": "https://www.irrawaddy.com/news/burma/icj-rules-myanmar-committed-genocide-against-rohingya.html",
-              "source_id": "irrawaddy.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:04:31.700755+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8457165956497192,
-            "article": {
-              "title": "Rights groups urge sanctions after ICJ finds Myanmar guilty of genocide against Rohingya",
-              "url": "https://www.pbs.org/newshour/world/rights-groups-urge-sanctions-after-icj-finds-myanmar-guilty-of-genocide-against-rohingya",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:02:49.491608+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8334510326385498,
-            "article": {
-              "title": "Rights Groups Demand Action Against Myanmar Junta After Historic Rohingya Genocide Ruling",
-              "url": "https://www.irrawaddy.com/news/burma/rights-groups-demand-action-against-myanmar-junta-after-historic-rohingya-genocide-ruling.html",
-              "source_id": "irrawaddy.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:04:31.700755+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8308361172676086,
-            "article": {
-              "title": "What does the ICJ’s Rohingya genocide ruling mean for Gaza?",
-              "url": "https://www.aljazeera.com/news/2026/11/20/what-does-the-icjs-rohingya-genocide-ruling-mean-for-gaza",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:59:59.093042+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8282033205032349,
-            "article": {
-              "title": "Five Key Points From Historic ICJ Rohingya Genocide Ruling",
-              "url": "https://www.irrawaddy.com/news/burma/five-key-points-from-historic-icj-rohingya-genocide-ruling.html",
-              "source_id": "irrawaddy.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:04:31.700755+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8258427381515503,
-            "article": {
-              "title": "Myanmar committed ‘genocide’ against its Rohingya minority – top UN court",
-              "url": "https://www.channel4.com/news/myanmar-committed-genocide-against-its-rohingya-minority-top-un-court",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:57:21.823403+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8121989369392395,
-            "article": {
-              "title": "Myanmar Regime Rejects ‘Unfair’ Rohingya Genocide Ruling at ICJ",
-              "url": "https://www.irrawaddy.com/news/burma/myanmar-regime-rejects-unfair-rohingya-genocide-ruling-at-icj.html",
-              "source_id": "irrawaddy.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:04:31.700755+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8083305358886719,
-            "article": {
-              "title": "'Not fair': Myanmar responds to ICJ ruling of genocide",
-              "url": "https://www.sbs.com.au/news/article/australia-considers-implications-of-landmark-icj-ruling-on-myanmar-genocide/ti3ie4omf",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:59:46.207747+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8056575655937195,
-            "article": {
-              "title": "Génocide des Rohingya : la Cour internationale de justice rend un arrêt pour l’histoire",
-              "url": "https://www.lemonde.fr/international/article/2026/11/20/genocide-des-rohingya-la-cour-internationale-de-justice-confirme-qu-elle-est-indubitablement-la-boussole-du-droit-international_6813702_3210.html",
-              "source_id": "lemonde.fr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:58:16.230213+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7880271673202515,
-            "article": {
-              "title": "Découvrez des extraits de l’arrêt de la Cour internationale de justice qui reconnaît la Birmanie coupable de génocide contre les Rohingya",
-              "url": "https://www.lemonde.fr/international/article/2026/11/19/les-elements-demontrant-la-commission-d-actes-de-violence-sexuelle-d-une-grande-brutalite-et-de-violences-specifiquement-exercees-contre-des-enfants-au-sein-des-communautes-rohingya-confortent-egalement-la-deduction-d-une-volonte-de-detruire-_6813381_3210.html",
-              "source_id": "lemonde.fr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:58:16.230213+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7726172208786011,
-            "article": {
-              "title": "Al-Azhar welcomes historic International Court of Justice ruling on genocide against Rohingya Muslims",
-              "url": "https://www.egyptindependent.com/azhar-welcomes-historic-international-court-of-justice-ruling-on-genocide-against-rohingya-muslims/",
-              "source_id": "egyptindependent.com",
-              "continent": "Africa",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:02:16.923749+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7706091403961182,
-            "article": {
-              "title": "Genocide-uitspraak over Rohingya schept precedent: 'Slecht nieuws voor Israël'",
-              "url": "https://nos.nl/artikel/2640335-genocide-uitspraak-over-rohingya-schept-precedent-slecht-nieuws-voor-israel",
-              "source_id": "nos.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:57:25.389394+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 33.214361838180125,
-        "size": 9,
-        "n_sources": 9,
-        "n_continents": 5,
-        "continents": [
-          "Africa",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "South Asia"
-        ],
-        "coherence": 0.8392639756202698,
-        "title": "COP31 climate talks spill into overtime as nations quarrel over fossil fuels",
-        "central_article": {
-          "title": "COP31 climate talks spill into overtime as nations quarrel over fossil fuels",
-          "url": "https://www.premiumtimesng.com/news/headlines/926870-cop31-climate-talks-spill-into-overtime-as-nations-quarrel-over-fossil-fuels.html",
-          "source_id": "premiumtimesng.com",
-          "continent": "Africa",
-          "published_at": null,
-          "scraped_at_utc": "2026-11-21T15:02:01.939397+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9172625541687012,
+            "sim_to_centroid": 0.8673937320709229,
             "article": {
               "title": "COP31 climate talks spill into overtime as nations quarrel over fossil fuels",
               "url": "https://www.premiumtimesng.com/news/headlines/926870-cop31-climate-talks-spill-into-overtime-as-nations-quarrel-over-fossil-fuels.html",
               "source_id": "premiumtimesng.com",
               "continent": "Africa",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:02:01.939397+00:00"
+              "scraped_at_utc": "2026-11-21T23:40:18.779575+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8998943567276001,
+            "sim_to_centroid": 0.8408488631248474,
             "article": {
-              "title": "Fossil fuel row sees COP31 talks spill into overtime",
-              "url": "https://www.euronews.com/2026/11/21/fossil-fuel-row-sees-cop31-talks-spill-into-overtime",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:57:23.065862+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.854834794998169,
-            "article": {
-              "title": "La COP31 encalla en el desacuerdo para prescindir de los combustibles fósiles",
-              "url": "https://www.lavanguardia.com/vida/20261120/11689454/cop31-encalla-desacuerdo-prescindir-combustibles-fosiles.html",
-              "source_id": "lavanguardia.com",
+              "title": "Une seconde nuit de prolongation à la COP 31, les négociations patinent",
+              "url": "https://www.lesoir.be/784119/article/2026-11-21/une-seconde-nuit-de-prolongation-la-cop-31-les-negociations-patinent",
+              "source_id": "lesoir.be",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:58:30.176805+00:00"
+              "scraped_at_utc": "2026-11-21T23:37:20.667108+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.852657675743103,
+            "sim_to_centroid": 0.8387967944145203,
             "article": {
               "title": "Cop31 climate talks overrun in dispute over final deal",
               "url": "https://www.thenationalnews.com/news/mena/2026/11/21/cop31-climate-talks-overrun-in-dispute-over-final-deal/",
               "source_id": "thenationalnews.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:00:00.536976+00:00"
+              "scraped_at_utc": "2026-11-21T23:38:47.268140+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8523398637771606,
+            "sim_to_centroid": 0.8280158638954163,
+            "article": {
+              "title": "Climate talks in overtime as nations wrestle with response to worsening global warming",
+              "url": "https://www.chicagotribune.com/2026/11/21/climate-talks-overtime-turkey-un/",
+              "source_id": "chicagotribune.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:41:02.675170+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8207910060882568,
+            "article": {
+              "title": "La Cumbre del Clima se estanca sin un acuerdo en plena tensión por los hidrocarburos",
+              "url": "https://www.rtve.es/noticias/20261121/cumbre-clima-cop31-acuerdo/17324678.shtml",
+              "source_id": "rtve.es",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:37:24.911150+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8203678727149963,
+            "article": {
+              "title": "COP31 se arrasta sem consenso sobre combustíveis fósseis, e sociedade civil alerta para uma das cúpulas 'mais decepcionantes' da História",
+              "url": "https://oglobo.globo.com/mundo/clima-e-ciencia/noticia/2026/11/21/cop31-se-arrasta-sem-consenso-sobre-combustiveis-fosseis-e-sociedade-civil-alerta-para-uma-das-cupulas-mais-decepcionantes-da-historia.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:38:00.650648+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8202938437461853,
+            "article": {
+              "title": "Klimaattop al een dag uitgelopen en onderhandelingen lijken muurvast te zitten",
+              "url": "https://nos.nl/artikel/2640472-klimaattop-al-een-dag-uitgelopen-en-onderhandelingen-lijken-muurvast-te-zitten",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:36:23.716718+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8166376948356628,
+            "article": {
+              "title": "Cop 31: Climate talks stall as countries mull showdown with Saudi Arabia over fossil fuel phase-out",
+              "url": "https://www.irishtimes.com/environment/2026/11/21/cop-31-climate-talks-stall-as-countries-mull-showdown-with-saudi-arabia-over-fossil-fuel-phase-out/",
+              "source_id": "irishtimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:38:44.733625+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8049782514572144,
+            "article": {
+              "title": "Nog steeds geen akkoord op klimaattop, landen komen er niet uit",
+              "url": "https://www.rtl.nl/nieuws/artikel/5666474/klimaattop-uitgesteld-landen-oneens",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:36:26.972640+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7936398983001709,
             "article": {
               "title": "COP31 summit : Fossil fuel talks deadlock pushes COP31 climate summit beyond deadline",
               "url": "https://pajhwok.com/2026/11/21/fossil-fuel-talks-deadlock-pushes-cop31-climate-summit-beyond-deadline/",
               "source_id": "pajhwok.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:03:34.067914+00:00"
+              "scraped_at_utc": "2026-11-21T23:41:55.048281+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8224290609359741,
+            "sim_to_centroid": 0.7807943224906921,
             "article": {
-              "title": "COP31 à Antalya : les négociations se prolongent, les divergences persistent sur le texte final",
+              "title": "The climate deal Australia is struggling to close",
+              "url": "https://www.sbs.com.au/news/article/the-climate-agreement-australia-is-struggling-to-close/9z77gmuox",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:38:31.880838+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7802681922912598,
+            "article": {
+              "title": "21 nov Onderhandelingen klimaattop muurvast, landen flirten met ‘no deal’",
+              "url": "https://fd.nl/politiek/1620222/onderhandelingen-klimaattop-muurvast-landen-flirten-met-no-deal",
+              "source_id": "fd.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:36:28.942915+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7713584899902344,
+            "article": {
+              "title": "COP31: Präsident drängt Verhandler zu Kompromissen",
+              "url": "https://www.diepresse.com/41476077/cop31-eu-schliesst-scheitern-der-un-klimakonferenz-nicht-aus",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:36:39.171563+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7674926519393921,
+            "article": {
+              "title": "La COP31 mantiene el bloqueo y alarga la prórroga en un ambiente de decepción",
+              "url": "https://www.lavanguardia.com/vida/20261121/11690033/cop31-mantiene-bloqueo-alarga-prorroga-visos-acuerdo.html",
+              "source_id": "lavanguardia.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:37:22.448257+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7563931941986084,
+            "article": {
+              "title": "COP31 à Antalya : une deuxième nuit à la recherche d'un consensus de plus en plus incertain",
               "url": "https://www.rtbf.be/article/cop31-les-negociations-se-prolongent-les-divergences-persistent-sur-le-texte-final-11818976",
               "source_id": "rtbf.be",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:58:27.033687+00:00"
+              "scraped_at_utc": "2026-11-21T23:37:18.991363+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.807663083076477,
+            "sim_to_centroid": 0.755373477935791,
             "article": {
-              "title": "Cop31: Talks deadlocked as EU signals willingness to walk away if no move on fossil fuels",
-              "url": "https://www.irishtimes.com/environment/2026/11/21/cop31-talks-deadlocked-as-eu-signals-willingness-to-walk-away-if-no-move-on-fossil-fuels/",
-              "source_id": "irishtimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:59:57.937926+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7766534686088562,
-            "article": {
-              "title": "Uno-Konferenz in Antalya Streit über fossile Energien – Klimagipfel geht in die Verlängerung",
-              "url": "https://www.spiegel.de/wissenschaft/uno-klimakonferenz-in-antalya-streit-ueber-fossile-energien-klimagipfel-geht-in-die-verlaengerung-a-acb69199-ffa2-4b15-ad2b-62145c0613c8",
-              "source_id": "spiegel.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:57:36.695803+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7696410417556763,
-            "article": {
-              "title": "COP31 på overtid: Det er ikke alle, der venter på slutfløjtet",
-              "url": "https://www.dr.dk/nyheder/viden/klima/live-klimatopmoede-i-antalya?focusId=12885793",
+              "title": "COP31 bliver et af de længste klimatopmøder nogensinde",
+              "url": "https://www.dr.dk/nyheder/viden/klima/live-klimatopmoede-i-antalya?focusId=12890826",
               "source_id": "dr.dk",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:58:04.838431+00:00"
+              "scraped_at_utc": "2026-11-21T23:36:57.530788+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7481464147567749,
+            "article": {
+              "title": "COP31: Nigerian, global groups accuse presidencies of risking ‘disappointing’ climate deal",
+              "url": "https://www.premiumtimesng.com/news/top-news/926971-cop31-nigerian-global-groups-accuse-presidencies-of-risking-disappointing-climate-deal.html",
+              "source_id": "premiumtimesng.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:40:18.779575+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7272932529449463,
+            "article": {
+              "title": "Fossil fuel dispute threatens to scupper climate deal",
+              "url": "https://www.channelnewsasia.com/world/cop31-fossil-fuel-climate-talks-6571376",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:42:26.232655+00:00"
             }
           }
         ]
       },
       {
-        "score": 27.14212762166968,
-        "size": 9,
-        "n_sources": 8,
-        "n_continents": 5,
+        "score": 60.46771301945183,
+        "size": 13,
+        "n_sources": 13,
+        "n_continents": 6,
         "continents": [
-          "China",
-          "East Asia",
+          "Europe East",
           "Europe North",
           "Europe South",
+          "Middle East",
+          "South America",
           "South Asia"
         ],
-        "coherence": 0.8224415183067322,
-        "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
+        "coherence": 0.8490801453590393,
+        "title": "Brazil ex-president Bolsonaro in intensive care",
         "central_article": {
-          "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
-          "url": "https://www.bbc.com/news/articles/c3x29ggenz12o",
-          "source_id": "bbc.com",
+          "title": "Brazil ex-president Bolsonaro in intensive care",
+          "url": "https://www.euronews.com/2026/11/21/jair-bolsonaro-hospitalised-with-abdominal-pain-while-under-house-arrest",
+          "source_id": "euronews.com",
           "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-11-21T14:57:16.289622+00:00"
+          "scraped_at_utc": "2026-11-21T23:36:21.379133+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8604927062988281,
+            "sim_to_centroid": 0.9173319339752197,
             "article": {
-              "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
-              "url": "https://www.bbc.com/news/articles/c3x29ggenz12o",
-              "source_id": "bbc.com",
+              "title": "Brazil ex-president Bolsonaro in intensive care",
+              "url": "https://www.euronews.com/2026/11/21/jair-bolsonaro-hospitalised-with-abdominal-pain-while-under-house-arrest",
+              "source_id": "euronews.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:57:16.289622+00:00"
+              "scraped_at_utc": "2026-11-21T23:36:21.379133+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8587658405303955,
+            "sim_to_centroid": 0.912945032119751,
             "article": {
-              "title": "Anthropic dépasse les 2000 milliards de dollars pour la plus grande entrée en bourse de l'histoire, devançant SpaceX Economie",
-              "url": "https://www.rts.ch/info/economie/2026/article/anthropic-entre-en-bourse-avec-une-levee-record-devant-spacex-29421196.html",
-              "source_id": "rts.ch",
+              "title": "Expresidente de Brasil Jair Bolsonaro es enviado a cuidados intensivos por una obstrucción intestinal",
+              "url": "https://www.eltiempo.com/mundo/latinoamerica/expresidente-de-brasil-jair-bolsonaro-es-enviado-a-cuidados-intensivos-por-una-obstruccion-intestinal-que-se-sabe-3603041",
+              "source_id": "eltiempo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:37:50.128227+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9024367332458496,
+            "article": {
+              "title": "Jair Bolsonaro en soins intensifs pour une occlusion intestinale",
+              "url": "https://www.lesoir.be/784141/article/2026-11-21/jair-bolsonaro-en-soins-intensifs-pour-une-occlusion-intestinale",
+              "source_id": "lesoir.be",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:58:22.943995+00:00"
+              "scraped_at_utc": "2026-11-21T23:37:20.667108+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8553544878959656,
+            "sim_to_centroid": 0.8963301181793213,
             "article": {
-              "title": "AI-aandelen in de uitverkoop na historische beursgang Anthropic",
-              "url": "https://fd.nl/financiele-markten/1620184/ai-aandelen-in-de-uitverkoop-na-historische-beursgang-anthropic",
-              "source_id": "fd.nl",
+              "title": "Jair Bolsonaro, en cuidados intensivos y sin fecha de alta por una obstrucción intestinal",
+              "url": "https://www.elespectador.com/mundo/america/jair-bolsonaro-en-cuidados-intensivos-y-sin-fecha-de-alta-por-una-obstruccion-intestinal/",
+              "source_id": "elespectador.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:38:07.435834+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8936241865158081,
+            "article": {
+              "title": "Bolsonaro vårdas på intensiven",
+              "url": "https://www.dn.se/direkt/2026-11-21/bolsonaro-vardas-pa-intensiven/",
+              "source_id": "dn.se",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:57:31.665785+00:00"
+              "scraped_at_utc": "2026-11-21T23:36:49.681957+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8450742959976196,
+            "sim_to_centroid": 0.8901694416999817,
             "article": {
-              "title": "Anthropic在美上市敲钟",
-              "url": "https://track.sohu.com/promotion?link=HjoyAHKdFpleunc2PBBB2SxZCeUN8cLV33ub9ekhDoeI7P%252BSYXud0xD4X43jsgrdp%252FFF4H15uoUcJLxNDHrL0fsTktFyqXBjMwgKetyVBC8liUCA97lUpQPVBjqH39dKQiCQvJ3C82Im%252FJtoU3%252BvCo430sClZpAyYDbBm2xj1tU%253D&pcm=202.533_2_0.300061522_5301.0&scm=10001.533_14-200000.0.0-0-0-0-0.0",
-              "source_id": "news.sohu.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:03:06.258667+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8206315636634827,
-            "article": {
-              "title": "Going public on AI: On Anthropic IPO",
-              "url": "https://www.thehindu.com/opinion/editorial/going-public-on-ai-on-anthropic-ipo/article71725849.ece",
-              "source_id": "thehindu.com",
+              "title": "Brazil's ex-president Jair Bolsonaro admitted to ICU with acute bowel obstruction",
+              "url": "https://timesofindia.indiatimes.com/world/rest-of-world/brazils-imprisoned-ex-president-jair-bolsonaro-admitted-to-icu-with-acute-bowel-obstruction/articleshow/136062891.cms",
+              "source_id": "timesofindia.indiatimes.com",
               "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:03:16.220395+00:00"
+              "scraped_at_utc": "2026-11-21T23:41:33.749273+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8108157515525818,
+            "sim_to_centroid": 0.8778042793273926,
             "article": {
-              "title": "Anthropic IPO success boosts hopes for OpenAI listing",
-              "url": "https://www.koreaherald.com/article/10944733",
-              "source_id": "koreaherald.com",
-              "continent": "East Asia",
+              "title": "Fostul preşedinte brazilian Jair Bolsonaro, internat la terapie intensivă din cauza unei ocluzii intestinale",
+              "url": "https://www.g4media.ro/fostul-presedinte-brazilian-jair-bolsonaro-internat-la-terapie-intensiva-din-cauza-unei-ocluzii-intestinale.html",
+              "source_id": "g4media.ro",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:04:13.381357+00:00"
+              "scraped_at_utc": "2026-11-21T23:39:20.068847+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.800966739654541,
+            "sim_to_centroid": 0.8700588345527649,
             "article": {
-              "title": "Anthropic: AI company behind Claude chatbot value rises above $2 trillion in stock market offering",
-              "url": "https://www.channel4.com/news/anthropic-ai-company-behind-claude-chatbot-value-rises-above-2-trillion-in-stock-market-offering",
-              "source_id": "channel4.com",
+              "title": "Jair Bolsonaro is in intensive care — ‘I’ve never seen him like this’",
+              "url": "https://www.thetimes.com/world/latin-america/article/jair-bolsonaro-intensive-care-hospitalised-brazil-d6lgf3tth",
+              "source_id": "thetimes.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:57:21.823403+00:00"
+              "scraped_at_utc": "2026-11-21T23:36:16.662402+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7912039756774902,
+            "sim_to_centroid": 0.8331364393234253,
             "article": {
-              "title": "Als een raket vloog Anthropic SpaceX voorbij; nu de grootste beursgang ooit",
-              "url": "https://fd.nl/economie/1620124/als-een-raket-vloog-anthropic-spacex-voorbij-nu-de-grootste-beursgang-ooit",
-              "source_id": "fd.nl",
+              "title": "Bolsonaro está internado na UTI com abdômen obstruído, estável e sem previsão de alta",
+              "url": "https://oglobo.globo.com/politica/noticia/2026/11/21/bolsonaro-esta-internado-na-uti-com-abdomen-obstruido-em-estado-estavel-e-sem-previsao-de-alta-diz-hospital.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:38:00.650648+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.793886661529541,
+            "article": {
+              "title": "الرئيس البرازيلي السابق جايير بولسونارو في العناية المركزة",
+              "url": "https://www.annahar.com/international/368699/الرئيس-البرازيلي-السابق-جايير-بولسونارو-في-العناية-المركزة",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:39:04.290592+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7820968627929688,
+            "article": {
+              "title": "Latijns-Amerika Braziliaanse oud-president Jair Bolsonaro opnieuw op intensieve zorg: \"Ik heb hem nog nooit zo gezien\"",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/11/21/braziliaanse-oud-president-bolsonaro-op-intensieve-zorgen/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:37:16.833345+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.735111653804779,
+            "article": {
+              "title": "Verden Brasils kuppdømte ekspresident får intensivbehandling på sykehus",
+              "url": "https://www.aftenposten.no/verden/i/0vn79J/brasils-kuppdoemte-ekspresident-faar-intensivbehandling-paa-sykehus",
+              "source_id": "aftenposten.no",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:57:31.665785+00:00"
+              "scraped_at_utc": "2026-11-21T23:36:51.299134+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7586679458618164,
+            "sim_to_centroid": 0.7331085205078125,
             "article": {
-              "title": "The blame game has begun over Anthropic’s turbulent trading debut",
-              "url": "https://www.hindustantimes.com/world-news/the-blame-game-has-begun-over-anthropic-s-turbulent-trading-debut-101795251143821.html",
-              "source_id": "hindustantimes.com",
-              "continent": "South Asia",
+              "title": "Bolsonaro segue em UTI em estado estável, mas sem previsão de alta, informa hospital",
+              "url": "https://www.estadao.com.br/politica/jair-bolsonaro-faz-limpeza-com-sonda-diz-carlos-npr/",
+              "source_id": "estadao.com.br",
+              "continent": "South America",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:03:17.429481+00:00"
+              "scraped_at_utc": "2026-11-21T23:38:02.059918+00:00"
             }
           }
         ]
       },
       {
-        "score": 24.735861883290625,
-        "size": 19,
+        "score": 47.69300733431616,
+        "size": 9,
         "n_sources": 9,
+        "n_continents": 7,
+        "continents": [
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "South Asia"
+        ],
+        "coherence": 0.8443300127983093,
+        "title": "U.S. Agriculture Department and FBI breached by hackers, reports say",
+        "central_article": {
+          "title": "U.S. Agriculture Department and FBI breached by hackers, reports say",
+          "url": "https://www.japantimes.co.jp/news/2026/11/21/world/crime-legal/us-fbi-usda-cyberattacks/",
+          "source_id": "japantimes.co.jp",
+          "continent": "East Asia",
+          "published_at": null,
+          "scraped_at_utc": "2026-11-21T23:42:27.538617+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8680146932601929,
+            "article": {
+              "title": "U.S. Agriculture Department and FBI breached by hackers, reports say",
+              "url": "https://www.japantimes.co.jp/news/2026/11/21/world/crime-legal/us-fbi-usda-cyberattacks/",
+              "source_id": "japantimes.co.jp",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:42:27.538617+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8543802499771118,
+            "article": {
+              "title": "FBI criminal database hacked – media",
+              "url": "https://www.rt.com/news/649189-fbi-criminal-database-hacked/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:39:38.058719+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8522924184799194,
+            "article": {
+              "title": "Nuovo attacco hacker all’Fbi: violata la banca dati dei criminali",
+              "url": "https://www.repubblica.it/esteri/2026/11/21/news/usa_nuovo_attacco_hacker_fbi_violata_banca_dati_criminali-425740582/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:37:27.764103+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8476101756095886,
+            "article": {
+              "title": "FBI national crime database suffers suspected breach: Reports",
+              "url": "https://www.aljazeera.com/news/2026/11/21/fbi-national-crime-database-suffers-suspected-breach-reports",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:38:45.824150+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8461962938308716,
+            "article": {
+              "title": "Offenbar Hackerangriffe auf FBI und US-Agrarministerium",
+              "url": "https://www.tagesschau.de/ausland/amerika/usa-hackerangriffe-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:36:30.842820+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8375797271728516,
+            "article": {
+              "title": "FBI investigating apparent hack of its key national criminal justice database, AP source says",
+              "url": "https://www.chicagotribune.com/2026/11/21/fbi-investigating-apparent-hack-criminal-justice-database/",
+              "source_id": "chicagotribune.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:41:02.675170+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8373028039932251,
+            "article": {
+              "title": "ایف بی آئی کا اہم ڈیٹا بیس ہیک ہو گیا",
+              "url": "https://jang.com.pk/news/1635493",
+              "source_id": "jang.com.pk",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:41:52.023289+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8325513601303101,
+            "article": {
+              "title": "US Agriculture Department and FBI hit by cyberattacks, media report",
+              "url": "https://www.france24.com/en/americas/20261121-us-agriculture-department-fbi-hit-by-cyberattacks-media-report",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:37:13.611734+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8230422735214233,
+            "article": {
+              "title": "FBI a fost vizat de un al doilea atac cibernetic la interval de câteva luni",
+              "url": "https://hotnews.ro/fbi-a-fost-vizat-de-un-al-doilea-atac-cibernetic-la-interval-de-cateva-luni-2410727",
+              "source_id": "hotnews.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:39:11.804365+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 42.44103213329495,
+        "size": 11,
+        "n_sources": 11,
+        "n_continents": 6,
+        "continents": [
+          "China",
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Middle East",
+          "South Asia"
+        ],
+        "coherence": 0.8116921782493591,
+        "title": "Bahrain reports fire, material damage due to Iranian attack on 'civilian industrial facility'",
+        "central_article": {
+          "title": "Bahrain reports fire, material damage due to Iranian attack on 'civilian industrial facility'",
+          "url": "https://www.dawn.com/news/1976395/bahrain-reports-fire-material-damage-due-to-iranian-attack-on-civilian-industrial-facility",
+          "source_id": "dawn.com",
+          "continent": "South Asia",
+          "published_at": null,
+          "scraped_at_utc": "2026-11-21T23:41:50.550435+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9032377600669861,
+            "article": {
+              "title": "Bahrain reports fire, material damage due to Iranian attack on 'civilian industrial facility'",
+              "url": "https://www.dawn.com/news/1976395/bahrain-reports-fire-material-damage-due-to-iranian-attack-on-civilian-industrial-facility",
+              "source_id": "dawn.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:41:50.550435+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8971695899963379,
+            "article": {
+              "title": "Bahrain says Iranian attack causes fire at industrial facility",
+              "url": "https://www.aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-causes-fire-at-industrial-facility",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:38:45.824150+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8962814807891846,
+            "article": {
+              "title": "I Bahrain er et civilt industrianlæg brudt i brand efter et iransk angreb",
+              "url": "https://www.dr.dk/nyheder/seneste/i-bahrain-er-et-civilt-industrianlaeg-brudt-i-brand-efter-et-iransk-angreb",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:36:57.530788+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8292573690414429,
+            "article": {
+              "title": "البحرين تعلن تضرر منشأة صناعية باستهداف إيراني",
+              "url": "https://www.alsumaria.tv/news/international/581946/البحرين-تعلن-تضرر-منشأة-صناعية-باستهداف-إيراني",
+              "source_id": "alsumaria.tv",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:40:36.145457+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8056972026824951,
+            "article": {
+              "title": "巴林称一处民用工业设施遭伊朗袭击",
+              "url": "https://www.xinhuanet.com/20261122/9492149396ae4554ab170e6d3763ee1c/c.html",
+              "source_id": "xinhuanet.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:41:15.953025+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7968770861625671,
+            "article": {
+              "title": "Iran claims attack on US Patriot systems in Bahrain",
+              "url": "https://www.rt.com/news/649196-iran-bahrain-us-bases/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:39:38.058719+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7691130638122559,
+            "article": {
+              "title": "國際 巴林稱民用工業設施遭伊朗襲擊起火 暫未傳傷亡",
+              "url": "https://www.cna.com.tw/news/aopl/202611220005.aspx",
+              "source_id": "cna.com.tw",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:42:53.438982+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7662630677223206,
+            "article": {
+              "title": "إيران تواصل ضرباتها في البحرين... المنامة: حريق بمنشأة صناعية مدنية",
+              "url": "https://www.annahar.com/arab-world/368698/البحرين-تعلن-استهداف-منشأة-صناعية-مدنية-في-هجوم-إيراني",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:39:04.290592+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7646619081497192,
+            "article": {
+              "title": "Иран атаковал американские базы в Бахрейне, после удара вспыхнул пожар",
+              "url": "https://tengrinews.kz/world_news/iran-atakoval-amerikanskie-bazyi-bahreyne-udara-vspyihnul-613602/",
+              "source_id": "tengrinews.kz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:39:52.705570+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7572137713432312,
+            "article": {
+              "title": "Just nu Iran: Attackerat amerikanska baser i Bahrain",
+              "url": "https://www.svt.se/nyheter/utrikes/senaste-nytt-om-iran-och-konflikten-med-usa-och-israel?inlagg=f54a37f4cd8bf7f823b3e3dd05c0ea8d",
+              "source_id": "svt.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:36:54.481385+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7428414821624756,
+            "article": {
+              "title": "الأردن يدين الاعتداء الإيراني الغاشم على منشأة صناعية مدنية في البحرين",
+              "url": "https://alrai.com/article/10988019/محليات/الأردن-يدين-الاعتداء-الإيراني-الغاشم-على-منشأة-صناعية-مدنية-في-البحرين",
+              "source_id": "alrai.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:39:02.883889+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 30.65339441515002,
+        "size": 8,
+        "n_sources": 8,
+        "n_continents": 5,
+        "continents": [
+          "Africa",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "South Asia"
+        ],
+        "coherence": 0.8467727899551392,
+        "title": "Israël : Gadi Eisenkot invite le parti de Benyamin Nétanyahou à des négociations de coalition",
+        "central_article": {
+          "title": "Israël : Gadi Eisenkot invite le parti de Benyamin Nétanyahou à des négociations de coalition",
+          "url": "https://www.lemonde.fr/international/article/2026/11/21/israel-gadi-eisenkot-invite-le-parti-de-benyamin-netanyahou-a-des-negociations-de-coalition_6814066_3210.html",
+          "source_id": "lemonde.fr",
+          "continent": "Europe South",
+          "published_at": null,
+          "scraped_at_utc": "2026-11-21T23:37:09.054564+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9264806509017944,
+            "article": {
+              "title": "Israël : Gadi Eisenkot invite le parti de Benyamin Nétanyahou à des négociations de coalition",
+              "url": "https://www.lemonde.fr/international/article/2026/11/21/israel-gadi-eisenkot-invite-le-parti-de-benyamin-netanyahou-a-des-negociations-de-coalition_6814066_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:37:09.054564+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.923723578453064,
+            "article": {
+              "title": "Israël : Gadi Eisenkot invite le parti de Binyamin Netanyahou à des négociations de coalition",
+              "url": "https://www.lesoir.be/784151/article/2026-11-21/israel-gadi-eisenkot-invite-le-parti-de-binyamin-netanyahou-des-negociations-de",
+              "source_id": "lesoir.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:37:20.667108+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9064393043518066,
+            "article": {
+              "title": "Eisenkot invites Netanyahu’s party for ‘marathon’ Israeli coalition talks",
+              "url": "https://www.france24.com/en/middle-east/20261121-eisenkot-invites-netanyahu-s-party-for-marathon-israeli-coalition-talks",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:37:13.611734+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8937602639198303,
+            "article": {
+              "title": "Eisenkot lädt Netanjahus Likud-Partei doch zu Koalitionsgesprächen ein",
+              "url": "https://www.welt.de/politik/ausland/article6b020ec639a3e8110f0e5d96/israel-eisenkot-laedt-netanjahus-likud-partei-doch-zu-koalitionsgespraechen-ein.html",
+              "source_id": "welt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:36:36.089629+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8783079385757446,
+            "article": {
+              "title": "Eisenkot's Yashar party reaches out to Netanyahu's camp for coalition talks",
+              "url": "https://www.hindustantimes.com/world-news/israel-government-formation-eisenkots-yashar-party-reaches-out-to-netanyahus-camp-for-coalition-talks-101795295951548.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:41:39.532782+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7613124847412109,
+            "article": {
+              "title": "Who is Gadi Eizenkot, the man challenging Netanyahu?",
+              "url": "https://www.egyptindependent.com/who-is-gadi-eizenkot-the-man-challenging-netanyahu/",
+              "source_id": "egyptindependent.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:40:33.114650+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.744109034538269,
+            "article": {
+              "title": "محادثات تبدأ الأحد بين حزبي آيزنكوت ونتنياهو... ونفتالي بينيت يعلن موقفه",
+              "url": "https://www.annahar.com/international/israeli-issues/368703/محادثات-تبدأ-الأحد-بين-حزبي-يزنكوت-ونتنياهو-ونفتالي-بينيت-يعلن-موقفه",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:39:04.290592+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7400490045547485,
+            "article": {
+              "title": "Eisenkot woos ‘draft-dodging’ ultra-Orthodox for coalition",
+              "url": "https://www.thetimes.com/world/middle-east/article/gadi-eisenkot-woos-draft-dodging-ultra-orthodox-for-coalition-gm5pf850w",
+              "source_id": "thetimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:36:16.662402+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 25.173059048348538,
+        "size": 7,
+        "n_sources": 7,
+        "n_continents": 4,
+        "continents": [
+          "East Asia",
+          "Europe North",
+          "Europe South",
+          "Oceania"
+        ],
+        "coherence": 0.8787139654159546,
+        "title": "Princess of Wales opens up about cancer treatment in documentary",
+        "central_article": {
+          "title": "Princess of Wales opens up about cancer treatment in documentary",
+          "url": "https://www.smh.com.au/world/europe/princess-of-wales-opens-up-about-cancer-treatment-in-new-documentary-20261122-p61g6r.html",
+          "source_id": "smh.com.au",
+          "continent": "Oceania",
+          "published_at": null,
+          "scraped_at_utc": "2026-11-21T23:38:33.009320+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9088901877403259,
+            "article": {
+              "title": "Princess of Wales opens up about cancer treatment in documentary",
+              "url": "https://www.smh.com.au/world/europe/princess-of-wales-opens-up-about-cancer-treatment-in-new-documentary-20261122-p61g6r.html",
+              "source_id": "smh.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:38:33.009320+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8879213929176331,
+            "article": {
+              "title": "Princess Catherine reflects on cancer journey in new documentary",
+              "url": "https://www.abc.net.au/news/2026-11-22/princess-catherine-new-documentary-heal-cancer-journey/107413338",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:38:30.516871+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8832594752311707,
+            "article": {
+              "title": "Kate, Britain's Princess of Wales, to feature in documentary about cancer recovery",
+              "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/21/kate-britain039s-princess-of-wales-to-feature-in-documentary-about-cancer-recovery",
+              "source_id": "thestar.com.my",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:42:50.226592+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8826271295547485,
+            "article": {
+              "title": "Kate Middleton habla abiertamente sobre cómo el cáncer cambió su vida en un documental de la BBC",
+              "url": "https://www.bbc.com/mundo/articles/c6gregq1xynwo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:37:32.580882+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8816614747047424,
+            "article": {
+              "title": "Princess Kate speaks candidly about how cancer changed her",
+              "url": "https://www.euronews.com/2026/11/21/new-documentary-princess-kate-speaks-candidly-about-how-cancer-changed-her-body-and-mind",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:36:21.379133+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8759987354278564,
+            "article": {
+              "title": "Princess of Wales explores life after cancer in 'personal documentary'",
+              "url": "https://www.rnz.co.nz/news/world/2728313/uk-s-princess-catherine-explores-life-after-cancer-in-personal-documentary",
+              "source_id": "rnz.co.nz",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:38:37.873778+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8306397199630737,
+            "article": {
+              "title": "«Guarire dal cancro è un viaggio». Kate si racconta per la prima volta dalla malattia sulla Bbc",
+              "url": "https://www.corriere.it/esteri/26_novembre_21/guarire-dal-cancro-e-un-viaggio-la-principessa-kate-si-racconta-per-la-prima-volta-dalla-malattia-sulla-bbc-019fb341-7b90-4316-9dcb-04047dbb7xlk.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:37:29.903542+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 21.28930468549612,
+        "size": 7,
+        "n_sources": 7,
+        "n_continents": 4,
+        "continents": [
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South"
+        ],
+        "coherence": 0.8452000617980957,
+        "title": "Alle vluchten op Belgische luchthavens maandag geschrapt door staking",
+        "central_article": {
+          "title": "Alle vluchten op Belgische luchthavens maandag geschrapt door staking",
+          "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5666459/staking-belgie-geen-vluchten",
+          "source_id": "rtl.nl",
+          "continent": "Europe North",
+          "published_at": null,
+          "scraped_at_utc": "2026-11-21T23:36:26.972640+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8991891145706177,
+            "article": {
+              "title": "Alle vluchten op Belgische luchthavens maandag geschrapt door staking",
+              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5666459/staking-belgie-geen-vluchten",
+              "source_id": "rtl.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:36:26.972640+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8867337703704834,
+            "article": {
+              "title": "Majoritatea zborurilor de pe aeroportul din Bruxelles vor fi anulate luni, din cauza unei greve naţionale",
+              "url": "https://www.g4media.ro/majoritatea-zborurilor-de-pe-aeroportul-din-bruxelles-vor-fi-anulate-luni-din-cauza-unei-greve-nationale.html",
+              "source_id": "g4media.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:39:20.068847+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8732692003250122,
+            "article": {
+              "title": "Manifestation du 23 novembre : paralysie totale des aéroports belges lundi, tous les vols sont annulés",
+              "url": "https://www.rtbf.be/article/manifestation-nationale-du-23-novembre-paralysie-totale-des-aeroports-belges-tous-les-vols-sont-annules-11819121",
+              "source_id": "rtbf.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:37:18.991363+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8435636758804321,
+            "article": {
+              "title": "Binnenland Alle vluchten op Belgische luchthavens maandag geschrapt door nationale betoging",
+              "url": "https://www.vrt.be/vrtnws/nl/2026/11/20/maandag-23-november-betoging-hinder/",
+              "source_id": "vrt.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:37:16.833345+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8107447028160095,
+            "article": {
+              "title": "Belgium faces air traffic shutdown due to national strike on Nov 23",
+              "url": "https://www.straitstimes.com/world/europe/belgium-faces-air-traffic-shutdown-due-to-national-strike-on-nov-23?ref=latest-headlines",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:42:47.320153+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8049367070198059,
+            "article": {
+              "title": "Stora störningar på Bryssels flygplats på måndag",
+              "url": "https://www.dn.se/direkt/2026-11-21/stora-storningar-pa-bryssels-flygplats-pa-mandag/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:36:49.681957+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7979635000228882,
+            "article": {
+              "title": "Grève ce lundi : le trafic aérien sera totalement paralysé, près de 60.000 voyageurs concernés à Zaventem",
+              "url": "https://www.lesoir.be/784131/article/2026-11-21/greve-ce-lundi-le-trafic-aerien-sera-totalement-paralyse-pres-de-60000-voyageurs",
+              "source_id": "lesoir.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:37:20.667108+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 18.535481276298295,
+        "size": 6,
+        "n_sources": 6,
         "n_continents": 5,
         "continents": [
           "China",
           "East Asia",
           "Europe East",
           "Europe North",
-          "Oceania"
+          "North America"
         ],
-        "coherence": 0.7803183197975159,
-        "title": "Xi chairs APEC meeting, calls for building Asia-Pacific community",
+        "coherence": 0.8036978840827942,
+        "title": "Trump, Xi and Putin issue ‘joint declaration of peace’ at China summit",
         "central_article": {
-          "title": "Xi chairs APEC meeting, calls for building Asia-Pacific community",
-          "url": "https://en.gmw.cn/2026-11/20/content_39111680.htm",
-          "source_id": "gmw.cn",
-          "continent": "China",
+          "title": "Trump, Xi and Putin issue ‘joint declaration of peace’ at China summit",
+          "url": "https://www.channel4.com/news/trump-xi-and-putin-issue-joint-declaration-of-peace-at-china-summit-china",
+          "source_id": "channel4.com",
+          "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-11-21T15:03:10.139561+00:00"
+          "scraped_at_utc": "2026-11-21T23:36:19.810614+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.882507860660553,
-            "article": {
-              "title": "Xi chairs APEC meeting, calls for building Asia-Pacific community",
-              "url": "https://en.gmw.cn/2026-11/20/content_39111680.htm",
-              "source_id": "gmw.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:03:10.139561+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8393228054046631,
-            "article": {
-              "title": "Xi underscores China's willingness to strive for APAC prosperity in APEC speech",
-              "url": "https://www.koreaherald.com/article/10944325",
-              "source_id": "koreaherald.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:04:13.381357+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8272746801376343,
-            "article": {
-              "title": "Xi says China, Australia should be mutually trusted partners",
-              "url": "https://en.people.cn/n3/2026/1120/c90000-20521392.html",
-              "source_id": "en.people.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:02:52.189429+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8272746801376343,
-            "article": {
-              "title": "Xi says China, Australia should be mutually trusted partners",
-              "url": "https://english.news.cn/20261120/40e77023e787478089dae80af3746f34/c.html",
-              "source_id": "english.news.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:02:55.419217+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8220053911209106,
-            "article": {
-              "title": "Xi calls for promoting building of a China-Thailand community with a shared future to higher level",
-              "url": "https://english.news.cn/20261120/ca72dc9022f14a2eb95eacbb335ab0a7/c.html",
-              "source_id": "english.news.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:02:55.419217+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8220053911209106,
-            "article": {
-              "title": "Xi calls for promoting building of a China-Thailand community with a shared future to higher level",
-              "url": "https://en.people.cn/n3/2026/1120/c90000-20521603.html",
-              "source_id": "en.people.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:02:52.189429+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8199514746665955,
-            "article": {
-              "title": "Xi's APEC speech inspires optimism for new chapter in Asia-Pacific prosperity",
-              "url": "https://en.people.cn/n3/2026/1121/c90000-20521786.html",
-              "source_id": "en.people.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:02:52.189429+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8098119497299194,
-            "article": {
-              "title": "Xi chairs groundbreaking China-Russia-U.S. summit with Putin, Trump",
-              "url": "https://en.gmw.cn/2026-11/20/content_39111641.htm",
-              "source_id": "gmw.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:03:10.139561+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8098119497299194,
-            "article": {
-              "title": "Xi chairs groundbreaking China-Russia-U.S. summit with Putin, Trump",
-              "url": "https://english.news.cn/20261120/25f28b83f6bc4e9fa023bc74d5079c61/c.html",
-              "source_id": "english.news.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:02:55.419217+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7740716934204102,
-            "article": {
-              "title": "Xi meets Trump, calling for continued efforts to steer China-U.S. relations on right course",
-              "url": "https://en.gmw.cn/2026-11/20/content_39111565.htm",
-              "source_id": "gmw.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:03:10.139561+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7740570306777954,
-            "article": {
-              "title": "Xi calls for inclusive regional co-op based on solidarity, openness, innovation",
-              "url": "https://www.chinadaily.com.cn/a/202611/20/WS6aff2529e4b03ebf8519d88c.html",
-              "source_id": "chinadaily.com.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:02:53.857904+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7729861736297607,
-            "article": {
-              "title": "APEC leaders laud China's hospitality, progress",
-              "url": "https://english.news.cn/20261119/819e4f52b65547b6bf0c19752726eca2/c.html",
-              "source_id": "english.news.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:02:55.419217+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7628016471862793,
+            "sim_to_centroid": 0.8533936738967896,
             "article": {
               "title": "Trump, Xi and Putin issue ‘joint declaration of peace’ at China summit",
               "url": "https://www.channel4.com/news/trump-xi-and-putin-issue-joint-declaration-of-peace-at-china-summit-china",
               "source_id": "channel4.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:57:21.823403+00:00"
+              "scraped_at_utc": "2026-11-21T23:36:19.810614+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7435287237167358,
+            "sim_to_centroid": 0.843389630317688,
             "article": {
-              "title": "Xi says China ready for closer cooperation with Malaysia",
-              "url": "https://english.news.cn/20261120/7d69a0c4162c447c9b8890e19a9b2228/c.html",
+              "title": "Inside the historic summit between Trump, Xi and Putin",
+              "url": "https://www.pbs.org/newshour/show/inside-the-historic-summit-between-trump-xi-and-putin",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:41:05.615042+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8006159663200378,
+            "article": {
+              "title": "Xinhua Headlines: Why China-Russia-U.S. summit hailed historic for world stability, peace",
+              "url": "https://english.news.cn/20261121/2edad60f7de04c9ab79269d163f8b51d/c.html",
               "source_id": "english.news.cn",
               "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:02:55.419217+00:00"
+              "scraped_at_utc": "2026-11-21T23:41:14.122804+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7317458391189575,
+            "sim_to_centroid": 0.7849702835083008,
             "article": {
-              "title": "Xi Jinping applauds Anthony Albanese for rebuilding China-Australia relations",
-              "url": "https://www.sbs.com.au/news/article/xi-jinping-applauds-anthony-albanese-for-rebuilding-china-australia-relations/8mh4ftqtm",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T14:59:46.207747+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.727761447429657,
-            "article": {
-              "title": "U. S. Xi, Putin and Trump address APEC summit ahead of planned trilateral meeting , 19 November",
-              "url": "https://armenpress.am/en/article/1266079",
-              "source_id": "armenpress.am",
+              "title": "Pericolul nu e o nouă Ialta, ci alunecarea lentă spre prăpastie. Concluzii după întâlnirea dintre Xi, Trump și Putin",
+              "url": "https://hotnews.ro/pericolul-nu-e-o-noua-ialta-ci-alunecarea-lenta-spre-prapastie-concluziile-analistului-armand-gosu-dupa-intalnirea-dintre-xi-trump-si-putin-ce-le-a-spus-putin-copiilor-din-mosco-2409208",
+              "source_id": "hotnews.ro",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:01:32.255317+00:00"
+              "scraped_at_utc": "2026-11-21T23:39:11.804365+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7132245302200317,
+            "sim_to_centroid": 0.781076192855835,
             "article": {
-              "title": "Shenzhen at a Global Crossroads: How will APEC chart the course for an Asia-Pacific community?",
-              "url": "https://en.gmw.cn/2026-11/18/content_39106901.htm",
-              "source_id": "gmw.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:03:10.139561+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6960140466690063,
-            "article": {
-              "title": "Insights from Shenzhen: Talking with global business leaders at APEC CEO Summit 2026",
-              "url": "https://en.gmw.cn/2026-11/18/content_39106902.htm",
-              "source_id": "gmw.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:03:10.139561+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6698896884918213,
-            "article": {
-              "title": "From vases to silk scarves: How China wove symbolism into its APEC summit",
-              "url": "https://www.channelnewsasia.com/east-asia/apec-shenzhen-china-symbolism-soft-power-6568261",
-              "source_id": "channelnewsasia.com",
+              "title": "As Trump courts Xi and Putin, middle powers make their own moves",
+              "url": "https://www.japantimes.co.jp/news/2026/11/21/japan/politics/trump-xi-putin-middle-powers-analysis/",
+              "source_id": "japantimes.co.jp",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T15:04:05.067517+00:00"
+              "scraped_at_utc": "2026-11-21T23:42:27.538617+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7587423324584961,
+            "article": {
+              "title": "Trump-Putin relations vitally important for entire world",
+              "url": "https://tass.com/politics/2222759",
+              "source_id": "tass.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T23:39:42.014655+00:00"
             }
           }
         ]
       }
     ],
-    "created_at_utc": "2026-11-21T15:34:52Z"
+    "created_at_utc": "2026-11-21T23:57:43Z"
   }
 ]
