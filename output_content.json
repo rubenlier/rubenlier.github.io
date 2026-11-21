@@ -1,14 +1,924 @@
 [
   {
-    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1795222011",
-    "n_items": 2492,
-    "n_clusters": 2026,
+    "input_path": "https://raw.githubusercontent.com/rubenlier/rubenlier.github.io/master/headlines_latest.jsonl?nocache=1795274580",
+    "n_items": 2489,
+    "n_clusters": 2061,
     "clusters": [
       {
-        "score": 158.89852847635305,
+        "score": 100.32007269278087,
         "size": 33,
         "n_sources": 28,
-        "n_continents": 10,
+        "n_continents": 6,
+        "continents": [
+          "China",
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East"
+        ],
+        "coherence": 0.7968803644180298,
+        "title": "Finland Detects Drone Attack on Russian Cargo Ship in Baltic",
+        "central_article": {
+          "title": "Finland Detects Drone Attack on Russian Cargo Ship in Baltic",
+          "url": "https://www.kyivpost.com/post/90814",
+          "source_id": "kyivpost.com",
+          "continent": "Europe East",
+          "published_at": null,
+          "scraped_at_utc": "2026-11-21T15:01:00.194107+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8908567428588867,
+            "article": {
+              "title": "Finland Detects Drone Attack on Russian Cargo Ship in Baltic",
+              "url": "https://www.kyivpost.com/post/90814",
+              "source_id": "kyivpost.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:01:00.194107+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8873908519744873,
+            "article": {
+              "title": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
+              "url": "https://www.france24.com/en/europe/20261121-drone-attack-sets-russian-cargo-ship-ablaze-in-gulf-of-finland",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:58:21.215081+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8864450454711914,
+            "article": {
+              "title": "Rescue efforts under way as drones hit Russian ship off Finland coast",
+              "url": "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland",
+              "source_id": "aljazeera.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:59:59.093042+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8845536112785339,
+            "article": {
+              "title": "Russisk fragtskib angrebet med droner i Den Finske Bugt",
+              "url": "https://www.dr.dk/nyheder/udland/rusland-melder-om-droneangreb-paa-fragtskib-i-den-finske-bugt",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:58:04.838431+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.882880687713623,
+            "article": {
+              "title": "Une \"attaque de drone\" contre un cargo russe détectée dans le golfe de Finlande",
+              "url": "https://www.rtbf.be/article/une-attaque-de-drone-contre-un-cargo-russe-detectee-dans-le-golfe-de-finlande-11818998",
+              "source_id": "rtbf.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:58:27.033687+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8767698407173157,
+            "article": {
+              "title": "Un cargo russe en feu dérive dans le golfe de Finlande après une attaque de drone",
+              "url": "https://www.lesoir.be/784100/article/2026-11-21/un-cargo-russe-en-feu-derive-dans-le-golfe-de-finlande-apres-une-attaque-de",
+              "source_id": "lesoir.be",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:58:28.669213+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8747008442878723,
+            "article": {
+              "title": "O navă rusească a fost lovită de drone, Finlanda spune că arde în apele sale teritoriale",
+              "url": "https://hotnews.ro/o-nava-ruseasca-a-fost-lovita-de-drone-finlanda-spune-ca-arde-in-apele-sale-teritoriale-2410519",
+              "source_id": "hotnews.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:00:33.267215+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8743095397949219,
+            "article": {
+              "title": "Russian ship damaged by drone attack in Gulf of Finland, Helsinki and Moscow say",
+              "url": "https://www.politico.eu/article/russian-ship-damaged-drone-attack-gulf-finland-helsinki-moscow-say/",
+              "source_id": "politico.eu",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:57:24.288530+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8733895421028137,
+            "article": {
+              "title": "Navă rusească în flăcări după ce a fost atacată de drone în Golful Finlandei",
+              "url": "https://www.g4media.ro/nava-ruseasca-in-flacari-dupa-ce-a-fost-atacata-de-drone-in-golful-finlandei.html",
+              "source_id": "g4media.ro",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:00:43.140637+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8605250120162964,
+            "article": {
+              "title": "Drohnenangriff auf russischen Frachter – Schiff treibt in finnisches Gewässer",
+              "url": "https://www.welt.de/politik/deutschland/article6b01906c45d8681e4fca3d5d/ostsee-drohnenangriff-auf-russischen-frachter-schiff-treibt-in-finnisches-gewaesser.html",
+              "source_id": "welt.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:57:39.584368+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8442822098731995,
+            "article": {
+              "title": "Drone attack detected on Russian cargo ship in Baltic",
+              "url": "https://www.bangkokpost.com/world/3358894/drone-attack-detected-on-russian-cargo-ship-in-baltic",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:04:19.662339+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8192273378372192,
+            "article": {
+              "title": "Suomijos įlankoje užsidegė Rusijos krovininis laivas, Maskva kalba apie dronų smūgį",
+              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3121072/suomijos-ilankoje-uzsidege-rusijos-krovininis-laivas-maskva-kalba-apie-dronu-smugi",
+              "source_id": "lrt.lt",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:01:22.807311+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8082531690597534,
+            "article": {
+              "title": "Finnischer Meerbusen Drohnenangriff auf russischen Frachter in der Ostsee",
+              "url": "https://www.tagesschau.de/ausland/europa/finnland-ostsee-drohnenangriff-russland-frachter-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:57:33.954505+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8082083463668823,
+            "article": {
+              "title": "Updated LIVE Russian cargo ship on fire in Gulf of Finland after reported drone strike Updated",
+              "url": "https://news.err.ee/1610202715/russian-cargo-ship-catches-fire-in-gulf-of-finland-moscow-claims-drone-hit",
+              "source_id": "news.err.ee",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:01:20.958061+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7944064140319824,
+            "article": {
+              "title": "فنلندا ترصد هجوماً بمسيّرة على سفينة روسية في البلطيق",
+              "url": "https://www.annahar.com/international/368627/فنلندا-ترصد-هجوما-بمسيرة-على-سفينة-روسية-في-البلطيق",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:00:20.910938+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7920576930046082,
+            "article": {
+              "title": "Nave russa diretta a Kaliningrad attaccata con droni nel Golfo di Finlandia. Velivolo senza pilota, allarme a Sigonella",
+              "url": "https://www.corriere.it/esteri/diretta-live/26_novembre_21/guerra-ucraina-russia-notizie.shtml",
+              "source_id": "corriere.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:58:37.326332+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7766178846359253,
+            "article": {
+              "title": ". geleden • Buitenland Russisch vrachtschip geraakt door drones in Finse Golf",
+              "url": "https://nos.nl/artikel/2640430-russisch-vrachtschip-geraakt-door-drones-in-finse-golf",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:57:25.389394+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7737568616867065,
+            "article": {
+              "title": "Ryskt fraktfartyg i brand i Finska viken",
+              "url": "https://www.dn.se/direkt/2026-11-21/ryskt-fraktfartyg-i-brand-i-finska-viken/",
+              "source_id": "dn.se",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:57:55.466045+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.773665726184845,
+            "article": {
+              "title": "Ticker : Krieg in der Ukraine: Drohnen greifen Schiff im Finnischen Meerbusen an",
+              "url": "https://www.nzz.ch/international/krieg-in-der-ukraine-zugverkehr-ueber-krim-bruecke-nach-erneutem-angriff-eingestellt-ld.10021245",
+              "source_id": "nzz.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:57:49.501117+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7687190771102905,
+            "article": {
+              "title": "В Финском заливе дроны атаковали судно, следовавшее в Калининград 21 ноября",
+              "url": "https://novayagazeta.eu/articles/2026/11/21/v-finskom-zalive-drony-atakovali-sudno-sledovavshee-v-kaliningrad-news",
+              "source_id": "novayagazeta.eu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:01:05.151464+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7655285596847534,
+            "article": {
+              "title": "В Финском заливе украинские беспилотники атаковали грузовое судно. На нем в 2025-м вывозили российскую военную технику из Сирии",
+              "url": "https://meduza.io/news/2026/11/21/gubernator-lenoblasti-soobschil-chto-v-finskom-zalive-ukrainskie-bespilotniki-atakovali-gruzovoe-sudno-sledovavshee-v-kaliningrad",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:01:02.993939+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7643929719924927,
+            "article": {
+              "title": "К атакованному в Финском заливе сухогрузу подошло российское спасательное судно",
+              "url": "https://ria.ru/20261121/sudno-2133144270.html",
+              "source_id": "ria.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:01:19.160170+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7643929719924927,
+            "article": {
+              "title": "К атакованному в Финском заливе сухогрузу подошло российское спасательное судно",
+              "url": "https://www.kommersant.ru/doc/9127154",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:01:13.566331+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7548947334289551,
+            "article": {
+              "title": "Po útoku na loď ve Finském zálivu hlásí Helsinky možné narušení vzdušného prostoru",
+              "url": "https://ct24.ceskatelevize.cz/clanek/svet/po-utoku-na-lod-ve-finskem-zalivu-hlasi-helsinky-mozne-naruseni-vzdusneho-prostoru-379818",
+              "source_id": "ct24.ceskatelevize.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:00:38.697372+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7468591928482056,
+            "article": {
+              "title": "Įtariama, kad Rusijos sraigtasparnis pažeidė Suomijos oro erdvę",
+              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3121111/itariama-kad-rusijos-sraigtasparnis-pazeide-suomijos-oro-erdve",
+              "source_id": "lrt.lt",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:01:22.807311+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7413049936294556,
+            "article": {
+              "title": "Russisk helikopter mistænkes for at krænke finsk luftrum",
+              "url": "https://www.dr.dk/nyheder/udland/live-krigen-i-ukraine?focusId=12886050",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:58:04.838431+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7392017841339111,
+            "article": {
+              "title": "Finlands grænsevagt: Ukraine stod bag droneangreb",
+              "url": "https://www.dr.dk/nyheder/udland/live-krigen-i-ukraine",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:58:04.838431+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7359544038772583,
+            "article": {
+              "title": "Angrebet fragtskib har forbindelser til Ruslands militær",
+              "url": "https://www.dr.dk/nyheder/udland/live-krigen-i-ukraine?focusId=12886111",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:58:04.838431+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7306113839149475,
+            "article": {
+              "title": "Finsk grænsevagt udpeger Ukraine som ansvarlig for droneangreb",
+              "url": "https://www.dr.dk/nyheder/udland/live-krigen-i-ukraine?focusId=12886354",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:58:04.838431+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7165772914886475,
+            "article": {
+              "title": "Raid di Mosca su Kryvyi Rih: due morti. Nave russa diretta a Kaliningrad colpita nel Golfo di Finlandia",
+              "url": "https://www.repubblica.it/esteri/2026/11/21/diretta/guerra_ucraina_russia_news_oggi-425739343/",
+              "source_id": "repubblica.it",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:58:35.536296+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7152541875839233,
+            "article": {
+              "title": "Ruslands angreb på Ukraine",
+              "url": "https://politiken.dk/tag/main/Konflikten_om_Ukraine",
+              "source_id": "politiken.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:57:53.350278+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6952955722808838,
+            "article": {
+              "title": "Ukraine fights back with new AI-powered drones as Russia steps up attacks",
+              "url": "https://www.channel4.com/news/ukraine-fights-back-with-new-ai-powered-drones-as-russia-steps-up-attacks",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:57:21.823403+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6757688522338867,
+            "article": {
+              "title": "一艘油轮驶出霍尔木兹海峡时遭袭",
+              "url": "https://www.xinhuanet.com/20261121/e6e4d89197b2478ab7fc1ea2910b6be9/c.html",
+              "source_id": "xinhuanet.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:02:56.972631+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 76.38132163385455,
+        "size": 15,
+        "n_sources": 15,
+        "n_continents": 7,
+        "continents": [
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Europe South",
+          "Middle East",
+          "Oceania",
+          "South America"
+        ],
+        "coherence": 0.8363555669784546,
+        "title": "Alerta en Estados Unidos: hackers atacan al FBI y al Departamento de Agricultura",
+        "central_article": {
+          "title": "Alerta en Estados Unidos: hackers atacan al FBI y al Departamento de Agricultura",
+          "url": "https://www.semana.com/mundo/noticias-estados-unidos/articulo/alerta-en-estados-unidos-hackers-atacan-al-fbi-y-al-departamento-de-agricultura/202647/",
+          "source_id": "semana.com",
+          "continent": "South America",
+          "published_at": null,
+          "scraped_at_utc": "2026-11-21T14:59:06.095255+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.8863842487335205,
+            "article": {
+              "title": "Alerta en Estados Unidos: hackers atacan al FBI y al Departamento de Agricultura",
+              "url": "https://www.semana.com/mundo/noticias-estados-unidos/articulo/alerta-en-estados-unidos-hackers-atacan-al-fbi-y-al-departamento-de-agricultura/202647/",
+              "source_id": "semana.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:59:06.095255+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8832030296325684,
+            "article": {
+              "title": "The FBI was hacked again, this time the breach targeted its crime database",
+              "url": "https://www.rnz.co.nz/news/world/2722874/the-fbi-was-hacked-again-this-time-the-breach-targeted-its-crime-database",
+              "source_id": "rnz.co.nz",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:59:51.006458+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8753745555877686,
+            "article": {
+              "title": "Más ciberataques en EE.UU.: Ahora afectaron al FBI y Departamento de Agricultura",
+              "url": "https://www.emol.com/noticias/Internacional/2026/11/21/1217766/ciberataques-eeuu-fbi-agricultura.html",
+              "source_id": "emol.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:59:08.400804+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8723443150520325,
+            "article": {
+              "title": "Újabb kibertámadás érte az FBI-t, ezúttal a bűnügyi adatbázist törték fel a hekkerek",
+              "url": "https://telex.hu/kulfold/2026/11/21/fbi-bunugyi-adatbazis-kibertamadas",
+              "source_id": "telex.hu",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:00:31.046608+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8680427670478821,
+            "article": {
+              "title": "U.S. Agriculture Department and FBI breached by hackers, reports say",
+              "url": "https://www.japantimes.co.jp/news/2026/11/21/world/crime-legal/us-fbi-usda-cyberattacks/",
+              "source_id": "japantimes.co.jp",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:04:06.432333+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8589297533035278,
+            "article": {
+              "title": "Base de dados sobre crimes do FBI é invadida por hackers, dizem tevês americanas",
+              "url": "https://oglobo.globo.com/mundo/noticia/2026/11/21/base-de-dados-sobre-crimes-do-fbi-e-invadida-por-hackers-dizem-teves-americanas.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:59:14.882142+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8543984293937683,
+            "article": {
+              "title": "اختراقات سيبرانية تضرب \"إف بي آي\" ووزارة الزراعة الأمريكية",
+              "url": "https://www.aljazeera.net/news/2026/11/21/%d8%a7%d8%ae%d8%aa%d8%b1%d8%a7%d9%82%d8%a7%d8%aa-%d8%b3%d9%8a%d8%a8%d8%b1%d8%a7%d9%86%d9%8a%d8%a9-%d8%aa%d8%b6%d8%b1%d8%a8-%d8%a5%d9%81-%d8%a8%d9%8a-%d8%a2%d9%8a",
+              "source_id": "aljazeera.net",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:00:03.139146+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8481690287590027,
+            "article": {
+              "title": "Offenbar Hackerangriffe auf FBI und US-Agrarministerium",
+              "url": "https://www.tagesschau.de/ausland/amerika/usa-hackerangriffe-100.html",
+              "source_id": "tagesschau.de",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:57:33.954505+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8333600163459778,
+            "article": {
+              "title": "US Agriculture Department and FBI hit by cyberattacks, media report",
+              "url": "https://www.france24.com/en/americas/20261121-us-agriculture-department-fbi-hit-by-cyberattacks-media-report",
+              "source_id": "france24.com",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:58:21.215081+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8303480744361877,
+            "article": {
+              "title": "Хакеры опять взломали ФБР. Они получили доступ к национальной базе данных о преступлениях",
+              "url": "https://meduza.io/news/2026/11/21/hakery-opyat-vzlomali-fbr-oni-poluchili-dostup-k-natsionalnoy-baze-dannyh-o-prestupleniyah",
+              "source_id": "meduza.io",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:01:02.993939+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8266762495040894,
+            "article": {
+              "title": "FBI criminal database hacked – media",
+              "url": "https://www.rt.com/news/649189-fbi-criminal-database-hacked/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:01:10.073272+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8094388842582703,
+            "article": {
+              "title": "CNN: хакеры взломали криминальную базу данных ФБР",
+              "url": "https://www.kommersant.ru/doc/9127111",
+              "source_id": "kommersant.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:01:13.566331+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7809735536575317,
+            "article": {
+              "title": "هجمات سيبرانية وأعطال تضرب أميركا... من FBI إلى \"إنفيديا\" والسدود",
+              "url": "https://www.annahar.com/technology/368544/هجمات-سيبرانية-وأعطال-تضرب-أميركا-من-fbi-إلى-إنفيديا-والسدود",
+              "source_id": "annahar.com",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:00:20.910938+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7635992169380188,
+            "article": {
+              "title": "FBI probes breach of national criminal information system",
+              "url": "https://www.azernews.az/region/267842.html",
+              "source_id": "azernews.az",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:01:33.880472+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7540920972824097,
+            "article": {
+              "title": "Bir siber saldırı daha: Kritik sisteme sızdılar",
+              "url": "https://www.milliyet.com.tr/dunya/son-dakika-fbi-alarma-gecti-abdde-bir-siber-saldiri-daha-kritik-sisteme-sizdilar-7704931",
+              "source_id": "milliyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:00:14.255929+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 71.61905875978246,
+        "size": 12,
+        "n_sources": 11,
+        "n_continents": 8,
+        "continents": [
+          "China",
+          "East Asia",
+          "Europe South",
+          "Middle East",
+          "North America",
+          "Oceania",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.8588048815727234,
+        "title": "Mexico captures drug kingpin on FBI’s most wanted list",
+        "central_article": {
+          "title": "Mexico captures drug kingpin on FBI’s most wanted list",
+          "url": "https://www.scmp.com/news/world/americas/article/3375342/mexico-captures-drug-kingpin-fbis-most-wanted-list?module=latest&pgtype=homepage",
+          "source_id": "scmp.com",
+          "continent": "China",
+          "published_at": null,
+          "scraped_at_utc": "2026-11-21T15:02:50.666926+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9405183792114258,
+            "article": {
+              "title": "Mexico captures drug kingpin on FBI’s most wanted list",
+              "url": "https://www.scmp.com/news/world/americas/article/3375342/mexico-captures-drug-kingpin-fbis-most-wanted-list?module=latest&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:02:50.666926+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9405183792114258,
+            "article": {
+              "title": "Mexico captures drug kingpin on FBI’s most wanted list",
+              "url": "https://www.scmp.com/news/world/americas/article/3375342/mexico-captures-drug-kingpin-fbis-most-wanted-list?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:02:50.666926+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9405183792114258,
+            "article": {
+              "title": "Mexico captures drug kingpin on FBI’s most wanted list",
+              "url": "https://www.thedailystar.net/news/world/news/mexico-captures-drug-kingpin-fbis-most-wanted-list-4329606",
+              "source_id": "thedailystar.net",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:03:18.789808+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9115362167358398,
+            "article": {
+              "title": "Mexico's military captures drug kingpin on FBI's most wanted list",
+              "url": "https://www.abc.net.au/news/2026-11-22/drug-lord-chapo-isidro-captured-by-mexican-military/107413284",
+              "source_id": "abc.net.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:59:44.872720+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8917882442474365,
+            "article": {
+              "title": "Mundo México captura uno de los narcotraficantes más buscados por el FBI",
+              "url": "https://www.crhoy.com/mundo/mexico-captura-uno-de-los-narcotraficantes-mas-buscados-por-el-fbi/",
+              "source_id": "crhoy.com",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:58:51.859562+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8604828119277954,
+            "article": {
+              "title": "Mexico captures top drug lord \"El Chapo Isidro,\" latest in string of captures",
+              "url": "https://www.straitstimes.com/world/mexico-captures-top-drug-lord-el-chapo-isidro-latest-in-string-of-captures?ref=latest-headlines",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:04:23.219004+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8504015207290649,
+            "article": {
+              "title": "Meksiko Tangkap Chapo Isidro, Salah Satu Bos Kartel Narkoba Paling Dicari FBI Global",
+              "url": "https://www.kompas.com/global/read/2026/11/21/210000970/meksiko-tangkap-chapo-isidro-salah-satu-bos-kartel-narkoba-paling-dicari?source=headline",
+              "source_id": "kompas.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:04:29.122799+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8204065561294556,
+            "article": {
+              "title": "Mexico reportedly arrests one of FBI’s 10 most wanted fugitives 21 Nov 2026",
+              "url": "https://pajhwok.com/2026/11/21/mexico-reportedly-arrests-one-of-fbis-10-most-wanted-fugitives/",
+              "source_id": "pajhwok.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:03:34.067914+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8086146712303162,
+            "article": {
+              "title": "Mutmasslicher Drogenboss in Mexiko gefasst",
+              "url": "https://www.nzz.ch/panorama/mutmasslicher-drogenboss-in-mexiko-gefasst-ld.10070934",
+              "source_id": "nzz.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:57:49.501117+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7959628701210022,
+            "article": {
+              "title": "Pánico, tiros y fuego. México capturó a uno de los narcos más buscados por el FBI y se desató caos en una ciudad",
+              "url": "https://www.lanacion.com.ar/el-mundo/mexico-capturo-a-uno-de-los-narcos-mas-buscados-por-el-fbi-y-se-desato-caos-en-sinaloa-nid21112026/",
+              "source_id": "lanacion.com.ar",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:59:03.591134+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7841343283653259,
+            "article": {
+              "title": "FBI'ın en çok aradığı 10 kişiden biriydi 'El Chapo Isidro' yakalandı",
+              "url": "https://www.cumhuriyet.com.tr/dunya/fbi-in-en-cok-arananlar-listesindeydi-meksikali-kartel-elebasi-el-chapo-isidro-yakalandi-2558131",
+              "source_id": "cumhuriyet.com.tr",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:00:12.301356+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7607751488685608,
+            "article": {
+              "title": "Chapo Isidro: México confirma captura del narcotraficante en Sinaloa",
+              "url": "https://elcomercio.pe/mundo/mexico/chapo-isidro-mexico-confirma-captura-de-narcotraficante-entre-los-10-mas-buscados-por-el-fbi-cartel-de-sinaloa-faustro-isidro-meza-ultimas-noticia/",
+              "source_id": "elcomercio.pe",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:59:19.211495+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 55.708890927492334,
+        "size": 13,
+        "n_sources": 13,
+        "n_continents": 6,
+        "continents": [
+          "China",
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.832686185836792,
+        "title": "EU proposes tax on Big Tech to boost budget",
+        "central_article": {
+          "title": "EU proposes tax on Big Tech to boost budget",
+          "url": "https://www.dawn.com/news/2046129/eu-proposes-tax-on-big-tech-to-boost-budget",
+          "source_id": "dawn.com",
+          "continent": "South Asia",
+          "published_at": null,
+          "scraped_at_utc": "2026-11-21T15:03:29.787281+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9366190433502197,
+            "article": {
+              "title": "EU proposes tax on Big Tech to boost budget",
+              "url": "https://www.dawn.com/news/2046129/eu-proposes-tax-on-big-tech-to-boost-budget",
+              "source_id": "dawn.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:03:29.787281+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.933710515499115,
+            "article": {
+              "title": "EU proposes tax on Big Tech to pad budget",
+              "url": "https://www.bangkokpost.com/business/general/3358890/eu-proposes-tax-on-big-tech-to-pad-budget",
+              "source_id": "bangkokpost.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:04:19.662339+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9171898365020752,
+            "article": {
+              "title": "União Europeia quer taxar big techs para financiar orçamento",
+              "url": "https://oglobo.globo.com/economia/negocios/noticia/2026/11/21/uniao-europeia-quer-taxar-big-techs-para-financiar-orcamento.ghtml",
+              "source_id": "oglobo.globo.com",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:59:14.882142+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.909980297088623,
+            "article": {
+              "title": "EU eyes tax on Big Tech to boost budget",
+              "url": "https://www.scmp.com/news/world/europe/article/3375333/eu-eyes-tax-big-tech-boost-budget?module=top_story&pgtype=homepage",
+              "source_id": "scmp.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:02:50.666926+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8959330320358276,
+            "article": {
+              "title": "Siekdama papildyti biudžetą, ES siūlo apmokestinti didžiąsias technologijų bendroves",
+              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3121087/siekdama-papildyti-biudzeta-es-siulo-apmokestinti-didziasias-technologiju-bendroves",
+              "source_id": "lrt.lt",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:01:22.807311+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8517776727676392,
+            "article": {
+              "title": "UE propõe imposto de 3% sobre faturamento das big techs para financiar orçamento até 2034",
+              "url": "https://www.estadao.com.br/economia/ue-propoe-imposto-de-3-sobre-faturamento-das-big-techs/",
+              "source_id": "estadao.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:59:16.356117+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8373935222625732,
+            "article": {
+              "title": "EU budget: Costa pitches more cuts, Big Tech tax to break deadlock",
+              "url": "https://www.euronews.com/2026/11/21/eu-budget-costa-pitches-more-cuts-big-tech-tax-to-break-deadlock",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:57:23.065862+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7930929660797119,
+            "article": {
+              "title": "António Costa revives EU digital tax proposal in bid to reach agreement on budget",
+              "url": "https://www.irishtimes.com/ireland/2026/11/21/antonio-costa-revives-eu-digital-tax-proposal-in-bid-to-reach-agreement-on-budget/",
+              "source_id": "irishtimes.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:59:57.937926+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7797574996948242,
+            "article": {
+              "title": "Begrotingsstrijd EU-president: Europa moet Big Tech-bedrijven gaan belasten De Europese begrotingsdiscussie zit in een patstelling. EU-president António Costa geeft deels gehoor aan de wens om de begroting te laten krimpen, maar zijn grootste troef is het plan om extra inkomsten op te halen door techbedrijven te belasten.",
+              "url": "https://www.nrc.nl/nieuws/2026/11/21/eu-president-europa-moet-big-tech-bedrijven-gaan-belasten-a4941983",
+              "source_id": "nrc.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:57:27.356084+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7773000001907349,
+            "article": {
+              "title": "Streit um EU-Budget: Costa kürzt und schlägt Digitalsteuer vor",
+              "url": "https://www.diepresse.com/41476688/streit-um-eu-budget-costa-kuerzt-nach-kritik-von-nettozahlern",
+              "source_id": "diepresse.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:57:43.357114+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7468187212944031,
+            "article": {
+              "title": "國際 歐盟提案擬課稅科技巨擘 鎖定境內年營收至少5000萬歐元業者",
+              "url": "https://www.cna.com.tw/news/aopl/202611210220.aspx",
+              "source_id": "cna.com.tw",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:04:27.937173+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7283168435096741,
+            "article": {
+              "title": "Nyt forslag til EU-budget kræver fortsat, at lande betaler mere til EU",
+              "url": "https://www.dr.dk/nyheder/udland/nyt-forslag-til-eu-budget-kraever-fortsat-lande-betaler-mere-til-eu",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:58:04.838431+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7170303463935852,
+            "article": {
+              "title": "ЕС хочет урезать расходы на науку и защиту граждан, сохранив финансирование Украины",
+              "url": "https://ria.ru/20261121/es-2133133030.html",
+              "source_id": "ria.ru",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:01:19.160170+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 51.94227553862418,
+        "size": 11,
+        "n_sources": 11,
+        "n_continents": 8,
         "continents": [
           "Africa",
           "China",
@@ -17,2035 +927,899 @@
           "Europe North",
           "Europe South",
           "Middle East",
-          "North America",
-          "Oceania",
-          "South Asia"
+          "North America"
         ],
-        "coherence": 0.7866952419281006,
-        "title": "Trump, Xi and Putin issue ‘joint declaration of peace’ at China summit",
+        "coherence": 0.7945592403411865,
+        "title": "Trump hails ‘fantastic relationship’ with Putin and Xi",
         "central_article": {
-          "title": "Trump, Xi and Putin issue ‘joint declaration of peace’ at China summit",
-          "url": "https://www.channel4.com/news/trump-xi-and-putin-issue-joint-declaration-of-peace-at-china-summit-china",
-          "source_id": "channel4.com",
-          "continent": "Europe North",
+          "title": "Trump hails ‘fantastic relationship’ with Putin and Xi",
+          "url": "https://www.rt.com/news/649181-trump-comments-putin-xi-summit/",
+          "source_id": "rt.com",
+          "continent": "Europe East",
           "published_at": null,
-          "scraped_at_utc": "2026-11-21T00:19:05.552836+00:00"
+          "scraped_at_utc": "2026-11-21T15:01:10.073272+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8842568397521973,
+            "sim_to_centroid": 0.8889104723930359,
             "article": {
-              "title": "Trump, Xi and Putin issue ‘joint declaration of peace’ at China summit",
-              "url": "https://www.channel4.com/news/trump-xi-and-putin-issue-joint-declaration-of-peace-at-china-summit-china",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
+              "title": "Trump hails ‘fantastic relationship’ with Putin and Xi",
+              "url": "https://www.rt.com/news/649181-trump-comments-putin-xi-summit/",
+              "source_id": "rt.com",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:05.552836+00:00"
+              "scraped_at_utc": "2026-11-21T15:01:10.073272+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8488860130310059,
-            "article": {
-              "title": "'We are really making history': Trump, Xi and Putin release 'peace declaration'",
-              "url": "https://www.sbs.com.au/news/article/trump-xi-and-putin-release-peace-declaration-from-unprecedented-summit/0kzow4ahc",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:21:22.484359+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8435134291648865,
-            "article": {
-              "title": "Xi chairs groundbreaking China-Russia-U.S. summit with Putin, Trump",
-              "url": "https://en.gmw.cn/2026-11/20/content_39111641.htm",
-              "source_id": "gmw.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:24:33.879622+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8435134291648865,
-            "article": {
-              "title": "Xi chairs groundbreaking China-Russia-U.S. summit with Putin, Trump",
-              "url": "https://en.people.cn/n3/2026/1120/c90000-20521207.html",
-              "source_id": "en.people.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:24:13.844405+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8435133099555969,
-            "article": {
-              "title": "Xi chairs groundbreaking China-Russia-U.S. summit with Putin, Trump",
-              "url": "https://english.news.cn/20261120/25f28b83f6bc4e9fa023bc74d5079c61/c.html",
-              "source_id": "english.news.cn",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:24:17.074446+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8388407230377197,
+            "sim_to_centroid": 0.847055971622467,
             "article": {
               "title": "For Xi and Putin, the Trump trilateral was a win for a new world order",
               "url": "https://www.egyptindependent.com/for-xi-and-putin-the-trump-trilateral-was-a-win-for-a-new-world-order/",
               "source_id": "egyptindependent.com",
               "continent": "Africa",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:23:36.801804+00:00"
+              "scraped_at_utc": "2026-11-21T15:02:16.923749+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8308548927307129,
+            "sim_to_centroid": 0.8324861526489258,
             "article": {
-              "title": "Inside the historic summit between Trump, Xi and Putin",
-              "url": "https://www.pbs.org/newshour/show/inside-the-historic-summit-between-trump-xi-and-putin",
-              "source_id": "pbs.org",
-              "continent": "North America",
+              "title": "Trump defends 'fantastic' ties with Xi, Putin after backlash",
+              "url": "https://www.newarab.com/news/trump-defends-fantastic-ties-xi-putin-after-backlash",
+              "source_id": "newarab.com",
+              "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:24:10.313472+00:00"
+              "scraped_at_utc": "2026-11-21T15:00:15.778872+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8211583495140076,
+            "sim_to_centroid": 0.7899314165115356,
             "article": {
-              "title": "Trump-Xi-Putin summit: Does it herald a fundamental shift to a world dictated by the ‘Big Three’?",
-              "url": "https://www.straitstimes.com/asia/east-asia/trump-xi-putin-summit-does-it-herald-a-fundamental-shift-to-a-world-dictated-by-the-big-three?ref=asia",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
+              "title": "Trump-Putin relations vitally important for entire world",
+              "url": "https://tass.com/politics/2222759",
+              "source_id": "tass.com",
+              "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:26:01.193751+00:00"
+              "scraped_at_utc": "2026-11-21T15:01:16.699257+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8107811212539673,
-            "article": {
-              "title": "What to know about Xi, Putin and Trump's historic trilateral summit",
-              "url": "https://www.france24.com/en/asia-pacific/20261119-what-to-know-about-xi-putin-and-trump-s-historic-trilateral-summit",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:05.001697+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8097260594367981,
-            "article": {
-              "title": "China, Rusia y EE.UU. \"deben dar ejemplo\" y \"mantener la paz\": lo que Trump, Putin y Xi dijeron en su histórica cumbre",
-              "url": "https://www.bbc.com/mundo/articles/cw1md5mzjj4vo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:24.323337+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8089524507522583,
-            "article": {
-              "title": "Vladimir Poutine, Xi Jinping et Donald Trump adoptent une \"déclaration de paix\" après leur sommet Monde",
-              "url": "https://www.rts.ch/info/monde/2026/minute-par-minute/29420465.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:06.871207+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8059937953948975,
-            "article": {
-              "title": "Acuerdan Trump, Xi y Putin elevar producci�n petrolera",
-              "url": "https://www.reforma.com/acuerdan-trump-xi-y-putin-elevar-produccion-petrolera/ar3318133?v=4",
-              "source_id": "reforma.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:25.472699+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7994431257247925,
-            "article": {
-              "title": "Once unthinkable, Trump-Xi-Putin summit makes Russia and Beijing the biggest winners",
-              "url": "https://www.straitstimes.com/asia/east-asia/once-unthinkable-trump-xi-putin-summit-makes-russia-and-beijing-the-biggest-winners?ref=asia",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:26:01.193751+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7979694604873657,
-            "article": {
-              "title": "News analysis Trump-Xi-Putin summit: Does it herald a fundamental shift to a world dictated by the ‘Big Three’?",
-              "url": "https://www.straitstimes.com/asia/east-asia/trump-xi-putin-summit-does-it-herald-a-fundamental-shift-to-a-world-dictated-by-the-big-three?ref=top-stories",
-              "source_id": "straitstimes.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:26:01.193751+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7973427772521973,
-            "article": {
-              "title": "Trump hails 'fantastic' relationships with China's Xi, Russia's Putin after three-way talks",
-              "url": "https://www.france24.com/en/americas/20261120-watch-live-trump-holds-press-conference-meeting-xi-putin",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:05.001697+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7920072078704834,
-            "article": {
-              "title": "Trump, Putin, Xi: Wie sich die Weltordnung neu sortiert",
-              "url": "https://www.zdfheute.de/politik/ausland/illner-gabriel-masala-lagodinsky-rudyak-dreier-gipfel-trump-putin-xi-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:30.122007+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7912399172782898,
-            "article": {
-              "title": "Trump lands in China for trade talks and high-stakes summit with Xi and Putin",
-              "url": "https://www.pbs.org/newshour/show/trump-lands-in-china-for-trade-talks-and-high-stakes-summit-with-xi-and-putin",
-              "source_id": "pbs.org",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:24:10.313472+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.787534236907959,
-            "article": {
-              "title": "Three to tango: On Trump, Xi, Putin trilateral summit",
-              "url": "https://www.thehindu.com/opinion/editorial/three-to-tango-on-trump-xi-putin-trilateral-summit/article71725845.ece",
-              "source_id": "thehindu.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:24:40.206697+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7859711050987244,
-            "article": {
-              "title": "Xi, Putin and Trump walked into a room and one walked out the biggest winner",
-              "url": "https://www.abc.net.au/news/2026-11-21/trump-xi-putin-summit-had-more-flair-than-substance/107405592",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:21:21.252682+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7845857739448547,
+            "sim_to_centroid": 0.7887927293777466,
             "article": {
               "title": "Putin, Trump i Xi Jinping. Każdy gra w swoją grę",
               "url": "https://www.rp.pl/swiat/art45501891-rzecz-w-tym-putin-trump-i-xi-jinping-kazdy-gra-w-swoja-gre",
               "source_id": "rp.pl",
               "continent": "Europe East",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:22:18.603357+00:00"
+              "scraped_at_utc": "2026-11-21T15:00:44.494378+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7765942215919495,
+            "sim_to_centroid": 0.7825231552124023,
             "article": {
-              "title": "Trump, Xi and Putin agree a nuclear war 'must never be fought' at landmark meeting",
-              "url": "https://www.france24.com/en/asia-pacific/20261119-xi-trump-putin-talks-live-china-us-russia-leaders-hold-landmark-three-way-meeting",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:05.001697+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7731849551200867,
-            "article": {
-              "title": "U. S. Xi, Putin and Trump address APEC summit ahead of planned trilateral meeting , 19 November",
-              "url": "https://armenpress.am/en/article/1266079",
-              "source_id": "armenpress.am",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:22:54.130032+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7686465978622437,
-            "article": {
-              "title": "China publishes 4-point ‘peace declaration’ after Xi, Putin,Trump meeting",
-              "url": "https://pajhwok.com/2026/11/19/china-publishes-4-point-peace-declaration-after-xi-putintrump-meeting/",
-              "source_id": "pajhwok.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:24:59.039965+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7653912305831909,
-            "article": {
-              "title": "China, US, Russia issue 'peace declaration' after first summit",
-              "url": "https://www.newarab.com/news/china-us-russia-issue-peace-declaration-after-first-summit",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:21:52.985271+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.762500524520874,
-            "article": {
-              "title": "特朗普：我们三人之间关系非常融洽 中俄美已正式达成共识",
-              "url": "https://www.sohu.com/a/1104392810_161795?edtsign=5BB875DD17F2C04BF890A003A936FCB70918FB8B&edtcode=m8vtyABZvpFrt79JXvnFmw%3D%3D&scm=10001.663_14-200000.0.0-0-0-0-0.&_f=index_cpc_1_0",
-              "source_id": "news.sohu.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:24:30.069016+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7591111660003662,
-            "article": {
-              "title": "Putin-Xi-Trump Summit Trump believes Russia, China, US need to reduce their nuclear arsenals",
-              "url": "https://tass.com/world/2222721",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:22:38.373662+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7529951930046082,
-            "article": {
-              "title": "· 第一观察·瞬间｜中俄美三国最高领导人有史以来首次聚首",
-              "url": "https://www.stnn.cc/detail/6aff8d638f9d2b19dda9bce8.html",
-              "source_id": "stnn.cc",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:24:32.226468+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7496320605278015,
-            "article": {
-              "title": "Trump asegura que Putin desea una solución \"diplomática\" al conflicto en Ucrania tras su encuentro en Shenzhen",
-              "url": "https://www.rtve.es/noticias/20261120/trump-asegura-putin-desea-solucion-diplomatica-conflicto-ucrania-encuentro-shenzhen/17324347.shtml",
-              "source_id": "rtve.es",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:16.609037+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7455151081085205,
-            "article": {
-              "title": "Pericolul nu e o nouă Ialta, ci alunecarea lentă spre prăpastie. Concluzii după întâlnirea dintre Xi, Trump și Putin",
-              "url": "https://hotnews.ro/pericolul-nu-e-o-noua-ialta-ci-alunecarea-lenta-spre-prapastie-concluziile-analistului-armand-gosu-dupa-intalnirea-dintre-xi-trump-si-putin-ce-le-a-spus-putin-copiilor-din-mosco-2409208",
-              "source_id": "hotnews.ro",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:22:07.525739+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6991569995880127,
-            "article": {
-              "title": "米中ロが初の首脳会談、「平和宣言」 大国が揺るがす「正しさ」",
-              "url": "https://www.asahi.com/articles/ASVCM45S1VCMUHBI018M.html?iref=comtop_ThemeLeftS_02",
-              "source_id": "asahi.com",
+              "title": "As Trump courts Xi and Putin, middle powers make their own moves",
+              "url": "https://www.japantimes.co.jp/news/2026/11/21/japan/politics/trump-xi-putin-middle-powers-analysis/",
+              "source_id": "japantimes.co.jp",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:25:44.977788+00:00"
+              "scraped_at_utc": "2026-11-21T15:04:06.432333+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6987719535827637,
+            "sim_to_centroid": 0.7764739990234375,
             "article": {
-              "title": "Putin will Krieg „mit diplomatischen Mitteln“ beenden, glaubt Trump",
-              "url": "https://www.welt.de/politik/article6b00bdea5842ff528b9e251c/donald-trump-putin-will-krieg-mit-diplomatischen-mitteln-beenden-glaubt-der-us-praesident.html",
-              "source_id": "welt.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:24.053198+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6980909705162048,
-            "article": {
-              "title": "Trump Claims Putin Wants Peace as Moscow Rejects NATO-Style Guarantees for Ukraine",
-              "url": "https://www.kyivpost.com/post/90774",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:22:22.851793+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6852690577507019,
-            "article": {
-              "title": "В «декларации о мире», принятой по итогам встречи Путина, Трампа и Си, был пункт об Украине. Его убрали по просьбе США",
-              "url": "https://meduza.io/news/2026/11/20/v-deklaratsii-o-mire-prinyatoy-po-itogam-vstrechi-putina-trampa-i-si-byl-punkt-ob-ukraine-ego-ubrali-po-prosbe-ssha",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:22:25.530823+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 97.93491116329982,
-        "size": 22,
-        "n_sources": 19,
-        "n_continents": 9,
-        "continents": [
-          "China",
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "Oceania",
-          "South America"
-        ],
-        "coherence": 0.7885279059410095,
-        "title": "Stocks tumble as AI bubble fears prompt market sell-off, with Anthropic shares falling",
-        "central_article": {
-          "title": "Stocks tumble as AI bubble fears prompt market sell-off, with Anthropic shares falling",
-          "url": "https://www.sbs.com.au/news/article/global-stocks-tumble-as-ai-bubble-fears-prompt-market-sell-off-with-anthropic-shares-falling/mhzp6bpkf",
-          "source_id": "sbs.com.au",
-          "continent": "Oceania",
-          "published_at": null,
-          "scraped_at_utc": "2026-11-21T00:21:22.484359+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8668431639671326,
-            "article": {
-              "title": "Stocks tumble as AI bubble fears prompt market sell-off, with Anthropic shares falling",
-              "url": "https://www.sbs.com.au/news/article/global-stocks-tumble-as-ai-bubble-fears-prompt-market-sell-off-with-anthropic-shares-falling/mhzp6bpkf",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:21:22.484359+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8499614000320435,
-            "article": {
-              "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
-              "url": "https://www.bbc.com/news/articles/c6808ym10vzgo",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:18:58.476499+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8464956879615784,
-            "article": {
-              "title": "Anthropic IPO fails to calm AI jitters as tech stocks plummet",
-              "url": "https://www.channelnewsasia.com/world/anthropic-ipo-ai-stocks-wall-street-6570596",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:25:41.801924+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8439098000526428,
-            "article": {
-              "title": "Anthropic stock tumbles in Wall Street debut as artificial intelligence fears grow",
-              "url": "https://www.independent.co.uk/tech/anthropic-wall-street-stocks-slip-ai-ipo-b3088959.html",
-              "source_id": "independent.co.uk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:18:59.787021+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8343868255615234,
-            "article": {
-              "title": "Anthropic abre em baixa de até 12%, com receio geral sobre tecnologia; bolsas caem no exterior",
-              "url": "https://oglobo.globo.com/economia/financas/noticia/2026/11/20/mercado-sexta-feira-bolsas-globais-anthropic.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:51.023879+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8312773704528809,
-            "article": {
-              "title": "La settimana nera delle Borse: fuga dal tech, Anthropic crolla",
-              "url": "https://www.repubblica.it/economia/2026/11/20/news/quotazione_anthropic_mercati_bolla_ai_titoli-425739269/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:19.712080+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.819625198841095,
-            "article": {
-              "title": "Analyse Künstliche Intelligenz Anthropic-Aktie stürzt ab - KI-Angst an der Börse",
-              "url": "https://www.tagesschau.de/wirtschaft/boerse/anthropic-ki-tech-werte-boersen-100.html",
-              "source_id": "tagesschau.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:17.708923+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8192028999328613,
-            "article": {
-              "title": "Anthropic cae en bolsa tras protagonizar la mayor salida de la historia",
-              "url": "https://www.elespectador.com/economia/anthropic-cae-en-bolsa-tras-protagonizar-la-mayor-salida-de-la-historia/",
-              "source_id": "elespectador.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:58.410406+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8181906342506409,
-            "article": {
-              "title": "AI-aandelen in de uitverkoop na historische beursgang Anthropic",
-              "url": "https://fd.nl/financiele-markten/1620184/ai-aandelen-in-de-uitverkoop-na-historische-beursgang-anthropic",
-              "source_id": "fd.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:15.430791+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8003531694412231,
-            "article": {
-              "title": "• Beursblog AI-trade kraakt en piept, Anthropic hard onderuit en ASML verliest 9,3%",
-              "url": "https://fd.nl/financiele-markten/1620157/live-wat-gaan-beleggers-doen-na-de-grootste-beursgang-ooit",
-              "source_id": "fd.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:15.430791+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7924878597259521,
-            "article": {
-              "title": "Акции Anthropic упали на 11% во второй день после IPO. Накануне они выросли на 17%",
-              "url": "https://meduza.io/news/2026/11/20/aktsii-anthropic-upali-na-11-vo-vtoroy-den-posle-ipo-nakanune-oni-vyrosli-na-17",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:22:25.530823+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7878760099411011,
-            "article": {
-              "title": "Anthropic's post-debut stumble delivers reality check for AI trade",
-              "url": "https://www.jpost.com/business-and-innovation/article-915602",
-              "source_id": "jpost.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:21:38.218684+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7872824668884277,
-            "article": {
-              "title": "Anthropic-Aktie fällt am zweiten Handelstag deutlich",
-              "url": "https://www.diepresse.com/41474610/anthropic-aktie-faellt-am-zweiten-handelstag-deutlich",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:27.590067+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7796639800071716,
-            "article": {
-              "title": "« L’entrée en Bourse d’Anthropic est probablement davantage dictée par la peur que par la foi en l’avenir de l’IA »",
-              "url": "https://www.lemonde.fr/idees/article/2026/11/20/l-entree-en-bourse-d-anthropic-est-probablement-davantage-dictee-par-la-peur-que-par-la-foi-en-l-avenir-de-l-ia_6813694_3232.html",
-              "source_id": "lemonde.fr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:59.811998+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7535907626152039,
-            "article": {
-              "title": "AI股遭大舉拋售！標普500跌3.7%入「調整區」",
-              "url": "https://www.singtaousa.com/2026/11/20/news/usa/stock-markets-anthropic-ai-chips-boom/",
-              "source_id": "singtaousa.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:24:27.336405+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7470583915710449,
-            "article": {
-              "title": "Anthropic value drops after record-breaking IPO",
-              "url": "https://www.abc.net.au/news/2026-11-21/anthropic-ipo-fails-to-calm-ai-jitters-stock-market-debut/107412118",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:21:21.252682+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7432180643081665,
-            "article": {
-              "title": "Die Börsen fallen trotz Anthropics Rekordbörsengang – das hat mehrere Gründe",
-              "url": "https://www.diepresse.com/41471543/die-boersen-fallen-trotz-anthropics-rekordboersengang-das-hat-mehrere",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:27.590067+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.736707866191864,
-            "article": {
-              "title": "\"أنثروبيك\" تفشل في إنقاذ أسهم الذكاء الاصطناعي من الهبوط",
-              "url": "https://www.annahar.com/economy/368488/أنثروبيك-تفشل-في-إنقاذ-أسهم-الذكا-الاصطناعي-من-الهبوط",
-              "source_id": "annahar.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:21:58.436044+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7360603213310242,
-            "article": {
-              "title": "Market volatility ramps up as AI bubble fears intensify",
-              "url": "https://www.bangkokpost.com/business/investment/3358559/market-volatility-ramps-up-as-ai-bubble-fears-intensify",
-              "source_id": "bangkokpost.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:25:57.647309+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7333872318267822,
-            "article": {
-              "title": "Nasdaq goes negative for the year, tech stocks slammed by AI swoon",
-              "url": "https://www.latimes.com/business/story/2026-11-20/nasdaq-goes-negative-for-year-tech-stocks-slammed-by-ai-swoon",
-              "source_id": "latimes.com",
+              "title": "Inside the historic summit between Trump, Xi and Putin",
+              "url": "https://www.pbs.org/newshour/show/inside-the-historic-summit-between-trump-xi-and-putin",
+              "source_id": "pbs.org",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:24:02.206303+00:00"
+              "scraped_at_utc": "2026-11-21T15:02:49.491608+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7253650426864624,
+            "sim_to_centroid": 0.775213360786438,
             "article": {
-              "title": "La bolsa de Wall Street cae con fuerza en medio del desplome de las acciones de las tecnológicas y registra su peor semana desde la pandemia",
-              "url": "https://www.bbc.com/mundo/articles/cm8791vvwelno",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
+              "title": "Trump: Meeting with Xi very productive; trilateral summit momentous",
+              "url": "https://www.chinadaily.com.cn/a/202611/21/WS6b01058be4b03ebf8519dd49.html",
+              "source_id": "chinadaily.com.cn",
+              "continent": "China",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:24.323337+00:00"
+              "scraped_at_utc": "2026-11-21T15:02:53.857904+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.6946702003479004,
+            "sim_to_centroid": 0.7675526142120361,
             "article": {
-              "title": "US-Börsen: Abverkauf bei KI-Aktien dauert weiter an",
-              "url": "https://www.zdfheute.de/wirtschaft/boerse-ki-aktien-verlust-100.html",
-              "source_id": "zdfheute.de",
+              "title": "Rubio: ‘Goede relatie Trump-Poetin maakt wereld veiliger’",
+              "url": "https://fd.nl/politiek/1620314/rubio-goede-relatie-trump-poetin-maakt-wereld-veiliger",
+              "source_id": "fd.nl",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:30.122007+00:00"
+              "scraped_at_utc": "2026-11-21T14:57:31.665785+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.758999228477478,
+            "article": {
+              "title": "Ticker : Die USA nach den Midterms: Aussenminister Rubio verteidigt Trumps Treffen mit Xi und Putin",
+              "url": "https://www.nzz.ch/international/us-innenpolitik-die-neuesten-meldungen-im-ticker-ld.10056111",
+              "source_id": "nzz.ch",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:57:49.501117+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7322121858596802,
+            "article": {
+              "title": "Trump: Putin ‘would love to’ end war in Ukraine",
+              "url": "https://www.channel4.com/news/trump-putin-would-love-to-end-war-in-ukraine",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:57:21.823403+00:00"
             }
           }
         ]
       },
       {
-        "score": 64.19150885226601,
-        "size": 14,
-        "n_sources": 14,
+        "score": 44.041157194711474,
+        "size": 8,
+        "n_sources": 8,
         "n_continents": 7,
         "continents": [
           "East Asia",
           "Europe East",
+          "Europe North",
+          "Middle East",
+          "North America",
+          "South America",
+          "South Asia"
+        ],
+        "coherence": 0.8519545793533325,
+        "title": "Zelensky says Putin a 'killer' after Trump calls him his 'friend'",
+        "central_article": {
+          "title": "Zelensky says Putin a 'killer' after Trump calls him his 'friend'",
+          "url": "https://www.thedailystar.net/news/world/news/zelensky-says-putin-killer-after-trump-calls-him-his-friend-4329626",
+          "source_id": "thedailystar.net",
+          "continent": "South Asia",
+          "published_at": null,
+          "scraped_at_utc": "2026-11-21T15:03:18.789808+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.9346761107444763,
+            "article": {
+              "title": "Zelensky says Putin a 'killer' after Trump calls him his 'friend'",
+              "url": "https://www.thedailystar.net/news/world/news/zelensky-says-putin-killer-after-trump-calls-him-his-friend-4329626",
+              "source_id": "thedailystar.net",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:03:18.789808+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9279290437698364,
+            "article": {
+              "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
+              "url": "https://www.bbc.com/news/articles/cxnv4zvmdy0jo",
+              "source_id": "bbc.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:57:16.289622+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.9278968572616577,
+            "article": {
+              "title": "Zelenskyy brands Putin a 'killer' after Trump calls him his 'friend'",
+              "url": "https://www.euronews.com/2026/11/21/putin-a-killer-zelenskyy-says-after-trump-calls-russian-leader-his-friend",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:57:23.065862+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8365199565887451,
+            "article": {
+              "title": "WATCH: After calling Putin his friend, Trump 'can't speak to' whether Putin is a friend to America",
+              "url": "https://www.pbs.org/newshour/politics/trump-defends-calling-putin-a-friend-saying-they-have-a-very-good-personal-relationship",
+              "source_id": "pbs.org",
+              "continent": "North America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:02:49.491608+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.832475483417511,
+            "article": {
+              "title": "Trump označil Putina za svého přítele. Šéf polské diplomacie vyjádřil znepokojení",
+              "url": "https://ct24.ceskatelevize.cz/clanek/svet/trump-oznacil-putina-za-sveho-pritele-sef-polske-diplomacie-vyjadril-znepokojeni-379765",
+              "source_id": "ct24.ceskatelevize.cz",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:00:38.697372+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8156756162643433,
+            "article": {
+              "title": "Não posso falar pelos EUA, diz Trump ao responder se Putin é amigo do país",
+              "url": "https://www1.folha.uol.com.br/mundo/2026/11/nao-posso-falar-pelos-eua-diz-trump-ao-responder-se-putin-e-amigo-do-pais.shtml",
+              "source_id": "folha.uol.com.br",
+              "continent": "South America",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:59:11.352434+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8076863288879395,
+            "article": {
+              "title": "زيلينسكي يصف بوتين بالقاتل ردا على وصف ترمب له بالصديق",
+              "url": "https://www.aljazeera.net/news/2026/11/21/%d8%b2%d9%8a%d9%84%d9%8a%d9%86%d8%b3%d9%83%d9%8a-%d8%a8%d9%88%d8%aa%d9%8a%d9%86-%d9%82%d8%a7%d8%aa%d9%84-%d8%a8%d8%a7%d9%84%d9%86%d8%b3%d8%a8%d8%a9-%d9%84%d9%86%d8%a7",
+              "source_id": "aljazeera.net",
+              "continent": "Middle East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:00:03.139146+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7327773571014404,
+            "article": {
+              "title": "Trump told European leaders they were spending a lot on Ukraine, Zelenskiy says",
+              "url": "https://www.straitstimes.com/world/europe/trump-told-european-leaders-they-were-spending-a-lot-on-ukraine-zelenskiy-says?ref=latest-headlines",
+              "source_id": "straitstimes.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:04:23.219004+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 36.94192968638539,
+        "size": 12,
+        "n_sources": 8,
+        "n_continents": 7,
+        "continents": [
+          "Africa",
+          "East Asia",
           "Europe North",
           "Europe South",
           "Middle East",
           "North America",
           "Oceania"
         ],
-        "coherence": 0.8153806924819946,
-        "title": "Trump threatens tax on U.S. tech companies that build AI data centres abroad",
+        "coherence": 0.8167991042137146,
+        "title": "ICJ Rules Myanmar Committed Genocide Against Rohingya",
         "central_article": {
-          "title": "Trump threatens tax on U.S. tech companies that build AI data centres abroad",
-          "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-threatens-tax-us-tech-companies-build-ai-data-centres-abroad/",
-          "source_id": "theglobeandmail.com",
-          "continent": "North America",
-          "published_at": null,
-          "scraped_at_utc": "2026-11-21T00:21:19.989263+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9172335863113403,
-            "article": {
-              "title": "Trump threatens tax on U.S. tech companies that build AI data centres abroad",
-              "url": "https://www.theglobeandmail.com/world/us-politics/article-trump-threatens-tax-us-tech-companies-build-ai-data-centres-abroad/",
-              "source_id": "theglobeandmail.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:21:19.989263+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9061669111251831,
-            "article": {
-              "title": "Trump vows 'tremendous tax' on companies building data centres abroad",
-              "url": "https://www.abc.net.au/news/2026-11-21/trump-vows-tax-companies-building-data-centres-overseas/107412162",
-              "source_id": "abc.net.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:21:21.252682+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9053117036819458,
-            "article": {
-              "title": "Trump says he’ll penalize U.S. companies that build data centers in other countries",
-              "url": "https://www.latimes.com/politics/story/2026-11-20/trump-says-hell-penalize-u-s-companies-that-build-data-centers-abroad",
-              "source_id": "latimes.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:24:02.206303+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8803213834762573,
-            "article": {
-              "title": "Trump chce udržet datová centra v USA, firmám hrozí obřími daněmi",
-              "url": "https://ct24.ceskatelevize.cz/clanek/svet/trump-chce-udrzet-datova-centra-v-usa-firmam-hrozi-obrimi-danemi-379803",
-              "source_id": "ct24.ceskatelevize.cz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:22:13.029479+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8605333566665649,
-            "article": {
-              "title": "Trump will Bau von US-Rechenzentren im Ausland verbieten",
-              "url": "https://www.diepresse.com/41474921/trump-will-bau-von-us-rechenzentren-im-ausland-verbieten",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:27.590067+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8418352603912354,
-            "article": {
-              "title": "Tom Williams/TT Hotar bolag med ”enorma skatter” Trump vill stoppa AI-center utanför USA.",
-              "url": "https://www.dn.se/direkt/2026-11-20/trump-inga-amerikanska-datacenter-utanfor-usa/",
-              "source_id": "dn.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:39.645753+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8382862210273743,
-            "article": {
-              "title": "Trump talks down Quad AI plan, will penalise US companies that build data centres overseas",
-              "url": "https://www.smh.com.au/world/north-america/trump-talks-down-quad-ai-plan-will-penalise-us-companies-that-build-data-centres-overseas-20261121-p61g3h.html",
-              "source_id": "smh.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:21:23.757511+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8268728852272034,
-            "article": {
-              "title": "Trump: geen datacenters buiten de VS",
-              "url": "https://fd.nl/politiek/1620313/trump-geen-datacenters-buiten-de-vs",
-              "source_id": "fd.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:15.430791+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8163682222366333,
-            "article": {
-              "title": "Trump: Kommer inte tillåta företag bygga datacenter utanför USA Hotar företag som inte följer efter med ”enorm skatt”",
-              "url": "https://www.svt.se/nyheter/utrikes/donald-trump-vill-stoppa-ai-center-utanfor-usa-enorm-skatt",
-              "source_id": "svt.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:45.444405+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7947312593460083,
-            "article": {
-              "title": "國際 川普揚言若美企在其他國家興建資料中心 將祭重稅",
-              "url": "https://www.cna.com.tw/news/aopl/202611210024.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:26:06.369122+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7451315522193909,
-            "article": {
-              "title": "Trump defends Putin relationship, warns AI data centres must stay in US",
-              "url": "https://www.aljazeera.com/news/2026/11/20/trump-defends-putin-relationship-warns-ai-data-centres-must-stay-in-us",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:21:35.470976+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7080577611923218,
-            "article": {
-              "title": "Gigaadót varrna a nyakába Donald Trump azoknak a cégeknek, amik...",
-              "url": "https://telex.hu/gazdasag/2026/11/20/trump-adatkozpontok-amerikai-cegek-kulfold-tiltas",
-              "source_id": "telex.hu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:22:06.061732+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6878143548965454,
-            "article": {
-              "title": "トランプ氏、米中ロ会談の成果強調 DC他国に建設なら「税金課す」",
-              "url": "https://www.asahi.com/articles/ASVCN7395VCNUHBI002M.html?iref=comtop_7_03",
-              "source_id": "asahi.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:25:44.977788+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6866649389266968,
-            "article": {
-              "title": "Trump releva al jefe de ciberseguridad en medio del temor por las averías tecnológicas",
-              "url": "https://www.lavanguardia.com/internacional/20261120/11689403/trump-releva-responsable-ciberseguridad-medio-temor-cadena-averias-tecnologicas.html",
-              "source_id": "lavanguardia.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:13.932138+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 62.164282191804126,
-        "size": 15,
-        "n_sources": 15,
-        "n_continents": 7,
-        "continents": [
-          "China",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Oceania",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.7951640486717224,
-        "title": "Russian missiles land in Poland, as Europe holds military drills nearby",
-        "central_article": {
-          "title": "Russian missiles land in Poland, as Europe holds military drills nearby",
-          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3375302/russian-missiles-land-poland-europe-holds-military-drills-nearby?module=top_story&pgtype=homepage",
-          "source_id": "scmp.com",
-          "continent": "China",
-          "published_at": null,
-          "scraped_at_utc": "2026-11-21T00:24:11.506857+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8760822415351868,
-            "article": {
-              "title": "Russian missiles land in Poland, as Europe holds military drills nearby",
-              "url": "https://www.scmp.com/news/world/russia-central-asia/article/3375302/russian-missiles-land-poland-europe-holds-military-drills-nearby?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:24:11.506857+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8613726496696472,
-            "article": {
-              "title": "Un misil ruso impacta en Polonia mientras los aliados de Ucrania realizan ejercicios militares",
-              "url": "https://www.bbc.com/mundo/articles/cmkgkd79q9e6o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:24.323337+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8581697940826416,
-            "article": {
-              "title": "Dos misiles y un dron rusos caen en Polonia en plenas maniobras militares europeas",
-              "url": "https://www.lavanguardia.com/internacional/20261120/11689106/dos-misiles-rusos-caen-territorio-polaco-varsovia-habla-provocacion.html",
-              "source_id": "lavanguardia.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:13.932138+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8420124053955078,
-            "article": {
-              "title": "Poland slams Russian 'provocation' as missiles land near European military drills",
-              "url": "https://www.france24.com/en/europe/20261120-poland-says-russian-missile-hit-its-territory-during-attack-on-ukraine",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:05.001697+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8131103515625,
-            "article": {
-              "title": "Tusk denounces Russian 'provocation' after missiles crash in Poland",
-              "url": "https://www.euronews.com/2026/11/20/unidentified-object-falls-in-eastern-poland-amid-major-russian-attack-on-ukraine",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:06.800941+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8098629713058472,
-            "article": {
-              "title": "2 Russian Kh-101 missiles, drone, fall in Poland during Russian attack on Ukraine.",
-              "url": "https://kyivindependent.com/poland-reports-airspace-violation-during-russian-attack-on-ukraine-investigates-debris-crash/",
-              "source_id": "kyivindependent.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:22:24.420933+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7996751070022583,
-            "article": {
-              "title": "Russian missile hitting Poland a deliberate 'provocation', Polish PM says",
-              "url": "https://www.sbs.com.au/news/article/russia-pummels-ukraine-in-deadly-strikes-after-renewed-international-criticism-of-war/kd5qp5i1n",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:21:22.484359+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7804591059684753,
-            "article": {
-              "title": "Míssil russo atinge a Polônia, país-membro da Otan, durante ataque massivo à Ucrânia, e aliança condena 'graves violações'",
-              "url": "https://oglobo.globo.com/mundo/noticia/2026/11/20/missil-russo-atinge-a-polonia-pais-membro-da-otan-durante-ataque-massivo-a-ucrania-e-alianca-condena-graves-violacoes.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:51.023879+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7800370454788208,
-            "article": {
-              "title": "Offenbar russischer Marschflugkörper in Polen abgestürzt",
-              "url": "https://www.zdfheute.de/politik/ausland/polen-marschflugkoerper-russland-100.html",
-              "source_id": "zdfheute.de",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:30.122007+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7659857273101807,
-            "article": {
-              "title": "Poland and allies say Russian missiles a 'provocation' from Moscow",
-              "url": "https://www.rnz.co.nz/news/world/2718791/poland-and-allies-say-russian-missiles-a-provocation-from-moscow",
-              "source_id": "rnz.co.nz",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:21:27.857689+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7589108347892761,
-            "article": {
-              "title": "Tusk: Russian cruise missile incursion into Poland seems ‘intentional’",
-              "url": "https://www.politico.eu/article/russian-missile-incursion-into-poland-seems-intentional-tusk-says/",
-              "source_id": "politico.eu",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:08.014659+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7553038597106934,
-            "article": {
-              "title": "Sulla Polonia al confine con l'Ucraina due missili e un drone russo. «Grave violazione», decollano i jet |",
-              "url": "https://www.corriere.it/esteri/diretta-live/26_novembre_20/guerra-ucraina-russia-le-notizie-in-diretta-trump-all-europa-putin-vuole-la-fine-della-guerra-missili-russi-su-kiev-incendi-in.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:21.309723+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7517493963241577,
-            "article": {
-              "title": "روس نے یوکرین پر ڈرون اور میزائلوں سے حملہ کردیا",
-              "url": "https://jang.com.pk/news/1635255",
-              "source_id": "jang.com.pk",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:24:55.884625+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.749060332775116,
-            "article": {
-              "title": "Ticker : Krieg in der Ukraine: In Polen sind laut Regierung mindestens drei russische Flugobjekte abgestürzt",
-              "url": "https://www.nzz.ch/international/krieg-in-der-ukraine-zugverkehr-ueber-krim-bruecke-nach-erneutem-angriff-eingestellt-ld.10021245",
-              "source_id": "nzz.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:33.376309+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7256696224212646,
-            "article": {
-              "title": "На территории Польши упали российские ракеты и дрон — Минобороны страны 20 ноября",
-              "url": "https://novayagazeta.eu/articles/2026/11/20/na-territorii-polshi-upali-rossiiskie-rakety-i-dron-minoborony-strany-news",
-              "source_id": "novayagazeta.eu",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:22:27.276274+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 58.38393632149451,
-        "size": 17,
-        "n_sources": 15,
-        "n_continents": 6,
-        "continents": [
-          "China",
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "South America"
-        ],
-        "coherence": 0.8134462237358093,
-        "title": "Denmark expels Russian diplomat over plot to kill Ukraine rapper",
-        "central_article": {
-          "title": "Denmark expels Russian diplomat over plot to kill Ukraine rapper",
-          "url": "https://www.scmp.com/news/world/europe/article/3375295/denmark-expels-russian-diplomat-over-plot-kill-ukraine-rapper?module=top_story&pgtype=homepage",
-          "source_id": "scmp.com",
-          "continent": "China",
-          "published_at": null,
-          "scraped_at_utc": "2026-11-21T00:24:11.506857+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9286471605300903,
-            "article": {
-              "title": "Denmark expels Russian diplomat over plot to kill Ukraine rapper",
-              "url": "https://www.scmp.com/news/world/europe/article/3375295/denmark-expels-russian-diplomat-over-plot-kill-ukraine-rapper?module=top_story&pgtype=homepage",
-              "source_id": "scmp.com",
-              "continent": "China",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:24:11.506857+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9135428667068481,
-            "article": {
-              "title": "Denmark Expels Russian Defense Attaché Over Foiled Plot to Assassinate Ukrainian Rapper",
-              "url": "https://www.kyivpost.com/post/90775",
-              "source_id": "kyivpost.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:22:22.851793+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8868274688720703,
-            "article": {
-              "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
-              "url": "https://www.bbc.com/news/articles/cmde1lj4yjxno",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:18:58.476499+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8865129351615906,
-            "article": {
-              "title": "Denmark expels Russian diplomat over alleged assassination plot on Ukrainian rapper Kyivstoner.",
-              "url": "https://kyivindependent.com/denmark-expels-russian-diplomat-over-alleged-assassination-plot-on-ukrainian-rapper-kyivstoner/",
-              "source_id": "kyivindependent.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:22:24.420933+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8679103851318359,
-            "article": {
-              "title": "Denmark expels Russian defence attaché over alleged assassination plot",
-              "url": "https://www.euronews.com/2026/11/20/two-danes-suspected-of-russian-backed-plot-to-kill-ukrainian-rapper",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:06.800941+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8636304140090942,
-            "article": {
-              "title": "Dinamarca expulsa a diplomático ruso tras frustrar plan para asesinar a rapero ucraniano",
-              "url": "https://www.elespectador.com/mundo/europa/dinamarca-expulsa-a-diplomatico-ruso-tras-frustrar-plan-para-asesinar-a-rapero-ucraniano/",
-              "source_id": "elespectador.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:58.410406+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.818574070930481,
-            "article": {
-              "title": "Le Danemark accuse la Russie d’avoir commandité la tentative d’assassinat d’un rappeur ukrainien sur son territoire",
-              "url": "https://www.lemonde.fr/international/article/2026/11/20/le-danemark-accuse-la-russie-d-avoir-commandite-la-tentative-d-assassinat-d-un-rappeur-ukrainien-sur-son-territoire_6813695_3210.html",
-              "source_id": "lemonde.fr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:59.811998+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8160742521286011,
-            "article": {
-              "title": "Danish police ‘foil Russian plot’ to assassinate rapper in Copenhagen",
-              "url": "https://www.thetimes.com/world/europe/article/russia-tried-assassinate-rapper-kyivstoner-mbnd7sdcw",
-              "source_id": "thetimes.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:01.895045+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8022762537002563,
-            "article": {
-              "title": "Dänischer Geheimdienst vereitelte russischen Mordanschlag auf Rapper",
-              "url": "https://www.diepresse.com/41474821/daenischer-geheimdienst-vereitelte-russischen-mordanschlag-auf-rapper",
-              "source_id": "diepresse.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:27.590067+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7826074361801147,
-            "article": {
-              "title": "Mordplaner på ukrainsk rappare i Danmark – Ryssland misstänks Ryska ambassadören kallades upp • Försvarsattachén utvisas",
-              "url": "https://www.svt.se/nyheter/utrikes/mordplaner-pa-ukrainsk-rappare-i-danmark-ryssland-misstanks",
-              "source_id": "svt.se",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:45.444405+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7735458016395569,
-            "article": {
-              "title": "Denmark to restrict visa issuance to Russians — foreign minister",
-              "url": "https://tass.com/world/2222671",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:22:38.373662+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7695314288139343,
-            "article": {
-              "title": "Russisk diplomat bliver udvist af Danmark efter sag om attentatforsøg",
-              "url": "https://www.dr.dk/nyheder/indland/russisk-diplomat-bliver-udvist-af-danmark-efter-sag-om-attentatforsoeg",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:48.266134+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7600612640380859,
-            "article": {
-              "title": "Danimarca: “Tentato omicidio ucraino, espulso diplomatico russo”. Missili e droni in Polonia, scatta l'allerta",
-              "url": "https://www.repubblica.it/esteri/2026/11/20/diretta/guerra_ucraina_russia_news_oggi-425736675/",
-              "source_id": "repubblica.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:19.712080+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7561472654342651,
-            "article": {
-              "title": "Russia to respond to Denmark’s expulsion of military attache — diplomat",
-              "url": "https://tass.com/politics/2222681",
-              "source_id": "tass.com",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:22:38.373662+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7521241903305054,
-            "article": {
-              "title": "Дания вышлет российского военного атташе и ужесточит выдачу виз гражданам РФ",
-              "url": "https://meduza.io/news/2026/11/20/daniya-vyshlet-rossiyskogo-voennogo-attashe-i-uzhestochit-vydachu-viz-grazhdanam-rf",
-              "source_id": "meduza.io",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:22:25.530823+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7280642986297607,
-            "article": {
-              "title": "Det ved vi om rapperen, som Rusland angiveligt ville have dræbt i Danmark",
-              "url": "https://www.dr.dk/nyheder/udland/det-ved-vi-om-rapperen-som-rusland-angiveligt-ville-have-draebt-i-danmark",
-              "source_id": "dr.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:48.266134+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7225085496902466,
-            "article": {
-              "title": "國際 控俄涉暗殺烏克蘭歌手未遂 丹麥：將驅逐俄國防武官、研議簽證禁令",
-              "url": "https://www.cna.com.tw/news/aopl/202611210013.aspx",
-              "source_id": "cna.com.tw",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:26:06.369122+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 56.56628720122132,
-        "size": 16,
-        "n_sources": 12,
-        "n_continents": 7,
-        "continents": [
-          "East Asia",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "North America",
-          "Oceania",
-          "South Asia"
-        ],
-        "coherence": 0.8209192752838135,
-        "title": "Myanmar calls ICJ genocide ruling over Rohingya 'unfair'",
-        "central_article": {
-          "title": "Myanmar calls ICJ genocide ruling over Rohingya 'unfair'",
-          "url": "https://www.malaysiakini.com/news/889534-myanmar-calls-icj-genocide-ruling-over-rohingya-unfair",
-          "source_id": "malaysiakini.com",
+          "title": "ICJ Rules Myanmar Committed Genocide Against Rohingya",
+          "url": "https://www.irrawaddy.com/news/burma/icj-rules-myanmar-committed-genocide-against-rohingya.html",
+          "source_id": "irrawaddy.com",
           "continent": "East Asia",
           "published_at": null,
-          "scraped_at_utc": "2026-11-21T00:26:04.479484+00:00"
+          "scraped_at_utc": "2026-11-21T15:04:31.700755+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.9183505773544312,
-            "article": {
-              "title": "Myanmar calls ICJ genocide ruling over Rohingya 'unfair'",
-              "url": "https://www.malaysiakini.com/news/889534-myanmar-calls-icj-genocide-ruling-over-rohingya-unfair",
-              "source_id": "malaysiakini.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:26:04.479484+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.892720103263855,
-            "article": {
-              "title": "Myanmar calls ICJ ruling on genocide ‘unfair’",
-              "url": "https://kathmandupost.com/world/2026/11/20/myanmar-calls-icj-ruling-on-genocide-unfair",
-              "source_id": "kathmandupost.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:24:53.599611+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.876091480255127,
+            "sim_to_centroid": 0.8800992965698242,
             "article": {
               "title": "ICJ Rules Myanmar Committed Genocide Against Rohingya",
               "url": "https://www.irrawaddy.com/news/burma/icj-rules-myanmar-committed-genocide-against-rohingya.html",
               "source_id": "irrawaddy.com",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:26:10.118923+00:00"
+              "scraped_at_utc": "2026-11-21T15:04:31.700755+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8753196001052856,
+            "sim_to_centroid": 0.8457165956497192,
             "article": {
-              "title": "'Not fair': Myanmar responds to ICJ ruling of genocide",
-              "url": "https://www.sbs.com.au/news/article/australia-considers-implications-of-landmark-icj-ruling-on-myanmar-genocide/ti3ie4omf",
-              "source_id": "sbs.com.au",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:21:22.484359+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8694738745689392,
-            "article": {
-              "title": "International Court of Justice finds Myanmar guilty of genocide against Rohingya",
-              "url": "https://www.pbs.org/newshour/show/international-court-of-justice-finds-myanmar-guilty-of-genocide-against-rohingya",
+              "title": "Rights groups urge sanctions after ICJ finds Myanmar guilty of genocide against Rohingya",
+              "url": "https://www.pbs.org/newshour/world/rights-groups-urge-sanctions-after-icj-finds-myanmar-guilty-of-genocide-against-rohingya",
               "source_id": "pbs.org",
               "continent": "North America",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:24:10.313472+00:00"
+              "scraped_at_utc": "2026-11-21T15:02:49.491608+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8654903173446655,
-            "article": {
-              "title": "Myanmar Regime Rejects ‘Unfair’ Rohingya Genocide Ruling at ICJ",
-              "url": "https://www.irrawaddy.com/news/burma/myanmar-regime-rejects-unfair-rohingya-genocide-ruling-at-icj.html",
-              "source_id": "irrawaddy.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:26:10.118923+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8588677644729614,
-            "article": {
-              "title": "Myanmar says International Court of Justice's genocide ruling 'not fair'",
-              "url": "https://www.channelnewsasia.com/shorts/myanmar-says-international-court-justices-genocide-ruling-not-fair-6569396",
-              "source_id": "channelnewsasia.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:25:41.801924+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.811272144317627,
-            "article": {
-              "title": "Rohingya crisis remains unresolved as ICJ rules on Myanmar",
-              "url": "https://www.japantimes.co.jp/news/2026/11/20/asia-pacific/politics/rohingya-crisis-icj-myanmar/",
-              "source_id": "japantimes.co.jp",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:25:43.467080+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8057726621627808,
-            "article": {
-              "title": "ICJ finds Myanmar responsible for Rohingya genocide 20 Nov 2026",
-              "url": "https://pajhwok.com/2026/11/20/icj-finds-myanmar-responsible-for-rohingya-genocide/",
-              "source_id": "pajhwok.com",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:24:59.039965+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8041244745254517,
-            "article": {
-              "title": "Myanmar committed ‘genocide’ against its Rohingya minority – top UN court",
-              "url": "https://www.channel4.com/news/myanmar-committed-genocide-against-its-rohingya-minority-top-un-court",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:05.552836+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7999332547187805,
-            "article": {
-              "title": "What does the ICJ’s Rohingya genocide ruling mean for Gaza?",
-              "url": "https://www.aljazeera.com/news/2026/11/20/what-does-the-icjs-rohingya-genocide-ruling-mean-for-gaza",
-              "source_id": "aljazeera.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:21:35.470976+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7931168675422668,
-            "article": {
-              "title": "Five Key Points From Historic ICJ Rohingya Genocide Ruling",
-              "url": "https://www.irrawaddy.com/news/burma/five-key-points-from-historic-icj-rohingya-genocide-ruling.html",
-              "source_id": "irrawaddy.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:26:10.118923+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7856232523918152,
+            "sim_to_centroid": 0.8334510326385498,
             "article": {
               "title": "Rights Groups Demand Action Against Myanmar Junta After Historic Rohingya Genocide Ruling",
               "url": "https://www.irrawaddy.com/news/burma/rights-groups-demand-action-against-myanmar-junta-after-historic-rohingya-genocide-ruling.html",
               "source_id": "irrawaddy.com",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:26:10.118923+00:00"
+              "scraped_at_utc": "2026-11-21T15:04:31.700755+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7628995180130005,
+            "sim_to_centroid": 0.8308361172676086,
             "article": {
-              "title": "Rohingya genocide: UK calls for UNSC session on ICJ verdict",
-              "url": "https://www.thedailystar.net/news/bangladesh/news/rohingya-genocide-uk-calls-unsc-session-icj-verdict-4329086",
-              "source_id": "thedailystar.net",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:24:43.958882+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7401049137115479,
-            "article": {
-              "title": "Malgré l’arrêt historique de la Cour internationale de justice, les Rohingya ne sont pas près de rentrer en Birmanie",
-              "url": "https://www.lemonde.fr/international/article/2026/11/20/malgre-l-arret-historique-de-la-cour-internationale-de-justice-les-rohingya-ne-sont-pas-pres-de-rentrer-en-birmanie_6813682_3210.html",
-              "source_id": "lemonde.fr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:59.811998+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.6755470037460327,
-            "article": {
-              "title": "US Warns Against ‘Politicization’ of ICJ, Studying Myanmar Ruling",
-              "url": "https://www.irrawaddy.com/news/us-warns-against-politicization-of-icj-studying-myanmar-ruling.html",
-              "source_id": "irrawaddy.com",
-              "continent": "East Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:26:10.118923+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 52.0970251397921,
-        "size": 12,
-        "n_sources": 12,
-        "n_continents": 6,
-        "continents": [
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "South America",
-          "South Asia"
-        ],
-        "coherence": 0.8352883458137512,
-        "title": "Un lancement « record » : les ventes de « GTA VI » ont atteint 3,79 milliards de dollars",
-        "central_article": {
-          "title": "Un lancement « record » : les ventes de « GTA VI » ont atteint 3,79 milliards de dollars",
-          "url": "https://www.lesoir.be/784027/article/2026-11-20/un-lancement-record-les-ventes-de-gta-vi-ont-atteint-379-milliards-de-dollars",
-          "source_id": "lesoir.be",
-          "continent": "Europe South",
-          "published_at": null,
-          "scraped_at_utc": "2026-11-21T00:20:12.401466+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.9084649085998535,
-            "article": {
-              "title": "Un lancement « record » : les ventes de « GTA VI » ont atteint 3,79 milliards de dollars",
-              "url": "https://www.lesoir.be/784027/article/2026-11-20/un-lancement-record-les-ventes-de-gta-vi-ont-atteint-379-milliards-de-dollars",
-              "source_id": "lesoir.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:12.401466+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.9005494713783264,
-            "article": {
-              "title": "Récord histórico: GTA VI vende US$3.790 millones en su primer día y más que cuadruplica a GTA V",
-              "url": "https://www.emol.com/noticias/Economia/2026/11/20/1217744/gta-recaudacion.html",
-              "source_id": "emol.com",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:45.920908+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8981704115867615,
-            "article": {
-              "title": "GTA VI shatters entertainment records with $3.79 billion in first-day sales",
-              "url": "https://www.jpost.com/business-and-innovation/article-915614",
-              "source_id": "jpost.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:21:38.218684+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8980715870857239,
-            "article": {
-              "title": "GTA VI : des ventes étourdissantes pour 3,79 milliards de dollars en un jour, un \"record\"",
-              "url": "https://www.rtbf.be/article/gta-vi-des-ventes-etourdissantes-pour-3-79-milliards-de-dollars-en-un-jour-un-record-11818857",
-              "source_id": "rtbf.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:10.923231+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8879122734069824,
-            "article": {
-              "title": "Uitgever GTA VI: verkoop levert eerste dag 3,8 miljard dollar op",
-              "url": "https://www.rtl.nl/nieuws/buitenland/artikel/5666339/uitgever-gta-vi-verkoop-op-eerste-dag-38-miljard-dollar",
-              "source_id": "rtl.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:13.024910+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8662956953048706,
-            "article": {
-              "title": "Grand Theft Auto VI takes record $3.8 bn on first day",
-              "url": "https://www.thedailystar.net/news/technology/news/grand-theft-auto-vi-takes-record-38-bn-first-day-4329286",
-              "source_id": "thedailystar.net",
-              "continent": "South Asia",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:24:43.958882+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8229389190673828,
-            "article": {
-              "title": "Økonomi GTA 6 dro inn 3,79 milliarder dollar første dag",
-              "url": "https://www.aftenposten.no/okonomi/i/LoABBR/gta-6-dro-inn-379-milliarder-dollar-foerste-dag",
-              "source_id": "aftenposten.no",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:41.442878+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8147285580635071,
-            "article": {
-              "title": "Gaming 'GTA VI' brengt bij release ongeveer 3,5 miljard euro op vr 20 nov.",
-              "url": "https://www.vrt.be/vrtnws/nl/2026/11/20/gta-vi-brengt-in-1-dag-tijd-bijna-3-5-miljard-euro-op/",
-              "source_id": "vrt.be",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:08.514107+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7784363031387329,
-            "article": {
-              "title": "GTA 6 releases in world’s biggest gaming moment",
-              "url": "https://www.channel4.com/news/gta-6-releases-in-worlds-biggest-gaming-moment",
-              "source_id": "channel4.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:05.552836+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.761811375617981,
-            "article": {
-              "title": "GTA VI verschijnt na 13 jaar: hoe de game-reeks de wereld veroverde",
-              "url": "https://nos.nl/artikel/2640017-gta-vi-verschijnt-na-13-jaar-hoe-de-game-reeks-de-wereld-veroverde",
-              "source_id": "nos.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:09.115352+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7509883642196655,
-            "article": {
-              "title": "Nyt Grand Theft Auto-spil tjener kassen på første dag",
-              "url": "https://politiken.dk/kultur/spil/art11069631/Nyt-Grand-Theft-Auto-spil-tjener-kassen-p%C3%A5-f%C3%B8rste-dag",
-              "source_id": "politiken.dk",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:37.499917+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7350918054580688,
-            "article": {
-              "title": "Ожидание закончилось: первые игроки получили доступ к GTA VI в Новой Зеландии",
-              "url": "https://ont.by/ru/world-ru/view/ozhidanie-zakonchilos-pervye-igroki-poluchili-dostup-k-gta-vi-v-novoj-zelandii-328984-2026",
-              "source_id": "ont.by",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:23:13.654681+00:00"
-            }
-          }
-        ]
-      },
-      {
-        "score": 50.9671084016723,
-        "size": 12,
-        "n_sources": 12,
-        "n_continents": 6,
-        "continents": [
-          "East Asia",
-          "Europe East",
-          "Europe North",
-          "Europe South",
-          "Middle East",
-          "South America"
-        ],
-        "coherence": 0.8309028744697571,
-        "title": "Thousands protest across Europe demanding better wages and services",
-        "central_article": {
-          "title": "Thousands protest across Europe demanding better wages and services",
-          "url": "https://www.euronews.com/2026/11/20/thousands-protest-across-europe-demanding-better-wages-and-services",
-          "source_id": "euronews.com",
-          "continent": "Europe North",
-          "published_at": null,
-          "scraped_at_utc": "2026-11-21T00:19:06.800941+00:00"
-        },
-        "members": [
-          {
-            "sim_to_centroid": 0.8763547539710999,
-            "article": {
-              "title": "Thousands protest across Europe demanding better wages and services",
-              "url": "https://www.euronews.com/2026/11/20/thousands-protest-across-europe-demanding-better-wages-and-services",
-              "source_id": "euronews.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:06.800941+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8625162839889526,
-            "article": {
-              "title": "Young people across Europe stage mass 'fight for our future' protests",
-              "url": "https://www.france24.com/en/europe/20261120-europe-s-youth-set-to-join-mass-cost-of-living-protests-in-25-countries",
-              "source_id": "france24.com",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:05.001697+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8579713106155396,
-            "article": {
-              "title": "موجة احتجاجات طلابية تجتاح أوروبا للمطالبة بالإصلاح",
-              "url": "https://alrai.com/article/10987898/عربي-ودولي/موجة-احتجاجات-طلابية-تجتاح-أوروبا-للمطالبة-بالإصلاح-وتحسين-الأوضاع",
-              "source_id": "alrai.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:21:56.971967+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8518177270889282,
-            "article": {
-              "title": "Protests held across Europe over wages, services, high living costs",
-              "url": "https://www.aljazeera.com/news/2026/11/20/protests-held-across-europe-over-wages-services-high-living-costs",
+              "title": "What does the ICJ’s Rohingya genocide ruling mean for Gaza?",
+              "url": "https://www.aljazeera.com/news/2026/11/20/what-does-the-icjs-rohingya-genocide-ruling-mean-for-gaza",
               "source_id": "aljazeera.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:21:35.470976+00:00"
+              "scraped_at_utc": "2026-11-21T14:59:59.093042+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8375593423843384,
+            "sim_to_centroid": 0.8282033205032349,
             "article": {
-              "title": "The violence of inequality is fuelling Europe’s protests",
-              "url": "https://www.newarab.com/opinion/violence-inequality-fuelling-europes-protests",
-              "source_id": "newarab.com",
-              "continent": "Middle East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:21:52.985271+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8346843719482422,
-            "article": {
-              "title": "Европу охватила волна массовых забастовок и протестов",
-              "url": "https://tengrinews.kz/world_news/evropu-ohvatila-volna-massovyih-zabastovok-i-protestov-613569/",
-              "source_id": "tengrinews.kz",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:22:50.517578+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8332511186599731,
-            "article": {
-              "title": "Protesten Jongeren gaan vandaag in heel Europa de straat op. ‘Dit wordt het startschot voor een studentenopstand’",
-              "url": "https://www.nrc.nl/nieuws/2026/11/19/op-hun-tijdlijn-volgde-gen-z-jongerenprotesten-in-heel-europa-nu-gaan-ze-tegelijkertijd-de-straat-op-dit-wordt-het-startschot-voor-een-studentenopstand-a4941715",
-              "source_id": "nrc.nl",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:11.089368+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8253750801086426,
-            "article": {
-              "title": "manifestações na europa Protestos contra gastos militares e alta do custo de vida mobilizam jovens na França, Bélgica, Espanha, Itália, Grécia, em Portugal e no Reino Unido nesta sexta - Claudia Greco/Reuters",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/11/protestos-contra-gastos-militares-e-alta-do-custo-de-vida-mobilizam-jovens-na-europa-nesta-sexta.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:48.296934+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8173141479492188,
-            "article": {
-              "title": "足りない大学の教室、窓の外から受講も 欧州25カ国超で若者がデモ",
-              "url": "https://www.asahi.com/articles/ASVCN530JVCNUHBI025M.html?iref=comtop_7_04",
-              "source_id": "asahi.com",
+              "title": "Five Key Points From Historic ICJ Rohingya Genocide Ruling",
+              "url": "https://www.irrawaddy.com/news/burma/five-key-points-from-historic-icj-rohingya-genocide-ruling.html",
+              "source_id": "irrawaddy.com",
               "continent": "East Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:25:44.977788+00:00"
+              "scraped_at_utc": "2026-11-21T15:04:31.700755+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8148682117462158,
+            "sim_to_centroid": 0.8258427381515503,
             "article": {
-              "title": "Une vague de manifestations menées par la jeunesse parcourt l'Europe Colère sociale hier à",
-              "url": "https://www.rts.ch/info/monde/2026/article/manifestations-en-europe-la-jeunesse-contre-la-vie-chere-29422471.html",
-              "source_id": "rts.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:06.871207+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8135152459144592,
-            "article": {
-              "title": "Junge Menschen aus ganz Europa erklären, warum sie heute auf die Strasse gehen",
-              "url": "https://www.nzz.ch/gesellschaft/jugendproteste-in-europa-ld.10067492",
-              "source_id": "nzz.ch",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:33.376309+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7456070184707642,
-            "article": {
-              "title": "Demos gehen zu Ende – das war der Protesttag in Europa",
-              "url": "https://www.spiegel.de/panorama/gesellschaft/gen-z-regelt-so-laufen-die-proteste-newsblog-a-5b6f94e2-5b27-476e-966d-50850ad73956",
-              "source_id": "spiegel.de",
+              "title": "Myanmar committed ‘genocide’ against its Rohingya minority – top UN court",
+              "url": "https://www.channel4.com/news/myanmar-committed-genocide-against-its-rohingya-minority-top-un-court",
+              "source_id": "channel4.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:20.601447+00:00"
+              "scraped_at_utc": "2026-11-21T14:57:21.823403+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8121989369392395,
+            "article": {
+              "title": "Myanmar Regime Rejects ‘Unfair’ Rohingya Genocide Ruling at ICJ",
+              "url": "https://www.irrawaddy.com/news/burma/myanmar-regime-rejects-unfair-rohingya-genocide-ruling-at-icj.html",
+              "source_id": "irrawaddy.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:04:31.700755+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8083305358886719,
+            "article": {
+              "title": "'Not fair': Myanmar responds to ICJ ruling of genocide",
+              "url": "https://www.sbs.com.au/news/article/australia-considers-implications-of-landmark-icj-ruling-on-myanmar-genocide/ti3ie4omf",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:59:46.207747+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8056575655937195,
+            "article": {
+              "title": "Génocide des Rohingya : la Cour internationale de justice rend un arrêt pour l’histoire",
+              "url": "https://www.lemonde.fr/international/article/2026/11/20/genocide-des-rohingya-la-cour-internationale-de-justice-confirme-qu-elle-est-indubitablement-la-boussole-du-droit-international_6813702_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:58:16.230213+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7880271673202515,
+            "article": {
+              "title": "Découvrez des extraits de l’arrêt de la Cour internationale de justice qui reconnaît la Birmanie coupable de génocide contre les Rohingya",
+              "url": "https://www.lemonde.fr/international/article/2026/11/19/les-elements-demontrant-la-commission-d-actes-de-violence-sexuelle-d-une-grande-brutalite-et-de-violences-specifiquement-exercees-contre-des-enfants-au-sein-des-communautes-rohingya-confortent-egalement-la-deduction-d-une-volonte-de-detruire-_6813381_3210.html",
+              "source_id": "lemonde.fr",
+              "continent": "Europe South",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:58:16.230213+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7726172208786011,
+            "article": {
+              "title": "Al-Azhar welcomes historic International Court of Justice ruling on genocide against Rohingya Muslims",
+              "url": "https://www.egyptindependent.com/azhar-welcomes-historic-international-court-of-justice-ruling-on-genocide-against-rohingya-muslims/",
+              "source_id": "egyptindependent.com",
+              "continent": "Africa",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:02:16.923749+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7706091403961182,
+            "article": {
+              "title": "Genocide-uitspraak over Rohingya schept precedent: 'Slecht nieuws voor Israël'",
+              "url": "https://nos.nl/artikel/2640335-genocide-uitspraak-over-rohingya-schept-precedent-slecht-nieuws-voor-israel",
+              "source_id": "nos.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:57:25.389394+00:00"
             }
           }
         ]
       },
       {
-        "score": 43.04620359735365,
-        "size": 12,
-        "n_sources": 12,
-        "n_continents": 6,
+        "score": 33.214361838180125,
+        "size": 9,
+        "n_sources": 9,
+        "n_continents": 5,
         "continents": [
-          "Europe East",
+          "Africa",
           "Europe North",
           "Europe South",
           "Middle East",
-          "Oceania",
-          "South America"
+          "South Asia"
         ],
-        "coherence": 0.7971215844154358,
-        "title": "COP31 climate talks go into overtime as nations wrangle over fossil fuels omission",
+        "coherence": 0.8392639756202698,
+        "title": "COP31 climate talks spill into overtime as nations quarrel over fossil fuels",
         "central_article": {
-          "title": "COP31 climate talks go into overtime as nations wrangle over fossil fuels omission",
-          "url": "https://www.france24.com/en/environment/20261120-cop31-climate-talks-go-into-overtime-as-nations-wrangle-over-fossil-fuels-ommission",
-          "source_id": "france24.com",
-          "continent": "Europe South",
+          "title": "COP31 climate talks spill into overtime as nations quarrel over fossil fuels",
+          "url": "https://www.premiumtimesng.com/news/headlines/926870-cop31-climate-talks-spill-into-overtime-as-nations-quarrel-over-fossil-fuels.html",
+          "source_id": "premiumtimesng.com",
+          "continent": "Africa",
           "published_at": null,
-          "scraped_at_utc": "2026-11-21T00:20:05.001697+00:00"
+          "scraped_at_utc": "2026-11-21T15:02:01.939397+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8944056034088135,
+            "sim_to_centroid": 0.9172625541687012,
             "article": {
-              "title": "COP31 climate talks go into overtime as nations wrangle over fossil fuels omission",
-              "url": "https://www.france24.com/en/environment/20261120-cop31-climate-talks-go-into-overtime-as-nations-wrangle-over-fossil-fuels-ommission",
-              "source_id": "france24.com",
-              "continent": "Europe South",
+              "title": "COP31 climate talks spill into overtime as nations quarrel over fossil fuels",
+              "url": "https://www.premiumtimesng.com/news/headlines/926870-cop31-climate-talks-spill-into-overtime-as-nations-quarrel-over-fossil-fuels.html",
+              "source_id": "premiumtimesng.com",
+              "continent": "Africa",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:05.001697+00:00"
+              "scraped_at_utc": "2026-11-21T15:02:01.939397+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8816871047019958,
+            "sim_to_centroid": 0.8998943567276001,
             "article": {
-              "title": "Negociações frenéticas no último dia da COP31 expõem divisões sobre combustíveis fósseis e financiamento climático",
-              "url": "https://oglobo.globo.com/mundo/clima-e-ciencia/noticia/2026/11/20/negociacoes-freneticas-no-ultimo-dia-da-cop31-expoem-divisoes-sobre-combustiveis-fosseis-e-financiamento-climatico.ghtml",
-              "source_id": "oglobo.globo.com",
-              "continent": "South America",
+              "title": "Fossil fuel row sees COP31 talks spill into overtime",
+              "url": "https://www.euronews.com/2026/11/21/fossil-fuel-row-sees-cop31-talks-spill-into-overtime",
+              "source_id": "euronews.com",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:51.023879+00:00"
+              "scraped_at_utc": "2026-11-21T14:57:23.065862+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8568341732025146,
-            "article": {
-              "title": "COP31 : dans la dernière ligne droite des négociations, les énergies fossiles et les financements au centre du jeu",
-              "url": "https://www.lemonde.fr/planete/article/2026/11/20/cop31-dans-la-derniere-ligne-droite-des-negociations-les-energies-fossiles-et-les-financements-au-centre-du-jeu_6813663_3244.html",
-              "source_id": "lemonde.fr",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:59.811998+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8530144691467285,
+            "sim_to_centroid": 0.854834794998169,
             "article": {
               "title": "La COP31 encalla en el desacuerdo para prescindir de los combustibles fósiles",
               "url": "https://www.lavanguardia.com/vida/20261120/11689454/cop31-encalla-desacuerdo-prescindir-combustibles-fosiles.html",
               "source_id": "lavanguardia.com",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:13.932138+00:00"
+              "scraped_at_utc": "2026-11-21T14:58:30.176805+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8386577367782593,
+            "sim_to_centroid": 0.852657675743103,
             "article": {
-              "title": "Fossil fuel talks deadlock pushes COP31 climate summit into overtime",
-              "url": "https://www.aljazeera.com/news/2026/11/20/fossil-fuel-talks-deadlock-pushes-cop31-climate-summit-into-overtime",
-              "source_id": "aljazeera.com",
+              "title": "Cop31 climate talks overrun in dispute over final deal",
+              "url": "https://www.thenationalnews.com/news/mena/2026/11/21/cop31-climate-talks-overrun-in-dispute-over-final-deal/",
+              "source_id": "thenationalnews.com",
               "continent": "Middle East",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:21:35.470976+00:00"
+              "scraped_at_utc": "2026-11-21T15:00:00.536976+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7861185073852539,
+            "sim_to_centroid": 0.8523398637771606,
             "article": {
-              "title": "COP31: خلافات حادة تؤجل صدور البيان الختامي",
-              "url": "https://www.annahar.com/environment-climate/368470/cop31-خلافات-حادة-تؤجل-صدور-البيان-الختامي",
-              "source_id": "annahar.com",
-              "continent": "Middle East",
+              "title": "COP31 summit : Fossil fuel talks deadlock pushes COP31 climate summit beyond deadline",
+              "url": "https://pajhwok.com/2026/11/21/fossil-fuel-talks-deadlock-pushes-cop31-climate-summit-beyond-deadline/",
+              "source_id": "pajhwok.com",
+              "continent": "South Asia",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:21:58.436044+00:00"
+              "scraped_at_utc": "2026-11-21T15:03:34.067914+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.773773193359375,
+            "sim_to_centroid": 0.8224290609359741,
             "article": {
-              "title": "A Antalya, la COP31 cherche un accord au bout de la nuit",
-              "url": "https://www.lesoir.be/783996/article/2026-11-20/antalya-la-cop31-cherche-un-accord-au-bout-de-la-nuit",
-              "source_id": "lesoir.be",
+              "title": "COP31 à Antalya : les négociations se prolongent, les divergences persistent sur le texte final",
+              "url": "https://www.rtbf.be/article/cop31-les-negociations-se-prolongent-les-divergences-persistent-sur-le-texte-final-11818976",
+              "source_id": "rtbf.be",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:12.401466+00:00"
+              "scraped_at_utc": "2026-11-21T14:58:27.033687+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7693023681640625,
+            "sim_to_centroid": 0.807663083076477,
             "article": {
-              "title": "Verhandlungen dauern an - Weltklimakonferenz geht in die Verlängerung",
-              "url": "https://www.tagesschau.de/ausland/asien/klimakonferenz-verlaengerung-100.html",
-              "source_id": "tagesschau.de",
+              "title": "Cop31: Talks deadlocked as EU signals willingness to walk away if no move on fossil fuels",
+              "url": "https://www.irishtimes.com/environment/2026/11/21/cop31-talks-deadlocked-as-eu-signals-willingness-to-walk-away-if-no-move-on-fossil-fuels/",
+              "source_id": "irishtimes.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:17.708923+00:00"
+              "scraped_at_utc": "2026-11-21T14:59:57.937926+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7450276017189026,
+            "sim_to_centroid": 0.7766534686088562,
             "article": {
-              "title": "Podnebna pogajanja zastala zaradi fosilnih goriv",
-              "url": "https://www.delo.si/novice/okolje/podnebna-pogajanja-zastala-zaradi-fosilnih-goriv",
-              "source_id": "delo.si",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:22:20.991493+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7345237731933594,
-            "article": {
-              "title": "Landen maken zich op voor eindsprint op moeizame klimaattop, EU opvallend terughoudend",
-              "url": "https://nos.nl/artikel/2640226-landen-maken-zich-op-voor-eindsprint-op-moeizame-klimaattop-eu-opvallend-terughoudend",
-              "source_id": "nos.nl",
+              "title": "Uno-Konferenz in Antalya Streit über fossile Energien – Klimagipfel geht in die Verlängerung",
+              "url": "https://www.spiegel.de/wissenschaft/uno-klimakonferenz-in-antalya-streit-ueber-fossile-energien-klimagipfel-geht-in-die-verlaengerung-a-acb69199-ffa2-4b15-ad2b-62145c0613c8",
+              "source_id": "spiegel.de",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:19:09.115352+00:00"
+              "scraped_at_utc": "2026-11-21T14:57:36.695803+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.7255380749702454,
+            "sim_to_centroid": 0.7696410417556763,
             "article": {
-              "title": "COP31 draft recognises Pacific climate demands, but leaves questions over delivery",
-              "url": "https://islandsbusiness.com/news-break/cop31-draft-recognises-pacific-climate-demands-but-leaves-questions-over-delivery/",
-              "source_id": "islandsbusiness.com",
-              "continent": "Oceania",
+              "title": "COP31 på overtid: Det er ikke alle, der venter på slutfløjtet",
+              "url": "https://www.dr.dk/nyheder/viden/klima/live-klimatopmoede-i-antalya?focusId=12885793",
+              "source_id": "dr.dk",
+              "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:21:32.725331+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.7065771818161011,
-            "article": {
-              "title": "COP31, il futuro sarà elettrico ma non del tutto «pulito». E c'è l'incognita dell'intelligenza artificiale",
-              "url": "https://www.corriere.it/esteri/26_novembre_20/cop31-elettrificazione-intelligenza-artificiale-f95f8be6-18db-4dda-99b9-74442285fxlk.shtml",
-              "source_id": "corriere.it",
-              "continent": "Europe South",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:21.309723+00:00"
+              "scraped_at_utc": "2026-11-21T14:58:04.838431+00:00"
             }
           }
         ]
       },
       {
-        "score": 33.57870898348167,
-        "size": 8,
-        "n_sources": 7,
-        "n_continents": 6,
+        "score": 27.14212762166968,
+        "size": 9,
+        "n_sources": 8,
+        "n_continents": 5,
         "continents": [
-          "Europe East",
+          "China",
+          "East Asia",
           "Europe North",
           "Europe South",
-          "North America",
-          "Oceania",
-          "South America"
+          "South Asia"
         ],
-        "coherence": 0.855244517326355,
-        "title": "Preso denunció dolor insoportable durante ejecución en Texas: procedimiento tardó más de una hora",
+        "coherence": 0.8224415183067322,
+        "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
         "central_article": {
-          "title": "Preso denunció dolor insoportable durante ejecución en Texas: procedimiento tardó más de una hora",
-          "url": "https://www.nacion.com/el-mundo/preso-denuncio-dolor-insoportable-durante/HZZFQKH2BJDL3F7QJTBMJIIDEY/story/",
-          "source_id": "nacion.com",
-          "continent": "North America",
+          "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
+          "url": "https://www.bbc.com/news/articles/c3x29ggenz12o",
+          "source_id": "bbc.com",
+          "continent": "Europe North",
           "published_at": null,
-          "scraped_at_utc": "2026-11-21T00:20:28.375688+00:00"
+          "scraped_at_utc": "2026-11-21T14:57:16.289622+00:00"
         },
         "members": [
           {
-            "sim_to_centroid": 0.8971529006958008,
+            "sim_to_centroid": 0.8604927062988281,
             "article": {
-              "title": "Preso denunció dolor insoportable durante ejecución en Texas: procedimiento tardó más de una hora",
-              "url": "https://www.nacion.com/el-mundo/preso-denuncio-dolor-insoportable-durante/HZZFQKH2BJDL3F7QJTBMJIIDEY/story/",
-              "source_id": "nacion.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:28.375688+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8787055015563965,
-            "article": {
-              "title": "Texas death-row inmate screams as execution takes more than one hour",
-              "url": "https://www.bbc.com/news/articles/ck20vl1dd8qzo",
+              "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
+              "url": "https://www.bbc.com/news/articles/c3x29ggenz12o",
               "source_id": "bbc.com",
               "continent": "Europe North",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:18:58.476499+00:00"
+              "scraped_at_utc": "2026-11-21T14:57:16.289622+00:00"
             }
           },
           {
-            "sim_to_centroid": 0.8779202699661255,
+            "sim_to_centroid": 0.8587658405303955,
             "article": {
-              "title": "Texas prisoner moans in pain for minutes during unusual lethal injection, witnesses say",
-              "url": "https://www.rnz.co.nz/news/world/2719298/texas-prisoner-moans-in-pain-for-minutes-during-unusual-lethal-injection-witnesses-say",
-              "source_id": "rnz.co.nz",
-              "continent": "Oceania",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:21:27.857689+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8682204484939575,
-            "article": {
-              "title": "BBC News Brasil Homem gritou de dor em execução que durou uma hora no Texas, nos Estados Unidos",
-              "url": "https://www1.folha.uol.com.br/mundo/2026/11/homem-gritou-de-dor-em-execucao-que-durou-uma-hora-no-texas-nos-estados-unidos.shtml",
-              "source_id": "folha.uol.com.br",
-              "continent": "South America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:48.296934+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8654225468635559,
-            "article": {
-              "title": "Liudininkai: Teksaso kalinys egzekucijos metu skundėsi skausmu",
-              "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3120430/liudininkai-teksaso-kalinys-egzekucijos-metu-skundesi-skausmu",
-              "source_id": "lrt.lt",
-              "continent": "Europe East",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:22:44.626094+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8376867771148682,
-            "article": {
-              "title": "Los gritos de un reo durante su ejecución en Texas reavivan el debate sobre la pena de muerte en EE.UU.",
-              "url": "https://www.bbc.com/mundo/articles/cq3dg820rre0o",
-              "source_id": "bbc.com",
-              "continent": "Europe North",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:24.323337+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8132126331329346,
-            "article": {
-              "title": "Un cubano ejecutado en Texas suplicó que acabara su dolor durante la inyección letal",
-              "url": "https://www.14ymedio.com/cuba/cubano-ejecutado-texas-suplico-acabara_1_1133534.html",
-              "source_id": "14ymedio.com",
-              "continent": "North America",
-              "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:26.699677+00:00"
-            }
-          },
-          {
-            "sim_to_centroid": 0.8036350011825562,
-            "article": {
-              "title": "La lenta y agónica muerte de un preso en Texas reabre el debate sobre la inyección letal",
-              "url": "https://www.lavanguardia.com/internacional/20261120/11689449/lenta-agonica-muerte-preso-texas-reabre-debate-sobre-inyeccion-letal.html",
-              "source_id": "lavanguardia.com",
+              "title": "Anthropic dépasse les 2000 milliards de dollars pour la plus grande entrée en bourse de l'histoire, devançant SpaceX Economie",
+              "url": "https://www.rts.ch/info/economie/2026/article/anthropic-entre-en-bourse-avec-une-levee-record-devant-spacex-29421196.html",
+              "source_id": "rts.ch",
               "continent": "Europe South",
               "published_at": null,
-              "scraped_at_utc": "2026-11-21T00:20:13.932138+00:00"
+              "scraped_at_utc": "2026-11-21T14:58:22.943995+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8553544878959656,
+            "article": {
+              "title": "AI-aandelen in de uitverkoop na historische beursgang Anthropic",
+              "url": "https://fd.nl/financiele-markten/1620184/ai-aandelen-in-de-uitverkoop-na-historische-beursgang-anthropic",
+              "source_id": "fd.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:57:31.665785+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8450742959976196,
+            "article": {
+              "title": "Anthropic在美上市敲钟",
+              "url": "https://track.sohu.com/promotion?link=HjoyAHKdFpleunc2PBBB2SxZCeUN8cLV33ub9ekhDoeI7P%252BSYXud0xD4X43jsgrdp%252FFF4H15uoUcJLxNDHrL0fsTktFyqXBjMwgKetyVBC8liUCA97lUpQPVBjqH39dKQiCQvJ3C82Im%252FJtoU3%252BvCo430sClZpAyYDbBm2xj1tU%253D&pcm=202.533_2_0.300061522_5301.0&scm=10001.533_14-200000.0.0-0-0-0-0.0",
+              "source_id": "news.sohu.com",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:03:06.258667+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8206315636634827,
+            "article": {
+              "title": "Going public on AI: On Anthropic IPO",
+              "url": "https://www.thehindu.com/opinion/editorial/going-public-on-ai-on-anthropic-ipo/article71725849.ece",
+              "source_id": "thehindu.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:03:16.220395+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8108157515525818,
+            "article": {
+              "title": "Anthropic IPO success boosts hopes for OpenAI listing",
+              "url": "https://www.koreaherald.com/article/10944733",
+              "source_id": "koreaherald.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:04:13.381357+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.800966739654541,
+            "article": {
+              "title": "Anthropic: AI company behind Claude chatbot value rises above $2 trillion in stock market offering",
+              "url": "https://www.channel4.com/news/anthropic-ai-company-behind-claude-chatbot-value-rises-above-2-trillion-in-stock-market-offering",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:57:21.823403+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7912039756774902,
+            "article": {
+              "title": "Als een raket vloog Anthropic SpaceX voorbij; nu de grootste beursgang ooit",
+              "url": "https://fd.nl/economie/1620124/als-een-raket-vloog-anthropic-spacex-voorbij-nu-de-grootste-beursgang-ooit",
+              "source_id": "fd.nl",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:57:31.665785+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7586679458618164,
+            "article": {
+              "title": "The blame game has begun over Anthropic’s turbulent trading debut",
+              "url": "https://www.hindustantimes.com/world-news/the-blame-game-has-begun-over-anthropic-s-turbulent-trading-debut-101795251143821.html",
+              "source_id": "hindustantimes.com",
+              "continent": "South Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:03:17.429481+00:00"
+            }
+          }
+        ]
+      },
+      {
+        "score": 24.735861883290625,
+        "size": 19,
+        "n_sources": 9,
+        "n_continents": 5,
+        "continents": [
+          "China",
+          "East Asia",
+          "Europe East",
+          "Europe North",
+          "Oceania"
+        ],
+        "coherence": 0.7803183197975159,
+        "title": "Xi chairs APEC meeting, calls for building Asia-Pacific community",
+        "central_article": {
+          "title": "Xi chairs APEC meeting, calls for building Asia-Pacific community",
+          "url": "https://en.gmw.cn/2026-11/20/content_39111680.htm",
+          "source_id": "gmw.cn",
+          "continent": "China",
+          "published_at": null,
+          "scraped_at_utc": "2026-11-21T15:03:10.139561+00:00"
+        },
+        "members": [
+          {
+            "sim_to_centroid": 0.882507860660553,
+            "article": {
+              "title": "Xi chairs APEC meeting, calls for building Asia-Pacific community",
+              "url": "https://en.gmw.cn/2026-11/20/content_39111680.htm",
+              "source_id": "gmw.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:03:10.139561+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8393228054046631,
+            "article": {
+              "title": "Xi underscores China's willingness to strive for APAC prosperity in APEC speech",
+              "url": "https://www.koreaherald.com/article/10944325",
+              "source_id": "koreaherald.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:04:13.381357+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8272746801376343,
+            "article": {
+              "title": "Xi says China, Australia should be mutually trusted partners",
+              "url": "https://en.people.cn/n3/2026/1120/c90000-20521392.html",
+              "source_id": "en.people.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:02:52.189429+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8272746801376343,
+            "article": {
+              "title": "Xi says China, Australia should be mutually trusted partners",
+              "url": "https://english.news.cn/20261120/40e77023e787478089dae80af3746f34/c.html",
+              "source_id": "english.news.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:02:55.419217+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8220053911209106,
+            "article": {
+              "title": "Xi calls for promoting building of a China-Thailand community with a shared future to higher level",
+              "url": "https://english.news.cn/20261120/ca72dc9022f14a2eb95eacbb335ab0a7/c.html",
+              "source_id": "english.news.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:02:55.419217+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8220053911209106,
+            "article": {
+              "title": "Xi calls for promoting building of a China-Thailand community with a shared future to higher level",
+              "url": "https://en.people.cn/n3/2026/1120/c90000-20521603.html",
+              "source_id": "en.people.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:02:52.189429+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8199514746665955,
+            "article": {
+              "title": "Xi's APEC speech inspires optimism for new chapter in Asia-Pacific prosperity",
+              "url": "https://en.people.cn/n3/2026/1121/c90000-20521786.html",
+              "source_id": "en.people.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:02:52.189429+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8098119497299194,
+            "article": {
+              "title": "Xi chairs groundbreaking China-Russia-U.S. summit with Putin, Trump",
+              "url": "https://en.gmw.cn/2026-11/20/content_39111641.htm",
+              "source_id": "gmw.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:03:10.139561+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.8098119497299194,
+            "article": {
+              "title": "Xi chairs groundbreaking China-Russia-U.S. summit with Putin, Trump",
+              "url": "https://english.news.cn/20261120/25f28b83f6bc4e9fa023bc74d5079c61/c.html",
+              "source_id": "english.news.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:02:55.419217+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7740716934204102,
+            "article": {
+              "title": "Xi meets Trump, calling for continued efforts to steer China-U.S. relations on right course",
+              "url": "https://en.gmw.cn/2026-11/20/content_39111565.htm",
+              "source_id": "gmw.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:03:10.139561+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7740570306777954,
+            "article": {
+              "title": "Xi calls for inclusive regional co-op based on solidarity, openness, innovation",
+              "url": "https://www.chinadaily.com.cn/a/202611/20/WS6aff2529e4b03ebf8519d88c.html",
+              "source_id": "chinadaily.com.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:02:53.857904+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7729861736297607,
+            "article": {
+              "title": "APEC leaders laud China's hospitality, progress",
+              "url": "https://english.news.cn/20261119/819e4f52b65547b6bf0c19752726eca2/c.html",
+              "source_id": "english.news.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:02:55.419217+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7628016471862793,
+            "article": {
+              "title": "Trump, Xi and Putin issue ‘joint declaration of peace’ at China summit",
+              "url": "https://www.channel4.com/news/trump-xi-and-putin-issue-joint-declaration-of-peace-at-china-summit-china",
+              "source_id": "channel4.com",
+              "continent": "Europe North",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:57:21.823403+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7435287237167358,
+            "article": {
+              "title": "Xi says China ready for closer cooperation with Malaysia",
+              "url": "https://english.news.cn/20261120/7d69a0c4162c447c9b8890e19a9b2228/c.html",
+              "source_id": "english.news.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:02:55.419217+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7317458391189575,
+            "article": {
+              "title": "Xi Jinping applauds Anthony Albanese for rebuilding China-Australia relations",
+              "url": "https://www.sbs.com.au/news/article/xi-jinping-applauds-anthony-albanese-for-rebuilding-china-australia-relations/8mh4ftqtm",
+              "source_id": "sbs.com.au",
+              "continent": "Oceania",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T14:59:46.207747+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.727761447429657,
+            "article": {
+              "title": "U. S. Xi, Putin and Trump address APEC summit ahead of planned trilateral meeting , 19 November",
+              "url": "https://armenpress.am/en/article/1266079",
+              "source_id": "armenpress.am",
+              "continent": "Europe East",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:01:32.255317+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.7132245302200317,
+            "article": {
+              "title": "Shenzhen at a Global Crossroads: How will APEC chart the course for an Asia-Pacific community?",
+              "url": "https://en.gmw.cn/2026-11/18/content_39106901.htm",
+              "source_id": "gmw.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:03:10.139561+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6960140466690063,
+            "article": {
+              "title": "Insights from Shenzhen: Talking with global business leaders at APEC CEO Summit 2026",
+              "url": "https://en.gmw.cn/2026-11/18/content_39106902.htm",
+              "source_id": "gmw.cn",
+              "continent": "China",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:03:10.139561+00:00"
+            }
+          },
+          {
+            "sim_to_centroid": 0.6698896884918213,
+            "article": {
+              "title": "From vases to silk scarves: How China wove symbolism into its APEC summit",
+              "url": "https://www.channelnewsasia.com/east-asia/apec-shenzhen-china-symbolism-soft-power-6568261",
+              "source_id": "channelnewsasia.com",
+              "continent": "East Asia",
+              "published_at": null,
+              "scraped_at_utc": "2026-11-21T15:04:05.067517+00:00"
             }
           }
         ]
       }
     ],
-    "created_at_utc": "2026-11-21T00:58:47Z"
+    "created_at_utc": "2026-11-21T15:34:52Z"
   }
 ]
